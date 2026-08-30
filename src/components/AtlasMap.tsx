@@ -10,7 +10,9 @@ import {
   type Ref,
 } from 'react'
 import type { Cafe, Crawl } from '../data/types'
-import { PAPER_HEIGHT, PAPER_WIDTH, project, walkingMinutes, haversine } from '../lib/projection'
+import type { Anchor } from '../lib/near'
+import { LINE_COLOR } from '../data/metro'
+import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project, walkingMinutes, haversine } from '../lib/projection'
 import { sketch } from '../lib/hand'
 import { BaseLayers } from './BaseLayers'
 import { Glyph } from './Glyphs'
@@ -41,6 +43,9 @@ interface Props {
   crawl: Crawl | null
   crawlCafes: Cafe[]
   me: { lng: number; lat: number } | null
+  anchor: Anchor | null
+  pinArm: boolean
+  onDropPin: (lng: number, lat: number) => void
   handleRef?: Ref<AtlasHandle>
 }
 
@@ -59,6 +64,9 @@ export function AtlasMap({
   crawl,
   crawlCafes,
   me,
+  anchor,
+  pinArm,
+  onDropPin,
   handleRef,
 }: Props) {
   const svgRef = useRef<SVGSVGElement | null>(null)
@@ -178,10 +186,18 @@ export function AtlasMap({
   const inv = 1 / view.k
   const showAllLabels = view.k > 2.1
 
+  const anchorPlace = useMemo(() => {
+    if (!anchor) return null
+    if (anchor.kind === 'me') return null // drawn by the `me` marker
+    const p = anchor.kind === 'metro' ? anchor.station : anchor
+    const [x, y] = project(p.lng, p.lat)
+    return { x, y }
+  }, [anchor])
+
   return (
     <svg
       ref={svgRef}
-      className="atlas"
+      className={`atlas${pinArm ? ' pin-arm' : ''}`}
       viewBox={`0 0 ${PAPER_WIDTH} ${PAPER_HEIGHT}`}
       preserveAspectRatio="xMidYMid slice"
       onWheel={onWheel}
@@ -190,7 +206,17 @@ export function AtlasMap({
       onPointerUp={endDrag}
       onPointerLeave={endDrag}
       onClick={(e) => {
-        if (e.target === svgRef.current && !drag.current?.moved) onSelect(null)
+        if (drag.current?.moved) return
+        if (pinArm) {
+          const [ux, uy] = toUser(e.clientX, e.clientY)
+          const px = (ux - view.x) / view.k
+          const py = (uy - view.y) / view.k
+          const lng = BBOX.west + (px / PAPER_WIDTH) * (BBOX.east - BBOX.west)
+          const lat = BBOX.north - (py / PAPER_HEIGHT) * (BBOX.north - BBOX.south)
+          onDropPin(lng, lat)
+          return
+        }
+        if (e.target === svgRef.current) onSelect(null)
       }}
     >
       <defs>
@@ -237,6 +263,57 @@ export function AtlasMap({
                 {leg.mins} min
               </text>
             ))}
+          </g>
+        )}
+
+        {anchorPlace && anchor && (
+          <g
+            transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`}
+            className="anchor-mark"
+          >
+            {anchor.kind === 'metro' ? (
+              <>
+                <circle r="20" fill="var(--glow)" opacity="0.25" filter="url(#softglow)" />
+                <circle r="10.5" fill="var(--paper)" stroke="var(--ink)" strokeWidth="1.6" />
+                <circle
+                  r="13.5"
+                  fill="none"
+                  stroke={LINE_COLOR[anchor.station.lines[0]] ?? 'var(--accent)'}
+                  strokeWidth="2.2"
+                  strokeDasharray="5 3"
+                />
+                {/* the metro roundel, sketched: two legs and a crossbar */}
+                <path
+                  d="M-5.5 4.5 L-3.6 -4.5 L0 1.5 L3.6 -4.5 L5.5 4.5"
+                  fill="none"
+                  stroke="var(--ink)"
+                  strokeWidth="1.9"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <text y="-22" textAnchor="middle" className="anchor-label">
+                  {anchor.station.name}
+                </text>
+                <text y="32" textAnchor="middle" className="anchor-label zh">
+                  {anchor.station.nameZh}
+                </text>
+              </>
+            ) : (
+              <>
+                <circle r="18" fill="var(--glow)" opacity="0.25" filter="url(#softglow)" />
+                <path
+                  d="M0 2 C-7 -6 -6 -14 0 -14 C6 -14 7 -6 0 2 Z"
+                  fill="var(--accent)"
+                  stroke="var(--ink)"
+                  strokeWidth="1.2"
+                />
+                <circle cy="-9" r="2.6" fill="var(--paper)" />
+                <ellipse cy="3.4" rx="5" ry="1.4" fill="var(--ink)" opacity="0.25" />
+                <text y="-20" textAnchor="middle" className="anchor-label">
+                  Your pin
+                </text>
+              </>
+            )}
           </g>
         )}
 
