@@ -4,7 +4,8 @@
  * inside the atlas bbox can serve as an anchor for "near me" ranking.
  *
  * Coordinates are the station centroids from OpenStreetMap (ODbL). Lines are
- * limited to the ones that actually cross the sheet: 1/2/3/4/7/8/9/10/12/13/14.
+ * limited to the ones that actually cross the sheet:
+ * 1/2/3/4/6/7/8/9/10/11/12/13/14/15/16/18.
  */
 
 export interface MetroStation {
@@ -23,16 +24,21 @@ export const LINE_COLOR: Record<number, string> = {
   2: '#97d700',
   3: '#ffd100',
   4: '#5f259f',
+  6: '#d9027d',
   7: '#ff6900',
   8: '#00a3e0',
   9: '#71c5e8',
   10: '#c1a7e2',
+  11: '#871c2b',
   12: '#007b5f',
   13: '#ef95cf',
   14: '#827a04',
+  15: '#cab48f',
+  16: '#32d2c9',
+  18: '#c4984f',
 }
 
-export const METRO_LINES = [1, 2, 3, 4, 7, 8, 9, 10, 12, 13, 14]
+export const METRO_LINES = [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18]
 
 export const METRO_STATIONS: MetroStation[] = [
   // Line 1 spine
@@ -103,6 +109,61 @@ export const METRO_STATIONS: MetroStation[] = [
   // Line 14
   { id: 'wuding-rd', name: 'Wuding Road', nameZh: '武定路', lines: [14], lng: 121.43176, lat: 31.2289 },
   { id: 'pudong-ave', name: 'Pudong Avenue', nameZh: '浦东大道', lines: [14], lng: 121.51495, lat: 31.24241 },
+  // Wider-sheet additions (coverage expansion): stations OSM places on the
+  // enlarged bbox, lines from the subway route relations.
+  { id: 'zhongshan-rd-n', name: 'North Zhongshan Road', nameZh: '中山北路', lines: [1], lng: 121.45447, lat: 31.26149 },
+  { id: 'caobao-rd', name: 'Caobao Road', nameZh: '漕宝路', lines: [1, 12], lng: 121.42911, lat: 31.17043 },
+  { id: 'site-of-the-first-cpc-national-congress-huangpi-rd', name: 'Site of the First CPC National Congress·South Huangpi Road', nameZh: '一大会址·黄陂南路', lines: [1, 14], lng: 121.46865, lat: 31.22529 },
+  { id: 'shanghai-science-technology-museum', name: 'Shanghai Science & Technology Museum', nameZh: '上海科技馆', lines: [2], lng: 121.53866, lat: 31.22189 },
+  { id: 'century-ave', name: 'Century Avenue', nameZh: '世纪大道', lines: [2, 4, 6, 9], lng: 121.52272, lat: 31.2308 },
+  { id: 'longyang-rd', name: 'Longyang Road', nameZh: '龙阳路', lines: [2, 7, 16, 18], lng: 121.55322, lat: 31.20453 },
+  { id: 'longcao-rd', name: 'Longcao Road', nameZh: '龙漕路', lines: [3, 12], lng: 121.43895, lat: 31.17207 },
+  { id: 'linyi-xincun', name: 'Linyi Xincun', nameZh: '临沂新村', lines: [6], lng: 121.51316, lat: 31.1958 },
+  { id: 'shanghai-children-s-medical-center', name: 'Shanghai Children\'s Medical Center', nameZh: '上海儿童医学中心', lines: [6], lng: 121.51955, lat: 31.20615 },
+  { id: 'yuanshen-sports-centre', name: 'Yuanshen Sports Centre', nameZh: '源深体育中心', lines: [6], lng: 121.5299, lat: 31.23504 },
+  { id: 'beiyangjing-rd', name: 'Beiyangjing Road', nameZh: '北洋泾路', lines: [6], lng: 121.5478, lat: 31.24117 },
+  { id: 'dongming-rd', name: 'Dongming Road', nameZh: '东明路', lines: [6, 13], lng: 121.50658, lat: 31.1748 },
+  { id: 'minsheng-rd', name: 'Minsheng Road', nameZh: '民生路', lines: [6, 18], lng: 121.54042, lat: 31.23768 },
+  { id: 'yangsi', name: 'Yangsi', nameZh: '杨思', lines: [8], lng: 121.48901, lat: 31.16302 },
+  { id: 'xizang-rd-n', name: 'North Xizang Road', nameZh: '西藏北路', lines: [8], lng: 121.46457, lat: 31.26557 },
+  { id: 'quyang-rd', name: 'Quyang Road', nameZh: '曲阳路', lines: [8], lng: 121.48579, lat: 31.27854 },
+  { id: 'anshan-xincun', name: 'Anshan Xincun', nameZh: '鞍山新村', lines: [8], lng: 121.50517, lat: 31.27526 },
+  { id: 'huangxing-rd', name: 'Huangxing Road', nameZh: '黄兴路', lines: [8], lng: 121.5241, lat: 31.28095 },
+  { id: 'siping-rd', name: 'Siping Road', nameZh: '四平路', lines: [8, 10], lng: 121.49707, lat: 31.27686 },
+  { id: 'chengshan-rd', name: 'Chengshan Road', nameZh: '成山路', lines: [8, 13], lng: 121.49178, lat: 31.17276 },
+  { id: 'jiangpu-rd', name: 'Jiangpu Road', nameZh: '江浦路', lines: [8, 18], lng: 121.51435, lat: 31.27653 },
+  { id: 'fangdian-rd', name: 'Fangdian Road', nameZh: '芳甸路', lines: [9], lng: 121.55442, lat: 31.2344 },
+  { id: 'yili-rd', name: 'Yili Road', nameZh: '伊犁路', lines: [10], lng: 121.39803, lat: 31.20111 },
+  { id: 'songyuan-rd', name: 'Songyuan Road', nameZh: '宋园路', lines: [10], lng: 121.4079, lat: 31.19834 },
+  { id: 'youdian-xincun', name: 'Youdian Xincun', nameZh: '邮电新村', lines: [10], lng: 121.48981, lat: 31.27041 },
+  { id: 'tongji-university', name: 'Tongji University', nameZh: '同济大学', lines: [10], lng: 121.50206, lat: 31.28442 },
+  { id: 'site-of-the-first-cpc-national-congress-xintiandi', name: 'Site of the First CPC National Congress·Xintiandi', nameZh: '一大会址·新天地', lines: [10, 13], lng: 121.46988, lat: 31.21802 },
+  { id: 'fengqiao-rd', name: 'Fengqiao Road', nameZh: '枫桥路', lines: [11], lng: 121.40572, lat: 31.24434 },
+  { id: 'shanghai-swimming-center', name: 'Shanghai Swimming Center', nameZh: '上海游泳馆', lines: [11], lng: 121.43675, lat: 31.18128 },
+  { id: 'yunjin-rd', name: 'Yunjin Road', nameZh: '云锦路', lines: [11], lng: 121.45387, lat: 31.1695 },
+  { id: 'longhua', name: 'Longhua', nameZh: '龙华', lines: [11, 12], lng: 121.44843, lat: 31.17575 },
+  { id: 'zhenru', name: 'Zhenru', nameZh: '真如', lines: [11, 14], lng: 121.40227, lat: 31.25257 },
+  { id: 'hongmei-rd', name: 'Hongmei Road', nameZh: '虹梅路', lines: [12], lng: 121.39269, lat: 31.16224 },
+  { id: 'hongcao-rd', name: 'Hongcao Road', nameZh: '虹漕路', lines: [12], lng: 121.40613, lat: 31.16625 },
+  { id: 'ningguo-rd', name: 'Ningguo Road', nameZh: '宁国路', lines: [12], lng: 121.5283, lat: 31.27068 },
+  { id: 'longchang-rd', name: 'Longchang Road', nameZh: '隆昌路', lines: [12], lng: 121.5407, lat: 31.27763 },
+  { id: 'aiguo-rd', name: 'Aiguo Road', nameZh: '爱国路', lines: [12], lng: 121.54828, lat: 31.28198 },
+  { id: 'fuxing-island', name: 'Fuxing Island', nameZh: '复兴岛', lines: [12], lng: 121.55696, lat: 31.28302 },
+  { id: 'guilin-park', name: 'Guilin Park', nameZh: '桂林公园', lines: [12, 15], lng: 121.41498, lat: 31.16898 },
+  { id: 'jiangpu-park', name: 'Jiangpu Park', nameZh: '江浦公园', lines: [12, 18], lng: 121.51921, lat: 31.2669 },
+  { id: 'world-expo-museum', name: 'World Expo Museum', nameZh: '世博会博物馆', lines: [13], lng: 121.4771, lat: 31.19924 },
+  { id: 'jiangning-rd', name: 'Jiangning Road', nameZh: '江宁路', lines: [13], lng: 121.43986, lat: 31.24611 },
+  { id: 'zhongning-rd', name: 'Zhongning Road', nameZh: '中宁路', lines: [14], lng: 121.41002, lat: 31.24691 },
+  { id: 'yuanshen-rd', name: 'Yuanshen Road', nameZh: '源深路', lines: [14], lng: 121.5265, lat: 31.24337 },
+  { id: 'xiepu-rd', name: 'Xiepu Road', nameZh: '歇浦路', lines: [14], lng: 121.54704, lat: 31.25267 },
+  { id: 'longju-rd', name: 'Longju Road', nameZh: '龙居路', lines: [14], lng: 121.5547, lat: 31.25947 },
+  { id: 'tongchuan-rd', name: 'Tongchuan Road', nameZh: '铜川路', lines: [14, 15], lng: 121.39229, lat: 31.25258 },
+  { id: 'changyi-rd', name: 'Changyi Road', nameZh: '昌邑路', lines: [14, 18], lng: 121.53577, lat: 31.24603 },
+  { id: 'danyang-rd', name: 'Danyang Road', nameZh: '丹阳路', lines: [18], lng: 121.52605, lat: 31.25691 },
+  { id: 'pingliang-rd', name: 'Pingliang Road', nameZh: '平凉路', lines: [18], lng: 121.52253, lat: 31.26105 },
+  { id: 'fangxin-rd', name: 'Fangxin Road', nameZh: '芳芯路', lines: [18], lng: 121.55504, lat: 31.19316 },
+  { id: 'yingchun-rd', name: 'Yingchun Road', nameZh: '迎春路', lines: [18], lng: 121.54676, lat: 31.22322 },
+  { id: 'fushun-rd', name: 'Fushun Road', nameZh: '抚顺路', lines: [18], lng: 121.51133, lat: 31.28605 },
 ]
 
 export const STATION_BY_ID = new Map(METRO_STATIONS.map((s) => [s.id, s]))

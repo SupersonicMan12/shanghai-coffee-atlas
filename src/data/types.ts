@@ -84,6 +84,8 @@ export interface Cafe {
   price: 1 | 2 | 3
   /** Per-axis provenance and structured signals. Absent = pure editorial. */
   evidence?: Evidence
+  /** How the record entered the atlas. Absent = curated ('editorial'). */
+  source?: 'editorial' | 'imported'
 }
 
 /** Where an axis value comes from, in increasing order of authority. */

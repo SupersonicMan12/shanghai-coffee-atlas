@@ -14,14 +14,79 @@ Source data (c) OpenStreetMap contributors, ODbL.
 import json
 import math
 import os
+import sys
+import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
 OUT = os.path.join(HERE, "..", "src", "data", "basemap.json")
 
-# The stage: central Shanghai, from Zhongshan Park in the west to Lujiazui in
-# the east, Suzhou Creek in the north to Xujiahui in the south.
-BBOX = (31.180, 121.390, 31.268, 121.525)  # S, W, N, E
+# The stage: the inner-ring core. Widened for the coverage sweep so every
+# imported café lands on the sheet — Zhongshan Park to mid-Pudong, the
+# stadiums in the south to Hongkou in the north.
+BBOX = (31.162, 121.392, 31.287, 121.557)  # S, W, N, E
+
+OVERPASS_URLS = [
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass-api.de/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+]
+
+
+def overpass_queries():
+    s, w, n, e = BBOX
+    pad = 0.02
+    bb = f"{s - pad},{w - pad},{n + pad},{e + pad}"
+    lanes = "|".join(LANE_NAMES)
+    return {
+        "water.json": f"""[out:json][timeout:180];
+(
+  nwr["natural"="water"]({bb});
+  way["waterway"~"^(river|canal|stream)$"]({bb});
+  relation["waterway"~"^(river|canal)$"]({bb});
+);
+out geom;""",
+        "parks.json": f"""[out:json][timeout:180];
+nwr["leisure"~"^(park|garden)$"]({bb});
+out geom;""",
+        "roads.json": f"""[out:json][timeout:180];
+way["highway"~"^(motorway|trunk|primary|secondary)$"]({bb});
+out geom;""",
+        "lanes.json": f"""[out:json][timeout:180];
+way["highway"]["name"~"^({lanes})$"]({bb});
+out geom;""",
+        "districts.json": f"""[out:json][timeout:180];
+relation["boundary"="administrative"]["admin_level"="6"]({bb});
+out geom;""",
+    }
+
+
+def fetch_raw(force=False):
+    """Download the Overpass extracts into tools/raw (skips existing files)."""
+    import requests
+
+    os.makedirs(RAW, exist_ok=True)
+    for name, query in overpass_queries().items():
+        path = os.path.join(RAW, name)
+        if os.path.exists(path) and not force:
+            print(f"{name}: cached")
+            continue
+        for url in OVERPASS_URLS:
+            try:
+                resp = requests.post(
+                    url, data={"data": query}, timeout=240,
+                    headers={"User-Agent": "shanghai-coffee-atlas/1.0 (basemap builder)"})
+                data = resp.json()
+            except Exception as exc:  # noqa: BLE001 — try the next mirror
+                print(f"{name}: {url} failed ({exc})", file=sys.stderr)
+                time.sleep(5)
+                continue
+            with open(path, "w", encoding="utf-8") as fh:
+                json.dump(data, fh, ensure_ascii=False)
+            print(f"{name}: {len(data.get('elements', []))} elements")
+            break
+        else:
+            raise SystemExit(f"could not fetch {name} from any Overpass mirror")
 
 LANE_NAMES = [
     "武康路", "安福路", "永康路", "五原路", "长乐路", "巨鹿路", "复兴中路",
@@ -299,6 +364,8 @@ def build_districts():
 
 
 def main():
+    if "--fetch" in sys.argv:
+        fetch_raw(force="--force" in sys.argv)
     basemap = {
         "bbox": {"south": BBOX[0], "west": BBOX[1], "north": BBOX[2], "east": BBOX[3]},
         "attribution": "Geometry (c) OpenStreetMap contributors, ODbL",
