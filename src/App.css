@@ -1519,7 +1519,8 @@
     gap: 8px;
   }
 
-  .stage {
+  .stage,
+  .rail-closed .stage {
     grid-template-columns: 1fr;
   }
 
