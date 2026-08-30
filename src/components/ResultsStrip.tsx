@@ -2,6 +2,8 @@ import type { Ranked } from '../lib/match'
 import { scoreVerdict } from '../lib/match'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { Glyph } from './Glyphs'
+import { CLOSENESS_ZH, UI, VERDICT_ZH } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 interface Props {
   ranked: (Ranked & { minutes?: number })[]
@@ -22,26 +24,19 @@ export function ResultsStrip({
   onSelect,
   visited,
 }: Props) {
+  const { mode, t, sub } = useI18n()
+  const zh = mode === 'zh'
   const top = ranked.slice(0, 24)
-  const head = nearMode
-    ? { en: 'Nearest that fit', zh: ' 就在附近' }
-    : compassOn
-      ? { en: 'Closest to your compass', zh: ' 最贴近你' }
-      : { en: 'Everything on the map', zh: ' 全部' }
+  const head = nearMode ? UI.nearestThatFit : compassOn ? UI.closestToCompass : UI.everythingOnMap
   return (
     <div className="strip">
       <div className="strip-head">
-        {head.en}
-        <span className="zh">{head.zh}</span>
+        {t(head)}
+        {sub(head) && <span className="zh"> {sub(head)}</span>}
         <em>{ranked.length}</em>
       </div>
       <div className="strip-rail">
-        {top.length === 0 && (
-          <div className="strip-empty">
-            Nothing matches those hard limits. Loosen one — the compass is a preference,
-            the filters are a wall.
-          </div>
-        )}
+        {top.length === 0 && <div className="strip-empty">{t(UI.stripEmpty)}</div>}
         {top.map(({ cafe, score, minutes }) => {
           const toClose = minutesToClose(cafe, hour)
           const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
@@ -63,17 +58,21 @@ export function ResultsStrip({
                 <span className="sc-where">{cafe.hood}</span>
                 {minutes !== undefined && (
                   <span className="sc-dist">
-                    {minutes} min · {closenessWord(minutes)}
+                    {minutes} {t(UI.minWord)} ·{' '}
+                    {zh ? CLOSENESS_ZH[closenessWord(minutes)] ?? closenessWord(minutes) : closenessWord(minutes)}
                   </span>
                 )}
                 {closingSoon && (
-                  <span className="sc-closing">closes in {toClose} min 快打烊</span>
+                  <span className="sc-closing">
+                    {zh ? `还有 ${toClose} 分钟打烊` : `closes in ${toClose} min`}
+                    {mode === 'both' && ' 快打烊'}
+                  </span>
                 )}
               </span>
               {compassOn && (
                 <span className="sc-score">
                   <b>{score}</b>
-                  <em>{scoreVerdict(score)}</em>
+                  <em>{zh ? VERDICT_ZH[scoreVerdict(score)] ?? scoreVerdict(score) : scoreVerdict(score)}</em>
                 </span>
               )}
             </button>

@@ -1,5 +1,6 @@
 import type { Cafe } from '../data/types'
-import { DISTRICT_ZH } from '../data/labels'
+import { DISTRICT_ZH, UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 /**
  * The single most useful screen in the app for anyone who does not read
@@ -15,6 +16,7 @@ export function TaxiCard({
   onClose: () => void
   onSaveImage: () => void
 }) {
+  const { mode, t } = useI18n()
   const line = `${cafe.streetZh}，${DISTRICT_ZH[cafe.district]}区`
   return (
     <div className="modal-scrim" onClick={onClose}>
@@ -30,8 +32,11 @@ export function TaxiCard({
         </div>
         <div className="taxi-foot">
           <span>谢谢！</span>
-          <button onClick={onSaveImage}>Save image 保存图片</button>
-          <button onClick={onClose}>Close</button>
+          <button onClick={onSaveImage}>
+            {t(UI.saveImage)}
+            {mode === 'both' && ' 保存图片'}
+          </button>
+          <button onClick={onClose}>{t(UI.close)}</button>
         </div>
       </div>
     </div>

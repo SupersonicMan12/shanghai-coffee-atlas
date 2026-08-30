@@ -1,4 +1,5 @@
 import {
+  memo,
   useCallback,
   useEffect,
   useImperativeHandle,
@@ -16,6 +17,8 @@ import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project, walkingMinutes, haversine } f
 import { sketch } from '../lib/hand'
 import { BaseLayers } from './BaseLayers'
 import { Glyph } from './Glyphs'
+import { UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 export interface View {
   x: number
@@ -72,7 +75,23 @@ export function AtlasMap({
   const svgRef = useRef<SVGSVGElement | null>(null)
   const [view, setView] = useState<View>({ x: 0, y: 0, k: 1 })
   const [hovered, setHovered] = useState<string | null>(null)
-  const drag = useRef<{ px: number; py: number; x: number; y: number; moved: boolean } | null>(null)
+  const viewRef = useRef(view)
+  useEffect(() => {
+    viewRef.current = view
+  }, [view])
+
+  // Multi-pointer gesture state: one finger pans, two fingers pinch-zoom.
+  const ptrs = useRef(new Map<number, { x: number; y: number }>())
+  const gesture = useRef<{
+    x: number
+    y: number
+    k: number
+    cx: number
+    cy: number
+    dist: number
+    moved: boolean
+  } | null>(null)
+  const suppressClick = useRef(false)
 
   const toUser = useCallback((clientX: number, clientY: number): [number, number] => {
     const svg = svgRef.current
@@ -124,24 +143,56 @@ export function AtlasMap({
     [toUser],
   )
 
+  const rebaseline = useCallback(() => {
+    const pts = [...ptrs.current.values()]
+    if (!pts.length) {
+      gesture.current = null
+      return
+    }
+    const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length
+    const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length
+    const dist = pts.length >= 2 ? Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) : 0
+    const v = viewRef.current
+    const moved = gesture.current?.moved ?? false
+    gesture.current = { x: v.x, y: v.y, k: v.k, cx, cy, dist, moved }
+  }, [])
+
   const onPointerDown = (e: ReactPointerEvent<SVGSVGElement>) => {
-    ;(e.target as Element).setPointerCapture?.(e.pointerId)
+    e.currentTarget.setPointerCapture?.(e.pointerId)
     const [ux, uy] = toUser(e.clientX, e.clientY)
-    drag.current = { px: ux, py: uy, x: view.x, y: view.y, moved: false }
+    ptrs.current.set(e.pointerId, { x: ux, y: uy })
+    if (ptrs.current.size === 1) suppressClick.current = false
+    rebaseline()
   }
 
   const onPointerMove = (e: ReactPointerEvent<SVGSVGElement>) => {
-    const d = drag.current
-    if (!d) return
+    if (!ptrs.current.has(e.pointerId)) return
     const [ux, uy] = toUser(e.clientX, e.clientY)
-    const dx = ux - d.px
-    const dy = uy - d.py
-    if (Math.abs(dx) + Math.abs(dy) > 4) d.moved = true
-    setView((v) => ({ ...v, x: d.x + dx, y: d.y + dy }))
+    ptrs.current.set(e.pointerId, { x: ux, y: uy })
+    const g = gesture.current
+    if (!g) return
+    const pts = [...ptrs.current.values()]
+    const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length
+    const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length
+    let k = g.k
+    if (pts.length >= 2 && g.dist > 0) {
+      const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y)
+      k = clamp((g.k * dist) / g.dist, MIN_K, MAX_K)
+    }
+    if (Math.abs(cx - g.cx) + Math.abs(cy - g.cy) > 4 || k !== g.k) {
+      g.moved = true
+      suppressClick.current = true
+    }
+    setView({
+      k,
+      x: cx - ((g.cx - g.x) / g.k) * k,
+      y: cy - ((g.cy - g.y) / g.k) * k,
+    })
   }
 
-  const endDrag = () => {
-    drag.current = null
+  const endDrag = (e: ReactPointerEvent<SVGSVGElement>) => {
+    if (!ptrs.current.delete(e.pointerId)) return
+    rebaseline()
   }
 
   useEffect(() => {
@@ -185,6 +236,20 @@ export function AtlasMap({
 
   const inv = 1 / view.k
   const showAllLabels = view.k > 2.1
+  const { t } = useI18n()
+
+  const onHover = useCallback((id: string) => setHovered(id), [])
+  const onLeave = useCallback(
+    (id: string) => setHovered((h) => (h === id ? null : h)),
+    [],
+  )
+
+  const onPick = useCallback(
+    (id: string) => {
+      if (!suppressClick.current) onSelect(id)
+    },
+    [onSelect],
+  )
 
   const anchorPlace = useMemo(() => {
     if (!anchor) return null
@@ -204,9 +269,12 @@ export function AtlasMap({
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={endDrag}
-      onPointerLeave={endDrag}
+      onPointerCancel={endDrag}
       onClick={(e) => {
-        if (drag.current?.moved) return
+        if (suppressClick.current) {
+          suppressClick.current = false
+          return
+        }
         if (pinArm) {
           const [ux, uy] = toUser(e.clientX, e.clientY)
           const px = (ux - view.x) / view.k
@@ -310,7 +378,7 @@ export function AtlasMap({
                 <circle cy="-9" r="2.6" fill="var(--paper)" />
                 <ellipse cy="3.4" rx="5" ry="1.4" fill="var(--ink)" opacity="0.25" />
                 <text y="-20" textAnchor="middle" className="anchor-label">
-                  Your pin
+                  {t(UI.yourPin)}
                 </text>
               </>
             )}
@@ -325,37 +393,106 @@ export function AtlasMap({
             <circle r="22" fill="var(--accent)" opacity="0.18" />
             <circle r="7" fill="var(--accent)" stroke="var(--paper)" strokeWidth="2.4" />
             <text y="-16" textAnchor="middle" className="me-label">
-              You
+              {t(UI.you)}
             </text>
           </g>
         )}
 
-        <g>
-          {placed.map(({ cafe, x, y }) => {
-            const score = scores.get(cafe.id)
-            const isMatch = score !== undefined
-            const isSel = selectedId === cafe.id
-            const isHover = hovered === cafe.id
-            const inCrawl = crawlIndex.get(cafe.id)
-            const strength = compassOn && score !== undefined ? clamp((score - 50) / 45, 0, 1) : 1
-            const r = (11 + (compassOn ? strength * 6 : 2)) * inv
-            const active = isSel || isHover
-            const dim = !isMatch || (crawl ? !inCrawl : false)
-            const label =
-              isSel || isHover || showAllLabels || Boolean(inCrawl) || (compassOn && strength > 0.82)
+        <Pins
+          placed={placed}
+          scores={scores}
+          compassOn={compassOn}
+          selectedId={selectedId}
+          hovered={hovered}
+          crawlOn={Boolean(crawl)}
+          crawlIndex={crawlIndex}
+          visited={visited}
+          saved={saved}
+          inv={inv}
+          showAllLabels={showAllLabels}
+          onHover={onHover}
+          onLeave={onLeave}
+          onPick={onPick}
+        />
+      </g>
 
-            return (
-              <g
-                key={cafe.id}
-                transform={`translate(${x},${y})`}
-                className={`pin${dim ? ' dim' : ''}${active ? ' active' : ''}`}
-                onPointerEnter={() => setHovered(cafe.id)}
-                onPointerLeave={() => setHovered((h) => (h === cafe.id ? null : h))}
-                onClick={(e) => {
-                  e.stopPropagation()
-                  if (!drag.current?.moved) onSelect(cafe.id)
-                }}
-              >
+      <rect
+        x="0"
+        y="0"
+        width={PAPER_WIDTH}
+        height={PAPER_HEIGHT}
+        fill="url(#vignette)"
+        pointerEvents="none"
+      />
+    </svg>
+  )
+}
+
+interface PinsProps {
+  placed: { cafe: Cafe; x: number; y: number }[]
+  scores: Map<string, number>
+  compassOn: boolean
+  selectedId: string | null
+  hovered: string | null
+  crawlOn: boolean
+  crawlIndex: Map<string, number>
+  visited: Set<string>
+  saved: Set<string>
+  inv: number
+  showAllLabels: boolean
+  onHover: (id: string) => void
+  onLeave: (id: string) => void
+  onPick: (id: string) => void
+}
+
+/**
+ * The pin layer is by far the widest subtree (600 cafés × several nodes), so
+ * it is memoized: panning and pinching only change the parent transform and
+ * skip re-rendering every pin.
+ */
+const Pins = memo(function Pins({
+  placed,
+  scores,
+  compassOn,
+  selectedId,
+  hovered,
+  crawlOn,
+  crawlIndex,
+  visited,
+  saved,
+  inv,
+  showAllLabels,
+  onHover,
+  onLeave,
+  onPick,
+}: PinsProps) {
+  return (
+    <g>
+      {placed.map(({ cafe, x, y }) => {
+        const score = scores.get(cafe.id)
+        const isMatch = score !== undefined
+        const isSel = selectedId === cafe.id
+        const isHover = hovered === cafe.id
+        const inCrawl = crawlIndex.get(cafe.id)
+        const strength = compassOn && score !== undefined ? clamp((score - 50) / 45, 0, 1) : 1
+        const r = (11 + (compassOn ? strength * 6 : 2)) * inv
+        const active = isSel || isHover
+        const dim = !isMatch || (crawlOn ? !inCrawl : false)
+        const label =
+          isSel || isHover || showAllLabels || Boolean(inCrawl) || (compassOn && strength > 0.82)
+
+        return (
+          <g
+            key={cafe.id}
+            transform={`translate(${x},${y})`}
+            className={`pin${dim ? ' dim' : ''}${active ? ' active' : ''}`}
+            onPointerEnter={() => onHover(cafe.id)}
+            onPointerLeave={() => onLeave(cafe.id)}
+            onClick={(e) => {
+              e.stopPropagation()
+              onPick(cafe.id)
+            }}
+          >
                 {(active || (compassOn && strength > 0.9)) && (
                   <circle r={r * 2} fill="var(--glow)" opacity="0.5" filter="url(#softglow)" />
                 )}
@@ -411,20 +548,9 @@ export function AtlasMap({
                     </text>
                   </g>
                 )}
-              </g>
-            )
-          })}
-        </g>
-      </g>
-
-      <rect
-        x="0"
-        y="0"
-        width={PAPER_WIDTH}
-        height={PAPER_HEIGHT}
-        fill="url(#vignette)"
-        pointerEvents="none"
-      />
-    </svg>
+          </g>
+        )
+      })}
+    </g>
   )
-}
+})

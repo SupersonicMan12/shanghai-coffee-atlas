@@ -12,6 +12,10 @@ import { Methodology } from './components/Methodology'
 import { NearMePanel } from './components/NearMePanel'
 import { QuizModal } from './components/QuizModal'
 import { ResultsStrip } from './components/ResultsStrip'
+import { SearchBox } from './components/SearchBox'
+import { ListView } from './components/ListView'
+import { Onboarding } from './components/Onboarding'
+import { shouldOnboard } from './lib/onboard'
 import { TaxiCard } from './components/TaxiCard'
 import { ShareCardModal, type ShareKind } from './components/ShareCard'
 import { EMPTY_FILTERS, NEUTRAL, rank, type Filters } from './lib/match'
@@ -20,17 +24,35 @@ import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { usePassport } from './lib/passport'
 import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
+import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type Pair } from './lib/i18n'
+import { PHASE_LINE_ZH, UI } from './data/labels'
 
 type Panel = 'compass' | 'crawls' | 'passport'
-type Lang = 'both' | 'en' | 'zh'
+type Lang = LangMode
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
 
-function readHash(): { cafe?: string; axes?: Axes; crawl?: string; method?: boolean; anchor?: Anchor } {
+function readHash(): {
+  cafe?: string
+  axes?: Axes
+  crawl?: string
+  method?: boolean
+  anchor?: Anchor
+  lang?: Lang
+} {
   if (typeof location === 'undefined') return {}
   const h = new URLSearchParams(location.hash.replace(/^#\/?/, ''))
-  const out: { cafe?: string; axes?: Axes; crawl?: string; method?: boolean; anchor?: Anchor } = {}
+  const out: {
+    cafe?: string
+    axes?: Axes
+    crawl?: string
+    method?: boolean
+    anchor?: Anchor
+    lang?: Lang
+  } = {}
   if (h.has('method')) out.method = true
+  const lang = h.get('lang')
+  if (lang === 'both' || lang === 'en' || lang === 'zh') out.lang = lang
   const cafe = h.get('cafe')
   if (cafe && byId.has(cafe)) out.cafe = cafe
   const crawl = h.get('crawl')
@@ -71,11 +93,23 @@ export default function App() {
   const [taxiFor, setTaxiFor] = useState<Cafe | null>(null)
   const [shareFor, setShareFor] = useState<{ cafe: Cafe; kind: ShareKind } | null>(null)
   const [hourOverride, setHourOverride] = useState<number | null>(null)
-  const [lang, setLang] = useState<Lang>('both')
+  const [lang, setLangState] = useState<Lang>(() => initial.lang ?? readStoredLang() ?? 'both')
   const [copied, setCopied] = useState<string | null>(null)
   const [me, setMe] = useState<{ lng: number; lat: number } | null>(null)
-  const [geoNote, setGeoNote] = useState<string | null>(null)
-  const [railOpen, setRailOpen] = useState(true)
+  const [geoNote, setGeoNote] = useState<Pair | null>(null)
+  const [railOpen, setRailOpen] = useState(
+    () => typeof window === 'undefined' || window.innerWidth > 900,
+  )
+  const [view, setView] = useState<'map' | 'list'>('map')
+  const [onboard, setOnboard] = useState(() => shouldOnboard())
+
+  const setLang = useCallback((l: Lang) => {
+    setLangState(l)
+    storeLang(l)
+  }, [])
+
+  const i18n = useMemo(() => makeI18n(lang), [lang])
+  const t = i18n.t
   const [anchor, setAnchor] = useState<Anchor | null>(initial.anchor ?? null)
   const [pinArm, setPinArm] = useState(false)
 
@@ -121,9 +155,10 @@ export default function App() {
     }
     if (methodOpen) parts.push('method')
     if (anchor) parts.push(`at=${anchorToHash(anchor)}`)
+    if (lang !== 'both') parts.push(`lang=${lang}`)
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, crawlId, compassOn, axes, methodOpen, anchor])
+  }, [selectedId, crawlId, compassOn, axes, methodOpen, anchor, lang])
 
   useEffect(() => {
     if (import.meta.env.PROD && 'serviceWorker' in navigator) {
@@ -176,6 +211,7 @@ export default function App() {
       setCrawlId(h.crawl ?? null)
       setMethodOpen(Boolean(h.method))
       setAnchor(h.anchor ?? null)
+      if (h.lang) setLangState(h.lang)
       if (h.axes) {
         setAxes(h.axes)
         setCompassOn(true)
@@ -201,6 +237,8 @@ export default function App() {
       if (id) {
         const cafe = byId.get(id)
         if (cafe) flyTo(cafe)
+        // On a phone the rail covers the map; picking a café means "show it".
+        if (window.innerWidth <= 900) setRailOpen(false)
       }
     },
     [flyTo],
@@ -224,16 +262,16 @@ export default function App() {
 
   const locate = () => {
     if (!navigator.geolocation) {
-      setGeoNote('This browser will not share a location.')
+      setGeoNote(UI.geoNoShare)
       return
     }
-    setGeoNote('Looking…')
+    setGeoNote(UI.geoLooking)
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const { longitude: lng, latitude: lat } = pos.coords
         if (lat < BBOX.south || lat > BBOX.north || lng < BBOX.west || lng > BBOX.east) {
           setMe(null)
-          setGeoNote('You are outside the sheet. The atlas only covers central Shanghai.')
+          setGeoNote(UI.geoOutside)
           return
         }
         setMe({ lng, lat })
@@ -241,7 +279,7 @@ export default function App() {
         setGeoNote(null)
         mapRef.current?.focusOn(lng, lat, 3.2)
       },
-      () => setGeoNote('Location refused — no problem, the atlas works without it.'),
+      () => setGeoNote(UI.geoRefused),
       { timeout: 8000 },
     )
   }
@@ -274,6 +312,7 @@ export default function App() {
   } as React.CSSProperties
 
   return (
+    <I18nContext.Provider value={i18n}>
     <div className={`app phase-${phase.id} lang-${lang}${railOpen ? '' : ' rail-closed'}`} style={style}>
       <header className="top">
         <div className="brand">
@@ -296,7 +335,7 @@ export default function App() {
             <strong>{phase.label}</strong>
             <span className="zh">{phase.labelZh}</span>
             <span className="phase-clock">{formatHour(hour)}</span>
-            {hourOverride === null && <span className="phase-live">Shanghai, now</span>}
+            {hourOverride === null && <span className="phase-live">{t(UI.shanghaiNow)}</span>}
           </div>
           <input
             type="range"
@@ -304,7 +343,7 @@ export default function App() {
             max={23.75}
             step={0.25}
             value={hour}
-            aria-label="Hour of the day"
+            aria-label={t(UI.hourOfDay)}
             onChange={(e) => setHourOverride(Number(e.target.value))}
           />
           <div className="phase-jumps">
@@ -314,57 +353,60 @@ export default function App() {
                 className={p.id === phase.id ? 'on' : ''}
                 onClick={() => setHourOverride(p.id === 'night' ? 21 : (p.from + p.to) / 2)}
               >
-                {p.label}
+                {lang === 'zh' ? p.labelZh : p.label}
               </button>
             ))}
-            <button onClick={() => setHourOverride(null)}>Now</button>
+            <button onClick={() => setHourOverride(null)}>{t(UI.now)}</button>
           </div>
         </div>
 
         <div className="top-right">
-          <div className="lang-toggle">
-            {(['both', 'en', 'zh'] as Lang[]).map((l) => (
-              <button key={l} className={lang === l ? 'on' : ''} onClick={() => setLang(l)}>
-                {l === 'both' ? 'EN / 中' : l === 'en' ? 'EN' : '中文'}
-              </button>
-            ))}
+          <SearchBox cafes={CAFES} onPick={selectCafe} />
+          <div className="top-right-row">
+            <div className="lang-toggle">
+              {(['both', 'en', 'zh'] as Lang[]).map((l) => (
+                <button key={l} className={lang === l ? 'on' : ''} onClick={() => setLang(l)}>
+                  {l === 'both' ? 'EN / 中' : l === 'en' ? 'EN' : '中文'}
+                </button>
+              ))}
+            </div>
+            <button className="ghost" onClick={locate}>
+              {t(UI.whereAmI)}
+            </button>
+            <button
+              className="ghost method-btn"
+              onClick={() => setMethodOpen(true)}
+              aria-label={t(UI.methodTitle)}
+              title={t(UI.methodTitle)}
+            >
+              ?
+            </button>
           </div>
-          <button className="ghost" onClick={locate}>
-            Where am I?
-          </button>
-          <button
-            className="ghost method-btn"
-            onClick={() => setMethodOpen(true)}
-            aria-label="Methodology 方法说明"
-            title="How the compass is drawn · 方法说明"
-          >
-            ?
-          </button>
         </div>
       </header>
 
-      <p className="phase-mood">{phase.line}</p>
+      <p className="phase-mood">{lang === 'zh' ? PHASE_LINE_ZH[phase.id] ?? phase.line : phase.line}</p>
 
       <main className="stage">
         <aside className="rail">
           <nav className="rail-tabs">
             <button className={panel === 'compass' ? 'on' : ''} onClick={() => setPanel('compass')}>
-              Compass
+              {t(UI.tabCompass)}
             </button>
             <button className={panel === 'crawls' ? 'on' : ''} onClick={() => setPanel('crawls')}>
-              Crawls
+              {t(UI.tabCrawls)}
             </button>
             <button className={panel === 'passport' ? 'on' : ''} onClick={() => setPanel('passport')}>
-              Passport
+              {t(UI.tabPassport)}
             </button>
           </nav>
 
           {character && panel === 'compass' && (
             <div className="character-flag">
-              Compass set for <strong>{character}</strong>
+              {t(UI.compassSetFor)} <strong>{character}</strong>
             </div>
           )}
-          {geoNote && <div className="geo-note">{geoNote}</div>}
+          {geoNote && <div className="geo-note">{t(geoNote)}</div>}
 
           {panel === 'compass' && (
             <NearMePanel
@@ -449,11 +491,15 @@ export default function App() {
           )}
         </aside>
 
-        <button className="rail-handle" onClick={() => setRailOpen((v) => !v)}>
+        <button
+          className="rail-handle"
+          onClick={() => setRailOpen((v) => !v)}
+          aria-label={t(UI.tabCompass)}
+        >
           {railOpen ? '‹' : '›'}
         </button>
 
-        <div className="map-wrap">
+        <div className={`map-wrap${view === 'list' ? ' in-list' : ''}`}>
           <AtlasMap
             handleRef={mapRef}
             cafes={CAFES}
@@ -472,21 +518,39 @@ export default function App() {
           />
 
           <div className="map-tools">
-            <button onClick={() => mapRef.current?.zoomBy(1.45)} aria-label="Zoom in">
+            <button onClick={() => mapRef.current?.zoomBy(1.45)} aria-label={t(UI.zoomIn)}>
               +
             </button>
-            <button onClick={() => mapRef.current?.zoomBy(1 / 1.45)} aria-label="Zoom out">
+            <button onClick={() => mapRef.current?.zoomBy(1 / 1.45)} aria-label={t(UI.zoomOut)}>
               −
             </button>
-            <button onClick={() => mapRef.current?.reset()} aria-label="Whole sheet">
+            <button onClick={() => mapRef.current?.reset()} aria-label={t(UI.wholeSheet)}>
               ⤢
             </button>
           </div>
 
-          <div className="attribution">
-            Hand-inked from OpenStreetMap geometry (ODbL). Rooms, ratings and opinions are
-            the Atlas’s own.
+          <div className="view-toggle">
+            <button className={view === 'map' ? 'on' : ''} onClick={() => setView('map')}>
+              {t(UI.viewMap)}
+            </button>
+            <button className={view === 'list' ? 'on' : ''} onClick={() => setView('list')}>
+              {t(UI.viewList)}
+            </button>
           </div>
+
+          <div className="attribution">{t(UI.attribution)}</div>
+
+          {view === 'list' && (
+            <ListView
+              ranked={nearRanked ?? ranked}
+              compassOn={compassOn}
+              nearMode={Boolean(anchor)}
+              hour={hour}
+              selectedId={selectedId}
+              onSelect={selectCafe}
+              visited={visitedSet}
+            />
+          )}
 
           {selected && (
             <CafeCard
@@ -501,9 +565,9 @@ export default function App() {
               distanceFrom={
                 anchor && anchor.kind !== 'me'
                   ? anchor.kind === 'metro'
-                    ? `From ${anchor.station.name}`
-                    : 'From your pin'
-                  : 'From you'
+                    ? `${t(UI.fromStation)} ${lang === 'zh' ? anchor.station.nameZh : anchor.station.name}`
+                    : t(UI.fromYourPin)
+                  : t(UI.fromYou)
               }
               onClose={() => setSelectedId(null)}
               onStamp={() =>
@@ -516,7 +580,11 @@ export default function App() {
               onMoreLikeThis={() => {
                 setAxes(selected.axes)
                 setCompassOn(true)
-                setCharacter(`rooms like ${selected.name}`)
+                setCharacter(
+                  lang === 'zh'
+                    ? `${t(UI.roomsLike)}${selected.nameZh}`
+                    : `${t(UI.roomsLike)} ${selected.name}`,
+                )
                 setPanel('compass')
               }}
               onShareCard={() => setShareFor({ cafe: selected, kind: 'cafe' })}
@@ -530,17 +598,21 @@ export default function App() {
             />
           )}
 
-          <ResultsStrip
-            ranked={nearRanked ?? ranked}
-            compassOn={compassOn}
-            nearMode={Boolean(anchor)}
-            hour={hour}
-            selectedId={selectedId}
-            onSelect={selectCafe}
-            visited={visitedSet}
-          />
+          {view === 'map' && (
+            <ResultsStrip
+              ranked={nearRanked ?? ranked}
+              compassOn={compassOn}
+              nearMode={Boolean(anchor)}
+              hour={hour}
+              selectedId={selectedId}
+              onSelect={selectCafe}
+              visited={visitedSet}
+            />
+          )}
         </div>
       </main>
+
+      {onboard && <Onboarding onDone={() => setOnboard(false)} />}
 
       {quizOpen && (
         <QuizModal
@@ -572,5 +644,6 @@ export default function App() {
         />
       )}
     </div>
+    </I18nContext.Provider>
   )
 }

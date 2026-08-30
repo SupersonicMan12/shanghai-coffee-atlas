@@ -1,14 +1,19 @@
 import type { Axes } from '../data/types'
 import { AXES, type Filters } from '../lib/match'
 import {
+  ARCHETYPE_BLURB_ZH,
   ARCHETYPE_LABEL,
   ARCHETYPE_ORDER,
+  AXIS_ENDS_ZH,
   DISTRICTS,
   DISTRICT_ZH,
   QUICK_TAGS,
   TAG_LABEL,
+  TAG_ZH,
+  UI,
 } from '../data/labels'
 import { formatHour } from '../lib/palette'
+import { useI18n } from '../lib/i18n'
 
 interface Props {
   axes: Axes
@@ -31,33 +36,31 @@ export function Compass({
   onReset,
   resultCount,
 }: Props) {
+  const { mode, t, sub } = useI18n()
+  const zh = mode === 'zh'
   const toggle = <T,>(list: T[], v: T): T[] =>
     list.includes(v) ? list.filter((x) => x !== v) : [...list, v]
 
   return (
     <div className="panel-body">
       <button className="quiz-cta" onClick={onQuiz}>
-        <span className="quiz-cta-kicker">Six questions</span>
-        <span className="quiz-cta-title">What kind of drinker are you?</span>
-        <span className="quiz-cta-sub">
-          Answer honestly and the atlas repaints itself around you.
-        </span>
+        <span className="quiz-cta-kicker">{t(UI.sixQuestions)}</span>
+        <span className="quiz-cta-title">{t(UI.quizTitle)}</span>
+        <span className="quiz-cta-sub">{t(UI.quizSub)}</span>
       </button>
 
       <div className="section">
         <div className="section-head">
-          <h3>The compass</h3>
-          <span className="zh">咖啡罗盘</span>
+          <h3>{t(UI.theCompass)}</h3>
+          {sub(UI.theCompass) && <span className="zh">{sub(UI.theCompass)}</span>}
         </div>
-        <p className="section-note">
-          Five spectrums instead of a search box. Drag them to describe the next hour of
-          your life; every café is scored against where you land.
-        </p>
+        <p className="section-note">{t(UI.compassNote)}</p>
         {AXES.map((a) => (
           <label key={a.key} className="axis">
             <span className="axis-top">
               <span className="axis-name">
-                {a.label} <span className="zh">{a.labelZh}</span>
+                {zh ? a.labelZh : a.label}
+                {mode === 'both' && <span className="zh"> {a.labelZh}</span>}
               </span>
               <span className="axis-value">{axes[a.key]}</span>
             </span>
@@ -67,12 +70,12 @@ export function Compass({
               max={100}
               step={1}
               value={axes[a.key]}
-              aria-label={a.label}
+              aria-label={zh ? a.labelZh : a.label}
               onChange={(e) => onAxes({ ...axes, [a.key]: Number(e.target.value) })}
             />
             <span className="axis-ends">
-              <span>{a.low}</span>
-              <span>{a.high}</span>
+              <span>{zh ? AXIS_ENDS_ZH[a.key]?.low ?? a.low : a.low}</span>
+              <span>{zh ? AXIS_ENDS_ZH[a.key]?.high ?? a.high : a.high}</span>
             </span>
           </label>
         ))}
@@ -80,14 +83,14 @@ export function Compass({
 
       <div className="section">
         <div className="section-head">
-          <h3>Hard limits</h3>
-          <span className="zh">筛选</span>
+          <h3>{t(UI.hardLimits)}</h3>
+          {sub(UI.hardLimits) && <span className="zh">{sub(UI.hardLimits)}</span>}
         </div>
 
         <input
           className="search"
           type="search"
-          placeholder="Name, street or neighbourhood…"
+          placeholder={t(UI.searchPlaceholder)}
           value={filters.query}
           onChange={(e) => onFilters({ ...filters, query: e.target.value })}
         />
@@ -99,19 +102,20 @@ export function Compass({
               className={`chip${filters.districts.includes(d) ? ' on' : ''}`}
               onClick={() => onFilters({ ...filters, districts: toggle(filters.districts, d) })}
             >
-              {d} <span className="zh">{DISTRICT_ZH[d]}</span>
+              {zh ? DISTRICT_ZH[d] : d}
+              {mode === 'both' && <span className="zh"> {DISTRICT_ZH[d]}</span>}
             </button>
           ))}
         </div>
 
         <div className="chips">
-          {QUICK_TAGS.map((t) => (
+          {QUICK_TAGS.map((tag) => (
             <button
-              key={t}
-              className={`chip${filters.tags.includes(t) ? ' on' : ''}`}
-              onClick={() => onFilters({ ...filters, tags: toggle(filters.tags, t) })}
+              key={tag}
+              className={`chip${filters.tags.includes(tag) ? ' on' : ''}`}
+              onClick={() => onFilters({ ...filters, tags: toggle(filters.tags, tag) })}
             >
-              {TAG_LABEL[t] ?? t}
+              {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
             </button>
           ))}
         </div>
@@ -123,7 +127,7 @@ export function Compass({
               className={`chip${filters.maxPrice === p ? ' on' : ''}`}
               onClick={() => onFilters({ ...filters, maxPrice: filters.maxPrice === p ? null : p })}
             >
-              {'¥'.repeat(p)} or less
+              {zh ? `${'¥'.repeat(p)}${t(UI.orLess)}` : `${'¥'.repeat(p)} ${t(UI.orLess)}`}
             </button>
           ))}
           <button
@@ -132,31 +136,33 @@ export function Compass({
               onFilters({ ...filters, openAt: filters.openAt === null ? hour : null })
             }
           >
-            Open at {formatHour(hour)}
+            {t(UI.openAt)} {formatHour(hour)}
           </button>
         </div>
       </div>
 
       <div className="section">
         <div className="section-head">
-          <h3>Ten kinds of room</h3>
-          <span className="zh">十种空间</span>
+          <h3>{t(UI.tenKinds)}</h3>
+          {sub(UI.tenKinds) && <span className="zh">{sub(UI.tenKinds)}</span>}
         </div>
         <ul className="legend">
           {ARCHETYPE_ORDER.map((a) => (
             <li key={a}>
-              <strong>{ARCHETYPE_LABEL[a].en}</strong>
-              <span className="zh"> {ARCHETYPE_LABEL[a].zh}</span>
-              <em>{ARCHETYPE_LABEL[a].blurb}</em>
+              <strong>{zh ? ARCHETYPE_LABEL[a].zh : ARCHETYPE_LABEL[a].en}</strong>
+              {mode === 'both' && <span className="zh"> {ARCHETYPE_LABEL[a].zh}</span>}
+              <em>{zh ? ARCHETYPE_BLURB_ZH[a] : ARCHETYPE_LABEL[a].blurb}</em>
             </li>
           ))}
         </ul>
       </div>
 
       <div className="panel-foot">
-        <span>{resultCount} cafés match</span>
+        <span>
+          {resultCount} {t(UI.cafesMatch)}
+        </span>
         <button className="link" onClick={onReset}>
-          Reset everything
+          {t(UI.resetEverything)}
         </button>
       </div>
     </div>
