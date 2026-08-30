@@ -3,7 +3,9 @@ import type {
   AxisEvidence,
   AxisSource,
   Cafe,
+  DianpingSignals,
 } from '../data/types'
+import dianpingRaw from '../data/dianping.json'
 
 /**
  * The Bayesian blend behind every axis (the “?” page explains this in prose).
@@ -43,6 +45,38 @@ export type CafeVotes = Partial<Record<keyof Axes, AxisVotes>>
 export interface DatasetContext {
   /** Sorted 人均 costs (RMB) across every café that has an Amap cost. */
   costsSorted: number[]
+  /** Sorted Dianping 人均 prices (RMB) across every café that has one. */
+  dpPricesSorted?: number[]
+}
+
+const DIANPING: Record<string, DianpingSignals> = dianpingRaw
+
+/** Dianping signals for a café — inline evidence first, dataset file second. */
+export function dianpingFor(cafe: Cafe): DianpingSignals | undefined {
+  return cafe.evidence?.dianping ?? DIANPING[cafe.id]
+}
+
+/** Parse a Dianping display count (“8549”, “4万+”, “1.2万”) into a number. */
+export function parseCountText(text: string | undefined): number {
+  if (!text) return 0
+  const m = /([\d.]+)(万)?/.exec(text)
+  if (!m) return 0
+  const n = parseFloat(m[1])
+  if (Number.isNaN(n)) return 0
+  return Math.round(m[2] ? n * 10000 : n)
+}
+
+/**
+ * Trust in a café's Dianping presence, 0..1 — rating quality scaled by how
+ * many reviews (or, failing that, photos) stand behind it. Used to deepen
+ * confidence ink, never to move an axis directly.
+ */
+export function dianpingTrust(dp: DianpingSignals | undefined): number {
+  if (!dp || typeof dp.rating !== 'number' || dp.rating <= 0) return 0
+  const count = parseCountText(dp.reviewCountText) || parseCountText(dp.picCountStr)
+  if (count <= 0) return 0
+  const volume = Math.min(1, Math.log10(count + 1) / 4.5)
+  return Math.round((dp.rating / 5) * volume * 100) / 100
 }
 
 export function buildContext(cafes: readonly Cafe[]): DatasetContext {
@@ -50,7 +84,11 @@ export function buildContext(cafes: readonly Cafe[]): DatasetContext {
     .map((c) => c.evidence?.amap?.cost)
     .filter((v): v is number => typeof v === 'number' && v > 0)
     .sort((a, b) => a - b)
-  return { costsSorted: costs }
+  const dpPrices = cafes
+    .map((c) => dianpingFor(c)?.avgPrice)
+    .filter((v): v is number => typeof v === 'number' && v > 0)
+    .sort((a, b) => a - b)
+  return { costsSorted: costs, dpPricesSorted: dpPrices }
 }
 
 const clamp = (v: number) => Math.max(0, Math.min(100, v))
@@ -85,10 +123,24 @@ export function structuredSignals(
   const tags = new Set(cafe.tags)
   const span = openSpan(cafe)
 
-  // spend ← Amap 人均 cost mapped through the dataset's price quantiles.
-  const cost = cafe.evidence?.amap?.cost
-  if (typeof cost === 'number' && cost > 0 && ctx.costsSorted.length >= 5) {
-    s.spend = clamp(Math.round(percentile(ctx.costsSorted, cost) * 100))
+  // spend ← 人均 mapped through the dataset's price quantiles, averaging the
+  // Amap and Dianping estimates when both speak.
+  {
+    const estimates: number[] = []
+    const cost = cafe.evidence?.amap?.cost
+    if (typeof cost === 'number' && cost > 0 && ctx.costsSorted.length >= 5) {
+      estimates.push(percentile(ctx.costsSorted, cost) * 100)
+    }
+    const dpPrice = dianpingFor(cafe)?.avgPrice
+    const dpSorted = ctx.dpPricesSorted ?? []
+    if (typeof dpPrice === 'number' && dpPrice > 0 && dpSorted.length >= 5) {
+      estimates.push(percentile(dpSorted, dpPrice) * 100)
+    }
+    if (estimates.length) {
+      s.spend = clamp(
+        Math.round(estimates.reduce((a, b) => a + b, 0) / estimates.length),
+      )
+    }
   }
 
   // linger ← seats + opening span + archetype. A standing bar caps linger:
@@ -150,6 +202,10 @@ export function structuredSignals(
     if (tags.has('books')) v -= 12
     if (tags.has('no-laptops')) v += 5
     if (span >= 14) v += 5
+    // A mild popularity nudge: a heavily-reviewed, well-rated room runs a
+    // little hotter than its architecture alone suggests.
+    const trust = dianpingTrust(dianpingFor(cafe))
+    if (trust > 0) v += Math.round((trust - 0.5) * 12)
     s.energy = clamp(Math.round(v))
   }
 
@@ -192,6 +248,7 @@ export function blendAxis(
   editorial: number,
   structured: number | undefined,
   votes: AxisVotes | undefined,
+  trust = 0,
 ): AxisEvidence {
   const n = votes && votes.count > 0 ? votes.count : 0
   const shrink = n / (n + SHRINK_K)
@@ -216,7 +273,10 @@ export function blendAxis(
   // structure roughly doubles it, votes close the remaining gap
   // asymptotically as n grows.
   const base = hasS ? 0.7 : 0.35
-  const confidence = base + (1 - base) * shrink
+  let confidence = base + (1 - base) * shrink
+  // External trust (Dianping rating × review volume) deepens the ink a
+  // little — corroboration, not a new opinion about any axis.
+  if (trust > 0) confidence += (1 - confidence) * 0.25 * trust
 
   return {
     value: clamp(Math.round(num / den)),
@@ -233,12 +293,14 @@ export function blendCafe(
   votes?: CafeVotes,
 ): BlendedAxes {
   const s = structuredSignals(cafe, ctx)
+  const trust = dianpingTrust(dianpingFor(cafe))
   const out = {} as BlendedAxes
   for (const key of AXIS_KEYS) {
     // If workstream 1 already published a blended AxisEvidence on the café,
     // trust it — the data pipeline saw evidence we cannot recompute here.
     const published = cafe.evidence?.axes?.[key]
-    out[key] = published ?? blendAxis(cafe.axes[key], s[key], votes?.[key])
+    out[key] =
+      published ?? blendAxis(cafe.axes[key], s[key], votes?.[key], trust)
   }
   return out
 }

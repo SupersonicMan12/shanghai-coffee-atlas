@@ -1,5 +1,5 @@
 // Tiny node-run tests for the pure functions in src/lib/scoring.ts.
-// Usage: node tools/test-scoring.mjs   (compiles scoring.ts with tsc, then asserts)
+// Usage: node tools/test-scoring.mjs   (bundles scoring.ts with rolldown, then asserts)
 import { execSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
@@ -8,9 +8,11 @@ import assert from 'node:assert/strict'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'tools', '.test-dist')
 
+// Bundle scoring.ts (plus its dianping.json data import) into one ESM file.
 execSync(
-  `npx tsc src/lib/scoring.ts --rootDir src --outDir ${JSON.stringify(dist)} ` +
-    '--module esnext --target es2022 --moduleResolution bundler --skipLibCheck --ignoreConfig',
+  `npx rolldown src/lib/scoring.ts --format esm --file ${JSON.stringify(
+    path.join(dist, 'scoring.mjs'),
+  )}`,
   { cwd: root, stdio: 'inherit' },
 )
 
@@ -21,8 +23,10 @@ const {
   buildContext,
   percentile,
   structuredSignals,
+  parseCountText,
+  dianpingTrust,
   SHRINK_K,
-} = await import(path.join(dist, 'lib', 'scoring.js'))
+} = await import(path.join(dist, 'scoring.mjs'))
 
 const cafe = (over = {}) => ({
   id: 'x',
@@ -128,6 +132,103 @@ test('blendCafe prefers a published AxisEvidence from the data pipeline', () => 
 test('blendAll is memoized on the cafes array identity', () => {
   const cafes = [cafe()]
   assert.equal(blendAll(cafes), blendAll(cafes))
+})
+
+test('parseCountText reads Dianping display counts', () => {
+  assert.equal(parseCountText('8549'), 8549)
+  assert.equal(parseCountText('4万+'), 40000)
+  assert.equal(parseCountText('1.2万'), 12000)
+  assert.equal(parseCountText(undefined), 0)
+  assert.equal(parseCountText(''), 0)
+})
+
+test('dianpingTrust grows with rating and review volume', () => {
+  const dp = (over = {}) => ({
+    shopId: 's',
+    rating: 4.5,
+    reviewCountText: '4万+',
+    fetchedAt: 't',
+    ...over,
+  })
+  const strong = dianpingTrust(dp())
+  const fewer = dianpingTrust(dp({ reviewCountText: '30' }))
+  const worse = dianpingTrust(dp({ rating: 3.0 }))
+  assert.ok(strong > 0 && strong <= 1)
+  assert.ok(fewer < strong)
+  assert.ok(worse < strong)
+  assert.equal(dianpingTrust(undefined), 0)
+  assert.equal(dianpingTrust(dp({ rating: undefined })), 0)
+  assert.equal(dianpingTrust(dp({ reviewCountText: undefined })), 0)
+  // photo count works as a fallback volume proxy
+  assert.ok(
+    dianpingTrust(dp({ reviewCountText: undefined, picCountStr: '10万+' })) > 0,
+  )
+})
+
+test('dianping trust deepens confidence without moving the value', () => {
+  const plain = blendAxis(60, 80, undefined)
+  const trusted = blendAxis(60, 80, undefined, 0.8)
+  assert.equal(trusted.value, plain.value)
+  assert.ok(trusted.confidence > plain.confidence)
+  assert.ok(trusted.confidence <= 1)
+  assert.deepEqual(trusted.sources, plain.sources)
+})
+
+test('dianping avgPrice feeds the spend signal through quantiles', () => {
+  const dp = (price) => ({
+    shopId: 's',
+    avgPrice: price,
+    fetchedAt: 't',
+  })
+  const cafes = [30, 40, 50, 60, 100].map((price, i) =>
+    cafe({ id: `c${i}`, evidence: { dianping: dp(price) } }),
+  )
+  const ctx = buildContext(cafes)
+  assert.equal(ctx.dpPricesSorted.length, 5)
+  const cheap = structuredSignals(cafes[0], ctx)
+  const dear = structuredSignals(cafes[4], ctx)
+  assert.ok(cheap.spend < 50 && dear.spend > 50)
+})
+
+test('amap and dianping spend estimates average when both speak', () => {
+  const mk = (i, cost, price) =>
+    cafe({
+      id: `c${i}`,
+      evidence: {
+        amap: { id: `a${i}`, cost, fetchedAt: 't' },
+        dianping: { shopId: `s${i}`, avgPrice: price, fetchedAt: 't' },
+      },
+    })
+  // Amap says cheapest, Dianping says dearest — the estimate lands between.
+  const cafes = [
+    mk(0, 30, 100),
+    mk(1, 40, 60),
+    mk(2, 50, 50),
+    mk(3, 60, 40),
+    mk(4, 100, 30),
+  ]
+  const ctx = buildContext(cafes)
+  const s = structuredSignals(cafes[0], ctx)
+  assert.ok(s.spend > 10 && s.spend < 90)
+})
+
+test('a popular well-rated room gets a mild energy nudge', () => {
+  const hot = cafe({
+    evidence: {
+      dianping: {
+        shopId: 's',
+        rating: 4.8,
+        reviewCountText: '4万+',
+        fetchedAt: 't',
+      },
+    },
+  })
+  const quiet = cafe()
+  const ctx = { costsSorted: [], dpPricesSorted: [] }
+  const sHot = structuredSignals(hot, ctx)
+  const sQuiet = structuredSignals(quiet, ctx)
+  assert.ok(sHot.energy > sQuiet.energy)
+  assert.ok(sHot.energy - sQuiet.energy <= 8)
 })
 
 console.log(`\n${n} tests passed`)

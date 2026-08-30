@@ -34,6 +34,12 @@ export function Methodology({ onClose }: Props) {
               <span className="zh">高德提供结构化事实：名称、营业时间与人均消费。</span>
             </li>
             <li>
+              <strong>Dianping 大众点评</strong> — public shop pages (the ones
+              Dianping serves to Apple Maps, no login, no scraping walls):
+              star rating, review volume and 人均 spend.
+              <span className="zh">大众点评公开商户页（为 Apple 地图提供的页面，无需登录）：星级、评论量与人均消费。</span>
+            </li>
+            <li>
               <strong>Editorial fieldwork</strong> — we sat in these rooms. The
               five axes start as our considered, subjective read.
               <span className="zh">编辑实地走访——五个维度首先是我们主观但认真的判断。</span>
@@ -84,8 +90,8 @@ n  number of votes 票数          k  = 5`}
             Measured vs. editorial vs. voted <span className="zh">实测 · 编辑 · 投票</span>
           </h3>
           <p>
-            <strong>Measured:</strong> spend from Amap 人均 prices ranked
-            against the whole dataset; linger from seats, opening span and
+            <strong>Measured:</strong> spend from Amap and Dianping 人均
+            prices, each ranked against the whole dataset and averaged; linger from seats, opening span and
             archetype (a standing bar cannot invite you to stay); focus from
             seat count and laptop/no-laptop/books evidence; energy from
             archetype, tags and hours; adventure from menu signals
@@ -94,15 +100,18 @@ n  number of votes 票数          k  = 5`}
             <strong>Voted:</strong> nothing yet; the widget is coming.
           </p>
           <p className="zh">
-            <strong>实测：</strong>价位来自高德人均消费在全数据集中的分位；停留来自座位数、营业时长与店型（立饮吧留不住人）；专注来自座位与“可办公/谢绝电脑/有书”标签；气氛来自店型、标签与时段；风味来自菜单信号（单一产地、自家烘焙、实验室手法）。<strong>编辑：</strong>其余一切——而且我们直说。<strong>投票：</strong>暂无，插件即将上线。
+            <strong>实测：</strong>价位来自高德与大众点评的人均消费在全数据集中的分位，两者取均值；停留来自座位数、营业时长与店型（立饮吧留不住人）；专注来自座位与“可办公/谢绝电脑/有书”标签；气氛来自店型、标签与时段；风味来自菜单信号（单一产地、自家烘焙、实验室手法）。<strong>编辑：</strong>其余一切——而且我们直说。<strong>投票：</strong>暂无，插件即将上线。
           </p>
           <p>
-            Amap star ratings never enter the axes. A 4.8 says “good”, not
-            “good <em>for deep work</em>” — conflating the two is exactly what
-            other maps do wrong.
+            Amap and Dianping star ratings never enter the axes. A 4.8 says
+            “good”, not “good <em>for deep work</em>” — conflating the two is
+            exactly what other maps do wrong. Instead, a café's rating ×
+            review volume deepens our <em>confidence</em> ink and gives the
+            energy axis a mild popularity nudge: a room with forty thousand
+            reviews runs hotter than its architecture alone suggests.
           </p>
           <p className="zh">
-            高德星级从不进入五维评分。4.8 分只说明“好”，并不说明“适合专注工作”——把两者混为一谈正是其他地图的通病。
+            高德与大众点评的星级从不直接进入五维评分。4.8 分只说明“好”，并不说明“适合专注工作”——把两者混为一谈正是其他地图的通病。星级×评论量只用来加深置信度的墨色，并给“气氛”维度一点热度修正：四万条评论的店，总比建筑本身更喧闹一些。
           </p>
         </section>
 
@@ -141,9 +150,10 @@ n  number of votes 票数          k  = 5`}
               <span className="zh">读者投票尚未开始，所以当前的置信度远未到笃定——这是有意为之。</span>
             </li>
             <li>
-              Dianping's richer opinion data is closed; we refuse to scrape it,
-              so the loudest public signal in the city is missing.
-              <span className="zh">大众点评的数据是封闭的；我们拒绝爬取，因此城中最响亮的公共声音在此缺席。</span>
+              Dianping coverage is partial: only shops we could match by name
+              on public pages, read politely and cached — no logins, no
+              captcha bypass, no review text.
+              <span className="zh">大众点评的覆盖是部分的：只收录能在公开页面上按名称匹配到的店，礼貌地读取并缓存——不登录、不绕验证码、不抓评论正文。</span>
             </li>
           </ul>
         </section>
