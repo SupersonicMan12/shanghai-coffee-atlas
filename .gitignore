@@ -25,3 +25,4 @@ dist-ssr
 
 # Overpass extracts (regenerate with tools/build_basemap.py)
 tools/raw/
+tools/.test-dist/

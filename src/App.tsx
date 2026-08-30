@@ -8,6 +8,7 @@ import { Compass } from './components/Compass'
 import { CafeCard } from './components/CafeCard'
 import { CrawlList } from './components/CrawlList'
 import { PassportPanel } from './components/PassportPanel'
+import { Methodology } from './components/Methodology'
 import { QuizModal } from './components/QuizModal'
 import { ResultsStrip } from './components/ResultsStrip'
 import { TaxiCard } from './components/TaxiCard'
@@ -21,10 +22,11 @@ type Lang = 'both' | 'en' | 'zh'
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
 
-function readHash(): { cafe?: string; axes?: Axes; crawl?: string } {
+function readHash(): { cafe?: string; axes?: Axes; crawl?: string; method?: boolean } {
   if (typeof location === 'undefined') return {}
   const h = new URLSearchParams(location.hash.replace(/^#\/?/, ''))
-  const out: { cafe?: string; axes?: Axes; crawl?: string } = {}
+  const out: { cafe?: string; axes?: Axes; crawl?: string; method?: boolean } = {}
+  if (h.has('method')) out.method = true
   const cafe = h.get('cafe')
   if (cafe && byId.has(cafe)) out.cafe = cafe
   const crawl = h.get('crawl')
@@ -56,6 +58,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(initial.cafe ?? null)
   const [crawlId, setCrawlId] = useState<string | null>(initial.crawl ?? null)
   const [quizOpen, setQuizOpen] = useState(false)
+  const [methodOpen, setMethodOpen] = useState(Boolean(initial.method))
   const [taxiFor, setTaxiFor] = useState<Cafe | null>(null)
   const [hourOverride, setHourOverride] = useState<number | null>(null)
   const [lang, setLang] = useState<Lang>('both')
@@ -99,9 +102,10 @@ export default function App() {
     if (compassOn) {
       parts.push(`a=${axes.focus}-${axes.energy}-${axes.linger}-${axes.adventure}-${axes.spend}`)
     }
+    if (methodOpen) parts.push('method')
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, crawlId, compassOn, axes])
+  }, [selectedId, crawlId, compassOn, axes, methodOpen])
 
   useEffect(() => {
     if (!copied) return
@@ -144,6 +148,7 @@ export default function App() {
       const h = readHash()
       setSelectedId(h.cafe ?? null)
       setCrawlId(h.crawl ?? null)
+      setMethodOpen(Boolean(h.method))
       if (h.axes) {
         setAxes(h.axes)
         setCompassOn(true)
@@ -287,6 +292,14 @@ export default function App() {
           </div>
           <button className="ghost" onClick={locate}>
             Where am I?
+          </button>
+          <button
+            className="ghost method-btn"
+            onClick={() => setMethodOpen(true)}
+            aria-label="Methodology 方法说明"
+            title="How the compass is drawn · 方法说明"
+          >
+            ?
           </button>
         </div>
       </header>
@@ -471,6 +484,7 @@ export default function App() {
           }}
         />
       )}
+      {methodOpen && <Methodology onClose={() => setMethodOpen(false)} />}
       {taxiFor && <TaxiCard cafe={taxiFor} onClose={() => setTaxiFor(null)} />}
     </div>
   )

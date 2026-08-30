@@ -1,7 +1,15 @@
 import type { Axes, Cafe } from '../data/types'
+import { CAFES } from '../data/cafes'
 import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
+import { blendAll } from '../lib/scoring'
 import { formatHour } from '../lib/palette'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
+
+const SOURCE_WORD = {
+  editorial: 'editorial 编辑',
+  measured: 'measured 实测',
+  voted: 'voted 读者',
+} as const
 
 interface Props {
   cafe: Cafe
@@ -43,6 +51,7 @@ export function CafeCard({
   shared,
 }: Props) {
   const open = isOpenAt(cafe, hour)
+  const blended = blendAll(CAFES).get(cafe.id)
   return (
     <aside className="card" key={cafe.id}>
       <button className="card-close" onClick={onClose} aria-label="Close">
@@ -103,19 +112,31 @@ export function CafeCard({
 
       <div className="card-axes">
         {AXES.map((a) => {
-          const v = cafe.axes[a.key]
+          const ev = blended?.[a.key]
+          const v = ev?.value ?? cafe.axes[a.key]
+          const conf = ev?.confidence ?? 0.35
           const w = want[a.key]
+          const title = ev
+            ? `${Math.round(conf * 100)}% confidence · ${ev.sources.map((s) => SOURCE_WORD[s]).join(' + ')}`
+            : undefined
           return (
-            <div key={a.key} className="card-axis">
+            <div key={a.key} className="card-axis" title={title}>
               <span className="ca-name">{a.label}</span>
               <span className="ca-track">
-                <span className="ca-fill" style={{ width: `${v}%` }} />
+                <span
+                  className={`ca-fill${conf < 0.5 ? ' sketch' : ''}`}
+                  style={{ width: `${v}%`, opacity: 0.35 + conf * 0.65 }}
+                />
                 {compassOn && <span className="ca-want" style={{ left: `${w}%` }} />}
               </span>
               <span className="ca-word">{v > 66 ? a.high : v < 34 ? a.low : '—'}</span>
             </div>
           )
         })}
+        <div className="axes-legend">
+          <span className="al-swatch solid" /> well-evidenced 有据
+          <span className="al-swatch faint" /> editorial guess 编辑判断
+        </div>
       </div>
 
       <div className="card-tags">
