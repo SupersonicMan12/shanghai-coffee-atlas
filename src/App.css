@@ -1541,3 +1541,150 @@
     width: auto;
   }
 }
+
+/* -------------------------------------------- confidence ink & method --- */
+
+.ca-fill.sketch {
+  background: repeating-linear-gradient(
+    100deg,
+    color-mix(in srgb, var(--ink) 45%, transparent) 0 4px,
+    color-mix(in srgb, var(--ink) 18%, transparent) 4px 7px
+  );
+}
+
+.axes-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 7px;
+  font-size: 10px;
+  opacity: 0.62;
+}
+
+.al-swatch {
+  display: inline-block;
+  width: 18px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.al-swatch.solid {
+  background: color-mix(in srgb, var(--ink) 78%, transparent);
+}
+
+.al-swatch.faint {
+  margin-left: 10px;
+  opacity: 0.45;
+  background: repeating-linear-gradient(
+    100deg,
+    color-mix(in srgb, var(--ink) 45%, transparent) 0 4px,
+    color-mix(in srgb, var(--ink) 18%, transparent) 4px 7px
+  );
+}
+
+.method-btn {
+  min-width: 30px;
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+.method {
+  position: relative;
+  width: min(680px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  box-shadow: 10px 12px 0 rgb(0 0 0 / 0.25);
+  padding: 28px 32px 24px;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.method-kicker {
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.method h2 {
+  margin: 6px 0 2px;
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.method-zh {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 6px;
+}
+
+.method section {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed color-mix(in srgb, var(--ink) 30%, transparent);
+}
+
+.method h3 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 16.5px;
+  font-weight: 700;
+}
+
+.method h3 .zh {
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.6;
+  margin-left: 8px;
+}
+
+.method p {
+  margin: 0 0 8px;
+}
+
+.method p.zh,
+.method li .zh,
+.method .method-foot .zh {
+  display: block;
+  opacity: 0.72;
+  font-size: 12.5px;
+}
+
+.method ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.method li {
+  margin-bottom: 7px;
+}
+
+.method-formula {
+  margin: 10px 0;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+  box-shadow: 3px 4px 0 color-mix(in srgb, var(--ink) 12%, transparent);
+}
+
+.method code {
+  font-size: 12px;
+  padding: 0 3px;
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+.method-foot {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  font-family: var(--serif);
+  font-style: italic;
+}

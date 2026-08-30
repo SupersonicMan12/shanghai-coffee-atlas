@@ -1,4 +1,5 @@
 import type { Axes, Cafe, Tag } from '../data/types'
+import { blendAll, type BlendedAxes, type CafeVotes } from './scoring'
 
 /**
  * The compass. Five axes, each a spectrum rather than a checkbox, because the
@@ -115,13 +116,19 @@ export function passesFilters(cafe: Cafe, f: Filters): boolean {
  * has to cost something, or every café in the city sits in the nineties and the
  * compass feels dead.
  */
-export function matchScore(cafe: Cafe, want: Axes, weights: Weights = EVEN_WEIGHTS): number {
+export function matchScore(
+  cafe: Cafe,
+  want: Axes,
+  weights: Weights = EVEN_WEIGHTS,
+  blended?: BlendedAxes,
+): number {
   let total = 0
   let used = 0
   for (const { key } of AXES) {
     const w = weights[key]
     if (w <= 0) continue
-    const d = Math.abs(cafe.axes[key] - want[key]) / 100
+    const v = blended?.[key]?.value ?? cafe.axes[key]
+    const d = Math.abs(v - want[key]) / 100
     total += w * (1 - d ** 0.72)
     used += w
   }
@@ -139,10 +146,12 @@ export function rank(
   want: Axes,
   filters: Filters,
   weights?: Weights,
+  votes?: ReadonlyMap<string, CafeVotes>,
 ): Ranked[] {
+  const blends = blendAll(cafes, votes)
   return cafes
     .filter((c) => passesFilters(c, filters))
-    .map((cafe) => ({ cafe, score: matchScore(cafe, want, weights) }))
+    .map((cafe) => ({ cafe, score: matchScore(cafe, want, weights, blends.get(cafe.id)) }))
     .sort((a, b) => b.score - a.score || a.cafe.name.localeCompare(b.cafe.name))
 }
 
