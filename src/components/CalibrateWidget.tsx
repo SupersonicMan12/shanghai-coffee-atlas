@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import type { Axes, Cafe } from '../data/types'
 import { useMyVote } from '../lib/votes'
+import { UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 /**
  * "Calibrate the compass" — thirty seconds, five one-tap questions, one per
@@ -69,6 +71,8 @@ const QUESTIONS: Question[] = [
 ]
 
 export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
+  const { mode, t } = useI18n()
+  const zh = mode === 'zh'
   const { mine, cast, retract, count } = useMyVote(cafe.id)
   const [open, setOpen] = useState(false)
   const [answers, setAnswers] = useState<Partial<Axes>>({})
@@ -82,17 +86,22 @@ export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
     return (
       <div className="calibrate">
         <button className="cal-open" onClick={() => setOpen(true)}>
-          {mine ? 'Recalibrate the compass' : 'Calibrate the compass'}
-          <span className="zh"> · {mine ? '重新校准罗盘' : '校准罗盘'}</span>
+          {mine ? t(UI.recalibrate) : t(UI.calibrate)}
+          {mode === 'both' && (
+            <span className="zh"> · {mine ? '重新校准罗盘' : '校准罗盘'}</span>
+          )}
         </button>
         {mine && (
           <span className="cal-state">
-            calibrated by you <span className="zh">· 你已校准</span>
+            {t(UI.calibratedByYou)}
+            {mode === 'both' && <span className="zh">· 你已校准</span>}
           </span>
         )}
         {count > 0 && (
           <span className="cal-count">
-            {count} {count === 1 ? 'reading' : 'readings'} on file
+            {zh
+              ? `${count} ${t(UI.readingsOnFile)}`
+              : `${count} ${count === 1 ? t(UI.readingOnFile) : t(UI.readingsOnFile)}`}
           </span>
         )}
       </div>
@@ -103,17 +112,19 @@ export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
     <div className="calibrate open">
       <div className="cal-head">
         <strong>
-          Calibrate the compass <span className="zh">· 校准罗盘</span>
+          {t(UI.calibrate)}
+          {mode === 'both' && <span className="zh"> · 校准罗盘</span>}
         </strong>
         <span className="cal-sub">
-          Five taps, thirty seconds — you were there, we were guessing.
-          <span className="zh"> 五个问题，三十秒。</span>
+          {t(UI.calibrateSub)}
+          {mode === 'both' && <span className="zh"> 五个问题，三十秒。</span>}
         </span>
       </div>
       {QUESTIONS.map((question) => (
         <div key={question.key} className="cal-q">
           <div className="cal-question">
-            {question.q} <span className="zh">{question.qZh}</span>
+            {zh ? question.qZh : question.q}
+            {mode === 'both' && <span className="zh"> {question.qZh}</span>}
           </div>
           <div className="cal-options">
             {question.options.map((o) => {
@@ -131,8 +142,8 @@ export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
                     })
                   }
                 >
-                  {o.label}
-                  <span className="zh">{o.labelZh}</span>
+                  {zh ? o.labelZh : o.label}
+                  {mode === 'both' && <span className="zh">{o.labelZh}</span>}
                 </button>
               )
             })}
@@ -154,7 +165,11 @@ export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
             setAnswers({})
           }}
         >
-          {answered === 0 ? 'Tap an answer first' : `File ${answered} of 5 · 提交`}
+          {answered === 0
+            ? t(UI.tapAnswerFirst)
+            : zh
+              ? `提交 ${answered}/5`
+              : `${t(UI.fileAnswers)} ${answered} ${t(UI.ofFive)}${mode === 'both' ? ' · 提交' : ''}`}
         </button>
         <button
           className="cal-cancel"
@@ -163,11 +178,11 @@ export function CalibrateWidget({ cafe }: { cafe: Cafe }) {
             setAnswers({})
           }}
         >
-          Not now
+          {t(UI.notNow)}
         </button>
         {mine && (
           <button className="cal-cancel" onClick={() => retract()}>
-            Withdraw my vote
+            {t(UI.withdrawVote)}
           </button>
         )}
       </div>

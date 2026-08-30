@@ -92,6 +92,24 @@ export const EMPTY_FILTERS: Filters = {
   query: '',
 }
 
+/** Lowercase and drop spaces/punctuation so “% Arabica” matches “arabica”. */
+export function normalizeQuery(s: string): string {
+  return s.toLowerCase().replace(/[\s\p{P}\p{S}]+/gu, '')
+}
+
+const hayCache = new WeakMap<Cafe, string>()
+
+export function searchHay(cafe: Cafe): string {
+  let hay = hayCache.get(cafe)
+  if (hay === undefined) {
+    hay = normalizeQuery(
+      `${cafe.name} ${cafe.nameZh} ${cafe.street} ${cafe.streetZh} ${cafe.hood} ${cafe.district} ${cafe.signature}`,
+    )
+    hayCache.set(cafe, hay)
+  }
+  return hay
+}
+
 export function isOpenAt(cafe: Cafe, hour: number): boolean {
   const close = cafe.closes <= cafe.opens ? cafe.closes + 24 : cafe.closes
   const h = hour < cafe.opens ? hour + 24 : hour
@@ -104,8 +122,8 @@ export function passesFilters(cafe: Cafe, f: Filters): boolean {
   if (f.maxPrice !== null && cafe.price > f.maxPrice) return false
   if (f.openAt !== null && !isOpenAt(cafe, f.openAt)) return false
   if (f.query.trim()) {
-    const q = f.query.trim().toLowerCase()
-    const hay = `${cafe.name} ${cafe.nameZh} ${cafe.street} ${cafe.streetZh} ${cafe.hood} ${cafe.district} ${cafe.signature}`.toLowerCase()
+    const q = normalizeQuery(f.query)
+    const hay = searchHay(cafe)
     if (!hay.includes(q)) return false
   }
   return true
@@ -141,6 +159,26 @@ export interface Ranked {
   score: number
 }
 
+let blendCacheCafes: Cafe[] | null = null
+let blendCacheVotes: ReadonlyMap<string, CafeVotes> | undefined
+let blendCache: Map<string, BlendedAxes> | null = null
+
+/**
+ * blendAll is pure in (cafes, votes) and both are referentially stable in the
+ * app, so one cached result survives an entire slider drag.
+ */
+export function blendAllMemo(
+  cafes: Cafe[],
+  votes?: ReadonlyMap<string, CafeVotes>,
+): Map<string, BlendedAxes> {
+  if (!blendCache || blendCacheCafes !== cafes || blendCacheVotes !== votes) {
+    blendCache = blendAll(cafes, votes)
+    blendCacheCafes = cafes
+    blendCacheVotes = votes
+  }
+  return blendCache
+}
+
 export function rank(
   cafes: Cafe[],
   want: Axes,
@@ -148,7 +186,7 @@ export function rank(
   weights?: Weights,
   votes?: ReadonlyMap<string, CafeVotes>,
 ): Ranked[] {
-  const blends = blendAll(cafes, votes)
+  const blends = blendAllMemo(cafes, votes)
   return cafes
     .filter((c) => passesFilters(c, filters))
     .map((cafe) => ({ cafe, score: matchScore(cafe, want, weights, blends.get(cafe.id)) }))

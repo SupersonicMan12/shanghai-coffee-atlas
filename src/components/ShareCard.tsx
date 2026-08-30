@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import QRCode from 'qrcode'
 import type { Archetype, Cafe } from '../data/types'
 import { scoreVerdict } from '../lib/match'
-import { ARCHETYPE_LABEL, DISTRICT_ZH } from '../data/labels'
+import { ARCHETYPE_LABEL, DISTRICT_ZH, UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 /**
  * Share cards for WeChat. Everything is drawn client-side onto a canvas and
@@ -281,38 +282,49 @@ async function drawTaxiCard(cafe: Cafe): Promise<string> {
 }
 
 export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
-  const [dataUrl, setDataUrl] = useState<string | null>(null)
-  const [error, setError] = useState(false)
-  const run = useRef(0)
+  const { mode, t } = useI18n()
+  const [result, setResult] = useState<{
+    cafe: Cafe
+    kind: ShareKind
+    url: string | null
+    error: boolean
+  } | null>(null)
 
   useEffect(() => {
-    const id = ++run.current
-    setDataUrl(null)
-    setError(false)
+    let stale = false
     const draw = kind === 'taxi' ? drawTaxiCard(cafe) : drawCafeCard(cafe, score)
     draw
       .then((url) => {
-        if (run.current === id) setDataUrl(url)
+        if (!stale) setResult({ cafe, kind, url, error: false })
       })
       .catch(() => {
-        if (run.current === id) setError(true)
+        if (!stale) setResult({ cafe, kind, url: null, error: true })
       })
+    return () => {
+      stale = true
+    }
   }, [cafe, kind, score])
+
+  const current = result && result.cafe === cafe && result.kind === kind ? result : null
+  const dataUrl = current?.url ?? null
+  const error = current?.error ?? false
 
   return (
     <div className="modal-scrim" onClick={onClose}>
       <div className="sharecard" onClick={(e) => e.stopPropagation()}>
         <div className="sc-head">
           <strong>
-            {kind === 'taxi' ? 'Taxi card as an image' : 'Share card'}
-            <span className="zh"> · {kind === 'taxi' ? '出租车卡图片' : '分享卡片'}</span>
+            {kind === 'taxi' ? t(UI.taxiCardImage) : t(UI.shareCard)}
+            {mode === 'both' && (
+              <span className="zh"> · {kind === 'taxi' ? '出租车卡图片' : '分享卡片'}</span>
+            )}
           </strong>
-          <button className="card-close" onClick={onClose} aria-label="Close">
+          <button className="card-close" onClick={onClose} aria-label={t(UI.close)}>
             ×
           </button>
         </div>
-        {error && <p className="sc-hint">The inkwell ran dry — try again.</p>}
-        {!dataUrl && !error && <p className="sc-hint">Inking…</p>}
+        {error && <p className="sc-hint">{t(UI.inkwellDry)}</p>}
+        {!dataUrl && !error && <p className="sc-hint">{t(UI.inking)}</p>}
         {dataUrl && (
           <>
             <img
@@ -321,14 +333,16 @@ export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
               alt={`${cafe.name} ${kind === 'taxi' ? 'taxi card' : 'share card'}`}
             />
             <p className="sc-hint">
-              Long-press the image to save · 长按图片保存到相册
+              {t(UI.longPressSave)}
+              {mode === 'both' && ' · 长按图片保存到相册'}
             </p>
             <a
               className="sc-save"
               href={dataUrl}
               download={`${cafe.id}-${kind === 'taxi' ? 'taxi' : 'share'}.png`}
             >
-              Save image · 保存图片
+              {t(UI.saveImage)}
+              {mode === 'both' && ' · 保存图片'}
             </a>
           </>
         )}

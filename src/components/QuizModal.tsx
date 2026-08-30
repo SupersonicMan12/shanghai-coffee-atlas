@@ -2,6 +2,8 @@ import { useState } from 'react'
 import type { Axes } from '../data/types'
 import { QUIZ, axesFromAnswers, characterFor } from '../lib/quiz'
 import { AXES } from '../lib/match'
+import { UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 interface Props {
   onClose: () => void
@@ -9,6 +11,8 @@ interface Props {
 }
 
 export function QuizModal({ onClose, onApply }: Props) {
+  const { mode, t } = useI18n()
+  const zh = mode === 'zh'
   const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState<Record<string, string>>({})
   const done = step >= QUIZ.length
@@ -19,14 +23,14 @@ export function QuizModal({ onClose, onApply }: Props) {
     return (
       <div className="modal-scrim" onClick={onClose}>
         <div className="quiz result" onClick={(e) => e.stopPropagation()}>
-          <div className="quiz-kicker">You are</div>
-          <h2>{character.name}</h2>
-          <div className="zh quiz-zh">{character.nameZh}</div>
+          <div className="quiz-kicker">{t(UI.youAre)}</div>
+          <h2>{zh ? character.nameZh : character.name}</h2>
+          {mode === 'both' && <div className="zh quiz-zh">{character.nameZh}</div>}
           <p className="quiz-line">{character.line}</p>
           <div className="quiz-axes">
             {AXES.map((a) => (
               <div key={a.key} className="quiz-axis">
-                <span>{a.label}</span>
+                <span>{zh ? a.labelZh : a.label}</span>
                 <span className="qa-track">
                   <span className="qa-dot" style={{ left: `${axes[a.key]}%` }} />
                 </span>
@@ -42,7 +46,7 @@ export function QuizModal({ onClose, onApply }: Props) {
                 onClose()
               }}
             >
-              Repaint the map for me
+              {t(UI.repaintMap)}
             </button>
             <button
               className="link"
@@ -51,7 +55,7 @@ export function QuizModal({ onClose, onApply }: Props) {
                 setStep(0)
               }}
             >
-              Start again
+              {t(UI.startAgain)}
             </button>
           </div>
         </div>
@@ -69,10 +73,12 @@ export function QuizModal({ onClose, onApply }: Props) {
           ))}
         </div>
         <div className="quiz-kicker">
-          Question {step + 1} of {QUIZ.length}
+          {zh
+            ? `第 ${step + 1} 题，共 ${QUIZ.length} 题`
+            : `Question ${step + 1} of ${QUIZ.length}`}
         </div>
-        <h2>{q.prompt}</h2>
-        <div className="zh quiz-zh">{q.promptZh}</div>
+        <h2>{zh ? q.promptZh : q.prompt}</h2>
+        {mode === 'both' && <div className="zh quiz-zh">{q.promptZh}</div>}
         <div className="quiz-options">
           {q.options.map((o) => (
             <button
@@ -83,19 +89,19 @@ export function QuizModal({ onClose, onApply }: Props) {
                 setStep((s) => s + 1)
               }}
             >
-              <span>{o.label}</span>
-              <span className="zh">{o.labelZh}</span>
+              <span>{zh ? o.labelZh : o.label}</span>
+              {mode === 'both' && <span className="zh">{o.labelZh}</span>}
             </button>
           ))}
         </div>
         <div className="quiz-actions">
           {step > 0 && (
             <button className="link" onClick={() => setStep((s) => s - 1)}>
-              Back
+              {t(UI.back)}
             </button>
           )}
           <button className="link" onClick={onClose}>
-            Skip the quiz
+            {t(UI.skipQuiz)}
           </button>
         </div>
       </div>

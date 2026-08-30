@@ -1,17 +1,26 @@
 import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
-import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
-import { blendAll } from '../lib/scoring'
+import { AXES, blendAllMemo, isOpenAt, scoreVerdict } from '../lib/match'
 import { useCafeVotes } from '../lib/votes'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { formatHour } from '../lib/palette'
-import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
+import {
+  ARCHETYPE_LABEL,
+  AXIS_ENDS_ZH,
+  CLOSENESS_ZH,
+  DISTRICT_ZH,
+  TAG_LABEL,
+  TAG_ZH,
+  UI,
+  VERDICT_ZH,
+} from '../data/labels'
+import { useI18n } from '../lib/i18n'
 import { CalibrateWidget } from './CalibrateWidget'
 
 const SOURCE_WORD = {
-  editorial: 'editorial 编辑',
-  measured: 'measured 实测',
-  voted: 'voted 读者',
+  editorial: { en: 'editorial', zh: '编辑', both: 'editorial 编辑' },
+  measured: { en: 'measured', zh: '实测', both: 'measured 实测' },
+  voted: { en: 'voted', zh: '读者', both: 'voted 读者' },
 } as const
 
 interface Props {
@@ -58,36 +67,50 @@ export function CafeCard({
   shared,
 }: Props) {
   const open = isOpenAt(cafe, hour)
+  const { mode, t } = useI18n()
+  const zh = mode === 'zh'
   const cafeVotes = useCafeVotes()
-  const blended = blendAll(CAFES, cafeVotes).get(cafe.id)
+  const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
   const toClose = minutesToClose(cafe, hour)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   return (
     <aside className="card" key={cafe.id}>
-      <button className="card-close" onClick={onClose} aria-label="Close">
+      <button className="card-close" onClick={onClose} aria-label={t(UI.close)}>
         ×
       </button>
 
       <div className="card-kicker">
-        {ARCHETYPE_LABEL[cafe.archetype].en}
-        <span className="zh"> · {ARCHETYPE_LABEL[cafe.archetype].zh}</span>
+        {zh ? ARCHETYPE_LABEL[cafe.archetype].zh : ARCHETYPE_LABEL[cafe.archetype].en}
+        {mode === 'both' && <span className="zh"> · {ARCHETYPE_LABEL[cafe.archetype].zh}</span>}
       </div>
       <h2>{cafe.name}</h2>
       <div className="card-zh zh">{cafe.nameZh}</div>
 
       <div className="card-where">
-        {cafe.street} · {cafe.hood} · {cafe.district}
-        <span className="zh">
-          {' '}
-          / {cafe.streetZh} · {DISTRICT_ZH[cafe.district]}
-        </span>
+        {zh ? (
+          <>
+            {cafe.streetZh} · {DISTRICT_ZH[cafe.district]}
+          </>
+        ) : (
+          <>
+            {cafe.street} · {cafe.hood} · {cafe.district}
+          </>
+        )}
+        {mode === 'both' && (
+          <span className="zh">
+            {' '}
+            / {cafe.streetZh} · {DISTRICT_ZH[cafe.district]}
+          </span>
+        )}
       </div>
 
       {compassOn && score !== null && (
         <div className="card-score">
           <span className="score-num">{score}</span>
-          <span className="score-verdict">{scoreVerdict(score)}</span>
-          <span className="score-note">against your compass</span>
+          <span className="score-verdict">
+            {zh ? VERDICT_ZH[scoreVerdict(score)] ?? scoreVerdict(score) : scoreVerdict(score)}
+          </span>
+          <span className="score-note">{t(UI.againstCompass)}</span>
         </div>
       )}
 
@@ -96,30 +119,44 @@ export function CafeCard({
 
       <div className="card-facts">
         <div>
-          <dt>Hours</dt>
+          <dt>{t(UI.hoursWord)}</dt>
           <dd>
             {hours(cafe)}{' '}
             <em className={open ? 'open' : 'shut'}>
-              {open ? `open at ${formatHour(hour)}` : `shut at ${formatHour(hour)}`}
+              {open
+                ? `${t(UI.openAtHour)} ${formatHour(hour)}`
+                : `${t(UI.shutAtHour)} ${formatHour(hour)}`}
             </em>
             {closingSoon && (
-              <em className="closing-soon">closes in {toClose} min 快打烊</em>
+              <em className="closing-soon">
+                {zh ? `还有 ${toClose} 分钟打烊` : `closes in ${toClose} min`}
+                {mode === 'both' && ' 快打烊'}
+              </em>
             )}
           </dd>
         </div>
         <div>
-          <dt>Seats</dt>
-          <dd>{cafe.seats === 0 ? 'None — standing' : `about ${cafe.seats}`}</dd>
+          <dt>{t(UI.seatsWord)}</dt>
+          <dd>
+            {cafe.seats === 0
+              ? t(UI.seatsNone)
+              : zh
+                ? `${t(UI.seatsAbout)} ${cafe.seats} 个`
+                : `${t(UI.seatsAbout)} ${cafe.seats}`}
+          </dd>
         </div>
         <div>
-          <dt>Spend</dt>
+          <dt>{t(UI.spendWord)}</dt>
           <dd>{'¥'.repeat(cafe.price)}</dd>
         </div>
         {distanceMinutes !== null && (
           <div>
             <dt>{distanceFrom}</dt>
             <dd>
-              {distanceMinutes} min walk · {closenessWord(distanceMinutes)}
+              {distanceMinutes} {t(UI.minWalk)} ·{' '}
+              {zh
+                ? CLOSENESS_ZH[closenessWord(distanceMinutes)] ?? closenessWord(distanceMinutes)
+                : closenessWord(distanceMinutes)}
             </dd>
           </div>
         )}
@@ -132,11 +169,13 @@ export function CafeCard({
           const conf = ev?.confidence ?? 0.35
           const w = want[a.key]
           const title = ev
-            ? `${Math.round(conf * 100)}% confidence · ${ev.sources.map((s) => SOURCE_WORD[s]).join(' + ')}`
+            ? `${Math.round(conf * 100)}% ${zh ? UI.confidence.zh : UI.confidence.en} · ${ev.sources
+                .map((s) => (mode === 'both' ? SOURCE_WORD[s].both : SOURCE_WORD[s][mode]))
+                .join(' + ')}`
             : undefined
           return (
             <div key={a.key} className="card-axis" title={title}>
-              <span className="ca-name">{a.label}</span>
+              <span className="ca-name">{zh ? a.labelZh : a.label}</span>
               <span className="ca-track">
                 <span
                   className={`ca-fill${conf < 0.5 ? ' sketch' : ''}`}
@@ -144,42 +183,56 @@ export function CafeCard({
                 />
                 {compassOn && <span className="ca-want" style={{ left: `${w}%` }} />}
               </span>
-              <span className="ca-word">{v > 66 ? a.high : v < 34 ? a.low : '—'}</span>
+              <span className="ca-word">
+                {v > 66
+                  ? zh
+                    ? AXIS_ENDS_ZH[a.key]?.high ?? a.high
+                    : a.high
+                  : v < 34
+                    ? zh
+                      ? AXIS_ENDS_ZH[a.key]?.low ?? a.low
+                      : a.low
+                    : '—'}
+              </span>
             </div>
           )
         })}
         <div className="axes-legend">
-          <span className="al-swatch solid" /> well-evidenced 有据
-          <span className="al-swatch faint" /> editorial guess 编辑判断
+          <span className="al-swatch solid" /> {t(UI.wellEvidenced)}
+          {mode === 'both' && ' 有据'}
+          <span className="al-swatch faint" /> {t(UI.editorialGuess)}
+          {mode === 'both' && ' 编辑判断'}
         </div>
       </div>
 
       <div className="card-tags">
-        {cafe.tags.map((t) => (
-          <span key={t} className="tag">
-            {TAG_LABEL[t] ?? t}
+        {cafe.tags.map((tag) => (
+          <span key={tag} className="tag">
+            {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
           </span>
         ))}
       </div>
 
       <div className="card-actions">
         <button className={`act${visited ? ' on' : ''}`} onClick={onStamp}>
-          {visited ? 'Stamped' : 'Stamp as visited'}
+          {visited ? t(UI.stamped) : t(UI.stampVisited)}
         </button>
         <button className={`act${saved ? ' on' : ''}`} onClick={onSave}>
-          {saved ? 'On your list' : 'Save for later'}
+          {saved ? t(UI.onYourList) : t(UI.saveForLater)}
         </button>
         <button className="act" onClick={onTaxi}>
-          Taxi card 出租车卡
+          {t(UI.taxiCard)}
+          {mode === 'both' && ' 出租车卡'}
         </button>
         <button className="act" onClick={onMoreLikeThis}>
-          More like this
+          {t(UI.moreLikeThis)}
         </button>
         <button className="act" onClick={onShare}>
-          {shared ? 'Link copied' : 'Share'}
+          {shared ? t(UI.linkCopied) : t(UI.share)}
         </button>
         <button className="act" onClick={onShareCard}>
-          Share card 分享卡片
+          {t(UI.shareCard)}
+          {mode === 'both' && ' 分享卡片'}
         </button>
       </div>
 

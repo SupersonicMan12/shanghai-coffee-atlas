@@ -2,6 +2,8 @@ import type { Cafe, Crawl } from '../data/types'
 import { CRAWLS } from '../data/crawls'
 import { haversine, walkingMinutes } from '../lib/projection'
 import { formatHour } from '../lib/palette'
+import { UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 interface Props {
   cafesById: Map<string, Cafe>
@@ -24,13 +26,11 @@ function totals(crawl: Crawl, byId: Map<string, Cafe>) {
 }
 
 export function CrawlList({ cafesById, activeId, onActivate, onSelectCafe, visited }: Props) {
+  const { mode, t } = useI18n()
+  const zh = mode === 'zh'
   return (
     <div className="panel-body">
-      <p className="section-note">
-        Seven arguments for walking. Each crawl is a running order, not a shortest path —
-        the point is which room you are in at which hour. Tap one and the atlas inks the
-        route.
-      </p>
+      <p className="section-note">{t(UI.crawlsNote)}</p>
 
       {CRAWLS.map((crawl) => {
         const { stops, walk, total } = totals(crawl, cafesById)
@@ -40,13 +40,17 @@ export function CrawlList({ cafesById, activeId, onActivate, onSelectCafe, visit
           <div key={crawl.id} className={`crawl${active ? ' on' : ''}`}>
             <button className="crawl-head" onClick={() => onActivate(active ? null : crawl.id)}>
               <span className="crawl-name">
-                {crawl.name} <span className="zh">{crawl.nameZh}</span>
+                {zh ? crawl.nameZh : crawl.name}
+                {mode === 'both' && <span className="zh"> {crawl.nameZh}</span>}
               </span>
               <span className="crawl-sub">{crawl.subtitle}</span>
               <span className="crawl-meta">
-                {stops.length} stops · {walk} min walking · about {Math.round(total / 60 * 10) / 10} h
-                {' · '}start {formatHour(crawl.startHour)}
-                {done > 0 && ` · ${done}/${stops.length} stamped`}
+                {zh
+                  ? `${stops.length} 站 · 步行 ${walk} 分钟 · 约 ${Math.round((total / 60) * 10) / 10} 小时`
+                  : `${stops.length} stops · ${walk} min walking · about ${Math.round((total / 60) * 10) / 10} h`}
+                {' · '}
+                {t(UI.startWord)} {formatHour(crawl.startHour)}
+                {done > 0 && ` · ${done}/${stops.length} ${t(UI.stampedWord)}`}
               </span>
             </button>
             {active && (
@@ -62,7 +66,8 @@ export function CrawlList({ cafesById, activeId, onActivate, onSelectCafe, visit
                           <span className="cs-n">{i + 1}</span>
                           <span className="cs-main">
                             <span className="cs-name">
-                              {cafe.name} <span className="zh">{cafe.nameZh}</span>
+                              {zh ? cafe.nameZh : cafe.name}
+                              {mode === 'both' && <span className="zh"> {cafe.nameZh}</span>}
                             </span>
                             <span className="cs-order">{s.order}</span>
                             <span className="cs-where">{cafe.street}</span>

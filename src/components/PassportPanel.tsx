@@ -1,6 +1,8 @@
 import type { Cafe } from '../data/types'
 import { badgesFor, type Stamp } from '../lib/passport'
 import { Glyph } from './Glyphs'
+import { UI } from '../data/labels'
+import { useI18n } from '../lib/i18n'
 
 interface Props {
   cafes: Cafe[]
@@ -21,6 +23,8 @@ export function PassportPanel({
   onShare,
   shared,
 }: Props) {
+  const { mode, t } = useI18n()
+  const zh = mode === 'zh'
   const byId = new Map(cafes.map((c) => [c.id, c]))
   const badges = badgesFor(stamps, cafes)
   const earned = badges.filter((b) => b.earned).length
@@ -31,37 +35,38 @@ export function PassportPanel({
 
   return (
     <div className="panel-body">
-      <p className="section-note">
-        The passport lives in this browser and nowhere else — no account, no server, no
-        one selling your morning routine. Stamp a café from its card and it inks itself
-        onto the map.
-      </p>
+      <p className="section-note">{t(UI.passportNote)}</p>
 
       <div className="passport-stat">
         <div>
           <strong>{stamps.length}</strong>
-          <span>of {cafes.length} stamped</span>
+          <span>
+            {zh ? `共 ${cafes.length} ${t(UI.ofStamped)}` : `of ${cafes.length} ${t(UI.ofStamped)}`}
+          </span>
         </div>
         <div>
           <strong>{earned}</strong>
-          <span>of {badges.length} badges</span>
+          <span>
+            {zh ? `共 ${badges.length} ${t(UI.ofBadges)}` : `of ${badges.length} ${t(UI.ofBadges)}`}
+          </span>
         </div>
         <div>
           <strong>{saved.length}</strong>
-          <span>on the list</span>
+          <span>{t(UI.onTheList)}</span>
         </div>
       </div>
 
       <div className="section">
         <div className="section-head">
-          <h3>Badges</h3>
-          <span className="zh">徽章</span>
+          <h3>{t(UI.badgesWord)}</h3>
+          {mode === 'both' && <span className="zh">徽章</span>}
         </div>
         <ul className="badges">
           {badges.map((b) => (
             <li key={b.id} className={b.earned ? 'earned' : ''}>
               <span className="badge-name">
-                {b.name} <span className="zh">{b.nameZh}</span>
+                {zh ? b.nameZh : b.name}
+                {mode === 'both' && <span className="zh"> {b.nameZh}</span>}
               </span>
               <span className="badge-hint">{b.hint}</span>
               <span className="badge-bar">
@@ -78,8 +83,8 @@ export function PassportPanel({
       {saved.length > 0 && (
         <div className="section">
           <div className="section-head">
-            <h3>Saved for later</h3>
-            <span className="zh">待去</span>
+            <h3>{t(UI.savedForLater)}</h3>
+            {mode === 'both' && <span className="zh">待去</span>}
           </div>
           <ul className="mini-list">
             {saved.map((id) => {
@@ -88,8 +93,9 @@ export function PassportPanel({
               return (
                 <li key={id}>
                   <button onClick={() => onSelectCafe(id)}>
-                    {cafe.name} <span className="zh">{cafe.nameZh}</span>
-                    <em>{cafe.street}</em>
+                    {zh ? cafe.nameZh : cafe.name}
+                    {mode === 'both' && <span className="zh"> {cafe.nameZh}</span>}
+                    <em>{zh ? cafe.streetZh : cafe.street}</em>
                   </button>
                 </li>
               )
@@ -100,14 +106,11 @@ export function PassportPanel({
 
       <div className="section">
         <div className="section-head">
-          <h3>Your stamps</h3>
-          <span className="zh">已打卡</span>
+          <h3>{t(UI.yourStamps)}</h3>
+          {mode === 'both' && <span className="zh">已打卡</span>}
         </div>
         {visited.length === 0 ? (
-          <p className="empty">
-            Nothing yet. Pick a café, drink the coffee, then stamp it — the atlas keeps
-            score so you stop going to the same three places.
-          </p>
+          <p className="empty">{t(UI.emptyStamps)}</p>
         ) : (
           <ul className="stamp-grid">
             {visited.map(({ cafe, stamp }) => (
@@ -117,7 +120,7 @@ export function PassportPanel({
                     <circle r="12.5" className="stamp-ring" />
                     <Glyph archetype={cafe.archetype} color="currentColor" />
                   </svg>
-                  <span className="sg-name">{cafe.name}</span>
+                  <span className="sg-name">{zh ? cafe.nameZh : cafe.name}</span>
                   <span className="sg-date">{stamp.on}</span>
                 </button>
               </li>
@@ -128,11 +131,11 @@ export function PassportPanel({
 
       <div className="panel-foot">
         <button className="link" onClick={onShare}>
-          {shared ? 'Copied' : 'Copy your passport as text'}
+          {shared ? t(UI.copied) : t(UI.copyPassport)}
         </button>
         {stamps.length > 0 && (
           <button className="link danger" onClick={onClear}>
-            Clear
+            {t(UI.clear)}
           </button>
         )}
       </div>
