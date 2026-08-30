@@ -82,6 +82,33 @@ export interface Cafe {
   closes: number
   seats: number
   price: 1 | 2 | 3
+  /** Per-axis provenance and structured signals. Absent = pure editorial. */
+  evidence?: Evidence
+}
+
+/** Where an axis value comes from, in increasing order of authority. */
+export type AxisSource = 'editorial' | 'measured' | 'voted'
+
+export interface AxisEvidence {
+  /** Blended 0..100 value actually used by the compass. */
+  value: number
+  /** 0..1 — how much evidence sits behind the value. Rendered as ink density. */
+  confidence: number
+  sources: AxisSource[]
+}
+
+/** Structured signals harvested from Amap (高德) POI data. */
+export interface AmapSignals {
+  id: string
+  rating?: number
+  cost?: number
+  openHours?: string
+  fetchedAt: string
+}
+
+export interface Evidence {
+  axes?: Partial<Record<keyof Axes, AxisEvidence>>
+  amap?: AmapSignals
 }
 
 export interface CrawlStop {
