@@ -13,6 +13,7 @@ import { NearMePanel } from './components/NearMePanel'
 import { QuizModal } from './components/QuizModal'
 import { ResultsStrip } from './components/ResultsStrip'
 import { TaxiCard } from './components/TaxiCard'
+import { ShareCardModal, type ShareKind } from './components/ShareCard'
 import { EMPTY_FILTERS, NEUTRAL, rank, type Filters } from './lib/match'
 import { anchorFromHash, anchorPoint, anchorToHash, rankNear, type Anchor } from './lib/near'
 import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
@@ -67,6 +68,7 @@ export default function App() {
   const [quizOpen, setQuizOpen] = useState(false)
   const [methodOpen, setMethodOpen] = useState(Boolean(initial.method))
   const [taxiFor, setTaxiFor] = useState<Cafe | null>(null)
+  const [shareFor, setShareFor] = useState<{ cafe: Cafe; kind: ShareKind } | null>(null)
   const [hourOverride, setHourOverride] = useState<number | null>(null)
   const [lang, setLang] = useState<Lang>('both')
   const [copied, setCopied] = useState<string | null>(null)
@@ -120,6 +122,14 @@ export default function App() {
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
   }, [selectedId, crawlId, compassOn, axes, methodOpen, anchor])
+
+  useEffect(() => {
+    if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .catch(() => undefined)
+    }
+  }, [])
 
   useEffect(() => {
     if (!copied) return
@@ -507,6 +517,7 @@ export default function App() {
                 setCharacter(`rooms like ${selected.name}`)
                 setPanel('compass')
               }}
+              onShareCard={() => setShareFor({ cafe: selected, kind: 'cafe' })}
               shared={copied === 'cafe'}
               onShare={() =>
                 copy(
@@ -540,7 +551,24 @@ export default function App() {
         />
       )}
       {methodOpen && <Methodology onClose={() => setMethodOpen(false)} />}
-      {taxiFor && <TaxiCard cafe={taxiFor} onClose={() => setTaxiFor(null)} />}
+      {taxiFor && (
+        <TaxiCard
+          cafe={taxiFor}
+          onClose={() => setTaxiFor(null)}
+          onSaveImage={() => {
+            setShareFor({ cafe: taxiFor, kind: 'taxi' })
+            setTaxiFor(null)
+          }}
+        />
+      )}
+      {shareFor && (
+        <ShareCardModal
+          cafe={shareFor.cafe}
+          kind={shareFor.kind}
+          score={scores.get(shareFor.cafe.id) ?? null}
+          onClose={() => setShareFor(null)}
+        />
+      )}
     </div>
   )
 }

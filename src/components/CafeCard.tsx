@@ -5,6 +5,7 @@ import { blendAll } from '../lib/scoring'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { formatHour } from '../lib/palette'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
+import { CalibrateWidget } from './CalibrateWidget'
 
 const SOURCE_WORD = {
   editorial: 'editorial 编辑',
@@ -28,6 +29,7 @@ interface Props {
   onTaxi: () => void
   onMoreLikeThis: () => void
   onShare: () => void
+  onShareCard: () => void
   shared: boolean
 }
 
@@ -51,6 +53,7 @@ export function CafeCard({
   onTaxi,
   onMoreLikeThis,
   onShare,
+  onShareCard,
   shared,
 }: Props) {
   const open = isOpenAt(cafe, hour)
@@ -173,7 +176,12 @@ export function CafeCard({
         <button className="act" onClick={onShare}>
           {shared ? 'Link copied' : 'Share'}
         </button>
+        <button className="act" onClick={onShareCard}>
+          Share card 分享卡片
+        </button>
       </div>
+
+      <CalibrateWidget cafe={cafe} />
     </aside>
   )
 }

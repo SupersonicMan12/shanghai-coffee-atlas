@@ -6,7 +6,15 @@ import { DISTRICT_ZH } from '../data/labels'
  * Chinese: hold the phone up to a driver and say nothing. Big type, no
  * decoration, dark ink on a pale card so it survives a sunny back seat.
  */
-export function TaxiCard({ cafe, onClose }: { cafe: Cafe; onClose: () => void }) {
+export function TaxiCard({
+  cafe,
+  onClose,
+  onSaveImage,
+}: {
+  cafe: Cafe
+  onClose: () => void
+  onSaveImage: () => void
+}) {
   const line = `${cafe.streetZh}，${DISTRICT_ZH[cafe.district]}区`
   return (
     <div className="modal-scrim" onClick={onClose}>
@@ -22,6 +30,7 @@ export function TaxiCard({ cafe, onClose }: { cafe: Cafe; onClose: () => void })
         </div>
         <div className="taxi-foot">
           <span>谢谢！</span>
+          <button onClick={onSaveImage}>Save image 保存图片</button>
           <button onClick={onClose}>Close</button>
         </div>
       </div>

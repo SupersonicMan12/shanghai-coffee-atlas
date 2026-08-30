@@ -1,0 +1,17 @@
+{
+  "name": "上海咖啡地图集 · The Shanghai Coffee Atlas",
+  "short_name": "咖啡地图集",
+  "description": "A hand-inked atlas of Shanghai's coffee rooms — find a café by the room you want, not the nearest pin. 手绘上海咖啡地图：按你想要的空间找咖啡馆。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7efe1",
+  "theme_color": "#f7efe1",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
