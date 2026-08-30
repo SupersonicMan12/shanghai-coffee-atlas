@@ -1,5 +1,7 @@
 # The Shanghai Coffee Atlas · 上海咖啡地图集
 
+Vibe-coded with Devin AI.
+
 A hand-inked atlas of 75 Shanghai coffee rooms. Not a map app: there are no tiles, no
 star ratings and no "nearest first" list. You describe the next hour of your life and the
 sheet re-inks itself around you.
