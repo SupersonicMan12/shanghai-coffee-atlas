@@ -2,6 +2,7 @@ import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
 import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
 import { blendAll } from '../lib/scoring'
+import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { formatHour } from '../lib/palette'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
 
@@ -20,6 +21,7 @@ interface Props {
   visited: boolean
   saved: boolean
   distanceMinutes: number | null
+  distanceFrom: string
   onClose: () => void
   onStamp: () => void
   onSave: () => void
@@ -42,6 +44,7 @@ export function CafeCard({
   visited,
   saved,
   distanceMinutes,
+  distanceFrom,
   onClose,
   onStamp,
   onSave,
@@ -52,6 +55,8 @@ export function CafeCard({
 }: Props) {
   const open = isOpenAt(cafe, hour)
   const blended = blendAll(CAFES).get(cafe.id)
+  const toClose = minutesToClose(cafe, hour)
+  const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   return (
     <aside className="card" key={cafe.id}>
       <button className="card-close" onClick={onClose} aria-label="Close">
@@ -92,6 +97,9 @@ export function CafeCard({
             <em className={open ? 'open' : 'shut'}>
               {open ? `open at ${formatHour(hour)}` : `shut at ${formatHour(hour)}`}
             </em>
+            {closingSoon && (
+              <em className="closing-soon">closes in {toClose} min 快打烊</em>
+            )}
           </dd>
         </div>
         <div>
@@ -104,8 +112,10 @@ export function CafeCard({
         </div>
         {distanceMinutes !== null && (
           <div>
-            <dt>From you</dt>
-            <dd>{distanceMinutes} min walk</dd>
+            <dt>{distanceFrom}</dt>
+            <dd>
+              {distanceMinutes} min walk · {closenessWord(distanceMinutes)}
+            </dd>
           </div>
         )}
       </div>

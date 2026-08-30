@@ -9,10 +9,12 @@ import { CafeCard } from './components/CafeCard'
 import { CrawlList } from './components/CrawlList'
 import { PassportPanel } from './components/PassportPanel'
 import { Methodology } from './components/Methodology'
+import { NearMePanel } from './components/NearMePanel'
 import { QuizModal } from './components/QuizModal'
 import { ResultsStrip } from './components/ResultsStrip'
 import { TaxiCard } from './components/TaxiCard'
 import { EMPTY_FILTERS, NEUTRAL, rank, type Filters } from './lib/match'
+import { anchorFromHash, anchorPoint, anchorToHash, rankNear, type Anchor } from './lib/near'
 import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { usePassport } from './lib/passport'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
@@ -22,15 +24,20 @@ type Lang = 'both' | 'en' | 'zh'
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
 
-function readHash(): { cafe?: string; axes?: Axes; crawl?: string; method?: boolean } {
+function readHash(): { cafe?: string; axes?: Axes; crawl?: string; method?: boolean; anchor?: Anchor } {
   if (typeof location === 'undefined') return {}
   const h = new URLSearchParams(location.hash.replace(/^#\/?/, ''))
-  const out: { cafe?: string; axes?: Axes; crawl?: string; method?: boolean } = {}
+  const out: { cafe?: string; axes?: Axes; crawl?: string; method?: boolean; anchor?: Anchor } = {}
   if (h.has('method')) out.method = true
   const cafe = h.get('cafe')
   if (cafe && byId.has(cafe)) out.cafe = cafe
   const crawl = h.get('crawl')
   if (crawl && CRAWLS.some((c) => c.id === crawl)) out.crawl = crawl
+  const at = h.get('at')
+  if (at) {
+    const anchor = anchorFromHash(at)
+    if (anchor) out.anchor = anchor
+  }
   const a = h.get('a')
   if (a) {
     const parts = a.split('-').map(Number)
@@ -66,6 +73,8 @@ export default function App() {
   const [me, setMe] = useState<{ lng: number; lat: number } | null>(null)
   const [geoNote, setGeoNote] = useState<string | null>(null)
   const [railOpen, setRailOpen] = useState(true)
+  const [anchor, setAnchor] = useState<Anchor | null>(initial.anchor ?? null)
+  const [pinArm, setPinArm] = useState(false)
 
   const mapRef = useRef<AtlasHandle | null>(null)
   const passport = usePassport()
@@ -75,6 +84,10 @@ export default function App() {
   const phase = phaseForHour(hour)
 
   const ranked = useMemo(() => rank(CAFES, axes, filters), [axes, filters])
+  const nearRanked = useMemo(
+    () => (anchor ? rankNear(ranked, anchor) : null),
+    [ranked, anchor],
+  )
   const scores = useMemo(
     () => new Map(ranked.map((r) => [r.cafe.id, r.score])),
     [ranked],
@@ -103,9 +116,10 @@ export default function App() {
       parts.push(`a=${axes.focus}-${axes.energy}-${axes.linger}-${axes.adventure}-${axes.spend}`)
     }
     if (methodOpen) parts.push('method')
+    if (anchor) parts.push(`at=${anchorToHash(anchor)}`)
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, crawlId, compassOn, axes, methodOpen])
+  }, [selectedId, crawlId, compassOn, axes, methodOpen, anchor])
 
   useEffect(() => {
     if (!copied) return
@@ -149,6 +163,7 @@ export default function App() {
       setSelectedId(h.cafe ?? null)
       setCrawlId(h.crawl ?? null)
       setMethodOpen(Boolean(h.method))
+      setAnchor(h.anchor ?? null)
       if (h.axes) {
         setAxes(h.axes)
         setCompassOn(true)
@@ -189,9 +204,11 @@ export default function App() {
   }, [])
 
   const distanceMinutes = useMemo(() => {
-    if (!me || !selected) return null
-    return walkingMinutes(haversine(me.lng, me.lat, selected.lng, selected.lat))
-  }, [me, selected])
+    if (!selected) return null
+    const from = anchor ? anchorPoint(anchor) : me
+    if (!from) return null
+    return walkingMinutes(haversine(from.lng, from.lat, selected.lng, selected.lat))
+  }, [me, anchor, selected])
 
   const locate = () => {
     if (!navigator.geolocation) {
@@ -208,6 +225,7 @@ export default function App() {
           return
         }
         setMe({ lng, lat })
+        setAnchor({ kind: 'me', lng, lat })
         setGeoNote(null)
         mapRef.current?.focusOn(lng, lat, 3.2)
       },
@@ -215,6 +233,15 @@ export default function App() {
       { timeout: 8000 },
     )
   }
+
+  const setAnchorAndFly = useCallback((a: Anchor | null) => {
+    setAnchor(a)
+    setPinArm(false)
+    if (a) {
+      const p = anchorPoint(a)
+      mapRef.current?.focusOn(p.lng, p.lat, 3.2)
+    }
+  }, [])
 
   const style = {
     '--paper': phase.paper,
@@ -328,6 +355,20 @@ export default function App() {
           {geoNote && <div className="geo-note">{geoNote}</div>}
 
           {panel === 'compass' && (
+            <NearMePanel
+              anchor={anchor}
+              onAnchor={setAnchorAndFly}
+              onLocate={locate}
+              pinArm={pinArm}
+              onPinArm={setPinArm}
+              openNow={filters.openAt !== null}
+              onOpenNow={() =>
+                setFilters({ ...filters, openAt: filters.openAt === null ? hour : null })
+              }
+              hour={hour}
+            />
+          )}
+          {panel === 'compass' && (
             <Compass
               axes={axes}
               onAxes={(a) => {
@@ -345,6 +386,8 @@ export default function App() {
                 setFilters(EMPTY_FILTERS)
                 setCrawlId(null)
                 setSelectedId(null)
+                setAnchor(null)
+                setPinArm(false)
                 mapRef.current?.reset()
               }}
               resultCount={ranked.length}
@@ -411,6 +454,9 @@ export default function App() {
             crawl={crawl}
             crawlCafes={crawlCafes}
             me={me}
+            anchor={anchor}
+            pinArm={pinArm}
+            onDropPin={(lng, lat) => setAnchorAndFly({ kind: 'pin', lng, lat })}
           />
 
           <div className="map-tools">
@@ -440,6 +486,13 @@ export default function App() {
               visited={visitedSet.has(selected.id)}
               saved={savedSet.has(selected.id)}
               distanceMinutes={distanceMinutes}
+              distanceFrom={
+                anchor && anchor.kind !== 'me'
+                  ? anchor.kind === 'metro'
+                    ? `From ${anchor.station.name}`
+                    : 'From your pin'
+                  : 'From you'
+              }
               onClose={() => setSelectedId(null)}
               onStamp={() =>
                 visitedSet.has(selected.id)
@@ -465,8 +518,10 @@ export default function App() {
           )}
 
           <ResultsStrip
-            ranked={ranked}
+            ranked={nearRanked ?? ranked}
             compassOn={compassOn}
+            nearMode={Boolean(anchor)}
+            hour={hour}
             selectedId={selectedId}
             onSelect={selectCafe}
             visited={visitedSet}
