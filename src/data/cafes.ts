@@ -26,6 +26,15 @@ export const CAFES: Cafe[] = [
     closes: 21,
     seats: 60,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0FFI9QGYS',
+        rating: 4.7,
+        cost: 130.0,
+        openHours: '08:00-17:00',
+        fetchedAt: '2026-08-30T07:35:42Z',
+      },
+    },
   },
   {
     id: 'arabica-ferguson',
@@ -46,6 +55,15 @@ export const CAFES: Cafe[] = [
     closes: 20,
     seats: 24,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0G3LBDVAN',
+        rating: 4.4,
+        cost: 36.0,
+        openHours: '09:00-18:00',
+        fetchedAt: '2026-08-30T07:34:01Z',
+      },
+    },
   },
   {
     id: 'drops-wukang',
@@ -248,6 +266,15 @@ export const CAFES: Cafe[] = [
     closes: 18,
     seats: 8,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B00156O2XJ',
+        rating: 4.6,
+        cost: 44.0,
+        openHours: '09:00-19:00',
+        fetchedAt: '2026-08-30T07:37:08Z',
+      },
+    },
   },
   {
     id: 'm3-yongkang',
@@ -268,6 +295,15 @@ export const CAFES: Cafe[] = [
     closes: 18,
     seats: 0,
     price: 1,
+    evidence: {
+      amap: {
+        id: 'B0LUF51YXH',
+        rating: 4.7,
+        cost: 41.0,
+        openHours: '09:00-20:00',
+        fetchedAt: '2026-08-30T07:37:09Z',
+      },
+    },
   },
   {
     id: 'bitter-donkey',
@@ -388,6 +424,15 @@ export const CAFES: Cafe[] = [
     closes: 18,
     seats: 22,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFHK466E',
+        rating: 4.4,
+        cost: 47.0,
+        openHours: '09:30-21:00',
+        fetchedAt: '2026-08-30T07:37:18Z',
+      },
+    },
   },
   {
     id: 'ops-taiyuan',
@@ -408,6 +453,15 @@ export const CAFES: Cafe[] = [
     closes: 20,
     seats: 0,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0FFI8BKU8',
+        rating: 4.8,
+        cost: 66.0,
+        openHours: '10:00-18:00',
+        fetchedAt: '2026-08-30T07:37:20Z',
+      },
+    },
   },
   {
     id: 'captain-george',
@@ -428,6 +482,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 18,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0LULRA4FQ',
+        rating: 4.5,
+        cost: 80.0,
+        openHours: '10:00-19:00',
+        fetchedAt: '2026-08-30T07:37:22Z',
+      },
+    },
   },
   {
     id: 'pain-chaud',
@@ -490,6 +553,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 4,
     price: 1,
+    evidence: {
+      amap: {
+        id: 'B0H1RXFOLX',
+        rating: 4.6,
+        cost: 35.0,
+        openHours: '08:00-17:00',
+        fetchedAt: '2026-08-30T07:37:26Z',
+      },
+    },
   },
   {
     id: 'zha-gou',
@@ -530,6 +602,15 @@ export const CAFES: Cafe[] = [
     closes: 20,
     seats: 16,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFIKC046',
+        rating: 4.7,
+        cost: 55.0,
+        openHours: '09:30-17:30',
+        fetchedAt: '2026-08-30T07:37:31Z',
+      },
+    },
   },
   {
     id: 'hof-fuxing',
@@ -590,6 +671,15 @@ export const CAFES: Cafe[] = [
     closes: 20,
     seats: 26,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFHLA14Y',
+        rating: 4.6,
+        cost: 35.0,
+        openHours: '08:00-16:00',
+        fetchedAt: '2026-08-30T07:37:34Z',
+      },
+    },
   },
   {
     id: 'cafe-dan-tianzifang',
@@ -672,6 +762,15 @@ export const CAFES: Cafe[] = [
     closes: 21,
     seats: 45,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0JU4194KZ',
+        rating: 4.7,
+        cost: 65.0,
+        openHours: '09:00-20:00',
+        fetchedAt: '2026-08-30T07:37:39Z',
+      },
+    },
   },
   {
     id: 'fumi-coffee',
@@ -874,6 +973,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 14,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFJSBAZI',
+        rating: 4.5,
+        cost: 54.0,
+        openHours: '10:00-20:00',
+        fetchedAt: '2026-08-30T07:37:53Z',
+      },
+    },
   },
   {
     id: 'smaka',
@@ -894,6 +1002,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 26,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFJKKNYJ',
+        rating: 4.6,
+        cost: 62.0,
+        openHours: '08:00-21:00',
+        fetchedAt: '2026-08-30T07:37:54Z',
+      },
+    },
   },
   {
     id: 'brut-cake',
@@ -1016,6 +1133,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 0,
     price: 1,
+    evidence: {
+      amap: {
+        id: 'B0FFHIGY5F',
+        rating: 4.5,
+        cost: 20.0,
+        openHours: '07:00-17:00',
+        fetchedAt: '2026-08-30T07:38:02Z',
+      },
+    },
   },
   {
     id: 'sumerian',
@@ -1056,6 +1182,15 @@ export const CAFES: Cafe[] = [
     closes: 23,
     seats: 400,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0FFIVFX5D',
+        rating: 4.7,
+        cost: 30.0,
+        openHours: '08:00-23:00',
+        fetchedAt: '2026-08-30T07:38:04Z',
+      },
+    },
   },
   {
     id: 'moon-coffee',
@@ -1096,6 +1231,15 @@ export const CAFES: Cafe[] = [
     closes: 18,
     seats: 6,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0FFLK0NLX',
+        rating: 4.6,
+        cost: 47.0,
+        openHours: '10:00-18:00 12:00-18:00',
+        fetchedAt: '2026-08-30T07:38:08Z',
+      },
+    },
   },
   {
     id: 'bigger-than-bigger',
@@ -1156,6 +1300,15 @@ export const CAFES: Cafe[] = [
     closes: 21,
     seats: 28,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0KU4DPHDN',
+        rating: 4.6,
+        cost: 41.0,
+        openHours: '10:30-18:00',
+        fetchedAt: '2026-08-30T07:38:12Z',
+      },
+    },
   },
 
   // ── Suzhou Creek · M50 ────────────────────────────────────────────────────
@@ -1178,6 +1331,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 60,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0IB77HMHW',
+        rating: 4.7,
+        cost: 58.0,
+        openHours: '08:00-19:00',
+        fetchedAt: '2026-08-30T07:38:13Z',
+      },
+    },
   },
   {
     id: 'stable-m50',
@@ -1218,6 +1380,14 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 20,
     price: 2,
+    evidence: {
+      amap: {
+        id: 'B0H0MXOFLB',
+        rating: 4.0,
+        openHours: '10:00-18:00',
+        fetchedAt: '2026-08-30T07:38:15Z',
+      },
+    },
   },
   {
     id: 'the-lounge-guangfu',
@@ -1260,6 +1430,15 @@ export const CAFES: Cafe[] = [
     closes: 20,
     seats: 22,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0FFIB7X9Y',
+        rating: 4.6,
+        cost: 102.0,
+        openHours: '10:00-19:00',
+        fetchedAt: '2026-08-30T07:38:17Z',
+      },
+    },
   },
   {
     id: 'arabica-bund',
@@ -1280,6 +1459,15 @@ export const CAFES: Cafe[] = [
     closes: 21,
     seats: 20,
     price: 3,
+    evidence: {
+      amap: {
+        id: 'B0FFJ5N0Q3',
+        rating: 4.5,
+        cost: 46.0,
+        openHours: '07:30-20:00',
+        fetchedAt: '2026-08-30T07:38:19Z',
+      },
+    },
   },
   {
     id: 'alt-coffee-hongkou',
@@ -1444,6 +1632,15 @@ export const CAFES: Cafe[] = [
     closes: 19,
     seats: 16,
     price: 1,
+    evidence: {
+      amap: {
+        id: 'B0FFJEQ21Y',
+        rating: 4.1,
+        cost: 25.0,
+        openHours: '08:00-20:00',
+        fetchedAt: '2026-08-30T07:38:30Z',
+      },
+    },
   },
   {
     id: 'luneurs-xingfuli',

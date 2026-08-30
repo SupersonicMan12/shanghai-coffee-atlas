@@ -1,0 +1,548 @@
+{
+  "cafeId": "art-gallery-cafe",
+  "query": {
+    "location": "121.452474,31.205058",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:38:35Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "7",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GUA79TX0/comment/0399b1e165f9b2d12e7ce8d84bf0f80a_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f9adab1d9982a5880000002485902349?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GUA79TX0/comment/ADD9CD4A_0B4A_40E1_9EFF_88AECB709BE7_L0_001_1126_200_1742560263969_44841744.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18964230737",
+        "id": "B0GUA79TX0",
+        "tag": "coffee,下午茶",
+        "entr_location": "121.452721,31.20605",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": "coffee,下午茶",
+        "name": "VOYAGE COFFEE(永嘉路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "121",
+        "importance": [],
+        "biz_ext": {
+          "cost": "38.00",
+          "opentime2": "周一至周日 09:30-17:30",
+          "rating": "4.7",
+          "open_time": "09:30-17:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-22 00:14:17",
+        "website": [],
+        "address": "永嘉路502号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452725,31.206125",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGFGCI3",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/93390489c3a996f50000003034032776?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1221249aa2fda7fb0000002911934324?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L2K9H0B9/comment/content_media_external_file_4773_1767690299195_55142994.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19901608482",
+        "id": "B0L2K9H0B9",
+        "tag": [],
+        "entr_location": "121.450802,31.205478",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": "320",
+        "atag": [],
+        "name": "月球咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "154",
+        "importance": [],
+        "biz_ext": {
+          "cost": "41.00",
+          "opentime2": "周一至周日 10:00-20:00",
+          "rating": "4.5",
+          "open_time": "10:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 03:20:28",
+        "website": [],
+        "address": "永嘉路527弄1号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450883,31.205319",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0cf030479502988f0000002463178319?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/77db3b2457c5a9310000002895924667?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4b46fa32253521480000002342386152?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MAX7MQO4",
+        "tag": [],
+        "entr_location": "121.45105912175978,31.205574273205965",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": [],
+        "name": "Ferns Cafe梵思咖啡(永嘉路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "157",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周五 08:00-18:00；周六至周日 09:00-18:00",
+          "rating": "4.5",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 23:59:42",
+        "website": [],
+        "address": "永嘉路570号1号楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450995,31.205697",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48708_ss__1742346295932_71064215.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48704_ss__1742346295920_95094715.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48717_ss__1742346295932_06457003.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13524039158",
+        "id": "B0KA9SN68X",
+        "tag": "手冲咖啡",
+        "entr_location": "121.454311,31.203773",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": "手冲咖啡",
+        "name": "悉达多咖啡工作室",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "225",
+        "importance": [],
+        "biz_ext": {
+          "cost": "56.00",
+          "opentime2": "周四至周日 12:00-18:00",
+          "rating": "4.6",
+          "open_time": "12:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634611",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 02:36:34",
+        "website": [],
+        "address": "建国西路395弄小区门口内右边第一楼302",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.454270,31.203732",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d968ccd1703a87530000002536372841?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b74d3f005233beac0000002536504474?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/260d3c1362e496a60000002536600244?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MASPFAWQ",
+        "tag": [],
+        "entr_location": "121.45478942916486,31.204055632942353",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": [],
+        "name": "HAVEN LIVING",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "256",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 08:30-17:30",
+          "rating": "4.3",
+          "open_time": "08:30-17:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634611",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 05:28:14",
+        "website": [],
+        "address": "建国西路381号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.454833,31.203953",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155MOOO",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d48d7a8d24d1aa6ef0f2849ccf397e52"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GDR5CQBR/comment/b95852888aed6e6c222ec03497c9d71b_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GDR5CQBR/comment/00fe7498bed9f921be5a49aefc58dbf1_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0GDR5CQBR",
+        "tag": [],
+        "entr_location": "121.451243,31.203063",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": "320",
+        "atag": [],
+        "name": "% Arabica阿拉比卡咖啡(建国西路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "259",
+        "importance": [],
+        "biz_ext": {
+          "cost": "38.00",
+          "opentime2": "周六至周日 07:30-17:00；周一至周五 07:00-17:00 2026-02-15至2026-02-23 周一至周日 07:30-16:00",
+          "rating": "4.5",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 14:07:07",
+        "website": [],
+        "address": "建国西路481号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.451285,31.202960",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/46cd24af0f4c64a10000003593544204?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFI8BKU8/comment/E0FA2EE2_73C5_42DE_A585_F2EE50EF21CE_L0_001_1512_201_1769324601259_16965735.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8ea03c6699d3c4000000001181124576?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFI8BKU8",
+        "tag": [],
+        "entr_location": "121.455231,31.205608",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "衡山路",
+        "childtype": [],
+        "atag": [],
+        "name": "O.P.S. CAFE(太原路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "277",
+        "importance": [],
+        "biz_ext": {
+          "cost": "66.00",
+          "opentime2": "周一至周日 10:00-18:00 2026-02-15至2026-02-21 周一至周日 全天关闭",
+          "rating": "4.8",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634621",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 03:39:08",
+        "website": [],
+        "address": "太原路177弄1号临(近建国西路)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.455320,31.205608",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}
