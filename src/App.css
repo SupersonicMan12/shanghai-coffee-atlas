@@ -934,8 +934,11 @@
 
 .card-close {
   position: absolute;
-  top: 8px;
-  right: 10px;
+  top: 4px;
+  right: 4px;
+  z-index: 2;
+  width: 44px;
+  height: 44px;
   border: 0;
   background: none;
   font-size: 20px;
@@ -1530,6 +1533,15 @@
     width: min(360px, 92vw);
     z-index: 8;
     background: var(--paper);
+  }
+
+  .rail-handle {
+    z-index: 9;
+    left: min(360px, 92vw);
+  }
+
+  .rail-closed .rail-handle {
+    left: 14px;
   }
 
   .rail-closed .rail {
