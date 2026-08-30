@@ -1,0 +1,548 @@
+{
+  "cafeId": "isoul-fuxing",
+  "query": {
+    "location": "121.469170,31.215265",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:58:11Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "8",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1771829310055_69201249_1771829328040_26962811.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/678d80eefcf60f616fb22eb3cce93a48"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1771829310067_88213884_1771829328043_15177289.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LAZHXVMR",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": "121.468393,31.215352",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(思南公馆商业街店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "76",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.2",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 03:53:55",
+        "website": [],
+        "address": "思南路16号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.468478,31.214911",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001574I9I",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/08c4266a999b01470000002242072746?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00156ECEE/comment/content_media_external_file_1000009254_ss__1752713665884_51952778.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-60349770;021-64047144",
+        "id": "B00156ECEE",
+        "tag": "焦糖拿铁酷乐,香草焦糖卡布奇诺,杏仁饼干拿铁,摩卡可塔朵,黑森林热巧克力,榛果拿铁,马卡龙,焦糖玛奇朵,摩卡融融冰,香草焦糖卡布奇诺咖啡,抹茶芝士麻薯,双巧克力冰沙,帕尼尼,醇艺白,超萌小兔饼干,生椰拿铁,coffee,鸡肉,美式咖啡",
+        "entr_location": "121.470453,31.214977",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": "焦糖拿铁酷乐,香草焦糖卡布奇诺,杏仁饼干拿铁,摩卡可塔朵,黑森林热巧克力,榛果拿铁,马卡龙,焦糖玛奇朵,摩卡融融冰,香草焦糖卡布奇诺咖啡,抹茶芝士麻薯,双巧克力冰沙,帕尼尼,醇艺白,超萌小兔饼干,生椰拿铁,coffee,鸡肉,美式咖啡",
+        "name": "Costa Coffee(上海思南公馆店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_511056",
+        "distance": "88",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周五 08:00-19:30；周六至周日 09:00-21:30",
+          "rating": "4.4",
+          "open_time": "09:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 11:02:29",
+        "website": [],
+        "address": "复兴中路507弄5号1层103室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.470069,31.215051",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/21eea226d26d91f3c39906b0bcd2a5d8"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KK5SEL8R/comment/content_media_external_images_media_96231_ss__1742442894274_79420402.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6a6e055c5a08e41f5e8a055c42bc1d3c"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13003234168",
+        "id": "B0KK5SEL8R",
+        "tag": [],
+        "entr_location": "121.470095,31.215599",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": [],
+        "name": "BOY CAFE(思南公馆店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "93",
+        "importance": [],
+        "biz_ext": {
+          "cost": "40.00",
+          "opentime2": "08:00-22:00,2026年春节期间 08:00-22:00",
+          "rating": "4.5",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 16:52:55",
+        "website": [],
+        "address": "复兴中路507弄2号楼101单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.470139,31.215400",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JRSDOAI2",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFGT4ERK/comment/9E4BD42F_F4BB_40E5_84F9_1CA0A9DF7690_L0_001_1500_2000_1734947099436_94730464.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFGT4ERK/comment/69b34487516b35fedef6d111dfb317d4_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFGT4ERK/comment/20260324-244a0f60ef751116b301fcaa-3fMI8HJT3Ty9WKK2Z74er1.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54106730",
+        "id": "B0FFGT4ERK",
+        "tag": "汉堡,三明治,单人餐,下午茶",
+        "entr_location": "121.46751425776668,31.21522440173465",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": "汉堡,三明治,单人餐,下午茶",
+        "name": "星巴克臻选(思南公馆店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1061987",
+        "distance": "156",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635721",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 18:41:17",
+        "website": [],
+        "address": "思南路50号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.467543,31.215088",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e0bdf503df691c094d626bad6ade0277"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1LBB509/comment/3dcc5ac930f6226d2035abf27e3d4f42_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0I1LBB509",
+        "tag": "coffee,杨枝甘露,生椰拿铁",
+        "entr_location": "121.47100074632111,31.215868110128564",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "coffee,杨枝甘露,生椰拿铁",
+        "name": "luckin coffee 瑞幸咖啡(永丰村店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "197",
+        "importance": [],
+        "biz_ext": {
+          "cost": "28.00",
+          "opentime2": "周一至周五 07:00-21:30；周六 07:00-21:00；周日 09:00-19:00",
+          "rating": "4.0",
+          "open_time": "07:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635722",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 07:32:39",
+        "website": [],
+        "address": "永丰村西北门旁(一大会址·新天地地铁站5号口步行330米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.471134,31.215844",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LAKP",
+        "pcode": "310000",
+        "keytag": "清吧",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/156ccd7ea876e8cd0000003599074471?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c3cbc65461b902430000004120406141?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GKOM5R4J/comment/5E3B1404_9117_41C7_AC42_CD2FBB1B1E55_L0_001_1512_201_1757683759028_71655202.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-53821055",
+        "id": "B0GKOM5R4J",
+        "tag": [],
+        "entr_location": "121.46690589852491,31.216591340303676",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": [],
+        "name": "古董花园•Antique",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_80016",
+        "distance": "258",
+        "importance": [],
+        "biz_ext": {
+          "cost": "91.00",
+          "opentime2": "周一 10:30-22:00；周二至周日 10:30-02:00",
+          "rating": "4.7",
+          "open_time": "10:30-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 09:54:46",
+        "website": [],
+        "address": "思南路44号(淮海中路地铁站1号口步行450米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.466919,31.216559",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/af8318f9be88b93159eb7f76f759b29d"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2f97dbb591400f8011f50caa276d987b"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/592bc4605ec07372dcb469186e53cc92"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18939962770",
+        "id": "B0L0USVEZP",
+        "tag": "PCC澳白,黑芝麻乌云拿铁,热红酒美式-无酒,coffee",
+        "entr_location": "121.470033,31.217647",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "PCC澳白,黑芝麻乌云拿铁,热红酒美式-无酒,coffee",
+        "name": "PARK COFFEE CLUB",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "286",
+        "importance": [],
+        "biz_ext": {
+          "cost": "50.00",
+          "opentime2": "周一至周二,周日 10:00-18:00；周三至周六 10:00-23:00",
+          "rating": "4.3",
+          "open_time": "10:00-23:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636701",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 04:47:19",
+        "website": [],
+        "address": "雁荡路109号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.470159,31.217692",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

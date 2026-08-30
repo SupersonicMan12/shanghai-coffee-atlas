@@ -1,0 +1,323 @@
+{
+  "cafeId": "777-yongjia",
+  "query": {
+    "location": "121.464903,31.211324",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:57:54Z",
+  "matchedPoiId": "B0JDDMYCXI",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0HU55MM4E",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDDMYCXI/comment/a3687890be6a2ae4ce01414a552ae8b8_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDDMYCXI/comment/1c2cd569303a23d8490491a3b6240d1d_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDDMYCXI/comment/b90ec18d800380def5e993fcc1beec87_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15900575808",
+        "id": "B0JDDMYCXI",
+        "tag": "冰美式,单人餐",
+        "entr_location": "121.4648701457165,31.211336733386876",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": "冰美式,单人餐",
+        "name": "777Cafe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "8",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周六至周日 08:00-16:00；周一至周五 06:00-18:00",
+          "rating": "4.5",
+          "open_time": "08:00-16:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635710",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 08:35:32",
+        "website": [],
+        "address": "永嘉路15弄4号东",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.464974,31.211365",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0HU55MM4E",
+        "pcode": "310000",
+        "keytag": "创意菜",
+        "type": "餐饮服务;中餐厅;中餐厅|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/015712fc138d3f4b7aec2a02df90b3f3"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/520595b17f9f440c94bb1967db369ada"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/489a82fd8cd6c502b2105a7271feed18"
+          }
+        ],
+        "building": [],
+        "typecode": "050100|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13701948381",
+        "id": "B0I04CSHM4",
+        "tag": "双人餐",
+        "entr_location": "121.464944,31.211471",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": "双人餐",
+        "name": "梧桐创意菜",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "13",
+        "importance": [],
+        "biz_ext": {
+          "cost": "340.00",
+          "opentime2": "周一至周日 08:30-18:00",
+          "rating": "4.2",
+          "open_time": "08:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635710",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 17:23:24",
+        "website": [],
+        "address": "瑞金二路街道永嘉路15弄3号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.465024,31.211380",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅|政府机构及社会团体;政府及社会团体相关;政府及社会团体相关",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/db4838ccdd54de510000002861734923?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLH2TVK/comment/aa139f4c04db94534fbbb639e8b13b54_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a403a572c9d09e220000000671520071?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500|130000",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13269918959",
+        "id": "B0FFLH2TVK",
+        "tag": "冰美式,美式咖啡,堂食,荷包蛋,黄油",
+        "entr_location": "121.46245876992485,31.210408793724245",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "冰美式,美式咖啡,堂食,荷包蛋,黄油",
+        "name": "铁手咖啡制造局(metalhands2店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "230",
+        "importance": [],
+        "biz_ext": {
+          "cost": "48.00",
+          "opentime2": "周一至周日 08:00-19:00",
+          "rating": "4.7",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635700",
+        "shopinfo": "2",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 17:19:20",
+        "website": [],
+        "address": "永嘉路37号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.462683,31.210508",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I33CVH4N/comment/content_media_external_file_51326_ss__1758419984612_87363138.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3904a8b836d97c3c1354590e823a766c"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I33CVH4N/comment/content_media_external_images_media_158314_ss__1736686029701_29314522.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13365536019",
+        "id": "B0I33CVH4N",
+        "tag": "提拉米苏",
+        "entr_location": "121.461395,31.211766",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "提拉米苏",
+        "name": "跑GO咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "286",
+        "importance": [],
+        "biz_ext": {
+          "cost": "35.00",
+          "opentime2": "周一至周日 10:30-19:30",
+          "rating": "4.4",
+          "open_time": "10:30-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635612",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 03:34:34",
+        "website": [],
+        "address": "陕西南路225号上海文化广场7门",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.461949,31.211824",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "cafeId": "h2-yongjia",
+  "query": {
+    "location": "121.449331,31.204824",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:57:55Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "8",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4a40392621b88464950fde86e638de42"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/682e9d97e56918730000003212650071?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3e1592e88068e02a0000001712870663?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15712635379",
+        "id": "B0G0CUXNTM",
+        "tag": "奶油,臭豆腐",
+        "entr_location": "121.448885,31.204883",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": "奶油,臭豆腐",
+        "name": "BRICK LANE板砖咖啡(乌南店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "35",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周五 08:00-11:00,11:30-18:00；周六至周日 09:00-11:00,11:30-18:00",
+          "rating": "4.6",
+          "open_time": "08:00-11:00 11:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634512",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 22:33:37",
+        "website": [],
+        "address": "乌鲁木齐南路121号(衡山路地铁站1号口步行290米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.448975,31.204925",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155M163",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GKXMEEQF/comment/47E859F4_A090_420C_88A9_549622900BEC_L0_001_1500_200_1755159232955_63268525.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4793a5819ba57e55b62d548d35420d96"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64391002",
+        "id": "B0GKXMEEQF",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.448552,31.206014",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "衡山路",
+        "childtype": "324",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(上海天平邻里汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "148",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周二 07:00-19:00；周三至周日 07:00-20:00",
+          "rating": "4.4",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634522",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 11:10:08",
+        "website": [],
+        "address": "乌鲁木齐南路64弄4号(衡山路地铁站4号口步行390米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.448429,31.205914",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGFGCI3",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/93390489c3a996f50000003034032776?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1221249aa2fda7fb0000002911934324?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L2K9H0B9/comment/content_media_external_file_4773_1767690299195_55142994.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19901608482",
+        "id": "B0L2K9H0B9",
+        "tag": [],
+        "entr_location": "121.450802,31.205478",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": "320",
+        "atag": [],
+        "name": "月球咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "157",
+        "importance": [],
+        "biz_ext": {
+          "cost": "41.00",
+          "opentime2": "周一至周日 10:00-20:00",
+          "rating": "4.5",
+          "open_time": "10:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 03:20:28",
+        "website": [],
+        "address": "永嘉路527弄1号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450883,31.205319",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0cf030479502988f0000002463178319?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/77db3b2457c5a9310000002895924667?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4b46fa32253521480000002342386152?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MAX7MQO4",
+        "tag": [],
+        "entr_location": "121.45105912175978,31.205574273205965",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": [],
+        "name": "Ferns Cafe梵思咖啡(永嘉路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "185",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周五 08:00-18:00；周六至周日 09:00-18:00",
+          "rating": "4.5",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 23:59:42",
+        "website": [],
+        "address": "永嘉路570号1号楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450995,31.205697",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1773017451945_68876851_1773017453875_40354998.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/70b8f9d222745e46bf76933d68cc96a2"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JGA7E8BR/comment/4809a59f920fee8b41fe681716021dd5_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18601667600",
+        "id": "B0JGA7E8BR",
+        "tag": "coffee",
+        "entr_location": "121.44727318520609,31.20406801160939",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "衡山路",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "UshineCoffee酉光咖啡工坊",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "213",
+        "importance": [],
+        "biz_ext": {
+          "cost": "57.00",
+          "opentime2": "周一至周五 12:00-22:30；周六至周日 09:30-22:30",
+          "rating": "4.5",
+          "open_time": "12:00-22:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 06:49:57",
+        "website": [],
+        "address": "永嘉路671号(衡山路地铁站1号口步行110米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.447314,31.203984",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156F4I8",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LRUMBJBK/comment/ce1044aa725dbf2f9b4fc0519f2659ec_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5d5fcea3d03fea630000000681318831?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LRUMBJBK/comment/E993F916_6424_4E42_A5F5_9C2A03499948_L0_001_1500_200_1764059716528_56120753.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17721256059",
+        "id": "B0LRUMBJBK",
+        "tag": "coffee",
+        "entr_location": "121.450505,31.202846",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "推浪咖啡 WAVEOFFcoffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "248",
+        "importance": [],
+        "biz_ext": {
+          "cost": "58.00",
+          "opentime2": "周一至周日 08:30-18:30",
+          "rating": "4.6",
+          "open_time": "08:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 22:48:16",
+        "website": [],
+        "address": "建国西路550号101室(肇嘉浜路地铁站2号口步行450米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450572,31.202860",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I0VRDT82/comment/00747097_0A3E_431D_ADD4_611AC105D612_L0_001_1500_200_1761020500135_63329018.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I0VRDT82/comment/content_media_external_file_296349_ss__1757127592849_67657317.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I0VRDT82/comment/d3408accf713cd0809d70405ec84b023_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18521361282",
+        "id": "B0I0VRDT82",
+        "tag": "奶酪,披萨,薯条,芝士,特色菜",
+        "entr_location": "121.447724,31.206351",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": [],
+        "atag": "奶酪,披萨,薯条,芝士,特色菜",
+        "name": "Mozzarella e Vino(衡山路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "266",
+        "importance": [],
+        "biz_ext": {
+          "cost": "193.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.6",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634522",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 03:00:23",
+        "website": [],
+        "address": "衡山路八号-6号楼101A室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.447375,31.206537",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155MOOO",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d48d7a8d24d1aa6ef0f2849ccf397e52"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GDR5CQBR/comment/b95852888aed6e6c222ec03497c9d71b_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GDR5CQBR/comment/00fe7498bed9f921be5a49aefc58dbf1_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0GDR5CQBR",
+        "tag": [],
+        "entr_location": "121.451243,31.203063",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": "320",
+        "atag": [],
+        "name": "% Arabica阿拉比卡咖啡(建国西路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "278",
+        "importance": [],
+        "biz_ext": {
+          "cost": "38.00",
+          "opentime2": "周六至周日 07:30-17:00；周一至周五 07:00-17:00 2026-02-15至2026-02-23 周一至周日 07:30-16:00",
+          "rating": "4.5",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 14:07:07",
+        "website": [],
+        "address": "建国西路481号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.451285,31.202960",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

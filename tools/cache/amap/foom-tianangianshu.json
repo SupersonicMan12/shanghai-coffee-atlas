@@ -1,0 +1,398 @@
+{
+  "cafeId": "foom-tianangianshu",
+  "query": {
+    "location": "121.445573,31.248761",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:56:51Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFMA0COY",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6B5T5JB/comment/content_media_external_file_280955_ss__1758417966380_03443678.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6B5T5JB/comment/860CFD5D_8A2D_4AA3_A582_28252D49A682_L0_001_2000_150_1764638308721_08926459.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6B5T5JB/comment/content_media_external_file_280957_ss__1758417966380_28062025.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0I6B5T5JB",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.445582,31.248633",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "Manner Coffee(天安千树 大洋晶典店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "16",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.0",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639521",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 21:52:45",
+        "website": [],
+        "address": "莫干山路600号天安千树大洋晶典F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.445537,31.248909",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JU9CG3PH",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKJBOMFX/comment/1a87dec07255f865ce755d67cc728a71_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKJBOMFX/comment/7d073c2b8d183c1d827058cb33568102_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKJBOMFX/comment/40e2e07b6c2b7042b9409b11a237f95a_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0HKJBOMFX",
+        "tag": [],
+        "entr_location": "121.444087,31.248516",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": [],
+        "name": "% Arabica阿拉比卡咖啡(大洋千树店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "35",
+        "importance": [],
+        "biz_ext": {
+          "cost": "33.00",
+          "opentime2": "周一至周日 07:30-21:00",
+          "rating": "4.2",
+          "open_time": "07:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639521",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 23:49:02",
+        "website": [],
+        "address": "长寿路街道莫干山路600号大洋晶典·天安千树1层0103号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.445644,31.249073",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFMA0COY",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1JHEU67/comment/4cd1721c4534c0855de6944bdcaa06cf_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/165cd51a0ab6eb7b345bc651dc7673bf"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/faa6206a16ac17e676863d45d5aae302"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-52728831",
+        "id": "B0I1JHEU67",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": [],
+        "name": "Tims咖啡(腾讯电竞联名千树店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "35",
+        "importance": [],
+        "biz_ext": {
+          "cost": "25.00",
+          "opentime2": "周一至周五 07:00-22:00；周六至周日 07:00-22:00",
+          "rating": "3.2",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639521",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-07-10 16:22:20",
+        "website": [],
+        "address": "莫干山路与昌化路交叉口东北140米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.445416,31.249054",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JU9CG3PH",
+        "pcode": "310000",
+        "keytag": "小吃快餐",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f3edb7ea680389266c063a18c8e48bef"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/79209f45444ac0150000003261234076?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7e3b5a6ba49e06850000003261224252?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18294218431",
+        "id": "B0KRY1S6KA",
+        "tag": "卤肉,小炒黄牛肉,拌饭,拌粉,瓦罐汤",
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": "卤肉,小炒黄牛肉,拌饭,拌粉,瓦罐汤",
+        "name": "辣潮纪拌粉(大洋晶典·天安千树店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "63",
+        "importance": [],
+        "biz_ext": {
+          "cost": "33.00",
+          "opentime2": "周一至周日 10:00-21:30",
+          "rating": "3.3",
+          "open_time": "10:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639521",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 08:13:31",
+        "website": [],
+        "address": "大洋晶典·天安千树1期(江宁路地铁站1号口步行490米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.444981,31.249026",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0IBFC2B7Z",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDD414OI/comment/EA941CB0_A429_4F0B_9CD2_CB20DC0635D3_L0_001_795_106_1762659849596_70905846.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDD414OI/comment/2B42AA01_CB4D_4E2F_930A_56E671BACCA4_L0_001_1500_200_1764603333144_64804608.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDD414OI/comment/BB5B393A_AA45_498A_8A0A_0522DAFA84F8_L0_001_1500_200_1764603333144_07355054.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KDD414OI",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "光新",
+        "childtype": "320",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "Manner Coffee(中远两湾城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "292",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730501",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 07:28:17",
+        "website": [],
+        "address": "中潭路100弄182号1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.444027,31.251037",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "cafeId": "nine-o-nine-wanhangdu",
+  "query": {
+    "location": "121.416169,31.222940",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:57:45Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHFFNI7/comment/file_media_Photo_9449_IMG_1774165712_8940_IMG_0135_HEIC_ss_2j_1774165636393_12384002.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHFFNI7/headerImg/ccf3dc18196ea8483ee244e3556db32d_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHFFNI7/comment/file_media_Photo_9450_IMG_1774165712_8941_IMG_0136_HEIC_ss_2j_1774165636383_32056904.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17749718150",
+        "id": "B0FFHFFNI7",
+        "tag": "鸡肉",
+        "entr_location": "121.416806,31.22477",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": [],
+        "atag": "鸡肉",
+        "name": "馆下1575咖啡厅",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "238",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.5",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637301",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 22:15:53",
+        "website": [],
+        "address": "万航渡路1575号华东政法大学图书馆后",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.416730,31.225031",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155K7T2",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/9e9d6c2c7638df8e2f70ef055c53b0b4"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0I0RAS2CG",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "320",
+        "atag": [],
+        "name": "时光胶囊河湾1979咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "274",
+        "importance": [],
+        "biz_ext": {
+          "cost": "31.00",
+          "opentime2": "周一至周日 09:00-22:30",
+          "rating": "3.4",
+          "open_time": "09:00-22:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 10:16:00",
+        "website": [],
+        "address": "万航渡路1575号华东政法大学(长宁校区)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.416625,31.225375",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

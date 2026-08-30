@@ -1,0 +1,473 @@
+{
+  "cafeId": "offbeat-yuyuan",
+  "query": {
+    "location": "121.425042,31.219253",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:57:32Z",
+  "matchedPoiId": "B0LDJ1R2P9",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFMAINVM",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDJ1R2P9/comment/68226491_7D9F_4003_965D_E348ECEA64CC_L0_001_1500_200_1759421987086_60270388.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6445db4ec0a4c28e0000003195062631?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDJ1R2P9/comment/4AD5BA3C_7FA3_416C_8F05_F9B89F181988_L0_001_1536_204_1759979034495_45968756.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LDJ1R2P9",
+        "tag": "coffee",
+        "entr_location": "121.425423,31.219200",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "無问咖啡OFFBEAT COFFEE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周日 10:30-18:30",
+          "rating": "4.1",
+          "open_time": "10:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636400",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 12:39:01",
+        "website": [],
+        "address": "愚园路1280弄(中山公园地铁站8号口步行480米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.425035,31.219247",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0KRAA6XOP",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/09b1435b6bfc4896b3d9805c18ead798"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFK5MRX4/comment/F502AED0_874C_4012_86BB_7B55442B696A_L0_001_2000_150_1770904580530_34168064.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFK5MRX4/comment/18DC33C4_D8CF_45B8_A12E_50115E1D81F6_L0_001_1500_200_1760771048351_23442429.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15316503255",
+        "id": "B0FFK5MRX4",
+        "tag": [],
+        "entr_location": "121.42412077508808,31.218945561070424",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "320",
+        "atag": [],
+        "name": "THE BOUNDLESS WAY CAFE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "97",
+        "importance": [],
+        "biz_ext": {
+          "cost": "43.00",
+          "opentime2": "周一至周五 09:00-18:00；周二至周五 19:30-23:30；周六 10:00-19:00,19:30-23:30；周日 10:00-19:00",
+          "rating": "4.5",
+          "open_time": "19:30-23:30 10:00-19:00 19:30-23:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636302",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 09:32:31",
+        "website": [],
+        "address": "愚园路1321号(中山公园地铁站8号口步行330米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.424126,31.218856",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLL35FT/comment/746B1ECC_12B6_4094_BDC7_2DC0C1BC5008_L0_001_1500_200_1761746959276_00807454.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1772952915618_33249108_1772952986268_80236685.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLL35FT/comment/0240d6e3be6597796bab8c04ac8f3884_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-62188323;18098315668",
+        "id": "B0FFLL35FT",
+        "tag": "牛肉饭,蘑菇,虾仁,煎蛋,牛肉",
+        "entr_location": "121.423806,31.218805",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": [],
+        "atag": "牛肉饭,蘑菇,虾仁,煎蛋,牛肉",
+        "name": "WABI COFE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "107",
+        "importance": [],
+        "biz_ext": {
+          "cost": "73.00",
+          "opentime2": "周一至周日 10:30-24:00",
+          "rating": "4.7",
+          "open_time": "10:30-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636302",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 03:34:29",
+        "website": [],
+        "address": "愚园路1327号(中山公园地铁站8号口步行320米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.424038,31.218805",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00154MPOE",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/135b83ce7a8968070000003004196249?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ba93cf894855ad580335018f9c5cf941"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c791d9f6d36577e981584480e467c1bf"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MBKZPP6L",
+        "tag": [],
+        "entr_location": "121.422792,31.218910",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "202",
+        "atag": [],
+        "name": "BON咖啡(愚园路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "220",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "4.1",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636302",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 13:06:57",
+        "website": [],
+        "address": "愚园路1395号盛春商厦F3层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.422795,31.218776",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LXWK",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JASC6AT8/comment/6a12f2f3674f1a583e7d1f8003e8f843_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/bacd28b15f424d526b020989f0ebd6d6"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JASC6AT8/comment/a8e17f7b34390c4816ccb7fe7b51343a_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-62375239",
+        "id": "B0JASC6AT8",
+        "tag": "单人餐,下午茶,牛肉",
+        "entr_location": "121.424534,31.221582",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "202",
+        "atag": "单人餐,下午茶,牛肉",
+        "name": "星巴克(上海尚街创邑店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "267",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.4",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 14:14:10",
+        "website": [],
+        "address": "长宁路546号1层101单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.424631,31.221630",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LXWK",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JRDZ00OH/comment/6b414589b5e3c7a668bae225ed7d1acc_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JRDZ00OH/comment/f460b9cd3b91f7c0a14d5cda9dbb063c_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JRDZ00OH/comment/ca86cfa0-c9e8-4116-9755-4982c1043a74.png"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JRDZ00OH",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "Manner Coffee(盛业公寓店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "274",
+        "importance": [],
+        "biz_ext": {
+          "cost": "24.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.3",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 17:20:03",
+        "website": [],
+        "address": "华阳路269号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.424475,31.221675",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

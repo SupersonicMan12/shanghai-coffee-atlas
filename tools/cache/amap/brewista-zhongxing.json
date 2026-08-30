@@ -1,0 +1,473 @@
+{
+  "cafeId": "brewista-zhongxing",
+  "query": {
+    "location": "121.453656,31.252428",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:57:15Z",
+  "matchedPoiId": "B0IKUS0SIJ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IKUS0SIJ/comment/7156e25a43b788f5038790d86af5b8fd_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IKUS0SIJ/comment/10a1455f1e75671b6a0feac37a3034f3_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IKUS0SIJ/comment/5c75b94416bace4276f856bd09838c22_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15801865088",
+        "id": "B0IKUS0SIJ",
+        "tag": "coffee",
+        "entr_location": "121.454502,31.252609",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "brewista上海体验中心COFFEESTORE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "1",
+        "importance": [],
+        "biz_ext": {
+          "cost": "44.00",
+          "opentime2": "周一至周五 11:00-17:30",
+          "rating": "4.4",
+          "open_time": "11:00-17:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730600",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 12:05:21",
+        "website": [],
+        "address": "中兴路1710号眼镜城1楼门面(靠近假日酒店)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.453649,31.252421",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0IA3XK2LQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JBPN354J/comment/0DF45BAD_2DDA_4083_A5F2_9BBBEE4FE2B7_L0_001_2000_1500_1732945313804_64594266.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JBPN354J/comment/2FD84474_A7E8_41A1_8DD0_6FF89612AF1C_L0_001_2000_1500_1732945313807_91126221.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17274883860",
+        "id": "B0JBPN354J",
+        "tag": "牛乳,三明治",
+        "entr_location": "121.454918,31.252739",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": "202",
+        "atag": "牛乳,三明治",
+        "name": "LAVAZZA拉瓦萨咖啡(上海金融街店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "110",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": "周一至周日 07:30-21:30",
+          "rating": "4.3",
+          "open_time": "07:30-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730611",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 12:48:22",
+        "website": [],
+        "address": "中兴路1683号1层L1-1-1-A",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.454426,31.253166",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/09766142ec080dc50000002041672480?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/70532990391057ea0000002896618266?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13636332364",
+        "id": "B0L3PZFN9K",
+        "tag": "生椰拿铁,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "不夜城",
+        "childtype": [],
+        "atag": "生椰拿铁,杨枝甘露",
+        "name": "库迪咖啡(上海金融街购物中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "143",
+        "importance": [],
+        "biz_ext": {
+          "cost": "9.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 21:37:06",
+        "website": [],
+        "address": "中兴路1683,1729号1层L1-16-1室(上海金融街购物中心)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452775,31.253475",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0IA3XK2LQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/20260316-59337049f9335be85bd1dd49-lwGPV40qmz9XlZbqfWByv.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/20260316-59337049f9335be85bd1dd49-2WehLresC7t6VEnrBYnlVl.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JUAXYVQ5/comment/34fad3f371e46c67238c70033d8d684c_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JUAXYVQ5",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": "202",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(上海金融街购物中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "197",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-29 12:15:17",
+        "website": [],
+        "address": "中兴路1683、1729号1层L1-13商铺上海金融街购物中心F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452950,31.254097",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0IA3XK2LQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDZ1OSHT/comment/9D78AF40_EE8D_47C2_A8F4_60CEC179774B_L0_001_1500_2000_1736732788111_17154576.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KDZ1OSHT/comment/971BA8E9_5EEB_42A3_967D_04AB5E9EB0E1_L0_001_1500_2000_1736732788108_40404866.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0KDZ1OSHT",
+        "tag": "coffee,柠檬茶,生椰拿铁,杨枝甘露",
+        "entr_location": "121.453485,31.254127",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": "202",
+        "atag": "coffee,柠檬茶,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(金融街购物中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "199",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 10:55:56",
+        "website": [],
+        "address": "中兴路1683号上海金融街购物中心F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452922,31.254111",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KSDE",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLNLWJW/comment/content_media_external_file_367964_ss__1768873885822_92710632.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLNLWJW/comment/e4a1930cec694a5abe0be7dc82f21c26_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLNLWJW/comment/d332184beaaf3eb3e99993aca6dee77c_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFLNLWJW",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "不夜城",
+        "childtype": "201",
+        "atag": [],
+        "name": "太平洋咖啡(上海站)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "292",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 06:00-21:00",
+          "rating": "3.8",
+          "open_time": "06:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621730601",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-08-27 20:26:06",
+        "website": [],
+        "address": "秣陵路303号上海站2F层L23",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "TY0000990210200785",
+          "truefloor": "2F",
+          "cpid": "B00155KSDE",
+          "floor": "2"
+        },
+        "exit_location": [],
+        "location": "121.455828,31.250565",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

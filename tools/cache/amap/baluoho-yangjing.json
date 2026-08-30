@@ -1,0 +1,398 @@
+{
+  "cafeId": "baluoho-yangjing",
+  "query": {
+    "location": "121.509415,31.254128",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:56:28Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e441379d27f7d4290000000946770808?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/218dfff8a45468030000000946794683?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1769863450607_53699768_1769863458778_72879609.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13818706925;18018552378",
+        "id": "B0FFGUWN34",
+        "tag": "下午茶,单人餐,双人餐",
+        "entr_location": "121.509032,31.25451",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北外滩",
+        "childtype": [],
+        "atag": "下午茶,单人餐,双人餐",
+        "name": "白马咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009013_447170",
+        "distance": "91",
+        "importance": [],
+        "biz_ext": {
+          "cost": "135.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.6",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740012",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 21:19:22",
+        "website": [],
+        "address": "长阳路67号犹太难民纪念馆对面",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.508791,31.254759",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/43169f52021e1b5ceb77a75e2f2fd441"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/396fa47f0b7e620ba8d19514bb765c69"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L277K4GZ/comment/0BFA81B6_9D14_4FC4_8410_5B00A03A48DB_L0_001_1500_200_1760284853407_09851068.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18018552378",
+        "id": "B0L277K4GZ",
+        "tag": "奶油培根意大利面,肌肉凯撒色拉,桃子无花果色拉,西班牙海鲜烩饭,烟熏三文鱼牛油果吐司,意式烩海鲜,西班牙香肠蛋饼,墨西哥牛肉馅饼,阿根廷红虾米型面,经典鸡蛋班尼迪特,黑松露菌菇汤,BBQ伊利比亚猪肋排,烤贝贝南瓜汤,西班牙蒜蓉大虾,烟熏三文鱼牛油果色拉,虾米",
+        "entr_location": "121.508912,31.254956",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "提篮桥",
+        "childtype": [],
+        "atag": "奶油培根意大利面,肌肉凯撒色拉,桃子无花果色拉,西班牙海鲜烩饭,烟熏三文鱼牛油果吐司,意式烩海鲜,西班牙香肠蛋饼,墨西哥牛肉馅饼,阿根廷红虾米型面,经典鸡蛋班尼迪特,黑松露菌菇汤,BBQ伊利比亚猪肋排,烤贝贝南瓜汤,西班牙蒜蓉大虾,烟熏三文鱼牛油果色拉,虾米",
+        "name": "白马咖啡馆·花园洋房餐厅",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "103",
+        "importance": [],
+        "biz_ext": {
+          "cost": "55.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.3",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 05:47:55",
+        "website": [],
+        "address": "长阳路67号(提篮桥地铁站1号口步行220米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.508789,31.254884",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFKHVPR0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/dfe112309605d04f0000003035204375?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/33c93597284348ed0000003568538008?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H1MRZCA5/comment/fe4ba6c99d10408f85e3de65eb026c34_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18217046960",
+        "id": "B0H1MRZCA5",
+        "tag": "下午茶",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "提篮桥",
+        "childtype": "202",
+        "atag": "下午茶",
+        "name": "Peet's皮爷咖啡(北外滩来福士店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "259",
+        "importance": [],
+        "biz_ext": {
+          "cost": "40.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.2",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-25 03:30:17",
+        "website": [],
+        "address": "东大名路999号北外滩来福士01层0506",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507279,31.252681",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFKHVPR0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a9fb7e210423c1710000003570706319?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f829eee3b192a33c0000002434904938?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HRCNK8E6/comment/fdfffab4-502e-4ee9-b44e-b6df830abfc7.png"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0HRCNK8E6",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.505586,31.253078",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北外滩",
+        "childtype": "202",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "Manner Coffee(北外滩来福士广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "262",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周五 07:00-21:30；周六至周日 07:30-21:30",
+          "rating": "4.6",
+          "open_time": "07:30-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-30 04:59:19",
+        "website": [],
+        "address": "东大名路999号北外滩来福士广场B2层26A号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507406,31.252512",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFKHVPR0",
+        "pcode": "310000",
+        "keytag": "冰淇淋",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/44e4f86932c2db670000003570570921?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKL5TTN7/comment/file_media_Photo_2344_IMG_1754483542_2173_IMG_20250403_194258_jpg_ss__1765882997487_59308836.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKL5TTN7/comment/F30986D0_13F8_47EB_9DB4_40C647617B39_L0_001_1500_200_1756343774526_36508349.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0HKL5TTN7",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "提篮桥",
+        "childtype": "202",
+        "atag": [],
+        "name": "LUNEURS月乐诗·法式冰淇淋(北外滩来福士广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "293",
+        "importance": [],
+        "biz_ext": {
+          "cost": "43.00",
+          "opentime2": "周一至周日 09:30-24:00",
+          "rating": "4.0",
+          "open_time": "09:30-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 20:49:39",
+        "website": [],
+        "address": "东大名路999号北外滩来福士F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507275,31.252233",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

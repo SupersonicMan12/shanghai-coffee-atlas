@@ -1,0 +1,323 @@
+{
+  "cafeId": "malteh-dongjiadu",
+  "query": {
+    "location": "121.498093,31.216555",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-08-30T07:58:50Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0G1HCMIZ0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0M6DZ5NLT/comment/content_media_external_file_1000155395_ss__1769648239157_25002987.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0M6DZ5NLT/comment/content_media_external_file_1000151618_ss__1769558272715_02658857.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0M6DZ5NLT/comment/content_media_external_file_1000151620_ss__1769558272716_53279666.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-61138599",
+        "id": "B0M6DZ5NLT",
+        "tag": [],
+        "entr_location": "121.498756,31.216737",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": "202",
+        "atag": [],
+        "name": "肯悦咖啡小南门地铁站店",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "80",
+        "importance": [],
+        "biz_ext": {
+          "cost": "19.00",
+          "opentime2": "周一至周日 06:00-22:00",
+          "rating": "3.5",
+          "open_time": "06:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636902",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 17:17:53",
+        "website": [],
+        "address": "中华路528号融创外滩壹号院B楼B1层15-18号商铺",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498775,31.216975",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G1HCMIZ0",
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5ce443daeb86b2bd0000002366344817?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b4e04482a6b2d4400000002388720764?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0KRRGQV2C",
+        "tag": "生椰拿铁,杨枝甘露,柠檬茶",
+        "entr_location": "121.499154,31.216814",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": "202",
+        "atag": "生椰拿铁,杨枝甘露,柠檬茶",
+        "name": "瑞幸咖啡(融创外滩壹号汇B1店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "82",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 21:48:16",
+        "website": [],
+        "address": "小东门街道中华路528号融创外滩壹号院B楼负一层19室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498760,31.217022",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G1HCMIZ0",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5b1c4caf18c538100000002257112167?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3847dab21d44e69c47ac2477f60a4ee0"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-63231056",
+        "id": "B0G2CH8IKT",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.498612,31.217554",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克臻选(上海融创外滩壹号院店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "139",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 16:38:35",
+        "website": [],
+        "address": "中华路528号融创外滩壹号院9102-9103单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498756,31.217673",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G1HCMIZ0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1770448894646_88406434_1770448896932_03639866.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L0FH3C2G/comment/20260321-6eabd834048d309919fde2bc-1QqBy8Mj9y58uWE5q6sBfr.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1770448894654_49611531_1770448896935_78152519.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19602191513",
+        "id": "B0L0FH3C2G",
+        "tag": "coffee",
+        "entr_location": "121.498615,31.217670",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "Manner Coffee(融创外滩壹号汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "140",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周日 07:30-21:30",
+          "rating": "4.0",
+          "open_time": "07:30-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 13:50:49",
+        "website": [],
+        "address": "中华路518号外滩壹号汇F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498775,31.217675",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}
