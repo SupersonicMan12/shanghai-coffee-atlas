@@ -106,9 +106,27 @@ export interface AmapSignals {
   fetchedAt: string
 }
 
+/**
+ * Structured signals read from Dianping (大众点评) public shop pages served to
+ * the Apple Maps integration channel. Counts arrive as display strings
+ * (“4万+”) and are parsed at blend time.
+ */
+export interface DianpingSignals {
+  shopId: string
+  rating?: number
+  /** 人均 in ¥. */
+  avgPrice?: number
+  reviewCountText?: string
+  picCountStr?: string
+  categoryName?: string
+  regionName?: string
+  fetchedAt: string
+}
+
 export interface Evidence {
   axes?: Partial<Record<keyof Axes, AxisEvidence>>
   amap?: AmapSignals
+  dianping?: DianpingSignals
 }
 
 export interface CrawlStop {
