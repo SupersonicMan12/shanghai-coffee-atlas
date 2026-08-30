@@ -1,5 +1,6 @@
-import { useCallback, useSyncExternalStore } from 'react'
+import { useCallback, useMemo, useSyncExternalStore } from 'react'
 import type { Axes } from '../data/types'
+import type { CafeVotes } from './scoring'
 
 /**
  * The calibration ledger. Every reader who answers the five questions leaves
@@ -32,6 +33,10 @@ export interface VoteStore {
   cast(vote: Vote): void
   /** Withdraw this device's vote. */
   retract(cafeId: string): void
+  /** Every café id that has at least one vote. */
+  cafeIds(): string[]
+  /** Monotonic counter bumped on every change, for cheap snapshots. */
+  readonly version: number
   /** Subscribe to changes; returns an unsubscribe. */
   subscribe(fn: () => void): () => void
 }
@@ -72,8 +77,10 @@ function readAll(): Vote[] {
 class LocalVoteStore implements VoteStore {
   private votes: Vote[] = readAll()
   private listeners = new Set<() => void>()
+  version = 0
 
   private persist() {
+    this.version++
     try {
       localStorage.setItem(KEY, JSON.stringify(this.votes))
     } catch {
@@ -101,6 +108,10 @@ class LocalVoteStore implements VoteStore {
     this.persist()
   }
 
+  cafeIds(): string[] {
+    return [...new Set(this.votes.map((v) => v.cafeId))]
+  }
+
   subscribe(fn: () => void): () => void {
     this.listeners.add(fn)
     return () => this.listeners.delete(fn)
@@ -121,6 +132,32 @@ export function votesFor(cafeId: string, store: VoteStore = voteStore): VoteAggr
     if (vals.length) mean[k] = Math.round(vals.reduce((a, b) => a + b, 0) / vals.length)
   }
   return { mean, n: votes.length }
+}
+
+/**
+ * Every café's votes in the scoring engine's `CafeVotes` shape, for feeding
+ * `rank`/`blendAll`. Cafés with no votes are omitted.
+ */
+export function allCafeVotes(store: VoteStore = voteStore): Map<string, CafeVotes> {
+  const out = new Map<string, CafeVotes>()
+  for (const id of store.cafeIds()) {
+    const votes = store.list(id)
+    const cv: CafeVotes = {}
+    for (const k of AXIS_KEYS) {
+      const vals = votes.map((v) => v.axes[k]).filter((n): n is number => typeof n === 'number')
+      if (vals.length) cv[k] = { mean: vals.reduce((a, b) => a + b, 0) / vals.length, count: vals.length }
+    }
+    if (Object.keys(cv).length) out.set(id, cv)
+  }
+  return out
+}
+
+/** React binding: every café's vote aggregates, live. */
+export function useCafeVotes(): Map<string, CafeVotes> {
+  const subscribe = useCallback((fn: () => void) => voteStore.subscribe(fn), [])
+  const getVersion = useCallback(() => voteStore.version, [])
+  const version = useSyncExternalStore(subscribe, getVersion)
+  return useMemo(() => allCafeVotes(), [version])
 }
 
 /** React binding: this device's vote for a café, live. */

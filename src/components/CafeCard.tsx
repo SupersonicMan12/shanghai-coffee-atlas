@@ -2,6 +2,7 @@ import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
 import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
 import { blendAll } from '../lib/scoring'
+import { useCafeVotes } from '../lib/votes'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { formatHour } from '../lib/palette'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
@@ -57,7 +58,8 @@ export function CafeCard({
   shared,
 }: Props) {
   const open = isOpenAt(cafe, hour)
-  const blended = blendAll(CAFES).get(cafe.id)
+  const cafeVotes = useCafeVotes()
+  const blended = blendAll(CAFES, cafeVotes).get(cafe.id)
   const toClose = minutesToClose(cafe, hour)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   return (

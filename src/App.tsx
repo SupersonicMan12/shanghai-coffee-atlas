@@ -18,6 +18,7 @@ import { EMPTY_FILTERS, NEUTRAL, rank, type Filters } from './lib/match'
 import { anchorFromHash, anchorPoint, anchorToHash, rankNear, type Anchor } from './lib/near'
 import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { usePassport } from './lib/passport'
+import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
 
 type Panel = 'compass' | 'crawls' | 'passport'
@@ -85,7 +86,8 @@ export default function App() {
   const hour = hourOverride ?? nowHour
   const phase = phaseForHour(hour)
 
-  const ranked = useMemo(() => rank(CAFES, axes, filters), [axes, filters])
+  const cafeVotes = useCafeVotes()
+  const ranked = useMemo(() => rank(CAFES, axes, filters, undefined, cafeVotes), [axes, filters, cafeVotes])
   const nearRanked = useMemo(
     () => (anchor ? rankNear(ranked, anchor) : null),
     [ranked, anchor],
