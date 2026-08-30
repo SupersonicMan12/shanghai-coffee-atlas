@@ -1541,3 +1541,183 @@
     width: auto;
   }
 }
+
+/* ── Calibrate the compass (workstream 4) ─────────────────────────────────── */
+
+.calibrate {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed color-mix(in srgb, var(--ink) 35%, transparent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.calibrate.open {
+  display: block;
+}
+
+.cal-open {
+  border: 1px solid var(--ink);
+  background: transparent;
+  border-radius: 3px;
+  padding: 5px 11px;
+  font-size: 11.5px;
+}
+
+.cal-open:hover {
+  background: color-mix(in srgb, var(--ink) 10%, transparent);
+}
+
+.cal-state,
+.cal-count {
+  font-size: 11px;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.cal-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 8px;
+}
+
+.cal-head strong {
+  font-family: var(--serif);
+  font-size: 14px;
+}
+
+.cal-sub {
+  font-size: 11px;
+  color: var(--ink-soft);
+}
+
+.cal-q {
+  margin-bottom: 8px;
+}
+
+.cal-question {
+  font-size: 11.5px;
+  margin-bottom: 4px;
+}
+
+.cal-options {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.cal-opt {
+  border: 1px solid color-mix(in srgb, var(--ink) 55%, transparent);
+  background: transparent;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 10.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.cal-opt .zh {
+  font-size: 10px;
+  color: var(--ink-soft);
+}
+
+.cal-opt:hover {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+.cal-opt.on {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.cal-opt.on .zh {
+  color: color-mix(in srgb, var(--paper) 80%, transparent);
+}
+
+.cal-foot {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.cal-submit {
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 3px;
+  padding: 5px 12px;
+  font-size: 11.5px;
+}
+
+.cal-submit:disabled {
+  opacity: 0.45;
+}
+
+.cal-cancel {
+  border: none;
+  background: transparent;
+  font-size: 11px;
+  color: var(--ink-soft);
+  text-decoration: underline;
+}
+
+/* ── Share cards ──────────────────────────────────────────────────────────── */
+
+.sharecard {
+  position: relative;
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  padding: 16px;
+  max-width: min(430px, 94vw);
+  max-height: 92vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.sc-head strong {
+  font-family: var(--serif);
+  font-size: 15px;
+}
+
+.sc-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  border-radius: 3px;
+  -webkit-touch-callout: default;
+}
+
+.sc-hint {
+  margin: 0;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.sc-save {
+  align-self: center;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 3px;
+  padding: 6px 14px;
+  font-size: 12px;
+  text-decoration: none;
+}

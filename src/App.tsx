@@ -11,6 +11,7 @@ import { PassportPanel } from './components/PassportPanel'
 import { QuizModal } from './components/QuizModal'
 import { ResultsStrip } from './components/ResultsStrip'
 import { TaxiCard } from './components/TaxiCard'
+import { ShareCardModal, type ShareKind } from './components/ShareCard'
 import { EMPTY_FILTERS, NEUTRAL, rank, type Filters } from './lib/match'
 import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { usePassport } from './lib/passport'
@@ -57,6 +58,7 @@ export default function App() {
   const [crawlId, setCrawlId] = useState<string | null>(initial.crawl ?? null)
   const [quizOpen, setQuizOpen] = useState(false)
   const [taxiFor, setTaxiFor] = useState<Cafe | null>(null)
+  const [shareFor, setShareFor] = useState<{ cafe: Cafe; kind: ShareKind } | null>(null)
   const [hourOverride, setHourOverride] = useState<number | null>(null)
   const [lang, setLang] = useState<Lang>('both')
   const [copied, setCopied] = useState<string | null>(null)
@@ -102,6 +104,14 @@ export default function App() {
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
   }, [selectedId, crawlId, compassOn, axes])
+
+  useEffect(() => {
+    if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register(`${import.meta.env.BASE_URL}sw.js`)
+        .catch(() => undefined)
+    }
+  }, [])
 
   useEffect(() => {
     if (!copied) return
@@ -441,6 +451,7 @@ export default function App() {
                 setCharacter(`rooms like ${selected.name}`)
                 setPanel('compass')
               }}
+              onShareCard={() => setShareFor({ cafe: selected, kind: 'cafe' })}
               shared={copied === 'cafe'}
               onShare={() =>
                 copy(
@@ -471,7 +482,24 @@ export default function App() {
           }}
         />
       )}
-      {taxiFor && <TaxiCard cafe={taxiFor} onClose={() => setTaxiFor(null)} />}
+      {taxiFor && (
+        <TaxiCard
+          cafe={taxiFor}
+          onClose={() => setTaxiFor(null)}
+          onSaveImage={() => {
+            setShareFor({ cafe: taxiFor, kind: 'taxi' })
+            setTaxiFor(null)
+          }}
+        />
+      )}
+      {shareFor && (
+        <ShareCardModal
+          cafe={shareFor.cafe}
+          kind={shareFor.kind}
+          score={scores.get(shareFor.cafe.id) ?? null}
+          onClose={() => setShareFor(null)}
+        />
+      )}
     </div>
   )
 }

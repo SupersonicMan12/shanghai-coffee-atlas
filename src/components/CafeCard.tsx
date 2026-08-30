@@ -2,6 +2,7 @@ import type { Axes, Cafe } from '../data/types'
 import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
 import { formatHour } from '../lib/palette'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, TAG_LABEL } from '../data/labels'
+import { CalibrateWidget } from './CalibrateWidget'
 
 interface Props {
   cafe: Cafe
@@ -18,6 +19,7 @@ interface Props {
   onTaxi: () => void
   onMoreLikeThis: () => void
   onShare: () => void
+  onShareCard: () => void
   shared: boolean
 }
 
@@ -40,6 +42,7 @@ export function CafeCard({
   onTaxi,
   onMoreLikeThis,
   onShare,
+  onShareCard,
   shared,
 }: Props) {
   const open = isOpenAt(cafe, hour)
@@ -142,7 +145,12 @@ export function CafeCard({
         <button className="act" onClick={onShare}>
           {shared ? 'Link copied' : 'Share'}
         </button>
+        <button className="act" onClick={onShareCard}>
+          Share card 分享卡片
+        </button>
       </div>
+
+      <CalibrateWidget cafe={cafe} />
     </aside>
   )
 }
