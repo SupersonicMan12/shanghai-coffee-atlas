@@ -15,6 +15,7 @@ import {
   VERDICT_ZH,
 } from '../data/labels'
 import { useI18n } from '../lib/i18n'
+import { displayNames } from '../lib/names'
 import { CalibrateWidget } from './CalibrateWidget'
 
 const SOURCE_WORD = {
@@ -69,6 +70,7 @@ export function CafeCard({
   const open = isOpenAt(cafe, hour)
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
+  const names = displayNames(cafe, mode)
   const cafeVotes = useCafeVotes()
   const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
   const toClose = minutesToClose(cafe, hour)
@@ -83,8 +85,8 @@ export function CafeCard({
         {zh ? ARCHETYPE_LABEL[cafe.archetype].zh : ARCHETYPE_LABEL[cafe.archetype].en}
         {mode === 'both' && <span className="zh"> · {ARCHETYPE_LABEL[cafe.archetype].zh}</span>}
       </div>
-      <h2>{cafe.name}</h2>
-      <div className="card-zh zh">{cafe.nameZh}</div>
+      <h2>{names.primary}</h2>
+      {names.secondary && <div className="card-zh zh">{names.secondary}</div>}
 
       <div className="card-where">
         {zh ? (

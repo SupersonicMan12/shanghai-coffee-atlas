@@ -370,6 +370,7 @@
 .axis {
   display: block;
   margin-bottom: 12px;
+  user-select: none;
 }
 
 .axis-top {
@@ -768,6 +769,8 @@
   position: relative;
   min-width: 0;
   overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .atlas {
@@ -823,6 +826,14 @@
 
 .pin.dim {
   opacity: 0.24;
+}
+
+.pin.quiet {
+  opacity: 0.55;
+}
+
+.pin.quiet.dim {
+  opacity: 0.14;
 }
 
 .pin.active {
@@ -1152,6 +1163,7 @@
   right: 0;
   bottom: 0;
   z-index: 4;
+  user-select: none;
   background: linear-gradient(
     to top,
     color-mix(in srgb, var(--paper) 97%, transparent) 72%,
@@ -1511,8 +1523,8 @@
   }
 
   .card {
-    right: 14px;
-    width: 330px;
+    right: 56px;
+    width: 316px;
   }
 }
 

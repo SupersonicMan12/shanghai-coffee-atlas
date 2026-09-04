@@ -18,7 +18,8 @@ import { sketch } from '../lib/hand'
 import { BaseLayers } from './BaseLayers'
 import { Glyph } from './Glyphs'
 import { UI } from '../data/labels'
-import { useI18n } from '../lib/i18n'
+import { useI18n, type LangMode } from '../lib/i18n'
+import { displayNames } from '../lib/names'
 
 export interface View {
   x: number
@@ -54,6 +55,24 @@ interface Props {
 
 function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v))
+}
+
+export function pinRadius(
+  k: number,
+  cafe: Cafe,
+  strength: number | null,
+  active: boolean,
+  inCrawl: boolean,
+): number {
+  const base = k < 1.3 ? 7 : k < 2.4 ? 7 + ((k - 1.3) / 1.1) * 4 : 11
+  const quiet =
+    cafe.source === 'imported' &&
+    k < 1.8 &&
+    !active &&
+    !(strength !== null && strength > 0.82) &&
+    !inCrawl
+  if (quiet) return 3.2
+  return base + (strength === null ? 1 : strength * 5)
 }
 
 export function AtlasMap({
@@ -158,7 +177,6 @@ export function AtlasMap({
   }, [])
 
   const onPointerDown = (e: ReactPointerEvent<SVGSVGElement>) => {
-    e.currentTarget.setPointerCapture?.(e.pointerId)
     const [ux, uy] = toUser(e.clientX, e.clientY)
     ptrs.current.set(e.pointerId, { x: ux, y: uy })
     if (ptrs.current.size === 1) suppressClick.current = false
@@ -180,6 +198,7 @@ export function AtlasMap({
       k = clamp((g.k * dist) / g.dist, MIN_K, MAX_K)
     }
     if (Math.abs(cx - g.cx) + Math.abs(cy - g.cy) > 4 || k !== g.k) {
+      if (!g.moved) svgRef.current?.setPointerCapture(e.pointerId)
       g.moved = true
       suppressClick.current = true
     }
@@ -190,10 +209,27 @@ export function AtlasMap({
     })
   }
 
-  const endDrag = (e: ReactPointerEvent<SVGSVGElement>) => {
-    if (!ptrs.current.delete(e.pointerId)) return
-    rebaseline()
+  const endDrag = useCallback(
+    (pointerId: number) => {
+      if (!ptrs.current.delete(pointerId)) return
+      rebaseline()
+    },
+    [rebaseline],
+  )
+
+  const onPointerUp = (e: ReactPointerEvent<SVGSVGElement>) => {
+    endDrag(e.pointerId)
   }
+
+  useEffect(() => {
+    const end = (e: PointerEvent) => endDrag(e.pointerId)
+    window.addEventListener('pointerup', end)
+    window.addEventListener('pointercancel', end)
+    return () => {
+      window.removeEventListener('pointerup', end)
+      window.removeEventListener('pointercancel', end)
+    }
+  }, [endDrag])
 
   useEffect(() => {
     const el = svgRef.current
@@ -235,8 +271,111 @@ export function AtlasMap({
   }, [crawlCafes])
 
   const inv = 1 / view.k
-  const showAllLabels = view.k > 2.1
-  const { t } = useI18n()
+  const { mode, t } = useI18n()
+  const labelIds = useMemo(() => {
+    const k = Math.round(view.k * 20) / 20
+    const paperInv = 1 / k
+    type Candidate = { id: string; priority: number; order: number }
+    type Box = { x: number; y: number; w: number; h: number; id?: string }
+    const byId = new Map(placed.map((p) => [p.cafe.id, p]))
+    const candidates = new Map<string, Candidate>()
+    const add = (id: string, priority: number, order: number) => {
+      const current = candidates.get(id)
+      if (!current || priority < current.priority || (priority === current.priority && order < current.order)) {
+        candidates.set(id, { id, priority, order })
+      }
+    }
+    if (selectedId) add(selectedId, 0, 0)
+    if (hovered) add(hovered, 0, 1)
+    crawlIndex.forEach((order, id) => add(id, 1, order))
+    if (compassOn) {
+      placed.forEach(({ cafe }) => {
+        const score = scores.get(cafe.id)
+        if (score !== undefined && score >= 80) add(cafe.id, 2, 1000 - score)
+      })
+    }
+    placed.forEach(({ cafe }) => {
+      if (cafe.source !== 'imported') {
+        const score = scores.get(cafe.id) ?? 0
+        add(cafe.id, 3, compassOn ? 1000 - score : cafe.name.localeCompare(cafe.name))
+      } else if (k >= 2.4) {
+        const score = scores.get(cafe.id) ?? 0
+        add(cafe.id, 4, compassOn ? 1000 - score : cafe.name.localeCompare(cafe.name))
+      }
+    })
+
+    const sorted = [...candidates.values()].sort(
+      (a, b) => a.priority - b.priority || a.order - b.order || a.id.localeCompare(b.id),
+    )
+    const budget = k < 1.3 ? 28 : k < 2.1 ? 90 : sorted.length
+    const grid = new Map<string, Box[]>()
+    const accepted = new Set<string>()
+    const cellsFor = (box: Box) => {
+      const cells: string[] = []
+      for (let x = Math.floor(box.x / 40); x <= Math.floor((box.x + box.w) / 40); x += 1) {
+        for (let y = Math.floor(box.y / 40); y <= Math.floor((box.y + box.h) / 40); y += 1) {
+          cells.push(`${x},${y}`)
+        }
+      }
+      return cells
+    }
+    const insert = (box: Box) => {
+      cellsFor(box).forEach((cell) => {
+        const list = grid.get(cell) ?? []
+        list.push(box)
+        grid.set(cell, list)
+      })
+    }
+    const overlaps = (a: Box, b: Box) =>
+      a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
+    placed.forEach(({ cafe, x, y }) => {
+      const strength = compassOn ? clamp(((scores.get(cafe.id) ?? 50) - 50) / 45, 0, 1) : null
+      const radius = pinRadius(k, cafe, strength, selectedId === cafe.id || hovered === cafe.id, crawlIndex.has(cafe.id))
+      insert({
+        x: x - radius * paperInv,
+        y: y - radius * paperInv,
+        w: 2 * radius * paperInv,
+        h: 2 * radius * paperInv,
+        id: cafe.id,
+      })
+    })
+    sorted.slice(0, budget).forEach(({ id }) => {
+      const item = byId.get(id)
+      if (!item) return
+      const { cafe, x, y } = item
+      const names = displayNames(cafe, mode)
+      const lines = k >= 2.5 && names.secondary ? [names.primary, names.secondary] : [names.primary]
+      const textWidth = (text: string) => {
+        const cjk = [...text].filter((char) => /[\u3400-\u9fff]/.test(char)).length
+        return (text.length - cjk) * 6.4 + cjk * 9.6
+      }
+      const width = Math.max(...lines.map(textWidth)) + 6
+      const height = lines.length === 2 ? 26 : 14
+      const radius = pinRadius(
+        k,
+        cafe,
+        compassOn ? clamp(((scores.get(cafe.id) ?? 50) - 50) / 45, 0, 1) : null,
+        selectedId === cafe.id || hovered === cafe.id,
+        crawlIndex.has(cafe.id),
+      )
+      const box = {
+        x: x - width * paperInv / 2,
+        y: y + (radius + 4) * paperInv,
+        w: width * paperInv,
+        h: height * paperInv,
+      }
+      const always = selectedId === id || hovered === id
+      const blocked = cellsFor(box).some((cell) => (grid.get(cell) ?? []).some((obstacle) => {
+        if (obstacle.id === id) return false
+        return overlaps(box, obstacle)
+      }))
+      if (!blocked || always) {
+        accepted.add(id)
+        insert(box)
+      }
+    })
+    return accepted
+  }, [placed, view.k, scores, compassOn, selectedId, hovered, crawlIndex, mode])
 
   const onHover = useCallback((id: string) => setHovered(id), [])
   const onLeave = useCallback(
@@ -268,8 +407,8 @@ export function AtlasMap({
       onWheel={onWheel}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
-      onPointerUp={endDrag}
-      onPointerCancel={endDrag}
+      onPointerUp={onPointerUp}
+      onPointerCancel={onPointerUp}
       onClick={(e) => {
         if (suppressClick.current) {
           suppressClick.current = false
@@ -409,7 +548,9 @@ export function AtlasMap({
           visited={visited}
           saved={saved}
           inv={inv}
-          showAllLabels={showAllLabels}
+          k={view.k}
+          labelIds={labelIds}
+          mode={mode}
           onHover={onHover}
           onLeave={onLeave}
           onPick={onPick}
@@ -439,7 +580,9 @@ interface PinsProps {
   visited: Set<string>
   saved: Set<string>
   inv: number
-  showAllLabels: boolean
+  k: number
+  labelIds: Set<string>
+  mode: LangMode
   onHover: (id: string) => void
   onLeave: (id: string) => void
   onPick: (id: string) => void
@@ -461,7 +604,9 @@ const Pins = memo(function Pins({
   visited,
   saved,
   inv,
-  showAllLabels,
+  k,
+  labelIds,
+  mode,
   onHover,
   onLeave,
   onPick,
@@ -474,18 +619,26 @@ const Pins = memo(function Pins({
         const isSel = selectedId === cafe.id
         const isHover = hovered === cafe.id
         const inCrawl = crawlIndex.get(cafe.id)
-        const strength = compassOn && score !== undefined ? clamp((score - 50) / 45, 0, 1) : 1
-        const r = (11 + (compassOn ? strength * 6 : 2)) * inv
+        const strength = compassOn ? clamp(((score ?? 50) - 50) / 45, 0, 1) : null
+        const pinR = pinRadius(k, cafe, strength, isSel || isHover, Boolean(inCrawl))
+        const r = pinR * inv
         const active = isSel || isHover
         const dim = !isMatch || (crawlOn ? !inCrawl : false)
-        const label =
-          isSel || isHover || showAllLabels || Boolean(inCrawl) || (compassOn && strength > 0.82)
+        const quiet =
+          cafe.source === 'imported' &&
+          k < 1.8 &&
+          !active &&
+          !(strength !== null && strength > 0.82) &&
+          !inCrawl
+        const label = labelIds.has(cafe.id)
+        const names = displayNames(cafe, mode)
+        const showGlyph = pinR >= 7
 
         return (
           <g
             key={cafe.id}
             transform={`translate(${x},${y})`}
-            className={`pin${dim ? ' dim' : ''}${active ? ' active' : ''}`}
+            className={`pin${quiet ? ' quiet' : ''}${dim ? ' dim' : ''}${active ? ' active' : ''}`}
             onPointerEnter={() => onHover(cafe.id)}
             onPointerLeave={() => onLeave(cafe.id)}
             onClick={(e) => {
@@ -493,61 +646,73 @@ const Pins = memo(function Pins({
               onPick(cafe.id)
             }}
           >
-                {(active || (compassOn && strength > 0.9)) && (
-                  <circle r={r * 2} fill="var(--glow)" opacity="0.5" filter="url(#softglow)" />
-                )}
-                <circle r={r} fill="var(--pin-fill)" stroke="var(--ink)" strokeWidth={1.4 * inv} />
-                <circle
-                  r={r + 2.5 * inv}
+            {quiet && <circle r={7 * inv} fill="transparent" />}
+            {(active || (compassOn && strength !== null && strength > 0.9)) && (
+              <circle r={r * 2} fill="var(--glow)" opacity="0.5" filter="url(#softglow)" />
+            )}
+            <circle
+              r={r}
+              fill="var(--pin-fill)"
+              stroke="var(--ink)"
+              strokeWidth={(quiet ? 0.9 : 1.4) * inv}
+            />
+            {(active || k >= 1.8) && (
+              <circle
+                r={r + 2.5 * inv}
+                fill="none"
+                stroke="var(--ink)"
+                strokeWidth={0.7 * inv}
+                strokeDasharray={`${1 * inv} ${3 * inv}`}
+                opacity={active ? 0.9 : 0.35}
+              />
+            )}
+            {showGlyph && (
+              <g transform={`scale(${(r / 11) * 0.95})`}>
+                <Glyph archetype={cafe.archetype} color="var(--ink)" />
+              </g>
+            )}
+            {visited.has(cafe.id) && (
+              <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
+                <circle r="6" fill="var(--stamp)" opacity="0.92" />
+                <path
+                  d="M-2.6 0.2 l1.8 1.9 l3.5 -4"
                   fill="none"
-                  stroke="var(--ink)"
-                  strokeWidth={0.7 * inv}
-                  strokeDasharray={`${1 * inv} ${3 * inv}`}
-                  opacity={active ? 0.9 : 0.35}
+                  stroke="var(--paper)"
+                  strokeWidth="1.6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
-                <g transform={`scale(${(r / 11) * 0.95})`}>
-                  <Glyph archetype={cafe.archetype} color="var(--ink)" />
-                </g>
-                {visited.has(cafe.id) && (
-                  <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
-                    <circle r="6" fill="var(--stamp)" opacity="0.92" />
-                    <path
-                      d="M-2.6 0.2 l1.8 1.9 l3.5 -4"
-                      fill="none"
-                      stroke="var(--paper)"
-                      strokeWidth="1.6"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </g>
+              </g>
+            )}
+            {saved.has(cafe.id) && !visited.has(cafe.id) && (
+              <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
+                <circle r="5.4" fill="var(--accent)" opacity="0.9" />
+                <path
+                  d="M0 -3 l0.9 2 l2.2 0.2 l-1.7 1.5 l0.5 2.2 l-1.9 -1.2 l-1.9 1.2 l0.5 -2.2 l-1.7 -1.5 l2.2 -0.2 z"
+                  fill="var(--paper)"
+                />
+              </g>
+            )}
+            {inCrawl && (
+              <g transform={`translate(${-r * 0.9},${-r * 0.9}) scale(${inv})`}>
+                <circle r="7.5" fill="var(--accent)" />
+                <text className="crawl-num" textAnchor="middle" y="3.4">
+                  {inCrawl}
+                </text>
+              </g>
+            )}
+            {label && (
+              <g transform={`translate(0,${(pinR + 4) * inv}) scale(${inv})`}>
+                <text className="pin-label" textAnchor="middle" y="10">
+                  {names.primary}
+                </text>
+                {k >= 2.5 && names.secondary && (
+                  <text className="pin-label zh" textAnchor="middle" y="22">
+                    {names.secondary}
+                  </text>
                 )}
-                {saved.has(cafe.id) && !visited.has(cafe.id) && (
-                  <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
-                    <circle r="5.4" fill="var(--accent)" opacity="0.9" />
-                    <path
-                      d="M0 -3 l0.9 2 l2.2 0.2 l-1.7 1.5 l0.5 2.2 l-1.9 -1.2 l-1.9 1.2 l0.5 -2.2 l-1.7 -1.5 l2.2 -0.2 z"
-                      fill="var(--paper)"
-                    />
-                  </g>
-                )}
-                {inCrawl && (
-                  <g transform={`translate(${-r * 0.9},${-r * 0.9}) scale(${inv})`}>
-                    <circle r="7.5" fill="var(--accent)" />
-                    <text className="crawl-num" textAnchor="middle" y="3.4">
-                      {inCrawl}
-                    </text>
-                  </g>
-                )}
-                {label && (
-                  <g transform={`translate(0,${r + 13 * inv}) scale(${inv})`}>
-                    <text className="pin-label" textAnchor="middle">
-                      {cafe.name}
-                    </text>
-                    <text className="pin-label zh" textAnchor="middle" y="12">
-                      {cafe.nameZh}
-                    </text>
-                  </g>
-                )}
+              </g>
+            )}
           </g>
         )
       })}

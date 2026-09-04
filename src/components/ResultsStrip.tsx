@@ -4,6 +4,7 @@ import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near
 import { Glyph } from './Glyphs'
 import { CLOSENESS_ZH, UI, VERDICT_ZH } from '../data/labels'
 import { useI18n } from '../lib/i18n'
+import { displayNames } from '../lib/names'
 
 interface Props {
   ranked: (Ranked & { minutes?: number })[]
@@ -40,6 +41,7 @@ export function ResultsStrip({
         {top.map(({ cafe, score, minutes }) => {
           const toClose = minutesToClose(cafe, hour)
           const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
+          const names = displayNames(cafe, mode)
           return (
             <button
               key={cafe.id}
@@ -51,10 +53,10 @@ export function ResultsStrip({
               </svg>
               <span className="sc-main">
                 <span className="sc-name">
-                  {cafe.name}
+                  {names.primary}
                   {visited.has(cafe.id) && <span className="sc-stamped">✓</span>}
                 </span>
-                <span className="sc-zh zh">{cafe.nameZh}</span>
+                {names.secondary && <span className="sc-zh zh">{names.secondary}</span>}
                 <span className="sc-where">{cafe.hood}</span>
                 {minutes !== undefined && (
                   <span className="sc-dist">

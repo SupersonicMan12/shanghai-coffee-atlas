@@ -3,6 +3,7 @@ import { scoreVerdict } from '../lib/match'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { CLOSENESS_ZH, UI, VERDICT_ZH } from '../data/labels'
 import { useI18n } from '../lib/i18n'
+import { displayNames } from '../lib/names'
 import { Glyph } from './Glyphs'
 
 interface Props {
@@ -46,6 +47,7 @@ export function ListView({
           const toClose = minutesToClose(cafe, hour)
           const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
           const closeness = minutes !== undefined ? closenessWord(minutes) : null
+          const names = displayNames(cafe, mode)
           return (
             <li key={cafe.id}>
               <button
@@ -58,10 +60,10 @@ export function ListView({
                 </svg>
                 <span className="sc-main">
                   <span className="sc-name">
-                    {cafe.name}
+                    {names.primary}
                     {visited.has(cafe.id) && <span className="sc-stamped">✓</span>}
                   </span>
-                  <span className="sc-zh zh">{cafe.nameZh}</span>
+                  {names.secondary && <span className="sc-zh zh">{names.secondary}</span>}
                   <span className="sc-where">
                     {cafe.street} · {cafe.hood}
                   </span>
