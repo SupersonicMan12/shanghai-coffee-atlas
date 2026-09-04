@@ -57,6 +57,22 @@ function clamp(v: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, v))
 }
 
+export function isQuietPin(
+  k: number,
+  cafe: Cafe,
+  strength: number | null,
+  active: boolean,
+  inCrawl: boolean,
+): boolean {
+  return (
+    cafe.source === 'imported' &&
+    k < 1.8 &&
+    !active &&
+    !(strength !== null && strength > 0.82) &&
+    !inCrawl
+  )
+}
+
 export function pinRadius(
   k: number,
   cafe: Cafe,
@@ -65,13 +81,7 @@ export function pinRadius(
   inCrawl: boolean,
 ): number {
   const base = k < 1.3 ? 7 : k < 2.4 ? 7 + ((k - 1.3) / 1.1) * 4 : 11
-  const quiet =
-    cafe.source === 'imported' &&
-    k < 1.8 &&
-    !active &&
-    !(strength !== null && strength > 0.82) &&
-    !inCrawl
-  if (quiet) return 3.2
+  if (isQuietPin(k, cafe, strength, active, inCrawl)) return 3.2
   return base + (strength === null ? 1 : strength * 5)
 }
 
@@ -295,12 +305,13 @@ export function AtlasMap({
       })
     }
     placed.forEach(({ cafe }) => {
+      const evidenceOrder = cafe.evidence?.dianping ? 0 : cafe.evidence?.amap ? 1 : 2
       if (cafe.source !== 'imported') {
         const score = scores.get(cafe.id) ?? 0
-        add(cafe.id, 3, compassOn ? 1000 - score : cafe.name.localeCompare(cafe.name))
+        add(cafe.id, 3, compassOn ? 1000 - score : evidenceOrder)
       } else if (k >= 2.4) {
         const score = scores.get(cafe.id) ?? 0
-        add(cafe.id, 4, compassOn ? 1000 - score : cafe.name.localeCompare(cafe.name))
+        add(cafe.id, 4, compassOn ? 1000 - score : evidenceOrder)
       }
     })
 
@@ -330,6 +341,9 @@ export function AtlasMap({
       a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
     placed.forEach(({ cafe, x, y }) => {
       const strength = compassOn ? clamp(((scores.get(cafe.id) ?? 50) - 50) / 45, 0, 1) : null
+      if (isQuietPin(k, cafe, strength, selectedId === cafe.id || hovered === cafe.id, crawlIndex.has(cafe.id))) {
+        return
+      }
       const radius = pinRadius(k, cafe, strength, selectedId === cafe.id || hovered === cafe.id, crawlIndex.has(cafe.id))
       insert({
         x: x - radius * paperInv,
@@ -347,10 +361,10 @@ export function AtlasMap({
       const lines = k >= 2.5 && names.secondary ? [names.primary, names.secondary] : [names.primary]
       const textWidth = (text: string) => {
         const cjk = [...text].filter((char) => /[\u3400-\u9fff]/.test(char)).length
-        return (text.length - cjk) * 6.4 + cjk * 9.6
+        return (text.length - cjk) * 7 + cjk * 10.5
       }
       const width = Math.max(...lines.map(textWidth)) + 6
-      const height = lines.length === 2 ? 26 : 14
+      const height = lines.length === 2 ? 28 : 15
       const radius = pinRadius(
         k,
         cafe,
@@ -624,12 +638,7 @@ const Pins = memo(function Pins({
         const r = pinR * inv
         const active = isSel || isHover
         const dim = !isMatch || (crawlOn ? !inCrawl : false)
-        const quiet =
-          cafe.source === 'imported' &&
-          k < 1.8 &&
-          !active &&
-          !(strength !== null && strength > 0.82) &&
-          !inCrawl
+        const quiet = isQuietPin(k, cafe, strength, active, Boolean(inCrawl))
         const label = labelIds.has(cafe.id)
         const names = displayNames(cafe, mode)
         const showGlyph = pinR >= 7
