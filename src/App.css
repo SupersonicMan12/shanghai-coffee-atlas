@@ -3143,7 +3143,9 @@ button,
 }
 
 .strip.embedded .says-share {
-  display: none;
+  padding: 2px 7px;
+  font-size: 10.5px;
+  min-height: 26px;
 }
 
 .strip.embedded .strip-rail {
