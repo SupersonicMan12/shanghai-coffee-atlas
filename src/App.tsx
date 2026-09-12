@@ -248,6 +248,11 @@ export default function App() {
     [hour],
   )
 
+  const topIds = useMemo(
+    () => (compassOn ? shownRanked.slice(0, 3).map((r) => r.cafe.id) : []),
+    [compassOn, shownRanked],
+  )
+
   const sharePicks = useCallback(() => {
     const top = shownRanked.slice(0, 3)
     if (!top.length) return
@@ -745,6 +750,7 @@ export default function App() {
             cafes={CAFES}
             scores={scores}
             compassOn={compassOn}
+            topIds={topIds}
             selectedId={selectedId}
             onSelect={selectCafe}
             visited={visitedSet}
