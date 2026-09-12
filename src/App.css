@@ -2641,6 +2641,18 @@ button,
   margin-top: 4px;
 }
 
+.trait-src {
+  margin-left: 5px;
+  font-size: 11px;
+  opacity: 0.55;
+  text-decoration: none;
+  color: inherit;
+}
+
+.trait-src:hover {
+  opacity: 1;
+}
+
 /* --------------------------------------------------------- fingerprint -- */
 
 .fp {

@@ -145,25 +145,35 @@ def dashscope_key() -> str:
 
 def dashscope_chat(model: str, messages: list[dict], *, json_mode: bool = True,
                    retries: int = 3, timeout: int = 150, extra: dict | None = None) -> str:
-    """OpenAI-compatible chat call; returns the assistant text. Retries on transient errors."""
-    body: dict = {'model': model, 'messages': messages}
+    """OpenAI-compatible chat call; returns the assistant text. Retries on transient errors.
+
+    `model` may be a comma-separated preference list; a model whose free-tier
+    quota is exhausted (403 AllocationQuota.*) is skipped for the next one.
+    """
+    models = [m.strip() for m in model.split(',') if m.strip()]
+    body: dict = {'messages': messages}
     if json_mode:
         body['response_format'] = {'type': 'json_object'}
     if extra:
         body.update(extra)
     last: Exception | None = None
-    for attempt in range(retries):
-        try:
-            r = requests.post(DASHSCOPE_CHAT, headers={'Authorization': f'Bearer {dashscope_key()}'},
-                              json=body, timeout=timeout)
-            if r.status_code == 429 or r.status_code >= 500:
-                raise RuntimeError(f'HTTP {r.status_code}: {r.text[:200]}')
-            r.raise_for_status()
-            return r.json()['choices'][0]['message']['content']
-        except Exception as exc:  # noqa: BLE001 — resumable batch job, one failure must not stop it
-            last = exc
-            time.sleep(2.0 * (attempt + 1))
-    raise RuntimeError(f'dashscope failed after {retries} attempts: {last}')
+    for m in models:
+        body['model'] = m
+        for attempt in range(retries):
+            try:
+                r = requests.post(DASHSCOPE_CHAT, headers={'Authorization': f'Bearer {dashscope_key()}'},
+                                  json=body, timeout=timeout)
+                if r.status_code == 403 and 'AllocationQuota' in r.text:
+                    last = RuntimeError(f'{m}: quota exhausted')
+                    break
+                if r.status_code == 429 or r.status_code >= 500:
+                    raise RuntimeError(f'HTTP {r.status_code}: {r.text[:200]}')
+                r.raise_for_status()
+                return r.json()['choices'][0]['message']['content']
+            except Exception as exc:  # noqa: BLE001 — resumable batch job, one failure must not stop it
+                last = exc
+                time.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f'dashscope failed ({",".join(models)}): {last}')
 
 
 def dashscope_search(model: str, prompt: str, *, strategy: str = 'max', retries: int = 3,

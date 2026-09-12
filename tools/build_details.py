@@ -28,6 +28,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -46,8 +47,10 @@ AXES = ('focus', 'energy', 'linger', 'adventure', 'spend')
 PROMPT_VERSION = 3
 
 # signage / packaging / logo descriptions are true but useless for choosing a café
-NOT_USEFUL = re.compile(r'店招|招牌[字灯]|logo|标志|标牌|纸杯|纸袋|包装|印有|印着|字样|门楣|外墙|海报|立牌'
-                        r'|^(无|未见|没有|未出现|看不到|未能|不可见)', re.I)
+NOT_USEFUL = re.compile(r'店招|招牌[字灯]|logo|标志|标牌|纸杯|纸袋|包装|印有|印着|字样|门楣|外墙|海报|立牌|拉花|latte art|为(some|several|a few|many|unknown)|未知|不详'
+                        r'|^(无|未见|没有|未出现|看不到|未能|不可见)|未见|但无|也未|不明确|无法(确定|判断|辨认)', re.I)
+
+OTHER_BRANCH = re.compile(r'[\u4e00-\u9fffA-Za-z0-9]{2,10}店(是|为|用|提供|主打|设|有|采用|开设)|首家|旗舰店')
 
 # Amap `tag` is a comma list of dishes users photographed; these are not dishes.
 NOT_A_DISH = re.compile(r'停车|wifi|外卖|包间|刷卡|团购|会员|充电|免费|营业|服务|环境|自助|闭店|开业', re.I)
@@ -232,7 +235,7 @@ def deterministic(cafe: dict, src: dict) -> dict:
 
 
 def synthesise(cafe: dict, items: list[dict], model: str) -> dict | None:
-    key = digest([cafe['id'], model, PROMPT_VERSION, [i['text'] for i in items]])
+    key = digest([cafe['id'], PROMPT_VERSION, [i['text'] for i in items]])
     path = TRAITS / f"{cafe['id']}.json"
     cached = read_json(path)
     if cached and cached.get('inputDigest') == key:
@@ -260,6 +263,8 @@ def synthesise(cafe: dict, items: list[dict], model: str) -> dict | None:
 
 def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict]:
     def cited(frm) -> list[dict]:
+        if isinstance(frm, (int, str)):
+            frm = re.findall(r'\d+', str(frm))
         idx = [int(x) for x in (frm or []) if str(x).isdigit() and 1 <= int(x) <= len(items)]
         return [items[i - 1] for i in dict.fromkeys(idx)]
 
@@ -272,11 +277,24 @@ def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict
         if not srcs or not zh or not en:
             continue
         evidence = list(dict.fromkeys(s['evidence'] for s in srcs))
+        kind = norm_kind(t.get('kind'))
+        # weekly hours are rendered from Amap directly; an hours trait only
+        # earns a line when a person or publication called them out
+        if kind == 'time' and evidence == ['amap']:
+            continue
+        # the curated signature and note are printed on the card verbatim
+        if evidence == ['editorial']:
+            continue
+        if NOT_USEFUL.search(zh) or NOT_USEFUL.search(en):
+            continue
+        # brand-level web facts about *another* branch ("外滩源店是全国首家…")
+        if any(s.get('brand') for s in srcs) and OTHER_BRANCH.search(zh):
+            continue
         conf = max(s['confidence'] for s in srcs)
         if len(srcs) > 1 and len(evidence) > 1:
             conf = min(0.95, conf + 0.1)  # corroborated across sources
         source = next((s['source'] for s in srcs if s['evidence'] == 'web' and s.get('source')), None)
-        trait = {'kind': norm_kind(t.get('kind')), 'text': clip(en, 110), 'textZh': zh[:40],
+        trait = {'kind': kind, 'text': clip(en, 110), 'textZh': zh[:40],
                  'evidence': evidence, 'confidence': round(conf, 2)}
         if source:
             trait['source'] = source
@@ -298,6 +316,10 @@ def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict
         except (TypeError, ValueError):
             continue
         if not srcs or not 0 <= value <= 100 or not h.get('zh') or not h.get('en'):
+            continue
+        # the editorial note already sets the editorial prior; a hint must
+        # rest on something observed (photos, web, Amap)
+        if all(s['evidence'] == 'editorial' for s in srcs):
             continue
         hints[axis] = {'value': value, 'confidence': round(min(0.6, max(s['confidence'] for s in srcs) * 0.7), 2),
                        'because': clip(str(h['en']), 80), 'becauseZh': str(h['zh']).strip()[:30]}
@@ -322,7 +344,7 @@ def main() -> None:
         jobs = [(c, items) for c, _, items in plan if items]
         pending = [j for j in jobs if not (
             (cached := read_json(TRAITS / f"{j[0]['id']}.json"))
-            and cached.get('inputDigest') == digest([j[0]['id'], args.model, PROMPT_VERSION,
+            and cached.get('inputDigest') == digest([j[0]['id'], PROMPT_VERSION,
                                                      [i['text'] for i in j[1]]]))]
         if args.limit:
             pending = pending[:args.limit]
@@ -350,7 +372,8 @@ def main() -> None:
         stats['traits'] += bool(d['traits'])
         stats['headline'] += bool(d.get('headline'))
         stats['hints'] += bool(d.get('axisHints'))
-    write_json(DETAILS_JSON, details)
+    # one record per line: diff-friendly yet ~40% smaller than indented JSON
+    DETAILS_JSON.write_text('{\n' + ',\n'.join(f'{json.dumps(k)}:{json.dumps(v, ensure_ascii=False, separators=(",", ":"))}' for k, v in details.items()) + '\n}\n', encoding='utf-8')
     print(f'details.json: {len(details)} cafés  {stats}  ({DETAILS_JSON.stat().st_size // 1024} KB)')
 
 

@@ -91,6 +91,8 @@ export function CafeCard({
   const curated = cafe.source !== 'imported'
   const photos = detail.photos.slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
+  const usedAsReason = new Set((why?.reasons ?? []).filter((r) => r.kind === 'trait').map((r) => r.text.en))
+  const traits = firmTraits(cafe, compassOn && why ? 5 : 3).filter((tr) => !usedAsReason.has(tr.text))
   return (
     <aside className="card" key={cafe.id}>
       <button className="card-close" onClick={onClose} aria-label={t(UI.close)}>
@@ -135,24 +137,27 @@ export function CafeCard({
       {compassOn && why ? (
         <VerdictBlock why={why} />
       ) : (
-        <>
-          {detail.headline && (
-            <p className="card-headline">
-              {t(detail.headline)}
-              {mode === 'both' && <span className="zh"> {detail.headline.zh}</span>}
-            </p>
-          )}
-          {firmTraits(cafe, 3).length > 0 && (
-            <ul className="verdict-reasons card-traits">
-              {firmTraits(cafe, 3).map((tr) => (
-                <li key={tr.text} className="vr-trait">
-                  {zh ? tr.textZh : tr.text}
-                  {mode === 'both' && <span className="zh"> {tr.textZh}</span>}
-                </li>
-              ))}
-            </ul>
-          )}
-        </>
+        detail.headline && (
+          <p className="card-headline">
+            {t(detail.headline)}
+            {mode === 'both' && <span className="zh"> {detail.headline.zh}</span>}
+          </p>
+        )
+      )}
+      {traits.length > 0 && (
+        <ul className="verdict-reasons card-traits">
+          {traits.map((tr) => (
+            <li key={tr.text} className="vr-trait">
+              {zh ? tr.textZh : tr.text}
+              {mode === 'both' && <span className="zh"> {tr.textZh}</span>}
+              {tr.source?.startsWith('http') && (
+                <a className="trait-src" href={tr.source} target="_blank" rel="noreferrer" aria-label={t(UI.source)}>
+                  ↗
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
       )}
 
       {curated && (

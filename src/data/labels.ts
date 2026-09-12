@@ -271,6 +271,7 @@ export const UI = {
   // café card
   close: { en: 'Close', zh: '关闭' },
   againstCompass: { en: 'against your compass', zh: '相对你的罗盘' },
+  source: { en: 'source', zh: '来源' },
   hoursWord: { en: 'Hours', zh: '营业时间' },
   seatsWord: { en: 'Seats', zh: '座位' },
   spendWord: { en: 'Spend', zh: '花费' },
