@@ -1,0 +1,315 @@
+{
+  "cafeId": "cafe-zhangningfubangyuan",
+  "query": {
+    "location": "121.373404,31.219048",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:48:10Z",
+  "matchedPoiId": "B0J01M1Y70",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155L381",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J01M1Y70/headerImg/adb24a275b177644563ece215e0faded_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2f566597248e834e0000002259404300?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b8172804616d93df0000002462818758?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0J01M1Y70",
+        "tag": [],
+        "entr_location": "121.373457,31.219245",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北新泾",
+        "childtype": "320",
+        "atag": [],
+        "name": "栗Cafe(长宁馥邦苑店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "55.00",
+          "opentime2": "周二至周日 11:30-18:30",
+          "rating": "4.6",
+          "open_time": "11:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621626902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 19:38:58",
+        "website": [],
+        "address": "北新泾街道北翟路151号(北新泾地铁站3号口步行410米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.373400,31.219048",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFIKY2ZK",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/882dde445613d46f0000002347948355?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-52780159",
+        "id": "B0FFGJEFKQ",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.373531,31.216867",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北新泾",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(北新泾店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010011_333451",
+        "distance": "223",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621626902",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 03:03:48",
+        "website": [],
+        "address": "天山西路138号上海馥邦购物中心1层35室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.373536,31.217040",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155ID7Q",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3d8f6f68491b79784ca21897498f27b4"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MAS9HFW6",
+        "tag": [],
+        "entr_location": "121.37290107952246,31.216912223070103",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北新泾",
+        "childtype": "202",
+        "atag": [],
+        "name": "肯悦咖啡(新北新泾店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "268",
+        "importance": [],
+        "biz_ext": {
+          "cost": "12.00",
+          "opentime2": [],
+          "rating": "3.6",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621626902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:12:49",
+        "website": [],
+        "address": "天山西路165号宜嘉坊商务楼A座F2层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.372828,31.216684",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFM4NGBJ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFKSILS7",
+        "tag": "美式,拿铁,厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,杨枝甘露,生椰拿铁",
+        "entr_location": "121.375790,31.217413",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "北新泾",
+        "childtype": "202",
+        "atag": "美式,拿铁,厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(申亚时代广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "272",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636000",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:49:27",
+        "website": [],
+        "address": "北新泾街道蒲淞北路16号B座105室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.375488,31.217367",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

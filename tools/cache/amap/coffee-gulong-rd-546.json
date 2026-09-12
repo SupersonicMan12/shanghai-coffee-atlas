@@ -1,0 +1,173 @@
+{
+  "cafeId": "coffee-gulong-rd-546",
+  "query": {
+    "location": "121.394481,31.148292",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:58:38Z",
+  "matchedPoiId": "B0LG2SEWL6",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFFLFXMC",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6b386d6d2b4c13b3e196b1ea6d500145"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2baafb858f46bd170000003328118581?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/77936377ba667ae412f788970fe7f692"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "16788863992",
+        "id": "B0LG2SEWL6",
+        "tag": "coffee",
+        "entr_location": "121.394506,31.148224",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "驿人COFFEE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "54.00",
+          "opentime2": "周一至周日 08:30-18:30",
+          "rating": "4.6",
+          "open_time": "08:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537121",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:16:13",
+        "website": [],
+        "address": "古龙路546号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.394477,31.148292",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFFLFXMC",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-52232022",
+        "id": "B0FFFWQ0ZP",
+        "tag": "拿铁,焦糖玛奇朵,可可碎片星冰乐,摩卡,卡布奇诺,抹茶拿铁,香草星冰乐,馥芮白,下午茶,单人餐",
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "202",
+        "atag": "拿铁,焦糖玛奇朵,可可碎片星冰乐,摩卡,卡布奇诺,抹茶拿铁,香草星冰乐,馥芮白,下午茶,单人餐",
+        "name": "星巴克(万源城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F011012_362308",
+        "distance": "70",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:00-21:30",
+          "rating": "4.6",
+          "open_time": "06:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537121",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 01:10:46",
+        "website": [],
+        "address": "万源路932号乐斯生活会馆b栋1楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.393956,31.148734",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -6,6 +6,8 @@ export type District =
   | 'Putuo'
   | 'Hongkou'
   | 'Pudong'
+  | 'Yangpu'
+  | 'Minhang'
 
 /**
  * The drawing that gets stamped on the map. Each archetype has its own

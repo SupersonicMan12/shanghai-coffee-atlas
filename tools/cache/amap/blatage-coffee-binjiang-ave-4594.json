@@ -1,0 +1,623 @@
+{
+  "cafeId": "blatage-coffee-binjiang-ave-4594",
+  "query": {
+    "location": "121.511704,31.218515",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:59Z",
+  "matchedPoiId": "B0FFK1HB4O",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "9",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00156GN39",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c510d3b8b330a1c40000003216254716?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0eb9cfb5f52e3eb689ab4efe39665d3d"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/da164779b85fd1bb0000003216254715?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13012889983;15618078598",
+        "id": "B0FFK1HB4O",
+        "tag": "coffee",
+        "entr_location": "121.512003,31.218521",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "302",
+        "atag": "coffee",
+        "name": "BLATAGE COFFEE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "45.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "4.6",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:51:39",
+        "website": [],
+        "address": "滨江大道4594号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511707,31.218519",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFIKHPS1/comment/facb67815d3c896a4543a119f46858cb_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6daf6eeb7d89a5f1806f581b33b72eb0"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFIKHPS1/comment/cff5bcec62288fb4bf11271933f19f70_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15601689272",
+        "id": "B0FFIKHPS1",
+        "tag": "双人餐",
+        "entr_location": "121.512049,31.218394",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": "双人餐",
+        "name": "RIDE精品咖啡店",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "12",
+        "importance": [],
+        "biz_ext": {
+          "cost": "74.00",
+          "opentime2": "周一至周五 11:00-21:00；周六至周日 10:00-21:00",
+          "rating": "4.5",
+          "open_time": "10:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:18:18",
+        "website": [],
+        "address": "滨江大道4600号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511740,31.218404",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156GN39",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G1SK6FA6/comment/a2897a15983897c5f703c443386ff61f_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G1SK6FA6/comment/54136fc65c0e898bf6fd798df99ea526_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G1SK6FA6/comment/2FF2C836_9710_49C5_9D6C_8D4955FA6337_L0_001_1500_200_1751600037876_20086386.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17887941209",
+        "id": "B0G1SK6FA6",
+        "tag": "巧克力,披萨,美式咖啡,炸鸡块",
+        "entr_location": "121.512044,31.218407",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "302",
+        "atag": "巧克力,披萨,美式咖啡,炸鸡块",
+        "name": "Soundcafe声音咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "25",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一至周日 09:00-21:30 2026-02-17至2026-02-20 周一至周日 09:30-18:00",
+          "rating": "4.6",
+          "open_time": "09:00-21:30 09:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:44:12",
+        "website": [],
+        "address": "滨江大道4598号(老白渡滨江绿地)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511738,31.218286",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156GN39",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0ec3acd1a1b1f4b50000000953188711?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5df4a3461cbb198c0000003577240989?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/540edd674688b33a0000003577248878?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LD9SWR4C",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "塘桥",
+        "childtype": "302",
+        "atag": [],
+        "name": "WONDERLAND BOOK CAFE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "38",
+        "importance": [],
+        "biz_ext": {
+          "cost": "58.00",
+          "opentime2": "周一 11:00-18:00；周三至周日 11:00-18:00",
+          "rating": "4.4",
+          "open_time": "11:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 08:42:05",
+        "website": [],
+        "address": "滨江大道4602号-2楼(RIDE CAFE旁楼梯上2楼左转10m)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511775,31.218175",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/13ca9e64d4c625590000005446438992?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/95541f2b8c889bbb9c3b9f1b7e0009dd"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3a8a65d3a90edc020000005446452438?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13761112057",
+        "id": "B0H6PZOVK2",
+        "tag": [],
+        "entr_location": "121.511718,31.219181",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "世纪大道",
+        "childtype": [],
+        "atag": [],
+        "name": "Times cafe bar",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "69",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一至周日 10:00-20:00",
+          "rating": "4.3",
+          "open_time": "10:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:04:26",
+        "website": [],
+        "address": "滨江大道4592号(浦明路江边)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511414,31.219087",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JG7H0V15/comment/02421902270d9af7e58d7f6db087446e_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JG7H0V15/comment/c217abe06bbbb786ef73294b95d25c48_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/493282ea745ea1abb12bf7cfa7f059f5"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19121317971",
+        "id": "B0JG7H0V15",
+        "tag": "奶油,巧克力",
+        "entr_location": "121.51194517219922,31.217992139487396",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": "奶油,巧克力",
+        "name": "Mrs.bunny brunch&bistro邦尼夫人(滨江店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "72",
+        "importance": [],
+        "biz_ext": {
+          "cost": "120.00",
+          "opentime2": "周一至周日 10:00-24:00",
+          "rating": "4.6",
+          "open_time": "10:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646002",
+        "shopinfo": "0",
+        "alias": "白兔糖咖餐吧",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:04:12",
+        "website": [],
+        "address": "滨江大道4606号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511920,31.217888",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFHRSXVF",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/28994fc1dbc564d10000003166664128?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/15e5a5fcb5504c9a0000003167552148?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/71e5ec278589c8d10000003166654423?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15618660906;18621771020",
+        "id": "B0H0JDTZ3D",
+        "tag": "coffee",
+        "entr_location": "121.513699,31.217308",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "p.r.e.c coffee(陆家嘴店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "197",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周五 08:00-17:00",
+          "rating": "4.1",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646100",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:55:26",
+        "website": [],
+        "address": "浦明路898号一层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.513316,31.217405",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "餐饮服务,咖啡厅,咖啡厅",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e3cadafe34554083d5e0b2339567cdb2"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6be3b897b1da94d2c5c25e1691528aa9"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/427783cc7c7881c40000002492384546?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-38098560",
+        "id": "B0FFL32XN1",
+        "tag": [],
+        "entr_location": "121.514156,31.216252",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": [],
+        "name": "上海鲁能JW万豪侯爵酒店·JW酒廊JW Lounge",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "297",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.4",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645120",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:34:52",
+        "website": [],
+        "address": "浦明路988号上海鲁能JW万豪侯爵酒店1楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.513630,31.216416",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

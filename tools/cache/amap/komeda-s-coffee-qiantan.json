@@ -1,0 +1,398 @@
+{
+  "cafeId": "komeda-s-coffee-qiantan",
+  "query": {
+    "location": "121.470620,31.148418",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:45Z",
+  "matchedPoiId": "B0GK07CGVK",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFL5O6Y3",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/975a2071471dafcb6de8565078b768c3"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GK07CGVK/comment/a39f5c78aa815ef8750b8a857652feb6_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0GK07CGVK/comment/84bba6d6043b92273479b487564a1f01_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17316422667",
+        "id": "B0GK07CGVK",
+        "tag": "coffee",
+        "entr_location": "121.47053226411266,31.148371082455142",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "Komeda's Coffee 口美达咖啡(前滩店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "52.00",
+          "opentime2": "周一至周日 08:00-19:00",
+          "rating": "4.7",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 14:02:13",
+        "website": [],
+        "address": [],
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.470616,31.148418",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G2K5S2G5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e017691bc5b90c6f0000002248348477?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d3e0a922112f5f1f0000002248384233?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a06b99ce005e81420000002248306917?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18201861895",
+        "id": "B0KUR51KSO",
+        "tag": [],
+        "entr_location": "121.469676,31.149545",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": "320",
+        "atag": [],
+        "name": "Affo福巿咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "157",
+        "importance": [],
+        "biz_ext": {
+          "cost": "32.00",
+          "opentime2": "周二至周日 10:00-18:00",
+          "rating": "4.5",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 19:47:21",
+        "website": [],
+        "address": "芋秋路83号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.469711,31.149599",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0H1OZRWUN",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2038aafc3da4813a0000000945492787?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1C7ESM6/comment/af478103ca766f304ee3fe46f38a353f_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/066725011f4cf1f2b7edb9ae94873c41"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50910121",
+        "id": "B0I1C7ESM6",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.471494,31.147098",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": "320",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(上海前滩芋秋路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "164",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "4.5",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537712",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:08:40",
+        "website": [],
+        "address": "芋秋路230-232号第一层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.471288,31.147059",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0I6PCD5SN",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J25GPR9Q/comment/5899146ce159f6433d8a97a3b0914e91_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J25GPR9Q/comment/content_media_external_images_media_1000038713_ss__1768718277319_58757302.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J25GPR9Q/comment/d6fc2b34e0abe73e4bfadccd4d273a4e_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0J25GPR9Q",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": "121.469307,31.147522",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": "320",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(前滩雍萃53店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "173",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 08:00-17:00",
+          "rating": "4.4",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:15:14",
+        "website": [],
+        "address": "桐晚路与园照路交叉口西北20米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.469135,31.147516",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6c34dd5f189153d20000000972400928?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LK078MCL/comment/20260321-b75ce2d6cb9525857e803fa8-pSi55wCDYA8vW8oRImKEq.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LK078MCL/comment/20260321-b75ce2d6cb9525857e803fa8-56ohUCYtXsy7v0W1VaDhtn.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13901797443",
+        "id": "B0LK078MCL",
+        "tag": "双人餐,单人餐",
+        "entr_location": "121.46944070320042,31.149863834287725",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": [],
+        "atag": "双人餐,单人餐",
+        "name": "心宿里咖啡(前滩店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "196",
+        "importance": [],
+        "biz_ext": {
+          "cost": "33.00",
+          "opentime2": "周一至周日 08:30-20:30",
+          "rating": "4.5",
+          "open_time": "08:30-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:33:03",
+        "website": [],
+        "address": "梁月路169弄8号102室(浦江海德西北门西70米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.469641,31.149973",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

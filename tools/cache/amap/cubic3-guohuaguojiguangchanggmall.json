@@ -1,0 +1,398 @@
+{
+  "cafeId": "cubic3-guohuaguojiguangchanggmall",
+  "query": {
+    "location": "121.511722,31.312124",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:23:56Z",
+  "matchedPoiId": "B0KD0SZEEM",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "7",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0IGORIKP2",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KD0SZEEM/comment/content_media_external_file_1000056620_ss__1745398121748_44552576.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KD0SZEEM/comment/content_media_external_file_4995_1769619583021_68897018.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19302127559",
+        "id": "B0KD0SZEEM",
+        "tag": "冰美式,美式咖啡",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": "202",
+        "atag": "冰美式,美式咖啡",
+        "name": "CUBIC3三立方咖啡(国华国际广场GMALL店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周日 09:00-19:30",
+          "rating": "4.1",
+          "open_time": "09:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621747012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 08:19:16",
+        "website": [],
+        "address": "长海路街道闸殷路1555号1层108号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511725,31.312125",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0KUCCZB52",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e74c29099f9c48140000000973142583?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JAZKRP1D/comment/2115534499757d76bbdb626766a7b893_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0JAZKRP1D",
+        "tag": "生椰拿铁,杨枝甘露,堂食,柠檬茶",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": "201",
+        "atag": "生椰拿铁,杨枝甘露,堂食,柠檬茶",
+        "name": "瑞幸咖啡(国华国际广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "23",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "3.9",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621747012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-06 12:00:50",
+        "website": [],
+        "address": "闸殷路1599号国华国际广场一层126室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "SC0000990210100019",
+          "truefloor": "L1",
+          "cpid": "B0IGORIKP2",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.511694,31.311917",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8b31912ccdb36c650000003070240139?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-35081095",
+        "id": "B0J0VS1QM0",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.511377,31.311745",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(国华广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "54",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 08:00-17:20；周六至周日 08:00-18:20",
+          "rating": "4.5",
+          "open_time": "08:00-18:20",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621747012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-12 01:53:30",
+        "website": [],
+        "address": "三门路与国京路交叉口西160米G MALLA区L1层116",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "SC0000990210100039",
+          "truefloor": "L1",
+          "cpid": "B0IGORIKP2",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.511310,31.311790",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFMHEL7D",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ef9ee2678e1a8686d3ef51d61e0544a8"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/705b12516e9523bb674aa35fa6dfe15d"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ca32705430d3cb3dfd6c2f0ea7e026a0"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65062533",
+        "id": "B0KKZLS58Q",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": "202",
+        "atag": [],
+        "name": "肯悦咖啡国华店",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "70",
+        "importance": [],
+        "biz_ext": {
+          "cost": "17.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.0",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621747012",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 10:37:03",
+        "website": [],
+        "address": "三门路99号一层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.512444,31.311982",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c6bd4d31a46c3659e66473adb0c2a55d"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H3ZOHVVO/comment/996d153121b573715e4bf566eaccf4e4_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H0MCL753/comment/f33d7c608d2e8d1940bf3e9172951d28_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0H0MCL753",
+        "tag": "coffee",
+        "entr_location": "121.510466,31.312125",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "Manner Coffee(国华广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "103",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621747012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-12 11:07:25",
+        "website": [],
+        "address": "三门路与国京路交叉口西160米G MALLA区L1层103",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "SC0000990210100031",
+          "truefloor": "L1",
+          "cpid": "B0IGORIKP2",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.510651,31.311967",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

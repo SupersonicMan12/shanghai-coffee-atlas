@@ -1,0 +1,240 @@
+{
+  "cafeId": "give-take-waima-rd",
+  "query": {
+    "location": "121.505676,31.220474",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:55:07Z",
+  "matchedPoiId": "B0K39LFIA5",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/096c611f00de36cafff6752ec33013b5"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K39LFIA5/comment/C9B5F24C_279F_4305_B07E_52BADB1A78C5_L0_001_1500_200_1769150023674_62160095.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a0dc98ae4b2400211dc1b17db0c19587"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13701916789",
+        "id": "B0K39LFIA5",
+        "tag": [],
+        "entr_location": "121.50563304924526,31.220566858586754",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": [],
+        "atag": [],
+        "name": "熊爪咖啡give&take(外马路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "19.00",
+          "opentime2": "周一至周五 08:00-17:00；周六至周日 10:00-17:30",
+          "rating": "4.6",
+          "open_time": "10:00-17:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646011",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 10:21:03",
+        "website": [],
+        "address": "外马路与毛家园路交叉口西北40米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505675,31.220475",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/60f4977a4e7c0772ea891dfa64638820"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L11ZL1FB",
+        "tag": [],
+        "entr_location": "121.50552653770974,31.220831690556942",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "老码头",
+        "childtype": [],
+        "atag": [],
+        "name": "外萃丰咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "17",
+        "importance": [],
+        "biz_ext": {
+          "cost": "59.00",
+          "opentime2": [],
+          "rating": "4.1",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646011",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:46:58",
+        "website": [],
+        "address": "外马路与毛家园路交叉口西北60米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505625,31.220625",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFL3F7ZZ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3069025769c13d04cba0d9ab8a9ebb6f"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/99a03f24e1f476aed7319ebbc4be354a"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/71d6f23569ef99a81b02e8d3be791bb9"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15121006249",
+        "id": "B0JR99LESQ",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "董家渡",
+        "childtype": "202",
+        "atag": [],
+        "name": "逸刻EGO(中山南路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "197",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周五 08:00-18:00",
+          "rating": "3.4",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621646011",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-07 13:10:25",
+        "website": [],
+        "address": "中山南路315号百联大厦F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.504446,31.221900",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

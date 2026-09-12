@@ -1,0 +1,315 @@
+{
+  "cafeId": "hlab-coffee-oujiuxiaoqu",
+  "query": {
+    "location": "121.486220,31.275166",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:51:55Z",
+  "matchedPoiId": "B0I6H5WJEX",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0K3R5Y02S",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6H5WJEX/comment/f37c10086b494b11bc07a39c5f45013b_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6H5WJEX/comment/ae9af506a3d51ca14338bfd5c4445144_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I6H5WJEX/comment/1b6e2ba8026fa016e031f15f2d5c222e_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18621955940",
+        "id": "B0I6H5WJEX",
+        "tag": "coffee,单人餐",
+        "entr_location": "121.486088,31.275154",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳地区",
+        "childtype": "320",
+        "atag": "coffee,单人餐",
+        "name": "欧邑咖啡小站HLab Coffee(欧九小区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周日 08:30-17:00",
+          "rating": "4.4",
+          "open_time": "08:30-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621733802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:21:49",
+        "website": [],
+        "address": "欧阳路679弄2号侧门",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.486219,31.275166",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KZKW",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L6BPXNRE/comment/content_media_external_file_703912_ss__1766233874743_61413196.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/782758bd08a3b97ff8e1a9056115cbd3"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7c47197c129bc40cec39e9b78290a0a6"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15618305928",
+        "id": "B0L6BPXNRE",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "302",
+        "atag": [],
+        "name": "艺萃",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "152",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.1",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732822",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 10:05:52",
+        "website": [],
+        "address": "四川北路2288号上海鲁迅公园(东北角)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.485325,31.274025",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "体育休闲服务;娱乐场所;酒吧|餐饮服务;咖啡厅;咖啡厅|餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/83c6f5f2c45e75ecfb202f276be48057"
+          }
+        ],
+        "building": [],
+        "typecode": "080304|050500|050100",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFGDF8Z1",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": [],
+        "atag": [],
+        "name": "talong CafeBar",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_434023",
+        "distance": "234",
+        "importance": [],
+        "biz_ext": {
+          "cost": "64.00",
+          "opentime2": [],
+          "rating": "3.5",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621733802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-13 10:25:47",
+        "website": [],
+        "address": "东体育会路322号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.484011,31.276109",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/06d978dae9c9067f0ece7e7bfaa3e179"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KBJD2BS7/comment/DF2F803A_775C_4757_8DDD_180E7D1452AD_L0_001_1080_144_1767273427537_77989523.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0KBJD2BS7",
+        "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": "121.48669531938535,31.272770895204598",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": [],
+        "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "瑞幸咖啡(欧阳路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "265",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732822",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 08:12:42",
+        "website": [],
+        "address": "欧阳路448号(欧五小区西南门旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.486688,31.272812",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

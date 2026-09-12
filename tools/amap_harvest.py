@@ -67,9 +67,11 @@ def wgs84_to_gcj02(lng: float, lat: float) -> tuple[float, float]:
     return lng + dlng, lat + dlat
 
 
-def parse_cafes() -> list[dict]:
-    """Extract id/name/nameZh/lat/lng from cafes.ts without executing it."""
-    src = CAFES_TS.read_text(encoding='utf-8')
+def parse_cafes(src: str | None = None) -> list[dict]:
+    """Extract id/name/nameZh/lat/lng from cafes.ts (or the given source text)
+    without executing it."""
+    if src is None:
+        src = CAFES_TS.read_text(encoding='utf-8')
     cafes = []
     for block in re.finditer(r'\{\s*\n\s*id:\s*\'([^\']+)\',(.*?)\n  \}', src, re.S):
         body = block.group(2)

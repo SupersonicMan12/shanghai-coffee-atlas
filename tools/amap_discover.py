@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Discover every coffee shop inside the inner-ring bbox via Amap polygon search.
+"""Discover every coffee shop on the atlas sheet via Amap polygon search.
 
 Adaptive grid sweep, cached and resumable:
 - the bbox is cut into a coarse grid; any cell reporting more POIs than one
@@ -38,8 +38,15 @@ API_URL = 'https://restapi.amap.com/v3/place/polygon'
 QUOTA_INFOCODES = {'10003', '10014', '10044'}
 
 # Inner-ring core, WGS-84-ish (the ~500 m GCJ offset is absorbed by overlap).
+# Cells are named r<row>c<col> on this grid; the ids are baked into the cache,
+# so this grid must never move.
 BBOX = (121.400, 31.170, 121.550, 31.280)  # W, S, E, N
 COLS, ROWS = 10, 9          # coarse grid ≈ 1.4 km × 1.4 km cells
+# Whole-city sheet (middle ring + the outer clusters): the same cell size,
+# aligned so the inner grid is an exact sub-grid, swept as o<row>c<col> cells
+# that skip everything the inner sweep already covers.
+OUTER_BBOX = (121.340, 31.121111, 121.625, 31.328889)  # W, S, E, N
+OUTER_COLS, OUTER_ROWS = 19, 17
 SPLIT_THRESHOLD = 80        # subdivide when a cell claims more than this
 MAX_PAGES = 4               # 25 per page → up to 100 POIs per leaf cell
 MAX_DEPTH = 3
@@ -124,6 +131,16 @@ def main() -> int:
                 sweep(key, f'r{j:02d}c{i:02d}',
                       w0 + i * dx, s0 + j * dy, w0 + (i + 1) * dx, s0 + (j + 1) * dy,
                       0, budget)
+        ow, os_, oe, on = OUTER_BBOX
+        odx, ody = (oe - ow) / OUTER_COLS, (on - os_) / OUTER_ROWS
+        for j in range(OUTER_ROWS):
+            for i in range(OUTER_COLS):
+                w, s = ow + i * odx, os_ + j * ody
+                e, n = w + odx, s + ody
+                cx, cy = (w + e) / 2, (s + n) / 2
+                if w0 < cx < e0 and s0 < cy < n0:
+                    continue  # already swept by the inner grid
+                sweep(key, f'o{j:02d}c{i:02d}', w, s, e, n, 0, budget)
     except QuotaExhausted as exc:
         print(f'quota exhausted (infocode {exc}), stopping — rerun later to resume')
         return 0

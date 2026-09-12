@@ -1,0 +1,98 @@
+{
+  "cafeId": "laishite-gaoping-rd",
+  "query": {
+    "location": "121.427485,31.289852",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:56:17Z",
+  "matchedPoiId": "B001576YJF",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅|购物服务;购物相关场所;购物相关场所",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4ac6aeb6f1780f2243e7afd26bbcc135"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a2c0389744a0ce4b3e9a9fa4a8ac40f2"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/00b792333a59e1a956a0934789b22b85"
+          }
+        ],
+        "building": [],
+        "typecode": "050500|060000",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-36328108",
+        "id": "B001576YJF",
+        "tag": "西冷牛排,柠檬水",
+        "entr_location": "121.42747991585726,31.28971247906973",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "彭浦镇",
+        "childtype": [],
+        "atag": "西冷牛排,柠檬水",
+        "name": "莱仕特(高平路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_492161",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "71.00",
+          "opentime2": "周一至周日 09:00-22:30",
+          "rating": "4.5",
+          "open_time": "09:00-22:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621734420",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 14:58:37",
+        "website": [],
+        "address": "高平路733号近汶水路路口(原上岛咖啡)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.427486,31.289849",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

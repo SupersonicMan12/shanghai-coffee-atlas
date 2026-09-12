@@ -1,0 +1,160 @@
+{
+  "cafeId": "a-love-coffee-jinganxiandaichanyedasha",
+  "query": {
+    "location": "121.453425,31.239122",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:56:03Z",
+  "matchedPoiId": "B0MBZODCTY",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0015336EC",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MBZODCTY",
+        "tag": "coffee",
+        "entr_location": "121.453782,31.238981",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "苏河湾",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "A-Love coffee(静安现代产业大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周五 08:00-20:00；周六至周日 09:00-18:00",
+          "rating": "3.9",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 03:44:22",
+        "website": [],
+        "address": "昌平路68号静安现代产业大厦",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.453425,31.239125",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/99bf641028c46da30000002018894303?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/9987f567852488ed0000000725242353?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/336c5b854ab6d79dc7b2507dab31b6c8"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15801970483",
+        "id": "B0LGT7WKLV",
+        "tag": "巧克力",
+        "entr_location": "121.451824,31.240404",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "苏河湾",
+        "childtype": [],
+        "atag": "巧克力",
+        "name": "晶吉一泓咖啡馆(淮安路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "228",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周日 08:00-19:00",
+          "rating": "4.4",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 09:17:32",
+        "website": [],
+        "address": "淮安路668号百空间103A1室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.451625,31.240475",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

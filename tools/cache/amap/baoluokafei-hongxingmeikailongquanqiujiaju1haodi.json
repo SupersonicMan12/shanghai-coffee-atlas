@@ -1,0 +1,160 @@
+{
+  "cafeId": "baoluokafei-hongxingmeikailongquanqiujiaju1haodi",
+  "query": {
+    "location": "121.386622,31.238291",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:04:34Z",
+  "matchedPoiId": "B0FFF6XET4",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFF2INXK",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/bec667ae5bf83db41bd80609de006c12"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8fbe74973e02cf570000002244174075?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/be040a7c97c85fef0000002095676598?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13916233982;18817255925",
+        "id": "B0FFF6XET4",
+        "tag": "黄鱼面",
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长征",
+        "childtype": "201",
+        "atag": "黄鱼面",
+        "name": "保罗咖啡(红星美凯龙全球家居1号店店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "56.00",
+          "opentime2": "周一至周日 10:00-20:00",
+          "rating": "4.3",
+          "open_time": "10:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-11 15:11:48",
+        "website": [],
+        "address": "真北路1108号红星美凯龙1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "130760200101167",
+          "truefloor": "B1",
+          "cpid": "B0FFFQ25SE",
+          "floor": "-1"
+        },
+        "exit_location": [],
+        "location": "121.386627,31.238287",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFH0PEDQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0K2RO9YUF",
+        "tag": "下午茶",
+        "entr_location": "121.385277,31.240234",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长征",
+        "childtype": "202",
+        "atag": "下午茶",
+        "name": "星巴克咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "240",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": [],
+          "rating": "3.4",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-11 17:11:16",
+        "website": [],
+        "address": "红星·美凯龙北馆",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385411,31.240191",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "cafeId": "bk24-tong-n-rd",
+  "query": {
+    "location": "121.520456,31.258167",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:10:23Z",
+  "matchedPoiId": "B0H60ZJAM8",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFGQGAJ4",
+        "pcode": "310000",
+        "keytag": "便利店",
+        "type": "购物服务;便民商店/便利店;便民商店/便利店|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f54817b1908a693407439f9988a587da"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/a59fae00c33cf71cab5021b104615c14"
+          }
+        ],
+        "building": [],
+        "typecode": "060200|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-55829236",
+        "id": "B0H60ZJAM8",
+        "tag": [],
+        "entr_location": "121.52027411901229,31.258128350054786",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "鞍山新村",
+        "childtype": "202",
+        "atag": [],
+        "name": "BK24光明便利屋(通北路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 06:00-22:00",
+          "rating": "3.8",
+          "open_time": "06:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740121",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:11:55",
+        "website": [],
+        "address": "通北路370号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.520456,31.258171",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFM3N9U5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/67b3235abfa8f1ac8f7f8a2e3e610d90"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L11AK4OO/comment/843BC8E5_D7BC_4FC0_87C3_B1E9F40B0F09_L0_001_1500_200_1764115612788_13047298.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L11AK4OO",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.519727,31.260409",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "鞍山新村",
+        "childtype": "202",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "MANNERCOFFEE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "265",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周五 08:30-16:45",
+          "rating": "3.5",
+          "open_time": "08:30-16:45",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621741101",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-07-15 11:42:04",
+        "website": [],
+        "address": "大连路壹中心",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.519742,31.260477",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

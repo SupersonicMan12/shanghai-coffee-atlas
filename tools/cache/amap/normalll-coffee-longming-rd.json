@@ -1,0 +1,390 @@
+{
+  "cafeId": "normalll-coffee-longming-rd",
+  "query": {
+    "location": "121.385823,31.141572",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:58:45Z",
+  "matchedPoiId": "B0JALG7M60",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155NM11",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JALG7M60/comment/529D1E41_A22B_45C2_AA94_22E4822F715C_L0_001_1500_2000_1737799325419_93482058.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f2f3ceb149d5cb860000003090082481?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b1a8e1105ef781b40000003090094114?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JALG7M60",
+        "tag": "coffee",
+        "entr_location": "121.385658,31.141537",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "NORMALLL COFFEE(龙茗路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621536022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:43:39",
+        "website": [],
+        "address": "顾戴路1100号新时代花园",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385825,31.141575",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155NM11",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/15857049d1c52bdac901959b4de500c7"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L6A4YXRB",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "320",
+        "atag": [],
+        "name": "懒虎咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "9",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": [],
+          "rating": "3.7",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621536022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-15 10:11:49",
+        "website": [],
+        "address": "顾戴路1100号新时代花园",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385813,31.141483",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155MVT0",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/9e972e998de92a0003de93853eb8f602"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/049ec2daa34ebbfe3f073410274613ba"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f656bd8c770910d097eadd198ea2633e"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54700052",
+        "id": "B0I1256PCK",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.38540554859564,31.142821164178187",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克咖啡(上海古美生活购物广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "144",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.5",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:45:46",
+        "website": [],
+        "address": "龙茗路1136号101室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385440,31.142829",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155MVT0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f4f3dca53e39543c9a7bdbcfe8739fa5"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e738dd5fe8e44d2c0000002444082015?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/fa9091c2ae8884cb0000002444058393?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MBYR54RJ",
+        "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "万源城",
+        "childtype": "202",
+        "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "瑞幸咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "248",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周日 07:30-21:00",
+          "rating": "3.7",
+          "open_time": "07:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 21:30:57",
+        "website": [],
+        "address": "古美生活购物广场西南门西北80米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385185,31.143740",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGQJNTO",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFL3OLXR/comment/content_media_external_file_1014647017_ss__1763576825845_22449401.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFL3OLXR",
+        "tag": "西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,杨枝甘露,椰子,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "七宝",
+        "childtype": "324",
+        "atag": "西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,杨枝甘露,椰子,生椰拿铁",
+        "name": "瑞幸咖啡(古美爵士文化广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "267",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-19:30",
+          "rating": "4.3",
+          "open_time": "08:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621536022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:13:56",
+        "website": [],
+        "address": "顾戴路1166号古美爵士文化广场底商",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.386120,31.139187",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

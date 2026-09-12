@@ -21,10 +21,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
 OUT = os.path.join(HERE, "..", "src", "data", "basemap.json")
 
-# The stage: the inner-ring core. Widened for the coverage sweep so every
-# imported café lands on the sheet — Zhongshan Park to mid-Pudong, the
-# stadiums in the south to Hongkou in the north.
-BBOX = (31.162, 121.392, 31.287, 121.557)  # S, W, N, E
+# The stage: the whole-city sheet — Hongqiao airport to Jinqiao, 前滩/三林 in
+# the south to 五角场 and 彭浦 in the north; the inner ring sits in the middle.
+# Aspect ~1.17:1 so PAPER_WIDTH=1600 gives a ~1370 px tall sheet.
+BBOX = (31.121, 121.340, 31.330, 121.625)  # S, W, N, E
+# The old inner-ring sheet; used to keep the denser layers (lanes, small
+# parks, secondary roads) crisp there and lighter outside.
+INNER = (31.162, 121.392, 31.287, 121.557)
+# Overpass tiles for the fetch: one request per tile per layer, 2 s apart.
+TILES = (2, 2)
+PAUSE_S = 2.0
+USER_AGENT = "shanghai-coffee-atlas/1.1 (basemap builder; github.com/SupersonicMan12/shanghai-coffee-atlas)"
 
 OVERPASS_URLS = [
     "https://overpass.kumi.systems/api/interpreter",
@@ -33,10 +40,18 @@ OVERPASS_URLS = [
 ]
 
 
-def overpass_queries():
+def tiles(pad=0.02):
     s, w, n, e = BBOX
-    pad = 0.02
-    bb = f"{s - pad},{w - pad},{n + pad},{e + pad}"
+    s, w, n, e = s - pad, w - pad, n + pad, e + pad
+    rows, cols = TILES
+    dh, dw = (n - s) / rows, (e - w) / cols
+    return [
+        f"{s + r * dh:.4f},{w + c * dw:.4f},{s + (r + 1) * dh:.4f},{w + (c + 1) * dw:.4f}"
+        for r in range(rows) for c in range(cols)
+    ]
+
+
+def overpass_queries(bb):
     lanes = "|".join(LANE_NAMES)
     return {
         "water.json": f"""[out:json][timeout:180];
@@ -61,32 +76,51 @@ out geom;""",
     }
 
 
-def fetch_raw(force=False):
-    """Download the Overpass extracts into tools/raw (skips existing files)."""
+def fetch_tile(name, query):
     import requests
 
+    for url in OVERPASS_URLS:
+        try:
+            resp = requests.post(
+                url, data={"data": query}, timeout=240,
+                headers={"User-Agent": USER_AGENT})
+            if resp.status_code != 200:
+                raise RuntimeError(f"HTTP {resp.status_code}")
+            return resp.json()
+        except Exception as exc:  # noqa: BLE001 — try the next mirror
+            print(f"{name}: {url} failed ({exc})", file=sys.stderr)
+            time.sleep(5)
+    raise SystemExit(f"could not fetch {name} from any Overpass mirror")
+
+
+def fetch_raw(force=False):
+    """Download the Overpass extracts into tools/raw (skips existing files).
+
+    Each layer is fetched one tile at a time (TILES, PAUSE_S apart) and the
+    tiles are merged by element id, so a relation that spans tiles (the river,
+    a district) is kept once with the geometry from its first tile — `out geom`
+    returns the full member geometry regardless of the bbox.
+    """
     os.makedirs(RAW, exist_ok=True)
-    for name, query in overpass_queries().items():
+    bbs = tiles()
+    for name in overpass_queries(bbs[0]):
         path = os.path.join(RAW, name)
         if os.path.exists(path) and not force:
             print(f"{name}: cached")
             continue
-        for url in OVERPASS_URLS:
-            try:
-                resp = requests.post(
-                    url, data={"data": query}, timeout=240,
-                    headers={"User-Agent": "shanghai-coffee-atlas/1.0 (basemap builder)"})
-                data = resp.json()
-            except Exception as exc:  # noqa: BLE001 — try the next mirror
-                print(f"{name}: {url} failed ({exc})", file=sys.stderr)
-                time.sleep(5)
-                continue
-            with open(path, "w", encoding="utf-8") as fh:
-                json.dump(data, fh, ensure_ascii=False)
-            print(f"{name}: {len(data.get('elements', []))} elements")
-            break
-        else:
-            raise SystemExit(f"could not fetch {name} from any Overpass mirror")
+        merged, seen = [], set()
+        for i, bb in enumerate(bbs):
+            print(f"{name}: tile {i + 1}/{len(bbs)} {bb}")
+            data = fetch_tile(name, overpass_queries(bb)[name])
+            for el in data.get("elements", []):
+                key = (el["type"], el["id"])
+                if key not in seen:
+                    seen.add(key)
+                    merged.append(el)
+            time.sleep(PAUSE_S)
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump({"elements": merged}, fh, ensure_ascii=False)
+        print(f"{name}: {len(merged)} elements")
 
 LANE_NAMES = [
     "武康路", "安福路", "永康路", "五原路", "长乐路", "巨鹿路", "复兴中路",
@@ -94,6 +128,9 @@ LANE_NAMES = [
     "进贤路", "绍兴路", "建国西路", "衡山路", "乌鲁木齐中路", "乌鲁木齐南路",
     "南昌路", "茂名南路", "陕西南路", "湖南路", "新乐路", "东平路", "永嘉路",
     "岳阳路", "汾阳路", "桃江路",
+    # the café lanes of the wider sheet
+    "大学路", "政民路", "黄金城道", "龙腾大道", "滨江大道", "甜爱路", "多伦路",
+    "湘浦路", "永平路",
 ]
 
 LANE_EN = {
@@ -109,12 +146,15 @@ LANE_EN = {
     "陕西南路": "Shaanxi S Rd", "湖南路": "Hunan Rd", "新乐路": "Xinle Rd",
     "东平路": "Dongping Rd", "永嘉路": "Yongjia Rd", "岳阳路": "Yueyang Rd",
     "汾阳路": "Fenyang Rd", "桃江路": "Taojiang Rd",
+    "大学路": "Daxue Rd", "政民路": "Zhengmin Rd", "黄金城道": "Huangjincheng Walk",
+    "龙腾大道": "Longteng Ave", "滨江大道": "Binjiang Ave", "甜爱路": "Tian'ai Rd",
+    "多伦路": "Duolun Rd", "湘浦路": "Xiangpu Rd", "永平路": "Yongping Rd",
 }
 
 DISTRICT_EN = {
     "黄浦区": "Huangpu", "徐汇区": "Xuhui", "静安区": "Jing'an",
     "长宁区": "Changning", "虹口区": "Hongkou", "普陀区": "Putuo",
-    "杨浦区": "Yangpu", "浦东新区": "Pudong",
+    "杨浦区": "Yangpu", "浦东新区": "Pudong", "闵行区": "Minhang",
 }
 
 
@@ -126,6 +166,52 @@ def load(name):
 def inside(lat, lon, pad=0.02):
     s, w, n, e = BBOX
     return s - pad <= lat <= n + pad and w - pad <= lon <= e + pad
+
+
+def in_inner(points):
+    """True when the polyline's midpoint lies on the old inner-ring sheet."""
+    s, w, n, e = INNER
+    x, y = points[len(points) // 2]
+    return s <= y <= n and w <= x <= e
+
+
+def ring_area(ring):
+    """Shoelace area in deg² (1e-6 ≈ a 100 m square at this latitude)."""
+    a = 0.0
+    for i, (x, y) in enumerate(ring):
+        px, py = ring[i - 1]
+        a += px * y - x * py
+    return abs(a) / 2
+
+
+def join_lines(pieces):
+    """Chain polylines that share an endpoint (OSM splits roads at every
+    junction and tag change); the per-way JSON overhead was most of the
+    roads layer. Nodes shared by three or more pieces stay as joins."""
+    pieces = [list(map(tuple, p)) for p in pieces if len(p) > 1]
+    ends = {}
+    for i, p in enumerate(pieces):
+        ends.setdefault(p[0], []).append(i)
+        ends.setdefault(p[-1], []).append(i)
+    used = [False] * len(pieces)
+    out = []
+    for i, p in enumerate(pieces):
+        if used[i]:
+            continue
+        used[i] = True
+        line = list(p)
+        for _direction in range(2):
+            while True:
+                cands = [j for j in ends.get(line[-1], []) if not used[j]]
+                if len(cands) != 1 or len(ends[line[-1]]) != 2:
+                    break
+                j = cands[0]
+                used[j] = True
+                q = pieces[j]
+                line += q[1:] if q[0] == line[-1] else q[-2::-1]
+            line.reverse()
+        out.append([list(pt) for pt in line])
+    return out
 
 
 def touches(points, pad=0.02):
@@ -261,7 +347,10 @@ def rings_from(element):
 
 
 def build_water():
-    """Banks are polygons; a bare `waterway` way is a centreline, not a shape."""
+    """Banks are polygons; a bare `waterway` way is a centreline, not a shape.
+
+    Ponds smaller than ~a city block and short unnamed ditches are dropped
+    outside the inner ring — they read as specks at sheet scale."""
     lines, areas, seen = [], [], set()
     for el in load("water.json"):
         tags = el.get("tags", {})
@@ -270,11 +359,10 @@ def build_water():
         if not polygonal:
             geom = el.get("geometry") or []
             if len(geom) > 1 and touches(geom, 0.0):
-                lines.append({
-                    "name": name,
-                    "cls": tags.get("waterway", "stream"),
-                    "points": clip_line(coords(geom, 0.00015)),
-                })
+                pts = clip_line(coords(geom, 0.00015))
+                cls = tags.get("waterway", "stream")
+                if len(pts) > 1 and (cls != "stream" or name or in_inner(pts)):
+                    lines.append({"name": name, "cls": cls, "points": pts})
             continue
         for geom in rings_from(el):
             if len(geom) < 3 or not touches(geom, 0.0):
@@ -282,12 +370,13 @@ def build_water():
             ring = clip(coords(geom, 0.00015), 0.001)
             if len(ring) < 4:
                 continue
+            if not name and ring_area(ring) < 1.5e-6 and not in_inner(ring):
+                continue
             key = tuple(map(tuple, ring))
             if key in seen:
                 continue
             seen.add(key)
             areas.append({"name": name, "points": ring})
-    lines = [ln for ln in lines if len(ln["points"]) > 1]
     return {"areas": areas, "lines": lines}
 
 
@@ -307,20 +396,25 @@ def build_parks():
                 "points": ring,
             })
     out.sort(key=lambda p: -len(p["points"]))
-    return out[:90]
+    return out[:120]
 
 
 def build_roads():
-    out = []
+    """Arterials, chained per class and clipped to the sheet; the inner ring
+    keeps the finer Douglas-Peucker tolerance."""
+    by_cls = {}
     for el in load("roads.json"):
         geom = el.get("geometry") or []
         if len(geom) < 2 or not touches(geom, 0.0):
             continue
-        tags = el.get("tags", {})
-        out.append({
-            "cls": tags.get("highway", "secondary"),
-            "points": coords(geom, 0.00018),
-        })
+        pts = clip_line(coords(geom, 0.0), 0.006)
+        if len(pts) > 1:
+            by_cls.setdefault(el.get("tags", {}).get("highway", "secondary"), []).append(pts)
+    out = []
+    for cls in ("motorway", "trunk", "primary", "secondary"):
+        for line in join_lines(by_cls.get(cls, [])):
+            tol = 0.00018 if in_inner(line) else 0.00028
+            out.append({"cls": cls, "points": simplify(line, tol)})
     return out
 
 

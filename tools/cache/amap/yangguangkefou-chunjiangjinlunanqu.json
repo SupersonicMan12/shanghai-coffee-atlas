@@ -1,0 +1,173 @@
+{
+  "cafeId": "yangguangkefou-chunjiangjinlunanqu",
+  "query": {
+    "location": "121.386633,31.131748",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:59:48Z",
+  "matchedPoiId": "B0H6BAE1C5",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0I3CSPKFF",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3dfbd5754e57fde12f792e14f8b1da6a"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/89a92fa2abb40e97b5d69ad8599a9e30"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8ff189d9eb8636fa8e1c47b7bcb0befe"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13062847077",
+        "id": "B0H6BAE1C5",
+        "tag": [],
+        "entr_location": "121.386476,31.131879",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "梅陇",
+        "childtype": "320",
+        "atag": [],
+        "name": "阳光可否(春江锦庐南区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "38.00",
+          "opentime2": "周一至周日 09:00-20:00",
+          "rating": "4.3",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621535022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:25:33",
+        "website": [],
+        "address": "春江锦庐南区东南门旁",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.386633,31.131743",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/5ee0d1870632db1a8a0e5d892903679f"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/58abc5ca68c478cd0000002877652973?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/2a34b402f3aaaf9da1b8c1192c8bfda9"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-60836970",
+        "id": "B0FFHJK9IK",
+        "tag": "卡布奇诺,下午茶,黄油,冰美式",
+        "entr_location": "121.38878568615955,31.130916029683267",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "梅陇",
+        "childtype": [],
+        "atag": "卡布奇诺,下午茶,黄油,冰美式",
+        "name": "恍然大悟咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "229",
+        "importance": [],
+        "biz_ext": {
+          "cost": "48.00",
+          "opentime2": "周一至周日 08:30-18:00",
+          "rating": "4.5",
+          "open_time": "08:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621535120",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:04:46",
+        "website": [],
+        "address": "龙茗路577号102号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.388804,31.130846",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "cafeId": "glamour-cafe-beishi-rd-554",
+  "query": {
+    "location": "121.393879,31.249180",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:27Z",
+  "matchedPoiId": "B0HBP5BHY8",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b114bfe5c2b1dfd4664227cc1c93fbf1"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/25bf45d6bad38f25798e396615ce8072"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17317653378",
+        "id": "B0HBP5BHY8",
+        "tag": [],
+        "entr_location": "121.39395,31.249175",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "真如",
+        "childtype": [],
+        "atag": [],
+        "name": "乐慕Glamour cafe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.3",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639121",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:04:05",
+        "website": [],
+        "address": "北石路554号甲(铜川路地铁站4号口步行360米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.393880,31.249176",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGI1OF6",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J0OXBNAK/comment/content_media_external_file_11747_1759154174883_17249771.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/caa4d55578faf1070000002586920025?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J0OXBNAK",
+        "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": "121.394071,31.247995",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "真如镇街道",
+        "childtype": "202",
+        "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "瑞幸咖啡(北石路茂晶商厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "140",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639121",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 12:07:07",
+        "website": [],
+        "address": "北石路500弄60号(铜川路地铁站4号口步行490米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.393965,31.247920",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

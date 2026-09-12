@@ -1,0 +1,323 @@
+{
+  "cafeId": "xingrenkafei-dagu-rd-379",
+  "query": {
+    "location": "121.466549,31.224786",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:56:44Z",
+  "matchedPoiId": "B0K3UYKWAQ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155HNA3",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_images_media_1000006854_ss__1751358842611_57971209.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_file_144877_ss__1751193314172_13642456.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_file_144912_ss__1751193314173_49085952.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15300868861",
+        "id": "B0K3UYKWAQ",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "302",
+        "atag": [],
+        "name": "幸仁咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "24.00",
+          "opentime2": "周一至周日 08:30-19:00",
+          "rating": "4.5",
+          "open_time": "08:30-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621636720",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 21:31:12",
+        "website": [],
+        "address": "大沽路379号辅德里公园",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.466553,31.224782",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KLZW",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/df29e3efe2e2889f16021641afb5bf26"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFIU6KU3",
+        "tag": "牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,拿铁,美式,小火山黑糖厚乳,生椰拿铁,杨枝甘露",
+        "entr_location": "121.467042,31.227202",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": "牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,拿铁,美式,小火山黑糖厚乳,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(恒利国际大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "248",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:30-18:00；周六至周日 09:00-16:00",
+          "rating": "3.9",
+          "open_time": "09:00-16:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637700",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:37:34",
+        "website": [],
+        "address": "成都北路189号恒利国际大厦一层大堂",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.466632,31.227021",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KLZW",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-63131861",
+        "id": "B0I6TSN9T4",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.467061,31.227106",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(恒利国际大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "253",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-19:00；周六至周日 08:00-18:00",
+          "rating": "4.2",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637701",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:59:11",
+        "website": [],
+        "address": "成都北路189号1层101A101B单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.466841,31.227053",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156GLPL",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3F5J0EH/comment/97fda5c9c920bc4f685a1811e20d0ced_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3F5J0EH/comment/c96fd81ed9e54e4225875885a9f8b972_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3F5J0EH/comment/c3688bc5cbe2272312172856d694b124_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0G3F5J0EH",
+        "tag": "coffee",
+        "entr_location": "121.466347,31.22703",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "Manner Coffee(恒利国际大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "260",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.0",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637701",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:03:23",
+        "website": [],
+        "address": "威海路233号恒利国际大厦裙楼F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.466814,31.227115",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

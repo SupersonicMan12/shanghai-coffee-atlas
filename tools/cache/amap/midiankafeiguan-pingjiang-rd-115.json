@@ -1,0 +1,623 @@
+{
+  "cafeId": "midiankafeiguan-pingjiang-rd-115",
+  "query": {
+    "location": "121.455237,31.200050",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:06:16Z",
+  "matchedPoiId": "B0L29RRDES",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "9",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/38589334e33a85910000003030942432?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L29RRDES/comment/AC92380C_0F10_401B_AC0F_CD641CE5CA5D_L0_001_1500_200_1758534700747_68459323.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b04694713d9e95d20000003378756314?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13262576713",
+        "id": "B0L29RRDES",
+        "tag": [],
+        "entr_location": "121.45510004980726,31.200000900385486",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": [],
+        "name": "米店咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "40.00",
+          "opentime2": "周一至周日 09:00-19:00",
+          "rating": "4.7",
+          "open_time": "09:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634601",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 06:39:51",
+        "website": [],
+        "address": "平江路115号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.455237,31.200051",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0ID77JHKY/comment/47102547_C598_4044_A5D0_1AE93311E615_L0_001_1500_200_1764119777923_38290254.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ea251a3cb356c68c0000006120494315?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e147e29f80d948120000006120492425?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19521418606;19542776441",
+        "id": "B0ID77JHKY",
+        "tag": "手冲咖啡,冰美式,coffee",
+        "entr_location": "121.455425,31.199158",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "手冲咖啡,冰美式,coffee",
+        "name": "嘲鸫咖啡(医学院路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "99",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.4",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633621",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 14:02:26",
+        "website": [],
+        "address": "医学院路中山新村",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.455313,31.199156",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-61261867",
+        "id": "B0FFG0Y8FE",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.45409947510129,31.201032747072272",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "岳阳",
+        "childtype": [],
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(好望角店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_946924",
+        "distance": "152",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634601",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:25:08",
+        "website": [],
+        "address": "肇嘉浜路500号(肇嘉浜路地铁站2号口步行460米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.454274,31.201145",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IBXAPKIU/comment/b5e07275a8b33e7fc6bd2ae491105ee0_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IBXAPKIU/comment/43528824c2bf09dd1cf84c870fb0de9d_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0IBXAPKIU",
+        "tag": "coffee,杨枝甘露,生椰拿铁",
+        "entr_location": "121.453518,31.199449",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "coffee,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(中山医院西院区门诊大楼店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "168",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.3",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:42:21",
+        "website": [],
+        "address": "平江路232号一层底商(肇嘉浜路地铁站2号口步行370米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.453575,31.199539",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001556X1H",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/71ad3cad096e37360000005113010124?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J1KR4A7W/comment/34a006bbf886f9b560c84d1d857326b3_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J1KR4A7W/comment/content_media_external_images_media_1000040765_ss__1728520600516_32758922.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-66566756",
+        "id": "B0J1KR4A7W",
+        "tag": "下午茶,点心,单人餐",
+        "entr_location": "121.453611,31.198646",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": "3",
+        "atag": "下午茶,点心,单人餐",
+        "name": "星巴克(上海中山医院店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "215",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-19:00",
+          "rating": "4.5",
+          "open_time": "06:30-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:15:59",
+        "website": [],
+        "address": "医学院路111号1层101单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.453573,31.198736",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/38cc1c999ad09d87d3ff2e8542591420"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I2K7JFQP/comment/a1a208b529977401c9236953c13715a9_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I2K7JFQP/comment/5BCC97FC_6E82_4C25_AE4B_205A6C8611D9_L0_001_1500_200_1765599104000_03303136.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54520035",
+        "id": "B0I2K7JFQP",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.45749085691384,31.19854281119421",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(上海小木桥路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "277",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 06:30-22:00；周六至周日 07:00-22:00",
+          "rating": "4.5",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633621",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:55:20",
+        "website": [],
+        "address": "小木桥路221号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.457611,31.198604",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4aaffc350563b2d99ef38ae0a470d654"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/00e72015b69aa094bd7afc842068e04d"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15921218325",
+        "id": "B0IBCZH3NR",
+        "tag": "柠檬气泡饮,美式,不止拿铁,农夫卷,巴旦木炼乳拿铁,鲜萃奶咖,全麦贝果,拿铁,巴旦木炼乳澳白,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,奶咖,下午茶",
+        "entr_location": "121.457483,31.198553",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "柠檬气泡饮,美式,不止拿铁,农夫卷,巴旦木炼乳拿铁,鲜萃奶咖,全麦贝果,拿铁,巴旦木炼乳澳白,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,奶咖,下午茶",
+        "name": "Tims咖啡(申信大楼捷枫店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "283",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-22:00；周六至周日 07:00-22:00",
+          "rating": "4.2",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633621",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:36:48",
+        "website": [],
+        "address": "小木桥路219号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.457692,31.198612",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/41960c55e118e10a88ea049bcbb7578b"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L1B90FOC/comment/4BDFEB8A_AD8C_4BF9_8FD0_DD2D5F924442_L0_001_1500_200_1771946103643_92226188.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L1B90FOC/comment/content_media_external_file_1000027944_ss__1754972510853_55044892.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13818557929",
+        "id": "B0L1B90FOC",
+        "tag": [],
+        "entr_location": "121.45607708727218,31.20250255919401",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "肇嘉浜路",
+        "childtype": [],
+        "atag": [],
+        "name": "i17 CAFE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "287",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": "周一至周五 08:00-17:00；周六至周日 09:00-18:00",
+          "rating": "4.4",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634601",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 12:11:21",
+        "website": [],
+        "address": "太原路315-3号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.456131,31.202513",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

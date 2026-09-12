@@ -1,0 +1,315 @@
+{
+  "cafeId": "guyuemianbaokafeiriliao-lingling-rd-598-1",
+  "query": {
+    "location": "121.448791,31.188247",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:09:01Z",
+  "matchedPoiId": "B0FFHSJI5R",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "早餐",
+        "type": "餐饮服务;外国餐厅;日本料理|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/68c9c6dbb29706503cec29369fa4b6d9"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHSJI5R/comment/content_media_external_file_100002877_1747964612632_17022602.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHSJI5R/comment/0a8250b55ffe6394808cbfba0e5200ac_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050202|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54893698",
+        "id": "B0FFHSJI5R",
+        "tag": "炒饭,特色菜,牛肉",
+        "entr_location": "121.44868369075277,31.188434582565424",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": [],
+        "atag": "炒饭,特色菜,牛肉",
+        "name": "古悦面包咖啡日料",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1319640",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "49.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "4.5",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:54:09",
+        "website": [],
+        "address": "零陵路598-1号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.448788,31.188242",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFFHB53Y",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFI91CWR/comment/56519b94f1b95e3f6f154edbe1eaad9f_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3ebce7ccdf1b40260000002560554252?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1a4b58afe3b7a2a0948d273e1d60eb0a"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-66566711",
+        "id": "B0FFI91CWR",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.449586,31.188779",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "320",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(上海零陵路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "78",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.4",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 21:56:24",
+        "website": [],
+        "address": "宛平南路521号B幢105室A单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449301,31.188802",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00151CFC5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/49a96a57083885afe47fd2118f339299"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b9cfb66de178609dca06cec45a1874be"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15821572147",
+        "id": "B0K12994G5",
+        "tag": "coffee",
+        "entr_location": "121.447914,31.188752",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "BOLD COFFEE(零陵路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "108",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 08:30-16:30",
+          "rating": "3.7",
+          "open_time": "08:30-16:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 10:59:16",
+        "website": [],
+        "address": "零陵路583号海洋石油大厦F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.447797,31.188725",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0a9bf2a4e1eadc020000003124712087"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c7f077d3544cff341090e385283ac1a2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MDG7SJY9",
+        "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": [],
+        "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "瑞幸咖啡(龙华医院西门店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "233",
+        "importance": [],
+        "biz_ext": {
+          "cost": "17.00",
+          "opentime2": "周六至周日 08:00-21:00；周一至周五 07:00-21:00",
+          "rating": "3.8",
+          "open_time": "08:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:19:11",
+        "website": [],
+        "address": "宛平南路与中山南二路交叉口西北140米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449826,31.186350",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

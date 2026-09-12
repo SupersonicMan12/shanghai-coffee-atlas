@@ -1,0 +1,22 @@
+{
+  "cafeId": "inchhub-osm",
+  "query": {
+    "location": "121.396688,31.219468",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:04:39Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "0",
+    "infocode": "10000",
+    "pois": [],
+    "status": "1",
+    "info": "OK"
+  }
+}

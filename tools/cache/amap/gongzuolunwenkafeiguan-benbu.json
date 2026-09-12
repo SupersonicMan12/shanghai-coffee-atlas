@@ -1,0 +1,248 @@
+{
+  "cafeId": "gongzuolunwenkafeiguan-benbu",
+  "query": {
+    "location": "121.508333,31.291987",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:10:51Z",
+  "matchedPoiId": "B0FFGYVQJK",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155L2P8",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/41b3fad0600a2b420000002300738749?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/364a91fd6bd55769942f27737eeb39d2"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFGYVQJK/comment/4523320535ab6a4f545f96f94fb698e5_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19921363059",
+        "id": "B0FFGYVQJK",
+        "tag": "芝士,巧克力,下午茶",
+        "entr_location": "121.50827338859794,31.29202337501429",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "320",
+        "atag": "芝士,巧克力,下午茶",
+        "name": "工作论文咖啡馆(本部店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009013_747151",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "38.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.4",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621745001",
+        "shopinfo": "0",
+        "alias": "WORKING PAPER",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:32:46",
+        "website": [],
+        "address": "国年路99弄12号-1(国权路地铁站4号口步行420米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.508331,31.291991",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KVUZ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGRYVMT2/comment/7D3810D2_CD75_46F9_A9EE_CE3CF26BA79F_L0_001_IMG_8767_1657687760483_a6749547.JPG"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGRYVMT2/comment/52F50870_04F1_46C1_9991_BE874DF8FA4F_L0_001_00D1D1B5-8FEF-4C16-A969-53692E91ECAF-L0-001_1657687760483_0a256438.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0073c144b32a22670000000972346422?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0IGRYVMT2",
+        "tag": "coffee",
+        "entr_location": "121.507805,31.290606",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "Sven Coffee(复旦大学店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "148",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 07:00-21:00",
+          "rating": "4.1",
+          "open_time": "07:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:50:23",
+        "website": [],
+        "address": "国权路334号(国权路地铁站4号口步行220米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507926,31.290696",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KEKS",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://aos-cdn-image.amap.com/sns/ugccomment/dcfe053b-5711-41b7-a2d4-a86dcbcc1db6.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1d88fea4fbdf557993e7cb5005e5ff70"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H0GHE3QD/comment/B0E0FFF0_53FC_404F_8A35_726C071494F3_L0_001_1500_200_1766768165384_85227972.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13472516798",
+        "id": "B0H0GHE3QD",
+        "tag": "coffee,单人餐",
+        "entr_location": "121.507728,31.290483",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "320",
+        "atag": "coffee,单人餐",
+        "name": "ChowChowCoffee松狮咖啡(国权路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "183",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周五 06:30-18:30；周六至周日 08:30-18:30",
+          "rating": "4.3",
+          "open_time": "06:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:39:18",
+        "website": [],
+        "address": "国权路333弄18号-7商铺",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507538,31.290483",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

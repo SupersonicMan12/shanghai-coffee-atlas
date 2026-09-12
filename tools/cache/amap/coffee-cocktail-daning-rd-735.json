@@ -1,0 +1,173 @@
+{
+  "cafeId": "coffee-cocktail-daning-rd-735",
+  "query": {
+    "location": "121.444797,31.270932",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:55:48Z",
+  "matchedPoiId": "B0JGPADHFF",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "体育休闲服务;娱乐场所;酒吧|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d28d7704d14162ff21a0c40765610800"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e44cc5095a8bfc6633d4d9e047b61693"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/932a57c8bc1dbd82f2789eebfd63af74"
+          }
+        ],
+        "building": [],
+        "typecode": "080304|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18001981318",
+        "id": "B0JGPADHFF",
+        "tag": "coffee",
+        "entr_location": "121.444844,31.270855",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大宁路",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "鹿鸣-coffee&cocktail",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "132.00",
+          "opentime2": "周一至周日 13:00-03:00",
+          "rating": "4.4",
+          "open_time": "13:00-03:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732511",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:29:28",
+        "website": [],
+        "address": "大宁路735号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.444792,31.270934",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I0ND7YCS/comment/4b99e1d1478ddbcdbc42648387e1d165_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I0ND7YCS/comment/d56610f4e55efa7b7f0fb11a82a6de14_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4fb95e7420aa0e0c955dd0f6b5df166a"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15646589111",
+        "id": "B0I0ND7YCS",
+        "tag": "美式咖啡",
+        "entr_location": "121.444852,31.270859",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大宁路",
+        "childtype": [],
+        "atag": "美式咖啡",
+        "name": "凯里咖啡ByHeyKelly",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "4",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "1.8",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732511",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:39:05",
+        "website": [],
+        "address": "大宁路735号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.444771,31.270962",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

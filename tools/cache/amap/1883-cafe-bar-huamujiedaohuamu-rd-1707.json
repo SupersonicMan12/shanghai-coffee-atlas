@@ -1,0 +1,248 @@
+{
+  "cafeId": "1883-cafe-bar-huamujiedaohuamu-rd-1707",
+  "query": {
+    "location": "121.564244,31.214623",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:00:32Z",
+  "matchedPoiId": "B0L6NATC66",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7271f3378f7531f4c15ef286d16b8ce6"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/032eb3ee736f38a096ab494337a38ee3"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/626227a9e237ffe415b74472dfdcf9d7"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15221848287",
+        "id": "B0L6NATC66",
+        "tag": [],
+        "entr_location": "121.564226,31.214699",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "联洋",
+        "childtype": [],
+        "atag": [],
+        "name": "1883 Cafe Bar",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "120.00",
+          "opentime2": "周一至周日 12:00-24:00",
+          "rating": "4.6",
+          "open_time": "12:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645520",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 03:24:12",
+        "website": [],
+        "address": "花木街道花木路1707号107室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.564247,31.214625",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFH7VWCB",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LRZC33L8/comment/20260211-a1fafd5658143f4be33a1e7a-2nVv7ziTWBvAAnvrQ4HTTv.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LRZC33L8/comment/content_media_external_file_518938_ss__1768647635634_03789763.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1ab121f33747a7a90000002744034589?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13761877626",
+        "id": "B0LRZC33L8",
+        "tag": [],
+        "entr_location": "121.563168,31.213702",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "201",
+        "atag": [],
+        "name": "0566珈琲制作所(浦东嘉里城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "251",
+        "importance": [],
+        "biz_ext": {
+          "cost": "53.00",
+          "opentime2": "周一至周日 09:00-22:00",
+          "rating": "4.5",
+          "open_time": "09:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645510",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-11 21:52:57",
+        "website": [],
+        "address": "花木路1378号浦东嘉里城F2层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "SC0000800210200175",
+          "truefloor": "L2",
+          "cpid": "B0FFH7VWCB",
+          "floor": "2"
+        },
+        "exit_location": [],
+        "location": "121.563330,31.212506",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0LKXUOHMZ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JAH7CKJJ/comment/253d35450d2a8b561a9efda14c7d539c_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JAH7CKJJ/comment/854800f122324f7ffe565e4158c86e98_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JAH7CKJJ/comment/da50fedd5fae03c0ab34cac67102c08d_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18616393409",
+        "id": "B0JAH7CKJJ",
+        "tag": "油条,香肠",
+        "entr_location": "121.563175,31.213693",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "202",
+        "atag": "油条,香肠",
+        "name": "M Stand(上海浦东嘉里城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "252",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 07:30-22:00",
+          "rating": "4.0",
+          "open_time": "07:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645510",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-10 22:55:01",
+        "website": [],
+        "address": "花木路1378号浦东嘉里城商场一层L102cL102d单元(汇丰银行旁/始祖鸟对面)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "SC0000800210100065",
+          "truefloor": "L1",
+          "cpid": "B0FFH7VWCB",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.562675,31.212798",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

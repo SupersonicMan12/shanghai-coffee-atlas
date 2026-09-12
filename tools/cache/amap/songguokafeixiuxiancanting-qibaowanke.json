@@ -1,0 +1,98 @@
+{
+  "cafeId": "songguokafeixiuxiancanting-qibaowanke",
+  "query": {
+    "location": "121.343031,31.159319",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:59:27Z",
+  "matchedPoiId": "B0FFF9SCP4",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0J6DZD57X",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ca0a794b187ea67c33db60d6fd551250"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/2db890d1257a9e9866c08eb01589cc2a"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8692c3af36fbbd854f6a1e10a1338450"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64090358",
+        "id": "B0FFF9SCP4",
+        "tag": "腊味煲仔饭,芝士焗饭",
+        "entr_location": "121.343082,31.159162",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "七宝",
+        "childtype": "320",
+        "atag": "腊味煲仔饭,芝士焗饭",
+        "name": "松果咖啡休闲餐厅(七宝万科店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F011011_497140",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "76.00",
+          "opentime2": "周一至周日 09:30-21:00 2026-02-15至2026-02-21 周一至周日 全天关闭",
+          "rating": "4.5",
+          "open_time": "09:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621529701",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:32:49",
+        "website": [],
+        "address": "七宝镇七莘路3333弄8区3号102室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.343029,31.159320",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

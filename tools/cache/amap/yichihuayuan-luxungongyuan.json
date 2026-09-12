@@ -1,0 +1,323 @@
+{
+  "cafeId": "yichihuayuan-luxungongyuan",
+  "query": {
+    "location": "121.483210,31.272533",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:51:41Z",
+  "matchedPoiId": "B0MBDZGB9N",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155KZKW",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3ad5325e812bfbec0000001362604946?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1798a9a4ab8c14880000002097598686?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f0bae87d18e8f4c40000001071550638?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18019276502",
+        "id": "B0MBDZGB9N",
+        "tag": [],
+        "entr_location": "121.483057,31.272504",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "302",
+        "atag": [],
+        "name": "一尺花园(鲁迅公园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "61.00",
+          "opentime2": "周一至周日 10:00-20:00",
+          "rating": "4.6",
+          "open_time": "10:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732821",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:24:35",
+        "website": [],
+        "address": "大连西路345号鲁迅公园梅园内(步行打车走北门驾车停西门虹口足球场停车场)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.483212,31.272536",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KZKW",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L6BPXNRE/comment/content_media_external_file_703912_ss__1766233874743_61413196.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/782758bd08a3b97ff8e1a9056115cbd3"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7c47197c129bc40cec39e9b78290a0a6"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15618305928",
+        "id": "B0L6BPXNRE",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "302",
+        "atag": [],
+        "name": "艺萃",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "260",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.1",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732822",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 10:05:52",
+        "website": [],
+        "address": "四川北路2288号上海鲁迅公园(东北角)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.485325,31.274025",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7930dd34613bb7cf0000002356434531?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3486986b1f552d290000002356472132?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3be780a28e2b1fba0000002356442440?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MA2UQXRT",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "Aura Coffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "272",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": [],
+          "rating": "3.9",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732812",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 08:03:05",
+        "website": [],
+        "address": "祥德路与欧阳路交叉口西180米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.485366,31.270924",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/da4d96b6868d50300000001038620286?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d689a03cf193536f0000001038598669?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7fafab2a7c30d5e10000001038618278?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MG2B189F",
+        "tag": [],
+        "entr_location": "121.485785,31.270850",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": [],
+        "atag": [],
+        "name": "猫叔家的咖啡(祥德市集店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "290",
+        "importance": [],
+        "biz_ext": {
+          "cost": "16.00",
+          "opentime2": "周一至周日 07:00-21:00",
+          "rating": "4.0",
+          "open_time": "07:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732812",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:59:45",
+        "website": [],
+        "address": "祥德路与欧阳路交叉口西南160米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.485565,31.270875",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

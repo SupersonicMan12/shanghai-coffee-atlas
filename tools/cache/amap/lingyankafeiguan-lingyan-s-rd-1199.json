@@ -1,0 +1,173 @@
+{
+  "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
+  "query": {
+    "location": "121.500847,31.140168",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:05Z",
+  "matchedPoiId": "B0KD0UWEYU",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KD0UWEYU/comment/bc3c73d382a478bbe0393e9c8d6cf136_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KD0UWEYU/comment/37a771d1d56c0da39be51c68e6428863_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/59a256214e06b1e71030bae7e2fab21f"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50599765;15021739665",
+        "id": "B0KD0UWEYU",
+        "tag": "大包",
+        "entr_location": "121.500731,31.140002",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上南地区",
+        "childtype": [],
+        "atag": "大包",
+        "name": "灵岩咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "57.00",
+          "opentime2": "周一至周日 09:00-24:00",
+          "rating": "4.5",
+          "open_time": "09:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621546020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:57:53",
+        "website": [],
+        "address": "灵岩南路1199号2F-3F(原三林咖啡)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.500848,31.140171",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;茶艺馆;茶艺馆|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e5fa65b32382a077ab88b758bdd7f27f"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/fbae49ee7e5b765fa75766f9da0356b4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/9d551cd25186b0f8dbd7be98c1f2ca84"
+          }
+        ],
+        "building": [],
+        "typecode": "050600|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50599765",
+        "id": "B0FFFC1ERG",
+        "tag": "牛排",
+        "entr_location": "121.500871,31.140086",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上南地区",
+        "childtype": [],
+        "atag": "牛排",
+        "name": "三林咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F011012_359321",
+        "distance": "7",
+        "importance": [],
+        "biz_ext": {
+          "cost": "54.00",
+          "opentime2": "周一至周日 09:00-24:00",
+          "rating": "4.5",
+          "open_time": "09:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621546020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:11:28",
+        "website": [],
+        "address": "灵岩南路1199号2-3层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.500899,31.140112",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

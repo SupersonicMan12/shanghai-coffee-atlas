@@ -1,0 +1,173 @@
+{
+  "cafeId": "xingyunka-huadongshifandaxue",
+  "query": {
+    "location": "121.402941,31.230335",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:04:44Z",
+  "matchedPoiId": "B0LDSC1JQM",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155IVZ7",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6f1b99bcca6dd5ec0000002159730419?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDSC1JQM/comment/content_media_external_file_100147612_1764835586295_38352311.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDSC1JQM/comment/content_media_external_file_1001476126_ss__1764835586295_63707862.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13142277446",
+        "id": "B0LDSC1JQM",
+        "tag": "真橙冰萃咖,苹果冰萃咖,红石榴冰萃咖,青提冰萃咖,百香果冰萃咖啡,泡鲁达,现磨咖啡",
+        "entr_location": "121.403059,31.229955",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "周家桥",
+        "childtype": "320",
+        "atag": "真橙冰萃咖,苹果冰萃咖,红石榴冰萃咖,青提冰萃咖,百香果冰萃咖啡,泡鲁达,现磨咖啡",
+        "name": "幸运咖(华东师范大学店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "10.00",
+          "opentime2": "周一至周日 07:40-13:00,14:00-19:30",
+          "rating": "4.0",
+          "open_time": "07:40-13:00 14:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637210",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 11:53:21",
+        "website": [],
+        "address": "华东师范大学河西餐厅2层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.402937,31.230338",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-32200276",
+        "id": "B0FFHWEDWJ",
+        "tag": "抹茶星冰乐,摩卡星冰乐,可可碎片星冰乐,摩卡,热巧克力,太妃榛果拿铁,美式咖啡,馥芮白,单人餐,下午茶",
+        "entr_location": "121.401704,31.232161",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金沙江路",
+        "childtype": [],
+        "atag": "抹茶星冰乐,摩卡星冰乐,可可碎片星冰乐,摩卡,热巧克力,太妃榛果拿铁,美式咖啡,馥芮白,单人餐,下午茶",
+        "name": "星巴克(枣阳路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "251",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.5",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637220",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:40:45",
+        "website": [],
+        "address": "金沙江路588号(长风高层西门东80米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.401687,31.232323",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

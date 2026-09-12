@@ -1,0 +1,98 @@
+{
+  "cafeId": "xuyukafei-zhongxingzhangdaoyuan",
+  "query": {
+    "location": "121.580890,31.266204",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:00:51Z",
+  "matchedPoiId": "B0FFFPM3KD",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0015316E8",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/781946bb8bcb677f2d4ca7dcfb8c45be"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/b75d1e2d8625b3beb428edb8c1a5adb4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ed52d7128c895d7ab2a68fbf640c2a13"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18918699356",
+        "id": "B0FFFPM3KD",
+        "tag": "甜蜜时光",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": "320",
+        "atag": "甜蜜时光",
+        "name": "絮语咖啡(中星长岛苑店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009013_434524",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "31.00",
+          "opentime2": "周一至周日 09:00-20:00 2026-02-16至2026-02-22 周一至周日 全天关闭",
+          "rating": "4.5",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621741621",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 12:14:50",
+        "website": [],
+        "address": "兰城路115弄1-50号中星长岛苑",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.580895,31.266209",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

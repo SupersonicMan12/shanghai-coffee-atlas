@@ -1,0 +1,160 @@
+{
+  "cafeId": "fenkafei-quankou-rd",
+  "query": {
+    "location": "121.370950,31.212661",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:48:13Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JUNH425K/headerImg/94cbdbe5c701ea466ef2e1df4f4b0421_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/92e4c20578311bd40000001540124913?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c73ab565da9ebec80000001540116892?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15800300156",
+        "id": "B0JUNH425K",
+        "tag": "单人餐",
+        "entr_location": "121.371015,31.212612",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "仙霞",
+        "childtype": [],
+        "atag": "单人餐",
+        "name": "60分咖啡(泉口路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周四 10:00-24:00；周五至周日 10:00-01:00",
+          "rating": "4.4",
+          "open_time": "10:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621625912",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 10:33:07",
+        "website": [],
+        "address": "新泾镇泉口路98号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.370947,31.212660",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001539575",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MD0OT4X9",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹桥国际中央商务区",
+        "childtype": "320",
+        "atag": [],
+        "name": "来咖(剑河路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "268",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "1.2",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621625911",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:38:48",
+        "website": [],
+        "address": "泉口路185弄1-111号金菊小区",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.368175,31.212225",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}
