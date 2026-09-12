@@ -903,10 +903,10 @@ export function AtlasMap({
         onSelect(null)
       }}
     >
-      <div ref={sheetRef} className="sheet" style={{ width: PAPER_WIDTH, height: PAPER_HEIGHT }}>
+      <div ref={sheetRef} className="paper" style={{ width: PAPER_WIDTH, height: PAPER_HEIGHT }}>
         <BaseRaster colors={colors} k={kb} onReady={setRasterReady} />
         <svg
-          className="sheet-svg"
+          className="paper-svg"
           viewBox={`0 0 ${PAPER_WIDTH} ${PAPER_HEIGHT}`}
           width={PAPER_WIDTH}
           height={PAPER_HEIGHT}

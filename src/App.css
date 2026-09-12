@@ -795,18 +795,18 @@
 
 /* The paper is one composited layer; gestures move it with a CSS transform
    and React only repaints the pins when the gesture settles. */
-.sheet {
+.paper {
   position: absolute;
   left: 0;
   top: 0;
   transform-origin: 0 0;
 }
 
-.sheet[data-gesturing] {
+.paper[data-gesturing] {
   will-change: transform;
 }
 
-.sheet-svg {
+.paper-svg {
   position: relative;
   display: block;
   overflow: visible;
@@ -814,7 +814,7 @@
 
 /* Shape glyphs once at their geometric size instead of re-shaping every
    label each time the sheet's on-screen scale moves. */
-.sheet-svg text {
+.paper-svg text {
   text-rendering: geometricPrecision;
 }
 
@@ -904,10 +904,10 @@
     stroke-width 240ms ease;
 }
 
-.sheet[data-snap] .pin,
-.sheet[data-snap] .pin .halo,
-.sheet[data-snap] .pin .body,
-.sheet[data-snap] .pin .ring {
+.paper[data-snap] .pin,
+.paper[data-snap] .pin .halo,
+.paper[data-snap] .pin .body,
+.paper[data-snap] .pin .ring {
   transition: none;
 }
 
