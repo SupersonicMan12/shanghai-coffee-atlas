@@ -31,5 +31,10 @@ description: How to run and browser-test the Shanghai Coffee Atlas (Vite+React, 
 - Mobile: DevTools (Ctrl+Shift+I) → Ctrl+Shift+M **with DevTools focused** (if the page is focused, Ctrl+Shift+M opens Chrome's profile menu – Escape it and click the device-toolbar icon instead), type 390 × 844 in the dimension fields; "Responsive" already emulates touch (`pointer: coarse`). Screen coords ≈ `210 + cssX*0.641`, `98 + cssY*0.654` when DevTools is docked right on a 1600-wide display – read element rects via console and convert.
 - Reduced motion: DevTools Command menu (Ctrl+Shift+P) → "Show Rendering" → "Emulate CSS media feature prefers-reduced-motion". Prove the glide is cut by sampling a slider's `.value` every 16 ms around a chip click (only two distinct values expected).
 
+- `a.trait-src` ↗ links are `target=_blank`; in the Devin Chrome they may open a **new window**, not a tab. Never Ctrl+W after clicking one — you can close the only tab of the original CDP Chrome and lose the browser. Count pages with `curl -s localhost:29229/json` instead, and click into the atlas window before closing anything.
+- If the CDP Chrome dies, relaunch: `DISPLAY=:0 /opt/.devin/chrome/chrome/linux-*/chrome-linux64/chrome --remote-debugging-port=29229 --remote-allow-origins=* --user-data-dir=/tmp/relaunch --no-first-run <url> &`. The `computer` tool keeps working, but `browser_console` may report "Could not connect to Chrome via CDP" — fall back to a small python `websockets` script that calls `Runtime.evaluate` on the page's `webSocketDebuggerUrl` (e.g. `/tmp/cdp_eval.py`).
+- To exercise the photo `onError` drop path without a data change, set an existing `.card-photos img` `src` to a 404 URL from the console; the figure count should drop and `.card-photos` class goes `n3`→`n2`.
+- Unverified editorial cafés (src/data/unverified.json) render `span.verdict-est` (估 / est.) next to the headline and `.strip-card.sketch` in the strip; `title` holds the tooltip text.
+
 ## Devin Secrets Needed
 none
