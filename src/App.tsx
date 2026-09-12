@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
 import { CAFES } from './data/cafes'
 import { CRAWLS } from './data/crawls'
@@ -252,6 +252,10 @@ export default function App() {
     () => (compassOn ? shownRanked.slice(0, 3).map((r) => r.cafe.id) : []),
     [compassOn, shownRanked],
   )
+  // Re-inking ~1000 pins is the slow half of a slider tick; let the strip and
+  // the slider render first and the map catch up when input pauses.
+  const mapScores = useDeferredValue(scores)
+  const mapTopIds = useDeferredValue(topIds)
 
   const sharePicks = useCallback(() => {
     const top = shownRanked.slice(0, 3)
@@ -748,9 +752,9 @@ export default function App() {
           <AtlasMap
             handleRef={mapRef}
             cafes={CAFES}
-            scores={scores}
+            scores={mapScores}
             compassOn={compassOn}
-            topIds={topIds}
+            topIds={mapTopIds}
             selectedId={selectedId}
             onSelect={selectCafe}
             visited={visitedSet}
