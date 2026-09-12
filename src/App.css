@@ -1972,6 +1972,7 @@
 .sc-head strong {
   font-family: var(--serif);
   font-size: 15px;
+  padding-right: 36px;
 }
 
 .sc-img {
