@@ -1,0 +1,44 @@
+{
+ "cafeId": "rumors-coffee-roastery-xingguo-rd",
+ "model": "qwen-max",
+ "inputDigest": "3189f61e3fe2",
+ "raw": {
+  "headline": {
+   "zh": "采用古法法兰绒手冲，单品豆种类丰富",
+   "en": "Unique flannel drip, wide range of single-origin beans"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "常备近三十种单品豆，包括蓝山NO.1、瑰夏等",
+    "en": "Stocks nearly 30 types of single-origin beans",
+    "from": 11
+   },
+   {
+    "kind": "drinks",
+    "zh": "主营单品手冲咖啡，采用日式滴滤手法",
+    "en": "Specializes in hand-drip coffee with Japanese method",
+    "from": 10
+   },
+   {
+    "kind": "space",
+    "zh": "有顾客使用电脑工作",
+    "en": "People work on laptops",
+    "from": 9,
+    "axisHints": "focus",
+    "value": 70
+   },
+   "linger",
+   "value",
+   80,
+   "from",
+   5,
+   7,
+   "zh",
+   "设有室外座位区，适合久坐",
+   "en",
+   "Outdoor seating for long stays"
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:23:00Z"
+}

@@ -1,0 +1,40 @@
+{
+ "cafeId": "engine-huaihai",
+ "model": "qwen-max",
+ "inputDigest": "2804786324ec",
+ "raw": {
+  "headline": {
+   "zh": "赛车车库风格，饮品如高辛烷值燃料",
+   "en": "Racing garage vibe, high-octane drinks"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "赛车车库风格装修",
+    "en": "Motor-garage styled interior",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：高辛烷值双份浓缩",
+    "en": "Signature: High-octane double shot",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 60,
+    "from": 1,
+    "zh": "员工谈论提取率和圈速",
+    "en": "Crew talks extraction and lap times"
+   },
+   "linger": {
+    "value": 30,
+    "from": 1,
+    "zh": "站立式酒吧，快速服务",
+    "en": "Standing bar, quick service"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:55Z"
+}

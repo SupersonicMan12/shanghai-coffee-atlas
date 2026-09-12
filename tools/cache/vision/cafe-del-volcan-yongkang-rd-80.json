@@ -1,0 +1,71 @@
+{
+  "cafeId": "cafe-del-volcan-yongkang-rd-80",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "6cb094fa6924",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8fb3d9435cac9d2a0000002343348796?type=pic",
+    "https://aos-comment.amap.com/B00156O2XJ/comment/17c67e2fe515df9ca2a9cd562e884e17_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/bc86116696cb84d60000002343404015?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有2把折叠椅和1张小桌，室内可见吧台座与高脚凳。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质吧台、磨豆机、咖啡机，墙上挂菜单板。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中一人坐在室外桌前低头看手机，未见电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内为木梁顶+砖墙+木地板，吧台旁陈列多罐咖啡豆。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品含一杯热拿铁（拉花）和一杯冰咖（带饼干装饰）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街为大面积玻璃门，可看见店内陈设与灯光。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单板上可见“America”字样及部分产地名，如哥伦比亚。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外招牌标有营业时间：周一至周日 9:00AM - 7:00PM。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:52Z"
+}

@@ -1,0 +1,90 @@
+{
+  "facts": [
+    {
+      "text": "店内有9只可爱猫咪可互动",
+      "kind": "story",
+      "quote": "这是9只流浪猫的家",
+      "url": "https://zhuanlan.zhihu.com/p/557373152",
+      "site": "知乎"
+    },
+    {
+      "text": "提供亲手制作全日餐及无糖蛋糕",
+      "kind": "food",
+      "quote": "老板坚持亲手制作健康美味的全日餐,以及...美味无糖蛋糕",
+      "url": "https://zhuanlan.zhihu.com/p/557373152",
+      "site": "知乎"
+    },
+    {
+      "text": "营业时间至晚上21:30",
+      "kind": "time",
+      "quote": "这里的营业时间是: 12:30-21:30",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=0c5e2947664b80d6ab059d8e&third_party=zr",
+      "site": "百度地图"
+    },
+    {
+      "text": "店主因爱猫而开设此店",
+      "kind": "story",
+      "quote": "爱猫的老板让这9只小可爱有了温暖的新家",
+      "url": "https://zhuanlan.zhihu.com/p/557373152",
+      "site": "知乎"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "九只猫小姐猫咖·撸猫馆·猫咪生活馆",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=0c5e2947664b80d6ab059d8e&third_party=zr",
+      "site_name": "百度地图"
+    },
+    {
+      "index": 2,
+      "title": "九只猫小姐撸猫馆·猫咪售卖 - 途牛",
+      "url": "https://m-p.tuniu.com/restaurant/9625462/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "皮皮喵撸猫馆·猫咖·猫舍猫咪售卖,买它!,猫咪单项护理,超值 - 抖音",
+      "url": "https://www.douyin.com/note/7683366485179611112",
+      "site_name": "抖音-记录美好生活"
+    },
+    {
+      "index": 4,
+      "title": "【九只猫小姐猫咖撸猫馆猫咪生活馆】地址,电话,路线,周边设施",
+      "url": "https://m.map.360.cn/m/search/detail/pid=3fecf3b951092c17",
+      "site_name": "360官网"
+    },
+    {
+      "index": 5,
+      "title": "宠物店- 九只猫小姐猫咖·撸猫馆·猫咪售卖 - 大众点评",
+      "url": "http://m.dianping.com/shop/557014996?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "撸喵猫狗主题咖啡馆官方号",
+      "url": "https://m.douyin.com/share/user/MS4wLjABAAAAW9GyiT03BAcVTMjXvplI0TAXTp9TTgpgGGYIbf0oapU",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "探店:爱这间店的咖啡,更爱它9只可爱到爆的猫咪和温暖的爱的故事",
+      "url": "https://zhuanlan.zhihu.com/p/557373152",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "魔都越开越多的猫咪咖啡馆，哪些值得一撸？",
+      "url": "https://zhuanlan.zhihu.com/p/27381490",
+      "site_name": "知乎"
+    },
+    {
+      "index": 9,
+      "title": "猫咪咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E7%8C%AB%E5%92%AA%E5%92%96%E5%95%A1%E9%A6%86/2536682",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:04:03Z"
+}

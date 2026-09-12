@@ -1,0 +1,52 @@
+{
+  "cafeId": "chowchowcoffee-guoquan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "40946b1ea205",
+  "photos": [
+    "http://aos-cdn-image.amap.com/sns/ugccomment/dcfe053b-5711-41b7-a2d4-a86dcbcc1db6.jpg",
+    "https://store.is.autonavi.com/showpic/1d88fea4fbdf557993e7cb5005e5ff70",
+    "https://aos-comment.amap.com/B0H0GHE3QD/comment/B0E0FFF0_53FC_404F_8A35_726C071494F3_L0_001_1500_200_1766768165384_85227972.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，有开放式吧台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一台咖啡机和搅拌机等设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯身有卡通狗图案贴纸",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一饮品装在华夫饼筒中，饰有棉花糖",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:50Z"
+}

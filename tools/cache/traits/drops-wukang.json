@@ -1,0 +1,28 @@
+{
+ "cafeId": "drops-wukang",
+ "model": "qwen-max",
+ "inputDigest": "ff13b2292c30",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供单品咖啡浓缩，站着喝",
+    "en": "Single-origin espresso, standing bar",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 1,
+    "zh": "站着喝完就走",
+    "en": "Drink and go"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:15Z"
+}

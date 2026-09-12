@@ -1,0 +1,71 @@
+{
+  "cafeId": "lostrip-uwan-shenghuozhongxin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6fab78fe4fd4",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/34b5700637c9177ab66a187e1980f35f",
+    "https://aos-comment.amap.com/B0FFF00KKY/comment/a58ca4c225d4f2e80b02f41957a3c2ae_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFF00KKY/comment/e93875365533bd29717f78474f406ac1_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "木质桌面，白色方形盘盛提拉米苏（撒可可粉），旁有拉花咖啡",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "白色带蓝燕子纹饰瓷盘盛巧克力蛋糕（覆蓝莓与红色果酱），配叉子",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "同款巧克力蓝莓蛋糕特写，可见三层结构：蛋糕层、奶油层、果酱层",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "两杯咖啡均有奶泡拉花：心形叶状图案与漩涡+心形组合",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡杯为白色陶瓷杯，带把手；配套白瓷碟，碟上放金属勺与叉",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌面为浅棕色木纹板，无明显吧台、书架、植物或专业咖啡器具入镜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图右上角可见部分红白蓝格纹布料（疑似桌布或衣物）",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "三张图均无人物、电脑、菜单、价格、豆子产地或室外场景",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:56Z"
+}

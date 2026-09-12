@@ -1,0 +1,74 @@
+{
+  "cafeId": "naiwajiazukafeidian-sanlinzhenqiantan-ave-199",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d6413690af1d",
+  "raw": {
+    "headline": {
+      "zh": "无声咖啡师用心做咖啡",
+      "en": "Silent baristas craft coffee with care"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "咖啡师多为残障人士，是无声咖啡店",
+        "en": "Baristas are mostly deaf; it's a silent cafe",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自2913公里外的云南熊爪庄园",
+        "en": "Beans sourced from Yunnan Xiongzhua Estate, 2913 km away",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供美式、拿铁等18款饮品，18–32元",
+        "en": "Offers 18 drinks including Americano and latte, ¥18–32",
+        "from": [
+          3,
+          14
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设休息区与吧台充电区",
+        "en": "Has lounge area and charging spots at the bar",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日10:00–21:00，周末10:00–19:00",
+        "en": "Open 10–21 weekdays, 10–19 weekends",
+        "from": [
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "有充电区和休息区",
+        "en": "Charging spots and seating"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          13
+        ],
+        "zh": "设有休息区适合久坐",
+        "en": "Lounge area encourages staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:29Z"
+}

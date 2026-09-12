@@ -1,0 +1,87 @@
+{
+  "cafeId": "pain-chaud-two-itc",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "977481a721e1",
+  "raw": {
+    "headline": {
+      "zh": "上海首家开心果泡芙品牌",
+      "en": "Shanghai’s first pistachio éclair brand"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供开心果泡芙等法式塔类甜点，价格38–45元",
+        "en": "Serves pistachio éclairs and French tarts, priced ¥38–45",
+        "from": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          16
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗，可见恭城路街景与窗外绿色草坪",
+        "en": "Floor-to-ceiling street-facing windows with view of Gongcheng Road and green lawn outside",
+        "from": [
+          7,
+          8,
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积窗户采光良好，自然光充分引入店内",
+        "en": "Large windows provide abundant natural light",
+        "from": [
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2013年成立于永康路，定位‘正宗还原法式烘焙’",
+        "en": "Founded in 2013 on Yongkang Road, dedicated to authentic French baking",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–22:00（每日）",
+        "en": "Open daily 7:30 AM – 10:00 PM",
+        "from": [
+          17,
+          18
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          7,
+          12
+        ],
+        "zh": "采光好但无明确办公设施证据",
+        "en": "Good light but no evidence of work setup"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          7,
+          8,
+          9,
+          12,
+          13
+        ],
+        "zh": "落地窗+草坪景观+室内绿植，适合久坐",
+        "en": "Street views, lawn, indoor greenery support lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:57Z"
+}

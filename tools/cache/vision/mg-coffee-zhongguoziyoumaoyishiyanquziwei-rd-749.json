@@ -1,0 +1,71 @@
+{
+  "cafeId": "mg-coffee-zhongguoziyoumaoyishiyanquziwei-rd-749",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fe599745d676",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/725496164e08e1e90af6a4c9c6e5acca",
+    "http://store.is.autonavi.com/showpic/f67a39a38cc9bc18b34e0446c6adfb83",
+    "http://store.is.autonavi.com/showpic/464a274652954b68080f42f7e9fe67ca"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街铺面，有遮阳棚和绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有玻璃门，门旁有植物和招牌",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台和少量桌椅，空间较小",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口放置有欢迎牌和促销信息",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有咖啡制作设备，包括磨豆机和手冲台",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "店外有电动车停放，环境为商业街区",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有绿植装饰，环境整洁",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:22:44Z"
+}

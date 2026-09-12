@@ -1,0 +1,71 @@
+{
+  "cafeId": "jazo-coffee-guang-middle-rd-805",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a367a786f7d2",
+  "photos": [
+    "https://aos-comment.amap.com/B0KADYSK1I/comment/8bd7e4cd19f99b7537165a0ffbff964d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KADYSK1I/comment/5a31aeb01c8e1579f125da3728dab099_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KADYSK1I/comment/dd279925b3e205518cbbaac0de19077d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有桌椅，可坐户外",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "售卖贝果、可颂、司康等烘焙食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供埃塞俄比亚、肯尼亚产地咖啡豆",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有水洗处理法浅度烘焙咖啡豆",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示咖啡豆风味如柚子、蔓越莓、西梅",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "有明确价格标签的面包，如芝芝贝果16元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有玻璃门和窗户",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见金属置物架陈列面包",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:41Z"
+}

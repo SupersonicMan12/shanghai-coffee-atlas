@@ -1,0 +1,47 @@
+{
+  "cafeId": "costa-coffee-shanghailinkong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7cd7ab3156a7",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7bc76c8a0583f6e2e7b60ba495d5b1ec",
+    "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8",
+    "http://store.is.autonavi.com/showpic/0a8cd03579d10a3800eb460c439c2d9d"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有生椰乌龙轻乳茶饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有椰皇三重奏饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有带奶油顶的热饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有冰咖啡类饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:32Z"
+}

@@ -1,0 +1,40 @@
+{
+  "facts": [
+    {
+      "text": "位于黑石公寓底层空间，融合公寓建筑风格",
+      "kind": "space",
+      "quote": "位於黑石公寓的底層空間的drops咖啡工作室，融合了公寓的建築風格",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site": "Drops咖啡工作室(武康路店) (靜安寺/南京西路, 上海) – 菜單 - Trip.com"
+    },
+    {
+      "text": "天气好时可在视野开阔的后花园放松",
+      "kind": "view",
+      "quote": "當天氣良好時，還能在視野開闊的后花園中盡情地放鬆身心",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site": "Drops咖啡工作室(武康路店) (靜安寺/南京西路, 上海) – 菜單 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "南昌有条路,又好逛又治愈,还藏着一排神仙咖啡店!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMzkzOTM4Mg==&mid=2247883256&idx=1&sn=2bf8d9327d25edbfb2a253dabb174573&chksm=9ac6116307652b01d9e764bba96f9097c1cc4a0a90760f44848fa83ea30dcd2856d7877b934f&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "Drops咖啡工作室(武康路店) (靜安寺/南京西路, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "别再瞎选咖啡豆了!2026十大热门产区盘点,风味差距超乎想象!",
+      "url": "https://baijiahao.baidu.com/s?id=1875368651934638066",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:32Z"
+}

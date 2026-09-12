@@ -1,0 +1,53 @@
+{
+  "cafeId": "cubic3-guohuaguojiguangchanggmall",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8232c48f4e97",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png",
+    "https://aos-comment.amap.com/B0KD0SZEEM/comment/content_media_external_file_1000056620_ss__1745398121748_44552576.jpg",
+    "https://aos-comment.amap.com/B0KD0SZEEM/comment/content_media_external_file_4995_1769619583021_68897018.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内为开放式吧台设计，无固定座位。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上可见多种咖啡饮品及其价格。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前摆放有冰咖啡饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上部分饮品标价9.9元。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内光线明亮，但未见明显窗户或采光方向。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:11Z"
+}

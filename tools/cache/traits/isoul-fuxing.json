@@ -1,0 +1,46 @@
+{
+ "cafeId": "isoul-fuxing",
+ "model": "qwen-max",
+ "inputDigest": "a0a06c0c0624",
+ "raw": {
+  "headline": {
+   "zh": "老板记得你的点单，老顾客常来",
+   "en": "Owner remembers your order, frequented by regulars"
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "老顾客多，气氛亲切",
+    "en": "Many regulars, warm atmosphere",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：午后美式咖啡",
+    "en": "Signature drink: Afternoon americano",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 1,
+    "zh": "适合轻度工作",
+    "en": "Light work friendly"
+   },
+   "energy": {
+    "value": 30,
+    "from": 1,
+    "zh": "氛围轻松安静",
+    "en": "Relaxed and quiet"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合久坐聊天",
+    "en": "Great for long chats"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:05Z"
+}

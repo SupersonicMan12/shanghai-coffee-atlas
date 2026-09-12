@@ -1,0 +1,118 @@
+{
+  "facts": [
+    {
+      "text": "选用云南普洱的精品咖啡豆，单一、小粒种豆现磨",
+      "kind": "beans",
+      "quote": "我们这儿选用的都是云南普洱的精品咖啡豆。",
+      "url": "https://m.thepaper.cn/newsDetail_forward_24724601",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "白巧克力摩卡是‘最爱’，奶泡‘丰富’，口感‘醇厚、顺滑’",
+      "kind": "drinks",
+      "quote": "白巧克力摩卡是“最爱”,奶泡“丰富”,口感“醇厚”、“顺滑”",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为每日7:30至22:00（无限度店）",
+      "kind": "time",
+      "quote": "营业时间为每日7:30至22:00",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为每日08:00-22:00（月星环球港店）",
+      "kind": "time",
+      "quote": "该店营业时间为每日08:00-22:00",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（月星环球港店）/14304606",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为08:00-18:00（陆家嘴保利广场店）",
+      "kind": "time",
+      "quote": "营业时间:08:00-18:00",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（陆家嘴保利广场店）/14324130",
+      "site": "百度百科"
+    },
+    {
+      "text": "店内设有沙发座位，提供露天座位",
+      "kind": "seating",
+      "quote": "店内设有沙发座位,提供露天座位",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "提供免费WiFi",
+      "kind": "seating",
+      "quote": "提供免费WiFi",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "适宜情侣约会、朋友聚餐、休闲小憩",
+      "kind": "people",
+      "quote": "适宜情侣约会、朋友聚餐、休闲小憩、随便吃吃",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Gloria Jean's Coffees(无限度店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "Gloria Jean's Coffees（陆家嘴保利广场店） - 百度百科",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees%EF%BC%88%E9%99%86%E5%AE%B6%E5%98%B4%E4%BF%9D%E5%88%A9%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89/14324130",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "Gloria Jean's Coffees(联合广场店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（联合广场店）/14226572",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "Gloria Jean's Coffees(月星环球港店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（月星环球港店）/14304606",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "Gloria Jean's Coffees(陆家嘴保利广场店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（陆家嘴保利广场店）/14324130",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "Gloria Jean's Coffees(无限度店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d4449782-Reviews-Gloria_Jean_s_Coffees_Wu_XianDu-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 7,
+      "title": "高乐雅",
+      "url": "https://baike.baidu.com/item/高乐雅/22401033",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "Gloria Jean's Coffees(浦东南路店)(上海市) - 餐厅/美食点评- Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4808336-Reviews-Gloria_Jean_s_Coffees_PuDong_South_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 9,
+      "title": "这里的咖啡,为何如此“与众不同”?文末送福利→",
+      "url": "https://m.thepaper.cn/newsDetail_forward_24724601",
+      "site_name": "澎湃新闻网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:24:22Z"
+}

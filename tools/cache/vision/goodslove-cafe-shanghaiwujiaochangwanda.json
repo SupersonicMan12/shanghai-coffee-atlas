@@ -1,0 +1,46 @@
+{
+  "cafeId": "goodslove-cafe-shanghaiwujiaochangwanda",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "07ae87ab05ed",
+  "photos": [
+    "https://aos-comment.amap.com/B0L62CR0O6/comment/4F214F5B_B2F8_4263_8438_FED88A3AF103_L0_001_1080_144_1768192999446_80842252.jpg",
+    "https://aos-comment.amap.com/B0L62CR0O6/comment/2E168567_A3EF_49CC_A943_70131E72FEFD_L0_001_1080_108_1765192841488_81573688.jpg",
+    "https://store.is.autonavi.com/showpic/56b5ff9ebdeb750c0000002358614627?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面入口旁有‘办公室’字样门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内天花板悬挂大量彩色人造花",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内中央有一个大型卡通老鼠玩偶",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内货架上陈列着多款商品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:32Z"
+}

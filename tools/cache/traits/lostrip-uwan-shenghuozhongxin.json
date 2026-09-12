@@ -1,0 +1,75 @@
+{
+  "cafeId": "lostrip-uwan-shenghuozhongxin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0528388382c2",
+  "raw": {
+    "headline": {
+      "zh": "浅烘自烘焙配全景窗",
+      "en": "Light-roast beans, floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "主打自烘焙浅烘咖啡豆",
+        "en": "Serves in-house light-roast beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "拥有全景玻璃幕墙视野",
+        "en": "Features panoramic glass walls",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位充足且配有插座",
+        "en": "Plenty of seats with power outlets",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上9点或10点",
+        "en": "Open until 9 or 10 PM",
+        "from": [
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "座位带插座方便办公",
+        "en": "Seats with outlets for work"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          8,
+          9,
+          10
+        ],
+        "zh": "空间明亮适合久坐歇脚",
+        "en": "Bright space good for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "提供自烘焙浅烘豆",
+        "en": "Offers in-house light roasts"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:05Z"
+}

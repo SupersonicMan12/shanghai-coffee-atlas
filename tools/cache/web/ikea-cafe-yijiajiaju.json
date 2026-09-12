@@ -1,0 +1,82 @@
+{
+  "facts": [
+    {
+      "text": "悠香越桔牡丹拿铁，外带杯没有",
+      "kind": "drinks",
+      "quote": "点的悠香越桔牡丹拿铁，外带杯没有",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97ABACBB868&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "热巧克力榛果燕麦拿铁等饮品",
+      "kind": "drinks",
+      "quote": "热巧克力榛果燕麦拿铁红豆芝士蛋糕",
+      "url": "http://m.dianping.com/shop/1259563240?msource=applemaps",
+      "site": "【宜家咖啡馆IKEA Cafe(宜家家居店)】电话_地址_价格 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://www.pp01.test.ikea.cn/cn/zh/ikea-business/gallery/a-graceful-cafe-with-a-fresh-inviting-charm-pub641a8e49",
+      "url": "https://www.pp01.test.ikea.cn/cn/zh/ikea-business/gallery/a-graceful-cafe-with-a-fresh-inviting-charm-pub641a8e49",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "咖啡馆和文创店二合为一 - 宜家",
+      "url": "https://www.ikea.cn/cn/zh/ikea-business/gallery/coffee-tea-and-stationery-pub8642dd69",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "IKEA Cafe IKEA Cafe (IKEA Shop) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97ABACBB868&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "【宜家咖啡馆IKEA Cafe(宜家家居店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1259563240?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "IKEA CAFE宜家咖啡(南京雨花台（高鐵南站）區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/nanjing/detail/restaurant-77856047",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "温馨宜人的露天咖啡馆 - 宜家",
+      "url": "https://www.ikea.cn/cn/zh/ikea-business/gallery/wen1-nuan3-yi2-ren2-de-lu4-tian1-ka1-fei1-guan3-pub68c68b58",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "充满书香气息的温馨咖啡馆 - 宜家",
+      "url": "https://www.ikea.cn/cn/zh/ikea-business/gallery/cafe-with-a-bookshop-pubd453a468",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "宜家竭诚提供优质食品 - IKEA",
+      "url": "https://www.ikea.cn/cn/zh/this-is-ikea/community-engagement/meishi-pubf1f27aa0",
+      "site_name": "宜家家居官网"
+    },
+    {
+      "index": 9,
+      "title": "IKEA咖啡廳的氛圍非常放鬆｜Trip.com 威南縣",
+      "url": "https://my.trip.com/moments/detail/south-seberang-perai-1453643-119490917?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "咖啡馆桌子- IKEA - 宜家",
+      "url": "https://www.ikea.cn/cn/zh/cat/can-guan-zhuo-zi-19143/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:04Z"
+}

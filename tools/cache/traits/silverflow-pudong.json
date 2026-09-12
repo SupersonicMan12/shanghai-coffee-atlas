@@ -1,0 +1,40 @@
+{
+ "cafeId": "silverflow-pudong",
+ "model": "qwen-max",
+ "inputDigest": "c268dd66578e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "宽敞宁静的空间，适合享受咖啡时光",
+    "en": "Spacious and quiet for a peaceful coffee",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 1,
+    "zh": "安静宽敞的环境适合专注工作",
+    "en": "Quiet, spacious for focused work"
+   },
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "店内环境宁静不喧闹",
+    "en": "Calm, not bustling"
+   },
+   "linger": {
+    "value": 90,
+    "from": 1,
+    "zh": "全天候滤泡咖啡让人愿意久坐",
+    "en": "All-afternoon filter invites lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:24Z"
+}

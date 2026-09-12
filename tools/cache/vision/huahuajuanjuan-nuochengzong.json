@@ -1,0 +1,59 @@
+{
+  "cafeId": "huahuajuanjuan-nuochengzong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "09631336594e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/85140a3324c569add3b4fc2454b0654c",
+    "http://store.is.autonavi.com/showpic/fe41072dbb8b790af6a26215985cda3f",
+    "http://store.is.autonavi.com/showpic/7cc62ca07db0fbecea361da882246c85"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "展示多种蛋糕卷，包括草莓、巧克力、抹茶等口味",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有奶油蛋糕、水果装饰的甜点和小杯蛋糕",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供切片蛋糕卷，配以水果和巧克力点缀",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点摆放在银质托盘和蛋糕架上，呈现精致陈列",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见草莓、芒果、巧克力碎等配料",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分甜点搭配咖啡杯具，暗示可搭配饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:40Z"
+}

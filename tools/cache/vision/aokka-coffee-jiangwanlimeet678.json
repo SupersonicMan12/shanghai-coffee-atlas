@@ -1,0 +1,60 @@
+{
+  "cafeId": "aokka-coffee-jiangwanlimeet678",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0109d78a7bcb",
+  "photos": [
+    "https://aos-comment.amap.com/B0J3X77BBO/comment/08b87f817ec8364aebbfd89ac6318ed8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J3X77BBO/comment/ded007c7fd1376c05f123fc5a205cda2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J3X77BBO/comment/288660008121f7ab6d2454210290b830_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有多个绿色户外风格座椅，数量约8-10个",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域设有绿色折叠椅和小桌，可容纳多人",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见一杯分层的冰咖啡饮品，上层为浅绿色，下层为棕色",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单展示 Guatemala Santa Felisa 咖啡豆信息",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内摆放多张咖啡主题宣传海报",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面为现代玻璃幕墙结构，临街可见",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:07Z"
+}

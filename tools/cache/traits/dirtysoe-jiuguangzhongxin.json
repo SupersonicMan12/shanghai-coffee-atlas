@@ -1,0 +1,65 @@
+{
+  "cafeId": "dirtysoe-jiuguangzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2df732b086f0",
+  "raw": {
+    "headline": {
+      "zh": "商场里的手冲Dirty咖啡",
+      "en": "Hand-brewed Dirty in a mall"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供有分层效果的Dirty咖啡",
+        "en": "Serves layered Dirty coffee",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于商场内的小型独立摊位",
+        "en": "Small standalone stall inside a mall",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲咖啡设备和磨豆机",
+        "en": "Has pour-over gear and grinders",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "小型摊位，不便久坐",
+        "en": "Stall format, not for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "提供手冲与Dirty咖啡",
+        "en": "Offers hand-brew and Dirty"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:36Z"
+}

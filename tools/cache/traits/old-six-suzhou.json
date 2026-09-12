@@ -1,0 +1,40 @@
+{
+ "cafeId": "old-six-suzhou",
+ "model": "qwen-max",
+ "inputDigest": "93dd18c44547",
+ "raw": {
+  "headline": {
+   "zh": "河边小憩，日咖夜酒至深夜",
+   "en": "Riverside spot, coffee by day, wine till late"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临河而坐，正对邮政大楼钟楼",
+    "en": "River view with Post Office clock tower",
+    "from": 1
+   },
+   {
+    "kind": "time",
+    "zh": "咖啡供应到天黑，之后有自然酒",
+    "en": "Coffee until dark, then natural wine till 2am",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "白天安静夜晚热闹",
+    "en": "Quiet day, lively night"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合长时间停留",
+    "en": "Great for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:17Z"
+}

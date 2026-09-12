@@ -1,0 +1,71 @@
+{
+  "cafeId": "algebraist-shanghaihongkouquyoubangjinrongzhongx",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "7729c910dfe3",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/af9e07a51dd674f9ddb385a6cc24c0ad",
+    "https://store.is.autonavi.com/showpic/e9e4c23d28543ad0209b8bde74dd9dc3"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店位于商场内，招牌为发光字“algebraist' coffee”，上方有红色倒三角标志",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为木质结构，后方墙面为木饰面，置物架上排列多个纸袋包装的咖啡豆",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台右侧可见两台意式咖啡机、一台磨豆机、一台白色自动饮品机",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张室内照中吧台后有一名戴黄色帽子的工作人员在操作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前方有玻璃围栏，推测为商场中庭二层或夹层位置",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见座位区域、桌椅、书架、植物或宠物",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "无落地窗或临街玻璃；采光来自顶部嵌入式筒灯与招牌背光",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见菜单、价格、饮品名称、食物实物或明确豆子产地标签",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:19Z"
+}

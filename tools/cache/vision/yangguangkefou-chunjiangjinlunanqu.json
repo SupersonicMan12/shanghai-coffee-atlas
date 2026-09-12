@@ -1,0 +1,71 @@
+{
+  "cafeId": "yangguangkefou-chunjiangjinlunanqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "140330abf109",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/3dfbd5754e57fde12f792e14f8b1da6a",
+    "http://store.is.autonavi.com/showpic/89a92fa2abb40e97b5d69ad8599a9e30",
+    "http://store.is.autonavi.com/showpic/8ff189d9eb8636fa8e1c47b7bcb0befe"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有台阶通向入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口摆放多盆绿植，环境整洁",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前有电动车停放，街道宽敞",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺为砖墙结构，有玻璃门窗",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见陈列柜和饮品展示区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有遮阳棚和悬挂菜单牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有行人经过，有人在店门口停留",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "门前地面铺设地砖，有树荫覆盖",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:15Z"
+}

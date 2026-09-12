@@ -1,0 +1,70 @@
+{
+  "cafeId": "coffeedealer-jianguo-west-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f6095ce2b7ea",
+  "raw": {
+    "headline": {
+      "zh": "瑰夏拿铁540元/150g",
+      "en": "Geisha latte at ¥540/150g"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供女巫瑰夏与TOH水洗冠军豆",
+        "en": "Serves Witch Geisha and TOH washed champ beans",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "女巫瑰夏拿铁含热带水果、巧克力饼干风味",
+        "en": "Witch Geisha latte tastes of tropical fruit, chocolate cookie",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "TOH水洗冠军手冲呈柑橘、蜂蜜、白花风味",
+        "en": "TOH washed handbrew features citrus, honey, white florals",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可看店内设备",
+        "en": "Full street-facing glass reveals brewing gear inside",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-19:00营业",
+        "en": "Open daily 10:00–19:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 90,
+        "from": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "zh": "提供高单价竞赛豆与特殊风味饮品",
+        "en": "Rare competition beans, unique flavor profiles"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:16Z"
+}

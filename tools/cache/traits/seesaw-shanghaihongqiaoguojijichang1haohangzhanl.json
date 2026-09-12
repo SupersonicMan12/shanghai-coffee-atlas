@@ -1,0 +1,54 @@
+{
+  "cafeId": "seesaw-shanghaihongqiaoguojijichang1haohangzhanl",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "68fe0a122e32",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自建烘焙实验室，设云南收豆站",
+        "en": "Own roastery lab and Yunnan bean stations",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲单品咖啡",
+        "en": "Offers pour-over single-origin coffee",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "曾将精品咖啡豆概念引入国内",
+        "en": "Pioneered specialty beans in China",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "咖啡均价30-40元",
+        "en": "Coffee averages ¥30–40",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "推手冲与自烘豆",
+        "en": "Pour-over and own-roasted beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:24Z"
+}

@@ -1,0 +1,55 @@
+{
+  "cafeId": "qiyuedekafeidian-shimener-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3677236401b2",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1012fd1186d87a00e82cf71ac21928b4"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和咖啡制作设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机和手冲器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗外可见绿植和街道",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台为木质结构，设计简洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有宣传牌，显示活动信息",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:08Z"
+}

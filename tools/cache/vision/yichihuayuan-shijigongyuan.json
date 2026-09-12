@@ -1,0 +1,59 @@
+{
+  "cafeId": "yichihuayuan-shijigongyuan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bff6d0a6bb25",
+  "photos": [
+    "https://aos-comment.amap.com/B0IK3MPJNK/comment/6603cd1974fb1e59aeceb2c07a5056c6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IK3MPJNK/comment/8DEF6F03_4824_4F20_99C3_5708AC870F1F_L0_001_1500_200_1755576349984_50406114.jpg",
+    "https://aos-comment.amap.com/B0IK3MPJNK/comment/content_media_external_file_100005013_1764886571846_58404674.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店外有水池养锦鲤，铺石板路，有玻璃栏杆。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外木桌上有披萨、炸鸡翅和冰饮。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内木桌上摆着炒饭配溏心蛋和一杯拉花咖啡。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，空间看起来较宽敞。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位旁是水池，有鱼游动，适合观景。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品含冰美式、冰茶、热拿铁等常见咖啡馆选项。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:25Z"
+}

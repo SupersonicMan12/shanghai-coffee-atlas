@@ -1,0 +1,57 @@
+{
+  "cafeId": "qiuzhiyunkafei-xinshijiguangchangddongxibeimenna",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f36ec184deac",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/da1b80bd10d2f148a02602a15f2f772f",
+    "http://store.is.autonavi.com/showpic/b8e5be70c29b7e93f919fbc4e0b865ae"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于街边，有台阶和玻璃门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有树木和灌木，环境绿化较好",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺临街，有大面积玻璃窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停放多辆电动车，街道人行道较宽",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见部分灯光照明，内部空间明亮",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招显示为“秋之韵咖啡”，并附有英文名Café Tulip",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:05Z"
+}

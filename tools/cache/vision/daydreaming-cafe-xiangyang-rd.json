@@ -1,0 +1,59 @@
+{
+  "cafeId": "daydreaming-cafe-xiangyang-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "18a2cb863882",
+  "photos": [
+    "https://aos-comment.amap.com/B0KA3RKQM7/comment/content_media_external_file_71284_ss__1752459558625_57744813.jpg",
+    "https://store.is.autonavi.com/showpic/f39e1a11d7a669bf0000000961732538?type=pic",
+    "https://aos-comment.amap.com/B0KA3RKQM7/comment/4FCFD032_E177_49BD_8BBF_34814A1904BA_L0_001_1500_200_1758087716611_24306192.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，店内可见2人坐吧台，有黑色椅子。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内有可颂、杏仁瑞士卷等面包，标价¥18-¥78。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐盘里是水果燕麦片配奶油，有橙子草莓蓝莓。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口台阶旁放着扫帚，街道边有行道树。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有落地窗，光线充足，能看到室内吊灯。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门上方标牌显示地址为襄阳南路342号。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:57Z"
+}

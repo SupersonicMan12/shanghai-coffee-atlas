@@ -1,0 +1,76 @@
+{
+  "cafeId": "grid-coffee-qibaolingzhan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e149011d4f78",
+  "raw": {
+    "headline": {
+      "zh": "高性价比精品咖啡",
+      "en": "Affordable specialty coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含罗马人美式、咸奶萃、白脱拿铁",
+        "en": "Signature drinks include Roman Americano, salty milk espresso, buttermilk latte",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地豆，豆单随季更换",
+        "en": "All drinks use single-origin beans scoring ≥84 on SCA scale",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设高脚桌椅，有室内座位",
+        "en": "Indoor seating with high tables and chairs",
+        "from": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:00–21:30，每日开放",
+        "en": "Open daily 07:00–21:30",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌2022年创立，源自猿辅导团队转型",
+        "en": "Founded in 2022 by ex-Yuanfudao team",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          4,
+          12
+        ],
+        "zh": "有座位且可见顾客坐着",
+        "en": "Seating available, people staying"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "微创新经典款+高分单一产地豆",
+        "en": "Classic drinks with creative twists"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:13Z"
+}

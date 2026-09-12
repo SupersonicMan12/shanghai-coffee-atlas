@@ -1,0 +1,71 @@
+{
+  "cafeId": "qiaokafei-huaihaidalou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e5c45510285e",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKS82E7/comment/5049FC68_440A_4CDB_B8A7_496DEBAF245A_L0_001_2000_1500_1743409505153_04147734.jpg",
+    "https://store.is.autonavi.com/showpic/fd611f37a041ad27a64612ec3b5cf859",
+    "https://aos-comment.amap.com/B0FFKS82E7/comment/F4439726_359D_4E3B_9FF9_0EA24F3BCD27_L0_001_2000_150_1753500786601_03689067.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有烘焙机和磨豆机等专业咖啡设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有玻璃冷藏柜展示多种包装食品和饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见价格标签，部分商品售价8元至26元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为临街玻璃门，有落地窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有悬挂灯具和木质柜台，空间整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有咖啡纸杯，杯身印有品牌名称",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗边摆放花瓶，窗外可见绿植",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外人行道上有行人经过",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:24:45Z"
+}

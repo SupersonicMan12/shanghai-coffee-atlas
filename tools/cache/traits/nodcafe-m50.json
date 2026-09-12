@@ -1,0 +1,70 @@
+{
+ "cafeId": "nodcafe-m50",
+ "model": "qwen-max",
+ "inputDigest": "05d3b6ae87d4",
+ "raw": {
+  "headline": {
+   "zh": "用埃塞SOE豆，回归传统精品咖啡",
+   "en": "Uses SOE beans, back to classic coffee"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "使用埃塞俄比亚SOE咖啡豆",
+    "en": "Ethiopian SOE beans used",
+    "from": 10
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是苹果肉桂拿铁",
+    "en": "Signature drink: apple cinnamon latte",
+    "from": 11
+   },
+   {
+    "kind": "seating",
+    "zh": "有四个露台供朋友小聚",
+    "en": "Four terraces for gatherings",
+    "from": 12
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, wide view",
+    "from": 9
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间10:00-18:30",
+    "en": "Open 10:00-18:30",
+    "from": 18
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 7,
+    "zh": "无人使用电脑",
+    "en": "No one using computers"
+   },
+   "energy": {
+    "value": 40,
+    "from": 16,
+    "zh": "画家们下午在此停留",
+    "en": "Artists linger in the afternoon"
+   },
+   "linger": {
+    "value": 80,
+    "from": 12,
+    "zh": "有多个露台可供久坐",
+    "en": "Terraces for long stays"
+   },
+   "adventure": {
+    "value": 50,
+    "from": 4,
+    "zh": "提供手冲设备",
+    "en": "Offers pour-over equipment"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:58Z"
+}

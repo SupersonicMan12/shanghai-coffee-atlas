@@ -1,0 +1,52 @@
+{
+ "cafeId": "bird-water-tower-m50",
+ "model": "qwen-max",
+ "inputDigest": "68a21e49ddee",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "屋顶平台可俯瞰整个创意园区",
+    "en": "Roof platform overlooks the creative compound",
+    "from": "[7]"
+   },
+   {
+    "kind": "beans",
+    "zh": "主打浅烘、极浅烘咖啡豆，还原产地本味",
+    "en": "Light and very light roast beans, true to origin",
+    "from": "[5]"
+   },
+   {
+    "kind": "space",
+    "zh": "正方形空间为咖啡厅，长方形空间为多功能厅",
+    "en": "Square space is a café, rectangular for events",
+    "from": "[6]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "推荐饮品：卡布奇诺",
+    "en": "Recommended: Cappuccino",
+    "from": "[10]"
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": "[5]",
+    "zh": "主打浅烘与极浅烘咖啡豆",
+    "en": "Light and very light roasts"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[7]",
+    "zh": "有屋顶平台可供长时间停留",
+    "en": "Roof platform for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:54Z"
+}

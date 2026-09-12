@@ -1,0 +1,63 @@
+{
+ "cafeId": "sun-cafe-bakery-xianxia-rd",
+ "model": "qwen-max",
+ "inputDigest": "f7998e569985",
+ "raw": {
+  "headline": {
+   "zh": "日式松软面包，适合安静工作",
+   "en": "Soft Japanese bread, great for working"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "主打松软且韧性十足的日本风味面包",
+    "en": "Serves soft and chewy Japanese-style bread",
+    "from": 8
+   },
+   {
+    "kind": "seating",
+    "zh": "有卡座和单人桌，适合不同需求",
+    "en": "Offers booths and single tables",
+    "from": 3
+   },
+   {
+    "kind": "light",
+    "zh": "室内右侧窗户透入自然光",
+    "en": "Natural light from right-side windows",
+    "from": 4
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间为08:00-19:00",
+    "en": "Open from 08:00 to 19:00",
+    "from": 11,
+    "}13}": 13
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 6,
+    "}7}": 7,
+    "zh": "有人在用电脑工作",
+    "en": "People working on laptops"
+   },
+   "energy": {
+    "value": 20,
+    "from": 6,
+    "}7}": 7,
+    "zh": "部分顾客安静用餐或工作",
+    "en": "Quiet atmosphere with some diners"
+   },
+   "linger": {
+    "value": 60,
+    "from": 3,
+    "}4}": 4,
+    "}5}": 5,
+    "zh": "座位舒适，适合久坐",
+    "en": "Comfortable seating for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:47Z"
+}

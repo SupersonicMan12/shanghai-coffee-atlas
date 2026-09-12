@@ -1,0 +1,74 @@
+{
+  "cafeId": "sanlifangkafei-zhengli-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1552afedbe03",
+  "raw": {
+    "headline": {
+      "zh": "整面临街落地窗+吧台排队",
+      "en": "Full street-facing windows + bar queue"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，窗外可见绿树和街道",
+        "en": "Floor-to-ceiling street-facing windows with trees and street view",
+        "from": [
+          7,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内光线明亮，有大面积窗户",
+        "en": "Bright interior with large windows",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位较少，主要为几张桌椅",
+        "en": "Limited seating: just a few tables and chairs",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为冰美式",
+        "en": "GaoDe recommends iced Americano",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五07:30-18:00营业",
+        "en": "Open Mon–Fri 7:30–18:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "座位少，非久坐型",
+        "en": "Limited seating, not for lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "吧台前顾客排队",
+        "en": "Customers queue at the bar"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:04Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "costa-coffee-zantingyingye",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f8e904ae84d2",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5f5ca6afce8aaa1a0000002348568734?type=pic",
+    "http://store.is.autonavi.com/showpic/7c95ba48fd70fcf03f76e3b4cd86e9ae",
+    "http://store.is.autonavi.com/showpic/dfc474a89a95ea20fe6d3f27399af081"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有紫绿相间的灌木丛，临街玻璃窗通透",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有长排卡座和多张四人桌，座位数量较多",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "另一角度可见靠墙长卡座配红枕，座位约6组",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无顾客，无人使用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见烘焙机、手冲台或虹吸壶等专业器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧有冷藏展示柜，内有瓶装饮料和甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上装饰画含咖啡主题插画，非真实植物",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:35Z"
+}

@@ -1,0 +1,87 @@
+{
+  "cafeId": "step-coffee-changshu-rd-159",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1e6cafaeefbb",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃屋配手冲与曲奇",
+      "en": "Street-facing spot with pour-over and cookies"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃，采光通透",
+        "en": "Full-height street-facing windows, bright interior",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备咖啡机和手冲设备",
+        "en": "Equipped with espresso machine and pour-over gear",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应巧克力核桃大曲奇",
+        "en": "Sells chocolate walnut chunk cookies",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:00–19:00，周末09:00–19:00",
+        "en": "Open 08:00–19:00 weekdays, 09:00–19:00 weekends",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "宠物友善，提供充电与Wi-Fi",
+        "en": "Pet-friendly with Wi-Fi and device charging",
+        "from": [
+          9,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "有Wi-Fi和充电可办公",
+        "en": "Wi-Fi and outlets for work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "zh": "有书架绿植适合久坐",
+        "en": "Books and plants invite lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "提供手冲咖啡选项",
+        "en": "Offers pour-over coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:29Z"
+}

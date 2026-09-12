@@ -1,0 +1,58 @@
+{
+  "cafeId": "yuejiankafei-ziyinongchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f435ecb995ce",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/afdc9bcb1b84934b14563b86f467f734",
+    "https://store.is.autonavi.com/showpic/202e0135154e66f5af596a4320d802b4",
+    "https://store.is.autonavi.com/showpic/991a5d4738b17a300000002350100135?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门，有双开玻璃门",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口左侧有木质菜单板，摆放绿植",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内可见吧台和部分座位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单板上可见 '拼豆工坊' 等字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "店面位于居民楼旁，临街可见建筑",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "入口处有 'WELCOME' 手写字样",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.5
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:59Z"
+}

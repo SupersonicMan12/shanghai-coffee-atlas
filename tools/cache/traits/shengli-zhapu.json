@@ -1,0 +1,47 @@
+{
+ "cafeId": "shengli-zhapu",
+ "model": "qwen-max",
+ "inputDigest": "b099b23ba2a4",
+ "raw": {
+  "headline": {
+   "zh": "怀旧鸳鸯咖啡，带你穿越回老上海",
+   "en": "Nostalgic yuanyang, a taste of old Shanghai"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是老上海鸳鸯咖啡",
+    "en": "Signature drink: Old-Shanghai yuanyang",
+    "from": 9
+   },
+   {
+    "kind": "view",
+    "zh": "临街座位可观赏城市窄巷风光",
+    "en": "Street-side seats with narrow alley view",
+    "from": 5,
+    "}, 7, 4": "from"
+   },
+   {
+    "kind": "space",
+    "zh": "装饰风格像1950年代电影院",
+    "en": "Decorated like a 1950s cinema",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 60,
+    "from": 7,
+    "zh": "室外座位适合久坐",
+    "en": "Outdoor seating for lingering"
+   },
+   "adventure": {
+    "value": 30,
+    "from": 3,
+    "zh": "有经典与创新饮品",
+    "en": "Classic and innovative drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:02Z"
+}

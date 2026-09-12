@@ -1,0 +1,88 @@
+{
+  "cafeId": "lb-coffee-qijian",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "04ccc21bf041",
+  "raw": {
+    "headline": {
+      "zh": "自烘瑰夏澳白顺口",
+      "en": "Smooth Geisha flat white from their own roast"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自有QS认证烘焙厂，用专业软件监控烘焙",
+        "en": "Owns QS-certified roastery with software-monitored roasting",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打中烘瑰夏豆做的澳白，招牌含Memento Latte和Dirty",
+        "en": "Specializes in Geisha flat white; signature drinks include Memento Latte and Dirty",
+        "from": [
+          10,
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间开阔，木纹人字拼地板，裸露管道",
+        "en": "Spacious interior with herringbone wood floor and exposed pipes",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光好，适合阅读自习",
+        "en": "Large windows provide ample light, good for reading or studying",
+        "from": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台有至少4个木质高脚凳，另有室外座位",
+        "en": "At least 4 wooden bar stools plus outdoor seating",
+        "from": [
+          1,
+          4,
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 75,
+        "from": [
+          12
+        ],
+        "zh": "光线好空间大适合自习",
+        "en": "Good light and space for study"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          12
+        ],
+        "zh": "空间大且有高脚凳可久坐",
+        "en": "Roomy with seating to stay"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          9,
+          10,
+          13
+        ],
+        "zh": "自烘豆+特色澳白与创意饮品",
+        "en": "House-roasted beans and creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:53Z"
+}

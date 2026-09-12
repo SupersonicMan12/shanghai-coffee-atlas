@@ -1,0 +1,51 @@
+{
+  "cafeId": "bk24-tong-n-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c7f6f37b0060",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f54817b1908a693407439f9988a587da",
+    "http://store.is.autonavi.com/showpic/a59fae00c33cf71cab5021b104615c14"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内货架陈列饮料与商品，入口处可见部分商品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为玻璃门，夜晚灯光照明入口区域",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有冷藏展示柜，摆放各类饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门外两侧有花盆装饰，环境整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺临街，可看到外部街道及车辆",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:23Z"
+}

@@ -1,0 +1,79 @@
+{
+  "cafeId": "xincanzhekafei-xingfuliczuo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "373ee42946da",
+  "raw": {
+    "headline": {
+      "zh": "专注云南豆的手冲咖啡馆",
+      "en": "Yunnan-bean focused pour-over cafe"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用店主亲选烘焙的云南咖啡豆",
+        "en": "Uses Yunnan beans selected and roasted by owner",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰滴、冷萃与奶基咖啡组合",
+        "en": "Serves cold brew, ice drip, and milk-based drinks",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡售价52元（93分豆）",
+        "en": "Pour-over priced at ¥52 (93-point beans)",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位为数量有限的木制矮凳",
+        "en": "Limited seating on wooden low stools",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "座位少且为矮凳",
+        "en": "Few low stools"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          3,
+          4,
+          5,
+          9,
+          11
+        ],
+        "zh": "手冲、虹吸、冰滴及单一产地豆",
+        "en": "Pour-over, siphon, cold drip, single-origin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:57Z"
+}

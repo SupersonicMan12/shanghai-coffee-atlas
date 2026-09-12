@@ -1,0 +1,76 @@
+{
+  "cafeId": "sim-pur-jiashan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "48670d8d483a",
+  "raw": {
+    "headline": {
+      "zh": "嘉善路临街大玻璃窗咖啡馆",
+      "en": "Street-facing floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Floor-to-ceiling street-facing windows provide ample natural light",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台座位，顾客坐在吧台前使用电脑",
+        "en": "Counter seating with customers working on laptops",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单标有饮品价格，如20元、25元",
+        "en": "Drink prices listed on menu, e.g., ¥20, ¥25",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-18:30",
+        "en": "Open daily 7:30 AM–6:30 PM",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有绿植装饰，墙边摆放盆栽",
+        "en": "Indoor greenery with potted plants along walls",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "吧台座位配电脑使用",
+        "en": "Counter seating used for laptop work"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "顾客坐吧台用电脑久留",
+        "en": "Customers linger at counter with laptops"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:33Z"
+}

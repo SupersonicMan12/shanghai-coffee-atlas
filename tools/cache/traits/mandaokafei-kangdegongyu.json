@@ -1,0 +1,56 @@
+{
+  "cafeId": "mandaokafei-kangdegongyu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "20c28b0b3ae3",
+  "raw": {
+    "headline": {
+      "zh": "咖啡配米饭套餐",
+      "en": "Coffee served with rice meals"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供含炒菜、蔬菜和汤的米饭套餐",
+        "en": "Serves rice sets with stir-fries, veggies, and soup",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品为咖啡，使用白色杯碟",
+        "en": "Serves coffee in white cups and saucers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设餐桌椅，可容纳少量顾客",
+        "en": "Few tables and chairs for a small number of guests",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–01:00营业",
+        "en": "Open daily 09:00–01:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "有桌椅但座位少",
+        "en": "Seating available but limited"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:10Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "jenny-s-bar-guinness-donghu-rd-7",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "989bab512b9c",
+  "photos": [
+    "https://aos-comment.amap.com/B00152722A/comment/59cf2703f2bf2ec9c91188d88fec1e01_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/4c92bd092e7fb1aac00810c95b158764",
+    "http://store.is.autonavi.com/showpic/4895ace4ab4810b1a6e92ebeb13634e3"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外立牌显示是健力士官方认证酒吧，可售模范健力士。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台陈列百利甜与卡鲁哇，提供三杯分层酒饮。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有发光的健力士啤酒龙头，属专业设备。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有酒架和瓶装酒，空间紧凑。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见座位或顾客，无法判断是否有人用电脑。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "第一张照片反射出街景和车辆，临街玻璃可见。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:12Z"
+}

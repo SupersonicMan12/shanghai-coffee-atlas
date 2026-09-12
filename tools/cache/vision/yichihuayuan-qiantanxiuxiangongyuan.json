@@ -1,0 +1,65 @@
+{
+  "cafeId": "yichihuayuan-qiantanxiuxiangongyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "61c549c0cc95",
+  "photos": [
+    "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000064345_ss__1760593518556_18068067.jpg",
+    "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000069788_ss__1751928900857_07301069.jpg",
+    "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000069786_ss__1751928900848_14247758.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有室外座位和遮阳伞",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质桌椅和绿植",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有阶梯和绿化带",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有圆形木桌和灰色软垫座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区靠近玻璃围栏，视野开阔",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处立有黑色迎宾牌，写有店名和欢迎语",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:33Z"
+}

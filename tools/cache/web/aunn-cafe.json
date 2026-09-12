@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "店名是“All You Need Now”首字母缩写",
+      "kind": "story",
+      "quote": "店名其实是“All You Need Now”每个单词首字母的缩写",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site": "搜狐网"
+    },
+    {
+      "text": "位于静安寺旁南京西路1728号（近华山路）",
+      "kind": "space",
+      "quote": "地址:南京西路 1728号 (靜安寺旁)",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site": "搜狐网"
+    },
+    {
+      "text": "300平四层空间，只设十几桌座",
+      "kind": "seating",
+      "quote": "300平的开阔空间，只设十几桌座",
+      "url": "https://cno.gafei.com/views-54811",
+      "site": "咖啡网"
+    },
+    {
+      "text": "大面积落地窗，挑高的街边露台",
+      "kind": "view",
+      "quote": "大面积落地窗，挑高的街边露台",
+      "url": "https://cno.gafei.com/views-54811",
+      "site": "咖啡网"
+    },
+    {
+      "text": "一楼咖啡馆，二楼买手店，三楼艺术展览空间",
+      "kind": "space",
+      "quote": "一楼是咖啡馆,二楼则是买手店,三层是艺术活动展览空间",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site": "搜狐网"
+    },
+    {
+      "text": "使用最高端的咖啡设备与机器",
+      "kind": "beans",
+      "quote": "使用最高端的咖啡设备与机器",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site": "搜狐网"
+    },
+    {
+      "text": "哈特曼庄园Baby瑰夏SOE咖啡豆",
+      "kind": "beans",
+      "quote": "哈特曼莊園baby瑰夏SOE咖啡豆簡介",
+      "url": "https://gafei.com/tag222377.html",
+      "site": "咖啡网"
+    },
+    {
+      "text": "营业时间8:00–22:00",
+      "kind": "time",
+      "quote": "营业时间:8:00-22:00",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Aunn Cafe 静安寺300平的四层咖啡空间",
+      "url": "https://cno.gafei.com/views-54811",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 2,
+      "title": "AUNN Café & Co.—歇斯底里地追求一杯好咖啡 ",
+      "url": "https://www.sohu.com/a/215329542_785966",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "了解更多有關上海AUNN CAFE & CO 品牌的內容_咖啡網",
+      "url": "https://gafei.com/tag222377.html",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 4,
+      "title": "在百花齐放的咖啡市场，星巴克如何继续做实龙头地位？ - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/32005831",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "吹牛bī素材请各位收好——13家上海高逼格咖啡店亲测笔记",
+      "url": "https://zhuanlan.zhihu.com/p/21448985",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "读懂上海，可以从一杯咖啡开始 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/61313136",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "【AUNN CAFE &CO】电话_地址_价格_营业时间_静安寺商圈咖啡团购",
+      "url": "http://m.dianping.com/shop/24679238?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:29Z"
+}

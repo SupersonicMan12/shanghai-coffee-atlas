@@ -1,0 +1,71 @@
+{
+  "cafeId": "plusone-julu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "33a808aa9449",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c513b7c30b8813680000000730330888?type=pic",
+    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1771043586120_52512449_1771043667163_64090812.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "木质托盘上有一杯拉花咖啡（表面有红果装饰）和一小块奶油蛋糕",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外有临街座位，多人坐在木椅小桌旁，上方有遮阳伞与绿树",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店面招牌为黄色'XCAFE'字样，建筑为两层老式水泥外墙结构",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "室内桌上放有'PLUSONE'卡片，一杯带笑脸造型杯身与栗子脚的饮品配巧克力脆片",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一杯饮品顶部有冰淇淋球、金箔与红色心形装饰，用竹签固定",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "切开的蛋糕铺满巧克力脆片，顶部有一颗完整栗子，盘边有红色心形装饰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "托盘下垫有红色纸片，印有'PLUSONE / drip coffee'字样",
+      "kind": "branding",
+      "photo": 1,
+      "confidence": 0.94
+    },
+    {
+      "text": "照片1中咖啡杯沿有溢出液体痕迹，托盘上有金属勺",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:03Z"
+}

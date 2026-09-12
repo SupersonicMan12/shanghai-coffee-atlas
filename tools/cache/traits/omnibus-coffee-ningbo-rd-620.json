@@ -1,0 +1,68 @@
+{
+  "cafeId": "omnibus-coffee-ningbo-rd-620",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "67fe2fd2fe27",
+  "raw": {
+    "headline": {
+      "zh": "厌氧日晒豆+秘鲁浅烘",
+      "en": "Anaerobic & Peruvian light roasts"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供埃塞Muntasha厌氧日晒豆",
+        "en": "Serves Ethiopian Muntasha anaerobic natural",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "秘鲁水洗浅烘豆带苹果杏仁风味",
+        "en": "Peruvian washed light roast with apple, almond notes",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设编织椅与木箱小桌",
+        "en": "Outdoor seating with woven chairs and crate tables",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:30-18:00，周末10:00-19:00",
+        "en": "Open 08:30–18:00 weekdays, 10:00–19:00 weekends",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "提供厌氧处理与特色产地豆",
+        "en": "Features anaerobic and origin-specific beans"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4,
+          6
+        ],
+        "zh": "有室外软垫长凳与小桌",
+        "en": "Has outdoor benches and small tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:40Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "bobac-coffee-jingongguanshanxibeiluhuayuanzhuzha",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "a4cc181c9f61",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b4d1deff9fd45aa20000002329172449?type=pic",
+    "https://aos-comment.amap.com/B0G37Z9AV1/comment/F35F273F_A02F_467B_B893_9C224DCA7429_L0_001_1179_198_1766118989816_30195412.jpg",
+    "https://aos-comment.amap.com/B0G37Z9AV1/comment/0E9A8CB6_1BFB_4517_9CDC_EA94B97D3787_L0_001_1512_2016_1727945288937_93681595.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台有专业咖啡机，旁边放着待用纸杯。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单夹在写字板上，可见“正经咖啡”字样和价格。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯热饮顶部有肉桂棒装饰，另一杯有奶油顶。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透明杯装的dirty咖啡，分层明显。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有量杯和玻璃罐装的肉桂卷。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街木质窗台，窗外是人行道和马路。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内桌面为原木材质，风格简约。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:07:52Z"
+}

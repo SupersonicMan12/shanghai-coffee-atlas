@@ -1,0 +1,86 @@
+{
+  "cafeId": "rgb-coffee-bar-xuhong-middle-rd-20-2",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e7332215204e",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨2点的咖啡酒吧",
+      "en": "Open until 2am as a coffee bar"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "周一至周五8:30-2:00，周末17:00-2:00",
+        "en": "Open Mon–Fri 8:30am–2am, Sat–Sun 5pm–2am",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "临街开放式窗口，设室外座位",
+        "en": "Street-facing open window with outdoor seating",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内光线明亮，靠窗户采光",
+        "en": "Bright interior lit by natural light from windows",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品含巧克力与咖啡",
+        "en": "Recommended drinks include chocolate and coffee",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "店面临街，室外区域铺红砖",
+        "en": "Street-facing facade with red-brick outdoor area",
+        "from": [
+          3,
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "营业至凌晨但周末晚始营业",
+        "en": "Late hours but weekend starts at 5pm"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          7,
+          6
+        ],
+        "zh": "有室外座位与明亮空间宜久坐",
+        "en": "Outdoor seating and bright space support lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          2,
+          9
+        ],
+        "zh": "饮品配肉桂棒与迷迭香",
+        "en": "Drinks garnished with cinnamon stick and rosemary"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:08Z"
+}

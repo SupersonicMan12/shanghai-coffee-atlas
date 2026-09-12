@@ -1,0 +1,64 @@
+{
+ "cafeId": "luckin-coffee-osm-2",
+ "model": "qwen-max",
+ "inputDigest": "8fa7805f385b",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "平均每3-4天推出一款新品",
+    "en": "Launches a new drink every 3-4 days",
+    "from": "[1]"
+   },
+   {
+    "kind": "beans",
+    "zh": "在全球核心产区直采咖啡豆",
+    "en": "Sourced directly from global core regions",
+    "from": "[2]"
+   },
+   {
+    "kind": "price",
+    "zh": "主力价格带12-15元",
+    "en": "Main price range: 12-15 RMB",
+    "from": "[3]"
+   },
+   {
+    "kind": "space",
+    "zh": "90%以上为20-60㎡快取店",
+    "en": "Over 90% are 20-60 sqm quick pick-up stores",
+    "from": "[4]"
+   },
+   {
+    "kind": "people",
+    "zh": "几乎全部交易在App完成",
+    "en": "Almost all transactions completed via App",
+    "from": "[5]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": "[4][5]",
+    "zh": "主要为快取，无或少量堂食",
+    "en": "Quick pick-up, little to no seating"
+   },
+   "linger": {
+    "value": 0,
+    "from": "[4][5]",
+    "zh": "鼓励线上下单、到店自提",
+    "en": "Encourages order and pick-up"
+   },
+   "adventure": {
+    "value": 80,
+    "from": "[1]",
+    "zh": "频繁推出新饮品",
+    "en": "Frequent new drink launches"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:33Z"
+}

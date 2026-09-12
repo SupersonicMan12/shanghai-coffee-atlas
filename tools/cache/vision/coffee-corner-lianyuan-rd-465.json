@@ -1,0 +1,55 @@
+{
+  "cafeId": "coffee-corner-lianyuan-rd-465",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6476353bdc43",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8e6636a714736c3294e0bcd9ac793ce7"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和红色背景墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门上贴有‘LOT ONE’字样及咖啡杯图案",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见双开玻璃门，门上有金属把手",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门上方标有‘COFFEE CORNER’店名",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧墙面有绿色门牌号‘4’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:16Z"
+}

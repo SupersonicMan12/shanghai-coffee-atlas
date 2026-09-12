@@ -1,0 +1,35 @@
+{
+ "cafeId": "big-bagel-yongkang",
+ "model": "qwen-max",
+ "inputDigest": "9d1425d0aba9",
+ "raw": {
+  "headline": {
+   "zh": "正宗纽约风味贝果与无限续杯咖啡",
+   "en": "Authentic NY bagels & endless coffee refills"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌：Everything bagel 和 schmear",
+    "en": "Signature: Everything bagel and schmear",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供可无限续杯的滴滤咖啡",
+    "en": "Drip coffee with unlimited refills",
+    "from": 1,
+    "[2] (编辑) 招牌：Everything bagel, schmear, drip refill": ", "
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "无限续杯适合久坐",
+    "en": "Endless refills for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:11Z"
+}

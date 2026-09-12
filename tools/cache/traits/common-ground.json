@@ -1,0 +1,40 @@
+{
+ "cafeId": "common-ground",
+ "model": "qwen-max",
+ "inputDigest": "50ad8dd2bc7c",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "安静到可以打电话，也适合社交",
+    "en": "Quiet for calls, also good for socializing",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 60,
+    "from": 1,
+    "zh": "安静角落适合专注",
+    "en": "Quiet corners for focus"
+   },
+   "energy": {
+    "value": 40,
+    "from": 1,
+    "zh": "环境既安静又不冷清",
+    "en": "Quiet yet not too quiet"
+   },
+   "linger": {
+    "value": 80,
+    "from": 2,
+    "zh": "提供长时间下午茶体验",
+    "en": "Long afternoon experience"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:48Z"
+}

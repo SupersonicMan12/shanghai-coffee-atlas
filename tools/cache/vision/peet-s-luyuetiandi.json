@@ -1,0 +1,65 @@
+{
+  "cafeId": "peet-s-luyuetiandi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "da53a6c5cbbd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f8f8ebb6a2f71b990000000735472283?type=pic",
+    "https://store.is.autonavi.com/showpic/6244c1d4065d6a5287a4f28a4da90a59",
+    "https://store.is.autonavi.com/showpic/032f16c7043974890000002914658625?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "饮品表面有拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场外街角位置",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店设有室外座位区",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店外有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店为玻璃幕墙结构，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店临街，有行人经过",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店入口处有遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:05Z"
+}

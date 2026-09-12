@@ -1,0 +1,84 @@
+{
+  "cafeId": "liveliness-coffee-shop-peiwengongyu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "150cd1b51e54",
+  "raw": {
+    "headline": {
+      "zh": "老板一人手冲肯尼亚豆",
+      "en": "Solo barista, Kenyan pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "主打肯尼亚咖啡豆",
+        "en": "Features Kenyan coffee beans",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "擅长手冲和冰滴",
+        "en": "Specializes in pour-over and cold drip",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "仅老板一人经营",
+        "en": "Run solely by the owner",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "两层老式建筑，整面临街玻璃",
+        "en": "Two-story old building with full glass facade",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至18:00，周末至19:00",
+        "en": "Open till 18:00 weekdays, 19:00 weekends",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          8
+        ],
+        "zh": "专注手冲与冰滴",
+        "en": "Focus on pour-over & cold drip"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "zh": "有坐垫与窗边座位",
+        "en": "Seating with cushions & window spots"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "未见有人使用电脑",
+        "en": "No laptops observed"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:36Z"
+}

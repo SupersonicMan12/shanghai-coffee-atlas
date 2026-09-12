@@ -1,0 +1,71 @@
+{
+  "cafeId": "algebraist-shanghaifudandaxueguanlixueyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1726f4a7fff8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/452d003c7ce063f4a7db07e8552acdef",
+    "https://store.is.autonavi.com/showpic/45e08dd0ec90ddf80000002579242610?type=pic",
+    "https://store.is.autonavi.com/showpic/ddb4355a81582e920000002579180840?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为木质结构，临街设有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外座位约4-6个，配有藤编椅和小圆桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间宽敞，有木质隔断和绿植装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区可见一把收起的白色遮阳伞",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见一名员工和一名顾客",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外菜单牌展示芒果饮品广告",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内地面为灰色地砖，墙面以浅色为主",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面入口处有玻璃门，可看到内部陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:32Z"
+}

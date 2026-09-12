@@ -1,0 +1,60 @@
+{
+  "cafeId": "ortensia-cafe-taian-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6a68926aa48e",
+  "raw": {
+    "headline": {
+      "zh": "米其林一星团队现做芭菲",
+      "en": "Michelin-star team makes sundaes"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "现场制作草莓开心果芭菲，可坐吧台观看",
+        "en": "Makes sundaes at the counter to watch",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内宽敞，有拱形门洞和大吊灯",
+        "en": "Spacious interior with arched doorways and chandelier",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，窗外绿树成荫",
+        "en": "Full glass facade with green tree views",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:00",
+        "en": "Open daily until 19:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          5
+        ],
+        "zh": "布艺座椅、明亮空间适合久坐",
+        "en": "Comfortable seats and light invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:27Z"
+}

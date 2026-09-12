@@ -1,0 +1,71 @@
+{
+  "cafeId": "arabica-taiyanggong",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "f58727b64a2c",
+  "photos": [
+    "https://aos-comment.amap.com/B0H3RNG5A5/comment/c3240325b98e68207c9349b62954ca56_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H3RNG5A5/comment/a71cdd5a5775ee187dfa15f5f80d6ad7_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H3RNG5A5/comment/content_media_external_file_1000014619_ss__1758702922209_92784187.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "纸杯印有黑色%标志，杯中为带心形拉花的奶咖",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景货架陈列多袋印%和‘ARABICA BLEND’字样的咖啡生豆麻袋",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台区域有两台白色标%的磨豆机与一台标‘% ARABICA’的意式咖啡机",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第二张图中纸杯带白色平盖，置于白色台面，后方有发光%灯牌与玻璃隔断",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图可见金属框架+木质层架结构，顶部有线性LED灯管照明",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图吧台上方悬挂发光%符号灯饰，下方叠放多只同款纸杯",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图桌面为浅色带斑点材质，杯底有阴影，无其他座位或人可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张图均未出现书架、植物、宠物、菜单价格、食物或使用电脑的人",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:04Z"
+}

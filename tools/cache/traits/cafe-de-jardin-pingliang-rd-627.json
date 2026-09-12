@@ -1,0 +1,95 @@
+{
+  "cafeId": "cafe-de-jardin-pingliang-rd-627",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "318e5d45180e",
+  "raw": {
+    "headline": {
+      "zh": "阿姨妈妈爱拍的蓝白花店",
+      "en": "A blue-and-white floral spot loved by local aunties"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗，采光良好",
+        "en": "Floor-to-ceiling street-facing windows with ample natural light",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供迷你披萨、芝士蛋糕、海鲜饭",
+        "en": "Serves mini pizza, cheesecake, and seafood rice",
+        "from": [
+          2,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供柠檬水、抹茶甜品等饮品",
+        "en": "Offers lemonade, matcha desserts, and other drinks",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "目前主要是阿姨妈妈们过来拍照",
+        "en": "Mostly visited by local aunties for photos",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-18:00，周一至周日",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          3,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "主要为拍照休闲，非办公场景",
+        "en": "Primarily for photos, not work"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "阿姨群体为主，不喧闹",
+        "en": "Calm, auntie-dominated crowd"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          4,
+          5
+        ],
+        "zh": "有甜点饮品和采光座位，适合坐一坐",
+        "en": "Sweet treats, drinks, and bright seating support lingering"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "提供柠檬水、抹茶甜品等常规饮品",
+        "en": "Lemonade and matcha desserts are standard offerings"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:51Z"
+}

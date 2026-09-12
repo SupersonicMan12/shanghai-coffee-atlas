@@ -1,0 +1,65 @@
+{
+  "cafeId": "beanstar-shanghaishengrong-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f91c47557541",
+  "raw": {
+    "headline": {
+      "zh": "张江小而精的吧台咖啡",
+      "en": "Compact bar-style coffee in Zhangjiang"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "吧台式布局，空间较小",
+        "en": "Bar-style layout with limited space",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内店带落地窗，采光良好",
+        "en": "Indoor shop with floor-to-ceiling windows and good light",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供奶咖、美式等拿铁类饮品",
+        "en": "Serves milk-based coffee and Americano",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备专业咖啡机与磨豆机",
+        "en": "Equipped with professional espresso and grinder",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至下午16:00",
+        "en": "Open daily until 4 PM",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "空间小，适合快饮",
+        "en": "Compact space for quick drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:16Z"
+}

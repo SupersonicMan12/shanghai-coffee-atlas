@@ -1,0 +1,57 @@
+{
+  "cafeId": "kudikafei-senlanwanbeiqu5haolou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7022fbc81cea",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://store.is.autonavi.com/showpic/4d8ea47bc32f12640000002462020237?type=pic"
+  ],
+  "photoKinds": [
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "室内有楼梯，灯光照明",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "地面铺有保护膜，装修中",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板为木质条形结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见窗户，自然采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "楼梯下方有嵌入式灯带",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面为浅色与深木色搭配",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:44Z"
+}

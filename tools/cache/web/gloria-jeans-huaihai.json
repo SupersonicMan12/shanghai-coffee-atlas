@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "使用澳洲工厂烘焙的阿拉比卡咖啡豆，每杯多放60颗咖啡豆",
+      "kind": "beans",
+      "quote": "高乐雅采用在澳洲工厂烘焙的阿拉比卡咖啡豆,平均每一杯咖啡,还要比普通咖啡多使用60颗。",
+      "url": "https://www.sohu.com/a/388600234_162195/",
+      "site": "搜狐"
+    },
+    {
+      "text": "招牌Flat White需双份浓缩+轻薄细腻奶泡+牛奶融于底部，20分钟内最佳",
+      "kind": "drinks",
+      "quote": "只有同时满足以下几点的才能被称为“正宗”! 1.双份的咖啡浓缩液。...3.将牛奶融进咖啡底部。",
+      "url": "https://www.sohu.com/a/388600234_162195/",
+      "site": "搜狐"
+    },
+    {
+      "text": "店内设有露天座位、沙发座位，提供免费WiFi",
+      "kind": "seating",
+      "quote": "店内设有沙发座位,提供露天座位、刷卡支付、送餐服务及免费WiFi",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间每日7:30至22:00",
+      "kind": "time",
+      "quote": "营业时间为每日7:30至22:00",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    {
+      "text": "环境明亮整洁，座位间距宽敞，沙发舒服",
+      "kind": "space",
+      "quote": "环境“明亮、整洁”,座位间距“宽敞”,沙发“舒服”。",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Gloria Jean's Coffees(无限度店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "高乐雅",
+      "url": "https://baike.baidu.com/item/高乐雅/22401033",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "高乐雅_百度百科",
+      "url": "https://baike.baidu.com/item/%E9%AB%98%E4%B9%90%E9%9B%85/22401033",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "咖啡买一赠一!高乐雅全门店恢复堂食,用咖啡赶走你的春日困倦!_图片",
+      "url": "https://www.sohu.com/a/388600234_162195/",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "高乐雅咖啡金桥店",
+      "url": "https://baike.baidu.com/item/高乐雅咖啡金桥店/14341673",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "高乐雅咖啡调频壹广场店",
+      "url": "https://baike.baidu.com/item/高乐雅咖啡调频壹广场店/14303743",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "GloriaJeans高乐雅咖啡加盟",
+      "url": "http://wap.91jm.com/gjglykf/",
+      "site_name": "就要加盟网"
+    },
+    {
+      "index": 8,
+      "title": "咖啡买一赠一!高乐雅全门店恢复堂食,用咖啡赶走你的春日困倦!_图片",
+      "url": "http://www.sohu.com/a/388600234_162195",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:44:20Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "mulycoffee-bistro-zhangjiangaiweilaijiequ-cjiequ",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "523951e0259a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a9d897d668efb1560000002332498231?type=pic",
+    "https://aos-comment.amap.com/B0H31SW3OX/comment/9cfb1ae287de4d259096f870be90156d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H31SW3OX/comment/4b07b5207a4aa947fe805068ec92a4f4_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街玻璃幕墙建筑内，有落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有吧台和高脚凳，提供坐席",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内空间宽敞，有多个座位区和桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方陈列多种酒类和饮品瓶装",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡制作设备，包括手冲器具和磨豆机",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有绿化带和花坛，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内灯光以暖黄为主，天花板有金属装饰",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:21:02Z"
+}

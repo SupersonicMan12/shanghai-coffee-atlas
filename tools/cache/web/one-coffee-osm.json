@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是冰拿铁和西柚芝士蛋糕",
+      "kind": "drinks",
+      "quote": "推荐点一杯「冰拿铁」,再点一份「西柚芝士蛋糕」",
+      "url": "https://www.sohu.com/a/433336860_401367",
+      "site": "搜狐网"
+    },
+    {
+      "text": "咖啡馆内有艺术展览",
+      "kind": "story",
+      "quote": "店内也挂满了大大小小的油画",
+      "url": "https://www.sohu.com/a/433336860_401367",
+      "site": "搜狐网"
+    },
+    {
+      "text": "咖啡馆位于市区中心商圈",
+      "kind": "view",
+      "quote": "一家开在市区中心商圈的黑金轻奢风咖啡馆",
+      "url": "https://www.sohu.com/a/433336860_401367",
+      "site": "搜狐网"
+    },
+    {
+      "text": "提供多种咖啡豆选择",
+      "kind": "beans",
+      "quote": "精选全球6款咖啡豆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3Njk5MTU3MQ==&mid=2651450140&idx=2&sn=20bd821e5a89c0b51104bcc0b6e0ff74&chksm=85a1f17ac7a3c44e1c22943fc136c9c8481bae5b18d7ba41a44247b380f035c4af704d6ea270&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "咖啡馆内有舒适的座位",
+      "kind": "seating",
+      "quote": "一楼带点户外风,两大块的落地玻璃,适合坐着闲聊",
+      "url": "https://www.dianping.com/discovery/906307727",
+      "site": "大众点评网"
+    },
+    {
+      "text": "咖啡馆营业到22:30",
+      "kind": "time",
+      "quote": "营业时间:周一至周日 10:00-22:30",
+      "url": "https://www.sohu.com/a/433336860_401367",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "拐弯处的小发现|One Coffee☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/738460462",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "咖啡节特荐，虹口这几家绝美风景咖啡馆别错过！-上海虹口企业服务云",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20260502/65272b32-a203-48c2-be6c-c22bc49793fe.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 3,
+      "title": "打卡上海咖啡店-武康路Plusone coffee - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/906307727",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "探店|我们凑齐了珠海⑩家不同颜色的咖啡馆_Coffee",
+      "url": "https://www.sohu.com/a/433336860_401367",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "破防了!在新区,一杯有你专属头像的咖啡待取……",
+      "url": "https://www.163.com/dy/article/GHKMGQT70534B7MO.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "ONE咖啡：创新与艺术交融的咖啡师招聘",
+      "url": "https://baijiahao.baidu.com/s?id=1847894148097895585",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "旅游和咖啡文化相结合的简约餐厅 One Coffee - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/797992791",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "西安这些咖啡店氛围感十足!有机会和朋友一起去拍照打卡吧~",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3Njk5MTU3MQ==&mid=2651450140&idx=2&sn=20bd821e5a89c0b51104bcc0b6e0ff74&chksm=85a1f17ac7a3c44e1c22943fc136c9c8481bae5b18d7ba41a44247b380f035c4af704d6ea270&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:30Z"
+}

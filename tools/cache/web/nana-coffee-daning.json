@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "位于菜市场旁，具有独特的怀旧氛围。",
+      "kind": "story",
+      "quote": "在喧嚣的市场中隐藏着许多独特咖啡馆,例如“NANA COFFEE”",
+      "url": "https://baijiahao.baidu.com/s?id=1843411441887165745",
+      "site": "百度"
+    },
+    {
+      "text": "提供点单前选豆服务，注重顾客体验。",
+      "kind": "beans",
+      "quote": "点单之前可以选豆子",
+      "url": "https://www.dianping.com/discovery/910908134",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店内装饰复古，使用老家具增添特色。",
+      "kind": "space",
+      "quote": "桌椅板凳也都是老家具,可能最现代的就是咖啡机了吧",
+      "url": "https://www.dianping.com/discovery/910908134",
+      "site": "大众点评网"
+    },
+    {
+      "text": "空间虽小但温馨，营造出家的感觉。",
+      "kind": "space",
+      "quote": "小店面积很小,装修风格也很手工,甚至很“简陋”",
+      "url": "https://www.dianping.com/discovery/910908134",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店主与顾客建立了美好回忆。",
+      "kind": "story",
+      "quote": "她们收获了无数陪伴“NANA COFFEE”成长的朋友",
+      "url": "https://baijiahao.baidu.com/s?id=1843411441887165745",
+      "site": "百度"
+    },
+    {
+      "text": "户外偶尔有异味，建议改善环境。",
+      "kind": "space",
+      "quote": "坐在户外偶尔会传来一股异味,这大概是唯一不太好的体验了",
+      "url": "https://www.dianping.com/discovery/910908134",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "探店|NANACOFFEE,网红舞厅🪩旁的菜场咖啡,好喝会玩 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/910908134",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡文化的独特魅力与未来展望",
+      "url": "https://baijiahao.baidu.com/s?id=1843411441887165745",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "NANA COFFEE（大寧店） (上海大寧國際商業區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/nana-coffee-84139617/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "“啡”常有话｜藏在巷弄里的咖啡馆：别致的风格下透着“烟火气”_文汇",
+      "url": "https://www.whb.cn/commonDetail/479377",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 5,
+      "title": "全静安的咖啡爱好者都在这里了吧……_咖啡馆_豆子_上海",
+      "url": "https://www.sohu.com/a/1006904495_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 6,
+      "title": "咖啡杯里藏着“折叠上海”-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/9675",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 7,
+      "title": "“啡”常有话｜藏在巷弄里的咖啡馆：别致的风格下透着“烟火气” - 搜狐",
+      "url": "https://www.sohu.com/a/574136550_121119256",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "转角遇见TA!盘点那些充满烟火气的社区咖啡馆 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653581312&idx=3&sn=d96f832e76605fb1e993574fe76ab359&chksm=bd0d25858a7aac9317e0cd5ae3a07ad7c0dc7539a3bf909dfbc2e244f300527ee5efbf9196ba&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "上海新晋“顶流”!-86℃的夏天是怎样的感觉?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTk0NTY2OQ==&mid=2650762198&idx=1&sn=f4d7486d831f5c90d7f9bd75d2298cc7&chksm=899c59e0f8b551416b0dba0a96ad046d8eed600834e38bd0f477dc20bf2f46f97b05d7564890&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 10,
+      "title": "青年发现｜没有堂食后，90后独立咖啡馆店主们的“自救”",
+      "url": "http://www.why.com.cn/wx/article/2022/06/21/16557851201202680033.html",
+      "site_name": "青年报数字报"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:55Z"
+}

@@ -1,0 +1,68 @@
+{
+  "cafeId": "sanyuekafeiguan-wanhangdu-rd-1384",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "37f97b1c2068",
+  "raw": {
+    "headline": {
+      "zh": "老建筑里的三月主题咖啡馆",
+      "en": "A March-themed cafe in historic building"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "店名源于老板三月生日及春日寓意",
+        "en": "Named after owner's March birthday and spring",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "阳台可看苏州河与万航渡路街景",
+        "en": "Balcony overlooks Suzhou Creek and street life",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌芝士蛋糕由老板Jeffery手工制作",
+        "en": "Signature cheesecake handmade by owner Jeffery",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供生椰拿铁等特调，标价58元",
+        "en": "Offers coconut latte priced at ¥58",
+        "from": [
+          4,
+          15
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "日常营业时间为10:00–22:00",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          12,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "有阳台卡座和复古沙发适合久坐",
+        "en": "Balcony seats and vintage sofas invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:06Z"
+}

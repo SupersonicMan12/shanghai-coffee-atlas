@@ -1,0 +1,66 @@
+{
+  "cafeId": "kafei-one-itc",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "92104c4828c0",
+  "raw": {
+    "headline": {
+      "zh": "商场里的专业咖啡站",
+      "en": "A pro coffee spot inside the mall"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供经典、日常与限量咖啡豆",
+        "en": "Offers classic, daily, and limited beans",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有西班牙拿铁、摩卡及多种茶饮",
+        "en": "Serves Spanish latte, mocha, and various teas",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "另售气泡水、果汁等瓶装饮品",
+        "en": "Also sells bottled sparkling water and juice",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于商场内，临街整面玻璃窗",
+        "en": "Inside mall with full-height street-facing windows",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–19:30营业",
+        "en": "Open daily 07:30–19:30",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "提供限量豆和多类饮品",
+        "en": "Limited beans & varied drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:18Z"
+}

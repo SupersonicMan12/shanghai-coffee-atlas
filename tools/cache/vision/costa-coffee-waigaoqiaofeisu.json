@@ -1,0 +1,71 @@
+{
+  "cafeId": "costa-coffee-waigaoqiaofeisu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8899418af817",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/fc06d77079c6a74f47a24de081ee5de1",
+    "http://store.is.autonavi.com/showpic/b8fcaad7d21e1c166590850745d4cd16",
+    "http://store.is.autonavi.com/showpic/dfc474a89a95ea20fe6d3f27399af081"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街建筑底层，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳，适合短暂停留",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有靠墙卡座和小桌，可容纳多人就坐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡制作区域，有专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有冷藏展示柜，陈列饮品和食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有木质墙面装饰和现代灯具，风格现代",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有电动车停放，门口有人经过",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:20:35Z"
+}

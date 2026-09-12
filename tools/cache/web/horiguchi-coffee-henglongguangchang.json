@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "text": "使用特定拼配豆子，从1到9号不同风味",
+      "kind": "beans",
+      "quote": "堀口的产品主要是1～9号九种拼配豆",
+      "url": "https://www.gcores.com/talks/1048521",
+      "site": "机核网"
+    },
+    {
+      "text": "招牌饮品是1-9号拼配咖啡，价格一致",
+      "kind": "drinks",
+      "quote": "所有的9种'堀口经典混合咖啡'，都是98元一杯",
+      "url": "https://www.jianshu.com/p/8dc4f1e5a578",
+      "site": "简书"
+    },
+    {
+      "text": "咖啡杯来自日本'有田烧'合作定制款",
+      "kind": "space",
+      "quote": "每一款咖啡杯都不同，而且都来自有田烧合作定制款",
+      "url": "https://www.jianshu.com/p/8dc4f1e5a578",
+      "site": "简书"
+    },
+    {
+      "text": "店面不大不小，典型的日式装修风格",
+      "kind": "space",
+      "quote": "堀口咖啡店面不大不小，典型的日式装修风格",
+      "url": "https://www.jianshu.com/p/8dc4f1e5a578",
+      "site": "简书"
+    },
+    {
+      "text": "适合安静办公或聊天",
+      "kind": "people",
+      "quote": "处处透着静谧柔和",
+      "url": "https://www.jianshu.com/p/8dc4f1e5a578",
+      "site": "简书"
+    },
+    {
+      "text": "品牌故事与日本精品咖啡之父有关",
+      "kind": "story",
+      "quote": "日本精品咖啡之父将中国第一家也是唯一一家连锁咖啡馆开在了圆明园路女青年会大楼里",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site": "无"
+    },
+    {
+      "text": "价格高于蓝瓶、星巴克等品牌",
+      "kind": "story",
+      "quote": "价格远远高于蓝瓶、星巴克等品牌",
+      "url": "https://www.163.com/dy/article/KUJQO8BQ05358UMI.html",
+      "site": "网易"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "“1号比你看到喜欢的人跟别人玩双影奇境还酸,9号比命还苦” ～～～～～～～～ 最近一周都没发机组,除... | 机组 | 机核 GCORES",
+      "url": "https://www.gcores.com/talks/1048521",
+      "site_name": "机核网"
+    },
+    {
+      "index": 2,
+      "title": "Horiguchi Coffee堀口咖啡|“日本精品咖啡之父”将中国第一家也是唯 ",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "堀口咖啡",
+      "url": "https://www.jianshu.com/p/8dc4f1e5a578",
+      "site_name": "简书"
+    },
+    {
+      "index": 4,
+      "title": "HORIGUCHI COFFEE堀口咖啡(外灘核心區, 上海) – 菜單、評論及資訊",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/horiguchi-coffee-45539936/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "HORIGUCHI COFFEE 堀口咖啡(洛克外滩源店) - 大众点评",
+      "url": "http://m.dianping.com/shop/97772606?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Horiguchi Coffee 堀口咖啡 - 差旅人妻的日常| Now On Trip",
+      "url": "https://nowontrip.com/sh-horiguchi-coffee/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "https://you.ctrip.com/food/shanghai2/20637028.html",
+      "url": "https://you.ctrip.com/food/shanghai2/20637028.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 8,
+      "title": "“日本精品咖啡之父”来了！海外首店就在外滩！",
+      "url": "http://static.zhoudaosh.com/files/975375EA765601E4F60C6502626B96BC46DFFD9277C2DB33704A34C9DBA116B5/825755abd7a8edc87f798b866422f039c1c9e9ad.html",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "华南首店!堀口咖啡来深圳了!",
+      "url": "https://www.163.com/dy/article/KUJQO8BQ05358UMI.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:40Z"
+}

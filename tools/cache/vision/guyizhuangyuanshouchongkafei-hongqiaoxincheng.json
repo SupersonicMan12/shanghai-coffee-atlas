@@ -1,0 +1,71 @@
+{
+  "cafeId": "guyizhuangyuanshouchongkafei-hongqiaoxincheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6cfd2704a168",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c617f48beb2e8c59c5cd52971641229d",
+    "http://store.is.autonavi.com/showpic/dff6840c352dbea30ef6e92c7a616cb1",
+    "http://store.is.autonavi.com/showpic/b1465fa0f225acd63f9866810ea36e4f"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于红砖建筑内，门牌号1032",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有手冲咖啡器具和磨豆机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有拱形门洞和木质天花板，风格为复古自然风",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有植物装饰，环境绿意盎然",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供芝士蛋糕类甜点，表面撒有紫色粉末",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口挂有红色春联和横幅，可能为中式传统装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内可见茶壶、滤杯等手冲设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:12:00Z"
+}

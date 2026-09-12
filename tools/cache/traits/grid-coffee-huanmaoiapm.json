@@ -1,0 +1,86 @@
+{
+  "cafeId": "grid-coffee-huanmaoiapm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "19bacaf91a9e",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗+户外座",
+      "en": "Street-facing floor-to-ceiling windows & outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内吧台与多张桌椅，门口设户外遮阳伞和植物、室外座位",
+        "en": "Indoor bar and multiple tables/chairs; outdoor seating with umbrellas and plants at entrance",
+        "from": [
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地咖啡豆，豆单随季节更换",
+        "en": "All coffee uses single-origin beans scoring ≥84 on SCA cupping, rotated seasonally",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括罗马人美式、咸奶萃、白脱拿铁等微创新经典款",
+        "en": "Signature drinks include Roman Americano, Salted Espresso, and Brown Butter Latte — classic styles with subtle twists",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日07:00-21:00",
+        "en": "Open daily 7:00–21:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "有吧台与多张桌椅",
+        "en": "Bar and multiple tables"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          1,
+          5,
+          6
+        ],
+        "zh": "室内外座位齐全",
+        "en": "Indoor and outdoor seating available"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "微创新经典款+高分豆",
+        "en": "Subtle twists on classics + high-scoring beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:34Z"
+}

@@ -1,0 +1,34 @@
+{
+ "cafeId": "egg-xiangyang",
+ "model": "qwen-max",
+ "inputDigest": "d4d40648d931",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌是全天候的早午餐鸡蛋",
+    "en": "Signature: all-day brunch eggs",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    "zh": "周末人多，可能需要排队",
+    "en": "Busy on weekends, expect a wait"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合长时间停留享受早午餐",
+    "en": "Great for long, leisurely brunches"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:11:15Z"
+}

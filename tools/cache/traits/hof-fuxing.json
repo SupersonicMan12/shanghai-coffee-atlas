@@ -1,0 +1,30 @@
+{
+ "cafeId": "hof-fuxing",
+ "model": "qwen-max",
+ "inputDigest": "c668409d81fb",
+ "raw": {
+  "headline": {
+   "zh": "甜品与意式咖啡搭配，适合餐后享受",
+   "en": "Dessert and espresso pairing, great post-dinner"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "提供糕点级甜品和意式咖啡搭配",
+    "en": "Pâtisserie-grade sweets and espresso pairing",
+    "from": 1,
+    "));2]=\"\" en\":\"stays=\"\" open=\"\" late\",\"from\":[1]}\" zh\":\"营业到深夜\",=": null,
+    "axisHints": null
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "适合餐后长时间停留",
+    "en": "Good for lingering after dinner"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:10:27Z"
+}

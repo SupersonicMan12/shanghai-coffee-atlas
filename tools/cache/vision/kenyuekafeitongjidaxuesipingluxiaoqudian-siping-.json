@@ -1,0 +1,52 @@
+{
+  "cafeId": "kenyuekafeitongjidaxuesipingluxiaoqudian-siping-",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b1932c7c3665",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d7c9b38862e28569d40862785ff496e4",
+    "https://store.is.autonavi.com/showpic/553675c4a59abd0a31822616cb8cfad5",
+    "https://aos-comment.amap.com/B0K3C44C0D/comment/content_media_external_file_1000086683_ss__1762507799938_92456286.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店铺，临街玻璃窗。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "两张饮品照片显示有冰咖啡和拿铁类饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有遮阳伞，可能提供室外座位。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见白色桌椅，数量约3-4套。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:05Z"
+}

@@ -1,0 +1,77 @@
+{
+  "cafeId": "ouzhixinkafei-dahuaqingshuiwanhuayuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "cbb58cf1a361",
+  "raw": {
+    "headline": {
+      "zh": "临街大窗绿植环绕",
+      "en": "Street-facing windows with lush greenery"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "临街整面落地窗，采光充足",
+        "en": "Full-height street-facing windows, ample daylight",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外与店内均有大型绿植",
+        "en": "Large indoor and outdoor greenery visible",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位多样，含沙发与木桌椅",
+        "en": "Varied seating: sofas and wooden tables",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "多人使用笔记本电脑办公",
+        "en": "Multiple patrons working on laptops",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至午夜24点",
+        "en": "Open daily until midnight",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 75,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "多人用电脑办公",
+        "en": "Laptop users present"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "二楼空间大，座位舒适",
+        "en": "Spacious with comfy seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:07Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "dingdiankafei-chengshijingdiangaodi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "30cd915fe337",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗配专业咖啡机",
+      "en": "Street-facing windows with pro espresso"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内设灰色沙发座椅",
+        "en": "Gray sofa seating inside",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供含果肉的深红色果昔饮品",
+        "en": "Serves red fruit smoothie with pulp",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用DeLonghi专业级咖啡机萃取浓缩",
+        "en": "Uses professional DeLonghi espresso machine",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30至21:00营业",
+        "en": "Open daily 7:30–21:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing glass",
+        "from": [
+          1,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "有沙发可坐",
+        "en": "Has sofa seating"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "提供果昔类非传统饮品",
+        "en": "Offers non-traditional smoothies"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:56Z"
+}

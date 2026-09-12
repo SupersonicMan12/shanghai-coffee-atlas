@@ -1,0 +1,84 @@
+{
+  "cafeId": "thru-coffee-shanxinanlu186nongxiaoqu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "722aa281eb34",
+  "raw": {
+    "headline": {
+      "zh": "茉莉花拿铁配榴莲蛋糕",
+      "en": "Jasmine latte with durian cake"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供茉莉花拿铁，有清淡花香",
+        "en": "Serves jasmine latte with light floral notes",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "榴莲蛋糕微甜且榴莲味足",
+        "en": "Durian cake is mildly sweet, strong flavor",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有木凳、小圆桌可坐",
+        "en": "Outdoor seating: wooden stools and small table",
+        "from": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街小空间，落地窗采光良好",
+        "en": "Small street-facing space with large windows",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至17:30",
+        "en": "Open daily until 17:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          8
+        ],
+        "zh": "插座多WiFi快适合办公",
+        "en": "Plenty of outlets, fast WiFi"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "空调凉爽可工作学习一天",
+        "en": "Cool AC, stay for hours"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          4,
+          10
+        ],
+        "zh": "有花香特调和冷萃等选项",
+        "en": "Floral lattes and cold brew options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:30Z"
+}

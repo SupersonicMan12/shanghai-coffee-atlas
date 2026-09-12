@@ -1,0 +1,75 @@
+{
+  "cafeId": "shenhukafei-jinhui-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a38e79eb7be3",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房配手冲与限定豆",
+      "en": "Streetfront cafe with seasonal beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供限定款和季节款咖啡豆",
+        "en": "Offers limited and seasonal coffee beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含意式浓缩、手冲及特色饮品",
+        "en": "Serves espresso, pour-over, and specialty drinks",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "蛋糕有焦糖香蕉和奶油装饰",
+        "en": "Cakes topped with caramel banana and cream",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-19:00营业",
+        "en": "Open daily 08:30–19:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "提供手冲与季节限定豆",
+        "en": "Pour-over and seasonal beans"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:07Z"
+}

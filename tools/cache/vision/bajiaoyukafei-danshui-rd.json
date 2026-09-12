@@ -1,0 +1,65 @@
+{
+  "cafeId": "bajiaoyukafei-danshui-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c84597fcbe14",
+  "photos": [
+    "https://aos-comment.amap.com/B0G271GLCM/comment/99a3f66e2f19c5a044d33113f55a17b2_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/a9df9bab7057d58c0000003367052904?type=pic",
+    "https://store.is.autonavi.com/showpic/27245b019c61068a0000003367090105?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街砖墙建筑，有大窗户和黑色招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有咖啡研磨机、手冲设备和冷藏柜等专业器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见冰咖啡饮品，装在透明塑料杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台和操作区，空间紧凑",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有落地窗，可看到街道外景",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有自行车和电动车停放，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有多个咖啡豆袋陈列在货架上",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:58Z"
+}

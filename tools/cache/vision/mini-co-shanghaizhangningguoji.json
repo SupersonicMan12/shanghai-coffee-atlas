@@ -1,0 +1,65 @@
+{
+  "cafeId": "mini-co-shanghaizhangningguoji",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "861f7542f511",
+  "photos": [
+    "https://aos-comment.amap.com/B0KK066GIX/comment/D131BBC2_B11A_4F23_AA3A_0EAFD03164C1_L0_001_2000_150_1767007066834_77256061.jpg",
+    "https://store.is.autonavi.com/showpic/3112d52a92e39d540000003052966168?type=pic",
+    "https://aos-comment.amap.com/B0KK066GIX/comment/content_media_external_file_13044_1751438798573_56283164.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有户外座位和绿植",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡杯具展示架",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供冰美式和冰红茶类饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有宣传海报，内容为咸芝士风味饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有白色椅子和木质桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内陈列有主题限定周边商品",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:37Z"
+}

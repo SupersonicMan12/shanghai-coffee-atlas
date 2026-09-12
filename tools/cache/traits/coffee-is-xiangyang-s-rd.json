@@ -1,0 +1,64 @@
+{
+  "cafeId": "coffee-is-xiangyang-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1737f4f32442",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "工作日7:30开门，周末9:00开门",
+        "en": "Opens 7:30 am weekdays, 9 am weekends",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门外无固定座位，仅一把折叠椅",
+        "en": "No fixed outdoor seating, one folding chair",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，自然采光充足",
+        "en": "Full-height street-facing glass for ample light",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间紧凑，含吧台与操作区",
+        "en": "Compact interior with bar and prep area",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打咖啡",
+        "en": "Coffee-focused menu",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "无固定座位且空间紧凑",
+        "en": "Limited seating, compact space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:10Z"
+}

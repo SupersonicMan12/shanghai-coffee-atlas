@@ -1,0 +1,71 @@
+{
+  "cafeId": "1900loft-xinhua-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "aa75e792b508",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJHJJUO/comment/content_media_external_images_media_41948_ss__1728737959146_16264082.jpg",
+    "https://store.is.autonavi.com/showpic/77cf1809fd06abafbbd26138da395214",
+    "http://store.is.autonavi.com/showpic/8d6a025d13cd907470603b5be10444b7"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "室内有红砖墙、绿植、圆木桌、黑色皮质沙发座，窗边可见夜景树木",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃幕墙店面，招牌为金属字'1900LOFT'，入口为大面积玻璃门",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "白天拍摄的店面，二层有横向长窗，一层为通透玻璃门与橱窗",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内桌上有一盏亮着的黄绿色小台灯，窗户外是夜间绿化带",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内右侧有黄色小型电器（似投影仪或音响）、红色圣诞帽玩偶、叠放红砖装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见吧台、手冲架、磨豆机、烘焙机等专业咖啡设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见书架、宠物、菜单、饮品、食物、价格或豆子产地信息",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "未见有人在使用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:02Z"
+}

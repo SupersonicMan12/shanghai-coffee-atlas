@@ -1,0 +1,71 @@
+{
+  "cafeId": "xiaduocanting-fudan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e5a50cb1ed12",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHDKHQH/comment/71665016_C06C_4811_BBCB_2C54453AD206_L0_001_671_68_1757309007989_00175716.jpg",
+    "https://aos-comment.amap.com/B0FFHDKHQH/comment/content_media_external_file_100006623_1762625829875_55496137.jpg",
+    "https://aos-comment.amap.com/B0FFHDKHQH/comment/57E7B15C_FA1F_4450_8742_FBBC42A4A378_L0_001_IMG_6033.JPG"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店铺，临街",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有吧台和多张椅子，空间中等",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有悬挂式灯具和绿植装饰",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见一个装有饮品的大玻璃罐",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "食物照片显示一份包含三文鱼和多种蔬菜的沙拉",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面入口为木质门，上方有藤蔓植物覆盖",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有拱形门洞和白色瓷砖墙面",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "吧台上方有木制置物架，摆放着罐子等物品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:48Z"
+}

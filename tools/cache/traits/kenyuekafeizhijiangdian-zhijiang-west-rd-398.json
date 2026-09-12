@@ -1,0 +1,40 @@
+{
+  "cafeId": "kenyuekafeizhijiangdian-zhijiang-west-rd-398",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "fb8f9a43eee2",
+  "raw": {
+    "headline": {
+      "zh": "蛋挞三档定价",
+      "en": "Egg tarts at three price points"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "售卖9元、17元、49元蛋挞",
+        "en": "Sells egg tarts priced at ¥9, ¥17, ¥49",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "落地窗可看街道外景",
+        "en": "Floor-to-ceiling windows overlook the street",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:00-23:00营业",
+        "en": "Open daily 6am to 11pm",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:36:16Z"
+}

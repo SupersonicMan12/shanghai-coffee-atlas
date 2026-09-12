@@ -1,0 +1,71 @@
+{
+  "cafeId": "happiness-changle-rd-514",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f222fcb5f7b3",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/af00c7bada8d3018a3f0c8d7ff883327",
+    "https://aos-comment.amap.com/B0L0ZKDU0G/comment/file_media_Photo_4087_IMG_1769041515_4298_IMG_20260122_082331_07136020-49bb-424b-a28a-1361f863f7f7_jpe_1769041452577_70389547.jpg",
+    "https://store.is.autonavi.com/showpic/fad1307f4b42ce6702cae10cf2735c7a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外立牌写营业时间08:00-18:00，指向店内。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "橱窗内有黄色毛绒装饰和几瓶饮料。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见吧台和一张高脚凳，空间小。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口立牌标示“咖啡 茶饮”，无食物图。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "二楼有红色窗框，建筑风格偏老式。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "室内吧台上有类似手冲器具的金属设备。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "入口处门敞开，未见室外座位。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "橱窗海报展示热饮杯与橙片，应为冬季特饮。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:37Z"
+}

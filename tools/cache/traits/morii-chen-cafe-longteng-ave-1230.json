@@ -1,0 +1,75 @@
+{
+  "cafeId": "morii-chen-cafe-longteng-ave-1230",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3851a6e370d7",
+  "raw": {
+    "headline": {
+      "zh": "带轮白色花车配粉色绣球",
+      "en": "Rolling white service cart with pink hydrangeas"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "室内空间宽敞，地面为几何图案木地板",
+        "en": "Spacious interior with geometric-patterned wooden flooring",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "配备圆形黄色桌子和软垫凳子",
+        "en": "Round yellow tables and cushioned stools",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "服务车摆放大玻璃罐装饮品和杯子",
+        "en": "Large glass jars of drinks and cups on the service cart",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内有绿植装饰，环境明亮",
+        "en": "Bright interior with green plant decorations",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-19:00",
+        "en": "Open daily from 9:00 to 19:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "宽敞空间+舒适座椅+明亮绿植",
+        "en": "Spacious layout, comfortable seating, bright greenery"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "明亮但无喧闹元素",
+        "en": "Bright but no indication of bustle"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:00Z"
+}

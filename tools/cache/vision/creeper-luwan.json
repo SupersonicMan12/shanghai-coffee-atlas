@@ -1,0 +1,71 @@
+{
+  "cafeId": "creeper-luwan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "463396b17245",
+  "photos": [
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76176_ss__1754275445375_99511294.jpg",
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/file_media_Photo_11975_IMG_1760927713_10006_IMG_20251020_103333_jpg_ss__1762140833656_72594693.jpg",
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76190_ss__1754275445328_40431126.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门为黑色双开玻璃门，上方有黄色霓虹‘Creeper Coffee’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口两侧各有一束开业花篮（麦穗+红金包装），含招财猫装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为狭长布局，左侧浅木纹墙，右侧吧台区，地面为白色大理石瓷砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "可见2把黑色椅子+1张小圆桌，位于入口左侧，属少量座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后有FAEMA牌商用意式咖啡机、磨豆机、叠放的印有‘Creeper’纸杯",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台前立牌展示饮品图，含‘脏脏拿铁’‘燕麦拿铁’等，标价22–25元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台挂有透明亚克力板‘Creeper Coffee’发光招牌，背景为浅木饰面",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "玻璃门反射可见街景：绿树、黄色出租车、电动车，属临街店铺",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.96
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:23Z"
+}

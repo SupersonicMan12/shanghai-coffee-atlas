@@ -1,0 +1,59 @@
+{
+  "cafeId": "lan-daxue-rd-320",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e2dc070e40e7",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0NDCED4/comment/content_media_external_file_1000000708_ss__1745288878271_75054603.jpg",
+    "https://store.is.autonavi.com/showpic/17aa3bf53ddde13a0000002712656619?type=pic",
+    "https://aos-comment.amap.com/B0K0NDCED4/comment/63305CCE_E9E1_4A20_9BBA_818823596A84_L0_001_1620_200_1761666245544_01454968.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面由白色集装箱改造而成，位于大学路",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有临街玻璃窗，可见外部建筑",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "提供奶咖、黑咖及柠檬水三种饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "奶咖有叶子形状的拉花，黑咖为冰滴咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有少量桌椅，但座位数量不明确",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "室外有绿植盆栽，但无明显室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:00Z"
+}

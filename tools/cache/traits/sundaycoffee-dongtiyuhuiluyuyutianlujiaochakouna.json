@@ -1,0 +1,66 @@
+{
+  "cafeId": "sundaycoffee-dongtiyuhuiluyuyutianlujiaochakouna",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3bd5832a0c2d",
+  "raw": {
+    "headline": {
+      "zh": "社区站点兼营咖啡",
+      "en": "Community hub serving coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设木质长椅及室外座位",
+        "en": "Outdoor wooden bench and seating available",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供榛果拿铁、燕麦拿铁等特调",
+        "en": "Offers hazelnut and oat milk lattes",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "陈列可颂与贝果类面包",
+        "en": "Serves croissants and bagel-style breads",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "街边小店，空间较小",
+        "en": "Compact street-side shop layout",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗采光",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "空间小适合快饮",
+        "en": "Compact space for quick drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:03Z"
+}

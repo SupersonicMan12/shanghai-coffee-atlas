@@ -1,0 +1,81 @@
+{
+  "cafeId": "manner-coffee-xinlintiandi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b4001b3a6476",
+  "raw": {
+    "headline": {
+      "zh": "2㎡站喝精品咖啡",
+      "en": "2㎡ standing-bar specialty coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "小型吧台式门店，无座位区",
+        "en": "Tiny bar-style shop, no seating",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供美式、冷萃、燕麦拿铁等",
+        "en": "Serves Americano, cold brew, oat milk latte",
+        "from": [
+          3,
+          4,
+          12,
+          16
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自建SC认证工坊烘焙豆",
+        "en": "Beans roasted in own SC-certified facility",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–17:00营业",
+        "en": "Open daily 07:00–17:00",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌始于2015年静安2㎡小店",
+        "en": "Brand started in 2015 from a 2㎡ shop",
+        "from": [
+          8,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1,
+          5,
+          8
+        ],
+        "zh": "站喝模式，无座位",
+        "en": "Standing-only, no seats"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2,
+          10,
+          12
+        ],
+        "zh": "自烘豆+限定意式饮品",
+        "en": "House-roasted beans & seasonal drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:43Z"
+}

@@ -1,0 +1,28 @@
+{
+ "cafeId": "january-cafe",
+ "model": "qwen-max",
+ "inputDigest": "e4a4a668f6ce",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "位于城市中最美丽宁静的梧桐树街上",
+    "en": "On the city's most beautiful and quiet plane-tree street",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 10,
+    "from": 1,
+    "zh": "位于安静的街道上",
+    "en": "Quiet street"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:36Z"
+}

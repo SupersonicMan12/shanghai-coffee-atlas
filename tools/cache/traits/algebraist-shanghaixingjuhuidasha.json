@@ -1,0 +1,81 @@
+{
+  "cafeId": "algebraist-shanghaixingjuhuidasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "406445fdcf7e",
+  "raw": {
+    "headline": {
+      "zh": "招牌玫瑰布列夫年销65万杯",
+      "en": "Best-selling rose breve: 650k cups"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌重瓣玫瑰布列夫年售超65万杯",
+        "en": "Rose Breve sold over 650k in 2024",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量较少",
+        "en": "Limited seating available",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:00-17:00",
+        "en": "Open 07:00–17:00 daily",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全球甄选咖啡豆，数学演算制作方案",
+        "en": "Globally sourced beans, math-optimized brews",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "中午时段周边上班族客流密集",
+        "en": "Busy with office workers at lunch",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "座位少，不利久坐",
+        "en": "Few seats limit lingering"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "午间上班族集中",
+        "en": "Lunch rush brings energy"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "特色布列夫与数学冲煮",
+        "en": "Unique drinks, math-driven methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:55Z"
+}

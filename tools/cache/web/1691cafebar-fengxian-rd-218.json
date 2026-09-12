@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "店内满墙的名人头像、表演舞台和乐器，英伦怀旧风味",
+      "kind": "space",
+      "quote": "门口藏着许多旧书,到处都是英伦怀旧风味",
+      "url": "https://www.meipian.cn/58ewu67g",
+      "site": "美篇网"
+    },
+    {
+      "text": "周五晚上有吉他弹唱live演出，氛围感十足",
+      "kind": "sound",
+      "quote": "周五碰上了店里的live 演出,吉他弹唱的氛围感真的很不错",
+      "url": "https://www.dianping.com/discovery/948979792",
+      "site": "大众点评网"
+    },
+    {
+      "text": "白天咖啡馆，晚上变酒吧，日咖夜酒体验",
+      "kind": "time",
+      "quote": "1691 cafe&bar 这里白天是咖啡厅,晚上秒变酒吧",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMDY1MDU5MA==&mid=2247712220&idx=8&sn=224136e01edb51cb2bf8b39ac9a0e313&chksm=f9724c6dce05c57bf0859726a078cef6bd2ea9e65dc2634d3fe9a5ddedfe6703d0a664c8c181&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于老房子四楼，电梯直达，复古装修风格",
+      "kind": "space",
+      "quote": "这家咖啡酒吧位于奉贤路的一座老房子四楼,电梯直达",
+      "url": "https://www.meipian.cn/58ewu67g",
+      "site": "美篇网"
+    },
+    {
+      "text": "书架上地面上摆满了有年代感的书，墙上挂复古画",
+      "kind": "space",
+      "quote": "书架上地面上都摆满了有年代感的书,墙上还挂着很多复古的画",
+      "url": "https://www.dianping.com/discovery/948979792",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上影节静安光影漫游指南①丨美琪大戏院:复古影韵・海派风情线",
+      "url": "https://www.163.com/dy/article/KVAEMQQM0514A42S.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 2,
+      "title": "绝美秋色!逛逛这条松驰感满满的小马路 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxMDY1MDU5MA==&mid=2247712220&idx=8&sn=224136e01edb51cb2bf8b39ac9a0e313&chksm=f9724c6dce05c57bf0859726a078cef6bd2ea9e65dc2634d3fe9a5ddedfe6703d0a664c8c181&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "高颜值、精致、复古、情怀…找一家魔都小众书店,享受独处阅读时光! ",
+      "url": "http://mt.sohu.com/a/645720537_121124734",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "1691cafe&bar - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/948979792",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡探店",
+      "url": "https://www.meipian.cn/58ewu67g",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 6,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "1691 cafebar in Shanghai, China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95C13D75F8A",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "潮出圈!魔都人气新店集结,快来Pick你的心头好",
+      "url": "https://www.163.com/dy/article/HMD75G4H0514FF74.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:20Z"
+}

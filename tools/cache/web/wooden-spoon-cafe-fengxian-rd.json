@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "咖啡豆有中烘和深烘两种选择",
+      "kind": "beans",
+      "quote": "「常规美式」咖啡有中烘和深烘两种豆子可选。",
+      "url": "https://www.dianping.com/discovery/890224426",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供宠物友善环境",
+      "kind": "people",
+      "quote": "寵物友善免費Wi-Fi提供裝置充電外賣",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-133715255/",
+      "site": "Wooden Spoon Cafe(奉賢路店) (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "老板是咖啡资深专家,自研特色饮品",
+      "kind": "story",
+      "quote": "老板是个咖啡资深专家,平时喜欢研究各种各样的咖啡",
+      "url": "https://www.dianping.com/discovery/1232748960",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店内设有免费Wi-Fi和充电服务",
+      "kind": "space",
+      "quote": "寵物友善免費Wi-Fi提供裝置充電外賣",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-133715255/",
+      "site": "Wooden Spoon Cafe(奉賢路店) (上海靜安寺/南京西路) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "健身完来杯Wooden spoon木勺咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1232748960",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "平价宝藏咖啡小店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/890224426",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Wooden Spoon Cafe(奉賢路店) (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-133715255/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "想体验特色咖啡馆，推荐你去这5家看看 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "Wooden Spoon Cafe(奉賢路店) (靜安寺/南京西路, 上海) - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-133715255",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "探店｜木姜子根加咖啡里好喝么？",
+      "url": "https://www.bilibili.com/video/BV1w4NFzYEaw/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 7,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 8,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:34Z"
+}

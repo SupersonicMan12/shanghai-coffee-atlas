@@ -1,0 +1,81 @@
+{
+  "cafeId": "blatage-coffee-binjiang-ave-4594",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "93357447aded",
+  "raw": {
+    "headline": {
+      "zh": "按浓缩与牛奶比例点单",
+      "en": "Order by espresso-milk ratio"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "咖啡按浓缩与牛奶纯度比例点单，无固定名称",
+        "en": "Coffee ordered by espresso and milk purity ratio, no set names",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "三面落地窗，可览徐汇滨江一线江景",
+        "en": "Three-sided floor-to-ceiling windows with Huangpu River views",
+        "from": [
+          3,
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用重度烘焙精品豆，风味以黑可可、焦糖为主",
+        "en": "Uses dark-roast specialty beans with cocoa and caramel notes",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供独家小吃“黑狗堡”",
+        "en": "Serves exclusive snack 'Bladog' (Black Dog Burger)",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间 08:00–20:00",
+        "en": "Open daily 08:00–20:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "zh": "比例点单+手冲+自选豆",
+        "en": "Ratio ordering, pour-over, bean selection"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          6,
+          9,
+          12
+        ],
+        "zh": "江景落地窗适合久坐",
+        "en": "River-view windows invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:02Z"
+}

@@ -1,0 +1,87 @@
+{
+  "cafeId": "wagas-shanghaibinguguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "711bd2a8406e",
+  "raw": {
+    "headline": {
+      "zh": "临街工业风健康轻食",
+      "en": "Streetfront industrial cafe with healthy eats"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外白色桌椅及室内座位",
+        "en": "Outdoor white tables and indoor seating",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供三明治、沙拉、意面和蛋糕",
+        "en": "Serves sandwiches, salads, pasta, and cakes",
+        "from": [
+          2,
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌果汁如“朋克生活”“救救我”",
+        "en": "Signature juices like 'Punk Life' and 'Save Me'",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用笔记本电脑办公",
+        "en": "Customers work on laptops",
+        "from": [
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–20:30",
+        "en": "Open daily 07:30–20:30",
+        "from": [
+          18
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          5,
+          6,
+          9
+        ],
+        "zh": "室内外座位可久坐",
+        "en": "Seating for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          12
+        ],
+        "zh": "趣味命名的特色果汁",
+        "en": "Playful named juices"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:48Z"
+}

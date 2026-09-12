@@ -1,0 +1,73 @@
+{
+  "cafeId": "algebraist-shanghaihongkouquyoubangjinrongzhongx",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a4a1072a2ec2",
+  "raw": {
+    "headline": {
+      "zh": "虹口友邦金融中心站喝咖啡",
+      "en": "Standing coffee in Hongkou finance hub"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含重瓣玫瑰布列夫、kiri法酪拿铁系列",
+        "en": "Signature drinks: double-petal rose breve, kiri latte series",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "用全球甄选豆，以数学方式演算制作方案",
+        "en": "Uses globally sourced beans with math-based brewing",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-21:00营业，覆盖午休高峰",
+        "en": "Open 08:00–21:00 daily, busy at lunch",
+        "from": [
+          8,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "吧台前方有玻璃围栏，位于商场中庭夹层",
+        "en": "Bar with glass railing on mall mezzanine",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品20~48元，周二有买一赠一活动",
+        "en": "Drinks ¥20–48, Tue BOGO deals",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          3
+        ],
+        "zh": "商场夹层站喝设计",
+        "en": "Standing bar setup"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "午休时段上班族密集",
+        "en": "Busy with office crowd at noon"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:38Z"
+}

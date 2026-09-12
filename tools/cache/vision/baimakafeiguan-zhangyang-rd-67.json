@@ -1,0 +1,71 @@
+{
+  "cafeId": "baimakafeiguan-zhangyang-rd-67",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b35b10401bc0",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e441379d27f7d4290000000946770808?type=pic",
+    "https://store.is.autonavi.com/showpic/218dfff8a45468030000000946794683?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1769863450607_53699768_1769863458778_72879609.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为三层砖石结构老洋房，门前有庭院与花坛，挂红色装饰物。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口前设户外座位区，可见木质长椅、藤编椅及收拢的遮阳伞，属室外座。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "招牌标有'WHITE HORSE CAFE 白马咖啡馆 SINCE 1939'及马头标志。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "第一张图左侧立牌含中文活动信息，提及'白马咖啡馆·地中海餐厅'等字样。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图为切片牛排配西兰花、小番茄与酱汁，盛于蓝白几何纹长盘。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图为三角形芝士蛋糕，饰覆盆子两颗与薄荷叶，置于浅色釉面盘。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内桌面为木质，餐具含金属小杯（盛酱汁）、陶瓷盘，未见咖啡器具。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "庭院中有落叶乔木、灌木与花坛，树干缠绕红白绿三色织物装饰。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:35Z"
+}

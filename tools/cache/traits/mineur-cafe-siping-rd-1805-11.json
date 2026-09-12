@@ -1,0 +1,84 @@
+{
+  "cafeId": "mineur-cafe-siping-rd-1805-11",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9f7863be21e5",
+  "raw": {
+    "headline": {
+      "zh": "整面临街落地窗",
+      "en": "Floor-to-ceiling street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，窗外可见绿树",
+        "en": "Floor-to-ceiling street-facing windows with green trees visible outside",
+        "from": [
+          1,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有两张白色椅子",
+        "en": "Two white chairs indoors",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台上摆放着两台磨豆机",
+        "en": "Two coffee grinders on the counter",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间06:00-18:00",
+        "en": "Open daily from 6:00 to 18:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐双人餐",
+        "en": "Double meal set recommended on Amap",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "仅两张椅子，有顾客静坐",
+        "en": "Only two chairs; one customer sitting quietly"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "有座椅且顾客久坐休息",
+        "en": "Seated customer resting"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "配备两台磨豆机",
+        "en": "Two grinders present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:15Z"
+}

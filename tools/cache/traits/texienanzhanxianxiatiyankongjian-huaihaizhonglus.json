@@ -1,0 +1,83 @@
+{
+  "cafeId": "texienanzhanxianxiatiyankongjian-huaihaizhonglus",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b8d90ff32d76",
+  "raw": {
+    "headline": {
+      "zh": "藏在老花园三楼的静谧咖啡角",
+      "en": "Hidden quiet coffee nook on third floor"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于上方花园24号楼三楼",
+        "en": "Located on the 3rd floor of Shangfang Garden No.24",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大拱形窗与整面落地窗采光充足",
+        "en": "Ample light from large arched and floor-to-ceiling windows",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外可见绿树，室内有高大盆栽",
+        "en": "Green trees outside, tall potted plants inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供黑咖啡，使用粗陶杯盛装",
+        "en": "Serves black coffee in speckled stoneware cups",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:30至18:30营业",
+        "en": "Open daily 10:30–18:30",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "隐蔽安静适合专注",
+        "en": "Quiet and secluded"
+      },
+      "energy": {
+        "value": 20,
+        "from": [
+          6
+        ],
+        "zh": "环境隐秘安静",
+        "en": "Secluded and calm"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          6
+        ],
+        "zh": "采光好且安静宜久坐",
+        "en": "Bright, calm, good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:26Z"
+}

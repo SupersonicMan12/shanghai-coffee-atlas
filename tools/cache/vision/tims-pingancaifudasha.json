@@ -1,0 +1,71 @@
+{
+  "cafeId": "tims-pingancaifudasha",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "296efd420b3f",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/62141b766362bcbfbf49b8bedab3780a",
+    "https://store.is.autonavi.com/showpic/2521c6103ca006d14785e83b23f6a58a"
+  ],
+  "photoKinds": [
+    "other",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "室内空间大，有多个长桌和椅子，座位数量较多",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好，窗外可见建筑结构",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台区域有咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方有电子菜单屏，显示饮品图片与文字",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无可见顾客或使用电脑者",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "无室外座位，未见庭院或天台",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有大型装饰壁画，非纯白墙",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有“新鲜手作”字样，暗示部分食物现场制作",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:25Z"
+}

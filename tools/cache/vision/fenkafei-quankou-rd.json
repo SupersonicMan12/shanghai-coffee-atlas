@@ -1,0 +1,71 @@
+{
+  "cafeId": "fenkafei-quankou-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8f5861433324",
+  "photos": [
+    "https://aos-comment.amap.com/B0JUNH425K/headerImg/94cbdbe5c701ea466ef2e1df4f4b0421_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/92e4c20578311bd40000001540124913?type=pic",
+    "https://store.is.autonavi.com/showpic/c73ab565da9ebec80000001540116892?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有几张方形桌和椅子，座位数量较少",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街边，门口有自行车停放",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙上挂有中文书法装饰，写着‘人生无大志 只求六十分’",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口上方标有‘60分万岁 咖啡与酒吧’字样",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一瓶Flensburger Weizen啤酒和一个空玻璃杯",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台区域，有饮料瓶和设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有遮阳棚，门口放置了折叠椅",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内地面为浅色瓷砖，墙面为灰色调",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:23Z"
+}

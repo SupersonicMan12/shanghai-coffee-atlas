@@ -1,0 +1,68 @@
+{
+  "cafeId": "eryi-xian",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "11d48b42c430",
+  "raw": {
+    "headline": {
+      "zh": "自行车主题咖啡馆",
+      "en": "Bike-themed café"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内有长木桌和多把椅子",
+        "en": "Indoor long wooden table with multiple chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室外设木质长凳与遮阳伞",
+        "en": "Outdoor wooden benches with sun umbrellas",
+        "from": [
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店内陈列多辆自行车",
+        "en": "Multiple bicycles displayed indoors",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–22:00营业",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          4,
+          9
+        ],
+        "zh": "有室内外座位适合久坐",
+        "en": "Seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:35Z"
+}

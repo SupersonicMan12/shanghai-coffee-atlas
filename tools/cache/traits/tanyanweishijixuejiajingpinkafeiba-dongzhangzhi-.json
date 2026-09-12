@@ -1,0 +1,74 @@
+{
+  "cafeId": "tanyanweishijixuejiajingpinkafeiba-dongzhangzhi-",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c8cedf6c1661",
+  "raw": {
+    "headline": {
+      "zh": "威士忌与精品咖啡共存",
+      "en": "Whisky and specialty coffee together"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡饮品含奶层",
+        "en": "Serves iced coffee with milk layer",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "陈列麦卡伦12年等威士忌",
+        "en": "Stocks Macallan 12 and other whiskies",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用专业意式咖啡机萃取",
+        "en": "Uses professional espresso machine",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Has outdoor seating",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日11:00-23:00营业",
+        "en": "Open daily 11am–11pm",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "咖啡与威士忌组合少见",
+        "en": "Unusual coffee-whisky combo"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:58Z"
+}

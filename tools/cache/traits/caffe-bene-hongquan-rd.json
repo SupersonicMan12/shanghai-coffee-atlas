@@ -1,0 +1,65 @@
+{
+  "cafeId": "caffe-bene-hongquan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "74cffca4614f",
+  "raw": {
+    "headline": {
+      "zh": "韩系连锁，甜品丰富",
+      "en": "Korean chain with ample desserts"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供奥趣黑白刨冰、焦糖香蕉华夫饼等甜品",
+        "en": "Serves Oreo bingsu, caramel banana waffles",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位数量适中，适合小型聚会或个人使用",
+        "en": "Moderate seating for small groups or solo",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至23:30",
+        "en": "Open daily until 23:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "韩国连锁品牌，2012年成立",
+        "en": "Korean chain founded in 2012",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供陪你拿铁、白摩卡等特色咖啡",
+        "en": "Offers Bene Latte and White Mocha",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "座位舒适且价格不贵",
+        "en": "Comfortable seating, affordable"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:55Z"
+}

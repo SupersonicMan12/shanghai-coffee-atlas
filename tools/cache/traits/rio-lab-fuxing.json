@@ -1,0 +1,28 @@
+{
+ "cafeId": "rio-lab-fuxing",
+ "model": "qwen-max",
+ "inputDigest": "1ea3335d94e9",
+ "raw": {
+  "headline": {
+   "zh": "巴西豆与实验室风味的独特结合",
+   "en": "Brazilian beans with lab-style flavors"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：Carioca 冷萃配青柠盐",
+    "en": "Signature: Carioca cold brew with lime salt",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "独特的青柠盐冷萃",
+    "en": "Unique lime-salt cold brew"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:31Z"
+}

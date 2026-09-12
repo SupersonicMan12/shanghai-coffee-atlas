@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "text": "提供地道意大利北部美食及精致饮品",
+      "kind": "food",
+      "quote": "门店内供应地道意大利北部美食及精致饮品",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20240620/8834ba77-e45c-46e4-904b-674f90438068.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "空间设计灵感源自品牌价值观发源地--杰尼亚绿洲",
+      "kind": "story",
+      "quote": "这一创意空间的设计灵感源自品牌价值观发源地--杰尼亚绿洲",
+      "url": "https://www.zegna.cn/cn-zh/zegna-caffe-shanghai-taikoo-hui/",
+      "site": "上海太古汇ZEGNA Caffè | ZEGNA（杰尼亚） CN"
+    },
+    {
+      "text": "营业时间10:00—22:00",
+      "kind": "time",
+      "quote": "营业时间 10:00—22:00",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20240620/8834ba77-e45c-46e4-904b-674f90438068.html?type=2",
+      "site": "“上海静安”门户网站"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "ZEGNA Caffe(兴业太古汇店) - 上海市静安区- 餐饮服务;咖啡厅",
+      "url": "https://www.amap.com/place/B0H3ZAE5XT",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 2,
+      "title": "杰尼亚全球首家咖啡店！Zegna Caffe登陆兴业太古汇 - 静安区",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20240620/8834ba77-e45c-46e4-904b-674f90438068.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 3,
+      "title": "杰尼亚全球首家咖啡店！Zegna Caffe登陆兴业太古汇",
+      "url": "https://kandianshare.html5.qq.com/v2/news/6002399278510215490",
+      "site_name": "QQ"
+    },
+    {
+      "index": 4,
+      "title": "杰尼亚全球首家咖啡店!Zegna Caffe登陆兴业太古汇",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20240620/8834ba77-e45c-46e4-904b-674f90438068.html?type=2",
+      "site_name": "“上海静安”门户网站"
+    },
+    {
+      "index": 5,
+      "title": "上海太古汇ZEGNA Caffè | ZEGNA（杰尼亚） CN",
+      "url": "https://www.zegna.cn/cn-zh/zegna-caffe-shanghai-taikoo-hui/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Zegna opens first cafe in Shanghai's Taikoo Hui",
+      "url": "https://english.shanghai.gov.cn/en-FirstStores/20240624/48c57c3f3d2b498d9633cafe0f2fcbcd.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "全球首家Zegna Caffe开业、李宁计划将瑞典户外品牌Haglöfs引入大中华区、CK首家全球旗舰店开业...|品牌周报",
+      "url": "https://dy.163.com/article/J57O7N8C05259ET1.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "杰尼亚全球首家ZEGNA CAFFÈ于上海太古汇开幕",
+      "url": "https://cn.concall.com/article/detail/article_id/1376",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:15:29Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "dongjingkafei-wuyuan-rd-86",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bcf952a670ce",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2ddccda110150b280000002993686569?type=pic",
+    "https://store.is.autonavi.com/showpic/ed8b22f1ea4323620000001197018523?type=pic",
+    "https://store.is.autonavi.com/showpic/b30a503887f965fd9f58f782cc113726"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台前有高脚凳，店内空间不大，属小型咖啡馆。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方陈列两台磨豆机和一台咖啡机，设备专业。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见“自带杯减3元”及“骑行到店减3元”优惠。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口招牌显示提供自行车租赁服务。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内悬挂三盏自行车轮造型吊灯，风格独特。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见顾客使用笔记本电脑。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图为饮品特写，拉花为漩涡状，非特定图案。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有粉色广告牌，宣传Maison Perrier气泡水合作款。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:25Z"
+}

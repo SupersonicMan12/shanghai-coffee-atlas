@@ -1,0 +1,69 @@
+{
+  "cafeId": "jstone-italianbistro-waitan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6816cab03505",
+  "raw": {
+    "headline": {
+      "zh": "外滩潮方意式餐咖",
+      "en": "Italian bistro at Bund MixC"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街户外座位带遮阳伞与绿植",
+        "en": "Outdoor seating with umbrellas and greenery",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供厚底牛肉丸披萨与火腿冷盘",
+        "en": "Serves thick-crust beef meatball pizza and cured ham platter",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应咖啡、茶及精选红白酒",
+        "en": "Offers coffee, tea, and curated red/white wines",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10 PM",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌灵感源自夏商周贵族爵杯",
+        "en": "Named after ancient Chinese noble wine vessel",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          7,
+          8
+        ],
+        "zh": "设户外休闲座位区",
+        "en": "Has outdoor lounge seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:25Z"
+}

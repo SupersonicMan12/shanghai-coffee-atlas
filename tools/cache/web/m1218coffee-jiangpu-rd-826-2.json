@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "位于北外滩地区，地址江浦路826-2号（近长阳路）",
+      "kind": "space",
+      "quote": "江浦路826-2號（近長陽路）",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136390135/",
+      "site": "M1218 COFFEE&BRUNCH咖啡&簡餐(北外灘地區, 上海) - Trip.com"
+    },
+    {
+      "text": "热门餐点包括柿子拿铁咖啡",
+      "kind": "drinks",
+      "quote": "柿子拿鐵咖啡",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136390135/",
+      "site": "M1218 COFFEE&BRUNCH咖啡&簡餐(北外灘地區, 上海) - Trip.com"
+    },
+    {
+      "text": "评分4.4/5，有5条用户评论",
+      "kind": "people",
+      "quote": "評論. 4.4/5. 很好. 5條評論.",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136390135/",
+      "site": "M1218 COFFEE&BRUNCH咖啡&簡餐(北外灘地區, 上海) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "M1218 COFFEE&BRUNCH咖啡&簡餐(北外灘地區, 上海) - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136390135/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "咖啡烘焙豆批发",
+      "url": "https://www.1688.com/jiage/-BFA7B7C8BAE6B1BAB6B9C5FAB7A2.html",
+      "site_name": "阿里1688"
+    },
+    {
+      "index": 3,
+      "title": "日常杂记 | 一个咖啡爱好者的\"扫盲\"手册(上)",
+      "url": "https://zhuanlan.zhihu.com/p/2025601918647444756",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "从SOE到厌氧:100个咖啡术语深度解析 ",
+      "url": "https://post.smzdm.com/p/a5rm8vg3",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 5,
+      "title": "烘焙咖啡豆笔记",
+      "url": "https://www.smzdm.com/ju/shaiwu/s23jnkm/",
+      "site_name": "什么值得买"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:45Z"
+}

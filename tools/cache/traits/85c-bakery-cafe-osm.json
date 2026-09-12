@@ -1,0 +1,65 @@
+{
+  "cafeId": "85c-bakery-cafe-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "118641e9adb5",
+  "raw": {
+    "headline": {
+      "zh": "海盐奶酪咖啡配24小时营业",
+      "en": "Salted cheese coffee, open 24 hours"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌海盐咖啡配绵密奶酪",
+        "en": "Signature salted coffee with creamy cheese topping",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "部分门店24小时营业",
+        "en": "Some locations open 24 hours",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌名源自85°C冲煮咖啡最香醇",
+        "en": "Named after optimal 85°C coffee brewing temperature",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "开放式空间，适合约会与家庭聚会",
+        "en": "Open layout suited for dates and family gatherings",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "大杯咖啡第二杯限时30元",
+        "en": "Second large coffee priced at ¥30 during promotions",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "24小时营业且有聚会空间",
+        "en": "24/7 access and social seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:55Z"
+}

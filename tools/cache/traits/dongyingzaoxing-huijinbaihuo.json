@@ -1,0 +1,20 @@
+{
+  "cafeId": "dongyingzaoxing-huijinbaihuo",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "df0b3e0a6ae5",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日10:00-21:00营业",
+        "en": "Open daily 10am–9pm",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:44:10Z"
+}

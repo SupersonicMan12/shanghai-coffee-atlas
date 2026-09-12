@@ -1,0 +1,68 @@
+{
+  "cafeId": "fenkafei-quankou-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "203e37897d4d",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨的街角咖啡馆",
+      "en": "Open till late corner cafe"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内座位较少，另设室外座位",
+        "en": "Few indoor seats, plus outdoor seating",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供Flensburger Weizen啤酒",
+        "en": "Serves Flensburger Weizen beer",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周四营业至24:00，周末至次日1:00",
+        "en": "Open till midnight weekdays, 1am weekends",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐单人餐",
+        "en": "Gaode recommends single-person meal",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6,
+          8
+        ],
+        "zh": "有室内外座位可坐",
+        "en": "Seating indoors and out"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "街边带遮阳棚和折叠椅",
+        "en": "Street-side with canopy"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:08Z"
+}

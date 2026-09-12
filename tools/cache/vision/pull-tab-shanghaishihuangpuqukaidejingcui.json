@@ -1,0 +1,71 @@
+{
+  "cafeId": "pull-tab-shanghaishihuangpuqukaidejingcui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a95065c3c116",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/34bfb388d2faf7cf933dbeb488853889",
+    "https://store.is.autonavi.com/showpic/5fcb3b5d110412d30000002292184934?type=pic",
+    "https://store.is.autonavi.com/showpic/b4756cc68edb1b3f0000004273728960?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量座位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见冰咖啡饮品，杯中含奶泡层",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡制作设备和瓶装原料",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有两把椅子供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机、手冲器具等专业咖啡设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台区域整洁，有植物装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯上有“Coffee Tea And More”字样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有纸巾盒和贴纸装饰的收纳盒",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:15:00Z"
+}

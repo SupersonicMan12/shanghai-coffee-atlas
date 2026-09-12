@@ -1,0 +1,52 @@
+{
+ "cafeId": "nine-o-nine-wanhangdu",
+ "model": "qwen-max",
+ "inputDigest": "ed5f6427fe9d",
+ "raw": {
+  "headline": {
+   "zh": "自然客厅概念，落叶造型甜品独特",
+   "en": "Unique leaf-shaped desserts, nature-themed cafe"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "开发多种落叶造型甜品",
+    "en": "Leaf-shaped desserts",
+    "from": "[2, 4]"
+   },
+   {
+    "kind": "story",
+    "zh": "主打“自然客厅”概念",
+    "en": "Nature living room concept",
+    "from": "[3]"
+   },
+   {
+    "kind": "view",
+    "zh": "毗邻编号0909悬铃木",
+    "en": "Next to a century-old sycamore",
+    "from": "[1, 4]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[5]",
+    "zh": "适合边喝咖啡边办公",
+    "en": "Good for working with coffee"
+   },
+   "linger": {
+    "value": 60,
+    "from": "[5]",
+    "zh": "可以慢慢享受草坪",
+    "en": "Enjoy the lawn at leisure"
+   },
+   "adventure": {
+    "value": 70,
+    "from": "[2, 4]",
+    "zh": "创意甜品和自然主题",
+    "en": "Creative desserts and nature theme"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:25Z"
+}

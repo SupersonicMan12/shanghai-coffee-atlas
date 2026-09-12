@@ -1,0 +1,78 @@
+{
+  "cafeId": "captain-george",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3f8efd53d0be",
+  "raw": {
+    "headline": {
+      "zh": "一豆三喝冠军豆体验",
+      "en": "Taste one bean three ways"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "全线使用赛级与全球冠军精选豆",
+        "en": "Serves competition-grade and world-champion beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供‘一豆三喝’特调体验",
+        "en": "Offers 'one bean, three drinks' tasting",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "客区分设意式、手冲、虹吸吧台",
+        "en": "Separate bars for espresso, pour-over, siphon",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有室内座位及室外座位",
+        "en": "Indoor and outdoor seating available",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–19:00营业",
+        "en": "Open daily 10am–7pm",
+        "from": [
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5,
+          10
+        ],
+        "zh": "多区域座位适合久坐",
+        "en": "Seating zones invite lingering"
+      },
+      "adventure": {
+        "value": 85,
+        "from": [
+          7,
+          10,
+          13,
+          14
+        ],
+        "zh": "冠军豆与多冲煮方式",
+        "en": "Champion beans, multiple brew methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:00Z"
+}

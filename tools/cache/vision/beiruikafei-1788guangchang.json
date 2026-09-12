@@ -1,0 +1,65 @@
+{
+  "cafeId": "beiruikafei-1788guangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d4fd5dd6df93",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/471ca44e8aabb0f7e853c943b08dcfb6",
+    "https://aos-comment.amap.com/B0J2H1L99O/comment/content_media_external_images_media_1000014991_ss__1732510395245_15440415.jpg",
+    "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，有落地玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在用餐，座位为桌椅形式",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜中有贝果三明治、三明治等食物",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "贝果三明治标价15元，三明治标价12元",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为伯爵脏小贝DIRTY，杯中可见分层液体",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口摆放花卉装饰，无室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见烘焙设备和操作台",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:16:16Z"
+}

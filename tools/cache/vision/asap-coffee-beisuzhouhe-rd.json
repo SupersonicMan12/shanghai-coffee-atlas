@@ -1,0 +1,71 @@
+{
+  "cafeId": "asap-coffee-beisuzhouhe-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ee5b4328c0a9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/348ef103150a004b0000002329040899?type=pic",
+    "https://store.is.autonavi.com/showpic/e2dd19ccd55a06d20000003576902293?type=pic",
+    "https://aos-comment.amap.com/B0L3MCLV20/comment/72ABF7DB_4515_4E51_903A_30571476B770_L0_001_1500_200_1773039035716_90803102.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台后有咖啡机、磨豆机等专业器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台旁有杂志架和绿植装饰。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括抹茶拿铁、热拿铁和云朵冰咖。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "甜点有芝士蛋糕和云朵造型慕斯。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台为白色小方砖贴面，空间紧凑。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见顾客座位或电脑使用者。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "手持的云朵冰咖杯身透明，分层明显。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有大面积窗户，采光良好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:36Z"
+}

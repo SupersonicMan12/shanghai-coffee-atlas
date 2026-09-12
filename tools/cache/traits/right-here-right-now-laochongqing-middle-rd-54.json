@@ -1,0 +1,84 @@
+{
+  "cafeId": "right-here-right-now-laochongqing-middle-rd-54",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6e412c4fbc0b",
+  "raw": {
+    "headline": {
+      "zh": "深夜营业的唠嗑咖啡馆",
+      "en": "Late-night chatty coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业至深夜，被称为上海“深夜食堂”",
+        "en": "Open late, dubbed Shanghai's 'midnight diner'",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "老板是东北人，爱热闹能唠嗑",
+        "en": "Owner is a talkative northerner",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "有门口小院子可供客人休息",
+        "en": "Has a small outdoor courtyard to sit",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡，使用Hario器具",
+        "en": "Serves pour-over with Hario gear",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内仅吧台位与1张圆桌配2椅",
+        "en": "Only bar seating and one two-seat table",
+        "from": [
+          2,
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "老板爱唠嗑，氛围热闹",
+        "en": "Chatty owner, lively vibe"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "座位少且紧凑，不便久坐",
+        "en": "Tight space, not for long stays"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "有手冲设备与分享壶",
+        "en": "Pour-over setup present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:45Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "p-m-cafe-wuyuan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "614f87d8c3c3",
+  "photos": [
+    "https://aos-comment.amap.com/B0K30DJNAU/comment/8F8FF99D_3E24_484C_955C_654F3127FA13_L0_001_1502_200_1760148359601_61916525.jpg",
+    "https://aos-comment.amap.com/B0K30DJNAU/comment/C2C848BC_37F1_442A_B11D_74B881B515B7_L0_001_2000_150_1760148359600_45429678.jpg",
+    "https://aos-comment.amap.com/B0K30DJNAU/comment/589FCAA8_722F_4D23_B727_02F71A251E68_L0_001_1512_2016_1734236787819_69272892.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内是狭长通道式布局，两侧设座位，空间紧凑。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区有咖啡机和手冲器具，墙上挂有推荐饮品牌。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "提供烧焦芝士蛋糕、荔枝风味冰茶和拿铁。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有小块方形甜点配陶瓷杯咖啡，用日式小碟盛放。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内座位以木质桌椅为主，数量不多，未见多人聚集。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处玻璃门挂有OPEN标牌，无室外座位。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客就坐，但无人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "墙面和家具多为浅色木纹材质，装修风格简约。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:48Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "deck-coffee-taproom-jingansi",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "15dff2f1b019",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ca75b9c32a0814470000003121126894?type=pic",
+    "https://store.is.autonavi.com/showpic/3d114daf59f438060000003121142716?type=pic",
+    "https://store.is.autonavi.com/showpic/383870a964ee15cd0000003068374618?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有木质砧板装的烤肋排、鸡翅等西式餐点。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为粉色冰饮，杯身有品牌标识。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有多层酒架，陈列大量瓶装酒。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌面上是带纹理的大理石或人造石材质。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐点旁配有小金属量杯装的蘸料或香料。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内灯光偏暗，以暖色和蓝色氛围灯为主。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:11Z"
+}

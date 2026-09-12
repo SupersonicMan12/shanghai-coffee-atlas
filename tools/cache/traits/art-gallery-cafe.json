@@ -1,0 +1,52 @@
+{
+ "cafeId": "art-gallery-cafe",
+ "model": "qwen-max",
+ "inputDigest": "b1b09e4e5ced",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "墙面为哑光肌理涂料，内嵌式背光照明",
+    "en": "Matte-textured walls with recessed backlighting",
+    "from": "[6]"
+   },
+   {
+    "kind": "food",
+    "zh": "提供酥皮分层明显的长方形蛋糕",
+    "en": "Serves layered rectangular puff pastry cake",
+    "from": "[2][3]"
+   },
+   {
+    "kind": "food",
+    "zh": "还有顶部装饰巧克力与咖啡豆的圆形小蛋糕",
+    "en": "Also serves small round cakes with chocolate and coffee bean",
+    "from": "[4]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": "[7]",
+    "zh": "安静适合阅读",
+    "en": "Quiet for reading"
+   },
+   "energy": {
+    "value": 10,
+    "from": "[7]",
+    "zh": "非常安静",
+    "en": "Very quiet"
+   },
+   "linger": {
+    "value": 80,
+    "from": "[7]",
+    "zh": "适合久坐阅读",
+    "en": "Good for long reads"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:45Z"
+}

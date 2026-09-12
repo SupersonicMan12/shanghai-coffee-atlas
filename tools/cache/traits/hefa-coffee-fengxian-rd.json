@@ -1,0 +1,77 @@
+{
+  "cafeId": "hefa-coffee-fengxian-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "61eaa57f19b6",
+  "raw": {
+    "headline": {
+      "zh": "手冲专业，临街有座",
+      "en": "Specialty hand brew, street-side seat"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设单人座位区",
+        "en": "Outdoor seating for one",
+        "from": [
+          1,
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲器具与磨豆机",
+        "en": "Has pour-over gear and grinder",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "使用明治牛乳、MONIN糖浆等原料",
+        "en": "Uses Meiji milk and MONIN syrups",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应贝果及全麦谷物贝果",
+        "en": "Sells bagels and whole grain bagels",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:30开，周末8:00开",
+        "en": "Opens 7:30 weekdays, 8:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有手冲与虹吸壶设备",
+        "en": "Pour-over and siphon setup"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          2,
+          9
+        ],
+        "zh": "仅设单人室外座",
+        "en": "Only one outdoor seat"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:01Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "beiruikafei-wu-middle-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c1ebfbc23139",
+  "photos": [
+    "https://aos-comment.amap.com/B0G2NX7BWT/comment/content_media_external_file_1000095198_ss__1772447561203_64445465.jpg",
+    "https://store.is.autonavi.com/showpic/23c986a87eecabbe0000000728316721?type=pic",
+    "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内陈列多种咖啡豆，包括危地马拉、苏门答腊等产地",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有伯爵脏小贝DIRTY饮品展示",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口摆放新年装饰，含红色礼盒和花艺",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有木质展示架，陈列咖啡杯具和咖啡豆包装",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见部分咖啡豆价格标签，如88元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有玻璃隔断与竖条形装饰，空间现代简洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示区有多个不同款式的咖啡杯，包括保温杯和陶瓷杯",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:14Z"
+}

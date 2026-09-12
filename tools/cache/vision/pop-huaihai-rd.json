@@ -1,0 +1,71 @@
+{
+  "cafeId": "pop-huaihai-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "8183426ac5ec",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/cc512a9da62da0398efdbbc00fd867d4",
+    "https://store.is.autonavi.com/showpic/80f9d4a3a7095b8c0000002744288148?type=pic",
+    "https://store.is.autonavi.com/showpic/cbeab9db828633330000003246730457?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店招为‘米仓Pop’，位于瑞金一路136号，夜间拍摄，临街玻璃橱窗有蛋糕装饰画",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图显示浅蓝灰外墙、拱形窗框、带铁艺格栅的木门；窗内可见‘To Go!’与‘扫码下单’字样",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图室内：左侧多层置物架陈列杯具、纸袋、小食篮；右侧旋转展台放纸袋与藤编篮",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图可见3个木质圆凳置于小桌旁，无固定桌椅；地面为浅色砖，墙面为浅灰瓷砖+水泥质感",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图货架标签可见‘布丁杯 38/58’‘拿铁杯 35/50’‘贴纸 16.8’等价格，未见饮品或食物实物",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图窗台下层灯箱标有‘布丁杯’‘卡美罗华夫’等品名，下方陈列数个透明盒装甜点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图店内无咖啡机、磨豆机、手冲台等专业器具可见；未见书架、宠物或绿植",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图窗外可见街道与行人（穿粉色外套），店门朝向临街，非庭院或天台",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:36Z"
+}

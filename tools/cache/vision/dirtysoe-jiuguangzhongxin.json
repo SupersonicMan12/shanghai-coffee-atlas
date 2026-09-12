@@ -1,0 +1,71 @@
+{
+  "cafeId": "dirtysoe-jiuguangzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "caa12d4d9e20",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/55017ea27bfef0640000000723886129?type=pic",
+    "https://aos-comment.amap.com/B0L13O7DB5/comment/2025-12-14-12-26-08%2BFD1D5B4C-6B30-4C14-AE14-7D5383AB3A9_1765686414719_95269998.jpg",
+    "https://store.is.autonavi.com/showpic/64a666205d8263ea0000000723872391?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "饮品为dirty咖啡，有分层效果",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，为小型独立摊位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客排队点单",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见手冲咖啡设备和磨豆机等器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店员在操作台后工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示架上有咖啡豆包装袋",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上有二维码扫码点单提示",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有风扇、照明灯等设施",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:16:26Z"
+}

@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "店内咖啡选用光明优质鲜奶，不定期更换豆单，近10种精品阿拉比卡豆",
+      "kind": "beans",
+      "quote": "店内的咖啡选用的奶品都是光明优质鲜奶，店里会不定期更换豆单，同时期会有近10种咖啡豆可供选择，且所有均为精品阿拉比卡豆。",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网"
+    },
+    {
+      "text": "墙体采用3D打印技术制作凹凸不平效果，视觉高级且舒适",
+      "kind": "space",
+      "quote": "在门店的设计上，这家咖啡馆对墙体进行了特殊的装饰——使用3D打印的技术制作出凹凸不平的效果，从视觉效果的角度看很高级且舒适。",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下"
+    },
+    {
+      "text": "地址为上海市黄浦区淮海中路700号一楼A区（华狮广场后方）",
+      "kind": "space",
+      "quote": "NAO!CAFE是一家咖啡厅，地址为上海市黄浦区淮海中路700号一楼A区咖啡厅(华狮广场后方)。",
+      "url": "https://ditu.amap.com/place/B0J64A7CRC",
+      "site": "高德地图"
+    },
+    {
+      "text": "冬日推出4款扁桃仁奶特调咖啡，含扁桃仁拿铁、抹茶拿铁、巧克力等",
+      "kind": "drinks",
+      "quote": "四款特调风味,四种不同层次 「扁桃仁拿铁」 点缀百奇饼干棒增添酥脆趣味 「扁桃仁抹茶拿铁」 抹茶的微苦与扁桃仁的圆润在杯中温柔相融",
+      "url": "https://chihe.sohu.com/a/970947899_99989476",
+      "site": "搜狐网"
+    },
+    {
+      "text": "曾推苹果肉桂拿铁，呼应冬季暖意主题",
+      "kind": "drinks",
+      "quote": "NAO!cafe|苹果肉桂拿铁",
+      "url": "https://m.thepaper.cn/newsDetail_forward_25333072",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "冬日轻盈充能,这一杯刚刚好 ",
+      "url": "https://chihe.sohu.com/a/970947899_99989476",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "NAO!CAFE - 上海市黄浦区- 餐饮服务;咖啡厅 - 高德地图",
+      "url": "https://ditu.amap.com/place/B0J64A7CRC",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 3,
+      "title": "魔都冬天的温暖,是肉桂咖啡给的",
+      "url": "https://m.thepaper.cn/newsDetail_forward_25333072",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:46:25Z"
+}

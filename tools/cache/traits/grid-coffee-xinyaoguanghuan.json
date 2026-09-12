@@ -1,0 +1,87 @@
+{
+  "cafeId": "grid-coffee-xinyaoguanghuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ac7a95b88d1e",
+  "raw": {
+    "headline": {
+      "zh": "高性价比精品咖啡",
+      "en": "Premium coffee at great value"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含罗马人美式、咸奶萃、白脱拿铁",
+        "en": "Signature drinks include Roman Americano, salty milk espresso, buttermilk latte",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地咖啡豆",
+        "en": "All drinks use single-origin beans scoring ≥84 on SCA scale",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内座位少量，另设户外遮阳伞座椅",
+        "en": "Limited indoor seating plus shaded outdoor chairs",
+        "from": [
+          2,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:00-14:00, 16:30-21:30",
+        "en": "Open 07:00–14:00 & 16:30–21:30 daily",
+        "from": [
+          16
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客在店内使用电脑",
+        "en": "Customers work on laptops here",
+        "from": [
+          6,
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "可见多人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          4,
+          7
+        ],
+        "zh": "有室内外座位可坐",
+        "en": "Indoor and outdoor seating"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "微创新经典款+高分单一产地豆",
+        "en": "Classic drinks with creative twists"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:05Z"
+}

@@ -1,0 +1,72 @@
+{
+  "cafeId": "koumeidakafei-xinyao-guanghuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "146f18d51b81",
+  "photos": [
+    "https://aos-comment.amap.com/B0L35UEARU/comment/E16D9108_2F32_45D8_8618_656951A83B54_L0_001_1500_200_1761053971429_33480808.jpg",
+    "https://store.is.autonavi.com/showpic/2d6cfc5ac1406bea0000002438790387?type=pic",
+    "https://aos-comment.amap.com/B0L35UEARU/comment/content_media_external_images_media_4830_ss__1770341167426_43333935.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有临街窗户，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供奶油泡芙和炸猪排三明治",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有咖啡杯和配套碟子，杯身印有品牌图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为砖墙结构，门口有遮阳棚",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见促销牌，标价39元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐桌上摆放着纸巾和菜单",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "室内座位靠窗，编号为6号桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "食物摆盘整洁，含奶油、樱桃装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:20Z"
+}

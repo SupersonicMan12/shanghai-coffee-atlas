@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "text": "上海咖啡热门榜第1名，¥117/人",
+      "kind": "story",
+      "quote": "上海咖啡热门榜· 第1名. 营业中APP内查看商户信息.",
+      "url": "http://m.dianping.com/shop/1400705589?msource=applemaps",
+      "site": "【W CAFÉ SH The Beats brunch&bistro(新天地店)】电话_地址_价格"
+    },
+    {
+      "text": "提供多种精品咖啡豆,包括新产季埃塞俄比亚豆",
+      "kind": "beans",
+      "quote": "10支豆子里有9支都是新产季(最新产季的豆子",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【W CAFÉ SH The Beats brunch&bistro(新天地店)】电话_地址_价格",
+      "url": "http://m.dianping.com/shop/1400705589?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "W Coffee SH (EKA Tianwu Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9680ACBE798&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "W Coffee SH(EKA天物店) (Pudong Jinqiao District, Shanghai)",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-143194860/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "咖啡豆深烘焙和浅烘焙区别深烘浅烘咖啡豆风味口感特点萃取方式",
+      "url": "https://m.gafei.com/views-138031",
+      "site_name": "咖啡网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:19Z"
+}

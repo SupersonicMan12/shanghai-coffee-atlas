@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "营业时间：10:00–17:30",
+      "kind": "time",
+      "quote": "营业时间：10:00-17:30",
+      "url": "https://www.shyp.gov.cn/shypq/ggfw-bmgg/20260424/504187.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "提供拿铁、摩卡、雪域芝士、焦糖玛奇朵、美式、卡布其诺等饮品",
+      "kind": "drinks",
+      "quote": "拿铁 · 摩卡 · 雪域芝士 · 焦糖玛奇朵 · 美式 · 卡布其诺 · 开心果芝士 · 樱桃黑森林蛋糕",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/216/15885491.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "供应樱桃黑森林蛋糕等甜点",
+      "kind": "food",
+      "quote": "拿铁 · 摩卡 · 雪域芝士 · 焦糖玛奇朵 · 美式 · 卡布其诺 · 开心果芝士 · 樱桃黑森林蛋糕",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/216/15885491.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "玩转杨数浦｜建议收藏！在杨浦滨江，吃吃喝喝逛上一整天",
+      "url": "https://www.shyp.gov.cn/shypq/ggfw-bmgg/20260424/504187.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "从“建设”到“品质提升” 追求个性化、满足多元化需求成新风向 上海“一江一河”两岸新空间正被点亮",
+      "url": "https://www.shio.gov.cn/TrueCMS/shxwbgs/ywts/content/41fc7fa7-602f-43d4-8608-468d65272626.htm",
+      "site_name": "上海市人民政府新闻办公室官网"
+    },
+    {
+      "index": 3,
+      "title": "怡和1915（濱江國際廣場店） (上海北外灘地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-31449035/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "“百年工业·蝶变焕新”之旅",
+      "url": "https://www.shyp.gov.cn/shypq/myyp/20250314/476077.html",
+      "site_name": "上海市杨浦区人民政府"
+    },
+    {
+      "index": 5,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 6,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 7,
+      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 8,
+      "title": "怡和1915(滨江国际广场店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/216/15885491.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 9,
+      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
+      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
+      "site_name": "东方财富网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:50Z"
+}

@@ -1,0 +1,63 @@
+{
+  "cafeId": "starbucks-osm-9",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0fbad260e20a",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "有城市限定特饮‘上海咖啡’，含麦乳精与司考奇",
+        "en": "Serves Shanghai-exclusive drink with malted milk and s'mores",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选店提供小批量、有人文故事的咖啡豆及多种冲煮方式",
+        "en": "Offers small-batch beans with stories and varied brew methods",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "力宝广场店用可回收材质和电子屏菜单",
+        "en": "Uses recycled materials and digital menu screens",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "智慧湾店由6个工业风集装箱构成",
+        "en": "Built from six industrial-style shipping containers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "外滩源店为全国首家咖啡·酒坊，主打Mixato融合饮品",
+        "en": "China’s first coffee-bar serving Mixato fusion drinks",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "有多款实验性特调与手冲",
+        "en": "Experimental drinks and brews"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:45Z"
+}

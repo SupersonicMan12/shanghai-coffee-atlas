@@ -1,0 +1,47 @@
+{
+  "cafeId": "cafe-society-shanghaiwanhaoting",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "75ae84b18446",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1d3bb65089d132888f2ed07d0d261715",
+    "https://aos-comment.amap.com/B0H16CZO71/comment/0c866e2991c92f48b401e592614001a1_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H16CZO71/comment/content_media_external_file_100007133_1766328157124_95624125.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门口有台阶和盆栽，门头标“咖啡会社”",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "陈列柜内有紫薯卷、三角包等面包",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "冷藏柜有Bundaberg气泡饮、Vedett啤酒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "货架上有“COFFEE ROASTERS”字样咖啡豆袋",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:11Z"
+}

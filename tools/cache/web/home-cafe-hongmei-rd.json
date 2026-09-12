@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "使用深烘咖啡豆",
+      "kind": "beans",
+      "quote": "深烘的「耶加深」醇厚香浓味正不涩",
+      "url": "https://k.sina.com.cn/article_2205297013_8372297502001aa66.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "提供自制黄油小甜饼",
+      "kind": "food",
+      "quote": "还会额外附赠主理人Elin自制的黄油小甜饼一枚",
+      "url": "https://k.sina.com.cn/article_2205297013_8372297502001aa66.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "位于虹梅路2905号",
+      "kind": "space",
+      "quote": "Home Cafe Studio 地址:虹梅路2899弄 金虹桥东苑怡和园小区进门右手边",
+      "url": "https://k.sina.com.cn/article_2205297013_8372297502001aa66.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "来上海吃,请把1天留给古北!",
+      "url": "https://k.sina.com.cn/article_2205297013_8372297502001aa66.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "全静安的咖啡爱好者都在这里了吧……_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247374&idx=2&sn=0e8ecb748f168ab606d58f72c513b2a2&chksm=bc5debec013b0b1941d4a1d91b35f13db767026886a7592741635a14ab724de15b41e903f921&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "云南咖啡 在上海打出一片天",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "Home 了解更多有关Home的内容_中国咖啡网",
+      "url": "https://m.gafei.com/info-Home",
+      "site_name": "咖啡网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:01Z"
+}

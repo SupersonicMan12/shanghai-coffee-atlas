@@ -1,0 +1,41 @@
+{
+  "cafeId": "white-seven-coffee-pingdingluzhixingdashadongnan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c192ec3b4332",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/421b971a6309d36bf75def3f17ee800e",
+    "https://store.is.autonavi.com/showpic/242723ea00f2542256f6e5549a359f71",
+    "https://store.is.autonavi.com/showpic/cc8b3a9cf8ddcdaa38342ad95846ed96"
+  ],
+  "photoKinds": [
+    "other",
+    "other",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "夜间室外有绿化带和小径，可见施工建筑。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张照片显示庭院内有树木和地灯照明。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第三张照片中可见一棵支撑的树和灌木丛。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:37Z"
+}

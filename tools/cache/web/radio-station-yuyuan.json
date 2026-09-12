@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "text": "一楼设有咖啡吧台、少量座位和一个播音间",
+      "kind": "space",
+      "quote": "一楼设有咖啡吧台、少量座位和一个播音间",
+      "url": "https://whlyj.sh.gov.cn/gqfc/20230523/30d28e34b07144809204843a43cb1b5e.html",
+      "site": "“上海”门户网"
+    },
+    {
+      "text": "二楼空间开阔，座位充足，是休憩的好地方",
+      "kind": "seating",
+      "quote": "二楼空间开阔,座位充足,是休憩的好地方",
+      "url": "https://whlyj.sh.gov.cn/gqfc/20230523/30d28e34b07144809204843a43cb1b5e.html",
+      "site": "“上海”门户网"
+    },
+    {
+      "text": "窗位置能看到街景",
+      "kind": "view",
+      "quote": "窗位置能看到街景",
+      "url": "https://maps.apple.com/place?auid=1118671851298390&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "有洗手间，座椅还算舒适",
+      "kind": "seating",
+      "quote": "有洗手间，座椅还算舒适",
+      "url": "https://maps.apple.com/place?auid=1118671851298390&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "唯一有点遗憾的是插座少",
+      "kind": "seating",
+      "quote": "唯一有点遗憾的是插座少",
+      "url": "https://maps.apple.com/place?auid=1118671851298390&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "融合了咖啡馆、直播间和沙龙空间",
+      "kind": "space",
+      "quote": "愚园路电台融合了咖啡馆、直播间和沙龙空间",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30469609",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店内可取阅来自世纪文景的‘世纪好书’",
+      "kind": "space",
+      "quote": "你都可以在角角落落看到可以取阅的全新书籍",
+      "url": "https://whlyj.sh.gov.cn/gqfc/20230523/30d28e34b07144809204843a43cb1b5e.html",
+      "site": "“上海”门户网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "愚园路咖啡与春,悠闲午后,完美搭配!",
+      "url": "https://baijiahao.baidu.com/s?id=1861107009689843975",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "喝咖啡、倾听城市故事,上海“愚园路电台”亮相",
+      "url": "https://whlyj.sh.gov.cn/gqfc/20230523/30d28e34b07144809204843a43cb1b5e.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 3,
+      "title": "Peet's Peet's Coffee (Yuyuan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98D7355492E&address=Yuyuan+Road+No.108%2C+Jing%27an%2C+Shanghai+China&coordinate=31.224767%2C121.445790&name=Peet%27s+Peet%27s+Coffee+%28Yuyuan+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "Yuyuan Road Radio Station Coffee - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118671851298390&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "三立方愚园路店，上海/ 具场| 谷德设计网",
+      "url": "https://www.gooood.cn/cubic-3-yuyuan-road-by-juchang.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "愚園路電台咖啡(上海靜安寺/南京西路)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-144300663/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "超好逛!来愚园路打卡4大网红地标～",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30469609",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 8,
+      "title": "超好逛!来愚园路打卡4大网红地标～",
+      "url": "https://www.shcn.gov.cn/col5826/20250710/1293962.html",
+      "site_name": "上海长宁门户网站"
+    },
+    {
+      "index": 9,
+      "title": "超好逛！来愚园路打卡4大网红地标发布时间：2025-03-23 - 上海长宁",
+      "url": "https://www.shcn.gov.cn/col314/20250325/1281019.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 10,
+      "title": "超好逛!来愚园路打卡4大网红地标 ",
+      "url": "https://www.shcn.gov.cn/col6991/20250325/1280983.html",
+      "site_name": "上海长宁门户网站"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:21Z"
+}

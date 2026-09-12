@@ -1,0 +1,71 @@
+{
+  "cafeId": "xiangnashengmingnengliangguan-yongrongguojizhong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c6d020941cc9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/92b6ed9f95e8a434dc46577c09129ae3",
+    "https://store.is.autonavi.com/showpic/9cde675029ba4b22bb609a0a5d5bb1c1",
+    "https://store.is.autonavi.com/showpic/8d70e998011ce3029145553e3eb77077"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "建筑为现代风格，有大面积玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有双开门，门上贴有告示",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口设有遮雨棚，右侧有台阶通向入口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "建筑外立面为浅色石材，结构规整",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门旁有黑色标牌，写有“香纳”字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见树木和天空倒影，表明临街或有绿化",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "无明显室外座位区域",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见烘焙设备、手冲台等咖啡器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:11:48Z"
+}

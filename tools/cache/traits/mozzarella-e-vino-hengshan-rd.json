@@ -1,0 +1,66 @@
+{
+  "cafeId": "mozzarella-e-vino-hengshan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8afbc080ea00",
+  "raw": {
+    "headline": {
+      "zh": "奶酪与酒的日与夜",
+      "en": "Cheese & wine day and night"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "窗外可看外滩源红砖洋楼",
+        "en": "View of Bund’s red-brick buildings",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌为奶酪、披萨、薯条等",
+        "en": "Known for cheese, pizza, fries",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业10:00–22:00",
+        "en": "Open daily 10am–10pm",
+        "from": [
+          11,
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主打奶酪与酒的日与夜体验",
+        "en": "Concept: cheese & wine all day",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有室外座和绿植花园感",
+        "en": "Garden vibe, outdoor seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:23Z"
+}

@@ -1,0 +1,63 @@
+{
+ "cafeId": "better-together-cafe-taian-rd-115",
+ "model": "qwen-max",
+ "inputDigest": "a9290bc0cc2c",
+ "raw": {
+  "headline": {
+   "zh": "法式庭院包围，阳光下如普罗旺斯",
+   "en": "French courtyard, sunny like Provence"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整排大窗户正对绿意盎然的庭院",
+    "en": "Large windows facing a green courtyard",
+    "from": 8
+   },
+   {
+    "kind": "space",
+    "zh": "室内有藤蔓爬墙、铁艺桌椅",
+    "en": "Indoor with ivy and iron furniture",
+    "from": 3
+   },
+   {
+    "kind": "food",
+    "zh": "营业时间09:30-18:00",
+    "en": "Open 09:30-18:00",
+    "from": 9,
+    "},4}, {": ".$kind=",
+    "time": "zh",
+    "},": 11
+   },
+   {
+    "kind": "story",
+    "zh": "创始人倡导‘一期一会’茶道精神",
+    "en": "Founder advocates 'Ichigo Ichie' tea spirit",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 8,
+    "zh": "大窗户和自然环境适合专注",
+    "en": "Big windows, natural focus"
+   },
+   "energy": {
+    "value": 30,
+    "from": 3,
+    "],6,8, ": "zh",
+    "zh": "安静的庭院氛围",
+    "en": "Quiet courtyard vibe"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "],5,8, ": "zh",
+    "zh": "舒适的室内外座位",
+    "en": "Comfortable indoor & outdoor seating"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:57Z"
+}

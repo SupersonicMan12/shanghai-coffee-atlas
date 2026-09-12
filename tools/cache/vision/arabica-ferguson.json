@@ -1,0 +1,71 @@
+{
+  "cafeId": "arabica-ferguson",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "af73e34cd283",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/be9f6922620535f04c425f9dfca1b88d",
+    "https://store.is.autonavi.com/showpic/bc2948b75321870a0000002347668885?type=pic",
+    "https://store.is.autonavi.com/showpic/9c7e98fbe49995e90000000717922915?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门+两侧绿植墙，入口处有黄色木凳",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为吧台式布局，白色台面，木质天花板，左侧有置物架与挂包",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台可见白色咖啡机、磨豆机、堆叠纸杯及玻璃滤杯架",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品：一杯抹茶拿铁（拉花心形），一杯顶部插两颗糖渍草莓的泡沫饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "纸杯印黑色%标志；背景墙上挂两个%品牌帆布包（白/卡其）",
+      "kind": "brand",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内右侧大玻璃窗，窗外可见绿植与街道，一人坐窗边低头看手机",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无可见书架、宠物；未见烘焙机、手冲台、虹吸壶",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图门口立牌部分可见，但文字不清；无清晰菜单或价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:35:43Z"
+}

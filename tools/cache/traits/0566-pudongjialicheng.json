@@ -1,0 +1,57 @@
+{
+  "cafeId": "0566-pudongjialicheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "52ee1da39392",
+  "raw": {
+    "headline": {
+      "zh": "名古屋手冲咖啡",
+      "en": "Hand-brewed coffee from Nagoya"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为手冲咖啡",
+        "en": "Specializes in hand-brewed coffee",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供日本抹茶柚子生芝士等日式甜点",
+        "en": "Offers Japanese-style desserts like matcha yuzu cheesecake",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "甜点标价48元，陈列于木质盒中",
+        "en": "Desserts priced at ¥48, displayed in wooden boxes",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–22:00营业",
+        "en": "Open daily 09:00–22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          8
+        ],
+        "zh": "主打手冲咖啡",
+        "en": "Focus on hand-brew"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:50Z"
+}

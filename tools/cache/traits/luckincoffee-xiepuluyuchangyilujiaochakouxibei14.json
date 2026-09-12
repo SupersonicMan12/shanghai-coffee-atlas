@@ -1,0 +1,65 @@
+{
+  "cafeId": "luckincoffee-xiepuluyuchangyilujiaochakouxibei14",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a34173863edc",
+  "raw": {
+    "headline": {
+      "zh": "站喝快取，新品频出",
+      "en": "Grab-and-go with frequent new drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌有生椰拿铁、酱香拿铁",
+        "en": "Signature drinks include coconut and baijiu lattes",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "主力饮品价格12-15元",
+        "en": "Main drinks priced at ¥12–15",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门店为20-60㎡快取店，无或少量堂食",
+        "en": "20–60㎡ pickup-only store, minimal seating",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自全球核心产区直采",
+        "en": "Beans sourced directly from global growing regions",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "快取站喝为主",
+        "en": "Pickup & stand"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "每3-4天推新品",
+        "en": "New drink every few days"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:06Z"
+}

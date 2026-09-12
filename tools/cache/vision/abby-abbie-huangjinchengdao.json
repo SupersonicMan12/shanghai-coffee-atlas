@@ -1,0 +1,72 @@
+{
+  "cafeId": "abby-abbie-huangjinchengdao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5f89edeb081b",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service_4549ad3f0641f27635cc1b67edd018e7_1767560131846_56404226.jpg",
+    "https://aos-comment.amap.com/comment/content_service_f50dd8166cb829f44fb30d2fff362283_1767560131850_32341486.jpg",
+    "https://aos-comment.amap.com/comment/content_service_0c4ba2e901d0939b38fb306a86a96356_1767560131850_40048964.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有橙色墙面和悬挂绿植装饰",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台后有员工在工作，使用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜中有多种蛋糕和甜点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有金属锅装的拉面，配煎蛋、香菜和火腿",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一杯莫吉托类饮品，含冰块、青柠和薄荷",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有切片蛋糕，夹层为黄色蛋糕体与奶油",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和遮阳伞，设有室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有黄色树叶，可能为秋季拍摄",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:54Z"
+}

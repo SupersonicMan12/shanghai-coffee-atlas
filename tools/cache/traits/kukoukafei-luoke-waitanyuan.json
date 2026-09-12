@@ -1,0 +1,76 @@
+{
+  "cafeId": "kukoukafei-luoke-waitanyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "18c4c294d60d",
+  "raw": {
+    "headline": {
+      "zh": "手冲干净，单杯98元",
+      "en": "Clean hand-brew, ¥98/cup"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡单杯98元，口感干净",
+        "en": "Hand-brew coffee ¥98/cup, clean taste",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供多种浅烘与深烘豆子",
+        "en": "Offers light and dark roast beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "4张方桌配高脚椅，另设吧台凳",
+        "en": "4 square tables with high stools, plus bar seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "冷藏柜陈列可颂、巧克力蛋糕等糕点",
+        "en": "Chilled display of croissants, chocolate cake",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-19:00营业",
+        "en": "Open daily 10:00–19:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          4,
+          8,
+          9
+        ],
+        "zh": "手冲为主，多款烘焙度豆子",
+        "en": "Hand-brew focus, varied roasts"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          7
+        ],
+        "zh": "有窗景与固定座位",
+        "en": "Window views, fixed seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:52Z"
+}

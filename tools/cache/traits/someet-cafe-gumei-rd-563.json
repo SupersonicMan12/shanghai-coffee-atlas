@@ -1,0 +1,79 @@
+{
+  "cafeId": "someet-cafe-gumei-rd-563",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0ac0acdbd03d",
+  "raw": {
+    "headline": {
+      "zh": "可办公的带窗咖啡馆",
+      "en": "Cafe with windows for working"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位带遮阳伞",
+        "en": "Outdoor seating with sun umbrellas",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内有大面积落地窗，采光良好",
+        "en": "Large floor-to-ceiling windows provide good light",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有木质桌椅和砖墙结构",
+        "en": "Wooden tables and brick walls inside",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有客人在座位上使用笔记本电脑",
+        "en": "Guests work on laptops at seats",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间10:00-21:00",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          8
+        ],
+        "zh": "可见客人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4,
+          5,
+          7,
+          8
+        ],
+        "zh": "有室内外座位适合久坐",
+        "en": "Seating suits lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:29Z"
+}

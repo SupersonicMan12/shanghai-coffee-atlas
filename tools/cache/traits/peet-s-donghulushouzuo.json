@@ -1,0 +1,78 @@
+{
+  "cafeId": "peet-s-donghulushouzuo",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "065568c4c342",
+  "raw": {
+    "headline": {
+      "zh": "手作店配户外座",
+      "en": "Handcrafted coffee with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设户外座位区，配遮阳伞和绿植",
+        "en": "Outdoor seating with umbrellas and plants",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "户外区有大型落地窗，采光良好",
+        "en": "Large windows provide ample natural light",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元，用创世巨星豆",
+        "en": "Signature 'Star Flat White' uses in-house beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Only beans roasted within 21 days",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至21:30，周末至22:00",
+        "en": "Open until 21:30 weekdays, 22:00 weekends",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          3,
+          5,
+          9
+        ],
+        "zh": "有户外座与宽敞堂食区",
+        "en": "Outdoor and spacious indoor seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          7,
+          13
+        ],
+        "zh": "自烘豆+多款特色特调",
+        "en": "House-roasted beans and signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:54Z"
+}

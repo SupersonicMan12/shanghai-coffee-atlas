@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffea-shed-zhangningquyanan-west-rd-1262",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "87b389f5f11b",
+  "photos": [
+    "https://aos-comment.amap.com/B0J16U2LLA/comment/011e69c00d6cd20bcd4b87481f600345_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J16U2LLA/comment/content_media_external_file_517696_ss__1767503823590_23244023.jpg",
+    "https://store.is.autonavi.com/showpic/58524d7bddfed9dd0000004868110565?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门+木框结构，入口敞开，上方有‘coffeaSHED’招牌及黑色人形logo。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外左侧有多个带轮木箱花槽，种植绿植；右侧设木质长凳与多层木架，陈列盆栽植物。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见吧台区，至少2名顾客背对镜头站立点单，1名穿绿衣店员在操作。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内背景有木质货架，摆放盒装咖啡豆（带黑色人形logo）、瓶装饮品及小包装商品。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "前景为一杯冰咖啡，杯身贴有‘coffea SHED’标签与黑色人形logo，配纸吸管与透明盖。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外悬挂绿色标牌写有‘coffeaBOOTH’及‘寻找植物’‘自己种植’等字样，含园艺工具图示。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "店内未见明显手冲台、虹吸壶、磨豆机或烘焙机等专业设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用笔记本电脑；未见书架、宠物；未看清菜单价格或豆子产地。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:54Z"
+}

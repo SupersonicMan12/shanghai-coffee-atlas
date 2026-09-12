@@ -1,0 +1,75 @@
+{
+  "cafeId": "boundless-way-yuyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d5599b11eefc",
+  "raw": {
+    "headline": {
+      "zh": "咖啡配读书会的夜晚",
+      "en": "Coffee with weekly reading nights"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含DIRTY、热红酒、手冲盲盒、冷萃",
+        "en": "Serves DIRTY, mulled wine, cold brew, pour-over blind box",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供法式肉桂卷、巧克力软曲奇、岩焗芝士吐司",
+        "en": "Offers cinnamon rolls, chocolate cookies, baked cheese toast",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "每周多有谈话与读书活动",
+        "en": "Hosts talks and readings most weeks",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日晚上19:30-23:30营业",
+        "en": "Open weeknights until 23:30",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡师按口味推荐浅烘或深烘豆",
+        "en": "Barista recommends light or dark roast by taste",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          12
+        ],
+        "zh": "有桌椅且常办读书活动",
+        "en": "Seating and regular events"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          11
+        ],
+        "zh": "有手冲盲盒和奶油分层饮品",
+        "en": "Blind box pour-over and layered drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:44Z"
+}

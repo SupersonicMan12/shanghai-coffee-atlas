@@ -1,0 +1,52 @@
+{
+ "cafeId": "moon-coffee",
+ "model": "qwen-max",
+ "inputDigest": "e6668de0a2bb",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "特色饮品小月球，冰球碰撞玻璃叮当响",
+    "en": "Special drink with ice ball clinking in glass",
+    "from": 2
+   },
+   {
+    "kind": "time",
+    "zh": "工作日8:00-17:30，周末9:00-18:00营业",
+    "en": "Open 8:00-17:30 weekdays, 9:00-18:00 weekends",
+    "from": 3
+   },
+   {
+    "kind": "story",
+    "zh": "主理人定期举办摄影、音乐等主题分享活动",
+    "en": "Regular themed events by the owner",
+    "from": 4
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 5,
+    "zh": "安静且隐蔽，适合轻度办公",
+    "en": "Quiet and hidden, light work"
+   },
+   "energy": {
+    "value": 20,
+    "from": 5,
+    "zh": "藏于巷弄之中，环境静谧",
+    "en": "Hidden, quiet atmosphere"
+   },
+   "linger": {
+    "value": 60,
+    "from": 5,
+    "zh": "氛围宁静，适合久坐",
+    "en": "Calm, good for long stay"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:44Z"
+}

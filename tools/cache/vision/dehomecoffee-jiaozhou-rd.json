@@ -1,0 +1,71 @@
+{
+  "cafeId": "dehomecoffee-jiaozhou-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "a791cb9a1d44",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5bcb0defc6bb01b90000001583120551?type=pic",
+    "https://store.is.autonavi.com/showpic/0dd6b73aa3c99d630000003368290164?type=pic",
+    "https://aos-comment.amap.com/B0I04AK10L/comment/7ec4edc0f50c017107d9a7f18ea800fd_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "入口处有绿色瓷砖墙和混凝土柱，空间不大。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内角落有木质墙面、绿植和圆形装饰画。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗台有蕨类植物，窗外可见树和建筑。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停着一辆黄色共享单车，街道铺砖。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有黑色皮质坐垫和矮凳，座位不多。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上挂四月日历，无顾客或电脑使用场景。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "无可见咖啡机、磨豆机或手冲台等专业设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "无菜单、饮品或食物的清晰特写，无法识别。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:50Z"
+}

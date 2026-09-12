@@ -1,0 +1,76 @@
+{
+  "cafeId": "dongjingkafei-wuyuan-rd-86",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e8bd5f5d2a22",
+  "raw": {
+    "headline": {
+      "zh": "骑行友好，森林感玻璃屋",
+      "en": "Bike-friendly café with forest views"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "全景玻璃幕墙直面公园绿树",
+        "en": "Floor-to-ceiling windows overlook park trees",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设高脚凳及室外座位",
+        "en": "Bar stools and outdoor seating available",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供Maison Perrier合作气泡水",
+        "en": "Serves Maison Perrier collaboration sparkling water",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "支持自带杯与骑行到店各减3元",
+        "en": "¥3 off for bring-your-own cup or cycling in",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          7,
+          8
+        ],
+        "zh": "有座可看景，适合小坐",
+        "en": "Seating with views invites lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "专业设备配合作特饮",
+        "en": "Pro gear plus collab drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:18Z"
+}

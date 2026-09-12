@@ -1,0 +1,46 @@
+{
+ "cafeId": "hudecgarden-xinhua-rd-272",
+ "model": "qwen-max",
+ "inputDigest": "2c2c94c2ac1a",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "二层阳台可赏上海老街区景色",
+    "en": "Balcony with view of old Shanghai neighborhood",
+    "from": 5
+   },
+   {
+    "kind": "space",
+    "zh": "整面临街玻璃窗，室内明亮通透",
+    "en": "Full street-facing windows, bright and airy inside",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 2,
+    "zh": "照片中未见有人使用电脑",
+    "en": "No laptops seen"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "有舒适的户外座位适合久坐",
+    "en": "Comfortable outdoor seating for lingering"
+   },
+   "adventure": {
+    "value": 30,
+    "from": 3,
+    "zh": "陈列手冲壶，可能提供手冲咖啡",
+    "en": "Pour-over kettle on display, suggesting pour-overs"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:21Z"
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "smaka-caf-bakery-osm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5631585d89cc",
+  "raw": {
+    "headline": {
+      "zh": "愚园路临街面包咖啡店",
+      "en": "Bakery café on Yuyuan Road"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供杂粮面包、黑松芝士恰巴达、可颂",
+        "en": "Serves multigrain bread, black truffle cheese ciabatta, croissants",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应拿铁、冰咖啡、冰美式等饮品",
+        "en": "Offers lattes, iced coffee, iced Americano",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有草莓奶油卷、巧克力蛋糕、提拉米苏",
+        "en": "Features strawberry cream roll, chocolate cake, tiramisu",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:00-21:00，周末09:00-21:00",
+        "en": "Open 08:00–21:00 weekdays, 09:00–21:00 weekends",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗和玻璃门，采光良好",
+        "en": "Floor-to-ceiling windows provide ample natural light",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "小型紧凑店铺",
+        "en": "Compact small space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:07Z"
+}

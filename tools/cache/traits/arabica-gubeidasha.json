@@ -1,0 +1,46 @@
+{
+ "cafeId": "arabica-gubeidasha",
+ "model": "qwen-max",
+ "inputDigest": "c0b7e0d3804d",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "使用100%阿拉比卡咖啡豆，店内现烘",
+    "en": "100% Arabica beans, roasted in-store",
+    "from": "[1,2]"
+   },
+   {
+    "kind": "space",
+    "zh": "通透明亮的店铺，设站立吧台",
+    "en": "Bright shop with a standing bar",
+    "from": "[4]"
+   },
+   {
+    "kind": "price",
+    "zh": "人均消费约¥42-¥45",
+    "en": "Average spend ¥42-¥45 per person",
+    "from": "[3]"
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": "[4]",
+    "zh": "主要是站喝空间",
+    "en": "Mostly for standing"
+   },
+   "adventure": {
+    "value": 60,
+    "from": "[1,2]",
+    "zh": "自烘豆子，提供手冲选择",
+    "en": "In-house roasting, pour-over options"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:22Z"
+}

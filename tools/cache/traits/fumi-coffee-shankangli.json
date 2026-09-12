@@ -1,0 +1,75 @@
+{
+  "cafeId": "fumi-coffee-shankangli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5bfa173cbd70",
+  "raw": {
+    "headline": {
+      "zh": "三台Mazzer磨豆机",
+      "en": "Three Mazzer grinders on bar"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "豆子可选深烘或浅烘",
+        "en": "Beans available in light or dark roast",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "澳白是点单率颇高的饮品",
+        "en": "Flat white is a top-selling drink",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "每个座位下有插头和USB接口",
+        "en": "Power and USB outlets under every seat",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "有一排靠窗景观位",
+        "en": "Window seats with street view",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–18:00营业",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          11,
+          12
+        ],
+        "zh": "座位配电源适合办公",
+        "en": "Outlets support focused work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          11,
+          12,
+          13
+        ],
+        "zh": "有窗座和电源宜久坐",
+        "en": "Window seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:56Z"
+}

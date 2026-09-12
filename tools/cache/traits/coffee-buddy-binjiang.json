@@ -1,0 +1,65 @@
+{
+  "cafeId": "coffee-buddy-binjiang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "872e045f7a94",
+  "raw": {
+    "headline": {
+      "zh": "临街站喝专业咖啡",
+      "en": "Grab expert coffee to-go"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设吧台高脚凳，适合短坐或站立",
+        "en": "Bar stools for quick stands or sits",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备专业咖啡机与磨豆机",
+        "en": "Professional espresso grinder and machine",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好自然采光",
+        "en": "Floor-to-ceiling windows, ample daylight",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:00-18:30营业",
+        "en": "Open daily 6am–6:30pm",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "仅设高脚凳，不便久坐",
+        "en": "Stool-only seating"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "有专业设备，主打coffee",
+        "en": "Gear present, standard coffee focus"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:46Z"
+}

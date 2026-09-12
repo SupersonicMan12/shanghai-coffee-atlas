@@ -1,0 +1,71 @@
+{
+  "cafeId": "fumi-coffee-shankangli",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "fda3c7b56f9c",
+  "photos": [
+    "https://aos-comment.amap.com/B0G064KS1X/comment/6ccab703cd5adca0e7cf57ffae8bb08a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064KS1X/comment/e757f386a524fd7c3e2f9dd60c6d885c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064KS1X/comment/d66e62dae15430e7123a6fde6b330219_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台后有三台大型磨豆机，品牌为Mazzer。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面外墙白色，门牌号13，门口有户外桌椅和盆栽植物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台为木质，墙面装饰多个圆形镜子与木板。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": "0.85"
+    },
+    {
+      "text": "吧台前无顾客座位，仅见工作人员操作区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外立牌显示营业时间为周一至周日8:00-18:00。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内天花板为木质条板结构，装有轨道射灯。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外可见绿树，店铺位于临街位置。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上摆放多款瓶装咖啡豆产品供零售。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:22Z"
+}

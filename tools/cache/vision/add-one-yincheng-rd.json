@@ -1,0 +1,71 @@
+{
+  "cafeId": "add-one-yincheng-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4eb1bbca1171",
+  "photos": [
+    "https://aos-comment.amap.com/B0J2XZUNU8/comment/9773DC03_FB5F_457B_9EDA_D74DE63D253E_L0_001_2000_150_1751007950652_49744556.jpg",
+    "https://aos-comment.amap.com/B0J2XZUNU8/comment/content_media_external_images_media_96967_ss__1742560751576_28457885.jpg",
+    "https://aos-comment.amap.com/B0J2XZUNU8/comment/6C9426DE_F855_467A_AEAA_EB695331F835_L0_001_2000_150_1751007950651_83377029.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有可颂、火腿芝士可颂、提拉米苏等烘焙食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有美式、拿铁、Dirty、抹茶冰椰椰等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供烤芝士牛肉卷、提子肉桂卷、蜜豆松子恰巴塔等食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分饮品价格在20-36元之间，蛋糕类价格为10-32元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，玻璃门入口，内部可见桌椅和顾客",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机、手冲设备等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单包含夏季水果系列饮品如菠萝气泡水、油柑气泡美式",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有少量座位，可见两人在用餐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:20:14Z"
+}

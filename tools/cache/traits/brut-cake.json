@@ -1,0 +1,70 @@
+{
+ "cafeId": "brut-cake",
+ "model": "qwen-max",
+ "inputDigest": "4969ff60e668",
+ "raw": {
+  "headline": {
+   "zh": "100个表情马克杯，手作与艺术的融合",
+   "en": "100 unique mugs, art and craft blend"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "店内环境融合现代工业风与温馨木质元素",
+    "en": "Modern industrial with warm wood elements",
+    "from": 6
+   },
+   {
+    "kind": "beans",
+    "zh": "咖啡豆精选自全球优质产区",
+    "en": "Premium coffee beans from top global regions",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌产品包括手冲单品咖啡、特调拿铁系列",
+    "en": "Signature: pour-over single-origin, special latte series",
+    "from": 2
+   },
+   {
+    "kind": "food",
+    "zh": "每日新鲜烘焙的甜品",
+    "en": "Freshly baked pastries daily",
+    "from": 2
+   },
+   {
+    "kind": "story",
+    "zh": "台湾设计师Nicole Teng与美食频道冠军主厨Jun Wu共同合作",
+    "en": "Collab by designer Nicole Teng & chef Jun Wu",
+    "from": 4
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 7,
+    "zh": "店主将房间视为艺术品",
+    "en": "Owner treats room as artwork"
+   },
+   "energy": {
+    "value": 40,
+    "from": 6,
+    "zh": "环境温馨但不喧闹",
+    "en": "Warm but not noisy"
+   },
+   "linger": {
+    "value": 80,
+    "from": 6,
+    "zh": "舒适的座位适合久坐",
+    "en": "Comfortable for long stays"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 2,
+    "zh": "提供手冲单品和特调拿铁",
+    "en": "Pour-overs and special lattes"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:17Z"
+}

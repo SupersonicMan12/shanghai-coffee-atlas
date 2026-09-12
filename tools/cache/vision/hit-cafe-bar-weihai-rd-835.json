@@ -1,0 +1,72 @@
+{
+  "cafeId": "hit-cafe-bar-weihai-rd-835",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b7de8b4dbdba",
+  "photos": [
+    "https://aos-comment.amap.com/B0KD25KS97/comment/a61d77e4b07abaaba02f4d043e46d904_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/a3a25943f510fbf766f84c856a572d0a",
+    "https://aos-comment.amap.com/B0KD25KS97/comment/9e9840a461772f4f5513b8dfaaebdb1e_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "临街店面，有遮阳棚和玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停放多辆共享单车和电动车",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域设有酒架和咖啡设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有菜单展示，包含饮品图片与名称",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有两款鸡尾酒，分别标注成分与价格",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有长条形吧台座位，可坐数人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有酒瓶陈列架，提供多种酒类",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:07Z"
+}

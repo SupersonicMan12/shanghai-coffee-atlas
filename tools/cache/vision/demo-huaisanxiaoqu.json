@@ -1,0 +1,71 @@
+{
+  "cafeId": "demo-huaisanxiaoqu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "dfb8bcc1f2fd",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/332541002334422d880a838d93b4fb17",
+    "https://aos-comment.amap.com/B0FFF5MBSH/comment/eadf66c06daff93fd39c32f07eb80212_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/c44eb1b5e1ddf10b0000000680076309?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门+木板外墙，门牌号139清晰可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店招标有'DEMO CAFE BISTRO & RESTAURANT'及中文'和風洋食'",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "玻璃门内可见吧台与高脚椅，店内空间较紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第一张图右侧贴有菜单海报，含日式料理图与价格（如'一人78元'）",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图为炸牛排盖饭，配溏心蛋、鱼籽、海苔碎",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图为铸铁锅盛装的泡菜饭，配蛋液、海苔丝、葱花",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口挂红白纸灯笼，左侧有绿植盆栽",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内未见咖啡专业器具（如磨豆机、手冲架、虹吸壶）",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:15Z"
+}

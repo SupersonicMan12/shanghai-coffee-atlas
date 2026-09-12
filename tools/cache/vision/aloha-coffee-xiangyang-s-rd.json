@@ -1,0 +1,71 @@
+{
+  "cafeId": "aloha-coffee-xiangyang-s-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4b7ac7af4edf",
+  "photos": [
+    "https://aos-comment.amap.com/B0I0VRBZDA/comment/content_media_external_images_media_36455_ss__1726153495732_30825039.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771392228472_49787618_1771392258002_69074873.jpg",
+    "https://store.is.autonavi.com/showpic/d70855fabae715ce0000003073908837?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台前有顾客点单，店内空间小，座位少",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，采光好，可见树影",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有大树，街道景致清晰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区有La Marzocco咖啡机和Mazzer磨豆机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示“新店开业”，日期为9.12-9.22",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品含抹茶类（顶花）、拿铁、冰美式",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方陈列多个咖啡比赛获奖证书",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无室外座位，无人使用电脑",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:41Z"
+}

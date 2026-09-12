@@ -1,0 +1,71 @@
+{
+  "cafeId": "jamaica-blue-wulumuqi-middle-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "35f5246f86e8",
+  "photos": [
+    "https://aos-comment.amap.com/B00155DZ6E/comment/5156A106_D393_44E3_B0B9_7BE5DEEC479B_L0_001_1080_144_1762323731263_96563713.jpg",
+    "https://store.is.autonavi.com/showpic/895226c591223aa10000002242608348?type=pic",
+    "https://aos-comment.amap.com/B00155DZ6E/comment/5172AD25_51A8_4028_BAD5_7F7B5D5B9127_L0_001_2000_150_1762323731265_07900405.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有几张藤编椅和桌子，可室外用餐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台后方货架陈列大量酒瓶，非纯咖啡馆。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板显示午餐69元、早餐套餐49元等价格。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "食物照片中有淋巧克力酱配莓果的松饼和三明治。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台区域有员工操作设备，可见磨豆机等器具。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面正门上方有绿植装饰，临街玻璃窗通透。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有玻璃展示柜，陈列可颂等烘焙点心。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内座位未见有人使用笔记本电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:31Z"
+}

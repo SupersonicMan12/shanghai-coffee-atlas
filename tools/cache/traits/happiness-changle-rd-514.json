@@ -1,0 +1,72 @@
+{
+  "cafeId": "happiness-changle-rd-514",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3a8fea7f0f71",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡老洋房",
+      "en": "Hand-brew coffee in old Shanghai house"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "室内空间小，仅见一张高脚凳",
+        "en": "Compact interior with one high stool",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台有手冲咖啡金属器具",
+        "en": "Metal hand-brew equipment on counter",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "多数日营业至凌晨2点",
+        "en": "Open until 2am most days",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "二楼红窗框，老式建筑风格",
+        "en": "Red-framed windows, old-style building",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "座位极少难久坐",
+        "en": "Few seats limit lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "提供手冲咖啡",
+        "en": "Offers hand-brew coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:10Z"
+}

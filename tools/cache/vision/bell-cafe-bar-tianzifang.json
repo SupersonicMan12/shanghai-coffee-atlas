@@ -1,0 +1,65 @@
+{
+  "cafeId": "bell-cafe-bar-tianzifang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ed867e86c32a",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d2af8d8e69dd1e6700e88ccaa0c70562",
+    "http://store.is.autonavi.com/showpic/aad2735487649f3be8bc62c6fc4a9470",
+    "http://store.is.autonavi.com/showpic/ab316c2a43901033068661c0055c1895"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于狭窄街道，临街玻璃门，可见内部吧台和酒架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台座位和高脚凳，空间较小",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口悬挂红色灯笼，有绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供拿铁咖啡，拉花为叶子图案",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "搭配一块格纹饼干",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有一杯橙色饮品，含冰块、橙片和橙皮装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见Guinness标志，可能供应啤酒",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:41Z"
+}

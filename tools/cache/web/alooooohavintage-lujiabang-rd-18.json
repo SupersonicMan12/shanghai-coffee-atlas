@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "text": "店内提供奢侈品寄卖回收置换养护服务",
+      "kind": "story",
+      "quote": "AlooooohaVintage奢侈品寄卖·回收置换养护上海",
+      "url": "https://www.amap.com/place/B0FFIK5US9",
+      "site": "高德地图"
+    },
+    {
+      "text": "靠近地铁四号线南浦大桥站步行380米可达",
+      "kind": "story",
+      "quote": "地址为上海市黄浦区陆家浜路18号103室(南浦大桥地铁站1号口步行380米)",
+      "url": "https://www.amap.com/place/B0FFIK5US9",
+      "site": "高德地图"
+    },
+    {
+      "text": "营业时间为每天10:30至18:30,节假日无休",
+      "kind": "time",
+      "quote": "Aloooooha Vintage上海店的营业时间为每天10:30至18:30,节假日无休",
+      "url": "https://k.sina.com.cn/article_7879996759_1d5af355706801fw6u.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海中古店推荐:Aloooooha Vintage值得逛吗?3个维度实测+FAQ",
+      "url": "https://k.sina.com.cn/article_7879776556_1d5abd92c06802ixm2.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "国内中古店哪些值得逛?三城实测+预算分级+避坑指南+FAQ",
+      "url": "https://www.sina.cn/gc/article/nirexha8774825.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "AlooooohaVintage奢侈品寄卖·回收置换养护上海- 咖啡厅 - 高德地图",
+      "url": "https://www.amap.com/place/B0FFIK5US9",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 4,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "Aloooooha Vintage的营业时间是什么?",
+      "url": "https://k.sina.com.cn/article_7879996759_1d5af355706801fw6u.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "想体验特色咖啡馆，推荐你去这5家看看 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "歷史博物館裡的絕美咖啡館復古氛圍100%出片！ - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144741178?locale=zh-MY",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:42Z"
+}

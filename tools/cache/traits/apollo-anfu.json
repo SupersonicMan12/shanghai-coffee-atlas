@@ -1,0 +1,77 @@
+{
+  "cafeId": "apollo-anfu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6f6c19ad3b2e",
+  "raw": {
+    "headline": {
+      "zh": "日咖夜酒，安福路转场",
+      "en": "Coffee by day, wine by dusk"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日9:00–19:00营业",
+        "en": "Open daily 9am–7pm",
+        "from": [
+          4,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供酸奶燕麦38元、玉米蛋糕45元等轻食",
+        "en": "Serves yogurt oats (¥38), corn cake (¥45)",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设2把折叠椅与1张小木桌",
+        "en": "Outdoor seating: 2 chairs, 1 small table",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为Espresso now, negroni later",
+        "en": "Tagline: Espresso now, negroni later",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台陈列多罐装咖啡豆",
+        "en": "Multiple coffee bean jars on bar",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "户外仅2椅，不便久坐",
+        "en": "Limited outdoor seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          13
+        ],
+        "zh": "有手冲与多款豆可选",
+        "en": "Offers pour-over and varied beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:00Z"
+}

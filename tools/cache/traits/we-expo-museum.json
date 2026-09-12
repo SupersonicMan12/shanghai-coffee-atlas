@@ -1,0 +1,70 @@
+{
+ "cafeId": "we-expo-museum",
+ "model": "qwen-max",
+ "inputDigest": "e9cb46ccf9d6",
+ "raw": {
+  "headline": {
+   "zh": "世博会博物馆里的江景咖啡体验",
+   "en": "River-view coffee at the Expo Museum"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "落地窗可赏黄浦江与对岸建筑群",
+    "en": "Floor-to-ceiling windows with river and city views",
+    "from": "[3]"
+   },
+   {
+    "kind": "space",
+    "zh": "挑高大空间，工业风装修，现代感灯光",
+    "en": "High ceiling, industrial decor, modern lighting",
+    "from": "[1, 11]"
+   },
+   {
+    "kind": "seating",
+    "zh": "木质长桌配深色塑料椅，另有混凝土方块座",
+    "en": "Long wooden tables, dark chairs, concrete block seats",
+    "from": "[2]"
+   },
+   {
+    "kind": "beans",
+    "zh": "使用全球各主要产区的冠军咖啡豆",
+    "en": "Champion beans from major global coffee regions",
+    "from": "[7]"
+   },
+   {
+    "kind": "food",
+    "zh": "提供罗马斗兽场造型蛋糕等特色甜点",
+    "en": "Colosseum-shaped cakes and other unique desserts",
+    "from": "[6]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": "[13]",
+    "zh": "宽敞的空间适合专注办公",
+    "en": "Spacious for focused work"
+   },
+   "energy": {
+    "value": 50,
+    "from": "[1, 2, 3, 11]",
+    "zh": "安静且有现代感",
+    "en": "Quiet with a modern vibe"
+   },
+   "linger": {
+    "value": 90,
+    "from": "[1, 2, 3, 13]",
+    "zh": "宽敞舒适的环境适合久坐",
+    "en": "Comfortable for long stays"
+   },
+   "adventure": {
+    "value": 70,
+    "from": "[7, 9, 10]",
+    "en": "Specialty and micro-lot coffees",
+    "zh": "特色咖啡和微批次试饮"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:29Z"
+}

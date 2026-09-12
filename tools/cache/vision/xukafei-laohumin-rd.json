@@ -1,0 +1,60 @@
+{
+  "cafeId": "xukafei-laohumin-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b7c4b28ec367",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/58815aa20b84bded0000003191672749?type=pic",
+    "https://store.is.autonavi.com/showpic/7e8ea0ce56fcbf8e0000003185022797?type=pic",
+    "https://store.is.autonavi.com/showpic/27742752305ae97f0000003191684338?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲台和磨豆机等专业器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上可见咖啡和茶的价格，如32元、38元",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供奶泡丰富的拿铁和芝士蛋糕",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间紧凑，以吧台为主",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙面有黑板和白板用于书写菜单",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:03Z"
+}

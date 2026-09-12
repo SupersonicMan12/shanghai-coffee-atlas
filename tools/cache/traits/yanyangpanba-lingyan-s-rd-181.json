@@ -1,0 +1,74 @@
+{
+  "cafeId": "yanyangpanba-lingyan-s-rd-181",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4e084cd38964",
+  "raw": {
+    "headline": {
+      "zh": "攀岩主题咖啡小馆",
+      "en": "Climbing-themed coffee nook"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "空间较小，设吧台和少量座位",
+        "en": "Compact space with bar and few seats",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供浅色冰饮，搭配苏打水",
+        "en": "Serves light iced drinks with soda",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店内有攀岩主题装饰如绳索头盔",
+        "en": "Decor includes climbing gear like ropes and helmets",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，透光良好",
+        "en": "Full-height street-facing windows, bright interior",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一二18:00起，其余日13:00起营业至凌晨2点",
+        "en": "Open till 2am; starts 1pm (18:00 Mon)",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "座位少空间小",
+        "en": "Few seats, compact"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "专业器具配苏打特调",
+        "en": "Pro gear with soda-based drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:08Z"
+}

@@ -1,0 +1,40 @@
+{
+  "facts": [
+    {
+      "text": "位于新天地时尚II L1层，地址为马当路245号",
+      "kind": "space",
+      "quote": "W CAFÉ SH The Beats 新天地店上海市黄浦区马当路245号 新天地时尚II L1层",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-143194860/",
+      "site": "W Coffee SH(EKA天物店) (Pudong Jinqiao District, Shanghai)"
+    },
+    {
+      "text": "上海咖啡热门榜第1名，人均¥117",
+      "kind": "story",
+      "quote": "上海咖啡热门榜· 第1名. 营业中APP内查看商户信息.",
+      "url": "http://m.dianping.com/shop/1400705589?msource=applemaps",
+      "site": "【W CAFÉ SH The Beats brunch&bistro(新天地店)】电话_地址_价格"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【W CAFÉ SH The Beats brunch&bistro(新天地店)】电话_地址_价格",
+      "url": "http://m.dianping.com/shop/1400705589?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "W Coffee SH (EKA Tianwu Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9680ACBE798&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "W Coffee SH(EKA天物店) (Pudong Jinqiao District, Shanghai)",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-143194860/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:51Z"
+}

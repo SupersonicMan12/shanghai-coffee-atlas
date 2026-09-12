@@ -1,0 +1,65 @@
+{
+  "cafeId": "oaoa-all-day-chill-xujiahuijiedaoyude-rd-20",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "441cd4cb8c65",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d3df92f832fe5e880000002486162438?type=pic",
+    "https://store.is.autonavi.com/showpic/1bf7623c7c48882a0000002332890733?type=pic",
+    "https://store.is.autonavi.com/showpic/ff37c4e47896a4290000002755330402?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店门口有脚手架和开业花篮，显示正在装修或刚开业。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见多张桌椅，空间可容纳数人同时就坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街为大面积玻璃窗，采光良好，可看到内部陈设。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "海报显示提供咖啡、早午餐、酒吧服务，定位复合型空间。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门上贴有食物图片，展示菜品样式。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "夜景照片中店招亮灯，表明夜间营业。",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "街道地面湿滑，可能刚下过雨，影响室外体验。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:23Z"
+}

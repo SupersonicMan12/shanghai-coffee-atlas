@@ -1,0 +1,65 @@
+{
+  "cafeId": "izumo-coffee-bar-yuyuan-east-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f200e73576b6",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ce7d288a2de77196c8d3a6d29cbc4e90",
+    "https://aos-comment.amap.com/B0FFL0X7VV/comment/f3fcc2489a2464ac9b2daa4aa67b5bf6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFL0X7VV/comment/89eca4f0d39b95467920044ea54b027b_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳，适合站立或短暂停留",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内墙面为木质装饰，挂有照片和菜单",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内悬挂黑色围裙，印有IZUMO字样",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上贴有多张食物照片，显示提供甜点类食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见菜单牌，但价格与豆子产地无法辨认",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "广告牌上展示IZUMO咖啡杯图案，可能为品牌联名产品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:48Z"
+}

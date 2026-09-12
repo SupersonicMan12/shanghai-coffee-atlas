@@ -1,0 +1,29 @@
+{
+  "cafeId": "1982-puming-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ba0cf32a7942",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Floor-to-ceiling windows provide ample natural light",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:30",
+        "en": "Open daily until 19:30",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:39Z"
+}

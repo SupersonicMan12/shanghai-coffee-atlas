@@ -1,0 +1,49 @@
+{
+  "cafeId": "nuonuokafei-minxinghongjing-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e940c453e547",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/66fecad334064a646a317f601049fca6"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街商铺，门头为木质装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺前有行人和电动车经过，街道较窄",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口可见玻璃门和透明橱窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有骑车人经过，无明显室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺招牌显示“台湾菜”字样，非咖啡馆标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:25Z"
+}

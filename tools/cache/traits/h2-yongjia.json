@@ -1,0 +1,28 @@
+{
+ "cafeId": "h2-yongjia",
+ "model": "qwen-max",
+ "inputDigest": "91798411f629",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "低调到几乎无招牌，只靠口碑吸引顾客",
+    "en": "Almost no signage, relies on word of mouth",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 60,
+    "from": 2,
+    "zh": "提供House filter咖啡",
+    "en": "Offers house filter coffee"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:41Z"
+}

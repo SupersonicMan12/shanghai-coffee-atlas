@@ -1,0 +1,124 @@
+{
+  "facts": [
+    {
+      "text": "使用耶加雪菲咖啡豆",
+      "kind": "beans",
+      "quote": "SOE耶加雪菲拿铁",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/121701118.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "招牌饮品是鲜橙拿铁",
+      "kind": "drinks",
+      "quote": "Top 1:鲜橙拿铁",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供厚乳拿铁",
+      "kind": "drinks",
+      "quote": "Top 2:厚乳拿铁",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site": "大众点评网"
+    },
+    {
+      "text": "有栀香茉莉绿茶",
+      "kind": "drinks",
+      "quote": "Top 3:栀香茉莉绿茶",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供火腿蛋流心三明治",
+      "kind": "food",
+      "quote": "招牌火腿蛋流心三明治",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/121701118.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "有贝瑞燕麦拿铁",
+      "kind": "drinks",
+      "quote": "贝瑞燕麦拿铁",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/121701118.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "营业到晚上10点",
+      "kind": "time",
+      "quote": "休息中 吴中路与虹******",
+      "url": "https://m.dianping.com/shop/1783628389",
+      "site": "大众点评网"
+    },
+    {
+      "text": "隶属于顶新国际集团",
+      "kind": "story",
+      "quote": "贝瑞咖啡 隶属于顶新国际集团餐饮事业",
+      "url": "https://www.zhipin.com/gongsi/42ee71724a15b89a1nd-3tS_GVU~.html",
+      "site": "Boss直聘"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "虹桥镇商圈咖啡",
+      "url": "https://m.dianping.com/shop/1783628389",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "贝瑞:我心中的咖啡店天花板",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "贝瑞咖啡(吴中路店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/121701118.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "贝瑞咖啡",
+      "url": "https://baike.baidu.com/item/贝瑞咖啡/68443419",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "貝瑞咖啡（吳中路店） (上海虹橋地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121701118",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "【贝瑞咖啡(吴中路店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1783628389?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "贝瑞咖啡(吴中路店) - Shanghai - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-121701118/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "贝瑞咖啡",
+      "url": "https://www.zhipin.com/gongsi/42ee71724a15b89a1nd-3tS_GVU~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 9,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 10,
+      "title": "德克士联动贝瑞咖啡，双品牌商业价值突破新样本 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/45638",
+      "site_name": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:12Z"
+}

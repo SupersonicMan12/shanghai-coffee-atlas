@@ -1,0 +1,66 @@
+{
+  "cafeId": "m-stand-shanghaidaningyinyueguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8f9b766dadc6",
+  "raw": {
+    "headline": {
+      "zh": "商场外带遮阳伞的户外座",
+      "en": "Outdoor seating with sunshade outside mall"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设桌椅和遮阳伞，可坐室外",
+        "en": "Outdoor tables with umbrellas available",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30-21:00营业",
+        "en": "Open daily 06:30–21:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含椰子、油条",
+        "en": "Recommended: coconut, youtiao",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡",
+        "en": "Serves iced coffee",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "有人在户外使用手机",
+        "en": "Moderate activity outdoors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:48Z"
+}

@@ -1,0 +1,35 @@
+{
+ "cafeId": "alt-coffee-hongkou",
+ "model": "qwen-max",
+ "inputDigest": "1602e40ffbc1",
+ "raw": {
+  "headline": {
+   "zh": "16年老店，松屋式手冲独特体验",
+   "en": "16-year-old shop, unique Mizudashi style"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "使用全球多国新鲜咖啡豆",
+    "en": "Uses fresh beans from around the world",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "复式空间适合熟客围坐",
+    "en": "Duplex space for regulars to gather",
+    "from": 4,
+    "},4]},{": "space"
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 3,
+    "},": ",4,",
+    "": "专注于手冲和自烘咖啡"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:20Z"
+}

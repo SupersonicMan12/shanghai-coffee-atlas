@@ -1,0 +1,40 @@
+{
+ "cafeId": "huazhi-liyang",
+ "model": "qwen-max",
+ "inputDigest": "3caa66062f7d",
+ "raw": {
+  "headline": {
+   "zh": "花店与咖啡馆结合，静谧别墅街",
+   "en": "Florist and café on a quiet villa street"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "位于虹口区最安静的别墅街上",
+    "en": "On the quietest villa street in Hongkou",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为花店特色flat white",
+    "en": "Signature drink is flower-shop flat white",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 10,
+    "from": 1,
+    "zh": "位于最安静的别墅街上",
+    "en": "Quiet villa street"
+   },
+   "linger": {
+    "value": 70,
+    "en": "Can stay an hour",
+    "zh": "可以停留一小时",
+    "from": 1
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:37Z"
+}

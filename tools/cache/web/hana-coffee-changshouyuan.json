@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "紫色主题装饰，店内处处可见紫色元素。",
+      "kind": "space",
+      "quote": "紫色帝王花设计和“coffee is my boyfriend”为门店logo。",
+      "url": "https://www.sohu.com/a/662425518_121106854",
+      "site": "搜狐网"
+    },
+    {
+      "text": "招牌饮品『Dirty Queen』，人气极高。",
+      "kind": "drinks",
+      "quote": "人气王『Dirty Queen』真的是逢喝必点",
+      "url": "https://www.163.com/dy/article/FISGUA590522ARF5.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "有室外空间，氛围轻松悠闲。",
+      "kind": "space",
+      "quote": "I like their outdoor space, very local, very chilled.",
+      "url": "https://www.dianping.com/discovery/1015118233",
+      "site": "大众点评网"
+    },
+    {
+      "text": "深烘豆完美萃取为主体。",
+      "kind": "beans",
+      "quote": "以深烘豆的完美萃取为主体。",
+      "url": "https://www.sohu.com/a/662425518_121106854",
+      "site": "搜狐网"
+    },
+    {
+      "text": "营业时间至18:00。",
+      "kind": "time",
+      "quote": "周六至周日丨9:30-18:00",
+      "url": "https://chihe.sohu.com/a/869937405_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "建议,全上海普及这1杯! ",
+      "url": "https://chihe.sohu.com/a/869937405_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "2020上半年,上海最值打卡的12家咖啡新店!",
+      "url": "https://www.163.com/dy/article/FISGUA590522ARF5.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "上海街头一抹浪漫の💜紫💜 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/774153874",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "COTD上海探店|咖啡配酒,越喝越有☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1012014033",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "上海｜我从来没见过那么紫的咖啡店   - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/717119352",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动!普陀这些咖啡店等你来打卡 ",
+      "url": "https://www.sohu.com/a/662425518_121106854",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 8,
+      "title": "Citywalk来长寿,漫步街头品七彩咖啡! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTMyMjY4Ng==&mid=2658840748&idx=2&sn=fe8447f2983915b7cc0bfb09ab5098c3&chksm=bc1d8a029da73f5f430e2db39605998babac1d9c74d93cafddd4824052d3ec9b7aba57459f65&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "上海四月最值得喝的四家小众咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1015118233",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:06Z"
+}

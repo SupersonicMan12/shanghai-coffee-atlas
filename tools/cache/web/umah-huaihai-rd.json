@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "自烘咖啡豆",
+      "kind": "beans",
+      "quote": "UMAH，这是一家集烘豆与手冲为一体的咖啡馆",
+      "url": "https://www.archdaily.com/zh/940827/umah-ka-pei-dian-n-plus-a-studio",
+      "site": "UMAH 咖啡店/ N+A Studio | ArchDaily 中文版"
+    },
+    {
+      "text": "招牌饮品是手冲咖啡",
+      "kind": "drinks",
+      "quote": "想喝手冲咖啡?去这几家咖啡馆就不会踩雷(下)",
+      "url": "https://www.sohu.com/a/435546138_463567",
+      "site": "搜狐"
+    },
+    {
+      "text": "位于老房子中",
+      "kind": "space",
+      "quote": "UMAH咖啡店 - 新浪地产网",
+      "url": "https://www.archdaily.com/zh/940827/umah-ka-pei-dian-n-plus-a-studio",
+      "site": "UMAH 咖啡店/ N+A Studio | ArchDaily 中文版"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "适合坐下来慢慢喝、细细品",
+      "url": "https://www.sohu.com/a/435546138_463567",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业到晚上",
+      "kind": "time",
+      "quote": "店址:南昌路240号",
+      "url": "https://www.sohu.com/a/435546138_463567",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "#跟着小编去打卡#",
+      "url": "https://weibo.com/2571243254/QeG2mb53s",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "UMAH 咖啡店/ N+A Studio | ArchDaily 中文版",
+      "url": "https://www.archdaily.com/zh/940827/umah-ka-pei-dian-n-plus-a-studio",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "UMAH 咖啡店 - 新浪地产网",
+      "url": "http://news.dichan.sina.com.cn/Designx/d8031_m.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "上海探店丨想喝手冲咖啡?去这几家咖啡馆就不会踩雷(下)_笔者",
+      "url": "https://www.sohu.com/a/435546138_463567",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "上海的咖啡新店喝不完,真的喝不完……",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "上海中心地帶的完美一天：復興公園、UMAH咖啡館和安福路 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-145067365?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海2019新开咖啡馆这几家不去可惜 - 新浪时尚",
+      "url": "https://fashion.sina.cn/l/ts/2019-10-09/detail-iicezuev0998050.d.html?vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 8,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 9,
+      "title": "泸水市:咖啡“香”遇,产业“乘”风",
+      "url": "https://www.jfdaily.com.cn/news/detail?id=1040254",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:53Z"
+}

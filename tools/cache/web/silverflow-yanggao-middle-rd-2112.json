@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是手冲瑰夏",
+      "kind": "drinks",
+      "quote": "招牌手冲瑰夏(￥36)以冰滴12小时的澄澈口感封神",
+      "url": "https://www.dianping.com/discovery/2279787298",
+      "site": "大众点评网"
+    },
+    {
+      "text": "贝果采用72小时冷发酵工艺",
+      "kind": "food",
+      "quote": "现烤贝果(￥9-14)采用72小时冷发酵工艺",
+      "url": "https://www.dianping.com/discovery/2279787298",
+      "site": "大众点评网"
+    },
+    {
+      "text": "咖啡价格实惠，全场咖啡8.8元",
+      "kind": "story",
+      "quote": "全场咖啡8.8元,全场贝果9.9元",
+      "url": "https://www.163.com/dy/article/J1GAJG9O0514C79Q.html",
+      "site": "网易"
+    },
+    {
+      "text": "营业时间从早上6:30到晚上20:00",
+      "kind": "time",
+      "quote": "营业时间 6:30—20:00",
+      "url": "https://www.163.com/dy/article/J1GAJG9O0514C79Q.html",
+      "site": "网易"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "银流咖啡",
+      "url": "https://m.douyin.com/share/challenge/1760209789484032",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "银流咖啡外卖,实实在在的味道 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2279787298",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "SilverFlow Yinliu Coffee & Beiguo ( (Jielong Shop)) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97AFB7BBDB4&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "【长宁咖啡馆】“银流咖啡”:一家主打咖啡+贝果套餐的快销式咖啡店",
+      "url": "https://www.163.com/dy/article/J1GAJG9O0514C79Q.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "SilverFlow銀流咖啡（長寧國際店） (上海徐家匯地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-141102824/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "SilverFlow银流咖啡&贝果( (同达创业大厦店))",
+      "url": "http://dynamic.m.tuniu.com/restaurant/9624653/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "“咖啡+贝果”,单店外卖月销1万单?",
+      "url": "https://m.jiemian.com/article/10381550.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 8,
+      "title": "魔都圣诞咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1885181105",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "【SilverFlow银流咖啡&贝果(周秀北路店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1303346067?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:18:19Z"
+}

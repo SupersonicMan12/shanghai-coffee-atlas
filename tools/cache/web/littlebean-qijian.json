@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "提供自烘咖啡豆",
+      "kind": "beans",
+      "quote": "他们家的咖啡豆都是自家烘焙",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "设有SCA咖啡师认证课程",
+      "kind": "story",
+      "quote": "开设了sca初级和中级咖啡师认证课程",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "提供多种特色饮品",
+      "kind": "drinks",
+      "quote": "本店特色美食 原味可颂,澳白,杏仁可颂...",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "拥有专属培训区域",
+      "kind": "space",
+      "quote": "二楼空间是专属的培训区域",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "提供多种食物",
+      "kind": "food",
+      "quote": "本店特色美食 原味可颂,澳白,杏仁可颂...",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "url": "https://you.ctrip.com/food/shanghai2/12095757.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "little bean 咖啡探店体验|江淮官话片区人民|蓝鲸人|little bean|mazzer|soe 澳黑|歌剧院汤力_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5336941914491582.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "小咖啡豆做成“大咖”生意 - 消费日报",
+      "url": "https://www.xfrb.com.cn/article/food/10022121406256.html",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "豆子咖啡实验室",
+      "url": "https://weidian.com/?userid=1143181447",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "阿拉比卡豆",
+      "url": "https://upimg.baike.so.com/doc/2249105-2379646.html",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:07Z"
+}

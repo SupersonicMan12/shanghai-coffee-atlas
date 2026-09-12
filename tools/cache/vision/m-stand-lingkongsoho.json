@@ -1,0 +1,65 @@
+{
+  "cafeId": "m-stand-lingkongsoho",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "234c18ddda56",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1ccda8d1e85d845e46afd866463b040a",
+    "https://aos-comment.amap.com/B0I275OPX1/comment/0b07d9bf85bd120226df4f34acadddd0_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I275OPX1/comment/a9a1ec468445b76755e2ecabdbc62c00_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场外街角，有大面积玻璃幕墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰咖啡，杯中液体呈深褐色",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品装在透明塑料杯中，带盖和吸管",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域及工作人员操作区",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店外部地面为灰色铺砖，环境整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有白色纸杯堆叠，用于盛装饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:20Z"
+}

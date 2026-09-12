@@ -1,0 +1,74 @@
+{
+  "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0151c625fa94",
+  "raw": {
+    "headline": {
+      "zh": "含百香果籽的橙黄特调",
+      "en": "Passion fruit-seed drink on menu"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "饮品含百香果籽，呈橙黄色",
+        "en": "Drink contains passion fruit seeds, orange-yellow",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为大包",
+        "en": "Recommended dish: large bao (steamed bun)",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "红色靠垫座椅，座位数量有限",
+        "en": "Red-cushioned seats, limited in number",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至24:00",
+        "en": "Open daily until midnight",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，采光明亮",
+        "en": "Full-height street-facing windows, bright interior",
+        "from": [
+          4,
+          5,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "座位有限不利久坐",
+        "en": "Limited seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "含果籽特调较特别",
+        "en": "Unusual seeded drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:34Z"
+}

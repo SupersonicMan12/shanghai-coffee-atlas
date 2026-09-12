@@ -1,0 +1,79 @@
+{
+  "cafeId": "1575-wanhangdu-rd-1575",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8f413537dad2",
+  "raw": {
+    "headline": {
+      "zh": "苏州河畔议事咖啡馆",
+      "en": "A riverside cafe with a civic twist"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "拥有苏州河景视野",
+        "en": "Offers views of Suzhou Creek",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "三面落地玻璃窗，采光良好",
+        "en": "Bright with three-sided floor-to-ceiling windows",
+        "from": [
+          2,
+          5,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应餐食、咖啡和酒水",
+        "en": "Serves meals, coffee, and alcoholic drinks",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客在店内使用电脑",
+        "en": "Customers work on laptops inside",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00-20:00（网页）",
+        "en": "Open 09:00–20:00 per official site",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          1,
+          6,
+          8,
+          12
+        ],
+        "zh": "有桌椅且采光好适合久坐",
+        "en": "Seating and light encourage staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:03Z"
+}

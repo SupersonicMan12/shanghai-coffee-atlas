@@ -1,0 +1,65 @@
+{
+  "cafeId": "goodslove-cafe-shanghaiwujiaochangwanda",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e681adb658da",
+  "raw": {
+    "headline": {
+      "zh": "天花板挂满彩色人造花",
+      "en": "Ceiling hung with colorful artificial flowers"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内天花板悬挂大量彩色人造花",
+        "en": "Ceiling is hung with numerous colorful artificial flowers",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内中央有一个大型卡通老鼠玩偶",
+        "en": "A large cartoon mouse plush sits in the center of the shop",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内货架上陈列着多款商品",
+        "en": "Shelves display multiple merchandise items",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日10:00-22:00",
+        "en": "Open daily from 10:00 to 22:00",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "彩色花与大玩偶营造热闹氛围",
+        "en": "Colorful flowers and large plush create lively vibe"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "货架陈列多款商品，暗示可久留浏览",
+        "en": "Merchandise display suggests browsing-friendly linger time"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:52Z"
+}

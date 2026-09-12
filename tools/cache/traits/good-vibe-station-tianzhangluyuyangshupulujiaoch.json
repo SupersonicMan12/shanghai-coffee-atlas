@@ -1,0 +1,84 @@
+{
+  "cafeId": "good-vibe-station-tianzhangluyuyangshupulujiaoch",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3fc5c8f250de",
+  "raw": {
+    "headline": {
+      "zh": "船厂老厂房里的音乐咖啡站",
+      "en": "A music-focused coffee station in a historic shipyard building"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "前身是上海船厂修船分厂3号厂房，保留铁轨及钢架结构",
+        "en": "Former Shanghai Shipyard repair workshop No. 3, retaining original rails and steel framework",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "位于杨浦滨江步道南段，可吹江风",
+        "en": "Located on the southern section of Yangpu Riverside Promenade, with river breeze access",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位与金属栏杆围合的露台区域",
+        "en": "Outdoor seating area with metal railings, visible in photos",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "sound",
+        "zh": "每周五、六晚有固定现场Live Show，所有工作人员都是歌手",
+        "en": "Fixed live music shows every Friday and Saturday evening; all staff are singers",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供烤鸡翅配炸物，用报纸包裹",
+        "en": "Serves grilled chicken wings with fried items, wrapped in newspaper",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 75,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "周末宠物多+每晚现场演唱",
+        "en": "Weekend pet traffic + nightly live music"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          10,
+          11,
+          13
+        ],
+        "zh": "宠物友好、每晚演出、堂食送餐到桌",
+        "en": "Pet-friendly, nightly shows, table service for dine-in"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          16
+        ],
+        "zh": "推荐菜含鱿鱼与巧克力，非典型咖啡馆菜单",
+        "en": "Featured dishes include squid and chocolate, atypical for cafés"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:03Z"
+}

@@ -1,0 +1,37 @@
+{
+  "cafeId": "coffee-ningguo-rd-399",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3b497908cf03",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/cff447fc0c8a7b152527cf4f2713f89e"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面入口处放置一架梯子",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃窗，右侧挂有秋季主题装饰条幅",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可见店内有桌椅和顾客",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:38Z"
+}

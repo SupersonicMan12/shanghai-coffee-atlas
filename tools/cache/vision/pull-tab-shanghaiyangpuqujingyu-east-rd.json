@@ -1,0 +1,52 @@
+{
+  "cafeId": "pull-tab-shanghaiyangpuqujingyu-east-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "37c6dd3892ce",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/11008db048553aa43bacec7643e559fd",
+    "https://store.is.autonavi.com/showpic/fb2acc40fefed2de0000002745586342?type=pic",
+    "https://store.is.autonavi.com/showpic/2ec7647c9d34d1f963fdbbcb4c1e70e7"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space|light|view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为开放式空间，有吧台和座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见多名顾客在座位上",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有立式咖啡制作设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外停放多辆共享单车",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:33Z"
+}

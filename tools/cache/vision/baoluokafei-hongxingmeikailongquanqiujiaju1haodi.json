@@ -1,0 +1,72 @@
+{
+  "cafeId": "baoluokafei-hongxingmeikailongquanqiujiaju1haodi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "28612b55be33",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/bec667ae5bf83db41bd80609de006c12",
+    "https://store.is.autonavi.com/showpic/8fbe74973e02cf570000002244174075?type=pic",
+    "https://store.is.autonavi.com/showpic/be040a7c97c85fef0000002095676598?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和餐桌，空间为中等大小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有菜单黑板，展示春季新品",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客正在用餐",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有玻璃门和落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见水果展示柜，陈列橙子等水果",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口摆放植物装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "夜间店面有灯光照明，招牌清晰可见",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有桌椅，可容纳数人同时用餐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:10Z"
+}

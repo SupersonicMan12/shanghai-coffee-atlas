@@ -1,0 +1,59 @@
+{
+  "cafeId": "pull-tab-shanghaishiminxingwenyizhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4d41b6e23815",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配少量外座",
+      "en": "Street-facing glass with few outdoor seats"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外座位约4-6个",
+        "en": "Outdoor seating for about 4–6 people",
+        "from": [
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间较窄",
+        "en": "Indoor space is narrow",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-17:00营业",
+        "en": "Open weekdays 8:00–17:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐冰美式",
+        "en": "Iced Americano recommended",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "座位少且空间窄",
+        "en": "Few seats, narrow space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:26Z"
+}

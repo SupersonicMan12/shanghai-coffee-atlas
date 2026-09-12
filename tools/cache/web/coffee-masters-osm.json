@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "text": "体验意式浓缩、手冲咖啡及咖啡品鉴",
+      "kind": "story",
+      "quote": "来宾可在专业咖啡师的带领下,制作一杯拥有精美拉花的拿铁咖啡。",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NDI0NzYwOA==&mid=2247628907&idx=4&sn=c2e762589e3130c7f59e279d6ba54c80&chksm=c02ecfbcf75946aa4e0890f7ed275669e7ca25639ac58b61c43cd8ec7e6079f915e6de0f965b&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于滴水湖畔，视野开阔，环境优美",
+      "kind": "view",
+      "quote": "在临港滴水湖西岸,有一家不可错过的一尺花园(西岸店)。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTc3NDU5Mw==&mid=2653603832&idx=5&sn=c5d5ec72ba8066df8eef3def2b606654&chksm=bcc34ad8b6fcf551b14a3aa71713fff5577f5e9ef0493989455c050c12b412bf082d057cedf1&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "春和景明,就该去一家水岸咖啡馆! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTc3NDU5Mw==&mid=2653603832&idx=5&sn=c5d5ec72ba8066df8eef3def2b606654&chksm=bcc34ad8b6fcf551b14a3aa71713fff5577f5e9ef0493989455c050c12b412bf082d057cedf1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "咖啡、拉花、调酒大咖,齐聚世界技能博物馆一周年庆!(文末藏福利哦~) ",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NDI0NzYwOA==&mid=2247628907&idx=4&sn=c2e762589e3130c7f59e279d6ba54c80&chksm=c02ecfbcf75946aa4e0890f7ed275669e7ca25639ac58b61c43cd8ec7e6079f915e6de0f965b&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "别再瞎选咖啡豆了!2026十大热门产区盘点,风味差距超乎想象!",
+      "url": "https://baijiahao.baidu.com/s?id=1875368651934638066",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "来杨浦滨江,“恰”咖啡!快来收藏打卡→ ",
+      "url": "https://www.sohu.com/a/837911263_121286085",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡豆主要产地",
+      "url": "https://baijiahao.baidu.com/s?id=1833984739826106012",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "咖啡带是地球的“金腰带”?这些产地的豆子一口上头!",
+      "url": "https://baijiahao.baidu.com/s?id=1852995464948462920",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "咖啡豆什么品牌什么产地比较好?",
+      "url": "https://www.zhihu.com/question/313995434/answer/2025156358874376073",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:19Z"
+}

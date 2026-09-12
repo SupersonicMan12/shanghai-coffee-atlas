@@ -1,0 +1,28 @@
+{
+  "cafeId": "paikafei-longyang-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "658feab0a4ae",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "工作日8:00-19:00营业",
+        "en": "Open 8am–7pm on weekdays",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐美式咖啡",
+        "en": "Americano is recommended",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:50Z"
+}

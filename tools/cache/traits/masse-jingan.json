@@ -1,0 +1,28 @@
+{
+ "cafeId": "masse-jingan",
+ "model": "qwen-max",
+ "inputDigest": "0b604ceb966c",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "台球房内附设咖啡吧",
+    "en": "Coffee bar in a billiards hall",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 50,
+    "from": 1,
+    "zh": "菜单如台球花式技巧",
+    "en": "Menu like trick shots"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:00Z"
+}

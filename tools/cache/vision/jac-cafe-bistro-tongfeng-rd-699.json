@@ -1,0 +1,59 @@
+{
+  "cafeId": "jac-cafe-bistro-tongfeng-rd-699",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "883afa664a5d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9e52652c737dca072ab43939fbee6a90",
+    "https://aos-comment.amap.com/B0KURCW6IY/comment/content_media_external_file_1000008472_ss__1764299225687_98458621.jpg",
+    "https://aos-comment.amap.com/B0KURCW6IY/comment/content_media_external_file_1000008470_ss__1764299225692_09457636.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外临街，有橙色和白色车辆停放",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有烤鸡肉串出售",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带有拉花的咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡表面撒有干花装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为临街商铺，有玻璃门和橱窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有自行车停放",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:40Z"
+}

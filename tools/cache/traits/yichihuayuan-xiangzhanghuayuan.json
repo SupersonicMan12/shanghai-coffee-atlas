@@ -1,0 +1,77 @@
+{
+  "cafeId": "yichihuayuan-xiangzhanghuayuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ca75bcec89e8",
+  "raw": {
+    "headline": {
+      "zh": "茶咖融合的全天候花园",
+      "en": "All-day garden with tea-infused coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含桂花拿铁及茶咖融合款",
+        "en": "Signature drinks include osmanthus latte and tea-coffee blends",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手工焦糖南瓜重芝士蛋糕等西式甜点",
+        "en": "Serves Western-style desserts like pumpkin cheesecake",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门店超千平，含绿植造景与户外露营区",
+        "en": "Over 1000 sqm with greenery and outdoor camping area",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有木质桌椅，空间不拥挤",
+        "en": "Wooden indoor and outdoor seating, uncrowded",
+        "from": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–22:00，覆盖全天时段",
+        "en": "Open 10am–10pm, all-day service",
+        "from": [
+          9,
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "大空间+舒适座位适合久坐",
+        "en": "Spacious with comfy seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "使用碧螺春等中国茶做咖啡",
+        "en": "Uses Chinese teas in coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:04Z"
+}

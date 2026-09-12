@@ -1,0 +1,71 @@
+{
+  "cafeId": "coplusde-xiangyang-s-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b0df509e1625",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKVH6SHC/comment/598b847c0b00c502df069b57a803b85c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKVH6SHC/comment/0e668d93c81f5563442734a864e20355_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKVH6SHC/comment/abc8584adae2f67159ec998861d06420_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有圣诞老人充气腿装饰和一把带圣诞帽的折叠椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "货架上陈列多款咖啡豆，标签显示产地如哥伦比亚、印度尼西亚。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上放着一杯深色咖啡，旁边是氮气瓶和一罐咖啡豆。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内玻璃门内可见顾客坐在吧台前，有人背对镜头。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单牌显示“死亡之吻”拼配豆250g售价88元，挂耳包10包80元。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口招牌写着“新鲜烘焙咖啡豆”，表明店内有烘焙业务。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内吧台为不锈钢材质，后方货架为浅色木质。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处有立式取暖器，门外地面铺有红色节日桌布的小桶。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:04:56Z"
+}

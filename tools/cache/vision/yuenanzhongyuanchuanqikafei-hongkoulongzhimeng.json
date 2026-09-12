@@ -1,0 +1,71 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-hongkoulongzhimeng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8f14993a0804",
+  "photos": [
+    "https://aos-comment.amap.com/B0K3M7TQXB/comment/content_media_external_file_1000037787_ss__1767530384227_04167995.jpg",
+    "https://aos-comment.amap.com/B0K3M7TQXB/comment/EAC4EA0A_447D_47DD_9075_A7C49EFE4439_L0_001_2000_150_1768643030545_83056684.jpg",
+    "https://store.is.autonavi.com/showpic/1dee9a3f3fcb87ad0000001063804775?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为独立咖啡店铺",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有吧台和饮品制作区，配备磨豆机、咖啡机等专业设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见多种包装咖啡豆及零售商品陈列于货架与展示柜中",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单板展示双人下午茶套餐，价格为168元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口摆放有植物装饰和袋装咖啡豆展示",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间整洁，地面为几何图案瓷砖，天花板有裸露管道",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "墙上可见越南语品牌标语，强调品牌理念",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有员工在吧台后工作，但未见顾客使用电脑或用餐",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:09Z"
+}

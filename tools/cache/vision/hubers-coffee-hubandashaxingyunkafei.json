@@ -1,0 +1,71 @@
+{
+  "cafeId": "hubers-coffee-hubandashaxingyunkafei",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "feda4e3b26ec",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f70fc7af0e5b0651cb9a2d4d6b23d48d",
+    "https://aos-comment.amap.com/B0KR65KASV/comment/content_media_external_file_1000120652_ss__1767792256018_47785842.jpg",
+    "https://aos-comment.amap.com/B0KR65KASV/comment/content_media_external_file_1000120666_ss__1767792256004_88590214.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有少量户外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和藤编座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡杯中有拉花图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃门设计，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外设有遮阳棚",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁类，盛于透明玻璃杯",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:14Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "gaga-shanghaizhenruhuanyuchengmax",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4ad7878edb04",
+  "photos": [
+    "https://aos-comment.amap.com/B0L2Z53XOE/comment/content_media_external_file_17081_ss__1767417168368_98689102.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771434282449_94569701_1771434293349_87623583.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771434282441_35348273_1771434293348_70014161.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡机等专业设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供绿色蔬果汁饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐品包括牛肉炖菜和混合米饭",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌上有植物装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可扫码自提无需排队",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "用餐区有人使用手机",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "食物盛放在陶制容器中",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:23:55Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "gongfeikafei-sichuanbeilushangye-st",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "7043e0f021bb",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKKQAMM/comment/content_media_external_images_media_1000207473_ss__1744263385609_57707346.jpg",
+    "https://aos-comment.amap.com/B0FFKKQAMM/comment/content_media_external_images_media_1000207474_ss__1744263385610_61879581.jpg",
+    "https://aos-comment.amap.com/B0FFKKQAMM/comment/afa85f9a4b80a7f627b967676cf0cf73_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有木质露台，设1张圆桌+3把藤编椅+1把遮阳伞，属室外座区域。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为灰砖墙+红砖柱+拱形窗，门头标‘公啡咖啡 Gongfei coffee’，左侧墙有‘COFFEE OPEN’霓虹灯牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "菜单黑板写‘春季上新’：绵云橙子海¥38、蜜瓜咸宁苏打¥30、明治冰淇淋单球¥20/双球¥35、阿芙加朵¥38、香草轻芝士MINI冰砖拿铁¥35、虹足文创雪糕¥15、冷萃鸡尾酒上新（酸柠味）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内桌上放一杯咖啡（浅棕色液体，无拉花）与一个芝麻小面包，配黄釉条纹杯碟。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "露台地面为木纹地板，旁有棕榈树干，墙面有‘在多伦路 听见最美的声音’字样。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.92
+    },
+    {
+      "text": "菜单末行注明‘每日限量 欢迎进店详询～’，未见豆子产地或专业冲煮设备。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内桌面为深色木纹，印有模糊英文地名（如NEW YORK, AIRPORT），背景可见黑色椅子与书架轮廓。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中无人，未见电脑、烘焙机、手冲台、磨豆机、宠物或书架细节。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:11Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "moxy-aomen",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "88952bd1ec7c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/03e34cd9d1c589fa0000001727128646?type=pic",
+    "https://store.is.autonavi.com/showpic/869d822c285524520000001727170047?type=pic",
+    "https://store.is.autonavi.com/showpic/a8b66219bdebc3300000001727168089?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "木质长吧台式自助餐台，背景为白色瓷砖墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台上摆放紫色电吉他装饰、黄色摇滚手势玩偶及三款沙拉酱（油醋汁、沙拉汁、芝麻汁）",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "可见四碗自助沙拉配料：黄瓜片、胡萝卜片、红腰豆、玉米粒；另有一大黑碗混合生菜",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后方有两瓶带木塞的调料瓶（疑似胡椒与香料）",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "沙拉区设标牌‘沙拉吧 Salad Bar’，酱料标牌含中英文名称（如Vinaigrette）",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "无咖啡机、磨豆机、手冲架、虹吸壶等咖啡制作设备可见",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "未见任何顾客、座位或电脑使用场景",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "墙面为光面白色矩形瓷砖，无窗、无植物、无书架、无宠物",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:18Z"
+}

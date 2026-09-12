@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "提供基于心情卡片定制的特调咖啡体验",
+      "kind": "drinks",
+      "quote": "Coffee Omakase的定製體驗很有新意，通過填寫心情卡片就能獲得專屬特調",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136053430/",
+      "site": "Oaks 19 (靜安寺/南京西路, 上海) – 菜單、評論及資訊 - Trip.com"
+    },
+    {
+      "text": "饮品菜单按季更新，包含新疆特产食材参与特调",
+      "kind": "drinks",
+      "quote": "店内饮品分为Espresso -based、Special Drinks、SOC单一产地可可、Others等四个系列",
+      "url": "https://zhuanlan.zhihu.com/p/613320810",
+      "site": "知乎"
+    },
+    {
+      "text": "提供基础意式咖啡及手冲咖啡等多种选择",
+      "kind": "drinks",
+      "quote": "OAKS19的菜单非常丰富，有基础的意式咖啡、手冲咖啡、还有很多款有趣的特调咖啡",
+      "url": "https://www.sina.cn/news/detail/4886592361336805.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Oaks 19 (靜安寺/南京西路, 上海) – 菜單、評論及資訊 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136053430/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Oaks 19 (上海靜安寺/南京西路)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136053430",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "颇具人气的小众品牌咖啡门店Oaks 19 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/613320810",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "OAKS19｜上海2022年开的街边小咖啡店，OAKS的含义是橡果 - 新浪",
+      "url": "https://www.sina.cn/news/detail/4886592361336805.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "Oaks 19 - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-136053430/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:33Z"
+}

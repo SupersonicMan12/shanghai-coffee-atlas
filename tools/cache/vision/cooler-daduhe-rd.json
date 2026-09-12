@@ -1,0 +1,65 @@
+{
+  "cafeId": "cooler-daduhe-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "568483fd9b3b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f8ce33fae6f3f067113a004647f7e860",
+    "https://aos-comment.amap.com/B0JATHSR1W/headerImg/e0f52f8a5ff08366f2be56a91f8fbf75_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JATHSR1W/headerImg/6b702d798a7432388659e9e77f3c15b7_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于大渡河路1617号，临街拱形玻璃门入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有木质花架，摆放多肉植物",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域有绿植装饰和酒瓶陈列",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰咖啡，杯中有冰块和奶泡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有多个陶制花盆种植多肉植物",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见酒类饮品货架，含多种瓶装酒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有行人经过，环境为城市街道",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:57Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "tribeca-ruijinerlujiedaonanchang-rd-98-1",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "10a2b9da90b0",
+  "photos": [
+    "https://aos-comment.amap.com/B0K09DYRRM/comment/1B2215ED_70F4_466E_8379_77F0B07C3A1E_L0_001_1500_200_1760464984888_31878835.jpg",
+    "https://aos-comment.amap.com/B0K09DYRRM/comment/A9A00AF1_95A6_4F21_8759_7DF4B443D299_L0_001_1500_200_1757330409246_06065176.jpg",
+    "https://aos-comment.amap.com/B0K09DYRRM/comment/20260221-b23d56e6f1e0c04df3312bc9-42m9GuXVPGt5Y0PEqSBeDX.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "木质桌面上摆放海鲜烩饭、披萨、沙拉及两杯饮品，餐具为手绘花纹瓷盘。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯含薄荷与草莓的气泡水，另一杯为透明玻璃杯盛装的无色液体（可能为白葡萄酒或水）。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中两杯鸡尾酒：一杯乳白色带青瓜片，一杯浅黄带大冰块与青瓜片；旁有小碗烤花生。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图为吧台背景墙，马赛克瓷砖上印有'THE TU→EDO'字样，两侧陈列多款烈酒瓶与玻璃杯。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台下方置物架有蓝色高脚杯、郁金香杯等不同形制玻璃杯，未见咖啡专用器具。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "餐巾纸上印有'BAR NO.3'字样，出现在第二张图的两杯饮品下方。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图中食物含橙红色烩饭（配蛤蜊、扇贝、番茄）、火腿芝麻菜披萨、混合蔬菜沙拉（含牛油果、甜菜根、橄榄）。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "三张图均未出现咖啡机、磨豆机、手冲壶、虹吸壶、书架、植物、宠物或电脑使用者。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:43Z"
+}

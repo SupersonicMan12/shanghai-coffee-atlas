@@ -1,0 +1,71 @@
+{
+  "cafeId": "grid-coffee-ruihongtaiyanggong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "86f17d5decbd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/03127d6cd1cf1a4b0000002737576252?type=pic",
+    "https://aos-comment.amap.com/B0LAOXSXUQ/comment/file_media_Photo_9836_IMG_1769160207_9771_IMG_20260123_172147_jpg_ss__1769160134376_40670816.jpg",
+    "https://aos-comment.amap.com/B0LAOXSXUQ/comment/content_media_external_file_54959_ss__1746758799586_73838212.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有遮阳伞和户外桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质墙面和绿植装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有沙发和靠背椅座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有人在店内使用手机",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺位于商场内，入口处有玻璃门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植环绕",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有吊灯照明，环境明亮",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:31Z"
+}

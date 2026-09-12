@@ -1,0 +1,53 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品包括苏打咖啡、防弹咖啡",
+      "kind": "drinks",
+      "quote": "他们还有很好的鸡尾酒，还有各种热饮，包括防弹咖啡",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d10056587-Reviews-Boom_Boom_Bagels-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "招牌食物为七款料足贝果三明治，如烟熏猪肩肉、鸡肉等",
+      "kind": "food",
+      "quote": "They do seven loaded bagel sandwiches with fillings like pulled pork and chicken",
+      "url": "https://www.smartshanghai.com/venue/12110/boom_boom_bagels",
+      "site": "Boom Boom Bagels Shanghai - Bagels, Cafes, Bars, Xuhui"
+    },
+    {
+      "text": "装修风格为美式街头风，有张扬涂鸦、明亮藕紫色窗框",
+      "kind": "space",
+      "quote": "张扬的涂鸦,明亮的紫色窗框,浓浓的美式街头风,太酷",
+      "url": "https://www.thepaper.cn/newsDetail_forward_20196358",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "LOOK|魔都好吃地图",
+      "url": "https://www.thepaper.cn/newsDetail_forward_20196358",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "Boom Boom Bagels(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d10056587-Reviews-Boom_Boom_Bagels-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 3,
+      "title": "Boom Boom Bagels Shanghai - Bagels, Cafes, Bars, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/12110/boom_boom_bagels",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "BOOM BOOM BAGELS (上海淮海路/新天地地區)－餐牌、食評及資訊",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/boomboombagels-22782036/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:16Z"
+}

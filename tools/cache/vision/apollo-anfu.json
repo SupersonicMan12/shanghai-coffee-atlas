@@ -1,0 +1,71 @@
+{
+  "cafeId": "apollo-anfu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6cb094fa6924",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8fb3d9435cac9d2a0000002343348796?type=pic",
+    "https://aos-comment.amap.com/B00156O2XJ/comment/17c67e2fe515df9ca2a9cd562e884e17_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/bc86116696cb84d60000002343404015?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店招为CAFÉ del VOLCÁN，临街玻璃门面，右侧有25号门牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外设2把折叠椅+1小木桌，1人坐于户外桌前低头看手机",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见木质吧台、白色咖啡机（带锥形漏斗）、多罐装咖啡豆、木质长凳与高脚凳",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "天花板有裸露木梁、黑色吊灯（含橙色内衬款），左侧为红砖墙",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "桌上有一杯热拿铁（带叶形拉花）、一杯冰咖啡（杯身印英文）、一杯水、两块小饼干",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "玻璃门贴有营业时间：MON-SUN 9:00AM–7:00PM",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内无可见书架、植物或宠物；未见手冲台、虹吸壶或烘焙机",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单板部分可见，标有“America”及中英文豆名，但价格与具体产地不可辨",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:45Z"
+}

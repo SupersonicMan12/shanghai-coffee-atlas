@@ -1,0 +1,59 @@
+{
+  "cafeId": "shanjikafei-beiwaitan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8ed1ce1bbee1",
+  "raw": {
+    "headline": {
+      "zh": "西达摩高海拔手冲风味",
+      "en": "High-altitude Sidamo pour-over flavors"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚西达摩班莎ALO村豆",
+        "en": "Ethiopian Sidamo Bensa ALO beans",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "咖啡风味含花香、荔枝、草莓等",
+        "en": "Floral notes with lychee, strawberry, honeydew",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30-16:30营业",
+        "en": "Open daily 7:30–16:30",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐美式咖啡",
+        "en": "Recommended drink: Americano",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "提供特色产地手冲风味",
+        "en": "Distinct origin pour-over profile"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:10Z"
+}

@@ -1,0 +1,83 @@
+{
+  "cafeId": "hey-barista-hengshan-rd-880",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6eb7951f0de5",
+  "raw": {
+    "headline": {
+      "zh": "OATLY燕麦奶专属体验空间",
+      "en": "OATLY's oat milk-only coffee space"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "只用燕麦奶制作咖啡",
+        "en": "Uses only oat milk in drinks",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "三层独栋小洋楼，含无声艺术展",
+        "en": "Three-story building with silent art exhibit",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有多张桌椅，可见顾客使用笔记本电脑",
+        "en": "Multiple tables; people work on laptops",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–18:00营业",
+        "en": "Open daily 09:30–18:00",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "衡山和集旧址，OATLY首个品牌集合空间",
+        "en": "Former Hengshan Heji site; OATLY's first brand space",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "有顾客用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "多层空间适合久坐",
+        "en": "Multi-floor layout invites lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "仅用燕麦奶属特色但非实验性",
+        "en": "Oat milk only, not experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:18Z"
+}

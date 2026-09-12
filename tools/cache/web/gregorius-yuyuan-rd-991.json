@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "店内售卖豆子标明产地/口味/价格，精细到适用冲煮或意式",
+      "kind": "beans",
+      "quote": "售卖的豆子除了仔细的标明产地/口味/价格等等 还甚至精细到每款豆子适用方式是冲煮还是意式",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    },
+    {
+      "text": "海妖朗姆dirty含朗姆酒与黑巧，香甜浓郁有80%黑巧回味",
+      "kind": "drinks",
+      "quote": "咖啡的香醇与朗姆的香气融合在一起...配着撒在上面的黑巧一口喝下去,是偏香甜且浓郁的回味",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    },
+    {
+      "text": "有露天后院，可露天饮啡",
+      "kind": "space",
+      "quote": "后门打开是一个小院子,可以露天饮啡",
+      "url": "https://you.ctrip.com/food/shanghai2/22603345.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "门口台阶设户外座椅，面对愚园路，可坐梧桐树下看人来人往",
+      "kind": "view",
+      "quote": "门口台阶设有面对着愚园路的几个座椅 可以坐在户外梧桐树下看人来人往",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间10:00–18:30",
+      "kind": "time",
+      "quote": "🕙 10:00-18:30",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    },
+    {
+      "text": "主理人身穿中古服饰、梳油头，个人风格与店风和谐",
+      "kind": "story",
+      "quote": "主理人是一位身穿中古服饰,梳着油头的帅大叔,他的个人风格和这个店很和谐",
+      "url": "https://you.ctrip.com/food/shanghai2/22603345.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "使用双头赛瑞蒙Racer咖啡机，灵感来自越野摩托车，造价近10万",
+      "kind": "drinks",
+      "quote": "店内选用的是一台双头赛瑞蒙racer咖啡机...一台双头设备也要造价近10万",
+      "url": "https://www.sohu.com/a/312229679_100007851",
+      "site": "搜狐"
+    },
+    {
+      "text": "店铺成立于2018年，主打美式复古，融合老板个人收藏",
+      "kind": "story",
+      "quote": "Gregorius航迹是一家位于上海的独立咖啡店,成立于2018年。从器皿、灯具到店内陈列,Gregorius融合美式复古元素与个人收藏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzY5MTQyOQ==&mid=2247560592&idx=1&sn=7ff7616297579a2de4a0f097e3e9a155&chksm=e819fa5adf6e734c974e1092a9361afd139c10f68c5ac1a58f5fc2a9435fb252750db04ace7f&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "航迹·上海|愚园路最好看的咖啡店与最好喝的dirty - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "推荐一些上海值得去的咖啡馆,从江景到弄堂氛围感拉满",
+      "url": "https://www.sohu.com/a/1064778882_120487684",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "https://you.ctrip.com/food/shanghai2/22603345.html",
+      "url": "https://you.ctrip.com/food/shanghai2/22603345.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡探店|上海咖啡探店小记 ",
+      "url": "https://m.douban.com/group/topic/298897916/",
+      "site_name": "豆瓣网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡文化节 | 在愚园路的宝藏咖啡馆里点一杯秋日的咖啡 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzY5MTQyOQ==&mid=2247560592&idx=1&sn=7ff7616297579a2de4a0f097e3e9a155&chksm=e819fa5adf6e734c974e1092a9361afd139c10f68c5ac1a58f5fc2a9435fb252750db04ace7f&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "Gregorius 航迹| 上海愚园路上的美式复古咖啡馆 - 搜狐",
+      "url": "https://www.sohu.com/a/312229679_100007851",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:20Z"
+}

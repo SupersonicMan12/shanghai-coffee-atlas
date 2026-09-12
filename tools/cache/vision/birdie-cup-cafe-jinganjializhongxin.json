@@ -1,0 +1,65 @@
+{
+  "cafeId": "birdie-cup-cafe-jinganjializhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d8d5f12425e3",
+  "photos": [
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/eccf5f4c0ad1d5438a1b3b4b10c5a545_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/content_media_external_file_9502_ss__1763884603955_20152864.jpg",
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/content_media_external_file_60190_1771456819152_97909404.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃结构，有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有植物装饰和现代风格座椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯上有小鸟图案标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带有红色粉末和棉花糖的冷饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供顶部有薄荷叶的冰咖啡饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拿铁拉花咖啡与华夫饼配甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质桌面和餐盘餐具",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:43Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "hetajiaogepengyougoukamaoka-aiqinhai",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "06781afc1362",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/723721c9e478949729b8712a71b5edaa",
+    "http://store.is.autonavi.com/showpic/4d99b6ad7f6db726e5051df439dd4541",
+    "https://store.is.autonavi.com/showpic/c54d988ca4fffcc74ef0f9de3acc8954"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，临街玻璃门设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有木质桌椅，提供室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见宠物狗，为狗咖猫咖类型",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有宠物宣传海报，展示多只狗",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺入口为双开玻璃门，可透视内部",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见木质桌椅与绿植装饰",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外立面为弧形设计，贴有大量动物照片",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口张贴有开业活动信息",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:25Z"
+}

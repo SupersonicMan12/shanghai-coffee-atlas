@@ -1,0 +1,40 @@
+{
+ "cafeId": "puppy-cubby-xiangyang",
+ "model": "qwen-max",
+ "inputDigest": "99a1cf30d601",
+ "raw": {
+  "headline": {
+   "zh": "狗狗乐园里的咖啡时光",
+   "en": "Coffee in a dog park"
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "适合带宠物狗一起来",
+    "en": "Bring your fluffy friend along",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 1,
+    "zh": "主要为宠物社交场所",
+    "en": "Pet social spot"
+   },
+   "energy": {
+    "value": 80,
+    "from": 1,
+    "zh": "狗狗活动带来活力",
+    "en": "Energetic with dogs"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "可以与宠物一起久坐",
+    "en": "Stay and play with pets"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:06Z"
+}

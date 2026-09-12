@@ -1,0 +1,75 @@
+{
+  "cafeId": "73coffee-jiankangzhigu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6a5a5f835207",
+  "raw": {
+    "headline": {
+      "zh": "创意特调+自烘豆",
+      "en": "Creative drinks with house-roasted beans"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "主打创意特调，如“海水也甜”“椰青茴”",
+        "en": "Signature creative drinks like 'Sweet Sea Water'",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自烘豆，按季节上新特饮",
+        "en": "Uses house-roasted beans, seasonal specials",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内空间窄小，属小型咖啡馆",
+        "en": "Narrow interior, small cafe size",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设桌椅，提供室外座位",
+        "en": "Outdoor seating available outside",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至18:00",
+        "en": "Open daily until 18:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "自烘豆+创意特调",
+        "en": "House-roasted beans and unique drinks"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "空间小但干净",
+        "en": "Small but tidy space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:06Z"
+}

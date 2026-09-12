@@ -1,0 +1,41 @@
+{
+ "cafeId": "mengongfang-tangqiao",
+ "model": "qwen-max",
+ "inputDigest": "6005ced33ca8",
+ "raw": {
+  "headline": {
+   "zh": "由特殊需求青年经营的手冲咖啡",
+   "en": "Hand-drip by baristas with special needs"
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "店员为有特殊需求的年轻咖啡师",
+    "en": "Baristas with special needs",
+    "from": 6
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是手冲咖啡",
+    "en": "Signature drink is hand-drip coffee",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间为周一至周日10:00-17:00",
+    "en": "Open Mon-Sun, 10:00-17:00",
+    "from": 8
+   },
+   {
+    "kind": "light",
+    "zh": "内部纵深有限，小型临街店",
+    "en": "Small, limited depth",
+    "from": 4,
+    "axisHints": "focus",
+    "value": 20
+   },
+   "linger"
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:16:42Z"
+}

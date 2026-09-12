@@ -1,0 +1,71 @@
+{
+  "cafeId": "chowchow-harbin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "dc736fba6929",
+  "photos": [
+    "https://aos-comment.amap.com/B0KU21VLWA/comment/83360692_35BC_44E4_BE1A_5668E71F13F8_L0_001_1500_200_1763526078381_09341511.jpg",
+    "https://aos-comment.amap.com/B0KU21VLWA/comment/474F829D_7C44_4FC6_A363_CF26E6EC3E9D_L0_001_1500_200_1763526078302_63651768.jpg",
+    "https://store.is.autonavi.com/showpic/7891d241dfe23c890000004867010720?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店招为橙色立体字“松狮咖啡 CHOW CHOW”，背景为浅色墙面与棕白格瓷砖。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台设备含不锈钢保温壶、叠放金属杯、右侧可见部分磨豆机料斗（黑色）。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一台白色商用咖啡机正面贴满卡通贴纸，含手写中文标语与“sheep lion chestnut”英文。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯绿色分层饮品（疑似抹茶），杯身贴有“CHOW CHOW COFFEE SHANG HAI”图案标签。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯奶咖类饮品（底层乳白、中层深褐、顶层浅棕+奶盖），杯贴含“馬上發財”“luck horse”字样。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "粉色纸袋印有“CHOW CHOW COFFEE CHILL~”及松狮卡通图案，置于绿色圆桌旁。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图中桌面为绿色，旁有小盆多肉植物；背景可见临街玻璃窗与街道倒影。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图中桌面为黑色，前景有印相同图案的纸质宣传单/杯套，背景模糊见室内红色装饰布帘。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:55Z"
+}

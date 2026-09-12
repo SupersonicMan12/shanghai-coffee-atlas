@@ -1,0 +1,66 @@
+{
+  "cafeId": "kenyuekafeidaduheludian-jinshajiang-rd-960",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3b72d24365aa",
+  "photos": [
+    "https://aos-comment.amap.com/B0LBYULVV5/comment/content_media_external_file_142007_ss__1761265069739_72517039.jpg",
+    "https://store.is.autonavi.com/showpic/14381b040a4ac3373526335fb7da4510",
+    "https://aos-comment.amap.com/B0LBYULVV5/comment/content_media_external_file_142008_ss__1761265069741_50986468.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有红色座椅和木质桌椅，空间适中",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一杯KCOFFEE咖啡和一份芝鸡（轻盈版）早餐",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供芝鸡（轻盈版）早餐，包装上有明确标识",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于临街位置，玻璃门面，外部人行道开阔",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有自然光照射，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台区域，背景可见饮料展示架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:15Z"
+}

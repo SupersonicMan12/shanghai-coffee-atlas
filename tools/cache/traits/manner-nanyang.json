@@ -1,0 +1,70 @@
+{
+ "cafeId": "manner-nanyang",
+ "model": "qwen-max",
+ "inputDigest": "c4582e642173",
+ "raw": {
+  "headline": {
+   "zh": "2平米小店，上海最实惠精品咖啡",
+   "en": "Tiny 2m² shop, best budget coffee in SH"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "临街单层小店，门面窄",
+    "en": "Narrow street-level single-story shop",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品含燕麦拿铁、冰甜",
+    "en": "Signature drinks: oat latte, iced sweet",
+    "from": 9
+   },
+   {
+    "kind": "price",
+    "zh": "价格带15-25元，平价精品",
+    "en": "Priced 15-25 RMB, affordable quality",
+    "from": 8
+   },
+   {
+    "kind": "people",
+    "zh": "自带杯子买咖啡减5元",
+    "en": "Bring your own cup, get 5 RMB off",
+    "from": 6
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周日 07:00-17:00",
+    "en": "Open Mon-Sun 7:00-17:00",
+    "from": 14
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": 3,
+    "zh": "站立式小店，不适合办公",
+    "en": "Standing bar, not for work"
+   },
+   "energy": {
+    "value": 50,
+    "from": 3,
+    "zh": "临街小店内氛围适中",
+    "en": "Moderate energy, small street-side shop"
+   },
+   "linger": {
+    "value": 10,
+    "from": 3,
+    "zh": "无室外座位，适合快饮",
+    "en": "No outdoor seating, quick drink"
+   },
+   "adventure": {
+    "value": 40,
+    "from": 7,
+    "zh": "意式豆常推限定款",
+    "en": "Limited edition Italian beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:34Z"
+}

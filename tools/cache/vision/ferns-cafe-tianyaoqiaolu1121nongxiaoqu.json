@@ -1,0 +1,59 @@
+{
+  "cafeId": "ferns-cafe-tianyaoqiaolu1121nongxiaoqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f975e65a7780",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/880581be67b7a9d8eb74beca8e592f93",
+    "https://aos-comment.amap.com/B0JR4RB7OV/comment/content_media_external_file_1000151979_ss__1768020362698_17227845.jpg",
+    "https://aos-comment.amap.com/B0JR4RB7OV/comment/content_media_external_file_1000151889_ss__1768020363277_93907447.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面有临街玻璃窗，可见内部吧台。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外摆放两张折叠椅和一个储物箱。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡制作设备，如磨豆机。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品包括杯装拿铁和瓶装植物蛋白饮料。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物有巧克力棒（Pocky）和瓶装饮料。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰，环境偏简约风格。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:03Z"
+}

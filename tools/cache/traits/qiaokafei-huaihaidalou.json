@@ -1,0 +1,75 @@
+{
+  "cafeId": "qiaokafei-huaihaidalou",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "45c520a9dfdf",
+  "raw": {
+    "headline": {
+      "zh": "乔家栅新派早餐咖啡",
+      "en": "Qiao's new breakfast coffee"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "供应包子、叉烧酥等现做传统早点",
+        "en": "Serves freshly made baozi, char siu su, etc.",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供“3个一口酥+咖啡”组合",
+        "en": "Offers '3 yikou su + coffee' combo",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-19:00营业",
+        "en": "Open daily 07:00–19:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "百年老字号乔家栅推出的新品牌",
+        "en": "New brand by century-old Qiao Jia Zha",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "正对黄浦江景",
+        "en": "Faces Huangpu River view",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          3,
+          4,
+          6
+        ],
+        "zh": "临街窗边有座，行人往来",
+        "en": "Window seats, street traffic"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          1,
+          13
+        ],
+        "zh": "有专业设备，主打经典款",
+        "en": "Pro gear, classic drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:26Z"
+}

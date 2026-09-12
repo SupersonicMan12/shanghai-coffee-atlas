@@ -1,0 +1,49 @@
+{
+  "cafeId": "p-m-cafe-qianyao-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2880dc26fe95",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/70aeef90d40432d91068a1c282b9075b"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门外无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为玻璃门，入口清晰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:59Z"
+}

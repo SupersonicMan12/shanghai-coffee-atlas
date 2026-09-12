@@ -1,0 +1,74 @@
+{
+  "cafeId": "oaks-19-nanyang-rd-72-1",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "35f15353e615",
+  "raw": {
+    "headline": {
+      "zh": "凭心情卡片定制特调",
+      "en": "Custom drinks from mood cards"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供基于心情卡片的专属特调咖啡",
+        "en": "Offers custom coffee based on mood cards",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品含新疆特产食材，按季更新",
+        "en": "Seasonal drinks feature Xinjiang ingredients",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含意式、手冲及特调咖啡",
+        "en": "Menu includes espresso, pour-over, and specials",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设吧台及少量座位",
+        "en": "Bar seating with limited spots",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日08:30-18:00，周末10:00-18:30",
+        "en": "Open 08:30–18:00 weekdays, 10:00–18:30 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          7,
+          8,
+          9
+        ],
+        "zh": "特调含地域食材且按心情定制",
+        "en": "Mood-based, seasonal, regional drinks"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "座位少，空间紧凑",
+        "en": "Limited seating, compact space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:21Z"
+}

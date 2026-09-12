@@ -1,0 +1,64 @@
+{
+  "cafeId": "the-press-shenbaoguan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "bd173fe22c40",
+  "raw": {
+    "headline": {
+      "zh": "复旦校友众筹的咖啡馆",
+      "en": "Crowdfunded by Fudan alumni"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "由复旦大学校友众筹开设",
+        "en": "Crowdfunded by Fudan University alumni",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供牛排、三文鱼等正餐",
+        "en": "Serves ribeye steak and salmon fillet",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内约8-12个座位，木质桌椅",
+        "en": "8–12 indoor seats with wooden tables",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-23:00营业（周六全天关闭）",
+        "en": "Open 08:30–23:00 daily, closed Saturdays",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应冰香草拿铁等特色饮品",
+        "en": "Offers vanilla iced latte",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "有餐桌可坐",
+        "en": "Has proper seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:18Z"
+}

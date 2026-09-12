@@ -1,0 +1,72 @@
+{
+  "cafeId": "solid-coffee-bolanhuiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5371d04a5912",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e95332f04e07f8476c8836c5302fd57a",
+    "https://aos-comment.amap.com/B0G07H4EGB/comment/72816bc4689d2723dc92fa1ac41a4e6d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G07H4EGB/comment/69463fea15807f6c57f0eb30cb8a2b56_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅和少量座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见菜单展示热红酒美式、酒花与肉桂等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客在坐着喝咖啡",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为临街玻璃门设计，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有树木和街道，环境安静",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有植物摆放，入口处较开阔",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见店内有吧台区域和操作设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:57Z"
+}

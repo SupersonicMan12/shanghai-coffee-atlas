@@ -1,0 +1,71 @@
+{
+  "cafeId": "mr-beans-zhabei",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b51d02bdd036",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e4cb0853b74331d7ad252a139a3c777a",
+    "https://store.is.autonavi.com/showpic/b3ae907d59aa553d50eae67c2cdf55aa",
+    "https://store.is.autonavi.com/showpic/67cb8323a57e62cd0000002824752890?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店招为木质底板，标有‘621 精品珈琲焙煎所’及日文‘レア珈琲焙煎所’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街双开木框玻璃门，门上贴雪花与圣诞装饰，窗内可见桌椅与人影",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设一长条木制矮台，覆白色仿雪装饰，旁立小型圣诞树与礼盒",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张照片中店招文字相同，但无圣诞装饰，玻璃门内可见3-4把高脚凳与吧台轮廓",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张照片中有一杯深色饮品置于蓝色切割玻璃杯中，表面有浅色油脂层",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张照片中左侧有一块绿色方形蛋糕，表面撒碎开心果仁，置于深色小碟",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内墙面为浅色，桌面为浅木纹材质，未见书架、植物或宠物",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张照片均未出现烘焙机、手冲台、虹吸壶、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:48Z"
+}

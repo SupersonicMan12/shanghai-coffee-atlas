@@ -1,0 +1,68 @@
+{
+  "cafeId": "aiyo-coffee-juli-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "34a9acc47138",
+  "raw": {
+    "headline": {
+      "zh": "张江程序员的开机密码",
+      "en": "Programmers' morning coffee ritual"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位区",
+        "en": "Outdoor seating available",
+        "from": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街大面积玻璃窗",
+        "en": "Street-facing floor-to-ceiling windows",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为清晨冰美式和午后拿铁",
+        "en": "Known for iced americano and afternoon latte",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至17:30",
+        "en": "Open weekdays until 5:30 PM",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "程序员和科研人员常来办公",
+        "en": "Frequented by coders and researchers"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          11,
+          13
+        ],
+        "zh": "适合久坐，有邻里互动氛围",
+        "en": "Good for lingering with community vibe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:52Z"
+}

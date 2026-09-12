@@ -1,0 +1,71 @@
+{
+  "cafeId": "realm-coffee-lingshi-rd-699",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "79ac3964f5e8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ce4439a0f0564e9c0000000962932227?type=pic",
+    "https://store.is.autonavi.com/showpic/53d5f14aa1a11c610000000962890717?type=pic",
+    "https://store.is.autonavi.com/showpic/8f1f991d0ff814f497c1852d0c333fa2"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "饮品为分层咖啡，上层深色下层橙黄色",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有露天座位区，设椅子和小桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有玻璃窗和门，可看见室内",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有绿植装饰，地面铺碎石",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见部分座位，有人在使用",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有自行车停放，环境安静整洁",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口贴有春节装饰，显示营业中",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:24Z"
+}

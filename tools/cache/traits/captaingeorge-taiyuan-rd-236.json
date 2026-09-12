@@ -1,0 +1,83 @@
+{
+  "cafeId": "captaingeorge-taiyuan-rd-236",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1cf5c57b2cf6",
+  "raw": {
+    "headline": {
+      "zh": "SOE豆子+复古咖啡沙龙",
+      "en": "SOE beans in vintage coffee salon"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供3款SOE豆可选的COMBO套餐",
+        "en": "Offers COMBO with 3 SOE bean choices",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "拿铁用2021年COE冠军豆，带柑橘酸甜",
+        "en": "Latte uses 2021 COE-winning beans, citrusy",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有木制折叠桌和长凳座位",
+        "en": "Outdoor seating with wooden foldable tables",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街整面玻璃窗，阳光直射门廊室内",
+        "en": "Full-height street-facing windows, sunlit interior",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-19:00营业",
+        "en": "Open daily 10:00–19:00",
+        "from": [
+          3,
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          16
+        ],
+        "zh": "有室外座位可久坐观察制作",
+        "en": "Outdoor seats, watch brewing"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          8,
+          9,
+          10,
+          11,
+          14,
+          15
+        ],
+        "zh": "多款SOE、虹吸壶、风味卡片",
+        "en": "SOE, siphon, flavor cards"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:48Z"
+}

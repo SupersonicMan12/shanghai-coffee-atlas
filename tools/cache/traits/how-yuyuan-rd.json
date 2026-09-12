@@ -1,0 +1,60 @@
+{
+  "cafeId": "how-yuyuan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "59b3d9a90180",
+  "raw": {
+    "headline": {
+      "zh": "地中海壁画配临街窗",
+      "en": "Mediterranean mural with street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临街整面玻璃，可看街景",
+        "en": "Full-height street-facing glass for views",
+        "from": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设两处吧台式高脚凳位",
+        "en": "Two outdoor bar-style high-top seats",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含羊排、三文鱼、土豆泥",
+        "en": "Serves lamb chops, salmon, mashed potatoes",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至午夜24点",
+        "en": "Open daily until midnight",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:01Z"
+}

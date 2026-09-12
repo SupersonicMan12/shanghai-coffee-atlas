@@ -1,0 +1,29 @@
+{
+  "cafeId": "xiangnashengmingnengliangguan-yongrongguojizhong",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "16fa9c817319",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃带来充足自然光",
+        "en": "Floor-to-ceiling street-facing glass provides ample natural light",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 9 PM",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:32:22Z"
+}

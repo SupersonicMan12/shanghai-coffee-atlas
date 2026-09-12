@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "text": "只售卖云南德宏自家庄园种植的高海拔精品咖啡",
+      "kind": "beans",
+      "quote": "Dehome Coffee是上海小有名气的一家咖啡馆,只售卖云南德宏自家庄园种植的高海拔 精品咖啡",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site": "知乎"
+    },
+    {
+      "text": "店内咖啡豆处理方式有日晒、蜜处理和双重厌氧处理",
+      "kind": "beans",
+      "quote": "店里咖啡豆的处理方式有三种:日晒、蜜处理和双重厌氧处理",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site": "知乎"
+    },
+    {
+      "text": "网红黑松露澳白香气浓郁",
+      "kind": "drinks",
+      "quote": "网红黑松露澳白香气浓郁,值得一试!",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site": "知乎"
+    },
+    {
+      "text": "门店采用非常简约的设计，座位比较宽敞",
+      "kind": "seating",
+      "quote": "门店采用非常简约的设计,座位比较宽敞,很爱这种惬意的环境。",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site": "知乎"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "云南咖啡 在上海打出一片天",
+      "url": "https://zhuanlan.zhihu.com/p/632714384",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "在云南种咖啡,如何打出一片天?",
+      "url": "https://www.workercn.cn/c/2022-10-18/7198170.shtml",
+      "site_name": "中工网"
+    },
+    {
+      "index": 4,
+      "title": "在云南种咖啡,如何打出一片天?",
+      "url": "https://www.163.com/dy/article/HJUT0PMC0514R9P4.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "值友故事:好咖啡要分享,我的日常豆单笔记(八) ",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405286544629432477",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "别再瞎选咖啡豆了!2026十大热门产区盘点,风味差距超乎想象!",
+      "url": "https://baijiahao.baidu.com/s?id=1875368651934638066",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "冬日暖阳配德龙咖啡三款饮品必尝",
+      "url": "https://www.bilibili.com/video/BV1KhU5BuEYf/",
+      "site_name": "哔哩哔哩"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:01Z"
+}

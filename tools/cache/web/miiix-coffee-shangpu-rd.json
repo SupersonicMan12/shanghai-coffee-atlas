@@ -1,0 +1,58 @@
+{
+  "facts": [
+    {
+      "text": "提供多种咖啡品种，包括抹茶拿铁和黄油芝士",
+      "kind": "drinks",
+      "quote": "品种还挺多的抹茶拿铁很浓郁黄油芝士",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "店铺虽小但咖啡口感不错",
+      "kind": "space",
+      "quote": "虽然店铺小",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Miiix Coffee 咖啡消费分享_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5332555609933434.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "Miiix Coffee (Shangpu Road Shop) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "Miiix Coffee (Shangpu Road Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98E16FF0AB8",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "【miiix coffee(宝山上大店)】电话_地址_价格_营业时间_上海大学 ...",
+      "url": "http://m.dianping.com/shop/1294652891?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "你喝的咖啡,80%可能来自于这里丨城市季风 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NTE1NTYwOA==&mid=2652762667&idx=5&sn=55d13e87c51882e4b2ca3cfd1192bdae&chksm=f115c333b8627682c4900ce7355ff7b0b0a3aa13e87dbd9ab7c65d3be5581e2505f248810984&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "咖啡- 【miiix coffee(凤凰广场店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/717141237?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:18:05Z"
+}

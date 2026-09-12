@@ -1,0 +1,78 @@
+{
+  "cafeId": "home-cafe-hongmei-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "192b6ff193a0",
+  "raw": {
+    "headline": {
+      "zh": "深烘耶加配自制黄油甜饼",
+      "en": "Dark-roast Yirgacheffe with house-made butter cookie"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用深烘耶加咖啡豆",
+        "en": "Uses dark-roast Yirgacheffe beans",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "附赠主理人自制黄油小甜饼",
+        "en": "Comes with house-made butter cookie",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内座位较少，有窗边木质桌椅",
+        "en": "Few indoor seats, wooden tables by window",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "带户外空间，含小型木桥与石制水池",
+        "en": "Outdoor area with small wooden bridge and stone pond",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间10:30–18:00",
+        "en": "Open daily 10:30–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "zh": "有窗景和户外座，环境安静整洁",
+        "en": "Quiet, tidy, with outdoor seating"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          11,
+          14
+        ],
+        "zh": "提供手冲咖啡和深烘豆",
+        "en": "Offers pour-over and dark roast"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:40Z"
+}

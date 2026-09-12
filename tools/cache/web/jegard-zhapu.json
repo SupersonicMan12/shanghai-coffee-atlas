@@ -1,0 +1,80 @@
+{
+  "facts": [
+    {
+      "text": "咖啡豆由团队自行烘焙，强调‘马上新鲜出炉’的状态",
+      "kind": "beans",
+      "quote": "店里的咖啡豆由团队自行烘焙,店主也会参与全球咖啡豆采购",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    },
+    {
+      "text": "以手冲和精品咖啡为特色，注重呈现每一支豆子的特点",
+      "kind": "beans",
+      "quote": "这是一家以手冲和精品咖啡为特色的小店。...把每一支豆子的特点呈现出来",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    },
+    {
+      "text": "座位之间保持距离，音乐声不大，复古旋律轻轻流动",
+      "kind": "seating",
+      "quote": "座位之间保持着距离,音乐声不大,复古旋律在空间里轻轻流动",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    },
+    {
+      "text": "对独自客人提供不被打扰的安静，对多人留出适合交流的小空间",
+      "kind": "people",
+      "quote": "对独自前来的客人,这里给出的是一份不被打扰的安静,对两三人同行的客人,这里也留出适合交流的小空间",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    },
+    {
+      "text": "店主常为客人介绍乍浦路一带的人文风貌、老建筑与电影关系",
+      "kind": "story",
+      "quote": "店主常常会为客人介绍乍浦路一带的人文风貌。...这条路和电影有什么关系",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    },
+    {
+      "text": "价格平易近人，希望让更多人愿意尝试一杯手冲",
+      "kind": "story",
+      "quote": "价格平易近人,是希望让更多人愿意走进来,尝试一杯手冲",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "咖啡节正热,来乍浦路喝一杯“可阅读”的咖啡|虹口甄选",
+      "url": "https://baijiahao.baidu.com/s?id=1863958577865681503",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "咖啡节正热,来乍浦路喝一杯“可阅读”的咖啡 | 虹口甄选",
+      "url": "https://news.qq.com/rain/a/20260501A0268A00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 3,
+      "title": "咖啡节正热,来乍浦路喝一杯“可阅读”的咖啡 | 虹口甄选",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1743531",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site_name": "中国政府网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:41:16Z"
+}

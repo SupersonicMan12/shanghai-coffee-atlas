@@ -1,0 +1,75 @@
+{
+  "cafeId": "shudaixiongkafeiguan-huaihaihuayuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "312cc9ccea49",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位和吧台式座位",
+        "en": "Outdoor and bar-style seating available",
+        "from": [
+          1,
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full-height street-facing windows with good daylight",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内空间较宽敞，有书架和装饰墙",
+        "en": "Spacious interior with bookshelves and decorated walls",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨2点",
+        "en": "Open daily until 2 a.m.",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐汤品",
+        "en": "Soup is a recommended dish",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          3,
+          9
+        ],
+        "zh": "有室内外座位且空间宽敞",
+        "en": "Seating indoors and out, spacious"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          8
+        ],
+        "zh": "店内有顾客活动",
+        "en": "Customers present and active"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:02Z"
+}

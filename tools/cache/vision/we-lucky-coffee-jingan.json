@@ -1,0 +1,47 @@
+{
+  "cafeId": "we-lucky-coffee-jingan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b7b389f9ffae",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1b26a77886a4d5e03768fc79e1bf52b1",
+    "https://store.is.autonavi.com/showpic/96fbcbdb26b563b6cb0f93c4ea7e481c",
+    "https://store.is.autonavi.com/showpic/20a6e44bc781b3c716e655853fe66768"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有3个室外座位，配遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃门，店内可见吧台和少量座位",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有开业花篮，可能刚开业",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "招牌下方挂招聘横幅，招咖啡师",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:22Z"
+}

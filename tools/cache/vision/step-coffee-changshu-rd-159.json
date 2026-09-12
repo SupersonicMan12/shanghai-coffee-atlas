@@ -1,0 +1,72 @@
+{
+  "cafeId": "step-coffee-changshu-rd-159",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1c5340cf3812",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFK6CW7I/comment/content_media_external_images_media_22474_ss__1729672529637_14880243.jpg",
+    "https://aos-comment.amap.com/B0FFK6CW7I/comment/content_media_external_images_media_77829_ss__1745852514347_13190556.jpg",
+    "https://aos-comment.amap.com/B0FFK6CW7I/comment/248FEA79_748D_45BD_B7D7_AFEC4ED4C75A_L0_001_2000_150_1751538627699_87029049.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有透明玻璃罐装的巧克力核桃大曲奇",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口为临街玻璃门，设有外置服务台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见咖啡机和手冲设备等专业器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供饮品，杯身标有“coffee to Go”字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内摆放有书架和绿植",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有遮阳棚和立式菜单牌",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有展示柜陈列毛绒玩具和品牌标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口贴有营业信息和支付方式标识",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:48Z"
+}

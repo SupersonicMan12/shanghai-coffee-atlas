@@ -1,0 +1,28 @@
+{
+ "cafeId": "malteh-dongjiadu",
+ "model": "qwen-max",
+ "inputDigest": "5bdaefc09564",
+ "raw": {
+  "headline": {
+   "zh": "裁缝市场旁，品尝招牌Malty混合咖啡",
+   "en": "Near fabric market, try the Malty house blend"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "提供招牌Malty混合咖啡",
+    "en": "Serves Malty house blend",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 1,
+    "zh": "可以边喝咖啡边量身定制",
+    "en": "Get measured for a jacket while drinking"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:00Z"
+}

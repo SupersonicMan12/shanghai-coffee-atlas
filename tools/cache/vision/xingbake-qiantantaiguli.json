@@ -1,0 +1,65 @@
+{
+  "cafeId": "xingbake-qiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "353ce5a033f6",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7",
+    "https://aos-comment.amap.com/B0H2HAGP58/comment/361E59F7_9AEC_4252_B817_28DB3233F7FD_L0_001_1536_204_1770837001534_38512539.jpg",
+    "https://aos-comment.amap.com/B0H2HAGP58/comment/9058FE18_4CCB_4085_AA6B_34811BCD53C5_L0_001_1500_200_1769598355603_94112855.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "该店位于商场内，有玻璃幕墙和台阶入口",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店标有‘全球首家星巴克向绿工坊’字样",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店外设有电子导视牌，宣传环保主题",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "建筑为现代风格，大面积玻璃窗设计",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店外部有台阶和户外区域，可作室外座位使用",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门店外观呈圆柱形结构，位于开放广场中",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店招牌显示‘STARBUCKS GREENER STORE LAB’",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:11Z"
+}

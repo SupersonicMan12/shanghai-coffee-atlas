@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品为豆花拿铁，创新口味。",
+      "kind": "drinks",
+      "quote": "凭借独家首创单品“豆花拿铁”",
+      "url": "https://new.qq.com/rain/a/20230713A032S700",
+      "site": "腾讯网"
+    },
+    {
+      "text": "空间设计以温暖木色和米灰色为主调。",
+      "kind": "space",
+      "quote": "整体空间以温暖的木色和米灰色为主色调",
+      "url": "https://new.qq.com/rain/a/20230713A032S700",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店内采用标志性KUDDO绿配色。",
+      "kind": "space",
+      "quote": "还是一样的KUDDO绿配色,轻装工业风设计",
+      "url": "https://www.dianping.com/discovery/1279086723",
+      "site": "大众点评网"
+    },
+    {
+      "text": "拥有宠物友好的环境。",
+      "kind": "people",
+      "quote": "同时还是一家宠物友好店",
+      "url": "https://new.qq.com/rain/a/20230713A032S700",
+      "site": "腾讯网"
+    },
+    {
+      "text": "提供咖啡豆及相关时尚单品。",
+      "kind": "story",
+      "quote": "有咖啡豆以及帽子、卫衣、杯子等时髦单品",
+      "url": "https://www.dianping.com/discovery/1279086723",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://new.qq.com/rain/a/20230713A032S700",
+      "url": "https://new.qq.com/rain/a/20230713A032S700",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "40度的上海,适合呆一下午的新店",
+      "url": "https://www.thepaper.cn/newsDetail_forward_28304758",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "KUDDO新店来啦!长在我审美点上的咖啡店+1⃣️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1279086723",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "对话创始人丨内卷的深圳，KUDDO COFFEE想要成为城市生活休憩站",
+      "url": "https://www.foodtalks.cn/news/35086",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 5,
+      "title": "高人气咖啡KUDDO COFFEE来了!上海首店就在静安威海路",
+      "url": "https://www.163.com/dy/article/I9HAA8TS0514A42S.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "高人气咖啡KUDDO COFFEE来了!上海首店就在静安威海路",
+      "url": "https://www.163.com/dy/article/I9H8JTMN0530Q0OP.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "KUDDO COFFEE（鴻壽坊店） (上海長壽路商業區)",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-143163943/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "高人气咖啡KUDDO COFFEE来了！上海首店就在静安威海路 - 搜狐",
+      "url": "https://www.sohu.com/a/699270653_790178",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:45Z"
+}

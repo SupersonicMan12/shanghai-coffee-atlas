@@ -1,0 +1,83 @@
+{
+  "cafeId": "beanstar-shanghailigongdaxuekejiyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e0dfabf4799c",
+  "raw": {
+    "headline": {
+      "zh": "雪砖拿铁系列专营店",
+      "en": "Specializes in Snow Brick Lattes"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "菜单上展示有雪砖拿铁系列饮品",
+        "en": "Menu features Snow Brick Latte series",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店面位于上海理工大学科技园内",
+        "en": "Located inside Shanghai University of Engineering Science Science Park",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店面临街，有大面积玻璃窗/落地窗",
+        "en": "Street-facing with floor-to-ceiling glass windows",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设有吧台和少量桌椅",
+        "en": "Bar counter and limited seating",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-16:30",
+        "en": "Open daily 7:30–16:30",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "吧台+少量桌椅，营业至16:30",
+        "en": "Limited seating, closes at 4:30 PM"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "座位少且营业时间较短",
+        "en": "Limited seating and short hours"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "雪砖拿铁为特色系列饮品",
+        "en": "Snow Brick Latte is a signature series"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:04Z"
+}

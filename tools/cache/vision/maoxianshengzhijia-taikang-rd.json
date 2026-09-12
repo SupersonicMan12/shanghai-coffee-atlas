@@ -1,0 +1,59 @@
+{
+  "cafeId": "maoxianshengzhijia-taikang-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "daa510ff284e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ebd35314379d6b90318f761468241fdf",
+    "http://aos-cdn-image.amap.com/sns/ugccomment/15659509-e414-4feb-9e3f-4023cb4aa2df.jpg",
+    "https://aos-comment.amap.com/B0FFIXGE4N/comment/CA9CB27D_2ACA_4632_8860_C26651F8EACA_L0_001_1536_204_1759004970601_78519296.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有猫，为猫咪主题空间",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口招牌显示名称为‘猫先生之家’",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有木质家具和浅色地板",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有一只成年猫趴在木桌上",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有一只小猫坐在角落，毛色为橙白相间",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见日式风格隔断与门框",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:25Z"
+}

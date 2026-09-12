@@ -1,0 +1,40 @@
+{
+ "cafeId": "la-parisienne-bund",
+ "model": "qwen-max",
+ "inputDigest": "684c74b98904",
+ "raw": {
+  "headline": {
+   "zh": "千层酥伴江景，享受法式烘焙",
+   "en": "Millefeuille with river view, French bakery"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "面对江面，观赏往来船只",
+    "en": "Facing the river, watch barge traffic",
+    "from": "[1, 2]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 30,
+    "from": "[1]",
+    "zh": "适合轻松聊天",
+    "en": "Casual chat"
+   },
+   "energy": {
+    "value": 40,
+    "from": "[1]",
+    "zh": "有江面船只带来活力",
+    "en": "River traffic adds energy"
+   },
+   "linger": {
+    "value": 60,
+    "from": "[1, 2]",
+    "zh": "适合停留品尝甜点",
+    "en": "Good for dessert tasting"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:59Z"
+}

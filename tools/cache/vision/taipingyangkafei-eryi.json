@@ -1,0 +1,57 @@
+{
+  "cafeId": "taipingyangkafei-eryi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "322a32419d45",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5ce0cb73f3344a1cc4ddefae1136c9cc",
+    "http://store.is.autonavi.com/showpic/7383cd7fda8bf76264eb12d4e68c4f4e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于街边，有遮阳棚和绿植围挡",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台和少量桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立牌展示三明治和饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有树木和围栏，环境绿化较好",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有菜单板展示食物图片",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺招牌显示为太平洋咖啡",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:09Z"
+}

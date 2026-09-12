@@ -1,0 +1,68 @@
+{
+  "cafeId": "liu-coffee-jizhen-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2e4f99d78355",
+  "raw": {
+    "headline": {
+      "zh": "退役军人主理的社区咖啡馆",
+      "en": "Veteran-run neighborhood coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "退役军人主理，融入军魂与东方美学",
+        "en": "Run by a veteran, blending military ethos and Eastern aesthetics",
+        "from": [
+          10,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设折叠椅与木凳座位",
+        "en": "Outdoor seating with folding chairs and wooden stools",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备两台Fiorenzato专业磨豆机",
+        "en": "Equipped with two Fiorenzato grinders",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-20:00营业",
+        "en": "Open daily 08:00–20:00",
+        "from": [
+          11,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "使用专业磨豆设备",
+        "en": "Professional grinders suggest care"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:37Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "blue-bottle-coffee-zhangyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0f936de5959d",
+  "raw": {
+    "headline": {
+      "zh": "48小时内新鲜烘焙咖啡",
+      "en": "Coffee roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只卖出炉不超过48小时的咖啡",
+        "en": "Sells coffee roasted within 48 hours",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供海耶斯谷、贝拉多曼等经典拼配",
+        "en": "Offers Hayes Valley, Bella Donovan blends",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台前有长条木桌可坐多人",
+        "en": "Communal wood table at the bar",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10pm",
+        "from": [
+          1,
+          15
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内采光较好，木质墙面与吧台",
+        "en": "Well-lit with wood walls and counter",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "有长桌适合短暂停留",
+        "en": "Communal table invites stay"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "手冲设备与特色拼配",
+        "en": "Pour-over gear and signature blends"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:29Z"
+}

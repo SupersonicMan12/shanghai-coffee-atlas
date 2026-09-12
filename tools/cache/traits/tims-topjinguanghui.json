@@ -1,0 +1,58 @@
+{
+  "cafeId": "tims-topjinguanghui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5ad8975f4ba3",
+  "raw": {
+    "headline": {
+      "zh": "暖食现做，全时段咖啡",
+      "en": "Fresh warm food, all-day coffee"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "贝果、多拿滋、恰巴塔等暖食现做现售",
+        "en": "Freshly made bagels, donuts, and ciabatta",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked beans, small-batch roasted",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-21:30营业",
+        "en": "Open daily 07:00–21:30",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "1964年加拿大冰球运动员创立",
+        "en": "Founded by a Canadian hockey player in 1964",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有座位和食品陈列",
+        "en": "Seating and food display"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:39Z"
+}

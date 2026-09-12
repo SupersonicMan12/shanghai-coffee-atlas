@@ -1,0 +1,48 @@
+{
+  "cafeId": "doushanshankafei-bohua-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d79bf73f5065",
+  "raw": {
+    "headline": {
+      "zh": "清晨六点半就开门",
+      "en": "Opens at 6:30 AM daily"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日06:30至16:00营业",
+        "en": "Open daily 6:30 AM to 4:00 PM",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐三明治和早午餐",
+        "en": "Serves sandwiches and brunch",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供美式咖啡",
+        "en": "Serves Americano",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "下午四点关门不宜久坐",
+        "en": "Closes early at 4 PM"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:39Z"
+}

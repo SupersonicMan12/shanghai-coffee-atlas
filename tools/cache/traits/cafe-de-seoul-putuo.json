@@ -1,0 +1,46 @@
+{
+ "cafeId": "cafe-de-seoul-putuo",
+ "model": "qwen-max",
+ "inputDigest": "de2b893a5b46",
+ "raw": {
+  "headline": {
+   "zh": "韩剧风格咖啡馆，招牌奶油顶艾因斯潘纳",
+   "en": "K-drama style café, famous for cream-topped einspänner"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：奶油顶艾因斯潘纳",
+    "en": "Signature drink: cream-topped einspänner",
+    "from": 1
+   },
+   {
+    "kind": "food",
+    "zh": "招牌食物：年糕吐司",
+    "en": "Signature food: Injeolmi toast",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 1,
+    "zh": "工人村环境不适合专注办公",
+    "en": "Workers' village not for focus"
+   },
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "工人村氛围中等热闹",
+    "en": "Moderate energy in workers' village"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "适合久坐享受特色饮品",
+    "en": "Good for lingering over drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:27Z"
+}

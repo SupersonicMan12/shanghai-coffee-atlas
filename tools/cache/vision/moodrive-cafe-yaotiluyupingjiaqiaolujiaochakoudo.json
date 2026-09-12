@@ -1,0 +1,59 @@
+{
+  "cafeId": "moodrive-cafe-yaotiluyupingjiaqiaolujiaochakoudo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9f24c7f69eb6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d1717e9cf819ff950000000647342047?type=pic",
+    "https://store.is.autonavi.com/showpic/d01455394f281cbd2c8f961498ba0823",
+    "https://aos-comment.amap.com/B0K2LZO0SD/comment/EC1899FA_75C8_4ED6_A721_A49297376D89_L0_001_1500_200_1758717433321_15950262.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品表面有复杂拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡馆为临街小型独立店铺",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有玻璃窗和出餐口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见橙色自动售货机",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品盛于不规则透明玻璃杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰萃咖啡类，分层明显",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:58Z"
+}

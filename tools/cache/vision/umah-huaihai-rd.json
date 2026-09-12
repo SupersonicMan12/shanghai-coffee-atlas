@@ -1,0 +1,71 @@
+{
+  "cafeId": "umah-huaihai-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b9bf0eb075e8",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1769656328440_86423999_1769656338462_15022914.jpg",
+    "https://aos-comment.amap.com/B0I19GOFFW/comment/c0aea2b83bc7b9c5492d29fcd4b1490a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I19GOFFW/comment/content_media_external_file_1000042272_ss__1756018581595_93032766.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "有黑咖啡和抹茶饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有手冲咖啡选项，产地包括埃塞俄比亚、哥伦比亚等",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供多种咖啡选择，包括黑咖啡、奶咖、手冲、冷萃等",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有蛋糕类甜点，如巧克力蛋糕、芝士蛋糕等",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有吧台和座位区，空间较小",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有临街玻璃窗，可见室内部分区域",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有顾客在坐，环境安静",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.6
+    },
+    {
+      "text": "菜单上标有价格，部分饮品38元起",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:06Z"
+}

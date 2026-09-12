@@ -1,0 +1,59 @@
+{
+  "cafeId": "mrs-bunny-brunch-bistro-binjiang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1908d18b9bf7",
+  "photos": [
+    "https://aos-comment.amap.com/B0JG7H0V15/comment/02421902270d9af7e58d7f6db087446e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JG7H0V15/comment/c217abe06bbbb786ef73294b95d25c48_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/493282ea745ea1abb12bf7cfa7f059f5"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "户外有多个长桌和白色椅子，座位数量较多。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区被大量绿植和花卉包围，有庭院感。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有大型金属花箱，内种多种开花植物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见大面积玻璃窗，室内光线应充足。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中有人在户外座位上就坐交谈。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单封面显示店名 Mrs. Bunny 及插画。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:14Z"
+}

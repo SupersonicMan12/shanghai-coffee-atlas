@@ -1,0 +1,68 @@
+{
+  "cafeId": "kudikafei-chuangyanzhizao",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b2175ad8aeb1",
+  "raw": {
+    "headline": {
+      "zh": "商场内站喝亚洲风味咖啡",
+      "en": "Stand-up Asian-inspired coffee in mall"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "商场内吧台式站立咖啡店",
+        "en": "Standing bar inside a shopping mall",
+        "from": [
+          1,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙等亚洲风味饮品",
+        "en": "Signature drinks include pandan mango coconut frappe",
+        "from": [
+          7,
+          14
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，三年获IIAC金奖",
+        "en": "100% Arabica beans, IIAC gold for 3 years",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–20:00营业",
+        "en": "Open daily 7am to 8pm",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          10
+        ],
+        "zh": "吧台站喝无堂食",
+        "en": "Standing bar, no seating"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          7,
+          14
+        ],
+        "zh": "提供特色亚洲风味饮品",
+        "en": "Offers distinctive Asian-inspired drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:29Z"
+}

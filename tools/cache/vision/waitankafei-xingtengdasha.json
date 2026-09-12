@@ -1,0 +1,65 @@
+{
+  "cafeId": "waitankafei-xingtengdasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f45f6a25c561",
+  "photos": [
+    "https://aos-comment.amap.com/B0J2J7Y2QX/headerImg/A3668911_42DC_4BCC_988F_F8B861AA2694_L0_001_2000_1500_1735903268802_57255162.jpg",
+    "https://aos-comment.amap.com/B0J2J7Y2QX/comment/content_media_external_file_196061_ss__1763535573270_24730616.jpg",
+    "https://aos-comment.amap.com/B0J2J7Y2QX/comment/content_media_external_file_196068_ss__1763535573268_74027547.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于大楼一层，有旋转门和台阶入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见手冲咖啡设备和磨豆机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为带有奶油和可可粉的冰咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列咖啡礼盒、手冲器具及周边商品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有咖啡主题立牌引导顾客",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有车辆出入通道和道闸",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有展示柜和装饰性编织花艺",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:15:38Z"
+}

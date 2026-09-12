@@ -1,0 +1,97 @@
+{
+  "cafeId": "algebraist-shanghaifudandaxueguanlixueyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cfa7330168eb",
+  "raw": {
+    "headline": {
+      "zh": "复旦管院旁站饮数学风咖啡",
+      "en": "Standing-bar coffee near Fudan Business School"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设4-6个室外藤编椅小圆桌",
+        "en": "4–6 outdoor rattan chairs and small round tables on the street",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含kiri法酪拿铁、重瓣玫瑰布列夫",
+        "en": "Signature drinks include Kiri Fromage Latte and Double-Petal Rose Brioche",
+        "from": [
+          11,
+          18
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30-18:00，覆盖午休高峰",
+        "en": "Open 07:30–18:00, covering lunch-break rush hours",
+        "from": [
+          15,
+          17
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "前身为2015年苏州诚品书店MatrixCoffee",
+        "en": "Originally MatrixCoffee at Suzhou Eslite Bookstore in 2015",
+        "from": [
+          16
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "价格20~48元，曾推星期二买一赠一",
+        "en": "Priced ¥20–48; offered buy-one-get-one-free on Tuesdays",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "站饮为主，无办公设施证据",
+        "en": "Standing-bar format, no work setup observed"
+      },
+      "energy": {
+        "value": 65,
+        "from": [
+          15
+        ],
+        "zh": "中午时段白领客流密集",
+        "en": "Lunchtime influx of office workers"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          2,
+          4,
+          9
+        ],
+        "zh": "室外座位少且为站立/短坐设计",
+        "en": "Limited outdoor seating suited for brief stays"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          11,
+          12,
+          18
+        ],
+        "zh": "用数学演算方案，推重瓣玫瑰布列夫等创意饮品",
+        "en": "Math-based brewing; creative drinks like Double-Petal Rose Brioche"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:53Z"
+}

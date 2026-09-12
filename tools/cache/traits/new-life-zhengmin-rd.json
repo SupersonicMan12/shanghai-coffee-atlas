@@ -1,0 +1,84 @@
+{
+  "cafeId": "new-life-zhengmin-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5756a2867fa0",
+  "raw": {
+    "headline": {
+      "zh": "即磨咖啡+露天座位",
+      "en": "Freshly ground coffee and outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外有两张黑色小桌椅",
+        "en": "Two black small tables and chairs outdoors",
+        "from": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供即磨咖啡",
+        "en": "Serves freshly ground coffee",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐单人餐",
+        "en": "Single-person meal recommended",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设有开放厨房",
+        "en": "Open kitchen",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五 07:00-17:00，周末 10:00-17:00",
+        "en": "Open Mon–Fri 7am–5pm, Sat–Sun 10am–5pm",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "提供免费Wi-Fi",
+        "en": "Free Wi-Fi available"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4,
+          6
+        ],
+        "zh": "有固定室外座位",
+        "en": "Fixed outdoor seating"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "强调即磨但未提手冲或自烘",
+        "en": "Highlights freshly ground but no mention of pour-over or roasting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:15Z"
+}

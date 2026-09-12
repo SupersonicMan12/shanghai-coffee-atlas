@@ -1,0 +1,71 @@
+{
+  "cafeId": "xingbake-xingfuli",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "e08e321b0e6f",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFH0WXDG/comment/24931cd769f9e1efc718bbde362a897b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFH0WXDG/comment/0f679dd53da4b2cee91e9616107480c2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFH0WXDG/comment/FA95AE00_C3E0_45B0_8E43_FEDC61B6ABFC_L0_001_1500_2000_1736691883572_16179834.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台区有咖啡机、磨豆机、糖浆瓶、堆叠的纸杯与塑料杯",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": " seating区有约8张棕色皮质单人沙发椅+小圆木桌，靠墙摆放",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂三幅咖啡植物解剖图（幼苗、花、果实横切面）",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "右侧立牌显示“真实果肉星冰粽”，含三角形冰粽实物图",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中玻璃展示柜内有可颂、贝果、蛋糕、瓶装饮料及盒装甜点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单板可见“星冰乐”“冷萃冰咖啡”“茶瓦纳”等分类，价格数字模糊不可辨",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "第三张图货架陈列咖啡豆袋、多款保温杯/水杯、节日限定礼盒与玩偶",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图有一扇黑框窗，窗外可见绿色灌木丛，非落地窗",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:33Z"
+}

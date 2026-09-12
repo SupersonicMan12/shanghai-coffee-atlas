@@ -1,0 +1,59 @@
+{
+  "cafeId": "tanyanweishijixuejiajingpinkafeiba-dongzhangzhi-",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1bd81c9ac663",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d97bf286a0b188190000002456780487?type=pic",
+    "https://store.is.autonavi.com/showpic/59e51e184f88ef420000002456810011?type=pic",
+    "https://store.is.autonavi.com/showpic/d8d784f6715217910000002456746803?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有咖啡机正在萃取浓缩咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡饮品，含冰块和奶层",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "陈列有麦卡伦12年威士忌和来州威士忌酒瓶",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品在室外手持拍摄，背景为城市街道与树木",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有专业意式咖啡机，配备压力表和蒸汽棒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外可见现代建筑与绿化植物",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:12Z"
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "hetajiaogepengyougoukamaoka-aiqinhai",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0ab631eec9d2",
+  "raw": {
+    "headline": {
+      "zh": "商场里的宠物友好咖啡馆",
+      "en": "Pet-friendly cafe inside a mall"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供室外木质桌椅座位",
+        "en": "Outdoor wooden tables and chairs available",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，通透可视店内",
+        "en": "Full-height street-facing glass for clear views inside",
+        "from": [
+          1,
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有宠物狗，属狗咖猫咖类型",
+        "en": "Dogs present; it's a dog and cat cafe",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日12:00-21:00营业",
+        "en": "Open daily 12:00–21:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "有宠物活动较热闹",
+        "en": "Pets make it lively"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "室内外均有舒适座位",
+        "en": "Comfortable indoor and outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:00Z"
+}

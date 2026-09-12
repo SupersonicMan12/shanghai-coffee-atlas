@@ -1,0 +1,71 @@
+{
+  "cafeId": "beanstar-shanghaihuarunshidaiguangchangshangwulo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5d0ad38ba078",
+  "photos": [
+    "https://aos-comment.amap.com/B0L1A7JHE3/comment/13F0C21C_B82C_43E8_A7B6_93F4E06128EF_L0_001_2000_150_1765972552176_89842042.jpg",
+    "https://store.is.autonavi.com/showpic/f4347aed34438decb871b2ab39561784",
+    "https://aos-comment.amap.com/B0L1A7JHE3/comment/4A43F0CE_0455_4C0E_ABE5_597EFD9A0D7C_L0_001_2000_150_1765972552175_65464165.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为小型咖啡吧台形式",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，自然采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机、咖啡机等专业设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示屏上有冲绳焦糖拿铁推荐",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内布置有圣诞主题装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供限定饮品杯套与贴纸赠品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有纸质菜单和宣传单页展示",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:22:48Z"
+}

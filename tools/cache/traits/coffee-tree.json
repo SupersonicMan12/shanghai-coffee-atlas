@@ -1,0 +1,28 @@
+{
+ "cafeId": "coffee-tree",
+ "model": "qwen-max",
+ "inputDigest": "5dd7a2fca30c",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "同个庭院，队伍更短",
+    "en": "Same courtyard, shorter queue",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    "zh": "庭院环境较热闹",
+    "en": "Courtyard is lively"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:33Z"
+}

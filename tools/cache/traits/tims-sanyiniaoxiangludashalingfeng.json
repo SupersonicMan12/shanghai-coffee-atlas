@@ -1,0 +1,71 @@
+{
+  "cafeId": "tims-sanyiniaoxiangludashalingfeng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a23e9c9e0d98",
+  "raw": {
+    "headline": {
+      "zh": "咖啡暖食全时段供应",
+      "en": "Coffee and warm food all day"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供现做贝果三明治和意式肉酱披萨",
+        "en": "Serves freshly made bagel sandwiches and pizza",
+        "from": [
+          1,
+          7,
+          8,
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有芝芝厚乳拿铁和鲜萃奶咖等饮品",
+        "en": "Offers drinks like thick milk latte and fresh-brew milk coffee",
+        "from": [
+          2,
+          15
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位多，含木质桌椅与橙色座椅组合",
+        "en": "Plenty of seating with wood tables and orange chairs",
+        "from": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-22:00营业",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Beans hand-picked and small-batch roasted",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "空间宽敞座位多",
+        "en": "Spacious with ample seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:34Z"
+}

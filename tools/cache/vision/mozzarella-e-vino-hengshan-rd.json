@@ -1,0 +1,65 @@
+{
+  "cafeId": "mozzarella-e-vino-hengshan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "2b82f8e25cd1",
+  "photos": [
+    "https://aos-comment.amap.com/B0I0VRDT82/comment/00747097_0A3E_431D_ADD4_611AC105D612_L0_001_1500_200_1761020500135_63329018.jpg",
+    "https://aos-comment.amap.com/B0I0VRDT82/comment/content_media_external_file_296349_ss__1757127592849_67657317.jpg",
+    "https://aos-comment.amap.com/B0I0VRDT82/comment/d3408accf713cd0809d70405ec84b023_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店门上方有紫色花环装饰，门口立着两块绿色广告牌。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口右侧有一个小木质平台和白色花盆绿植，前方有红色消防栓。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门为黑色玻璃双开门，门上有白色花朵图案，透过玻璃可见店内砖墙。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "左侧广告牌写有“Cheese & wine”，右侧写有“New Arrival”。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门旁墙上标有门牌号“101A”，建筑外墙为浅色石材。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口装有监控摄像头，上方有黑色雨棚。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "透过玻璃门可见店内有人，但无法判断是否在用电脑或具体行为。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:25Z"
+}

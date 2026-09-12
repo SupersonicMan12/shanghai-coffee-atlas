@@ -1,0 +1,73 @@
+{
+  "cafeId": "lanwukafei-jumen-rd-468",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "37004c1e3938",
+  "raw": {
+    "headline": {
+      "zh": "创意特调配黑胶咖啡馆",
+      "en": "Creative drinks with vinyl vibes"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供‘椰子绿了’‘茯苓无语’等创意特调，34-38元",
+        "en": "Serves unique drinks like 'Coconut Green' and 'Fuling Silent', ¥34–38",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台配5个高脚凳，仅限站立或吧台坐",
+        "en": "Bar seating only: 5 high stools",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，自然采光充足",
+        "en": "Full-height street-facing windows, bright",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周四营业至22:00，周六至凌晨2点",
+        "en": "Open till 22:00 Tue–Thu, 02:00 Sat",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "sound",
+        "zh": "陈列黑胶唱片，暗示播放黑胶音乐",
+        "en": "Vinyl records displayed, likely played",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "仅5个高脚凳，不便久坐",
+        "en": "Limited bar seating"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3
+        ],
+        "zh": "特调命名独特、配方少见",
+        "en": "Unusual drink names & recipes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:57Z"
+}

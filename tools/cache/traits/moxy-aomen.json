@@ -1,0 +1,37 @@
+{
+ "cafeId": "moxy-aomen",
+ "model": "qwen-max",
+ "inputDigest": "8485ac8bb493",
+ "raw": {
+  "headline": {
+   "zh": "全天候营业，普陀区难得的不打烊好去处",
+   "en": "Open from dawn till midnight, a rare find"
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "设有木质长吧台式自助餐台",
+    "en": "Long wooden self-service bar",
+    "from": 1,
+    "},{": "kind",
+    "food": "提供自助沙拉配料和多种沙拉酱",
+    "space": "木质长吧台式自助餐台"
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 40,
+    "from": 5,
+    "zh": "无窗、无植物，环境较为安静",
+    "en": "Quiet, no windows or plants"
+   },
+   "linger": {
+    "value": 80,
+    "from": 6,
+    "zh": "从早到晚开放，适合长时间停留",
+    "en": "Great for long stays, open all day"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:29Z"
+}

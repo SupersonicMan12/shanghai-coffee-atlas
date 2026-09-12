@@ -1,0 +1,72 @@
+{
+  "cafeId": "xincanzhekafei-xingfuliczuo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a88dc1758e1a",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIC8K0Y/comment/content_media_external_images_media_29807_1734679679714_87749715.jpg",
+    "https://aos-comment.amap.com/B0FFIC8K0Y/comment/content_media_external_images_media_29808_1734679679713_63121943.jpg",
+    "https://aos-comment.amap.com/B0FFIC8K0Y/comment/content_media_external_images_media_29807_1734679679714_69526779.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "吧台前有咖啡豆罐和手冲器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有木质吧台和悬挂灯饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见虹吸壶、磨豆机等专业咖啡设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "提供冰滴咖啡、拿铁类饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包含冷萃与奶基咖啡组合",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示‘93分咖啡’售价52元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有窗帘遮挡窗户，采光来自顶灯",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "座位为木制矮凳，数量有限",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:33Z"
+}

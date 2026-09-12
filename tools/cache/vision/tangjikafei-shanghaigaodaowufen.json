@@ -1,0 +1,65 @@
+{
+  "cafeId": "tangjikafei-shanghaigaodaowufen",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "359d5c892307",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHDCD5A/comment/0feedback_sendimag_1741512907951_23365027.jpg",
+    "http://store.is.autonavi.com/showpic/4c171df635ea6bbda3002c0516aecf8f",
+    "https://store.is.autonavi.com/showpic/1b8bf1c16c48bab3eda6bfff105166a5?type=7"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为商场内咖啡店，空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有吧台座位，数量约4-6个",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见手冲设备和磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示区有咖啡豆袋，标注产地为中国和尼加拉瓜",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有顾客在店内消费，工作人员在操作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和玻璃隔断，装修现代简约",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "陈列架上可见多种包装咖啡豆产品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:11:59Z"
+}

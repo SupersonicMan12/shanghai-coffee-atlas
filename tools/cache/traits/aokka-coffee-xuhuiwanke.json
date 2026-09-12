@@ -1,0 +1,79 @@
+{
+  "cafeId": "aokka-coffee-xuhuiwanke",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f5202103dfc7",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配绿意座位",
+      "en": "Street-facing windows with greenery seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设绿色椅子和小凳子",
+        "en": "Outdoor green chairs and small stools",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，室内采光好",
+        "en": "Full-height street-facing windows, bright interior",
+        "from": [
+          1,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外有绿树，室内有盆栽",
+        "en": "Trees outside, potted plants inside",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机及烘焙机或手冲台",
+        "en": "Grinder and roaster or pour-over station",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–22:00营业",
+        "en": "Open daily 7am–10pm",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          6
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating indoors and out"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          8
+        ],
+        "zh": "有手冲台或烘焙设备",
+        "en": "Pour-over or roasting setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:38Z"
+}

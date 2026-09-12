@@ -1,0 +1,71 @@
+{
+  "cafeId": "bird-water-tower-m50",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "8ae2850810d6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/32ea8769b26175e70000003006146248?type=pic",
+    "http://store.is.autonavi.com/showpic/f5b364c9a9461f4ba8f31c64cd63e46f",
+    "https://aos-comment.amap.com/B0J3276AQ0/comment/A8235013_AABA_4714_B6E3_7EFA35BF8C3B_L0_001_1500_200_1747310603549_49492042.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "外墙为混凝土结构，标有‘BW BIRD WATER TOWER 珀德空间’金属字牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "建筑顶部平台放置一只灰色毛绒狗玩偶，下方有破损蝶翼装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口为石阶通道，两侧墙面覆绿植，上方有金属架与‘BWT CAFÉ’字样",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内陈列架上摆放手绘狗头陶瓷杯、印狗图案帆布袋及‘Doggy HANDMADE mug’手写标牌",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "可见商品标签：‘DODGGY BLANKET ¥108’、‘DOGYY GIFT BOX ¥66’",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "墙上贴有‘BIRD WATER TOWER NEST FOR ALL’等图文介绍及咖啡机操作照片",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见吧台、座位、窗户、烘焙机、磨豆机、手冲设备或饮品实物",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图右后方镜中反射出一人持手机自拍，无电脑或用餐者",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:01Z"
+}

@@ -1,0 +1,51 @@
+{
+  "cafeId": "mangguokafeiwu-shuangyangbeiluyuguoshundonglujia",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4ce38af64186",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1457105f4f1827600000003762590126?type=pic",
+    "https://store.is.autonavi.com/showpic/5d41930bf5cebc740000003089800539?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅，空间看起来中等大小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见多盏轨道射灯和暖色调吊灯照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰咖啡，带有奶泡层",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "背景中有绿植点缀，环境偏休闲",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见部分桌面和椅子，但座位数量不明确",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:30Z"
+}

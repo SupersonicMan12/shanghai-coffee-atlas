@@ -1,0 +1,28 @@
+{
+ "cafeId": "sumi-coffee",
+ "model": "qwen-max",
+ "inputDigest": "e719ddbb676d",
+ "raw": {
+  "headline": {
+   "zh": "手冲咖啡，一次只做一杯",
+   "en": "Hand drip, one cup at a time"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "手冲咖啡，一次只做一杯",
+    "en": "Hand drip, one cup at a time",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "手冲咖啡花样多",
+    "en": "Variety in hand drip"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:56Z"
+}

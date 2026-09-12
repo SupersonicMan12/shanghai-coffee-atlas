@@ -1,0 +1,70 @@
+{
+ "cafeId": "horiguchi-yuanmingyuan",
+ "model": "qwen-max",
+ "inputDigest": "2e56e2c2dd39",
+ "raw": {
+  "headline": {
+   "zh": "从1号到9号拼配豆，酸度至苦度渐进",
+   "en": "Blends from No.1 to No.9, acidity to bitterness"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "9款深烘焙拼配咖啡，最浅为中度微深",
+    "en": "9 deep roast blends, lightest is medium-dark",
+    "from": "[10, 11]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "手冲清咖为主打，可按喜好挑选豆子",
+    "en": "Specialty in hand-drip, choose beans as you like",
+    "from": "[17]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室内木桌配黑椅，室外有座位区",
+    "en": "Indoor wooden tables, outdoor seating area",
+    "from": "[2, 8]"
+   },
+   {
+    "kind": "view",
+    "zh": "大面积木框格子窗，窗外绿树与户外遮阳伞",
+    "en": "Large lattice windows, green trees and umbrellas outside",
+    "from": "[4]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日 10:00-19:00",
+    "en": "Open 10:00-19:00, Mon-Sun",
+    "from": "[20]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": "[18]",
+    "zh": "禁止使用笔记本电脑",
+    "en": "No laptops allowed"
+   },
+   "energy": {
+    "value": 20,
+    "from": "[13]",
+    "zh": "老建筑内，闹中取静",
+    "en": "Quiet in old building"
+   },
+   "linger": {
+    "value": 80,
+    "from": "[2, 8, 15]",
+    "zh": "舒适的座椅和续杯折扣",
+    "en": "Comfortable seats, refill discount"
+   },
+   "adventure": {
+    "value": 70,
+    "from": "[10, 11, 17]",
+    "zh": "9款不同拼配咖啡，手冲体验丰富",
+    "en": "9 blend options, rich hand-drip experience"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:11Z"
+}

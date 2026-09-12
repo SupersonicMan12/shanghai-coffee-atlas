@@ -1,0 +1,33 @@
+{
+ "cafeId": "cuiqu-caoyang",
+ "model": "qwen-max",
+ "inputDigest": "38cf2e3ec13b",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "无电脑使用者可见",
+    "en": "No laptops in use",
+    "from": 3,
+    "},{": 6,
+    "]}, {": "seating",
+    "],": "drinks",
+    "], {": "time",
+    "]}  ],  ": "focus",
+    "value": 30
+   },
+   {
+    "  ": "linger",
+    "value": 50,
+    "from": 7,
+    "zh": "学生预算友好，可久坐",
+    "en": "Student-budget friendly, good for long stays"
+   }
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:17:44Z"
+}

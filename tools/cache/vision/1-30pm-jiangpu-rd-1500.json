@@ -1,0 +1,52 @@
+{
+  "cafeId": "1-30pm-jiangpu-rd-1500",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5069ddd9a940",
+  "photos": [
+    "https://aos-comment.amap.com/B0JATCTVUT/comment/0647f7afee5cea310319730c8ddfd5f3_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JATCTVUT/comment/menu/67f46c21a10763039f7939a200638c70_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JATCTVUT/comment/dfdaa055d02e87dcadd36b644ee2e4df_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内提供冰美式等经典咖啡饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示有燕麦奶、茉香拿铁等选项",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单价格区间约18-28元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一杯冰咖啡和一杯热咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有埃塞俄比亚日晒G1等级豆子信息",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:21Z"
+}

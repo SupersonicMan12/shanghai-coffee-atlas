@@ -1,0 +1,66 @@
+{
+  "cafeId": "kudikafei-pudongchangli-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5fce343110a9",
+  "raw": {
+    "headline": {
+      "zh": "站喝亚洲风味咖啡",
+      "en": "Stand-up Asian-inspired coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Offers pandan mango frappe and apple jasmine iced tea",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，连三年获IIAC金奖",
+        "en": "100% Arabica beans, IIAC gold for three years",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "为站立吧台店型，无室外座位",
+        "en": "Standing-bar format with no outdoor seating",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至20:00",
+        "en": "Open daily until 8 PM",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          5,
+          10
+        ],
+        "zh": "仅设站喝吧台",
+        "en": "Standing only"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "主打亚洲风味特调",
+        "en": "Asian-inspired drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:38Z"
+}

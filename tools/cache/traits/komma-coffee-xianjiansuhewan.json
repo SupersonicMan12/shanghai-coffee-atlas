@@ -1,0 +1,87 @@
+{
+  "cafeId": "komma-coffee-xianjiansuhewan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "da4e8c259581",
+  "raw": {
+    "headline": {
+      "zh": "自烘公平贸易豆，室内外皆可坐",
+      "en": "Self-roasted fair-trade beans, indoor & outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "严选公平贸易认证咖啡豆，由Dave亲自烘焙",
+        "en": "Fair-trade beans roasted in-house by Dave",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供espresso、过滤咖啡和抹茶",
+        "en": "Serves espresso, filter coffee, and matcha",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有吧台高脚凳，室外设折叠椅小桌",
+        "en": "Bar stools inside; folding chairs and small tables outside",
+        "from": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间适合白天学习与工作",
+        "en": "Space suited for daytime study and work",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "适合白天学习工作",
+        "en": "Good for study/work"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1,
+          2,
+          8,
+          12
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          5,
+          10,
+          11
+        ],
+        "zh": "自烘豆+手冲虹吸器具",
+        "en": "In-house roast & brew methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:54Z"
+}

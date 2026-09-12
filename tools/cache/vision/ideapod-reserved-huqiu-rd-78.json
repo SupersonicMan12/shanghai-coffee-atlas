@@ -1,0 +1,71 @@
+{
+  "cafeId": "ideapod-reserved-huqiu-rd-78",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a9af72ce4610",
+  "photos": [
+    "https://aos-comment.amap.com/B0J3KCQALK/comment/623C0B93_71F0_425F_97DC_D0FE65522E46_L0_001_1500_2000_1749275881395_55496127.jpg",
+    "https://store.is.autonavi.com/showpic/a692fb458af3058b0000003198012807?type=pic",
+    "https://aos-comment.amap.com/B0J3KCQALK/comment/698406873ec7783a64689a15e1b91216_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "白色阶梯式座位区，配木质矮桌与浅色坐垫，共约6–8个座位可见",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面贴有12张拍立得风格照片，含饮品图（dirty、燕麦拿铁、心形拉花）及座位场景",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单板写明「不开启闪光灯」「消费入座不占座」等提示，未列具体价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有接待台，后方临街大窗，可见外部建筑拱形窗结构",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大型绿植（发财树）、黑色人形雕塑、藤编篮、草编坐墩",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片1中台阶上放有黑白摄影画框、木块置物台与小盆绿植，无专业咖啡设备可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片3中两人坐在靠窗桌旁，其中一人面前有笔记本电脑（屏幕模糊但形态可辨）",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙面为米白涂料+网格金属板，地面为浅灰微水泥，无明显烘焙或手冲设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:40Z"
+}

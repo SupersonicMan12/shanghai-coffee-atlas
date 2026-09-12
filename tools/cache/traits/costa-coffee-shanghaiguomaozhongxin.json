@@ -1,0 +1,52 @@
+{
+ "cafeId": "costa-coffee-shanghaiguomaozhongxin",
+ "model": "qwen-max",
+ "inputDigest": "533a244fde57",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供桂花酒酿冷萃、燕麦铁等特色饮品",
+    "en": "Offers unique drinks like osmanthus rice wine cold brew",
+    "from": 1
+   },
+   {
+    "kind": "food",
+    "zh": "提拉米苏和巧克力酥卷倍受欢迎",
+    "en": "Popular for tiramisu and chocolate rolls",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周五营业时间为早7:30至晚17:00",
+    "en": "Open 7:30-17:00 Mon-Fri",
+    "from": 11
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 11,
+    "zh": "有固定营业时间，适合短暂办公",
+    "en": "Fixed hours, brief work OK"
+   },
+   "energy": {
+    "value": 50,
+    "from": 11,
+    "zh": "营业时间较短，可能不太喧闹",
+    "en": "Shorter hours, not too noisy"
+   },
+   "linger": {
+    "value": 40,
+    "from": 11,
+    "zh": "晚上关门较早，久坐可能性较小",
+    "en": "Closes early, less for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:30Z"
+}

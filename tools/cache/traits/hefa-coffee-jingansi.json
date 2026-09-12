@@ -1,0 +1,75 @@
+{
+  "cafeId": "hefa-coffee-jingansi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6cdcfd1ecc0f",
+  "raw": {
+    "headline": {
+      "zh": "上海本土自烘咖啡",
+      "en": "Shanghai-roasted coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自烘意式咖啡豆，日常供应两款",
+        "en": "Uses in-house roasted espresso beans, two daily",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供椰椰冻冰美式等特色饮品",
+        "en": "Serves drinks like coconut jelly iced americano",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间狭长，吧台式布局",
+        "en": "Narrow space with a bar counter layout",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至18:00",
+        "en": "Open daily until 6 PM",
+        "from": [
+          13,
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "致力于打造上海本土日常咖啡直营品牌",
+        "en": "Aims to be a Shanghai-native daily coffee brand",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "自烘豆加特色饮品",
+        "en": "House-roasted beans and unique drinks"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "吧台布局，适合快饮",
+        "en": "Bar counter favors quick visits"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:24Z"
+}

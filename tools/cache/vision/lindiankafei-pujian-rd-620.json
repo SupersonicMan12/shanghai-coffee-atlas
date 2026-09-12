@@ -1,0 +1,71 @@
+{
+  "cafeId": "lindiankafei-pujian-rd-620",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f7559d95dbc1",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ec0e13943e27f02c31b0c8cfa3f01393",
+    "http://store.is.autonavi.com/showpic/7b77472f5132eb94e45611b8e29b46e6",
+    "https://store.is.autonavi.com/showpic/b3fc07668b491a83a08323823c4fed59"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有多个大型盆栽植物",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有遮阳棚和桌椅",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处可见室内部分区域，有桌椅布置",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店前地面铺设石板路径",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧邻近店铺为台球厅",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口放置黑板菜单牌",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:24Z"
+}

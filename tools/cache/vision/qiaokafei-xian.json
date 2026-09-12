@@ -1,0 +1,59 @@
+{
+  "cafeId": "qiaokafei-xian",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e9125938efe3",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i1/2210396860787/O1CN010ENf501HgUMCLT8XF_!!2210396860787-2-koubei.png",
+    "https://aos-comment.amap.com/B0H64MHI12/comment/316f202b809965df7a04ad85b7bb55e6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H64MHI12/comment/c3631ed463cc6f5a343d1bce8e9c6c2c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "一杯抹茶拿铁，拉花为心形。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有木质平台和长凳，临河有行道树。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间大，有吧台、多张木桌椅和藤编隔断。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设玻璃展示柜，陈列糕点与瓶装饮品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "天花板悬挂绿植，自然光充足，采光好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见一位顾客在柜台后操作设备，疑似咖啡师。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:21Z"
+}

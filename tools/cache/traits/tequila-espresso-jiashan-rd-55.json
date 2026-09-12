@@ -1,0 +1,78 @@
+{
+  "cafeId": "tequila-espresso-jiashan-rd-55",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "fd3164df5c43",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+户外座",
+      "en": "House-roasted beans with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "主理人自烘焙咖啡豆，探索不同风味",
+        "en": "Owner roasts beans to explore varied flavors",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门口设三把椅子可户外坐",
+        "en": "Three chairs available for outdoor seating",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡和浓缩等堂食饮品",
+        "en": "Serves pour-over and espresso for in-house",
+        "from": [
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-17:00，周末9:00-17:30",
+        "en": "Open 8–5 weekdays, 9–5:30 weekends",
+        "from": [
+          3,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃，室内通透明亮",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          5,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10,
+          13
+        ],
+        "zh": "自烘豆与手冲选项多",
+        "en": "House-roasted beans and pour-over options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:20Z"
+}

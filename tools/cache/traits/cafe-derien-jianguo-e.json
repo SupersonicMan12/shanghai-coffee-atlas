@@ -1,0 +1,46 @@
+{
+ "cafeId": "cafe-derien-jianguo-e",
+ "model": "qwen-max",
+ "inputDigest": "57b8739e4cf5",
+ "raw": {
+  "headline": {
+   "zh": "石库门老房前厅，招牌flat white",
+   "en": "Shikumen front room, known for flat white"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "位于半拆除的弄堂里的石库门房间",
+    "en": "In a half-demolished lane, shikumen room",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：De rien flat white",
+    "en": "Signature drink: De rien flat white",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 1,
+    "zh": "安静但空间有限",
+    "en": "Quiet but limited space"
+   },
+   "energy": {
+    "value": 30,
+    "from": 1,
+    "zh": "环境较为宁静",
+    "en": "Quiet environment"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "en": "Cozy for a while",
+    "zh": "适合小坐一会儿"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:51Z"
+}

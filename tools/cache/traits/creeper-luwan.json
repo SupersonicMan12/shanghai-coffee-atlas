@@ -1,0 +1,38 @@
+{
+ "cafeId": "creeper-luwan",
+ "model": "qwen-max",
+ "inputDigest": "630177e86385",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "狭长布局，左侧浅木纹墙，右侧吧台区",
+    "en": "Narrow layout with light wood walls and a bar counter",
+    "from": 1
+   },
+   {
+    "kind": "seating",
+    "zh": "少量座位，入口左侧有2把黑色椅子和1张小圆桌",
+    "en": "Limited seating: 2 black chairs and 1 small table by the entrance",
+    "from": 2
+   },
+   {
+    "kind": "view",
+    "zh": "  座位少，不适合久坐或办公  ",
+    "en": "  Few seats, not for long stays or work  ",
+    "from": 2,
+    ")+5+(": ")  }],  ",
+    "axisHints": "  {  :  ",
+    "linger": 0,
+    "value": ")  ",
+    "focus": 0
+   },
+   "  energy"
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:22:09Z"
+}

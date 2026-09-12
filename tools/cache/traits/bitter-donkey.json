@@ -1,0 +1,40 @@
+{
+ "cafeId": "bitter-donkey",
+ "model": "qwen-max",
+ "inputDigest": "bbbbf819b12e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "常客带着狗来，氛围友好随意",
+    "en": "Regulars and their dogs, friendly vibe",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "路边冷萃咖啡是招牌饮品",
+    "en": "Cold brew on the kerb is a specialty",
+    "from": 3
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 2,
+    "zh": "友好的氛围，但不是特别热闹",
+    "en": "Friendly but not too lively"
+   },
+   "linger": {
+    "value": 60,
+    "from": 2,
+    "zh": "适合与朋友或宠物久坐",
+    "en": "Good for sitting with friends or pets"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:45Z"
+}

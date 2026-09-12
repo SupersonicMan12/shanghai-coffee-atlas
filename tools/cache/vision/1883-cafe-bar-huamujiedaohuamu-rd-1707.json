@@ -1,0 +1,65 @@
+{
+  "cafeId": "1883-cafe-bar-huamujiedaohuamu-rd-1707",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "036cfb9cc817",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7271f3378f7531f4c15ef286d16b8ce6",
+    "https://store.is.autonavi.com/showpic/032eb3ee736f38a096ab494337a38ee3",
+    "https://store.is.autonavi.com/showpic/626227a9e237ffe415b74472dfdcf9d7"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "门店位于砖墙建筑内，有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有两组户外桌椅，适合外摆用餐",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口为双开玻璃门，内部可见灯光照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有遮阳棚，标有店名",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前铺有地砖，空间开阔",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间招牌灯亮，数字“1883”竖排显示",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明显烘焙设备或手冲台露出",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:19:42Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "coffee-surround-xiangyang-s-rd-164",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "63acc1200cd0",
+  "photos": [
+    "https://aos-comment.amap.com/B0H62HY125/comment/2026-01-23-14-24-33%2BF2FDA61D-09A7-456F-8A2A-30C87F82520_1769149487208_27255299.jpg",
+    "https://aos-comment.amap.com/B0H62HY125/comment/2f4275b45214d39b11e07672897b02dc_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H62HY125/comment/db20c1f0d543b9fcf40c637b4dc1ba37_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有木质框架玻璃门和窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外有四张石质长凳配软垫座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见木质吧台和陈列架",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "供应贝果、司康等烘焙食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供核桃杏仁Dirty咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有绿植装饰，环境偏简约风格",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗户为临街玻璃，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:15Z"
+}

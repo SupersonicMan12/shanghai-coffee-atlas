@@ -1,0 +1,70 @@
+{
+  "cafeId": "mozzarella-e-vino-luokewaitanyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "04c6af921c10",
+  "raw": {
+    "headline": {
+      "zh": "外滩源红砖景配奶酪",
+      "en": "Red-brick views with cheese"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "窗外即外滩源红砖洋楼景致",
+        "en": "Views of Bund's red-brick buildings",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "几十款精选奶酪可零售分切",
+        "en": "Dozens of cheeses sold by weight",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "户外设木质平台，至少6组桌椅",
+        "en": "Wooden outdoor platform with 6+ tables",
+        "from": [
+          2,
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周四至周六营业至24:00",
+        "en": "Open till midnight Thu–Sat",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          5
+        ],
+        "zh": "有户外平台与多组座位",
+        "en": "Outdoor seating invites lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "户外有成人儿童用餐，临街石板路",
+        "en": "Street-side buzz with mixed guests"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:54Z"
+}

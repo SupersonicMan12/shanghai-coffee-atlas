@@ -1,0 +1,67 @@
+{
+  "cafeId": "kafei-shanghaihuiju",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bd7d0fa1098a",
+  "raw": {
+    "headline": {
+      "zh": "分层冰咖配SOE限定",
+      "en": "Layered iced coffee with SOE specials"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供SOE黑果等季节限定饮品",
+        "en": "Offers seasonal SOE drinks like Heiguo",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品含分层冰咖啡与冰博克澳白",
+        "en": "Serves layered iced coffee and Icebock flat white",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "茶饮包括大吉岭伯爵茶和冻顶乌龙",
+        "en": "Tea options include Darjeeling Earl Grey and Dongding Oolong",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 21:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品价格区间为25至40元",
+        "en": "Drinks priced between ¥25–40",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          6
+        ],
+        "zh": "有SOE与分层特调",
+        "en": "SOE and layered drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:09Z"
+}

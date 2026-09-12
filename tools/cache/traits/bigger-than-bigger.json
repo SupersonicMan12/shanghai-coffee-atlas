@@ -1,0 +1,34 @@
+{
+ "cafeId": "bigger-than-bigger",
+ "model": "qwen-max",
+ "inputDigest": "23add2a97937",
+ "raw": {
+  "headline": {
+   "zh": "豆子种类丰富，滤泡咖啡菜单更新快",
+   "en": "Wide variety of beans, fast-changing filter menu"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "每年数百种豆子，滤泡菜单更新迅速",
+    "en": "Hundreds of bean varieties, rapidly changing filter menu",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供你从未听说过的特色豆子",
+    "en": "Serves a unique, unheard-of bean",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "自烘豆子和手冲花样多",
+    "en": "Self-roasted beans and diverse pour-overs"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:46Z"
+}

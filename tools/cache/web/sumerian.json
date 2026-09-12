@@ -1,0 +1,100 @@
+{
+  "facts": [
+    {
+      "text": "店名取自美索不达米亚苏美尔文明，意喻回归最纯粹的咖啡饮用仪式",
+      "kind": "story",
+      "quote": "Sumerian 名字取自人類最早文明的美索不達米亞蘇美爾，意喻「回歸最純粹的咖啡飲用儀式」",
+      "url": "https://m.jiemian.com/article/606585_yidian.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "店内空间约50坪，分为吧台区、沙发区与烘豆室三大区块",
+      "kind": "space",
+      "quote": "店內空間約50 坪，分為吧台區、沙發區與烘豆室三大區塊",
+      "url": "https://m.jiemian.com/article/606585_yidian.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "拥有令人艳羡的临街吧台，天气转暖时吧台位争夺白热化",
+      "kind": "seating",
+      "quote": "Sumerian拥有着令人艳羡的临街吧台, 只要天气稍微转暖, 这里的吧台位的争夺便呈现一幅白热化的姿态",
+      "url": "https://m.jiemian.com/article/606585_yidian.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "咖啡豆每颗都是精品，有10种来自世界各地的精选品种，含罕见埃塞俄比亚豆",
+      "kind": "beans",
+      "quote": "SUMERIAN的咖啡豆，每颗都是精品，目前店里有着10种来自世界各地的精选品种，竟连比较罕见的埃塞俄比亚",
+      "url": "http://style.sina.com.cn/tas/enjoy/2012-08-31/0749104088.shtml",
+      "site": "新浪网"
+    },
+    {
+      "text": "提供自家烘焙的单一品种及混合豆，可用冰滴、浓缩、冷泡、kegged方式呈现",
+      "kind": "beans",
+      "quote": "在Sumerian，他們保有一批單一品種以及混合豆的自家烘焙咖啡，可以透過冰滴、濃縮、冷泡，甚至是kegged的方式呈現",
+      "url": "https://m.jiemian.com/article/606585_yidian.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "招牌饮品：燕麦奶拿铁（必点）、京都冰咖啡（冰滴）",
+      "kind": "drinks",
+      "quote": "燕麥奶拿鐵是必點飲品",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-152290644/",
+      "site": "上海休閒咖啡館探店之旅☕️ - Trip.com"
+    },
+    {
+      "text": "招牌食物：三文鱼贝果、百吉饼、浓缩咖啡蛋糕",
+      "kind": "food",
+      "quote": "特色产品包括三文鱼贝",
+      "url": "https://baike.baidu.com/item/SUMERIAN/14203710",
+      "site": "百度"
+    },
+    {
+      "text": "营业时间每日7:30至19:30（另有资料称8:00–20:00）",
+      "kind": "time",
+      "quote": "该店营业时间为每日7:30至19:30",
+      "url": "https://baike.baidu.com/item/SUMERIAN/14203710",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "SUMERIAN_百度百科",
+      "url": "https://baike.baidu.com/item/SUMERIAN/14203710",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "盘点沪上六家浪漫咖啡馆 - 新浪",
+      "url": "http://style.sina.com.cn/tas/enjoy/2012-08-31/0749104088.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "Sumerian",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d3932059-Reviews-Sumerian-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 4,
+      "title": "Sumerian(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d3932059-Reviews-Sumerian-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "上海休閒咖啡館探店之旅☕️ - Trip.com",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-152290644/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "有时候，你需要的或许只是一杯好咖啡 - 界面新闻",
+      "url": "https://m.jiemian.com/article/606585_yidian.html",
+      "site_name": "界面新闻"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:38Z"
+}

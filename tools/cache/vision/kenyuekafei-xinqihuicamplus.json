@@ -1,0 +1,49 @@
+{
+  "cafeId": "kenyuekafei-xinqihuicamplus",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6a9c54040ef9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9a602e9173949286c0940f500d7f5863"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有树木遮挡，环境绿化较好",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为现代风格建筑，外立面简洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口可见停放车辆，临近道路",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示“肯悦咖啡”字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:39Z"
+}

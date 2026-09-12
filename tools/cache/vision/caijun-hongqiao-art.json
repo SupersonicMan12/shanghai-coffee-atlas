@@ -1,0 +1,71 @@
+{
+  "cafeId": "caijun-hongqiao-art",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "79ec985b5d5f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/6d21ce30938f3c8d5639c66e99e561a0",
+    "https://aos-comment.amap.com/B0H2TKOGU3/comment/229B0DAF_BEA1_4283_81BF_B52D01980671_L0_001_1500_2000_1743489392207_63981347.jpg",
+    "https://store.is.autonavi.com/showpic/beb43ca8af625ef72b28febc5820a83d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店招为'TALENT COFFEE'，位于砖墙建筑外立面，入口旁有大型横向玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃窗内可见圣诞装饰（圣诞树、圣诞老人玩偶）、吧台及数把高脚凳",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内靠窗设长吧台，配黑色高脚凳；门外地面摆放彩色塑料椅与小圆桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图显示店外有金属桩+链条围出的室外座位区，含至少4张桌椅",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图为玻璃展柜内部：陈列画作、保温杯（TIGER品牌）、扑克牌、红色礼盒、购物袋等商品",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图中店内可见部分蓝色桌椅、黑板菜单（字迹不清）、门口立式人形模特",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "无可见咖啡制作设备（如磨豆机、手冲架、虹吸壶、烘焙机）",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见任何人使用笔记本电脑；第二张图反射中有人持手机拍摄",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:59Z"
+}

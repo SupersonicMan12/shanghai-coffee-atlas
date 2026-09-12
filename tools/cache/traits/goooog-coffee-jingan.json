@@ -1,0 +1,60 @@
+{
+  "cafeId": "goooog-coffee-jingan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c4dd0bbd5f36",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房，采光好",
+      "en": "Street-facing glass space, bright"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于商场内部，空间较宽敞",
+        "en": "Spacious, inside a shopping mall",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地玻璃窗，采光良好",
+        "en": "Floor-to-ceiling windows, well-lit",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门口设少量室外桌椅",
+        "en": "Few outdoor seats at entrance",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五 08:00-17:00；周末 10:00-17:00",
+        "en": "Open 08:00–17:00 weekdays, 10:00–17:00 weekends",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4,
+          7
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Indoor and outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:09Z"
+}

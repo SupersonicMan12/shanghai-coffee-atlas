@@ -1,0 +1,71 @@
+{
+  "cafeId": "yichihuayuan-mudanyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dfb52aa2cdde",
+  "photos": [
+    "https://aos-comment.amap.com/B0JADSE94B/comment/ed6cc7fb6bcb05912c271200b4205c1a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JADSE94B/comment/4394380b73140355ea648ca34d1abfba_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JADSE94B/comment/content_media_external_file_1000039959_ss__1766285459363_00276367.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡烘焙机和磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质结构和绿植，环境自然",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有迎宾立牌，标明店名为‘一尺花园’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为热饮，杯中含苹果片、肉桂棒和香料",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和展示柜，陈列饮品和瓶装饮料",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有两名工作人员在操作，一人穿围裙",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门为木质推拉门，带玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有圆形木桌和椅子，提供座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:21:38Z"
+}

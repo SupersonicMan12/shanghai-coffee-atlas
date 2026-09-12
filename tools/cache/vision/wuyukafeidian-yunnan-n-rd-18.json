@@ -1,0 +1,71 @@
+{
+  "cafeId": "wuyukafeidian-yunnan-n-rd-18",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "5dbffb331508",
+  "photos": [
+    "https://aos-comment.amap.com/B0JABZUXUY/comment/content_media_external_images_media_378_ss__1738719976470_23883346.jpg",
+    "https://aos-comment.amap.com/B0JABZUXUY/comment/90d7e17e4299702e15a325b9decaf05b_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/939bc06ab52851140000003303754847?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店招为黄色底黑字‘雾雨 咖啡店 KIRISAME COFFEE’，门框黑色，临街玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "橱窗内陈列多层木质货架，摆放玩偶、动漫周边及‘RHODES ISLAND’标牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口贴红色春联与‘与友共迎春’横批，营业时间标为8:30–17:30",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内墙面为亮黄色，吧台为浅木色，左侧有带手写价目表的玻璃冷柜",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台上可见黑色意式咖啡机、电热水壶、绿色章鱼玩偶；墙上贴多张动漫海报",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "菜单板显示‘经典意式 ESPRESSO’‘美式 AMERICANO’‘拿铁 LATTE’及价格¥25起",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台上方悬挂女巫帽+蕾丝裙装饰物，后方货架陈列酒瓶、CD、动漫画册与手办",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "冷柜白板手写豆子信息：P 20g(M) 1.7#、OMA 20g② 1.6#、NVE I 20g③ 2.1#",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:35Z"
+}

@@ -1,0 +1,44 @@
+{
+  "cafeId": "costa-coffee-xinzhuangweijingyinxiangcheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2cb74b474e5b",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "拿铁是Costa Coffee的保留节目",
+        "en": "Latte is Costa Coffee's signature drink",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏和巧克力酥卷受欢迎",
+        "en": "Tiramisu and chocolate rolls are popular",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间通常为7:30至23:00左右",
+        "en": "Usually open from 7:30 to around 23:00",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "源自英国的咖啡连锁品牌",
+        "en": "A coffee chain originating from the UK",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:04Z"
+}

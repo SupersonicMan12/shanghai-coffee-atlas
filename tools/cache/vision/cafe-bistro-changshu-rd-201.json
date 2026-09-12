@@ -1,0 +1,59 @@
+{
+  "cafeId": "cafe-bistro-changshu-rd-201",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b2c9dc035b04",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFG2Y2IF/comment/DC21F568_1E8B_4212_A14E_6722A28CCECB_L0_001_1500_200_1766913938001_14547065.jpg",
+    "https://aos-comment.amap.com/B0FFG2Y2IF/comment/DAB97B84_2C75_4D02_A04F_76E7C2437358_L0_001_1500_2000_1763864457957_38633624.jpg",
+    "https://aos-comment.amap.com/B0FFG2Y2IF/comment/69618f2c805bfd63f580963504c4f795_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，有圣诞贴纸装饰，可见街道和车辆倒影。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木桌，咖啡拉花为3D立体动物造型（熊/龙猫）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物含蟹肉意面、沙拉，饮品配拉花，属餐食咖啡馆。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面招牌显示“2015-2025十年老店”，位于常熟路。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内座位至少有木桌，未见多人或密集座位布局。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单贴在玻璃门上，可见部分菜品图及价格（如单人套餐¥58）。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:40Z"
+}

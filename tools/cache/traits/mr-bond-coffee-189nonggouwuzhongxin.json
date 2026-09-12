@@ -1,0 +1,64 @@
+{
+  "cafeId": "mr-bond-coffee-189nonggouwuzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6e4df8cdd5b0",
+  "raw": {
+    "headline": {
+      "zh": "商场首店，58元限时套餐",
+      "en": "Mall's first store, ¥58 set"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供58元限时特惠套餐",
+        "en": "Offers ¥58 limited-time set meal",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设吧台及少量桌椅",
+        "en": "Bar and a few tables inside",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗设计，采光良好",
+        "en": "Floor-to-ceiling windows with good light",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-21:30营业",
+        "en": "Open daily 07:00–21:30",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "邦德咖啡全市首店",
+        "en": "Mr. Bond’s first citywide store",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "座位有限，适合短暂停留",
+        "en": "Limited seating, brief stay"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:10Z"
+}

@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "店内提供深烘或浅烘豆子选择",
+      "kind": "beans",
+      "quote": "豆子可选深烘或浅烘",
+      "url": "https://m.dianping.com/discovery/944330653",
+      "site": "大众点评网"
+    },
+    {
+      "text": "澳白是点单率颇高的饮品",
+      "kind": "drinks",
+      "quote": "店内点单率颇高的是澳白",
+      "url": "http://www.sohu.com/a/430560058_120209938",
+      "site": "搜狐"
+    },
+    {
+      "text": "座位下面设有插头和USB接口",
+      "kind": "seating",
+      "quote": "每个座位下面设有插头和USB接口",
+      "url": "http://www.sohu.com/a/430560058_120209938",
+      "site": "搜狐"
+    },
+    {
+      "text": "适合商务会谈与工作",
+      "kind": "people",
+      "quote": "商务会谈、工作间隙的放松",
+      "url": "http://www.sohu.com/a/430560058_120209938",
+      "site": "搜狐"
+    },
+    {
+      "text": "设计有靠窗景观位",
+      "kind": "view",
+      "quote": "有一排靠窗景观位",
+      "url": "https://m.dianping.com/discovery/944330653",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Fumi coffee",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10303675-Reviews",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 2,
+      "title": "新店速递|开在今潮8弄里的fumi coffee☕️",
+      "url": "https://m.dianping.com/discovery/944330653",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡控推荐上海网红咖啡店-Fumi Coffee 上海ins网红拍照的地方",
+      "url": "https://madmin.gafei.com/views-120008",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 4,
+      "title": "出品过人、设计超人…这家咖啡因而特别吸引人!_咖啡馆",
+      "url": "http://www.sohu.com/a/430560058_120209938",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "富民路喝①杯咖啡,有点“蓝”_Fumi",
+      "url": "http://www.sohu.com/a/382712230_120492770",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "fumi coffee（前灘店） (上海前灘)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121687560/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "Fumi coffee(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d10303675-Reviews-Fumi_coffee-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "fumi coffee（吳興路店） (徐家匯地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-130704760/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "Fumi 咖啡☕️|文艺青年的聚集地 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1350520064",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:01Z"
+}

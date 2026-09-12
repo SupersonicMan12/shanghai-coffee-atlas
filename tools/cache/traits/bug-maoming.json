@@ -1,0 +1,64 @@
+{
+ "cafeId": "bug-maoming",
+ "model": "qwen-max",
+ "inputDigest": "9dcf7cfdec62",
+ "raw": {
+  "headline": {
+   "zh": "小批量实验咖啡，偶尔翻车但美味",
+   "en": "Small-batch experiments, sometimes crash but delicious"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面玻璃推拉门，视野开阔",
+    "en": "Full glass sliding doors, open view",
+    "from": "[3,10]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室外有2把黑色折叠椅",
+    "en": "2 black folding chairs outside",
+    "from": "[2,9]"
+   },
+   {
+    "kind": "beans",
+    "zh": "吧台上有多个带盖玻璃咖啡豆罐",
+    "en": "Multiple glass jars of coffee beans at the bar",
+    "from": "[5]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日08:00-18:00",
+    "en": "Open Mon-Sun 08:00-18:00",
+    "from": "[13]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[7]",
+    "zh": "有顾客在室内高脚凳上坐",
+    "en": "Customer sitting on high stool"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[2,7]",
+    "zh": "店外人行道安静，店内有人操作",
+    "en": "Quiet outside, some activity inside"
+   },
+   "linger": {
+    "value": 60,
+    "from": "[2,7,9]",
+    "zh": "提供室内外座位，适合久坐",
+    "en": "Indoor and outdoor seating, good for lingering"
+   },
+   "adventure": {
+    "value": 80,
+    "from": "[11,12]",
+    "zh": "主打实验性小批量咖啡",
+    "en": "Focus on experimental small batches"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:52Z"
+}

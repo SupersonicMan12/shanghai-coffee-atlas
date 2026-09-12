@@ -1,0 +1,64 @@
+{
+  "cafeId": "beiruikafei-wu-middle-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f717b9e72012",
+  "raw": {
+    "headline": {
+      "zh": "鲜橙拿铁配流心三明治",
+      "en": "Orange latte with molten egg sandwich"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为鲜橙拿铁、厚乳拿铁",
+        "en": "Top drinks: orange latte, thick milk latte",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供火腿蛋流心三明治",
+        "en": "Serves ham-egg molten sandwich",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲及危地马拉等产地豆",
+        "en": "Uses Yirgacheffe, Guatemalan beans",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上8点（高德）或10点（网页）",
+        "en": "Open until 8 or 10 pm",
+        "from": [
+          14,
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          8,
+          9,
+          11,
+          13
+        ],
+        "zh": "有脏咖啡、鲜橙拿铁等特色饮品",
+        "en": "Features dirty and orange lattes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:53Z"
+}

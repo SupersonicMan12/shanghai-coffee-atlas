@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "text": "人均消费53元/人",
+      "kind": "story",
+      "quote": "古悦·面包咖啡日料(宛平南路店) 3.2. ¥53/人.",
+      "url": "http://m.dianping.com/shop/83514604?msource=applemaps",
+      "site": "古悦·面包咖啡日料(宛平南路店) - 大众点评"
+    },
+    {
+      "text": "地址为零陵路598-1号，属万体馆日本料理类别",
+      "kind": "story",
+      "quote": "万体馆日本料理. 零陵路59******.",
+      "url": "http://m.dianping.com/shop/83514604?msource=applemaps",
+      "site": "古悦·面包咖啡日料(宛平南路店) - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "古悦·面包咖啡日料(宛平南路店) - 大众点评",
+      "url": "http://m.dianping.com/shop/83514604?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "古悦面包咖啡日料 - 途牛",
+      "url": "https://m-p.tuniu.com/restaurant/8501610/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "阿罗科咖啡Arabica Roasters",
+      "url": "https://weidian.com/?userid=1234298956",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "30天鲜豆",
+      "url": "https://baike.baidu.com/item/30天鲜豆/68879390",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "李子咖啡CIRUELA COFFEE",
+      "url": "https://weidian.com/?userid=163653888",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "古茗咖啡",
+      "url": "https://baike.baidu.com/item/古茗咖啡/68751074",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "读懂广州·粤韵丨满城咖香成风尚 一杯咖啡融世界",
+      "url": "https://gzwxb.gov.cn/context/contextId/216178",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "逛陈家祠,品靓咖啡! 2026广州咖啡季荔湾分会场咖啡文化周开幕,持续5天",
+      "url": "https://huacheng.gz-cmc.com/pages/2026/06/18/95ab4d48429149aaa8801942a98f6355.html",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:21Z"
+}

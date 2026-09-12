@@ -1,0 +1,65 @@
+{
+  "cafeId": "ralph-s-coffee-jinganjializhongxinbeiqushangchan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dc2596b9dc95",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1CZ338A/comment/4db3a1a22797b94766c3a7a32e4721d8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1CZ338A/comment/664572E0_6598_4A17_9949_CCAFB6D8CAEC_L0_001_1920_108_1758846524398_94861634.jpg",
+    "https://aos-comment.amap.com/B0H1CZ338A/comment/97473F05_EE0A_4903_8306_807D2DF700BD_L0_001_1500_200_1765594527883_99662271.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "咖啡杯上有拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，有玻璃橱窗展示",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有咖啡吧台区域",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁类，表面有奶泡艺术",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供姜饼人饼干作为搭配小食",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店内部可见服装陈列区与咖啡区并存",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "咖啡杯印有品牌标识，非普通纸杯",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:55Z"
+}

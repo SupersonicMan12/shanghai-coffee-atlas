@@ -1,0 +1,71 @@
+{
+  "cafeId": "le-labo-shanghaixintiandinanbeili",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "4592b459f2d7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/cb3eaeb1feb01c0f772ea78769397284",
+    "https://aos-comment.amap.com/B0KADMRWQ8/comment/81CD63DE_3140_40CE_8D2D_323CC464DBB3_L0_001_1041_140_1765040097886_12763122.jpg",
+    "https://aos-comment.amap.com/B0KADMRWQ8/comment/74584C82_6968_4F91_8EEA_B20456CEAC01_L0_001_1080_192_1756345290430_71659823.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为灰砖外墙带红砖饰带，门楣标有'LE LABO'，入口设黑色伸缩隔离带。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内墙面为做旧灰泥质感，黑色悬臂架陈列玻璃瓶、植物标本画与小瓶装液体。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张照片为另一家店'Venchi'门面，非LE LABO；可见其临街玻璃窗与双开门，店内有顾客。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第一张图中门口可见一人半身，站在门内侧，未见店内座位或吧台。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图未见座位、吧台、咖啡机、磨豆机或饮品食物实体。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图无落地窗，仅入口门洞；第三张图Venchi有大面积临街玻璃窗。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图墙上挂框内文字可见'LES RÉALITÉS LYRIQUES'，其余标签字迹不清。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "三张图均未出现电脑、烘焙机、手冲台、虹吸壶、磨豆机等专业咖啡设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:45Z"
+}

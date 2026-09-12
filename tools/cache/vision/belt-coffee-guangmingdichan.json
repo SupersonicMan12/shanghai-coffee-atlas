@@ -1,0 +1,72 @@
+{
+  "cafeId": "belt-coffee-guangmingdichan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8e3907d67851",
+  "photos": [
+    "https://aos-comment.amap.com/B0I3370GOE/comment/content_media_external_file_131272_ss__1753754545259_71601549.jpg",
+    "https://store.is.autonavi.com/showpic/e0875e71b70bbe260000003090294054?type=pic",
+    "https://aos-comment.amap.com/B0I3370GOE/comment/content_media_external_file_131274_ss__1753754545211_03729274.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街建筑，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有大窗户，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外座位区，配备遮阳伞",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见饮品为冰咖啡，带吸管和透明杯盖",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "出售巴拿马瑰夏绿标咖啡豆，125g装，中度烘焙",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "售卖BELT单品咖啡豆，蓝山一号，100%阿拉比卡",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，环境自然",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有木质桌椅，适合坐饮",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:24Z"
+}

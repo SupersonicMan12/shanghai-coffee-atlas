@@ -1,0 +1,71 @@
+{
+  "cafeId": "mr-bond-coffee-189nonggouwuzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4d567ef165db",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2a35ea1a3baa0d9a0000000669690094?type=pic",
+    "https://store.is.autonavi.com/showpic/5bd8b5536ea9d81f0000000669672519?type=pic",
+    "https://aos-comment.amap.com/B0LG5Y25DG/comment/content_media_external_file_1000016251_ss__1758446694682_06695455.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，临街玻璃门设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见一位顾客正在点单",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和少量桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示有限时特惠套餐，价格58元",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见陈列的咖啡豆包装盒",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有展示柜，陈列糕点类食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店外侧为玻璃幕墙结构，反射城市建筑",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:05Z"
+}

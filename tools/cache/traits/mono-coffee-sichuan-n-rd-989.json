@@ -1,0 +1,87 @@
+{
+  "cafeId": "mono-coffee-sichuan-n-rd-989",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bd288e0334e9",
+  "raw": {
+    "headline": {
+      "zh": "三款维也纳咖啡",
+      "en": "Three Vienna coffee styles"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供黑、白、灰三款维也纳咖啡，38–48元",
+        "en": "Black, white, gray Vienna coffees, ¥38–48",
+        "from": [
+          2,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有华夫饼配咖啡套餐，88元",
+        "en": "Waffle + coffee set for ¥88",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用BB、瑰夏、单豆等咖啡豆",
+        "en": "Uses BB, Geisha, single-origin beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:00–18:00",
+        "en": "Open 08:00–18:00 daily",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主曾研发网红甜心雨棉花糖美式",
+        "en": "Owner created viral Sweet Rain Americano",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "适合办公或聊天",
+        "en": "Good for work or chat"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "在喧嚣中划出安静界线",
+        "en": "Quiet spot in busy area"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          10
+        ],
+        "zh": "多款特色维也纳与手冲冷萃",
+        "en": "Unique Vienna, cold brew, pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:37Z"
+}

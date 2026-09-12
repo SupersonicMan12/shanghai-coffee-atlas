@@ -1,0 +1,40 @@
+{
+ "cafeId": "in-dough-we-trust",
+ "model": "qwen-max",
+ "inputDigest": "4baf9160fe11",
+ "raw": {
+  "headline": {
+   "zh": "招牌肉桂结与批酿咖啡，值得一试",
+   "en": "Try the sourdough cinnamon knot and batch brew"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌：酸面包肉桂结",
+    "en": "Signature: sourdough cinnamon knot",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供批酿咖啡",
+    "en": "Batch brew coffee available",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 60,
+    "from": 1,
+    "zh": "排队时保持文明",
+    "en": "Queue is civil"
+   },
+   "linger": {
+    "value": 50,
+    "from": 1,
+    "zh": "适合停留一段时间",
+    "en": "Suitable for a short stay"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:30Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "qilikafei-guanglingsiluyuguanglingyilujiaochakou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a5fedcfc8b2b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/08bb263332ae06730000002470862976",
+    "https://store.is.autonavi.com/showpic/45918210bae953e40000002470924010",
+    "https://store.is.autonavi.com/showpic/d3b206e51373571f0000002460178900?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，分层明显，顶部有冰块和薄荷叶",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，窗外可见街道与绿树",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门上有手绘图案，包括咖啡杯、咖啡豆等元素",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店员在门口操作，可见室内工作台区域",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有电视屏幕显示内容，可能用于播放信息或广告",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "透过窗户可见室外街道及车辆，环境安静",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内装饰风格偏向手绘艺术，有童趣感",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:28Z"
+}

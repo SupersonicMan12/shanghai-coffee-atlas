@@ -1,0 +1,77 @@
+{
+  "cafeId": "basdban-yuyuanlucanting",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "38cacab4e553",
+  "raw": {
+    "headline": {
+      "zh": "仅售美式与意式奶咖",
+      "en": "Only Americano and milk-based espresso"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "只提供美式和意式奶咖",
+        "en": "Serves only Americano and milk espresso drinks",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "面包甜点选择丰富，含巧克力、三明治等",
+        "en": "Wide selection of pastries, sandwiches, chocolate",
+        "from": [
+          11,
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有庭院座位，配小桌与长凳",
+        "en": "Outdoor courtyard seating with small tables and benches",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "工业风艺术空间，设金属地形图桌与悬浮吧台",
+        "en": "Industrial art space with metal topography table",
+        "from": [
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:30",
+        "en": "Open daily until 19:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 20,
+        "from": [
+          11
+        ],
+        "zh": "饮品选项极简",
+        "en": "Minimal drink options"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5,
+          7
+        ],
+        "zh": "有庭院和绿植墙可久坐",
+        "en": "Courtyard encourages lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:24Z"
+}

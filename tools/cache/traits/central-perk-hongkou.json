@@ -1,0 +1,28 @@
+{
+ "cafeId": "central-perk-hongkou",
+ "model": "qwen-max",
+ "inputDigest": "edff37b679e6",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "橙色沙发是店内招牌",
+    "en": "Iconic orange sofa inside",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 60,
+    "from": 1,
+    "zh": "咖啡品质优于普通主题店",
+    "en": "Better coffee than typical themed shops"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:17Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "kandedaofengjingdekafeiguan-jingan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e20fa0c2f668",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ed0080a7b0f856ec0000002586538789?type=pic",
+    "https://aos-comment.amap.com/B0FFGFYYZ0/comment/CD78C12A_6744_4F4F_B895_EFBDACA65EF2_L0_001_1504_2006_1735725566124_61732282.jpg",
+    "https://aos-comment.amap.com/B0FFGFYYZ0/comment/801524DF_018D_45BD_8308_AECAC5DED233_L0_001_1500_2000_1735725566122_28391101.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临窗座位可俯瞰城市与金色塔楼景观",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有红色花瓶装饰的大型绿植",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品含拉花咖啡与粉色奶盖，杯身印“上海”",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗外可见金色宝塔式建筑与现代高楼",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内设木质桌椅与红色卡座",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品为带树形拉花的咖啡和粉色奶盖饮料",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌面有白色陶瓷甜品碗与锥形器皿",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:00Z"
+}

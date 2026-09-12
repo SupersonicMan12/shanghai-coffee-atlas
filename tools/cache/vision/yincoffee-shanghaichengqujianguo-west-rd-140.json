@@ -1,0 +1,72 @@
+{
+  "cafeId": "yincoffee-shanghaichengqujianguo-west-rd-140",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6b94e853ddfd",
+  "photos": [
+    "https://aos-comment.amap.com/B0JGDHKG0P/comment/6aac5cbe60a9b87cf1313fcae8a9c32f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JGDHKG0P/comment/1bd6cdcc5e2edc6744b3e3c3f7079791_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/5f528fd87582f6d41bb99edb6b16bc93"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "有冰咖啡和可颂供应",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有热拿铁和可颂供应",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有三张椅子和一张小圆桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃门，门口有人站立",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大窗户，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺位于街边，门口有花艺装饰",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内墙面为红砖与水泥墙结合",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:11Z"
+}

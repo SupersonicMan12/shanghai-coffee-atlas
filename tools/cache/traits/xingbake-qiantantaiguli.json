@@ -1,0 +1,46 @@
+{
+  "cafeId": "xingbake-qiantantaiguli",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ecf213951213",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位区",
+        "en": "Outdoor seating available",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于开放广场中的圆柱形门店",
+        "en": "Cylindrical store in an open plaza",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积玻璃窗与整面临街落地窗",
+        "en": "Large glass windows and full-height street-facing glazing",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30-22:00营业",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:31Z"
+}

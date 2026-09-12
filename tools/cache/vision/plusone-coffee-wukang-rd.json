@@ -1,0 +1,60 @@
+{
+  "cafeId": "plusone-coffee-wukang-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "eef5a9ce4242",
+  "photos": [
+    "https://aos-comment.amap.com/B0G2GZN8EJ/comment/019946D6_B7AD_4A1B_B3B6_04A1B38E4F47_L0_001_1500_200_1750689225384_48269649.jpg",
+    "https://aos-comment.amap.com/B0G2GZN8EJ/comment/fd728452b6caba934e551cc9829ef2af_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G2GZN8EJ/comment/content_media_external_file_1000049479_ss__1768521577766_94349276.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为砖墙结构，有黄色招牌和遮阳棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内为白色圆形桌子，木质托盘，光线明亮",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见两款冰咖啡饮品，配有吸管",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括冰淇淋、糖葫芦和香蕉杯",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在座位上，但数量不多",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口摆放着写有饮品信息的黑板菜单",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:39Z"
+}

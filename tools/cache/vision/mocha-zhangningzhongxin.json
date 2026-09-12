@@ -1,0 +1,71 @@
+{
+  "cafeId": "mocha-zhangningzhongxin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "7539a9c6b7e7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a9584a44a6908bf50000003361062928?type=pic",
+    "https://store.is.autonavi.com/showpic/0a3af691effba4320000000976582485?type=pic",
+    "https://store.is.autonavi.com/showpic/4ad8398acbaafd570000000962958102?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面外墙为浅绿色，招牌为黑色立体字“CAT CAFE MOCHA 擼猫馆”",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街有大面积格子窗，玻璃反光可见蓝天白云，属临街玻璃窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上有“职员出勤表”，贴满猫咪照片与姓名牌（如Baby、Harry、Gaga），含手绘涂鸦与中文标语",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "一只浅色短毛猫卧在瓦楞纸猫抓盆中，盆边缘有卡通猫图案贴纸及条形码",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店名含“撸猫馆”，第二张图明确展示多只猫的“工作证”，证实为猫咖",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图右下角可见收拢的米色遮阳伞，暗示可能有室外座位区域",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见吧台、咖啡机、磨豆机、手冲设备、菜单、饮品或食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "未见书架、植物（仅前景少量绿植枝叶）、电脑使用者或烘焙设备",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:20Z"
+}

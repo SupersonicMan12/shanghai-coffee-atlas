@@ -1,0 +1,56 @@
+{
+  "cafeId": "coffee-brunch-longhua-east-rd-868",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cd164f71cbb0",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设少量室外座位",
+        "en": "Offers a few outdoor seats",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，空间适中",
+        "en": "Street-facing with floor-to-ceiling windows and moderate space",
+        "from": [
+          2,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "白天自然光充足，夜间照明明亮",
+        "en": "Bright natural light by day, well-lit at night",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡，含泡沫与冰块",
+        "en": "Serves iced coffee with foam and ice",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:34:11Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "foty-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "af4d01f945f3",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d1a9f70e6be46c810000000979944441?type=pic",
+    "https://aos-comment.amap.com/B0JRYZCPOC/comment/f1a0c0d58ce783130d4f69a36422db54_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JRYZCPOC/comment/C97E8D3E_74CE_49D1_8DEB_BC913C10F3BA_L0_001_1080_1440_1726710765884_27036239.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "红砖外墙，临街玻璃门，上方有米色遮阳篷，写有'KOUIGN AMANN & COFFEE'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店门口左侧放两把绿色旧木椅、一个木凳；右侧立一A字板菜单展示可颂",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "玻璃门内可见'FROM OVEN TO YOU'字样及悬挂的'OPEN'标牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内吧台处有金色边框奖状：'2023 POP 100 年度最佳烘焙店 FOTY'",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后方可见商用意式咖啡机与磨豆机（顶部透明豆仓）",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "木质货架上陈列Maison Perrier Citrus Fizz饮料盒、白釉蓝边碗、装可颂的相框及烤盘上的3个可颂",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内背景可见木桌椅、折叠椅、壁挂镜子、洗手池，空间为小厅布局",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外墙面贴有蓝底白字'FOTY'标牌，入口旁有'ENTRANCE'指示",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T13:40:18Z"
+}

@@ -178,9 +178,12 @@ def dashscope_chat(model: str, messages: list[dict], *, json_mode: bool = True,
 
 def dashscope_search(model: str, prompt: str, *, strategy: str = 'max', retries: int = 3,
                      timeout: int = 170) -> tuple[str, list[dict]]:
-    """Qwen with the built-in web search plugin. Returns (text, search_results)."""
+    """Qwen with the built-in web search plugin. Returns (text, search_results).
+
+    `model` accepts the same comma-separated preference list as `dashscope_chat`.
+    """
+    models = [m.strip() for m in model.split(',') if m.strip()]
     body = {
-        'model': model,
         'input': {'messages': [{'role': 'user', 'content': prompt}]},
         'parameters': {
             'enable_search': True,
@@ -195,22 +198,27 @@ def dashscope_search(model: str, prompt: str, *, strategy: str = 'max', retries:
         },
     }
     last: Exception | None = None
-    for attempt in range(retries):
-        try:
-            r = requests.post(DASHSCOPE_GEN, headers={'Authorization': f'Bearer {dashscope_key()}',
-                                                       'Content-Type': 'application/json'},
-                              json=body, timeout=timeout)
-            if r.status_code == 429 or r.status_code >= 500:
-                raise RuntimeError(f'HTTP {r.status_code}: {r.text[:200]}')
-            r.raise_for_status()
-            out = r.json()['output']
-            text = out['choices'][0]['message']['content']
-            results = (out.get('search_info') or {}).get('search_results') or []
-            return text, results
-        except Exception as exc:  # noqa: BLE001
-            last = exc
-            time.sleep(2.0 * (attempt + 1))
-    raise RuntimeError(f'dashscope search failed after {retries} attempts: {last}')
+    for m in models:
+        body['model'] = m
+        for attempt in range(retries):
+            try:
+                r = requests.post(DASHSCOPE_GEN, headers={'Authorization': f'Bearer {dashscope_key()}',
+                                                           'Content-Type': 'application/json'},
+                                  json=body, timeout=timeout)
+                if r.status_code == 403 and 'AllocationQuota' in r.text:
+                    last = RuntimeError(f'{m}: quota exhausted')
+                    break
+                if r.status_code == 429 or r.status_code >= 500:
+                    raise RuntimeError(f'HTTP {r.status_code}: {r.text[:200]}')
+                r.raise_for_status()
+                out = r.json()['output']
+                text = out['choices'][0]['message']['content']
+                results = (out.get('search_info') or {}).get('search_results') or []
+                return text, results
+            except Exception as exc:  # noqa: BLE001
+                last = exc
+                time.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f'dashscope search failed ({",".join(models)}): {last}')
 
 
 def parse_json_object(text: str) -> dict:

@@ -1,0 +1,55 @@
+{
+  "cafeId": "kafei-caohejingyinxiangcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "381028c8815f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6eb68e6fbec0941d3628c8cda0a37081"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "位于商场内，入口处有数字标识4B",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和高脚凳座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见店内有工作人员在操作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有咖啡制作设备，包括磨豆机和手冲台",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口立牌显示饮品促销信息",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内空间较窄，为小型店铺格局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:12Z"
+}

@@ -1,0 +1,40 @@
+{
+ "cafeId": "cafe-begonia-beihai",
+ "model": "qwen-max",
+ "inputDigest": "ecad683d0d38",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "sound",
+    "zh": "店内播放着轻柔的爵士音乐",
+    "en": "Soft jazz soundtrack in the background",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为海棠印花茶杯馥芮白",
+    "en": "Signature drink: Begonia-print teacup flat white",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "轻柔爵士音乐营造宁静氛围",
+    "en": "Soft jazz creates a calm vibe"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "适合坐着慢慢品尝咖啡",
+    "en": "Good for a long sit"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:42Z"
+}

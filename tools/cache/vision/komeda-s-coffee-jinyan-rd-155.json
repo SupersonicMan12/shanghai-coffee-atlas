@@ -1,0 +1,71 @@
+{
+  "cafeId": "komeda-s-coffee-jinyan-rd-155",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1bc43315a88f",
+  "photos": [
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/DCD65629_07B0_436F_885F_FD70E609DA3E_L0_001_1502_200_1757237791284_83932016.jpg",
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/FC2D078F_0C6B_4033_9788_B844035A0ECC_L0_001_1500_200_1768490767761_49331925.jpg",
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/content_media_external_file_47538_ss__1759558674125_09055436.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "门口立牌显示鲜切吐司，厚切21.8元，薄切19.8元。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "玻璃门贴有营业时间：08:00-19:00。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见两杯咖啡，一杯加奶油，一杯为奶咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "收银台前篮子里放着哆啦A梦玩偶和多个手办。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上画有咖啡、吐司、松饼等食物的插图。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面入口两侧有壁灯，门前是砖墙和黄色墙面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口地面湿滑，可能刚下过雨，有绿植枝叶。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内桌椅为深色木质，照片中未见顾客或电脑。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:43Z"
+}

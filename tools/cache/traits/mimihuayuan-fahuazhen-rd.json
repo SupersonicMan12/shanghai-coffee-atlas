@@ -1,0 +1,53 @@
+{
+ "cafeId": "mimihuayuan-fahuazhen-rd",
+ "model": "qwen-max",
+ "inputDigest": "11cb31d99cef",
+ "raw": {
+  "headline": {
+   "zh": "独特氛围，美食令人惊艳",
+   "en": "Unique ambiance, stunning food"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌菜包括巧克力熔岩、提拉米苏等",
+    "en": "Signature dishes like chocolate lava, tiramisu",
+    "from": 10
+   },
+   {
+    "kind": "view",
+    "zh": "室内装饰有白色蕾丝桌布和绿植",
+    "en": "White lace tablecloths and green plants inside",
+    "from": 2,
+    "errors": "5, 4"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间从早上11点到晚上10点",
+    "en": "Open from 11 AM to 10 PM",
+    "from": 9
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 30,
+    "from": 6,
+    "zh": "无窗，适合轻度工作",
+    "en": "No windows, light work"
+   },
+   "energy": {
+    "value": 40,
+    "from": 6,
+    "zh": "室内环境较为安静",
+    "en": "Quiet indoor environment"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "丰富菜品适合久坐",
+    "en": "Variety of dishes, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:09Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "arabica-dayangqianshu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bb263dc98102",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKJBOMFX/comment/1a87dec07255f865ce755d67cc728a71_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKJBOMFX/comment/7d073c2b8d183c1d827058cb33568102_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKJBOMFX/comment/40e2e07b6c2b7042b9409b11a237f95a_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台区域有三台磨豆机和一台大型咖啡机。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上方架子上整齐堆放着大量纸杯。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台台面为白色，设备后方是纯白墙面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台上放有一台平板电脑，可能用于点单。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有悬挂的透明玻璃手冲壶。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "天花板装有嵌入式照明灯带，光线明亮。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:56Z"
+}

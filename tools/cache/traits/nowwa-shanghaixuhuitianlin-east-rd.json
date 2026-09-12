@@ -1,0 +1,72 @@
+{
+  "cafeId": "nowwa-shanghaixuhuitianlin-east-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8f1e92d75c6a",
+  "raw": {
+    "headline": {
+      "zh": "站喝平价果咖",
+      "en": "Stand-up fruit coffee, ~¥10"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为‘小马果咖’系列",
+        "en": "Signature drinks are 'Xiao Ma Fruit Coffee' series",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉等阿拉比卡豆",
+        "en": "Uses Yirgacheffe, Guatemalan, etc. Arabica beans",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–17:30营业",
+        "en": "Open daily 08:00–17:30",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐生椰拿铁",
+        "en": "Recommended drink: coconut latte",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地窗，站吧形式",
+        "en": "Street-facing floor-to-ceiling window, standing bar",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "站吧设计不便久坐",
+        "en": "Standing bar limits lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "果咖突破咖啡定义",
+        "en": "Fruit coffee redefines norms"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:50Z"
+}

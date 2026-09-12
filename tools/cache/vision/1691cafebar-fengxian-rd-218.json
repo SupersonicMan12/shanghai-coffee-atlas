@@ -1,0 +1,71 @@
+{
+  "cafeId": "1691cafebar-fengxian-rd-218",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8859c261a977",
+  "photos": [
+    "https://aos-comment.amap.com/B0ID6XDAIY/comment/content_media_external_file_4779_1763717054567_00998895.jpg",
+    "https://aos-comment.amap.com/B0ID6XDAIY/comment/449CC7C9_975B_46B1_ACDB_D0C68730C7EE_L0_001_1440_108_1764126403197_28669819.jpg",
+    "https://aos-comment.amap.com/B0ID6XDAIY/comment/content_media_external_images_media_1000009817_ss__1729412384165_26542945.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "室外有高脚桌椅，室内可见书架和架子鼓，空间复合型",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内整面墙是书架，摆满书籍，有音乐设备",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上放一杯奶咖，用深色陶瓷杯盛装",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街是落地玻璃门，采光好，可看到户外木平台",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外平台有绿植、高脚凳，非纯室内空间",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内地板为木质人字拼，搭配地毯和绿植",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见烘焙机或手冲台等专业咖啡器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见顾客或工作人员在使用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:07:52Z"
+}

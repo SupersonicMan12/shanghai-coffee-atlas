@@ -1,0 +1,34 @@
+{
+ "cafeId": "stable-m50",
+ "model": "qwen-max",
+ "inputDigest": "d705f1040b8f",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "艺术人群聚集，适合看展间隙休息",
+    "en": "Art crowd hub, perfect for show breaks",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "艺术人群活跃但不喧闹",
+    "en": "Active art crowd, not too loud"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "适合慢慢享受咖啡和艺术氛围",
+    "en": "Good for a leisurely coffee and vibe"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:53Z"
+}

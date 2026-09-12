@@ -1,0 +1,71 @@
+{
+  "cafeId": "liveliness-coffee-shop-peiwengongyu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6985ed86ebc6",
+  "photos": [
+    "https://aos-comment.amap.com/B0I33BP4IX/comment/content_media_external_file_100049513_1771060747324_50596707.jpg",
+    "https://aos-comment.amap.com/B0I33BP4IX/comment/9D15F696_EBE4_4060_8E15_18A4871598A8_L0_001_1511_201_1773471310223_70997086.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771910698497_68892435_1771910891014_45511736.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为两层老式建筑，一层临街玻璃窗+木框门，二层有竹帘与白纱帘",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一层门头黑底白字标'COFFEE'，玻璃门贴红色'興禧'二字及'福'字装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见书架、绿植、悬挂灯泡，右侧有咖啡机与操作台",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片2中：贝果、含坚果的长条面包、心形拉花拿铁、抹茶拿铁（叶形拉花）各一份",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "照片3中：一杯心形/叶形组合拉花的拿铁，一块撒黄粉的方形糕点（似黄豆粉豆腐）",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "照片3桌面有透明玻璃花瓶插干花枝，背景为白色薄纱帘透入自然光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片1中店内左侧窗边坐两人，其中一人面前有白色购物袋，无人用电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口台阶前放两个草编坐垫，无室外桌椅",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:24Z"
+}

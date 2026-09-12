@@ -1,0 +1,71 @@
+{
+  "cafeId": "m-stand-shanghaibaolishiguangli",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "41fcbb5019c4",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=stb6b82a8d-61ac-47d1-a418-17128adfa160&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/5b9837ffe08790e01ef149536d665cec",
+    "https://aos-comment.amap.com/B0K2SCA3N1/comment/2E63B079_C9AE_41E7_B047_43B44F749816_L0_001_2000_150_1764909571623_95418911.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有黑色长条形户外桌椅，至少可坐4人。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台陈列咖啡豆研磨机、联名杯具和手机支架。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单牌显示会员充值200元赠咖啡，联名套餐价46/68元。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见顾客在用餐，背景有开放式厨房或操作区。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外种植两棵小树，置于黑色花盆中，位于户外座位旁。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后墙为深灰色面板，无书架或宠物，未见烘焙机。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显电脑使用者，未见手冲台或虹吸壶等器具。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "落地玻璃窗通透，反射城市建筑，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:20Z"
+}

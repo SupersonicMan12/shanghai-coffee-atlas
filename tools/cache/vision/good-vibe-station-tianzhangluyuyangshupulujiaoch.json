@@ -1,0 +1,59 @@
+{
+  "cafeId": "good-vibe-station-tianzhangluyuyangshupulujiaoch",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "439a94bc0f70",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a5c98ceae7b07e420000003028734472?type=pic",
+    "https://aos-comment.amap.com/B0JDUXXW7C/comment/DEB0B845_830E_4272_AA4A_E998EE3C93CC_L0_001_1496_199_1761086721543_08946489.jpg",
+    "https://aos-comment.amap.com/B0JDUXXW7C/comment/content_media_external_images_media_56201_ss__1733675193858_10246871.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "墙面挂有多幅复古风格画框，含吉他、披头士等图案",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为深色木质，摆放有花瓶、水壶及小物件",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一杯外带杯装的分层饮品，疑似咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一份烤鸡翅配炸物，用报纸包裹",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域可见金属栏杆，推测为露台或户外座位",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "阳光从右侧照入，室内采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:23Z"
+}

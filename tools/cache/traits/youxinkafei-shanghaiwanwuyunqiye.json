@@ -1,0 +1,40 @@
+{
+  "cafeId": "youxinkafei-shanghaiwanwuyunqiye",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "25df6ddfc802",
+  "raw": {
+    "headline": {
+      "zh": "工作日限定营业",
+      "en": "Open weekdays only"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "周一至周五 08:30-17:30 营业",
+        "en": "Open Monday to Friday, 8:30–5:30",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "工作日全天办公时段",
+        "en": "Workday office hours"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "营业截止17:30",
+        "en": "Closes at 5:30"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:48Z"
+}

@@ -1,0 +1,33 @@
+{
+  "cafeId": "nowwa-meiyijiapudongjinlingzhidou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "acb14811106d",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp",
+    "https://store.is.autonavi.com/showpic/2855ae72732faaae0000005736724899?type=pic"
+  ],
+  "photoKinds": [
+    "logo",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有蛋挞出售",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "品牌为挪瓦咖啡",
+      "kind": "brand",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:53Z"
+}

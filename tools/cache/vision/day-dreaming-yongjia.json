@@ -1,0 +1,71 @@
+{
+  "cafeId": "day-dreaming-yongjia",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "f5b677cb117a",
+  "photos": [
+    "https://aos-comment.amap.com/B0GK3HUJ6O/comment/c10becd9b5ba220ce01bc2e68b9440ba_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GK3HUJ6O/comment/5b609c5c9141ccf6eda49cbccbc1cde2_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/53d84b2c802fe2e60000002491178786?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层小店，入口窄，左侧设开放式吧台，右侧为玻璃窗座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招写有 'Day Dreaming by Monos'，门柱黑板标示营业时间及 'CAFE & BAKERY' 等品类",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后可见咖啡机、磨豆机、金属操作台与货架，有工作人员在操作",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质小凳（单人）、靠窗木椅；窗内可见一人坐桌边，桌上放饮品与花瓶",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图：白圆桌上有两杯咖啡（一杯深烘美式/黑咖、一杯带心形拉花拿铁）与三块可露丽",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图：柜台前摆两杯深色陶瓷杯咖啡、两块可露丽、一碗水果燕麦煎饼；背景陈列柜有可颂三明治等，价签显示¥32.00、¥28.00、¥18.00",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "地址牌显示‘永嘉路285号’，绿色路牌清晰可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街玻璃窗较大，透光良好，窗外可见对面居民楼阳台与绿植",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:59Z"
+}

@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "text": "专注于精品咖啡，使用非洲和南美庄园的高品质豆子。",
+      "kind": "beans",
+      "quote": "Several beans are exclusively supplied by coffee bean plantations in Africa and ",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-131512138/",
+      "site": "big sur coffee(永嘉路店) - Shanghai Restaurants - Trip.com"
+    },
+    {
+      "text": "自建烘焙工厂，强调生豆品质与可追溯性。",
+      "kind": "story",
+      "quote": "BIG SUR COFFEE认为生豆之于咖啡,犹如食材之于美食,好的生豆是一杯好咖啡的根本。",
+      "url": "https://www.sohu.com/a/914056357_650130",
+      "site": "搜狐网"
+    },
+    {
+      "text": "提供多样化的手冲单品，如肯尼亚TOH日晒组第一名等。",
+      "kind": "drinks",
+      "quote": "肯尼亚TOH日晒组第一名 巴拿马 石墙庄园 BOP同地块 手冲 艾力达状元水洗绿顶瑰夏",
+      "url": "https://m.dianping.com/shop/1532823958",
+      "site": "大众点评网"
+    },
+    {
+      "text": "宠物友好店，店内还为萌宠准备了温水。",
+      "kind": "people",
+      "quote": "这家店还是宠物友好店,店里小姐姐还会很贴心的给到萌宠温水喝",
+      "url": "https://www.dianping.com/discovery/1308292611",
+      "site": "大众点评网"
+    },
+    {
+      "text": "价格相比过去有所上涨，现基本都是40元起步。",
+      "kind": "story",
+      "quote": "但现在涨价的太离谱了，以前30初头可以有好几个选择选豆喝好喝的咖啡，现在基本都是40起步！",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F94413C427B2&address=Yongjia+Road+No.277+Ground+Floor%2C+Xuhui%2C+Shanghai+China&coordinate=31.209359%2C121.459402&name=BIG+SUR+Coffee+%28Yongjia+Road+Branch%29&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Big Sur-精品手冲咖啡店,手冲人的知音 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1308292611",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "big sur coffee(永嘉路店) - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-131512138/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "拯救打工人的精神加油站!成都国际咖啡美食文化节来啦~7月一起奔赴这场咖啡派对 ",
+      "url": "https://www.sohu.com/a/914056357_650130",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "音乐学院/五官科医院咖啡",
+      "url": "https://m.dianping.com/shop/1532823958",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "BIG SUR COFFEE 厄瓜多尔 水洗加强铁皮卡套装 浅烘焙 200g",
+      "url": "https://www.meidebi.com/m-5751369.html",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "BIG SUR Coffee (Yongjia Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F94413C427B2&address=Yongjia+Road+No.277+Ground+Floor%2C+Xuhui%2C+Shanghai+China&coordinate=31.209359%2C121.459402&name=BIG+SUR+Coffee+%28Yongjia+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:35Z"
+}

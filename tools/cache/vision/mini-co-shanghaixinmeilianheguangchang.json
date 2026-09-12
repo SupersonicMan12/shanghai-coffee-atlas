@@ -1,0 +1,71 @@
+{
+  "cafeId": "mini-co-shanghaixinmeilianheguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "840e931e8f71",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/eaa75abcc59043d10000000670266878?type=pic",
+    "https://store.is.autonavi.com/showpic/350a9ad408abcb000000003075710155?type=pic",
+    "https://store.is.autonavi.com/showpic/2adc024bbd7478f80000003075706231?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场外街，有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有遮阳伞和户外桌椅，适合室外停留",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间呈圆形布局，中央为环形座位区",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和咖啡制作设备，可见磨豆机与萃取装置",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有少量座椅，约6-8个座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有绿植装饰和长椅，环境整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有电子菜单屏显示饮品选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:22:50Z"
+}

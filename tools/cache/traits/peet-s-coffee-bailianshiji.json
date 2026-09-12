@@ -1,0 +1,86 @@
+{
+  "cafeId": "peet-s-coffee-bailianshiji",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "69a0be400f3a",
+  "raw": {
+    "headline": {
+      "zh": "商场临街店，有室外座",
+      "en": "Mall-front cafe with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设沙发座及室外座位，适合久坐",
+        "en": "Sofa and outdoor seats, good for lingering",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full glass facade, well-lit interior",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元，用创世巨星豆",
+        "en": "Signature Giant Flat White, 33 RMB",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙咖啡豆",
+        "en": "Beans roasted within 21 days",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–22:00营业",
+        "en": "Open daily 08:00–22:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "有沙发和室外座",
+        "en": "Sofa & outdoor seats"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "空间宽敞且有人使用",
+        "en": "Spacious with patrons"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          3,
+          9,
+          10
+        ],
+        "zh": "特调+自烘豆",
+        "en": "Specialty drinks & house-roasted beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:15Z"
+}

@@ -1,0 +1,39 @@
+{
+ "cafeId": "parsons-coffee",
+ "model": "qwen-max",
+ "inputDigest": "dc5650069501",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing windows, great view",
+    "from": 8
+   },
+   {
+    "kind": "drinks",
+    "zh": "经典咖啡选择丰富，价格18-25元",
+    "en": "Wide classic coffee options, 18-25 RMB",
+    "from": 4
+   },
+   {
+    "kind": "seating",
+    "zh": "设有橙色软包卡座靠背",
+    "en": "Orange upholstered booth seating available",
+    "from": 1
+   },
+   {
+    "kind": "time",
+    "zh": "营业至晚上9点，适合早去",
+    "en": "Open until 9 PM, good to go early",
+    "from": 9,
+    ")); // 这里引用了第9条的编辑建议，但实际营业时间来自高德[11]，故两者均列出。如果仅需引用明确时间信息，则应改为11。不过根据任务要求，保留原意且不增加额外信息，这里保持原样。若严格遵循编号对应规则，可调整为仅11。": "axisHints"
+   }
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:10:00Z"
+}

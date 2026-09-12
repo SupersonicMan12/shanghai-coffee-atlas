@@ -1,0 +1,71 @@
+{
+  "cafeId": "eryi-xian",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "53b4ca4231bc",
+  "photos": [
+    "https://aos-comment.amap.com/B0KAAU9WUN/comment/1feedback_sendimag_1750666642408_54658427.jpg",
+    "https://store.is.autonavi.com/showpic/080a65df76f687f90000004303226562?type=pic",
+    "https://store.is.autonavi.com/showpic/4eaa77ebd02b4a2cea744efa99826062"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为玻璃幕墙，可见内部陈列",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有长木桌和多把椅子，可容纳多人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内天花板有轨道灯和纸灯笼，书架靠墙",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外有木质长凳和盆栽树，设遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见多辆自行车陈列",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外地面为灰白相间地砖，部分湿滑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "室内光线明亮，有大型纸灯笼照明",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外停放多辆自行车，靠近建筑",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:52Z"
+}

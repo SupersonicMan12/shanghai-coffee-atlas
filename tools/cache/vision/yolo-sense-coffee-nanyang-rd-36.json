@@ -1,0 +1,71 @@
+{
+  "cafeId": "yolo-sense-coffee-nanyang-rd-36",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ce533bce0f43",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/4559c9b1f79cda1987cda20e9a969873",
+    "https://aos-comment.amap.com/B0FFLNMRX3/comment/7BFE2971_8FE1_4687_85FF_EEA82CEB1C43_L0_001_1500_2000_1731310511180_59784451.jpg",
+    "https://aos-comment.amap.com/B0FFLNMRX3/comment/04273FDD_5337_41CE_9A94_283E37F3EFB5_L0_001_1500_200_1773983149931_75041976.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆位于南阳路36号，临街有拱形门入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内墙上挂有SCA和CQI认证证书",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示有Yolo Sense Coffee Roasters的咖啡豆包装袋",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供挂耳咖啡产品，包装上写有‘Drip Coffee’",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "杯中拉花为中文‘人’字与植物图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木制置物架，陈列酒瓶、音箱和装饰品",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线来自室内壁灯，采光一般",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:12Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "gentlemaker-cafe-huashan-rd-748",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b7bde42db168",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFMFL06G/comment/E9914C63_DD40_46FC_8B0D_496164D7478C_L0_001_1206_153_1758588207372_30909102.jpg",
+    "https://aos-comment.amap.com/B0FFMFL06G/comment/22164b6ca88ad5a881699d008040ac59_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFMFL06G/comment/9a2a6f05a2e2d8b47ca7ac1bfc8ed566_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "门口有小型绿植，店门敞开，可见内部吧台与货架。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内展示多种手冲咖啡器具，包括滤杯、分享壶、滤纸架。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品含热红酒（配橙片肉桂）、冰饮（带花形冰块）及奶盖类饮品。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质置物架陈列书籍或卡片，背景墙为浅色纹理墙面。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外是铺砖人行道，无室外座位，临街玻璃门采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见顾客或工作人员，无笔记本电脑使用迹象。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未出现烘焙机或磨豆机等大型专业设备。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:56Z"
+}

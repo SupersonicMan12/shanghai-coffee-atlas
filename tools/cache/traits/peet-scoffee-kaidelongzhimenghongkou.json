@@ -1,0 +1,72 @@
+{
+  "cafeId": "peet-scoffee-kaidelongzhimenghongkou",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "61d1aaebb42c",
+  "raw": {
+    "headline": {
+      "zh": "商场内有堂食区的自烘咖啡",
+      "en": "In-mall coffee with seating & fresh roast"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "含中岛外带柜台与宽敞堂食区",
+        "en": "Features takeaway counter and spacious seating area",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses beans roasted within 21 days",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元/杯",
+        "en": "Signature Giant Flat White at ¥33",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–22:00营业",
+        "en": "Open daily 08:30–22:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供百吉福奶油奶酪等配餐",
+        "en": "Serves Belcube cream cheese as side",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "有宽敞堂食区可久坐",
+        "en": "Spacious seating invites lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "使用21天内自烘豆",
+        "en": "Fresh small-batch roasted beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:27Z"
+}

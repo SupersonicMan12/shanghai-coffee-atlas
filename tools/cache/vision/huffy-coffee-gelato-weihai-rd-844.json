@@ -1,0 +1,47 @@
+{
+  "cafeId": "huffy-coffee-gelato-weihai-rd-844",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "3919432b403e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/bdae3ee7627055b50000003087276491?type=pic",
+    "https://aos-comment.amap.com/B0KK5MFOJ4/comment/file_media_Photo_44542_IMG_1764044290_44047_IMG_20251125_121630_jpg_ss__1765433846925_16571393.jpg",
+    "https://aos-comment.amap.com/B0KK5MFOJ4/comment/file_media_Photo_44543_IMG_1764044306_44048_IMG_20251125_121646_jpg_ss__1765433846821_18550723.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "杯内有抹茶、浅粉色和米白色三种gelato。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "杯内有深绿色、浅绿色和棕色三种gelato，放两把勺。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "杯内有抹茶、浅绿和棕色gelato，手拿杯，指甲有红色美甲。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景有木质小圆桌和长凳，空间不大。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:08Z"
+}

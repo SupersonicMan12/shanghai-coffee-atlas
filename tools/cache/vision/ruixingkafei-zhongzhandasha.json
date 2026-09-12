@@ -1,0 +1,47 @@
+{
+  "cafeId": "ruixingkafei-zhongzhandasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "147a511dc356",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
+    "http://store.is.autonavi.com/showpic/8b13c4f6abd52b9b36c0ac1f8ffdc367",
+    "http://store.is.autonavi.com/showpic/df29e3efe2e2889f16021641afb5bf26"
+  ],
+  "photoKinds": [
+    "logo",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品顶部有奶油和焦糖酱装饰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为拿铁，表面有拉花图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "杯中饮品呈浅棕色，搭配牛奶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "咖啡豆散落在饮品周围",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:58Z"
+}

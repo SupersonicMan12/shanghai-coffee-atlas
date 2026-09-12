@@ -1,0 +1,71 @@
+{
+  "cafeId": "cafe-di-wine-wukangdalou",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "3ed682c988dd",
+  "photos": [
+    "https://aos-comment.amap.com/B0KGH54XVJ/comment/2743C93E_DF11_4F80_960E_CBEC2B3D33C1_L0_001_1051_788_1736059790478_79901593.jpg",
+    "https://store.is.autonavi.com/showpic/28cb0ba05fe3e80e0000002352174139?type=pic",
+    "http://store.is.autonavi.com/showpic/8ac5e1a5d57b5447e67d6418351323ef"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有立式黑板菜单，写有‘红酒’和‘轻食’字样。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有靠墙长条沙发座与木质桌椅，座位数量约十组内。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列多排酒瓶，含货架与金属架展示，非咖啡专用器具。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前摆放玻璃瓶插花，含紫色与白色花朵，无饮品或食物。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处有大型绿植与垂直玫瑰花墙装饰，属人造景观。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内天花板可见轨道射灯与空调管道，工业风装修。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见任何顾客或员工，无笔记本电脑使用迹象。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见磨豆机、手冲台或虹吸壶等专业咖啡设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:27Z"
+}

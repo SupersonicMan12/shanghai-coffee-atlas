@@ -1,0 +1,52 @@
+{
+ "cafeId": "aoshiti-dongdaming",
+ "model": "qwen-max",
+ "inputDigest": "e52545dc9acf",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供手冲咖啡和奶咖",
+    "en": "Serves pour-over and milk coffee",
+    "from": 10
+   },
+   {
+    "kind": "food",
+    "zh": "供应小蛋糕",
+    "en": "Offers small cakes",
+    "from": 10
+   },
+   {
+    "kind": "space",
+    "zh": "金属网格吊顶与轨道射灯",
+    "en": "Metal grid ceiling with track lights",
+    "from": 5
+   },
+   {
+    "kind": "seating",
+    "zh": "双色拼接金属台面的桌子",
+    "en": "Tables with two-tone metal tops",
+    "from": 6
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 7,
+    "zh": "提供冶金级萃取图表",
+    "en": "Metallurgy-grade extraction charts"
+   },
+   "linger": {
+    "value": 70,
+    "from": 9,
+    "zh": "营业时间较长，适合久坐",
+    "en": "Long opening hours, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:36Z"
+}

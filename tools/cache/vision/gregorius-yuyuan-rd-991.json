@@ -1,0 +1,71 @@
+{
+  "cafeId": "gregorius-yuyuan-rd-991",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "5b238d758d11",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1772335212373_35189407_1772335212841_20935169.jpg",
+    "https://aos-comment.amap.com/B0FFJCBFYT/comment/9F689983_A94B_43EB_8086_32D4BF76D00E_L0_001_1512_201_1760141275281_42020219.jpg",
+    "https://aos-comment.amap.com/B0FFJCBFYT/comment/106E2977_768A_4DB0_B805_117F4FDFCBF7_L0_001_1500_2000_1731748256410_49336348.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，门头灰色，招牌含英文Gregorius与中文“航迹”",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口有2张木质椅子+1张小桌，1人坐于室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口为三扇黑色边框玻璃门，透见室内吊灯与顾客",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内吧台为木板拼接结构，台面为浅色石质，配复古铸铁收银机与Sanremo咖啡机",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台上方挂有手写体‘GREGORIUS’标牌及‘RAISE A CUP OF VOYAGE’标语",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "桌上摆放两杯咖啡：一杯盛于绘虎图案白瓷杯，一杯盛于绘野鸭（Mallard Duck）图案白瓷杯",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "盘中有一切开的栗子蒙布朗卷，横截面可见黄色蛋黄状夹心与奶油层",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "门右侧墙贴绿色路牌‘991 愚园路’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:34Z"
+}

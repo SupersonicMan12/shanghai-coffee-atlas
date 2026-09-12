@@ -1,0 +1,46 @@
+{
+ "cafeId": "cubic3-shangyuewan",
+ "model": "qwen-max",
+ "inputDigest": "a1c21fa42764",
+ "raw": {
+  "headline": {
+   "zh": "1000mL超大杯果味美式，9.9元起",
+   "en": "1000mL fruity Americano, from 9.9 yuan"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供1000mL超大杯果味美式",
+    "en": "Offers 1000mL fruity Americano",
+    "from": 2
+   },
+   {
+    "kind": "beans",
+    "zh": "使用全自动咖啡机制作饮品",
+    "en": "Uses fully automatic coffee machines",
+    "from": 3
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周五 08:00-19:30；周六至周日 10:00-20:00",
+    "en": "Mon-Fri 08:00-19:30; Sat-Sun 10:00-20:00",
+    "from": 8
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌冰美式仅售11元",
+    "en": "Signature iced Americano for 11 yuan",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 1,
+    "zh": "站立式吧台设计",
+    "en": "Standing bar design"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:14Z"
+}

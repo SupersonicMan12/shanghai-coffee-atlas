@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-zhongshan-n-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f7c79fd1a24e",
+  "photos": [
+    "https://aos-comment.amap.com/B0JAJS25L8/comment/260270F0_80B4_4CAF_91CC_E6C05784B789_L0_001_1500_200_1763194007088_92732247.jpg",
+    "https://store.is.autonavi.com/showpic/19d7f04a9968d50d0000004101820513?type=pic",
+    "https://store.is.autonavi.com/showpic/4925690038ace9540000003355890431?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有哥伦比亚瑰夏、肯尼亚日晒等精品豆，手冲单杯68-88元。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品含美式、拿铁、Dirty、可可Dirty，价格26-38元；季节特调42元。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图展示一杯冰滴咖啡和一杯带拉花的热饮，配豆卡写“哥伦比亚瑰夏”。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外有大量蓝白色仿真花装饰，上方窗户为木质格子窗。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见“精品SOE”、“又山精品手冲”分类，提供多种处理法与产地选项。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域可见部分咖啡机与器具，但未见烘焙机或虹吸壶。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有树荫遮挡，从照片看是临街店铺，无室外座位。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单右下角有手绘猫头鹰图案，但未见真实宠物或书架。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:38Z"
+}

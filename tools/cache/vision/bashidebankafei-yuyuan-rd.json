@@ -1,0 +1,65 @@
+{
+  "cafeId": "bashidebankafei-yuyuan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "65373c5c69b2",
+  "photos": [
+    "https://aos-comment.amap.com/B0K04UGN7F/comment/E4AED585_D369_4A3D_BFFE_39950BD59053_L0_001_1500_200_1757634274000_50298585.jpg",
+    "https://store.is.autonavi.com/showpic/744fc9ac00fa20fd0000003723248548?type=pic",
+    "https://aos-comment.amap.com/B0K04UGN7F/comment/891B656F_835C_49DE_BC87_DF92FE70A091_L0_001_1500_200_1765374185911_67721379.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "金属吧台配工业风天花板，地面是水磨石。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后有La Marzocco咖啡机和堆叠的纸杯。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放着一杯拿铁、一个巧克力可颂和一罐泡菜。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗边座位，窗外可见红砖墙建筑。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有浅色塑料椅，座位数量级为some。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台下放着一个Marshall音箱和宠物碗。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品包括一杯加了香草的黄色果汁。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:59Z"
+}

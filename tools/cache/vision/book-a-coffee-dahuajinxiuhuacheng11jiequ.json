@@ -1,0 +1,71 @@
+{
+  "cafeId": "book-a-coffee-dahuajinxiuhuacheng11jiequ",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cd81ae3a7888",
+  "photos": [
+    "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598685_ss__1743634806278_52048658.jpg",
+    "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598673_ss__1743634806372_11052854.jpg",
+    "https://aos-comment.amap.com/B0JR47HLR9/comment/C569D6D6_B57F_4AE0_945A_4495A2F38A25_L0_001_1500_200_1767602077485_94002968.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店外有遮阳伞和户外桌椅，提供室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有木质展示架，陈列咖啡豆、杯子和周边商品",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域可见手冲器具和冰块，提供奶洗咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，环境整洁明亮",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有玻璃推拉门，室内采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见咖啡豆包装袋，标注产地信息",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店员在门口使用手机，店内空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有挂墙式置物架，摆放咖啡杯和植物",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:37Z"
+}

@@ -1,0 +1,52 @@
+{
+ "cafeId": "amokka-anfu",
+ "model": "qwen-max",
+ "inputDigest": "74dcd089d75e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "北面视野开阔，南面被吴国桢旧宅挡住",
+    "en": "Open north view, blocked south by old house",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "自家烘焙咖啡豆，尊重原始种植者",
+    "en": "In-house roasted beans, respecting growers",
+    "from": 2
+   },
+   {
+    "kind": "seating",
+    "zh": "提供真正的椅子，适合久坐",
+    "en": "Comfortable chairs for long stays",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：长黑咖啡配窗边座位",
+    "en": "Signature: Long black with window seat",
+    "from": 4
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 3,
+    "zh": "有舒适的椅子，适合办公",
+    "en": "Comfortable for work"
+   },
+   "linger": {
+    "value": 80,
+    "from": 3,
+    "zh": "提供舒适的座椅，适合久坐",
+    "en": "Good for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:20Z"
+}

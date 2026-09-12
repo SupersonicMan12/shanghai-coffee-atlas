@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "特色咖啡含胡辣汤，撒厚厚肉桂粉",
+      "kind": "food",
+      "quote": "特色咖啡，胡辣汤，上面厚厚的肉桂粉",
+      "url": "https://m.douban.com/group/topic/284804537/",
+      "site": "豆瓣"
+    },
+    {
+      "text": "地址为广元路194号，地铁11号线交通大学站步行620米",
+      "kind": "space",
+      "quote": "地址:广元路194号 地铁:地铁11号线交通大学站1号口步行620米",
+      "url": "https://www.dianping.com/discovery/734577767",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间至18:30（或19:00，两处信息略有出入）",
+      "kind": "time",
+      "quote": "营业时间:8:00-18:30",
+      "url": "https://www.dianping.com/discovery/734577767",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间至19:00（周一至周日）",
+      "kind": "time",
+      "quote": "周一至周日08:30-19:00",
+      "url": "https://www.dianping.com/discovery/726749175",
+      "site": "大众点评网"
+    },
+    {
+      "text": "女生咖啡师主理，拉花好看",
+      "kind": "people",
+      "quote": "是一个女生咖啡师，咖啡好喝，拉花好看",
+      "url": "https://m.douban.com/group/topic/284804537/",
+      "site": "豆瓣"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "goat is dancing cafe好喝 - 豆瓣",
+      "url": "https://m.douban.com/group/topic/284804537/",
+      "site_name": "豆瓣"
+    },
+    {
+      "index": 2,
+      "title": "探店日常 | Gout is Dancing cafe - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/734577767",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "魔都新晋阁楼咖啡店,度过温馨治愈秋末🍂 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/726749175",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海有几千家咖啡馆,这是我们今年最爱50佳|企鹅吃喝指南 2023版 ",
+      "url": "https://chihe.sohu.com/a/756859410_113612",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:52Z"
+}

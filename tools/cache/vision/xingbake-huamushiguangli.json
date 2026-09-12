@@ -1,0 +1,59 @@
+{
+  "cafeId": "xingbake-huamushiguangli",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "5baffdf73c71",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0TGOWM7/comment/B6C1E66C_76C9_4BEC_A811_3CD66FB7F41E_L0_001_1500_200_1751418973611_76101193.jpg",
+    "https://store.is.autonavi.com/showpic/c97ea71d9dc07ede42bf6af96ae77245",
+    "https://aos-comment.amap.com/B0K0TGOWM7/comment/613673F4_DE28_478B_A069_857444614B9E_L0_001_2016_151_1766382991175_69468261.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室外有橙色和黑色桌椅，数量较多，为露天座位区。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内吧台后方有菜单板和糕点展示柜，空间较开阔。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口为玻璃门，侧面有大面积落地窗，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "户外广告牌显示有“爆汁脆肠酥皮卷”和“太妃榛果拿铁”。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见顾客坐在桌旁，但无人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外玻璃上贴有“在线点 到店取”的提示和二维码。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:30Z"
+}

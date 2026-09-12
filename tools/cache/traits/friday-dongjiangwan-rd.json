@@ -1,0 +1,71 @@
+{
+  "cafeId": "friday-dongjiangwan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2d0c157a6d75",
+  "raw": {
+    "headline": {
+      "zh": "有猫的临街咖啡馆",
+      "en": "A cat-friendly cafe with street view"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "店内有猫，配有猫爬架和猫窝",
+        "en": "Cats present with climbing frames and beds",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可看到内部陈设",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "美式16元，拿铁18元，使用鲜奶",
+        "en": "Americano ¥16, latte ¥18, with fresh milk",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间13:00-20:00（高德标至20:30）",
+        "en": "Open 13:00–20:00 (Gaode says 20:30)",
+        "from": [
+          2,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供巧克力蛋糕、黄油磅蛋糕等甜点",
+        "en": "Serves chocolate cake, butter pound cake, etc.",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5,
+          6,
+          9
+        ],
+        "zh": "有猫和舒适座位适合久坐",
+        "en": "Cats and seating encourage staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:48Z"
+}

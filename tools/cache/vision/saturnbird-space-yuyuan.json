@@ -1,0 +1,71 @@
+{
+  "cafeId": "saturnbird-space-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "1dbcdb193ef6",
+  "photos": [
+    "https://aos-comment.amap.com/B0K3H5399R/comment/2D59F450_F3B1_4BFC_A7B7_07A436D17489_L0_001_1500_200_1764050314633_60386077.jpg",
+    "https://aos-comment.amap.com/B0K3H5399R/comment/content_media_external_images_media_1000042770_ss__1756291600691_87299515.jpg",
+    "https://aos-comment.amap.com/default_poi/comment/2003EF54_9ABF_4372_94E5_6E6E5B391118_L0_001_2000_1500_1740065182095_39699762.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "红砖外墙，木质立柱与招牌，门口有棕榈树和龟背竹",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为挑高空间，裸露木梁结构，水泥地面，多组木质展台陈列商品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为不锈钢台面+拼接木板立面，后方有两台意式咖啡机与两台磨豆机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台上方悬挂标牌写有 'into_the_force' 和 'Take'，可见点单区与收银设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中左侧墙挂有 ':message' 品牌字母模块与小配件展示板",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图招牌为木质条纹板，刻有“三顿半”三字",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图吧台后有穿黑衣、戴彩色发带的工作人员在操作设备",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中陈列大量黄色‘BE NEW FRIENDS’礼盒及彩色小杯装产品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:32Z"
+}

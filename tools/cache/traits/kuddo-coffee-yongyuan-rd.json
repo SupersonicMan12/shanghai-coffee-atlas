@@ -1,0 +1,74 @@
+{
+  "cafeId": "kuddo-coffee-yongyuan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "33ca6d03113e",
+  "raw": {
+    "headline": {
+      "zh": "豆花拿铁首创店",
+      "en": "Home of the original tofu latte"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为豆花拿铁",
+        "en": "Signature drink is tofu latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "提供堂食座位及室外座位",
+        "en": "Offers indoor and outdoor seating",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "玻璃柜陈列烘焙食品或甜点",
+        "en": "Baked goods or desserts in display case",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至19:00",
+        "en": "Open until 19:00 on weekdays",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "宠物友好，售卖咖啡豆及时尚单品",
+        "en": "Pet-friendly; sells beans and fashion items",
+        "from": [
+          12,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "顾客使用手机非专注办公",
+        "en": "Patrons on phones, not working"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          10
+        ],
+        "zh": "提供创新口味豆花拿铁",
+        "en": "Features inventive tofu latte"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:30Z"
+}

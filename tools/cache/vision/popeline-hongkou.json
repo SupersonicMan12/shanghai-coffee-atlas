@@ -1,0 +1,71 @@
+{
+  "cafeId": "popeline-hongkou",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "da4cd254f721",
+  "photos": [
+    "https://aos-comment.amap.com/default_poi/comment/7CF3CC17_9F74_4DD3_AB2C_B32CC179D320_L0_001_1500_200_1767850737634_69680167.jpg",
+    "https://aos-comment.amap.com/B0LA97VMV7/comment/55379ECC_EE7C_4114_BAE4_9AD98D1CAE93_L0_001_1500_200_1767879409775_12958335.jpg",
+    "https://aos-comment.amap.com/B0LA97VMV7/comment/content_media_external_file_100029207_1767604504941_60740935.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "墙面为浅灰绿色肌理涂料，有‘Popeline’背光立体字招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图中甜品为长方形千层酥底蛋糕，顶部挤有杏仁奶油与碎坚果，撒糖粉",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图同款甜品，背景招牌虚化，无其他环境细节",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图为圆形咖啡主题甜点：巧克力脆壳底、奶油顶、可可粉、巧克力豆及巧克力蕾丝装饰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "每份甜点插有白色圆形标签，印有‘Popeline Pâtisserie & Café’字样",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "甜点置于带黑斑的白色陶瓷盘上，盘下垫白色纸托",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图背景可见金属叉与刀具部分，暗示为餐桌场景",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张图均未显示座位、吧台、窗户、人、设备或菜单文字",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:42Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "big-sur-coffee-mengzi-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "9c65c43d08ba",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗+手冲吧台",
+      "en": "Street-facing window with pour-over bar"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "吧台前设3个木质高脚凳",
+        "en": "Three wooden bar stools at counter",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街落地玻璃窗采光",
+        "en": "Full-height street-facing glass for light",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台陈列豆袋与手冲滤杯支架",
+        "en": "Bean bags and pour-over setup on counter",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-18:00营业",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "仅3个高脚凳不便久坐",
+        "en": "Few stools limit lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "提供手冲咖啡选项",
+        "en": "Offers pour-over coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:52Z"
+}

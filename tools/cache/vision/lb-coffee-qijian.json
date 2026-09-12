@@ -1,0 +1,71 @@
+{
+  "cafeId": "lb-coffee-qijian",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "661169f477f0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d6776c0d0609009b2d10246a61819b7e",
+    "https://aos-comment.amap.com/B0FFLJ89MJ/comment/F5C8A7F7_9B44_48EA_92C2_BE9470E2B9CC_L0_001_1500_2000_1733412962214_10735618.jpg",
+    "https://aos-comment.amap.com/B0FFLJ89MJ/comment/38E18071_DB43_4FF0_9442_E41D888B39A6_L0_001_1179_1179_1731645863558_54535344.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台长且有多个高脚凳，空间开阔。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "落地窗外是茂密的绿树，采光好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方可见咖啡机和磨豆机。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台前有至少4个木质高脚凳。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木纹人字拼地板和裸露管道。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上放着两个带盖纸杯和一块蛋糕。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有员工在操作设备。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板上悬挂着绿色藤蔓植物。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:01:09Z"
+}

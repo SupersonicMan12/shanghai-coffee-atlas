@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "text": "可以俯瞰复旦校园，景观不错",
+      "kind": "view",
+      "quote": "景觀不錯，可以俯瞰復旦校園",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/xingkong-coffee-shop-fudandaxue-432634/",
+      "site": "星空咖啡廳（復旦大學店） - Trip.com"
+    },
+    {
+      "text": "有咖啡、茶水及简餐供应，套餐性价比还可以",
+      "kind": "food",
+      "quote": "有咖啡，茶水及簡餐供應，套餐性價比還可以",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/xingkong-coffee-shop-fudandaxue-432634/",
+      "site": "星空咖啡廳（復旦大學店） - Trip.com"
+    },
+    {
+      "text": "适合同学聚会，楼下的中庭活动会影响安静环境",
+      "kind": "sound",
+      "quote": "適合同學聚會，樓下中庭有活動的話會影響咖啡廳的安靜環境",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/xingkong-coffee-shop-fudandaxue-432634/",
+      "site": "星空咖啡廳（復旦大學店） - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "星空咖啡廳（復旦大學店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/xingkong-coffee-shop-fudandaxue-432634/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "在陆家嘴,喝杯不一样的咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0MzE2NDk4OA==&mid=2247639580&idx=2&sn=1af8868fe713629f65e4b71f45428025&chksm=fa3124d11ac3d55b735ba827500ed72fc1220696006c21d675c164340fcf55fd07af78265878&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "能存活三年的，都是精品| 收好这12 家独立咖啡馆，且喝且珍惜- 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/101466650",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡寻味记：不去网红店数人头，这里才有老上海的味道 - 界面新闻",
+      "url": "https://m.jiemian.com/article/3008629.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 6,
+      "title": "咖啡香里的星光:他们在研磨声中,调出“被需要”的味道",
+      "url": "https://www.163.com/dy/article/K4E2O4730512D03F.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 7,
+      "title": "想体验特色咖啡馆，推荐你去这5家看看 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "20年“咖龄”爱好者测评精华!上海这20+家网红咖啡,我全部打卡一遍之后,给出94分:因为特别6～",
+      "url": "https://www.163.com/dy/article/K1FPROFQ05188NOL.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:13Z"
+}

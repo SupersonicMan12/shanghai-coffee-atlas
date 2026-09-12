@@ -1,0 +1,65 @@
+{
+  "cafeId": "c-stay-coffee-siping-rd-186",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "47253560f5ce",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲咖啡窗口",
+      "en": "Street-facing pour-over window"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街整面玻璃窗，采光通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡",
+        "en": "Serves pour-over coffee",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设少量桌椅",
+        "en": "Limited seating inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-17:00营业",
+        "en": "Open daily 8am–5pm",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "座位少，不宜久坐",
+        "en": "Few seats, not for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "有手冲设备",
+        "en": "Features pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:18Z"
+}

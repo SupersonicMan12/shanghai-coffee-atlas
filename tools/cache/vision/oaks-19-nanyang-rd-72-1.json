@@ -1,0 +1,71 @@
+{
+  "cafeId": "oaks-19-nanyang-rd-72-1",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8b43f9033634",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1772890984977_76958122_1772891039176_71496569.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769752193462_67935086_1769752351182_53304184.jpg",
+    "https://aos-comment.amap.com/B0I3VACRMB/comment/ec97c074ededc4589ab54bd29c1f5090_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门口有玻璃门，店内可见吧台和少量座位。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机、磨豆机及杯具架。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上放有一盆绿植和一个平板点单设备。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯拿铁拉花呈心形图案，盛在玻璃杯中。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外墙面有白色浮雕装饰，门框为红色。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内深处挂有星形灯饰，光线偏暖黄。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "玻璃门上手写“12.25栗子特调回归”字样。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台侧面标有“Espresso Based, Special Drinks”。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:56Z"
+}

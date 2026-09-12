@@ -1,0 +1,98 @@
+{
+  "cafeId": "fumi-coffee-lujiazui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "05c0ad8d1125",
+  "raw": {
+    "headline": {
+      "zh": "陆家嘴自烘豆窗景办公位",
+      "en": "Self-roasted beans with window work seats"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供自烘咖啡豆，可选浅烘或深烘",
+        "en": "Offers house-roasted beans, light or dark roast",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是澳白",
+        "en": "Signature drink is flat white",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "靠窗景观位，每个座位配插座和USB",
+        "en": "Window seats with power and USB outlets",
+        "from": [
+          12,
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间宽敞，适合商务会谈与工作",
+        "en": "Spacious, suited for meetings and work",
+        "from": [
+          2,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至17:00",
+        "en": "Open till 5pm on weekdays",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          2,
+          6,
+          13,
+          14
+        ],
+        "zh": "有插座、安静、适合办公",
+        "en": "Outlets, quiet, work-friendly"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          12,
+          13
+        ],
+        "zh": "有座位和插座可久坐",
+        "en": "Seats and outlets for staying"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          8,
+          9
+        ],
+        "zh": "自烘豆且有专业设备",
+        "en": "House-roasted beans, pro gear"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "环境安静",
+        "en": "Quiet atmosphere"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:50Z"
+}

@@ -1,0 +1,53 @@
+{
+  "cafeId": "xingbake-huamushiguangli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "7b2242920448",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设有多套橙黑配色桌椅",
+        "en": "Outdoor seating with orange-black tables and chairs",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "入口为玻璃门，侧面有大面积落地窗",
+        "en": "Glass entrance with large side windows for natural light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应爆汁脆肠酥皮卷",
+        "en": "Serves Juicy Crispy Sausage Croissant",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供太妃榛果拿铁",
+        "en": "Offers Toffee Hazelnut Latte",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日06:30开门，周末07:00开门",
+        "en": "Opens at 6:30am weekdays, 7am weekends",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:43:30Z"
+}

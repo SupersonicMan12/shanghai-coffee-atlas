@@ -1,0 +1,64 @@
+{
+ "cafeId": "algebraist-meiguifang",
+ "model": "qwen-max",
+ "inputDigest": "7293d81decab",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, open view",
+    "from": 5
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品包括kiri法酪拿铁和重瓣玫瑰布列夫",
+    "en": "Signature drinks: kiri cheese latte, rose breve",
+    "from": 6
+   },
+   {
+    "kind": "beans",
+    "zh": "世界各地甄选咖啡豆，数学方式演算制作方案",
+    "en": "Selected beans from around the world, math-based brewing",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间覆盖白领午休高峰",
+    "en": "Open during lunch break rush hour",
+    "from": 10
+   },
+   {
+    "kind": "people",
+    "zh": "中午时段客流密集，适合快速购买",
+    "en": "Busy at noon, ideal for quick buys",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 2,
+    "zh": "站喝小店不适合专注工作",
+    "en": "Standing bar, not for work"
+   },
+   "linger": {
+    "value": 20,
+    "from": 2,
+    "zh": "站喝形式，顾客停留时间短",
+    "en": "Standing bar, short stays"
+   },
+   "energy": {
+    "value": 50,
+    "from": 10,
+    "zh": "中午高峰期客流密集",
+    "en": "Busy during lunch hours"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:19:42Z"
+}

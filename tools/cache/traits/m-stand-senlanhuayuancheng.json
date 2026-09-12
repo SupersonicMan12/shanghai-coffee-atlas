@@ -1,0 +1,36 @@
+{
+  "cafeId": "m-stand-senlanhuayuancheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d62b4a0dea99",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Floor-to-ceiling windows provide good natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内设有桌椅座位",
+        "en": "Indoor tables and chairs available",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–21:45营业",
+        "en": "Open daily 07:30–21:45",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:38:29Z"
+}

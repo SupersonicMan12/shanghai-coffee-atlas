@@ -1,0 +1,71 @@
+{
+  "cafeId": "niko-and-whole-775-restaurant-and-bar-huaihai755",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "3fe66c237c47",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f4d511e960665747629819e328975aba",
+    "http://aos-cdn-image.amap.com/sns/ugccomment/f9b5ad07-c2f9-4657-a0e4-5217603678f2.jpg",
+    "https://aos-comment.amap.com/B0FFLMYKW1/comment/b81419f04e5aca36735f85bd3e770459_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "室内为长木桌配金属椅，桌上摆香槟杯、餐盘与煤油灯式烛台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "背景有大型临街玻璃窗，窗外可见绿植与建筑轮廓",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗边及室内摆放多盆大型绿植（如龟背竹）",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图中无人员，未见电脑、烘焙机或手冲设备",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图为两块带骨羊排，配烤番茄、西葫芦、西兰花及碎粒状配菜",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图为金属浅锅盛装的烘蛋类菜肴，含煎蛋、切片牛肉与番茄基底，旁配蒜香面包片",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "餐桌为深色实木长桌，桌面有明显木纹与使用痕迹",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见菜单、价格、豆子产地、饮品名称或任何文字标识",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:25Z"
+}

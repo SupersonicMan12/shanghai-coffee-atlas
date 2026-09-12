@@ -1,0 +1,80 @@
+{
+  "cafeId": "pincle-coffee-xinhua-rd-208",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "48790937d906",
+  "raw": {
+    "headline": {
+      "zh": "社区感强的临街外摆咖啡",
+      "en": "Neighborhood coffee with street-side seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设吧台座、小桌及外摆座位",
+        "en": "Street-side bar counter, small table and outdoor seats",
+        "from": [
+          1,
+          5,
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用中深烘焙甜莓味ALO拼配豆",
+        "en": "Uses medium-dark roasted sweet berry ALO blend",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为甜莓味ALO冰美式",
+        "en": "Signature drink: sweet berry ALO iced Americano",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间11:00-18:00",
+        "en": "Open daily 11:00–18:00",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "狭长布局，整面临街玻璃窗",
+        "en": "Narrow layout with full-height street-facing windows",
+        "from": [
+          6,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5,
+          7,
+          10
+        ],
+        "zh": "有多种座位可久坐",
+        "en": "Multiple seating options for lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "拼配豆带甜莓风味",
+        "en": "Berry-flavored blend adds mild novelty"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:02Z"
+}

@@ -1,0 +1,73 @@
+{
+  "cafeId": "cafe-xingang-rd-225",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e0ccf17d6b7c",
+  "photos": [
+    "https://aos-comment.amap.com/B0I2DL1QI8/comment/3DD5F231_AF13_40F9_8265_29D066ACB821_L0_001_2016_1512_1730596046021_94840485.jpg",
+    "https://aos-comment.amap.com/B0I2DL1QI8/comment/49166ECD_F032_4DB3_A2F9_DECEFAE0A00E_L0_001_1502_200_1763912533969_21639891.jpg",
+    "https://aos-comment.amap.com/B0I2DL1QI8/comment/13CA8E85_422E_45F5_8A6C_144B3ACE902B_L0_001_1500_200_1764810091164_80481588.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有靠墙卡座和玻璃桌，座位数量适中",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见炒蛋饭配烤肉和一杯奶茶",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示提供奶茶、咖啡及中西简餐",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为临街玻璃门，有落地窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吊灯和装饰性灯具，风格偏复古",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有饮品与食物的宣传海报",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显烘焙设备或手冲器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外地面湿滑，可能刚下过雨",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:13:41Z"
+}

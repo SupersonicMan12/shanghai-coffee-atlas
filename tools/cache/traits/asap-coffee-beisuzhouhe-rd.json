@@ -1,0 +1,75 @@
+{
+  "cafeId": "asap-coffee-beisuzhouhe-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b9eb46b4d7e0",
+  "raw": {
+    "headline": {
+      "zh": "云朵冰咖与落地窗",
+      "en": "Cloud coffee and floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供云朵冰咖、抹茶拿铁和热拿铁",
+        "en": "Serves cloud iced coffee, matcha latte, hot latte",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "甜点有芝士蛋糕和云朵造型慕斯",
+        "en": "Desserts include cheesecake and cloud-shaped mousse",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面落地窗带来充足自然光",
+        "en": "Large floor-to-ceiling windows provide ample daylight",
+        "from": [
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间紧凑，白色小方砖吧台",
+        "en": "Compact space with white subway-tile counter",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至18:00（周末18:30）",
+        "en": "Open until 18:00 (18:30 on weekends)",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "空间紧凑限制久坐",
+        "en": "Compact space limits lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "云朵冰咖具视觉创意",
+        "en": "Cloud iced coffee shows visual creativity"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:04Z"
+}

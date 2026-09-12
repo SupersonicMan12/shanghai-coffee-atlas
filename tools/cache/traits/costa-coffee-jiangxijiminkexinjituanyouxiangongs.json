@@ -1,0 +1,64 @@
+{
+  "cafeId": "costa-coffee-jiangxijiminkexinjituanyouxiangongs",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cdecf196db4a",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内设6-8个座位",
+        "en": "Indoor seating for 6–8 people",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好采光",
+        "en": "Floor-to-ceiling windows provide ample light",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外可见街道、树木和车辆",
+        "en": "View of street, trees, and parked cars",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供拿铁、海盐焦糖拿铁等咖啡",
+        "en": "Serves lattes including salted caramel",
+        "from": [
+          6,
+          8,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至16:30",
+        "en": "Open weekdays until 16:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          4,
+          13
+        ],
+        "zh": "座位有限且早关门",
+        "en": "Limited seats, closes early"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:21Z"
+}

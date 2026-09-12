@@ -1,0 +1,65 @@
+{
+  "cafeId": "chili-s-jiuguangzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "15a7960c6b7e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/6ec825250303c66a95caed773f63c797",
+    "http://store.is.autonavi.com/showpic/6c62a3c779ccef3b4785500f6bd0cffc",
+    "http://store.is.autonavi.com/showpic/79261d6b83f24b0c54d161ea7d3a438d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "周一16:00后买汉堡送同价或低价汉堡，需购两杯饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供汉堡、薯条、饮料等美式餐点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外座位区，带遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于临街位置，有玻璃门和落地窗",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见植物装饰",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供鸡尾酒类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "汉堡搭配薯条和蘸酱出售",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:26Z"
+}

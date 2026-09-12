@@ -1,0 +1,74 @@
+{
+  "cafeId": "ps-cafe-ganghuihenglongguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0595dd6ba7e9",
+  "raw": {
+    "headline": {
+      "zh": "新加坡咖啡文化先驱品牌",
+      "en": "Pioneer of Singapore coffee culture"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "供应比安卡松露披萨、松露雪花芝士薯条、朗姆葡萄芝士蛋糕",
+        "en": "Serves Bianca truffle pizza, truffle snow cheese fries, and rum grape cheesecake",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有开放式吧台及大理石桌面配黑色椅子的顾客区",
+        "en": "Open bar counter and customer area with marble-top tables and black chairs",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有绿植装饰，天花板为白色条板并配有吊扇",
+        "en": "Indoor greenery and white slat ceiling with ceiling fans",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日10:00至21:00",
+        "en": "Open daily from 10:00 to 21:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "创立超20年，为新加坡咖啡文化先驱与高端品牌代表之一",
+        "en": "Founded over 20 years ago as a pioneer of Singapore coffee culture and premium brand",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          7
+        ],
+        "zh": "绿植环绕+露台营造城中度假氛围",
+        "en": "Greenery and terrace evoke urban resort vibe"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "露台位置营造城中度假氛围",
+        "en": "Terrace evokes relaxed urban energy"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:19Z"
+}

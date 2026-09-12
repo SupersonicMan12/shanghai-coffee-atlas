@@ -1,0 +1,32 @@
+{
+  "cafeId": "morning-lan-osm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e0ea4a6c4039",
+  "raw": {
+    "headline": {
+      "zh": "滨江绿之丘一层咖啡店",
+      "en": "Coffee shop on Yangpu Riverside's Lvzhi Hill ground floor"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "位于杨浦滨江绿之丘一层，白天可感受鸟语花香，夜晚可欣赏滨江沿线",
+        "en": "On the ground floor of Yangpu Riverside's Lvzhi Hill: birdsong and flowers by day, riverside views by night",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          1
+        ],
+        "zh": "昼夜皆宜久坐观景",
+        "en": "Suitable for lingering day or night"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:02Z"
+}

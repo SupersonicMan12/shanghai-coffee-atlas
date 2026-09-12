@@ -1,0 +1,71 @@
+{
+  "cafeId": "here-cafe-lounge-xiangyangdalou",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "03da6c0138a7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2303d05af7455bcdcefcbf07e8fbfd2b",
+    "https://store.is.autonavi.com/showpic/f0d394cd5718c0b876146c125156e4ea",
+    "https://store.is.autonavi.com/showpic/fb731c82de7fcb040adc924e1936200f"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外放3张红色塑料凳，无固定室外座",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，室内灯光亮，可见内部陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板写有“Lunch Set”及价格35元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间照片显示门口堆人造雪，有圣诞装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "手持两杯饮品，一杯黄色、一杯粉红色",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台式座位，空间较紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口有行人与电瓶车经过，临街位置",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见咖啡机或手冲等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:57Z"
+}

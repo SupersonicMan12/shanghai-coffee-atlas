@@ -1,0 +1,71 @@
+{
+  "cafeId": "sorrydog-guangfu-west-rd-165",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "0d2caf41aac6",
+  "photos": [
+    "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_1000038662_ss__1759290419101_21372773.jpg",
+    "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_100003866_1759290506183_85061277.jpg",
+    "https://aos-comment.amap.com/B0J0JSGYFV/comment/96c798a4579bfcf7ed44a63d02551534_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有阶梯式座位区和多个白色圆桌，空间开阔。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有展览海报，显示为“pidan Gallery”场地。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "右侧是大面积落地玻璃窗，窗外可见绿树。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "阶梯上摆放卡通立牌，有真实猫咪在台阶上。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后有工作人员，顾客在点单区排队。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "阶梯平台上有木质猫窝，内有猫砂盆或休息区。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板裸露管道与轨道灯，装修风格现代工业风。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "室内有多处绿植点缀，分布在阶梯与角落。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:39Z"
+}

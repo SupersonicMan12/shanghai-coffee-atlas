@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "text": "位于思南路上的独栋洋房，复古美学空间",
+      "kind": "space",
+      "quote": "它不仅仅是一家咖啡馆,更像是一座藏匿在思南路上的时光博物馆。",
+      "url": "https://baike.baidu.com/item/%E5%8F%A4%E8%91%A3%E8%8A%B1%E5%9B%AD/14265857",
+      "site": "百度"
+    },
+    {
+      "text": "内部装饰有古董家具，营造怀旧氛围",
+      "kind": "space",
+      "quote": "恰到好处的灯光点缀,再加上各式各样的老物件摆设, 让人仿佛来到了一家古董店。",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "室外设有露天小花园，适合享受自然",
+      "kind": "view",
+      "quote": "咖啡店室外有一个露天的小花园,如果去得巧,没准还能和会说话的八哥,或是自带忧郁气质的小猫咪不期而遇。",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "供应意式咖啡，对牛奶质量要求高",
+      "kind": "beans",
+      "quote": "古董花园主要供应意式咖啡,对牛奶的要求比较高。",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "推荐饮品包括澳白，口感醇香细腻",
+      "kind": "drinks",
+      "quote": "澳白:口感醇香,豆子打的口感很好,很细腻香醇,不会甜腻。",
+      "url": "https://www.sina.cn/news/detail/5081675870503151.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "晚上7点后二楼变为酒馆，有钢琴演奏",
+      "kind": "time",
+      "quote": "为了不浪费商业空间,二楼会在晚上7点以后变成酒馆,二楼还有架钢琴,晚上常有圈内的音乐人来聚会。",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店内可与宠物互动，如八哥、猫咪",
+      "kind": "people",
+      "quote": "如果去得巧,没准还能和会说话的八哥,或是自带忧郁气质的小猫咪不期而遇。",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "古董花园_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8F%A4%E8%91%A3%E8%8A%B1%E5%9B%AD/14265857",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "鲜花萌宠vintage老家具复古式咖啡馆咖啡馆的文艺生活美学社",
+      "url": "https://m-pic.gafei.com/views-48415",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡探店Vlog | 古董花园,从地里长出来的咖啡馆",
+      "url": "https://m.thepaper.cn/wifiKey_detail.jsp?contid=12176897",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "古董花园(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d2397734-Reviews-GuDong_HuaYuan-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "上海16个区的咖啡,哪一杯最妖娆?哪一杯最奇幻?哪一杯最高智商?来投票吧",
+      "url": "https://finance.sina.cn/2021-03-31/detail-ikmxzfmi9880331.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "古董花園咖啡店穿越時光的味道！。｜Trip.com 上海",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-125712861/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "时光倾泻：上海古董花园的岁月印记 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20240111A088BH00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 8,
+      "title": "古董花园是思南路上一家开了蛮久的咖啡店  周末来简直是人满为患都 ...",
+      "url": "https://www.sina.cn/news/detail/5081675870503151.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:30Z"
+}

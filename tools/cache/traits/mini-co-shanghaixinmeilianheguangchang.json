@@ -1,0 +1,79 @@
+{
+  "cafeId": "mini-co-shanghaixinmeilianheguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c1c4339c67bf",
+  "raw": {
+    "headline": {
+      "zh": "圆厅配户外座，杏美式特色",
+      "en": "Circular cafe with patio, known for apricot Americano"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内约6-8个座位，中央环形布局",
+        "en": "6–8 indoor seats in circular layout",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设桌椅与遮阳伞，可停留",
+        "en": "Outdoor seating with umbrellas available",
+        "from": [
+          1,
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地玻璃窗，采光良好",
+        "en": "Good natural light through floor-to-ceiling windows",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含小确杏美式、美式",
+        "en": "Signature drinks: Apricot Americano and Americano",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-19:00营业",
+        "en": "Open daily 07:00–19:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          3,
+          5,
+          9
+        ],
+        "zh": "室内外均有座位可坐",
+        "en": "Seats indoors and out"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          11
+        ],
+        "zh": "有特色风味美式",
+        "en": "Offers flavored Americano"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:06Z"
+}

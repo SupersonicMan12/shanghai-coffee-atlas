@@ -1,0 +1,53 @@
+{
+  "cafeId": "mancat-coffee-shanghainanzhan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "06a80832673d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8c3d8f002f43f92eaeff318b208aeb3c",
+    "https://store.is.autonavi.com/showpic/06497b85a31e2cf8178bad2d3575002d",
+    "https://aos-comment.amap.com/B0J15HTCC9/comment/5eae15d700f20c65e0c49dd13b1f31a4_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面玻璃窗上贴有卡通猫图案",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见陈列柜，内有饮品和糕点",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中可见多种口味的甜品和饮品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一张照片特写了一块多层蛋糕，配有水果装饰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内光线明亮，但未见明显窗户或采光方向",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:59Z"
+}

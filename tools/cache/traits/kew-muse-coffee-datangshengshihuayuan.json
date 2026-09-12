@@ -1,0 +1,75 @@
+{
+  "cafeId": "kew-muse-coffee-datangshengshihuayuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ed9050be5599",
+  "raw": {
+    "headline": {
+      "zh": "手冲与起泡酒共存的小店",
+      "en": "Hand-brew coffee with sparkling wine"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供浅烘美式、深烘拿铁、中烘澳白",
+        "en": "Serves light-roast Americano, dark-roast latte, medium-roast flat white",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲器具和磨豆机",
+        "en": "Equipped with pour-over gear and grinder",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "角落设木质卡座和两把彩色椅子",
+        "en": "Wooden booth and two colorful chairs in corner",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-16:00营业",
+        "en": "Open daily 08:00–16:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "陈列多瓶起泡酒",
+        "en": "Displays multiple bottles of sparkling wine",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          10
+        ],
+        "zh": "有卡座且适合闲暇放松",
+        "en": "Booth seating, good for relaxing"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          7,
+          9
+        ],
+        "zh": "手冲搭配起泡酒较特别",
+        "en": "Pour-over plus sparkling wine is unique"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:54Z"
+}

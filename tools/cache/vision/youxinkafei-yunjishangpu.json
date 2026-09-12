@@ -1,0 +1,59 @@
+{
+  "cafeId": "youxinkafei-yunjishangpu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1aeb19abf161",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f52c3d69ad2c9b39534f057312d53413",
+    "https://store.is.autonavi.com/showpic/5cd34a6a4a0e76350000002991968460?type=pic",
+    "https://store.is.autonavi.com/showpic/209ac26d2f7d91660000002972694447"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为开放式布局，有吧台和沙发区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见多个高脚凳和弧形沙发座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "大面积落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "悬挂电子屏展示饮品和套餐信息",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台上摆放多盆绿植",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见菜单板和促销信息牌",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:23Z"
+}

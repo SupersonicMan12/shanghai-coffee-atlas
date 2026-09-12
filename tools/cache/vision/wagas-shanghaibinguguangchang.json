@@ -1,0 +1,71 @@
+{
+  "cafeId": "wagas-shanghaibinguguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "681878a97683",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st0ed721ae-d440-407f-8484-d4d61aeefc19&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/039efa6fa2cb4d480000004211312575?type=pic",
+    "https://aos-comment.amap.com/B00156P79R/comment/4a09c9f7ee72ebb53c05f83bd06a3d7e_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和展示柜，提供现制食品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机和磨豆机等设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜中有多种三明治、沙拉和蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有白色金属椅和桌子的室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客正在用餐，部分人使用笔记本电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内天花板裸露管道，工业风装修风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单板上可见三明治、沙拉、意面、咖啡、蛋糕等品类",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:12:20Z"
+}

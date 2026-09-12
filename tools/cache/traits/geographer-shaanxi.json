@@ -1,0 +1,28 @@
+{
+ "cafeId": "geographer-shaanxi",
+ "model": "qwen-max",
+ "inputDigest": "29032a2e5db2",
+ "raw": {
+  "headline": {
+   "zh": "墙上地图展示每种咖啡豆的产地",
+   "en": "Map on the wall shows each bean's origin"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "每种咖啡豆都在墙上地图上标出",
+    "en": "Each coffee bean is mapped on the wall",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "提供原产地追踪体验",
+    "en": "Origin-mapped experience"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:27Z"
+}

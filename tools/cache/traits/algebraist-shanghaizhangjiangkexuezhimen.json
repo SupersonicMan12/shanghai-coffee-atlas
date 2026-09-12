@@ -1,0 +1,84 @@
+{
+  "cafeId": "algebraist-shanghaizhangjiangkexuezhimen",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0b0beb5773fb",
+  "raw": {
+    "headline": {
+      "zh": "站喝精品咖啡，招牌玫瑰布列夫",
+      "en": "Stand-up specialty coffee with signature rose breve"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "小型吧台式，无明显座位区",
+        "en": "Compact standing-bar layout, no seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌重瓣玫瑰布列夫年销超65万杯",
+        "en": "Signature Double Rose Breve sold over 650k in 2024",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用全球甄选豆，数学演算制作方案",
+        "en": "Globally sourced beans, math-optimized brewing",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至18:30，覆盖午休高峰",
+        "en": "Open weekdays till 18:30, busy at lunch",
+        "from": [
+          12,
+          14
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-height street-facing windows, ample daylight",
+        "from": [
+          3,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "无座位，适合外带或站饮",
+        "en": "No seating, grab-and-go"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          6,
+          9
+        ],
+        "zh": "有手冲台、烘焙机与数学萃取",
+        "en": "Pour-over, roaster, math-driven recipes"
+      },
+      "energy": {
+        "value": 65,
+        "from": [
+          12
+        ],
+        "zh": "午休时段上班族客流密集",
+        "en": "Busy with office crowd at lunch"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:17Z"
+}

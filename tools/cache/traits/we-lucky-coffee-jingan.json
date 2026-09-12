@@ -1,0 +1,70 @@
+{
+  "cafeId": "we-lucky-coffee-jingan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4d3d14335d84",
+  "raw": {
+    "headline": {
+      "zh": "5-14元现磨咖啡站喝店",
+      "en": "Standing cafe with $1–2 coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外3个座位，店内少量座位",
+        "en": "3 outdoor seats, few indoor seats",
+        "from": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "全店饮品5元起，14元封顶",
+        "en": "Drinks from ¥5 to ¥14",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "用巴西等四地产阿拉比卡豆",
+        "en": "Arabica beans from 4 origins",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–23:00营业",
+        "en": "Open daily 7am–11pm",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          2,
+          5,
+          9
+        ],
+        "zh": "小店站喝为主，座位少",
+        "en": "Standing bar, few seats"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          8,
+          12
+        ],
+        "zh": "常规豆+半自动机制作",
+        "en": "Standard beans, semi-auto machine"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:47Z"
+}

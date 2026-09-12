@@ -1,0 +1,71 @@
+{
+  "cafeId": "brewista-zhongxing",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "64235a537bdf",
+  "photos": [
+    "https://aos-comment.amap.com/B0IKUS0SIJ/comment/7156e25a43b788f5038790d86af5b8fd_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IKUS0SIJ/comment/10a1455f1e75671b6a0feac37a3034f3_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IKUS0SIJ/comment/5c75b94416bace4276f856bd09838c22_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃幕墙店面，门头有发光‘B+café’标识及方形logo",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内可见至少2张小圆桌+4把椅子，1人背对镜头坐于窗边",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "玻璃门右侧立A字牌，印有‘鲨鱼喊你来玩咖啡’等宣传语",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内吧台后墙为灰色，金色‘brewista’字样，下方是几何图案瓷砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台可见白色电动磨豆机、手冲壶、小型冷藏柜（标Häagen-Dasz）、电子秤等器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台前桌上放有两份印刷品：含‘精品咖啡’‘10元’字样及二维码支付牌",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "特写图中为Comandante手动磨豆机，蓝绿色机身，透明底座含少量咖啡粉",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "窗外反射可见城市街道、车辆与现代建筑，非河景/庭院",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.94
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:36Z"
+}

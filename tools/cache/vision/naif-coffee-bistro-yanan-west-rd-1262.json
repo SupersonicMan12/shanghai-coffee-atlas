@@ -1,0 +1,71 @@
+{
+  "cafeId": "naif-coffee-bistro-yanan-west-rd-1262",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3a51bb968e4d",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1VZP4P4/comment/content_media_external_file_61703_ss__1756628894293_03098786.jpg",
+    "https://aos-comment.amap.com/B0K1VZP4P4/comment/81669F57_FD5D_461A_9611_8B855D7DAEEF_L0_001_1500_200_1765712794350_92813246.jpg",
+    "https://aos-comment.amap.com/B0K1VZP4P4/comment/content_media_external_file_1000017279_ss__1757584389817_26808596.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有沙拉和三明治类食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供日式牛肉饭碗",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括冰镇气泡水和瓶装果汁",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "用餐环境为室内，桌椅布置紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐桌为绿色大理石材质",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "木质桌面搭配粗犷木墩桌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "有客人正在用餐",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "餐具摆放整齐，含刀叉与餐巾",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:26Z"
+}

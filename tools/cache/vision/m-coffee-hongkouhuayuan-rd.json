@@ -1,0 +1,65 @@
+{
+  "cafeId": "m-coffee-hongkouhuayuan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f15d1c3c17bf",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6736a14541066a490000002353916371?type=pic",
+    "https://store.is.autonavi.com/showpic/ccd3f28aef2123878c632efc4f2b4f88",
+    "https://store.is.autonavi.com/showpic/08b52115da7dc2dc0000002353876806?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品为分层拿铁类咖啡，顶部有焦糖色液体",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印有M COFFEE标志",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景有绿植装饰，种植于透明容器中",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品置于木质台面，表面有自然纹理",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见户外场景，有树木和天空",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "广告牌显示M² COFFEE品牌信息",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品放置于木桌边缘，背景墙上有KEEP字样",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:51Z"
+}

@@ -1,0 +1,47 @@
+{
+  "cafeId": "brown-sixty-tianleguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f1d0c4bd701b",
+  "raw": {
+    "headline": {
+      "zh": "甜点标价60元起",
+      "en": "Pastries priced from ¥60"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供巧克力蛋糕、水果塔等糕点",
+        "en": "Offers chocolate cake, fruit tarts, etc.",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30（部分日期至22:00）",
+        "en": "Open daily until 21:30 (22:00 on some dates)",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐麻薯、豆沙等下午茶点心",
+        "en": "Recommended: mochi, red bean pastries",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:36:55Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "silverflow-qiantan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "992f120a696b",
+  "photos": [
+    "https://aos-comment.amap.com/B0JK6Z3BJK/comment/content_media_external_images_media_59733_1738846079764_56984115.jpg",
+    "http://store.is.autonavi.com/showpic/286e9137d0bed7753c24bc1c5b79fe9b",
+    "https://aos-comment.amap.com/B0JK6Z3BJK/comment/content_media_external_images_media_59733_1738846079764_01864576.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "门店位于临街位置，有落地玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有促销广告牌，显示咖啡加贝果三明治套餐价格为19.9元",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见饮品杯身印有品牌名称，为冷饮杯",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为奶咖类，颜色呈浅米色",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门店旁边有便利店，属商业区环境",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "纸袋上有红色绑带，印有品牌名",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:08Z"
+}

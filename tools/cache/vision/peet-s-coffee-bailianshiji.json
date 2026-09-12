@@ -1,0 +1,59 @@
+{
+  "cafeId": "peet-s-coffee-bailianshiji",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ba96d998c64c",
+  "photos": [
+    "https://aos-comment.amap.com/B0JKL63HRM/comment/content_media_external_file_107027_ss__1764217130486_79281546.jpg",
+    "https://aos-comment.amap.com/B0H26C30AN/comment/a7abe95bcb6fb31808eca014715ab172_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H26C30AN/comment/793ed6ae8e4e2f6961dc3b907400a3e5_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有沙发座和木质托盘，空间宽敞，适合久坐。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供提拉米苏和红丝绒蛋糕两种切片蛋糕。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品含一杯带奶油和椰子片的特调冰饮、一杯美式冰咖。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有绿植盆栽和立式广告牌，非纯室内店。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面为商场内临街玻璃门，采光良好，可见内部座位。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客在柜台前点单，非空店状态。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:17Z"
+}

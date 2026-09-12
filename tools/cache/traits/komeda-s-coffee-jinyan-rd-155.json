@@ -1,0 +1,74 @@
+{
+  "cafeId": "komeda-s-coffee-jinyan-rd-155",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "7722e52407fb",
+  "raw": {
+    "headline": {
+      "zh": "早咖送吐司，冰火配可颂",
+      "en": "Morning coffee comes with toast; try 'Fire & Ice'"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日07:30-19:00营业",
+        "en": "Open daily 07:30–19:00",
+        "from": [
+          1,
+          14
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "早晨11点前点咖啡送现烤吐司",
+        "en": "Free freshly toasted bread with coffee before 11 a.m.",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品「冰与火」含热可颂和冰淇淋",
+        "en": "Signature 'Fire & Ice' pairs hot croissant with ice cream",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供分量大的味增炸猪排三明治",
+        "en": "Serves generous miso pork cutlet sandwiches",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位和室内插座",
+        "en": "Outdoor seating and indoor power outlets available",
+        "from": [
+          7,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "有插座适合办公",
+        "en": "Outlets for work"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          11
+        ],
+        "zh": "环境安静适合久坐",
+        "en": "Quiet, cozy for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:47Z"
+}

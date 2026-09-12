@@ -1,0 +1,59 @@
+{
+  "cafeId": "bathe-coffee-yongkangxiaoqubeiqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "d2186bb5e025",
+  "photos": [
+    "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B0FFKNXGPD/comment/807CD6AC_2F9D_4690_9AF5_E0427F44FF40_L0_001_IMG_4344.JPG",
+    "https://aos-comment.amap.com/B0FFKNXGPD/comment/CD006DC9_DE57_403D_82AB_518BCB948DD6_L0_001_1500_2000_1741099325614_16238065.jpg",
+    "https://aos-comment.amap.com/B0FFKNXGPD/comment/796B5232_E7B2_47D7_B259_1F8EE1919351_L0_001_2000_1500__1677299994412_f6f3c359.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面有拱形门和大面积玻璃窗，可看见店内绿色瓷砖吧台。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见多人就坐，空间不大但非纯吧台式，有座位区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品包含浓缩、拉花拿铁、含酒特调及抹茶类，形式多样。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单卡显示“梅梅细雨”含话梅糖浆，“橙醉”含威士忌与橙皮。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用电脑，也未见烘焙机或手冲器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外是街道，无室外座位，临街玻璃窗采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:41Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "daxiaolekafeishangdian-shanxinanlu488nongxiaoqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "26b44ed0ea9b",
+  "photos": [
+    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/content_media_external_file_1000136148_ss__1762564325607_38760962.jpg",
+    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/839ae42cc37401b795c98caf18625606_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/29262bc78ef82ddf66ba1e6994303175_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有1把中古椅和3个木凳，可坐4人左右。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台后有La Marzocco咖啡机和磨豆机。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内天花板为白色，有深色木梁结构。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有砖墙、木质吧台和吊灯，装修偏复古。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口玻璃窗上贴有营业时间09:00-17:00。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见一张木桌和椅子，空间不大。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯拿铁拉花清晰，盛在白色陶瓷杯中。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前贴纸提示“桌椅多为中古，请勿拖拽”。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:58Z"
+}

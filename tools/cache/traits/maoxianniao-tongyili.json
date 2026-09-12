@@ -1,0 +1,28 @@
+{
+ "cafeId": "maoxianniao-tongyili",
+ "model": "qwen-max",
+ "inputDigest": "983d13ef88d5",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "桌椅延伸至巷子中，充满悠闲氛围",
+    "en": "Tables spill into the alley, inviting a leisurely vibe",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合慢慢享受，不急着离开",
+    "en": "Great for a long, relaxed stay"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:01Z"
+}

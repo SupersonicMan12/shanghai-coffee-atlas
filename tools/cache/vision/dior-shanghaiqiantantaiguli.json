@@ -1,0 +1,71 @@
+{
+  "cafeId": "dior-shanghaiqiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "971af30aa3ac",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKMCAVS5/comment/69D05D1B_4455_4C05_960D_6DF82020B1F6_L0_001_1500_200_1769279240396_50514898.jpg",
+    "https://store.is.autonavi.com/showpic/6bdd3e6fa05266e90000003009410629?type=pic",
+    "https://aos-comment.amap.com/B0I1N59D5R/comment/33534624392098c966e494b8598d30c1_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，有大型玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有绿植环绕的户外休息区，有桌椅",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "户外区域有装饰性动物雕塑和遮阳伞",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见冰淇淋展示柜，陈列多种口味冰淇淋",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有粉色主题的饮品台，提供杯装饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内空间明亮，采用现代简约装修风格",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外地面为灰色砖铺成，整洁开阔",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见工作人员操作，有服务场景",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:46Z"
+}

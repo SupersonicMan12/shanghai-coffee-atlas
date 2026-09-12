@@ -1,0 +1,63 @@
+{
+  "cafeId": "w-coffee-sh-minshengdasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "46da30cae09a",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ae750a53bc867d04fe5be5d866626b94",
+    "http://store.is.autonavi.com/showpic/328d34ebc22d16f835f0d44aea547a3a"
+  ],
+  "photoKinds": [
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和玻璃展示柜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内无食物陈列",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后有咖啡机和磨豆机等设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单板显示饮品种类和价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内空间较小，为小型咖啡馆",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "无明显座位区域，未见顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:18Z"
+}

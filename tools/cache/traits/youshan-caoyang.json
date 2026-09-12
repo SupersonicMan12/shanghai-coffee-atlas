@@ -1,0 +1,78 @@
+{
+  "cafeId": "youshan-caoyang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b97874d0717e",
+  "raw": {
+    "headline": {
+      "zh": "山楂冷萃配窗台景",
+      "en": "Hawthorn cold brew with window views"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "主推冰糖山楂汁调制的山楂冷萃",
+        "en": "Signature hawthorn cold brew with rock sugar syrup",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌提拉米苏绵滑细腻、甜而不腻",
+        "en": "Popular tiramisu: smooth, light, not too sweet",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "户外设高脚凳、折叠椅与小桌，二楼有窗台景观位",
+        "en": "Outdoor stools and tables; upstairs window seats",
+        "from": [
+          2,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供数十种不同产地与风味的咖啡豆",
+        "en": "Dozens of single-origin coffee beans available",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "依高大梧桐而建，四季景色各异",
+        "en": "Shaded by a tall plane tree, seasonal views",
+        "from": [
+          9,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          5,
+          11
+        ],
+        "zh": "有户外座位和窗台位可久坐",
+        "en": "Outdoor and window seats invite lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          3,
+          12,
+          13
+        ],
+        "zh": "手冲设备齐全，豆种多且有特色饮品",
+        "en": "Varied beans and unique hawthorn cold brew"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:32Z"
+}

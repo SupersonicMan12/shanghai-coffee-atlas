@@ -1,0 +1,72 @@
+{
+  "cafeId": "maancat-yanan-w",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3fd54f3aeb87",
+  "raw": {
+    "headline": {
+      "zh": "慢猫咖啡：可久坐的街角店",
+      "en": "A corner spot made for lingering"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内设软椅，适合长时间停留",
+        "en": "Soft chairs encourage long stays",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供金枪鱼三明治、意式薄底披萨等餐食",
+        "en": "Serves tuna sandwiches and thin-crust pizza",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 9:30 PM",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为Slow-cat latte",
+        "en": "Signature drink: Slow-cat latte",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          6
+        ],
+        "zh": "强调无紧迫感与长坐",
+        "en": "No sense of urgency"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "软椅与慢节奏适合办公",
+        "en": "Soft chairs, slow pace"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:48Z"
+}

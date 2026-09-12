@@ -1,0 +1,81 @@
+{
+  "cafeId": "2nd-cup-coffee-cuiting",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "27b28e209fa4",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲配户外座",
+      "en": "Self-roasted brews with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外有木质长凳、小圆桌及折叠椅",
+        "en": "Outdoor seating: wooden bench, small table, folding chair",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "主打50%阿拉比卡澳式拼配豆，风味如黄油曲奇",
+        "en": "House blend: 50% Arabica, buttery cookie notes",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲、黄金曼特宁美式、燕麦乳卡",
+        "en": "Offers pour-over, Golden Mandheling Americano, oat milk latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街整面落地玻璃窗，室内可见街道与行道树",
+        "en": "Full-height street-facing windows with tree views",
+        "from": [
+          3,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日7:00-20:00营业，周末8:00-20:00",
+        "en": "Open 7–20 weekdays, 8–20 weekends",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          7,
+          11
+        ],
+        "zh": "有户外与窗边座位适合久坐",
+        "en": "Outdoor and window seats invite lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          4,
+          5,
+          9,
+          10
+        ],
+        "zh": "自烘豆、手冲区与特色拼配",
+        "en": "House-roasted beans and pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:13Z"
+}

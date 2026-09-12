@@ -1,0 +1,59 @@
+{
+  "cafeId": "jstone-italianbistro-hongmei-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "be23ae929807",
+  "photos": [
+    "https://aos-comment.amap.com/B0L16KQ9YC/comment/A9D0A5B2_B7CA_4A90_8E9E_BAFB9928FCF8_L0_001_1536_204_1773633189011_38099524.jpg",
+    "https://store.is.autonavi.com/showpic/a41e03ffed457c97d704db5edba390b6",
+    "https://aos-comment.amap.com/B0L16KQ9YC/comment/FBA49FC6_B2F5_43B0_935C_8E1CB736413B_L0_001_1536_204_1773633189008_97110516.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店门口有玻璃窗和黑色门，临街可见",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有披萨和烩饭等意大利菜",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点盘上写有'Happy Anniversary'字样",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点为巧克力蛋糕配奶油和香草装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐厅提供精致摆盘的意式料理",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面外观为现代风格，带拱形门楣",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:44Z"
+}

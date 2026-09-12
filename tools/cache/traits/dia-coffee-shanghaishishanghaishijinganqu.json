@@ -1,0 +1,59 @@
+{
+  "cafeId": "dia-coffee-shanghaishishanghaishijinganqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4d9963922774",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃屋，牛奶咖啡25元",
+      "en": "Streetfront glass spot, milk coffee ¥25"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街一层小空间，整面落地窗",
+        "en": "Ground-floor streetfront space with full-height windows",
+        "from": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "牛奶咖啡310ml售价25元",
+        "en": "Milk coffee 310ml for ¥25",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:30-18:00，周末9:00-18:00",
+        "en": "Open 8:30–18:00 weekdays, 9:00–18:00 weekends",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台有座位，至少一人可坐",
+        "en": "Bar seating available for at least one person",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "小空间配吧台座",
+        "en": "Small space with bar seat"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:17Z"
+}

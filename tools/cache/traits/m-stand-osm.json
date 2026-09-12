@@ -1,0 +1,58 @@
+{
+  "cafeId": "m-stand-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "36c2de0a20e5",
+  "raw": {
+    "headline": {
+      "zh": "一店一设计的精品咖啡",
+      "en": "One-of-a-kind boutique coffee shops"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "2017年葛冬创立于上海",
+        "en": "Founded in Shanghai by Ge Dong in 2017",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "价格与星巴克相近或更高",
+        "en": "Priced similarly to or above Starbucks",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "偏好购物中心首层大店",
+        "en": "Prefers large ground-floor mall spaces",
+        "from": [
+          2,
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "多位于商场高曝光位置",
+        "en": "High-traffic mall locations"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "含站喝与非标场景布局",
+        "en": "Includes standing and non-standard formats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:05Z"
+}

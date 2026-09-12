@@ -1,0 +1,71 @@
+{
+  "cafeId": "geographer-guling-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "773d218039eb",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c052484e7e751e620000002355862459?type=pic",
+    "https://store.is.autonavi.com/showpic/878ce73d5ba39725e9c85822bfab5aef",
+    "https://aos-comment.amap.com/B0LGD7J4DJ/comment/ACA70E1E_8D08_4980_8C98_74DCC588A7C5_L0_001_2000_150_1744883137687_49560064.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃幕墙店面，入口为双开玻璃门，上方有‘Geographer 地|理|学|家’招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "左侧玻璃贴有‘G酉’立方体商标及动漫立牌；室内可见桌椅、吧台轮廓与吊灯",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设红白条纹遮阳伞与多组黑色金属桌椅，属室外座位区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "傍晚时分拍摄，店内招牌亮起白光，窗内挂串灯，反射可见对面建筑与树木",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "玻璃门右侧立A字牌，印有‘花式喝茶 TEA’字样及饮品图示（非咖啡）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "第三张图中右侧室外座有顾客就坐，但无法辨识是否使用电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见磨豆机、手冲台、虹吸壶或烘焙机等专业咖啡设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无清晰可读菜单、价格、豆子产地或具体饮品/食物名称（如dirty、可颂）",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:24Z"
+}

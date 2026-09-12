@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-is-xiangyang-s-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ccd69e41e99d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6f5999bee384ecee0000000972412065?type=pic",
+    "http://store.is.autonavi.com/showpic/49de97c44e5f9becaa1b288cb926225e",
+    "https://store.is.autonavi.com/showpic/4c3058809a10eca90000003102704292?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门口放一把折叠椅，门外无固定座位区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门贴有营业时间：AM7:30-PM6:30。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台和后方操作区，空间紧凑。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外街道有行道树，临街无遮挡。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拿铁拉花呈心形，置于木质桌面。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内地面铺有几何图案地砖。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见人使用电脑或放置书架。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "未在照片中看到烘焙机或手冲器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:03Z"
+}

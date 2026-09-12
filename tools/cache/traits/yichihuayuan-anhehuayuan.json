@@ -1,0 +1,74 @@
+{
+  "cafeId": "yichihuayuan-anhehuayuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1f45d2513298",
+  "raw": {
+    "headline": {
+      "zh": "融合茶咖与千平花园",
+      "en": "Tea-infused coffee in a garden"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "含庭院与临街整面玻璃窗",
+        "en": "Has courtyard and full street-facing glass",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆融合碧螺春、龙井、普洱等中国茶",
+        "en": "Beans blended with Chinese teas like Longjing",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含桂花拿铁",
+        "en": "Signature drink includes osmanthus latte",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手工焦糖南瓜重芝士蛋糕等西式甜点",
+        "en": "Serves caramel pumpkin cheesecake and Western desserts",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–22:00，覆盖全天四餐",
+        "en": "Open 10–22, serving all-day meals",
+        "from": [
+          10,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "用中国茶融合咖啡豆",
+        "en": "Blends coffee with Chinese tea"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          9
+        ],
+        "zh": "超千平大店含户外区",
+        "en": "Spacious with outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:03Z"
+}

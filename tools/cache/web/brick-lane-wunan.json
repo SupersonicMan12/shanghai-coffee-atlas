@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "text": "店内设有黑胶墙，环境轻松自在",
+      "kind": "space",
+      "quote": "敞开的环境,露营风,氛围轻松自在, 墙上的插画和黑胶唱片也都很有意思",
+      "url": "https://www.dianping.com/discovery/1311756733",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌饮品为加蓝纹芝士阿芙佳朵",
+      "kind": "drinks",
+      "quote": "此“臭豆腐”,其实就是加了蓝纹芝士的阿芙佳朵!",
+      "url": "https://www.dianping.com/discovery/1311756733",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供特色热巧「热闹ReNow」",
+      "kind": "drinks",
+      "quote": "BRICK LANE的这杯热巧「热闹ReNow」,自带秋冬皮肤。",
+      "url": "https://news.sohu.com/a/837576506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "顾客喜欢在梧桐树下闲聊",
+      "kind": "seating",
+      "quote": "大家都爱在门口的梧桐树下坐着闲聊,等待大片落叶飘下。",
+      "url": "https://news.sohu.com/a/837576506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "营业时间周一至周五8:00-18:00，周末9:00-18:00",
+      "kind": "time",
+      "quote": "📍 乌鲁木齐南路121号 🕖 周一至周五08:00-18:00 周六至周日 09:00-18:00",
+      "url": "https://news.sohu.com/a/837576506_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【名字够狠的咖啡馆子】躲在角落的板砖咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/896817371",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海☕️探店|真的有被这块“臭豆腐”惊艳到❣️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1311756733",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "“在上海吃到了,网传第1热巧” ",
+      "url": "https://news.sohu.com/a/837576506_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "我的咖啡品鉴日记 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2409208001",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "探店人的最爱|冠军开店、米其林跨界,常见常新的上海咖啡店",
+      "url": "https://www.163.com/dy/article/IL6SLDLB0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "2026 倫敦15 個高質Café 推介！不再是美食沙漠，倫敦必去前衛藝術風",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/best-london-cafe/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:23Z"
+}

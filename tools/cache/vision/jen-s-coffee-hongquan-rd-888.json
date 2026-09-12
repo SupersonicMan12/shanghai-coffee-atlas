@@ -1,0 +1,71 @@
+{
+  "cafeId": "jen-s-coffee-hongquan-rd-888",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6d73bd981b9a",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLKL8KE/comment/db0edfa620c1eeb7e20b63368042826e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLKL8KE/comment/20260316-0b31be6815e740a9388ab88a-7rd5YRucV3v70ytRaJuNIr.jpg",
+    "https://aos-comment.amap.com/B0FFLKL8KE/comment/20260316-0b31be6815e740a9388ab88a-4hSdsjiyWfj8dA9uL68wf0.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆位于商场一层，临街有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和水泥柱，空间宽敞",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拿铁类饮品，拉花为心形图案",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，环境整洁",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有多个座位区域，适合多人同时使用",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有遮阳棚和户外座椅区",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吧台区域，但未见烘焙设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品杯具包括玻璃杯和陶瓷杯，搭配托盘服务",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:18:29Z"
+}

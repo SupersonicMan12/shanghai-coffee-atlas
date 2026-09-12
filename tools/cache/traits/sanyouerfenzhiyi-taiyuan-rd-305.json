@@ -1,0 +1,77 @@
+{
+  "cafeId": "sanyouerfenzhiyi-taiyuan-rd-305",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0f57f4db008f",
+  "raw": {
+    "headline": {
+      "zh": "站着喝的氮气咖啡",
+      "en": "Stand-up nitrogen coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "全程围着长条吧台站着喝咖啡",
+        "en": "Stand-only service at a long bar",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "冷黑咖打入氮气，带绵密泡沫",
+        "en": "Nitro cold black with creamy foam",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供4款浅烘/极浅烘豆子，一豆两喝",
+        "en": "Four light-roast beans, two brews per bean",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "配玉米片蘸酱或咸味饼干",
+        "en": "Served with corn chips or savory biscuits",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          12
+        ],
+        "zh": "全程站立饮用",
+        "en": "Standing only"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          2,
+          3,
+          8,
+          9,
+          11
+        ],
+        "zh": "氮气、一豆两喝、非常规配料",
+        "en": "Nitro, dual brews, unusual ingredients"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:26Z"
+}

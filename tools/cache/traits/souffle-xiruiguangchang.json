@@ -1,0 +1,58 @@
+{
+ "cafeId": "souffle-xiruiguangchang",
+ "model": "qwen-max",
+ "inputDigest": "37c84682aace",
+ "raw": {
+  "headline": {
+   "zh": "正宗港式舒芙蕾，现点现做",
+   "en": "Authentic HK soufflé, made to order"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "舒芙蕾现点现做，周末需等45分钟",
+    "en": "Soufflés made to order; 45 min wait on weekends",
+    "from": 6
+   },
+   {
+    "kind": "food",
+    "zh": "招牌双皮奶非常醇厚",
+    "en": "Signature double milk pudding is rich and creamy",
+    "from": 12
+   },
+   {
+    "kind": "seating",
+    "zh": "设有室外座位区域",
+    "en": "Outdoor seating available",
+    "from": 1
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周二至周日12:00–21:00，周一12:00–17:00",
+    "en": "Open Tue-Sun 12-9, Mon 12-5",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": 5,
+    "zh": "店内未见使用电脑的人",
+    "en": "No laptops seen in use"
+   },
+   "energy": {
+    "value": 30,
+    "from": 8,
+    "zh": "空间局促，但有亮眼的蓝色吸引眼球",
+    "en": "Compact space with eye-catching blue"
+   },
+   "linger": {
+    "value": 70,
+    "from": 9,
+    "zh": "用餐区分为港风区与雅致区",
+    "en": "Distinct dining areas for different moods"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:34Z"
+}

@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "text": "使用自烘焙豆子",
+      "kind": "beans",
+      "quote": "自烘焙的豆子是品质来源",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "招牌饮品是棉里小白熊",
+      "kind": "drinks",
+      "quote": "棉里小白熊是当家招牌",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "空间包含三层楼和露台",
+      "kind": "space",
+      "quote": "总共三层楼,二层的空间更大一些,三层有露台",
+      "url": "https://weibo.com/6338046025/N7R5jeth3",
+      "site": "无"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "是一家可以从早喝到晚的好地儿啦",
+      "url": "https://weibo.com/6338046025/N7R5jeth3",
+      "site": "无"
+    },
+    {
+      "text": "营业时间到晚上19:00",
+      "kind": "time",
+      "quote": "8:00-19:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店主有收藏画",
+      "kind": "story",
+      "quote": "多副老板本人收藏的画",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "价格合理",
+      "kind": "story",
+      "quote": "咖啡的价格很真实 就是正常的咖啡单价",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "五大道商圈咖啡",
+      "url": "https://m.dianping.com/shop/1145526776",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "在张江,咖啡店是大楼的附属品",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32026602",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "入驻光明里大楼的 | 棉里咖啡☕ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/940953345",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "|棉里咖啡MulyCoffee&Bistro",
+      "url": "https://weibo.com/6338046025/N7R5jeth3",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "请推给要来天津旅游的朋友推荐一家游客友好型咖啡馆棉里 ... - 抖音精选",
+      "url": "https://jingxuan.douyin.com/m/video/7671417690221541248",
+      "site_name": "抖音"
+    },
+    {
+      "index": 6,
+      "title": "天津五大道新增拍照打卡圣地|复古艺术咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/963532082",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "棉里咖啡",
+      "url": "https://www.zhipin.com/gongsi/2ab919193058acfa1XJ929q1.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 8,
+      "title": "🔥到排队的天津棉里咖啡,你喝到了么? - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/960896381",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "天津探店 · 🤎邂逅意大利文艺复兴cafe☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/967905024",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 10,
+      "title": "距离北京🚗一个多小时的快乐☕️棉里MULYCOFFEE咖啡新店",
+      "url": "https://www.dianping.com/discovery/952543202",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:18:07Z"
+}

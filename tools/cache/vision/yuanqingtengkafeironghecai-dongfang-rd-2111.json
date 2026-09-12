@@ -1,0 +1,65 @@
+{
+  "cafeId": "yuanqingtengkafeironghecai-dongfang-rd-2111",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "02b833d23d69",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/bf5af58962d97e880000003101520134?type=pic",
+    "https://store.is.autonavi.com/showpic/5554f44e1adcaa470000003101520133?type=pic",
+    "https://aos-comment.amap.com/B00155AL2B/headerImg/13d76be1622a011df7765bf2a0f73106_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为两层独立建筑，一层有玻璃门和大窗，二层有白色纱帘。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有长木桌配多把米色软椅，地面铺水磨石，空间较开阔。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为华夫饼拼盘，含冰淇淋、奥利奥、奇异果和草莓。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有客人坐在后方区域，未见有人使用电脑。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口旁有绿植墙，店外右侧设有一张木质野餐桌。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内采光好，阳光透过大窗户在地面形成明显光影。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无可见专业咖啡器具如烘焙机或手冲台。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:35Z"
+}

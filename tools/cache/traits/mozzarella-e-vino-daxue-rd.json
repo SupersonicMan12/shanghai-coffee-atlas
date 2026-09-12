@@ -1,0 +1,74 @@
+{
+  "cafeId": "mozzarella-e-vino-daxue-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1d9e8464f500",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗+室外遮阳伞座位",
+      "en": "Street-facing floor-to-ceiling windows + shaded outdoor seats"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，白天可见二楼开放式阳台",
+        "en": "Floor-to-ceiling street-facing windows; open balcony visible on second floor during daytime",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设4-6个座位，配白色遮阳伞",
+        "en": "4–6 outdoor seats with white sun umbrellas",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "夜间店内灯光明亮，透过窗户可见内部陈设",
+        "en": "Bright interior lighting at night, visible through windows",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐单人餐、双人餐",
+        "en": "Single and double set meals recommended on Gaode",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周六营业至24:00，周日至周三22:00关门",
+        "en": "Open until 24:00 on Saturdays; closes at 22:00 Sundays–Wednesdays",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "有室外座位且室内舒适可久坐",
+        "en": "Outdoor seats + comfortable indoor seating"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "临街有人行横道和信号灯",
+        "en": "Street location with crosswalk and traffic light"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:02Z"
+}

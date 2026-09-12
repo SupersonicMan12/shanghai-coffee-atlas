@@ -1,0 +1,59 @@
+{
+  "cafeId": "manner-coffee-jingandarongcheng",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "0e0542ae0153",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2daaee0c5503b08483954f58e415bf47",
+    "https://aos-comment.amap.com/B0GKJMVW01/comment/dd983d73aa03fc68bd3d1b5f5ea450bb_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GKJMVW01/comment/4c70c9db45433570b46ceb46a8b5fe55_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有几张椅子和遮阳伞，可室外坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口是玻璃门，右侧有大面积落地窗。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯上有“茶小颜出游记”字样图案。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯绿色冰饮，疑似抹茶类饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内桌椅可见，空间不显拥挤。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有人在店外座位上坐着，非高峰时段。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:30Z"
+}

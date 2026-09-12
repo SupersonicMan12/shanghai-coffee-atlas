@@ -1,0 +1,64 @@
+{
+  "cafeId": "one-coffee-osm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c139ce17f87c",
+  "raw": {
+    "headline": {
+      "zh": "冰拿铁配西柚芝士蛋糕",
+      "en": "Iced latte with grapefruit cheesecake"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是冰拿铁",
+        "en": "Signature drink is iced latte",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供西柚芝士蛋糕",
+        "en": "Serves grapefruit cheesecake",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供6款全球精选咖啡豆",
+        "en": "Offers 6 globally sourced coffee beans",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "一楼有舒适座位适合闲聊",
+        "en": "Comfortable first-floor seating for chatting",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至22:30",
+        "en": "Open until 22:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "有舒适座位适合久坐",
+        "en": "Comfortable seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:20Z"
+}

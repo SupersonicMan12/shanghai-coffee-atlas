@@ -1,0 +1,65 @@
+{
+  "cafeId": "yichihuayuan-shibowenhuagongyuan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4a74f386af2b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/af798e3f8689b15a0000000685470913?type=pic",
+    "https://aos-comment.amap.com/B0K63SNIU3/comment/ce93bfa65582737579c20a8f39e0540c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0K63SNIU3/comment/content_media_external_file_82860_ss__1766904806024_25888472.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有带拉花的咖啡和沙拉、蛋糕等餐食，可作正餐。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供瓶装白玉兰味酒，酒精度4%vol。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和大玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "咖啡杯为深色陶瓷，拉花图案为天鹅。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "沙拉碗内有牛油果、藜麦、坚果和番茄。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一张圆桌上摆放多份餐点与饮品，适合多人聚餐。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景可见其他空桌椅，空间非紧凑型小店。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:11Z"
+}

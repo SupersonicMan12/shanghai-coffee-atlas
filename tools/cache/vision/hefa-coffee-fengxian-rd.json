@@ -1,0 +1,71 @@
+{
+  "cafeId": "hefa-coffee-fengxian-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cd2640fb54a1",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1DSFG92/comment/content_media_external_images_media_60689_ss__1732157549019_45483468.jpg",
+    "https://aos-comment.amap.com/B0K1DSFG92/comment/content_media_external_images_media_60678_ss__1732157549018_47619107.jpg",
+    "https://aos-comment.amap.com/B0K1DSFG92/comment/content_media_external_images_media_60690_ss__1732157549019_57834581.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "临街小店，有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有室外座位，可坐一人",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有手冲咖啡器具和磨豆机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后有咖啡机、虹吸壶等专业设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见明治牛乳、MONIN糖浆等原料",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有贝果、全麦谷物贝果等食物出售",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有树遮挡，阳光充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有植物装饰，环境整洁",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:01Z"
+}

@@ -1,0 +1,91 @@
+{
+  "cafeId": "shanghailander-wuyuan-rd-92",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "230d46ef2060",
+  "raw": {
+    "headline": {
+      "zh": "血糯米拿铁配11种千层",
+      "en": "Sticky rice latte with 11 mille crêpes"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含海盐椰汁拿铁、血糯米拿铁",
+        "en": "Signature drinks include salted coconut and sticky rice lattes",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "千层蛋糕有11种口味，咸蛋黄和巧克力受欢迎",
+        "en": "11 mille crêpe flavors; salted egg yolk and chocolate popular",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内设桌椅，空间不宽敞",
+        "en": "Indoor seating available, space is compact",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-18:00，周末9:00-18:00营业",
+        "en": "Open 8–18 weekdays, 9–18 weekends",
+        "from": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "使用双喜搪瓷杯，具老上海风情",
+        "en": "Uses Shuangxi enamelware with old Shanghai vibe",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "适合办公或聊天",
+        "en": "Suitable for work or chat"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          3,
+          12
+        ],
+        "zh": "临街且行人电瓶车多",
+        "en": "Street-facing with foot and e-bike traffic"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          12
+        ],
+        "zh": "有座可久坐，非站喝",
+        "en": "Seating allows lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9
+        ],
+        "zh": "特调含血糯米等非传统原料",
+        "en": "Unusual ingredients like glutinous rice in lattes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:39Z"
+}

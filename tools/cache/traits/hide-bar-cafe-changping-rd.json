@@ -1,0 +1,32 @@
+{
+  "cafeId": "hide-bar-cafe-changping-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0d8c64989da7",
+  "raw": {
+    "headline": {
+      "zh": "带小院子的咖啡馆",
+      "en": "Cafe with a small courtyard"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "设有户外小院子，适合放松或小型活动",
+        "en": "Has an outdoor courtyard for relaxing or small gatherings",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "有院子适合久坐放松",
+        "en": "Courtyard invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:21Z"
+}

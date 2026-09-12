@@ -1,0 +1,68 @@
+{
+  "cafeId": "huoshankafei-jingzuanbohua",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "694f31a59363",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃屋，营业至深夜",
+      "en": "Street-facing glass cafe open till late"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式等冰咖啡",
+        "en": "Serves iced coffee including iced Americano",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-23:00营业",
+        "en": "Open daily 9am–11pm",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内灯光照明，空间明亮",
+        "en": "Well-lit interior with artificial lighting",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有桌椅和室外座",
+        "en": "Has tables and outdoor seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:48Z"
+}

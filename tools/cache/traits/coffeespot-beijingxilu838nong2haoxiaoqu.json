@@ -1,0 +1,67 @@
+{
+  "cafeId": "coffeespot-beijingxilu838nong2haoxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "82fbd2804d55",
+  "raw": {
+    "headline": {
+      "zh": "单品豆频繁更换",
+      "en": "Single-origin beans rotate frequently"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚Sidamo Yaye豆",
+        "en": "Serves Ethiopian Sidamo Yaye beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外木桌座位",
+        "en": "Outdoor wooden table seating available",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单单品豆每隔几天更换一次",
+        "en": "Single-origin menu changes every few days",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "频繁更换单品豆且提供特定产地",
+        "en": "Rotating single-origin offerings"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "有室外座位可坐",
+        "en": "Outdoor seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:32Z"
+}

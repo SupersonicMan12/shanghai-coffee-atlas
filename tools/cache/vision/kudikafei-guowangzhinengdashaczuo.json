@@ -1,0 +1,59 @@
+{
+  "cafeId": "kudikafei-guowangzhinengdashaczuo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c8c812a78d07",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://aos-comment.amap.com/B0LRRYJHGV/comment/ABC1B080_3EF2_47DD_A70D_748EE6A87646_L0_001_1500_200_1769618737468_19423516.jpg",
+    "https://store.is.autonavi.com/showpic/a9c279023c763b98d4f6a04d985c1ef2"
+  ],
+  "photoKinds": [
+    "logo",
+    "menu",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店位于商场内，为小型咖啡吧台形式",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有宣传咸法酪拿铁和咸法酪牛乳茶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有立式广告牌展示新品",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见咖啡杯上有品牌标志",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口放置了菜单展示牌",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显座位区域",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:38Z"
+}

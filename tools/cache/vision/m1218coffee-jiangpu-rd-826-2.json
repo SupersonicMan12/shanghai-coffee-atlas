@@ -1,0 +1,59 @@
+{
+  "cafeId": "m1218coffee-jiangpu-rd-826-2",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9c0cdf19807f",
+  "photos": [
+    "https://aos-comment.amap.com/B0I3OA539B/comment/77027003ca50961bf6276d24df643c8c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I3OA539B/comment/9b450f838bc7aea5f44d7539365be59a_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/c8111e899382da940000003595936096?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃窗，有室外座椅",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有吧台，一名店员在工作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机等专业咖啡器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "提供巧克力冰淇淋等甜品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有悬挂式吊灯和白色窗帘",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外摆放有干花装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:26:28Z"
+}

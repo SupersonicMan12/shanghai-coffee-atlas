@@ -1,0 +1,28 @@
+{
+  "cafeId": "mr-bond-coffee-zhongchun-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b58525a36dd7",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日7:00至16:00营业",
+        "en": "Open daily 7:00–16:00",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品为咖啡",
+        "en": "Coffee is the recommended drink",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:20Z"
+}

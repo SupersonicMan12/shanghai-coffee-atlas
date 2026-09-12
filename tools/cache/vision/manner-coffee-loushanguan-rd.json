@@ -1,0 +1,71 @@
+{
+  "cafeId": "manner-coffee-loushanguan-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c1b5b4f2620d",
+  "photos": [
+    "https://aos-comment.amap.com/B0L1DHU2AI/comment/B50C670F_0EC6_4110_9AA1_A4FEEF39D53F_L0_001_1500_200_1766141509148_12494158.jpg",
+    "https://aos-comment.amap.com/B0L1DHU2AI/comment/F3CD32B7_A484_4403_8ED4_9CF50A757226_L0_001_1500_200_1766141509148_34318089.jpg",
+    "https://aos-comment.amap.com/B0L1DHU2AI/comment/318AF337_FC28_4D9F_B857_617CDA6AD843_L0_001_1500_200_1766141509153_89963681.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店外设白色金属椅桌，至少5组，地面为灰色地砖，有绿植盆栽。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招为发光字“MANNER COFFEE”，左侧墙面有三角形“MANNER”灯箱标识。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内为白色吧台，左侧玻璃柜陈列可颂、贝果等烘焙食品，数量较多。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有两块电子屏显示菜单与制作画面，可见手冲壶操作视频。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台内可见磨豆机（黑色锥形）、咖啡机（银色带红色标识），无虹吸/手冲台实体设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口地垫印有“MANNER COFFEE”及“MAKE COFFEE PART OF YOUR LIFE”字样。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "顾客在室外座位使用手机，无人使用笔记本电脑；室内顾客站立点单或 seated 等待。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街为大面积玻璃门+橱窗，夜间外部可见街道灯光与对面建筑轮廓。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:40Z"
+}

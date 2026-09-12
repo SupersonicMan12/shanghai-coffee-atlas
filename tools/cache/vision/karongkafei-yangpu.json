@@ -1,0 +1,57 @@
+{
+  "cafeId": "karongkafei-yangpu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7a0c34c4ee98",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b7a55487038afcee92ec229daaf05a3c",
+    "http://store.is.autonavi.com/showpic/5ca2f4ddd5e2ac193235b1cc5d2e8553"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃幕墙结构，可见外部街道。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前停放多辆汽车，表明有停车位。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见明显室外座位区域。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，采光可能较好，但具体窗户类型不清晰。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中未见明确的饮品、食物或菜单信息。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.3
+    },
+    {
+      "text": "照片中未见烘焙机、手冲台等专业器具。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.2
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:38Z"
+}

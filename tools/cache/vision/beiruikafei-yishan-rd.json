@@ -1,0 +1,52 @@
+{
+  "cafeId": "beiruikafei-yishan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0ceffff2ef93",
+  "photos": [
+    "https://aos-comment.amap.com/B0HUXNK60V/comment/176395428656_1763954288085_24407991.jpg",
+    "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf",
+    "http://store.is.autonavi.com/showpic/ffa7f872dfae770824891ee8d3030cba"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门，可见内部有座位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客就座，但具体数量不清",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "落地玻璃窗提供采光，街道景观可见",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示饮品包括伯爵脏小贝DIRTY和大眼怪贝瑞冰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立牌广告显示冰点果咖等饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:59Z"
+}

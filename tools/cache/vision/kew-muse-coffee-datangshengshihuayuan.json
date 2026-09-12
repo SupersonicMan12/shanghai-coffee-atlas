@@ -1,0 +1,71 @@
+{
+  "cafeId": "kew-muse-coffee-datangshengshihuayuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5636eba6697f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e00340bc1d9836a3a6e99a29cd4ceb35",
+    "https://aos-comment.amap.com/B0J3H9NPB2/comment/file_media_Photo_16671_IMG_1766729286_13822_IMG_20251226_140626_jpg_ss__1770108186114_81887406.jpg",
+    "https://aos-comment.amap.com/B0J3H9NPB2/comment/file_media_Photo_16673_IMG_1766729335_13824_IMG_20251226_140715_jpg_ss__1770108186119_34815188.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口摆放自行车和多盆绿植",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有小型吧台区域，配备手冲器具和磨豆机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上有多个玩偶装饰和收藏品展示",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "角落设有木质卡座和两把彩色椅子",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上贴有照片墙和节日装饰（如圣诞老人）",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见酒瓶陈列架，摆放多瓶起泡酒",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内光线柔和，采用暖色调照明",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:19:46Z"
+}

@@ -1,0 +1,34 @@
+{
+ "cafeId": "caffaina-jingan",
+ "model": "qwen-max",
+ "inputDigest": "46896de97c17",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "light",
+    "zh": "二楼窗户全天捕捉苏州河的自然光",
+    "en": "Upstairs windows catch natural light all day",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 1,
+    "zh": "宽敞空间适合专注工作",
+    "en": "Spacious for focused work"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "舒适的光线和环境适合久坐",
+    "en": "Comfortable light for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:56Z"
+}

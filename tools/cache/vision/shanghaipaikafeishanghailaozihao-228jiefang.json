@@ -1,0 +1,59 @@
+{
+  "cafeId": "shanghaipaikafeishanghailaozihao-228jiefang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a9d914de8365",
+  "photos": [
+    "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006676_ss__1763101994078_14593166.jpg",
+    "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006704_ss__1763101994037_76572083.jpg",
+    "http://store.is.autonavi.com/showpic/9128b0aa0619880c69ddaafbecfdbcf7"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为老式建筑风格，有木质栅栏和绿植。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有红色招牌，显示“COFFEE 上咖咖啡”字样。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见临街玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有顾客就座，但无法看清具体人数。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见悬挂的灯具和绿植装饰。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "室外有一棵大树，提供部分遮荫。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:34Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "radio-station-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "51342269645a",
+  "photos": [
+    "https://aos-comment.amap.com/B0JAR50F9Y/comment/BB0630F9_9743_423B_836B_C3F5F20A0874_L0_001_1500_200_1768488213712_88820814.jpg",
+    "https://aos-comment.amap.com/B0JAR50F9Y/comment/08A72725_7AA5_4124_A4A3_CF4B6E6C8BD9_L0_001_1502_200_1762574124391_21830239.jpg",
+    "https://aos-comment.amap.com/B0JAR50F9Y/comment/content_media_external_file_354607_ss__1767772456230_15663238.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "红砖外墙，一层有绿色窗框大窗，二层为横向玻璃窗盒结构",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店名‘愚园路电台’刻于一层砖墙上方浅色石材带中",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内吧台为深色木雕纹饰面板，后方有金色金属背板与置物架",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台左侧立式玻璃展示柜内陈列瓷器，柜体为雕花木质",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "两杯冰咖啡分层明显（奶底+浓缩+奶泡），盛于竖条纹玻璃杯",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "纸巾印有‘愚园路电台 — 克勒 LE CAFÉ’及WiFi图标",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台可见白色咖啡机、手冲壶支架、磨豆机与复古收音机摆件",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街窗内可见行人与车辆倒影，窗外有落叶乔木枝干",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:38Z"
+}

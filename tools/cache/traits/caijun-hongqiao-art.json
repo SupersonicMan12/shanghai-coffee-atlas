@@ -1,0 +1,64 @@
+{
+ "cafeId": "caijun-hongqiao-art",
+ "model": "qwen-max",
+ "inputDigest": "0d09324e0ed1",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing glass windows, open view",
+    "from": "[7]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室内长吧台配高脚凳，室外设座位区",
+    "en": "Long bar with stools, outdoor seating area",
+    "from": "[2][3][6]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "推荐饮品为卡布奇诺和巧克力",
+    "en": "Recommended: cappuccino and chocolate",
+    "from": "[11]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间从早8点到晚9点半",
+    "en": "Open from 8 AM to 9:30 PM",
+    "from": "[10]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[8]",
+    "zh": "适合阅读剧本，但人多嘈杂",
+    "en": "Good for script-reading, but busy"
+   },
+   "energy": {
+    "value": 70,
+    "from": "[8]",
+    "zh": "午后人群较多，气氛活跃",
+    "en": "Matinee crowds, lively atmosphere"
+   },
+   "linger": {
+    "value": 80,
+    "from": "[2][3][6]",
+    "zh": "设有多种座位形式，适合久坐",
+    "en": "Various seating options, good for lingering"
+   },
+   "adventure": {
+    "value": 20,
+    "from": "[11]",
+    "zh": "经典意式咖啡为主",
+    "en": "Focus on classic espresso drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:19:15Z"
+}

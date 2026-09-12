@@ -1,0 +1,67 @@
+{
+  "cafeId": "yincoffee-shanghaichengqujianguo-west-rd-140",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0b3f29b61223",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配可颂咖啡",
+      "en": "Street-view coffee with croissants"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "供应冰咖啡和热拿铁",
+        "en": "Serves iced coffee and hot lattes",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供可颂",
+        "en": "Offers croissants",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内仅三张椅子一张小圆桌",
+        "en": "Only three chairs and one small round table indoors",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大窗户采光良好",
+        "en": "Large windows provide ample natural light",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–18:30营业",
+        "en": "Open daily 09:30–18:30",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "座位极少，难久坐",
+        "en": "Few seats, not for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:37Z"
+}

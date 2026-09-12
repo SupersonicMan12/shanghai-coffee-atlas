@@ -1,0 +1,65 @@
+{
+  "cafeId": "widcoffee-jingtingshouergouwuzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "76fc6b8187b5",
+  "photos": [
+    "https://aos-comment.amap.com/B001572L12/comment/025b880be9a6816f06fc9e1489495144_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B001572L12/comment/f43ad66303952268d6e4569875377df3_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B001572L12/comment/d30d11174c3b5c350b9a6282c0faa792_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "menu",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "提供咖啡师培训课程和认证服务",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有抹茶口味的刨冰，配红豆和冰淇淋",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有焦糖风味刨冰，配红豆和冰淇淋",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供搭配饮品的甜品套餐",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可选饮品包括带吸管的冷饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上显示有SCA咖啡技能认证课程",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供多种咖啡相关技能培训项目",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:35Z"
+}

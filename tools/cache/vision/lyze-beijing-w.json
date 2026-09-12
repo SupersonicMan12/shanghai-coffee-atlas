@@ -1,0 +1,71 @@
+{
+  "cafeId": "lyze-beijing-w",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "78d5c2ad32d9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/fc7057bdb8e4b40b21927aa204e2b665",
+    "https://store.is.autonavi.com/showpic/3db01a4b75fb62650000002664324498?type=pic",
+    "https://store.is.autonavi.com/showpic/f33b1d2e2ad1b4750000002704314018"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，入口敞开，左侧为四扇玻璃推拉窗，右侧为双开玻璃门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外台阶前设木质长凳1张；店内可见金属框架椅约6把、小桌若干，空间紧凑。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "招牌下方有5个蓝色圆形图标：咖啡杯、手冲壶、咖啡壶、咖啡豆、水滴。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "右侧墙标有“First Drop Coffee Academy”及logo；入口旁小牌写“lyze”。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见裸露红砖墙、工业风吊顶与管线，墙面为浅灰/白，门框与窗框为青蓝色。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立牌写“Opening Soon!”，标注试营业2024.05.17、正式开业2024.06.17，及“全品8折”优惠。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "左侧外墙有黄色霓虹灯装置（形似咖啡机+“元”字），非照明主光源。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "透过玻璃窗可见室内吧台区域，但未清晰显示磨豆机、手冲台或烘焙设备。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:35Z"
+}

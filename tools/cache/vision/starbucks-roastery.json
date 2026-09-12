@@ -1,0 +1,71 @@
+{
+  "cafeId": "starbucks-roastery",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "173d1ca62c8a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e1b34b6bdfb81dca0000003391580646?type=pic",
+    "https://store.is.autonavi.com/showpic/e9fbb9dc6b599c170000002521948170?type=pic",
+    "https://store.is.autonavi.com/showpic/53be81b776c0b1190000003382578385?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店外立式广告牌显示‘星巴克臻选®上海烘焙工坊’及‘AFTERNOON TEA FOR TWO 228元’",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口处有大型木质旋转门，门外设遮阳伞与矮灌木，地面为灰白方格地砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内陈列台展示印有‘SHANGHAI’‘R’标识的保温杯、咖啡豆袋（含‘SUMATRA’字样）及Stanley水壶",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌上餐点含铸铁锅盛装的绿色浓汤配两颗溏心蛋与烤面包片、一碗格兰诺拉麦片配草莓橙片、一杯焦糖布蕾顶咖啡",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "广告牌图片中可见提拉米苏、焦糖布丁、拉花咖啡与黄油卷甜点",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "室内背景可见临街大玻璃窗，窗外有街道、行人、自行车与遮阳伞",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片1中门口站立两名穿蓝色制服人员；照片2左侧有一名背对镜头、扎马尾、系围裙的顾客/员工",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机、手冲台、虹吸壶或磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:20Z"
+}

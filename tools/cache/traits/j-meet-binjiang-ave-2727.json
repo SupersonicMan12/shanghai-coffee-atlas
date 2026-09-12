@@ -1,0 +1,77 @@
+{
+  "cafeId": "j-meet-binjiang-ave-2727",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "38851361101f",
+  "raw": {
+    "headline": {
+      "zh": "日咖夜酒带露营区",
+      "en": "Day coffee, night drinks with outdoor lounge"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "户外座位可远眺浦西高楼",
+        "en": "Outdoor seats overlook Puxi skyline",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供牛排现场烹制及蓝带甜品",
+        "en": "Features live-cooked steak and Le Cordon Bleu pastries",
+        "from": [
+          11,
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有桌椅，含高脚凳与露营区",
+        "en": "Indoor and outdoor seating, including bar stools and lounge area",
+        "from": [
+          1,
+          2,
+          6,
+          7,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间9:00–22:00",
+        "en": "Open daily 9am–10pm",
+        "from": [
+          12,
+          15
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "全天自然采光，侧窗与落地窗透光",
+        "en": "All-day natural light through side and floor-to-ceiling windows",
+        "from": [
+          4,
+          8,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          6,
+          7,
+          9,
+          10,
+          14
+        ],
+        "zh": "有户外露营区和充足座位",
+        "en": "Outdoor lounge and ample seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:59Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "laishite-gaoping-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f49e913098e7",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/4ac6aeb6f1780f2243e7afd26bbcc135",
+    "https://store.is.autonavi.com/showpic/a2c0389744a0ce4b3e9a9fa4a8ac40f2",
+    "https://store.is.autonavi.com/showpic/00b792333a59e1a956a0934789b22b85"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街建筑一层，有玻璃门和遮阳棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有车辆停放，周围有树木",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示提供咖啡、简餐服务",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口为双开木门，上方有黑色招牌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口台阶前停有两辆汽车",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外观为现代风格石材立面",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:37Z"
+}

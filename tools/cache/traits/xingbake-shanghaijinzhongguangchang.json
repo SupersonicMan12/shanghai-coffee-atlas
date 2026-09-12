@@ -1,0 +1,20 @@
+{
+  "cafeId": "xingbake-shanghaijinzhongguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4e8fbbc9cb59",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日营业 06:30–21:00",
+        "en": "Open daily 6:30 AM–9:00 PM",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:37:12Z"
+}

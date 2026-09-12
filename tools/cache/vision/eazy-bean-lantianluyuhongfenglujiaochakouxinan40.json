@@ -1,0 +1,65 @@
+{
+  "cafeId": "eazy-bean-lantianluyuhongfenglujiaochakouxinan40",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "01654df1edb4",
+  "photos": [
+    "https://aos-comment.amap.com/B0I07YLIWP/comment/17DAA13C_26B2_4DB6_A5D3_3D8BF86694F8_L0_001_1280_1707_1727162661416_62321607.jpg",
+    "https://aos-comment.amap.com/B0I07YLIWP/comment/C851870D_F399_498A_8513_01214545FF38_L0_001_1280_1707_1727162661416_56173466.jpg",
+    "https://aos-comment.amap.com/B0I07YLIWP/comment/6DF9E40A_3BEA_4B71_ADA6_E8FF564FA3C0_L0_001_1280_1707_1727162661417_88697645.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为老式砖墙建筑，外立面覆盖绿植",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街窗户可见街道与车辆，采光良好",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡和玻璃杯装饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "售卖粉色奶油贝果，表面撒有巧克力碎",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗台摆放饮品与食物，适合临窗用餐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有台阶，入口位于红砖柱旁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有透明玻璃窗，可看到外部街道景象",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:00Z"
+}

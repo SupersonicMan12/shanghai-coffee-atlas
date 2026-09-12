@@ -1,0 +1,75 @@
+{
+  "cafeId": "arabica-dayangqianshu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "946a4eeda877",
+  "raw": {
+    "headline": {
+      "zh": "站喝极简风，自烘阿拉比卡",
+      "en": "Stand-up spot with house-roasted Arabica"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，店内现烘",
+        "en": "100% Arabica beans, roasted in-house",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "近5米长站立吧台，少量堂食",
+        "en": "Nearly 5-meter standing bar, minimal seating",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为阿拉比卡浓缩基底咖啡",
+        "en": "Signature drinks based on Arabica espresso",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–21:00营业",
+        "en": "Open daily 07:30–21:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "通透明亮，极简设计",
+        "en": "Bright, minimalist and transparent space",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          9
+        ],
+        "zh": "以站喝为主，座位极少",
+        "en": "Standing bar, few seats"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          4,
+          6,
+          7
+        ],
+        "zh": "自烘豆+手冲壶配置",
+        "en": "House-roasted beans, pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:50Z"
+}

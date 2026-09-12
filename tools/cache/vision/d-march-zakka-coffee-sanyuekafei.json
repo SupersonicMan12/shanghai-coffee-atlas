@@ -1,0 +1,59 @@
+{
+  "cafeId": "d-march-zakka-coffee-sanyuekafei",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "efc5881d3c8b",
+  "photos": [
+    "https://aos-comment.amap.com/B0I36R9JN4/comment/content_media_external_file_99730_ss__1762319010792_91992694.jpg",
+    "http://store.is.autonavi.com/showpic/15339fd90ab12688ce6f33871b6278db",
+    "https://aos-comment.amap.com/B0I36R9JN4/comment/content_media_external_file_99745_ss__1762319010783_69160717.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有冷藏展示柜，陈列甜点与饮料",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见Bundaberg碳酸饮料和可口可乐",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "外部门面有Zakka&Coffee招牌",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停放多辆共享单车",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯咖啡有熊形拉花图案",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台及后方酒架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:29Z"
+}

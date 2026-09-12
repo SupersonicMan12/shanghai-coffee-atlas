@@ -1,0 +1,57 @@
+{
+  "cafeId": "homey-fujiangxiaoqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "30f9d4b4a543",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/02a6316f81ce0b81181db5f2c7da0bd7",
+    "https://store.is.autonavi.com/showpic/7c331d8fdd6a8e37bfdba5c3a375539b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于居民楼底层，临街入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有树木遮挡，街道旁有行人",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺招牌为黑色底白色字，写有'HOMEY'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处为黄色门，无明显玻璃窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "小区门口有顶棚和保安亭，环境为普通住宅区",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前道路开阔，无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:03Z"
+}

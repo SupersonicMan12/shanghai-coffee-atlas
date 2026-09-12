@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品有冰与火，结合热可颂和冰淇淋。",
+      "kind": "drinks",
+      "quote": "最爱的不是咖啡而是「冰与火」",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供味增炸猪排三明治，分量大且美味。",
+      "kind": "food",
+      "quote": "「味增炸猪排三明治」第一次点这个的时候不知道它的量",
+      "url": "https://m.dianping.com/discovery/782361003",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店内环境复古温暖，适合悠闲坐一下午。",
+      "kind": "space",
+      "quote": "-环境:有插座 很安静 周围环境很好!店里属于复古温暖型的装修",
+      "url": "https://www.dianping.com/discovery/1002072791",
+      "site": "大众点评网"
+    },
+    {
+      "text": "设有插座，方便顾客使用电子设备。",
+      "kind": "seating",
+      "quote": "-环境:有插座 很安静 周围环境很好!",
+      "url": "https://www.dianping.com/discovery/1002072791",
+      "site": "大众点评网"
+    },
+    {
+      "text": "早晨11点前点咖啡赠送现烤吐司。",
+      "kind": "time",
+      "quote": "早上11点前点咖啡是送现烤吐司哒",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "日本这个赚钱的餐饮品牌，是你没听过的咖啡馆 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/62487",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 2,
+      "title": "日本最老komeda咖啡（名古屋喫茶之旅 - Bilibili",
+      "url": "https://www.bilibili.com/video/BV1wgJW6pE9j/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 3,
+      "title": "古早日式咖啡屋 不允许错过的口美达 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/782361003",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "上海进沪后的美食与行程流水帐|口美达咖啡|欧蕾咖啡|上海文广|iapm|静安大悦城|继光香香鸡|pickchill|特斯拉|海绵宝宝|chiikawa_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5336838036524900.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "上海探店|口美达咖啡☕️",
+      "url": "https://www.dianping.com/discovery/1002072791",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "KOMEDA咖啡|虹桥/古北咖啡厅热门榜第一位 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "虹桥咖啡微旅行,出发!这个初夏,一起享受“啡”比寻常的松弛感 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0OTAyMw==&mid=2651675617&idx=1&sn=1d533144d92da271dbb6f62b508d09c4&chksm=8abffdc5bce1b3d0a76a58d57447fbd234477f93344d62cdda79fe59241ca057265788e3f0f1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-112177583/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:41Z"
+}

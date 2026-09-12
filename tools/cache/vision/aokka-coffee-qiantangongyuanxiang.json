@@ -1,0 +1,71 @@
+{
+  "cafeId": "aokka-coffee-qiantangongyuanxiang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fa2c1e6dbd0f",
+  "photos": [
+    "https://aos-comment.amap.com/B0K2798U17/comment/content_media_external_file_1000078022_ss__1769501030567_10197083.jpg",
+    "https://aos-comment.amap.com/B0K2798U17/comment/D2C84981_61B3_4735_AD74_8B79AE8FE0CE_L0_001_1206_139_1770828325821_26204357.jpg",
+    "https://store.is.autonavi.com/showpic/755e4a1b793395480000003025252011?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有米乳红枣拿铁和红枣龙眼拿铁的促销广告",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中有可颂、芝士球和法式开心果厚塔等烘焙食品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有手冲咖啡、美式、拿铁等饮品，价格在22-48元之间",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质菜单墙，陈列多种咖啡选项及产地信息",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有透明遮阳棚和绿色植物装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "柜台后可见电子支付设备和点单屏幕",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "面包柜内陈列整齐，使用木质托盘和标价牌",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好，窗外可见街道环境",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:46Z"
+}

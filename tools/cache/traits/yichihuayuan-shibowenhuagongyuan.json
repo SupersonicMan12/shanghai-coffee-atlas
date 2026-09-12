@@ -1,0 +1,80 @@
+{
+  "cafeId": "yichihuayuan-shibowenhuagongyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5bd1ced2e645",
+  "raw": {
+    "headline": {
+      "zh": "千平园林咖啡馆",
+      "en": "Thousand-sqm garden café"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店面积约千平方米，含户外露营区与玻璃房",
+        "en": "Around 1000 sqm with outdoor camping area and glass house",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街大玻璃窗，采光良好",
+        "en": "Full-height street-facing windows with ample light",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含桂花拿铁及白玉兰味酒（4%vol）",
+        "en": "Signature drinks include osmanthus latte and magnolia wine (4% ABV)",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供牛油果藜麦沙拉、战斧牛排与手工芝士蛋糕",
+        "en": "Serves avocado quinoa salad, tomahawk steak, and cheesecake",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–19:00，覆盖早咖至晚餐时段",
+        "en": "Open 10:00–19:00, from morning coffee to dinner",
+        "from": [
+          11,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          4,
+          5,
+          10
+        ],
+        "zh": "空间宽敞适合久坐聚餐",
+        "en": "Spacious for lingering meals"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          7,
+          8
+        ],
+        "zh": "茶咖融合与风味酒饮",
+        "en": "Tea-infused coffee & flavored wine"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:48Z"
+}

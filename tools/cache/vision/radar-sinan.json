@@ -1,0 +1,71 @@
+{
+  "cafeId": "radar-sinan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2709d61ab3a5",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/content_media_external_file_100004227_1766656886672_60865416.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/48C1C478_CC8A_4C44_B331_2CFB0BCB15CD_L0_001_1500_200_1751786471095_98732675.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/3c5400d6d7b21d0c04410f169a5de101_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店招为黑色横条结构，印有RADAR COFFEE及美式20、拿铁24、澳白24价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门头下方为深色圆点金属穿孔板，上方可见裸露白色管线与木质结构",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见木框玻璃门，门上贴有白色'COFFEE'字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯热拿铁盛于带黑线白瓷杯，拉花为双心图案，置于木质托盘",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯冰咖啡盛于透明玻璃杯，配卡片标注'云南孟连 YUNNAN MENGLIAN'及'卡蒂姆 CATIMOR'",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "另一杯热拿铁盛于浅青釉竖纹陶瓷杯，拉花为单心图案，置于木桌",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景可见木质矮凳/坐墩与深色软垫座椅，桌面为深色反光材质",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片2中可见一人腿部与白色塑料袋，但无法确认是否在用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:00Z"
+}

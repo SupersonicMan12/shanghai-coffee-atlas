@@ -1,0 +1,53 @@
+{
+  "cafeId": "algebraist-shanghaixuhuiqudongfangshangsha",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "796ac737d9d1",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "https://aos-comment.amap.com/B0M6OCLUVE/comment/content_media_external_file_1000084899_ss__1769395442343_14728794.jpg",
+    "https://store.is.autonavi.com/showpic/5ccbf2f9a310f0ea0000002368470625?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有数张桌椅，顾客在座，空间非吧台型",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃幕墙，室内可见天花板射灯",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立柱旁有绿植盆栽",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有人坐着，未见使用电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "入口处有宣传牌展示咖啡与可颂",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:12Z"
+}

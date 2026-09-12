@@ -1,0 +1,59 @@
+{
+  "cafeId": "kuddo-coffee-shanghaixintiandi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b17b7ee1932c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e5103f02bc56964c0000002875860149?type=pic",
+    "https://aos-comment.amap.com/B0LAXRYT50/comment/D1B65D0D_8ADF_490F_A05D_2E1A28A19447_L0_001_1500_2000_1745885572497_17139948.jpg",
+    "https://store.is.autonavi.com/showpic/c7e5d1e25f96f29f0000004870560005?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡设备和磨豆机",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供挂耳咖啡包，含威士忌、巧克力、白桃乌龙等口味",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有豆奶布丁和瓶装茶饮（AKA-CHA）出售",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有云南AA、埃塞俄比亚等产地的咖啡豆",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域设有扫码点单提示",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店员在操作咖啡设备，有制作饮品的行为",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:53Z"
+}

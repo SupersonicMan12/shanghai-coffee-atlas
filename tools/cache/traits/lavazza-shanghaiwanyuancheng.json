@@ -1,0 +1,75 @@
+{
+  "cafeId": "lavazza-shanghaiwanyuancheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "95b316f667ca",
+  "raw": {
+    "headline": {
+      "zh": "亚洲首家CASA LAVAZZA",
+      "en": "Asia's first CASA LAVAZZA"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外桌椅与遮阳伞",
+        "en": "Outdoor seating with umbrellas",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街转角，大面积玻璃窗",
+        "en": "Corner unit with floor-to-ceiling glass",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备编号37号老鹰咖啡机（全球60台）",
+        "en": "Eagle coffee machine #37 (1 of 60 globally)",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应‘橙力香草籽雪克美式’及高蛋白奶系列",
+        "en": "Serves orange vanilla seed shaken Americano and high-protein milk drinks",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "菜单含炭烤风味牛排和提拉米苏",
+        "en": "Menu includes charcoal-grilled steak and tiramisu",
+        "from": [
+          4,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          11
+        ],
+        "zh": "增设靠窗座位适配慢坐",
+        "en": "Designed for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "设专业手冲操作台",
+        "en": "Features pour-over station"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:45Z"
+}

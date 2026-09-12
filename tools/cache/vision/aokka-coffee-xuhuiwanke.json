@@ -1,0 +1,59 @@
+{
+  "cafeId": "aokka-coffee-xuhuiwanke",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "769cebd822ea",
+  "photos": [
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/36875f74fe5c9bd7ea3d5fe47e9504f2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/d6d296fb4cdfced264cffc4e6aba3de3_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/content_media_external_images_media_100001523_1728403769235_51166426.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，临街玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外有几张绿色椅子和小凳子",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有吧台和靠窗座位，采光好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机等专业咖啡器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗外有绿树，室内有盆栽植物",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为带吸管的纸杯装",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:25:10Z"
+}

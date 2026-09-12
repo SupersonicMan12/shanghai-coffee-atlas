@@ -1,0 +1,73 @@
+{
+  "cafeId": "s-brunch-bar-changshou-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "539885d9df64",
+  "raw": {
+    "headline": {
+      "zh": "牛排配酒，室内外皆宜",
+      "en": "Steak, drinks, indoor or patio"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌扒烤菲力牛排鲜嫩多汁",
+        "en": "Grilled filet mignon is tender and juicy",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "牛排菌菇披萨饼底薄脆",
+        "en": "Thin-crust steak and mushroom pizza",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位可选",
+        "en": "Both indoor and outdoor seating available",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "酒架陈列多种瓶装酒水",
+        "en": "Shelves stocked with various bottled drinks",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10 PM",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          11
+        ],
+        "zh": "室内外座位适合久坐",
+        "en": "Seating encourages lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4,
+          11
+        ],
+        "zh": "有电视且可户外社交",
+        "en": "TV and patio add buzz"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:33Z"
+}

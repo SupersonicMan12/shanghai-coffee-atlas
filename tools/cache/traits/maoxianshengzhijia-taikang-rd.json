@@ -1,0 +1,52 @@
+{
+  "cafeId": "maoxianshengzhijia-taikang-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8aaed43539cf",
+  "raw": {
+    "headline": {
+      "zh": "可撸猫的日式咖啡馆",
+      "en": "A cat-friendly Japanese-style café"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "店内有成年猫和橙白相间小猫",
+        "en": "Adult and orange-white kitten present",
+        "from": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间含日式风格隔断与门框",
+        "en": "Features Japanese-style partitions and door frames",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间12:00-22:00",
+        "en": "Open daily 12:00–22:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4,
+          5
+        ],
+        "zh": "有桌椅和猫可久坐",
+        "en": "Seating and cats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:47Z"
+}

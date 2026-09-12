@@ -1,0 +1,94 @@
+{
+  "cafeId": "antique-si-s-rd-44",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "07bbedf933dc",
+  "raw": {
+    "headline": {
+      "zh": "洋房花园咖啡馆，晚七点变酒馆",
+      "en": "Garden café by day, bar by night"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "思南路独栋洋房带露天小花园",
+        "en": "Standalone villa with outdoor garden",
+        "from": [
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打意式咖啡，澳白为推荐款",
+        "en": "Serves espresso; flat white recommended",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一二22:00关门，其余日营业至凌晨2点",
+        "en": "Open till 2am Tue–Sun, 10pm Mon",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "晚上7点后二楼转为酒馆，有钢琴演奏",
+        "en": "Upstairs becomes bar with piano after 7pm",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有八哥和猫咪可互动",
+        "en": "Talkative mynah bird and cats on site",
+        "from": [
+          9,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 0,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "无顾客使用电脑",
+        "en": "No laptop users seen"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          9
+        ],
+        "zh": "庭院开阔适合久坐",
+        "en": "Spacious garden invites lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          12
+        ],
+        "zh": "晚间有音乐人聚会",
+        "en": "Musicians gather after 7pm"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "经典意式为主，牛奶要求高",
+        "en": "Classic espresso-focused menu"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:15Z"
+}

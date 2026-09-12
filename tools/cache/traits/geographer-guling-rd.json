@@ -1,0 +1,60 @@
+{
+  "cafeId": "geographer-guling-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3c69acd47683",
+  "raw": {
+    "headline": {
+      "zh": "洞穴风设计配星球灯",
+      "en": "Cave-like space with planet lamps"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内有拱门结构和星球灯",
+        "en": "Features arches and planet-shaped lamps",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设红白条纹遮阳伞与黑色金属桌椅",
+        "en": "Outdoor seating with striped umbrellas and metal chairs",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可看街景",
+        "en": "Full-height street-facing windows with street views",
+        "from": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨1点",
+        "en": "Open daily until 1 a.m.",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "设有室外座位区",
+        "en": "Has outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:32Z"
+}

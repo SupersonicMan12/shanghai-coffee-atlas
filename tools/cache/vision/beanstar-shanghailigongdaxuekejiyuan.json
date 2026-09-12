@@ -1,0 +1,54 @@
+{
+  "cafeId": "beanstar-shanghailigongdaxuekejiyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "12fba9b4a59a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ae8fcd612674fcb6a49e873cbfb49bd1",
+    "https://store.is.autonavi.com/showpic/74ff681c0f3eab47439ffe12bf6ef7c5",
+    "https://store.is.autonavi.com/showpic/b9904b191f89b0c018e59568a5e4411e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面位于上海理工大学科技园内，入口为玻璃门。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见咖啡制作设备，如磨豆机。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上展示有雪砖拿铁系列饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和少量桌椅。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:27Z"
+}

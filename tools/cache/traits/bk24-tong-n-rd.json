@@ -1,0 +1,67 @@
+{
+  "cafeId": "bk24-tong-n-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4431547b3a27",
+  "raw": {
+    "headline": {
+      "zh": "24小时便利店式咖啡便利屋",
+      "en": "Convenience-store-style coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日06:00至22:00营业",
+        "en": "Open daily from 6:00 to 22:00",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃，可见外部街道及车辆",
+        "en": "Floor-to-ceiling street-facing glass, showing passing traffic",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "夜晚灯光照明入口区域",
+        "en": "Entrance area lit at night",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "店内冷藏展示柜摆放各类饮品",
+        "en": "Refrigerated display case with various beverages",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "以饮料零售为主，无办公迹象",
+        "en": "Retail-focused, no work setup seen"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "货架陈列为主，无久坐设施证据",
+        "en": "Shelf-based layout, no seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:39Z"
+}

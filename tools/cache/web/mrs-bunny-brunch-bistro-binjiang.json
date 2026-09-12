@@ -1,0 +1,58 @@
+{
+  "facts": [
+    {
+      "text": "既是餐厅也是酒吧，提供纯麦芽精酿啤酒。",
+      "kind": "drinks",
+      "quote": "It is both a restaurant and a pub. Its craft beer does not add any other auxilia",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-44188144/",
+      "site": "Mrs·bunny邦尼夫人(滨江店) - Shanghai Restaurants - Trip.com"
+    },
+    {
+      "text": "提供招牌法式田园色拉。",
+      "kind": "food",
+      "quote": "招牌法式田园色拉-Mrs.bunny 邦尼夫人(滨江店)",
+      "url": "https://www.dianping.com/shop/96400784/photos?pg=17",
+      "site": "Mrs.bunny 邦尼夫人(滨江店)-图片-上海-第17页-大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Mrs.bunny 邦尼夫人(滨江店)-图片-上海-第17页-大众点评网",
+      "url": "https://www.dianping.com/shop/96400784/photos?pg=17",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Mrs.bunny 邦尼夫人(滨江店)-菜图片-上海-第14页-大众点评网",
+      "url": "https://www.dianping.com/shop/H1XqMkfg56TbMZLX/photos/tag-%E8%8F%9C?pg=14",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Mrs·bunny邦尼夫人(滨江店) - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-44188144/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Mrs. bunny brunch & bistro Bangni Lady (Binjiang Branch)",
+      "url": "https://maps.apple.com/place?auid=1118683722844697&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "柠檬苏打- Mrs.bunny 邦尼夫人(滨江店)-菜 - 大众点评",
+      "url": "https://www.dianping.com/shop/H1XqMkfg56TbMZLX/photos/tag-%E8%8F%9C-%E6%9F%A0%E6%AA%AC%E8%8B%8F%E6%89%93",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:51Z"
+}

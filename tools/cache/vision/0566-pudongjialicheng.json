@@ -1,0 +1,72 @@
+{
+  "cafeId": "0566-pudongjialicheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4b1106339eff",
+  "photos": [
+    "https://aos-comment.amap.com/B0LRZC33L8/comment/20260211-a1fafd5658143f4be33a1e7a-2nVv7ziTWBvAAnvrQ4HTTv.jpg",
+    "https://aos-comment.amap.com/B0LRZC33L8/comment/content_media_external_file_518938_ss__1768647635634_03789763.jpg",
+    "https://store.is.autonavi.com/showpic/1ab121f33747a7a90000002744034589?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "有巧克力蛋糕、抹茶柚子生芝士和冲绳盐灸太妃等甜点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供带有枫叶装饰的黄色糕点和绿色果冻类甜品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有深色杯装饮品和玻璃杯装撒有干花的奶昔类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点陈列在木质盒中，标价48元",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上摆放有金色花纹茶杯与配套碟子，盛装深色饮品",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点区可见标签显示“日本抹茶柚子生芝士”和“冲绳盐灸太妃”",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有菜单纸张，印有“0566”字样",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内使用木质托盘和金属餐具，风格偏日式精致",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:54Z"
+}

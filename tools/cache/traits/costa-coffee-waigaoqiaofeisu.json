@@ -1,0 +1,66 @@
+{
+  "cafeId": "costa-coffee-waigaoqiaofeisu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bcc1e67b85b4",
+  "raw": {
+    "headline": {
+      "zh": "外高桥啡速店营业至17点",
+      "en": "Closes at 5pm on weekdays"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "有高脚凳、卡座和小桌",
+        "en": "Offers bar stools, wall benches, and small tables",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Good natural light from floor-to-ceiling windows",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供熊猫生椰拿铁等特色饮品",
+        "en": "Serves Panda Coconut Latte and other signature drinks",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应提拉米苏和巧克力酥卷",
+        "en": "Offers tiramisu and chocolate rolls",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:00-17:00，周末8:00-16:00",
+        "en": "Open 7am–5pm weekdays, 8am–4pm weekends",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有多种座位可短坐",
+        "en": "Seating for short stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:22Z"
+}

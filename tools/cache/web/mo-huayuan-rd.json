@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "提供特色咖啡豆",
+      "kind": "beans",
+      "quote": "主打一个喝到最前沿、日新月异的咖啡风潮",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site": "腾讯网"
+    },
+    {
+      "text": "有玫瑰拿铁和纽约芝士蛋糕",
+      "kind": "drinks",
+      "quote": "玫瑰拿铁(19) · 美式咖啡(",
+      "url": "https://www.dianping.com/shop/92700826/photos?pg=25",
+      "site": "MO+森系咖啡馆(荒漠花园店)-图片-上海-第25页-大众点评网"
+    },
+    {
+      "text": "环境安静适合办公",
+      "kind": "space",
+      "quote": "安安静静，又是宠物友好，所以特喜欢",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92683C38A04&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "有宠物友好区域",
+      "kind": "people",
+      "quote": "安安静静，又是宠物友好，所以特喜欢",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92683C38A04&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "MO⁺荒漠花園(上海四川北路商業區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/modesert-garden-34517511",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "MO+森系咖啡馆(荒漠花园店)-图片-上海-第25页-大众点评网",
+      "url": "https://www.dianping.com/shop/92700826/photos?pg=25",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "MO+Huangmo Garden Branch (Huayuan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92683C38A04&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "MO+荒漠花园店 - 途牛",
+      "url": "https://m-p.tuniu.com/restaurant/8260580/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "这家村咖用南瓜、辣椒、洋葱当杯子?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTI3MTE3OQ==&mid=2247537770&idx=6&sn=0632588a4b08d6ae9d902e5a25812f25&chksm=eb7f7cc4c18933e34f5084a21561ec383478ca50c92df56e219e0acd9eadcb6f6cc48da3a500&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 8,
+      "title": "“咖啡+”？长风这些CP值超高的特色店等你来打卡|上海市 - 新浪财经",
+      "url": "https://finance.sina.cn/2023-01-29/detail-imycvtrt0396423.d.html?vt=4",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:00Z"
+}

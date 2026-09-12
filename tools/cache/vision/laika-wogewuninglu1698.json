@@ -1,0 +1,50 @@
+{
+  "cafeId": "laika-wogewuninglu1698",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f41d43423b36",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4355a64b335e66150848f2366c5d1eee"
+  ],
+  "photoKinds": [
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有货架陈列多种包装食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有展示柜，摆放即食类食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口外为街道和绿化带",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间为小型零售型店铺，无明显座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:58Z"
+}

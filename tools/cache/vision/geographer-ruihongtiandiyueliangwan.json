@@ -1,0 +1,65 @@
+{
+  "cafeId": "geographer-ruihongtiandiyueliangwan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d935983c598a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f2075b6e3237add00000000742552647?type=pic",
+    "https://aos-comment.amap.com/B0H391UAKQ/comment/0787a229e1b0e975ede44ce794ba46a3_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/47fc5262f08661d80000002766932479?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡饮品和甜点，包括dirty咖啡和地球造型甜品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶蛋糕和红色气泡饮料",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品搭配饼干，使用透明托盘盛放",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有绿植装饰，环境布置自然清新",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "桌面为浅色圆形，摆放植物与饮品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "甜点设计创意，包含地球模型造型",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯具为陶瓷材质，带有拉花",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:27Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "dreaming-shanghai-hongqiao-rd-808",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "de9f45ad96de",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/cfba0b61b1f782a10000000964966779?type=pic",
+    "https://store.is.autonavi.com/showpic/79169dc0c7fca3f98e594885ed67567f",
+    "https://store.is.autonavi.com/showpic/d69a269fb0e30e990000003251248796?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "咖啡拉花是张国荣肖像，为特制饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内挂有王家卫导演的电影海报。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，室内可见多人就座。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上有明信片、小摆件和书籍。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树和停放的电动车，非纯商业区。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "桌上放着一块芝士蛋糕。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内座位可见，但未见有人用电脑。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "无专业烘焙或手冲器具可见。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:47Z"
+}

@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "最早把精品咖啡豆、手冲单品概念展现给国内消费者",
+      "kind": "story",
+      "quote": "将“精品咖啡豆”“手冲咖啡单品”等概念展现给了国内消费者",
+      "url": "https://news.qq.com/rain/a/20260610A06AG200",
+      "site": "QQ"
+    },
+    {
+      "text": "均价30-40元，曾尝试降至9.9元但收效甚微",
+      "kind": "story",
+      "quote": "定位中高端精品咖啡，均价在30-40元左右",
+      "url": "https://news.qq.com/rain/a/20260610A06AG200",
+      "site": "QQ"
+    },
+    {
+      "text": "一店一设计，大空间、好地段，曾有160多家店",
+      "kind": "space",
+      "quote": "一店一设计,大空间,好地段,咖啡也有自己的东西",
+      "url": "https://zhuanlan.zhihu.com/p/2080971182619235292",
+      "site": "知乎"
+    },
+    {
+      "text": "自建烘焙实验室，启动‘云南十年计划’设收豆站",
+      "kind": "beans",
+      "quote": "在上游设收豆站，帮扶咖农；中游自建烘焙实验室",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33649780",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "早期门店隐藏于弄堂设计中心，无固定租金只抽成",
+      "kind": "space",
+      "quote": "最早的门店隐藏于弄堂里的设计中心，门店没有固定租金",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33649780",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "曾与李佳琦never's family、Maison Margiela联名快闪",
+      "kind": "drinks",
+      "quote": "和李佳琦never's family联名的快闪店；和Maison Margiela联名pop up",
+      "url": "https://www.zhipin.com/gongsi/review/5ec64134ace841a51nF63tu1Els~.html",
+      "site": "Boss直聘"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "中国精品咖啡十五年:Seesaw、Manner、M Stand为何结出了不同的果实?",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33649780",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡梦工厂",
+      "url": "https://baike.baidu.com/item/咖啡梦工厂/68592153",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "一家家的,花开花落,倒闭速度有点快啊。",
+      "url": "https://zhuanlan.zhihu.com/p/2080971182619235292",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "上海西舍咖啡有限...怎么样",
+      "url": "https://www.zhipin.com/gongsi/review/5ec64134ace841a51nF63tu1Els~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 6,
+      "title": "3年关了上百家店!很多人喝过!知名品牌被申请破产!",
+      "url": "https://news.qq.com/rain/a/20260610A06AG200",
+      "site_name": "QQ"
+    },
+    {
+      "index": 7,
+      "title": "3年关了上百家店!很多人喝过!知名品牌被申请破产!",
+      "url": "https://baijiahao.baidu.com/s?id=1867595326623756676",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "Seesaw（精品咖啡品牌）_百度百科",
+      "url": "https://baike.baidu.com/item/Seesaw/58065156",
+      "site_name": "百度"
+    },
+    {
+      "index": 9,
+      "title": "3年关了上百家店!很多人喝过!知名品牌被申请破产!",
+      "url": "https://baijiahao.baidu.com/s?id=1867602247514423628",
+      "site_name": "百度"
+    },
+    {
+      "index": 10,
+      "title": "SeesawCoffee被申请破...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4282866630259552505",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:01Z"
+}

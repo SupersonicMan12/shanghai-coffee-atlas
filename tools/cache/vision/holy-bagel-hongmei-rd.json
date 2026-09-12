@@ -1,0 +1,65 @@
+{
+  "cafeId": "holy-bagel-hongmei-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "79996931ecf1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/77d391df70f32a6d5e06267685d4bd51",
+    "https://store.is.autonavi.com/showpic/133a3569355fd9b60000000722462886?type=pic",
+    "https://store.is.autonavi.com/showpic/60ea68e8970193c70000000722486201?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有露天座位区",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供贝果三明治，内含鸡肉、黄瓜、豆芽等",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供抹茶饮料和咖啡饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包装盒为环保材质，印有品牌信息",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见顾客在用餐，空间为小型店铺",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外桌椅布置于人行道旁，适合户外用餐",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:46Z"
+}

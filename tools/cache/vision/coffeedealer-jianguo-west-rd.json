@@ -1,0 +1,65 @@
+{
+  "cafeId": "coffeedealer-jianguo-west-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "6cafd2441d5b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/550743876a1d541ea5d595372d4b5b41",
+    "https://store.is.autonavi.com/showpic/d719b62fbfea19b20000000898848985?type=pic",
+    "https://aos-comment.amap.com/B0KRBZJ18N/comment/12a539429156d738eb9f713607d4a981_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内可见咖啡机与磨豆机等专业器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供女巫瑰夏拿铁，粉重12g，售价540元/150g",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供TOH水洗冠军手冲与拿铁，均售90元/150g",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "女巫瑰夏风味含热带水果、巧克力饼干",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "TOH水洗冠军手冲风味为柑橘、蜂蜜、白花",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "TOH水洗冠军拿铁风味为焦糖饼乾、伯爵奶茶",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街有大玻璃窗，可看到店内设备",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:02:11Z"
+}

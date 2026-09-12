@@ -1,0 +1,68 @@
+{
+  "cafeId": "shanjikafei-jingan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0940b5d0b5cf",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲小馆",
+      "en": "Street-side pour-over spot"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "门口设折叠桌椅供室外坐",
+        "en": "Outdoor seating with foldable tables and chairs",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街小空间，整面玻璃窗",
+        "en": "Compact street-facing space with full glass front",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲台与专业磨豆机",
+        "en": "Equipped with pour-over station and grinder",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-18:00营业",
+        "en": "Open daily 7am–6pm",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "有手冲台和专业器具",
+        "en": "Pour-over setup and pro gear"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          3,
+          6,
+          7
+        ],
+        "zh": "室外座位有限，店内堆有纸箱",
+        "en": "Limited seating, boxes inside"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:51Z"
+}

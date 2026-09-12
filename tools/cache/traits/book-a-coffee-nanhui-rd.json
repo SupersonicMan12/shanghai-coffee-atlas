@@ -1,0 +1,76 @@
+{
+  "cafeId": "book-a-coffee-nanhui-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "609e1a9afa2e",
+  "raw": {
+    "headline": {
+      "zh": "文学特调配园景窗",
+      "en": "Literary drinks with garden views"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "大面积玻璃窗引入四时园景",
+        "en": "Large windows frame seasonal garden views",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌“光合作用”灵感来自黑塞小说",
+        "en": "Signature 'Photosynthesis' drink inspired by Hesse",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用SCAA杯测85+精品咖啡豆",
+        "en": "Uses SCAA 85+ specialty coffee beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "靠窗设小桌椅，有藤编椅和猫形抱枕",
+        "en": "Window-side small tables with rattan chairs",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–19:00",
+        "en": "Open daily 10:00–19:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          9
+        ],
+        "zh": "有舒适座位和分层阅读区",
+        "en": "Cozy seating and reading zones"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "文学特调搭配高分精品豆",
+        "en": "Lit-inspired drinks + high-scoring beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:34Z"
+}

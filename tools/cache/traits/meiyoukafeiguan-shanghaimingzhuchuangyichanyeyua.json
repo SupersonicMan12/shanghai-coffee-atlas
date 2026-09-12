@@ -1,0 +1,59 @@
+{
+  "cafeId": "meiyoukafeiguan-shanghaimingzhuchuangyichanyeyua",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "95b15bb7f859",
+  "raw": {
+    "headline": {
+      "zh": "火车造型咖啡馆",
+      "en": "Train-shaped coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店铺为复古火车造型，木质结构带金属顶棚",
+        "en": "Retro train-shaped shop with wood and metal roof",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位，店前有遮阳棚与粉色布帘",
+        "en": "Outdoor seating under a pink-curtained canopy",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店内陈列相机镜头、微型人物模型等摄影相关物件",
+        "en": "Displays camera lenses and miniature figures inside",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间 09:30–17:00",
+        "en": "Open daily 09:30–17:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:26Z"
+}

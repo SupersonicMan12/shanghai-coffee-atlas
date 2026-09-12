@@ -1,0 +1,59 @@
+{
+  "cafeId": "laomaikafeiguan-wukang-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4128c91101d4",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b0dbcbe716ebe1650000000899164394?type=pic",
+    "https://aos-comment.amap.com/B0FFIS07G9/comment/75684907_0C79_480E_8E6A_E56BC3C52811_L0_001_1320_90_1772019988552_90244051.jpg",
+    "https://store.is.autonavi.com/showpic/d83420d7739f8e9bb656b15831bdd62a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，可看到店内顾客与街景反射。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "木墙结构，有复古风格的窗户和装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客坐着，部分在用手机或交谈。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯拿铁有马形拉花，配一块巧克力蛋糕。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有印“DEFINITION OF HAPPINESS”的纸巾。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单图显示咖啡豆、手冲壶和拉花杯。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:35Z"
+}

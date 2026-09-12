@@ -1,0 +1,65 @@
+{
+  "cafeId": "pull-tab-shanghaishiputuoquxinglinshenghuohui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "053f2d005e50",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e97f5ba4191a0df00000000972298938?type=pic",
+    "https://store.is.autonavi.com/showpic/ba765f5d09f088f56988e90cefaf9765",
+    "https://aos-comment.amap.com/B0L1D5TKBB/comment/content_media_external_file_112798_ss__1767889747380_39843989.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有圆形吧台和多个座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有木质桌椅，数量约十余个",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙面装饰有冲浪板和植物",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有工作人员在操作饮品制作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内地面为深色瓷砖，墙面为浅色纹理材质",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有卡通猫摆件",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:02Z"
+}

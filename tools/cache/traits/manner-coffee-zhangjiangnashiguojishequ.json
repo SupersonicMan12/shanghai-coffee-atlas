@@ -1,0 +1,79 @@
+{
+  "cafeId": "manner-coffee-zhangjiangnashiguojishequ",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cebb3bad5d3d",
+  "raw": {
+    "headline": {
+      "zh": "张江临街站喝精品咖啡",
+      "en": "Stand-up premium coffee on Zhangjiang street"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设吧台与高脚凳，支持站喝或短坐",
+        "en": "Bar counter with high stools for standing or quick sit",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜、海盐焦糖拿铁",
+        "en": "Known for oat milk latte, iced sweet, salted caramel",
+        "from": [
+          10,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:30–17:00，周末8:00–17:00",
+        "en": "Open 7:30–17:00 weekdays, 8:00–17:00 weekends",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "源自2015年静安2㎡小店，全国直营",
+        "en": "Born from a 2sqm 2015 Shanghai stall, all stores owned",
+        "from": [
+          6,
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "站喝为主，空间紧凑",
+        "en": "Standing bar, compact space"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8,
+          10,
+          14
+        ],
+        "zh": "自烘豆+限定意式饮品",
+        "en": "In-house roasted beans, seasonal espresso drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:39Z"
+}

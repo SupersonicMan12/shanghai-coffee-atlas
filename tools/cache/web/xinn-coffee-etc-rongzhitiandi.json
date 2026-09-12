@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "布景神似韩剧里的济州岛风景，工业风里带一点点韩风",
+      "kind": "story",
+      "quote": "布景神似韩剧里的济州岛风景,工业风里带一点点韩风",
+      "url": "https://www.dianping.com/discovery/989079100",
+      "site": "大众点评网"
+    },
+    {
+      "text": "拍照超有感觉，是全浦东最独一无二的风景",
+      "kind": "view",
+      "quote": "拍照超有感觉。说它是全浦东最独一无二的风景也不为过",
+      "url": "https://www.dianping.com/discovery/989079100",
+      "site": "大众点评网"
+    },
+    {
+      "text": "推荐榛果拿铁，口感绵密味道香",
+      "kind": "drinks",
+      "quote": "咖啡的话我推荐榛果拿铁,那是真的好喝,口感绵密味道香",
+      "url": "https://www.dianping.com/discovery/989079100",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡馆的七种滋味:找到匹配你当下心情的城市“样本间” ",
+      "url": "https://news.sohu.com/a/997521029_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "上海精品咖啡馆的独特魅力:Fetchin Coffee的体验",
+      "url": "https://baijiahao.baidu.com/s?id=1846801607719322222",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡馆分类新思路:按“城市功能”而非“好不好喝”划分 ",
+      "url": "https://post.smzdm.com/p/avgn036n/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡店:寻找属于你的咖啡选择 ",
+      "url": "https://hi.online.sh.cn/content/2026-09/10/content_10486120.htm",
+      "site_name": "上海热线"
+    },
+    {
+      "index": 5,
+      "title": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "浦东咖啡馆推荐 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/989079100",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
+      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
+      "site_name": "央广网"
+    },
+    {
+      "index": 8,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:30Z"
+}

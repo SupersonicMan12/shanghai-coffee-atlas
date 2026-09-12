@@ -1,0 +1,82 @@
+{
+  "cafeId": "wutongkafei-fengyuli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8dfd8aae8c62",
+  "raw": {
+    "headline": {
+      "zh": "创意特调夜咖",
+      "en": "Creative cocktails after dark"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供青梅、山楂等创意特调饮品",
+        "en": "Serves creative drinks like plum and hawthorn",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设4把橙色折叠椅",
+        "en": "Four orange folding chairs outdoors",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周日至周四营业至次日1点",
+        "en": "Open until 1am Sun–Thu",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街单层小店，有木质楼梯通上层",
+        "en": "Street-level shop with wooden stairs upstairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing glass window",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "仅4把室外折叠椅",
+        "en": "Only 4 outdoor chairs"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "特调含青梅山楂等非传统原料",
+        "en": "Unusual ingredients like plum, hawthorn"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "深夜营业至凌晨1-2点",
+        "en": "Late-night hours till 1–2am"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:15Z"
+}

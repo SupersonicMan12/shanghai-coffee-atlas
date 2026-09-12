@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "提供七夕限定新品",
+      "kind": "drinks",
+      "quote": "七夕限定新品上线 玫瑰燕麦拿铁",
+      "url": "https://weibo.com/daningdaning",
+      "site": "无"
+    },
+    {
+      "text": "位于大宁国际商业广场",
+      "kind": "space",
+      "quote": "AOKKA COFFEE(大宁国际商业广场店)",
+      "url": "http://m.dianping.com/shop/964256077?msource=applemaps",
+      "site": "【AOKKA COFFEE(大宁国际商业广场店)】电话_地址_价格_营业时间"
+    },
+    {
+      "text": "营业时间至22:00",
+      "kind": "time",
+      "quote": "营业时间:8:00-22:00",
+      "url": "https://www.dianping.com/discovery/1295634106",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "大宁国际LifeHub",
+      "url": "https://weibo.com/daningdaning",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "【AOKKA COFFEE(大宁国际商业广场店)】电话_地址_价格_营业时间",
+      "url": "http://m.dianping.com/shop/964256077?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "一杯咖啡的时间,读懂大宁的昨日与明天",
+      "url": "https://www.thepaper.cn/newsDetail_forward_31213874",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "星巴克(大宁店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4704083-Reviews-Starbucks_DaNing-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "超甜剧透!大宁国际即将变身甜甜星球,60+全国顶流宝藏甜品都要来!",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20260624/de4bd965-bb26-4242-9f5f-4ccfe3d13333.html",
+      "site_name": "“上海静安”门户网站"
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "AOKKA冒险号已经启航啦 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1295634106",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "AOKKA COFFEE线下实体店开在江湾里 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1413068267",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "坐标江湾里，你的“咖啡地图”来了丨爱申活暖心春 - 杨浦区人民政府",
+      "url": "https://www.shyp.gov.cn/shypq/zt-ashnxc/20240125/446940.html",
+      "site_name": "中国政府网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:48Z"
+}

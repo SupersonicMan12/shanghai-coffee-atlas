@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "text": "意式咖啡用哥斯达黎加深烘豆，巧克力味与烟熏感平衡",
+      "kind": "beans",
+      "quote": "意式咖啡用的是哥斯达黎加的深烘豆,巧克力味道与烟熏感比较平衡。",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "招牌奶咖含肉桂+苹果；肉桂拉茶配手作姜糖",
+      "kind": "drinks",
+      "quote": "🌟🌟🌟招牌奶咖:拿铁with(肉桂+苹果)",
+      "url": "https://www.dianping.com/discovery/895613256",
+      "site": "大众点评网"
+    },
+    {
+      "text": "二楼有小阳台露天位，抬头见梧桐树，适合看书或办公",
+      "kind": "view",
+      "quote": "打开二楼木门是个小阳台露天位,天气好的日子如果坐在这儿看书或办公属实美哉!",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "位于香山路独栋小洋房，老家具、树影斑驳、时间痕迹自然流露",
+      "kind": "space",
+      "quote": "一木家位于香山路的独栋小洋房,是一间复古温馨的咖啡店。",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "提供露天座位、免费Wi-Fi、装置充电、宠物友善",
+      "kind": "seating",
+      "quote": "寵物友善免費Wi-Fi露天座位提供裝置充電.",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-42054642/",
+      "site": "CAFE CHEZ W一木家(香山路店) (上海淮海路/新天地地區) - Trip.com"
+    },
+    {
+      "text": "主理人早年波士顿写七年代码，后法国蓝带学甜品",
+      "kind": "story",
+      "quote": "主理人早年的工作经历和咖啡完全不搭边,先是在波士顿写了七年代码,后在法国蓝带学习甜品。",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "手工司康（如抹茶、蔓越莓）、clotted cream、青梅酒、苹果干、橘皮等手作食物",
+      "kind": "food",
+      "quote": "有很多手作食物,比如姜糖,苹果干,橘皮,柠檬片等,会搭配在不同的饮品上",
+      "url": "https://www.dianping.com/discovery/893126151",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "咖啡探店|女神说喜欢就是人间值得 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/895613256",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "推荐一家我三天来两次的上海咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/893126151",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡网红打卡网红咖啡 - 一木家 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/856190006",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "CAFE CHEZ W一木家(香山路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/18658643.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "井的上海咖啡店打卡No.1 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/963790205",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "Cafe Chez W Yimujia in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118368760092566&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "CAFE CHEZ W一木家(香山路店) (上海淮海路/新天地地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-42054642/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:47Z"
+}

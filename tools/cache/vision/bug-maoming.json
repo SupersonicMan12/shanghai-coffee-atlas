@@ -1,0 +1,71 @@
+{
+  "cafeId": "bug-maoming",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "292e2a249cf6",
+  "photos": [
+    "https://aos-comment.amap.com/B0LRL5NLT1/comment/content_media_external_file_1000027915_ss__1754920441803_42290972.jpg",
+    "https://aos-comment.amap.com/B0LRL5NLT1/comment/content_media_external_file_1000027913_ss__1754920441910_12423783.jpg",
+    "https://aos-comment.amap.com/B0LRL5NLT1/comment/content_media_external_file_107081_ss__1764303704772_53210546.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街小店，门头标有'UDDI COFFEE 吾迪咖啡'，非'Bug Coffee'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外人行道设2把黑色折叠椅，1只浅色狗在旁，有自行车停放",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街为整面玻璃推拉门+透明塑料帘，可见室内吧台与顾客",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内墙面为裸露砖墙+木饰面嵌入式置物架，架上放咖啡豆罐、手冲壶、杯具",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台有黑色电热水壶、绿色小烤箱、多个带盖玻璃咖啡豆罐（至少6个）",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "吧台右侧立式磨豆机，机身贴红色'喜樂'字贴纸与彩色贴画，旁有招财猫摆件",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见1名穿深色衣的工作人员在操作，另1名顾客坐于室内高脚凳",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外左侧门牌号为'17'，空调外机挂于二楼窗下，上方布满黑色电线",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T13:40:58Z"
+}

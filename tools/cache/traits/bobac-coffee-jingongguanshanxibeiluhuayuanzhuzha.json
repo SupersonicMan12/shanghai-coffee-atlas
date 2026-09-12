@@ -1,0 +1,84 @@
+{
+  "cafeId": "bobac-coffee-jingongguanshanxibeiluhuayuanzhuzha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "78e4f15040bc",
+  "raw": {
+    "headline": {
+      "zh": "肉桂焦糖拿铁配椒盐饼干",
+      "en": "Cinnamon caramel latte with salted cookies"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为70%加纳黑巧肉桂焦糖拿铁",
+        "en": "Signature drink uses 70% Ghana dark chocolate",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "三拼中深烘豆配碱水焦糖牛奶",
+        "en": "Triple-blend medium-dark roast with pretzel caramel milk",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供内馅咸香带盐粒的椒盐饼干",
+        "en": "Serves salty-spiced cookies with salt crystals",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日09:00-17:00营业，周一休息",
+        "en": "Open Tue–Sun 09:00–17:00, closed Mon",
+        "from": [
+          12,
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "十几平米空间，原木桌，有人用电脑",
+        "en": "Compact space with wood tables and laptop users",
+        "from": [
+          5,
+          7,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "有顾客使用电脑",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "仅十几平米复古小空间",
+        "en": "Tiny retro space"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "含黑巧、碱水焦糖等创意配方",
+        "en": "Creative drinks with chocolate, pretzel caramel"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:32Z"
+}

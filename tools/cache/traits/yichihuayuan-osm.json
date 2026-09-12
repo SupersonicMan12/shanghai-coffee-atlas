@@ -1,0 +1,73 @@
+{
+  "cafeId": "yichihuayuan-osm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a68c52a32401",
+  "raw": {
+    "headline": {
+      "zh": "茶咖融合的全天候大花园",
+      "en": "All-day garden cafe with tea-infused coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "用碧螺春、龙井、普洱做茶咖",
+        "en": "Coffee infused with Biluochun, Longjing, Pu'er",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌含桂花拿铁和手工焦糖南瓜重芝士蛋糕",
+        "en": "Signature drinks and cakes include osmanthus latte and pumpkin cheesecake",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门店多为超千平，含绿植造景与户外露营区",
+        "en": "Stores often exceed 1000 sqm with greenery and outdoor camping areas",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业覆盖早咖到晚餐+微醺时段",
+        "en": "Open from morning coffee through dinner and drinks",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2015年从陶家宅民宿自然生长出的咖啡简餐品牌",
+        "en": "Grew organically from a 2015 homestay in Taojia Village",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "大空间+全天营业适合久坐",
+        "en": "Spacious and all-day hours"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "茶咖融合属非传统做法",
+        "en": "Tea-infused coffee is unconventional"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:09Z"
+}

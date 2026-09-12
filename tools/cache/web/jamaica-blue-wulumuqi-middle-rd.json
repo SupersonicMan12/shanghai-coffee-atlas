@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "二楼的露台提供极佳观景位，四季景色各具韵味。",
+      "kind": "view",
+      "quote": "二楼的露台是这家店的最佳观景位，随着四季更迭，这里的景色也各有韵味。",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "店内有免费WiFi，适合休息、工作或午餐。",
+      "kind": "people",
+      "quote": "非常漂亮的二楼。适合休息喝咖啡，做一些工作或午餐！免费WiFi！",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "使用100%阿拉比卡豆，招牌蓝山咖啡风味独特。",
+      "kind": "beans",
+      "quote": "这家的咖啡豆子都是使用100%的阿拉比卡豆，咖啡香气相当浓烈。",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-125145938?locale=zh-MY",
+      "site": "可以欣賞風景的咖啡館。｜Trip.com 上海"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Jamaica Blue（中山广场店）_百度百科",
+      "url": "https://baike.baidu.com/item/Jamaica%20Blue%EF%BC%88%E4%B8%AD%E5%B1%B1%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89/14204185",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "Jamaica Blue(九江路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d3391182-Reviews-Jamaica_Blue_Jiujiang_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 3,
+      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "Jamaica Blue(乌鲁木齐中路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "上海新晋咖啡馆16家，永远年轻永远标新立异",
+      "url": "https://zhuanlan.zhihu.com/p/373472821",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "可以欣賞風景的咖啡館。｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-125145938?locale=zh-MY",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:22Z"
+}

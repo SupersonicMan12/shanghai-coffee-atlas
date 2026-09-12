@@ -1,0 +1,90 @@
+{
+  "facts": [
+    {
+      "text": "店内装饰二次元风格，适合拍照打卡",
+      "kind": "space",
+      "quote": "The store is decorated in a two-dimensional style, with a unique environment tha",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-136592148/",
+      "site": "雾雨咖啡(永平安店) - Shanghai"
+    },
+    {
+      "text": "咖啡豆种类丰富，包括SOE和意式拼配",
+      "kind": "beans",
+      "quote": "主要以【百啡待兴】家的豆子为基础, 意式豆有一款浓郁和两款SOE可选。",
+      "url": "https://www.dianping.com/discovery/1457935954",
+      "site": "大众点评网"
+    },
+    {
+      "text": "特色饮品有蜜瓜、红薯、坚果风味的澳白",
+      "kind": "drinks",
+      "quote": "我要的这杯澳白用了一款奇奇怪怪的特殊拼配, 喝起来蜜瓜、红薯、坚果风味满满,",
+      "url": "https://www.dianping.com/discovery/1457935954",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间至下午7:00",
+      "kind": "time",
+      "quote": "营业至下午7:00. 中国上海市云南北路18号.",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d26161010-Reviews-Kirisame_Coffee-Shanghai.html",
+      "site": "Tripadvisor"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "很难相信这是一家精品咖啡店! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1457935954",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "圣地巡礼打卡上海雾雨咖啡店",
+      "url": "https://www.bilibili.com/video/av114625613922528?p=1",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 3,
+      "title": "雾雨咖啡店Official个人主页",
+      "url": "https://space.bilibili.com/3546641061645133/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 4,
+      "title": "雾雨咖啡(永平安店) - Shanghai",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-136592148/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "雾雨咖啡(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d26161010-Reviews-Kirisame_Coffee-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "为什么说上海是亚洲咖啡文化的集大成者? ",
+      "url": "https://chihe.sohu.com/a/1072585862_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "【雾雨咖啡店(永平安店)】地址,电话,路线,周边,在哪,怎样 - 百度",
+      "url": "https://j.map.baidu.com/2a/nU0h",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "「雾雨咖啡店」第一人称带你走进雾雨咖啡店",
+      "url": "https://www.bilibili.com/video/BV1M8411f7LG/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 9,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:58Z"
+}

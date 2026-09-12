@@ -1,0 +1,86 @@
+{
+  "cafeId": "lumazikafei-zhongnanxincun",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f381bdfd3745",
+  "raw": {
+    "headline": {
+      "zh": "自烘瑰夏手冲专门店",
+      "en": "Home-roasted Geisha pour-over specialist"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘蓝山NO.1、瑰夏等豆",
+        "en": "In-house roasted Blue Mountain No.1, Geisha, etc.",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "日式滴滤手冲，注重仪式感",
+        "en": "Japanese-style pour-over with ritual focus",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "临街窗台座、吧台高脚凳及室外座位",
+        "en": "Street-facing window ledge, bar stools, and outdoor seats",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "每日限定法国土司与巧克力蛋糕",
+        "en": "Daily limited brioche and chocolate cake",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至19:30",
+        "en": "Open until 7:30 PM",
+        "from": [
+          13,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "自烘+手冲仪式感强",
+        "en": "Home-roasted beans & ritual pour-over"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          10
+        ],
+        "zh": "多类型座位适合久坐",
+        "en": "Multiple seating options invite lingering"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          3,
+          11
+        ],
+        "zh": "绿荫街道环境宁静",
+        "en": "Quiet tree-lined street location"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:27Z"
+}

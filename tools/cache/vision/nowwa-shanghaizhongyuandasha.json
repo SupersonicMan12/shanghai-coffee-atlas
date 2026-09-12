@@ -1,0 +1,58 @@
+{
+  "cafeId": "nowwa-shanghaizhongyuandasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7f70a0fd3faa",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp",
+    "https://aos-comment.amap.com/B0KAJZUXHX/comment/content_media_external_file_1000229390_ss__1745635720733_49934235.jpg",
+    "https://aos-comment.amap.com/B0KAJZUXHX/comment/content_media_external_file_1000229400_ss__1745635720748_20289033.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面入口有台阶，玻璃门临街",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为开放式座位区，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有多张圆形木桌和橙色座椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过窗户可见室外庭院和绿树",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有顾客就座，有人在看手机",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口玻璃上标有营业时间（周一至周日7:00-22:00）",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:31Z"
+}

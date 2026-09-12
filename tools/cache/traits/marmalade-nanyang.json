@@ -1,0 +1,58 @@
+{
+ "cafeId": "marmalade-nanyang",
+ "model": "qwen-max",
+ "inputDigest": "9b938b0dc31d",
+ "raw": {
+  "headline": {
+   "zh": "招牌‘毒液’酒香浓郁，值得一试",
+   "en": "Signature 'Venom' with rich wine aroma"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌‘毒液’酒香味明显",
+    "en": "Signature 'Venom' with distinct wine aroma",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "深烘冷萃适合夏日饮用",
+    "en": "Deep roast cold brew perfect for summer",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "日式简约风格，原木色主调",
+    "en": "Japanese minimalist style, mainly in wood tones",
+    "from": 3
+   },
+   {
+    "kind": "food",
+    "zh": "招牌橘子果酱司康搭配拿铁",
+    "en": "Signature orange marmalade scone with latte",
+    "from": 6
+   },
+   {
+    "kind": "time",
+    "zh": "南阳路店午间生意很好",
+    "en": "Busy during lunchtime at Nanyang Road branch",
+    "from": 4
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 4,
+    "zh": "午间生意很好",
+    "en": "Busy at lunchtime"
+   },
+   "linger": {
+    "value": 50,
+    "from": 4,
+    "zh": "午间人多但不明确是否适合久坐",
+    "en": "Busy but unclear if suitable for long stay"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:17Z"
+}

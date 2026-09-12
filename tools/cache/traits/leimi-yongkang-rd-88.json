@@ -1,0 +1,78 @@
+{
+  "cafeId": "leimi-yongkang-rd-88",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e1bb4e437e69",
+  "raw": {
+    "headline": {
+      "zh": "老洋房里附赠栗子蛋糕",
+      "en": "Old villa with free chestnut cake"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "开在永康路老洋房内",
+        "en": "Housed in a historic villa on Yongkang Road",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "单点咖啡附赠栗子奶油蛋糕",
+        "en": "Coffee comes with a chestnut cream cake",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为手工咖啡和蓝山咖啡",
+        "en": "Specializes in hand-brewed and Blue Mountain coffee",
+        "from": [
+          8,
+          14
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "二楼靠窗可览永康路转角景致",
+        "en": "Second-floor window seats overlook the corner view",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日10:00-18:30营业，周一闭店",
+        "en": "Open Tue–Sun 10:00–18:30; closed Mondays",
+        "from": [
+          12,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          10
+        ],
+        "zh": "有窗景且提供座位久坐",
+        "en": "Window views encourage lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8,
+          14
+        ],
+        "zh": "主打手冲与蓝山咖啡",
+        "en": "Features hand-brewed and specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:14Z"
+}

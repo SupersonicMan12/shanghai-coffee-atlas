@@ -1,0 +1,85 @@
+{
+  "cafeId": "coffee-cube-lujiazuihuan-rd-717",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "def3ea645831",
+  "raw": {
+    "headline": {
+      "zh": "陆家嘴咖啡节首家实体店",
+      "en": "First physical store of Lujiazui Coffee Fest"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "陆家嘴咖啡节五年来首家实体店",
+        "en": "First physical store after five years of Lujiazui Coffee Fest",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "不定期更换不同品牌与烘焙师的咖啡豆",
+        "en": "Rotates beans from various roasters and brands",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有木质平台、桌椅和遮阳伞",
+        "en": "Outdoor wooden deck with tables, chairs, and umbrellas",
+        "from": [
+          1,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至次日凌晨2点",
+        "en": "Open until 2 a.m. the next day",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "常见交响乐团工作人员和媒体记者在此工作",
+        "en": "Frequented by orchestra staff and journalists working",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 75,
+        "from": [
+          12
+        ],
+        "zh": "适合办公人群",
+        "en": "Good for focused work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          12
+        ],
+        "zh": "有户外座位且有人久坐办公",
+        "en": "Outdoor seating and work-friendly"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "更换豆子并推主题咖啡",
+        "en": "Rotating beans and themed coffees"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:52Z"
+}

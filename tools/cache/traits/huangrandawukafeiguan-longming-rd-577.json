@@ -1,0 +1,45 @@
+{
+  "cafeId": "huangrandawukafeiguan-longming-rd-577",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9f52c3945647",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室内少量座位及室外座位",
+        "en": "Offers limited indoor and outdoor seating",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30至18:00营业",
+        "en": "Open daily 08:30–18:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供卡布奇诺、冰美式等饮品",
+        "en": "Serves cappuccino and iced Americano",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应下午茶和黄油",
+        "en": "Offers afternoon tea and butter",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:11Z"
+}

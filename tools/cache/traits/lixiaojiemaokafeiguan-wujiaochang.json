@@ -1,0 +1,75 @@
+{
+  "cafeId": "lixiaojiemaokafeiguan-wujiaochang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "05bee0f958ba",
+  "raw": {
+    "headline": {
+      "zh": "可撸猫的明亮玻璃房咖啡馆",
+      "en": "Bright glass-walled cafe with cats"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内光线明亮，木质地板",
+        "en": "Bright interior with wooden flooring",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供切块三明治类食物",
+        "en": "Serves pre-cut sandwiches",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有至少两只活动猫咪",
+        "en": "At least two resident cats roam the space",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 9 PM",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          2,
+          4,
+          5
+        ],
+        "zh": "有猫、明亮空间、猫爬架适合久坐",
+        "en": "Cats, brightness, and cat trees encourage lingering"
+      },
+      "energy": {
+        "value": 35,
+        "from": [
+          2
+        ],
+        "zh": "有猫活动但无喧闹证据",
+        "en": "Cats present but no evidence of noise"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:57Z"
+}

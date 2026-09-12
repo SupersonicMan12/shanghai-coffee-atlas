@@ -1,0 +1,41 @@
+{
+  "facts": [
+    {
+      "text": "提供浅烘美式、深烘拿铁、中烘澳白",
+      "kind": "drinks",
+      "quote": "推荐菜: 浅烘美式 深烘拿铁 中烘澳白",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjExMzI5OA==&mid=2651723303&idx=1&sn=9573105cf4fa5472059208be09f57013&chksm=85ad870ff9530e5a4fe28d6f89f5f6acbb6e28c51053664c273672e0899feef0212a182f7564&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于浦东新区樱花路814号",
+      "kind": "space",
+      "quote": "地址: 樱花路814号-1",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjExMzI5OA==&mid=2651723303&idx=1&sn=9573105cf4fa5472059208be09f57013&chksm=85ad870ff9530e5a4fe28d6f89f5f6acbb6e28c51053664c273672e0899feef0212a182f7564&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "咖啡厅环境小资，适合三五好友闲暇放松",
+      "kind": "view",
+      "quote": "氛围：环境十分小资，适合三五好友闲暇放松",
+      "url": "https://maps.apple.com/place?auid=1118819640379614&lsp=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "浦东新区咖啡厅“好评TOP 10”排行榜出炉,上榜名单新鲜一览 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjExMzI5OA==&mid=2651723303&idx=1&sn=9573105cf4fa5472059208be09f57013&chksm=85ad870ff9530e5a4fe28d6f89f5f6acbb6e28c51053664c273672e0899feef0212a182f7564&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "1883 Cafe Bar in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118819640379614&lsp=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:21Z"
+}

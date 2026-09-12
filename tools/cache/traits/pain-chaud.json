@@ -1,0 +1,52 @@
+{
+ "cafeId": "pain-chaud",
+ "model": "qwen-max",
+ "inputDigest": "4f3544a92b90",
+ "raw": {
+  "headline": {
+   "zh": "招牌杏仁可颂，8点排队成风景",
+   "en": "Famous for almond croissants, queues at 8 AM"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "人气菜式包括杏仁可颂、栗子挞",
+    "en": "Popular for almond croissants, chestnut tarts",
+    "from": 3
+   },
+   {
+    "kind": "seating",
+    "zh": "提供梳化座位",
+    "en": "Sofa seating available",
+    "from": 1
+   },
+   {
+    "kind": "space",
+    "zh": "位于889广场首层，270度弧形玻璃幕墙",
+    "en": "On the ground floor with a 270° curved glass wall",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 60,
+    "from": 1,
+    "zh": "有Wi-Fi和舒适的梳化座位",
+    "en": "Wi-Fi and sofa seats"
+   },
+   "energy": {
+    "value": 40,
+    "from": 6,
+    "zh": "早上8点就有队伍，但总体安静",
+    "en": "Quiet, except for 8 AM queue"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "舒适的座位适合久坐",
+    "en": "Comfortable seating for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:10:10Z"
+}

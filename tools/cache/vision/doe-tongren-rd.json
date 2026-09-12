@@ -1,0 +1,59 @@
+{
+  "cafeId": "doe-tongren-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "47118cb529a4",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/bb6c3de19dfea98890d0a6eaa40b3013",
+    "http://store.is.autonavi.com/showpic/4369ba4d08b00ec713d84b87135ed4ea",
+    "http://store.is.autonavi.com/showpic/6b70900a7fc95be380fb45a05f1a775b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "室内有阶梯式长木凳，座位数量级为some",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街有大面积玻璃窗，采光好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内右侧设吧台与货架，空间开阔",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "纸杯印有DOE COFFEE字样，属店内饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内左侧墙面为裸露砖墙，材质可见",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口地垫文字部分可见，非核心信息",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:54Z"
+}

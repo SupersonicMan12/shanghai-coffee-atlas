@@ -1,0 +1,70 @@
+{
+ "cafeId": "bluebottlecoffee-shangshengxinsuo",
+ "model": "qwen-max",
+ "inputDigest": "ce4d1cd3062e",
+ "raw": {
+  "headline": {
+   "zh": "独占整栋洋楼，复古与现代交融",
+   "en": "Entire vintage building, blend of old and new"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "挑高三角形屋顶结构，白色条状吊顶嵌入筒灯",
+    "en": "High triangular roof with white strip ceiling lights",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供海耶斯谷(浓缩)、贝拉多曼等经典拼配咖啡",
+    "en": "Offers Hayes Valley (espresso), Bella Donovan, etc.",
+    "from": 9
+   },
+   {
+    "kind": "food",
+    "zh": "裕通小食——精选上海老字号传统点心",
+    "en": "Yutong snacks - traditional Shanghai treats",
+    "from": 12
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周五 09:00-18:00，周六至周日 09:00-20:00",
+    "en": "Mon-Fri 09:00-18:00, Sat-Sun 09:00-20:00",
+    "from": 16
+   },
+   {
+    "kind": "people",
+    "zh": "适合办公，有人在用电脑",
+    "en": "Suitable for work, people seen using laptops",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 7,
+    "zh": "有人在用电脑",
+    "en": "People working on laptops"
+   },
+   "energy": {
+    "value": 30,
+    "from": 7,
+    "zh": "适合办公，相对安静",
+    "en": "Quiet, suitable for work"
+   },
+   "linger": {
+    "value": 70,
+    "from": 7,
+    "zh": "适合久坐办公",
+    "en": "Good for long stays"
+   },
+   "adventure": {
+    "value": 50,
+    "from": 9,
+    "zh": "既有经典拼配也有手冲",
+    "en": "Classic blends and pour-over options"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:01Z"
+}

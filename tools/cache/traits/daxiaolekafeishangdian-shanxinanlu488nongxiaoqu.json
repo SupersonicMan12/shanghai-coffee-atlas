@@ -1,0 +1,75 @@
+{
+  "cafeId": "daxiaolekafeishangdian-shanxinanlu488nongxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a901d0d4e863",
+  "raw": {
+    "headline": {
+      "zh": "浅烘带茶味，配焙茶布丁",
+      "en": "Tea-like light roast with matcha pudding"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用浅烘豆子，带有茶味",
+        "en": "Light-roast beans with tea notes",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供白胡子美式咖啡",
+        "en": "Serves 'White Beard' Americano",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应焙茶布丁和柠檬鼠尾草司康",
+        "en": "Offers matcha pudding and lemon sage scones",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有1把中古椅和3个木凳，可坐4人左右",
+        "en": "Outdoor seating: 1 vintage chair + 3 stools (~4 people)",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末09:00开门，平日10:00-18:00",
+        "en": "Open 09:00 weekends, 10:00–18:00 weekdays",
+        "from": [
+          5,
+          13,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "有放空角落适合放松",
+        "en": "Has a corner to zone out"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "豆子风味独特带茶感",
+        "en": "Unusual tea-like coffee profile"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:00Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "parsons-coffee",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "e803a834a653",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHK466E/comment/content_media_external_file_58615_1766573833628_43961803.jpg",
+    "https://store.is.autonavi.com/showpic/ce396359b6493dea0000003093378458?type=pic",
+    "https://aos-comment.amap.com/B0FFHK466E/comment/content_media_external_file_58615_1766573833394_05794843.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "左侧墙面挂一把原声吉他，下方为橙色软包卡座靠背。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "窗上贴有圣诞花环、彩球与'Merry Christmas'字样装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "右侧立一棵装饰圣诞树，挂金/红/蓝球、松果、星星与小礼物盒。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台上方招牌为'PARSONS COFFEE'立体字，带背光。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后方挂三块黑底菜单板，可见'Classic Coffee'等分类及价格（如18, 25元）。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前设弧形浅色柜台，陈列小摆件、相框、干花与小型圣诞装饰。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "左侧有玻璃冷柜，内陈列瓶装饮料（含NFC果汁、气泡水等）及部分糕点。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "天花板暴露白色管道与黄色木条结构，装多盏轨道射灯。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:45Z"
+}

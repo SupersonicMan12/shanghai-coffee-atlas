@@ -1,0 +1,56 @@
+{
+  "cafeId": "dior-shanghaiqiantantaiguli",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1d3dc053044e",
+  "raw": {
+    "headline": {
+      "zh": "国内首家迪奥咖啡馆",
+      "en": "China's first DIOR café"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有绿植环绕的户外桌椅",
+        "en": "Outdoor seating surrounded by greenery",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供多种口味冰淇淋",
+        "en": "Serves multiple ice cream flavors",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供杯装饮品",
+        "en": "Offers takeaway-style drinks",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-22:00营业",
+        "en": "Open daily 10am–10pm",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "国内首家迪奥咖啡馆",
+        "en": "China’s first DIOR café",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:17Z"
+}

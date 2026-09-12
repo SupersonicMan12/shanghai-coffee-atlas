@@ -1,0 +1,71 @@
+{
+  "cafeId": "grid-coffee-qibaolingzhan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e49a3b455976",
+  "photos": [
+    "https://aos-comment.amap.com/B0MBKCR1RR/comment/%5B2026-03-09-17-07-14%5DCD155D11-FD5F-41EB-9C83-503FAEA117B_1773047252025_13220397.jpg",
+    "https://store.is.autonavi.com/showpic/996b246d5622022271371a6762374810",
+    "https://aos-comment.amap.com/comment/content_service__1772959475478_44600074_1772959477032_48418335.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，入口宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有高脚桌和椅子供顾客使用",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见顾客在店内坐着",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有宣传立牌展示饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有吧台区域，可看到咖啡制作设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "天花板为木质结构，照明充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有安全出口标识",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:39Z"
+}

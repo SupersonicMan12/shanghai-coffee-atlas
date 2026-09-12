@@ -1,0 +1,60 @@
+{
+  "cafeId": "cafe-bar-xibutongyili",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "40cd35b7f2d6",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/6FFC86E4_D699_49F2_B704_F2B5D8F2F6B8_L0_001_1500_200_1763430724716_05386565.jpg",
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14292_ss__1761124545634_25899686.jpg",
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14296_ss__1761124545629_08913347.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅和靠垫，适合休闲坐席",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有红色木椅，位于临街位置",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供透明杯装饮品，含冰块与绿叶装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有切片千层蛋糕，呈多层结构，顶部为粉红色",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为砖墙结构，带玻璃门，门口设红色座椅",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯上有“CAFE & BAR”字样，推测为该店出品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:27Z"
+}

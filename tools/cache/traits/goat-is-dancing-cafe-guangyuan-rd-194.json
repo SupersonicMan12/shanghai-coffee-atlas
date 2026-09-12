@@ -1,0 +1,66 @@
+{
+  "cafeId": "goat-is-dancing-cafe-guangyuan-rd-194",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4da466e58c80",
+  "raw": {
+    "headline": {
+      "zh": "胡辣汤咖啡配肉桂",
+      "en": "Spicy coffee with thick cinnamon"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "特色咖啡含胡辣汤，撒厚厚肉桂粉",
+        "en": "Signature coffee with spicy broth and thick cinnamon",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店面临街，整面玻璃窗",
+        "en": "Street-facing with full glass windows",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "店内可见手冲设备和咖啡器具",
+        "en": "Visible pour-over setup and brewing tools",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间至19:00（周一至周日）",
+        "en": "Open daily until 19:00",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "位于街角，邻近美容店",
+        "en": "Corner location next to a beauty salon",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          8
+        ],
+        "zh": "饮品含胡辣汤非常规",
+        "en": "Unusual spicy coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:13Z"
+}

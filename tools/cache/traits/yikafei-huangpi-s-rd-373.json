@@ -1,0 +1,67 @@
+{
+  "cafeId": "yikafei-huangpi-s-rd-373",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b5504c834a58",
+  "raw": {
+    "headline": {
+      "zh": "临街老房配熊猫瓦当套餐",
+      "en": "Panda Wa Dang set in old street house"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供熊猫瓦当套餐及多种糕点面包",
+        "en": "Serves Panda Wa Dang sets and pastries",
+        "from": [
+          4,
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-17:30营业",
+        "en": "Open daily 09:00–17:30",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品含拿铁、抹茶及瓶装即饮饮料",
+        "en": "Drinks include latte, matcha, bottled beverages",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "套餐价格55元至118元",
+        "en": "Sets priced from ¥55 to ¥118",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:27Z"
+}

@@ -1,0 +1,40 @@
+{
+ "cafeId": "bread-etc-gaoan",
+ "model": "qwen-max",
+ "inputDigest": "f2453c37b98b",
+ "raw": {
+  "headline": {
+   "zh": "早售罄的面包与自然光下的早午餐",
+   "en": "Early-sold bread and natural light brunch"
+  },
+  "traits": [
+   {
+    "kind": "light",
+    "zh": "自然光照充足，适合享受早午餐",
+    "en": "Plenty of natural light for brunch",
+    "from": 1
+   },
+   {
+    "kind": "food",
+    "zh": "招牌有籽面包、布拉塔吐司和魔法咖啡",
+    "en": "Seed loaf, burrata toast, and magic coffee",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 30,
+    "from": 1,
+    "zh": "适合轻度办公或休闲",
+    "en": "Light work or leisure"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "可以坐下来慢慢享用",
+    "en": "Good for a sit-down meal"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:48Z"
+}

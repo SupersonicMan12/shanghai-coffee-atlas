@@ -1,0 +1,52 @@
+{
+ "cafeId": "ops-taiyuan",
+ "model": "qwen-max",
+ "inputDigest": "65831c5f8f3e",
+ "raw": {
+  "headline": {
+   "zh": "创意特调咖啡，无传统意式选项",
+   "en": "Creative coffee blends, no classic options"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "每季推出5-6款结合时令食材的特调",
+    "en": "5-6 seasonal specials with fresh ingredients",
+    "from": "[10]"
+   },
+   {
+    "kind": "space",
+    "zh": "店内面积不足10平方米，无座位",
+    "en": "Tiny 10m² space, no seating",
+    "from": "[8]"
+   },
+   {
+    "kind": "people",
+    "zh": "团队由冠军咖啡师及手冲亚军组成",
+    "en": "Team of champion baristas",
+    "from": "[13]"
+   },
+   {
+    "kind": "time",
+    "zh": "工作日排队约20分钟，周末40分钟",
+    "en": "20 min queue on weekdays, 40 min weekends",
+    "from": "[15]"
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": "[8]",
+    "zh": "顾客需站立消费",
+    "en": "Standing only"
+   },
+   "adventure": {
+    "value": 90,
+    "from": "[9][11]",
+    "zh": "创意特调，融合多种食材",
+    "en": "Creative blends, many ingredients"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:10:01Z"
+}

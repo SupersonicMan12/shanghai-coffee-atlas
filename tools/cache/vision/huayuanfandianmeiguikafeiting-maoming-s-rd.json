@@ -1,0 +1,71 @@
+{
+  "cafeId": "huayuanfandianmeiguikafeiting-maoming-s-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "c8236cee8b3c",
+  "photos": [
+    "https://aos-comment.amap.com/B00155IS5C/comment/D480B302_FEC4_4AB8_AE18_4EA5D2AA1BD2_L0_001_1080_1440_1743824511547_57338303.jpg",
+    "https://aos-comment.amap.com/B00155IS5C/comment/CB7F538C_8620_4F83_A91E_34F2252856CA_L0_001_2000_150_1757998005515_33132725.jpg",
+    "http://store.is.autonavi.com/showpic/fd34de3ab43b4103803871856c13c265"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有汉堡、肋排、虾仁沙拉等西式主菜和配菜",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐盘上有虾仁、牛油果和鱼子酱的沙拉",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供提拉米苏甜点，配奶油和水果",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有橙色果汁饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有茶杯和面包片，像早餐或下午茶",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐具包含刀叉和筷子，服务中西餐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "餐桌铺编织餐垫，摆盘精致",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "第一张图背景有花瓶插花装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:47Z"
+}

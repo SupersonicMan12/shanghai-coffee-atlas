@@ -1,0 +1,67 @@
+{
+  "cafeId": "miracle-coffee-shanghaihubindao",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "66aa6f391a01",
+  "raw": {
+    "headline": {
+      "zh": "林俊杰自创咖啡首店",
+      "en": "JJ Lin's first coffee shop"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "由歌手林俊杰创立，大陆首店设于上海",
+        "en": "Founded by singer JJ Lin, first mainland store in Shanghai",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "每月更新不同产地自家烘焙单品豆",
+        "en": "Monthly rotating single-origin beans, house-roasted",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰酿、手冲、意式咖啡等饮品",
+        "en": "Serves cold brew, pour-over, and espresso drinks",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应抹茶蛋糕、提拉米苏等甜点",
+        "en": "Offers matcha cake and tiramisu",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00至22:00（网页）或21:30（高德）",
+        "en": "Open 10:00–22:00 (website) or until 21:30 (Gaode)",
+        "from": [
+          11,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "自烘豆+手冲+冰酿",
+        "en": "House-roasted beans, pour-over, cold brew"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:00Z"
+}

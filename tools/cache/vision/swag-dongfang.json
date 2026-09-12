@@ -1,0 +1,49 @@
+{
+  "cafeId": "swag-dongfang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c5408e4f2a4e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f2ba88986cf2b8b4a9381a0b4cddd0ef"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "夜间拍摄，店招有发光‘SWAG’字样及圆形霓虹灯牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "地面立有发光字牌‘Happy Planet’及小型菜单板",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处可见一盏照明灯与两个立式标牌（内容模糊）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "前景为低矮灌木丛，未见室外座位或桌椅",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "无窗户、吧台、座位、人、饮品、食物或器具可见",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:52Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "lanjinghongbeikafei-piqiugongyu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cd5439eece12",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFGLJ13V/comment/content_media_external_file_129267_ss__1751211752105_99434811.jpg",
+    "https://store.is.autonavi.com/showpic/64b7fbbd6a5a6e190000002546784913?type=pic",
+    "https://store.is.autonavi.com/showpic/9f3ad7cd910943f90000000851922512?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量座位",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有美式、拿铁、dirty等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供燕麦奶选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有生椰拿铁、黑糖拿铁等特色咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "价格在24-28元之间",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店临街，有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口悬挂鹿角蕨植物装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯为一次性纸杯，印有'BLUE'字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:06Z"
+}

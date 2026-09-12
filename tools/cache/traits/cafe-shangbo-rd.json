@@ -1,0 +1,48 @@
+{
+  "cafeId": "cafe-shangbo-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "51085a0ba3fd",
+  "raw": {
+    "headline": {
+      "zh": "话梅拿铁等特调",
+      "en": "Plum-infused coffee specialties"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供话梅拿铁、话梅气泡美式、椰青美式",
+        "en": "Serves plum latte, plum sparkling Americano, coconut water Americano",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "试营业期间每天10点至18点营业",
+        "en": "Open 10:00–18:00 during trial period",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "高德显示每日营业至22:00",
+        "en": "Listed as open until 22:00 daily on Amap",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          6
+        ],
+        "zh": "有话梅、椰青等特调",
+        "en": "Unusual plum & coconut drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:33Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "lintaihongbei-xiuyan-rd-1181",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d097093e27db",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/74598c0a0606cb860000002890230992?type=pic",
+    "https://store.is.autonavi.com/showpic/ab968d9f16b37f59f926acbc31220e36",
+    "https://aos-comment.amap.com/B0FFGRDY3S/comment/%5B2026-01-26-22-47-07%5D721BDDBB-BFDD-4922-A204-991C0F76024_1769438828856_49037225.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有临街座位，摆放桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有红色礼盒装的饼干和蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示蛋糕上有覆盆子、巧克力夹心饼干和坚果装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "礼盒内含玛德琳蛋糕、燕麦饼干、芝麻饼干等",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，门口有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店名标示为Mrs LIN RESTAURANT和Mrs LIN COFFEE & BAKERY",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内提供可颂、贝果类烘焙食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:51Z"
+}

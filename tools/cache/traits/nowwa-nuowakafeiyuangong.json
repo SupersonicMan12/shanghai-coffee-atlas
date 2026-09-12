@@ -1,0 +1,58 @@
+{
+ "cafeId": "nowwa-nuowakafeiyuangong",
+ "model": "qwen-max",
+ "inputDigest": "23d2bb30022a",
+ "raw": {
+  "headline": {
+   "zh": "小马果咖系列，突破咖啡定义",
+   "en": "Fruit Coffee Series, Redefining Coffee"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为‘小马果咖’系列",
+    "en": "Signature drinks: 'Little Horse Fruit Coffee' series",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "严选耶加雪菲、危地马拉等阿拉比卡豆种",
+    "en": "Selects Yirgacheffe, Guatemalan, and other Arabica beans",
+    "from": 2
+   },
+   {
+    "kind": "price",
+    "zh": "单杯价格约10元，主打平价精品",
+    "en": "Priced at around 10 RMB per cup, affordable quality",
+    "from": 3
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周日 10:00-17:00",
+    "en": "Open Mon-Sun 10:00-17:00",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 4,
+    "zh": "适合快速饮用",
+    "en": "Quick drink spot"
+   },
+   "linger": {
+    "value": 20,
+    "from": 4,
+    "zh": "站立式酒吧，适合短暂停留",
+    "en": "Standing bar, short stay"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 1,
+    "zh": "创新的‘小马果咖’系列",
+    "en": "Innovative fruit coffee series"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:38Z"
+}

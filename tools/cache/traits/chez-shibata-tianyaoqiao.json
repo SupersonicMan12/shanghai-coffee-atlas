@@ -1,0 +1,28 @@
+{
+ "cafeId": "chez-shibata-tianyaoqiao",
+ "model": "qwen-max",
+ "inputDigest": "afed25f15831",
+ "raw": {
+  "headline": {
+   "zh": "法式技艺日式简约，蛋糕上新日排长队",
+   "en": "French skill, Japanese simplicity, queues for new cakes"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌：蒙布朗和焙茶拿铁",
+    "en": "Signature: Mont Blanc + hōjicha latte",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 80,
+    "from": 1,
+    "zh": "蛋糕上新日排队人多",
+    "en": "Busy on cake launch days"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:58Z"
+}

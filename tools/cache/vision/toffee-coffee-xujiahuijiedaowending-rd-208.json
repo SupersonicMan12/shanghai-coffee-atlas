@@ -1,0 +1,65 @@
+{
+  "cafeId": "toffee-coffee-xujiahuijiedaowending-rd-208",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1e9ad171b694",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/89983812ac5b66739d5d2b37fd48aea9",
+    "https://store.is.autonavi.com/showpic/96e0a778a91c09ef0000000973008598?type=pic",
+    "https://store.is.autonavi.com/showpic/4bcf10356425511a0000002391412603?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃窗，可见街道景象",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有约5-8个座位，包括吧台和桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有一面大型花卉装饰墙",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见冷藏展示柜，内有饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一张照片展示了一杯冰咖啡，带标签",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有悬挂的绿植装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺位于徐家汇街道，临文定路",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:08Z"
+}

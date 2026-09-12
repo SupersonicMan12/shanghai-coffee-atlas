@@ -1,0 +1,67 @@
+{
+  "cafeId": "hubers-coffee-hubandashaxingyunkafei",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7cd4ac945624",
+  "raw": {
+    "headline": {
+      "zh": "5元起14元封顶现磨咖啡",
+      "en": "Premium coffee from ¥5 to ¥14"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "全店饮品5元起步、14元封顶",
+        "en": "Drinks range from ¥5 to ¥14",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自巴西等四国阿拉比卡",
+        "en": "Arabica beans from four origins",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设少量户外座位与遮阳棚",
+        "en": "Few outdoor seats with awning",
+        "from": [
+          1,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃门，采光良好",
+        "en": "Full glass facade, well-lit",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–18:00营业",
+        "en": "Open daily 08:30–18:00",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          12
+        ],
+        "zh": "约20㎡街边小店",
+        "en": "Tiny street-side shop"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:24Z"
+}

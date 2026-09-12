@@ -1,0 +1,77 @@
+{
+  "cafeId": "blacksheep-espresso-jianguo-middle-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e9a5c9505d37",
+  "raw": {
+    "headline": {
+      "zh": "自烘非洲豆，SOE奶咖突出",
+      "en": "House-roasted African beans, standout SOE milk coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自家烘焙，多款单一产地豆可选",
+        "en": "House-roasted with multiple single-origin options",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "黑咖啡用浅烘埃塞豆，奶咖用中深烘埃塞豆",
+        "en": "Black coffee: light-roast Ethiopian; milk coffee: medium-dark",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "SOE奶咖使用日晒埃塞俄比亚豆，风味突出",
+        "en": "SOE milk coffee features bold sun-dried Ethiopian beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "30平米，吧台与客座各占一半",
+        "en": "30 sqm space split evenly between bar and seating",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间8:00–16:00或17:00",
+        "en": "Open 8:00–16:00 or 17:00 daily",
+        "from": [
+          10,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "zh": "自烘+手冲+产地命名豆",
+        "en": "House-roasted, origin-named, pour-over"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "小空间仅半区为座位",
+        "en": "Limited seating in compact space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:22Z"
+}

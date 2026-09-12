@@ -1,0 +1,34 @@
+{
+ "cafeId": "wakewake",
+ "model": "qwen-max",
+ "inputDigest": "0e65a5f387d5",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "空间很小，适合站着快速喝完",
+    "en": "Tiny space, for quick standing drinks",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 80,
+    "from": 1,
+    "zh": "环境嘈杂热闹",
+    "en": "Loud and bustling"
+   },
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "鼓励站饮快走",
+    "en": "Quick in and out"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:38Z"
+}

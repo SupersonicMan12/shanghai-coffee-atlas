@@ -1,0 +1,71 @@
+{
+  "cafeId": "niuxiangkafei-jinhebalishiyun",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b82dfdce93f1",
+  "photos": [
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/F155D30B_47E8_4EF6_8C6C_90FC64AC868D_L0_001_1500_200_1768147885543_65761681.jpg",
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/bc17bf4b2d65612e26cb8dae01089337_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/3DE863CA_16C0_4960_B149_6F18FE6A67D9_L0_001_1500_200_1768736935839_89993308.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "吧台区有La Marzocco咖啡机和磨豆机，是专业手冲/意式店",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "货架陈列多款手冲滤杯、分享壶、量杯，设备齐全",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有“和歌山”等单品豆名，提供产地信息",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上挂有“六步溪”、“大烟枪”等咖啡豆袋，可零售",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植、小木桌、相框装饰，空间紧凑但整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见顾客或工作人员，无法判断是否适合工作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见一杯带拉花的拿铁和一杯黑咖啡，提供基础饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "无室外座位，未见窗户或自然采光来源",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:29Z"
+}

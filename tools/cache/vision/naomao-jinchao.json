@@ -1,0 +1,71 @@
+{
+  "cafeId": "naomao-jinchao",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "cc4f942406e7",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKDDW2I5/comment/40942e35270978feb50dcec22b5179ae_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKDDW2I5/comment/5D0CC4B9_723E_4EB7_A55E_8C3E3851656C_L0_001_2000_103_1770532251767_34231424.jpg",
+    "https://aos-comment.amap.com/B0HKDDW2I5/comment/7959c9125313767d99aee027f4e0a1c3_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于砖墙巷道内，悬挂黑底白字'ARK LIVE HOUSE'招牌，旁立'naomao cafe'卡通猫A字牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设浅绿色金属椅与木圆桌，属室外座位；巷道两侧有其他店铺及行人。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图可见玻璃门入口，门内有吧台/服务台结构，但室内细节不可辨。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "第二张图：红色桌面上有拉花咖啡（熊脸图案）与红色猫形镜面蛋糕，配叉子与纸巾。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图中蛋糕为红色镜面淋面，顶部用白色奶油点出猫眼、鼻、嘴及耳廓。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图：桌上摆玻璃锤纹茶壶（含橙片）、两小玻璃杯、木质托盘，背景有马卡龙、橙皮蛋糕等甜点。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图桌面为水磨石拼色台面，背景可见藤编椅与绿植，属半户外或庭院式座位区。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张图中均未见电脑、烘焙机、手冲台、虹吸壶、磨豆机、书架或宠物。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:02Z"
+}

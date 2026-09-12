@@ -1,0 +1,40 @@
+{
+ "cafeId": "soeng-lok",
+ "model": "qwen-max",
+ "inputDigest": "ecc1e966a103",
+ "raw": {
+  "headline": {
+   "zh": "复古老洋房里的快闪咖啡体验",
+   "en": "Pop-up cafe in vintage mansion"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "位于百年老洋房内，地板吱吱作响",
+    "en": "In a creaky, century-old house",
+    "from": 2,
+    "},5]\"from\": [1, 6], \"en\": \"Pour-over in a historic setting\", \"zh\": \"招牌手冲在百年房间里\"}, {\"kind\": \"time\", \"zh\": \"营业时间：周一至周日10:00-18:00\", \"en\": \"Open 10:00-18:00 daily\", \"from\": 3}, {\"kind\": \"story\", \"zh\": \"计划作为只开2年的快闪店\", \"en\": \"Planned as a 2-year pop-up\", \"from\": 4}]},": "traits"
+   },
+   "axisHints"
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 70,
+    "from": 1,
+    "zh": "提供SOE和手冲咖啡",
+    "en": "SOE and pour-over options"
+   },
+   "linger": {
+    "value": 80,
+    "from": 2,
+    "},": "value"
+   }
+  },
+  "linger": {
+   "value": 80,
+   "from": 2,
+   "},": "value"
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:23Z"
+}

@@ -1,0 +1,54 @@
+{
+  "cafeId": "lachaojibanfen-dayangjingdian-tiananqianshu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "54e10f9d9a44",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供辣味拌粉、汤面及瓦罐汤等餐食",
+        "en": "Serves spicy noodles, soups, and claypot broth",
+        "from": [
+          2,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "配菜含鱼块、豆芽、青菜和豆粒",
+        "en": "Toppings include fish, bean sprouts, greens, beans",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设桌椅，支持堂食",
+        "en": "Has tables and chairs for dine-in",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 21:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "部分菜品价格为14元",
+        "en": "Some dishes priced at ¥14",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:40:32Z"
+}

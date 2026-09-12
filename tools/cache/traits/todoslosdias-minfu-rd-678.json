@@ -1,0 +1,65 @@
+{
+  "cafeId": "todoslosdias-minfu-rd-678",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5b0d6b2bc5f1",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配圣诞装饰",
+      "en": "Street-facing glass windows with Christmas decor"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可见圣诞装饰",
+        "en": "Full street-facing glass windows, visible Christmas decorations",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜有肉桂坚果法棍、香肠牛角包等烘焙食品",
+        "en": "Display case with cinnamon-nut baguette, sausage croissant, etc.",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位区有桌椅，但数量不多",
+        "en": "Seating area with tables and chairs, limited in number",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-17:30",
+        "en": "Open daily 7:30–17:30",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "价格标签显示法棍14元、牛角包18元",
+        "en": "Priced at ¥14 for baguette, ¥18 for croissant",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "座位数量不多",
+        "en": "Limited seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:50Z"
+}

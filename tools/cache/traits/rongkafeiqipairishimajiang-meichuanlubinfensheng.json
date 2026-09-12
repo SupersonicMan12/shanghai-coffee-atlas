@@ -1,0 +1,30 @@
+{
+  "cafeId": "rongkafeiqipairishimajiang-meichuanlubinfensheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6e104481718f",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨2点",
+        "en": "Open daily until 2 a.m.",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗采光",
+        "en": "Full-height street-facing windows for light",
+        "from": [
+          1,
+          4,
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:40:34Z"
+}

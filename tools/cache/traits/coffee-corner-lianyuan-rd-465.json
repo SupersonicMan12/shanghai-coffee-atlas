@@ -1,0 +1,29 @@
+{
+  "cafeId": "coffee-corner-lianyuan-rd-465",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d2a696c30754",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐饮品为咖啡",
+        "en": "Coffee listed as recommended drink on Gaode",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:36Z"
+}

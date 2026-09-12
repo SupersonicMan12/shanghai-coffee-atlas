@@ -1,0 +1,88 @@
+{
+  "cafeId": "cafe-chez-w",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ed92095dd8c7",
+  "raw": {
+    "headline": {
+      "zh": "肉桂苹果奶咖配老洋房",
+      "en": "Cinnamon-apple latte in a heritage house"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌奶咖含肉桂与苹果糖浆",
+        "en": "Signature latte with cinnamon and apple syrup",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "香山路独栋小洋房带二楼露天阳台",
+        "en": "Heritage house with a second-floor outdoor balcony",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "意式咖啡用哥斯达黎加深烘豆",
+        "en": "Espresso uses Costa Rican dark roast beans",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手作司康、姜糖、果干等",
+        "en": "Homemade scones, ginger candy, dried fruits",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–17:30营业",
+        "en": "Open daily 09:30–17:30",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          5,
+          7
+        ],
+        "zh": "有Wi-Fi、充电、安静阳台",
+        "en": "Wi-Fi, outlets, quiet balcony"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          5,
+          6,
+          7
+        ],
+        "zh": "露天位适合久坐看书办公",
+        "en": "Balcony invites long stays"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          3,
+          4,
+          13
+        ],
+        "zh": "特色风味奶咖与手冲选项",
+        "en": "Flavored lattes and pour-over options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:13Z"
+}

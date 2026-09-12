@@ -1,0 +1,71 @@
+{
+  "cafeId": "dou-coffee-roasters-shenchengli",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "d1027ac8b6a4",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f955810786581b8d0000002388402218?type=pic",
+    "https://aos-comment.amap.com/B0IB1UFJVN/comment/BD27CA0A_C03E_42AB_8792_37693A895F87_L0_001_1500_2000_1750205652980_99155804.jpg",
+    "https://aos-comment.amap.com/B0IB1UFJVN/comment/content_media_external_images_media_1000074226_ss__1726193965543_27996857.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "门口有石狮子和盆栽，台阶上放着绿植和小花。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方是木质柜台，上方挂红色帷幕和迪厅球。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内墙面为裸露石墙，置物架上陈列手冲滤杯和杯子。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上有一台黑色磨豆机，品牌为DOU COFFEE ROASTERS。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "架子上有一个灰色毛绒咖啡杯玩偶，旁边有玻璃器皿。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外立牌显示地址为嘉善路121号，无室外座位。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台旁可见Brewista电水壶和手冲壶，用于制作饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内未见顾客或工作人员，也无人使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:09:03Z"
+}

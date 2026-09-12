@@ -1,0 +1,59 @@
+{
+  "cafeId": "algebraist-shanghaizhongxintaifuguangchang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e3d2d6dafd2e",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "http://store.is.autonavi.com/showpic/3d377da172475f15d2f902da152d939a",
+    "https://aos-comment.amap.com/B0HKTM2UIZ/comment/235b5f092ed3b6642e5db9b5b4816bd6_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台式布局，后方货架陈列多包咖啡豆。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有高脚凳，座位数量级为few。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有专业咖啡机、磨豆机等器具。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有落地玻璃窗，可看见街道。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立牌展示饮品图，含拿铁与冰饮。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台侧面有发光字“代数学家”。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:47Z"
+}

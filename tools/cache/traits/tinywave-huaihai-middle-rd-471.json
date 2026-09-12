@@ -1,0 +1,74 @@
+{
+  "cafeId": "tinywave-huaihai-middle-rd-471",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cb3e1b964a52",
+  "raw": {
+    "headline": {
+      "zh": "香水与咖啡的临街小店",
+      "en": "Perfume and coffee on the street"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街整面玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "少量座位，主要为站立式吧台",
+        "en": "Limited seating; mostly standing bar",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡，配有专业器具",
+        "en": "Offers pour-over with dedicated gear",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "同时售卖香水与咖啡",
+        "en": "Sells both perfume and coffee",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          8
+        ],
+        "zh": "以站立吧台为主",
+        "en": "Mostly standing bar"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "设有手冲咖啡设备",
+        "en": "Features pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:35Z"
+}

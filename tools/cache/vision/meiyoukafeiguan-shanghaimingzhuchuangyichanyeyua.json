@@ -1,0 +1,65 @@
+{
+  "cafeId": "meiyoukafeiguan-shanghaimingzhuchuangyichanyeyua",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6eec35ef9262",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/beb6e5d72dd3ea4ed62b2bcb614255a1",
+    "http://store.is.autonavi.com/showpic/48f2c3c4c43be705d0ae8397d8bc661b",
+    "http://store.is.autonavi.com/showpic/9d4cca41451eac4412ca70a8571e918a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺为复古火车造型，位于绿树环绕的户外区域",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外有自行车停放，靠近人行道",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见陈列柜，展示小型模型与摄影器材",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前设有遮阳棚，有粉色布帘覆盖部分区域",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺周围有树木和灌木，环境绿化良好",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外观为木质结构，带有金属顶棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见相机镜头与微型人物模型摆放",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:18Z"
+}

@@ -1,0 +1,57 @@
+{
+  "cafeId": "glamour-cafe-beishi-rd-554",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "04a03b0bba5d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b114bfe5c2b1dfd4664227cc1c93fbf1",
+    "https://store.is.autonavi.com/showpic/25bf45d6bad38f25798e396615ce8072"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有三张高脚凳靠吧台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域和部分内部空间",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有电动车停放",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街道旁，有树木和人行道",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立有招聘广告牌",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:57Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "slab-town-fumin-rd-210",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "9de1910909b2",
+  "raw": {
+    "headline": {
+      "zh": "手冲豆选择多的小店",
+      "en": "Multiple single-origin pour-overs"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚、哥斯达黎加等手冲单一产地豆",
+        "en": "Offers Ethiopian, Costa Rican single-origin pour-overs",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "用浅烘和深烘拼配豆做奶咖与美式",
+        "en": "Serves milk coffee and Americano with light/dark blends",
+        "from": [
+          6,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内约20多平米，空间小巧整洁",
+        "en": "Compact, tidy space around 20 sqm",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "朝东临街整面玻璃窗",
+        "en": "Full east-facing street-front glass",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日8:00-18:30，周末8:00-19:00",
+        "en": "Open 8–18:30 weekdays, till 19:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "空间仅20多平米",
+        "en": "Only ~20 sqm"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "四款处理法不同的手冲豆",
+        "en": "Four distinct single-origin options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:22Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "d-orino-coffee-kangding-rd-833",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8c9a16455367",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9cfe70c16e4e39c70000002444408521?type=pic",
+    "https://aos-comment.amap.com/B0J3K5SILU/comment/content_media_external_file_1000024867_ss__1769996791066_67106174.jpg",
+    "https://aos-comment.amap.com/B0J3K5SILU/comment/EC4B0E0F_BD24_4B31_B2FA_5047BFC2A83B_L0_001_1504_200_1768737908204_42628239.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外放一把折叠椅和一个小凳子，无固定室外座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域有专业磨豆机、手冲壶、滤杯等器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方木架上陈列多种手冲滤杯与玻璃壶。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间狭长，以吧台和置物架为主，无大桌区。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店员在操作咖啡设备，顾客坐在吧台边看手机。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有落地玻璃门，室内光线明亮，可见部分街景。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上放着一台POS机和一个纸袋，未见菜单或价格。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "左侧是红砖老建筑楼梯，右侧是咖啡店入口，临街。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:39Z"
+}

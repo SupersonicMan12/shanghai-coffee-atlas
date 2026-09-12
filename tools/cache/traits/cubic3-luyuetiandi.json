@@ -1,0 +1,57 @@
+{
+  "cafeId": "cubic3-luyuetiandi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "eceb3d3cb553",
+  "raw": {
+    "headline": {
+      "zh": "5元起的自烘精品咖啡",
+      "en": "Premium roasted coffee from ¥5"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供全球50多产地现烘咖啡豆",
+        "en": "Offers freshly roasted beans from 50+ origins",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为标准美式咖啡单人餐",
+        "en": "Signature is standard Americano single set",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主打低价精品咖啡的连锁品牌",
+        "en": "Chain brand focused on affordable specialty coffee",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-18:00，周末9:00-18:00",
+        "en": "Open 8–18 weekdays, 9–18 weekends",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "支持现烘多产地豆",
+        "en": "Fresh-roasted, diverse beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:23Z"
+}

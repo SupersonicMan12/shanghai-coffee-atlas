@@ -1,0 +1,72 @@
+{
+  "cafeId": "wuqiongkafeiguan-jiyagongyu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "09c288ce2e41",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFL6OQ3E/comment/4FB0D7F7_C7F9_4F91_A1FA_9F949AC0D9BC_L0_001_1500_2000_1736940071282_05421946.jpg",
+    "https://aos-comment.amap.com/B0FFL6OQ3E/comment/0B1B9ABB_E256_4615_A901_30C5996E2CA7_L0_001_1500_2000_1732759107016_24164456.jpg",
+    "https://store.is.autonavi.com/showpic/e6f6cf04028dd8c00000001498864458?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰拿铁类，顶部有奶泡和橙皮装饰",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有美式、拿铁、抹茶牛奶等饮品，价格在22-25元之间",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供巧克力拿铁、白桃美式、红酒拿铁等新品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品搭配小块巧克力饼干，置于竹制托盘上",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，摆放书籍和麻布包，氛围文艺",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "使用黑胶唱片作为杯垫，具有复古风格",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有手冲咖啡器具可见，表明支持手冲服务",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单标注日本茶选项，包括台湾木瓜花乌龙等",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:41Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "tiankafeishanghaigongzuoshi-hunanlujiedaoxinle-r",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "32f0d4cc85d1",
+  "photos": [
+    "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165823_17115034.jpg",
+    "https://store.is.autonavi.com/showpic/a4f614ae2ecd0b0b2500adcfdd29eba4",
+    "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165822_15137391.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡台和器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "木质桌面，摆放着玻璃壶和陶瓷杯",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过窗户可见室外绿树",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有大扇黑色窗框的窗户",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "悬挂着黄色纸灯笼，光线柔和",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上放置有小碗和装饰品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:46Z"
+}

@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "露天座位，现磨手冲咖啡",
+      "kind": "story",
+      "quote": "露天座位現磨咖啡手沖咖啡販售咖啡豆",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/stop-coffee-52379632/",
+      "site": "stop coffee (陸家嘴, 上海) – 菜單、評論及資訊 - Trip.com"
+    },
+    {
+      "text": "售卖咖啡豆，可购精品咖啡",
+      "kind": "beans",
+      "quote": "現磨咖啡手沖咖啡販售咖啡豆",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/stop-coffee-52379632/",
+      "site": "stop coffee (陸家嘴, 上海) – 菜單、評論及資訊 - Trip.com"
+    },
+    {
+      "text": "提供多种咖啡制作方式",
+      "kind": "drinks",
+      "quote": "熟练使用各种咖啡设备独立制作各种咖啡",
+      "url": "https://www.zhipin.com/job_detail/d0f877b38474ad571XN-0tu1FVBQ.html",
+      "site": "Boss直聘"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "「什么是咖啡师」Stop Coffee2026年咖啡师岗位职责-BOSS直聘",
+      "url": "https://www.zhipin.com/job_detail/d0f877b38474ad571XN-0tu1FVBQ.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 2,
+      "title": "stop coffee (陸家嘴, 上海) – 菜單、評論及資訊 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/stop-coffee-52379632/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "來廣州旅行，必定打卡本土精品咖啡PAIX COFFEE☕️ - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/guangzhou-152-149060627/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "别再瞎选咖啡豆了!2026十大热门产区盘点,风味差距超乎想象!",
+      "url": "https://baijiahao.baidu.com/s?id=1875368651934638066",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "热爱咖啡的朋友,错过这座城市真得很可惜!",
+      "url": "https://zhuanlan.zhihu.com/p/524864232",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:56Z"
+}

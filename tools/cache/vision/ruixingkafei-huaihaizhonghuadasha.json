@@ -1,0 +1,71 @@
+{
+  "cafeId": "ruixingkafei-huaihaizhonghuadasha",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "dd744aadf9c1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
+    "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5",
+    "http://store.is.autonavi.com/showpic/df29e3efe2e2889f16021641afb5bf26"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "第一张为瑞幸咖啡品牌标志：深蓝色鹿头剪影+白色鹿身，下方黑体字‘luckin coffee’。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张展示一杯冰饮：透明杯装，含珍珠、咖啡层、牛奶层，顶部有奶油与焦糖酱装饰；杯身印有瑞幸鹿标。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张为热饮：玻璃杯装拿铁，表面有心形拉花；旁置一小杯牛奶与散落咖啡豆。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "三张图均未显示店内实际空间、座位、窗户、人员或设备。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张饮品杯身可见‘luckin coffee’字样及鹿标，但无价格、豆种或菜单信息。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张中咖啡豆为深烘外观，但产地、品牌不可辨识。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "无任何照片显示吧台、磨豆机、手冲台、烘焙机等专业器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "无照片显示书架、植物、宠物、电脑使用者或室外区域。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:51Z"
+}

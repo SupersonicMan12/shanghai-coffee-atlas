@@ -1,0 +1,59 @@
+{
+  "cafeId": "songguokafeixiuxiancanting-qibaowanke",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "53329650eef0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ca0a794b187ea67c33db60d6fd551250",
+    "http://store.is.autonavi.com/showpic/2db890d1257a9e9866c08eb01589cc2a",
+    "http://store.is.autonavi.com/showpic/8692c3af36fbbd854f6a1e10a1338450"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口摆放多盆花卉",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供意大利面类食物",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供青豆类蔬菜沙拉",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于临街位置",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有绿色灌木丛",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:06Z"
+}

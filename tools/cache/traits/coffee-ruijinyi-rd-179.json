@@ -1,0 +1,78 @@
+{
+  "cafeId": "coffee-ruijinyi-rd-179",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "dc8e6409ae06",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+手工低糖点心",
+      "en": "House-roasted beans & low-sugar pastries"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "用double船长深烘豆（巴新+哥斯达黎加拼配）",
+        "en": "Uses 'Double Captain' dark roast (Papua New Guinea + Costa Rica)",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "另用中烘‘叁叁拼配’豆（日晒GUJI+水洗耶加）",
+        "en": "Also serves medium-roast 'San San Blend' (Guji natural + Yirgacheffe washed)",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "秋冬限定伯爵拿铁含自家熬制伯爵茶与佛手柑油",
+        "en": "Seasonal Earl Grey latte with house-made tea & bergamot oil",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "贝果、司康、磅蛋糕等标价售卖，标榜纯手工低糖低脂",
+        "en": "Handmade low-sugar, low-fat bagels, scones, and cakes priced individually",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有室外座位，堂食区较大",
+        "en": "Outdoor seating available; spacious indoor seating area",
+        "from": [
+          5,
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "有室外座且堂食区大",
+        "en": "Spacious indoor & outdoor seating"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "zh": "自拼豆+限定创意拿铁",
+        "en": "Custom blends & seasonal specialty lattes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:26Z"
+}

@@ -1,0 +1,64 @@
+{
+  "cafeId": "algebraist-shanghaixingjuhuidasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3f801541fd0f",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/1dd842989020e7ba40f291a617928b6c",
+    "https://store.is.autonavi.com/showpic/0394b22c5e08c3ac7299320f4653f175"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，临街玻璃门设计",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分座位，数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有宣传立牌，显示饮品信息",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店名标识为‘代数学家咖啡’和‘algebraist’",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门上有红色三角形与方形组合标志",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见一人坐着，疑似顾客",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:15Z"
+}

@@ -1,0 +1,67 @@
+{
+  "facts": [
+    {
+      "text": "位于虹口区吴淞路30号，拥有16年历史",
+      "kind": "story",
+      "quote": "Altcoffee，一家位於虹口區吳淞路30號的小咖啡館，擁有着16年的歷史",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/alt-coffee-16952197/",
+      "site": "Alt Coffee (上海外灘核心區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "使用来自世界不同国家不同产地不同品种的新鲜咖啡豆",
+      "kind": "beans",
+      "quote": "擁有來自世界不同國家不同產地不同品種的新鮮咖啡豆",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/alt-coffee-16952197/",
+      "site": "Alt Coffee (上海外灘核心區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "采用独特的松屋式萃取方法",
+      "kind": "beans",
+      "quote": "配合獨特的松屋式萃取方法",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/alt-coffee-16952197/",
+      "site": "Alt Coffee (上海外灘核心區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "只做手冲，松屋式手冲，复式空间熟客围坐",
+      "kind": "drinks",
+      "quote": "上海的“Alt家”(松屋式手冲,复式空间熟客围坐)",
+      "url": "https://k.sina.com.cn/article_7879996579_1d5af34a306801j06y.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "出售自家烘焙咖啡豆",
+      "kind": "beans",
+      "quote": "☕️出售自家烘培咖啡豆",
+      "url": "https://www.illy.com.tw/blogs/coffee-knowledge/coffee-bean-types",
+      "site": "咖啡豆種類怎麼分？3大品種、5大產地與風味差異完整介紹 - illy Taiwan"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Alt Coffee (上海外灘核心區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/alt-coffee-16952197/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "手冲咖啡正宗咖啡店怎么选?3个维度带你找到灵魂咖啡馆+FAQ",
+      "url": "https://k.sina.com.cn/article_7879996579_1d5af34a306801j06y.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡豆種類怎麼分？3大品種、5大產地與風味差異完整介紹 - illy Taiwan",
+      "url": "https://www.illy.com.tw/blogs/coffee-knowledge/coffee-bean-types",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:53Z"
+}

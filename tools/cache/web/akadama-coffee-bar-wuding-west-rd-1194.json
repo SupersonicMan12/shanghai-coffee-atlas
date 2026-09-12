@@ -1,0 +1,74 @@
+{
+  "facts": [
+    {
+      "text": "店内提供日本豆，有二三十年经验的咖啡师。",
+      "kind": "story",
+      "quote": "姐是冲咖啡的高手，二三十年的经验。日本豆",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAHqTRLsrGSajpD2RmMYvyXB_Ivbid35Ma2zTKPAydKgaaPu2zGO2mdwjHUmK9Gswe",
+      "site": "抖音"
+    },
+    {
+      "text": "日式自烘焙咖啡，松香味明显。",
+      "kind": "beans",
+      "quote": "其松香味更加明显，从第一口到最后一口都一脉相承。",
+      "url": "https://zhuanlan.zhihu.com/p/695100110",
+      "site": "知乎"
+    },
+    {
+      "text": "营业时间：咖啡10:00-20:00，酒20:00-02:00。",
+      "kind": "time",
+      "quote": "营业时间：咖10:00-20:00 酒20:00-02:00",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAHqTRLsrGSajpD2RmMYvyXB_Ivbid35Ma2zTKPAydKgaaPu2zGO2mdwjHUmK9Gswe",
+      "site": "抖音"
+    },
+    {
+      "text": "店内环境舒适，具有很日式的感觉。",
+      "kind": "space",
+      "quote": "环境：很舒适，很日式的感觉",
+      "url": "https://maps.apple.com/place?auid=1118652264444121&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "有柴犬KONA在店内。",
+      "kind": "people",
+      "quote": "店内有柴犬KONA",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAHqTRLsrGSajpD2RmMYvyXB_Ivbid35Ma2zTKPAydKgaaPu2zGO2mdwjHUmK9Gswe",
+      "site": "抖音"
+    },
+    {
+      "text": "对单身顾客特别关怀，服务态度好。",
+      "kind": "people",
+      "quote": "尤其是她一个人来的时候，这家店服务态度特别好",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "赤瑕Akadama Coffee&Bar的主页- 抖音",
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAHqTRLsrGSajpD2RmMYvyXB_Ivbid35Ma2zTKPAydKgaaPu2zGO2mdwjHUmK9Gswe",
+      "site_name": "抖音"
+    },
+    {
+      "index": 2,
+      "title": "Chixia Akadama Coffee & Bar in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118652264444121&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡饕餮杂谈-2024年4月拾遗：赤瑕咖啡 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/695100110",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:48Z"
+}

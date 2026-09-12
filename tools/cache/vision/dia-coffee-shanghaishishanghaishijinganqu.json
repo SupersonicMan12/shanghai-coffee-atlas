@@ -1,0 +1,59 @@
+{
+  "cafeId": "dia-coffee-shanghaishishanghaishijinganqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "974d6c7bc549",
+  "photos": [
+    "https://aos-comment.amap.com/B0HA77055V/comment/d1b7763c2536ae8f092d1767ab739c29_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HA77055V/comment/content_media_external_file_1000003481_ss__1762620347245_13222026.jpg",
+    "https://aos-comment.amap.com/B0HA77055V/comment/2141268dc5c191005e96707af409f8af_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门口有两棵大树，临街玻璃门，可见店内有人坐着。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拉花咖啡，杯型为白色陶瓷杯，放在红色桌面上。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "红色门上写有WiFi密码和“Bathroom”，门旁有木架和花瓶。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见至少一位顾客坐在吧台前，背对镜头。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立柱遮挡部分视线，店面为临街一层小空间。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "店内未见明显烘焙机或手冲台等专业设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:45Z"
+}

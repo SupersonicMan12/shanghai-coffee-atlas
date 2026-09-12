@@ -1,0 +1,57 @@
+{
+  "cafeId": "pacific-coffee-osm-2",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e3eecb513861",
+  "raw": {
+    "headline": {
+      "zh": "含酒手调与自烘豆",
+      "en": "Alcoholic drinks and house-roasted beans"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含玫瑰汾酒的橙风酣梦美式等手调饮品",
+        "en": "Serves alcoholic handcrafted drinks like orange dream americano",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚SOE日晒耶加雪菲豆",
+        "en": "Uses Ethiopian SOE Yirgacheffe beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间多为09:00–22:00或10:00–21:00",
+        "en": "Usually open 09:00–22:00 or 10:00–21:00",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "1992年香港创立，定位高端商务咖啡",
+        "en": "Founded in Hong Kong in 1992 as premium business coffee",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "含酒手调与精品豆",
+        "en": "Alcoholic drinks & specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:48Z"
+}

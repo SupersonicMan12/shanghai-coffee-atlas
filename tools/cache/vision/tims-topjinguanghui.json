@@ -1,0 +1,58 @@
+{
+  "cafeId": "tims-topjinguanghui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2de8f2022a93",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/f9ebaf83ce79d0df19cee2bd94a34462",
+    "https://store.is.autonavi.com/showpic/ec1e0e7dc6fdb5ea8f2dd92f3dd2ea52"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场内，入口有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口摆放花篮和促销立牌，显示开业或活动信息",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见陈列柜，展示烘焙食品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口有Tims品牌纸杯模型，提示饮品服务",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有促销广告牌，标明买一赠一优惠",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺招牌显示“天好咖啡”和“Tim Hortons”，为连锁品牌",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:40Z"
+}

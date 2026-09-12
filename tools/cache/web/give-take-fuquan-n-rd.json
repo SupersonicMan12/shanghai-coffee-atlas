@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "空间充满米其林元素",
+      "kind": "space",
+      "quote": "这家熊爪咖啡充满了“米其林”元素。",
+      "url": "http://www.sohu.com/a/658441404_120044982",
+      "site": "搜狐"
+    },
+    {
+      "text": "使用回收建材倡导环保",
+      "kind": "story",
+      "quote": "新亮相的这家熊爪咖啡，100%使用回收建材，旨在倡导环保理念。",
+      "url": "https://www.jingan.gov.cn/rmtzx/003008/003008005/20230529/2b2c1657-dfd8-4b44-ad86-577b6f359729.html",
+      "site": "“上海静安”门户网站"
+    },
+    {
+      "text": "提供残障人士就业机会",
+      "kind": "story",
+      "quote": "公司残疾人用工比例超过80%，为一百多名残障人士提供了就业岗位。",
+      "url": "https://baike.baidu.com/item/熊爪咖啡（上海）餐饮有限公司/60036759",
+      "site": "百度百科"
+    },
+    {
+      "text": "有特调饮品和赠品",
+      "kind": "drinks",
+      "quote": "别错过特调饮品和赠品",
+      "url": "http://www.sohu.com/a/658441404_120044982",
+      "site": "搜狐"
+    },
+    {
+      "text": "地址位于福泉北路518号7座",
+      "kind": "view",
+      "quote": "这家熊爪咖啡的地址是福泉北路518号7座。",
+      "url": "http://www.sohu.com/a/658441404_120044982",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "在上海国际咖啡文化节 品味一杯“有温度”的咖啡 ",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260504/9db583c38a4a4837afe7dc3fa29ee7ba.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 2,
+      "title": "“熊爪咖啡”入驻临空园区咖啡馆福泉_北路",
+      "url": "http://www.sohu.com/a/658441404_120044982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "五年前,这家店火爆全上海!如今门店开到了新加坡 ",
+      "url": "https://m.gmw.cn/2025-04/02/content_1304006163.htm",
+      "site_name": "光明网"
+    },
+    {
+      "index": 4,
+      "title": "城市的温度,咖啡的温度 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/845144293",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "熊爪咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E7%86%8A%E7%88%AA%E5%92%96%E5%95%A1/56857450",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "熊爪咖啡(上海)餐饮有限公司",
+      "url": "https://baike.baidu.com/item/熊爪咖啡（上海）餐饮有限公司/60036759",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "2023上海咖啡节创意主题多 熊爪咖啡“跨界”亮相",
+      "url": "https://www.jingan.gov.cn/rmtzx/003008/003008005/20230529/2b2c1657-dfd8-4b44-ad86-577b6f359729.html",
+      "site_name": "“上海静安”门户网站"
+    },
+    {
+      "index": 8,
+      "title": "景东县:在云南咖啡里,遇见爱与温暖",
+      "url": "https://www.163.com/dy/article/IPHB8S53055040N3.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:15Z"
+}

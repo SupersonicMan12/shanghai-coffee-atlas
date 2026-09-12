@@ -1,0 +1,71 @@
+{
+  "cafeId": "tinywave-huaihai-middle-rd-471",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6fac27e024fd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4512669750c29749dbc5bcd26adf41ac",
+    "https://store.is.autonavi.com/showpic/36ab2e3958547b8d866eebef35406158",
+    "https://store.is.autonavi.com/showpic/6ee2bd4f2e0ea4b0da18034c017e0232"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和陈列架，提供香水与咖啡服务",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡制作设备，包括磨豆机和手冲器具",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有行人经过，夜间灯光照明良好",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质展示柜和白色柜台，空间整洁明亮",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "白天自然采光充足，透过玻璃窗可见街道树木",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间营业时店内灯光明亮，外部装饰有节日彩灯",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有少量座位，主要为站立式吧台区域",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:15:06Z"
+}

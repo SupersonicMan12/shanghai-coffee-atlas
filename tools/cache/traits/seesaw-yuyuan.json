@@ -1,0 +1,46 @@
+{
+ "cafeId": "seesaw-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "047cc3c072d6",
+ "raw": {
+  "headline": {
+   "zh": "2012年先锋，云南单品咖啡的代表",
+   "en": "2012 Pioneer, Yunnan Coffee Advocate"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "提供云南单品咖啡豆",
+    "en": "Yunnan single origin coffee beans",
+    "from": 8
+   },
+   {
+    "kind": "story",
+    "zh": "早期门店位于弄堂设计中心内",
+    "en": "Early store in a design center alley",
+    "from": 5
+   },
+   {
+    "kind": "price",
+    "zh": "均价30-40元，曾尝试降至9.9元",
+    "en": "Average price 30-40 yuan, tried 9.9 yuan",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "手冲单品咖啡概念",
+    "en": "Pour-over single origin concept"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "大空间适合久坐",
+    "en": "Large space for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:55Z"
+}

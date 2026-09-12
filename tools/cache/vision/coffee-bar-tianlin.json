@@ -1,0 +1,55 @@
+{
+  "cafeId": "coffee-bar-tianlin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b420de95dc6d",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f1b8f60ede352d10454c382c6d3317c8"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街商铺，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有少量绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有行人经过，非高峰时段",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺入口处可见室内部分区域",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门前有桌椅，可作室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺为小型独立店面，面积不大",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:11Z"
+}

@@ -1,0 +1,83 @@
+{
+  "cafeId": "jenny-s-bar-guinness-donghu-rd-7",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0a2b189655dc",
+  "raw": {
+    "headline": {
+      "zh": "临街健力士吧配分层酒",
+      "en": "Guinness tap with layered cocktails"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供三杯分层酒饮，含百利甜与卡鲁哇",
+        "en": "Serves three-layered cocktails with Baileys and Kahlúa",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "配备发光健力士啤酒龙头",
+        "en": "Features illuminated Guinness beer tap",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可看街景车辆",
+        "en": "Full street-facing glass with road view",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日营业至凌晨2点",
+        "en": "Open until 2 a.m., Tue–Sun",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为卡布奇诺",
+        "en": "Cappuccino listed as recommended dish",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有专业酒吧设备和紧凑空间",
+        "en": "Bar setup in tight space"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "空间紧凑不利久坐",
+        "en": "Compact layout limits lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "提供分层鸡尾酒与生啤",
+        "en": "Layered cocktails and draft stout"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:09Z"
+}

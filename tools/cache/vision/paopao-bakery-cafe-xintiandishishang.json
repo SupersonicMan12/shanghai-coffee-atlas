@@ -1,0 +1,71 @@
+{
+  "cafeId": "paopao-bakery-cafe-xintiandishishang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "25d87352b16e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4700b1a897d781d00000002712800296?type=pic",
+    "https://aos-comment.amap.com/B0J6SS1MTC/comment/36015980653e73e1cf820dd02d48e543_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J6SS1MTC/comment/A84FD56C_A59F_4F7E_A495_5EC2A146DA70_L0_001_1179_65_1763291204681_14675655.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为L形转角柜台式迷你烘焙店，招牌标有'PAOPAO Mini Bakery'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "柜台上方悬挂两块电子菜单屏，展示多款甜点图片；柜台前无顾客座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃展示柜中陈列可颂类面包，含覆椰蓉、覆树莓、覆粉色奶油及玫瑰花瓣等装饰",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "标价牌显示'斑斓椰汁糯米可颂'售价¥26，品名含中英文及配料说明",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "另一标价牌显示'开心果树莓可颂'售价¥29，标注'热销'标签",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "柜台材质为木纹条板+石材台面，顶部有弧形木质吊顶与嵌入式灯带",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内可见透明包装盒装商品及粉色手提袋，柜体带照明灯",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片1中可见后方有其他餐饮店（如绿色招牌'Wang'字样），属商场餐饮区环境",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:50Z"
+}

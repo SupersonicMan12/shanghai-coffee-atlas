@@ -1,0 +1,46 @@
+{
+ "cafeId": "lyze-beijing-w",
+ "model": "qwen-max",
+ "inputDigest": "aa5adca700aa",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "店内空间紧凑，有几张小桌和金属椅",
+    "en": "Compact space with small tables and metal chairs",
+    "from": 2
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing glass windows, open view",
+    "from": 7
+   },
+   {
+    "kind": "seating",
+    "zh": "店外台阶前设木质长凳",
+    "en": "Wooden bench in front of the store",
+    "from": 6
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": 8,
+    "zh": "常有办公人群但空间紧凑",
+    "en": "Office regulars, but compact"
+   },
+   "linger": {
+    "value": 30,
+    "from": 2,
+    "zh": "空间紧凑，适合短暂停留",
+    "en": "Compact, for brief stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:19Z"
+}

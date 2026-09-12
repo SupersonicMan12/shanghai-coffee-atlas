@@ -1,0 +1,52 @@
+{
+ "cafeId": "lb-shijihui",
+ "model": "qwen-max",
+ "inputDigest": "8de828c08100",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "商场内开放式空间，地面为高反光浅色地砖",
+    "en": "Open space inside the mall with light reflective tiles",
+    "from": 1
+   },
+   {
+    "kind": "seating",
+    "zh": "设长条白色吧台配6个黑色高脚凳及圆木桌配4个高脚凳",
+    "en": "Long white bar with 6 black stools and a round wooden table with 4 stools",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是层次分明的flat white，奶泡细腻绵密",
+    "en": "Signature flat white with distinct layers and creamy foam",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周五08:00-20:00；周六至周日09:00-19:00",
+    "en": "Mon-Fri 8am-8pm; Sat-Sun 9am-7pm",
+    "from": 12
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 6,
+    "zh": "无人使用笔记本电脑",
+    "en": "No one using laptops"
+   },
+   "linger": {
+    "value": 20,
+    "from": 10,
+    "zh": "站喝小店，快速服务",
+    "en": "Standing bar, quick service"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:45Z"
+}

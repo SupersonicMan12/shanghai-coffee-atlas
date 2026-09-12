@@ -1,0 +1,71 @@
+{
+  "cafeId": "chilly-bean-gubei",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "621f6cf92dbb",
+  "photos": [
+    "https://aos-comment.amap.com/B0K3VCR9ZT/comment/5733EDD2_7C42_45C8_90D4_530ECED48C5B_L0_001_1126_2000_1739800791423_65130753.jpg",
+    "http://store.is.autonavi.com/showpic/40667f69a319f3be071b7745173ddf2e",
+    "https://aos-comment.amap.com/B0K3VCR9ZT/comment/8F40811E_21D9_4AC6_9044_7525430E9468_L0_001_1080_1440_1739800791424_19319245.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "白色陶瓷杯盛咖啡，表面有心形拉花，杯口有棕边与蓝细线。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店招为‘COFFEE’大字，下方有‘CAFÉ DO BRASIL’字样及绿叶图案，材质似麻布拼贴。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内木质吧台面，置有灰色毛毡卡通造型纸巾盒、肯尼亚咖啡豆袋、书架（含《真需求》等书）。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙上软木板挂有红色‘福’字剪纸、日历卡片、钥匙与小装饰物。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台下方木架上放有棕色毛绒玩偶、相框、书籍及小摆件。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "入口处挂有白底黑字‘chilly’标牌，配简笔手绘图案。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.94
+    },
+    {
+      "text": "店内可见悬挂式球形吊灯，光线明亮，未见落地窗或临街大玻璃。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未出现座位、电脑、烘焙机、手冲台、虹吸壶、磨豆机或室外区域。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:57Z"
+}

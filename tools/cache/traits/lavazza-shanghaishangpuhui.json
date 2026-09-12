@@ -1,0 +1,84 @@
+{
+  "cafeId": "lavazza-shanghaishangpuhui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "033bfae9bb9c",
+  "raw": {
+    "headline": {
+      "zh": "亚洲首家CASA LAVAZZA文化之家",
+      "en": "Asia's first CASA LAVAZZA coffee cultural house"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "设专业手冲操作台，配备全球仅60台的37号老鹰咖啡机",
+        "en": "Features a professional pour-over station and the rare #37 Eagle espresso machine (one of only 60 worldwide)",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应上海限定拼配豆及‘橙力香草籽雪克美式’等健康饮品",
+        "en": "Serves Shanghai-exclusive blend and health-focused drinks like Orange Energy Vanilla Seed Shaker Americano",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "增设舒适靠窗座位，划分下午茶休憩与沙龙区域",
+        "en": "Offers comfortable window-side seating and designated areas for afternoon tea and salons",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "立体咖啡豆展示墙分层陈列生豆至深度烘焙豆",
+        "en": "Three-tiered coffee bean wall displays green, medium-roast, and dark-roast beans",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日07:00-18:00",
+        "en": "Open daily from 7:00 to 18:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 55,
+        "from": [
+          11
+        ],
+        "zh": "有靠窗座位但未提电源/网络",
+        "en": "Window seats provided but no mention of power or Wi-Fi"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          11
+        ],
+        "zh": "明确打破‘站着喝’模式，设休憩与沙龙区",
+        "en": "Explicitly designed for lingering with dedicated rest and salon zones"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "zh": "上海限定豆、雪克美式、手冲台、多层烘焙豆展示",
+        "en": "Shanghai-exclusive blend, shaker Americano, pour-over station, and multi-roast bean display"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:52Z"
+}

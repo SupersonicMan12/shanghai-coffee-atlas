@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是桂花拿铁、手工焦糖南瓜重芝士蛋糕等融合茶咖与西式甜点",
+      "kind": "drinks",
+      "quote": "具体品类包括拿铁、披萨、战斧牛排、红窑蛋糕、手工焦糖南瓜重芝士蛋糕...",
+      "url": "https://baike.baidu.com/item/一尺花园/65140314",
+      "site": "百度百科"
+    },
+    {
+      "text": "豆子融合中国茶文化，尝试碧螺春、西湖龙井、云南普洱等茶咖",
+      "kind": "beans",
+      "quote": "从碧螺春到西湖龙井到云南普洱进行不同的尝试,希望咖啡融合中国的茶文化",
+      "url": "https://www.jiamengfei.com/xm/312949",
+      "site": "加盟费查询网"
+    },
+    {
+      "text": "咖啡单价约40元，不参与低价战，弱化咖啡存在感，定位为‘进园门票’",
+      "kind": "drinks",
+      "quote": "居然有人卖40一杯,还能让顾客驱车60公里、排队3小时抢着去",
+      "url": "https://www.toutiao.com/article/7646510653733093903/",
+      "site": "今日头条"
+    },
+    {
+      "text": "门店多为超千平大店，含绿植造景、户外露营区、玻璃房，非站喝小店",
+      "kind": "space",
+      "quote": "对于一尺花园来说,1000平左右是标准面积,甚至不乏超2000平的门店",
+      "url": "https://www.sohu.com/a/888738239_121690814",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业时间覆盖早咖、午餐、下午茶、晚餐+微醺，全天候运营",
+      "kind": "time",
+      "quote": "早咖时段(拍照打卡); 午餐时段; 下午茶时段; 晚餐+微醺时段",
+      "url": "https://www.toutiao.com/article/7644602927436366345/",
+      "site": "今日头条"
+    },
+    {
+      "text": "品牌源于2015年陶家宅民宿，因客人需求自然生长出咖啡+简餐业态",
+      "kind": "story",
+      "quote": "一尺花园是一个从消费者需求里自然生长出来的品牌,一开始并没有清晰的定位",
+      "url": "https://finance.sina.cn/2025-04-16/detail-inetimrf4700365.d.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "一尺花园",
+      "url": "https://baike.baidu.com/item/一尺花园/65140314",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "一尺花园咖啡店加盟",
+      "url": "https://www.jiamengfei.com/xm/312949",
+      "site_name": "加盟费查询网"
+    },
+    {
+      "index": 3,
+      "title": "一尺花园_百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B8%80%E5%B0%BA%E8%8A%B1%E5%9B%AD/65140314",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "不靠咖啡赚钱,解拆一尺花园年入2000万的秘密!",
+      "url": "https://www.toutiao.com/article/7646510653733093903/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 5,
+      "title": "不靠咖啡赚钱,解拆一尺花园年入2000万的秘密!",
+      "url": "https://www.toutiao.com/article/7644602927436366345/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 6,
+      "title": "不靠咖啡赚钱,解拆一尺花园年入2000万的秘密!",
+      "url": "https://www.toutiao.com/article/7645414691237315087/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 7,
+      "title": "「一尺花园」合伙人:独特的咖啡体验空间,打造自然休闲新地标 - 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/586398734?utm_id=0",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "一尺花园:咖啡界一个特立独行的存在",
+      "url": "https://finance.sina.cn/2025-04-16/detail-inetimrf4700365.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "一尺花园是怎样将老建筑化蝶为城市新空间的?上海家宅_所在区域",
+      "url": "https://www.sohu.com/a/888738239_121690814",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:35Z"
+}

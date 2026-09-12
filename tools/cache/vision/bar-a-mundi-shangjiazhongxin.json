@@ -1,0 +1,65 @@
+{
+  "cafeId": "bar-a-mundi-shangjiazhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ab773e73a4eb",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/8d282f88a61bae4430365a045e3ce63a",
+    "http://store.is.autonavi.com/showpic/457f8fd22e4daf6451f85db56b1a99e1",
+    "http://store.is.autonavi.com/showpic/129df27146f84afea7349d13c98f2a53"
+  ],
+  "photoKinds": [
+    "food",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "儿童套餐含田鸡排堡、薯条、鸡翅和饮品，价格68元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供香槟与酒类饮品，标价888元的组合包含香槟和国王蛋糕",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和高脚凳，有少量座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见咖啡机、饮料制作设备及展示柜，具备饮品制作能力",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间为室内小型餐饮店，面积适中",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上显示饮品价格，如680元、320元等",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好，窗外可见街道环境",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:59Z"
+}

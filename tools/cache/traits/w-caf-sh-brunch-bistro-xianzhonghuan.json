@@ -1,0 +1,62 @@
+{
+  "cafeId": "w-caf-sh-brunch-bistro-xianzhonghuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "138f0f770bc4",
+  "raw": {
+    "headline": {
+      "zh": "庭院座位配精品新豆",
+      "en": "Courtyard seating with fresh single-origin beans"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设庭院式座位区，含草坪与绿植",
+        "en": "Outdoor courtyard seating with lawn and greenery",
+        "from": [
+          1,
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供多款新产季精品咖啡豆",
+        "en": "Offers multiple new-crop specialty coffee beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-21:00营业",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "zh": "有庭院沙发座适合久坐",
+        "en": "Courtyard sofas invite lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "主打新产季精品豆",
+        "en": "Features fresh single-origin beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:13Z"
+}

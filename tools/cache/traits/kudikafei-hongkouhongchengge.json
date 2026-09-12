@@ -1,0 +1,66 @@
+{
+  "cafeId": "kudikafei-hongkouhongchengge",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "569c0d5a7d73",
+  "raw": {
+    "headline": {
+      "zh": "站喝小店配亚洲果咖",
+      "en": "Stand-up spot with Asian fruit coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "仅1张小圆桌配2把椅子",
+        "en": "Only one small table with two chairs",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙等亚洲风味果茶",
+        "en": "Signature drinks include pandan mango coconut frappe",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，连三年获IIAC金奖",
+        "en": "100% Arabica beans, IIAC gold for three years",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至19:30",
+        "en": "Open weekdays until 19:30",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "座位极少仅容短暂停留",
+        "en": "Minimal seating for quick stops"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "主打亚洲风味创意饮品",
+        "en": "Asian-inspired creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:21Z"
+}

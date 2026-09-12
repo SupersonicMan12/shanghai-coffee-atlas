@@ -1,0 +1,90 @@
+{
+  "cafeId": "lagom-cafe-bar-jinganxingzuo",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "60b6b6bfea01",
+  "raw": {
+    "headline": {
+      "zh": "咖啡酒吧带露台",
+      "en": "Cafe-bar with outdoor terrace"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内外座位多，含露台",
+        "en": "Plenty of indoor and outdoor seats, including terrace",
+        "from": [
+          1,
+          2,
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应威士忌等烈酒",
+        "en": "Serves whiskey and other spirits",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备专业咖啡机与手冲台",
+        "en": "Equipped with pro coffee machine and pour-over station",
+        "from": [
+          7,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨3点",
+        "en": "Open until 3 a.m.",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内光线充足，有侧窗自然光",
+        "en": "Bright interior with natural light from side windows",
+        "from": [
+          8,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6,
+          9
+        ],
+        "zh": "座位多且有露台",
+        "en": "Many seats, terrace available"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          7,
+          11
+        ],
+        "zh": "有手冲台和专业设备",
+        "en": "Pour-over setup, pro gear"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          2,
+          4
+        ],
+        "zh": "有投影屏和城市景观露台",
+        "en": "Screen and city-view terrace"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:33Z"
+}

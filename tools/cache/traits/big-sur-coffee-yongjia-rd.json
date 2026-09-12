@@ -1,0 +1,72 @@
+{
+  "cafeId": "big-sur-coffee-yongjia-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c7ea0fb88c69",
+  "raw": {
+    "headline": {
+      "zh": "自烘精品手冲咖啡",
+      "en": "In-house roasted specialty pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用非洲与南美庄园豆，可追溯生豆来源",
+        "en": "Traceable beans from African and South American estates",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供肯尼亚TOH冠军、巴拿马瑰夏等手冲单品",
+        "en": "Champion lots like Kenya TOH and Panama Geisha",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一12:00-19:00，周二至周日8:00-19:00",
+        "en": "Open Mon 12–19, Tue–Sun 8–19",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "宠物友好，提供宠物温水",
+        "en": "Pet-friendly with warm water for pets",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡价格68–138元，现40元起",
+        "en": "Pour-overs from ¥40, ranging up to ¥138",
+        "from": [
+          1,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "zh": "多款竞赛级手冲豆与自烘体系",
+        "en": "Competition beans and in-house roasting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:39Z"
+}

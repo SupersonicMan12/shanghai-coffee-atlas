@@ -1,0 +1,86 @@
+{
+  "cafeId": "wabi-yuyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "eeeedfa3343d",
+  "raw": {
+    "headline": {
+      "zh": "侘寂风庭院咖啡配牛肉饭",
+      "en": "Wabi-sabi courtyard café with beef rice"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街玻璃窗带庭院户外座",
+        "en": "Street-facing glass with courtyard seating",
+        "from": [
+          1,
+          5,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌手做牛肉饭分大小碗",
+        "en": "Signature hand-made beef rice, small or large",
+        "from": [
+          13,
+          19
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供澳白、热红酒、威士忌",
+        "en": "Serves flat white, mulled wine, whiskey",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至23:00或24:00",
+        "en": "Open until 23:00–24:00 daily",
+        "from": [
+          12,
+          18
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "整体设计主打日本侘寂风格",
+        "en": "Designed in Japanese wabi-sabi style",
+        "from": [
+          9,
+          11,
+          16,
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          10,
+          11
+        ],
+        "zh": "有庭院可久坐",
+        "en": "Courtyard invites lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          17
+        ],
+        "zh": "手冲与酒咖结合",
+        "en": "Hand-drip and bar offerings"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:42Z"
+}

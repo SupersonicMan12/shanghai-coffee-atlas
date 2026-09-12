@@ -1,0 +1,59 @@
+{
+  "cafeId": "cafe-bar-xibutongyili",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "99ca8c47130a",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位，含靠垫木质座椅与临街红色木椅",
+        "en": "Indoor and outdoor seating with cushioned wood chairs and red street-side chairs",
+        "from": [
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供透明杯装饮品，含冰块与绿叶装饰",
+        "en": "Serves drinks in clear cups with ice and green leaf garnish",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应粉顶多层切片千层蛋糕",
+        "en": "Offers sliced mille crêpe cake with pink topping",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–20:00营业",
+        "en": "Open daily 08:30–20:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "zh": "有舒适室内外座位适合久坐",
+        "en": "Comfortable indoor/outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:28Z"
+}

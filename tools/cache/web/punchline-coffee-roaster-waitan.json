@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "text": "使用冠军豆和特定豆种",
+      "kind": "beans",
+      "quote": "这里的每一杯咖啡都是寻豆师的环球手记。",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供招牌饮品如圣诞姜饼人",
+      "kind": "drinks",
+      "quote": "冬季限定的 圣诞姜饼人 让人眼前一亮——浓缩咖啡与姜饼糖浆融合,",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    },
+    {
+      "text": "空间采用全黑主色调，工业风与老洋房的灵魂碰撞",
+      "kind": "space",
+      "quote": "店内采用全黑主色调,裸露的水泥梁柱与复古铜质吊灯形成强烈对比,",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "从豆子的挑选到冲煮的每一个细节,都能感受到主理人对咖啡的极致追求。",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间至22:00",
+      "kind": "time",
+      "quote": "⏰营业时间:9:00-22:00(周末建议10点前到店,避免排队)",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    },
+    {
+      "text": "品牌故事与创始人陈昱亨有关",
+      "kind": "story",
+      "quote": "品牌创始人及主理人为陈昱亨,其网络名为“路易欠蹬”。",
+      "url": "https://baike.baidu.com/item/Punchline%20Coffee%20Roaster/67339698",
+      "site": "百度百科"
+    },
+    {
+      "text": "价格特点人均45-60元",
+      "kind": "story",
+      "quote": "💰人均:45-60元(手冲咖啡38元起,特调45-55元)",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Punchline Coffee Roaster",
+      "url": "https://baike.baidu.com/item/Punchline%20Coffee%20Roaster/67339698",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "这家店让我重新定义精品咖啡的仪式感",
+      "url": "https://m.dianping.com/discovery/2241611829",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "保利·外滩曜|PARK77",
+      "url": "https://sh.fang.anjuke.com/loupan/532990/fujin-0105.html",
+      "site_name": "安居客"
+    },
+    {
+      "index": 4,
+      "title": "0元入场!“上海国际咖啡美食文化节”来了,打卡60+“啡常可”品牌!_一家",
+      "url": "https://www.sohu.com/a/497976322_121124453",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "Punchline Coffee&Roaster（外灘店） (上海外灘核心區)－餐牌",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-134845250/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "skr~这家能喝到冠军豆的咖啡馆惊艳的不只是咖啡 - 搜狐",
+      "url": "https://www.sohu.com/a/408359141_210176",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "Punchline Coffee&Roaster(同济大学店)-菜-洪都拉斯雪莉咖啡图片-上海",
+      "url": "https://www.dianping.com/shop/k3mHVldXxh1qHMu5/photos/tag-%E8%8F%9C-%E6%B4%AA%E9%83%BD%E6%8B%89%E6%96%AF%E9%9B%AA%E8%8E%89%E5%92%96%E5%95%A1",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海图书馆东馆 × 博华展览「咖啡文化空间」品牌招募令来啦!",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405257197532872966",
+      "site_name": "无"
+    },
+    {
+      "index": 9,
+      "title": "“上海国际咖啡美食文化节”即将启幕!60+全球品牌大集合,0元入场!_手机网易网",
+      "url": "http://m.163.com/dy/article/GN6NR1F70522BBQM.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 10,
+      "title": "Punchline Coffee & Roaster (Yongjiu Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F967AB9B6EA2&address=Zhenda+Road+No.560+Lawn+Tent+%28Room+111%29%2C+Baoshan%2C+Shanghai+China&coordinate=31.298367%2C121.409627&name=Punchline+Coffee+%26+Roaster+%28Yongjiu+Shop%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:22Z"
+}

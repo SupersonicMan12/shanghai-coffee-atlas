@@ -1,0 +1,71 @@
+{
+  "cafeId": "komeda-jinhongqiao",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "d6ad61075718",
+  "photos": [
+    "https://aos-comment.amap.com/B0JUAKJERE/comment/8F78EFC8_4DC2_4DF1_A870_68C15AD7DED4_L0_001_1500_200_1765172601794_90360684.jpg",
+    "https://store.is.autonavi.com/showpic/2039e5a696b4e5ee0000000720720821?type=pic",
+    "https://aos-comment.amap.com/B0JUAKJERE/comment/177256019027_1772560198310_49542547.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场内，红遮阳篷标有'KOMEDA'S Coffee®'，黑框玻璃门贴圣诞装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口处有砖墙、木质立柱与小圆桌；门内可见红色软包卡座及木质书架。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上摆放一杯黑咖啡（无奶）、烤吐司切片、一小份紫米团子，配纸巾与糖包。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "杯碟印有'Komeda's Coffee'蓝标logo；桌号牌显示'21'，为木质桌面。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "另一桌有两杯饮品：一杯纯牛奶/白咖啡，一杯顶部带大量鲜奶油的热饮。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "店内墙面为浅色木板；背景立牌绘有咖啡馆插画并印'Komeda's Coffee'字样。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "门上贴黄色'推 PUSH'标识；左侧立牌显示套餐价'5.90元'（部分可见）。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见任何人、电脑、烘焙机、手冲台、虹吸壶、磨豆机、植物或宠物。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:57Z"
+}

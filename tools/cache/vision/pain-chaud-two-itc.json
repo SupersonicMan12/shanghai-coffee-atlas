@@ -1,0 +1,71 @@
+{
+  "cafeId": "pain-chaud-two-itc",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "40da7108f804",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/659702b27b9732ff0000001908480189?type=pic",
+    "https://store.is.autonavi.com/showpic/5860d40d5e0aaa260000001908426996?type=pic",
+    "https://store.is.autonavi.com/showpic/0672e75b67a208b80000001908472241?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内提供多种泡芙和塔类甜点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见口味包括草莓、开心果抹茶等",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为一杯橙色系饮料，带吸管",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上清晰标注了甜点名称和价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "价格从38元到45元不等",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "部分甜点装饰有新鲜草莓和抹茶片",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大面积窗户，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗外可见绿色草坪景观",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:42Z"
+}

@@ -1,0 +1,64 @@
+{
+ "cafeId": "brewista-zhongxing",
+ "model": "qwen-max",
+ "inputDigest": "070f8c7f9834",
+ "raw": {
+  "headline": {
+   "zh": "体验手冲咖啡的全球风味",
+   "en": "Taste global pour-overs"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，可见城市街道与现代建筑",
+    "en": "Full street-facing glass, urban view",
+    "from": "[4], [5]"
+   },
+   {
+    "kind": "beans",
+    "zh": "手冲豆覆盖亚洲、非洲、南美洲等主要产地",
+    "en": "Pour-over beans from Asia, Africa, S. America",
+    "from": "[6]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "意式咖啡豆有三种选择",
+    "en": "Three types of espresso beans",
+    "from": "[7]"
+   },
+   {
+    "kind": "seating",
+    "zh": "至少2张小圆桌+4把椅子",
+    "en": "At least 2 small tables and 4 chairs",
+    "from": "[1]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[1]",
+    "zh": "有桌子和椅子，适合轻度工作",
+    "en": "Tables and chairs for light work"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[4]",
+    "zh": "临街但非闹市，相对安静",
+    "en": "Street-facing but not busy"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[1]",
+    "zh": "有座位，适合久坐",
+    "en": "Seating available, good for lingering"
+   },
+   "adventure": {
+    "value": 80,
+    "from": "[6], [8]",
+    "zh": "多种手冲豆和四段式变压萃取",
+    "en": "Variety in pour-overs and extraction"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:00Z"
+}

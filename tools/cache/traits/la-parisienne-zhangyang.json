@@ -1,0 +1,46 @@
+{
+ "cafeId": "la-parisienne-zhangyang",
+ "model": "qwen-max",
+ "inputDigest": "c2dd50fa9ec4",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "早上7点开门，9点前可买到牛角包",
+    "en": "Opens at 7, croissants gone by 9",
+    "from": "[1,2]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": "[1]",
+    "zh": "适合上班族快速购买",
+    "en": "Quick buy for workers"
+   },
+   "energy": {
+    "value": 80,
+    "from": "[1]",
+    "zh": "早高峰时银行家常来",
+    "en": "Busy with bankers in AM"
+   },
+   "linger": {
+    "value": 20,
+    "from": "[1]",
+    "zh": "适合快速买完带走",
+    "en": "Grab and go"
+   },
+   "adventure": {
+    "value": 20,
+    "from": "[1,2]",
+    "zh": "提供经典法式烘焙",
+    "en": "Classic French bakery"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:50Z"
+}

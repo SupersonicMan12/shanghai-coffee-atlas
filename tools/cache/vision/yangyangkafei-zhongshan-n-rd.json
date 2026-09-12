@@ -1,0 +1,71 @@
+{
+  "cafeId": "yangyangkafei-zhongshan-n-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0e0f79bf08c8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/854587504c04bfe10000003214806899?type=pic",
+    "http://store.is.autonavi.com/showpic/3ea972db31ccaa612b9ec10e66b390b6",
+    "http://store.is.autonavi.com/showpic/c6b536a5894a0e9fcd78082fdbffdd8a"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和操作区，空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有高脚凳，可坐少量顾客",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街有大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内有甜点或糕点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有手冲咖啡器具和虹吸壶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有花艺装饰，环境整洁",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品为拉花拿铁，杯具为蓝绿色",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:23:09Z"
+}

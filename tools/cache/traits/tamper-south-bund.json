@@ -1,0 +1,28 @@
+{
+ "cafeId": "tamper-south-bund",
+ "model": "qwen-max",
+ "inputDigest": "f708c5ecc057",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "在老码头建筑内烘焙咖啡豆",
+    "en": "Beans roasted in an old wharf building",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "自烘豆子，有特色",
+    "en": "In-house roasting, unique"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:57Z"
+}

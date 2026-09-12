@@ -1,0 +1,76 @@
+{
+  "cafeId": "moofin-jiangning-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "43fb82bd1bfc",
+  "raw": {
+    "headline": {
+      "zh": "天然酵母麦芬配肉桂卷",
+      "en": "Sourdough muffins with cinnamon rolls"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "麦芬用天然酵母制作，外壳香脆",
+        "en": "Muffins made with sourdough, crisp crust",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌肉桂卷覆肉桂粉酸奶油",
+        "en": "Cinnamon roll topped with spiced sour cream",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设室外露天长桌，宠物友好",
+        "en": "Outdoor long table, pet-friendly",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃，室内采光好",
+        "en": "Full-height street-facing windows, bright interior",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–20:00营业",
+        "en": "Open daily 08:00–20:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "提供免费Wi-Fi和充电",
+        "en": "Free Wi-Fi and charging"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4,
+          8
+        ],
+        "zh": "有室内外座位，环境简洁",
+        "en": "Indoor/outdoor seating, simple setting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:00Z"
+}

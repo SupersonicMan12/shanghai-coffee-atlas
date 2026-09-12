@@ -1,0 +1,28 @@
+{
+ "cafeId": "1454s-nanjing-w",
+ "model": "qwen-max",
+ "inputDigest": "e51fd7328157",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "藏在南京路旗舰店后的小巷里",
+    "en": "Hidden in a back alley behind Nanjing Road",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 60,
+    "from": 2,
+    "zh": "招牌饮品有特色",
+    "en": "Distinctive drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:48Z"
+}

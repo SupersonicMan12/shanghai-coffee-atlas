@@ -1,0 +1,83 @@
+{
+  "cafeId": "metal-hands-xiangyang-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "29f5bf42dc0d",
+  "raw": {
+    "headline": {
+      "zh": "拉杆机做Dirty，自烘手冲",
+      "en": "Lever-pull Dirty & house-roast pour-over"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌Dirty浓郁香醇，层次丰富",
+        "en": "Signature Dirty is rich and layered",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供自家烘焙的手冲咖啡",
+        "en": "Serves house-roasted pour-over coffee",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "使用17万元拉杆式咖啡机制作",
+        "en": "Brews with a ¥170k lever espresso machine",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "可看到店外梧桐树街景",
+        "en": "Views Shanghai's plane-tree-lined street",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-19:00营业",
+        "en": "Open daily 08:00–19:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          12
+        ],
+        "zh": "有桌椅和书，适合久坐",
+        "en": "Seating and books invite lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9,
+          13
+        ],
+        "zh": "自烘豆与稀有拉杆机",
+        "en": "House-roast beans & rare lever machine"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          4,
+          12
+        ],
+        "zh": "有人用平板办公聊天",
+        "en": "People work and chat with devices"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:19Z"
+}

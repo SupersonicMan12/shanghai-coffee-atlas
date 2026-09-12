@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是咖啡果皮茶拿铁",
+      "kind": "drinks",
+      "quote": "咖啡果皮茶拿铁 柳橙气泡美式",
+      "url": "https://m.dianping.com/shop/1410771530",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供巧克力奶昔和卡蒂姆果皮美式",
+      "kind": "drinks",
+      "quote": "巧克力奶昔 卡蒂姆果皮美式",
+      "url": "https://m.dianping.com/shop/1410771530",
+      "site": "大众点评网"
+    },
+    {
+      "text": "位于人民广场/南京路区域",
+      "kind": "space",
+      "quote": "人民广场/南京路 咖啡 营业中",
+      "url": "https://m.dianping.com/shop/1410771530",
+      "site": "大众点评网"
+    },
+    {
+      "text": "价格为22元/人",
+      "kind": "story",
+      "quote": "¥22/人",
+      "url": "https://m.dianping.com/shop/1410771530",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "人民广场/南京路咖啡",
+      "url": "https://m.dianping.com/shop/1410771530",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "漕河泾/田林咖啡",
+      "url": "https://m.dianping.com/shop/1517508284",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "提前一年！旺旺蔡旺庭用2年实现3年开100家邦德咖啡馆的目标！",
+      "url": "https://www.jiemian.com/article/15044751.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 4,
+      "title": "邦德咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E9%82%A6%E5%BE%B7%E5%92%96%E5%95%A1%E9%A6%86/67362049",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "邦德咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E9%82%A6%E5%BE%B7%E5%92%96%E5%95%A1/7728674",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "邦德咖啡久仰大名,这家始于1998年的老品牌 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/1673172138",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "邦德咖啡饮料-十大品牌网CNPP",
+      "url": "https://www.cnpp.cn/pinpai/4088174.html",
+      "site_name": "十大品牌网"
+    },
+    {
+      "index": 8,
+      "title": "邦德开出全球最高连锁咖啡馆,中国咖啡品牌站上423米天际线",
+      "url": "https://m.bjnews.com.cn/detail/1752650927129443.html",
+      "site_name": "新京报网"
+    },
+    {
+      "index": 9,
+      "title": "旺旺也要卷咖啡了？旗下邦德咖啡在上海落地首家Shake店 - 红餐网",
+      "url": "https://www.canyin88.com/kuaixun/2026/0908/113298.html",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "423米高空咖啡店开业,邦德直接把连锁咖啡的“天花板”捅破了",
+      "url": "https://post.m.smzdm.com/p/axdx4o03/",
+      "site_name": "什么值得买"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:59Z"
+}

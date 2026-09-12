@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "位于老洋房内，中西融合的装修布局",
+      "kind": "space",
+      "quote": "这是家开在老洋房里的老克勤咖啡馆。",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供手工咖啡和蓝山咖啡",
+      "kind": "drinks",
+      "quote": "店内的招牌是手工咖啡和蓝山咖啡",
+      "url": "https://cj.sina.com.cn/articles/view/6044000963/1684022c301901684q",
+      "site": "新浪网"
+    },
+    {
+      "text": "单点咖啡附赠栗子奶油蛋糕",
+      "kind": "food",
+      "quote": "并且单点咖啡还会配上一块栗子奶油蛋糕。",
+      "url": "https://cj.sina.com.cn/articles/view/6044000963/1684022c301901684q",
+      "site": "新浪网"
+    },
+    {
+      "text": "二楼靠窗位置可欣赏永康路转角景致",
+      "kind": "view",
+      "quote": "如果二楼有空位,靠窗坐着,整个转角的景致都能尽收眼底",
+      "url": "https://cj.sina.com.cn/articles/view/6044000963/1684022c301901684q",
+      "site": "新浪网"
+    },
+    {
+      "text": "木质古朴装修，充满老上海海派气息",
+      "kind": "space",
+      "quote": "木质的古朴装修,像是留住了老上海过往的时光",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site": "搜狐网"
+    },
+    {
+      "text": "营业时间至18:30",
+      "kind": "time",
+      "quote": "营业时间:周二至周日10:30-18:30",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "老派约会之必要终于打卡了之前一直想去的雷米咖啡和惠食佳 - 今日头条",
+      "url": "https://www.toutiao.com/w/1875156003625991/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 2,
+      "title": "雷米咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "喜欢复古咖啡店的,存好这8家店!_上海_古董_咖啡馆",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "别再City Walk了,来永康路City Chill一下!",
+      "url": "https://cj.sina.com.cn/articles/view/6044000963/1684022c301901684q",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "【Remi雷米】咖啡馆",
+      "url": "https://www.meipian.cn/513r4qac",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 6,
+      "title": "别再City Walk了,来永康路City Chill一下!",
+      "url": "https://www.163.com/dy/article/IB9SK6SE0522D84O.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "永康路咖啡一条街 - 上海游记攻略【携程攻略】",
+      "url": "https://you.ctrip.com/travels/shanghai2/4052162.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 8,
+      "title": "很乱很风情的永康路",
+      "url": "https://m.sohu.com/n/404076575/",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 9,
+      "title": "永康路,复活了! ",
+      "url": "https://news.sohu.com/a/878178806_391486",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:04:07Z"
+}

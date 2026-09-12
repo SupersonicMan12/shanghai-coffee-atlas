@@ -1,0 +1,34 @@
+{
+ "cafeId": "jardin-du-coq-wukang",
+ "model": "qwen-max",
+ "inputDigest": "2aec75a03c93",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "小巧的庭院，仿佛置身巴黎第六区",
+    "en": "Compact courtyard, feels like 6th arrondissement",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "树木营造出一定的静谧感",
+    "en": "Trees add a sense of calm"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "小院适合久坐享受",
+    "en": "Courtyard good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:48Z"
+}

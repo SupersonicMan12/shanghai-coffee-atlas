@@ -1,0 +1,77 @@
+{
+  "cafeId": "akadama-coffee-bar-wuding-west-rd-1194",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8ae3ead5b1aa",
+  "raw": {
+    "headline": {
+      "zh": "日式自烘焙配柴犬",
+      "en": "Japanese-roasted coffee with a Shiba"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用日本豆，松香味明显",
+        "en": "Uses Japanese beans with pine notes",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "窗边设卡座，配矮垫小木桌",
+        "en": "Window-side booths with low cushions and small wooden tables",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有柴犬KONA",
+        "en": "Shiba Inu KONA lives in-store",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "咖啡营业至20:00，酒水至次日2:00",
+        "en": "Coffee until 20:00, drinks till 02:00",
+        "from": [
+          9,
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供含冰淇淋、焦糖酱的甜品",
+        "en": "Serves ice cream dessert with caramel sauce",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          5,
+          10
+        ],
+        "zh": "窗座配书架盆栽，适合久坐",
+        "en": "Cozy window seats with plants"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "自烘焙日本豆带松香",
+        "en": "House-roasted Japanese beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:09Z"
+}

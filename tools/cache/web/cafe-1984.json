@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "text": "开在老式居民楼里，里面有很大的花园，墙壁上有各种涂鸦",
+      "kind": "space",
+      "quote": "开在老式居民楼里，里面装修布置的格外有情调!...还有个很大的花园，里面的墙壁上还有各种涂鸦。",
+      "url": "http://sh.bendibao.com/tour/20151026/146821_3.shtm",
+      "site": "本地宝"
+    },
+    {
+      "text": "书店一楼内侧空间安宁而柔和，大窗框住室外车水马龙风景",
+      "kind": "view",
+      "quote": "书店一楼内侧空间安宁而柔和...餐厅的大窗框自是一幅画框，框住室外的车水马龙成为一道流动的风景。",
+      "url": "https://zhuanlan.zhihu.com/p/61155229",
+      "site": "知乎"
+    },
+    {
+      "text": "提供插座让你使用电脑更加愉悦",
+      "kind": "seating",
+      "quote": "提供插座让你使用电脑更加愉悦。",
+      "url": "https://cn.tripadvisor.com/Attraction_Review-g308272-d2257707-Reviews-1984_bookstore-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "可以点一杯咖啡静静在这里读书工作，气氛悠闲舒适",
+      "kind": "people",
+      "quote": "可以点一杯咖啡静静在这里读书工作，气氛悠闲舒适。",
+      "url": "https://cn.tripadvisor.com/Attraction_Review-g308272-d2257707-Reviews-1984_bookstore-Shanghai.html",
+      "site": "Tripadvisor"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "1984 BOOKSTORE - 上海 - 本地宝",
+      "url": "http://sh.bendibao.com/tour/20151026/146821_3.shtm",
+      "site_name": "本地宝"
+    },
+    {
+      "index": 2,
+      "title": "1984书店(上海市) - 旅游景点点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Attraction_Review-g308272-d2257707-Reviews-1984_bookstore-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 3,
+      "title": "寻访最具上海风情的咖啡馆，在这里可以泡上一整天！ - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/61155229",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "藏在咖啡馆里的上海历史--文史 - 中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2022/0329/c404063-32386419.html",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:06Z"
+}

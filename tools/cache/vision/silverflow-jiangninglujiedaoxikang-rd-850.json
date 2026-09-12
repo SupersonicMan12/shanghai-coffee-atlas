@@ -1,0 +1,65 @@
+{
+  "cafeId": "silverflow-jiangninglujiedaoxikang-rd-850",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "78ea25adc48d",
+  "photos": [
+    "https://aos-comment.amap.com/B0KA17R9G0/comment/content_media_external_file_1000016344_ss__1758189790249_44142085.jpg",
+    "https://aos-comment.amap.com/B0KA17R9G0/comment/content_media_external_file_1000016346_ss__1758189790250_95342233.jpg",
+    "https://store.is.autonavi.com/showpic/55625e70e8d493be81ec53b84f80a814"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和顾客点单，空间为小型咖啡店",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有红色波点贝果造型雕塑",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示提供贝果、汉堡、早餐与午餐组合",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见烘焙设备与手冲器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有两位顾客正在点单",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口上方有绿植覆盖",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有展示柜陈列商品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:17:37Z"
+}

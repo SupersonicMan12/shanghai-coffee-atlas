@@ -1,0 +1,74 @@
+{
+  "cafeId": "luneurs-beiwaitanlaifushiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a15e5de1fc2d",
+  "raw": {
+    "headline": {
+      "zh": "法式冰淇淋配创意咖啡",
+      "en": "French ice cream with creative coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供甜梨美式、蜜桃云朵冷萃等特色咖啡",
+        "en": "Serves unique drinks like pear Americano and peach cold brew",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应焦糖海盐、黑巧克力等法式冰淇淋",
+        "en": "Offers French-style ice cream like salted caramel and dark chocolate",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "小型吧台配4-6个座位",
+        "en": "Small bar with 4–6 seats",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30-24:00营业",
+        "en": "Open daily 09:30–24:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "咖啡20-50元，冰淇淋35-50元",
+        "en": "Coffee ¥20–50, ice cream ¥35–50",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "座位少空间小",
+        "en": "Few seats, compact space"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "饮品口味新颖独特",
+        "en": "Unusual drink flavors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:13Z"
+}

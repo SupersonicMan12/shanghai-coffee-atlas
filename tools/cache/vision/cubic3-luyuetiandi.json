@@ -1,0 +1,59 @@
+{
+  "cafeId": "cubic3-luyuetiandi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "57caacfe2fb3",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7d9222d3875ce7340000000967558974?type=pic",
+    "https://store.is.autonavi.com/showpic/fcfc28ac6df6b767146f21a9cc1afe0c",
+    "https://store.is.autonavi.com/showpic/44d1ef2fbb3dffdd9741aebfddcff8a0"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和操作区，配备电子菜单屏",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡杯和玻璃杯，提供外带和堂食杯具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，入口处有金属卷帘门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "操作台上有磨豆机等设备，具备专业咖啡制作条件",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口上方有悬挂标识，显示为商场餐饮区域",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示的饮品杯有不同尺寸，适合多种容量需求",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:20:37Z"
+}

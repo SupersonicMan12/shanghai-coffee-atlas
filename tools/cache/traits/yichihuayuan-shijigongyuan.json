@@ -1,0 +1,77 @@
+{
+  "cafeId": "yichihuayuan-shijigongyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "39251f67931e",
+  "raw": {
+    "headline": {
+      "zh": "茶咖融合的千平园林店",
+      "en": "Tea-infused coffee in a 1000m² garden"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店面积约千平方米，含绿植造景与户外区",
+        "en": "Around 1000m² with greenery and outdoor seating",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "室外座位临水池，可观赏锦鲤游动",
+        "en": "Outdoor seats overlook a koi pond",
+        "from": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆融合碧螺春、龙井、普洱等中国茶",
+        "en": "Coffee infused with Chinese teas like Longjing",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含桂花拿铁",
+        "en": "Signature drink: osmanthus latte",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–21:00（周一至周日）",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          3,
+          6,
+          11
+        ],
+        "zh": "宽敞空间与景观座位适合久坐",
+        "en": "Spacious with scenic seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "茶咖融合与特色甜点具实验性",
+        "en": "Tea-coffee blends are experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:35Z"
+}

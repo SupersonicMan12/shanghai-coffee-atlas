@@ -1,0 +1,57 @@
+{
+  "cafeId": "xingrenkafei-dagu-rd-379",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a2e617c260bd",
+  "raw": {
+    "headline": {
+      "zh": "特调果咖价格亲民",
+      "en": "Affordable fruit-forward specialty drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供芭乐美式、菠萝冷萃等特调饮品",
+        "en": "Serves guava Americano and pineapple cold brew",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:00",
+        "en": "Open daily until 7pm",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可见室外绿化",
+        "en": "Full street-facing windows with outdoor greenery view",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "店内展示烘焙设备与罐装商品",
+        "en": "Features roasting equipment and packaged goods on display",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "含非传统水果特调",
+        "en": "Unusual fruit-based drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:53Z"
+}

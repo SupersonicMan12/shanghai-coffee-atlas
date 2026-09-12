@@ -1,0 +1,71 @@
+{
+  "cafeId": "yichihuayuan-luxungongyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2886755e02b1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1798a9a4ab8c14880000002097598686?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1771141634435_65482525_1771141676733_19968263.jpg",
+    "https://store.is.autonavi.com/showpic/2728bd1903e6e1ca0000004206998993?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "临水单层建筑，白墙黑边，一侧为大面积玻璃幕墙与开放式吧台入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店前设两块黑色A字立牌，印有‘一尺花园 咖啡 遇见美好’及‘one step garden’字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "右侧临水，水面平静，对岸有树木、步道与户外桌椅区（第二张图可见）",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见多人站立排队或等候，吧台区域有绿植与金属支架设备（疑似手冲架）",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处左侧有轮椅停放，地面为石砖铺装，店旁有粗大树干（悬铃木）",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图中店内可见圆形贴纸标示‘one step garden’，吧台内有暖光照明与操作台",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "无明确饮品、食物、菜单价格、豆子产地或烘焙机/磨豆机等专业设备可见",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "三张图均未见有人使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:18Z"
+}

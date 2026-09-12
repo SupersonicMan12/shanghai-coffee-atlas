@@ -1,0 +1,52 @@
+{
+  "cafeId": "jimeikafeiba-xietu-rd-1105",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9b0482abe42a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/fe37adba8561c5dd06a822ef087207fe",
+    "https://store.is.autonavi.com/showpic/531b6cb02ceea6d5807b35b9063fa43d",
+    "https://aos-comment.amap.com/B0LBCUBDUZ/comment/202509_04-16354_1756974952956_34836122.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面有室外遮阳伞，推测有室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内吧台区域可见咖啡机和磨豆机",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大型落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台旁摆放着鲜花和金属桶",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台上可见多个空玻璃杯和水槽",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:25:22Z"
+}

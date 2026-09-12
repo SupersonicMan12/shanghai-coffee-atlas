@@ -1,0 +1,71 @@
+{
+  "cafeId": "yangjingjiyikafeiguan-yangjingjiedaojuye-rd-717",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "99f0a4887735",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1ca7eaa4d51fe52d9b1bee567f057fae",
+    "http://store.is.autonavi.com/showpic/8cc9f4bb413ad6f41298e63f81a45b4b",
+    "https://store.is.autonavi.com/showpic/fe5513142d4051872ff9c011d5ecdf6c"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内空间宽敞，位于商场内",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有吧台和展示柜，提供饮品和食品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有几张桌椅供顾客使用",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见有人在店内用餐",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "墙上挂有宣传海报和照片墙",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板悬挂灯饰，照明充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中有包装食品和饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:35Z"
+}

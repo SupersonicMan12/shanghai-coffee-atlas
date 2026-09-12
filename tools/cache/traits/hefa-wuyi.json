@@ -1,0 +1,58 @@
+{
+ "cafeId": "hefa-wuyi",
+ "model": "qwen-max",
+ "inputDigest": "b9098b3e2261",
+ "raw": {
+  "headline": {
+   "zh": "亲民价格，地道上海话招牌",
+   "en": "Affordable, Shanghainese charm"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "日常供应危地马拉单品和花香拼配豆",
+    "en": "Guatemalan single-origin and floral blend beans",
+    "from": 7
+   },
+   {
+    "kind": "drinks",
+    "zh": "特色饮品包括桂花燕麦奶澳白、鲜椰奶拿铁等",
+    "en": "Signature drinks like osmanthus oat milk flat white",
+    "from": 9
+   },
+   {
+    "kind": "seating",
+    "zh": "11个座位，适合堂食与外带",
+    "en": "11 seats, good for dine-in and takeaway",
+    "from": 11
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间08:00—18:00",
+    "en": "Open 08:00-18:00",
+    "from": 12
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 40,
+    "from": 11,
+    "zh": "空间较窄，不太适合长时间工作",
+    "en": "Narrow space, not ideal for long work"
+   },
+   "energy": {
+    "value": 30,
+    "from": 6,
+    "zh": "无自然采光，依赖顶部荧光灯照明",
+    "en": "No natural light, fluorescent lighting"
+   },
+   "linger": {
+    "value": 40,
+    "from": 11,
+    "zh": "11个座位，可以坐一会儿",
+    "en": "11 seats, can linger a bit"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:37Z"
+}

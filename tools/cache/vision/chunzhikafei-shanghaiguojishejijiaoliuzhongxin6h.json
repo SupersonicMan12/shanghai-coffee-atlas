@@ -1,0 +1,51 @@
+{
+  "cafeId": "chunzhikafei-shanghaiguojishejijiaoliuzhongxin6h",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fdfeda323706",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/47f2efd637acae63d8b4f46b725b5093",
+    "http://store.is.autonavi.com/showpic/d20d29a2e5602cae3c5b4ff8161353ee"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，临街玻璃窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃窗可见店内有桌椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外停放着多辆共享单车。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外墙有绿色植物攀爬。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "另一张照片显示街道视角，可见对面建筑和招牌。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:25Z"
+}

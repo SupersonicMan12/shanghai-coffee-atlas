@@ -1,0 +1,84 @@
+{
+  "cafeId": "starbucks-roastery",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "995cc1600161",
+  "raw": {
+    "headline": {
+      "zh": "上海首家臻选烘焙工坊",
+      "en": "Shanghai's first Reserve Roastery"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "有城市限定特饮‘上海咖啡’",
+        "en": "Offers city-exclusive 'Shanghai Coffee'",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供小批量人文故事咖啡豆",
+        "en": "Serves small-batch beans with stories",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "双人下午茶套餐228元",
+        "en": "Afternoon tea for two at ¥228",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街整面大玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周五周六营业至午夜24点",
+        "en": "Open until midnight on Fri–Sat",
+        "from": [
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 85,
+        "from": [
+          15
+        ],
+        "zh": "常年人流密集",
+        "en": "Permanently crowded"
+      },
+      "adventure": {
+        "value": 90,
+        "from": [
+          7,
+          8,
+          16
+        ],
+        "zh": "特饮与冲煮工艺丰富",
+        "en": "Unique drinks and brewing methods"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          15,
+          3
+        ],
+        "zh": "可坐享下午茶与景观",
+        "en": "Space to linger with views"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:22Z"
+}

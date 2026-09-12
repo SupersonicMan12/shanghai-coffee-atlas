@@ -1,0 +1,71 @@
+{
+  "cafeId": "senleshenghuosenlanyingdi-kuoyinluyubohuanglujia",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "49b41743c202",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6d5a21f07a4cc09b0000003133438759?type=pic",
+    "https://store.is.autonavi.com/showpic/398d7640c7593052153baa16bac2c08e",
+    "https://aos-comment.amap.com/B0J0OCDJBT/comment/5788f516d9ee1077986c932b80fdb3f6_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "营地设有大型帐篷和户外休闲区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有多个遮阳棚和躺椅，适合户外休息",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内帐篷内设木制地板、炊具和吉他等设施",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "帐篷内部有悬挂式炊具和炉具，可进行露营烹饪",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外区域有绿植环绕，环境自然",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "场地包含多个大型帐篷结构，空间开阔",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "帐篷外部有彩旗装饰，氛围轻松",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "设有木质平台和家具，风格偏向自然露营",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:23Z"
+}

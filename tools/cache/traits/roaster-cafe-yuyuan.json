@@ -1,0 +1,47 @@
+{
+ "cafeId": "roaster-cafe-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "fb071da66aae",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "营业时间从早7点到下午5点",
+    "en": "Open from 7 AM to 5 PM",
+    "from": 5,
+    "},{": "time"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 3,
+    "zh": "适合专注工作",
+    "en": "Good for focused work"
+   },
+   "energy": {
+    "value": 20,
+    "from": 3,
+    "zh": "安静的小街",
+    "en": "Quiet street"
+   },
+   "linger": {
+    "value": 40,
+    "from": 3,
+    "zh": "座位不多，但可久坐",
+    "en": "Limited seating, but can linger"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 4,
+    "zh": "提供手冲咖啡",
+    "en": "Offers pour-over coffee"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:25Z"
+}

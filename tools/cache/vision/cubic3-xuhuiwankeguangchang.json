@@ -1,0 +1,53 @@
+{
+  "cafeId": "cubic3-xuhuiwankeguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4cde763c3464",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png",
+    "https://aos-comment.amap.com/B0KUAUCWGC/comment/30FB905C_6E0E_4853_A189_D74EBE4621F7_L0_001_1502_200_1760232154770_35897235.jpg",
+    "https://store.is.autonavi.com/showpic/66a0b65f6c9ae3290000003727744089?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内为小型咖啡店，空间紧凑",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机等专业器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上挂有彩色饮品图案装饰",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "手持一杯冰咖啡，杯身有店标",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有玻璃门窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:56Z"
+}

@@ -1,0 +1,64 @@
+{
+ "cafeId": "voyage-dongping",
+ "model": "qwen-max",
+ "inputDigest": "0e542ce07e68",
+ "raw": {
+  "headline": {
+   "zh": "透明玻璃馆内的瑰夏手冲",
+   "en": "Gesha pour-over in glass pavilion"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, wide view",
+    "from": "[5,8]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为香料黑巧烟熏深烘咖啡",
+    "en": "Signature: spiced, dark chocolate, smoky dark roast",
+    "from": "[3]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室外有高脚吧台凳座位",
+    "en": "Outdoor high stools seating",
+    "from": "[1,7]"
+   },
+   {
+    "kind": "beans",
+    "zh": "店内有Tiamo虹吸式咖啡壶",
+    "en": "Tiamo siphon coffee maker in store",
+    "from": "[2]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[2]",
+    "zh": "适合专注办公的环境",
+    "en": "Suitable for focused work"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[6]",
+    "zh": "安静的街道环境",
+    "en": "Quiet street environment"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[4,11]",
+    "zh": "提供舒适的久坐环境",
+    "en": "Comfortable for long sitting"
+   },
+   "adventure": {
+    "value": 80,
+    "from": "[2,3,10]",
+    "zh": "提供多种手冲和自烘豆",
+    "en": "Various pour-overs and self-roasted beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:17Z"
+}

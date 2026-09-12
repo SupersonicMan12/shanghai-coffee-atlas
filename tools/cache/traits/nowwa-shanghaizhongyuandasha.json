@@ -1,0 +1,78 @@
+{
+  "cafeId": "nowwa-shanghaizhongyuandasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9411fcac9bde",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗+室外庭院",
+      "en": "Floor-to-ceiling street-facing windows + outdoor courtyard"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "透过整面临街落地窗可见室外庭院和绿树",
+        "en": "Floor-to-ceiling street-facing windows open to an outdoor courtyard with green trees",
+        "from": [
+          4,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内为开放式座位区，配圆形木桌和橙色座椅",
+        "en": "Open indoor seating area with round wooden tables and orange chairs",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日7:00–22:00",
+        "en": "Open daily from 7:00 to 22:00",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为‘小马果咖’系列",
+        "en": "Signature drinks are the 'Xiao Ma Fruit Coffee' series",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉、哥伦比亚、云南高海拔阿拉比卡豆",
+        "en": "Serves Yirgacheffe, Guatemalan, Colombian, and Yunnan high-altitude Arabica beans",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "zh": "有室内外座位与采光，适合中等时长停留",
+        "en": "Indoor/outdoor seating and natural light support moderate stay"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有顾客就座看手机，非喧闹场景",
+        "en": "Customers seated quietly using phones, not a loud environment"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:15Z"
+}

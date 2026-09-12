@@ -1,0 +1,58 @@
+{
+  "cafeId": "0566-shanghailaofoyebaihuo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8c8c9455cf2f",
+  "raw": {
+    "headline": {
+      "zh": "日式简约风水果甜品咖啡",
+      "en": "Japanese-style café with fruit desserts"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "木质桌椅，可容纳少量顾客",
+        "en": "Wooden tables and chairs for few guests",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供木盒装水果甜品与巧克力点心",
+        "en": "Serves fruit desserts and chocolates in wooden boxes",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆产地含埃塞俄比亚、肯尼亚等",
+        "en": "Coffee beans from Ethiopia, Kenya, etc.",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-21:30营业",
+        "en": "Open daily 08:00–21:30",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "有座位且见顾客用餐",
+        "en": "Seating and diners present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:04Z"
+}

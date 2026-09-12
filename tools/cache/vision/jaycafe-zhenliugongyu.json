@@ -1,0 +1,53 @@
+{
+  "cafeId": "jaycafe-zhenliugongyu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ff79931d6eb9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d15650397bd6e512ffb331a03f98999c",
+    "https://aos-comment.amap.com/B0GRGCR4LH/comment/CFB34C1F_50F6_4E86_B62D_5B19B7CE3B2F_L0_001_1500_200_1760747773033_31397054.jpg",
+    "https://store.is.autonavi.com/showpic/51de196c249d344c0000003561390739?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃门，店内可见吧台与高脚凳，空间紧凑。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台座位和靠墙的高脚凳，无普通桌椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯冰拿铁或类似奶咖，杯身有猫图案。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一杯冷饮，杯身印有JAY CAFE字样和咖啡杯图标。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于街道旁，门口有黄色路缘石，无室外座。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:53Z"
+}

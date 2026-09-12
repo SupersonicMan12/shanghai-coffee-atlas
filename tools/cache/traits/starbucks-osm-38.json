@@ -1,0 +1,63 @@
+{
+  "cafeId": "starbucks-osm-38",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "efe210db2d88",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "有城市限定特饮‘上海咖啡’，含麦乳精与司考奇",
+        "en": "Offers Shanghai-exclusive drink with malted milk and scotch",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选店提供小批量人文故事咖啡豆及多种冲煮工艺",
+        "en": "Reserve stores serve small-batch beans with brewing variety",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "力宝广场店用可回收材质与电子屏菜单",
+        "en": "Lippo Plaza store uses recycled materials and digital menus",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "智慧湾店为大陆首家6集装箱构成的工业风门店",
+        "en": "Zhihui Bay is mainland China’s first 6-container store",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "外滩源店为全国首家臻选咖啡·酒坊，主打Mixato融合概念",
+        "en": "Bund Source is China’s first Reserve Coffee & Wine Bar",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "多款实验性特饮与手冲",
+        "en": "Experimental drinks and brewing"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:51Z"
+}

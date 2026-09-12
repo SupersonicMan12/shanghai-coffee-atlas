@@ -1,0 +1,71 @@
+{
+  "cafeId": "xinghewanjiudiandatangba-jinxiu-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "294731b6ab1f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7fdbdf91b11fced9f0acc9aaa39e89e7",
+    "http://store.is.autonavi.com/showpic/5b86ed5e92eba93d7c0d0d550d188fe2",
+    "http://store.is.autonavi.com/showpic/b624b311c7ccdfe9d3803cbe6fe10cb4"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "提供精致点心和水果拼盘",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有三明治、小蛋糕和果冻类甜品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "摆放着装有小食的木质托盘",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间宽敞，有多张餐桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "大堂吧内设有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板装饰华丽，有吊灯和圆形设计",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌椅布置整齐，适合多人用餐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见窗外绿植和庭院景观",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:33Z"
+}

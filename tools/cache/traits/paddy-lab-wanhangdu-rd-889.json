@@ -1,0 +1,49 @@
+{
+  "cafeId": "paddy-lab-wanhangdu-rd-889",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "aa02dd931b22",
+  "raw": {
+    "headline": {
+      "zh": "咖啡果干复合空间",
+      "en": "Coffee and dried fruit space"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "底层含咖啡吧台、果干售卖与办公区",
+        "en": "Ground floor has coffee bar, dried fruit sales, and work area",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–22:00营业",
+        "en": "Open daily 09:00–22:00",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "设办公与自习功能",
+        "en": "Has work and study areas"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1
+        ],
+        "zh": "支持讨论与久坐",
+        "en": "Suitable for discussion and lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:34Z"
+}

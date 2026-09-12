@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "text": "主打社区咖啡概念，让附近居民随时进来坐下来喝一杯不费脑子的好咖啡",
+      "kind": "story",
+      "quote": "Pincle主打社区咖啡的概念,想做的就是让附近居民能随时走进来、坐下来、喝一杯不费脑子的好咖啡。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NzYzNDM0Ng==&mid=2247808445&idx=1&sn=5b5a1516833cffdd342240cbd55acddf&chksm=ea32d234d1a244313dc3728f846ead57f78b0ed9c476084321fd03617fcc2b57e60b5429cae3&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "使用中深烘焙甜莓味ALO拼配豆子做冰美式",
+      "kind": "beans",
+      "quote": "LOOK点单:甜莓味ALO拼配豆子 中深烘培 冰美式",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280060",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "空间木质调、户外风装饰，狭长布局，有外摆座位",
+      "kind": "space",
+      "quote": "定位更倾向于精品咖啡,木质调、户外风的装饰赋予整座空间更多的层次。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280060",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "门头有外摆座位，天气好时坐着很舒服",
+      "kind": "seating",
+      "quote": "门头有外摆座位,天气好的时候坐着很舒服。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280060",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "营业时间11:00-18:00",
+      "kind": "time",
+      "quote": "Pincle Coffee ? 11:00-18:00 ? 新华路208号",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280060",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上咖啡馆,又上新了",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280060",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "店亮新华 | 在新华路上两个安静角落临窗办公、庭院发呆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NzYzNDM0Ng==&mid=2247808445&idx=1&sn=5b5a1516833cffdd342240cbd55acddf&chksm=ea32d234d1a244313dc3728f846ead57f78b0ed9c476084321fd03617fcc2b57e60b5429cae3&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "上海最近超火的世界冠军咖啡馆，你在家也能喝到了。 - 搜狐",
+      "url": "https://www.sohu.com/a/829007522_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "南通北潞食品有限公司",
+      "url": "https://www.zhipin.com/companys/3f1812433c17323b1HRz2d66EFc~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 5,
+      "title": "上海12小时|带你喝6家国内“第一梯队咖啡店”(文末福利)",
+      "url": "https://www.163.com/dy/article/JH9BQCOR0521G5OJ.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "Pincle家的「花魁口粮豆」真的值得冲! ",
+      "url": "https://post.smzdm.com/p/am9e46vp",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 7,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "【专题报道】Punchline中国首店开在上海弄堂深处尝过这杯才知过去 ...",
+      "url": "https://www.shyp.gov.cn/shypq/yshj-tzgg/20200707/359613.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 9,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 10,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:04Z"
+}

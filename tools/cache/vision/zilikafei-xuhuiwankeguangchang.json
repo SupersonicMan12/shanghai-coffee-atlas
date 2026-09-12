@@ -1,0 +1,53 @@
+{
+  "cafeId": "zilikafei-xuhuiwankeguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fff62d492430",
+  "photos": [
+    "https://aos-comment.amap.com/B0KR6SZDEB/comment/7A0D047E_7231_404C_B33C_7226F37C0059_L0_001_3024_403_1758848591113_46701314.jpg",
+    "https://aos-comment.amap.com/B0KR6SZDEB/comment/content_media_external_images_media_1000074026_ss__1726127142297_12755918.jpg",
+    "https://aos-comment.amap.com/B0KR6SZDEB/comment/746B6905_4EFD_4C88_B362_8752C456B732_L0_001_3024_403_1758848591109_10124505.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅，采光良好",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "大面积落地窗，可见室外绿植",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口招牌显示“子粒咖啡”",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为深色咖啡，有奶泡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有多张长方形木桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:09Z"
+}

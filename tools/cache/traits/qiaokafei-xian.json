@@ -1,0 +1,67 @@
+{
+  "cafeId": "qiaokafei-xian",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5ac239a2dc1d",
+  "raw": {
+    "headline": {
+      "zh": "百年老字号的江景平价咖啡",
+      "en": "Heritage brand with riverside views & affordable coffee"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "黄浦江边绝佳观景视角",
+        "en": "Prime riverside view of Huangpu River",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供中式点心与西式咖啡混搭早餐",
+        "en": "Breakfast blends Chinese pastries with Western coffee",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "套餐基础售价10元，价格实惠",
+        "en": "Affordable sets starting at ¥10",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设室外木质平台座位及室内多张桌椅",
+        "en": "Outdoor wooden deck and multiple indoor tables",
+        "from": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-21:00营业",
+        "en": "Open daily 09:00–21:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "室内外座位充足适合久坐",
+        "en": "Plenty of seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:09Z"
+}

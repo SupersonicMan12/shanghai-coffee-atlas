@@ -1,0 +1,78 @@
+{
+  "cafeId": "xiaoshiguangkafeiguan-changshou-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "35d325300be6",
+  "raw": {
+    "headline": {
+      "zh": "小清新风配插座学习角",
+      "en": "Study-friendly cafe with island vibes"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光好",
+        "en": "Full glass facade, bright natural light",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有绿色长椅和吧台，空间不大",
+        "en": "Green bench and bar seating, compact space",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供拿铁、美式、澳白、生椰拿铁",
+        "en": "Serves latte, americano, flat white, coconut latte",
+        "from": [
+          6,
+          15
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "早餐8-10点供应，配芝士蛋糕或提拉米苏",
+        "en": "Breakfast 8–10am; cheesecake or tiramisu available",
+        "from": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-18:00，周末8:00-19:00",
+        "en": "Mon–Fri 8–18, Sat–Sun 8–19",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 75,
+        "from": [
+          11,
+          12
+        ],
+        "zh": "安静可插电学习",
+        "en": "Quiet with power outlets"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          11
+        ],
+        "zh": "有座可久坐学习",
+        "en": "Seating for extended stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:47Z"
+}

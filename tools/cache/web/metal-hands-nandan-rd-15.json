@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "使用自家烘焙的高品质阿拉比卡咖啡豆",
+      "kind": "beans",
+      "quote": "铁手咖啡使用自己烘焙的高品质阿拉比卡咖啡豆",
+      "url": "https://new.qq.com/rain/a/20230713A05BAP00",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌饮品Dirty咖啡，口感层次丰富",
+      "kind": "drinks",
+      "quote": "于是点了大热门的翠鸟、金丝雀,外加一杯维也纳咖啡",
+      "url": "https://weibo.com/1780965050/Rgp75kfm7",
+      "site": "无"
+    },
+    {
+      "text": "店内布置艺术画作与文艺书籍，适合拍照聊天办公",
+      "kind": "space",
+      "quote": "店内布置了一些艺术画作与文艺书籍,但更多的人选择在此歇脚拍照,聊天甚至办公",
+      "url": "http://www.sohu.com/a/372325262_409149",
+      "site": "搜狐"
+    },
+    {
+      "text": "提供插座方便顾客工作",
+      "kind": "seating",
+      "quote": "如今还有几家咖啡店这么做的,在产品方面更多吸引我的是那台 拉杆式咖啡机",
+      "url": "https://zhuanlan.zhihu.com/p/680099849",
+      "site": "知乎"
+    },
+    {
+      "text": "位于老房子内，装修风格简约且个性十足",
+      "kind": "space",
+      "quote": "店內裝潢風格簡約卻充滿個性,適合咖啡愛好者及想找個地方休息的人",
+      "url": "https://sg.trip.com/moments/detail/shanghai-2-140093928?locale=zh-SG",
+      "site": "金屬之手— 精品咖啡｜Trip.com 上海"
+    },
+    {
+      "text": "拥有半开放环境和玻璃屋顶，优雅金属风",
+      "kind": "story",
+      "quote": "半开放的环境，玻璃屋顶与木质结构的巧妙结合",
+      "url": "https://you.ctrip.com/food/2/22298246.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海| 全球Top50咖啡店之铁手咖啡",
+      "url": "https://weibo.com/1780965050/Rgp75kfm7",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "手冲咖啡正宗的咖啡店在哪?前街&铁手全对比,3个维度说清+FAQ",
+      "url": "https://k.sina.com.cn/article_7879849057_1d5acf46106804a52k.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "铁手咖啡制造局",
+      "url": "https://baike.baidu.com/item/铁手咖啡制造局/67534017",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "Metal hands·铁手咖啡(淮海路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/22298246.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 5,
+      "title": "推荐一些上海值得去的咖啡馆,从江景到弄堂氛围感拉满",
+      "url": "https://www.sohu.com/a/1064778882_120487684",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "https://new.qq.com/rain/a/20230713A05BAP00",
+      "url": "https://new.qq.com/rain/a/20230713A05BAP00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "吴探长从这3点拆解魔都网红咖啡铁手的成功",
+      "url": "https://zhuanlan.zhihu.com/p/680099849",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "受LV等奢牌青睐,Metal Hands铁手咖啡有何不同?",
+      "url": "https://www.163.com/dy/article/I9HNAMUH05259ET1.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 9,
+      "title": "金屬之手— 精品咖啡｜Trip.com 上海",
+      "url": "https://sg.trip.com/moments/detail/shanghai-2-140093928?locale=zh-SG",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "Metal Hands在上海开了新店,和它那几款冬季花式咖啡。_南昌",
+      "url": "http://www.sohu.com/a/372325262_409149",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:24Z"
+}

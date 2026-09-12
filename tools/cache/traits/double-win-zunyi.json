@@ -1,0 +1,46 @@
+{
+ "cafeId": "double-win-zunyi",
+ "model": "qwen-max",
+ "inputDigest": "8be30c04f874",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "早高峰时办公室职员排队购买",
+    "en": "Office workers line up during rush hour",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：性价比高的Dirty咖啡",
+    "en": "Signature: Good and cheap dirty coffee",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 1,
+    "zh": "站立式，不适合办公",
+    "en": "Standing bar, not for work"
+   },
+   "energy": {
+    "value": 80,
+    "from": 1,
+    "zh": "早高峰时段人多热闹",
+    "en": "Busy during rush hour"
+   },
+   "linger": {
+    "value": 0,
+    "from": 1,
+    "zh": "站立式，适合快速消费",
+    "en": "Standing bar, quick consumption"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:15Z"
+}

@@ -1,0 +1,28 @@
+{
+ "cafeId": "mata-mata",
+ "model": "qwen-max",
+ "inputDigest": "e5def95ed3e0",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "街角位置，适合观察市井生活",
+    "en": "Corner spot for street life watching",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    "zh": "位于菜市场角落，人来人往",
+    "en": "At a busy wet-market corner"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:33Z"
+}

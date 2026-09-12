@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "text": "居里路首店是写字楼间的“能量补给站”，纳仕张江国际社区二店定位为“社区客厅”",
+      "kind": "story",
+      "quote": "前者是写字楼间的“能量补给站”...后者...定位为“社区客厅”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店名“AiYO”源于语气词“哎哟”，捕捉张江人灵感迸发的瞬间",
+      "kind": "story",
+      "quote": "“AiYO”这一店名,灵感源于一个再日常不过的语气词“哎哟”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "奶油风空间，轻柔爵士乐、翻书声与咖啡机嗡鸣交织成白噪音",
+      "kind": "sound",
+      "quote": "奶油风的空间里,轻柔的爵士乐、沙沙的翻书声和咖啡机的嗡鸣",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "清晨冰美式是程序员的“开机密码”，午后拿铁是科研人员的“灵感催化剂”",
+      "kind": "drinks",
+      "quote": "清晨的冰美式是程序员的“开机密码”,午后的拿铁是科研人员的“灵感催化剂”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "二店用燕麦拿铁串联邻里温暖互动",
+      "kind": "drinks",
+      "quote": "用燕麦拿铁的醇香串联起的亦有邻里之间的温暖互动",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "张江,不能没有咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "咖啡品種介紹：產地、烘焙方式、處理法，咖啡豆指南一次看！",
+      "url": "https://www.nespresso.com/tw/zh/blog-coffee-variety",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "央媒看云南丨《人民日报》点赞云南咖啡",
+      "url": "https://www.yn.gov.cn/ywdt/ymkyn/202511/t20251113_320046.html",
+      "site_name": "云南省人民政府网站"
+    },
+    {
+      "index": 5,
+      "title": "咖啡带是地球的“金腰带”?这些产地的豆子一口上头!",
+      "url": "https://baijiahao.baidu.com/s?id=1852995464948462920",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "众筹丨埃塞原生种冷萃专门豆,原野花茶香,饱满热带水果味 ",
+      "url": "https://roll.sohu.com/a/704407473_115112",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:24:34Z"
+}

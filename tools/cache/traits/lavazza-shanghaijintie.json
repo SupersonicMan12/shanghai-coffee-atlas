@@ -1,0 +1,76 @@
+{
+  "cafeId": "lavazza-shanghaijintie",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3b6f9c12f6ac",
+  "raw": {
+    "headline": {
+      "zh": "亚洲首家CASA LAVAZZA",
+      "en": "Asia's first CASA LAVAZZA"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外座位及靠窗舒适座",
+        "en": "Outdoor and comfortable window seating",
+        "from": [
+          2,
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备全球仅60台的37号老鹰咖啡机",
+        "en": "Eagle coffee machine #37 (1 of 60 globally)",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Shanghai-exclusive blend and orange vanilla frappé",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "源自1895年意大利都灵，四代传承",
+        "en": "Founded in Turin, Italy in 1895",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 21:30",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          12
+        ],
+        "zh": "增设舒适靠窗座适配慢坐",
+        "en": "Designed for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "上海限定豆与专业手冲台",
+        "en": "Local blend & pour-over bar"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:25Z"
+}

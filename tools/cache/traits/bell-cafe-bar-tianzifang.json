@@ -1,0 +1,82 @@
+{
+  "cafeId": "bell-cafe-bar-tianzifang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9dffdcd15a1f",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆配香蕉奶咖",
+      "en": "House-roasted beans, banana latte"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供自烘咖啡豆",
+        "en": "Sells house-roasted coffee beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是香蕉奶咖",
+        "en": "Signature drink is banana milk coffee",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设吧台座位和高脚凳，空间较小",
+        "en": "Bar seating with stools, compact space",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日14:00至次日02:00营业",
+        "en": "Open daily 14:00–02:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "前店后厂模式的白鲸咖啡豆子店",
+        "en": "Front-store, back-roastery setup",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "适合办公",
+        "en": "Suitable for work"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          9
+        ],
+        "zh": "可坐聊或办公",
+        "en": "Good for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "自烘豆与特色饮品",
+        "en": "House-roasted, unique drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:07Z"
+}

@@ -1,0 +1,64 @@
+{
+  "cafeId": "tims-jinqiaoriyueguangzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "752e4b85e8fd",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/1f868ac2d8f5630ede5e4f055dd05a26",
+    "https://store.is.autonavi.com/showpic/34f9a5a2859dfd37caea8e946a0ac539"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "位于商场内的咖啡店，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和少量桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见烘焙机等设备，有专业咖啡制作区域",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有顾客正在消费",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺招牌显示为Tims Coffee House",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有电子菜单显示屏",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见可颂、贝果等烘焙食品展示",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:21:22Z"
+}

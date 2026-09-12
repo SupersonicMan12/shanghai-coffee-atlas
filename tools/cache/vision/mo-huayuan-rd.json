@@ -1,0 +1,71 @@
+{
+  "cafeId": "mo-huayuan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "06c218d372f5",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIB8ZR8/comment/4647bac71126422a169de07339789ca5_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFIB8ZR8/comment/B5E5EB82_0401_4F4C_B5E1_F8A91F28B9F6_L0_001_1500_200_1767852439286_74543086.jpg",
+    "https://aos-comment.amap.com/B0FFIB8ZR8/comment/content_media_external_images_media_377602_ss__1734755109100_53686223.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有大型木质陈列架，摆放茶具和装饰品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有沙发和座椅，提供舒适座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有绿植点缀，环境自然",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一款红色造型甜点，搭配陶瓷杯和复古熨斗摆件",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为红砖建筑，外立面有藤蔓植物覆盖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有黄色招牌，标明MO+摩加咖啡",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见猫在沙发上休息",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺位于花园路128号，门牌清晰可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:00Z"
+}

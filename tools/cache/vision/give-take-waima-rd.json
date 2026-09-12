@@ -1,0 +1,53 @@
+{
+  "cafeId": "give-take-waima-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "948f398b61b7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/096c611f00de36cafff6752ec33013b5",
+    "https://store.is.autonavi.com/showpic/a0dc98ae4b2400211dc1b17db0c19587",
+    "https://aos-comment.amap.com/B0K39LFIA5/comment/C9B5F24C_279F_4305_B07E_52BADB1A78C5_L0_001_1500_200_1769150023674_62160095.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有室外碎石庭院座位，配折叠桌椅，可眺望城市高楼",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有圆木桌、白色纸巾，桌上放一杯冰咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃窗，一层有外摆区，二层带阳台",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位区地面铺碎石，背景可见绿化与马路",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植、AED急救设备和灭火器",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:39Z"
+}

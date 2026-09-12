@@ -1,0 +1,76 @@
+{
+  "cafeId": "costa-coffee-shanghaimeiyuehua",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e49451eea960",
+  "raw": {
+    "headline": {
+      "zh": "椰子风味选择多",
+      "en": "Many coconut-flavored drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供生椰乌龙轻乳茶、椰皇三重奏等椰子风味饮品",
+        "en": "Offers coconut drinks like young coconut oolong latte",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有带红色遮阳伞的露天座位",
+        "en": "Outdoor seating with red sun umbrellas",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃幕墙，自然采光充足",
+        "en": "Full glass facade provides ample natural light",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日08:00-17:00",
+        "en": "Open daily 08:00–17:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应提拉米苏和巧克力酥卷",
+        "en": "Serves tiramisu and chocolate rolls",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "多款特色椰子风味饮品",
+        "en": "Unique coconut drink options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:54Z"
+}

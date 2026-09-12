@@ -1,0 +1,69 @@
+{
+  "cafeId": "cafe-shanghaizhongxindasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "69e65b793977",
+  "raw": {
+    "headline": {
+      "zh": "546米高空下午茶",
+      "en": "Afternoon tea at 546m"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "位于上海中心119层，可俯瞰360度城市风光",
+        "en": "On the 119th floor with 360° city views",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供马卡龙、慕斯、夹心三明治蛋糕等创意甜点",
+        "en": "Serves macarons, mousse, and sandwich cakes",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "甜点含花瓣、巧克力片、果胶及奶油装饰",
+        "en": "Desserts garnished with petals, chocolate, fruit glaze",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:30-22:00，含下午茶与晚餐",
+        "en": "Open 08:30–22:00, serving afternoon tea & dinner",
+        "from": [
+          8,
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "人均约300元，含酒水自助",
+        "en": "Around ¥300 per person with drink buffet",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          8,
+          10
+        ],
+        "zh": "提供云端下午茶体验",
+        "en": "Cloud-high afternoon tea"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:47Z"
+}

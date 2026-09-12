@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "使用埃塞俄比亚耶加雪菲咖啡豆",
+      "kind": "beans",
+      "quote": "03°·耶加雪菲 - 歌希 精选埃塞俄比亚单品咖啡豆",
+      "url": "https://www.163.com/dy/article/HGH3VQ450522A0I7.html",
+      "site": "网易"
+    },
+    {
+      "text": "提供手冲咖啡",
+      "kind": "drinks",
+      "quote": "手冲咖啡大多选用巴拿马的瑰夏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店铺位于来福士T2店",
+      "kind": "space",
+      "quote": "由心咖啡（上海長寧來福士T2店）",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135821994/",
+      "site": "由心咖啡（上海長寧來福士T2店） - Trip.com"
+    },
+    {
+      "text": "适合商务办公",
+      "kind": "people",
+      "quote": "商务空间共享咖啡+",
+      "url": "https://zhuanlan.zhihu.com/p/27041048",
+      "site": "知乎"
+    },
+    {
+      "text": "营业时间至晚上10点",
+      "kind": "time",
+      "quote": "提供[由心咖啡(上海长宁来福士T2店)]的人均消费、品牌简介、店铺图片、折扣优惠、用户口碑等信息",
+      "url": "http://m.dianping.com/shop/1586758887?msource=applemaps",
+      "site": "【由心咖啡(上海长宁来福士T2店)】电话_地址 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "由心咖啡（上海長寧來福士T2店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135821994/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "由心咖啡上海来福士旗舰升级!3.9折!能量加满!",
+      "url": "https://www.163.com/dy/article/HGH3VQ450522A0I7.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "【由心咖啡(上海长宁来福士T2店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/1586758887?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "由心咖啡| 项目信息-36氪 - 创投平台",
+      "url": "https://pitchhub.36kr.com/project/1713102132537864",
+      "site_name": "36氪"
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "谁说由心咖啡只是一家咖啡店 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/27041048",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "由心咖啡创始人高颖佳：仰望天空，脚踏实地 - 创业基金会",
+      "url": "https://www.stefg.org/new/newDetail.aspx?id=395&cid=73187891991281664",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡文化周咖啡之夜公布“TOP100咖啡店榜单”,你去过几家",
+      "url": "http://finance.sina.com.cn/jjxw/2022-08-14/doc-imizirav8075997.shtml",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:16Z"
+}

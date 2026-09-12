@@ -1,0 +1,65 @@
+{
+  "cafeId": "mangguokafeiwu-shuangyangbeiluyuguoshundonglujia",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3362e886d146",
+  "raw": {
+    "headline": {
+      "zh": "冰咖啡带奶泡层",
+      "en": "Iced coffee with a layer of foam"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "饮品为冰咖啡，带有奶泡层",
+        "en": "Serves iced coffee with a layer of foam",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间中等大小",
+        "en": "Medium-sized interior space",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "使用多盏轨道射灯和暖色调吊灯照明",
+        "en": "Lit by track spotlights and warm-toned pendant lights",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "背景中有绿植点缀",
+        "en": "Green plants visible in the background",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周一至周日 09:00-18:00",
+        "en": "Open daily from 9:00 to 18:00",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "中等空间配绿植，偏休闲",
+        "en": "Medium space with greenery, casual vibe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:03Z"
+}

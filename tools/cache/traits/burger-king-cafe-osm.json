@@ -1,0 +1,57 @@
+{
+  "cafeId": "burger-king-cafe-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f59803208345",
+  "raw": {
+    "headline": {
+      "zh": "耶加雪菲豆配庭院景",
+      "en": "Yirgacheffe beans with courtyard view"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用海拔1700米以上耶加雪菲精品咖啡豆",
+        "en": "Uses Yirgacheffe beans grown above 1700m",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供国王浓浓拿铁和美式等饮品",
+        "en": "Serves King Latte and Americano",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整排大窗正对绿意盎然的庭院",
+        "en": "Large windows face a lush courtyard",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "有庭院景观适合久坐",
+        "en": "Courtyard view invites lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "高海拔豆加意式烘焙工艺",
+        "en": "High-altitude beans with Italian roast"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:49Z"
+}

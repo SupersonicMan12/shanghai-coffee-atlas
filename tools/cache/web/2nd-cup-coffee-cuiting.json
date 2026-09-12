@@ -1,0 +1,90 @@
+{
+  "facts": [
+    {
+      "text": "主打一号澳式拼配豆，50%阿拉比卡，风味如黄油曲奇",
+      "kind": "beans",
+      "quote": "主打一号澳式拼配以 50% 的阿拉比卡混搭出黄油曲奇般的风味",
+      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
+      "site": "网易"
+    },
+    {
+      "text": "店内有手冲咖啡、美式（黄金曼特宁）、燕麦乳卡",
+      "kind": "drinks",
+      "quote": "手冲咖啡(13) · Americano美 黄金曼特宁(8 燕麦乳卡",
+      "url": "http://www.dianping.com/shop/l7nuhORrddCqruYH/photos/tag-%E8%8F%9C",
+      "site": "2nd cup coffee(紫云路店)-菜图片-上海-大众点评网"
+    },
+    {
+      "text": "纯白色风格，有户外位置，多数人因天气冷选择室内",
+      "kind": "space",
+      "quote": "這邊純白色的風格還是比較的喜歡，這邊還有戶外位置",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/nd-cup-coffee-25668915/",
+      "site": "2nd cup coffee（紫雲路店） (上海虹橋地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "地址为紫云西路36-2，线上投票前五的长宁宝藏咖啡馆",
+      "kind": "story",
+      "quote": "2ND cup coffee 地址:紫云西路36-2 推荐理由: 线上投票前五",
+      "url": "https://sww.sh.gov.cn/swdt/20230628/4f31d57dcff04c0cbcb966dafcc5e05c.html",
+      "site": "“上海”门户网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "橙橙上传的图片",
+      "url": "https://www.dianping.com/photos/869055439/tag",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "2nd cup coffee（紫雲路店） (上海虹橋地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/nd-cup-coffee-25668915/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "2nd cup coffee(紫云路店)-菜图片-上海-大众点评网",
+      "url": "http://www.dianping.com/shop/l7nuhORrddCqruYH/photos/tag-%E8%8F%9C",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "2023长宁宝藏咖啡馆名单出炉",
+      "url": "https://sww.sh.gov.cn/swdt/20230628/4f31d57dcff04c0cbcb966dafcc5e05c.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "2nd cup coffee(紫云路店)-图片-上海-第9页 - 大众点评",
+      "url": "http://www.dianping.com/shop/6044224/photos?pg=9",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "神仙打架,咖啡市这名字可不是白叫的",
+      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 7,
+      "title": "Double Cup Coffee",
+      "url": "https://baike.baidu.com/item/Double%20Cup%20Coffee/14321654",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "微信公众平台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MzEyMDY4Ng==&mid=2651120470&idx=1&sn=5eb204f4d06c88c38f8c04a513edac1e&chksm=8a7d5641cfa1e1302554dc45ff8e31c61dcf68ba8dab213491e0334c548bab9cadce0354428a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "Shanghai's coffee hub brews global connections",
+      "url": "https://en.shhqcbd.gov.cn/2025-09/30/c_1129612.htm",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:16Z"
+}

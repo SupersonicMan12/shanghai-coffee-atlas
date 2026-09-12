@@ -1,0 +1,64 @@
+{
+  "cafeId": "flow-ruijiner-rd-69",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ac61d37fc8b9",
+  "raw": {
+    "headline": {
+      "zh": "咖啡酒馆，营业至凌晨3点",
+      "en": "Cafe-bar open till 3am"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供威士忌、精酿啤酒和葡萄酒",
+        "en": "Serves whisky, craft beer, and wine",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "甜品含蛋糕与冰淇淋，32或48元",
+        "en": "Desserts: cake and ice cream, ¥32/48",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–03:00营业",
+        "en": "Open daily 08:00–03:00",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "部分饮品与冰淇淋非固定供应",
+        "en": "Some drinks and ice cream not always available",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "营业至凌晨3点",
+        "en": "Open till 3am"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "提供酒类与多种非咖啡饮品",
+        "en": "Offers alcohol and varied non-coffee drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:31Z"
+}

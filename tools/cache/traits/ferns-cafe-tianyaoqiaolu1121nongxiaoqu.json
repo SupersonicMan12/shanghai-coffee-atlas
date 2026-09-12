@@ -1,0 +1,86 @@
+{
+  "cafeId": "ferns-cafe-tianyaoqiaolu1121nongxiaoqu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8aa214772bf9",
+  "raw": {
+    "headline": {
+      "zh": "天钥桥路小而全的手冲+意式社区店",
+      "en": "Small but full-service hand-drip & espresso cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街整面落地玻璃窗，可见内部吧台",
+        "en": "Full-height street-facing glass window with visible bar",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供瑰夏手冲、冰美式、Dirty、生椰拿铁",
+        "en": "Offers Geisha pour-over, iced Americano, Dirty, and coconut latte",
+        "from": [
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应贝果、巧克力棒（Pocky）和瓶装饮料",
+        "en": "Serves bagels, Pocky chocolate sticks, and bottled drinks",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外两张折叠椅加储物箱，有室外座位",
+        "en": "Two foldable chairs and a storage box outdoors; outdoor seating available",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00–18:00",
+        "en": "Open daily 9:00–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          13
+        ],
+        "zh": "营业至18:00，非深夜办公时段",
+        "en": "Closes at 6pm, not late-night"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有室外座位，可短时停留",
+        "en": "Outdoor seating supports short stays"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "提供瑰夏手冲及多种创意特调",
+        "en": "Geisha pour-over and multiple signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:20Z"
+}

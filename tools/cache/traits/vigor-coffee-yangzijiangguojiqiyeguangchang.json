@@ -1,0 +1,76 @@
+{
+  "cafeId": "vigor-coffee-yangzijiangguojiqiyeguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cfa05cd650e7",
+  "raw": {
+    "headline": {
+      "zh": "SOE豆选择多，招牌柚子冰茶美式",
+      "en": "Wide SOE selection, signature yuzu iced Americano"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供多种SOE咖啡豆",
+        "en": "Offers a wide selection of SOE beans",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为柚子冰茶美式和雪莉澳白",
+        "en": "Signature drinks: yuzu iced Americano and sherry flat white",
+        "from": [
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有四人座圆桌",
+        "en": "Has a four-person round table",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Floor-to-ceiling windows provide ample natural light",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五8:30-16:30",
+        "en": "Open weekdays 8:30–16:30",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          7
+        ],
+        "zh": "有桌椅和良好采光",
+        "en": "Seating and good light"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          10,
+          9,
+          11
+        ],
+        "zh": "多款SOE与特色饮品",
+        "en": "Varied SOEs and unique drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:28Z"
+}

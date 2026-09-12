@@ -1,0 +1,28 @@
+{
+ "cafeId": "flower-cafe-waitanyuan",
+ "model": "qwen-max",
+ "inputDigest": "dcc117b849e1",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "花店与咖啡馆结合的独特空间",
+    "en": "Florist and cafe in one place",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 60,
+    "from": 2,
+    "zh": "提供特色玫瑰拿铁",
+    "en": "Signature rose latte"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:52Z"
+}

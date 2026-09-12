@@ -1,0 +1,71 @@
+{
+  "cafeId": "brick-lane-wunan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "c568d5e50d94",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4a40392621b88464950fde86e638de42",
+    "https://store.is.autonavi.com/showpic/682e9d97e56918730000003212650071?type=pic",
+    "https://store.is.autonavi.com/showpic/3e1592e88068e02a0000001712870663?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街落地玻璃窗，可看到马路和对面建筑。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台式座位，配三张高脚凳，空间紧凑。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有两台意式咖啡机和磨豆机。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品为分层咖啡，顶部是烤棉花糖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "天花板有裸露木梁，地面是水泥地。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外人行道停有自行车和电动车，无室外座。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上贴有手绘风格的咖啡介绍卡片。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无人，未见顾客使用电脑。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:00Z"
+}

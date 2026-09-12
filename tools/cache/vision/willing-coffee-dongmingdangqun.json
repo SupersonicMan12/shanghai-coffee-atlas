@@ -1,0 +1,71 @@
+{
+  "cafeId": "willing-coffee-dongmingdangqun",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8a9348551066",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/eaeb0fa3910880a90000003145164467",
+    "https://store.is.autonavi.com/showpic/584f3bbebcc22d660000003145184003",
+    "https://store.is.autonavi.com/showpic/3f13bcd883b054280000003145184002"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有吧台和桌椅，可坐人",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有人在店内使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有植物装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有菜单板，显示饮品价格",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见咖啡机等设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店外有金属栏杆和台阶",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:11Z"
+}

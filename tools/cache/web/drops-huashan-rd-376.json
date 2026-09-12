@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "豆子都来自于自己烘培，可以接触不同咖啡名产地的风味",
+      "kind": "beans",
+      "quote": "豆子都来自于自己烘培 可以近距离接触经过来自不同咖啡名产地的多种不同风味的咖啡豆",
+      "url": "https://you.ctrip.com/food/2/18642411.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "与幸福集荟共同打造成书吧+咖啡馆空间",
+      "kind": "space",
+      "quote": "Drops位於公寓底層的背面，與【幸福集薈】共同打造成一處書店+咖啡館的網紅空間。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site": "Drops咖啡工作室（復興中路店） (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "店内特调咖啡搭配招牌司康很受欢迎",
+      "kind": "story",
+      "quote": "来一杯店内的特调咖啡，搭配上招牌司康，味蕾与视觉得到了双重满足",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "秋天梧桐叶落进窗台，环境安静舒适",
+      "kind": "story",
+      "quote": "秋天，梧桐叶落进窗台，与店内的木质调相得益彰，安静又舒适。",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site": "中国政府网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Drops咖啡工作室(复兴中路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/18642411.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "Drops咖啡工作室（復興中路店） (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 5,
+      "title": "手冲咖啡正宗咖啡店怎么选?3个维度带你找到灵魂咖啡馆+FAQ",
+      "url": "https://www.sina.cn/gc/article/nirehkk4179535.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "上海的咖啡新店喝不完,真的喝不完……",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "Coffee Spot | 小小站立式咖啡馆,在角落一坐,进入属于自己都世界上海豆子_风味",
+      "url": "https://www.sohu.com/a/592284973_121124402",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:09Z"
+}

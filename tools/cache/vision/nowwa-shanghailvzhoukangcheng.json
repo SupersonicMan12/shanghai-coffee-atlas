@@ -1,0 +1,59 @@
+{
+  "cafeId": "nowwa-shanghailvzhoukangcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "14b3f21f5fe6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ce8c8816f4f204d33a7c0b3c8c268579",
+    "https://store.is.autonavi.com/showpic/6419afa6d95a8f7f8a6780719f9e9d0e",
+    "https://store.is.autonavi.com/showpic/749273530c265b3665bf4aac3cdab6c7"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于1388号建筑入口旁，临街玻璃门设计",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有鲜花装饰，可能为新开业或庆祝活动",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺招牌显示品牌名称为NOWWA COFFEE和FLARE STAR",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于带有拱形结构的建筑底层，外部空间开阔",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处设有旋转门，建筑风格现代",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口贴有“五店同庆”告示，表明可能是连锁门店开业活动",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:03Z"
+}

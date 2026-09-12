@@ -1,0 +1,57 @@
+{
+  "cafeId": "jstone-italianbistro-hongmei-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "683dac5f7df5",
+  "raw": {
+    "headline": {
+      "zh": "意餐配甜点的临街玻璃房",
+      "en": "Italian meals & dessert in a glass-front spot"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，通透明亮",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供披萨、烩饭等意式主菜",
+        "en": "Serves pizza and risotto as mains",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "甜点为巧克力蛋糕配奶油香草",
+        "en": "Dessert is chocolate cake with cream and vanilla",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日午市11:30-14:00，晚市17:00-22:00",
+        "en": "Weekday lunch 11:30–14:00, dinner 17:00–22:00",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末全天11:00-22:00营业",
+        "en": "Open 11:00–22:00 on weekends",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:32:25Z"
+}

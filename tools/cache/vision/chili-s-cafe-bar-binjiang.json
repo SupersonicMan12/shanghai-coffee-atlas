@@ -1,0 +1,47 @@
+{
+  "cafeId": "chili-s-cafe-bar-binjiang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f6aa786826e5",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/54976b5f2c9c17ce19ffc37bdf75cf08",
+    "http://store.is.autonavi.com/showpic/a4beff1b258e6cb9b14e9b5e95d5c32e",
+    "http://store.is.autonavi.com/showpic/b57a4b1195242fdc72686d6b0720877d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面外有红色遮阳伞，可见室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前有绿植，背景可见高层建筑",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "食物为巧克力熔岩蛋糕配香草冰淇淋",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物为汉堡配薯条与番茄酱",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:43Z"
+}

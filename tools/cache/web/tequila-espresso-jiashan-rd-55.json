@@ -1,0 +1,53 @@
+{
+  "facts": [
+    {
+      "text": "自烘焙咖啡豆，追求不同风味呈现",
+      "kind": "beans",
+      "quote": "主理人自烘焙咖啡豆，喜欢在烘焙度和处理法之间寻找有意思的风味呈现",
+      "url": "https://www.thepaper.cn/newsDetail_forward_8455019",
+      "site": "澎湃新闻"
+    },
+    {
+      "text": "美式复古风格外观配墨绿店招",
+      "kind": "space",
+      "quote": "Tequila Espresso外观走的是美式复古风，配上墨绿的店招和咖啡机",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site": "知乎"
+    },
+    {
+      "text": "适合咖啡爱好者及新手访问",
+      "kind": "people",
+      "quote": "不管是嗜咖啡如命的狂热者，还是对此一窍不通的小白",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site": "界面新闻"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "喝了10座城市，这33家咖啡馆最推荐 - 澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_8455019",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡馆地图：网红店那么多，究竟哪些值得去？ - 界面新闻",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 4,
+      "title": "哥斯大黎加 | 全新限量款單一產區臻選咖啡 | Nespresso 台灣",
+      "url": "https://www.nespresso.com/tw/zh/order/capsules/master-origin-costa-rica-coffee-capsules",
+      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:04:10Z"
+}

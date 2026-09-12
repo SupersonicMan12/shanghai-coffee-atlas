@@ -1,0 +1,59 @@
+{
+  "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "18fc501de760",
+  "photos": [
+    "https://aos-comment.amap.com/B0KD0UWEYU/comment/bc3c73d382a478bbe0393e9c8d6cf136_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KD0UWEYU/comment/37a771d1d56c0da39be51c68e6428863_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/59a256214e06b1e71030bae7e2fab21f"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "饮品为橙黄色，含冰块和百香果籽",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡馆位于二层，楼下有手机店和银楼",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面入口处有花篮装饰，显示新开业或庆祝活动",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外立面为米黄色，临街且有玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见内部灯光，空间较明亮",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有红色靠垫座椅，座位数量有限",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:11Z"
+}

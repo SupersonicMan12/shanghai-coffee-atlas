@@ -1,0 +1,71 @@
+{
+  "facts": [
+    {
+      "text": "店面大，位置比较多，环境特别好，闹中取静",
+      "kind": "space",
+      "quote": "店面大，位置比较多，环境特别好，闹中取静",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97BD5D94086&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "外面就是苏州河畔，对面是有名的千树",
+      "kind": "view",
+      "quote": "外面就是苏州河畔，对面是有名的千树",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97BD5D94086&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "离火车站3-5分钟路程，有充电插头",
+      "kind": "seating",
+      "quote": "离火车站3-5分钟路程，有充电插头",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97BD5D94086&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Luming Riverside Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97BD5D94086&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "水塔营地·河畔咖啡正式开业!9月28日至29日,限时福利赶紧冲! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDU1NDgyNQ==&mid=2654397652&idx=1&sn=e5298ad8437b94de619d6beb6a84a4d9&chksm=85a65dc1273f6191e3996be3b606acfc7510d81c86f6d162440737c2db0723b48b07c8ea76e3&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "水塔营地·河畔咖啡",
+      "url": "https://baike.baidu.com/item/水塔营地·河畔咖啡/67560475",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "上海的「村咖」,藏不住啦! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/shanghais-village-coffee-cant-be-hidden-995319/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "咖啡、火锅、围炉煮茶......水塔营地·河畔咖啡冬日上新啦!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_29582807",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 7,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:38Z"
+}

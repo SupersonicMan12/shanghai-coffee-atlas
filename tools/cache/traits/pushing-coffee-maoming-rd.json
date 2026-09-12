@@ -1,0 +1,79 @@
+{
+  "cafeId": "pushing-coffee-maoming-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7ca02d307810",
+  "raw": {
+    "headline": {
+      "zh": "有狗陪伴的临街咖啡馆",
+      "en": "Dog-friendly street-level cafe"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "店内有顾客点单或取餐",
+        "en": "Customers ordering or picking up drinks",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于茂名南路137号老建筑底层",
+        "en": "Ground floor of old building at 137 Maoming South Rd",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括生椰拿铁",
+        "en": "Signature drink: coconut latte",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主热情健谈，店内有多只狗",
+        "en": "Friendly, talkative owner with multiple dogs",
+        "from": [
+          4,
+          10,
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          4,
+          6,
+          9
+        ],
+        "zh": "有窗景和狗狗适合久坐",
+        "en": "Window view and dogs invite lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "临街有单车，店内有人",
+        "en": "Street presence with customers present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:17Z"
+}

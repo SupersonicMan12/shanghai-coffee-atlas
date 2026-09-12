@@ -1,0 +1,41 @@
+{
+  "cafeId": "ws-cafe-lounge-huaihai-middle-rd-1298",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ab266fb8590f",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFFZK032/comment/F0C3D1A5_B7A5_49F6_86BA_EF210BF8B79F_L0_001_1512_2016_1727284840097_06658374.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772636663921_79277617_1772636720749_02945967.jpg",
+    "http://store.is.autonavi.com/showpic/f21052f86dd5971a057262282e285b00"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "草莓千层酥，有奶油和糖粉装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面在临街多层建筑一层，有黑色遮阳篷",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "木板上摆着切片牛排，配三小碗酱料",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:09Z"
+}

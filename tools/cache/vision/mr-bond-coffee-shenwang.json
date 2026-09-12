@@ -1,0 +1,65 @@
+{
+  "cafeId": "mr-bond-coffee-shenwang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "64a2676faf35",
+  "photos": [
+    "https://aos-comment.amap.com/B0KRSCGCGU/comment/51055f1a1d2407d79226805cca1f2571_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRSCGCGU/comment/content_media_external_file_1000039107_ss__1745111744836_59197475.jpg",
+    "https://aos-comment.amap.com/B0KRSCGCGU/comment/453c435b8b562dca9fc33ea1997a3bac_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口摆放开业花篮",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吐司丁和熏鸡肉三明治",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吐司丁售价15元/杯，熏鸡肉三明治售价24元/个",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡和三角形烘焙食品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有透明塑料包装的食品展示",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面铺绿色地毯",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:22Z"
+}

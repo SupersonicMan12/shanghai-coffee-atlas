@@ -1,0 +1,56 @@
+{
+  "cafeId": "silverflow-qiantan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "428cf41e319d",
+  "raw": {
+    "headline": {
+      "zh": "咖啡贝果套餐19.9元",
+      "en": "Coffee + bagel set for ¥19.9"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "主打咖啡加贝果套餐",
+        "en": "Specializes in coffee + bagel sets",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供意式、无咖啡因、气泡等系列咖啡",
+        "en": "Offers espresso, decaf, sparkling coffee series",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间6:30—20:00（截至2024年5月）",
+        "en": "Open 6:30–20:00 (as of May 2024)",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主余毅2023年8月开设此店",
+        "en": "Opened by Yu Yi in August 2023",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街门店，有落地玻璃窗",
+        "en": "Street-facing with floor-to-ceiling windows",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:34Z"
+}

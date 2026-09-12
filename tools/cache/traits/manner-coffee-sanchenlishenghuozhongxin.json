@@ -1,0 +1,76 @@
+{
+  "cafeId": "manner-coffee-sanchenlishenghuozhongxin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c7cd1d1a7a70",
+  "raw": {
+    "headline": {
+      "zh": "锦绣路站喝平价精品咖啡",
+      "en": "Grab affordable specialty coffee to go"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "仅设3个木质长凳座位",
+        "en": "Only three wooden bench seats",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜",
+        "en": "Known for oat milk latte and iced sweet",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–17:00营业",
+        "en": "Open daily 7am–5pm",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自建SC认证工坊烘焙豆",
+        "en": "Uses beans from in-house SC-certified roastery",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌始于2015年静安2㎡小店",
+        "en": "Brand started in a 2sqm Jing’an shop in 2015",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          7,
+          8
+        ],
+        "zh": "空间紧凑座位极少",
+        "en": "Tiny space, few seats"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10,
+          12
+        ],
+        "zh": "自烘豆+限定意式款",
+        "en": "House-roasted beans, seasonal espresso"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:17Z"
+}

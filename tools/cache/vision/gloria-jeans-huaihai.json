@@ -1,0 +1,71 @@
+{
+  "cafeId": "gloria-jeans-huaihai",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "150afcc9ebaa",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e6b5be0ef5ce50b5c9385163bad57873",
+    "http://store.is.autonavi.com/showpic/96fc362fa89e3fac801421e4aaec1ca6",
+    "http://store.is.autonavi.com/showpic/88189daa07e6ba34668b2e04dd96a120"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "木质桌面，有明显木纹与结疤，非光滑漆面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图：深灰碗装意面，配牛肉片、葱段、青菜；旁有金属小碟与叉子。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图：粉红碗装混合沙拉，含羽衣甘蓝、萝卜片、南瓜块、藜麦、可食用花。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图：浅灰碗装意面，配虾仁、鱼籽、海苔片、豆苗、蚕豆。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图背景有摊开的纸质菜单/笔记本与金属夹子，字迹模糊不可辨。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "三张图均未出现咖啡杯、咖啡机、磨豆机、手冲壶或任何饮品容器（除水杯）。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "三张图中均无可见座位、吧台、窗、室外区域或人物。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图右上角有玻璃杯，杯身带浮雕花纹；第三张图左上角有高脚杯底座。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.97
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:18Z"
+}

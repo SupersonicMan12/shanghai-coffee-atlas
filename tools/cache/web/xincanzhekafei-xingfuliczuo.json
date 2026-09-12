@@ -1,0 +1,71 @@
+{
+  "facts": [
+    {
+      "text": "使用云南咖啡豆",
+      "kind": "beans",
+      "quote": "「新参者」的每一批云南咖啡都是由小A亲自去到产地收果、处理、烘焙、命名的。",
+      "url": "https://www.163.com/dy/article/HF80HA6U0518QNNR.html",
+      "site": "网易"
+    },
+    {
+      "text": "店主小A是云南人，有丰富咖啡经验",
+      "kind": "story",
+      "quote": "小A 是土生土长的云南人，也是第一批在上海制作云南咖啡、第一批用云南咖啡豆参加比赛的咖啡师。",
+      "url": "https://www.163.com/dy/article/HF80HA6U0518QNNR.html",
+      "site": "网易"
+    },
+    {
+      "text": "提供单一产地精品豆",
+      "kind": "beans",
+      "quote": "正宗的店铺会提供多款单一产地精品豆，且咖啡师能清晰讲解豆子的产区、处理法和风味特征。",
+      "url": "https://k.sina.com.cn/article_7880068906_1d5b04f2a06801hqte.html?from=food",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "膨青研究所|打开一张云南咖啡风味地图",
+      "url": "https://www.163.com/dy/article/HF80HA6U0518QNNR.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 2,
+      "title": "新参者咖啡 (Район Xuhui, Шанхай) - Trip.com",
+      "url": "https://ru.trip.com/restaurant/china/shanghai/detail/restaurant-41997582/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "幸福路上，在云端深处，幸福里的《新参者咖啡》 - 搜狐",
+      "url": "https://www.sohu.com/a/200706940_159612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "手冲咖啡正宗的咖啡店 - 新浪",
+      "url": "https://k.sina.com.cn/article_7880068906_1d5b04f2a06801hqte.html?from=food",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
+      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
+      "site_name": "东方财富网"
+    },
+    {
+      "index": 6,
+      "title": "可以堂食的咖啡店，城市第三空间回归！3个维度+探店指南+FAQ - 新浪",
+      "url": "https://www.sina.cn/gc/article/niqwwyw6338042.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "探访10家新店：我发现有人以创意的名义，把咖啡做歪了 - 36氪",
+      "url": "https://m.36kr.com/p/1877556734315910",
+      "site_name": "36氪"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:03Z"
+}

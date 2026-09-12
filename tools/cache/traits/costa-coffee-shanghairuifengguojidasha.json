@@ -1,0 +1,75 @@
+{
+  "cafeId": "costa-coffee-shanghairuifengguojidasha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b5e422f4f6e0",
+  "raw": {
+    "headline": {
+      "zh": "熊猫桂花拿铁限定款",
+      "en": "Panda-themed osmanthus lattes"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "供应桂花黑糖拿铁等熊猫桂花系列饮品",
+        "en": "Serves panda-themed osmanthus lattes",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "多组单人椅配小圆桌及多人沙发区",
+        "en": "Multiple solo seats with side tables and sofa areas",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积临街落地窗提供充足自然采光",
+        "en": "Large street-facing windows offer ample daylight",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供提拉米苏与巧克力酥卷",
+        "en": "Offers tiramisu and chocolate rolls",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "有沙发和单人座位适合久坐",
+        "en": "Seating encourages lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "限定桂花风味饮品较特别",
+        "en": "Seasonal osmanthus drinks add novelty"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:54Z"
+}

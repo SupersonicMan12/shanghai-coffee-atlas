@@ -1,0 +1,71 @@
+{
+  "cafeId": "lb-shijihui",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "12c934422aa8",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/a49d1125d94a3dd70a420a8e52a6f433",
+    "http://store.is.autonavi.com/showpic/8aadf3751f10af4a1143cf662bd06a01",
+    "http://store.is.autonavi.com/showpic/c47b68133b88701fdca86061173eab5f"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "空间为商场内开放式大空间，地面为高反光浅色地砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "设长条白色吧台，配6个黑色高脚凳；另有一张圆木桌配4个高脚凳",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方可见咖啡机、磨豆机及手冲架等专业器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图中可见多组小圆桌+椅子组合，约6–8组座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第三张图前景立牌显示'LB'标志及'LESS. BETTER.'字样",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙面为浅灰/白色，顶部有轨道射灯与嵌入式筒灯照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "无落地窗或临街玻璃可见；未见室外座、植物、书架或宠物",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中无人使用笔记本电脑；工作人员在吧台后操作设备",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:51Z"
+}

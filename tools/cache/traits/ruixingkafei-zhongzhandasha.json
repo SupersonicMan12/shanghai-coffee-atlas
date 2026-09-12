@@ -1,0 +1,73 @@
+{
+  "cafeId": "ruixingkafei-zhongzhandasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cf2ad755f9e7",
+  "raw": {
+    "headline": {
+      "zh": "站喝快取，新品高频",
+      "en": "Grab-and-go with frequent new drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "饮品含奶油、焦糖酱或牛奶",
+        "en": "Drinks feature cream, caramel, or milk",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
+        "en": "Known for hits like coconut and savory lattes",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:00-20:00，周末8:00-18:00",
+        "en": "Open 7am–8pm weekdays, 8am–6pm weekends",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "主力价格带12-15元",
+        "en": "Main price range ¥12–15",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "20-60㎡快取店，无或少量堂食",
+        "en": "20–60㎡ pickup-only with minimal seating",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          7
+        ],
+        "zh": "站喝为主，少座位",
+        "en": "Standing pickup, few seats"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "每3-4天推一款新品",
+        "en": "New drink every 3–4 days"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:29Z"
+}

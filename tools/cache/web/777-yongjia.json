@@ -1,0 +1,46 @@
+{
+  "facts": [
+    {
+      "text": "位于永嘉路的777cafe是黄浦区知名咖啡品牌之一",
+      "kind": "story",
+      "quote": "来自永嘉路的777cafe等黄浦区内众多知名咖啡品牌齐聚一堂",
+      "url": "https://www.shobserver.com/sgh/detail?id=1743445",
+      "site": "上观新闻"
+    },
+    {
+      "text": "推窗即是河畔生态画卷，临窗位可赏河面波光与农田绿意",
+      "kind": "view",
+      "quote": "推窗即是“岸绿景美、水清流畅”的生态画卷...临窗的座位既能欣赏河面上的粼粼波光,又能瞥见远处农田的绿意盎然",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32319238",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "赴一场咖啡之约!上海国际咖啡文化节开幕,黄浦这些惊喜藏不住了→",
+      "url": "https://www.shobserver.com/sgh/detail?id=1743445",
+      "site_name": "上观新闻"
+    },
+    {
+      "index": 2,
+      "title": "青浦这里新增一家宝藏咖啡馆",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32319238",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "【新春走基层】河畔藏 “星” 味!青浦区香花桥街道村咖+1,咖啡香里解锁乡村振兴新玩法 ",
+      "url": "http://www.shqp.gov.cn/xianghq/xwdt/20260106/1345774.html",
+      "site_name": "上海市青浦区人民政府"
+    },
+    {
+      "index": 4,
+      "title": "西贡抱抱咖啡厅第三弹，cafe dj 777,白天服务员比较少",
+      "url": "https://www.bilibili.com/video/BV1Wp4y1o7BF/",
+      "site_name": "哔哩哔哩"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:27Z"
+}

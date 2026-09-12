@@ -1,0 +1,61 @@
+{
+  "cafeId": "mini-co-shanghaizhangningguoji",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b39bea202fe5",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配户外座",
+      "en": "Street-facing windows with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设户外座位及室内木质桌椅",
+        "en": "Outdoor seating and indoor wood tables",
+        "from": [
+          2,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式和冰红茶类饮品",
+        "en": "Serves iced Americano and iced tea",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:00",
+        "en": "Open daily until 7 PM",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          7
+        ],
+        "zh": "有户外与室内座位可久坐",
+        "en": "Seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:56Z"
+}

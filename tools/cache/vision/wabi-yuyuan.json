@@ -1,0 +1,71 @@
+{
+  "cafeId": "wabi-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "0128444417ae",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLL35FT/comment/746B1ECC_12B6_4094_BDC7_2DC0C1BC5008_L0_001_1500_200_1761746959276_00807454.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772952915618_33249108_1772952986268_80236685.jpg",
+    "https://aos-comment.amap.com/B0FFLL35FT/comment/0240d6e3be6597796bab8c04ac8f3884_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街大玻璃窗，窗外可见庭院式户外座与绿植",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有咖啡吧台，左侧可见WABI COFE品牌磨豆机与意式咖啡机",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台上方货架陈列酒类（如Glenfiddich、Macallan）、咖啡豆袋（含WABI COFE品牌）及杯具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图桌上有两杯饮品：一杯分层冰咖啡（上深下浅），一杯抹茶拿铁带拉花",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图桌上有冰咖啡（饰蕨类叶）与一杯柠檬片热饮（疑似茶）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "户外区有数张小圆桌与金属椅，地面铺碎石，无遮阳棚",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内墙面为粗糙白墙+深色木架，杯具多为陶土/粗陶风格",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.92
+    },
+    {
+      "text": "第一张图中窗外座位无人，未见电脑或顾客使用场景",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:05Z"
+}

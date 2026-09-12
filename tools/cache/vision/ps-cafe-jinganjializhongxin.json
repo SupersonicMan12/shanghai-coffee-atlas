@@ -1,0 +1,65 @@
+{
+  "cafeId": "ps-cafe-jinganjializhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0f13be12498f",
+  "photos": [
+    "https://aos-comment.amap.com/B0KD0C0HBN/comment/content_media_external_file_100000383_1751181290902_37365027.jpg",
+    "https://aos-comment.amap.com/B0KD0C0HBN/comment/content_media_external_file_100000384_1751181290902_46618652.jpg",
+    "https://aos-comment.amap.com/B0KD0C0HBN/comment/content_media_external_images_media_100001217_1745707538733_21077584.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有煎蛋、班尼迪克蛋、松饼等西式早餐",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供番茄炖菜配面包和香草装饰的主食",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括含薄荷叶的冰饮和红色果味酒类",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌上有多道摆盘精致的西式菜肴",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "松饼搭配新鲜浆果、奶油和糖粉，装饰考究",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "环境为室内用餐区，有绿植和桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见菜单部分文字，显示饮品价格信息",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:52Z"
+}

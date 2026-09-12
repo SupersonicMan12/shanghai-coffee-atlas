@@ -1,0 +1,59 @@
+{
+  "cafeId": "caffe-bene-hongquan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ef3532e7d0aa",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFF2TQRP/comment/D8CE5BBB_90B3_448E_B92E_3907BFF11095_L0_001_1496_199_1771502887209_96038688.jpg",
+    "https://aos-comment.amap.com/B0FFF2TQRP/comment/3667C696_660F_4CE8_B562_19D4B1A9DD6E_L0_001_1496_199_1771502887206_98478818.jpg",
+    "https://aos-comment.amap.com/B0FFF2TQRP/comment/5CF57E22_4F0C_49C8_BCB5_D821112AD1E3_L0_001_1496_199_1771502887208_40569766.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡拉花饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰沙类甜品，顶部有冰淇淋球",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质桌椅和彩色软垫座椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面绘有田园风景壁画",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内摆放绿色植物",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "座位数量适中，适合小型聚会或个人使用",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:18Z"
+}

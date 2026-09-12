@@ -1,0 +1,71 @@
+{
+  "cafeId": "bluebottlecoffee-shangshengxinsuo",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "34f749484426",
+  "photos": [
+    "https://aos-comment.amap.com/B0KG9R62W6/comment/43bebd91f2e78f13525786ec0a51c1ac_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KG9R62W6/comment/0BC156BB_E298_4D5E_A9F1_B8DC0D7C588E_L0_001_1500_199_1758100121806_79707505.jpg",
+    "https://aos-comment.amap.com/B0KG9R62W6/comment/e3fd485109c2eae9d5a69f3367ee1672_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室内为挑高三角形屋顶结构，白色条状吊顶嵌入筒灯",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方墙面挂有三块菜单板，含中英文饮品名与价格标签",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见至少两台黑色意式咖啡机、手冲壶架及磨豆机",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "中央长桌为浅色瓷砖台面，嵌入不锈钢展示槽，陈列蓝瓶包装商品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口玻璃门贴有营业时间：周一至五 9AM–6PM，周六至日 9AM–8PM",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "外墙为竖向条纹金属板，挂有方形蓝瓶标志灯箱与复古壁灯",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图左上角挂一米色帆布小包，印蓝瓶标志；右下角纸杯印蓝瓶标志，配白色杯盖",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中展示区有笔记本、杯垫等商品，价签标78元、198元等",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:56Z"
+}

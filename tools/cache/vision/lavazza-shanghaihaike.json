@@ -1,0 +1,71 @@
+{
+  "cafeId": "lavazza-shanghaihaike",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c75ae40e639a",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/21132d8c3ea91d000000002332460467?type=pic",
+    "https://store.is.autonavi.com/showpic/40f0f22b3e68eca60000002332484193?type=pic"
+  ],
+  "photoKinds": [
+    "logo",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和高脚凳座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有露天座位区",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机等设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内空间宽敞，地面为大理石材质",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有遮阳伞和桌椅，适合户外休息",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客正在使用座位",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口可见宣传海报，但内容不清晰",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:20:49Z"
+}

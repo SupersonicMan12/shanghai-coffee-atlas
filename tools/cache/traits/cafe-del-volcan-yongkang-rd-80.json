@@ -1,0 +1,79 @@
+{
+  "cafeId": "cafe-del-volcan-yongkang-rd-80",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e3e566d81c60",
+  "raw": {
+    "headline": {
+      "zh": "自有庄园豆，自烘12年",
+      "en": "Own farm, roasting in Shanghai since 2012"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "拥有危地马拉自有咖啡豆庄园",
+        "en": "Own coffee farm in Guatemala",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "从种植到烘焙完整处理流程",
+        "en": "Full process from farm to roast",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚、印尼等产地豆",
+        "en": "Beans from Ethiopia, Indonesia, etc.",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设2椅1桌，室内有吧台高脚凳",
+        "en": "Outdoor: 2 chairs + 1 table; indoor bar stools",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业 9:00–19:00",
+        "en": "Open daily 9am–7pm",
+        "from": [
+          5,
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          8,
+          9,
+          10,
+          12
+        ],
+        "zh": "自烘+多产地+花果香豆",
+        "en": "In-house roasting, diverse origins"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6,
+          13
+        ],
+        "zh": "有室内外座位，环境舒适",
+        "en": "Seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:45Z"
+}

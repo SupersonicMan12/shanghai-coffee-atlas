@@ -1,0 +1,71 @@
+{
+  "cafeId": "lanwukafei-jumen-rd-468",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "3fc340d07fa6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d25ae7a297d9db9b0000002993744151?type=pic",
+    "https://store.is.autonavi.com/showpic/1dc0675066dba4fd0000002341830031?type=pic",
+    "https://store.is.autonavi.com/showpic/3b620b01bc6518e60000002341810221?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台式小店，木质吧台配5个高脚凳，后方为红砖墙与黑板菜单。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后有2台意式咖啡机、2台磨豆机，可见专业咖啡制作设备。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "黑板菜单清晰显示‘椰子绿了 ¥38’‘茯苓无语 ¥34’‘Dirty专区’等饮品及价格。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "左侧为蓝色门框的临街玻璃门/窗，透光良好，可见街景与停放摩托车。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品为拉花拿铁，表面有银杏叶造型（一橙一绿）及干桂花碎，盛于带彩绘的瓷碗。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台旁木架陈列多张黑胶唱片封面，墙上挂有中式风格画作。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "黑板写有‘每月活动’：如‘每日9:30前任意拿铁24元’‘周三老钱系列第二杯半价’等。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "照片1与3中各有一名店员背对镜头操作咖啡机，未见顾客或电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:51Z"
+}

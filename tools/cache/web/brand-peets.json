@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品巨星澳白，用创世巨星咖啡豆制作，33元/杯",
+      "kind": "drinks",
+      "quote": "「巨星澳白」(33元/杯)是Peet's Coffee皮爷咖啡的明星产品",
+      "url": "https://www.sohu.com/a/418586298_256115",
+      "site": "搜狐"
+    },
+    {
+      "text": "坚持小批量手工烘焙，只用21天内新鲜烘焙的咖啡豆",
+      "kind": "beans",
+      "quote": "坚持传统的小批量手工烘焙,店内咖啡只选用21天内新鲜烘焙的咖啡豆",
+      "url": "https://www.sohu.com/a/418586298_256115",
+      "site": "搜狐"
+    },
+    {
+      "text": "价格带33–35元，自带杯可省6元，不与线上优惠同享",
+      "kind": "light",
+      "quote": "皮爷自带杯可以省6元,但不能跟网上的优惠一起用",
+      "url": "https://www.douban.com/group/topic/307373771/",
+      "site": "豆瓣网"
+    },
+    {
+      "text": "门店形态含中岛外带柜台+宽敞堂食区，绿植墙+木质调",
+      "kind": "space",
+      "quote": "既有宽敞舒适的堂食门店区域,还有一个更适合外带的中岛柜台",
+      "url": "https://www.sohu.com/a/418586298_256115",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业时间如杭州湖滨店为7:30–22:00（初一后）",
+      "kind": "time",
+      "quote": "营业时间:大年三十调整为8:00- 初一开始恢复正常营业时间7:30-",
+      "url": "https://www.sohu.com/a/368124166_349162",
+      "site": "搜狐"
+    },
+    {
+      "text": "1966年Alfred Peet于加州伯克利创立，星巴克创始人曾师从其学烘焙",
+      "kind": "story",
+      "quote": "1966年,阿尔弗雷德·皮特在美国加州伯克利创办了第一家皮爷咖啡。1971年,星巴克创始人师从皮爷咖啡",
+      "url": "https://baike.baidu.com/item/皮爷咖啡/65415343",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "皮爷咖啡|咖啡界的“祖师爷”来啦,北京首店入驻国贸商城_Peet's",
+      "url": "https://www.sohu.com/a/418586298_256115",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 2,
+      "title": "皮爷咖啡",
+      "url": "https://baike.baidu.com/item/皮爷咖啡/65415343",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "皮爷咖啡的长期主义:从一方空间,到一杯本味",
+      "url": "http://m.linkshop.com/article/news/551853",
+      "site_name": "联商网"
+    },
+    {
+      "index": 4,
+      "title": "皮爷咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E7%9A%AE%E7%88%B7%E5%92%96%E5%95%A1/65415343",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "想喝杯咖啡还得狂领优惠券,杭州白领:“咖啡自由”太难了,没福利根本不行!_皮爷",
+      "url": "https://www.sohu.com/a/368124166_349162",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "人均46元!这个星巴克“祖师爷”,凭啥生意越卖越火? ",
+      "url": "https://m.sohu.com/a/915500389_624051",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "什么是皮爷咖啡？-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/52644",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 8,
+      "title": "咖啡探店|来,皮爷,敬你一杯不那么皮爷的Peet's coffee ",
+      "url": "https://www.douban.com/group/topic/307373771/",
+      "site_name": "豆瓣网"
+    },
+    {
+      "index": 9,
+      "title": "@咖啡品牌 直播",
+      "url": "http://live.baidu.com/m/media/multipage/liveshow/index.html?content_id=58fb6372e1de6721b44c9493e0fae181&diff_type=live&room_id=11104465946",
+      "site_name": "百度直播"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:02Z"
+}

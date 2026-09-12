@@ -1,0 +1,67 @@
+{
+  "cafeId": "laizuoxiaoyuankafei-longwu-rd-2219",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f89e8f6f056f",
+  "raw": {
+    "headline": {
+      "zh": "有庭院的小院咖啡",
+      "en": "Café with an outdoor courtyard"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "室内有吧台和多张木质椅子",
+        "en": "Indoor bar counter and multiple wooden chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积落地窗，采光良好",
+        "en": "Large floor-to-ceiling windows provide ample natural light",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "室外庭院有树木、草地和小溪景观",
+        "en": "Courtyard features trees, grass, and a small stream",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外庭院区有绿色椅子和小石桌",
+        "en": "Outdoor seating with green chairs and stone tables",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周二至周日10:00-20:00",
+        "en": "Open Tuesday–Sunday 10:00–20:00",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          3,
+          4,
+          7
+        ],
+        "zh": "有庭院和自然景观",
+        "en": "Courtyard and natural scenery"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:56Z"
+}

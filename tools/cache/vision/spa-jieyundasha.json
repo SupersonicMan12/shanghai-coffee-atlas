@@ -1,0 +1,59 @@
+{
+  "cafeId": "spa-jieyundasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dc9c42b25e95",
+  "photos": [
+    "https://aos-comment.amap.com/B0KG9L6339/comment/81ECE300_0A22_47A0_B8C7_23F7498D743B_L0_001_1000_1333_1731566259812_91340276.jpg",
+    "https://aos-comment.amap.com/B0KG9L6339/comment/D66269C0_C76E_42E4_809C_5CD3C6FEFAC8_L0_001_1536_2048_1731566259811_69606995.jpg",
+    "https://aos-comment.amap.com/B0KG9L6339/comment/4EC18782_65AF_4269_8873_C7C04E994375_L0_001_1536_2048_1731566259811_97383055.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有咖啡饮品和多种糖果、点心",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供小蛋糕类甜点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有按摩床，提供SPA服务",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有洗手台区域，配备纸巾、消毒液和绿植",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "房间内有窗帘遮挡窗户，采光有限",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有毛巾折叠成花形装饰在按摩床上",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:06Z"
+}

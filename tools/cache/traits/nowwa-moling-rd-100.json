@@ -1,0 +1,64 @@
+{
+  "cafeId": "nowwa-moling-rd-100",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e8e85931be2f",
+  "raw": {
+    "headline": {
+      "zh": "站喝果咖，临街落地窗",
+      "en": "Standing fruit coffee by the window"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，通透明亮",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌‘小马果咖’突破咖啡定义",
+        "en": "Signature 'Xiao Ma Fruit Coffee' redefines coffee",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "严选耶加雪菲、危地马拉等高海拔阿拉比卡豆",
+        "en": "Uses high-altitude Arabica from Yirgacheffe, Guatemala, etc.",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30-18:00营业",
+        "en": "Open daily 07:30–18:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "轻资产站喝模式",
+        "en": "Standing-bar format"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "果咖突破传统框架",
+        "en": "Fruit coffee breaks norms"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:01Z"
+}

@@ -1,0 +1,34 @@
+{
+ "cafeId": "graze-changle",
+ "model": "qwen-max",
+ "inputDigest": "2972ca80ba70",
+ "raw": {
+  "headline": {
+   "zh": "宽敞桌椅，适合携带笔记本工作",
+   "en": "Spacious tables, great for laptop work"
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "宽敞的桌子和充足的电源插座",
+    "en": "Wide tables and plenty of power outlets",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 1,
+    "zh": "有宽桌和电源插座",
+    "en": "Wide tables, power outlets"
+   },
+   "linger": {
+    "value": 50,
+    "from": 1,
+    "zh": "可以一杯咖啡坐很久",
+    "en": "Can sit with one cup long"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:29Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "richessse-nanlinbeili",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4df587b279f4",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0f059f54f2c6cc676e307c6ef2cc27e8",
+    "https://aos-comment.amap.com/B0K6AHOOM9/comment/content_media_external_file_100000317_1750636843310_07550891.jpg",
+    "http://store.is.autonavi.com/showpic/7ffe9a9f9879671cac66c773b6040fd3"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有白色吧台，后方墙上有品牌标识",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上可见咖啡机、磨豆机等专业器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有橙白相间的现代风格座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "地面为深色反光材质，吧台下方有灯带照明",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面外墙为浅色，有“大發 COFFEE”招牌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃窗可见室外绿植，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:27:15Z"
+}

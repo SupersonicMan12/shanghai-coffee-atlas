@@ -1,0 +1,61 @@
+{
+  "cafeId": "yibeikafeixiankaobeiguo-hehuanluyuhanxiaolujiaoc",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2818f3a4e55b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0e91632dfbb17496d3da03644a0896dd"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有贝果陈列柜，可见多种贝果",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台后方有烘焙设备和操作台",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "右侧货架陈列瓶装饮品和包装食品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "空间为室内小店类型，面积较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见工作人员在柜台后操作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "天花板有嵌入式照明灯带",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧有冷藏展示柜，陈列面包类食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:19:31Z"
+}

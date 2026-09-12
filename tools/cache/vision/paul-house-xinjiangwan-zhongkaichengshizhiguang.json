@@ -1,0 +1,49 @@
+{
+  "cafeId": "paul-house-xinjiangwan-zhongkaichengshizhiguang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f695759fec3a",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/8a4d68cdcfb3425c9640baad198466e2"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，门面有玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口上方有酒瓶陈列，暗示提供酒类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门牌号为272，位于街角位置",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门外地面为石板铺设，无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "临街玻璃窗，可见店内部分区域",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:15Z"
+}

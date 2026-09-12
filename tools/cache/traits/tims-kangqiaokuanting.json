@@ -1,0 +1,62 @@
+{
+  "cafeId": "tims-kangqiaokuanting",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "03013d083c0b",
+  "raw": {
+    "headline": {
+      "zh": "咖啡+现做暖食套餐",
+      "en": "Coffee with fresh warm food"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供美式咖啡配肉桂提子贝果套餐，19.9元",
+        "en": "Americano with cinnamon raisin bagel, ¥19.9",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜陈列多种现做贝果等暖食",
+        "en": "Glass case displays various fresh warm bagels",
+        "from": [
+          1,
+          5,
+          6,
+          8,
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked, small-batch roasted coffee beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-20:00营业",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "有展示柜和制作区，可坐享现做餐食",
+        "en": "Seating with fresh food service"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:01Z"
+}

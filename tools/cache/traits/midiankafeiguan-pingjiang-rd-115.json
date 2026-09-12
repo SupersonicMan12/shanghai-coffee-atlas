@@ -1,0 +1,76 @@
+{
+  "cafeId": "midiankafeiguan-pingjiang-rd-115",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "dfaacfd2f309",
+  "raw": {
+    "headline": {
+      "zh": "临街通透中型咖啡馆",
+      "en": "Bright, street-facing midsize cafe"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，室内采光良好",
+        "en": "Floor-to-ceiling windows provide ample natural light",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "约6-8组木桌椅，每组坐2-4人",
+        "en": "6–8 wooden tables, each seating 2–4 people",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间开阔，天花板可见管道结构",
+        "en": "Open space with exposed ceiling pipes",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "配备专业咖啡机与磨豆机",
+        "en": "Equipped with professional espresso and grinder",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-19:00营业",
+        "en": "Open daily 09:00–19:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "有桌椅和开阔空间",
+        "en": "Tables and open layout"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "多组座位适合久坐",
+        "en": "Seating suits lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:21Z"
+}

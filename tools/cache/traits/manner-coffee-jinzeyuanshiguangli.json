@@ -1,0 +1,78 @@
+{
+  "cafeId": "manner-coffee-jinzeyuanshiguangli",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a73e63adf52f",
+  "raw": {
+    "headline": {
+      "zh": "2㎡站喝窗口店",
+      "en": "2sqm standing-only window"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "独立小屋式结构，面积较小",
+        "en": "Small standalone kiosk-style unit",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full glass front, bright interior",
+        "from": [
+          1,
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门口有木质长椅可短暂休息",
+        "en": "Wooden bench outside for brief rest",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜等",
+        "en": "Known for oat milk latte and Bing Tian",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–17:00营业",
+        "en": "Open daily 07:00–17:00",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          4,
+          6,
+          9,
+          15
+        ],
+        "zh": "站喝为主，无室外座",
+        "en": "Standing takeout focused"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          11,
+          13
+        ],
+        "zh": "自烘豆+限定意式款",
+        "en": "In-house roasted beans, seasonal espresso"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:44Z"
+}

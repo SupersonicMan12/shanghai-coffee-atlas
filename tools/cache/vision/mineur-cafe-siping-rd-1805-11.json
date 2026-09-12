@@ -1,0 +1,59 @@
+{
+  "cafeId": "mineur-cafe-siping-rd-1805-11",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "29e1176c85d1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4bce738378e4a9af4bcf205febd843fe",
+    "https://aos-comment.amap.com/B0M6OHLLX8/comment/0198D5FF_7272_4BFF_867B_6399D20B5E6A_L0_001_1512_201_1770688033944_37040977.jpg",
+    "https://store.is.autonavi.com/showpic/f750170cd3d0f66c0000002901436803?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面有大面积临街玻璃窗",
+      "kind": "light|view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见吧台和两张白色椅子",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上摆放着两台磨豆机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有一名顾客坐在窗边休息",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "透过窗户可见室外绿树",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面位于街道旁，有金属护栏隔开",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:54Z"
+}

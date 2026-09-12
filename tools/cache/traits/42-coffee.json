@@ -1,0 +1,46 @@
+{
+ "cafeId": "42-coffee",
+ "model": "qwen-max",
+ "inputDigest": "72eb800e3119",
+ "raw": {
+  "headline": {
+   "zh": "精选竞标咖啡豆，点单后线上付款",
+   "en": "Select auction beans, pay online after ordering"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "不满30平米的小咖啡馆",
+    "en": "Tiny coffee shop under 30 sqm",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "店内严选竞标咖啡豆专售",
+    "en": "Strictly selected auction beans for sale",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：Brewer choice filter",
+    "en": "Signature drink: Brewer choice filter",
+    "from": 6
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 2,
+    "zh": "容易路过，适合快速消费",
+    "en": "Easy to miss, quick consumption"
+   },
+   "adventure": {
+    "value": 80,
+    "en": "Specialty brewing methods",
+    "zh": "提供特色手冲方法",
+    "from": 5
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:46Z"
+}

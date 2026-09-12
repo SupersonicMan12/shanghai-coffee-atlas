@@ -1,0 +1,65 @@
+{
+  "cafeId": "xingyunka-huadongshifandaxue",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a3cb0a95d060",
+  "raw": {
+    "headline": {
+      "zh": "10元内站喝现磨咖啡",
+      "en": "Stand-up coffee under $1.5"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "仅吧台站立区，无座位",
+        "en": "Standing bar only, no seats",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "红豆沙拿铁10元，美式6.9元",
+        "en": "Red bean latte ¥10, Americano ¥6.9",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "用巴西等四国阿拉比卡豆",
+        "en": "Arabica beans from four origins",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:30",
+        "en": "Open daily until 19:30",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1
+        ],
+        "zh": "仅站立饮用",
+        "en": "Standing only"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          2,
+          12
+        ],
+        "zh": "有水果冰萃等特调",
+        "en": "Fruit cold brews available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:04Z"
+}

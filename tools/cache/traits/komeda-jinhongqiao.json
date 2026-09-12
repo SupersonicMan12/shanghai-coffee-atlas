@@ -1,0 +1,28 @@
+{
+ "cafeId": "komeda-jinhongqiao",
+ "model": "qwen-max",
+ "inputDigest": "3d2faa8b4525",
+ "raw": {
+  "headline": {
+   "zh": "日式复古氛围，招牌咖啡香醇不焦苦",
+   "en": "Retro Japanese vibe, aromatic and smooth coffee"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "店内装修复古，有安静的日式氛围",
+    "en": "Retro decor, quiet and Japanese-style ambiance",
+    "from": 7
+   },
+   {
+    "kind": "food",
+    "zh": "上午11点前点大杯咖啡送烤吐司",
+    "en": "Free toast with large coffee before 11 AM",
+    "from": 6,
+    ")+10+": 10
+   },
+   "axisHints"
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:19:04Z"
+}

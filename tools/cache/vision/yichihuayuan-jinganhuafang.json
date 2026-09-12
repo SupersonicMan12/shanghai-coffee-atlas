@@ -1,0 +1,71 @@
+{
+  "cafeId": "yichihuayuan-jinganhuafang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "755e2159b397",
+  "photos": [
+    "https://aos-comment.amap.com/B0H0PUGXMR/comment/01dc34a6909afdad98f915831d8c72a4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H0PUGXMR/comment/C3827D92_1729_4786_8267_220EE2A16ADC_L0_001_1500_2000_1749047784973_44983879.jpg",
+    "https://aos-comment.amap.com/B0H0PUGXMR/comment/bd2376a3ca880dc5a757915c995e39e9_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店在3楼，入口处有指示牌指向侧门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌面和黑色盘子，摆设简洁。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示“湖岸咖啡”，含雪梨、陈皮等原料。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一块千层蛋糕，表面有焦糖色。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有“请轻声交谈”提示牌，环境偏安静。",
+      "kind": "sound",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "座位号为162，提示点餐后勿更换座位。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品有拉花，一杯粉红，一杯棕色撒可可粉。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立牌写“遇见美好”，但无价格或豆子产地。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:15Z"
+}

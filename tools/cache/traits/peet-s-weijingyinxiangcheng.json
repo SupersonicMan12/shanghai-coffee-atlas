@@ -1,0 +1,91 @@
+{
+  "cafeId": "peet-s-weijingyinxiangcheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "16dc18c0483e",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+宽敞堂食",
+      "en": "In-house roasted beans, spacious seating"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses coffee beans roasted within 21 days",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元/杯",
+        "en": "Signature Major Dickason's Flat White ¥33",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设露天座、编织椅圆形桌及多区域座位",
+        "en": "Outdoor seating, woven chairs, round tables, multiple zones",
+        "from": [
+          1,
+          2,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间宽敞明亮，有落地窗",
+        "en": "Spacious and bright interior with floor-to-ceiling windows",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–21:30",
+        "en": "Open daily 7:30 AM – 9:30 PM",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2,
+          4,
+          6
+        ],
+        "zh": "多座位区且布局整洁",
+        "en": "Multiple quiet zones, tidy layout"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          4,
+          6,
+          8
+        ],
+        "zh": "室内外多座位适合久坐",
+        "en": "Indoor/outdoor seating for lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          3,
+          10
+        ],
+        "zh": "有手冲设备与自烘豆",
+        "en": "Pour-over setup and in-house roasting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:28Z"
+}

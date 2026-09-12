@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "text": "主打精品咖啡豆",
+      "kind": "beans",
+      "quote": "MONO咖啡店是最低调的一家。纯黑的门头上,没有店名",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1743969",
+      "site": "无"
+    },
+    {
+      "text": "招牌饮品为三杯维也纳咖啡",
+      "kind": "drinks",
+      "quote": "主打维也纳咖啡。店里有三款风味特别、颜值高的维也纳咖啡",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1743969",
+      "site": "无"
+    },
+    {
+      "text": "空间设计极简与克制",
+      "kind": "space",
+      "quote": "没有花哨的设计,以大面积黑、灰、木质色支撑",
+      "url": "https://www.sohu.com/a/1048656642_121124630",
+      "site": "搜狐"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "在喧嚣地带划出了一道安静的界线",
+      "url": "https://www.sohu.com/a/1048656642_121124630",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业时间至晚上",
+      "kind": "time",
+      "quote": "营业时间:周一至周日 -",
+      "url": "https://www.sohu.com/a/1048656642_121124630",
+      "site": "搜狐"
+    },
+    {
+      "text": "店主为前咖啡大厂人",
+      "kind": "story",
+      "quote": "Hugo 在十年前就曾在麦隆研发出爆火全网的 「甜心雨棉花糖美式」",
+      "url": "https://www.sohu.com/a/1048656642_121124630",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "中韩夫妻开咖啡店,主打三杯“维也纳” | 虹口甄选",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1743969",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "探店特辑丨巡津街上的禁欲系咖啡馆,一次解锁Dirty的多重面向",
+      "url": "https://www.sohu.com/a/1048656642_121124630",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "印度咖啡冲泡 印度风渍咖啡季风咖啡冲煮风味描述",
+      "url": "https://www.gafei.com/kafeibiji-141972",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡能种出稻香吗?Grid Coffee 2026 中国云南产地季,走进「云南,共生之地」",
+      "url": "https://m.163.com/dy/article/L6D2HONT0531LTUZ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "西达摩咖啡豆",
+      "url": "https://baike.baidu.com/item/西达摩咖啡豆/68549945",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "单品咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%8D%95%E5%93%81%E5%92%96%E5%95%A1/10928388",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:42Z"
+}

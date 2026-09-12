@@ -1,0 +1,56 @@
+{
+  "cafeId": "ruixingkafei-huaihaizhonghuadasha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "724edd4094a8",
+  "raw": {
+    "headline": {
+      "zh": "站喝快取，新品高频",
+      "en": "Grab-and-go with frequent new drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
+        "en": "Signature drinks include Shengye and Jiangxiang lattes",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆为深烘，产地品牌不可辨",
+        "en": "Beans are dark roasted; origin unidentifiable",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:00-20:00，周末8:00-20:00营业",
+        "en": "Open 7–8am to 8pm, later start on weekends",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "主力饮品价格带12-15元",
+        "en": "Main drinks priced at ¥12–15",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          6
+        ],
+        "zh": "无或少量堂食，快取为主",
+        "en": "Takeout-focused, minimal seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:09Z"
+}

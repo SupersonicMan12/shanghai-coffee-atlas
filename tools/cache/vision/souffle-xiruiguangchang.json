@@ -1,0 +1,71 @@
+{
+  "cafeId": "souffle-xiruiguangchang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c9256c904334",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/dd9be4aea4f1a9c5f3220d43576435ad",
+    "https://aos-comment.amap.com/B0HAZZ555E/comment/384a668ba0b3f4f88ff3bd2fdf6e2b3a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HAZZ555E/comment/content_media_external_file_1000077453_ss__1767114457595_69570353.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面招牌为‘芙蕾哥哥 souffle’，绿色格子门，外墙浅灰，两侧有窗台盆栽",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口右侧有红色遮阳篷，下方可见绿植，疑似设室外座区域",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内桌面为木质，摆放 Soufflé 蛋糕（杯装、顶部撒糖粉）、小碗冰淇淋、勺子",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "同一桌有抹茶布丁（绿色、焦糖淋面）、两杯饮品：一杯分层冰拿铁、一杯深色冷饮",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "Soufflé 盛于蓝白手绘陶瓷杯中，杯身有星空/海浪图案；布丁盛于白底绿蓝边瓷盘",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗户为临街玻璃窗，窗台可放小型盆栽，未见落地窗或大采光面",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未出现吧台、烘焙机、手冲设备、书架、宠物或使用电脑的人",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "无菜单入镜，未见价格、豆子产地或饮品名称文字",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:52Z"
+}

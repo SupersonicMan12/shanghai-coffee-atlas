@@ -1,0 +1,28 @@
+{
+ "cafeId": "foom-tianangianshu",
+ "model": "qwen-max",
+ "inputDigest": "e052e4d917ab",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：氮气飞行在空中花园下",
+    "en": "Signature drink: Nitro flight under hanging gardens",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "饮品设计富有创意",
+    "en": "Creative drink design"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:34Z"
+}

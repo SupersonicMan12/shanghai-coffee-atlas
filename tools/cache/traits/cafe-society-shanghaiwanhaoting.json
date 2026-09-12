@@ -1,0 +1,74 @@
+{
+  "cafeId": "cafe-society-shanghaiwanhaoting",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3d4ff849215e",
+  "raw": {
+    "headline": {
+      "zh": "挑高岩壁空间配云南豆",
+      "en": "Lofty rock-walled space with Yunnan beans"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "室内为挑高空间，保留原始岩壁",
+        "en": "High-ceiling interior with original rock walls",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃带来自然采光",
+        "en": "Floor-to-ceiling street-facing windows for natural light",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用云南产阿拉比卡咖啡豆",
+        "en": "Serves Yunnan-grown Arabica coffee beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供紫薯卷、三角包等面包",
+        "en": "Offers purple sweet potato rolls and croissants",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–20:00营业",
+        "en": "Open daily 09:00–20:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "适合办公聊天",
+        "en": "Good for work and chat"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "宽敞空间适合久坐",
+        "en": "Spacious for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:07Z"
+}

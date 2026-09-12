@@ -1,0 +1,49 @@
+{
+  "cafeId": "kenyuekafeibaiyulanguangchangdian-dongzhangzhi-r",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4ccf5b29bcd0",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/fd80cb43122e50ea692acc2711b28d46"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "肯悦咖啡位于商场内，邻近KFC",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店铺为玻璃门面，可见内部部分区域",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口有立式促销牌，展示优惠信息",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有蓝色门框，与KFC相邻",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "地面为灰色石材铺装，空间较开阔",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:03Z"
+}

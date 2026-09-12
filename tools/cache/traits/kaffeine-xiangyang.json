@@ -1,0 +1,40 @@
+{
+ "cafeId": "kaffeine-xiangyang",
+ "model": "qwen-max",
+ "inputDigest": "718e217033fe",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "长凳提供足够的座位空间",
+    "en": "Long bench for ample seating",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为批量冲煮续杯",
+    "en": "Signature: Batch brew refills",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 1,
+    "zh": "有插座适合工作",
+    "en": "Good for working with outlets"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "长凳和街景适合久坐",
+    "en": "Long bench and street view"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:50Z"
+}

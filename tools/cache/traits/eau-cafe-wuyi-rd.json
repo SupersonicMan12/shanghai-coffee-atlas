@@ -1,0 +1,69 @@
+{
+  "cafeId": "eau-cafe-wuyi-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "56d2e75bff3e",
+  "raw": {
+    "headline": {
+      "zh": "日式焦糖布丁配特调气泡水",
+      "en": "Japanese crème caramel with signature sparkling drinks"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌甜品是日式焦糖布丁",
+        "en": "Signature dessert is Japanese crème caramel",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供菠萝香茅等特调气泡水",
+        "en": "Offers pineapple-lemongrass sparkling drinks",
+        "from": [
+          4,
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "空间较小，设藤编座椅与飘窗位",
+        "en": "Compact space with rattan chairs and window nook",
+        "from": [
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间9:30至20:00",
+        "en": "Open daily from 9:30 to 20:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          7,
+          12
+        ],
+        "zh": "有飘窗位适合小坐",
+        "en": "Window nook invites lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          8,
+          11
+        ],
+        "zh": "特调饮品风味多样",
+        "en": "Varied signature drink profiles"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:49Z"
+}

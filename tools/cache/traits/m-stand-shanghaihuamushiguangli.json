@@ -1,0 +1,67 @@
+{
+  "cafeId": "m-stand-shanghaihuamushiguangli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1fdbe8c89350",
+  "raw": {
+    "headline": {
+      "zh": "工业风小店配皮沙发",
+      "en": "Industrial vibe with leather sofas"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内有黑色皮质沙发座位",
+        "en": "Black leather sofas inside",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光好",
+        "en": "Floor-to-ceiling street-facing windows, bright",
+        "from": [
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间不大，属小店类型",
+        "en": "Compact space, small cafe type",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含香肠、油条",
+        "en": "Recommended dishes: sausage, youtiao",
+        "from": [
+          16
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          2,
+          6,
+          7
+        ],
+        "zh": "有沙发但空间小",
+        "en": "Sofas but compact"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:09Z"
+}

@@ -1,0 +1,61 @@
+{
+  "cafeId": "j-create-xiehe-rd-99",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f9659828ce4b",
+  "raw": {
+    "headline": {
+      "zh": "带院子的露营风咖啡馆",
+      "en": "Camping-style cafe with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位区，背景有绿植",
+        "en": "Outdoor seating area with greenery backdrop",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供柠檬气泡水等冷饮，含冰块和柠檬片",
+        "en": "Serves lemon sparkling cold drinks with ice and lemon slices",
+        "from": [
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应炸鸡块、华夫薯条和抹茶蛋糕",
+        "en": "Offers chicken bites, waffle fries, and matcha cake",
+        "from": [
+          1,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 21:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:23Z"
+}

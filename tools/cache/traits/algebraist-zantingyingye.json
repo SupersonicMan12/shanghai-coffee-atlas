@@ -1,0 +1,75 @@
+{
+  "cafeId": "algebraist-zantingyingye",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1f9c32860a66",
+  "raw": {
+    "headline": {
+      "zh": "站喝式高复购特色咖啡亭",
+      "en": "Stand-up spot for top-selling signature drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌有重瓣玫瑰布列夫、kiri法酪拿铁系列",
+        "en": "Known for Double Rose Breve and Kiri Cream Latte",
+        "from": [
+          5,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "商场内吧台式咖啡亭，无独立门面",
+        "en": "Counter-style kiosk inside mall, no standalone entrance",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至18:00，周末仅到15:00",
+        "en": "Open till 6pm weekdays, 3pm weekends",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品价格20~48元，属中高价",
+        "en": "Drinks priced ¥20–48, mid-to-premium range",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "仅设吧台无座位",
+        "en": "Standing-only counter"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "午休时段上班族密集",
+        "en": "Busy with office crowds at lunch"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          5,
+          6,
+          12
+        ],
+        "zh": "主打特色风味拿铁系列",
+        "en": "Signature flavored lattes stand out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:01Z"
+}

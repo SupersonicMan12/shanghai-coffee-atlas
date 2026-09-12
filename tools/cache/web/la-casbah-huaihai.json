@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "位于上海图书馆对面，淮海中路黄金地段",
+      "kind": "space",
+      "quote": "上海图书馆对面的宝藏小西餐厅",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15487921.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "提供露天座位",
+      "kind": "space",
+      "quote": "免費Wi-Fi露天座位接受訂位大枱（8–10人）",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/la-casbah-30983630/",
+      "site": "La Casbah卡西巴咖啡（淮海店） (上海衡山路地區) - Trip.com"
+    },
+    {
+      "text": "常年以不算很高的价格做出美味食物",
+      "kind": "story",
+      "quote": "常年以不算很高的价格做出非常美味的食物实属不易",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15487921.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "La Casbah卡西巴咖啡（淮海店） (上海衡山路地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/la-casbah-30983630/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "La Casbah卡西巴咖啡(淮海店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15487921.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 3,
+      "title": "La Casbah卡西巴咖啡（淮海店） (衡山路地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/la-casbah-30983630/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Restaurant La Casbah（上海）| 鼎食聚 - Shanghai",
+      "url": "https://www.diningcity.cn/zh/shanghai/1350_la_casbah?phone=021+5666+1777",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Restaurant La Casbah: Un Voyage Culinaire à Saint-Denis - TikTok",
+      "url": "https://www.tiktok.com/@zahir.zahir15/video/7573329762723073302",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:28Z"
+}

@@ -1,0 +1,88 @@
+{
+  "cafeId": "kuddocoffee-xianfengchao",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6bdb5da547c9",
+  "raw": {
+    "headline": {
+      "zh": "手冲豆单聚焦精品庄园",
+      "en": "Specialty single-origin hand-drip coffees"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "主打哥斯达黎加巨石庄园、巴拿马安波里奥庄园手冲豆",
+        "en": "Features hand-drip coffees from Costa Rica's Piedra Grande and Panama's Amborio estates",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内设阶梯式座位，室外有绿色桌椅与遮阳伞",
+        "en": "Indoor tiered seating and outdoor green tables with white umbrellas",
+        "from": [
+          1,
+          8,
+          6
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃，可边喝咖啡边看窗外风景",
+        "en": "Full-height street-facing glass windows for viewing outside while drinking coffee",
+        "from": [
+          2,
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应明太子年轮唱片面包，顶上芝士缓流",
+        "en": "Serves mentaiko 'record' roll cake with slow-dripping cheese topping",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室外区域种植多种绿植",
+        "en": "Outdoor area planted with multiple types of greenery",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 50,
+        "from": [
+          8
+        ],
+        "zh": "有阶梯式座位但无证据支持办公适配",
+        "en": "Tiered seating present, no evidence of work setup"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          3,
+          6,
+          8,
+          12
+        ],
+        "zh": "室内外多座位+绿植+观景，适合久坐",
+        "en": "Multiple indoor/outdoor seats, greenery, and views support lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10
+        ],
+        "zh": "专注两款高辨识度精品庄园手冲",
+        "en": "Focused on two distinct, named specialty estate hand-drips"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:30Z"
+}

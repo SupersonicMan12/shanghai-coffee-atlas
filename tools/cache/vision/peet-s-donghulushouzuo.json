@@ -1,0 +1,59 @@
+{
+  "cafeId": "peet-s-donghulushouzuo",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "c0ad53b80687",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIXRG6K/comment/content_media_external_file_1000027585_ss__1754537811099_74774538.jpg",
+    "https://aos-comment.amap.com/B0FFIXRG6K/comment/0f7a394c087672cf1c15333d1ab709fb_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFIXRG6K/comment/554acb34763d7dc7412e01bb617d5167_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街有户外座位区，配遮阳伞和绿植。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外停放多辆共享单车与电瓶车，街道旁有大树。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域及部分顾客就坐。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯拉花为心形的热拿铁。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯加了冰淇淋球的特调饮品，插有“阿芙佳朵特调”标牌。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "户外座位区有大型落地窗，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:55Z"
+}

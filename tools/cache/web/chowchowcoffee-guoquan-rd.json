@@ -1,0 +1,60 @@
+{
+  "facts": [
+    {
+      "text": "橙色白色构成的小小店鋪，有醒目的萌萌松獅LOGO",
+      "kind": "space",
+      "quote": "橙色 白色構成的小小店鋪，還有醒目的萌萌松獅LOGO！",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site": "ChowChowCoffee松獅咖啡（五角場店） - Trip.com"
+    },
+    {
+      "text": "靠近大學路商圈，位于国权路上，邻近复旦高校",
+      "kind": "space",
+      "quote": "他人の子供たちが通う復旦高校の隣に古くから植えられている喫茶店",
+      "url": "https://jp.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site": "ChowChowCoffee松狮咖啡(五角场店) - Trip.com"
+    },
+    {
+      "text": "日咖夜酒，提供【白酒拿铁】，自帶淡淡酒香",
+      "kind": "drinks",
+      "quote": "想要日咖夜酒同時擁有，那就幹了這杯【白酒拿鐵】吧，自帶淡淡酒香",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site": "ChowChowCoffee松獅咖啡（五角場店） - Trip.com"
+    },
+    {
+      "text": "店铺很小，橙色空间充满松狮元素，很可爱",
+      "kind": "space",
+      "quote": "お店はとても小さくて、オレンジ色の空間はチャウチャウの要素がいっぱいでとてもかわいいです",
+      "url": "https://jp.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site": "ChowChowCoffee松狮咖啡(五角场店) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "ChowChowCoffee松獅咖啡（五角場店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "ChowChowCoffee松狮咖啡(五角场店) - Trip.com",
+      "url": "https://jp.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "唤醒长假多巴胺,园区宝藏咖啡馆合集来了~",
+      "url": "https://www.thepaper.cn/newsDetail_forward_28946927",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "豆子咖啡实验室",
+      "url": "https://weidian.com/?userid=1143181447",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:05Z"
+}

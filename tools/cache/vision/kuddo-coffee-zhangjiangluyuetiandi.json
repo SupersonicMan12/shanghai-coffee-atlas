@@ -1,0 +1,71 @@
+{
+  "cafeId": "kuddo-coffee-zhangjiangluyuetiandi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8fa6422a9a48",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/789a1f69b77257530000000960812758?type=pic",
+    "https://aos-comment.amap.com/B0K07LKPL1/comment/C8B05C0B_6923_4DB4_A341_E7B3378C1940_L0_001_2000_150_1758587819378_71380786.jpg",
+    "https://store.is.autonavi.com/showpic/fc8aff536edcabfa0000003362338769?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场内，临街玻璃门，有遮阳棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间宽敞，有木质桌椅和长凳",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有顾客在使用笔记本电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供拉花拿铁、冰咖啡、法棍三明治和小面包",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有服装和商品陈列架",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有室外长椅，可坐",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吧台区域，但无明显烘焙设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:46Z"
+}

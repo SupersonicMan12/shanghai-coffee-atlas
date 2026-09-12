@@ -1,0 +1,71 @@
+{
+  "cafeId": "bagels-schmears-ruijinshequnanmenpang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ecdd80d652dc",
+  "photos": [
+    "https://aos-comment.amap.com/B0JDYH2617/comment/0ec142bb0ae7b42e4ce471281839c3e4_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/8dfb040579d67f88e8f67aaff1b9702e",
+    "https://aos-comment.amap.com/B0JDYH2617/comment/cdc49e681561329b9879b27acb7fe54d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内提供贝果、司康、手撕面包等烘焙食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有贝果、三明治、咖啡和果汁等选项",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见价格信息，如司康12-14元，手撕面包35元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺为临街小店，门口有玻璃门和窗户",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见桌椅，座位数量有限",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上标注营业时间：早餐7:00-11:00，午餐11:00-17:00，晚餐17:00-21:00",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供多种奶酪涂抹酱，如希腊酸奶椰香、抹茶奶酪等",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有苹果汁、黑咖啡、鲜萃咖啡等饮品选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:53Z"
+}

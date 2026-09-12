@@ -1,0 +1,65 @@
+{
+  "cafeId": "sanlinkafei-lingyan-s-rd-1199",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "bc645dbb325b",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e5fa65b32382a077ab88b758bdd7f27f",
+    "http://store.is.autonavi.com/showpic/fbae49ee7e5b765fa75766f9da0356b4",
+    "http://store.is.autonavi.com/showpic/9d551cd25186b0f8dbd7be98c1f2ca84"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街商铺，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有红色灯笼装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处有‘请上二楼’提示",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺招牌为‘三林咖啡’，有中英文标识",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺与vivo、中国移动共用一层门面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑上方有电线交错",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有石球路障",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:12Z"
+}

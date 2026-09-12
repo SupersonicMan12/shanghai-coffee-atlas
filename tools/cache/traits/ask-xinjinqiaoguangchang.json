@@ -1,0 +1,83 @@
+{
+  "cafeId": "ask-xinjinqiaoguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "7e7e163b44e5",
+  "raw": {
+    "headline": {
+      "zh": "海盐荔枝精酿配看球",
+      "en": "Salty lychee brews with game nights"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供海盐荔枝味精酿啤酒",
+        "en": "Serves salty lychee flavored craft beer",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用笔记本电脑",
+        "en": "Patrons use laptops here",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨2点",
+        "en": "Open daily until 2 a.m.",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内设木纹桌，无室外座位",
+        "en": "Indoor wooden tables, no outdoor seating",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3,
+          7
+        ],
+        "zh": "有人用电脑办公",
+        "en": "Laptops in use"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "夜间门口有人聚集",
+        "en": "People gather at night"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "有桌可坐但非休闲空间",
+        "en": "Seating available but not lounge-like"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "特色风味精酿啤酒",
+        "en": "Distinctive craft beer flavors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:36Z"
+}

@@ -1,0 +1,76 @@
+{
+  "cafeId": "blacksheep-jianguo",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0b5badf77cc5",
+  "raw": {
+    "headline": {
+      "zh": "自烘非洲豆+秘密雪屋",
+      "en": "House-roasted African beans, hidden snow room"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘焙豆，涵盖意式到手冲",
+        "en": "In-house roasted beans for espresso to pour-over",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "深入非洲农庄直采豆源",
+        "en": "Sources beans directly from African farms",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌SOE奶咖与‘一羊千喜’特饮",
+        "en": "Signature SOE milk coffee and 'Yi Yang Qian Xi' drink",
+        "from": [
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "‘碰瓷羊’甜品含白巧外壳与咖啡慕斯",
+        "en": "'Peng Ci Yang' dessert: white chocolate shell, coffee mousse",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "建国中路老店约30平米，有秘密雪屋打卡区",
+        "en": "30 sqm old shop with hidden 'snow room' nook",
+        "from": [
+          6,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          3,
+          4,
+          11
+        ],
+        "zh": "自烘+非洲单一产地豆",
+        "en": "House-roasted, single-origin African beans"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "仅30平米小店",
+        "en": "Tiny 30 sqm space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:09Z"
+}

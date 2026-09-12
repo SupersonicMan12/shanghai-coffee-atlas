@@ -1,0 +1,59 @@
+{
+  "cafeId": "slab-town-haisuwenhuaguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "da99947c083d",
+  "photos": [
+    "https://aos-comment.amap.com/B0J21UC97J/comment/content_media_external_file_60427_ss__1749433695549_79455323.jpg",
+    "https://aos-comment.amap.com/B0J21UC97J/comment/C83A35F9_772E_4F95_AC7C_41121BA759F9_L0_001_1500_200_1752931700111_34304373.jpg",
+    "https://aos-comment.amap.com/B0J21UC97J/comment/content_media_external_file_60448_ss__1749433695480_58460899.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡机和手冲设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有售卖咖啡豆、杯子、帽子等周边商品",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有木质展示架陈列商品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见落地窗，窗外有街道和车辆",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:12:50Z"
+}

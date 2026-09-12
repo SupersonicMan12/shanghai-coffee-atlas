@@ -1,0 +1,70 @@
+{
+ "cafeId": "metal-hands-nanchang",
+ "model": "qwen-max",
+ "inputDigest": "92b3f6ec5fb5",
+ "raw": {
+  "headline": {
+   "zh": "自烘高品质阿拉比卡豆，招牌Dirty咖啡",
+   "en": "In-house roasted Arabica, famous for Dirty coffee"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "使用自己烘焙的高品质阿拉比卡咖啡豆",
+    "en": "Uses in-house roasted high-quality Arabica beans",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为Dirty咖啡",
+    "en": "Signature drink is the Dirty coffee",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "半开放环境，玻璃屋顶与木质结构结合",
+    "en": "Semi-open space with glass roof and wooden structure",
+    "from": 3
+   },
+   {
+    "kind": "people",
+    "zh": "工作日下午去不用排队，店里人多但安静",
+    "en": "Not crowded on weekday afternoons, quiet atmosphere",
+    "from": 4
+   },
+   {
+    "kind": "space",
+    "zh": "店内布置艺术画作与文艺书籍，适合歇脚拍照聊天办公",
+    "en": "Art and books, good for resting, chatting, and working",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 4,
+    "zh": "适合专注办公",
+    "en": "Good for focused work"
+   },
+   "energy": {
+    "value": 20,
+    "from": 4,
+    "zh": "安静氛围",
+    "en": "Quiet ambiance"
+   },
+   "linger": {
+    "value": 90,
+    "from": 4,
+    "zh": "适合久坐",
+    "en": "Great for long stays"
+   },
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "自烘咖啡豆",
+    "en": "In-house roasted beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:10:13Z"
+}

@@ -1,0 +1,34 @@
+{
+ "cafeId": "modi-wulumuqi",
+ "model": "qwen-max",
+ "inputDigest": "07b0a0466e51",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街窗座可观察乌鲁木齐中路的人来人往",
+    "en": "Street-side window seat for people-watching on Wulumuqi Road",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "适合观察街道活力",
+    "en": "Good for street energy"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "窗边座位吸引人久坐",
+    "en": "Window seats invite lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:57Z"
+}

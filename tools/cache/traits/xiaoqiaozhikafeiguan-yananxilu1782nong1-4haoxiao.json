@@ -1,0 +1,43 @@
+{
+ "cafeId": "xiaoqiaozhikafeiguan-yananxilu1782nong1-4haoxiao",
+ "model": "qwen-max",
+ "inputDigest": "f4e5f891834f",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "多格小窗可见街道与行道树",
+    "en": "Multi-pane windows overlook the street and trees",
+    "from": 4,
+    "}3, 2, 7]\"},": "view"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间11:00-21:00，部分日期全天关闭",
+    "en": "Open 11:00-21:00, closed on some dates",
+    "from": 9,
+    "},": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 2,
+    "zh": "有小圆桌适合轻度工作",
+    "en": "Small tables for light work"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "},": 7,
+    "zh": "室外吧台和室内座位适合久坐",
+    "en": "Outdoor bar and indoor seats for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:37Z"
+}

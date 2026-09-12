@@ -1,0 +1,76 @@
+{
+  "cafeId": "lili-time-mengzi-east-rd-63",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "595e5a2732ec",
+  "raw": {
+    "headline": {
+      "zh": "上海首家社会企业咖啡馆",
+      "en": "Shanghai's first certified B Corp cafe"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "70%员工为听障人士",
+        "en": "70% of staff are hearing impaired",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品有茉莉白桃、杏仁咸奶油",
+        "en": "Signature drinks: Jasmine White Peach, Almond Salted Cream",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供埃塞俄比亚等手冲咖啡",
+        "en": "Offers Ethiopian and other pour-over coffees",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周四营业至20:00，周末至21:00",
+        "en": "Open till 20:00 weekdays, 21:00 weekends",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街落地窗，自然光充足",
+        "en": "Floor-to-ceiling windows with ample natural light",
+        "from": [
+          5,
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          8
+        ],
+        "zh": "有桌椅与自然光适合久坐",
+        "en": "Seating and daylight encourage lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "有特色饮品与多选手冲",
+        "en": "Unique drinks and varied pour-overs"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:01Z"
+}

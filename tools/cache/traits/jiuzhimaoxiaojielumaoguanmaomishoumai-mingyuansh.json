@@ -1,0 +1,70 @@
+{
+  "cafeId": "jiuzhimaoxiaojielumaoguanmaomishoumai-mingyuansh",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8d2344e67779",
+  "raw": {
+    "headline": {
+      "zh": "9只猫的全日餐咖啡馆",
+      "en": "All-day café with 9 adoptable cats"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供亲手制作全日餐和无糖蛋糕",
+        "en": "Homemade all-day meals and sugar-free cakes",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主收养9只流浪猫并开店安置",
+        "en": "Owner opened shop to house 9 rescued cats",
+        "from": [
+          8,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上21:30（网页）或22:00（高德）",
+        "en": "Open until 21:30 (web) or 22:00 (map)",
+        "from": [
+          10,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有多张桌椅，可多人同时就坐",
+        "en": "Multiple tables for group seating",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Floor-to-ceiling street-facing windows, bright",
+        "from": [
+          2,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          8
+        ],
+        "zh": "有座位、猫可互动、营业晚",
+        "en": "Seating, cats, late hours"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:13Z"
+}

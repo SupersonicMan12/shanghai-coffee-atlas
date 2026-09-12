@@ -1,0 +1,76 @@
+{
+  "cafeId": "blue-bottle-creek",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "13023f2e15f1",
+  "raw": {
+    "headline": {
+      "zh": "苏州河畔百年洋楼咖啡",
+      "en": "Coffee in a century-old riverside villa"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "独占整栋双层老洋楼，一楼现代二楼复古",
+        "en": "Occupies a two-story historic villa",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆标云南、日本等产地，48小时内烘焙",
+        "en": "Beans roasted within 48 hours, labeled by origin",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含海耶斯谷、贝拉多曼等经典拼配",
+        "en": "Signature blends include Hayes Valley, Bella Donovan",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "配上海老字号点心‘裕通小食’",
+        "en": "Serves Shanghai heritage pastries",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–19:00营业",
+        "en": "Open daily 8am–7pm",
+        "from": [
+          18
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          5,
+          11
+        ],
+        "zh": "有软垫座椅与古董家具",
+        "en": "Seating with cushions and antiques"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          9
+        ],
+        "zh": "提供产地明确的拼配与单品",
+        "en": "Origin-labeled blends and single-origin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:19Z"
+}

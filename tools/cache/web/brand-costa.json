@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "text": "拿铁是Costa Coffee的保留节目，细腻柔滑香醇",
+      "kind": "drinks",
+      "quote": "拿铁是Costa Coffee 的保留节目,细腻柔滑香醇",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（美粤华店）/14265711",
+      "site": "百度百科"
+    },
+    {
+      "text": "提拉米苏、巧克力酥卷味道很赞，倍受欢迎",
+      "kind": "food",
+      "quote": "提拉米苏、巧克力酥卷的味道都很赞,倍受欢迎",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（环球金融店）/14266473",
+      "site": "百度百科"
+    },
+    {
+      "text": "人均消费约32-40元，各店略有差异",
+      "kind": "story",
+      "quote": "COSTA COFFEE(新天地店)人均价格:32",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（新天地店）/14236193",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间多为早7:30至晚22:00或23:30",
+      "kind": "time",
+      "quote": "COSTACOFFEE(日月光广场店)营业时间:7:30-23:00",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（日月光广场店）/14218515",
+      "site": "百度百科"
+    },
+    {
+      "text": "源自意大利的咖啡连锁品牌，以沉稳红色为主打",
+      "kind": "story",
+      "quote": "来自英国的咖啡连锁店。与“星巴克”的绿色装潢不同,“COSTA COFFEE”以“沉稳”的红色为主打",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（新天地店）/14236193",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "COSTA COFFEE(上海电视台店)",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（上海电视台店）/14267652",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "COSTA COFFEE（上海电视台店）_百度百科",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE%EF%BC%88%E4%B8%8A%E6%B5%B7%E7%94%B5%E8%A7%86%E5%8F%B0%E5%BA%97%EF%BC%89/14267652",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "COSTACOFFEE(美粤华店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（美粤华店）/14265711",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "COSTA COFFEE(月星环球港店)",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（月星环球港店）/14251049",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "COSTACOFFEE(环球金融店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（环球金融店）/14266473",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "COSTACOFFEE(浦建一店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（浦建一店）/14265811",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "COSTA COFFEE(新天地店)",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（新天地店）/14236193",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "COSTACOFFEE(日月光广场店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（日月光广场店）/14218515",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 9,
+      "title": "COSTACOFFEE(镇宁路店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（镇宁路店）/14265854",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 10,
+      "title": "COSTA COFFEE(国际赛车场店)",
+      "url": "https://baike.baidu.com/item/COSTA%20COFFEE（国际赛车场店）/14232729",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:37:50Z"
+}

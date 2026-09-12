@@ -1,0 +1,59 @@
+{
+  "cafeId": "chili-s-cafe-bar-xinyao-guanghuanlive",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fb65858c916e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e76e6e94aa9d671048cd105b519fb70c",
+    "https://aos-comment.amap.com/B0LU1HFL2V/comment/80916596_1284_4CB6_B528_E970D4BB685D_L0_001_2048_153_1768630581364_41368811.jpg",
+    "https://aos-comment.amap.com/B0LU1HFL2V/comment/614EE255_CD0D_4B7C_B6F9_158985BF30A1_L0_001_1179_148_1762840644733_43706801.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "餐厅有室外座位区，摆放桌椅和遮阳伞",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃窗，可看到室内用餐环境",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间营业，灯光亮起，顾客正在用餐",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有绿植装饰的围栏",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间宽敞，有多张餐桌和椅子",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "建筑外立面为现代风格，有金属条状结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:08Z"
+}

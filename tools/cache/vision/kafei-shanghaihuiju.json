@@ -1,0 +1,71 @@
+{
+  "cafeId": "kafei-shanghaihuiju",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "eac5fe90f08b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a2347c1f08c77f460000003124446201?type=pic",
+    "https://aos-comment.amap.com/B0K2OU7K1P/comment/content_media_external_file_81781_ss__1756270175013_16854232.jpg",
+    "https://store.is.autonavi.com/showpic/de61023a139075d30000003124414777?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有经典美式、冰博克澳白等咖啡选项",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有季节限定饮品如夏日冰萃、SOE黑果",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供大吉岭伯爵茶、冻顶乌龙茶等茶饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品价格在25至40元之间",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "使用牛奶倒入装有冰块的杯子，制作冷饮",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯中为分层冰咖啡，底部为奶层",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店员正在操作饮品制作，可见工作台与称重设备",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有堆叠的透明塑料杯和制冰机等设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:23Z"
+}

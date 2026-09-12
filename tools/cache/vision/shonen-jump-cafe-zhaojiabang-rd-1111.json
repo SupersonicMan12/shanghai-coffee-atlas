@@ -1,0 +1,65 @@
+{
+  "cafeId": "shonen-jump-cafe-zhaojiabang-rd-1111",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ba8df3be5e7c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2883e4f724e26f2c0000003041476712?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1769845686861_78292675_1769845786192_66838996.jpg",
+    "https://store.is.autonavi.com/showpic/91be3e73197d6e0f0000003041484404?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有螺旋楼梯和漫画墙，空间非传统咖啡馆布局。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物含拉花咖啡、肉饼配生蛋黄、炸鸡卷饼与水果杯。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "饮品为热饮，盛在黑色马克杯中，表面有泡沫。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有动漫角色卡片，属主题餐饮配套装饰。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面嵌入式展示黑白漫画分镜页。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见任何人在使用笔记本电脑或工作。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "无可见落地窗或室外景观，采光来自室内照明。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:34Z"
+}

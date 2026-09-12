@@ -1,0 +1,59 @@
+{
+  "cafeId": "mozzarella-e-vino-xianzhonghuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "299b0c61a80c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6695effebcc02db342c8af8517ed1e69",
+    "https://store.is.autonavi.com/showpic/9c0c051472a9e72ef56979d429c69a5f",
+    "https://store.is.autonavi.com/showpic/f54ffa2b6a9a9e480000003169156370?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "seating"
+  ],
+  "observations": [
+    {
+      "text": "店面有室外座位区，摆放多张桌椅。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为木质地板，有吧台和多组桌椅。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区有遮阳伞，靠近街道。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内摆放大量绿植，环境偏自然风格。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见顾客在室外座位区就坐。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:53Z"
+}

@@ -1,0 +1,77 @@
+{
+  "cafeId": "arabica-ferguson",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c0fab8f1d309",
+  "raw": {
+    "headline": {
+      "zh": "武康庭玻璃房现烘阿拉比卡",
+      "en": "Glass house with fresh-roasted Arabica"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街玻璃房，设室外座位",
+        "en": "Street-facing glass shed with outdoor seating",
+        "from": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，店内现烘",
+        "en": "100% Arabica beans, roasted in-house",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌京都拿铁可在庭院享用",
+        "en": "Kyoto latte served in the courtyard",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2018年入驻上海武康路老庭院",
+        "en": "Opened in Shanghai’s Ferguson Lane in 2018",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          2,
+          9
+        ],
+        "zh": "少量堂食，以站喝为主",
+        "en": "Mostly standing bar"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "自烘阿拉比卡豆，基底独特",
+        "en": "In-house roasted single-origin base"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:01Z"
+}

@@ -1,0 +1,53 @@
+{
+  "facts": [
+    {
+      "text": "小空间装饰有北欧古董家具，另设北欧家具与杯子销售区",
+      "kind": "space",
+      "quote": "It's a small space decorated with vintage furniture... separate space for sellin",
+      "url": "https://www.smartshanghai.com/venue/17166/argang_kaffe_changle_lu",
+      "site": "årgang Kaffe Shanghai - Cafes, Jing'an District - SmartShanghai"
+    },
+    {
+      "text": "地址为上海市宝庆路10号，是2.0版本（1.0始于2019年11月）",
+      "kind": "story",
+      "quote": "店名：argang kaffe 2.0 地址：上海市宝庆路10号...1.0版本是要提前（2019年11月30日）",
+      "url": "https://www.sina.cn/news/detail/4444395291597521.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "咖啡介绍卡与菜单以建筑大师系列为主题，每款咖啡配独特logo",
+      "kind": "drinks",
+      "quote": "以建筑大师系列为主题，每一款咖啡都拥有独特的logo",
+      "url": "https://www.gooood.cn/en/xu-studio-office-arc-ang-ran-coffee-by-xu-studio.htm",
+      "site": "XU Studio Office & ARC (Ang Ran Coffee) by XU Studio | 谷德设计网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "店名：argang kaffe 2.0  地址：上海市宝庆路10号  分享一家小 ... - 新浪",
+      "url": "https://www.sina.cn/news/detail/4444395291597521.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "årgang Kaffe Shanghai - Cafes, Jing'an District - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/17166/argang_kaffe_changle_lu",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "argang kaffe - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F94683EBC3E1",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "XU Studio Office & ARC (Ang Ran Coffee) by XU Studio | 谷德设计网",
+      "url": "https://www.gooood.cn/en/xu-studio-office-arc-ang-ran-coffee-by-xu-studio.htm",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:26:05Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "miiix-coffee-shangpu-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a537d6a9d123",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/58d09c66e312f3cbbdb766d3f39be287",
+    "https://store.is.autonavi.com/showpic/0bc5429c7e799a7eea71140494f33491",
+    "https://store.is.autonavi.com/showpic/00dc37351e17854d0000000725180838?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于上浦路465号，临街有室外座位区",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有木质桌椅和植物装饰的户外座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机等设备，具备制作咖啡的基本器具",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口张贴开业促销信息，标明试营业期间优惠",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外观为现代简约风格，门头标有'Miiix coffee'字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有顾客正在使用手机，坐在户外座椅上",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口摆放着节日装饰，包括圣诞老人图案",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "墙面有嵌入式灯光照明，夜间可见品牌标识",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:03Z"
+}

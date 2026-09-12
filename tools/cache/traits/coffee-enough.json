@@ -1,0 +1,70 @@
+{
+ "cafeId": "coffee-enough",
+ "model": "qwen-max",
+ "inputDigest": "5599b52b5a4f",
+ "raw": {
+  "headline": {
+   "zh": "古董咖啡机与器具，品味历史韵味",
+   "en": "Vintage coffee machines, taste history"
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "店主是资深咖啡器具收藏家",
+    "en": "Owner is a vintage gear collector",
+    "from": 17
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌澳白口感细腻饱满",
+    "en": "Signature flat white is smooth and full-bodied",
+    "from": 13
+   },
+   {
+    "kind": "drinks",
+    "zh": "日晒洪都拉斯手冲冷热双风味",
+    "en": "Sun-dried Honduras pour-over, hot or cold",
+    "from": 13
+   },
+   {
+    "kind": "food",
+    "zh": "栗子蛋糕配咸香泡芙碎",
+    "en": "Chestnut cake with salty puff crumbs",
+    "from": 14
+   },
+   {
+    "kind": "view",
+    "zh": "静安雕塑公园对面，梧桐街景",
+    "en": "Opposite Jing'an Sculpture Park, sycamore-lined street",
+    "from": 15
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 30,
+    "from": 7,
+    "zh": "店外有人看手机，无人用电脑",
+    "en": "People on phones, no laptops"
+   },
+   "energy": {
+    "value": 40,
+    "from": 8,
+    "zh": "有室外座位，但人不多",
+    "en": "Outdoor seating, not crowded"
+   },
+   "linger": {
+    "value": 30,
+    "from": 1,
+    "zh": "standing-bar形式，不适合久坐",
+    "en": "Standing bar, not for long stays"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 10,
+    "zh": "陈列多种古董咖啡器具",
+    "en": "Displays various vintage coffee gear"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:48Z"
+}

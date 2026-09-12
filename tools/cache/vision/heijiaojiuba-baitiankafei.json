@@ -1,0 +1,71 @@
+{
+  "cafeId": "heijiaojiuba-baitiankafei",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "d8f2000c78c6",
+  "photos": [
+    "https://aos-comment.amap.com/B0LABU1TY6/comment/content_media_external_file_1000000594_ss__1769362523480_07123192.jpg",
+    "https://aos-comment.amap.com/B0LABU1TY6/comment/content_media_external_file_1000000593_ss__1769362523486_85567071.jpg",
+    "https://store.is.autonavi.com/showpic/cdb70b6976280c3c6fdb99d39f75bfee"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有多个黑色方形花盆，种着绿植和棕榈类植物。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口立着一个A字形菜单板，上面有手写文字和图案。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门上方有红色大蝴蝶结装饰，窗上有圣诞树贴纸。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面转角处有一个复古留声机造型的装饰物。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外有收起的遮阳伞和桌椅，地面铺灰色石砖。",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于玻璃幕墙建筑底层，临街面为大面积玻璃窗。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招下方有“GROOVE A LITTLE”英文字样，暗示音乐主题。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见少量座位，但具体数量和形式无法看清。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:43Z"
+}

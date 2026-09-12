@@ -1,0 +1,75 @@
+{
+  "cafeId": "cafe-on-air-huaihai-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f6e0f04533da",
+  "raw": {
+    "headline": {
+      "zh": "淮海路自习咖啡店",
+      "en": "Study-friendly cafe on Huaihai Road"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "靠墙卡座6组，吧台旁小桌2张",
+        "en": "6 wall booths plus 2 small tables near bar",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外正对孙中山行馆旧址",
+        "en": "Faces Sun Yat-sen’s former residence",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "国外选绿豆，云南选鲜果",
+        "en": "Selects green beans abroad, fresh fruit in Yunnan",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供金黄色螺旋可颂",
+        "en": "Serves golden spiral croissants",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          13
+        ],
+        "zh": "有人用手机，称自习咖啡店",
+        "en": "Called a study cafe; phones seen"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          10
+        ],
+        "zh": "有卡座、小桌和大窗户",
+        "en": "Booths, small tables, large windows"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:24Z"
+}

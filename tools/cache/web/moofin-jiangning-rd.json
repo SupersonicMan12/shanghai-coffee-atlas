@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "有泊车位置，提供免费Wi-Fi和装置充电",
+      "kind": "seating",
+      "quote": "有泊車位免費Wi-Fi露天座位提供裝置充電",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136058634/",
+      "site": "moofin摩芬宜（江寧路店） (上海長壽路商業區) - Trip.com"
+    },
+    {
+      "text": "位于MOHO Mall一楼，提供舒适的环境",
+      "kind": "space",
+      "quote": "上海市靜安區江寧路699號MOHO MallF1",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136058634/",
+      "site": "moofin摩芬宜（江寧路店） (上海長壽路商業區) - Trip.com"
+    },
+    {
+      "text": "宠物友好，设有室外露天长桌",
+      "kind": "space",
+      "quote": "有室外露天长桌,宠物友好哟",
+      "url": "https://www.dianping.com/discovery/960904497",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌肉桂卷像Cupcake，顶部覆盖酸奶油",
+      "kind": "food",
+      "quote": "长得像Cupckae,上面盖了一层洒满肉桂粉的酸奶油topping",
+      "url": "https://www.dianping.com/discovery/960904497",
+      "site": "大众点评网"
+    },
+    {
+      "text": "麦芬系列使用天然酵母制作，口感香脆",
+      "kind": "food",
+      "quote": "它家属于天然酵母做的麦芬,外壳比较脆韧,不是蓬松那种",
+      "url": "https://www.dianping.com/discovery/960904497",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "moofin摩芬宜（馬當路店） (上海淮海路/新天地地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-126184969",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "moofin摩芬宜（江寧路店） (上海長壽路商業區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136058634/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "moofin 摩芬宜(马当路店)-环境图片-上海-大众点评网",
+      "url": "http://www.dianping.com/shop/H5hlt24Rus7oUxgo/photos/tag-%E7%8E%AF%E5%A2%83",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海人气肉桂卷摩芬宜,更爱它家麦芬系列超赞! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/960904497",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "moofin 摩芬宜(马当路店)-菜图片-上海-第12页 - 大众点评",
+      "url": "http://www.dianping.com/shop/H5hlt24Rus7oUxgo/photos/tag-%E8%8F%9C?pg=12",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 7,
+      "title": "moofin Mofenyi (Madang Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95128A42823&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "肉桂卷热潮席卷秋冬,这15家店绝对不能错过!",
+      "url": "https://www.163.com/dy/article/JGS9C2KD05426SK9.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:04Z"
+}

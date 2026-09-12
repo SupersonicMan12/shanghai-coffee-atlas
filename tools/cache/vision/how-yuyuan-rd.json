@@ -1,0 +1,71 @@
+{
+  "cafeId": "how-yuyuan-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "8875568b2cd6",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFK6AOA1/comment/EED58666_D108_4422_B657_E482407B3001_L0_001_1500_200_1763114206611_14458501.jpg",
+    "https://aos-comment.amap.com/B0FFK6AOA1/comment/E7F7F611_8100_42D3_862C_83F1A4B7656B_L0_001_1500_200_1763114206610_62241575.jpg",
+    "https://aos-comment.amap.com/B0FFK6AOA1/comment/content_media_external_images_media_1000002637_ss__1763004535373_73388358.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "白色两层建筑，门头有‘HOW’黑字标识及花环装饰，二楼有木百叶窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口为玻璃格子门与临街大玻璃窗，可见室内陈设；两侧设吧台式外摆位，各配1张高脚凳。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外绿色桌配2把黄色椅，桌上放意面、拿铁（心形拉花）、酸奶杯与插花小瓶。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内木质圆桌，摆海鲜意面、拿铁（心形拉花）、酸奶杯、ELAION橄榄油瓶及白花插花。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "店门口立牌显示‘单人早午餐 ¥68起’，营业时间‘11am—4pm’。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内背景墙为地中海港口壁画，旁有绿植盆栽；无可见烘焙机、手冲台或磨豆机。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃通透，可反射街道景象；门外有树荫，阳光充足。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人在用电脑，未见书架、宠物或明显手写菜单板。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:37Z"
+}

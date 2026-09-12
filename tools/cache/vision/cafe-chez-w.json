@@ -1,0 +1,71 @@
+{
+  "cafeId": "cafe-chez-w",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ea0130ff8988",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a5c5e9667fadc81d195e291993905e10",
+    "https://store.is.autonavi.com/showpic/9554ed5cb9a42eb10000001840422110?type=pic",
+    "https://aos-comment.amap.com/B0FFIKC046/comment/83249743_C7F3_4CE1_95FF_BA8EEBC8D982_L0_001_1500_2000_1734773455275_11746097.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层白色小楼，门头有‘未家’字样，入口敞开可见室内吧台与顾客。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外人行道有树、停车标志牌，一辆白车停路边；两名行人走过，无室外座位可见。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内木质桌椅，桌上放两杯饮品：一为带苹果片的金属杯热饮（杯身印‘未家咖啡 cafe chez w since 2017’），一为玻璃杯拉花拿铁。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "金属杯旁卡片写‘香山’及配料：Espresso, milk, apple syrup, spiced cinnamon；无价格或豆产地。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一桌有绿色盘子盛抹茶舒芙蕾（撒糖粉、核桃碎）、配酸奶坚果，旁为绿边陶瓷杯拉花拿铁。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌面为深色木纹板，餐具含黑色金属勺与白纸巾；未见烘焙机、手冲台、虹吸壶或磨豆机。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片2中可见店内有木质高脚凳与吧台轮廓，但座位数量无法判断；照片3仅局部桌面。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店门口有自行车停放，室内灯光暖黄，临街为普通玻璃窗非落地窗。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:02Z"
+}

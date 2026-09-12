@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品Dirty，浓郁香醇，层次丰富。",
+      "kind": "drinks",
+      "quote": "招牌的Dirty浓郁又香醇，可以感受到牛奶和咖啡因的交叠口感。",
+      "url": "https://you.ctrip.com/food/2/22298246.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "店内提供自家烘焙的手冲咖啡。",
+      "kind": "beans",
+      "quote": "其他选项还是与在南昌路上的店面保持一致,主打经典的黑白咖啡以及自家烘焙的手冲咖啡。",
+      "url": "http://www.sohu.com/a/372325262_409149",
+      "site": "搜狐"
+    },
+    {
+      "text": "玻璃屋顶与木质结构结合，环境优雅。",
+      "kind": "space",
+      "quote": "半开放的环境，玻璃屋顶与木质结构的巧妙结合，打造出优雅而具金属风格的环境。",
+      "url": "https://you.ctrip.com/food/2/22298246.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "店外梧桐树下的街景收进视野。",
+      "kind": "view",
+      "quote": "把上海梧桐树下的街景收进来,你和城市角落的一次邂逅,一次温柔的相处,打动了我。",
+      "url": "https://zhuanlan.zhihu.com/p/680099849",
+      "site": "知乎"
+    },
+    {
+      "text": "店内布置艺术画作与书籍，适合拍照聊天。",
+      "kind": "space",
+      "quote": "店内布置了一些艺术画作与文艺书籍,但更多的人选择在此歇脚拍照,聊天甚至办公。",
+      "url": "http://www.sohu.com/a/372325262_409149",
+      "site": "搜狐"
+    },
+    {
+      "text": "使用拉杆式咖啡机，制作独特咖啡。",
+      "kind": "drinks",
+      "quote": "面对食物用眼睛先看,的确很赞,包括杯子...很少见吧,很贵的,据说要17万一台,1分钟才出一杯哦。",
+      "url": "https://zhuanlan.zhihu.com/p/680099849",
+      "site": "知乎"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "铁手咖啡制造局",
+      "url": "https://baike.baidu.com/item/铁手咖啡制造局/67534017",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "上海| 全球Top50咖啡店之铁手咖啡",
+      "url": "https://weibo.com/1780965050/Rgp75kfm7",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "Metal hands·铁手咖啡(淮海路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/22298246.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "了不起的小店 | 铁手咖啡制造局 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjQ5NDMwNg==&mid=2651174543&idx=1&sn=25e84d36a29205464f9c3f98bcfa9220&chksm=85af63f2df70c9e15701410be38c9be6e714d69eac9c79c0077bbec03999be5216081cd88996&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "Metal Hands在上海开了新店,和它那几款冬季花式咖啡。_南昌",
+      "url": "http://www.sohu.com/a/372325262_409149",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "你,喝过加荷包蛋的咖啡吗?",
+      "url": "https://www.163.com/dy/article/F92C2RHU05383DAM.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "看展和咖啡很搭哦!",
+      "url": "https://www.163.com/dy/article/IDUC8BS405527NNV.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 8,
+      "title": "吴探长从这3点拆解魔都网红咖啡铁手的成功",
+      "url": "https://zhuanlan.zhihu.com/p/680099849",
+      "site_name": "知乎"
+    },
+    {
+      "index": 9,
+      "title": "受LV等奢牌青睐,Metal Hands铁手咖啡有何不同?",
+      "url": "https://www.163.com/dy/article/I9HNAMUH05259ET1.html",
+      "site_name": "163网易免费邮"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:04:14Z"
+}

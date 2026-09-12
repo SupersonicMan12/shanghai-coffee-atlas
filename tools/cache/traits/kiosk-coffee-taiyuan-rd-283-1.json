@@ -1,0 +1,77 @@
+{
+  "cafeId": "kiosk-coffee-taiyuan-rd-283-1",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ad62bc1958d4",
+  "raw": {
+    "headline": {
+      "zh": "特调创意咖啡配庭院",
+      "en": "Creative coffee with courtyard seating"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供泰浓Dirty、青梅龙井美式等特调",
+        "en": "Serves unique drinks like Thai Dirty and plum Longjing Americano",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街整面玻璃窗，望庭院植物",
+        "en": "Full-height street-facing windows overlooking a courtyard",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:00开门，周末9:00开门",
+        "en": "Opens at 7am weekdays, 9am weekends",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供单人餐",
+        "en": "Offers single-person meals",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有创意特调饮品",
+        "en": "Features inventive specialty drinks"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "设室外座位可久坐",
+        "en": "Outdoor seats encourage lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:18Z"
+}

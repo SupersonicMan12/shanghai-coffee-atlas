@@ -1,0 +1,76 @@
+{
+  "cafeId": "donghaikafeiguan-dianchi-rd-110",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "bb4334746c0f",
+  "raw": {
+    "headline": {
+      "zh": "虹吸壶现煮老上海咖啡",
+      "en": "Siphon-brewed old Shanghai coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "用海南、云南豆，虹吸壶现煮",
+        "en": "Uses Hainan & Yunnan beans, siphon-brewed",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特色饮品为虹吸壶咖啡与罗宋汤",
+        "en": "Signature drinks: siphon coffee and borscht",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内至少6把扶手椅围小圆桌",
+        "en": "At least 6 armchairs around small round tables indoors",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "位于百年历史建筑，体验老上海氛围",
+        "en": "In a century-old building, evokes old Shanghai",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 21:00",
+        "from": [
+          10,
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Indoor/outdoor seating for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "虹吸壶与罗宋汤较特别",
+        "en": "Siphon brew & borscht stand out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:46Z"
+}

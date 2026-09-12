@@ -1,0 +1,77 @@
+{
+  "cafeId": "lain-s-cafe-bar-zhongshanbeiyi-rd-880",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8ff3eb99d52f",
+  "raw": {
+    "headline": {
+      "zh": "湖景落地窗配自选咖啡豆",
+      "en": "Lake-view windows with bean choice"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "落地窗外可见湖景与绿植",
+        "en": "Floor-to-ceiling lake and greenery views",
+        "from": [
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "顾客可自行挑选咖啡豆",
+        "en": "Customers choose their own coffee beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为澳白",
+        "en": "Signature drink is flat white",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00至21:00或22:00",
+        "en": "Open 10:00–21:00 or 22:00",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐提拉米苏和鸡米花",
+        "en": "Recommended: tiramisu and chicken bites",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          10
+        ],
+        "zh": "环境安静适合阅读办公",
+        "en": "Quiet for reading or work"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          4,
+          10
+        ],
+        "zh": "适合久坐聊天或阅读",
+        "en": "Good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:28Z"
+}

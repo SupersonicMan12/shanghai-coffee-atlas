@@ -1,0 +1,63 @@
+{
+  "cafeId": "ershiyikafei-qilianshan-rd-111",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "de54885803ea",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/403497b4cd91793731c917bf1ee12dc7",
+    "https://store.is.autonavi.com/showpic/27c924e48ec8b5bd595f68cd0486394d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺为临街独立建筑，有落地玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台区域和照明设备",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店前有铺装人行道和绿化带",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外立面为浅色墙面与黑色门框组合",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "傍晚时分拍摄，室内灯光已开启",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑二层有栏杆围合的平台",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:37Z"
+}

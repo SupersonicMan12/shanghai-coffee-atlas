@@ -1,0 +1,58 @@
+{
+ "cafeId": "old-china-hand",
+ "model": "qwen-max",
+ "inputDigest": "914f803ea60f",
+ "raw": {
+  "headline": {
+   "zh": "图书与咖啡的先驱复合空间",
+   "en": "Pioneer of books and coffee combo"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "橡木书架顶天立地，哲学区与诗集区挨着咖啡吧台",
+    "en": "Tall oak bookshelves, philosophy and poetry near the bar",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "特色饮品‘鲁迅拿铁’（黑巧+浓缩+手冲冷萃）",
+    "en": "Special drink: Lu Xun Latte (dark choc + espresso + cold brew)",
+    "from": 4
+   },
+   {
+    "kind": "time",
+    "zh": "工作日下午2–4点人少、光影柔，店主愿聊书",
+    "en": "Quiet, soft light, and chat with owner 2-4pm on weekdays",
+    "from": 5
+   },
+   {
+    "kind": "story",
+    "zh": "由著名摄影师尔冬强创建，当年开风气之先",
+    "en": "Founded by renowned photographer Er Dongqiang, a trendsetter",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 60,
+    "from": 5,
+    "zh": "适合专注阅读和聊天",
+    "en": "Good for focused reading and chats"
+   },
+   "energy": {
+    "value": 20,
+    "from": 2,
+    "zh": "藏身于静谧小街",
+    "en": "Nestled in a quiet street"
+   },
+   "linger": {
+    "value": 80,
+    "from": 5,
+    "zh": "适合久坐，尤其下午2-4点",
+    "en": "Great for long stays, esp. 2-4pm"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:10:39Z"
+}

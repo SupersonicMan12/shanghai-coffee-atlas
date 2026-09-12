@@ -1,0 +1,71 @@
+{
+  "cafeId": "xingrenkafei-dagu-rd-379",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "12e4c1894fe0",
+  "photos": [
+    "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_images_media_1000006854_ss__1751358842611_57971209.jpg",
+    "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_file_144877_ss__1751193314172_13642456.jpg",
+    "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_file_144912_ss__1751193314173_49085952.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品菜单显示有芭乐美式、菠萝冷萃等特调饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分饮品价格为8.8元至25元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见植物装饰，环境有绿植",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯身贴纸显示‘幸福益站12周年’字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品颜色为橙黄色和深红色，含冰块",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单展示柜内有烘焙设备和罐装商品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有玻璃窗，可看到室外绿化",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯带吸管和透明盖，为标准塑料杯",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:54Z"
+}

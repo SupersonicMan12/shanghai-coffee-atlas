@@ -1,0 +1,71 @@
+{
+  "cafeId": "blue-bottle-creek",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c74079c76e8d",
+  "photos": [
+    "https://aos-comment.amap.com/B0IB77HMHW/comment/52F3AF08_FEBD_4400_AF84_31EC0B5579B5_L0_001_1114_80_1758068737139_28792077.jpg",
+    "https://aos-comment.amap.com/B0IB77HMHW/comment/80cfc04237f4067c309e0f765c080c65_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IB77HMHW/comment/80eace674a231e2887c541a8e931582b_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "木质托盘盛放热拿铁（心形拉花）、冰饮、番茄佛卡夏、抹茶芝士蛋糕各一份。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "热拿铁表面撒有深色碎屑，配烤吐司三明治（含牛油果、番茄）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "金属台面陈列蓝瓶咖啡商品：陶瓷杯、冷萃壶、挂耳包、咖啡豆袋（标有产地如云南、日本）。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图中可见‘BLUE BOTTLE COFFEE’标识的圆形小物件（疑似杯垫或卡片）。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图背景为不锈钢吧台与玻璃展示柜，内有烘焙面包类食品。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第二张图中桌面为浅木纹，背景有灰色软垫座椅一角。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图托盘旁放刀叉与纸巾，餐具为金属制。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图商品标签显示价格如188元、138元，部分标注产地（中国、日本、上海）。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.96
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:23Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "kukoukafei-luoke-waitanyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "30b76f46f01e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1cd7d65163241ad9c1a874879c644e54",
+    "https://aos-comment.amap.com/B0FFIB7X9Y/comment/51ed2852dea193295c5e005d5f8f7d44_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/61477b30cef2f7c3a8e122e3d7010354"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "吧台后方有黑色背板，印白色'HORIGUCHI COFFEE'标志及双H图形",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台为深色石材台面+红棕色木柜体，上方有开放式木质置物架，陈列杯碟",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见4张木质方桌配深绿皮质高脚椅，另有一张吧台高脚凳",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图中吧台左侧有玻璃冷藏展示柜，内放数款糕点（如可颂、巧克力蛋糕）",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图吧台上有手冲咖啡器具（滤杯、分享壶）、磨豆机、多瓶糖浆/调味液",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图右侧为大面积木框格子窗，窗外可见绿树与户外遮阳伞",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图为临街砖墙店面，黑底白字招牌'HORIGUCHI COFFEE'，门口有紫色遮阳伞",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图门口立牌标价'28'（单位不明），行人经过，未见室外座位",
+      "kind": "price",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:41Z"
+}

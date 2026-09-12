@@ -1,0 +1,71 @@
+{
+  "cafeId": "shudaixiongkafeiguan-huaihaihuayuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "41bc1649b4e0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/de0a1759298601c26f0d88dace1cb018",
+    "https://store.is.autonavi.com/showpic/96fc6cfa0b471a26a34b0543bbfa804f",
+    "http://store.is.autonavi.com/showpic/3f3dd261a87e2c2ffd8e637042434eaf"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有台阶和室外座位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅和吧台式座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间较宽敞，有书架和装饰墙",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有玻璃门和窗户，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吊扇和灯光照明设施",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间灯光亮起，招牌清晰可见",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在活动",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:46Z"
+}

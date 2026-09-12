@@ -1,0 +1,84 @@
+{
+  "cafeId": "haw-side-coffee-zhongshannaner-rd-2031-4",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8d322545db24",
+  "raw": {
+    "headline": {
+      "zh": "专注手冲的小型咖啡馆",
+      "en": "Focused hand-brew coffee in a tiny space"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚、卢旺达等产地豆",
+        "en": "Offers beans from Ethiopia, Rwanda, etc.",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "可选手冲、Aeropress等多种冲煮方式",
+        "en": "Multiple brew methods: pour-over, Aeropress",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "空间极小，最多容纳8人",
+        "en": "Tiny space, max 8 guests at once",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周二至周日11:00-18:30",
+        "en": "Open Tue–Sun, 11:00–18:30",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主希望客人专注品尝手冲风味",
+        "en": "Owner wants guests focused on hand-brew taste",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "强调专注品尝咖啡",
+        "en": "Emphasizes coffee focus"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "空间小但考虑落座舒适",
+        "en": "Small but seating considered"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2,
+          6
+        ],
+        "zh": "多产地豆与多种冲煮方式",
+        "en": "Varied beans and brew methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:09Z"
+}

@@ -1,0 +1,89 @@
+{
+  "facts": [
+    {
+      "text": "提供精品意式咖啡",
+      "kind": "drinks",
+      "quote": "精品意式咖啡",
+      "url": "https://www.zhipin.com/gongsi/da8ffb72411dc5101nJ52t60GQ~~.html",
+      "site": "Boss直聘"
+    },
+    {
+      "text": "环境宽敞舒适，适合商务会议或朋友小聚",
+      "kind": "space",
+      "quote": "二樓環境寬敞舒適，無論是商務會議還是朋友小聚聊天都很合適",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-122659323/",
+      "site": "咖了的啡coleadffee（五星路店） (上海新國際博覽中心/世博園)－餐牌"
+    },
+    {
+      "text": "位于五星路160号",
+      "kind": "story",
+      "quote": "公司地址 上海浦东新区咖了的啡五星路160号",
+      "url": "https://www.zhipin.com/gongsi/da8ffb72411dc5101nJ52t60GQ~~.html",
+      "site": "Boss直聘"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "咖了的啡",
+      "url": "https://www.zhipin.com/gongsi/da8ffb72411dc5101nJ52t60GQ~~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 2,
+      "title": "咖了的啡coleadffee（五星路店） (上海新國際博覽中心/世博園)－餐牌",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-122659323/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海:咖啡飘香的都市",
+      "url": "https://www.toutiao.com/article/7665589176888279588/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 4,
+      "title": "咖了的啡coleadffee(五星路店)-菜图片-上海-第40页 - Dianping",
+      "url": "https://www.dianping.com/shop/k6myEMDZElRCnCrL/photos/tag-%E8%8F%9C?pg=40",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "点小评4202662063上传的图片",
+      "url": "https://www.dianping.com/photos/863105240/tag",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "上海最具魅力的咖啡馆探秘",
+      "url": "https://baijiahao.baidu.com/s?id=1852154217684112087",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "微信公众平台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MTg0NTk5Mw==&mid=2650659287&idx=7&sn=feab886fed5552976f542192a055cf9a&chksm=865c7209c2cbf75fe23445742c0851c1a949e75ceb4114c9c75ffce258dd7e9c510ae02d66da&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "这里的咖啡,为何如此“与众不同”?文末送福利→",
+      "url": "https://m.thepaper.cn/newsDetail_forward_24724601",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 9,
+      "title": "咖啡盛宴持续火热!来看看外国友人眼中的上海咖啡是什么样?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNTQ0OTYwNg==&mid=2247603017&idx=1&sn=83d114e17ecbe194ed3384c6e01e1d31&chksm=96cd9b93ddedc50904a00a1ea256fc70b6f7e6cbf35136d428396ece9b1924c9e881545904ef&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 10,
+      "title": "上海最潮的咖啡馆重返多伦路红色文化也能很潮很年轻 - 新浪上海",
+      "url": "https://sh.sina.cn/zw/hk/2021-01-11/detail-iiznctkf1498437.d.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:51Z"
+}

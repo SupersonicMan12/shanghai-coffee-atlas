@@ -1,0 +1,65 @@
+{
+  "cafeId": "kudikafei-chuangyanzhizao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f6a104e13bab",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://aos-comment.amap.com/B0KAY40WOV/comment/8FFFB778_D652_4DA9_B86D_FC516ECE2B89_L0_001_1502_200_1757041757347_70627966.jpg",
+    "https://store.is.autonavi.com/showpic/898750a9d6922bcf0000002381910948?type=pic"
+  ],
+  "photoKinds": [
+    "logo",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为商场内咖啡店，有吧台和操作区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡制作设备，包括磨豆机和萃取机器",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "柜台上方有显示屏播放广告内容",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有工作人员在操作台工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店招牌显示英文名COTTI COFFEE及中文名库迪咖啡",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前放置有二维码点单提示牌",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上方有照明灯带和射灯",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:47Z"
+}

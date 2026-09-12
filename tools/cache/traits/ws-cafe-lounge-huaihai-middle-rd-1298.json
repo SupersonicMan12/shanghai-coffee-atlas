@@ -1,0 +1,65 @@
+{
+  "cafeId": "ws-cafe-lounge-huaihai-middle-rd-1298",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d96ebbed1203",
+  "raw": {
+    "headline": {
+      "zh": "西餐与艺术展厅融合",
+      "en": "Western dining meets art gallery"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "安格斯牛柳五分熟，肉质嫩滑",
+        "en": "Medium-rare Angus beef tenderloin",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "黑松露薯条炸得金黄",
+        "en": "Golden fries topped with black truffle",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "巧克力烂泥蛋糕配原味冰淇淋",
+        "en": "Dense chocolate cake with vanilla ice cream",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间11:00-16:30,17:30-23:00",
+        "en": "Open 11–16:30 & 17:30–23 daily",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "烛光环境适合久坐",
+        "en": "Candlelit setting invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:01Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "peet-s-weijingyinxiangcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d99559c0b8bf",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/4234e9058e2417dd5591bae22ad33f41",
+    "https://store.is.autonavi.com/showpic/662f32a90b3d9236a1f4bfef0303d898",
+    "https://store.is.autonavi.com/showpic/b45ab69e780aa5c4e0a35b144f989f0e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有露天座位区，配备桌椅和遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和多张圆形餐桌，座椅为编织风格",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡烘焙机和手冲设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间宽敞，布局明亮整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有‘ROASTED BY HAND BATCH BY BATCH’字样",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有多个座位区域，适合多人同时使用",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，入口处有玻璃门和品牌标识",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:18:59Z"
+}

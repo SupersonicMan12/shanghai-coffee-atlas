@@ -1,0 +1,71 @@
+{
+  "cafeId": "donghaikafeiguan-dianchi-rd-110",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "147d1e4be861",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFL8W41Z/comment/content_media_external_file_1000035758_ss__1769415360662_10153018.jpg",
+    "https://aos-comment.amap.com/B0FFL8W41Z/comment/A7EE96D5_7359_4AC9_A2B2_C64B88EA9261_L0_001_2000_150_1767262035527_56515136.jpg",
+    "https://aos-comment.amap.com/B0FFL8W41Z/comment/7A3D4E21_A1E7_476C_9F57_2732C9A4C0E7_L0_001_1500_200_1767262035727_54504606.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "红砖外墙，石柱门廊，黑色双开门，门牌号110滇池路",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口立一白色软冰淇淋造型装饰物，黄色蛋筒底座印TOMI",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内有深色木雕壁炉、浅绿墙面、木质护墙板与黄灰拼色扶手椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "可见至少6把扶手椅围坐于小圆桌旁，地面为黑白马赛克瓷砖",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上放印有‘东海咖啡馆’字样的报纸式垫纸，含门店地址电话",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯拿铁，奶泡拉花为心形；旁有一块方形包装点心（似千层酥）",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "门上挂‘营业中’标牌，玻璃门内可见吊灯反射",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "无电脑、无烘焙机/手冲台/磨豆机等专业器具可见",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:38Z"
+}

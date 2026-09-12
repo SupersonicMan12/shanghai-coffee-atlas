@@ -1,0 +1,58 @@
+{
+  "cafeId": "always-coffee-roaster-jiujiang-rd-501",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5077ff8cea18",
+  "raw": {
+    "headline": {
+      "zh": "自烘创意特调咖啡",
+      "en": "House-roasted creative coffee drinks"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供焦糖莓果巧克力风味咖啡豆",
+        "en": "Offers caramel-berry-chocolate flavored beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含Dirty Black、Pecole等特调",
+        "en": "Signature drinks include Dirty Black and Pecole",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街整面落地窗，木质横梁天花板",
+        "en": "Full-height street-facing windows, wooden ceiling beams",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:30-18:30，周末09:30-20:00",
+        "en": "Open 08:30–18:30 weekdays, 09:30–20:00 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "特调命名独特，豆子风味实验性强",
+        "en": "Unique drink names, experimental bean profiles"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:14Z"
+}

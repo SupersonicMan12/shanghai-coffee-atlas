@@ -1,0 +1,67 @@
+{
+  "cafeId": "jingweikafei-jingweiguojidasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b39675fb0ec6",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e2dd2833d5b6f7fc25ca3798903811be"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有绿植围挡，人行道旁通行",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示为‘nu'coffee’，上方建筑有‘经纬’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见一位行人走过，未见店内有人",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑为现代风格，无庭院或天台可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无可见烘焙机、手冲台等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明确饮品或食物展示",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:40Z"
+}

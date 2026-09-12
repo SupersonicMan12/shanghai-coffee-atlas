@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "提供红酒和香槟",
+      "kind": "drinks",
+      "quote": "小小的空间里摆满了一排排琳琅满目的红酒",
+      "url": "https://m.dianping.com/discovery/686226781",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业到凌晨2点",
+      "kind": "time",
+      "quote": "营业时间:-次日2:00",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "空间简约干净",
+      "kind": "space",
+      "quote": "木制的装修,看起来简约干净",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "有整面墙葡萄酒",
+      "kind": "view",
+      "quote": "一进门就能看到,满墙都是不同产地和年份的葡萄酒",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "白天卖咖啡晚上品酒",
+      "kind": "story",
+      "quote": "白天做咖啡,晚上给客人品酒的店",
+      "url": "https://m.dianping.com/discovery/686226781",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "100家魔都咖啡馆|早“咖”晚“酒”的G+﻿Wine - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/686226781",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "Gigi Wine Coffee Bar_百度百科",
+      "url": "https://baike.baidu.com/item/Gigi%20Wine%20Coffee%20Bar/14199652",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "那些在南西后街“野蛮”生长的独立咖啡馆~",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405210732106219558",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "G+coffee&Wine(吉家酒窖) - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-121690848/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "2025年上海咖啡茶饮/咖啡节展览会(上海浦西国家会展中心)",
+      "url": "https://shanghai.11467.com/info/37100613.htm",
+      "site_name": "顺企网"
+    },
+    {
+      "index": 6,
+      "title": "【专题报道】Punchline中国首店开在上海弄堂深处尝过这杯才知过去 ...",
+      "url": "https://www.shyp.gov.cn/shypq/yshj-tzgg/20200707/359613.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "魔都“日咖夜酒”指南来了!除了星巴克酒坊、Seesaw小酒馆,这些小众咖啡店夜晚会“变身”",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 8,
+      "title": "G+Wine Coffee (Beijing West Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F930FC86DDE8&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:37Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "aokka-coffee-longhua",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4027da87f6dc",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f5ce664003fcab640000002778662213?type=pic",
+    "https://store.is.autonavi.com/showpic/7177036ee981a513e9637ca6da07d75c",
+    "https://store.is.autonavi.com/showpic/22df9fa82c0d4d9ddcb45dea5179ba43"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为现代风格，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有黑色遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内可见吧台和多张高脚凳",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为红枣龙眼拿铁，少冰",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有绿植装饰，环境整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "室外地面有斑马纹图案装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "拍摄时间为下午3点46分",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:24Z"
+}

@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "位于街角,内里像文青书房一般别有洞天",
+      "kind": "space",
+      "quote": "位于街角的小小一间铺面,内里像文青书房一般别有洞天。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店主从烘焙到出品都亲自负责",
+      "kind": "beans",
+      "quote": "店主从烘焙到出品都亲自负责,菜单上的单品豆每隔几天就会更换一次,很有新鲜感。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "澳白奶泡丝滑,甜感明显,风味层次饱满",
+      "kind": "drinks",
+      "quote": "店里的澳白奶泡丝滑,甜感明显,风味层次饱满;手冲咖啡大多选用巴拿马的瑰夏,干净清透,花果香十足。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "手冲咖啡大多选用巴拿马的瑰夏",
+      "kind": "beans",
+      "quote": "店里的澳白奶泡丝滑,甜感明显,风味层次饱满;手冲咖啡大多选用巴拿马的瑰夏,干净清透,花果香十足。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "让咖啡回归城市！皮爷咖啡以门店空间诠释品牌长期主义 - 优设",
+      "url": "https://www.uisdc.com/hangye/peet-coffee-design",
+      "site_name": "优设网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡还是茶：第三空间、零售亭与时间维度的零售建筑 - ArchDaily",
+      "url": "https://www.archdaily.com/zh/1041815/ka-pei-huo-cha-di-san-kong-jian-yin-pin-pu-yu-chi-xu-xing-de-ling-shou-jian-zhu",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "茶百道宣布全球品牌合伙人及咖啡首席推荐官 - 新华网",
+      "url": "http://www.xinhuanet.com/tech/20260825/8bf768af40a84759b0cc4db101baef9f/c.html",
+      "site_name": "新华网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡店有包间的|空间|安静|顾客 - 新浪",
+      "url": "https://k.sina.com.cn/article_7879776549_1d5abd92506801ijse.html?from=home",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "值友故事:好咖啡要分享,我的日常豆单笔记(八) ",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405286544629432477",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:52Z"
+}

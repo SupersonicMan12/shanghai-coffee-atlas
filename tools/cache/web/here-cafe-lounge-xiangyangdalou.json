@@ -1,0 +1,58 @@
+{
+  "facts": [
+    {
+      "text": "提供咖啡、西点与桌游服务",
+      "kind": "space",
+      "quote": "日常主营咖啡、西点与桌游服务。",
+      "url": "https://baike.baidu.com/item/HERE%20CAFE/14205696",
+      "site": "百度"
+    },
+    {
+      "text": "设有小包厢、外厅及露天天井",
+      "kind": "space",
+      "quote": "该场所设小包厢（10平方米）、外厅（30平方米）",
+      "url": "https://baike.baidu.com/item/HERE%20CAFE/14205696",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "HERE CAFE_百度百科",
+      "url": "https://baike.baidu.com/item/HERE%20CAFE/14205696",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "咖啡豆干",
+      "url": "https://www.smzdm.com/ju/shaiwu/snk90q9/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 4,
+      "title": "Cafe Lounge ～ゆったり聞きたいカフェサウンド～",
+      "url": "https://www.kugou.com/album/info/3ed7pn8b/",
+      "site_name": "酷狗音乐 - 就是歌多！小说相声也很多！"
+    },
+    {
+      "index": 5,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "豆子咖啡实验室",
+      "url": "https://weidian.com/?userid=1143181447",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:02Z"
+}

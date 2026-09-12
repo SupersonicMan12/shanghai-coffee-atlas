@@ -1,0 +1,71 @@
+{
+  "cafeId": "brownie-project",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "f2119b32c526",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7ff81da56a2e495b90f6b47dee84d38b",
+    "http://store.is.autonavi.com/showpic/92dabbff8810cc467c58fd27ce2e3d32",
+    "https://aos-comment.amap.com/B0H0MXOFLB/comment/c5c805fe6962c36e70dafefe1ab03cf6_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店名标为“BROWNIE / Project”，入口玻璃门贴有“THANK GOD IT'S FUNGIBLE”字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内为挑高两层空间，裸露混凝土顶与粗大旧木梁结构支撑二层平台",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "一层设不锈钢吧台，后方可见手冲咖啡器具（滤杯、手冲壶）、冷藏展示柜及瓶装饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "二层有白色桌椅组合，约6–8张桌子，部分配长凳；左侧墙边设白色书架，陈列书籍",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口外侧有蓝色长凳，无遮阳棚或户外桌椅；墙面为清水混凝土",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "天花板装轨道射灯，二层平台底部有暖色灯带照明",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "二层靠窗处可见窗外绿植与建筑轮廓，非落地窗，窗框为黑色金属",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片2中左前景桌上放一台打开的笔记本电脑，无人使用",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:25Z"
+}

@@ -1,0 +1,72 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-zhangningdarongcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8f0823de7054",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f4b8aa0bd2b05bcad265e682266b9f5b",
+    "https://store.is.autonavi.com/showpic/4a4fb6a5a15153c9af750e50ee754f40",
+    "https://store.is.autonavi.com/showpic/178dbd000c817932b815e993e28619f4"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有木质桌椅和吧台座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡制作设备和展示架",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可见越南风味牛肉粉和冰咖啡",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有饮品广告牌展示冰咖啡和果汁",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内陈列多种包装咖啡产品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有悬挂式竹编灯罩装饰",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招显示为‘越南中原传奇咖啡’",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:34Z"
+}

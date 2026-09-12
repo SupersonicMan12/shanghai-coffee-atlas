@@ -1,0 +1,53 @@
+{
+  "cafeId": "xingbakekafei-shanghaizhongguorenshoujinrongzhon",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "31453bdf8b92",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i1/O1CN01QpffkC1ZBxUdcUGdS_!!6000000003157-2-tps-500-374.png",
+    "https://store.is.autonavi.com/showpic/c6e9d7dcbbac8810785d4810cf6bd6a7",
+    "https://store.is.autonavi.com/showpic/270e2fabad244c843f69ff40914f3744"
+  ],
+  "photoKinds": [
+    "other",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "商场内开放式吧台，后方有咖啡机和操作区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有高脚凳和桌椅，座位数量中等",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃门，室内灯光明亮，无自然采光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台前有顾客正在点单，店内有人在用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "可见磨豆机和咖啡机，无手冲或虹吸器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:18Z"
+}

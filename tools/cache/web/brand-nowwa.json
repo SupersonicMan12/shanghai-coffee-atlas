@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品为‘小马果咖’系列，突破咖啡定义框架",
+      "kind": "drinks",
+      "quote": "正如 NOWWA 开辟的「小马果咖」系列,突破了咖啡定义的既有框架",
+      "url": "https://www.anxjm.com/busInfo/394904.html",
+      "site": "NOWWA挪瓦咖啡加盟"
+    },
+    {
+      "text": "严选耶加雪菲、危地马拉、哥伦比亚、云南高海拔阿拉比卡豆种",
+      "kind": "beans",
+      "quote": "严选南北回归线以内的耶加雪菲、危地马拉、哥伦比亚、云南高海拔阿拉比卡豆种",
+      "url": "https://www.chinapp.com/pinpai/351371.html",
+      "site": "品牌网云杉"
+    },
+    {
+      "text": "单杯价格约10元，主打中端平价精品咖啡",
+      "kind": "light",
+      "quote": "在保证产品平价化的同时(单杯价格约10元)",
+      "url": "https://news.pedaily.cn/20260910/138564.shtml",
+      "site": "无"
+    },
+    {
+      "text": "采用轻资产加盟模式，门店形态含‘店中店’",
+      "kind": "space",
+      "quote": "配合万店级门店网络与“店中店”轻资产扩张模式",
+      "url": "https://news.pedaily.cn/20260910/138564.shtml",
+      "site": "无"
+    },
+    {
+      "text": "营业覆盖写字楼、商务区、大学等年轻人高频场景",
+      "kind": "time",
+      "quote": "亮橙色招牌、小马logo的挪瓦开始出现在写字楼、商务区、大学等地方",
+      "url": "https://m.36kr.com/p/2942112901028745",
+      "site": "36氪"
+    },
+    {
+      "text": "2019年6月成立于上海，由饿了么高管团队创立",
+      "kind": "story",
+      "quote": "2019年6月诞生于上海的NOWWA挪瓦咖啡,由饿了么高管团队创立",
+      "url": "https://news.pedaily.cn/20260910/138561.shtml",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "NOWWA 挪瓦咖啡",
+      "url": "https://baike.baidu.com/item/NOWWA%20挪瓦咖啡/60682471",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "重塑中端咖啡市场格局,NOWWA挪瓦以健康化定位与万店规模构建全域饮品生态",
+      "url": "https://news.pedaily.cn/20260910/138561.shtml",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "挪瓦咖啡NOWWA",
+      "url": "https://www.chinapp.com/pinpai/351371.html",
+      "site_name": "品牌网云杉"
+    },
+    {
+      "index": 4,
+      "title": "“拒绝高热量”成咖啡消费新共识,NOWWA挪瓦以健康标签突围中端精品市场",
+      "url": "https://news.pedaily.cn/20260910/138564.shtml",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "NOWWA挪瓦咖啡加盟",
+      "url": "https://www.anxjm.com/busInfo/394904.html",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "NOWWA 挪瓦咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/NOWWA%20%E6%8C%AA%E7%93%A6%E5%92%96%E5%95%A1/60682471",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "Nowwa 挪瓦 0脂美式浓缩黑咖啡 20条 送吨吨桶750ml19.9元包邮",
+      "url": "https://www.baicaio.com/item/939026.html",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "Nowwa 挪瓦 0脂美式浓缩黑咖啡 20条 送吨吨桶750ml17.9元包邮",
+      "url": "https://www.baicaio.com/item/959985.html",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "Nowwa 挪瓦 0脂美式浓缩黑咖啡 20条 送吨吨桶750ml16.9元包邮",
+      "url": "https://www.baicaio.com/item/955050.html",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "「NOWWA挪瓦咖啡」完成数亿元B++轮融资，价格战下的生存之道是 ...",
+      "url": "https://m.36kr.com/p/2942112901028745",
+      "site_name": "36氪"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:37:37Z"
+}

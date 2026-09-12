@@ -1,0 +1,71 @@
+{
+  "cafeId": "fumi-coffee-lujiazui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ab0cbfb2d99d",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1772848976824_97221015_1772849098559_39746055.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772848976815_24096392_1772849098558_74002968.jpg",
+    "https://aos-comment.amap.com/B0LB7LFNN4/comment/7C761A02_034D_42EE_9B41_F0FD221520BB_L0_001_1500_200_1772848976824_99818877.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内空间宽敞，地面为反光石材材质",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有吧台和少量座位，适合短暂停留",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台上放置纸杯、吸管和杯盖，提供外带服务",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "使用纸质吸管，注重环保细节",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有顾客在座位上使用手机，环境安静",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰，增添自然氛围",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:19:44Z"
+}

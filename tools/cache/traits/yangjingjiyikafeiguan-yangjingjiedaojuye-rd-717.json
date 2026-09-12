@@ -1,0 +1,66 @@
+{
+  "cafeId": "yangjingjiyikafeiguan-yangjingjiedaojuye-rd-717",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2be84624760b",
+  "raw": {
+    "headline": {
+      "zh": "认知障碍老人运营的记忆咖啡馆",
+      "en": "Run by seniors with mild cognitive impairment"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "工作人员主要为轻度认知障碍老年人和志愿者",
+        "en": "Staffed by seniors with mild cognitive impairment and volunteers",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供20元桂花拿铁",
+        "en": "Serves osmanthus latte for ¥20",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有多张桌椅及童趣座位区",
+        "en": "Has regular tables and a kids’ seating area",
+        "from": [
+          3,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五9:00-18:00",
+        "en": "Open Mon–Fri, 9:00–18:00",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "不为盈利，旨在宣传老年认知障碍",
+        "en": "Non-profit, aims to raise dementia awareness",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          14
+        ],
+        "zh": "有桌椅和童趣区可久坐",
+        "en": "Seating allows lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:50Z"
+}

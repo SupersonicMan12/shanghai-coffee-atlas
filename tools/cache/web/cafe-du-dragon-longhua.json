@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "text": "已关门，地址为斜土路街道",
+      "kind": "time",
+      "quote": "龍咖啡 Café du Dragon(龙腾店) 龙华/西岸 咖啡 已关门 斜土路街道",
+      "url": "https://m.dianping.com/shop/27412178",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供牛肉汉堡王、香肠披萨、肉酱意面等西餐",
+      "kind": "food",
+      "quote": "龍咖啡 牛肉汉堡王 红丝绒拿铁 香炸薯条 香肠披萨 抹茶拿铁 肉酱意面",
+      "url": "https://m.dianping.com/shop/27412178",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供红丝绒拿铁、抹茶拿铁、焦糖玛奇朵等特色饮品",
+      "kind": "drinks",
+      "quote": "龍咖啡 牛肉汉堡王 红丝绒拿铁 香炸薯条 香肠披萨 抹茶拿铁 肉酱意面 卡布奇诺",
+      "url": "https://m.dianping.com/shop/27412178",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "龍咖啡 Café du Dragon(龙腾店)",
+      "url": "https://m.dianping.com/shop/27412178",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "行走济州岛——探访GD家咖啡店",
+      "url": "http://www.zaiseoul.com/article/view/747",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "只醉龙不醉人的酒香咖啡~~中山这些咖啡店,氛围感不一般! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NDI3ODUzOA==&mid=2655076298&idx=3&sn=e4263fb0b07be4a49287765313ae3779&chksm=8be4992fbc9310395906789b9797fb285363664ddf297348a44f3fa969ef47e7b16f1d5189df&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "2025当千年东方智慧遇上现代咖啡美学!龙咖养肺清开启新国咖时代",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405142685743972601",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "龙咖啡西餐",
+      "url": "https://baike.baidu.com/item/龙咖啡西餐/14236777",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "一图看懂咖啡种类|点单不翻车指南 ☕️",
+      "url": "https://www.dealmoon.com/post/2605731",
+      "site_name": "北美省钱快报新月网络"
+    },
+    {
+      "index": 7,
+      "title": "德龙Coffee & Cook客户体验中心开业",
+      "url": "http://vic.sina.com.cn/news/27/2010/1221/26134.html?from=wap",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 8,
+      "title": "龙小图 | 小小咖啡师奇遇:一杯香,甜了文字",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NTA3MDMyNA==&mid=2651228856&idx=3&sn=471230d33d742e8d0ddfec50f6605daf&chksm=85a5d15bad4757c1e5b4b6448c996d53e46d85bd300de5aa34c3954c546815e9ccf60aba4111&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:56Z"
+}

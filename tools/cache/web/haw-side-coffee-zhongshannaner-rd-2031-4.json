@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "text": "提供多种精选咖啡豆，包括卢旺达白蜜处理的豆子",
+      "kind": "beans",
+      "quote": "在这里你能看到非常经典的埃塞班莎产区、Buku产区...卢旺达白蜜处理的豆子",
+      "url": "https://www.toutiao.com/article/7631055337423962658/",
+      "site": "今日头条"
+    },
+    {
+      "text": "空间极其有限，大约同时最多可以容纳8个人",
+      "kind": "space",
+      "quote": "它的空间极其有限,大约同时最多可以容纳8个人。",
+      "url": "https://www.toutiao.com/article/7631055337423962658/",
+      "site": "今日头条"
+    },
+    {
+      "text": "不提供外卖服务，只做堂食和到店自提",
+      "kind": "drinks",
+      "quote": "他们坚持只做堂食和到店自提,希望每一杯咖啡,都以最好的状态递到客人手上!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店内布局考虑功能性及落座舒适度",
+      "kind": "seating",
+      "quote": "每个结构布局都充分考虑到功能性满足基础之上,再来兼顾一部分客人的落座舒适度。",
+      "url": "https://www.toutiao.com/article/7631055337423962658/",
+      "site": "今日头条"
+    },
+    {
+      "text": "店主专注于让客人品尝手冲的独特风味",
+      "kind": "story",
+      "quote": "店主希望客人不被咖啡以外的事物分心，专注品尝每一杯手冲的独特风味。",
+      "url": "https://k.sina.com.cn/article_7879776514_1d5abd90206801wuja.html?from=food",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "上海/ Haw Side Coffee出了地铁站穿过高架桥就到点了-今日头条",
+      "url": "https://www.toutiao.com/w/1874756362630154/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 3,
+      "title": "阴雨天的上海,躲进Haw Side喝一杯“苹果干”味的温柔",
+      "url": "https://www.toutiao.com/article/7631055337423962658/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 4,
+      "title": "手冲精品咖啡独立咖啡馆|生活 - 新浪",
+      "url": "https://k.sina.com.cn/article_7879776514_1d5abd90206801wuja.html?from=food",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "万体馆咖啡",
+      "url": "https://m.dianping.com/shop/1647063349",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "上海探店｜haw side 手冲意式双修好店",
+      "url": "https://jingxuan.douyin.com/m/video/7626738393053145081",
+      "site_name": "抖音"
+    },
+    {
+      "index": 7,
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
+    },
+    {
+      "index": 8,
+      "title": "咖啡狗歪k",
+      "url": "https://space.bilibili.com/418187539/dynamic",
+      "site_name": "哔哩哔哩弹幕网"
+    },
+    {
+      "index": 9,
+      "title": "Haw Side Coffee - 万体馆咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/1647063349?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "上海超级咖啡街区来了,在前滩!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30652252",
+      "site_name": "澎湃新闻网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:01Z"
+}

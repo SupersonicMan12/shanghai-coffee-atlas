@@ -1,0 +1,65 @@
+{
+  "cafeId": "tuanzikafei-fengchengxiang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f4893854d03e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0e5391178fac8eaf2c3b366db5303ef6",
+    "http://store.is.autonavi.com/showpic/da45f2cb4325e0361d71268a2896bdb9",
+    "http://store.is.autonavi.com/showpic/badb406d49cc448194895f29cc820d37"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "可见三款不同饮品：咖啡、抹茶和奶盖类。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品盛放在透明塑料杯中，杯身印有品牌logo。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品放置在木质托盘上，周围散落咖啡豆。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景有模糊的绿色植物，暗示店内有绿植装饰。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品表面有奶盖或奶油层，顶部撒有可可粉。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "其中一杯饮品顶部有冰块和奶泡。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "一张照片中出现金色小勺子，可能用于搅拌。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:31Z"
+}

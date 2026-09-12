@@ -1,0 +1,77 @@
+{
+  "cafeId": "tixiangyanmokafei-wanping-s-rd-263",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a8c0d7e8c814",
+  "raw": {
+    "headline": {
+      "zh": "临街窗景配甜点奶昔",
+      "en": "Street-view sweets and layered milkshakes"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可望对面街道",
+        "en": "Full street-facing windows with outside views",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供华夫饼、法式吐司、葡式蛋挞等甜点",
+        "en": "Serves waffles, French toast, and Portuguese egg tarts",
+        "from": [
+          2,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有分层奶昔、冰淇淋苏打和花生牛奶冰砂",
+        "en": "Offers layered milkshakes, ice cream soda, peanut frappe",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "卡座与单人椅组合，座位数量少",
+        "en": "Few seats: booth and single chairs",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至午夜24:00",
+        "en": "Open daily until midnight",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "座位少，空间不大",
+        "en": "Few seats, small space"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "提供分层奶昔与特色冰砂",
+        "en": "Layered shakes and unique frappes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:30Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "mono-coffee-sichuan-n-rd-989",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d1afef473263",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a9aeacb22adf55860000004836692608?type=pic",
+    "https://aos-comment.amap.com/B0M6FL06EF/comment/614B8162_90FF_479A_B5D1_60EB5A2BF780_L0_001_1500_200_1771947159328_54668671.jpg",
+    "https://aos-comment.amap.com/B0M6FL06EF/comment/file_media_Photo_20679_IMG_1770865228_17677_IMG_20260212_105848_jpg_ss__1770867836758_58756936.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "菜单上有维也纳咖啡、拿铁、美式、手冲等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供黑、白、灰三种维也纳咖啡，价格38至48元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有华夫饼搭配咖啡的套餐，价格88元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冷萃咖啡，价格28至38元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示使用BB、瑰夏、单豆等咖啡豆",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括脏咖、拿铁、浓缩等常见类型",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有一款名为‘灰色维也纳’的咖啡，搭配华夫售卖",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名MONO位于四川北路989号，为上海咖啡烘焙商",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:34Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "silverflow-ding-west-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6a48773c08f2",
+  "photos": [
+    "https://aos-comment.amap.com/B0K21STWWW/comment/04DEDACF_A1E7_456F_9386_7CC704312878_L0_001_1512_2016_1741177840830_35526879.jpg",
+    "http://store.is.autonavi.com/showpic/80b5dc797af30f1c2800d2fabb120253",
+    "https://aos-comment.amap.com/B0K21STWWW/comment/C8B4B12D_87BF_43FD_B279_EACACBDD6F9B_L0_001_1512_2016_1741177840841_27087276.jpg"
+  ],
+  "photoKinds": [
+    "menu",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "消费满30元赠银流咖啡帆布包",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供贝果、三明治、咖啡等早餐轻食",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有咖啡+贝果三明治套餐，价格19.9元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有美式、拿铁、澳白等咖啡选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有全麦橙香贝果新品上市",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店位于定西路1031号，临街有玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外放置两把折叠椅，可能供顾客使用",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "欢迎宠物随行，为宠物友好型店铺",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:30Z"
+}

@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "主打肯尼亚咖啡豆，擅长手冲和冰滴",
+      "kind": "beans",
+      "quote": "禧興咖啡……主打肯尼亞咖啡豆，擅長手沖和冰滴",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135610037/",
+      "site": "禧興Liveliness coffee shop (上海淮海路/新天地地區) - Trip.com"
+    },
+    {
+      "text": "只有一个员工，即老板本人，低调且专业",
+      "kind": "people",
+      "quote": "这家咖啡店只有一个员工,那就是老板本人。……对待咖啡非常专业",
+      "url": "https://www.dianping.com/discovery/909550853",
+      "site": "大众点评网"
+    },
+    {
+      "text": "门店位于一大会址附近，紧挨着南北高架路",
+      "kind": "space",
+      "quote": "門店位於一大會址附近，緊挨着南北高架路",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135610037/",
+      "site": "禧興Liveliness coffee shop (上海淮海路/新天地地區) - Trip.com"
+    },
+    {
+      "text": "店堂布置优雅别致，国风满",
+      "kind": "space",
+      "quote": "店堂的布置，優雅別緻，國風滿",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135610037/",
+      "site": "禧興Liveliness coffee shop (上海淮海路/新天地地區) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 2,
+      "title": "在上海最可愛的咖啡館享用一杯咖啡 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-148050870?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "禧興Liveliness coffee shop (上海淮海路/新天地地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135610037/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "咖啡奇妙物语vol.04 | 那些独“1”无二的咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/909550853",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "禧兴Liveliness coffee shop-图片-上海-第35页-大众点评网",
+      "url": "https://www.dianping.com/shop/k8OdvQEPtYtlAZMa/photos?pg=35",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "全静安的咖啡爱好者都在这里了吧……_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:46:21Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "yichihuayuan-anhehuayuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "704cfc4b7e59",
+  "photos": [
+    "https://aos-comment.amap.com/B0H035SCCA/comment/57244b8fed27345d4ae210304eeb2952_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/5afd094e08ab1b460000002410748261?type=pic",
+    "https://aos-comment.amap.com/B0H035SCCA/comment/c162b3e82c254a9f4cd4fa1ed4b5d5e8_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有庭院，种有松树、橄榄树、蕨类等植物，地面铺落叶。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "建筑为黑白木构架风格外墙，带多格黑框窗，非商场内或老洋房典型结构。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处立黑色招牌，写有“一尺花园 咖啡 遇见美好”及“WELCOME”。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内为木质桌椅，背景可见临街大玻璃窗与绿植，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一杯热拿铁（心形拉花）、一杯冰美式/冰拿铁、一篮炸薯条配小碟番茄酱。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一桌有热拿铁（星形巧克力拉花）、分层咖啡饮品、一块白蛋糕配干果碎。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见手冲台、虹吸壶、磨豆机、烘焙机等专业咖啡设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中无人使用电脑；背景有人就坐但面部模糊，无法确认行为。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:32Z"
+}

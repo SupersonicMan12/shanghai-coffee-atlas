@@ -1,0 +1,112 @@
+{
+  "facts": [
+    {
+      "text": "提供地中海风情的西班牙海鲜饭",
+      "kind": "food",
+      "quote": "点睛之笔的鱿鱼酱是西班牙师傅亲传的秘方",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site": "搜狐网"
+    },
+    {
+      "text": "拥有复古的维也纳风格建筑",
+      "kind": "space",
+      "quote": "整栋建筑的外观继承了维也纳浪漫风情",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site": "搜狐网"
+    },
+    {
+      "text": "可以俯瞰北外滩的景色",
+      "kind": "view",
+      "quote": "跨越庭院眺望到的北外滩",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site": "搜狐网"
+    },
+    {
+      "text": "有隐藏的惊喜机位",
+      "kind": "view",
+      "quote": "一侧的阳台则像隐藏的惊喜机位",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site": "搜狐网"
+    },
+    {
+      "text": "历史超过80年，具有丰富的文化故事",
+      "kind": "story",
+      "quote": "始于1939,见证82年往事",
+      "url": "https://www.163.com/dy/article/GHKB25MB0522A0I7.html",
+      "site": "网易"
+    },
+    {
+      "text": "曾是二战期间犹太难民的社交场所",
+      "kind": "story",
+      "quote": "是二战期间犹太难民社交活动和信息交流的重要场所",
+      "url": "https://www.meipian.cn/5hempjdv",
+      "site": "美篇网"
+    },
+    {
+      "text": "有老式唱片机等古董装饰",
+      "kind": "space",
+      "quote": "静静摆在1楼出口处的老式唱片机",
+      "url": "https://www.163.com/dy/article/GHKB25MB0522A0I7.html",
+      "site": "网易"
+    },
+    {
+      "text": "适合拍照打卡，有浪漫滤镜",
+      "kind": "view",
+      "quote": "随手一拍都是自带滤镜的大片",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "北外滩隐藏机位!这家「花园洋房餐厅」自带浪漫滤镜! ",
+      "url": "https://www.sohu.com/a/942734272_121124455",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "82年传奇咖啡!虹口之「最」,没有之一!",
+      "url": "https://www.163.com/dy/article/GHKB25MB0522A0I7.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "海派风情(51)白马咖啡馆",
+      "url": "https://www.meipian.cn/5hempjdv",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 4,
+      "title": "有故事的上海白马咖啡馆新生！不止于咖啡馆…… - 解放日报",
+      "url": "https://www.shobserver.com/wx/detail.do?id=975338",
+      "site_name": "上观"
+    },
+    {
+      "index": 5,
+      "title": "最有故事的白马咖啡馆：剥开有关历史、家族",
+      "url": "https://zhuanlan.zhihu.com/p/360651302",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "北外滩为什么有一座维也纳风情的白马咖啡馆？ - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_31531992?from=sohu",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 7,
+      "title": "白馬咖啡館(上海北外灘地區)",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/bai-ma-ga-fei-guan-25979930/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "有故事的白马咖啡馆重新开放进一步活化历史记忆打造多元文化交融 ...",
+      "url": "https://www.shio.gov.cn/TrueCMS//shxwbgs/ywts/content/8f19b086-50fd-4576-9ef7-fe79b4671ccf.htm",
+      "site_name": "中国政府网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:24Z"
+}

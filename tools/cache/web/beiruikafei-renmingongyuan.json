@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "贝瑞咖啡（人民公园店）的招牌饮品是鲜橙拿铁",
+      "kind": "drinks",
+      "quote": "推荐清单(饮料篇) 💘Top 1:鲜橙拿铁",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site": "大众点评网"
+    },
+    {
+      "text": "贝瑞咖啡（人民公园店）提供多种特色食物，如熏鸡嫩蛋吐司堡",
+      "kind": "food",
+      "quote": "最推荐: 熏鸡嫩蛋吐司堡",
+      "url": "https://www.dianping.com/discovery/675187895",
+      "site": "大众点评网"
+    },
+    {
+      "text": "贝瑞咖啡（人民公园店）的营业时间较早",
+      "kind": "time",
+      "quote": "贝瑞除了大年初一以外都正常营业(反正年初一下午两点到已经闭店了",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "静安寺商圈咖啡",
+      "url": "https://m.dianping.com/shop/675639795",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海人民公园咖啡与周边分享|上海人民公园|walt disney_新浪新闻",
+      "url": "https://sina.cn/news/detail/5337788641183470.html",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "貝瑞咖啡（人民廣場店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-131112224/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海市(人民广场) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn8277446-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "贝瑞咖啡☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/709757048",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "贝瑞咖啡(人民广场店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/131112224.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "贝瑞:我心中的咖啡店天花板",
+      "url": "https://m.dianping.com/discovery/1421239315",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "贝瑞探店,挑战一周工作早餐不重样 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/675187895",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "趁热打铁,多喝拿铁!@咖啡星人,来这里治愈你的春日倦意",
+      "url": "https://www.jiading.gov.cn/mspd/mszl/content_926073",
+      "site_name": "上海市嘉定区人民政府网站"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:56Z"
+}

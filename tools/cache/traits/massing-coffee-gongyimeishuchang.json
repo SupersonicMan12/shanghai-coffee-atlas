@@ -1,0 +1,84 @@
+{
+  "cafeId": "massing-coffee-gongyimeishuchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3a0533d2d410",
+  "raw": {
+    "headline": {
+      "zh": "手作咖啡不靠全自动机",
+      "en": "Handmade coffee, no automatic machines"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "玻璃搭成的L形阳光房，30多平方米",
+        "en": "L-shaped glass sunroom, over 30 sqm",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "天气好时室内阳光灿烂，下雨时听雨滴轻敲天花板",
+        "en": "Sunny days flood the space with light; raindrops tap the ceiling",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "店门口有高大挺拔的古香樟树，枝繁叶茂如翠绿伞盖",
+        "en": "Ancient camphor tree at entrance, dense green canopy overhead",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打拿铁、美式、手冲，可做虹吸、法压、摩卡壶",
+        "en": "Espresso-based drinks plus siphon, French press, and moka pot",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "可根据要求提供各类SOE单品咖啡豆制作",
+        "en": "SOE single-origin espresso beans available on request",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "营业至18:00但无办公证据",
+        "en": "Closes at 6pm, no work evidence"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "zh": "有树下咖啡座和阳光房宜久坐",
+        "en": "Tree-shaded seats and sunroom invite lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "提供虹吸/法压/摩卡壶及SOE",
+        "en": "Siphon, French press, moka, and SOE options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:09Z"
+}

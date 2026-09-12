@@ -1,0 +1,76 @@
+{
+  "cafeId": "waveoffcoffee-jianguo-west-rd-550",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c2eb4f7c9f16",
+  "raw": {
+    "headline": {
+      "zh": "工业风街角咖啡馆",
+      "en": "Industrial corner cafe"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有临街室外座位",
+        "en": "Outdoor seating on the street",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冷萃酸奶拿铁",
+        "en": "Serves cold brew yogurt latte",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应炒蛋餐和土豆丸子brunch",
+        "en": "Offers egg and potato ball brunch",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供前景庄园瑰夏手冲",
+        "en": "Serves Qianjing Estate Geisha pour-over",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-18:30营业",
+        "en": "Open daily 08:30–18:30",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "有瑰夏手冲和特色冷萃",
+        "en": "Geisha pour-over & unique cold brew"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4,
+          5,
+          9
+        ],
+        "zh": "有室外座和室内桌椅",
+        "en": "Indoor tables & outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:35Z"
+}

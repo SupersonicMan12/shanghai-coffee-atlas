@@ -1,0 +1,71 @@
+{
+  "cafeId": "w-caf-sh-brunch-bistro-xianzhonghuan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bd5e6b4f3e64",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a6ab89b7f2d6552a59eb402de6a29cfb",
+    "https://store.is.autonavi.com/showpic/3a1bd867ab95272569f4a3cb48e2d38d",
+    "https://store.is.autonavi.com/showpic/d3010ae48e435e8e0000002966564716?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "室外有多个座位和遮阳伞，地面铺石板，有绿植环绕。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "落地玻璃门敞开，可看见室内有顾客和工作人员活动。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设庭院式座位区，有草坪、灌木和盆栽棕榈树。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有木质框架与金属条纹顶棚，装修偏现代简约。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位配有高脚桌和沙发椅，适合多人或休闲坐。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "无可见咖啡机、磨豆机或手冲台等专业器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见有人使用笔记本电脑，也无书架或宠物。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张图均未显示饮品、食物或菜单内容。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:32Z"
+}

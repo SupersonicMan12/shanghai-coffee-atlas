@@ -1,0 +1,71 @@
+{
+  "cafeId": "kafei-one-itc",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4c1c1311a410",
+  "photos": [
+    "https://aos-comment.amap.com/B0K12K3MGX/comment/content_media_external_file_82902_ss__1756701135578_30197692.jpg",
+    "https://aos-comment.amap.com/B0K12K3MGX/comment/content_media_external_file_82915_ss__1756701135575_93737686.jpg",
+    "https://aos-comment.amap.com/B0K12K3MGX/comment/content_media_external_file_82904_ss__1756701135578_38485384.jpg"
+  ],
+  "photoKinds": [
+    "menu",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示经典豆、日常豆、限量豆等咖啡选项",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供西班牙拿铁、摩卡等传统咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有茶饮如大吉岭伯爵茶、冻顶乌龙茶等",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机和咖啡杯堆叠，有专业咖啡制作设备",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有工作人员在操作台后工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品价格在25至40元之间",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有瓶装饮品如气泡水和果汁出售",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店位于商场内，背景可见自动扶梯与商场结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:34Z"
+}

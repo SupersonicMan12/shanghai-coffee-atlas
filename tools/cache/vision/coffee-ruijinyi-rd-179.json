@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-ruijinyi-rd-179",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "148723ee820d",
+  "photos": [
+    "https://aos-comment.amap.com/B0G31C017M/comment/20260323-80fd8e4284a3d06229c3b0a4-4r5assZZdax8NS2Qxs4lLQ.jpg",
+    "https://store.is.autonavi.com/showpic/33433b041bd1ec4a0000001639762574?type=pic",
+    "https://aos-comment.amap.com/B0G31C017M/comment/E59D46C6_E967_4DE8_9D0C_CE125A9EE416_L0_001_1500_200_1770378475766_24057004.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，木质窗框与玻璃门，门上贴有'Merry Christmas'与手写春联",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外设木长凳配3个圆形坐垫，旁有卡通立牌与红蝴蝶结装饰",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见木质吧台、玻璃展示柜、白色小方砖墙、米色布帘遮窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "展示柜内有贝果（原味、全麦）、司康、磅蛋糕、布朗尼等，每件标价木牌",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有磨豆机（带红色'福'字贴纸）、咖啡机、菜单立牌与QR码",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "窗边挂手写卡片'纯手工·低糖·低脂·口感扎实'，柜顶摆4个卡通小玩偶",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "店招为黑底圆标'叁叁'与右侧'叁叁咖啡'字样，墙面为水泥+红砖拼接",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内无可见顾客或电脑使用者，未见手冲/虹吸/烘焙设备",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:10Z"
+}

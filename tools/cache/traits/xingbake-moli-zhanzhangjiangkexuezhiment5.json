@@ -1,0 +1,45 @@
+{
+  "cafeId": "xingbake-moli-zhanzhangjiangkexuezhiment5",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "dd67349f6e5c",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "陈列可颂、蛋糕等烘焙食品",
+        "en": "Offers croissants and cakes",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供茉莉风味、抹茶和拿铁类饮品",
+        "en": "Serves jasmine, matcha, and lattes",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "落地窗可望城市建筑景观",
+        "en": "Floor-to-ceiling windows overlook city buildings",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日06:30-18:00营业，周末关闭",
+        "en": "Open weekdays 06:30–18:00, closed weekends",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:03Z"
+}

@@ -1,0 +1,76 @@
+{
+  "cafeId": "drops-huashan-rd-376",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "04d3a84b9a32",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆书咖配司康",
+      "en": "Self-roasted beans, scones & books"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自家烘焙的咖啡豆",
+        "en": "Uses in-house roasted coffee beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌司康搭配特调咖啡",
+        "en": "Signature scones paired with house specials",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "与幸福集荟共构书咖空间",
+        "en": "Shared bookstore-cafe space with Xingfu Jijie",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有沙发座和木质椅子",
+        "en": "Indoor seating includes sofas and wooden chairs",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨1:30",
+        "en": "Open daily until 1:30 AM",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "zh": "有沙发、书和安静氛围",
+        "en": "Sofas, books, quiet vibe"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "提供多产地自烘豆风味",
+        "en": "Multiple origin self-roasted beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:26Z"
+}

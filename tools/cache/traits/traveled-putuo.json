@@ -1,0 +1,28 @@
+{
+ "cafeId": "traveled-putuo",
+ "model": "qwen-max",
+ "inputDigest": "52fec4f13201",
+ "raw": {
+  "headline": {
+   "zh": "云南茶与咖啡，随店主喜好变换",
+   "en": "Yunnan tea & coffee, monthly owner's pick"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供云南红茶或云南咖啡供选择",
+    "en": "Offers Yunnan black tea or Yunnan coffee",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 50,
+    "from": 1,
+    "zh": "每月更换茶叶和咖啡豆",
+    "en": "Monthly tea and coffee change"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:33Z"
+}

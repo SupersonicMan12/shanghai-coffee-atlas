@@ -1,0 +1,71 @@
+{
+  "cafeId": "m-stand-shanghaidaningguoji",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "9e0ff8c0e036",
+  "photos": [
+    "https://aos-comment.amap.com/B0I1FCPOUO/comment/content_media_external_images_media_57095_ss__1731329752589_28144954.jpg",
+    "https://aos-comment.amap.com/B0I1FCPOUO/comment/49fa1020860f601e6718dc4a4f001fcf_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I1FCPOUO/comment/1eeb1692fe01b6436e6e772e95fcd1de_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有数张桌椅，可坐约6-8人，伞已收起。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内右侧为长条卡座，配小方桌，至少可坐10人以上。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后可见磨豆机和咖啡机，属专业设备。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内多人就座，部分人在看手机或交谈，无人用电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯带饼干杯沿的拉花饮品，另一杯为深色黑咖。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街为大面积玻璃门，采光好，可看到外面街道。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内天花板为木质格栅结构，地面为灰色地砖。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面为砖石铺装，前方有蓝色马赛克矮墙。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T13:58:11Z"
+}

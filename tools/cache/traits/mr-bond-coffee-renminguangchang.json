@@ -1,0 +1,76 @@
+{
+  "cafeId": "mr-bond-coffee-renminguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4f081eaf51d4",
+  "raw": {
+    "headline": {
+      "zh": "主打咖啡果皮茶拿铁",
+      "en": "Known for coffee cherry tea latte"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含咖啡果皮茶拿铁、卡蒂姆果皮美式",
+        "en": "Signature drinks include coffee cherry tea latte and Catimor peel Americano",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "售卖可颂、面包等烘焙食品",
+        "en": "Sells croissants and baked bread",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "人均约22元，有19.8元超值套餐",
+        "en": "Around ¥22 per person; ¥19.8 value set available",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-20:00营业",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于商场内的小型咖啡店",
+        "en": "Small coffee shop inside a mall",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "提供果皮茶拿铁等特色饮品",
+        "en": "Offers unique cherry tea lattes"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "商场内小型店铺",
+        "en": "Small mall-based shop"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:42Z"
+}

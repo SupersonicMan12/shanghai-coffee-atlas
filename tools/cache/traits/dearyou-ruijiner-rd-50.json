@@ -1,0 +1,48 @@
+{
+  "cafeId": "dearyou-ruijiner-rd-50",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "2a1e79c38b46",
+  "raw": {
+    "headline": {
+      "zh": "前年酿梅酒配咖啡",
+      "en": "Sip two-year-aged plum wine"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供前年酿梅子酒，38元/杯",
+        "en": "Serves two-year-aged plum wine, 38 RMB",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "陈列咖啡豆罐于吧台后置物架",
+        "en": "Coffee beans displayed on back shelves",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "提供陈年果酒类特调",
+        "en": "Offers aged fruit wine drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:28Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "nodcafe-m50",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "0f3e2402a7ad",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/70b1bc030094945cecdd74e8c4324983",
+    "https://store.is.autonavi.com/showpic/50b3141ea05a11350000002602550296?type=pic",
+    "https://aos-comment.amap.com/B0J6PC5VXT/comment/CC43CA20_9F17_4661_A2FD_DA845AD92763_L0_001_1179_117_1757158576845_29942354.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店门口挂有手写体'Nod Café'招牌及'Open 正在营业'木牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口为黑色框格玻璃推拉门，门外左侧有绿色矮凳与折叠椅各1把",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内为高视角俯拍，吧台区紧凑，地面灰白棋盘格瓷砖，无独立座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台可见意式咖啡机、磨豆机、手冲壶架、双头压粉器等专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台旁有浅绿复古冰箱、木质置物架、多盆绿植（含龟背竹、蔓绿绒）",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "第三张图为一杯冰饮：分层明显，下层乳白、中层浅棕、上层深棕，含冰块，置于木桌",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内无人使用电脑；仅1名穿花衬衫戴帽者在操作咖啡机",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "透过玻璃门可见室外有金属网格围栏与部分绿植，未见河/街景明确细节",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T13:39:00Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "blacksheep-espresso-jianguo-middle-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "398192f64353",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHLA14Y/comment/8c61766f0fa5fe8432358f59c5c70275_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/33b223d1229965120000004076704661?type=pic",
+    "https://aos-comment.amap.com/B0FFHLA14Y/comment/content_media_external_file_61547_ss__1750222643110_69694597.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "一张照片显示两杯热咖啡，一杯玻璃杯装有心形拉花，一杯白瓷杯装有叶形拉花，均置于木质杯垫上。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台为白色竖条纹面板，后方墙面为浅木色瓷砖，上方标有'BLACKSHEEP ESPRESSO'字样。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台上有手冲壶、滤杯、电子秤、磨豆机（黑色圆柱形）、意式咖啡机、微波炉及多个玻璃杯。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一名穿白衬衫的人员背对镜头在吧台操作，未见顾客或座位区域。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张照片为一杯冰咖啡，含冰块与搅拌棒，置于白色圆桌上，背景可见红色灭火器与竖条纹墙面。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台下方嵌入式小格内陈列若干小型物件（如小摆件或咖啡配件），非书架或植物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见任何座位、桌椅、窗户、室外区域或菜单文字内容。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "饮品为热拿铁类（拉花）与冰美式/冷萃类（无奶），未见燕麦奶、可颂、贝果等食物明确出现。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:06Z"
+}

@@ -1,0 +1,85 @@
+{
+  "cafeId": "taipingyangkafei-shanghaizhan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "277d9d5fc2ea",
+  "raw": {
+    "headline": {
+      "zh": "上海站内可久坐的商务咖",
+      "en": "Sit-down coffee spot inside Shanghai Railway Station"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内设多个桌椅座位，顾客正在用餐",
+        "en": "Multiple tables and chairs with diners present",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "冷藏柜售三明治、瓶装水、果汁等即食食品",
+        "en": "Cold case offers sandwiches, bottled water, juice",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供含酒精橙风酣梦美式等季节限定手调款",
+        "en": "Serves seasonal handcrafted drinks like boozy Orange Dream Americano",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日06:00–21:00",
+        "en": "Open daily 06:00–21:00",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可看店外大厅",
+        "en": "Full-height street-facing windows overlooking station hall",
+        "from": [
+          2,
+          5,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有桌椅且顾客久坐",
+        "en": "Seating and lingering customers"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "含酒精与中式元素特调",
+        "en": "Alcoholic and herbal specialty drinks"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "车站大厅旁，有人流但非喧闹",
+        "en": "Station-adjacent with moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:02Z"
+}

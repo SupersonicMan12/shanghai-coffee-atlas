@@ -1,0 +1,66 @@
+{
+  "cafeId": "peet-s-sanlinyinxianghui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d9273dbe3a0f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b82600564cbcf0f27556da2405ba7736",
+    "https://aos-comment.amap.com/B0KDT9JKBM/comment/175746894977_1757468955765_87571547.jpg",
+    "https://aos-comment.amap.com/B0KDT9JKBM/comment/7799D716_3B25_436E_9BC3_0FCC474EBAAA_L0_001_1440_990_1735976233530_68586364.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有室外座位和遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见绿植装饰，环境较自然",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供抹茶冷饮、拿铁和蛋糕",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡杯上有拉花图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品摆放在木质托盘上",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有室内座位区，摆放桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:08Z"
+}

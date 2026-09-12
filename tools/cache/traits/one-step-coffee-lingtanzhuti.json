@@ -1,0 +1,82 @@
+{
+  "cafeId": "one-step-coffee-lingtanzhuti",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "91bc6f1f316d",
+  "raw": {
+    "headline": {
+      "zh": "和平公园水榭里的亲水平台",
+      "en": "Lakeside terrace inside Peace Park's waterside pavilion"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "室外亲水平台设桌椅和遮阳棚，可一览湖光",
+        "en": "Outdoor lakeside terrace with seating and sun shade, offering views of the lake",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内分三区：西区服务台、中区透明顶棚绿意环绕、东区豆袋沙发与书架",
+        "en": "Interior divided into three zones: service counter (west), glass-roofed green zone (center), beanbag-and-bookshelf area (east)",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供肉桂卷等烘焙食品",
+        "en": "Serves cinnamon rolls and other baked goods",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有木桌椅，东区设豆袋懒人沙发",
+        "en": "Indoor seating includes wooden tables/chairs and beanbag loungers in the east zone",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00–18:00",
+        "en": "Open daily from 09:00 to 18:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "亲水平台+多类型座位+书架",
+        "en": "Lakeside terrace + varied seating + bookshelf"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "东区设书架，中区绿意环绕",
+        "en": "Bookshelf in east zone; green-focused center zone"
+      },
+      "adventure": {
+        "value": 0,
+        "from": [
+          15
+        ],
+        "zh": "高德推荐菜仅标coffee",
+        "en": "Only 'coffee' listed as recommended dish"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:16Z"
+}

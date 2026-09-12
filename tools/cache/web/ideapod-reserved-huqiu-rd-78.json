@@ -1,0 +1,89 @@
+{
+  "facts": [
+    {
+      "text": "环境舒适，座位多样，适合移动办公",
+      "kind": "space",
+      "quote": "這裡環境舒適,座位多樣,無論是階梯式座位還是懶人沙發",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144090227/",
+      "site": "ideaPod，完美的移動辦公地。｜Trip.com 上海"
+    },
+    {
+      "text": "9:00~20:00营业时间",
+      "kind": "time",
+      "quote": "영업 시간: 9:00~20:00.",
+      "url": "https://korean.shanghai.gov.cn/ko-WorkingorStudyingCafe/20241205/41eb8e88204640648bc7e577bf23eb69.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "为灵活工作者设计的工作咖啡馆",
+      "kind": "people",
+      "quote": "一个新工作方式品牌，为灵活工作者设计的工作咖啡",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6901e3fd740634ca47990568",
+      "site": "013 在上海最贵的地方做“工作咖啡”第三空间，星巴克与自习室之间的 ..."
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "ideaPod，完美的移動辦公地。｜Trip.com 上海",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144090227/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "ideaPod reserved工作咖啡(洛克外滩源店)-菜图片-上海-大众点评网",
+      "url": "http://www.dianping.com/shop/G1EJciVdkcBm9sOo/photos/tag-%E8%8F%9C",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "아이디어팟 리저브드_업무와 공부하기에 좋은 카페 - 중국 상하이",
+      "url": "https://korean.shanghai.gov.cn/ko-WorkingorStudyingCafe/20241205/41eb8e88204640648bc7e577bf23eb69.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 5,
+      "title": "ideaPod reserved工作咖啡(洛克外滩源店)-环境图片-上海-大众点评网",
+      "url": "http://www.dianping.com/shop/G1EJciVdkcBm9sOo/photos/tag-%E7%8E%AF%E5%A2%83",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "ideaPod reserved工作咖啡(洛克外滩源店)-图片-上海-第16页 - Dianping",
+      "url": "http://www.dianping.com/shop/G1EJciVdkcBm9sOo/photos?pg=16",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "013 在上海最贵的地方做“工作咖啡”第三空间，星巴克与自习室之间的 ...",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6901e3fd740634ca47990568",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "013 在上海最贵的地方做“工作咖啡”第三空间，星巴克与自习…",
+      "url": "https://podcasts.apple.com/tr/podcast/013-%E5%9C%A8%E4%B8%8A%E6%B5%B7%E6%9C%80%E8%B4%B5%E7%9A%84%E5%9C%B0%E6%96%B9%E5%81%9A-%E5%B7%A5%E4%BD%9C%E5%92%96%E5%95%A1-%E7%AC%AC%E4%B8%89%E7%A9%BA%E9%97%B4-%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%8E%E8%87%AA%E4%B9%A0%E5%AE%A4%E4%B9%8B%E9%97%B4%E7%9A%84%E6%96%B0%E5%93%81%E7%B1%BB%E6%9C%BA%E4%BC%9A-%E5%AF%B9%E8%AF%9D-ideapod-%E8%81%94%E5%90%88%E5%88%9B%E5%A7%8B%E4%BA%BA/id1828096354?i=1000734072387&l=tr",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 9,
+      "title": "「社区大使（咖啡师）招聘」_ideaPod新荚子招聘-BOSS直聘",
+      "url": "https://m.bosszhipin.com/job_detail/c56ac0b75cd7d83003F-39u0EVRY.html",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "大熊也算是上海咖啡元老级咖...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4053621127028406458",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:04Z"
+}

@@ -1,0 +1,88 @@
+{
+  "cafeId": "soundcafe-binjiang-ave-4598",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a375170f4914",
+  "raw": {
+    "headline": {
+      "zh": "江景复古咖啡馆",
+      "en": "Retro cafe with river views"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "可看到黄浦江及来往船只",
+        "en": "Views of Huangpu River and passing boats",
+        "from": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供桂花酒酿拿铁等特色饮品",
+        "en": "Serves osmanthus fermented glutinous rice latte",
+        "from": [
+          16
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位，含长木桌和室外位",
+        "en": "Indoor and outdoor seating, including long wooden tables",
+        "from": [
+          2,
+          9,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00-21:30（部分日期调整）",
+        "en": "Open 09:00–21:30 (adjusted on some dates)",
+        "from": [
+          18
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含披萨、炸鸡块、巧克力",
+        "en": "Recommended dishes include pizza, chicken nuggets, chocolate",
+        "from": [
+          19
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          2,
+          4,
+          11,
+          17
+        ],
+        "zh": "多人用电脑工作学习",
+        "en": "People work/study with laptops"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          14,
+          17
+        ],
+        "zh": "空间开阔安静适合久坐",
+        "en": "Spacious, quiet, good for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          16
+        ],
+        "zh": "有桂花酒酿拿铁等特调",
+        "en": "Features unique drinks like osmanthus latte"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:18Z"
+}

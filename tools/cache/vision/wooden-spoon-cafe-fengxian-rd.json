@@ -1,0 +1,59 @@
+{
+  "cafeId": "wooden-spoon-cafe-fengxian-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4899104721ba",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKDDY64Q/comment/9298ffc082c782ca469ef009705f4285_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/6f688e16b63c448b0000003090182970?type=pic",
+    "https://aos-comment.amap.com/B0HKDDY64Q/comment/content_media_external_file_42483_ss__1773577662522_90078946.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "吧台式小店，无堂食座位，仅一人操作区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡磨豆机和贴纸装饰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拉面、炸鱿鱼、炸金针菇等餐食",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有树，临街玻璃窗可见内部",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上有燕麦风味饮品宣传",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台旁放有一盆绿植",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:14Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "sure-yushan-rd-252",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "386891d539ec",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9f9e73d741ccd48ab72eff42f782807b",
+    "https://aos-comment.amap.com/B0FFJ2CWNM/headerImg/1cd8d945ac9113b1ec52a04ed5a0a903_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFJ2CWNM/headerImg/b0f7deea110485d1c5990a9138ecdf75_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "餐厅位于商场内，入口处有麦当劳招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间宽敞，设有多个餐桌和吧台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌布置正式，铺有白色桌布，适合聚餐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供香煎羊排，搭配时令蔬菜、香草沙拉和土豆泥",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "香煎羊排价格为168元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有酒架，陈列多种酒瓶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有木质装饰和吊灯，风格现代简约",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有工作人员在吧台后操作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:33Z"
+}

@@ -1,0 +1,86 @@
+{
+  "cafeId": "ikea-cafe-yijiajiaju",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5f8e668dafc8",
+  "raw": {
+    "headline": {
+      "zh": "宜家里的自习咖啡馆",
+      "en": "A cafe with study space inside IKEA"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "座位多，有木椅和藤编椅",
+        "en": "Plenty of seats: wooden and rattan chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大片落地窗，采光好",
+        "en": "Large floor-to-ceiling windows, bright",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有人在座位上用笔记本电脑",
+        "en": "People work on laptops at seats",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "自习室开放时间10-17点",
+        "en": "Study room open 10–17",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供悠香越桔牡丹拿铁等特色饮品",
+        "en": "Serves unique drinks like hibiscus peony latte",
+        "from": [
+          9,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          3,
+          6,
+          8
+        ],
+        "zh": "设自习室且有人办公",
+        "en": "Has study area, people work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "座位多，自习室开放7小时",
+        "en": "Many seats, 7-hour study window"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "有越桔牡丹等创意特调",
+        "en": "Offers creative seasonal lattes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:08Z"
+}

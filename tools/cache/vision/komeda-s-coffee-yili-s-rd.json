@@ -1,0 +1,71 @@
+{
+  "cafeId": "komeda-s-coffee-yili-s-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "816049651179",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e9b532144d4a5ad90000001498156772?type=pic",
+    "https://aos-comment.amap.com/B0LGGHXADW/comment/C7447334_CC69_455E_A8CF_9B95C7047BF7_L0_001_1500_200_1764157527887_84310093.jpg",
+    "https://aos-comment.amap.com/B0LGGHXADW/comment/0F3FB710_4A93_48E7_B844_E61E5823DFF0_L0_001_1500_200_1761912220145_29390668.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面有红色遮阳篷，玻璃门+大面积临街玻璃窗，右侧设室外桌椅。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内为浅木纹墙面与桌面，座位为固定木质桌椅，可见编号‘20’桌位。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "左侧照片中可见‘任选早餐’菜单海报，含三明治、吐司、甜点等图示。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有一杯抹茶冰饮（顶部软冰淇淋）、一杯热饮（奶泡+脆片）、一篮切片面包、一小碟红豆沙。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "桌上另有一份带软冰淇淋顶的可颂类面包，配两杯黑咖啡（带小奶盅）。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街玻璃窗清晰可见窗外行道树、街道及对面建筑，采光良好。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "室外区域有至少1张桌+2把椅子，配红色遮阳伞，位于店门口人行道旁。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "店内未见烘焙机、手冲台、虹吸壶、磨豆机等专业咖啡器具。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:50Z"
+}

@@ -1,0 +1,101 @@
+{
+  "cafeId": "tieshoukafeizhizaoju-metalhands2",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "73f7f201d057",
+  "raw": {
+    "headline": {
+      "zh": "荷包蛋咖啡与临街窗座",
+      "en": "Egg coffee & street-side window seats"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设至少8个路边座位",
+        "en": "At least 8 outdoor street seats",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，采光通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          2,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌开心果Dirty与荷包蛋咖啡",
+        "en": "Signature pistachio Dirty and egg coffee",
+        "from": [
+          9,
+          11,
+          12,
+          14
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "常见顾客歇脚、拍照、聊天或办公",
+        "en": "Patrons often rest, chat, take photos or work",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–19:00营业",
+        "en": "Open daily 08:00–19:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "有人在此办公",
+        "en": "People work here"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          3,
+          10
+        ],
+        "zh": "路边有行人与车辆",
+        "en": "Street activity outside"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          7,
+          10
+        ],
+        "zh": "设室外座且适合久坐",
+        "en": "Outdoor seats, good for lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9,
+          11,
+          12
+        ],
+        "zh": "提供荷包蛋等创意咖啡",
+        "en": "Offers egg and pistachio coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:13Z"
+}

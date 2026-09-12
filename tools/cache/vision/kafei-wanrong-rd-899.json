@@ -1,0 +1,63 @@
+{
+  "cafeId": "kafei-wanrong-rd-899",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "846fc41a7861",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/16484bd645182bdde5ce8b9a9f33ac33",
+    "https://store.is.autonavi.com/showpic/154511fd8287a451c1bcf3be4cd70b5b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街转角，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为现代简约风格，白色外墙搭配红砖建筑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见部分座位，数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门外有街道和行道树，环境整洁",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见明显烘焙设备或手冲台",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:19Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "vuoiuna-caffe-pingxingguan-rd-179",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9b5b600c1ccf",
+  "photos": [
+    "https://aos-comment.amap.com/B0K37AQVVV/comment/content_media_external_images_media_58589_ss__1732014222742_87783999.jpg",
+    "https://store.is.autonavi.com/showpic/1e90b9cf1ebe9c070000000973108512?type=pic",
+    "https://store.is.autonavi.com/showpic/2df6426e97b4f4080000000973062743?type=pic"
+  ],
+  "photoKinds": [
+    "other",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小咖啡馆，有外摆吧台和两个高脚凳",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口玻璃上写有'NO COFFEE NO LIFE'字样",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见手冲器具和磨豆机等专业设备",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有两个高脚凳作为室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街道旁，门面朝向马路",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内展示有多个保温杯，印有品牌名称",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有黄色快递柜，显示为城市普通街区环境",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:34Z"
+}

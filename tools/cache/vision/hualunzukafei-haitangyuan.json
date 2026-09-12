@@ -1,0 +1,71 @@
+{
+  "cafeId": "hualunzukafei-haitangyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7fcd2a389a3c",
+  "photos": [
+    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/822924f50a6e253a5e9fa7b8c730bdad_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/503a8874b1f5f2ffc6da60395cb67729_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/comment/20260320-4def17bca7e2a981d1a22d61-1JHXGzxBt499EenOQ0ZHSr.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小咖啡店，有开放式窗口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见黄色意式咖啡机和磨豆机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示美式、拿铁、dirty等饮品，价格16-24元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有贝果、可颂、面包棒、抹茶甜品等食物出售",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台外挂有二维码支付标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内工作人员正在操作咖啡设备",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "顾客在窗口前排队点单",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "展示区使用纸板托盘陈列食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:23:45Z"
+}

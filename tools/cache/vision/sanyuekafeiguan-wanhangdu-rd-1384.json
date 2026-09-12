@@ -1,0 +1,71 @@
+{
+  "cafeId": "sanyuekafeiguan-wanhangdu-rd-1384",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "814a220c9356",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/70b43160907faa1c0000003599006480?type=pic",
+    "https://aos-comment.amap.com/B00155LQS8/comment/20260311-40d99571f269a6ba36a36a46-8EgBtOgWqypAEPJGjf9gBy.jpg",
+    "https://aos-comment.amap.com/B00155LQS8/comment/content_media_external_images_media_8018_1743312907536_47950389.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为绿色木质门头，门牌号203，招牌写‘三月咖啡馆’及‘SIMBA II’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门口左侧有浅绿复古冰箱，右侧立白瓷鹿头雕塑，门前黑板写‘门外橘猫不是三月的’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见红色春联、暖光台灯、老式收音机与打字机等摆件，无明显吧台或专业咖啡设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中手握白瓷杯，杯内为带叶形拉花的热奶咖，旁有‘叁月 Since 2002’盖罐与手写菜单",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图桌面有两杯拉花热奶咖、一杯冰美式、一块红丝绒蛋糕、一块抹茶千层蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "手写菜单可见‘意式浓缩 Espresso’‘美式咖啡 Americano’‘卡布奇诺 Cappuccino’‘拿铁’‘摩卡’等，标价‘生椰 58’",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.92
+    },
+    {
+      "text": "桌为木纹桌面，嵌有金属压印文字（如‘after’‘quality’），无电脑、无烘焙机/手冲台/虹吸壶",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "第一张图玻璃门内可见室内灯光较暗，地面为深色木地板，未见窗或采光细节",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:44Z"
+}

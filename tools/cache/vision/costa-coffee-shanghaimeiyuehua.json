@@ -1,0 +1,47 @@
+{
+  "cafeId": "costa-coffee-shanghaimeiyuehua",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "57bc69c624d6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/745609ab95fc6348cc5a8fa970ff29db",
+    "http://store.is.autonavi.com/showpic/7bc76c8a0583f6e2e7b60ba495d5b1ec",
+    "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有红色遮阳伞和露天座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃幕墙，采光好，可见街道与车辆。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品含生椰乌龙轻乳茶、椰皇三重奏等椰子风味。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有带奶油顶的热饮，杯身透明带把手。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:48Z"
+}

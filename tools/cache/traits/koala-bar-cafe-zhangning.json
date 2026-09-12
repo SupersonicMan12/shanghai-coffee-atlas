@@ -1,0 +1,40 @@
+{
+ "cafeId": "koala-bar-cafe-zhangning",
+ "model": "qwen-max",
+ "inputDigest": "a1e8adb37f49",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街落地窗，视野开阔",
+    "en": "Full street-facing windows, wide view",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 1,
+    "zh": "无电脑、书架，但有安静的环境",
+    "en": "No computers, but quiet"
+   },
+   "energy": {
+    "value": 40,
+    "from": 2,
+    "zh": "临街可能有一定喧闹",
+    "en": "Street noise possible"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "营业时间长，适合久坐",
+    "en": "Long hours, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:24Z"
+}

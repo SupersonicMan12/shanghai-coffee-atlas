@@ -1,0 +1,52 @@
+{
+ "cafeId": "elefanco-changshou",
+ "model": "qwen-max",
+ "inputDigest": "806788e900a8",
+ "raw": {
+  "headline": {
+   "zh": "长寿路上深夜营业的咖啡好去处",
+   "en": "Late-night coffee spot on Changshou Road"
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "营业至深夜，适合夜猫子",
+    "en": "Open until late, perfect for night owls",
+    "from": "[11, 13]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室内有高脚凳和圆凳，室外设折叠椅桌",
+    "en": "High stools and round stools inside, folding chairs outside",
+    "from": "[3, 6, 8]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为“10pm flat white”",
+    "en": "Signature drink: 10pm flat white",
+    "from": "[12]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 40,
+    "from": "[3, 6]",
+    "zh": "有高脚凳和圆凳，但未见办公设备",
+    "en": "Stools available, no workstations seen"
+   },
+   "energy": {
+    "value": 50,
+    "from": "[2, 5, 7, 8]",
+    "zh": "店内装饰热闹，但未见拥挤",
+    "en": "Lively decor, not crowded"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[3, 6, 8]",
+    "zh": "提供多种座位选择，适合久坐",
+    "en": "Multiple seating options, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:56Z"
+}

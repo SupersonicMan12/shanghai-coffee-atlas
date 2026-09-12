@@ -1,0 +1,59 @@
+{
+  "cafeId": "mr-bond-coffee-lvdiwaitanzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cffacb6fa725",
+  "raw": {
+    "headline": {
+      "zh": "现烤面包配特色果皮美式",
+      "en": "Fresh-baked pastries with citrusy Americano"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "每日现烤可颂、贝果、吐司等面包",
+        "en": "Daily fresh-baked croissants, bagels, toast",
+        "from": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供卡蒂姆果皮美式等特色咖啡",
+        "en": "Serves specialty drinks like Citrus Peel Americano",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至19:30，周末至18:30",
+        "en": "Open till 19:30 weekdays, 18:30 weekends",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "下午4点起咖啡买二送一",
+        "en": "Buy 2 get 1 free on coffee from 4pm",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "有果皮美式等特色饮品",
+        "en": "Features unique citrus peel Americano"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:49Z"
+}

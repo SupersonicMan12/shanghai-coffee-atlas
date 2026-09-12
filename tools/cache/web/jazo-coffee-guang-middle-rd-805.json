@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "使用自烘豆子",
+      "kind": "beans",
+      "quote": "每月都会精心挑选来自世界各地烘焙商的当季豆",
+      "url": "https://www.thetigerhood.com/2022shanghaicoffeeshops/",
+      "site": "2022上海咖啡攻略：谢谢这些还在坚持的小店"
+    },
+    {
+      "text": "提供特色饮品耶椰冰美式",
+      "kind": "drinks",
+      "quote": "以苦瓜拼配为底,加上无添加原汁椰清和果肉而成的“耶椰冰美式”",
+      "url": "https://www.163.com/dy/article/GIOLMQ960514R9P4.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "店铺有良好的采光",
+      "kind": "light",
+      "quote": "门面比以前大了好多 采光也一下子明亮起来",
+      "url": "https://www.dianping.com/discovery/1227405274",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店铺位于广中路805号",
+      "kind": "space",
+      "quote": "广中路80******（撰于2026年8月28日）",
+      "url": "https://m.dianping.com/shop/1588402550",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店主Jason有丰富的咖啡行业经验",
+      "kind": "story",
+      "quote": "在咖啡行业摸爬滚打了近10年",
+      "url": "http://finance.sina.com.cn/jjxw/2021-08-31/doc-iktzqtyt3280042.shtml",
+      "site": "新浪网"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "小店不定期举行咖啡杯测、兴趣课程体验和咖啡电影分享等丰富活动",
+      "url": "https://www.163.com/dy/article/GIOLMQ960514R9P4.html",
+      "site": "163网易免费邮"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "大宁地区咖啡",
+      "url": "https://m.dianping.com/shop/1588402550",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡志|温度和专业度并存,这家社区咖啡馆不简单",
+      "url": "http://finance.sina.com.cn/jjxw/2021-08-31/doc-iktzqtyt3280042.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡星人有一点喜欢的宝藏咖啡店开新店了 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1227405274",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡志|温度和专业度并存,这家社区咖啡馆不简单",
+      "url": "https://new.qq.com/omn/20210831/20210831A0CW5H00.html",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡志|温度和专业度并存,这家社区咖啡馆不简单",
+      "url": "https://www.163.com/dy/article/GIOLMQ960514R9P4.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "上海咖啡志|温度和专业度并存,这家社区咖啡馆不简单",
+      "url": "https://www.thepaper.cn/newsDetail_forward_14279253",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 7,
+      "title": "2022上海咖啡攻略：谢谢这些还在坚持的小店",
+      "url": "https://www.thetigerhood.com/2022shanghaicoffeeshops/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡志｜温度和专业度并存，这家社区咖啡馆不简单 - 搜狐",
+      "url": "https://www.sohu.com/a/486910546_260616",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 9,
+      "title": "JAZO coffee 佳作咖啡-菜图片-上海-第3页-大众点评网",
+      "url": "http://www.dianping.com/shop/G5JzQzPgBv8vEea3/photos/tag-%E8%8F%9C?pg=3",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:15:04Z"
+}

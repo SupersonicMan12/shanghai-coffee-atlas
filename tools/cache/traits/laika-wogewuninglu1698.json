@@ -1,0 +1,49 @@
+{
+  "cafeId": "laika-wogewuninglu1698",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "097af000d7b0",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗采光好",
+      "en": "Bright space with street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，自然采光充足",
+        "en": "Full-height street-facing windows provide ample natural light",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜售卖即食类食品",
+        "en": "Display case offers ready-to-eat food items",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "小型零售店铺，无座位区",
+        "en": "Compact retail setup with no seating area",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          4
+        ],
+        "zh": "无座位适合外带",
+        "en": "No seating, takeout only"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:09Z"
+}

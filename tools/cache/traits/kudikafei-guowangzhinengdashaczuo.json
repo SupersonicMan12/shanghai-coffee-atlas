@@ -1,0 +1,75 @@
+{
+  "cafeId": "kudikafei-guowangzhinengdashaczuo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1e4d68512502",
+  "raw": {
+    "headline": {
+      "zh": "站喝小吧台，主打咸法酪系列",
+      "en": "Standing bar with salty feta drinks"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内为立式吧台，无座位区域",
+        "en": "Standing-only bar, no seating available",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主推咸法酪拿铁和咸法酪牛乳茶",
+        "en": "Features salty feta latte and milk tea",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供斑斓芒果椰子冰沙等亚洲风味果茶",
+        "en": "Offers Asian-inspired drinks like pandan mango frappe",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，三年获IIAC金奖",
+        "en": "100% Arabica beans, IIAC gold for 3 years",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–20:00营业",
+        "en": "Open daily 7am to 8pm",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "仅设站喝吧台",
+        "en": "Standing-only setup"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "有咸法酪与斑斓芒果等特色饮品",
+        "en": "Unusual drinks like feta & pandan"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:50Z"
+}

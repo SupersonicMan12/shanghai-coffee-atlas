@@ -1,0 +1,79 @@
+{
+  "cafeId": "1915-binjiangguojiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "81f176405df7",
+  "raw": {
+    "headline": {
+      "zh": "复古自行车+绿植中喝焦糖玛奇朵",
+      "en": "Retro bike and plants with caramel macchiato"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "中等大小空间，木质地板与吧台",
+        "en": "Medium-sized space with wooden floor and counter",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供焦糖玛奇朵、雪域芝士等特色咖啡饮品",
+        "en": "Serves caramel macchiato and snowfield cheese coffee",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应樱桃黑森林蛋糕及淋焦糖酱的冰淇淋甜品",
+        "en": "Offers cherry black forest cake and caramel-sauced ice cream",
+        "from": [
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:30（工作日）或18:00（周末）",
+        "en": "Open until 5:30 PM on weekdays, 6:00 PM on weekends",
+        "from": [
+          6,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "营业时间偏短，无办公相关证据",
+        "en": "Short hours, no work evidence"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5,
+          7,
+          8
+        ],
+        "zh": "有座位、甜品与下午茶推荐",
+        "en": "Seating, desserts, and afternoon tea recommended"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "饮品含雪域芝士等非经典款",
+        "en": "Features non-classic drinks like snowfield cheese"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:01Z"
+}

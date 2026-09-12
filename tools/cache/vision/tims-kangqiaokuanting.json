@@ -1,0 +1,65 @@
+{
+  "cafeId": "tims-kangqiaokuanting",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "20b1239d64cb",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "http://store.is.autonavi.com/showpic/95673e3416d0eb8e4820daefc1ecc130",
+    "https://store.is.autonavi.com/showpic/de7e7360152c9e8509520cc3638db62e"
+  ],
+  "photoKinds": [
+    "logo",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有贝果售卖",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供美式咖啡和肉桂提子贝果套餐",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "套餐价格为19.9元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品可选N种，食品可选N种",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜内陈列多种贝果",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有玻璃展示柜",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见饮料制作设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:25Z"
+}

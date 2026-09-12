@@ -1,0 +1,34 @@
+{
+ "cafeId": "single-origin-jiaozhou",
+ "model": "qwen-max",
+ "inputDigest": "612e0c5dc04c",
+ "raw": {
+  "headline": {
+   "zh": "专注埃塞俄比亚单品豆，手冲推荐",
+   "en": "Ethiopian single origins, pour-overs recommended"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "主要提供自家烘焙的埃塞俄比亚豆子",
+    "en": "In-house roasted Ethiopian beans primarily",
+    "from": 1
+   },
+   {
+    "kind": "people",
+    "zh": "店员会告诉你咖啡的处理站信息",
+    "en": "Staff share details on washing stations",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 70,
+    "from": 1,
+    "zh": "提供多种埃塞俄比亚单品豆",
+    "en": "Multiple Ethiopian lots"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:12Z"
+}

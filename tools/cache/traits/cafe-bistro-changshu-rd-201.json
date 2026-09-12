@@ -1,0 +1,57 @@
+{
+  "cafeId": "cafe-bistro-changshu-rd-201",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b817e59fbdad",
+  "raw": {
+    "headline": {
+      "zh": "七年卖出10万份花蟹面",
+      "en": "7 years, 100k bowls of crab noodles"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌花蟹面七年售出10万份",
+        "en": "Signature crab noodle bowl sold 100k in 7 years",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗，带圣诞贴纸",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-21:00营业",
+        "en": "Open daily 10am–9pm",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2015年开业，为十年老店",
+        "en": "Opened in 2015; a decade-old shop",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "适合情侣约会与闺蜜拍照",
+        "en": "Good for dates and photo sessions"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:35Z"
+}

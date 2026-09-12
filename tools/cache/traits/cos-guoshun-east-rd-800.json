@@ -1,0 +1,83 @@
+{
+  "cafeId": "cos-guoshun-east-rd-800",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5d8e137987c4",
+  "raw": {
+    "headline": {
+      "zh": "妹抖cos服务+免费live",
+      "en": "Cosplay staff and free live shows"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌是定制妹抖蛋包饭，称‘魔法蛋包饭’",
+        "en": "Signature 'magic' omurice served by maid cosplay staff",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "服务人员身着coser服饰，每日上下午轮班扮演不同角色",
+        "en": "Staff wear cosplay outfits and rotate roles daily morning/afternoon",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至21点，20:30停止点单",
+        "en": "Open until 21:00; last order at 20:30",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "每周双休提供免费live演出",
+        "en": "Free live performances every weekend",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间偏小，配木质桌椅",
+        "en": "Compact interior with wooden tables and chairs",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 85,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "周末live+cos互动热闹",
+        "en": "Live shows + cosplay interaction"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "空间偏小，非久坐型",
+        "en": "Compact space, not for long stays"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "分层冰咖啡+魔法蛋包饭",
+        "en": "Layered iced coffee + themed omurice"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:06Z"
+}

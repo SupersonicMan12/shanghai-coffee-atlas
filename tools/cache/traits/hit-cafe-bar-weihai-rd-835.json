@@ -1,0 +1,73 @@
+{
+  "cafeId": "hit-cafe-bar-weihai-rd-835",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4c770974b966",
+  "raw": {
+    "headline": {
+      "zh": "咖啡鸡尾酒一体吧",
+      "en": "Cafe by day, bar by night"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "菜单含两款带成分价格的鸡尾酒",
+        "en": "Two cocktails listed with ingredients and prices",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "长条形吧台座位可坐数人",
+        "en": "Bar-style seating for several guests",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日早8:45开门，每日营业至24点",
+        "en": "Open until midnight daily; weekdays from 8:45 AM",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐冰美式",
+        "en": "Iced Americano recommended on Amap",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有吧台座与室外位",
+        "en": "Bar and outdoor seats"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "提供明确配方的鸡尾酒",
+        "en": "Cocktails with listed recipes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:02Z"
+}

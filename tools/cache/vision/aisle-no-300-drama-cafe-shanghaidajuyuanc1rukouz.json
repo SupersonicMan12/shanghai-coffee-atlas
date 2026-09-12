@@ -1,0 +1,71 @@
+{
+  "cafeId": "aisle-no-300-drama-cafe-shanghaidajuyuanc1rukouz",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cc851a08bdee",
+  "photos": [
+    "https://aos-comment.amap.com/B0K60H1UF4/comment/177053736752_1770537375832_69958624.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769439381610_87893781_1769439454249_83750001.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769439381601_43552846_1769439454248_15221514.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有编号座椅，类似影院排布",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大型绿植和天窗采光",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为分层彩色饮料，含冰块和果粒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处玻璃上有白色线条人脸图案",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间呈斜顶结构，有金属与木质元素",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有圆形小桌和高脚椅组合",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见室内部分区域有透明屋顶或天窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放有多条彩色编织手链",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:13Z"
+}

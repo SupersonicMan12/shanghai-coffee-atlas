@@ -1,0 +1,59 @@
+{
+  "cafeId": "drops-huashan-rd-376",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "84d2e1bf1a95",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFM9K9L8/comment/7f51ae685464922c3805cbf09e60733d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFM9K9L8/comment/content_media_external_file_100012799_1769914140565_62023589.jpg",
+    "https://store.is.autonavi.com/showpic/0af08e39d658a894ee5d7254173c2c72"
+  ],
+  "photoKinds": [
+    "food",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "有抹茶千层蛋糕，表面撒抹茶粉",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拉花咖啡，杯中是拿铁艺术",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有玻璃门和台阶，内有沙发座",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内桌为水磨石台面，有木质椅子",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外是街道，无户外座位",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有印品牌名的纸巾，未见菜单",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:44Z"
+}

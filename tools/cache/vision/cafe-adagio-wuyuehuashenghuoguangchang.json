@@ -1,0 +1,49 @@
+{
+  "cafeId": "cafe-adagio-wuyuehuashenghuoguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "59af807b710d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/306846f56ffe7998297d86999ae29438"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街商铺，有玻璃门和大面积窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺招牌为'MAY FLOWER'及中文'五月花生活'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有台阶和种植箱，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃可见店内有货架和商品陈列",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "建筑为现代风格，外立面为石材与玻璃组合",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:26Z"
+}

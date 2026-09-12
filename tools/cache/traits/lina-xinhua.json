@@ -1,0 +1,34 @@
+{
+ "cafeId": "lina-xinhua",
+ "model": "qwen-max",
+ "inputDigest": "f5a44f54fe63",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "安静的老租界路上的露台座位",
+    "en": "Terrace seating on a quiet old concession road",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "安静的老租界路",
+    "en": "Quiet old concession road"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "适合久坐的露台",
+    "en": "Comfortable terrace for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:28Z"
+}

@@ -1,0 +1,55 @@
+{
+  "cafeId": "mini-co-shanghaikejijingcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "178aaa5c4b73",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/bea90ae2497061b3b0e55864f52bd20a"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为小型吧台式空间",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有咖啡设备和纸箱",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见磨豆机和咖啡机等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台前无明显座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内灯光照明，无自然采光可见",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方标有MINI-CO小咖咖啡字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:15:27Z"
+}

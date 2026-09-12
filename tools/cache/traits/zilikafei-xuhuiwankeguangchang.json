@@ -1,0 +1,74 @@
+{
+  "cafeId": "zilikafei-xuhuiwankeguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ed67057e4f68",
+  "raw": {
+    "headline": {
+      "zh": "落地窗配绿植的明亮社区咖啡",
+      "en": "Bright neighborhood cafe with floor-to-ceiling windows and greenery"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "大面积落地窗，可见室外绿植",
+        "en": "Large floor-to-ceiling windows with outdoor greenery visible",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内采光良好",
+        "en": "Well-lit interior",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有多张长方形木桌",
+        "en": "Multiple rectangular wooden tables indoors",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式、手打柠檬茶、黄油",
+        "en": "Serves iced Americano, hand-beaten lemon tea, and butter",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日10:00-18:00",
+        "en": "Open daily from 10:00 to 18:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有木桌但无证据支持办公",
+        "en": "Wooden tables present, no evidence of work setup"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "采光好、有绿植、多木桌适合久坐",
+        "en": "Good light, greenery view, multiple tables support lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:59Z"
+}

@@ -1,0 +1,45 @@
+{
+ "cafeId": "rusty-jiangning",
+ "model": "qwen-max",
+ "inputDigest": "941aaa5fdee8",
+ "raw": {
+  "headline": {
+   "zh": "小众烘焙，特调锈橙发酵滤泡咖啡",
+   "en": "Unique roasts, rust-orange fermented filter"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "店内有自烘咖啡豆",
+    "en": "In-house roasted coffee beans",
+    "from": 9
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为锈橙发酵滤泡咖啡",
+    "en": "Signature drink: rust-orange fermented filter",
+    "from": 10
+   },
+   {
+    "kind": "view",
+    "zh": "临街落地窗视野开阔",
+    "en": "Street view with large windows",
+    "from": 1,
+    "} 4": "axisHints",
+    "focus": null,
+    "energy": null,
+    "linger": null,
+    "adventure": null
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 9,
+    "zh": "自烘咖啡与特色饮品",
+    "en": "In-house roast, unique drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:07Z"
+}

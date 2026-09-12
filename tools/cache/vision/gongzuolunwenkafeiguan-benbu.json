@@ -1,0 +1,65 @@
+{
+  "cafeId": "gongzuolunwenkafeiguan-benbu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dba34d1ce304",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/41b3fad0600a2b420000002300738749?type=pic",
+    "https://store.is.autonavi.com/showpic/364a91fd6bd55769942f27737eeb39d2",
+    "https://aos-comment.amap.com/B0FFGYVQJK/comment/4523320535ab6a4f545f96f94fb698e5_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有沙发卡座和桌椅，座位数量中等。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一名顾客在使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有蓝底白字招牌，写有“WORKING PAPER CAFÉ & BAKERY LAB”。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙上有艺术画作展示，包括人物肖像和抽象作品。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大型金属雕塑装饰品。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有书架，摆放着书籍和杂志。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口摆放着多盆绿植。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:50Z"
+}

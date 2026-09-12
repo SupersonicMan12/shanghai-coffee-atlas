@@ -1,0 +1,65 @@
+{
+  "cafeId": "chilly-bean-gubei",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "2cf69b704b9a",
+  "raw": {
+    "headline": {
+      "zh": "意式咖啡冰淇淋限定店",
+      "en": "Espresso gelato pop-up"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为illy咖啡基底的意式咖啡冰淇淋与咖啡云霜",
+        "en": "Serves espresso gelato and coffee cloud using illy beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用illy经典拼配，含9种100%阿拉比卡豆",
+        "en": "Uses illy’s 9-bean 100% Arabica blend",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:30-18:00，每日开放",
+        "en": "Open daily 10:30–18:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "亚洲首家意大利咖啡美食烘焙吧",
+        "en": "Asia’s first Italian coffee bakery bar",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "提供咖啡冰淇淋等创新饮品",
+        "en": "Offers coffee gelato creations"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "店内未见座位区域",
+        "en": "No seating visible"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:37Z"
+}

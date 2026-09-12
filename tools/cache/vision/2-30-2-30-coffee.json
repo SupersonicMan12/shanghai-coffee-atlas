@@ -1,0 +1,71 @@
+{
+  "cafeId": "2-30-2-30-coffee",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6ed71b912053",
+  "photos": [
+    "https://aos-comment.amap.com/B0HULH5L1W/comment/57111C94_B1D3_4F12_B289_9F54AC4F3BD2_L0_001_1500_2000_1742630294031_42957424.jpg",
+    "http://store.is.autonavi.com/showpic/cde1185dc583d19baf2bb09fc476b818",
+    "https://store.is.autonavi.com/showpic/7f7e6d879e78549d83b018fdf233b9fa"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量座位，空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡馆临街，有落地玻璃窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见饮品菜单，包含多种冷热饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有烘焙机和手冲设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有植物装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内有顾客在排队点单",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有行人经过，位于街道旁",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "纸杯内为浅色饮品，可能是拿铁或美式",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:17:26Z"
+}

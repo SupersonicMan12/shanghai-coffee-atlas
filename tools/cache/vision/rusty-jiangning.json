@@ -1,0 +1,71 @@
+{
+  "cafeId": "rusty-jiangning",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "9007ba695088",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/302cc2344471829ae9af68a4e2cd5abd",
+    "https://store.is.autonavi.com/showpic/cb09adea8532e79b0000002546142104?type=pic",
+    "https://aos-comment.amap.com/B0LKCH1LCB/comment/239B3B5F_37B9_4DB8_AB62_0A99589DAE58_L0_001_1500_200_1767586049323_97738192.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于江宁路1117号，临街玻璃门+大面积落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "招牌为米色底板，红色手写体'Rusty'加中文'锈'，夜间可发光",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见吧台区域，有咖啡机、磨豆机等设备轮廓",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "玻璃窗内反射出一棵大树枝干，店外人行道有行道树",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "左侧墙上有绿色门牌'1117 江宁路'，右侧立柱贴有'电车114'",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内右侧有黄色霓虹小人灯饰，吧台前贴有红底白字告示牌",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃可见一人坐在靠内侧桌边，背对镜头",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "无室外座位可见；店门口为铺砖人行道，无桌椅设置",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:07Z"
+}

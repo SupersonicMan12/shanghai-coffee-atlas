@@ -1,0 +1,71 @@
+{
+  "cafeId": "aokka-expo",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "231a39d8c7ee",
+  "photos": [
+    "https://aos-comment.amap.com/B0KK1AVIVY/comment/4F1D3871_3758_430C_AE3A_05DD088CD10E_L0_001_1500_200_1769793483208_20334048.jpg",
+    "https://aos-comment.amap.com/B0KK1AVIVY/comment/2025-10-10-14-04-09%2B080FB3C8-8AC5-4C1A-B35A-8D6ABF8CD0F_1760076253174_09354063.jpg",
+    "https://aos-comment.amap.com/B0KK1AVIVY/comment/content_media_external_images_media_1000034531_ss__1739609065526_31031826.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店招为'AOKKA'，绿色门头，临街玻璃幕墙，门外设三块立式促销海报。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室外有4组绿色软垫折叠椅+小桌，共约8个座位，地面为灰色地砖。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见手冲吧台：含手冲壶、滤杯、电子秤、玻璃分享壶、不锈钢水壶各1。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内设长条卡座（带黑色软垫）及多张木质高脚桌+金属凳，座位总数约15–20个。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "海报明确标出两款饮品：¥32 米乳红枣拿铁、¥28 红枣龙眼拿铁；另推‘买2送1’活动。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内墙面有中英文介绍‘AYERS ROCK’（艾尔斯岩石），指向一扇门；货架陈列AOKKA咖啡豆盒与器具。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "室内天花板裸露金属框架+轨道射灯，地面为水磨石；无明显书架或宠物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一名顾客坐高脚桌前看手机，未见笔记本电脑；店内无烘焙机或虹吸壶。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:39Z"
+}

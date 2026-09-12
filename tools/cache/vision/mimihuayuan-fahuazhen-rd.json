@@ -1,0 +1,71 @@
+{
+  "cafeId": "mimihuayuan-fahuazhen-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2d13ce9cfedf",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/22f264542bbd07db92ea6fa92019e8ac",
+    "https://aos-comment.amap.com/B00156E56I/comment/8260dbfa818892e420d0e21107acdf86_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B00156E56I/comment/8620d6e6a5e11ba9a989de955cfd11de_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "第一张为老式Remington打字机特写，非咖啡馆场景，可能为装饰或误传图片",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张桌上有白葡萄酒杯、水杯、奶油蘑菇汤、面包篮、蕾丝桌布与花瓶",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张为俯拍餐桌：两份奶油蘑菇汤、意面、牛排拼盘、冷切拼盘、烩饭、创意甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌布为白色蕾丝材质，餐具含银叉、玻璃杯、红白格纸衬面包篮",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见一束绿植插在透明玻璃花瓶中，置于餐桌后方",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "无吧台、磨豆机、手冲架、虹吸壶、烘焙机等咖啡专业设备出现",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见任何人、电脑、菜单、价格标签或豆子产地信息",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "照片中无窗、无室外座、无街道/河/树等外部景致可见",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:57Z"
+}

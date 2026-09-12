@@ -1,0 +1,71 @@
+{
+  "cafeId": "xijiaobinguankaba-chengjiaqiaojiedaohongqiao-rd-",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ac709f3e377b",
+  "raw": {
+    "headline": {
+      "zh": "临水庭院咖啡馆",
+      "en": "Waterside courtyard café"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "室外临水，绿树环绕",
+        "en": "Outdoor seating by water, shaded by trees",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位，含庭院休闲区",
+        "en": "Indoor and outdoor seating including garden area",
+        "from": [
+          1,
+          2,
+          8,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供蛋糕、水果拼盘等甜点",
+        "en": "Serves cakes and fruit platters",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品含拿铁和冰水",
+        "en": "Drinks include lattes and iced water",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–24:00营业",
+        "en": "Open daily 8am–midnight",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          1,
+          7,
+          8
+        ],
+        "zh": "有庭院休闲座位适合久坐",
+        "en": "Garden seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:31Z"
+}

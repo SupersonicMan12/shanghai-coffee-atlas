@@ -1,0 +1,71 @@
+{
+  "cafeId": "hefa-wuyi",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "17eaac89834a",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJEQ21Y/comment/a840e41565bfed2a38f2d2ce892dcdae_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFJEQ21Y/comment/255fc408af4a0063d4b6caa64c2f5a6d_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/2c7ba67ba37feb3373099317be44e53e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店招为发光灯箱，标有“HEFA COFFEE”及中文“咖啡喝伐”，位于胶州路216号门牌旁。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口为窄长通道式吧台，木质吧台面，后方可见咖啡机、磨豆机、手冲壶等设备。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中墙上层板菜单显示：AMERICANO 15、FLATWHITE 20、LATTE 20、CAPPUCCINO 20、MOCHA 20；下方有字母牌拼出“LLYOUNEEDISLOVE&COFFEE”。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方有立式梯子、落地扇、监控摄像头，空间纵深较窄，墙面为水泥质感。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图显示另一角度店内：吧台区有两台黑色磨豆机、意式咖啡机；后方有4个高脚凳座位，无靠背。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图中可见悬挂式LED灯、灰色墙面、深色地砖，天花板有空调出风口和吊灯线槽。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图吧台上有Marshall音箱、水瓶、纸巾筒、红色菜单立牌（价格部分模糊），无人使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图墙上有圆形挂钟（指针约指向10:10），无明显自然采光，依赖顶部荧光灯照明。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:41Z"
+}

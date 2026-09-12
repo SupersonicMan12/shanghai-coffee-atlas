@@ -1,0 +1,64 @@
+{
+ "cafeId": "aunn-cafe",
+ "model": "qwen-max",
+ "inputDigest": "4b617a6686b2",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "300平四层空间，只设十几桌座",
+    "en": "300 sqm, 4 floors, only a dozen seats",
+    "from": 3
+   },
+   {
+    "kind": "light|view",
+    "zh": "大面积落地窗，挑高的街边露台",
+    "en": "Large windows, elevated street-side terrace",
+    "from": 4
+   },
+   {
+    "kind": "beans",
+    "zh": "使用最高端的咖啡设备与机器",
+    "en": "Uses top-tier coffee equipment",
+    "from": 6
+   },
+   {
+    "kind": "beans",
+    "zh": "哈特曼庄园Baby瑰夏SOE咖啡豆",
+    "en": "Hartmann Estate Baby Gesha SOE beans",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间8:00–22:00",
+    "en": "Open 8:00-22:00",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 9,
+    "zh": "静安寺旁安静的工作室",
+    "en": "Quiet workspace near Jing'an Temple"
+   },
+   "linger": {
+    "value": 80,
+    "from": 3,
+    "zh": "宽敞空间适合久坐",
+    "en": "Spacious, good for long stays"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 7,
+    "zh": "提供特色精品咖啡豆",
+    "en": "Offers specialty coffee beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:23Z"
+}

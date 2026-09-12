@@ -1,0 +1,80 @@
+{
+  "cafeId": "xukafei-laohumin-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "26d7fcb2213e",
+  "raw": {
+    "headline": {
+      "zh": "手冲台+吧台紧凑空间",
+      "en": "Hand-brew station and compact bar seating"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "店内有手冲台和磨豆机等专业器具",
+        "en": "Features a pour-over station and coffee grinders",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单提供奶泡丰富的拿铁",
+        "en": "Serves lattes with abundant milk foam",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供芝士蛋糕",
+        "en": "Offers cheesecake",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间紧凑，以吧台为主",
+        "en": "Compact interior centered on a bar counter",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "可见落地窗，采光良好",
+        "en": "Large windows provide ample natural light",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "吧台为主，空间紧凑",
+        "en": "Bar-focused, compact space"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "吧台为主，未见沙发或长坐位",
+        "en": "Bar seating only, no lounge furniture"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "配备手冲台和磨豆机",
+        "en": "Equipped with pour-over station and grinder"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:49Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "mr-bond-coffee-shenwang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f496cc226876",
+  "raw": {
+    "headline": {
+      "zh": "现萃咖啡果皮咖啡首创者",
+      "en": "China's first coffee-cherry brew"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供现萃云南咖啡果皮咖啡",
+        "en": "Serves coffee-cherry extract from Yunnan",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "吐司丁15元/杯，熏鸡肉三明治24元/个",
+        "en": "Toast bits ¥15, chicken sandwich ¥24",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间7:00-21:00",
+        "en": "Open daily 7am–9pm",
+        "from": [
+          10,
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "旺旺集团旗下，1998年创立",
+        "en": "Founded in 1998 by Want Want Group",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗，店外铺绿色地毯",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          7,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "使用咖啡果皮现萃工艺",
+        "en": "Uses coffee-cherry extraction"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:10Z"
+}

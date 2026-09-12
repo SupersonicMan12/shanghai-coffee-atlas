@@ -1,0 +1,72 @@
+{
+ "cafeId": "algebraist-shanghaishangjiazhongxin",
+ "model": "qwen-max",
+ "inputDigest": "c657734c899c",
+ "raw": {
+  "headline": {
+   "zh": "以数学方式演算优质咖啡，独特体验",
+   "en": "Unique coffee crafted with mathematical precision"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品包括kiri法酪拿铁和重瓣玫瑰布列夫",
+    "en": "Signature drinks: kiri cheese latte, rose breve",
+    "from": 7
+   },
+   {
+    "kind": "seating",
+    "zh": "约10张木质圆桌配同材质矮凳",
+    "en": "About 10 wooden round tables with low stools",
+    "from": 2
+   },
+   {
+    "kind": "beans",
+    "zh": "世界各地甄选咖啡豆",
+    "en": "Select beans from around the world",
+    "from": 8
+   },
+   {
+    "kind": "price",
+    "zh": "价格区间20-48元，中高价",
+    "en": "Price range 20-48 RMB, mid to high",
+    "from": 9
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间09:30-17:00，覆盖白领午休高峰",
+    "en": "Open 09:30-17:00, busy at lunch",
+    "from": 11,
+    "'13": 13
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 2,
+    "zh": "有桌椅但无明确办公信息",
+    "en": "Has seating, no clear work info"
+   },
+   "energy": {
+    "value": 70,
+    "from": 11,
+    "zh": "中午时段客流密集",
+    "en": "Busy during lunch"
+   },
+   "linger": {
+    "value": 40,
+    "from": 2,
+    "zh": "提供座位但数量有限",
+    "en": "Limited seating available"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 7,
+    "8": 8,
+    "zh": "特色饮品与甄选咖啡豆",
+    "en": "Special drinks and select beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:26Z"
+}

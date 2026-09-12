@@ -1,0 +1,28 @@
+{
+ "cafeId": "nectar-jiangsu-rd",
+ "model": "qwen-max",
+ "inputDigest": "a6dad078157e",
+ "raw": {
+  "headline": {
+   "zh": "招牌饮品甜如糖浆，适合甜品爱好者",
+   "en": "Dessert-sweet filter, perfect for sweet tooths"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "特色饮品采用Nectar处理法，甜如糖浆",
+    "en": "Nectar-process filter, dessert-sweet",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "追求极致的甜味处理方法",
+    "en": "Chases the sweetest end"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:16Z"
+}

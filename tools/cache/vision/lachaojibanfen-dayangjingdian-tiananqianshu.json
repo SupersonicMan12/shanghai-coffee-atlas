@@ -1,0 +1,65 @@
+{
+  "cafeId": "lachaojibanfen-dayangjingdian-tiananqianshu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7f2e60f47c76",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f3edb7ea680389266c063a18c8e48bef",
+    "https://store.is.autonavi.com/showpic/79209f45444ac0150000003261234076?type=pic",
+    "https://store.is.autonavi.com/showpic/7e3b5a6ba49e06850000003261224252?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有自助续粉和茶水服务",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供辣味拌粉和汤面类食物",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有鱼块配菜，表面有辣椒和葱花",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "汤面中有豆芽、青菜、豆粒和面条",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于商场内，门口可见其他餐饮摊位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有桌椅，可堂食",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单上显示部分菜品价格为14元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:30Z"
+}

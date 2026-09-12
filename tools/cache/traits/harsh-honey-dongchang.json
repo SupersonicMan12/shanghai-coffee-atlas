@@ -1,0 +1,54 @@
+{
+ "cafeId": "harsh-honey-dongchang",
+ "model": "qwen-max",
+ "inputDigest": "e113441fb36f",
+ "raw": {
+  "headline": {
+   "zh": "全蜜处理咖啡，甜蜜选择",
+   "en": "All honey-processed coffee, sweet choice"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "吧台陈列多袋Felix品牌的咖啡豆",
+    "en": "Bar displays multiple bags of Felix coffee beans",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为蜜处理Dirty咖啡",
+    "en": "Signature drink is honey-processed dirty coffee",
+    "from": 11
+   },
+   {
+    "kind": "seating",
+    "zh": "临街设3把折叠椅供室外坐",
+    "en": "3 folding chairs outside for street seating",
+    "from": 1,
+    "></zw>6},   <!-- 注意这里有个错误的标签，需要删除或修正。正确的应该是 ": ")"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 6,
+    "zh": "无人使用笔记本电脑",
+    "en": "No one uses laptops"
+   },
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "</zw>6, ": ")"
+   },
+   "zh": "站喝小店，提供少量室外座位",
+   "en": "Standing bar with limited outdoor seating"
+  },
+  "adventure": {
+   "value": 80,
+   "from": 10,
+   "zh": "所有咖啡都采用蜜处理工艺",
+   "en": "All coffees are honey-processed"
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:00Z"
+}

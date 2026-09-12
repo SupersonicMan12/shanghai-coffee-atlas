@@ -1,0 +1,67 @@
+{
+  "cafeId": "lintaihongbei-xiuyan-rd-1181",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7e26c237e280",
+  "raw": {
+    "headline": {
+      "zh": "临街烘焙咖啡馆带室外座",
+      "en": "Bakery café with street-side seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有临街室外座位",
+        "en": "Outdoor seating along the street",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供玛德琳、燕麦和芝麻饼干",
+        "en": "Serves madeleines, oat and sesame cookies",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "蛋糕含覆盆子、巧克力夹心与坚果",
+        "en": "Cakes feature raspberry, chocolate and nuts",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应可颂和贝果类烘焙品",
+        "en": "Offers croissants and bagels",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 9 PM",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          8,
+          9
+        ],
+        "zh": "有室外座和落地窗",
+        "en": "Outdoor seats and large windows"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:39Z"
+}

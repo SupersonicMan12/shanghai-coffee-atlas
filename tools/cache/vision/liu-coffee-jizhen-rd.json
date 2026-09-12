@@ -1,0 +1,71 @@
+{
+  "cafeId": "liu-coffee-jizhen-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "85533f44485a",
+  "photos": [
+    "https://aos-comment.amap.com/B0HRC5LR8K/comment/content_media_external_file_1000026190_ss__1763636924545_99598944.jpg",
+    "https://store.is.autonavi.com/showpic/a7b78e6f5903eecc0000001497772243?type=pic",
+    "http://store.is.autonavi.com/showpic/34e1e068e6d7ed2709a68f73939080bb"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于吉镇路76号，临街有遮阳棚和玻璃门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有室外座位，摆放折叠椅和木凳",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见两台Fiorenzato磨豆机，为专业咖啡设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有绿植装饰，右侧置物架上有多盆植物",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有“优选咖啡馆”证书，获2025年活动认证",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台区域，陈列咖啡器具与菜单板",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店门口地面有欢迎地垫，写有‘HELLO’字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门玻璃上有营业时间标识：周一至周日07:30起",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:23:46Z"
+}

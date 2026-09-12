@@ -1,0 +1,71 @@
+{
+  "cafeId": "metal-hands-xiangyang-s-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1d610f2c09f8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e6e54ba70f8dcf640000003138988144?type=pic",
+    "https://store.is.autonavi.com/showpic/056a0534a839e58b0000002429294573?type=pic",
+    "https://store.is.autonavi.com/showpic/367e6ceff1d807690000002884868953?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台前有3盏大型黄色球形吊灯，下方是咖啡机和操作区。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方货架陈列着多排白色杯具和深色玻璃瓶。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内左侧墙绘有树木图案，摆放1张小木桌和2把椅子。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台内侧有至少2名员工在操作，一人在使用平板电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台下方有多层置物架，展示保温杯、包装袋等商品。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上有小型盆栽和蓝色兰花，墙上挂有装饰性植物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "入口处为木质门框，店内地面为深色木地板。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板为浅色，装有多个嵌入式射灯提供照明。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:25Z"
+}

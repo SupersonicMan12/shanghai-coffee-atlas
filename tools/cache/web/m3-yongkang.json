@@ -1,0 +1,112 @@
+{
+  "facts": [
+    {
+      "text": "店内展陈的咖啡豆均为生豆，按浅、中、深三种烘豆程度现烘",
+      "kind": "beans",
+      "quote": "店内展陈的咖啡豆均为生豆,根据浅、中、深三种烘豆程度,耗时各不相同。",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405235727788540318",
+      "site": "无"
+    },
+    {
+      "text": "提供50+款SOE豆子，支持现烘，顾客可观摩甚至参与烘豆过程",
+      "kind": "beans",
+      "quote": "另一角是烘豆工坊,提供50+款SOE豆子。...顾客可以观摩甚至参与烘豆过程",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site": "搜狐网"
+    },
+    {
+      "text": "招牌Dirty使用-83.9度c冰博客牛奶，有香草荚等风味搭配",
+      "kind": "drinks",
+      "quote": "我選了香草莢風味冰博客牛奶，每一種風味搭配的都不一樣",
+      "url": "https://mp.ofweek.com/Internet/a656714908597",
+      "site": "OFweek维科网"
+    },
+    {
+      "text": "面包采用进口面粉，凌晨2点手工制作，共研发40多款",
+      "kind": "food",
+      "quote": "店内面包采用进口面粉,凌晨2点就要开始手工制作。我们一共研发了40多款",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405235727788540318",
+      "site": "无"
+    },
+    {
+      "text": "店铺面积约450平方米，一层为社区属性‘高效驿站’，二层设超长一体吧台与6头Kees意式咖啡机",
+      "kind": "space",
+      "quote": "店铺面积约450平方米,集咖啡、烘焙工坊以及周边于一身...二层是功能区域",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site": "搜狐网"
+    },
+    {
+      "text": "宠物友善，提供免费Wi-Fi和装置充电",
+      "kind": "people",
+      "quote": "寵物友善有泊車位免費Wi-Fi提供裝置充電",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/cubic3-coffee-132084090/",
+      "site": "CUBIC3三立方咖啡（凌空SOHO店） (上海虹橋地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "品牌2021年于上海创立，用数学(m)³符号表达‘小众聚集，发挥大众力量’",
+      "kind": "story",
+      "quote": "CUBIC3三立方是一家主打低价精品咖啡连锁品牌,2021年于上海创立。品牌用数学中的(m)3作为LOGO符号",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site": "搜狐网"
+    },
+    {
+      "text": "基础款美式、拿铁和烘焙类产品可在一层点单，进阶豆品需至二层点单",
+      "kind": "drinks",
+      "quote": "基础款的美式、拿铁和烘焙类产品可以在这一层进行点单。如果需要品尝进阶的咖啡豆,可以至这里点单",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "iziRetail品牌沙龙:成立4年后,主打低价精品咖啡的「CUBIC3三立方」凭借非标店吸引更多咖啡爱好者关注 ",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "全国首店+1!来愚园路喫咖啡～",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405235727788540318",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "粗粝空间中的精密日常，三立方愚园路店 - 品牌星球Brandstar",
+      "url": "https://www.brandstar.com.cn/news/8030",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "三立方咖啡加盟",
+      "url": "https://www.xiangmu.com/xm/slfkf/company/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "三立方愚园路店，上海/ 具场| 谷德设计网",
+      "url": "https://www.gooood.cn/cubic-3-yuyuan-road-by-juchang.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "CUBIC3三立方咖啡（凌空SOHO店） (上海虹橋地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/cubic3-coffee-132084090/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "CUBIC3 COFFEE三立方咖啡（黃浦綠地繽紛城店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136331781/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "三立方咖啡，锚定“差异化” - 维科号",
+      "url": "https://mp.ofweek.com/Internet/a656714908597",
+      "site_name": "OFweek维科网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:21Z"
+}

@@ -1,0 +1,53 @@
+{
+  "cafeId": "tap-that-ruijiner-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "495c239efd21",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/6b6ba33dd2d1cab2dbc39d719db00b0f",
+    "http://store.is.autonavi.com/showpic/0902654fc724b268c044244d46c01c66",
+    "http://store.is.autonavi.com/showpic/e0a1622b513ad80d90f05f44047db60a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街商铺，门头为“Tap That”",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡饮品，杯中含冰块和分层液体",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拿铁类饮品，表面有拉花图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺旁有CoCo奶茶店，处于同一排沿街商铺",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面入口处有玻璃门和遮阳棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:01Z"
+}

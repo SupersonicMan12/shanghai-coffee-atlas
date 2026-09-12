@@ -1,0 +1,64 @@
+{
+  "cafeId": "we-lucky-coffee-yuxiu-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3142dd1f2399",
+  "raw": {
+    "headline": {
+      "zh": "全店饮品5元起14元封顶",
+      "en": "Drinks from ¥5, capped at ¥14"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "全店饮品5元起步、14元封顶",
+        "en": "All drinks range from ¥5 to ¥14",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自巴西等四大产区阿拉比卡豆",
+        "en": "Arabica beans from four major origins",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量较多",
+        "en": "Multiple seats available inside",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00-21:00",
+        "en": "Open daily 09:00–21:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "约20平方米小店，装修简洁",
+        "en": "Compact, no-frills space"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          12
+        ],
+        "zh": "工厂烘焙豆配半自动设备",
+        "en": "Factory-roasted beans, semi-auto"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:01Z"
+}

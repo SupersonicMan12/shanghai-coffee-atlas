@@ -1,0 +1,46 @@
+{
+ "cafeId": "lgmy-wuyuan",
+ "model": "qwen-max",
+ "inputDigest": "222c2ab898bc",
+ "raw": {
+  "headline": {
+   "zh": "画廊与咖啡结合，静谧中品味艺术",
+   "en": "Gallery meets café, savor art in silence"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "一半是展览空间，一半是咖啡馆",
+    "en": "Half exhibition, half café",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "手冲咖啡在艺术品中流淌",
+    "en": "Pour-over among the prints",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 1,
+    "zh": "安静到能听见咖啡机呼吸",
+    "en": "Quiet enough to hear espresso machine"
+   },
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "非常安静的环境",
+    "en": "Very quiet ambiance"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "适合慢慢品尝和欣赏艺术",
+    "en": "Good for lingering and appreciating art"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:28Z"
+}

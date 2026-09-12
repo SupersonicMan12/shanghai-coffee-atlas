@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "店内提供数十种不同产地、风味的咖啡豆选择",
+      "kind": "beans",
+      "quote": "为市民提供数十种不同产地、不同风味的咖啡豆品种",
+      "url": "https://www.163.com/dy/article/J14KFNMR05506BEH.html",
+      "site": "网易"
+    },
+    {
+      "text": "招牌饮品「初来乍到」冷萃咖啡，含山楂微酸",
+      "kind": "drinks",
+      "quote": "名为'初来乍到'的冷萃咖啡最受爱好者的欢迎",
+      "url": "https://www.163.com/dy/article/J14KFNMR05506BEH.html",
+      "site": "网易"
+    },
+    {
+      "text": "拥有户外座位和二楼窗台景观位",
+      "kind": "story",
+      "quote": "新店不仅有户外座位,二楼还有窗台景观位",
+      "url": "https://www.thepaper.cn/newsDetail_forward_23433977",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "营业时间为08:00-21:00",
+      "kind": "time",
+      "quote": "地址:中山北路3329号:周一至周日 08:00-21:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_23433977",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店主张张曾经营甜品咖啡店Pipsmile",
+      "kind": "story",
+      "quote": "主理人原先在七宝经营的甜品咖啡店`Pipsmile`我们也曾推荐过",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1Mjk5NzkzNg==&mid=2247885468&idx=1&sn=c9ebc762296be181766dfcc5b8c1e7c5&chksm=e9d39ac3dea413d5d4ad4624617ff8189d338547619efbd71c871d4b2e687634532d8b65945c&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡消暑地图,去喝夏日特调",
+      "url": "https://www.thepaper.cn/newsDetail_forward_23433977",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "【宝藏小店】曹杨新晋“网红”!一家梧桐树下的“议事”咖啡馆→ ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1Mjk5NzkzNg==&mid=2247885468&idx=1&sn=c9ebc762296be181766dfcc5b8c1e7c5&chksm=e9d39ac3dea413d5d4ad4624617ff8189d338547619efbd71c871d4b2e687634532d8b65945c&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "金山这个街区,有点好喝!",
+      "url": "https://baijiahao.baidu.com/s?id=1875623549867341657",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "细品咖香,普陀4家咖啡店亮相上海咖啡文化节",
+      "url": "https://www.163.com/dy/article/J14KFNMR05506BEH.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡新店 又山2.0上线 天凉好个秋🍂 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1293463950",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "上海精品咖啡馆的独特魅力:Fetchin Coffee的体验",
+      "url": "https://baijiahao.baidu.com/s?id=1846801607719322222",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
+      "url": "https://www.jfdaily.com.cn/news/detail?id=1111820",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:04Z"
+}

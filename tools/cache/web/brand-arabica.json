@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品为使用100% Arabica咖啡豆制作的浓缩基底咖啡",
+      "kind": "drinks",
+      "quote": "品牌所使用的咖啡豆,与店名%Arabica一致,选取百分百Arabica咖啡豆",
+      "url": "https://www.sohu.com/a/706382519_121480051",
+      "site": "搜狐"
+    },
+    {
+      "text": "使用全球精选Arabica咖啡豆，店内设烘焙区现烘保新鲜",
+      "kind": "beans",
+      "quote": "拥有自己的烘焙室,保证店内所有咖啡豆皆是亲自烘焙",
+      "url": "https://www.sohu.com/a/706382519_121480051",
+      "site": "搜狐"
+    },
+    {
+      "text": "人均消费约¥42–¥45，属中高端精品咖啡价格带",
+      "kind": "story",
+      "quote": "¥42/人",
+      "url": "https://m.dianping.com/shop/1135085150",
+      "site": "大众点评网"
+    },
+    {
+      "text": "门店形态多为通透明亮、极简设计的站喝+少量堂食空间",
+      "kind": "space",
+      "quote": "通透明亮的店铺...室内空间被一条近5米长的站立吧台分隔",
+      "url": "https://www.sohu.com/a/706382519_121480051",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业时间习惯覆盖日间高频时段，部分门店标注‘营业中’或‘休息中’",
+      "kind": "time",
+      "quote": "营业中",
+      "url": "https://m.dianping.com/shop/1135085150",
+      "site": "大众点评网"
+    },
+    {
+      "text": "品牌源于2013年香港，2014年京都首店成名，2018年进入上海武康路",
+      "kind": "story",
+      "quote": "%arabica...发源于中国香港,崛起于京都.2014年9月,%arabica首家旗舰店在京都开业",
+      "url": "https://mip.chinapp.com/pinpai/355237",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "%ARABICA",
+      "url": "https://mip.chinapp.com/pinpai/355237",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "%ARABICA",
+      "url": "https://www.chinapp.com/pinpai/355237.html",
+      "site_name": "品牌网"
+    },
+    {
+      "index": 3,
+      "title": "% Arabica阿拉比卡咖啡(上海西岸中環店)",
+      "url": "https://m.dianping.com/shop/1135085150",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "% Arabica阿拉比卡咖啡(比斯特上海购物村店)",
+      "url": "https://m.dianping.com/shop/1697610782",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "%Arabica价值定位研究--橙就品牌战略咨询门店设计_Kenneth",
+      "url": "https://www.sohu.com/a/706382519_121480051",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "% Arabica",
+      "url": "https://www.shixiseng.com/com/com_eysgwtnn78rd",
+      "site_name": "实习僧网"
+    },
+    {
+      "index": 7,
+      "title": "全球最大的%Arabica网红咖啡馆竟然不用排队？arabica %上海新店",
+      "url": "https://cno.gafei.com/views-119429",
+      "site_name": "咖啡网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:09Z"
+}

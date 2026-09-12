@@ -1,0 +1,71 @@
+{
+  "cafeId": "bobido-dongxin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ca7e35eb866c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/bfd4001f19e444d4fc39fd5b9838c021",
+    "https://store.is.autonavi.com/showpic/6d1dae0361a011fb0000003429932144?type=pic",
+    "https://aos-comment.amap.com/B0L0SSJ06K/comment/6E1273EC_FCC9_4CC5_A6B3_1EEF8342D72D_L0_001_1498_199_1766762132473_58746241.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层店铺，门头标有BAKERY·CAKE·DESSERT，入口为玻璃双开门。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外左侧墙面有‘PUPPY PARKING 泊宠位’标识及两个红色挂钩。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见玻璃展示柜、木质吧台裙边、桌椅（含米色软垫椅），未见手冲/虹吸/磨豆机等专业器具。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中陈列食物：可颂（顶部放小饼干）、草莓挞、多层蛋糕切片、巧克力布丁杯、奶油杯装甜点、两杯奶盖饮品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图中可见饮品：一杯带紫粉撒料的冰拿铁类饮品、一杯热可可拉花、一杯燕麦奶基底热饮（杯身印店名）、一瓶Chang苏打水、一杯蓝色鸡尾酒式饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "店内墙面挂红色复古拨盘电话，旁有圣诞树与红玫瑰装饰，右侧窗贴卡通面包气球图案。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "门头招牌为蓝色立体字‘BobiDo’，中间嵌入卡通包头人偶；下方黄墙手写体标‘BobiDo Bao & Cafe’。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "无人员入镜，未见书架、植物墙或宠物在场；未见菜单或价格标签。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:19Z"
+}

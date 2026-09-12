@@ -1,0 +1,45 @@
+{
+  "facts": [
+    {
+      "text": "奶味浓郁，口感饱满的蛋汁奶油培根意面",
+      "kind": "food",
+      "quote": "“蛋汁奶油培根意面”，这个小安的最爱",
+      "url": "https://www.sina.cn/news/detail/5302378303588939.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "从银座到神保町:一份写给咖啡爱好者的东京独立咖啡馆地图 ",
+      "url": "https://chihe.sohu.com/a/1073026995_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "兔丁丁儿推荐cafe di wine_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5302378303588939.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "Cafe di Wine (Wukang Building Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118762671705471&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "VINO Cafe & Wine Bar ｜Trip.com 巴衝",
+      "url": "https://my.trip.com/moments/detail/pak-chong-24561-142800093?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "咖啡粉",
+      "url": "https://baike.baidu.com/item/咖啡粉/4567336",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:17Z"
+}

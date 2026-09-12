@@ -1,0 +1,73 @@
+{
+  "cafeId": "cubic3-qibaobaolong",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0dd63414b3be",
+  "raw": {
+    "headline": {
+      "zh": "果味冰美式9.9元起",
+      "en": "Fruity iced Americanos from ¥9.9"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供桃子、橙子、葡萄等果味冰美式",
+        "en": "Offers fruity iced Americanos: peach, orange, grape",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "非咖啡饮品含桃子冰茶和薄荷冰茶",
+        "en": "Non-coffee drinks include peach and mint iced tea",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位较少，为圆形桌椅",
+        "en": "Few seats, all round tables and chairs",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至20:00",
+        "en": "Open daily until 20:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "部分饮品限时优惠价9.9元",
+        "en": "Some drinks on limited-time ¥9.9 deals",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "座位少，不便久坐",
+        "en": "Few seats limit lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "有果味特调但无手冲/自烘",
+        "en": "Fruity twists, no brewing gear shown"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:08Z"
+}

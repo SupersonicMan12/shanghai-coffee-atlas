@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "text": "提供自烘咖啡豆",
+      "kind": "beans",
+      "quote": "白鲸咖啡豆子店...前店后厂模式...",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌饮品是香蕉奶咖",
+      "kind": "drinks",
+      "quote": "香蕉奶咖甜度適中",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/bell-bar-79915313/",
+      "site": "BELL CAFE & BAR鈴鐺酒吧(打浦橋地區, 上海) – 菜單 - Trip.com"
+    },
+    {
+      "text": "空间采用复古工业风设计",
+      "kind": "space",
+      "quote": "環境氛圍特別好，復古工業風的設計",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/bell-bar-79915313/",
+      "site": "BELL CAFE & BAR鈴鐺酒吧(打浦橋地區, 上海) – 菜單 - Trip.com"
+    },
+    {
+      "text": "适合聊天和办公",
+      "kind": "people",
+      "quote": "很適合聊天和辦公",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/bell-bar-79915313/",
+      "site": "BELL CAFE & BAR鈴鐺酒吧(打浦橋地區, 上海) – 菜單 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "指尖绕出锦绣铃铛摇响笑声——“记忆咖啡馆”夏季手作时光",
+      "url": "https://www.shyp.gov.cn/shypq/xwzx-bmdt/20260831/512474.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "BELL CAFE & BAR鈴鐺酒吧(打浦橋地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/bell-bar-79915313/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "BELL CAFE & BAR铃铛酒吧(田子坊店)-图片-shanghai休闲娱乐-第22页",
+      "url": "https://www.dianping.com/shop/k2Kj3pOsKFRkharr/photos?pg=22",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海市(田子坊) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn15622163-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "Bell Cafe&Bar(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d7174512-Reviews-Bell_Bar-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:24Z"
+}

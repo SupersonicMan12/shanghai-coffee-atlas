@@ -1,0 +1,65 @@
+{
+  "cafeId": "huangrandawukafeiguan-longming-rd-577",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a85d1fc25248",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/5ee0d1870632db1a8a0e5d892903679f",
+    "https://store.is.autonavi.com/showpic/58abc5ca68c478cd0000002877652973?type=pic",
+    "http://store.is.autonavi.com/showpic/2a34b402f3aaaf9da1b8c1192c8bfda9"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "咖啡表面有拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于临街位置，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有菜单展示牌",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见桌椅，有少量座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "窗户上贴有新年装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有台阶和绿化带",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺招牌显示为‘恍然大悟’咖啡馆",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:47Z"
+}

@@ -1,0 +1,70 @@
+{
+ "cafeId": "grid-baiyulan",
+ "model": "qwen-max",
+ "inputDigest": "27fad3634aed",
+ "raw": {
+  "headline": {
+   "zh": "高性价比精品咖啡，全系使用优质豆",
+   "en": "Affordable specialty coffee, all with top beans"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "全系使用SCA杯测84分以上单一产地豆",
+    "en": "Uses SCA 84+ single-origin beans",
+    "from": 6
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品包括罗马人美式、咸奶萃等",
+    "en": "Signature drinks like Roman Americano, Salty Milk Brew",
+    "from": 5
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing glass, open view",
+    "from": 4
+   },
+   {
+    "kind": "seating",
+    "zh": "木质椅背与金属椅腿的椅子",
+    "en": "Wood and metal chairs available",
+    "from": 2
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间为周一至周日07:00-20:30",
+    "en": "Open Mon-Sun 07:00-20:30",
+    "from": 14
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 2,
+    "zh": "有室内座位但无办公设施",
+    "en": "Seating but no work facilities"
+   },
+   "energy": {
+    "value": 30,
+    "from": 1,
+    "zh": "吧台后一人操作，环境相对安静",
+    "en": "Quiet, one person behind counter"
+   },
+   "linger": {
+    "value": 50,
+    "from": 2,
+    "zh": "提供非固定式椅子，适合短暂停留",
+    "en": "Non-fixed chairs for short stays"
+   },
+   "adventure": {
+    "value": 20,
+    "from": 3,
+    "zh": "主打微创新经典款，无手冲虹吸",
+    "en": "Classic with minor twists, no pour-over"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:17Z"
+}

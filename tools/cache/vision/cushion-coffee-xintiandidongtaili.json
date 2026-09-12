@@ -1,0 +1,71 @@
+{
+  "cafeId": "cushion-coffee-xintiandidongtaili",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9fdd92cd597a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1c036e6395f54f0b0000006147094342?type=pic",
+    "https://aos-comment.amap.com/B0M6VPHP7F/comment/content_media_external_file_380327_ss__1770366194356_57362272.jpg",
+    "https://store.is.autonavi.com/showpic/aa653caa51581c983ba42f3a1846a1eb"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡制作设备，包括磨豆机和咖啡机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示提供意式咖啡、维也纳奶盖咖啡、无咖啡因饮品及烘焙系列",
+      "kind": "drinks|food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品价格范围为10至24元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见的饮品包括拿铁、美式、抹茶拿铁、气泡美式等",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为吧台式布局，面积中等",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有工作人员操作，环境整洁",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供燕麦拿铁、冰摇黄杏气泡茶等特定饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单中标注部分饮品仅限制作冷饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:15:56Z"
+}

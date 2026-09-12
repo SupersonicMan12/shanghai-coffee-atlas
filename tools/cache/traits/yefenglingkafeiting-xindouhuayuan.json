@@ -1,0 +1,29 @@
+{
+  "cafeId": "yefenglingkafeiting-xindouhuayuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bb8031227a88",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Floor-to-ceiling street-facing windows",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门前有台阶和砖砌矮墙",
+        "en": "Steps and brick low wall at entrance",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:44Z"
+}

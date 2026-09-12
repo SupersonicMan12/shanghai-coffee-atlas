@@ -1,0 +1,65 @@
+{
+  "cafeId": "huoshankafei-jingzuanbohua",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b5ed29dde697",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/55a878b23d6dd39911cc252c7f52c78b",
+    "https://aos-comment.amap.com/B0KBY76A13/comment/C6DC67FF_313D_4D39_A09A_5DF3ABB70504_L0_001_1500_200_1764236653289_02007892.jpg",
+    "http://store.is.autonavi.com/showpic/cf20e6d2fc2a576b54bba52bdce00f28"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台和部分桌椅",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有冰咖啡饮品，装在带竖纹的玻璃杯中",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品放置在印有店名的纸巾上",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有遮阳伞，可能设有室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺外侧有树木，街道环境清晰可见",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有灯光照明，内部空间较明亮",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:53Z"
+}

@@ -1,0 +1,61 @@
+{
+  "cafeId": "as-garden-cafe-lujiazuifucheng-rd-199",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "aca18f653a55",
+  "raw": {
+    "headline": {
+      "zh": "陆家嘴带庭院的咖啡馆",
+      "en": "Courtyard cafe in Lujiazui"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外庭院设多组木桌椅",
+        "en": "Multiple wooden outdoor tables in courtyard",
+        "from": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "庭院地面为木质地板，空间开阔",
+        "en": "Wooden-decked, open courtyard space",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "庭院背景为绿植墙与树木",
+        "en": "Green wall and trees backdrop",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-19:00营业",
+        "en": "Open daily 09:00–19:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "zh": "有庭院座位和鲜花布置",
+        "en": "Courtyard seating with flowers"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:38Z"
+}

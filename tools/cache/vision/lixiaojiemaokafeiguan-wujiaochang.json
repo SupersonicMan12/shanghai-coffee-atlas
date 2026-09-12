@@ -1,0 +1,53 @@
+{
+  "cafeId": "lixiaojiemaokafeiguan-wujiaochang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "503b08563663",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f8489ac564b68cfc1dd933b522e24e9a",
+    "https://aos-comment.amap.com/B0FFHD45IJ/comment/content_media_external_file_1000034792_ss__1769157383512_17656833.jpg",
+    "http://store.is.autonavi.com/showpic/fc2bf4cca4c36cede2b638e42edccf37"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃窗，可见内部陈设。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有猫咪活动，至少两只可见。",
+      "kind": "animals",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供三明治类食物，切块摆放。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，地面为木质地板。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有猫爬架等宠物相关设施。",
+      "kind": "animals",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:36Z"
+}

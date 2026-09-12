@@ -1,0 +1,66 @@
+{
+  "cafeId": "m-stand-shanghaibaolishiguangli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6de7c58ac813",
+  "raw": {
+    "headline": {
+      "zh": "保利时光里工业风咖啡站",
+      "en": "Industrial-style cafe in Baoli"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "户外设黑色长桌，至少坐4人",
+        "en": "Outdoor black table seats at least 4",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地玻璃窗采光良好",
+        "en": "Floor-to-ceiling windows with good light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含油条、香肠",
+        "en": "Recommended dishes include youtiao and sausage",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日早7点开门",
+        "en": "Opens at 7am on weekdays",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "联名套餐46/68元，会员充200赠咖啡",
+        "en": "Collab sets ¥46/68; ¥200 membership gives free coffee",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "有户外座位可短坐",
+        "en": "Outdoor seating for short stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:17Z"
+}

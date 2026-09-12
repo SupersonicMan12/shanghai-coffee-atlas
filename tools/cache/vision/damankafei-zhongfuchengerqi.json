@@ -1,0 +1,72 @@
+{
+  "cafeId": "damankafei-zhongfuchengerqi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5194ff21973b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/14e9f1e4ca6b7b110000003429758083?type=pic",
+    "https://store.is.autonavi.com/showpic/c9eabf63ac36be0b0000001698392133?type=pic",
+    "https://store.is.autonavi.com/showpic/984db474b47c653b0000003429736725?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有绿色桌椅和木质矮凳，座位数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、冷藏柜等设备，有吧台区域",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示架上陈列大量玩偶和周边商品",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供饮品包括拉花拿铁、瓶装饮料和冰饮",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶风味蛋糕及饼干配咖啡",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，环境明亮整洁",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口玻璃上有卡通贴纸装饰，门内可见顾客坐着",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有盆栽植物，位于临街位置",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:30Z"
+}

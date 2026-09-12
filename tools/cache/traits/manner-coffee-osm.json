@@ -1,0 +1,76 @@
+{
+  "cafeId": "manner-coffee-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "dd09c1e8ce5a",
+  "raw": {
+    "headline": {
+      "zh": "2㎡站喝平价精品咖啡",
+      "en": "2㎡ stand-up premium coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店最小仅2平方米，为站立窗口式",
+        "en": "Smallest stores are 2㎡ standing windows",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜",
+        "en": "Known for oat milk latte and iced sweet",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "自建5000平SC认证烘焙工坊",
+        "en": "Owns 5000㎡ SC-certified roastery",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品价格15–25元",
+        "en": "Drinks priced ¥15–25",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2015年发源于静安南阳路2㎡小店",
+        "en": "Founded in 2015 at a 2㎡ Jing’an spot",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1,
+          6,
+          7
+        ],
+        "zh": "站立窗口，不设座位",
+        "en": "Standing-only, no seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "自烘豆+限定意式款",
+        "en": "House-roasted beans, seasonal espresso"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:25Z"
+}

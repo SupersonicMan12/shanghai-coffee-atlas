@@ -1,0 +1,59 @@
+{
+  "cafeId": "the-old-man-and-the-sea-bar-jinhai-rd-18",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "23a3914a5eb3",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d9ed4153cd35405f92b46b01df6e28f1",
+    "https://store.is.autonavi.com/showpic/c92a94b58bc1a9fb78b1210e4c3bba6f",
+    "https://store.is.autonavi.com/showpic/1848bd0a3cbb61b009735cde514891ff"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质门和玻璃窗，可见内部灯光",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有木质招牌，标示为咖啡馆与酒吧",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持一杯含冰块和柠檬片的饮品，杯中液体呈淡黄色",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放两瓶Beluga伏特加酒，一银一透明",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有照片墙装饰，背景为黑白人物照片",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有菜单纸和手机，显示为用餐或饮酒环境",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:05Z"
+}

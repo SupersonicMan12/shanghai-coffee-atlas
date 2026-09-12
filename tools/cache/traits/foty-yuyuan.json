@@ -1,0 +1,38 @@
+{
+ "cafeId": "foty-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "1b59111a19bc",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为年度更新的风味拿铁",
+    "en": "Signature drink is a yearly updated latte",
+    "from": 9,
+    ",": "){"
+   },
+   {
+    "kind": "light",
+    "zh": "整面临街玻璃带来充足自然光",
+    "en": "Full street-facing glass for plenty of natural light",
+    "from": 7
+   },
+   {
+    "kind": "food",
+    "zh": "提供可颂面包和Maison Perrier饮料",
+    "en": "Offers croissants and Maison Perrier drinks",
+    "from": 4,
+    "],": "axisHints",
+    "focus": null,
+    "energy": null,
+    "linger": null,
+    "adventure": null
+   }
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:19:49Z"
+}

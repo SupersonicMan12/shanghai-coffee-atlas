@@ -1,0 +1,65 @@
+{
+  "cafeId": "heipikafei-heipimowan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7239072ab799",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0ZATJ73/comment/8261C56E_203F_4D50_95F2_6F078752F07F_L0_001_1500_200_1764732180386_32773249.jpg",
+    "https://store.is.autonavi.com/showpic/2be209e53150210bf2feac55b2f16ff6",
+    "https://aos-comment.amap.com/B0K0ZATJ73/comment/73D93678_EA81_4D30_A42C_FF489D6E814C_L0_001_2000_150_1756096396928_15916535.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为红砖外墙，入口处有室外座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外座位约4-6个，配有绿色桌椅和盆栽",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见绿植装饰，环境偏现代简约风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品为冰咖啡，装在带盖塑料杯中",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有遮阳伞和大型海报架",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面门口有一只黑白相间的猫",
+      "kind": "animals",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景可见高楼和施工吊车，位于城市街道旁",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:42Z"
+}

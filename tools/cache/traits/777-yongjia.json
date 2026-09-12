@@ -1,0 +1,55 @@
+{
+ "cafeId": "777-yongjia",
+ "model": "qwen-max",
+ "inputDigest": "8d748ea5b959",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临窗可赏河面波光与农田绿意",
+    "en": "Window seats offer river and farmland views",
+    "from": 7
+   },
+   {
+    "kind": "beans",
+    "zh": "咖啡豆来自埃塞俄比亚、洪都拉斯等地",
+    "en": "Beans sourced from Ethiopia, Honduras, etc.",
+    "from": 4
+   },
+   {
+    "kind": "time",
+    "zh": "座位极少，主要为站立式吧台",
+    "en": "Very few seats, mostly standing bar",
+    "from": 3,
+    "{{c1::9}}[[1]](http://){{c2::]}}": "axisHints",
+    "linger": 10
+   },
+   {
+    "kind": "people",
+    "zh": "清晨时段常有护士和跑步者光顾",
+    "en": "Nurses and runners frequent early mornings",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": 3,
+    "zh": "座位少且不适合久坐办公",
+    "en": "Few seats, not for long work"
+   },
+   "energy": {
+    "value": 30,
+    "from": 3,
+    "{{c1::8}}[[1]](http://){{c2::]}}": "linger",
+    "zh": "座位少，主要是站喝",
+    "en": "Few seats, mainly for quick drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:41Z"
+}

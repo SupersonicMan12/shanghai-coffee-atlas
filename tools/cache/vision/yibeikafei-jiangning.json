@@ -1,0 +1,71 @@
+{
+  "cafeId": "yibeikafei-jiangning",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f8db4f2fd1af",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0b74058edba288e29d465b398fbeb049",
+    "https://store.is.autonavi.com/showpic/a1946fd6cfddf16dd9de723b5ddfc534",
+    "https://store.is.autonavi.com/showpic/e8d7d33fcdb7dcc4fd4e3681951abcf9"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺为小型独立咖啡亭，临街设置",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有两把折叠椅和一个储物箱作为室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前有绿植装饰，环境整洁",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "设有玻璃窗，可见内部操作台和咖啡设备",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见手冲咖啡器具和磨豆机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立牌展示菜单，含饮品价格信息",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺位于城市街道旁，背景有高层建筑",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有遮阳棚，提供遮蔽空间",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:19Z"
+}

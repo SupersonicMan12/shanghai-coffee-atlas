@@ -1,0 +1,71 @@
+{
+  "cafeId": "cubic3-shangyuewan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a015b0b484ea",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/73367fb54c562d850000002527144172?type=pic",
+    "https://store.is.autonavi.com/showpic/2110e08f5f5fde12d451fdd649b713ca",
+    "https://aos-comment.amap.com/B0L2BUL806/comment/content_media_external_file_1000077290_ss__1757472989516_49920903.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "位于商场内，木质吧台+浅色胶合板墙面，顶部为条形格栅吊顶",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前立有广告牌：1000mL超大杯果味美式，9.9元起",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方可见3台白色全自动咖啡机（带顶盖），无手冲/虹吸/磨豆机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.92
+    },
+    {
+      "text": "吧台右侧堆放多叠纸杯、杯托及印有'(m)³'标识的黄色/棕色外带箱",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上挂有蓝底白字'(m)³ COFFEE'标识，上方悬挂发光灯箱同款logo",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方有不锈钢制冰机，左侧背景可见另一品牌'板前丼饭'招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见任何座位区域，仅展示服务吧台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台面陈列一排已制作完成的冷饮杯（约8杯），含分层饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:35Z"
+}

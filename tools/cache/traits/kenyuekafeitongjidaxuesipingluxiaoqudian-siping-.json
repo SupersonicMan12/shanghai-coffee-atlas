@@ -1,0 +1,67 @@
+{
+  "cafeId": "kenyuekafeitongjidaxuesipingluxiaoqudian-siping-",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0fdfe2d131d9",
+  "raw": {
+    "headline": {
+      "zh": "临街整面落地窗小店",
+      "en": "Small shop with full street-facing glass wall"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full street-facing glass wall provides open view",
+        "from": [
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内约3-4套白色桌椅",
+        "en": "About 3–4 sets of white tables and chairs indoors",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设遮阳伞，可能提供户外座位",
+        "en": "Umbrellas outdoors suggest outdoor seating available",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应冰咖啡和拿铁类饮品",
+        "en": "Serves iced coffee and latte-style drinks",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-21:00营业",
+        "en": "Open daily from 7:00 to 21:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有室内外座位，数量有限",
+        "en": "Limited indoor/outdoor seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:34Z"
+}

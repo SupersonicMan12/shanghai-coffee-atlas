@@ -1,0 +1,86 @@
+{
+  "facts": [
+    {
+      "text": "宠物友好店，玻璃门上标有“Gentle To Pets”",
+      "kind": "people",
+      "quote": "Gentle Maker还是一家宠物友好店，玻璃门上的“Gentle To Pets”英文很妙",
+      "url": "https://zhuanlan.zhihu.com/p/458228227",
+      "site": "知乎"
+    },
+    {
+      "text": "提供多种烘焙方式和风味特质的咖啡豆",
+      "kind": "beans",
+      "quote": "吸引GentleMaker Café二度参加上海（静安）世界咖啡文化节的， 咖啡豆的烘焙方式和风味特质。",
+      "url": "https://www.sohu.com/a/775969067_120044982",
+      "site": "搜狐"
+    },
+    {
+      "text": "招牌饮品包括具有椰子味特色的咖啡",
+      "kind": "drinks",
+      "quote": "上海｜GentleMaker Café 饮一杯“海边的雪冽图” 纪念一个充满椰子味的夏天",
+      "url": "https://www.sina.cn/news/detail/4678910292525202.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "店内氛围良好，适合喜欢咖啡的人",
+      "kind": "space",
+      "quote": "喜欢这里，因为有氛围，更有懂咖啡、爱咖啡的人",
+      "url": "https://www.sohu.com/a/775969067_120044982",
+      "site": "搜狐"
+    },
+    {
+      "text": "拥有独特的咖啡豆拼配，如温柔拼配",
+      "kind": "beans",
+      "quote": "上海的「 GentleMaker Cafe 」咖啡店氛围怎么样？你最推荐哪些饮品？",
+      "url": "https://www.zhihu.com/question/538267645/answer/3440070433",
+      "site": "知乎"
+    },
+    {
+      "text": "限定版Dirty咖啡带有花香味",
+      "kind": "drinks",
+      "quote": "三个人点了三种不同的咖啡，...但最惊艳我的是朋友那杯限定dirty竟然有花香味",
+      "url": "https://m.dianping.com/discovery/630862698",
+      "site": "「GentleMaker Café」 三个人点了三种 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡，大陆第一 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/458228227",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "喜欢这里，因为有氛围，更有懂咖啡、爱咖啡的人 - 搜狐",
+      "url": "https://www.sohu.com/a/775969067_120044982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "上海｜GentleMaker Café饮一杯“海边的雪冽图”纪念一个充满椰子味的 ...",
+      "url": "https://www.sina.cn/news/detail/4678910292525202.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "上海的「 GentleMaker Cafe 」咖啡店氛围怎么样？你最推荐哪些饮品？",
+      "url": "https://www.zhihu.com/question/538267645/answer/3440070433",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "全静安的咖啡爱好者都在这里了吧……_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "「GentleMaker Café」 三个人点了三种 - 大众点评",
+      "url": "https://m.dianping.com/discovery/630862698",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:11Z"
+}

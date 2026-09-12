@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "提供即磨咖啡",
+      "kind": "beans",
+      "quote": "即磨咖啡",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/city-122671047/",
+      "site": "紐拉咖啡New Life（政民路店） - 上海 - Trip.com"
+    },
+    {
+      "text": "设有露天座位",
+      "kind": "seating",
+      "quote": "露天座位",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/city-122671047/",
+      "site": "紐拉咖啡New Life（政民路店） - 上海 - Trip.com"
+    },
+    {
+      "text": "拥有开放厨房",
+      "kind": "space",
+      "quote": "開放式廚房",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/city-122671047/",
+      "site": "紐拉咖啡New Life（政民路店） - 上海 - Trip.com"
+    },
+    {
+      "text": "提供免费Wi-Fi",
+      "kind": "seating",
+      "quote": "免費Wi-Fi",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/city-122671047/",
+      "site": "紐拉咖啡New Life（政民路店） - 上海 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "紐拉咖啡New Life（政民路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/city-122671047/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡馆的七种滋味:找到匹配你当下心情的城市“样本间” ",
+      "url": "https://news.sohu.com/a/997521029_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "上海新晋“顶流”!-86℃的夏天是怎样的感觉?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTk0NTY2OQ==&mid=2650762198&idx=1&sn=f4d7486d831f5c90d7f9bd75d2298cc7&chksm=899c59e0f8b551416b0dba0a96ad046d8eed600834e38bd0f477dc20bf2f46f97b05d7564890&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
+      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
+      "site_name": "央广网"
+    },
+    {
+      "index": 8,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "能存活三年的，都是精品| 收好这12 家独立咖啡馆，且喝且珍惜- 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/101466650",
+      "site_name": "知乎"
+    },
+    {
+      "index": 10,
+      "title": "神仙打架,咖啡市这名字可不是白叫的",
+      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:09Z"
+}

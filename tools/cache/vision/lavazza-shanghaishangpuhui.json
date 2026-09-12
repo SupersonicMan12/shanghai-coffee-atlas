@@ -1,0 +1,52 @@
+{
+  "cafeId": "lavazza-shanghaishangpuhui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ee66486228a5",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/3fe3bf29e85a8c66634b0b435772627c",
+    "https://store.is.autonavi.com/showpic/ddd509a95a1df3d50000002098314937?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为现代简约风格，以白色和棕色为主。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域可见专业咖啡机和点餐显示屏。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有玻璃门和立式菜单牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内光线明亮，天花板有嵌入式照明。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外可见人行道和绿化带。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:15Z"
+}

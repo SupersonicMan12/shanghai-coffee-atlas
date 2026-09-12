@@ -1,0 +1,80 @@
+{
+  "cafeId": "abby-abbie-huangjinchengdao",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "96141b91abd5",
+  "raw": {
+    "headline": {
+      "zh": "可办公的社区咖啡馆",
+      "en": "A neighborhood cafe for working"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位与木质桌椅",
+        "en": "Outdoor seating with wooden tables and chairs",
+        "from": [
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为污云拿铁",
+        "en": "Signature drink is Dirty Cloud Latte",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手工提拉米苏和多种蛋糕甜点",
+        "en": "Serves handmade tiramisu and various cakes",
+        "from": [
+          3,
+          6,
+          12,
+          17
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为08:00-18:30",
+        "en": "Open daily 08:00–18:30",
+        "from": [
+          14,
+          16
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用电脑办公",
+        "en": "Customers work on laptops here",
+        "from": [
+          2,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          2,
+          10
+        ],
+        "zh": "可见顾客用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "设室外座位适合久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:33Z"
+}

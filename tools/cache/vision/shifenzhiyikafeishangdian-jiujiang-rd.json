@@ -1,0 +1,65 @@
+{
+  "cafeId": "shifenzhiyikafeishangdian-jiujiang-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "293e98384ec2",
+  "photos": [
+    "https://aos-comment.amap.com/B0H39YR24D/comment/08a1e6fdb949df570c57188170eba269_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H39YR24D/comment/292a617c5e6b68bdcddc4b937b2e7cfc_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H39YR24D/comment/2D01127F_11D5_4479_A72A_92394A1342A4_L0_001_1500_2000_1741163057626_68793452.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "提供哥伦比亚蒙特布兰科紫卡杜拉发酵水洗咖啡豆",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有三种不同风味的咖啡样品供试饮",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于九江路501号，临街玻璃门面",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内展示House Blend 2.0意式拼配豆，含巴布亚新几内亚、中国云南等产地豆子",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "House Blend 2.0售价138元/500克",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单标注风味为烤榛子、雪茄、奶油、柑橘",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店招牌为黑色底白字COFFEE，木质双开门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:39Z"
+}

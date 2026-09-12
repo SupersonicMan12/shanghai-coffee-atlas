@@ -1,0 +1,43 @@
+{
+ "cafeId": "621-maotai",
+ "model": "qwen-max",
+ "inputDigest": "5e3f7b0890be",
+ "raw": {
+  "headline": {
+   "zh": "店主选豆，定制三杯体验",
+   "en": "Owner selects beans, bespoke 3-cup journey"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "店主根据你的早晨选择咖啡豆",
+    "en": "Owner picks beans based on your morning",
+    "from": 6
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌：烘焙师的omakase，三杯",
+    "en": "Signature: Roaster’s omakase, three cups",
+    "from": 7
+   },
+   {
+    "kind": "seating",
+    "zh": "适合专注工作，但需询问后选豆",
+    "en": "Suitable for focus, after bean selection",
+    "from": 6,
+    "}, {": ", 2}  ]}, {",
+    "axisHints": "focus",
+    "value": 50
+   },
+   {
+    "  , ": "linger",
+    "value": 80,
+    "from": 1,
+    ">', 2, ": "zh",
+    "适合久坐，有室内桌椅和吧台": ",  ",
+    "en": "Good for lingering, indoor tables and bar"
+   }
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:18:57Z"
+}

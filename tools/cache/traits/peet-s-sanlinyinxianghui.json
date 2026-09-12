@@ -1,0 +1,70 @@
+{
+  "cafeId": "peet-s-sanlinyinxianghui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "19955794fc53",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配室外座",
+      "en": "Street-facing windows with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室内座位区及室外座位",
+        "en": "Indoor and outdoor seating available",
+        "from": [
+          1,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-height street-facing windows, ample light",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元/杯",
+        "en": "Signature Giant Flat White at ¥33",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用21天内新鲜烘焙咖啡豆",
+        "en": "Coffee beans roasted within 21 days",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业07:30–22:00",
+        "en": "Open daily 7:30 AM – 10:00 PM",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          7,
+          12
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:46Z"
+}

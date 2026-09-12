@@ -1,0 +1,71 @@
+{
+  "cafeId": "cuiqu-caoyang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "5e357f7e571b",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/20e699d63c8bce6614c0e8ee2a988c22_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/ecb35741290b1e1f80f86b5748e41cce_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/94c09072241f2103cec1dfb7511ac9ab_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层小店，门头有‘IN CLOUD SHISHA’与‘LANNA COFFEE’双招牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口敞开，可见内部有吧台、1张高脚圆桌、2把黑色高脚椅，地面为灰白格纹瓷砖。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "左侧玻璃门内坐1人戴眼镜、穿黑衣，正低头看手机；店内无电脑使用者可见。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "右侧玻璃门贴有饮品图示菜单，含6款杯装饮料（如粉色/紫色/冰沙类），标有数字编号（如27、32）。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "饮品杯身贴蓝圈白底叶形logo贴纸；杯中为分层液体：下层乳白、上层深褐，疑似dirty或奶咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景墙为木板拼接+深色帘布，墙上喷绘同款蓝圈叶形logo；左侧玻璃写有‘DISCOVER YUNNAN SPECIALTY COFFEE’。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "饮品置于不锈钢吧台面；后方可见双门玻璃冷藏柜，内有瓶装饮品及罐装物。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "店外街道有行道树绿叶，建筑外墙为米色颗粒涂料，二楼窗框为白色铝合金推拉窗。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:27Z"
+}

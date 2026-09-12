@@ -1,0 +1,78 @@
+{
+  "cafeId": "esc-coffee-changshu-rd-159-2",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e1b9fcd4a1ab",
+  "raw": {
+    "headline": {
+      "zh": "阶梯座位配洪都拉斯豆",
+      "en": "Tiered seating with Honduran beans"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "阶梯式座位搭配小圆桌，室外另有4-6人座",
+        "en": "Tiered indoor seating with small round tables; 4–6 outdoor seats",
+        "from": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用洪都拉斯与埃塞俄比亚产地豆",
+        "en": "Beans sourced from Honduras and Ethiopia",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "开放式咖啡制作区，便于与咖啡师交流",
+        "en": "Open bar area for direct interaction with baristas",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，室外座位阳光充足",
+        "en": "Full-height street-facing windows; sunny outdoor seats",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–18:00营业",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          7,
+          9
+        ],
+        "zh": "有室内外多类型座位",
+        "en": "Multiple seating options"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "专业设备配双产地豆",
+        "en": "Pro gear with origin beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:44Z"
+}

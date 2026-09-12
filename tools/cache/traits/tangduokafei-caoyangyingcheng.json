@@ -1,0 +1,53 @@
+{
+  "cafeId": "tangduokafei-caoyangyingcheng",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "74deb4fdd3a8",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "仅设两把高脚椅",
+        "en": "Only two bar stools available",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备多台咖啡机与磨豆机",
+        "en": "Multiple espresso machines and grinders",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜为牛肉",
+        "en": "Beef is the recommended dish",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 21:30",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "座位极少，不便久坐",
+        "en": "Very limited seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:42Z"
+}

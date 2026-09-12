@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "text": "菜单中包含冰香草拿铁、提拉米苏等受欢迎菜式",
+      "kind": "story",
+      "quote": "人气菜式(20) · 冰香草拿铁 · 提拉米苏",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/the-press-20493001/",
+      "site": "THE PRESS（申報館店） (上海人民廣場地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "由复旦大学校友众筹开设",
+      "kind": "story",
+      "quote": "这是一家由复旦大学校友众筹的咖啡馆",
+      "url": "https://www.yicai.com/news/101707825.html",
+      "site": "第一财经"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "申报馆咖啡(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8151953-Reviews-The_Press-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 2,
+      "title": "Restaurant The Press by Inno Coffee（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/the_press_by_inno_coffee",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海南京路旁的百年申报馆，开了一家报纸主题咖啡馆 - 第一财经",
+      "url": "https://www.yicai.com/news/101707825.html",
+      "site_name": "第一财经"
+    },
+    {
+      "index": 4,
+      "title": "THE PRESS（申報館店） (上海人民廣場地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/the-press-20493001/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:38Z"
+}

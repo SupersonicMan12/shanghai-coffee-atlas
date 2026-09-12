@@ -1,0 +1,68 @@
+{
+  "cafeId": "the-riv-cafe-bar-guangfu-west-rd-2690",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "57edec05e0bc",
+  "raw": {
+    "headline": {
+      "zh": "工业风大空间配绿植",
+      "en": "Industrial space with greenery"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "室内宽敞，有裸露管道工业风装修",
+        "en": "Spacious interior with exposed-pipe industrial decor",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗与多窗设计，采光良好视野通透",
+        "en": "Large windows provide ample light and clear views",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位数量多，适合多人用餐",
+        "en": "Plenty of seats, suitable for groups",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "桌上提供盐胡椒等基本调味品",
+        "en": "Basic seasonings like salt and pepper on tables",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-20:00营业",
+        "en": "Open daily 09:00–20:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "座位多且空间宽敞",
+        "en": "Spacious with ample seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:18Z"
+}

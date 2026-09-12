@@ -1,0 +1,66 @@
+{
+  "cafeId": "mini-co-shanghaizhonggengmanyoucheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d4eb77ef7152",
+  "raw": {
+    "headline": {
+      "zh": "商场内无座快咖",
+      "en": "Grab-and-go cafe in mall"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内无明显座位区域",
+        "en": "No visible seating area inside",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰生椰丝绒拿铁等特色饮品",
+        "en": "Serves drinks like Iced Coconut Velvet Latte",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点",
+        "en": "Open until 10 PM",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "有落地窗，采光良好",
+        "en": "Good natural light from floor-to-ceiling windows",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          7
+        ],
+        "zh": "无座位适合外带",
+        "en": "Takeaway only"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有桃味、黄杏等创意饮品",
+        "en": "Offers fruity creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:23Z"
+}

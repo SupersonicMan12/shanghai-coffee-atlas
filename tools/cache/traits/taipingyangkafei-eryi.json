@@ -1,0 +1,65 @@
+{
+  "cafeId": "taipingyangkafei-eryi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "af55f08d994c",
+  "raw": {
+    "headline": {
+      "zh": "可享手调饮品买一送一",
+      "en": "Buy-one-get-one handcrafted drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含酒精的橙风酣梦美式等季节限定手调款",
+        "en": "Seasonal handcrafted drinks like alcoholic Orange Dream Americano",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚SOE日晒耶加雪菲豆",
+        "en": "Uses Ethiopian SOE Yirgacheffe beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设有少量桌椅",
+        "en": "Limited seating inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间通常为09:00–22:00或10:00–21:00",
+        "en": "Usually open 09:00–22:00 or 10:00–21:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "含酒精手调与精品豆",
+        "en": "Alcoholic drinks & specialty beans"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "座位数量有限",
+        "en": "Limited seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:49Z"
+}

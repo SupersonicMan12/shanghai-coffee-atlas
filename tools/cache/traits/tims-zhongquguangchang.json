@@ -1,0 +1,66 @@
+{
+  "cafeId": "tims-zhongquguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "05b2e7064cbf",
+  "raw": {
+    "headline": {
+      "zh": "咖啡暖食全时段",
+      "en": "Coffee and warm food all day"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供贝果、多拿滋、恰巴塔等现做暖食",
+        "en": "Serves freshly made bagels, donuts, and ciabatta",
+        "from": [
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7点开门，每日营业至22点",
+        "en": "Open 7am weekdays, until 10pm daily",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "商场内标准铺位，设靠窗木质桌椅",
+        "en": "Standard mall stall with wooden window seats",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked beans, small-batch roasted",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，采光通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "有桌椅可坐，见书本落叶",
+        "en": "Seating with books and foliage"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:56Z"
+}

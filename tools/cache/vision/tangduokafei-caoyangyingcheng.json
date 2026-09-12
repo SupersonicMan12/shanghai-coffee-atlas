@@ -1,0 +1,59 @@
+{
+  "cafeId": "tangduokafei-caoyangyingcheng",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "28f05cde9d80",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/00b49e163a4ca96d08b33108530ea5f1",
+    "http://store.is.autonavi.com/showpic/b4f9f5d6089b9664a2bb318e28ebc800",
+    "http://store.is.autonavi.com/showpic/eb766d9172d89b0a682c959bd1df8434"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台前有两把高脚椅，无其他座位可见。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方陈列多台咖啡机与磨豆机。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品含珍珠奶茶、分层拿铁、抹茶拉花。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "四杯不同拉花的咖啡，含抹茶与巧克力风味。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有绿色植物墙装饰，非纯白墙。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内无顾客，未见有人使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:38Z"
+}

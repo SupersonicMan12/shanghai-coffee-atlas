@@ -1,0 +1,79 @@
+{
+  "cafeId": "kudikafei-gongheguojishangwuguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7b921cf22657",
+  "raw": {
+    "headline": {
+      "zh": "主打亚洲风味果茶与慕斯饮品",
+      "en": "Asian-inspired fruit teas and mousse drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供杨枝甘露、云顶慕斯等多层配料饮品",
+        "en": "Serves layered drinks like mango pomelo sago and mousse series",
+        "from": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Signature drinks include pandan mango frappe and apple jasmine iced tea",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，三年获IIAC金奖",
+        "en": "Uses 100% Arabica beans, IIAC gold for three years",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至19:00",
+        "en": "Open until 19:00 on weekdays",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐阳光青提系列、流云拿铁、橙C新品",
+        "en": "Featured items: Sunshine Grape series, Cloud Latte, Orange C",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "zh": "多款创意亚洲风味饮品",
+        "en": "Creative Asian-inspired drinks"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          8
+        ],
+        "zh": "为COTTI Express站喝小店",
+        "en": "Standing-bar COTTI Express format"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:13Z"
+}

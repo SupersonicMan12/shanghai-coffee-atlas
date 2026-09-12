@@ -1,0 +1,52 @@
+{
+ "cafeId": "coffee-yunwushan-rd-81",
+ "model": "qwen-max",
+ "inputDigest": "54234f4fdfbb",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "小厅式布局，木质书架与绿植装点",
+    "en": "Small hall layout with wooden shelves and plants",
+    "from": 2
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，室内明亮通透",
+    "en": "Full street-facing glass window, bright interior",
+    "from": 7
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供冰咖啡，分层液体含冰块",
+    "en": "Serves iced coffee with layered liquids and ice",
+    "from": 3
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日08:00-18:00",
+    "en": "Open Mon-Sun 08:00-18:00",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": 4,
+    "zh": "无电脑使用者",
+    "en": "No computer users"
+   },
+   "linger": {
+    "value": 60,
+    "from": 2,
+    "zh": "有舒适的座位和书架",
+    "en": "Comfortable seating and bookshelves"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:25Z"
+}

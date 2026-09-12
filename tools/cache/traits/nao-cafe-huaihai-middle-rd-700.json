@@ -1,0 +1,75 @@
+{
+  "cafeId": "nao-cafe-huaihai-middle-rd-700",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d289a6812afe",
+  "raw": {
+    "headline": {
+      "zh": "近10种精品阿拉比卡豆可选",
+      "en": "Nearly 10 specialty Arabica beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "同期提供近10种精品阿拉比卡咖啡豆",
+        "en": "Offers nearly 10 specialty Arabica beans at once",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "冬季供应扁桃仁奶特调及苹果肉桂拿铁",
+        "en": "Winter drinks include almond milk and apple cinnamon lattes",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供带葡萄蓝莓或焦糖 topping 的蛋糕",
+        "en": "Serves cakes topped with berries or caramel",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "至少有4个木质扶手椅配小圆桌座位",
+        "en": "At least 4 seats with wooden armchairs and small round tables",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至18:00，周末至19:00",
+        "en": "Open until 18:00 weekdays, 19:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          9,
+          10
+        ],
+        "zh": "多款特调与频繁更换豆单",
+        "en": "Rotating beans and unique seasonal drinks"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "有小桌椅但座位数有限",
+        "en": "Limited seating with small tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:38Z"
+}

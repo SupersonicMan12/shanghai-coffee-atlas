@@ -1,0 +1,44 @@
+{
+  "cafeId": "costa-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3e88ef60e522",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "拿铁是Costa Coffee的保留节目",
+        "en": "Latte is Costa Coffee's signature drink",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏和巧克力酥卷倍受欢迎",
+        "en": "Tiramisu and chocolate rolls are popular",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间多为7:30至22:00或23:30",
+        "en": "Usually open 7:30–22:00 or 23:30",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "spend",
+        "zh": "人均消费约32-40元，各店略有差异",
+        "en": "Average spend around ¥32–40, varies by location",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:41:23Z"
+}

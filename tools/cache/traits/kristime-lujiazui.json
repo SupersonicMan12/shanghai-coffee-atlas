@@ -1,0 +1,40 @@
+{
+ "cafeId": "kristime-lujiazui",
+ "model": "qwen-max",
+ "inputDigest": "d18eac8aa39b",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "提供巴斯克芝士蛋糕和美式咖啡",
+    "en": "Serves Basque cheesecake and Americano",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间为周一至周日 09:00-17:00",
+    "en": "Open Mon-Sun 09:00-17:00",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 6,
+    "zh": "适合下午茶歇",
+    "en": "Good for afternoon breaks"
+   },
+   "linger": {
+    "value": 40,
+    "from": 6,
+    "zh": "适合短暂休息",
+    "en": "Short stay friendly"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:46Z"
+}

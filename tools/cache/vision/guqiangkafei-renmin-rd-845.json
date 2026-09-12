@@ -1,0 +1,71 @@
+{
+  "cafeId": "guqiangkafei-renmin-rd-845",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ee66004a5db9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/537c87eaaa2df02d0000002371692089?type=pic",
+    "https://store.is.autonavi.com/showpic/f4e72f640ee15cc10000002371692090?type=pic",
+    "https://store.is.autonavi.com/showpic/5923ca895c502d900000003711890229?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和操作区，提供咖啡与精酿啤酒",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单板显示咖啡、饮品及精酿啤酒价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见手冲咖啡器具与磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上挂有手绘风格装饰画，包含猫与咖啡元素",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外立面为玻璃门，临街可见内部布局",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口有户外桌椅，可坐少量顾客",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内灯光充足，天花板装有吊灯",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上列有美式、拿铁、冰美式等咖啡选项",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:48Z"
+}

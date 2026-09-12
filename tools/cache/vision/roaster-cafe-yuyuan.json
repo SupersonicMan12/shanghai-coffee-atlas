@@ -1,0 +1,71 @@
+{
+  "cafeId": "roaster-cafe-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "624a82782852",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1769052263715_10594955_1769052315265_15273421.jpg",
+    "https://aos-comment.amap.com/B0FFHIGY5F/comment/D3E96872_F199_482C_86C1_4E63DD9AE472_L0_001_1500_200_1761803775183_10482226.jpg",
+    "https://store.is.autonavi.com/showpic/6204f53b15caff0a0000002267738640?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层老建筑，门头有蓝色遮阳棚标'MANNER COFFEE'，非鬍渣渣咖啡",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见黑色磨豆机、意式咖啡机、叠放纸杯与吸管，墙上挂食品安全公示栏",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "柜台有两台金色平板点单设备、手写立牌‘南阳路’及二维码，无完整菜单",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "手持一杯带红色心形盖的MANNER纸杯，杯身印三角形MANNER标志",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外停放多辆电动车与自行车，门前有红白警示杆斜靠",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门牌号为205（南阳路），非愚园东路6号；建筑外墙斑驳，有老旧电表箱与线缆",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无可见座位区域，仅操作吧台；未见顾客或电脑使用",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "无烘焙机、手冲台、虹吸壶等设备；仅见商用意式系统与磨豆机",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:06Z"
+}

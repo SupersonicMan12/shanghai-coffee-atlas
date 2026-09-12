@@ -1,0 +1,71 @@
+{
+  "cafeId": "leach-hongqiao-rd-1468",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b2b24b3e4df9",
+  "photos": [
+    "https://aos-comment.amap.com/B0IB1UH77T/comment/content_media_external_file_370744_ss__1755181701405_70736495.jpg",
+    "https://store.is.autonavi.com/showpic/994bc041510de050dd07f94f3a16d124",
+    "http://store.is.autonavi.com/showpic/23b2bf42eae596e398332cf198b453bf"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街木质建筑，有两扇小窗和一扇玻璃门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳，空间较小",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方可见咖啡机、磨豆机等设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有木质吧台和金属吊灯，装修现代简约",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口停放电动车，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板上写有饮品名称，但价格不可辨",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有椅子和桌子，座位数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:11:59Z"
+}

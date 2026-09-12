@@ -1,0 +1,74 @@
+{
+  "cafeId": "blue-bottle-coffee-jinganjializhongxin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "291cf5dea969",
+  "raw": {
+    "headline": {
+      "zh": "48小时内新鲜烘焙咖啡",
+      "en": "Coffee roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只卖出炉不超过48小时的咖啡",
+        "en": "Sells coffee roasted within 48 hours",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供海耶斯谷、贝拉多曼等经典拼配",
+        "en": "Offers Hayes Valley, Bella Donovan blends",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "食物含抹茶华夫饼、水波蛋吐司等",
+        "en": "Serves matcha waffles, poached egg toast",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内木质托盘配金属桌面桌座",
+        "en": "Indoor seating with wood trays, metal tops",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-22:00营业",
+        "en": "Open daily 08:00–22:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "提供多款特色拼配与单品",
+        "en": "Features signature blends and single origins"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "设有室内桌座可久坐",
+        "en": "Indoor tables allow lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:33Z"
+}

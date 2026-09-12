@@ -1,0 +1,78 @@
+{
+  "cafeId": "trung-nguyen-jingan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "60804b207b15",
+  "raw": {
+    "headline": {
+      "zh": "越南滴漏咖啡配炼乳",
+      "en": "Vietnamese phin drip with condensed milk"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用越南邦美蜀罗布斯塔豆",
+        "en": "Uses Robusta beans from Buon Ma Thuot, Vietnam",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌滴漏咖啡配炼乳",
+        "en": "Signature phin-drip coffee served with condensed milk",
+        "from": [
+          7,
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内约10–12张黑色方桌配藤编椅",
+        "en": "Indoor seating: ~10–12 black tables with rattan chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设2组白色桌椅带遮阳伞",
+        "en": "Outdoor: 2 sets of white tables with umbrellas",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–18:30营业",
+        "en": "Open daily 08:00–18:30",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有桌椅可坐，有人看手机",
+        "en": "Seating available, people stay"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          7,
+          13,
+          14
+        ],
+        "zh": "主打越南滴漏与罗布斯塔",
+        "en": "Features Vietnamese phin & Robusta"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:34Z"
+}

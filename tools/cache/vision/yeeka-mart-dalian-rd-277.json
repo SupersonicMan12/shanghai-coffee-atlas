@@ -1,0 +1,61 @@
+{
+  "cafeId": "yeeka-mart-dalian-rd-277",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "22edc4516704",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/42c0494fe4ebbdc9f35874fa6d4aa998"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺门口有气球拱门装饰，正在开业",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃门，可见内部货架和商品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外摆放有开业宣传立牌，提示3月28日开业",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有鲜花和红色装饰，氛围喜庆",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见冷藏柜和货架，陈列食品与饮品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外右侧有遮阳伞和桌椅，提供室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示为‘YeekaMart’，定位为咖啡茶饮美食便利集合店",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:31Z"
+}

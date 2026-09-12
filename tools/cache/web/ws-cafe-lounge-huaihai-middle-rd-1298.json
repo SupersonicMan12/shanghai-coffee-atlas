@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "这家西餐厅和艺术展示厅融为一体，环境相当有格调",
+      "kind": "space",
+      "quote": "这家西餐厅和艺术展示厅融为一体,环境相当有格调",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "灯光调至迷离，桌上闪烁的烛光更添情致",
+      "kind": "light",
+      "quote": "灯光调至迷离,让桌上闪烁的烛光更添情致",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "安格斯牛柳五分熟，肉质嫩滑，性价比高",
+      "kind": "food",
+      "quote": "安格斯牛柳:牛柳要了五分熟...整体肉质很嫩...性价比也很高",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "黑松露薯条炸得金黄，撒满黑松露",
+      "kind": "food",
+      "quote": "黑松露薯条:薯条炸得金黄,上面撒着满满的黑松露",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "巧克力烂泥蛋糕口感浓郁，搭配原味冰淇淋",
+      "kind": "food",
+      "quote": "巧克力烂泥蛋糕:说是烂泥,其实超级硬质,巧克力偏向黑巧,口感极其浓郁,搭配原味冰淇淋的软绵",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/7530014.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "7月2日起!连续免费开放3天!成都这个大展再忙也要逛!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NzA4MDY5OQ==&mid=2651770057&idx=1&sn=af00104f89488c519f37c03ccddf0186&chksm=8a777f05586c767b9aebc1505520fda80a15b9a66b930f6eda998ec9f28942a8516b39712199&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "万咖啡首席咖啡师,有啥武功秘籍?",
+      "url": "https://cj.sina.com.cn/articles/view/3281037352/c390a8280190194mo",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "不产咖啡豆的江门,如何煮出“世界咖啡”",
+      "url": "https://www.nujiang.cn/2026/0408/197465.html",
+      "site_name": "怒江大峡谷网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:11Z"
+}

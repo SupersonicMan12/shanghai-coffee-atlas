@@ -1,0 +1,45 @@
+{
+  "cafeId": "simpur-coffee-yangpu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1c8a31d0cc39",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/54ed25b988401d05d2b1ebd22bac12b7",
+    "https://store.is.autonavi.com/showpic/07bb0c94aa069070a77b088074e7c9d0"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口地面有施工材料，似未完全开业",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "街道湿滑，停放多辆汽车",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见桌椅，但数量不详",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:40Z"
+}

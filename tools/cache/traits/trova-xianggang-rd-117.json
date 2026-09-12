@@ -1,0 +1,68 @@
+{
+  "cafeId": "trova-xianggang-rd-117",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "48e8a53ac1d8",
+  "raw": {
+    "headline": {
+      "zh": "玉屏南路生活区咖啡馆",
+      "en": "A neighborhood cafe on Yuping Road"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外灰色圆桌座位",
+        "en": "Outdoor gray round tables available",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供巧克力可颂与黑白条纹蛋糕",
+        "en": "Serves chocolate croissant and striped cake",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应柠檬茶，使用可降解吸管",
+        "en": "Serves lemon tea with compostable straws",
+        "from": [
+          3,
+          14
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内大面积使用水洗石材料",
+        "en": "Interior features extensive washed aggregate",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-18:00营业",
+        "en": "Open daily 7am to 6pm",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          8
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:04Z"
+}

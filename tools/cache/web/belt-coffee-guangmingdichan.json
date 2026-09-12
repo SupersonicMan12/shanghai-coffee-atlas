@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "text": "使用光明鲜奶",
+      "kind": "drinks",
+      "quote": "用的牛奶也都是光明鲜奶",
+      "url": "https://www.sina.cn/news/detail/4846864467240533.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "提供10种咖啡豆选择",
+      "kind": "beans",
+      "quote": "有足足10种咖啡豆可选",
+      "url": "https://www.sina.cn/news/detail/4846864467240533.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "拥有室外绿植庭院",
+      "kind": "space",
+      "quote": "还有个室外绿植庭院",
+      "url": "https://www.sina.cn/news/detail/4846864467240533.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "品牌名源自咖啡带",
+      "kind": "story",
+      "quote": "品牌名「暐度咖啡」取自“咖啡带”",
+      "url": "https://www.yilantop.com/news/18838",
+      "site": "光明食品跨界咖啡，「BELT COFFEE」首店亮相上海 - 壹览商业"
+    },
+    {
+      "text": "寻找北纬25°到南纬25°的优质高山咖啡豆",
+      "kind": "beans",
+      "quote": "寻找来自北纬25°到南纬25°的优质高山咖啡豆",
+      "url": "https://m.huanqiu.com/article/4B2qabrDWUJ",
+      "site": "环球网"
+    },
+    {
+      "text": "推出具有‘光明食品’特色的咖啡特饮",
+      "kind": "drinks",
+      "quote": "推出具有‘光明食品’特色的咖啡特饮",
+      "url": "https://www.foodtalks.cn/flash/10505",
+      "site": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "BELT COFFEE (上海上海火車站地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136401786/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "在上海开了家精品咖啡馆！咖啡店名叫BELT COFFEE，是光明 ... - Sina",
+      "url": "https://www.sina.cn/news/detail/4846864467240533.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 4,
+      "title": "光明食品跨界咖啡，「BELT COFFEE」首店亮相上海 - 壹览商业",
+      "url": "https://www.yilantop.com/news/18838",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "光明子公司入局咖啡市场 暐度咖啡首店落户上海",
+      "url": "https://m.huanqiu.com/article/4B2qabrDWUJ",
+      "site_name": "环球网"
+    },
+    {
+      "index": 6,
+      "title": "光明旗下首家咖啡店BELT COFFEE开业-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/flash/10505",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 7,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 8,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:15:40Z"
+}

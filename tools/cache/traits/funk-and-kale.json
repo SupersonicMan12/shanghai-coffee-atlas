@@ -1,0 +1,28 @@
+{
+ "cafeId": "funk-and-kale",
+ "model": "qwen-max",
+ "inputDigest": "84e44fde5acd",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌菜：Brunch plate + batch brew",
+    "en": "Signature: Brunch plate + batch brew",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    "zh": "安福路早午餐热门地",
+    "en": "Popular Anfu Lu brunch spot"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:23Z"
+}

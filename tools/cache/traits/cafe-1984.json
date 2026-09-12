@@ -1,0 +1,58 @@
+{
+ "cafeId": "cafe-1984",
+ "model": "qwen-max",
+ "inputDigest": "4947d70372e0",
+ "raw": {
+  "headline": {
+   "zh": "隐秘花园中的宁静阅读角落",
+   "en": "A hidden garden for quiet reading"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "位于老式居民楼内，带大花园",
+    "en": "In an old residential building, with a large garden",
+    "from": 1
+   },
+   {
+    "kind": "view",
+    "zh": "大窗框住室外车水马龙风景",
+    "en": "Large windows frame the bustling street view",
+    "from": 2
+   },
+   {
+    "kind": "seating",
+    "zh": "提供插座方便使用电脑",
+    "en": "Outlets available for laptop use",
+    "from": 3
+   },
+   {
+    "kind": "time",
+    "zh": "适合点杯咖啡静静读书工作",
+    "en": "Great for a coffee and some quiet work",
+    "from": 4
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 3,
+    "zh": "提供插座方便使用电脑",
+    "en": "Laptop-friendly outlets"
+   },
+   "energy": {
+    "value": 30,
+    "from": 2,
+    "zh": "书店一楼内侧空间安宁而柔和",
+    "en": "Calm and soft space inside"
+   },
+   "linger": {
+    "value": 90,
+    "from": 4,
+    "zh": "气氛悠闲舒适适合久坐",
+    "en": "Relaxed and comfortable atmosphere"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:29Z"
+}

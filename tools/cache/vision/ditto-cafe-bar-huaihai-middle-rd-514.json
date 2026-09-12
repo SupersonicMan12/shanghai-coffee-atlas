@@ -1,0 +1,65 @@
+{
+  "cafeId": "ditto-cafe-bar-huaihai-middle-rd-514",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f1fc6d2ba098",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d9ea2ebdb98359280000001831826740?type=pic",
+    "https://store.is.autonavi.com/showpic/e785786209cb459927ec4dcbee2246d1",
+    "https://store.is.autonavi.com/showpic/f76f5f004bf303640000003196312586?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有抹茶蛋糕、芝士蛋糕和咖啡拉花饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡饮品，含冰块和奶层",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，门口可见街道和行人",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和桌椅，空间较小",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有木质桌椅和红色装饰灯光",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "窗边座位可看到街道景象",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有手冲或虹吸设备的可能，但未明确显示",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.5
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:59Z"
+}

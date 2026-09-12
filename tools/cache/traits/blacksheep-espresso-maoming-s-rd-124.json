@@ -1,0 +1,75 @@
+{
+  "cafeId": "blacksheep-espresso-maoming-s-rd-124",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "9d1dc4a178fa",
+  "raw": {
+    "headline": {
+      "zh": "自烘埃塞豆，雪屋般庇护感",
+      "en": "House-roasted Ethiopian beans, snow-hut vibe"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘多款单一产地豆，以农场命名",
+        "en": "House-roasts multiple single-origin beans named after farms",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "黑咖用浅烘埃塞豆，奶咖用中深烘",
+        "en": "Black coffee: light-roast Ethiopian; milk coffee: medium-dark",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "30平米，客座与吧台各占一半",
+        "en": "30 sqm space split evenly between seating and bar",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人原学市场营销，因兼职入行",
+        "en": "Owner switched from marketing after cafe part-time job",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–18:00营业",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "空间小，座位有限",
+        "en": "Compact with limited seats"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          5,
+          6,
+          8
+        ],
+        "zh": "自烘豆+专业手冲设备",
+        "en": "House-roasted beans + pro gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:20Z"
+}

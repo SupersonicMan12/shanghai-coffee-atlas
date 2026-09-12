@@ -1,0 +1,59 @@
+{
+  "cafeId": "arabica-osm",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "53117257c7be",
+  "photos": [
+    "https://aos-comment.amap.com/B0HULD4IJI/comment/68d1f2cdb087bcab35e1df3b3fa2ef4b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HULD4IJI/comment/9c07fd9db8ef1ef5061e7f84de71672e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HULD4IJI/comment/8d956d7bc203af12efb471317b866dbf_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡设备和磨豆机",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示三种咖啡豆，包含阿拉比卡拼配",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示咖啡豆产地信息及烘焙度",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有圆形沙发座椅和小圆桌，适合休闲坐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供纸杯装咖啡，带盖设计",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:18:11Z"
+}

@@ -1,0 +1,52 @@
+{
+ "cafeId": "mocha-zhangningzhongxin",
+ "model": "qwen-max",
+ "inputDigest": "499593a0b264",
+ "raw": {
+  "headline": {
+   "zh": "猫咪主题咖啡馆，适合爱猫人士",
+   "en": "Cat-themed café, perfect for cat lovers"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing windows, wide view",
+    "from": "[1, 6]"
+   },
+   {
+    "kind": "story",
+    "zh": "店内有猫咪“职员”，氛围温馨",
+    "en": "Cats as 'staff', cozy atmosphere",
+    "from": "[2, 4]"
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周日营业时间为12:30-18:30",
+    "en": "Open Mon-Sun, 12:30-18:30",
+    "from": "[12]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "推荐饮品包括冰糖雪梨和咖啡茶",
+    "en": "Recommended drinks: pear syrup and coffee tea",
+    "from": "[13]"
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": "[11]",
+    "zh": "周末高峰时段客人较多",
+    "en": "Busy on weekends"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[11, 12]",
+    "zh": "营业时间较长，适合久坐",
+    "en": "Long opening hours, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:34Z"
+}

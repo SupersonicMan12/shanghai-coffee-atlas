@@ -1,0 +1,28 @@
+{
+ "cafeId": "koii-weihai",
+ "model": "qwen-max",
+ "inputDigest": "0167071f3a80",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "设计工作室常用作会议室",
+    "en": "Often used as a meeting room",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合开会和办公",
+    "en": "Good for meetings and work"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:48Z"
+}

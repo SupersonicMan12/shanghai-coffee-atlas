@@ -1,0 +1,28 @@
+{
+ "cafeId": "minism-pudong",
+ "model": "qwen-max",
+ "inputDigest": "9afa525f1082",
+ "raw": {
+  "headline": {
+   "zh": "小巧精致，单品浓缩值得一试",
+   "en": "Compact, precise, single-origin espresso"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供单品浓缩咖啡",
+    "en": "Serves single-origin espresso",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "站立式酒吧，适合短暂停留",
+    "en": "Standing bar, quick stop"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:25Z"
+}

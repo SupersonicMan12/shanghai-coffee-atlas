@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "text": "自烘咖啡豆,涵盖多种单品豆如蓝山NO.1、瑰夏等",
+      "kind": "beans",
+      "quote": "咖啡豆由店长亲自烘焙,常备蓝山NO.1、瑰夏及野生猫屎咖啡",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "手冲咖啡采用日式滴滤手法,注重仪式感",
+      "kind": "drinks",
+      "quote": "店铺采用日式滴滤式手冲手法,咖啡豆由店长亲自烘焙",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "店内空间宽敞,有落地窗带来自然光线",
+      "kind": "story",
+      "quote": "空间宽敞，充满了从落地窗眺望街道的光线",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8090111-Reviews-Rumors_Coffee_Xingguo_Road-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "位于安静绿树成荫的街道上,环境宁静",
+      "kind": "view",
+      "quote": "位于法国特许经营区边缘一条安静的绿树成荫的街道上",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8090111-Reviews-Rumors_Coffee_Xingguo_Road-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "提供每日限定法国土司与巧克力蛋糕",
+      "kind": "food",
+      "quote": "并提供每日限定法国土司、巧克力蛋糕等餐点",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间至下午7点半,适合午后小憩",
+      "kind": "time",
+      "quote": "营业时间:11:00-19:30",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "店主是中日夫妻,致力于咖啡文化教育",
+      "kind": "story",
+      "quote": "老板是位日本人,儒雅、嗓音清澈。...关于咖啡文化的了解,从老板中山先生的介绍开始",
+      "url": "https://www.meipian.cn/4oly0h60",
+      "site": "美篇网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "手冲顶配体验:鲁马滋咖啡值不值那杯“天价”",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "“想要做出如茶般的咖啡”,一对中日夫妻的咖啡匠心",
+      "url": "https://www.163.com/dy/article/I5NUA2310514R9P4.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "“想要做出如茶般的咖啡”,一对中日夫妻的咖啡匠心",
+      "url": "http://c.m.163.com/news/a/I5NUA2310514R9P4.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "3家小店的重启故事,上海真的回来了",
+      "url": "https://www.thepaper.cn/newsDetail_forward_18634352",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 5,
+      "title": "鲁马滋(兴国路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8090111-Reviews-Rumors_Coffee_Xingguo_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "鲁马滋咖啡",
+      "url": "https://www.meipian.cn/4oly0h60",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 7,
+      "title": "鲁马滋(湖南路店)",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "鲁马滋咖啡主理人家铭和中山：能够拥有属于自己的空间来感受生活",
+      "url": "https://wenhui.whb.cn/third/jinri/202110/07/427493.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 9,
+      "title": "探店|魔都7000+咖啡馆,数量全球第一!这30家必喝!地址豆子_安福",
+      "url": "https://www.sohu.com/a/591038637_121123898",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 10,
+      "title": "RUMORS COFFEE ROASTERY魯馬滋咖啡（興國路店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/rumors-coffee-xingguo-road-15772669/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:39Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "guanchi-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "20c9c147445d",
+  "photos": [
+    "https://aos-comment.amap.com/B0JK37FQ9S/comment/content_media_external_file_42859_1766485135493_29691178.jpg",
+    "https://aos-comment.amap.com/B0JK37FQ9S/comment/content_media_external_file_42859_1766485135497_29571895.jpg",
+    "https://aos-comment.amap.com/B0JK37FQ9S/comment/573cdb1adb7b1688f011d37bcdbcb147_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台式小型咖啡店，背景墙挂多张彩色冰激凌主题海报与菜单。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见一台黑色锥形料斗磨豆机（装满咖啡豆）和La Marzocco咖啡机。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "菜单板显示‘COFFEE’与‘DRINKS’分类，标价如美式¥22、拿铁¥28、冷萃¥30等。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上菜单含‘牧场牛乳’‘梦幻海盐’‘甜莓牛乳’等饮品名，配冰激凌插图。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中手持一杯带得宝（Tempo）联名杯套的咖啡，非店内自制杯型。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台前堆叠印有‘觀池’字样的白色纸杯，数量较多。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙角有绿植（鹤望兰）与玻璃花瓶，天花板装有监控与轨道射灯。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中可见部分墙面为浅色竖条纹饰面，无落地窗或室外座可见。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:39Z"
+}

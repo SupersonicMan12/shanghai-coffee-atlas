@@ -1,0 +1,84 @@
+{
+  "cafeId": "arabica-xianjinrongcheng",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6a59bd3ab2e9",
+  "raw": {
+    "headline": {
+      "zh": "临窗站喝精品Arabica",
+      "en": "Stand-up window spot for premium Arabica"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设吧台座与高脚凳，空间紧凑",
+        "en": "Bar seating with stools, compact space",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光充足",
+        "en": "Full-height street-facing windows, bright",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚孔加、罕贝拉等单一产地豆",
+        "en": "Single-origin beans like Konga and Hambella",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "燕麦奶可选，价格同常规牛奶",
+        "en": "Oat milk available at regular milk price",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日07:30–18:00，周末至18:30",
+        "en": "Open 07:30–18:00 weekdays, till 18:30 weekends",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "有人使用笔记本电脑",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          12
+        ],
+        "zh": "站喝为主，空间不大",
+        "en": "Standing bar, limited seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          10
+        ],
+        "zh": "自烘单一产地豆可选",
+        "en": "In-house roasted single origins"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:02Z"
+}

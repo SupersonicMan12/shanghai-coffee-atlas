@@ -1,0 +1,49 @@
+{
+  "cafeId": "xiyuankafei-jinxiutiandi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b2a43f079c67",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/cb710ac4143cb832b9f459c20ee61c12"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有粉色条纹遮阳篷",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗户透出室内灯光，可见内部陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗内有装饰物和暖色灯光",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门前有绿植遮挡部分视线",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑为两层结构，灰色砖墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:28Z"
+}

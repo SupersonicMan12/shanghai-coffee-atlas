@@ -1,0 +1,77 @@
+{
+  "cafeId": "yichihuayuan-qiantanxiuxiangongyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "646f68d27aa2",
+  "raw": {
+    "headline": {
+      "zh": "茶咖融合的千平公园店",
+      "en": "Tea-infused coffee in a park"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店面积约千平方米，含户外露营区与玻璃房",
+        "en": "Around 1000 sqm with outdoor camping area and glass house",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "室外座位靠近玻璃围栏，视野开阔",
+        "en": "Outdoor seats by glass railing with open views",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆融合碧螺春、西湖龙井、云南普洱等中国茶",
+        "en": "Beans infused with Biluochun, Longjing, Pu'er teas",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括桂花拿铁",
+        "en": "Signature drink: osmanthus latte",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00–20:00，覆盖早咖至晚餐时段",
+        "en": "Open 10:00–20:00, serving all-day meals",
+        "from": [
+          13,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          4,
+          5,
+          12
+        ],
+        "zh": "有室内外舒适座位和绿化",
+        "en": "Comfortable indoor/outdoor seating"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10
+        ],
+        "zh": "茶咖融合具实验性",
+        "en": "Tea-coffee fusion is experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:12Z"
+}

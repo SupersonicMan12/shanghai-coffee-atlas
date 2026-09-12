@@ -1,0 +1,58 @@
+{
+ "cafeId": "pine-tree-house-yangzhai-rd",
+ "model": "qwen-max",
+ "inputDigest": "0058686269db",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "提供烤鸡翅/鸡腿、焗烤肉奶酪盅等餐点",
+    "en": "Serves grilled chicken and baked meat cheese casserole",
+    "from": "[1,5]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室内有木质桌椅，窗边设卡座与圆桌",
+    "en": "Wooden tables, booths, and round tables by the window",
+    "from": "[2]"
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，采光良好",
+    "en": "Full street-facing glass, well-lit",
+    "from": "[7]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业至凌晨两点，适合夜猫子",
+    "en": "Open until 2 AM, great for night owls",
+    "from": "[8]"
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 40,
+    "from": "[2,6]",
+    "zh": "乡村复古风格，环境较为宁静",
+    "en": "Rustic vintage style, calm atmosphere"
+   },
+   "linger": {
+    "value": 60,
+    "from": "[2,7,8]",
+    "zh": "设有多种座位，适合久坐",
+    "en": "Various seating, good for long stays"
+   },
+   "adventure": {
+    "value": 30,
+    "from": "[3,9]",
+    "zh": "菜单上有经典意面和牛排",
+    "en": "Classic pasta and steak on menu"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:11Z"
+}

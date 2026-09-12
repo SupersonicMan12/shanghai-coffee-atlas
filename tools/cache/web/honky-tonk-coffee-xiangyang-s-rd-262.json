@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品虎斑橘，奶香味浓郁但不腻",
+      "kind": "drinks",
+      "quote": "推荐虎斑橘和维也纳！这两个都很好喝。",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "经典及创新风味的维也纳咖啡",
+      "kind": "drinks",
+      "quote": "这里的维也纳咖啡也是很经典的一款,有创新的维也纳咖啡风味",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "空间散发不费力气的酷感，极简风格",
+      "kind": "space",
+      "quote": "這裡的空間散發著那種不費力氣的酷感,帶有極簡的上海風格",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144185379?locale=zh-MY",
+      "site": "去了Honky Tonk Coffee — 上海目前最熱門的咖啡館之一。 - Trip.com"
+    },
+    {
+      "text": "营业时间为06:00-17:00，16:00停止点单",
+      "kind": "time",
+      "quote": "HONKY TONK COFFEE 🕖06:00-17:00(16:00停止点单)",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "上海人,不要错过这杯 ",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "去了Honky Tonk Coffee — 上海目前最熱門的咖啡館之一。 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144185379?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "咖啡饮品|橙皮碎屑|金属勺子|honky tonk coffee shop|白色碟子",
+      "url": "https://www.sina.cn/news/detail/5336206961543619.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "Honky Tonk Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98CB63F8037&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:55Z"
+}

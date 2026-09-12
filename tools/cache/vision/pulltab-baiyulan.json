@@ -1,0 +1,71 @@
+{
+  "cafeId": "pulltab-baiyulan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "7c32ddf4d18a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d66f0af7a5e2d94a0000002904934361?type=pic",
+    "https://store.is.autonavi.com/showpic/b6ed47cd57ae0bec0000001581176631?type=pic",
+    "https://store.is.autonavi.com/showpic/3a74b65125ead31c0000001581210168?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场中庭环形多层结构内，临玻璃幕墙，属商场内店铺",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设露天座位区，含白色遮阳伞、黑白条纹桌椅，约8–12个座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "主招牌为黑色背景+金色边框发光字，标有'Pull-Tab 拉环咖啡'及拉环图形Logo",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店铺入口为玻璃门，门旁立牌可见'一口入泰式咖啡'字样及饮品图",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "二层窗上贴有手绘卡通海报，写有'Welcome to Steak world!'字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见环形LED灯带照明，无明显手冲台、虹吸壶或磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "地面为灰木纹瓷砖，户外区设黑色带太阳能板的烟灰桶，印有店名",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中未见顾客、电脑、书架、植物、宠物或明确食物/饮品实物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:16Z"
+}

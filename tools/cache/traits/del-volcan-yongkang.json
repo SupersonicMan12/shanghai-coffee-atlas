@@ -1,0 +1,75 @@
+{
+  "cafeId": "del-volcan-yongkang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "955eec47a4af",
+  "raw": {
+    "headline": {
+      "zh": "自有庄园豆的上海精品启蒙店",
+      "en": "Shanghai's pioneer with its own Guatemalan beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "拥有危地马拉自有咖啡豆庄园",
+        "en": "Owns a coffee farm in Guatemala",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内约6–8个座位，含高脚凳与长凳",
+        "en": "6–8 indoor seats: stools and bench",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌Flat white，推荐手冲与卡布奇诺",
+        "en": "Signature flat white; pour-over and cappuccino recommended",
+        "from": [
+          12,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–19:00营业",
+        "en": "Open daily 09:00–19:00",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2012年开业，上海第三波咖啡浪潮先驱",
+        "en": "Opened 2012; started Shanghai's third wave",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "座位少且含折叠椅",
+        "en": "Few seats, some foldable"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          14
+        ],
+        "zh": "自烘庄园豆+手冲选项",
+        "en": "Estate beans and pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:01Z"
+}

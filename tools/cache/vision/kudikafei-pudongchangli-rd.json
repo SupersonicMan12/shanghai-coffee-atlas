@@ -1,0 +1,59 @@
+{
+  "cafeId": "kudikafei-pudongchangli-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8423b7405df9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://store.is.autonavi.com/showpic/26bc7ba271d5da0a0000002349274952?type=pic",
+    "https://store.is.autonavi.com/showpic/cb843e2a7fb938270000003049582816?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有多个电动车停放，门前是人行道。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有顾客在取餐窗口前等待。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧相邻店铺为橙色招牌的包子铺。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为黑色门头，设有开放式取餐口。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口无室外座位区域。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见店内座位或吧台，无法判断内部空间大小。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:08Z"
+}

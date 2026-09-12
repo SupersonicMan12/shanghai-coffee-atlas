@@ -1,0 +1,67 @@
+{
+  "cafeId": "p-m-cafe-wuyuan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6dce2ab93e05",
+  "raw": {
+    "headline": {
+      "zh": "狭长通道里的手冲咖啡",
+      "en": "Hand-brew coffee in a narrow lane"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "狭长通道式布局，两侧设座位",
+        "en": "Narrow corridor layout with seats on both sides",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡和荔枝风味冰茶",
+        "en": "Serves hand-brew coffee and lychee iced tea",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有烧焦芝士蛋糕和日式小碟甜点",
+        "en": "Offers burnt cheesecake and small Japanese-style desserts",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "常规营业时间08:30-19:30",
+        "en": "Regular hours 08:30–19:30 daily",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "设有手冲器具并推荐手冲",
+        "en": "Hand-brew setup and recommended"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "空间紧凑，座位在通道两侧",
+        "en": "Compact space with corridor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:35Z"
+}

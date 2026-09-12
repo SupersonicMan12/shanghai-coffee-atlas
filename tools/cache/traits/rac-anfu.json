@@ -1,0 +1,46 @@
+{
+ "cafeId": "rac-anfu",
+ "model": "qwen-max",
+ "inputDigest": "65ef31d24024",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "落地窗面向街道，街景一览无余",
+    "en": "Floor-to-ceiling windows with street view",
+    "from": "[3]"
+   },
+   {
+    "kind": "food",
+    "zh": "招牌菜：荞麦可丽饼 + 拿铁咖啡",
+    "en": "Signature: buckwheat galette + flat white",
+    "from": "[5]"
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周六 08:00-22:30；周日 08:00-17:00",
+    "en": "Mon-Sat 08:00-22:30; Sun 08:00-17:00",
+    "from": "[6]"
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 40,
+    "from": "[4]",
+    "zh": "户外座位热闹，但室内较安静",
+    "en": "Busy outdoor, quiet indoors"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[2][4]",
+    "zh": "有舒适的室内座位和户外桌椅",
+    "en": "Comfortable indoor and outdoor seating"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:20Z"
+}

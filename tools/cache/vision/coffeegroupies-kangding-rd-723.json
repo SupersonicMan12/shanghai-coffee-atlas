@@ -1,0 +1,65 @@
+{
+  "cafeId": "coffeegroupies-kangding-rd-723",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "761f086a5566",
+  "photos": [
+    "https://aos-comment.amap.com/B001574W3D/comment/05698b0a4dd217b8734af347141efeb2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771912257076_07007884_1771912259683_97583376.jpg",
+    "https://store.is.autonavi.com/showpic/48c8f4566fbc6c700000002265730689?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "吧台后有手冲架、虹吸壶、磨豆机等专业器具",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "玻璃柜里放着标价15元的糕点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，座位数量级为some",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台上方货架陈列多个带标签的咖啡豆罐",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有一杯带拉花的咖啡和一个玩偶",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有仙人掌和挂画装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "墙面为水泥质感，搭配木架与金属管",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:36Z"
+}

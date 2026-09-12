@@ -1,0 +1,66 @@
+{
+  "cafeId": "smellycat-harbin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "adab7ded754a",
+  "raw": {
+    "headline": {
+      "zh": "老友记主题复刻咖啡馆",
+      "en": "Friends-themed coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "1913年仓库内复刻老友记场景",
+        "en": "Friends set inside a 1913 warehouse",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位及临街落地窗",
+        "en": "Outdoor seating and full-height street windows",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应夏威夷披萨、芝士蛋糕等简餐甜点",
+        "en": "Serves Hawaiian pizza, cheesecake, cupcakes",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供经典拿铁与卡布奇诺",
+        "en": "Offers classic latte and cappuccino",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日11:00-22:00",
+        "en": "Open daily 11:00–22:00",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "有标志性橙色沙发可久坐",
+        "en": "Iconic orange couch for lounging"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:24Z"
+}

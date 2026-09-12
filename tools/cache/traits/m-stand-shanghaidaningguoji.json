@@ -1,0 +1,85 @@
+{
+  "cafeId": "m-stand-shanghaidaningguoji",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5575e72b4bdb",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗+室外座",
+      "en": "Street-facing windows with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外约6-8人，室内卡座可坐10人以上",
+        "en": "Outdoor seats for 6–8, indoor booth for 10+",
+        "from": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃门，自然采光充足",
+        "en": "Full-height street-facing glass, ample daylight",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备专业磨豆机与咖啡机",
+        "en": "Professional grinder and espresso machine",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30–22:00营业",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供香肠、黄油、油条等简餐",
+        "en": "Serves sausage, butter, youtiao",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "无人使用电脑",
+        "en": "No one using laptops"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "多人就座交谈",
+        "en": "People chatting in groups"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          4
+        ],
+        "zh": "有卡座与室外座，适合久坐",
+        "en": "Booths & outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:41Z"
+}

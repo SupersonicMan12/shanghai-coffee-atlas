@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "招牌菜品有烟熏三文鱼班尼迪克蛋、阳光早餐拼盘",
+      "kind": "food",
+      "quote": "招牌菜品有煙熏三文魚班尼迪克蛋、陽光早餐拼盤、黑松露蝦仁全蛋吐司等",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-107518659/",
+      "site": "wvolla brunch沃樂（大學路店） (上海江灣/五角場商業區) - Trip.com"
+    },
+    {
+      "text": "餐厅是tiffany蓝的色调，门口有超大熊玩偶和泡泡玛特娃娃",
+      "kind": "space",
+      "quote": "餐厅是tiffany蓝的色调,绝对不会错过~门口有一只超大的熊慵懒躺在椅子上",
+      "url": "https://www.dianping.com/discovery/1294594681",
+      "site": "大众点评网"
+    },
+    {
+      "text": "每张桌子上都有花瓶，布置温馨，服务贴心（送宝宝椅、湿纸巾）",
+      "kind": "people",
+      "quote": "每张桌子上都有花瓶,非常有情调 店里的服务特别好,留意到旁边带了小孩,服务员送来宝宝椅和湿纸巾啥的",
+      "url": "https://www.dianping.com/discovery/1294594681",
+      "site": "大众点评网"
+    },
+    {
+      "text": "位于锦嘉路118号，靠近大学路，属限时步行街区",
+      "kind": "story",
+      "quote": "📍锦嘉路118号",
+      "url": "https://www.dianping.com/discovery/1292577756",
+      "site": "大众点评网"
+    },
+    {
+      "text": "主打全日制brunch、轻食、咖啡等西式简餐",
+      "kind": "food",
+      "quote": "mainly full-time brunch, light food, coffee and other Western-style light meals",
+      "url": "https://my.trip.com/restaurant/china/shanghai/detail/restaurant-107518659/",
+      "site": "wvolla brunch沃乐(大学路店) - Shanghai - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "wvolla brunch沃樂（大學路店） (上海江灣/五角場商業區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-107518659/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "wvolla brunch沃乐(大学路店) - Shanghai - Trip.com",
+      "url": "https://my.trip.com/restaurant/china/shanghai/detail/restaurant-107518659/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "wvolla brunch沃乐(大学路店) - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-107518659/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "大学路上早C晚A,我选这家小清新西餐厅 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1294594681",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "wvolla Brunch·Bar沃乐(大学路店)-环境-景观位图片-上海-大众点评网",
+      "url": "https://www.dianping.com/shop/G6ozH0yD7rf4nZyq/photos/tag-%E7%8E%AF%E5%A2%83-%E6%99%AF%E8%A7%82%E4%BD%8D",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "wvolla Brunch·Bar沃乐(大学路店)-菜图片-上海-第19页 - 大众点评",
+      "url": "https://www.dianping.com/shop/G6ozH0yD7rf4nZyq/photos/tag-%E8%8F%9C?pg=19",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "尽情品味❗️日咖夜酒周末小酌开启与朋友的奇妙之旅🌟 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1292577756",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:03Z"
+}

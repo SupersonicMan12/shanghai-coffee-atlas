@@ -1,0 +1,75 @@
+{
+  "cafeId": "1925-baoshan-rd-403",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "9e62fd7d8720",
+  "raw": {
+    "headline": {
+      "zh": "限定饮品+社区捐赠",
+      "en": "Limited drinks & community donation"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供小黄油茉莉拿铁/美式等限定款",
+        "en": "Offers limited-edition butter jasmine lattes/americanos",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含工焙拿铁、宝山里弄米道等1925限定款",
+        "en": "Serves '1925 exclusive' drinks like Gongbei Latte",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "每售一杯捐0.1元至徐家汇街道社区基金会",
+        "en": "Donates ¥0.1 per cup to local community fund",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设2把折叠椅和1张小桌",
+        "en": "Outdoor seating: 2 folding chairs, 1 small table",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周二至周日08:30-17:30",
+        "en": "Open Tue–Sun, 8:30 AM–5:30 PM",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "仅设少量室外座位",
+        "en": "Limited outdoor seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          11
+        ],
+        "zh": "多款地域限定创意饮品",
+        "en": "Multiple local-exclusive creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:47Z"
+}

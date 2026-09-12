@@ -1,0 +1,70 @@
+{
+  "cafeId": "shanghaidongjinjiangxierdunyilinjiudian-kafeitin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "50872f5ba21f",
+  "raw": {
+    "headline": {
+      "zh": "国际化菜单配花园景",
+      "en": "Global menu with garden views"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供中西式料理及海鲜",
+        "en": "Serves Chinese, Western, and seafood dishes",
+        "from": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "咖啡厅设170个餐位",
+        "en": "Coffee shop has 170 seats",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "行政酒廊享花园景观",
+        "en": "Executive lounge offers garden views",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "咖啡厅营业至23:00",
+        "en": "Open until 23:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含巧克力",
+        "en": "Chocolate listed as recommended dish",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          7,
+          8,
+          9
+        ],
+        "zh": "有下午茶和花园景",
+        "en": "Afternoon tea & garden view"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:47Z"
+}

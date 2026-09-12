@@ -1,0 +1,72 @@
+{
+  "cafeId": "wanlikafeiting-chundawanlijiu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4b3143a5ece0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e23fe14d6e95031c92ea9f34f6bf159a",
+    "http://store.is.autonavi.com/showpic/9e6d117aef7f868d305f5f9338a4017e",
+    "http://store.is.autonavi.com/showpic/50f2e6ee5828a751a8ec9e6fb81bb75b"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "餐厅内部空间宽敞，设有多个餐桌和椅子",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "用餐区有圆形围栏隔断，座位数量较多",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供多种菜肴，包括烤肉、海鲜和沙拉",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐桌上摆放有精致的甜点和主菜",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物种类丰富，包含烤羊排、玉米、番茄等",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有汤类、炖菜和配菜供应",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "餐厅内灯光柔和，顶部有大型环形灯饰",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "地面铺有花纹地毯，桌椅为木质结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:30Z"
+}

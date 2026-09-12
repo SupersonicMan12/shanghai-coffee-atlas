@@ -1,0 +1,59 @@
+{
+  "cafeId": "can-company-yanpingshequ",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "88dd0af80c57",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/53cc83029bfedf78b5554938ca20f7f0",
+    "https://aos-comment.amap.com/B0H0MAKOEA/comment/28e44b663da6d8a0b27c77225cb1879f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H0MAKOEA/comment/02a98049f7b48be05d24d24c359ed741_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，可看到内部吧台和员工。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有指示牌，指向延平路、康定路及店内咖啡区。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内墙上贴有热红酒（¥52/杯）和一豆三喝组合的海报。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方陈列着多罐装咖啡，疑似自家烘焙或罐装产品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外人行道上有行人牵狗经过，非纯室内空间。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域可见堆叠纸杯和透明容器，为标准咖啡店配置。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:33Z"
+}

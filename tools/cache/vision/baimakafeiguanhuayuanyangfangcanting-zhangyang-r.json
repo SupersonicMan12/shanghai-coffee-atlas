@@ -1,0 +1,65 @@
+{
+  "cafeId": "baimakafeiguanhuayuanyangfangcanting-zhangyang-r",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d493f1aef79c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/43169f52021e1b5ceb77a75e2f2fd441",
+    "https://store.is.autonavi.com/showpic/396fa47f0b7e620ba8d19514bb765c69",
+    "https://aos-comment.amap.com/B0L277K4GZ/comment/0BFA81B6_9D14_4FC4_8410_5B00A03A48DB_L0_001_1500_200_1760284853407_09851068.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆位于老洋房建筑内",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外庭院座位区",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为披萨，配火腿和芝麻菜",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口为双开木门，带玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "建筑外观为欧式风格，有台阶和装饰性门楣",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见绿植和室内空间",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "户外区域有草坪和树木",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:26Z"
+}

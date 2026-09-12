@@ -1,0 +1,59 @@
+{
+  "cafeId": "ruixingkafei-chuangyanzhizaochengkongjian",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "918323e8e6b4",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
+    "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5",
+    "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "饮品顶部有奶油和巧克力酱",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰咖啡，杯中含珍珠",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款饮品为热饮，顶部有奶油",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品旁有咖啡豆散落",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯身印有鹿头标志",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "瑞幸咖啡品牌标识清晰可见",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:11Z"
+}

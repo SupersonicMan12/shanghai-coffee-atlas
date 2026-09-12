@@ -48,7 +48,12 @@ PROMPT_VERSION = 3
 
 # signage / packaging / logo descriptions are true but useless for choosing a café
 NOT_USEFUL = re.compile(r'店招|招牌[字灯]|logo|标志|标牌|纸杯|纸袋|包装|印有|印着|字样|门楣|外墙|海报|立牌|拉花|latte art|为(some|several|a few|many|unknown)|未知|不详'
-                        r'|^(无|未见|没有|未出现|看不到|未能|不可见)|未见|但无|也未|不明确|无法(确定|判断|辨认)', re.I)
+                        r'|^(无|未见|没有|未出现|看不到|未能|不可见)|未见|但无|也未|不明确|无法(确定|判断|辨认)'
+                        r'|^serves coffee$|coffee is the (recommended|main)|^(提供|主营|供应)咖啡$|professional espresso( machine)?( and grinder)?$'
+                        r'|专业意式咖啡机|专业咖啡(机|设备)$|单人餐|single-person meals|calorie timing|卡路里', re.I)
+
+# opening hours are rendered from the weekly table; a bare hours line is noise
+BARE_HOURS = re.compile(r'^(open (daily )?(from )?\d|营业时间|每日\s*\d|周一至周日\s*\d)', re.I)
 
 OTHER_BRANCH = re.compile(r'[\u4e00-\u9fffA-Za-z0-9]{2,10}店(是|为|用|提供|主打|设|有|采用|开设)|首家|旗舰店')
 
@@ -280,7 +285,7 @@ def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict
         kind = norm_kind(t.get('kind'))
         # weekly hours are rendered from Amap directly; an hours trait only
         # earns a line when a person or publication called them out
-        if kind == 'time' and evidence == ['amap']:
+        if kind == 'time' and (evidence == ['amap'] or BARE_HOURS.search(en) or BARE_HOURS.search(zh)):
             continue
         # the curated signature and note are printed on the card verbatim
         if evidence == ['editorial']:
