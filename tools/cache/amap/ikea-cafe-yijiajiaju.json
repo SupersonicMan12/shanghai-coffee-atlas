@@ -1,0 +1,169 @@
+{
+  "cafeId": "ikea-cafe-yijiajiaju",
+  "query": {
+    "location": "121.434586,31.178073",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:09:06Z",
+  "matchedPoiId": "B0K1O6ERFS",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B001555CXQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K1O6ERFS/comment/E9940763_E46C_4AB4_808B_923075E1C018_L0_001_1500_200_1764666640790_06909864.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K1O6ERFS/comment/C76075F1_B600_4F91_99CF_657230A8D0FA_L0_001_1500_200_1764666640790_31391298.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K1O6ERFS/comment/B751600F_ED11_4E7F_B932_A15004AE9943_L0_001_2000_112_1760274032689_39319035.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54254532",
+        "id": "B0K1O6ERFS",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": [],
+        "name": "宜家咖啡馆IKEA Cafe(宜家家居店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周四 10:00-21:00；周五至周日 10:00-22:00",
+          "rating": "4.6",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631412",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 11:16:59",
+        "website": [],
+        "address": "漕溪路126号宜家家居1楼(漕溪路地铁站3号口步行330米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.434589,31.178076",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a0a317e26d7ebb486d80861fe4116bd8"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/80f737509c3aab9f22d001a077533467"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LRMMW4E3",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": [],
+        "atag": [],
+        "name": "瑞典风味咖啡馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "32",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周四 10:00-20:00；周五至周日 10:00-21:00",
+          "rating": "3.4",
+          "open_time": "10:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631412",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 10:41:09",
+        "website": [],
+        "address": "内环漕溪北路立交桥与漕溪路辅路交叉口西60米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.434925,31.178125",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

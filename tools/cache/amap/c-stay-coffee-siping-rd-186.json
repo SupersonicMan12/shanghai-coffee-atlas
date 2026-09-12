@@ -1,0 +1,469 @@
+{
+  "cafeId": "c-stay-coffee-siping-rd-186",
+  "query": {
+    "location": "121.490335,31.262048",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:20:24Z",
+  "matchedPoiId": "B0MDMRZA5D",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/11bfa53a3b41ac3002c97c80a7d1e877"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5949ccfd600d6a1757fd44350c3ecc7e"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15255936532",
+        "id": "B0MDMRZA5D",
+        "tag": "coffee",
+        "entr_location": "121.49038924928274,31.262151281591947",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "C stay coffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周日 08:00-17:00",
+          "rating": "2.7",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731910",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 07:24:53",
+        "website": [],
+        "address": "四平路186号(海伦路地铁站7号口步行340米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.490330,31.262048",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/31b988ab1e9e52efce60704107ede4d5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-56373691",
+        "id": "B0FFFV2MBX",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.491372,31.262571",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": [],
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(四平路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_524846",
+        "distance": "85",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.6",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731910",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:42:15",
+        "website": [],
+        "address": "四平路188号113,116室(上海商贸大厦东南门旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.491102,31.262443",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00153E372",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;上岛咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6cc4646ec5ec946c020641c5e053c344"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFG7M3NA/comment/60F96687_6411_4D02_9EB4_1949F7C81A6C_L0_001_1606_2001_1738878767543_73828467.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/a2b298bcad1154be146c95f1b0293d66"
+          }
+        ],
+        "building": [],
+        "typecode": "050502",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65226636",
+        "id": "B0FFG7M3NA",
+        "tag": "蘑菇",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "202",
+        "atag": "蘑菇",
+        "name": "上岛咖啡(四平路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_621996",
+        "distance": "130",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周日 10:30-02:00",
+          "rating": "4.5",
+          "open_time": "10:30-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731910",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 14:23:46",
+        "website": [],
+        "address": "四平路200号盛泰国际大厦2层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.491404,31.262786",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00157BJ5J",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFK66RDI",
+        "tag": "陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,生椰拿铁,杨枝甘露",
+        "entr_location": "121.4888,31.26124",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "临平路",
+        "childtype": "202",
+        "atag": "陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(永融企业中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "152",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-18:00",
+          "rating": "3.9",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731910",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 05:55:25",
+        "website": [],
+        "address": "潥阳路1111号永融企业中心一层大堂",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.488975,31.261325",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGM8M5F",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFIU6LTN",
+        "tag": "陨石拿铁,菠萝的海瑞纳冰,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,拿铁,美式,小火山黑糖厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,生椰拿铁,杨枝甘露",
+        "entr_location": "121.491215,31.264133",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "202",
+        "atag": "陨石拿铁,菠萝的海瑞纳冰,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,拿铁,美式,小火山黑糖厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(大世界城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "279",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:30-18:00；周六至周日 09:00-16:00",
+          "rating": "4.0",
+          "open_time": "07:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731920",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:46:59",
+        "website": [],
+        "address": "四平路228号上海大世界城一层107-108号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.491335,31.264406",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFIOQITT",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/50945cf0aadfadad2e307eef0281b5e0"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e8902712de95b5430000002821644821?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/26364aa8a5b58d890000002821698099?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0G3LZFJJZ",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "202",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(海伦中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "282",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "3.9",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731900",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:39:16",
+        "website": [],
+        "address": "海伦路440号金融街海伦中心B座F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.489850,31.259540",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "cafeId": "tims-topjinguanghui",
+  "query": {
+    "location": "121.384965,31.291852",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:11Z",
+  "matchedPoiId": "B0L36A9Z7A",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0L6PUC70R",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f9ebaf83ce79d0df19cee2bd94a34462"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ec1e0e7dc6fdb5ea8f2dd92f3dd2ea52"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19121576285",
+        "id": "B0L36A9Z7A",
+        "tag": [],
+        "entr_location": "121.384971,31.291477",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "桃浦",
+        "childtype": "202",
+        "atag": [],
+        "name": "Tims天好咖啡(TOP金光汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "17.00",
+          "opentime2": "周一至周日 07:00-21:30",
+          "rating": "3.9",
+          "open_time": "07:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:55:15",
+        "website": [],
+        "address": "桃浦镇连亮路368号地下2层b2-01",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.384966,31.291855",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0L6PUC70R",
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0c5fcb2718d1c2501d390b1931707db1"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e9ad50376b1723bc0000005601738663?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0L3ZX1EX6",
+        "tag": "杨枝甘露,生椰拿铁,柠檬茶",
+        "entr_location": "121.385028,31.291478",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "桃浦",
+        "childtype": "202",
+        "atag": "杨枝甘露,生椰拿铁,柠檬茶",
+        "name": "瑞幸咖啡(TOP金光汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "20",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:12:26",
+        "website": [],
+        "address": "连亮路368号TOP金光汇F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385025,31.291675",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0L6PUC70R",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/850ed2668ee006520000000958490402?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b4031435938fcc090000000958664074?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15301811318",
+        "id": "B0LKJU1NQG",
+        "tag": "生椰拿铁,杨枝甘露",
+        "entr_location": "121.385210,31.291479",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "桃浦",
+        "childtype": "202",
+        "atag": "生椰拿铁,杨枝甘露",
+        "name": "库迪咖啡(TOP金光汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "23",
+        "importance": [],
+        "biz_ext": {
+          "cost": "9.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "3.7",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 11:31:36",
+        "website": [],
+        "address": "桃浦镇连亮路368号TOP金光汇地下1层B1-13B-2",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.385206,31.291797",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

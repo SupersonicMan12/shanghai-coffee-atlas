@@ -1,0 +1,173 @@
+{
+  "cafeId": "yichihuayuan-mudanyuan",
+  "query": {
+    "location": "121.594922,31.321287",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:17Z",
+  "matchedPoiId": "B0JADSE94B",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JADSE94B/comment/ed6cc7fb6bcb05912c271200b4205c1a_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JADSE94B/comment/4394380b73140355ea648ca34d1abfba_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JADSE94B/comment/content_media_external_file_1000039959_ss__1766285459363_00276367.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JADSE94B",
+        "tag": [],
+        "entr_location": "121.596305,31.3219",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "一尺花园(牡丹园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "83.00",
+          "opentime2": "周一至周日 10:00-21:00",
+          "rating": "4.7",
+          "open_time": "10:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621748711",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:30:14",
+        "website": [],
+        "address": "兰谷路500号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.594926,31.321283",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/54b9d748b06263cd0000002084542883?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b762f6f6ed998bce0000000978882803?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e8374f4458659fa20000002084550833?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LDUDAHSR",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "老宅咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "68",
+        "importance": [],
+        "biz_ext": {
+          "cost": "48.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.1",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621748711",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 13:16:33",
+        "website": [],
+        "address": "兰嵩路与谐安路交叉口东80米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.594225,31.321425",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

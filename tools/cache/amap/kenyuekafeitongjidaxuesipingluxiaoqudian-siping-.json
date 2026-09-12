@@ -1,0 +1,248 @@
+{
+  "cafeId": "kenyuekafeitongjidaxuesipingluxiaoqudian-siping-",
+  "query": {
+    "location": "121.500570,31.281716",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:11:02Z",
+  "matchedPoiId": "B0K3C44C0D",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155K8FL",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d7c9b38862e28569d40862785ff496e4"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/553675c4a59abd0a31822616cb8cfad5"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3C44C0D/comment/content_media_external_file_1000086683_ss__1762507799938_92456286.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65126259",
+        "id": "B0K3C44C0D",
+        "tag": [],
+        "entr_location": "121.500710,31.281448",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "320",
+        "atag": [],
+        "name": "肯悦咖啡同济大学四平路校区店",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "14.00",
+          "opentime2": "周一至周日 07:00-21:00",
+          "rating": "3.7",
+          "open_time": "07:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621743020",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:33:03",
+        "website": [],
+        "address": "四平路1239号(同济大学四平路校区)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.500570,31.281720",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0KRDMO0HM",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/19aa81d7c0261709d8cdf89ba608dc5c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/52db350b6de0ff4cd1ddd39a91adb1a7"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1CCB8GU/comment/95645b6616a03431bc9a953224ad68cd_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-55780228",
+        "id": "B0I1CCB8GU",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.49875975187177,31.281067728708475",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "320",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(上海同济赤峰店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "198",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.2",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621733922",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:25:53",
+        "website": [],
+        "address": "赤峰路81号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498693,31.280945",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155IV6R",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/9f3892c894dc0f4458d0a61af8ac65ae"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/563916b72ffca8580000002337450909?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L0BUV4LZ",
+        "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": "121.501950,31.279848",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": "320",
+        "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "瑞幸咖啡(同济大学赤峰店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "257",
+        "importance": [],
+        "biz_ext": {
+          "cost": "14.00",
+          "opentime2": "周一至周日 07:00-20:30",
+          "rating": "3.9",
+          "open_time": "07:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621743010",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 18:35:16",
+        "website": [],
+        "address": "赤峰路59弄3号书香公寓",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.501858,31.279678",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

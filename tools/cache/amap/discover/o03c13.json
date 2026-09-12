@@ -1,0 +1,163 @@
+{
+ "cell": "o03c13",
+ "bbox": {
+  "w": 121.535,
+  "s": 31.157777705882353,
+  "e": 121.55,
+  "n": 31.16999994117647
+ },
+ "declaredCount": 2,
+ "fetchedAt": "2026-09-12T13:34:39Z",
+ "pois": [
+  {
+   "parent": "B0IKFC9P4N",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/28b691b330be05a7dc98761a194fee59"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/a6c33b88e455505889cb77a714947fba"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "浦东新区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "4000100100",
+   "id": "B0JGTSTW6K",
+   "tag": "柠檬茶,生椰拿铁,杨枝甘露,coffee",
+   "entr_location": "121.537105,31.162956",
+   "adcode": "310115",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "三林",
+   "childtype": "202",
+   "atag": "柠檬茶,生椰拿铁,杨枝甘露,coffee",
+   "name": "瑞幸咖啡(浦乐广场店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "13.00",
+    "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+    "rating": "4.0",
+    "open_time": "07:00-18:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621549212",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-09-11 00:25:44",
+   "website": [],
+   "address": "东书房路629弄2号一层1-28室",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.537329,31.163041",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0IKFC9P4N",
+   "pcode": "310000",
+   "keytag": "饮品",
+   "type": "餐饮服务;咖啡厅;星巴克咖啡",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0IKGZ2HUM/comment/583cb40b8a422498bb47dd79d458913c_2048_2048_80.jpg"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/e92d83745d03935d62688262a4d4618f"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0IKGZ2HUM/comment/0b255944c744ce6dc515026d7c098321_2048_2048_80.jpg"
+    }
+   ],
+   "building": [],
+   "typecode": "050501",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "浦东新区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "021-58359188",
+   "id": "B0IKGZ2HUM",
+   "tag": "下午茶,单人餐",
+   "entr_location": "121.537190,31.163878",
+   "adcode": "310115",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "三林",
+   "childtype": "202",
+   "atag": "下午茶,单人餐",
+   "name": "星巴克(上海三林浦乐汇店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "30.00",
+    "opentime2": "周一至周日 06:30-22:00",
+    "rating": "4.5",
+    "open_time": "06:30-22:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621549212",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-09-11 23:49:13",
+   "website": [],
+   "address": "东书房路629弄1号1层1-6号商铺",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.537428,31.163570",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+  "cafeId": "kuddo-coffee-caohejingm",
+  "query": {
+    "location": "121.438486,31.124650",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:23:37Z",
+  "matchedPoiId": "B0MALU7BI7",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/26221b3408abc1860000003562578572?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ca5adfaa0d94748651c0acc09bd70b34"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7111298ee11d46c81a990ff98670ca1b"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13512620525",
+        "id": "B0MALU7BI7",
+        "tag": "coffee",
+        "entr_location": "121.437808,31.124497",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "华泾",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "KUDDO COFFEE(漕河泾M+店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.4",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621534520",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:43:26",
+        "website": [],
+        "address": "华发路899弄3号1层08号铺位",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.438490,31.124647",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/9c2d17c7c7acaead0000003426820365"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MATRWCD4",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "华泾",
+        "childtype": [],
+        "atag": [],
+        "name": "瑞幸咖啡(朱梅路地铁站3号口店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "94",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周五 06:30-19:30；周六至周日 07:30-18:00",
+          "rating": "3.2",
+          "open_time": "06:30-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621534520",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 07:55:14",
+        "website": [],
+        "address": "老沪闵路与扬启路交叉口西北20米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.437829,31.124013",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF93KCQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4454467cdd23faf59eefb9aa7e20ba64"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2c8ed1ea4f20c4e7629ac69c73defa18"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MDT5C9NH",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "华泾",
+        "childtype": "202",
+        "atag": [],
+        "name": "比星咖啡漕河泾M+商业中心店",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "106",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.0",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621535500",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:13:05",
+        "website": [],
+        "address": "华发路899弄3号1层01B号铺位",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.438148,31.125561",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

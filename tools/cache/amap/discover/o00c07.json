@@ -1,0 +1,163 @@
+{
+ "cell": "o00c07",
+ "bbox": {
+  "w": 121.44500000000001,
+  "s": 31.121111,
+  "e": 121.46000000000001,
+  "n": 31.133333235294117
+ },
+ "declaredCount": 2,
+ "fetchedAt": "2026-09-12T13:32:37Z",
+ "pois": [
+  {
+   "parent": "B0FFHXO68Z",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0JKM9FYJM/comment/fed173da553f6297bfb8dbd49629e36b_2048_2048_80.jpg"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0JKM9FYJM/comment/content_media_external_file_49378_ss__1756614967462_18421764.jpg"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "徐汇区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "4000100100",
+   "id": "B0JKM9FYJM",
+   "tag": "杨枝甘露,柠檬茶,生椰拿铁",
+   "entr_location": "121.450634,31.127011",
+   "adcode": "310104",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "华泾",
+   "childtype": "201",
+   "atag": "杨枝甘露,柠檬茶,生椰拿铁",
+   "name": "瑞幸咖啡(东阔生活广场店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "13.00",
+    "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+    "rating": "4.3",
+    "open_time": "09:00-20:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621535600",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "1",
+   "email": [],
+   "timestamp": "2026-09-06 19:46:45",
+   "website": [],
+   "address": "华发路272号东阔生活广场底商",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": "GD0012780210100059",
+    "truefloor": "1F",
+    "cpid": "B0FFF49X49",
+    "floor": "1"
+   },
+   "exit_location": [],
+   "location": "121.450625,31.127176",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B00155G2UQ",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c846def490d6ad950000002631624399?type=pic"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/26e555f02e9a67490000002631482844?type=pic"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/3b45c999a54063cd0000002631578708?type=pic"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "徐汇区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "18512156377",
+   "id": "B0L2UZEFNF",
+   "tag": [],
+   "entr_location": "121.456049,31.122541",
+   "adcode": "310104",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "华泾",
+   "childtype": "302",
+   "atag": [],
+   "name": "来坐小苑咖啡",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "33.00",
+    "opentime2": "周二至周日 09:00-19:00",
+    "rating": "4.5",
+    "open_time": "09:00-19:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621534621",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-08-31 08:12:45",
+   "website": [],
+   "address": "龙吴路2219号",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.455977,31.122631",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

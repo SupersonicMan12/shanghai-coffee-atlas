@@ -1,0 +1,315 @@
+{
+  "cafeId": "laika-wogewuninglu1698",
+  "query": {
+    "location": "121.423275,31.237973",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:22:57Z",
+  "matchedPoiId": "B0MDS7I9FZ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4355a64b335e66150848f2366c5d1eee"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MDS7I9FZ",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "来咖(我格武宁路1698店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "1.8",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:58:09",
+        "website": [],
+        "address": "普雄路与武宁支路交叉口西100米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423275,31.237975",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LYN1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JK4AOXNP/comment/6dee2685896282ba4d29578560ce87e3_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JK4AOXNP/comment/B9EFC62C_1890_46F4_8F7F_5ABB184F88A8_L0_001_1500_200_1772105969785_77391576.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13040629018;4000100100",
+        "id": "B0JK4AOXNP",
+        "tag": "柠檬茶,生椰拿铁,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "武宁地区",
+        "childtype": "201",
+        "atag": "柠檬茶,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(IMAGO我格广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "6",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "3.8",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-10 18:07:57",
+        "website": [],
+        "address": "武宁路101号我格广场负一层C11室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "38220200100764",
+          "truefloor": "B1",
+          "cpid": "B00155LYN1",
+          "floor": "-1"
+        },
+        "exit_location": [],
+        "location": "121.423236,31.237929",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LYN1",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-62379627",
+        "id": "B0FFHPMOXC",
+        "tag": "抹茶星冰乐,可可碎片星冰乐,摩卡,香草拿铁,热巧克力,抹茶拿铁,单人餐,三明治,下午茶",
+        "entr_location": "121.423559,31.238135",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "武宁地区",
+        "childtype": "202",
+        "atag": "抹茶星冰乐,可可碎片星冰乐,摩卡,香草拿铁,热巧克力,抹茶拿铁,单人餐,三明治,下午茶",
+        "name": "星巴克(我格广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_623188",
+        "distance": "7",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.4",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638312",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-12 12:48:24",
+        "website": [],
+        "address": "武宁路101号我格广场F1层L1-04(北3门附近)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "38220210100558",
+          "truefloor": "F1",
+          "cpid": "B00155LYN1",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.423337,31.238011",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LYN1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155QDWI/comment/A1473DD0_C025_48CC_9F25_36ED6FF227D2_L0_001_2000_1500_1736960699976_93140259.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7c95ba48fd70fcf03f76e3b4cd86e9ae"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7bc76c8a0583f6e2e7b60ba495d5b1ec"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50580915",
+        "id": "B00155QDWI",
+        "tag": "焦糖拿铁酷乐,摩卡酷乐,香草焦糖卡布奇诺,香草焦糖卡布奇诺咖啡,黑森林热巧克力,热抹茶拿铁,远古森林提拉米苏,卡布奇诺芝士蛋糕,香草味拿铁,杏仁热巧克力,法式布蕾拿铁,咖喱鸡帕尼尼,英式伯爵茶,凯撒鸡肉色拉,榛果巧克力酷乐冰,coffee,牛肉,美式咖啡,下午茶,提拉米苏,生椰拿铁",
+        "entr_location": "121.423674,31.237179",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "武宁地区",
+        "childtype": "202",
+        "atag": "焦糖拿铁酷乐,摩卡酷乐,香草焦糖卡布奇诺,香草焦糖卡布奇诺咖啡,黑森林热巧克力,热抹茶拿铁,远古森林提拉米苏,卡布奇诺芝士蛋糕,香草味拿铁,杏仁热巧克力,法式布蕾拿铁,咖喱鸡帕尼尼,英式伯爵茶,凯撒鸡肉色拉,榛果巧克力酷乐冰,coffee,牛肉,美式咖啡,下午茶,提拉米苏,生椰拿铁",
+        "name": "Costa Coffee(上海我格广场2店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_804440",
+        "distance": "91",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 08:00-22:00",
+          "rating": "4.4",
+          "open_time": "08:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:55:39",
+        "website": [],
+        "address": "长寿路街道武宁路101号我格广场F1层L1-09室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.422376,31.238265",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

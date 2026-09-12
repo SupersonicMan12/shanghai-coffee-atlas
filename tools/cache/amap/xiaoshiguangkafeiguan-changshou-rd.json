@@ -1,0 +1,398 @@
+{
+  "cafeId": "xiaoshiguangkafeiguan-changshou-rd",
+  "query": {
+    "location": "121.432465,31.238495",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:04:31Z",
+  "matchedPoiId": "B001574YBE",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "9",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B001574YBE/comment/619b82132fc9efdc55ea4439cbc73019_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/869f231e75b986a60000002122858059?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e18b7640f98148900000003090300630?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15201869829",
+        "id": "B001574YBE",
+        "tag": "生椰拿铁",
+        "entr_location": "121.432547,31.238396",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": [],
+        "atag": "生椰拿铁",
+        "name": "小时光咖啡馆(长寿路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_543913",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周六至周日 08:00-19:00；周一至周五 08:00-18:00 2026-02-12至2026-02-20 周一至周日 全天关闭",
+          "rating": "4.6",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638411",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:18:37",
+        "website": [],
+        "address": "长寿路652号景源时尚产业园",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.432468,31.238498",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJAA8RT",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKX2PZM/comment/2d2e54edeecf4ed3cf0af11e72e4a5ea_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKX2PZM/comment/1e96a788e3f02a1949ede826a9ff627c_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKX2PZM/comment/1755a8d6698c8bd4bdc81d4649567e08_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13482840140",
+        "id": "B0FFKX2PZM",
+        "tag": "手冲咖啡,提拉米苏,卡布奇诺,椒麻鸡",
+        "entr_location": "121.431175,31.237674",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "320",
+        "atag": "手冲咖啡,提拉米苏,卡布奇诺,椒麻鸡",
+        "name": "LACHER(创享塔店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "163",
+        "importance": [],
+        "biz_ext": {
+          "cost": "25.00",
+          "opentime2": "周一至周日 09:30-21:00",
+          "rating": "1.6",
+          "open_time": "09:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638411",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 15:45:53",
+        "website": [],
+        "address": "叶家宅路100号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.430943,31.237806",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJAA8RT",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b7f044ac02e05f390000001831062510?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/454f147647de2425ac3baa8bb3cf48e2"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f62f21c77baad1580000001831040673?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-55699925;17717906468",
+        "id": "B0IBOZKSML",
+        "tag": "牛角包,卡布奇诺",
+        "entr_location": "121.430838,31.237783",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "320",
+        "atag": "牛角包,卡布奇诺",
+        "name": "享Share Cafe(创享塔店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "175",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周五 07:30-21:00；周六至周日 08:00-21:00",
+          "rating": "4.3",
+          "open_time": "08:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638411",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:27:02",
+        "website": [],
+        "address": "叶家宅路100号9幢101室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.430754,31.237915",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ0Y08U",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/efc86482f1b7fb1f66f6f10f89663dda"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c8d792086e82ee4d0000003721548643?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFM2XUEN",
+        "tag": "杨枝甘露,卡布奇诺,牛肉,生椰拿铁,柠檬茶",
+        "entr_location": "121.435238,31.239003",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": "杨枝甘露,卡布奇诺,牛肉,生椰拿铁,柠檬茶",
+        "name": "瑞幸咖啡(新百安商场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "238",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "3.7",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638412",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:52:47",
+        "website": [],
+        "address": "胶州路1055号新百安商场底商",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.434968,31.238664",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ0Y08U",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-62180655",
+        "id": "B0FFKNWA7J",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.43480800000002,31.239184",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长寿路",
+        "childtype": "202",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(新百安商场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "239",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.6",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638422",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:15:19",
+        "website": [],
+        "address": "胶州路1055号1楼106-108室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.434910,31.238994",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

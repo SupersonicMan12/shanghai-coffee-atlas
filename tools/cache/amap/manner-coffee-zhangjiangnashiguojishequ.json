@@ -1,0 +1,244 @@
+{
+  "cafeId": "manner-coffee-zhangjiangnashiguojishequ",
+  "query": {
+    "location": "121.623593,31.168668",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:01:36Z",
+  "matchedPoiId": "B0JAH5HTG1",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0KR6RY3U4",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/86212c549ead29d791653490638bd893"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JAH5HTG1/comment/d6f7b8a0836d94f678a3e8d5ced99765_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JAH5HTG1",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": "121.62358657607804,31.168738548695416",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "320",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(张江纳仕国际社区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周五 07:30-17:00；周六至周日 08:00-17:00",
+          "rating": "4.2",
+          "open_time": "07:30-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621640902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:58:26",
+        "website": [],
+        "address": "科农路99弄23号1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.623589,31.168672",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0KR6RY3U4",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/34b0dfff8aaed62b0000000722074525?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/899017d2e8a57e1f4a214a6aa3b96127"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0IKTUK4PI",
+        "tag": "柠檬茶,杨枝甘露,生椰拿铁",
+        "entr_location": "121.6232834377638,31.16866843133464",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "320",
+        "atag": "柠檬茶,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(张江国际社区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "14",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.2",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621640902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:07:55",
+        "website": [],
+        "address": "科农路99弄24号一层101室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.623441,31.168671",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0KB4KNP6M",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/12ec8c08973f4c25aed0bfb0bf6aca9f"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KAC50WG3/comment/C4688063_5C2A_43F6_896A_E737C392B603_L0_001_1500_2000_1730124075644_46171307.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/892cff52cf6762637fe7440013b31c4d"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-66566878",
+        "id": "B0KAC50WG3",
+        "tag": "红颜草莓星冰乐,红茶鸳鸯,单人餐,下午茶",
+        "entr_location": "121.624027,31.168803",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "202",
+        "atag": "红颜草莓星冰乐,红茶鸳鸯,单人餐,下午茶",
+        "name": "星巴克(张江纳仕国际社区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "55",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周四 07:00-18:00；周五至周日 07:00-20:00",
+          "rating": "4.5",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621640902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:22:18",
+        "website": [],
+        "address": "科农路99弄9幢19号A室(张江国际社区纳仕云庐08-01地块西门旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.624171,31.168695",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

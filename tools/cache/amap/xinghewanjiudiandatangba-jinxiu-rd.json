@@ -1,0 +1,173 @@
+{
+  "cafeId": "xinghewanjiudiandatangba-jinxiu-rd",
+  "query": {
+    "location": "121.538181,31.192137",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:14Z",
+  "matchedPoiId": "B0FFHGRCBL",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155MVF1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7fdbdf91b11fced9f0acc9aaa39e89e7"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/5b86ed5e92eba93d7c0d0d550d188fe2"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/b624b311c7ccdfe9d3803cbe6fe10cb4"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-38929666",
+        "id": "B0FFHGRCBL",
+        "tag": "提拉米苏,鸡尾酒,卡布奇诺",
+        "entr_location": "121.538312,31.192322",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "六里",
+        "childtype": "312",
+        "atag": "提拉米苏,鸡尾酒,卡布奇诺",
+        "name": "星河湾酒店·大堂吧(锦绣路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010013_503876",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "61.00",
+          "opentime2": "周一至周日 12:00-20:30",
+          "rating": "4.5",
+          "open_time": "12:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621643300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 23:30:01",
+        "website": [],
+        "address": "锦绣路2588弄星河湾酒店1楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.538177,31.192136",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFFP7042",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFFEAESG/comment/387495f67731d069105869268412e4bb_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFFEAESG/comment/AA43F2B0_B7C6_4D90_8694_90003F726042_L0_001_1178_75_1769731568282_04795647.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-58333010",
+        "id": "B0FFFEAESG",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.53797900112113,31.194375435839945",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "六里",
+        "childtype": "324",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(浦东星河湾店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010013_503875",
+        "distance": "235",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 06:30-22:00；周六至周日 07:00-22:00",
+          "rating": "4.7",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621643300",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 08:09:11",
+        "website": [],
+        "address": "锦绣路2580号星河湾商业街1号101铺位",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.537970,31.194247",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

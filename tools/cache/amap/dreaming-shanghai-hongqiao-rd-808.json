@@ -1,0 +1,398 @@
+{
+  "cafeId": "dreaming-shanghai-hongqiao-rd-808",
+  "query": {
+    "location": "121.423990,31.193732",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:08:44Z",
+  "matchedPoiId": "B0J35PTV0B",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFIKG9D8",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/cfba0b61b1f782a10000000964966779?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7d76eb88f75f6a7a0000000964958892?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1772264002500_33323244_1772264004918_17517239.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18221956912",
+        "id": "B0J35PTV0B",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": "202",
+        "atag": [],
+        "name": "Dreaming·Shanghai张国荣纪念空间",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "65.00",
+          "opentime2": "周一至周四 12:00-19:00；周五至周日 12:00-23:00",
+          "rating": "4.6",
+          "open_time": "12:00-23:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633302",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 13:34:27",
+        "website": [],
+        "address": "虹桥路808号融景·解园D3座一层D339室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423986,31.193736",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156LVIV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H25UN7MM/comment/6D913954_B830_4CF7_84A7_388E86BA3DBA_L0_001_1500_200_1768466631522_74076485.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H25UN7MM/comment/42C04904_D24B_4BE8_BEEF_BEACC94D20DA_L0_001_1500_200_1768466631718_58043564.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H25UN7MM/comment/6F202004_0EB3_4DA0_8143_3A409C2A7048_L0_001_1500_200_1768466631719_43994724.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0H25UN7MM",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": "202",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(汇京国际广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "248",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.0",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 06:16:48",
+        "website": [],
+        "address": "淮海西路555号汇京国际广场1层125室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423485,31.195922",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156LVIV",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-52996895",
+        "id": "B0FFIG2VN8",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.422926,31.195923",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(汇京国际广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_523373",
+        "distance": "256",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-20:20；周六至周日 07:00-20:20",
+          "rating": "4.4",
+          "open_time": "07:00-20:20",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633312",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:05:13",
+        "website": [],
+        "address": "淮海西路555号汇京国际广场F1层103单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423054,31.195891",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156LVIV",
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;外国餐厅;西餐厅(综合风味)|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st0ed721ae-d440-407f-8484-d4d61aeefc19&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJH7BU0/comment/4fd48aab86c55b1364a4a1df7efab551_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJH7BU0/comment/b84a1789cfbe0b1942ea011e3f38534c_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050201|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19121333212",
+        "id": "B0FFJH7BU0",
+        "tag": "双人餐,单人餐",
+        "entr_location": "121.422956,31.196004",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": "202",
+        "atag": "双人餐,单人餐",
+        "name": "Wagas沃歌斯(上海汇京广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "267",
+        "importance": [],
+        "biz_ext": {
+          "cost": "80.00",
+          "opentime2": "周一至周五 07:00-21:00；周六至周日 08:00-20:00",
+          "rating": "4.4",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:34:50",
+        "website": [],
+        "address": "淮海西路555号F-104-107",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423180,31.196032",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156LVIV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e7d07a611e6344762fdb792a438ce899"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFITJA4J/comment/content_media_external_file_1000048413_ss__1769169986063_88770442.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFITJA4J",
+        "tag": "柠檬茶,生椰拿铁,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": "202",
+        "atag": "柠檬茶,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(汇京国际店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "275",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633312",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:12:44",
+        "website": [],
+        "address": "虹桥路777号汇京国际广场负一层08室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.423489,31.196173",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "cafeId": "coffee-brunch-longhua-east-rd-868",
+  "query": {
+    "location": "121.472678,31.192705",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:52:11Z",
+  "matchedPoiId": "B0L3HU7VUT",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFJ90VCI",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13720_IMG_1762915225_11422_IMG_20251112_103845_jpg_ss__1764145962436_35701744.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13716_IMG_1762914978_11418_IMG_20251112_103438_jpg_ss__1764145962433_03287619.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5fd3be143fd1cec67920cc26cbb923fe"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13918191973",
+        "id": "B0L3HU7VUT",
+        "tag": "coffee",
+        "entr_location": "121.472518,31.193006",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "第八日 COFFEE·BRUNCH",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "52.00",
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.2",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 13:47:03",
+        "website": [],
+        "address": "龙华东路868号102室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.472679,31.192704",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ90VCI",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5cc5330dc6cbbf0b0000002453102927?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1e1c09cc5c3d9a4d0000002453088763?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/80895a140f30329323074be570f9917f"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-53078562;021-60349770",
+        "id": "B0FFGYWWY6",
+        "tag": "拿铁咖啡,海盐焦糖风味拿铁,熊猫生椰拿铁,椰皇美式,丝慕白咖啡,熊猫竹香生椰拿铁,coffee,生椰拿铁,下午茶",
+        "entr_location": [],
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": "拿铁咖啡,海盐焦糖风味拿铁,熊猫生椰拿铁,椰皇美式,丝慕白咖啡,熊猫竹香生椰拿铁,coffee,生椰拿铁,下午茶",
+        "name": "Costa Coffee(上海绿地外滩店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_530390",
+        "distance": "19",
+        "importance": [],
+        "biz_ext": {
+          "cost": "31.00",
+          "opentime2": "周一至周日 08:00-21:00",
+          "rating": "4.4",
+          "open_time": "08:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 16:56:34",
+        "website": [],
+        "address": "龙华东路868号黄浦绿地缤纷城1楼104-105室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.472643,31.192530",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ90VCI",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IR0UU61U/comment/b82559e8207686e349664a3ae2eee8b1_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IR0UU61U/comment/10e652ab8abdd29ce74e6179ef88198c_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19370590529",
+        "id": "B0IR0UU61U",
+        "tag": "生椰拿铁,冰美式",
+        "entr_location": [],
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": "生椰拿铁,冰美式",
+        "name": "CUBIC 3 三立方咖啡(黄浦绿地缤纷城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "85",
+        "importance": [],
+        "biz_ext": {
+          "cost": "23.00",
+          "opentime2": "周一至周五 08:00-16:00",
+          "rating": "4.2",
+          "open_time": "08:00-16:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633702",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 12:04:32",
+        "website": [],
+        "address": "龙华东路858号4101室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.473038,31.193412",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ90VCI",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8b13c4f6abd52b9b36c0ac1f8ffdc367"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0JKAMKUF1",
+        "tag": "牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": "牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(绿地海外滩店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "131",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "3.9",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 21:49:53",
+        "website": [],
+        "address": "龙华东路810号黄浦绿地缤纷城一层2-106号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.473543,31.193627",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJ90VCI",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1ca6b3bea8f88fd20000003157868516?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-63731318",
+        "id": "B0H63M6FE4",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.474475,31.193401",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(上海黄浦绿地缤纷城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "143",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-21:30",
+          "rating": "4.6",
+          "open_time": "07:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:05:09",
+        "website": [],
+        "address": "打浦路658弄1号101-102室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.474062,31.193208",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

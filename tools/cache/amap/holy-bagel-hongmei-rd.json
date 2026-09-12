@@ -1,0 +1,394 @@
+{
+  "cafeId": "holy-bagel-hongmei-rd",
+  "query": {
+    "location": "121.387749,31.187197",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:59:12Z",
+  "matchedPoiId": "B0I3TRHN7V",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155GE9S",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/77d391df70f32a6d5e06267685d4bd51"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/133a3569355fd9b60000000722462886?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/60ea68e8970193c70000000722486201?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13671965682",
+        "id": "B0I3TRHN7V",
+        "tag": "沙拉,三明治,卡布奇诺,金枪鱼",
+        "entr_location": "121.38778097658468,31.187154942028492",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "202",
+        "atag": "沙拉,三明治,卡布奇诺,金枪鱼",
+        "name": "HOLY BAGEL(虹梅路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "54.00",
+          "opentime2": "周一至周日 07:30-19:30 2026-02-16至2026-02-19 周一至周日 07:30-16:00",
+          "rating": "4.7",
+          "open_time": "07:30-19:30 07:30-16:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632110",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:59:38",
+        "website": [],
+        "address": "虹梅路3219-3223号1楼P室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.387745,31.187201",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L4NV",
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e829f0438c6e62d4cd79701a120737d0"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3c843f1b36d053dc0769ba8985972396"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J2N9I9T8",
+        "tag": "生椰拿铁,coffee,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "320",
+        "atag": "生椰拿铁,coffee,杨枝甘露",
+        "name": "luckin coffee 瑞幸咖啡(虹梅路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "84",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632110",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:35:55",
+        "website": [],
+        "address": "虹梅路3186号B",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.387573,31.187943",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L4NV",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a04738e96abc2ae1133b61263a388eba"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/cf57e07ecb1ed5360000002355384916?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54221872",
+        "id": "B00155FSMA",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.387295,31.188036",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "320",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(虹梅路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_87523",
+        "distance": "92",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632012",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 03:03:49",
+        "website": "www.starbucks.cn",
+        "address": "虹梅路3188-1号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.387494,31.187998",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L4NV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L1SLR5AW/comment/a615b3e7-64ec-44cd-bef5-19a951394fe7.png"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L1SLR5AW/comment/f38a7478-73ba-4490-ab14-719d5f68f7c1.png"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L1SLR5AW",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.387222,31.188122",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "320",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "MANNERCOFFEE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "117",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.0",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-07-15 12:02:56",
+        "website": [],
+        "address": "虹梅路与程家桥支路交叉口西北120米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.387335,31.188195",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0I1XKIL7L",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFM1GQUL/headerImg/0cfa8a933d9772a9e0a2a9753279682e_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFM1GQUL/headerImg/52e169f714c2f801e2967e90225746b2_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7b7b95055ee267df32f31fce301e8354"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFM1GQUL",
+        "tag": [],
+        "entr_location": "121.386495,31.186433",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "202",
+        "atag": [],
+        "name": "火山咖啡(红春商务楼店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "169",
+        "importance": [],
+        "biz_ext": {
+          "cost": "46.00",
+          "opentime2": "周一至周日 09:00-20:00",
+          "rating": "4.2",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632012",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 08:56:04",
+        "website": [],
+        "address": "虹梅路3213号红春商务楼2幢",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.386425,31.186180",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

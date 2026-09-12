@@ -1,0 +1,173 @@
+{
+  "cafeId": "dei-coffee-shop-jinqiao",
+  "query": {
+    "location": "121.606694,31.269766",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:00:42Z",
+  "matchedPoiId": "B0LDKSMQND",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00156TLX5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4090eb090278008b866a6e69c2002ad7"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDKSMQND/comment/3270C10F_4483_4A78_858E_552C7417D764_L0_001_2000_1500_1757227984099_20936208.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LDKSMQND/comment/20260316-44bf88b809f57606fc1fc386-1TlXG0qN1Zu8lcYUCAnJk2.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18516508523",
+        "id": "B0LDKSMQND",
+        "tag": "coffee",
+        "entr_location": "121.606598,31.269685",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "DEI COFFEE SHOP(金桥店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.5",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621742811",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 03:51:32",
+        "website": [],
+        "address": "佳林路63号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.606698,31.269765",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3VHK131/comment/DB2E4BC4_5A13_4EFB_9F47_B396EE8B3DED_L0_001_1536_2048_1742950637310_54343711.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3VHK131/comment/654BC8DB_7FC1_4353_9D74_609E7F153656_L0_001_1500_2000_1742950637310_08282613.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3VHK131/comment/content_media_external_images_media_1000019522_ss__1735792874896_87951369.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18001610230",
+        "id": "B0K3VHK131",
+        "tag": "单人餐",
+        "entr_location": "121.60698073537638,31.26933746056867",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": [],
+        "atag": "单人餐",
+        "name": "晓埜咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "57",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": "周一至周日 10:00-18:00",
+          "rating": "4.0",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621742801",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 21:29:09",
+        "website": [],
+        "address": "佳林路76号1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.606919,31.269288",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

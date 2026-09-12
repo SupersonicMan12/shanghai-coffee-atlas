@@ -1,0 +1,240 @@
+{
+  "cafeId": "touchcoffee-bar-donglan-rd-258-41",
+  "query": {
+    "location": "121.401014,31.157399",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:21:30Z",
+  "matchedPoiId": "B0L35ZDUWQ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/d7504ad7a4ac179f53d933e6e6485ed4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8f748c8fbc495db43f87370674861f38"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/fedbcf477c337e17bbc0eda1eeab490a"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18621580066",
+        "id": "B0L35ZDUWQ",
+        "tag": "coffee",
+        "entr_location": "121.401046,31.157367",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "陶式touchcoffee&bar",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "75.00",
+          "opentime2": "周一,周三至周日 07:00-18:30,18:30-02:00",
+          "rating": "4.0",
+          "open_time": "07:00-18:30 18:30-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621538220",
+        "shopinfo": "0",
+        "alias": "SHIFT Coffee & Bistro",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:51:59",
+        "website": [],
+        "address": "东兰路258-41号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.401012,31.157402",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155MYH4",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LD7S1358/comment/024DE8E0_7ACE_4A71_B2D0_BF9CD1D73741_L0_001_1536_204_1769653887498_33740815.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LD7S1358/comment/F3AB2529_7280_4859_9C59_0937DACC7CCB_L0_001_2048_153_1769653887505_89296913.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15850137770",
+        "id": "B0LD7S1358",
+        "tag": [],
+        "entr_location": "121.399307,31.159582",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": [],
+        "name": "NOWWA挪瓦咖啡(生活驿站上海华城广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "298",
+        "importance": [],
+        "biz_ext": {
+          "cost": "12.00",
+          "opentime2": "周一至周日 10:00-17:00",
+          "rating": "3.6",
+          "open_time": "10:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539102",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 11:41:49",
+        "website": [],
+        "address": "古美路1465号左邻右舍便利店",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.399113,31.159526",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5921a3726faf59e15709e166a2ba10a8"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L25LD5F7",
+        "tag": "coffee",
+        "entr_location": "121.4037291235295,31.158730377960804",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "miixcoffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "300",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": [],
+          "rating": "2.9",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539200",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:55:52",
+        "website": [],
+        "address": "虹梅路与东兰路交叉口西北60米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.403704,31.158803",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

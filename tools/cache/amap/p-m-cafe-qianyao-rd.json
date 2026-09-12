@@ -1,0 +1,240 @@
+{
+  "cafeId": "p-m-cafe-qianyao-rd",
+  "query": {
+    "location": "121.473901,31.159505",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:56Z",
+  "matchedPoiId": "B0L0U5W0GM",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/70aeef90d40432d91068a1c282b9075b"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "16601788310",
+        "id": "B0L0U5W0GM",
+        "tag": [],
+        "entr_location": "121.473756,31.159545",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": [],
+        "atag": [],
+        "name": "P.M CAFE(前耀路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 08:30-18:30",
+          "rating": "4.6",
+          "open_time": "08:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 14:12:55",
+        "website": [],
+        "address": "前耀路180号1层L106",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.473901,31.159508",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1CCB8HF/comment/c17e5ec7225849e6493e2c7ae6f28f36_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1CCB8HF/comment/3887c22474a6d62e0a823bee6f665756_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8d0a689bc1f073360000002746654705?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50375720",
+        "id": "B0I1CCB8HF",
+        "tag": "单人餐,下午茶,三明治",
+        "entr_location": "121.473828,31.159735",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": [],
+        "atag": "单人餐,下午茶,三明治",
+        "name": "星巴克臻选(上海前滩友城公园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "49",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 06:45-18:00；周六至周日 06:45-20:00",
+          "rating": "4.6",
+          "open_time": "06:45-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:40:07",
+        "website": [],
+        "address": "前耀路139号一层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.473427,31.159676",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1771783591618_69666665_1771783728464_82452543.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LGF7RSDR/comment/file_media_Photo_17827_IMG_1761377145_17671_IMG_20251025_152405_jpg_ss__1768383072452_27050531.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LGF7RSDR/comment/file_media_Photo_17828_IMG_1761377164_17672_IMG_20251025_152424_jpg_ss__1768383072439_61220389.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LGF7RSDR",
+        "tag": [],
+        "entr_location": "121.473447,31.160424",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "前滩",
+        "childtype": [],
+        "atag": [],
+        "name": "一尺花园(前滩友城公园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "110",
+        "importance": [],
+        "biz_ext": {
+          "cost": "85.00",
+          "opentime2": "周一至周五 09:30-20:00；周六至周日 09:30-21:00",
+          "rating": "4.7",
+          "open_time": "09:30-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539702",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 16:03:19",
+        "website": [],
+        "address": "前耀路185号(近友城公园1号门)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.473520,31.160447",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "cafeId": "chili-s-cafe-bar-binjiang",
+  "query": {
+    "location": "121.497397,31.235135",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:35Z",
+  "matchedPoiId": "B0FFM5HA7F",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;外国餐厅;西餐厅(综合风味)|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/54976b5f2c9c17ce19ffc37bdf75cf08"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/a4beff1b258e6cb9b14e9b5e95d5c32e"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/b57a4b1195242fdc72686d6b0720877d"
+          }
+        ],
+        "building": [],
+        "typecode": "050201|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18616223072",
+        "id": "B0FFM5HA7F",
+        "tag": "汉堡,薯条,双人餐,下午茶,牛肉",
+        "entr_location": "121.49739,31.235201",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": "汉堡,薯条,双人餐,下午茶,牛肉",
+        "name": "Chili's Cafe&Bar奇利斯(滨江店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "164.00",
+          "opentime2": "周一至周四,周日 11:00-24:00；周五至周六 11:00-次日01:00",
+          "rating": "4.8",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:46:16",
+        "website": [],
+        "address": "滨江大道3072号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.497400,31.235140",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/19450652b7adf19c0000002965702649?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/daab00c88feb76980000002965700648?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00156EFUC/comment/05db6d3eafb1a31fe5bdd9332f95abca_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-58781332",
+        "id": "B00156EFUC",
+        "tag": "三明治,下午茶,单人餐,星冰乐",
+        "entr_location": "121.497487,31.23526",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": "三明治,下午茶,单人餐,星冰乐",
+        "name": "星巴克(滨江店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_506867",
+        "distance": "11",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:30",
+          "rating": "4.6",
+          "open_time": "06:30-22:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638902",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:16:17",
+        "website": [],
+        "address": "滨江大道富都段",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.497481,31.235067",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4dacbb50af7da53e3992e33024f6acb9"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J3FSBQYE/headerImg/4178ad85857f2de9dda69b95d6efe788_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J3FSBQYE/comment/C152874A_85F0_4847_9CA8_FAC5ECEF7196_L0_001_1512_2016_1728747852585_44907514.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18021003931",
+        "id": "B0J3FSBQYE",
+        "tag": "芝士牛肉卷",
+        "entr_location": "121.498618,31.235147",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": "芝士牛肉卷",
+        "name": "旷野公园营地咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "90",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 10:30-21:00",
+          "rating": "4.3",
+          "open_time": "10:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638902",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 22:56:59",
+        "website": [],
+        "address": "富城路30号(陆家嘴地铁站9B口步行480米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.498338,31.235017",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L3FH",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0HUAU8RXI",
+        "tag": "陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,coffee,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,coffee,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(震旦国际店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "216",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 08:00-18:30",
+          "rating": "3.9",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:51:25",
+        "website": [],
+        "address": "富城路99号震旦国际大楼B1层03单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.499599,31.234664",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155HPPW",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50495869",
+        "id": "B00156GXED",
+        "tag": "拿铁,摩卡星冰乐,焦糖玛奇朵,摩卡,卡布奇诺,抹茶拿铁,香草星冰乐,馥芮白,下午茶,单人餐",
+        "entr_location": "121.499822,31.235013",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "拿铁,摩卡星冰乐,焦糖玛奇朵,摩卡,卡布奇诺,抹茶拿铁,香草星冰乐,馥芮白,下午茶,单人餐",
+        "name": "星巴克(未来资产大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_806511",
+        "distance": "245",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-19:00；周六至周日 08:30-17:00 2026-05-01至2026-05-05 周一至周日 全天关闭",
+          "rating": "4.4",
+          "open_time": "08:30-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621638902",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 15:52:19",
+        "website": [],
+        "address": "陆家嘴环路166号未来资产大厦1层102室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.499978,31.235060",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

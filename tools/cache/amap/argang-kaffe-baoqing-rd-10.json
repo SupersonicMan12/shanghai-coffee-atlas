@@ -1,0 +1,623 @@
+{
+  "cafeId": "argang-kaffe-baoqing-rd-10",
+  "query": {
+    "location": "121.449711,31.211196",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:06:34Z",
+  "matchedPoiId": "B0H6NCF941",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "9",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H6NCF941/comment/F4712558_0F2C_4860_9CA8_5E37EA9BB724_L0_001_1512_201_1763304336593_48583193.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H6NCF941/comment/157f7ddd170aecca993f16fe46d50f0b_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H6NCF941/comment/67B63C0D_CA6C_48B3_906F_94D7E3CC4A8E_L0_001_2000_144_1770877576529_38667579.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18117156436",
+        "id": "B0H6NCF941",
+        "tag": "卡布奇诺,芝士",
+        "entr_location": "121.449767,31.211299",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": [],
+        "atag": "卡布奇诺,芝士",
+        "name": "argang kaffe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "62.00",
+          "opentime2": "周一至周日 10:00-18:00",
+          "rating": "4.6",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635512",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 17:24:19",
+        "website": [],
+        "address": "宝庆路10号2栋1楼(常熟路地铁站7号口步行190米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449714,31.211197",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFG0X3OV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e403699fe17622a70f9c1ea04f895df7"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKDL60AE/comment/9d619c44c6602f73765a07e1af35cd50_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HKDL60AE/comment/content_media_external_file_1000329060_ss__1758881750454_98959613.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0HKDL60AE",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": "121.449470,31.212096",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee(云海大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "96",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 08:37:12",
+        "website": [],
+        "address": "淮海中路1329号云海大厦F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449489,31.212046",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFJXDJ0F",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155H8SE/comment/1b0f9951c87192191520b7fdaecc97c4_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54661781",
+        "id": "B00155H8SE",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.449838,31.212361",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(瑞丽大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_589232",
+        "distance": "132",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.5",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635512",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:24:27",
+        "website": "www.starbucks.cn",
+        "address": "徐汇区淮海中路1325号瑞丽大厦1层103室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449925,31.212375",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I2F7QXXJ/comment/F1F87D71_1518_407A_97DC_F0F3DCA9EF0A_L0_001_2001_133_1769672653261_39855188.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a9247d75e0ae47010000000739084440?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/fb770d1b800e99c10000002703492448?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19370710153",
+        "id": "B0I2F7QXXJ",
+        "tag": "下午茶,鸡翅,薯条",
+        "entr_location": "121.449988,31.209371",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": [],
+        "atag": "下午茶,鸡翅,薯条",
+        "name": "一尺花园(香樟花园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "199",
+        "importance": [],
+        "biz_ext": {
+          "cost": "103.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.7",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635502",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 20:05:23",
+        "website": [],
+        "address": "衡山路2号甲(常熟路地铁站7号口步行390米,近桃江路地面停车场)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449852,31.209404",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155IR0H",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKS82E7/comment/5049FC68_440A_4CDB_B8A7_496DEBAF245A_L0_001_2000_1500_1743409505153_04147734.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/fd611f37a041ad27a64612ec3b5cf859"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKS82E7/comment/F4439726_359D_4E3B_9FF9_0EA24F3BCD27_L0_001_2000_150_1753500786601_03689067.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64687653;15301931896",
+        "id": "B0FFKS82E7",
+        "tag": "卡布奇诺,点心",
+        "entr_location": "121.449348,31.213144",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": "202",
+        "atag": "卡布奇诺,点心",
+        "name": "乔咖啡(淮海大楼店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "201",
+        "importance": [],
+        "biz_ext": {
+          "cost": "24.00",
+          "opentime2": "周一至周日 07:00-19:00",
+          "rating": "4.5",
+          "open_time": "07:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635512",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:57:58",
+        "website": [],
+        "address": "淮海中路1326弄0号淮海大楼F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.449880,31.213004",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155GQ1A",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFFZK032/comment/F0C3D1A5_B7A5_49F6_86BA_EF210BF8B79F_L0_001_1512_2016_1727284840097_06658374.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1772636663921_79277617_1772636720749_02945967.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f21052f86dd5971a057262282e285b00"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFFZK032",
+        "tag": [],
+        "entr_location": "121.450778,31.213327",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "202",
+        "atag": [],
+        "name": "WS Cafe&Lounge",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_590514",
+        "distance": "257",
+        "importance": [],
+        "biz_ext": {
+          "cost": "183.00",
+          "opentime2": "周一至周日 11:00-16:30,17:30-23:00 2026-02-15至2026-02-20 周一至周日 全天关闭",
+          "rating": "4.7",
+          "open_time": "11:00-16:30 17:30-23:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:24:17",
+        "website": [],
+        "address": "淮海中路1298号(常熟路地铁站1号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.450655,31.213368",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155LB2R",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JKYHE42C/comment/2D52563A_4BF6_4C13_B886_25288F4B93DB_L0_001_1500_200_1765084884282_03550913.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JKYHE42C/comment/content_media_external_file_130931_ss__1752117600935_55997131.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0e03872153901d660000005794840655?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13818874751",
+        "id": "B0JKYHE42C",
+        "tag": "coffee,芝士",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": "coffee,芝士",
+        "name": "Peet's皮爷咖啡(黑石公寓店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "272",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "4.5",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635600",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:58:47",
+        "website": [],
+        "address": "复兴中路1333弄1-6号珊珊小区",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452543,31.210844",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001533255",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LAM5C7YI/comment/6394CEBE_FECA_45FF_9A39_4067E1A1EA66_L0_001_1500_200_1769667351416_71802116.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LAM5C7YI/comment/29D09AD6_2322_403A_9AEB_9462BC6ECE50_L0_001_1500_200_1747201838381_20692018.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LAM5C7YI/comment/E6918828_EDE9_4D86_B206_71AA941EFA8E_L0_001_1500_200_1758096394335_98095462.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18898776209",
+        "id": "B0LAM5C7YI",
+        "tag": [],
+        "entr_location": "121.452021,31.212917",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "淮海路",
+        "childtype": "320",
+        "atag": [],
+        "name": "特写南站线下体验空间",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "288",
+        "importance": [],
+        "biz_ext": {
+          "cost": "51.00",
+          "opentime2": "周一至周日 10:30-18:30",
+          "rating": "4.6",
+          "open_time": "10:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635610",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 00:44:08",
+        "website": [],
+        "address": "淮海中路上方花园1285弄24号3楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.452055,31.212837",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

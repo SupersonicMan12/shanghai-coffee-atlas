@@ -1,0 +1,98 @@
+{
+  "cafeId": "willing-coffee-dongmingdangqun",
+  "query": {
+    "location": "121.522360,31.146697",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:14Z",
+  "matchedPoiId": "B0K30U1XLR",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFH8HP0Y",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/eaeb0fa3910880a90000003145164467"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/584f3bbebcc22d660000003145184003"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3f13bcd883b054280000003145184002"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15897438581",
+        "id": "B0K30U1XLR",
+        "tag": "双人餐,coffee",
+        "entr_location": "121.522158,31.146572",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": "320",
+        "atag": "双人餐,coffee",
+        "name": "为邻咖啡Willing Coffee(东明党群店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "17.00",
+          "opentime2": "周一至周日 08:30-17:00",
+          "rating": "4.2",
+          "open_time": "08:30-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621547112",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 19:44:43",
+        "website": [],
+        "address": "东明路2616号东明路党群服务中心1楼为邻咖啡",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.522361,31.146696",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

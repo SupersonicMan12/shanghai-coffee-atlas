@@ -1,0 +1,90 @@
+{
+  "cafeId": "jingweikafei-jingweiguojidasha",
+  "query": {
+    "location": "121.476277,31.198989",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:52:19Z",
+  "matchedPoiId": "B0FFGP7L0M",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFG9OJZ2",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e2dd2833d5b6f7fc25ca3798903811be"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFGP7L0M",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五里桥",
+        "childtype": "202",
+        "atag": [],
+        "name": "经纬咖啡(经纬国际大厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1040660",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": [],
+          "rating": "4.0",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633820",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:23:43",
+        "website": [],
+        "address": "五里桥街道鲁班路554号经纬国际大厦一楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.476272,31.198992",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

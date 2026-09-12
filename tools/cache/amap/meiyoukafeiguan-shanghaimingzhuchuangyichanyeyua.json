@@ -1,0 +1,323 @@
+{
+  "cafeId": "meiyoukafeiguan-shanghaimingzhuchuangyichanyeyua",
+  "query": {
+    "location": "121.483680,31.292630",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:50:54Z",
+  "matchedPoiId": "B0FFHFHJU2",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFH15XAR",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/beb6e5d72dd3ea4ed62b2bcb614255a1"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/48f2c3c4c43be705d0ae8397d8bc661b"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/9d4cca41451eac4412ca70a8571e918a"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13611722064;18621562696",
+        "id": "B0FFHFHJU2",
+        "tag": [],
+        "entr_location": "121.48375,31.292769",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大柏树",
+        "childtype": "202",
+        "atag": [],
+        "name": "美佑咖啡馆(上海明珠创意产业园2店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "29.00",
+          "opentime2": "周一至周日 09:30-17:00",
+          "rating": "4.0",
+          "open_time": "09:30-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:52:05",
+        "website": [],
+        "address": "上海明珠创意产业园2号楼(大柏树地铁站1号口步行290米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.483682,31.292635",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e0932430a72fd40a8777dd4b332df936"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J3RH1TBO/comment/0c094895b00c756862ea9740fc1d73e7_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13062645253",
+        "id": "B0J3RH1TBO",
+        "tag": "【浓郁丝滑,流云拿铁,橙C新品,芒芒生打椰系列,纯萃燕麦拿铁,生椰拿铁,潘帕斯蓝生酪茉莉拿铁,【柚味臻选,柚见冰沁系列,流云茉莉轻乳茶,【蕉个新朋友,暖咖季香蕉,【茸茸暖咖季,慕斯大红袍生酪拿铁,【桂人多旺事,富桂酒酿,【爆款,全场饮品任选券,阳光青提系列,鲜气杨梅新品,五常米乳拿铁,云顶慕斯新品,杨枝甘露",
+        "entr_location": "121.48373984043921,31.292662017871915",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大柏树",
+        "childtype": [],
+        "atag": "【浓郁丝滑,流云拿铁,橙C新品,芒芒生打椰系列,纯萃燕麦拿铁,生椰拿铁,潘帕斯蓝生酪茉莉拿铁,【柚味臻选,柚见冰沁系列,流云茉莉轻乳茶,【蕉个新朋友,暖咖季香蕉,【茸茸暖咖季,慕斯大红袍生酪拿铁,【桂人多旺事,富桂酒酿,【爆款,全场饮品任选券,阳光青提系列,鲜气杨梅新品,五常米乳拿铁,云顶慕斯新品,杨枝甘露",
+        "name": "库迪咖啡(明珠创意产业园1期店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "14",
+        "importance": [],
+        "biz_ext": {
+          "cost": "9.00",
+          "opentime2": "周一至周日 08:00-19:00",
+          "rating": "4.2",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 10:17:32",
+        "website": [],
+        "address": "广纪路738号明珠创意产业园1期2幢1层底商(停车场入口南侧)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.483825,31.292656",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J3V51X2A",
+        "tag": "陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+        "entr_location": "121.48362,31.291626",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大柏树",
+        "childtype": [],
+        "atag": "陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(明珠创意园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "86",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-18:00",
+          "rating": "4.2",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621735801",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 11:38:14",
+        "website": [],
+        "address": "广纪路615号火车头广场绿车厢一层113号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.483328,31.291916",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65187503",
+        "id": "B0FFFEG6HQ",
+        "tag": "下午茶,单人餐",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": [],
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(大柏树店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_511154",
+        "distance": "253",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.6",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621734821",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:16:59",
+        "website": [],
+        "address": "汶水东路351号1876老站创意园1幢101-102室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.482173,31.290748",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

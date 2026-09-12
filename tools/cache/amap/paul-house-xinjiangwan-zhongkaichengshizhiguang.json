@@ -1,0 +1,90 @@
+{
+  "cafeId": "paul-house-xinjiangwan-zhongkaichengshizhiguang",
+  "query": {
+    "location": "121.501689,31.320368",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:23:58Z",
+  "matchedPoiId": "B0FFHDVMF9",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00157A521",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8a4d68cdcfb3425c9640baad198466e2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13564715398",
+        "id": "B0FFHDVMF9",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": "320",
+        "atag": [],
+        "name": "paul house(新江湾·中凯城市之光店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_1131030",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "88.00",
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.0",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621748010",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:29:54",
+        "website": [],
+        "address": "政芳路与殷高东路交叉口东南100米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.501686,31.320365",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,159 @@
+{
+ "cell": "o01c14",
+ "bbox": {
+  "w": 121.55,
+  "s": 31.133333235294117,
+  "e": 121.565,
+  "n": 31.145555470588235
+ },
+ "declaredCount": 2,
+ "fetchedAt": "2026-09-12T13:33:20Z",
+ "pois": [
+  {
+   "parent": "B0GUYA26LQ",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/2a5d8d5b88fb59bb183a25973d5b5649"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/5f4c5bdd44d68cd39d9e19cd9915cd5d"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "浦东新区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": [],
+   "id": "B0K05NVYI9",
+   "tag": [],
+   "entr_location": [],
+   "adcode": "310115",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "康桥",
+   "childtype": "302",
+   "atag": [],
+   "name": "园林咖啡(秀南公园店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "20.00",
+    "opentime2": "周一至周五 10:00-18:00；周六至周日 09:30-18:00",
+    "rating": "3.1",
+    "open_time": "09:30-18:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621546421",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-09-12 06:23:37",
+   "website": [],
+   "address": "秀康路197号秀南公园内(东侧)",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.557766,31.140937",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": [],
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/638ebe1bf4ce493a0000001002000143"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/9a8ed16cec5cb7914adf26a2e2cea791"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/4d6e20f27caacb680000001001990255"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "浦东新区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "18916844991;4006008173",
+   "id": "B0IAJPO7LM",
+   "tag": "coffee",
+   "entr_location": "121.550439,31.143032",
+   "adcode": "310115",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "康桥",
+   "childtype": [],
+   "atag": "coffee",
+   "name": "Kingdom Coffee",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "39.00",
+    "opentime2": "周一至周五 09:00-17:30",
+    "rating": "3.7",
+    "open_time": [],
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621547400",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-09-12 00:13:58",
+   "website": [],
+   "address": "康桥路666号D栋4层",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.550475,31.142875",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

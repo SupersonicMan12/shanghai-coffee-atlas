@@ -1,0 +1,98 @@
+{
+  "cafeId": "tims-kangqiaokuanting",
+  "query": {
+    "location": "121.610174,31.135072",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:05Z",
+  "matchedPoiId": "B0JKTCBSSD",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0JDAC2WKH",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/95673e3416d0eb8e4820daefc1ecc130"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/de7e7360152c9e8509520cc3638db62e"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-58109039",
+        "id": "B0JKTCBSSD",
+        "tag": "松饼",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "康桥",
+        "childtype": "320",
+        "atag": "松饼",
+        "name": "Tims天好咖啡(康桥宽庭店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "3.9",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621546802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 13:59:29",
+        "website": [],
+        "address": "康桥镇箭桥路615弄12幢2号1层101室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.610175,31.135075",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

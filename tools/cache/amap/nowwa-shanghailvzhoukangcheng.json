@@ -1,0 +1,98 @@
+{
+  "cafeId": "nowwa-shanghailvzhoukangcheng",
+  "query": {
+    "location": "121.575908,31.149464",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:01:44Z",
+  "matchedPoiId": "B0MD5DVOA0",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFFA54QK",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ce8c8816f4f204d33a7c0b3c8c268579"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6419afa6d95a8f7f8a6780719f9e9d0e"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/749273530c265b3665bf4aac3cdab6c7"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MD5DVOA0",
+        "tag": [],
+        "entr_location": "121.57599456,31.14956266",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "康桥",
+        "childtype": "320",
+        "atag": [],
+        "name": "NOWWA挪瓦咖啡(上海绿洲康城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周日 08:00-19:00",
+          "rating": "4.1",
+          "open_time": "08:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621547620",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 13:57:37",
+        "website": [],
+        "address": "康桥路1388号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.575907,31.149460",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

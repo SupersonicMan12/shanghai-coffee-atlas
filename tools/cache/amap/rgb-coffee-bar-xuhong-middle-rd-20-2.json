@@ -1,0 +1,398 @@
+{
+  "cafeId": "rgb-coffee-bar-xuhong-middle-rd-20-2",
+  "query": {
+    "location": "121.425279,31.188228",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:08:56Z",
+  "matchedPoiId": "B0J22DXCHT",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J22DXCHT/headerImg/8d6a5058f9f03a8e30e67e60103cdb54_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d41f4b788d6785c7f08f51b201fb1bfa"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J22DXCHT/headerImg/bc4f37e8a17bb2b2c9c06c94e6fae33d_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13482498949",
+        "id": "B0J22DXCHT",
+        "tag": "巧克力,coffee",
+        "entr_location": "121.425355,31.188108",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": [],
+        "atag": "巧克力,coffee",
+        "name": "RGB COFFEE&BAR",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周五 08:30-02:00；周六至周日 17:00-02:00",
+          "rating": "4.5",
+          "open_time": "08:30-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632410",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:32:07",
+        "website": [],
+        "address": "徐虹中路20-2号(宜山路地铁站5号口步行80米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.425275,31.188225",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ae0659326afe7136521e5ec918533526"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K3R9YGTR/comment/content_media_external_file_100010492_1766022104018_19052722.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0K3R9YGTR",
+        "tag": "coffee,生椰拿铁,杨枝甘露",
+        "entr_location": "121.424739,31.187783",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": [],
+        "atag": "coffee,生椰拿铁,杨枝甘露",
+        "name": "luckin coffee 瑞幸咖啡(全季酒店店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "69",
+        "importance": [],
+        "biz_ext": {
+          "cost": "15.00",
+          "opentime2": "周一至周日 07:00-20:30",
+          "rating": "4.0",
+          "open_time": "07:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:47:42",
+        "website": [],
+        "address": "西岸创意园西区东门东70米(宜山路地铁站5号口步行160米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.424689,31.187856",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/38ac9dd85666e3800000003070422329?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/bcb576346b46cfd90000003070402963?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/abd1a027effcf4bc0000003070420468?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LKHCQUN0",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": [],
+        "atag": [],
+        "name": "消失的咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "217",
+        "importance": [],
+        "biz_ext": {
+          "cost": "19.00",
+          "opentime2": "周一至周日 12:30-22:30",
+          "rating": "3.7",
+          "open_time": "12:30-22:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632410",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 11:07:44",
+        "website": [],
+        "address": "徐虹公寓南门西北50米(宜山路地铁站11号口步行200米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.425627,31.186295",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "密室逃脱",
+        "type": "餐饮服务;咖啡厅;咖啡厅|体育休闲服务;娱乐场所;娱乐场所",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G2AOD6F7/headerImg/0ba71f40004f1058ae904b0ae6c717dd_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f8f1e88468467b4d738f7a99560a1757"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/c5984cde98cfab739b9fd772a2f4ce65"
+          }
+        ],
+        "building": [],
+        "typecode": "050500|080300",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13162555820",
+        "id": "B0G2AOD6F7",
+        "tag": [],
+        "entr_location": "121.42572,31.186146",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": [],
+        "atag": [],
+        "name": "消失的密室(光启城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "220",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 09:30-01:30",
+          "rating": "4.5",
+          "open_time": "09:30-01:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632410",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 12:17:50",
+        "website": [],
+        "address": "古宜路110-128号2层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.425694,31.186278",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HUXNK60V/comment/176395428656_1763954288085_24407991.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ffa7f872dfae770824891ee8d3030cba"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17701725640",
+        "id": "B0HUXNK60V",
+        "tag": "意面,下午茶",
+        "entr_location": "121.427524,31.18669",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "徐家汇",
+        "childtype": [],
+        "atag": "意面,下午茶",
+        "name": "贝瑞咖啡(宜山路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "283",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周五 07:00-20:30",
+          "rating": "4.0",
+          "open_time": "07:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632410",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:44:23",
+        "website": [],
+        "address": "凯旋路与宜山路交叉口西北100米(宜山路地铁站3号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.427448,31.186484",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

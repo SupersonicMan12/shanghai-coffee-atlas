@@ -1,0 +1,160 @@
+{
+  "cafeId": "kafeiba-dongfang-rd-1881",
+  "query": {
+    "location": "121.523311,31.197590",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:22:21Z",
+  "matchedPoiId": "B0J1JMMLWL",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00156NRBT",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0J1JMMLWL",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "临沂",
+        "childtype": "320",
+        "atag": [],
+        "name": "咖啡吧",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "1.8",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621643122",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-06-12 10:22:31",
+        "website": [],
+        "address": "东方路1881号东方路龙阳路路口统帅装潢2楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.523308,31.197591",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/bf5af58962d97e880000003101520134?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5554f44e1adcaa470000003101520133?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155AL2B/headerImg/13d76be1622a011df7765bf2a0f73106_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50899006;18616532801",
+        "id": "B00155AL2B",
+        "tag": "双人餐",
+        "entr_location": "121.520423,31.196814",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南码头",
+        "childtype": [],
+        "atag": "双人餐",
+        "name": "元青藤咖啡·融合菜",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "283",
+        "importance": [],
+        "biz_ext": {
+          "cost": "55.00",
+          "opentime2": "周一至周日 09:00-21:00",
+          "rating": "4.5",
+          "open_time": "09:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621643111",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:11:23",
+        "website": [],
+        "address": "东方路2111弄1号-3号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.520442,31.196895",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -9,6 +9,8 @@ export const DISTRICTS: District[] = [
   'Putuo',
   'Hongkou',
   'Pudong',
+  'Yangpu',
+  'Minhang',
 ]
 
 export const DISTRICT_ZH: Record<District, string> = {
@@ -19,6 +21,8 @@ export const DISTRICT_ZH: Record<District, string> = {
   Putuo: '普陀',
   Hongkou: '虹口',
   Pudong: '浦东',
+  Yangpu: '杨浦',
+  Minhang: '闵行',
 }
 
 export const TAG_LABEL: Record<Tag, string> = {

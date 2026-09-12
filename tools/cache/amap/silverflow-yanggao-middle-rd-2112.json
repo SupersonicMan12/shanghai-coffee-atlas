@@ -1,0 +1,323 @@
+{
+  "cafeId": "silverflow-yanggao-middle-rd-2112",
+  "query": {
+    "location": "121.556543,31.231895",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:22:40Z",
+  "matchedPoiId": "B0K264K0XG",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/baf1ba7152c0bef5f12eb81ed3423403"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K264K0XG/comment/F08ACDFF_9948_403B_A7A1_DDC2C49F5E75_L0_001_2000_150_1761815352313_07543286.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K264K0XG/comment/09576096_197D_484E_8692_1493D96ED96F_L0_001_2000_150_1761815352313_86517862.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-22603483",
+        "id": "B0K264K0XG",
+        "tag": "欧包,美式咖啡",
+        "entr_location": "121.556598,31.231804",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "洋泾",
+        "childtype": [],
+        "atag": "欧包,美式咖啡",
+        "name": "SilverFlow银流咖啡&贝果( (界龙店))",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 06:00-16:00",
+          "rating": "3.6",
+          "open_time": "06:00-16:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621647421",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-27 11:30:28",
+        "website": [],
+        "address": "杨高中路2112号A座(芳甸路地铁站3号口步行150米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.556547,31.231899",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156NYU7",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6ec68f7c45a4c2103db707b2e3fb199c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/86c5108ac56bba37ed549124d0e5654f"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0H2H4GG8C",
+        "tag": "海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,美式,拿铁,厚乳拿铁,杨枝甘露,生椰拿铁",
+        "entr_location": "121.556765,31.231870",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "洋泾",
+        "childtype": "320",
+        "atag": "海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,美式,拿铁,厚乳拿铁,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(界龙总部园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "35",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621647421",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:52:45",
+        "website": [],
+        "address": "杨高中路2112号界龙总部园A座一层102-1室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.556686,31.232188",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGY84FI",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6c7a2f3a9b6224ab0000000751986660?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HGRNNTAO/comment/38FE45AF_D412_4B75_9100_4BB39D82915C_L0_001_1500_2000_1734404019249_12796704.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f39530ad639c05ac0000002652694596?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0HGRNNTAO",
+        "tag": "coffee",
+        "entr_location": "121.557605,31.231817",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "洋泾",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "Manner Coffee(FOR天物空间店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "99",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.2",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621647421",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 12:12:12",
+        "website": [],
+        "address": "杨高中路2108号FOR天物空间F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.557573,31.231764",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFLMLU10",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFIL2D2H/comment/6bb56cbec50864f91a02c47b357fc5ff_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-68771215",
+        "id": "B0FFIL2D2H",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.556572,31.233188",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "洋泾",
+        "childtype": "320",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(陆家嘴创业街区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "148",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-20:00",
+          "rating": "4.6",
+          "open_time": "06:30-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621647421",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:14:15",
+        "website": [],
+        "address": "南洋泾路555号101室近陆家嘴创业街区",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.556715,31.233225",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}
