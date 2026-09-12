@@ -1,0 +1,64 @@
+{
+  "rac-anfu": {
+    "photos": [],
+    "dishes": ["荞麦可丽饼", "澳白"],
+    "traits": [
+      {
+        "kind": "space",
+        "text": "Pavement tables under the Anfu Rd plane trees; the corner everyone photographs",
+        "textZh": "安福路梧桐树下的路边座，人人都拍的那个转角",
+        "evidence": ["editorial"],
+        "confidence": 0.9
+      },
+      {
+        "kind": "people",
+        "text": "Half of Anfu Lu walks past with a dog — a room for watching, not working",
+        "textZh": "半条安福路牵着狗走过——适合看人，不适合办公",
+        "evidence": ["editorial"],
+        "confidence": 0.8
+      },
+      {
+        "kind": "food",
+        "text": "Buckwheat galettes are the reason people order a second coffee",
+        "textZh": "荞麦可丽饼是让人再点一杯咖啡的理由",
+        "evidence": ["editorial", "amap"],
+        "confidence": 0.7
+      }
+    ],
+    "headline": {
+      "en": "The plane-tree corner of Anfu Rd, with galettes",
+      "zh": "安福路梧桐转角，配荞麦可丽饼"
+    },
+    "axisHints": {
+      "focus": { "value": 22, "confidence": 0.7, "because": "pavement tables on the busiest corner of Anfu Rd", "becauseZh": "安福路最热闹转角的路边座" },
+      "energy": { "value": 82, "confidence": 0.7, "because": "constant foot traffic and dogs", "becauseZh": "人流和狗不断" }
+    }
+  },
+  "arabica-ferguson": {
+    "photos": [],
+    "dishes": ["京都拿铁"],
+    "traits": [
+      {
+        "kind": "light",
+        "text": "Glass shed in a 1930s courtyard; the 4pm light is the reason to queue",
+        "textZh": "1930年代庭院里的玻璃房，下午四点的光值得排队",
+        "evidence": ["editorial"],
+        "confidence": 0.85
+      },
+      {
+        "kind": "seating",
+        "text": "Only a couple of dozen seats; most people stand in the courtyard",
+        "textZh": "座位只有二十来个，多数人站在庭院里",
+        "evidence": ["editorial"],
+        "confidence": 0.7
+      }
+    ],
+    "headline": {
+      "en": "A glass box in a Ferguson Lane courtyard at golden hour",
+      "zh": "武康庭院里的玻璃盒子，等一束傍晚光"
+    },
+    "axisHints": {
+      "linger": { "value": 35, "confidence": 0.6, "because": "few seats, queue-and-go rhythm", "becauseZh": "座少，排队即走的节奏" }
+    }
+  }
+}
