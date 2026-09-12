@@ -21,6 +21,7 @@ import { CalibrateWidget } from './CalibrateWidget'
 const SOURCE_WORD = {
   editorial: { en: 'editorial', zh: '编辑', both: 'editorial 编辑' },
   measured: { en: 'measured', zh: '实测', both: 'measured 实测' },
+  observed: { en: 'observed', zh: '照片/公开资料', both: 'observed 照片/公开资料' },
   voted: { en: 'voted', zh: '读者', both: 'voted 读者' },
 } as const
 

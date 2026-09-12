@@ -122,11 +122,26 @@ test('spend maps Amap cost through dataset quantiles', () => {
   assert.ok(cheap.spend < 50 && dear.spend > 50)
 })
 
-test('blendCafe prefers a published AxisEvidence from the data pipeline', () => {
+test('blendCafe uses a published AxisEvidence as the prior, keeping its confidence', () => {
   const published = { value: 77, confidence: 0.9, sources: ['editorial', 'measured'] }
   const c = cafe({ evidence: { axes: { focus: published } } })
   const out = blendCafe(c, { costsSorted: [] })
-  assert.deepEqual(out.focus, published)
+  assert.equal(out.focus.value, 77)
+  assert.equal(out.focus.confidence, 0.9)
+})
+
+test('an observed hint pulls the axis by its confidence and is listed as a source', () => {
+  const weak = blendAxis(50, undefined, undefined, 0, {
+    value: 100, confidence: 0.2, because: '', becauseZh: '',
+  })
+  const firm = blendAxis(50, undefined, undefined, 0, {
+    value: 100, confidence: 0.9, because: '', becauseZh: '',
+  })
+  assert.ok(weak.value > 50 && weak.value < firm.value)
+  // c_h=0.9: (50 + 2.5·0.9·100)/(1 + 2.5·0.9)
+  assert.equal(firm.value, Math.round((50 + 225) / 3.25))
+  assert.ok(firm.confidence > weak.confidence && weak.confidence > 0.35)
+  assert.deepEqual(firm.sources, ['editorial', 'observed'])
 })
 
 test('blendAll is memoized on the cafes array identity', () => {
