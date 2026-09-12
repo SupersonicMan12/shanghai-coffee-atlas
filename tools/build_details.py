@@ -50,7 +50,8 @@ PROMPT_VERSION = 3
 NOT_USEFUL = re.compile(r'店招|招牌[字灯]|logo|标志|标牌|纸杯|纸袋|包装|印有|印着|字样|门楣|外墙|海报|立牌|拉花|latte art|为(some|several|a few|many|unknown)|未知|不详'
                         r'|^(无|未见|没有|未出现|看不到|未能|不可见)|未见|但无|也未|不明确|无法(确定|判断|辨认)'
                         r'|^serves coffee$|coffee is the (recommended|main)|^(提供|主营|供应)咖啡$|professional espresso( machine)?( and grinder)?$'
-                        r'|专业意式咖啡机|专业咖啡(机|设备)$|单人餐|single-person meals|calorie timing|卡路里', re.I)
+                        r'|专业意式咖啡机|专业咖啡(机|设备)$|单人餐|single-person meals|calorie timing|卡路里'
+                        r'|透明杯|杯装饮品|含冰块|绿叶装饰|clear (plastic )?cups?|with ice cubes|garnished with (green )?leaves', re.I)
 
 # opening hours are rendered from the weekly table; a bare hours line is noise
 BARE_HOURS = re.compile(r'^(open (daily )?(from )?\d|营业时间|每日\s*\d|周一至周日\s*\d)', re.I)
