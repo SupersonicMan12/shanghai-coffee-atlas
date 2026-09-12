@@ -185,10 +185,12 @@ export function rank(
   filters: Filters,
   weights?: Weights,
   votes?: ReadonlyMap<string, CafeVotes>,
+  /** Extra gate (a scenario's hard filter). Keep `cafes` the full list so the blend cache holds. */
+  admit?: (cafe: Cafe) => boolean,
 ): Ranked[] {
   const blends = blendAllMemo(cafes, votes)
   return cafes
-    .filter((c) => passesFilters(c, filters))
+    .filter((c) => passesFilters(c, filters) && (!admit || admit(c)))
     .map((cafe) => ({ cafe, score: matchScore(cafe, want, weights, blends.get(cafe.id)) }))
     .sort((a, b) => b.score - a.score || a.cafe.name.localeCompare(b.cafe.name))
 }

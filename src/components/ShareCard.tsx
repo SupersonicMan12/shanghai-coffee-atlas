@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import QRCode from 'qrcode'
-import type { Archetype, Cafe } from '../data/types'
-import { scoreVerdict } from '../lib/match'
+import type { Archetype, Axes, Cafe } from '../data/types'
+import { AXES, scoreVerdict } from '../lib/match'
 import { ARCHETYPE_LABEL, DISTRICT_ZH, UI } from '../data/labels'
-import { useI18n } from '../lib/i18n'
+import { useI18n, type Pair } from '../lib/i18n'
+import { detailFor } from '../lib/details'
 
 /**
  * Share cards for WeChat. Everything is drawn client-side onto a canvas and
@@ -12,13 +13,23 @@ import { useI18n } from '../lib/i18n'
  * button exists too, for everyone else.)
  */
 
-export type ShareKind = 'cafe' | 'taxi'
+export type ShareKind = 'cafe' | 'taxi' | 'picks'
+
+/** "My compass → 3 picks": the scenario, three headlines, the dial settings, one link. */
+export interface PicksShare {
+  scenario: Pair | null
+  picks: { cafe: Cafe; headline: Pair; score: number }[]
+  want: Axes
+  /** Full URL carrying a=/s=/at= so a friend sees the same three. */
+  url: string
+}
 
 interface Props {
   cafe: Cafe
   kind: ShareKind
   score: number | null
   onClose: () => void
+  picks?: PicksShare
 }
 
 const W = 750
@@ -84,6 +95,13 @@ function zhSerif(px: number, weight = 400) {
 }
 function sans(px: number, weight = 400) {
   return `${weight} ${px}px Karla, sans-serif`
+}
+
+/** What a café says about itself — never the imported placeholder line. */
+function tagline(cafe: Cafe): string | null {
+  const d = detailFor(cafe)
+  if (d.headline) return d.headline.en
+  return cafe.source === 'imported' ? null : cafe.signature
 }
 
 /** A slightly unsteady rectangle — ruled by hand, not by machine. */
@@ -226,16 +244,16 @@ async function drawCafeCard(cafe: Cafe, score: number | null): Promise<string> {
     ctx.font = sans(21)
     ctx.fillText('against my compass', W / 2 - 40, 608)
     ctx.textAlign = 'center'
-  } else {
+  } else if (tagline(cafe)) {
     ctx.fillStyle = INK
     ctx.font = serif(34)
-    ctx.fillText(`“${cafe.signature}”`, W / 2, 585, W - 140)
+    ctx.fillText(`“${tagline(cafe)}”`, W / 2, 585, W - 140)
   }
 
   ctx.fillStyle = INK
   ctx.font = zhSerif(26)
-  if (score !== null) {
-    ctx.fillText(`“${cafe.signature}”`, W / 2, 668, W - 140)
+  if (score !== null && tagline(cafe)) {
+    ctx.fillText(`“${tagline(cafe)}”`, W / 2, 668, W - 140)
   }
 
   await qrOnto(ctx, deepLink(cafe), W / 2 - 90, 712, 180)
@@ -281,7 +299,105 @@ async function drawTaxiCard(cafe: Cafe): Promise<string> {
   return canvas.toDataURL('image/png')
 }
 
-export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
+async function drawPicksCard(share: PicksShare): Promise<string> {
+  const H = 1240
+  const canvas = document.createElement('canvas')
+  canvas.width = W
+  canvas.height = H
+  const ctx = canvas.getContext('2d')
+  if (!ctx) throw new Error('no canvas context')
+  await ensureFonts()
+  paper(ctx, H)
+
+  ctx.textAlign = 'center'
+  ctx.fillStyle = INK_SOFT
+  ctx.font = sans(22, 600)
+  ctx.fillText('THE SHANGHAI COFFEE ATLAS · 上海咖啡地图集', W / 2, 92)
+
+  ctx.fillStyle = INK_SOFT
+  ctx.font = sans(24)
+  ctx.fillText('My compass → 3 picks · 我的罗盘 → 三家首选', W / 2, 140)
+
+  ctx.fillStyle = INK
+  if (share.scenario) {
+    ctx.font = zhSerif(56, 600)
+    ctx.fillText(share.scenario.zh, W / 2, 218, W - 120)
+    ctx.font = serif(30)
+    ctx.fillStyle = INK_SOFT
+    ctx.fillText(share.scenario.en, W / 2, 262, W - 120)
+  } else {
+    ctx.font = serif(44, 800)
+    ctx.fillText('Where the dials point', W / 2, 218, W - 120)
+    ctx.font = zhSerif(30)
+    ctx.fillStyle = INK_SOFT
+    ctx.fillText('罗盘指向的地方', W / 2, 262, W - 120)
+  }
+
+  // the compass fingerprint: five hand-ruled bars
+  const fx = W / 2 - 200
+  const fy = 300
+  const bw = 56
+  const gap = 30
+  for (let i = 0; i < AXES.length; i++) {
+    const a = AXES[i]
+    const x = fx + i * (bw + gap)
+    const h = 70
+    ctx.strokeStyle = INK_SOFT
+    ctx.lineWidth = 1.5
+    inkFrame(ctx, x, fy, bw, h)
+    const v = share.want[a.key] / 100
+    ctx.fillStyle = ACCENT
+    ctx.fillRect(x + 4, fy + h - 4 - (h - 8) * v, bw - 8, (h - 8) * v)
+    ctx.fillStyle = INK_SOFT
+    ctx.font = zhSerif(18)
+    ctx.fillText(a.labelZh, x + bw / 2, fy + h + 26)
+  }
+
+  ctx.strokeStyle = INK_SOFT
+  ctx.lineWidth = 1.5
+  ctx.beginPath()
+  ctx.moveTo(120, 430)
+  ctx.lineTo(W - 120, 432)
+  ctx.stroke()
+
+  let y = 500
+  share.picks.slice(0, 3).forEach((p, i) => {
+    ctx.textAlign = 'left'
+    ctx.fillStyle = ACCENT
+    ctx.font = serif(58, 800)
+    ctx.fillText(String(i + 1), 84, y + 22)
+    ctx.fillStyle = INK
+    ctx.font = serif(36, 800)
+    ctx.fillText(p.cafe.name, 150, y, W - 300)
+    if (p.cafe.nameZh !== p.cafe.name) {
+      ctx.font = zhSerif(26, 600)
+      ctx.fillText(p.cafe.nameZh, 150, y + 36, W - 300)
+    }
+    ctx.fillStyle = INK_SOFT
+    ctx.font = sans(22)
+    ctx.fillText(p.headline.en, 150, y + 74, W - 300)
+    ctx.font = zhSerif(22)
+    ctx.fillText(p.headline.zh, 150, y + 106, W - 300)
+    ctx.textAlign = 'right'
+    ctx.fillStyle = ACCENT
+    ctx.font = serif(40, 800)
+    ctx.fillText(String(p.score), W - 90, y + 12)
+    ctx.fillStyle = INK_SOFT
+    ctx.font = sans(18)
+    ctx.fillText(scoreVerdict(p.score), W - 90, y + 40)
+    y += 170
+  })
+
+  ctx.textAlign = 'center'
+  await qrOnto(ctx, share.url, W / 2 - 80, 1000, 160)
+  ctx.fillStyle = INK_SOFT
+  ctx.font = sans(20)
+  ctx.fillText('Scan to see the same three · 扫码看同样的三家', W / 2, 1200)
+
+  return canvas.toDataURL('image/png')
+}
+
+export function ShareCardModal({ cafe, kind, score, onClose, picks }: Props) {
   const { mode, t } = useI18n()
   const [result, setResult] = useState<{
     cafe: Cafe
@@ -292,7 +408,12 @@ export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
 
   useEffect(() => {
     let stale = false
-    const draw = kind === 'taxi' ? drawTaxiCard(cafe) : drawCafeCard(cafe, score)
+    const draw =
+      kind === 'taxi'
+        ? drawTaxiCard(cafe)
+        : kind === 'picks' && picks
+          ? drawPicksCard(picks)
+          : drawCafeCard(cafe, score)
     draw
       .then((url) => {
         if (!stale) setResult({ cafe, kind, url, error: false })
@@ -303,7 +424,7 @@ export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
     return () => {
       stale = true
     }
-  }, [cafe, kind, score])
+  }, [cafe, kind, score, picks])
 
   const current = result && result.cafe === cafe && result.kind === kind ? result : null
   const dataUrl = current?.url ?? null
@@ -314,9 +435,12 @@ export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
       <div className="sharecard" onClick={(e) => e.stopPropagation()}>
         <div className="sc-head">
           <strong>
-            {kind === 'taxi' ? t(UI.taxiCardImage) : t(UI.shareCard)}
+            {kind === 'taxi' ? t(UI.taxiCardImage) : kind === 'picks' ? t(UI.myCompassPicks) : t(UI.shareCard)}
             {mode === 'both' && (
-              <span className="zh"> · {kind === 'taxi' ? '出租车卡图片' : '分享卡片'}</span>
+              <span className="zh">
+                {' '}
+                · {kind === 'taxi' ? '出租车卡图片' : kind === 'picks' ? UI.myCompassPicks.zh : '分享卡片'}
+              </span>
             )}
           </strong>
           <button className="card-close" onClick={onClose} aria-label={t(UI.close)}>
@@ -339,7 +463,7 @@ export function ShareCardModal({ cafe, kind, score, onClose }: Props) {
             <a
               className="sc-save"
               href={dataUrl}
-              download={`${cafe.id}-${kind === 'taxi' ? 'taxi' : 'share'}.png`}
+              download={`${kind === 'picks' ? 'my-compass-picks' : cafe.id}-${kind === 'taxi' ? 'taxi' : 'share'}.png`}
             >
               {t(UI.saveImage)}
               {mode === 'both' && ' · 保存图片'}
