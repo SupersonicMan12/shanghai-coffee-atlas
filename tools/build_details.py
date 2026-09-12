@@ -174,7 +174,7 @@ def evidence_items(cafe: dict, src: dict) -> list[dict]:
             items.append({'text': zh, 'textEn': en, 'kind': kind, 'evidence': 'photo', 'confidence': 0.7,
                           'source': 'amap photos'})
     titles = {r.get('url'): str(r.get('title') or '') for r in src['web'].get('results') or []}
-    tokens = name_tokens(cafe)
+    tokens = name_tokens(cafe) + place_tokens(cafe)
     for f in src['web'].get('facts') or []:
         if NOT_USEFUL.search(f['text']) or WEB_NOISE.search(f['text']):
             continue
@@ -231,6 +231,23 @@ def name_tokens(cafe: dict) -> list[str]:
         for p in parts:
             if len(p) >= 3 and not p.isdigit():
                 toks.add(p)
+    return sorted(toks, key=len, reverse=True)
+
+
+def place_tokens(cafe: dict) -> list[str]:
+    """The café's own street, both scripts: a snippet that quotes '绍兴路27号' or
+    '27 Shaoxing Lu' is talking about this address, not a namesake elsewhere."""
+    toks: set[str] = set()
+    zh = normalise(cafe['streetZh'] or '')
+    if zh:
+        toks.add(zh)
+        road = re.sub(r'\d+号?.*$', '', zh)
+        if len(road) >= 3:
+            toks.add(road)
+    en = re.sub(r'\b(rd|road|lu|st|street|ave|avenue|\d+)\b', ' ', (cafe['street'] or '').lower())
+    root = normalise(en)
+    if len(root) >= 4:
+        toks.add(root)
     return sorted(toks, key=len, reverse=True)
 
 

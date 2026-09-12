@@ -1,5 +1,6 @@
 import type { Axes, Cafe, CafeDetail, Trait, TraitKind } from '../data/types'
 import { ARCHETYPE_LABEL } from '../data/labels'
+import unverified from '../data/unverified.json'
 import type { LangMode, Pair } from './i18n'
 import { hoursOn } from './details'
 import { AXES, isOpenAt, type Weights } from './match'
@@ -13,6 +14,9 @@ import type { BlendedAxes } from './scoring'
  */
 export type Confidence = 'firm' | 'sketch'
 
+/** Editorial cafés no external register confirmed (tools/verify_editorial.py). */
+const UNVERIFIED: ReadonlySet<string> = new Set(unverified)
+
 export type ReasonKind = 'axis' | 'trait' | 'context'
 
 export interface Reason {
@@ -20,6 +24,8 @@ export interface Reason {
   text: Pair
   axis?: keyof Axes
   trait?: TraitKind
+  /** Where a trait reason was read (URL when web-sourced). */
+  source?: string
 }
 
 export interface Why {
@@ -225,7 +231,8 @@ export function explain(
   ctx: WhyContext,
 ): Why {
   const hasDetail = detail.traits.length > 0 || Boolean(detail.headline)
-  const confidence: Confidence = !hasDetail && cafe.source === 'imported' ? 'sketch' : 'firm'
+  const unchecked = cafe.source === 'imported' || UNVERIFIED.has(cafe.id)
+  const confidence: Confidence = !hasDetail && unchecked ? 'sketch' : 'firm'
 
   const headline = detail.headline ?? composeHeadline(cafe, want, weights, blended)
 
@@ -259,7 +266,7 @@ export function explain(
     .filter((t) => t.confidence >= 0.5)
     .sort((a, b) => Number(relevant(b)) - Number(relevant(a)) || b.confidence - a.confidence)
     .slice(0, 2)
-    .map((t) => ({ kind: 'trait' as const, trait: t.kind, text: pair(t.text, t.textZh) }))
+    .map((t) => ({ kind: 'trait' as const, trait: t.kind, text: pair(t.text, t.textZh), source: t.source }))
 
   // (c) the clock and the walk.
   const clock = clockReason(cafe, ctx)

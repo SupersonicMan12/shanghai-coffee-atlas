@@ -398,8 +398,8 @@ export const UI = {
   pickWord: { en: 'Pick', zh: '首选' },
   estimateMark: { en: 'est.', zh: '估' },
   estimateTitle: {
-    en: 'Estimated — this café is imported and not yet field-checked.',
-    zh: '估算值——这家店来自导入数据，尚未实地核对。',
+    en: 'Estimated — no external source has confirmed this café yet.',
+    zh: '估算值——尚无外部来源核实这家店。',
   },
   oftenOrdered: { en: 'Often ordered', zh: '他们家常被点的' },
   hardFacts: { en: 'Hard facts', zh: '硬信息' },

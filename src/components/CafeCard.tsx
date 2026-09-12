@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
 import { AXES, blendAllMemo, isOpenAt, scoreVerdict } from '../lib/match'
@@ -89,7 +90,8 @@ export function CafeCard({
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const detail = detailFor(cafe)
   const curated = cafe.source !== 'imported'
-  const photos = detail.photos.slice(0, 4)
+  const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
+  const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
   const usedAsReason = new Set((why?.reasons ?? []).filter((r) => r.kind === 'trait').map((r) => r.text.en))
   const traits = firmTraits(cafe, compassOn && why ? 5 : 3).filter((tr) => !usedAsReason.has(tr.text))
@@ -171,7 +173,14 @@ export function CafeCard({
         <div className={`card-photos n${photos.length}`} aria-label={t(UI.photosLabel)}>
           {photos.map((src) => (
             <figure key={src} className="card-photo">
-              <img src={src} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+              <img
+                src={src}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                onError={() => setBroken((prev) => new Set(prev).add(src))}
+              />
             </figure>
           ))}
         </div>

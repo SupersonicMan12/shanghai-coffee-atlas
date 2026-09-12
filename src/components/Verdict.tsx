@@ -36,6 +36,11 @@ export const VerdictBlock = memo(function VerdictBlock({
             <li key={i} className={`vr-${r.kind}`}>
               {t(r.text)}
               {!compact && sub(r.text) && <span className="zh"> {sub(r.text)}</span>}
+              {!compact && r.source?.startsWith('http') && (
+                <a className="trait-src" href={r.source} target="_blank" rel="noreferrer" aria-label={t(UI.source)}>
+                  ↗
+                </a>
+              )}
             </li>
           ))}
         </ul>
