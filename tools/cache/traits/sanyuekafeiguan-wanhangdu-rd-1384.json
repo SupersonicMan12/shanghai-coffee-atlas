@@ -1,68 +1,84 @@
 {
   "cafeId": "sanyuekafeiguan-wanhangdu-rd-1384",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "37f97b1c2068",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9cb29353c40c",
   "raw": {
     "headline": {
-      "zh": "老建筑里的三月主题咖啡馆",
-      "en": "A March-themed cafe in historic building"
+      "zh": "老房子阳台看苏州河",
+      "en": "Historic building with Suzhou River view"
     },
     "traits": [
       {
-        "kind": "story",
-        "zh": "店名源于老板三月生日及春日寓意",
-        "en": "Named after owner's March birthday and spring",
+        "kind": "space|view",
+        "zh": "阳台可观赏苏州河与市井生活",
+        "en": "Balcony overlooks Suzhou River and street life",
         "from": [
-          13
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "阳台可看苏州河与万航渡路街景",
-        "en": "Balcony overlooks Suzhou Creek and street life",
-        "from": [
-          9
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "招牌芝士蛋糕由老板Jeffery手工制作",
-        "en": "Signature cheesecake handmade by owner Jeffery",
-        "from": [
-          7,
           8
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "提供生椰拿铁等特调，标价58元",
-        "en": "Offers coconut latte priced at ¥58",
+        "kind": "beans|drinks",
+        "zh": "使用深烘豆，招牌为拿铁与芝士蛋糕",
+        "en": "Dark roast beans, signature latte and cheesecake",
         "from": [
-          4,
-          15
+          5,
+          6,
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "日常营业时间为10:00–22:00",
+        "zh": "营业时间为每日10:00-22:00",
         "en": "Open daily 10:00–22:00",
         "from": [
-          12,
-          14
+          11,
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "老板生日在三月，因此得名",
+        "en": "Named after owner's March birthday",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space|light|seating",
+        "zh": "内部有复古家具与皮质沙发",
+        "en": "Features vintage furniture and leather sofas",
+        "from": [
+          10
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "无电脑，不适合办公",
+        "en": "No computers, not for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "闹市中的安静角落",
+        "en": "Quiet in a bustling area"
+      },
       "linger": {
         "value": 70,
         "from": [
-          9,
-          11
+          10,
+          8
         ],
-        "zh": "有阳台卡座和复古沙发适合久坐",
-        "en": "Balcony seats and vintage sofas invite lingering"
+        "zh": "适合久坐的复古空间",
+        "en": "Great for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:06Z"
+  "fetchedAt": "2026-09-12T16:42:56Z"
 }

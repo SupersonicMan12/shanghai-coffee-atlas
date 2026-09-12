@@ -1,58 +1,91 @@
 {
   "cafeId": "tims-topjinguanghui",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "5ad8975f4ba3",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8c086c1efb03",
   "raw": {
     "headline": {
-      "zh": "暖食现做，全时段咖啡",
-      "en": "Fresh warm food, all-day coffee"
+      "zh": "现做暖食咖啡厅",
+      "en": "Fresh warm food + coffee"
     },
     "traits": [
       {
         "kind": "food",
-        "zh": "贝果、多拿滋、恰巴塔等暖食现做现售",
-        "en": "Freshly made bagels, donuts, and ciabatta",
+        "zh": "店内现做贝果、多拿滋等暖食",
+        "en": "Freshly made bagels, donuts, and more",
         "from": [
           5,
-          10
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
-        "en": "Hand-picked beans, small-batch roasted",
-        "from": [
-          6
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:00-21:30营业",
-        "en": "Open daily 07:00–21:30",
+        "zh": "营业时间周一至周日 07:00-21:30",
+        "en": "Open daily 7:00–21:30",
         "from": [
-          11
+          8
         ]
       },
       {
-        "kind": "story",
-        "zh": "1964年加拿大冰球运动员创立",
-        "en": "Founded by a Canadian hockey player in 1964",
+        "kind": "space",
+        "zh": "门店位于商场内，有玻璃门和落地窗",
+        "en": "Located in mall with glass doors and floor-to-ceiling windows",
         "from": [
-          8
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示烘焙食品的陈列柜可见",
+        "en": "Display case shows baked goods on view",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "外设促销广告牌，标明买一赠一优惠",
+        "en": "Promo sign outside offers buy-one-get-one",
+        "from": [
+          3
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "focus": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "营业时间长但非办公友好",
+        "en": "Long hours, not office-focused"
+      },
+      "energy": {
         "value": 60,
         "from": [
           1,
-          2
+          3
         ],
-        "zh": "有座位和食品陈列",
-        "en": "Seating and food display"
+        "zh": "商场内人流与促销提示",
+        "en": "Mall location with promo signs"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "营业时间长但无久坐提示",
+        "en": "Long hours, no linger cues"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          5,
+          7
+        ],
+        "zh": "常规暖食组合，无特别饮品",
+        "en": "Standard warm food combo"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:40:39Z"
+  "fetchedAt": "2026-09-12T16:45:36Z"
 }

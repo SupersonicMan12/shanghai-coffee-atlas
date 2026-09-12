@@ -1,52 +1,96 @@
 {
- "cafeId": "elefanco-changshou",
- "model": "qwen-max",
- "inputDigest": "806788e900a8",
- "raw": {
-  "headline": {
-   "zh": "长寿路上深夜营业的咖啡好去处",
-   "en": "Late-night coffee spot on Changshou Road"
+  "cafeId": "elefanco-changshou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "73e604a3b1fd",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨12点",
+      "en": "Open until midnight"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业时间从早8点至凌晨12点",
+        "en": "Open 8am to 12am daily",
+        "from": [
+          11,
+          16
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门外设木质平台与折叠椅桌，可外摆",
+        "en": "Outdoor wooden platform with foldable chairs and tables",
+        "from": [
+          1,
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为10点后的平白咖啡",
+        "en": "Signature drink: 10pm flat white",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台后有意式咖啡机与磨豆机",
+        "en": "Espresso machine and grinder behind counter",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内单层挑高，设拱形通道通向楼梯",
+        "en": "Single-story high ceiling with arched passage to stairs",
+        "from": [
+          3,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          11
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          7
+        ],
+        "zh": "外摆+灯笼营造热闹氛围",
+        "en": "Lively vibe from outdoor setup"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          8,
+          9
+        ],
+        "zh": "外摆座位多，适合久坐",
+        "en": "Plenty of seating for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          13
+        ],
+        "zh": "主打精品咖啡与美酒特调",
+        "en": "Features specialty coffee and wine cocktails"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "time",
-    "zh": "营业至深夜，适合夜猫子",
-    "en": "Open until late, perfect for night owls",
-    "from": "[11, 13]"
-   },
-   {
-    "kind": "seating",
-    "zh": "室内有高脚凳和圆凳，室外设折叠椅桌",
-    "en": "High stools and round stools inside, folding chairs outside",
-    "from": "[3, 6, 8]"
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品为“10pm flat white”",
-    "en": "Signature drink: 10pm flat white",
-    "from": "[12]"
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 40,
-    "from": "[3, 6]",
-    "zh": "有高脚凳和圆凳，但未见办公设备",
-    "en": "Stools available, no workstations seen"
-   },
-   "energy": {
-    "value": 50,
-    "from": "[2, 5, 7, 8]",
-    "zh": "店内装饰热闹，但未见拥挤",
-    "en": "Lively decor, not crowded"
-   },
-   "linger": {
-    "value": 70,
-    "from": "[3, 6, 8]",
-    "zh": "提供多种座位选择，适合久坐",
-    "en": "Multiple seating options, good for lingering"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:16:56Z"
+  "fetchedAt": "2026-09-12T16:41:59Z"
 }

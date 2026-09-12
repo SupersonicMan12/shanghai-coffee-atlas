@@ -1,43 +1,46 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "裸露的灯泡和电线，营造粗犷极简风格",
+      "kind": "space",
+      "quote": "Naked lightbulbs and electrical wiring are left exposed, adding to Fine's rugged",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site": "中国政府网"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
-      "site_name": "腾讯网"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 2,
-      "title": "上海咖啡馆的七种滋味:找到匹配你当下心情的城市“样本间” ",
-      "url": "https://www.sohu.com/a/997521029_121622982",
-      "site_name": "搜狐网"
+      "title": "☕️上海咖啡店篇",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404798532224942641",
+      "site_name": "无"
     },
     {
       "index": 3,
-      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
-      "url": "https://new.qq.com/rain/a/20260305A063Y600",
-      "site_name": "腾讯网"
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "site_name": "腾讯网"
+      "title": "上海成为全球咖啡馆最多的城市,当地时髦达人们最喜欢去这30家你去过吗?_咖啡_什么值得买",
+      "url": "https://post.smzdm.com/p/apx29xox",
+      "site_name": "什么值得买"
     },
     {
       "index": 5,
-      "title": "上海的咖啡新店喝不完，真的喝不完…… - 腾讯新闻",
-      "url": "https://view.inews.qq.com/a/20260321A030PJ00",
-      "site_name": "QQ"
-    },
-    {
-      "index": 6,
-      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
-      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
-      "site_name": "中国政府网"
+      "title": "魔都潮咖新坐标!上海第七家Shake Shack登陆淮海中路",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404725518451999375",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:38Z",
+  "retriedEn": true
 }

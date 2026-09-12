@@ -3,41 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "iziRetail品牌沙龙:成立4年后,主打低价精品咖啡的「CUBIC3三立方」凭借非标店吸引更多咖啡爱好者关注 ",
-      "url": "https://www.sohu.com/a/964426154_121119292",
-      "site_name": "搜狐网"
+      "title": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "url": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "site_name": "携程旅行网"
     },
     {
       "index": 2,
-      "title": "全国首店+1!来愚园路喫咖啡～",
-      "url": "https://weibo.com/ttarticle/p/show?id=2309405235727788540318",
-      "site_name": "无"
+      "title": "CUBIC 3 三立方咖啡(永康路店)",
+      "url": "https://www.amap.com/place/B0LUF51YXH",
+      "site_name": "高德地图"
     },
     {
       "index": 3,
-      "title": "三立方愚园路店，上海/ 具场| 谷德设计网",
-      "url": "https://www.gooood.cn/cubic-3-yuyuan-road-by-juchang.htm",
+      "title": "CUBIC3三立方咖啡(金虹桥店) - Shanghai - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-136419009/",
       "site_name": ""
     },
     {
       "index": 4,
-      "title": "CUBIC3三立方咖啡（凌空SOHO店） (虹橋地區, 上海) – 菜單 - Trip.com",
-      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/cubic3-coffee-132084090/",
-      "site_name": ""
-    },
-    {
-      "index": 5,
-      "title": "【CUBIC3三立方咖啡(尚悦湾店)】电话_地址 - 大众点评",
-      "url": "http://m.dianping.com/shop/1169052865?msource=applemaps",
-      "site_name": ""
-    },
-    {
-      "index": 6,
-      "title": "CUBIC 3 San Lifang Coffee (Guiping Road Branch) - Apple Maps",
-      "url": "https://maps.apple.com/place?auid=1118771348556078&lsp=57879",
-      "site_name": "Apple (中国)"
+      "title": "上海|此时情绪此时天,无事小神仙 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/829219711",
+      "site_name": "大众点评网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:38Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:16Z",
+  "retriedEn": true
 }

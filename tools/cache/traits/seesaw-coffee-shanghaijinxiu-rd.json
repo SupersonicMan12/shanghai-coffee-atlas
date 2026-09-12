@@ -1,59 +1,56 @@
 {
   "cafeId": "seesaw-coffee-shanghaijinxiu-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "ed60f3db60f5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "24166f060159",
   "raw": {
     "headline": {
-      "zh": "自烘精品豆手冲发源地",
-      "en": "Origin of home-roasted specialty coffee"
+      "zh": "自烘实验室直营",
+      "en": "in-house roastery"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "自建烘焙实验室，推手冲单品咖啡",
-        "en": "Own roastery, pioneered pour-over single-origin",
+        "zh": "自建烘焙实验室，直供门店",
+        "en": "in-house roastery supplies beans",
         "from": [
-          3,
-          6
+          3
         ]
       },
       {
         "kind": "drinks",
-        "zh": "饮品用透明塑料杯盛装含冰块",
-        "en": "Served in clear plastic cups with ice",
+        "zh": "推荐饮品为咖啡",
+        "en": "coffee is the recommended drink",
         "from": [
-          1,
-          2
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "最早门店藏于弄堂设计中心无固定租金",
-        "en": "First store hidden in a lane design hub",
-        "from": [
-          7
-        ]
-      },
-      {
-        "kind": "price",
-        "zh": "定位中高端，均价30-40元",
-        "en": "Mid-to-high tier, ¥30–40 average",
-        "from": [
-          4
+          6
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 85,
+      "focus": {
+        "value": 60,
         "from": [
-          3,
-          6
+          3
         ],
-        "zh": "推手冲与自烘豆",
-        "en": "Pioneered pour-over & own roast"
+        "zh": "自烘豆适合专注",
+        "en": "roasted beans suit focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "大空间好地段，中等热闹",
+        "en": "large space, decent buzz"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "大空间适合久坐",
+        "en": "spacious layout encourages lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:53Z"
+  "fetchedAt": "2026-09-12T16:44:54Z"
 }

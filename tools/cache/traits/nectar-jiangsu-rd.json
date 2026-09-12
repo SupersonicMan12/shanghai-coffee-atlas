@@ -1,28 +1,67 @@
 {
- "cafeId": "nectar-jiangsu-rd",
- "model": "qwen-max",
- "inputDigest": "a6dad078157e",
- "raw": {
-  "headline": {
-   "zh": "招牌饮品甜如糖浆，适合甜品爱好者",
-   "en": "Dessert-sweet filter, perfect for sweet tooths"
+  "cafeId": "nectar-jiangsu-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ec2253f00aab",
+  "raw": {
+    "headline": {
+      "zh": "招牌果香手冲",
+      "en": "signature fruit-sweet filter"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌Nectar处理法手冲，甜如蜜糖",
+        "en": "signature Nectar-process filter tastes dessert-sweet",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于长宁路Metrotown购物中心内，近中山公园地铁站",
+        "en": "inside Metrotown on Changning Road, near Zhongshan Park metro",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "蛋糕外观精致但不浮夸",
+        "en": "cakes are pretty but not fancy",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "手冲需专注品味",
+        "en": "requires attentive tasting"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "甜味饮品适合久坐",
+        "en": "sweet drinks encourage lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "果香处理法属实验性工艺",
+        "en": "fruit-sweet processing is experimental"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "drinks",
-    "zh": "特色饮品采用Nectar处理法，甜如糖浆",
-    "en": "Nectar-process filter, dessert-sweet",
-    "from": 2
-   }
-  ],
-  "axisHints": {
-   "adventure": {
-    "value": 80,
-    "from": 1,
-    "zh": "追求极致的甜味处理方法",
-    "en": "Chases the sweetest end"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:20:16Z"
+  "fetchedAt": "2026-09-12T16:42:23Z"
 }

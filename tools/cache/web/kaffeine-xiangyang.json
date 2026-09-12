@@ -3,23 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "Kaffeine – 香港上环的西式咖啡店| OpenRice 香港开饭喇",
-      "url": "https://www.openrice.com/zh-cn/hongkong/r-kaffeine-%E4%B8%8A%E7%8E%AF-%E8%A5%BF%E5%BC%8F-r541122",
-      "site_name": ""
+      "title": "Kaffeine Coffee",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10169175-Reviews-Kaffeine_Coffee-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 2,
-      "title": "COSTA巴西单一产地咖啡豆中烘100%阿拉比卡拿铁手冲黑咖啡1kg 品类推荐",
-      "url": "https://www.bilibili.com/video/BV1sHtk6KEmp/",
-      "site_name": "哔哩哔哩弹幕网"
+      "title": "Kaffeine Coffee, No.92-1 Xiangyang South Road, Shanghai, CN",
+      "url": "https://www.mapquest.com/cn/kaffeine-coffee-523061808",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "我在伦敦常去(去过)的咖啡店",
-      "url": "https://www.bilibili.com/read/cv15224680/",
-      "site_name": "哔哩哔哩弹幕网"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 4,
+      "title": "Hotel",
+      "url": "https://www.meet-in-shanghai.net/en/star-hotel/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 5,
+      "title": "coffee surround - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-122765546/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:39:11Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:22Z",
+  "retriedEn": true
 }

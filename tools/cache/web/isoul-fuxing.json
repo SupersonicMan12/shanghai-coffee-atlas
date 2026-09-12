@@ -3,35 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "Soul g Coffee",
-      "url": "https://weidian.com/?userid=1400486238",
-      "site_name": "无"
+      "title": "A Perfect Day in the Heart of Shanghai: Fuxing Park, UMAH Coffee ...",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-145067365/",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "illy咖啡豆被嘲“商业豆”却被老用户无限回购:翻完三个平台几百条测评,这罐豆的真相我看清了 ",
-      "url": "https://post.smzdm.com/p/a3mdmznd",
-      "site_name": "什么值得买"
+      "title": "Plusone Coffee",
+      "url": "https://www.dianping.com/shop/15949899/photos/album",
+      "site_name": "大众点评网"
     },
     {
       "index": 3,
-      "title": "星巴克、瑞幸等品牌都在推！咖啡圈“全冰去水”的喝法火了 - QQ",
-      "url": "https://news.qq.com/rain/a/20260617A07V7G00",
-      "site_name": "QQ"
+      "title": "13 DE MARZO Caf (Shanghai Anfu Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?address=Anfu%20Road%20No.322%20Building%204%20Building%201%2C%20Xuhui%2C%20Shanghai%20China&coordinate=31.213233%2C121.440206&name=13%20DE%20MARZO%20Caf%20(Shanghai%20Anfu%20Road%20Branch)&auid=1118692146049105&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 4,
-      "title": "咖啡豆干",
-      "url": "https://www.smzdm.com/ju/shaiwu/snk90q9/",
-      "site_name": "什么值得买"
+      "title": "跟着《半熟恋人》,打卡上海的约会圣地!",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/follow-halffamiliar-lovers-and-check-in-shanghais-dating-mecca-516759/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 5,
-      "title": "鑠咖啡Coffee Soul｜咖啡課程・精品咖啡豆・手工甜點專門店",
-      "url": "https://coffeesoul.com.tw/",
-      "site_name": ""
+      "title": "上海迷茫不需要理解i公寓(福州路分店)",
+      "url": "https://hotels.ctrip.com/hotels/42370794.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "Fuel Espresso(上海国金中心商场店)",
+      "url": "https://www.dianping.com/shop/13661401/photos/album?pg=1",
+      "site_name": "大众点评网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:36Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:14Z",
+  "retriedEn": true
 }

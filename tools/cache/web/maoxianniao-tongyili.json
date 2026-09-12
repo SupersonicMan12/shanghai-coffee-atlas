@@ -3,53 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "新选择！冒险鸟咖啡：独处、小聚、开会全适配！ | 虹口甄选",
-      "url": "https://www.163.com/dy/article/K8RCGG5A0514A3B5.html",
-      "site_name": "163网易免费邮"
-    },
-    {
-      "index": 2,
-      "title": "旅超| 普陀、嘉定专场来啦!承包你的元旦嗨游",
-      "url": "https://www.meet-in-shanghai.net/cn/news/travel-super--putuo-and-jiading-special-sessions-are-coming-contract-your-new-years-day-hi-tour-272938",
+      "title": "InterContinental Shanghai Wonderland",
+      "url": "https://www.meet-in-shanghai.net/en/hotels/intercontinental-shanghai-wonderland-442418/",
       "site_name": "上海市文旅推广网"
     },
     {
-      "index": 3,
-      "title": "Duniao Bird Coffee (China Township Enterprise Museum Shop)",
-      "url": "https://maps.apple.com/place?place-id=H2710I3F984310896AE&_provider=57879",
+      "index": 2,
+      "title": "Explorelife Family Club in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9823E228C85&_provider=57879",
       "site_name": "Apple (中国)"
     },
     {
-      "index": 4,
-      "title": "盛夏“趣”发现丨来外滩边的“洞穴风”小店，试试用手语点咖啡吧！",
-      "url": "https://www.shhuangpu.gov.cn/fw/003001/20240821/0e87e0f0-d58f-42ef-9b4f-c683aa9633e0.html",
+      "index": 3,
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
       "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 5,
-      "title": "20年“咖龄”爱好者测评精华!上海这20+家网红咖啡,我全部打卡一遍之后,给出94分:因为特别6～",
-      "url": "https://www.163.com/dy/article/K1FPROFQ05188NOL.html",
-      "site_name": "网易"
+      "title": "Bird(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d15264006-Reviews-Bird-Shanghai.html",
+      "site_name": "Tripadvisor"
     },
     {
       "index": 6,
-      "title": "大学路上的咖啡“探险家们”，寻找世界上的奇妙一杯 - 杨浦区人民政府",
-      "url": "https://www.shyp.gov.cn/shypq/dxlms/20230612/430023.html",
-      "site_name": "中国政府网"
-    },
-    {
-      "index": 7,
-      "title": "HEY BIRD嘿鸟精品咖啡社交空间，广州/ 石川设计事务所 - gooood",
-      "url": "https://www.gooood.cn/hey-bird-specialty-coffee-space-china-by-tomshi-associates.htm",
-      "site_name": ""
-    },
-    {
-      "index": 8,
-      "title": "藏在咖啡杯里的普陀地标，快来第六届文博会打卡！",
-      "url": "https://www.shanghai.gov.cn/nw17239/20251121/530eb69fcfe04ab6b02ced63afb6b4ec.html",
-      "site_name": "中国政府网"
+      "title": "The unique flavors, history and stories that make Shanghai coffee special",
+      "url": "http://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=d6a83d99-db4d-4e43-a5b5-01f9cc0abdcb",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:56Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:27Z",
+  "retriedEn": true
 }

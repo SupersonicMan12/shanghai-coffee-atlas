@@ -1,57 +1,51 @@
 {
   "cafeId": "tap-that-ruijiner-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "1b702c2f89a7",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "811cba6b24f3",
   "raw": {
     "headline": {
-      "zh": "精酿咖啡馆，夜猫子专属",
-      "en": "Craft coffee spot open late"
+      "zh": "精酿啤酒专营",
+      "en": "Craft beer focus"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "提供含冰块与分层的冰咖啡饮品",
-        "en": "Serves layered iced coffee with ice",
+        "zh": "主营精酿啤酒，非咖啡饮品",
+        "en": "Specializes in craft beer, not coffee",
         "from": [
-          2
+          1,
+          2,
+          3,
+          4
         ]
       },
       {
         "kind": "time",
-        "zh": "工作日16:00-次日01:00营业",
-        "en": "Open 16:00–01:00 on weekdays",
+        "zh": "营业至凌晨1点，周末14:00开门",
+        "en": "Closes at 1 AM, opens 2 PM weekends",
         "from": [
-          5
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "周末14:00-次日01:00营业",
-        "en": "Open 14:00–01:00 on weekends",
-        "from": [
-          5
+          4
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 30,
-        "from": [
-          1,
-          4
-        ],
-        "zh": "临街店面带遮阳棚",
-        "en": "Streetfront with awning"
-      },
-      "adventure": {
+      "energy": {
         "value": 60,
         "from": [
-          2
+          4
         ],
-        "zh": "提供分层冰咖啡",
-        "en": "Layered iced coffee served"
+        "zh": "晚间营业时间长，人多热闹",
+        "en": "Long hours, lively crowd"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "深夜仍营业，适合久坐",
+        "en": "Open late, good for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:34:32Z"
+  "fetchedAt": "2026-09-12T16:43:23Z"
 }

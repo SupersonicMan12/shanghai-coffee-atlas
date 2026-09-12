@@ -1,77 +1,94 @@
 {
   "cafeId": "yichihuayuan-qiantanxiuxiangongyuan",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "646f68d27aa2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ed6eb8b832c1",
   "raw": {
     "headline": {
-      "zh": "茶咖融合的千平公园店",
-      "en": "Tea-infused coffee in a park"
+      "zh": "融合茶咖的超大露营店",
+      "en": "Tea-infused coffee in a giant outdoor garden space"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "门店面积约千平方米，含户外露营区与玻璃房",
-        "en": "Around 1000 sqm with outdoor camping area and glass house",
+        "zh": "超千平空间含户外露营区与玻璃房",
+        "en": "Over 1000 sqm space with outdoor camping area and glass room",
         "from": [
           12
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "室外座位靠近玻璃围栏，视野开阔",
-        "en": "Outdoor seats by glass railing with open views",
-        "from": [
-          6
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "咖啡豆融合碧螺春、西湖龙井、云南普洱等中国茶",
-        "en": "Beans infused with Biluochun, Longjing, Pu'er teas",
-        "from": [
-          10
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌饮品包括桂花拿铁",
-        "en": "Signature drink: osmanthus latte",
+        "zh": "招牌饮品为桂花拿铁与茶咖系列",
+        "en": "Signature drinks include osmanthus latte and tea-infused coffee",
         "from": [
-          9
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外座位区设遮阳伞与阶梯绿化带",
+        "en": "Outdoor seating with umbrellas and stepped greenery",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内落地窗采光良好，视野开阔",
+        "en": "Large floor-to-ceiling windows provide good natural light and open views",
+        "from": [
+          3,
+          6
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间10:00–20:00，覆盖早咖至晚餐时段",
-        "en": "Open 10:00–20:00, serving all-day meals",
+        "zh": "营业时间覆盖全天，至20:00",
+        "en": "Open daily until 20:00, covering all meal times",
         "from": [
           13,
-          15
+          14
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 85,
+      "focus": {
+        "value": 30,
         "from": [
-          1,
-          2,
-          4,
-          5,
-          12
+          13
         ],
-        "zh": "有室内外舒适座位和绿化",
-        "en": "Comfortable indoor/outdoor seating"
+        "zh": "全天运营适合办公",
+        "en": "All-day operation supports work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "大空间人流较多",
+        "en": "Large space draws moderate crowd"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "超大空间适合久坐",
+        "en": "Spacious layout encourages lingering"
       },
       "adventure": {
-        "value": 75,
+        "value": 70,
         "from": [
           10
         ],
-        "zh": "茶咖融合具实验性",
-        "en": "Tea-coffee fusion is experimental"
+        "zh": "使用中国茶做咖啡豆",
+        "en": "Chinese tea used in coffee beans"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:12Z"
+  "fetchedAt": "2026-09-12T16:45:16Z"
 }

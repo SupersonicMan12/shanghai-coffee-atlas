@@ -1,25 +1,26 @@
 {
   "cafeId": "costa-coffee-shanghaimeiyuehua",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "e49451eea960",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "856dd2b0de20",
   "raw": {
     "headline": {
-      "zh": "椰子风味选择多",
-      "en": "Many coconut-flavored drinks"
+      "zh": "椰子风味饮品多",
+      "en": "Lots of coconut-flavored drinks"
     },
     "traits": [
       {
         "kind": "drinks",
         "zh": "提供生椰乌龙轻乳茶、椰皇三重奏等椰子风味饮品",
-        "en": "Offers coconut drinks like young coconut oolong latte",
+        "en": "Offers coconut-flavored drinks like tropical milk tea and coconut trio",
         "from": [
-          3
+          3,
+          10
         ]
       },
       {
         "kind": "seating",
-        "zh": "设有带红色遮阳伞的露天座位",
-        "en": "Outdoor seating with red sun umbrellas",
+        "zh": "门外有红色遮阳伞和露天座位",
+        "en": "Has outdoor seating with red awnings outside",
         "from": [
           1,
           5
@@ -27,50 +28,50 @@
       },
       {
         "kind": "light",
-        "zh": "整面临街玻璃幕墙，自然采光充足",
-        "en": "Full glass facade provides ample natural light",
+        "zh": "整面临街玻璃幕墙，采光好",
+        "en": "Full-floor glass facade with good natural light",
         "from": [
           2,
           6
         ]
       },
       {
-        "kind": "time",
-        "zh": "营业时间为每日08:00-17:00",
-        "en": "Open daily 08:00–17:00",
+        "kind": "food",
+        "zh": "提拉米苏、巧克力酥卷受欢迎",
+        "en": "Popular treats: tiramisu and chocolate puff pastry",
         "from": [
-          12
+          7
         ]
       },
       {
-        "kind": "food",
-        "zh": "供应提拉米苏和巧克力酥卷",
-        "en": "Serves tiramisu and chocolate rolls",
+        "kind": "time",
+        "zh": "营业时间周一至周日 08:00-17:00",
+        "en": "Open daily 08:00–17:00",
         "from": [
-          8
+          9
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "energy": {
         "value": 60,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "临街有车流",
+        "en": "Street traffic nearby"
+      },
+      "linger": {
+        "value": 50,
         "from": [
           1,
           5
         ],
-        "zh": "有室外座位可久坐",
-        "en": "Outdoor seating for lingering"
-      },
-      "adventure": {
-        "value": 70,
-        "from": [
-          3,
-          13
-        ],
-        "zh": "多款特色椰子风味饮品",
-        "en": "Unique coconut drink options"
+        "zh": "有露天座位适合久坐",
+        "en": "Outdoor seats encourage lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:46:54Z"
+  "fetchedAt": "2026-09-12T16:48:52Z"
 }

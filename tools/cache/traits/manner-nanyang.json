@@ -1,70 +1,82 @@
 {
- "cafeId": "manner-nanyang",
- "model": "qwen-max",
- "inputDigest": "c4582e642173",
- "raw": {
-  "headline": {
-   "zh": "2平米小店，上海最实惠精品咖啡",
-   "en": "Tiny 2m² shop, best budget coffee in SH"
+  "cafeId": "manner-nanyang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "838bd6b89948",
+  "raw": {
+    "headline": {
+      "zh": "上海首店仅2㎡",
+      "en": "Shanghai's first store, just 2㎡"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街单层窄门面，无室外座位",
+        "en": "Narrow street-facing single-story shop, no outdoor seating",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌燕麦拿铁与冰甜，早期口碑高",
+        "en": "Signature oat milk latte and icy sweet, early fan favorite",
+        "from": [
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:00-17:00，日间开放",
+        "en": "Open 07:00–17:00 daily",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "自建5000平SC认证烘焙工坊，豆子自烘",
+        "en": "Own 5000㎡ SC-certified roastery, beans roasted in-house",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "站喝小店，难专注",
+        "en": "Standing-only, not for focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "临街人流多，略嘈杂",
+        "en": "Busy street, some noise"
+      },
+      "linger": {
+        "value": 10,
+        "from": [
+          5
+        ],
+        "zh": "仅2㎡，无法久坐",
+        "en": "Only 2㎡, no lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "自烘豆，有限定款",
+        "en": "House-roasted, limited editions"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "临街单层小店，门面窄",
-    "en": "Narrow street-level single-story shop",
-    "from": 1
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品含燕麦拿铁、冰甜",
-    "en": "Signature drinks: oat latte, iced sweet",
-    "from": 9
-   },
-   {
-    "kind": "price",
-    "zh": "价格带15-25元，平价精品",
-    "en": "Priced 15-25 RMB, affordable quality",
-    "from": 8
-   },
-   {
-    "kind": "people",
-    "zh": "自带杯子买咖啡减5元",
-    "en": "Bring your own cup, get 5 RMB off",
-    "from": 6
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间：周一至周日 07:00-17:00",
-    "en": "Open Mon-Sun 7:00-17:00",
-    "from": 14
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 20,
-    "from": 3,
-    "zh": "站立式小店，不适合办公",
-    "en": "Standing bar, not for work"
-   },
-   "energy": {
-    "value": 50,
-    "from": 3,
-    "zh": "临街小店内氛围适中",
-    "en": "Moderate energy, small street-side shop"
-   },
-   "linger": {
-    "value": 10,
-    "from": 3,
-    "zh": "无室外座位，适合快饮",
-    "en": "No outdoor seating, quick drink"
-   },
-   "adventure": {
-    "value": 40,
-    "from": 7,
-    "zh": "意式豆常推限定款",
-    "en": "Limited edition Italian beans"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:13:34Z"
+  "fetchedAt": "2026-09-12T16:41:29Z"
 }

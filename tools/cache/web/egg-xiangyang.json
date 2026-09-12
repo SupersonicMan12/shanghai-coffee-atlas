@@ -1,49 +1,79 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "营业时间每日8:00-18:30",
+      "kind": "time",
+      "quote": "8:00am - 6:30pm every day",
+      "url": "https://www.smartshanghai.com/venue/12378/egg_xiangyang_bei_lu",
+      "site": "Egg (Xiangyang Bei Lu) Shanghai - British, Cafes, Desserts, Jing'an ..."
+    },
+    {
+      "text": "地址为襄阳北路12号，近巨鹿路",
+      "kind": "space",
+      "quote": "12 Xiangyang Bei Lu, near Julu Lu",
+      "url": "https://www.smartshanghai.com/venue/12378/egg_xiangyang_bei_lu",
+      "site": "Egg (Xiangyang Bei Lu) Shanghai - British, Cafes, Desserts, Jing'an ..."
+    },
+    {
+      "text": "招牌焦糖香蕉蛋糕，口感软糯香脆",
+      "kind": "food",
+      "quote": "焦糖香蕉蛋糕是EGG的招牌,口感软糯香脆",
+      "url": "https://www.163.com/dy/article/GA95RAHM05228770.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "店铺分上下两层，有二楼靠窗位",
+      "kind": "space",
+      "quote": "店铺分为上下两层,运气好的话还能抢到二楼靠窗位",
+      "url": "https://www.163.com/dy/article/GA95RAHM05228770.html",
+      "site": "163网易免费邮"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 2,
-      "title": "上海市10 大咖啡馆 - Tripadvisor",
-      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-Shanghai.html",
-      "site_name": "Tripadvisor"
-    },
-    {
-      "index": 3,
-      "title": "可愛的上海咖啡館 - Trip.com",
-      "url": "https://my.trip.com/moments/detail/shanghai-2-119190377?locale=zh-MY",
+      "title": "Egg (Xiangyang Bei Lu) Shanghai - British, Cafes, Desserts, Jing'an ...",
+      "url": "https://www.smartshanghai.com/venue/12378/egg_xiangyang_bei_lu",
       "site_name": ""
     },
     {
+      "index": 2,
+      "title": "V C·葡式手工蛋撻專門店(上海首店)",
+      "url": "https://m.dianping.com/shop/1460609208",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "上海探店,襄阳北路 vintage,淘到宝贝心欢喜",
+      "url": "https://baijiahao.baidu.com/s?id=1864755343620459167",
+      "site_name": "百度"
+    },
+    {
       "index": 4,
-      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
-      "url": "https://www.foodtalks.cn/news/44541",
-      "site_name": "FoodTalks全球食品资讯网"
+      "title": "上海BOTTEGA意库餐厅的具体地址在哪里？ - 新浪财经",
+      "url": "https://cj.sina.cn/articles/view/7880068906/1d5b04f2a06801fmpm?froms=ggmp&vt=4",
+      "site_name": "新浪网"
     },
     {
       "index": 5,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
+      "title": "市中心入夜即狂欢的酒吧街,是时候曝光了",
+      "url": "https://www.163.com/dy/article/GA95RAHM05228770.html",
+      "site_name": "163网易免费邮"
     },
     {
       "index": 6,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "陈记甜品窝(中山北路店)",
+      "url": "https://www.dianping.com/shop/4046293/photos/album",
+      "site_name": "大众点评网"
     },
     {
       "index": 7,
-      "title": "上海咖啡馆突破1万家，全球第一！一杯咖啡里到底有什么？ - 解放日报",
-      "url": "https://www.shobserver.com/wx/detail.do?id=1111820",
-      "site_name": "上观"
+      "title": "EGG cafe(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8442059-Reviews-EGG_cafe-Shanghai.html",
+      "site_name": "Tripadvisor"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:39:50Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:39Z",
+  "retriedEn": true
 }

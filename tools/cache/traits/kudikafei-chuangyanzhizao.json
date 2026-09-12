@@ -1,68 +1,84 @@
 {
   "cafeId": "kudikafei-chuangyanzhizao",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "b2175ad8aeb1",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "329546c2efb6",
   "raw": {
     "headline": {
-      "zh": "商场内站喝亚洲风味咖啡",
-      "en": "Stand-up Asian-inspired coffee in mall"
+      "zh": "亚洲风味果茶特色",
+      "en": "Asian-inspired fruit tea specialties"
     },
     "traits": [
       {
-        "kind": "space",
-        "zh": "商场内吧台式站立咖啡店",
-        "en": "Standing bar inside a shopping mall",
-        "from": [
-          1,
-          10
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌含斑斓芒果椰子冰沙等亚洲风味饮品",
-        "en": "Signature drinks include pandan mango coconut frappe",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Features signature drinks like Pandan Mango Coco Frappe and Apple Jasmine Iced Tea",
         "from": [
-          7,
-          14
+          7
         ]
       },
       {
         "kind": "beans",
-        "zh": "使用100%阿拉比卡豆，三年获IIAC金奖",
-        "en": "100% Arabica beans, IIAC gold for 3 years",
+        "zh": "使用100%阿拉比卡咖啡豆，连续三年获国际金奖",
+        "en": "Uses 100% Arabica beans, awarded IIAC gold for three consecutive years",
         "from": [
           8
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日07:00–20:00营业",
-        "en": "Open daily 7am to 8pm",
+        "kind": "space",
+        "zh": "为商场内站喝小店，无堂食座位",
+        "en": "Standing-bar style shop in mall, no seating available",
         "from": [
-          13
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周一至周日 07:00-20:00",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          11
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有工作人员操作，支持扫码点单",
+        "en": "Staff working, QR ordering available"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "商场内咖啡店，有吧台和人流动",
+        "en": "Mall-based with bar and foot traffic"
+      },
       "linger": {
         "value": 20,
         "from": [
-          1,
+          9,
           10
         ],
-        "zh": "吧台站喝无堂食",
-        "en": "Standing bar, no seating"
+        "zh": "站喝小店，无堂食座位",
+        "en": "Standing-only, no seating"
       },
       "adventure": {
-        "value": 65,
+        "value": 70,
         "from": [
-          7,
-          14
+          7
         ],
-        "zh": "提供特色亚洲风味饮品",
-        "en": "Offers distinctive Asian-inspired drinks"
+        "zh": "招牌饮品具亚洲风味创新",
+        "en": "Innovative Asian-inspired drink flavors"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:29Z"
+  "fetchedAt": "2026-09-12T16:44:37Z"
 }

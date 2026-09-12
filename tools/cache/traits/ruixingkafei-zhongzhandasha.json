@@ -1,73 +1,90 @@
 {
   "cafeId": "ruixingkafei-zhongzhandasha",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "cf2ad755f9e7",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ba5cb2b01b3f",
   "raw": {
     "headline": {
-      "zh": "站喝快取，新品高频",
-      "en": "Grab-and-go with frequent new drinks"
+      "zh": "站喝快取，新品频出",
+      "en": "Stand-up grab-and-go with frequent new drinks"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "饮品含奶油、焦糖酱或牛奶",
-        "en": "Drinks feature cream, caramel, or milk",
+        "zh": "饮品顶部有奶油与焦糖酱装饰，呈浅棕色",
+        "en": "Drinks topped with cream and caramel sauce, light brown in color",
         "from": [
           1,
           2
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
-        "en": "Known for hits like coconut and savory lattes",
+        "kind": "beans",
+        "zh": "咖啡豆散落在饮品周围",
+        "en": "Coffee beans scattered around the drink",
         "from": [
-          4
+          3
         ]
       },
       {
         "kind": "time",
-        "zh": "工作日7:00-20:00，周末8:00-18:00",
-        "en": "Open 7am–8pm weekdays, 8am–6pm weekends",
+        "zh": "营业时间：周一至周五 07:00-20:00，周末 08:00-18:00",
+        "en": "Open 07:00-20:00 Mon-Fri, 08:00-18:00 Sat-Sun",
         "from": [
-          10
+          7
         ]
       },
       {
-        "kind": "price",
-        "zh": "主力价格带12-15元",
-        "en": "Main price range ¥12–15",
+        "kind": "drinks",
+        "zh": "推荐饮品包括陨石拿铁、菠萝的海瑞纳冰等",
+        "en": "Recommended drinks include Meteorite Latte, Pineapple Sea Iced, and more",
         "from": [
-          6
+          8
         ]
       },
       {
         "kind": "space",
-        "zh": "20-60㎡快取店，无或少量堂食",
-        "en": "20–60㎡ pickup-only with minimal seating",
+        "zh": "门店面积20-60㎡，以快取为主，无或少量堂食",
+        "en": "20-60㎡ fast pickup store, minimal or no seating",
         "from": [
-          7
+          5
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "站喝快取，专注度低",
+        "en": "Stand-up quick pickup, low focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "快取店，人流中等",
+        "en": "Fast pickup, moderate foot traffic"
+      },
       "linger": {
         "value": 20,
         "from": [
-          7
+          5
         ],
-        "zh": "站喝为主，少座位",
-        "en": "Standing pickup, few seats"
+        "zh": "站喝为主，不适宜久坐",
+        "en": "Standing only, not for lingering"
       },
       "adventure": {
-        "value": 60,
+        "value": 70,
         "from": [
-          4
+          4,
+          8
         ],
-        "zh": "每3-4天推一款新品",
-        "en": "New drink every 3–4 days"
+        "zh": "新品频出，饮品创意强",
+        "en": "Frequent new drinks, high creativity"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:37:29Z"
+  "fetchedAt": "2026-09-12T16:44:16Z"
 }

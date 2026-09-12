@@ -1,51 +1,27 @@
 {
   "cafeId": "alabikakafei-guanglanluyuzhangjianglujiaochakoud",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "b67213b60300",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c577ca3c2be3",
   "raw": {
     "headline": {
-      "zh": "100%阿拉比卡豆现烘站喝",
-      "en": "100% Arabica, freshly roasted, stand-up"
+      "zh": "100%阿拉比卡浓缩基底",
+      "en": "100% Arabica espresso base"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "使用100%阿拉比卡咖啡豆",
-        "en": "Uses 100% Arabica coffee beans",
+        "zh": "使用100%阿拉比卡咖啡豆制作浓缩基底",
+        "en": "Makes espresso base with 100% Arabica beans",
         "from": [
           1
         ]
       },
       {
-        "kind": "beans",
-        "zh": "店内设烘焙区现烘豆子",
-        "en": "In-house roasting for freshness",
+        "kind": "seating",
+        "zh": "以站立吧台为主，少量堂食空间",
+        "en": "Standing bar with limited seating",
         "from": [
           2
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "以近5米站立吧台为主",
-        "en": "Features a ~5-meter standing bar",
-        "from": [
-          4
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "营业覆盖日间高频时段",
-        "en": "Open during daytime peak hours",
-        "from": [
-          5
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "品牌2013年源于香港",
-        "en": "Brand originated in Hong Kong in 2013",
-        "from": [
-          6
         ]
       }
     ],
@@ -53,21 +29,20 @@
       "linger": {
         "value": 20,
         "from": [
-          4
-        ],
-        "zh": "主打站立吧台设计",
-        "en": "Standing-bar focused"
-      },
-      "adventure": {
-        "value": 70,
-        "from": [
-          1,
           2
         ],
-        "zh": "自烘100%阿拉比卡豆",
-        "en": "In-house roasted Arabica"
+        "zh": "站喝为主，不适合久坐",
+        "en": "Primarily standing-only"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "站喝空间难专注办公",
+        "en": "Hard to focus standing"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:56Z"
+  "fetchedAt": "2026-09-12T16:45:20Z"
 }

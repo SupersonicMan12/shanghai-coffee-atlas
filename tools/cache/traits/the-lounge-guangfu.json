@@ -1,39 +1,41 @@
 {
- "cafeId": "the-lounge-guangfu",
- "model": "qwen-max",
- "inputDigest": "9ada5908d4eb",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "the-lounge-guangfu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "832e2a31f416",
+  "raw": {
+    "headline": {
+      "zh": "临河玻璃窗坐席",
+      "en": "River-facing glass seats"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临河玻璃窗，可看货船缓慢经过",
+        "en": "Creek-facing glass window with slow-moving barges",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "视野开阔适合专注",
+        "en": "Open view aids focus"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          1
+        ],
+        "zh": "临水座位宜久坐",
+        "en": "Water view encourages lingering"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "提供多种糕点如可颂和方形蛋糕",
-    "en": "Offers a variety of pastries",
-    "from": 3,
-    "}, 4, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]}}]},{": "",
-    "},{": ""
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 50,
-    "from": 1,
-    "],": "linger"
-   },
-   "energy": {
-    "value": 30,
-    "from": 4,
-    "], ": "zh"
-   },
-   "linger": {
-    "value": 70,
-    "from": 8,
-    "], ": "en"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:14:13Z"
+  "fetchedAt": "2026-09-12T16:41:42Z"
 }

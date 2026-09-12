@@ -1,55 +1,46 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "FOTY 愚园路1107号新开业，以可颂和Kouign Amann为特色",
+      "kind": "food",
+      "quote": "Kouign Amann is one of my favorite pastries, so newly opened and so very good Fo",
+      "url": "https://www.meet-in-shanghai.net/en/guide/a-neighborhood-of-unique-eateries-and-coffee-shops-within-easy-walking-distance-300878/",
+      "site": "A neighborhood of unique eateries and coffee shops within easy ..."
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "上海冬天的肉桂卷王,到底是哪1只啊_面包_Gin_香气",
-      "url": "https://news.sohu.com/a/963904854_120851824",
-      "site_name": "搜狐网"
+      "title": "Shanghai｜Popular coffee shop on Yuyuan Road - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-131229639/",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "2023 FOTY 海选 MT POP - 《人间震道》Pop For Life - 电台节目 - 网易云音乐",
-      "url": "https://music.163.com/#/program?id=2543017576",
-      "site_name": "网易"
+      "title": "上海|👭愚园路这些沿街小店😋好吃又好拍‼️",
+      "url": "https://m.dianping.com/discovery/2208926877",
+      "site_name": "大众点评网"
     },
     {
       "index": 3,
-      "title": "Sticky Ricky - FOTY (Explicit)",
-      "url": "https://www.kugou.com/mixsong/77qzmc03.html",
-      "site_name": "酷狗音乐 - 就是歌多！小说相声也很多！"
+      "title": "No.107家咖啡探店 | Ribone Cafe - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/741090486",
+      "site_name": "大众点评网"
     },
     {
       "index": 4,
-      "title": "来了!羊城咖啡爱好者的最新聚点「皮爷咖啡」 ",
-      "url": "https://chihe.sohu.com/a/501177205_99989476",
-      "site_name": "搜狐网"
+      "title": "A neighborhood of unique eateries and coffee shops within easy ...",
+      "url": "https://www.meet-in-shanghai.net/en/guide/a-neighborhood-of-unique-eateries-and-coffee-shops-within-easy-walking-distance-300878/",
+      "site_name": ""
     },
     {
       "index": 5,
-      "title": "小身材大智慧——咖啡 - 中国科学院上海营养与健康研究所",
-      "url": "https://sinh.cas.cn/kxcb/kpzp/201805/t20180503_5005732.html",
-      "site_name": "中国科学院"
-    },
-    {
-      "index": 6,
-      "title": "D Rank、Giffie - FOTY (feat. Giffie)(Explicit)",
-      "url": "https://www.kugou.com/mixsong/8drfajeb.html",
-      "site_name": "酷狗音乐 - 就是歌多！小说相声也很多！"
-    },
-    {
-      "index": 7,
-      "title": "latrizzy、Jaysobg - FOTY (feat. Jaysobg)(Explicit)",
-      "url": "https://www.kugou.com/mixsong/arvu1u4c.html",
-      "site_name": "酷狗音乐 - 就是歌多！小说相声也很多！"
-    },
-    {
-      "index": 8,
-      "title": "开眼界!2024年全球最佳咖啡18名!请看真正的好咖啡有哪些特点!_品牌_风味_口感",
-      "url": "https://news.sohu.com/a/793064439_121622982",
-      "site_name": "搜狐网"
+      "title": "【民企在长宁】全国首店!愚园路上的“三顿半”咖啡馆,开业不久就人气爆棚! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NTQzNDIyOQ==&mid=2649791738&idx=2&sn=997efe800438d66c1b6e28bcfa40823d&chksm=86a33d5645dd167ac22e74b96daee258ea59e6f446b19f6114f37cd0352a1890b2035a04fea4&scene=27",
+      "site_name": "腾讯网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:56Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:58Z",
+  "retriedEn": true
 }

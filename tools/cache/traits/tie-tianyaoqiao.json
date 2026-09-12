@@ -1,27 +1,67 @@
 {
- "cafeId": "tie-tianyaoqiao",
- "model": "qwen-max",
- "inputDigest": "c3ab1af0b12d",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "tie-tianyaoqiao",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c8de6f8777b0",
+  "raw": {
+    "headline": {
+      "zh": "站喝看球的咖啡吧",
+      "en": "Stand-up bar for match-day espresso"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "百利甜咖啡与桂花耶加小白是特色饮品",
+        "en": "Specialty drinks include Baileys coffee and Guìhuā Yējiā Xiǎobái",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "站喝区靠近球场，比赛日有专属排队区",
+        "en": "Standing bar near stadium; match-day queue has its own away section",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "比赛日招牌为体育场人群特调浓缩",
+        "en": "Match-day signature: stadium-crowd espresso",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 80,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "比赛日人多热闹",
+        "en": "Crowded on match days"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "站喝为主，久坐少",
+        "en": "Standing-only setup"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "特色饮品有创意",
+        "en": "Creative specialty drinks"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "drinks",
-    "zh": "站着喝的店，不适合办公",
-    "en": "Standing bar, not for work",
-    "from": 3,
-    "}, 2]  ": "focus",
-    "value": 0
-   },
-   "energy"
-  ],
-  "value": 80,
-  "from": 3,
-  "], 4, ": ", ",
-  "比赛日人群热闹非凡": "Crowded on match days"
- },
- "fetchedAt": "2026-09-12T14:24:09Z"
+  "fetchedAt": "2026-09-12T16:42:30Z"
 }

@@ -1,77 +1,92 @@
 {
   "cafeId": "blacksheep-espresso-jianguo-middle-rd",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "e9a5c9505d37",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6bc3ff0eb623",
   "raw": {
     "headline": {
-      "zh": "自烘非洲豆，SOE奶咖突出",
-      "en": "House-roasted African beans, standout SOE milk coffee"
+      "zh": "自烘埃塞豆子",
+      "en": "House-roasted Ethiopian beans"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "自家烘焙，多款单一产地豆可选",
-        "en": "House-roasted with multiple single-origin options",
+        "zh": "自家烘焙，多款埃塞俄比亚单一产地豆",
+        "en": "House-roasted, multiple Ethiopian single-origin beans",
         "from": [
-          4
+          3,
+          5,
+          6
         ]
       },
       {
         "kind": "drinks",
-        "zh": "黑咖啡用浅烘埃塞豆，奶咖用中深烘埃塞豆",
-        "en": "Black coffee: light-roast Ethiopian; milk coffee: medium-dark",
+        "zh": "日晒埃塞俄比亚豆制成的SOE奶咖风味突出",
+        "en": "SOE milk coffee with prominent natural-processed Ethiopian flavor",
         "from": [
-          5
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "SOE奶咖使用日晒埃塞俄比亚豆，风味突出",
-        "en": "SOE milk coffee features bold sun-dried Ethiopian beans",
-        "from": [
-          7
+          6
         ]
       },
       {
         "kind": "space",
-        "zh": "30平米，吧台与客座各占一半",
-        "en": "30 sqm space split evenly between bar and seating",
+        "zh": "30平米街边小店，吧台与客座各占一半",
+        "en": "30㎡ street-side shop, bar and seating each half the space",
         "from": [
-          8
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间8:00–16:00或17:00",
-        "en": "Open 8:00–16:00 or 17:00 daily",
+        "zh": "营业时间8:00–16:00（高德）",
+        "en": "Open 8:00–16:00 (GaoDe)",
         "from": [
-          10,
-          12
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人大学兼职爱上咖啡，跨专业投身行业",
+        "en": "Owner met coffee during college part-time work, switched careers",
+        "from": [
+          10
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 85,
+      "focus": {
+        "value": 30,
         "from": [
-          1,
-          4,
-          5,
-          6,
           7
         ],
-        "zh": "自烘+手冲+产地命名豆",
-        "en": "House-roasted, origin-named, pour-over"
+        "zh": "空间有限，适合短暂停留",
+        "en": "Limited space, short stay"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "街边小店，日常氛围",
+        "en": "Street-side shop, everyday vibe"
       },
       "linger": {
         "value": 40,
         "from": [
-          8
+          7
         ],
-        "zh": "小空间仅半区为座位",
-        "en": "Limited seating in compact space"
+        "zh": "吧台与座位均等，可久坐",
+        "en": "Balanced bar and seats, suitable for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          6
+        ],
+        "zh": "自烘+农场命名豆，风味独特",
+        "en": "House-roasted, farm-named beans, unique profile"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:37:22Z"
+  "fetchedAt": "2026-09-12T16:43:19Z"
 }

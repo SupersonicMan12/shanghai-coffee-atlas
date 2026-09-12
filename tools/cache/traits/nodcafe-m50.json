@@ -1,70 +1,93 @@
 {
- "cafeId": "nodcafe-m50",
- "model": "qwen-max",
- "inputDigest": "05d3b6ae87d4",
- "raw": {
-  "headline": {
-   "zh": "用埃塞SOE豆，回归传统精品咖啡",
-   "en": "Uses SOE beans, back to classic coffee"
+  "cafeId": "nodcafe-m50",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a7e5d0e474e8",
+  "raw": {
+    "headline": {
+      "zh": "四露台+涂鸦艺术",
+      "en": "Four terraces with graffiti art"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "有四个露台可供朋友小聚",
+        "en": "Has four terraces for small groups to gather",
+        "from": [
+          11,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞SOE咖啡豆",
+        "en": "Uses Ethiopian SOE coffee beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为苹果肉桂拿铁",
+        "en": "Signature drink is apple cinnamon latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full-height street-facing glass, ample natural light",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内及通道绘有涂鸦，呼应园区艺术",
+        "en": "Interior and entryway feature graffiti reflecting M50's art vibe",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          11,
+          8
+        ],
+        "zh": "露台与临街设计带来一定人流",
+        "en": "Terraces and street frontage draw some foot traffic"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          11,
+          12
+        ],
+        "zh": "露台和艺术氛围适合久坐",
+        "en": "Terraces and artistic setting invite lingering"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          6,
+          14
+        ],
+        "zh": "无办公设备，专注度不高",
+        "en": "No work setup, low focus potential"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "精品豆与特色饮品具一定创新性",
+        "en": "Specialty beans and unique drink offer moderate novelty"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "beans",
-    "zh": "使用埃塞俄比亚SOE咖啡豆",
-    "en": "Ethiopian SOE beans used",
-    "from": 10
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品是苹果肉桂拿铁",
-    "en": "Signature drink: apple cinnamon latte",
-    "from": 11
-   },
-   {
-    "kind": "seating",
-    "zh": "有四个露台供朋友小聚",
-    "en": "Four terraces for gatherings",
-    "from": 12
-   },
-   {
-    "kind": "view",
-    "zh": "整面临街玻璃，视野开阔",
-    "en": "Full street-facing glass, wide view",
-    "from": 9
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间10:00-18:30",
-    "en": "Open 10:00-18:30",
-    "from": 18
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 0,
-    "from": 7,
-    "zh": "无人使用电脑",
-    "en": "No one using computers"
-   },
-   "energy": {
-    "value": 40,
-    "from": 16,
-    "zh": "画家们下午在此停留",
-    "en": "Artists linger in the afternoon"
-   },
-   "linger": {
-    "value": 80,
-    "from": 12,
-    "zh": "有多个露台可供久坐",
-    "en": "Terraces for long stays"
-   },
-   "adventure": {
-    "value": 50,
-    "from": 4,
-    "zh": "提供手冲设备",
-    "en": "Offers pour-over equipment"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:16:58Z"
+  "fetchedAt": "2026-09-12T16:41:58Z"
 }

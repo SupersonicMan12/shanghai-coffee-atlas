@@ -1,52 +1,51 @@
 {
   "cafeId": "costa-coffee-waigaoqiaofeisu",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "bcc1e67b85b4",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a1d381918da6",
   "raw": {
     "headline": {
-      "zh": "外高桥啡速店营业至17点",
-      "en": "Closes at 5pm on weekdays"
+      "zh": "熊猫系列饮品受欢迎",
+      "en": "Panda-themed drinks are popular"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "有高脚凳、卡座和小桌",
-        "en": "Offers bar stools, wall benches, and small tables",
+        "kind": "drinks",
+        "zh": "熊猫生椰拿铁等为推荐饮品",
+        "en": "Panda coconut milk latte and others are recommended",
         "from": [
-          2,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有靠墙卡座与小桌，可多人就坐",
+        "en": "Has wall-side booths and small tables for multiple people",
+        "from": [
           3
         ]
       },
       {
         "kind": "light",
-        "zh": "落地窗采光良好",
-        "en": "Good natural light from floor-to-ceiling windows",
+        "zh": "有落地窗，采光良好",
+        "en": "Has floor-to-ceiling windows with good lighting",
         "from": [
           8
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "提供熊猫生椰拿铁等特色饮品",
-        "en": "Serves Panda Coconut Latte and other signature drinks",
+        "kind": "time",
+        "zh": "营业时间周一至周五7:00-17:00，周末8:00-16:00",
+        "en": "Open 7:00-17:00 Mon-Fri, 8:00-16:00 Sat-Sun",
         "from": [
-          15
+          11
         ]
       },
       {
         "kind": "food",
-        "zh": "供应提拉米苏和巧克力酥卷",
-        "en": "Offers tiramisu and chocolate rolls",
+        "zh": "提拉米苏、巧克力酥卷受欢迎",
+        "en": "Tiramisu and chocolate croissant are popular",
         "from": [
-          10
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "工作日7:00-17:00，周末8:00-16:00",
-        "en": "Open 7am–5pm weekdays, 8am–4pm weekends",
-        "from": [
-          14
+          9
         ]
       }
     ],
@@ -54,13 +53,20 @@
       "linger": {
         "value": 60,
         "from": [
-          2,
           3
         ],
-        "zh": "有多种座位可短坐",
-        "en": "Seating for short stays"
+        "zh": "可多人就坐，适合久坐",
+        "en": "Seating for groups, suitable to linger"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "门口有人经过，有一定人流",
+        "en": "People pass by, moderate foot traffic"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:22Z"
+  "fetchedAt": "2026-09-12T16:48:38Z"
 }

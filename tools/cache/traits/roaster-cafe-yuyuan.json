@@ -1,47 +1,56 @@
 {
- "cafeId": "roaster-cafe-yuyuan",
- "model": "qwen-max",
- "inputDigest": "fb071da66aae",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "roaster-cafe-yuyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5f0c7376f42e",
+  "raw": {
+    "headline": {
+      "zh": "豆店附带咖啡吧",
+      "en": "Bean shop with bar attached"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "招牌为一包豆子外加一个杯子",
+        "en": "Bag of beans, cup thrown in",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound",
+        "zh": "位于一条几乎无人进入的小巷尽头",
+        "en": "On a stub of a street most people never turn into",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "位置隐蔽，不易专注",
+        "en": "Hard to focus due to location"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "小巷深处，人少安静",
+        "en": "Quiet due to secluded spot"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "位置偏僻，适合短暂停留",
+        "en": "Suitable for short stays"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "营业时间从早7点到下午5点",
-    "en": "Open from 7 AM to 5 PM",
-    "from": 5,
-    "},{": "time"
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": 3,
-    "zh": "适合专注工作",
-    "en": "Good for focused work"
-   },
-   "energy": {
-    "value": 20,
-    "from": 3,
-    "zh": "安静的小街",
-    "en": "Quiet street"
-   },
-   "linger": {
-    "value": 40,
-    "from": 3,
-    "zh": "座位不多，但可久坐",
-    "en": "Limited seating, but can linger"
-   },
-   "adventure": {
-    "value": 60,
-    "from": 4,
-    "zh": "提供手冲咖啡",
-    "en": "Offers pour-over coffee"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:13:25Z"
+  "fetchedAt": "2026-09-12T16:41:26Z"
 }

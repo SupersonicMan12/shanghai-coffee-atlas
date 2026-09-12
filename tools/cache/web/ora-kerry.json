@@ -3,65 +3,48 @@
   "results": [
     {
       "index": 1,
-      "title": "浓郁又实惠!长宁这家宝藏咖啡馆,你打卡了吗?",
-      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1750638",
-      "site_name": "无"
+      "title": "ORA Coffee Shanghai ☕️ - Trip.com",
+      "url": "https://sg.trip.com/moments/detail/shanghai-2-142660359/",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "我们为什么还需要咖啡门店?_空间_Ora_设计",
-      "url": "https://fashion.sohu.com/a/1073242717_120860591",
-      "site_name": "搜狐网"
+      "title": "上海|雨天的等一杯咖啡时间 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/711364973",
+      "site_name": "大众点评网"
     },
     {
       "index": 3,
-      "title": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
-      "url": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
-      "site_name": "腾讯网"
+      "title": "保利·外滩曜|PARK77",
+      "url": "https://sh.fang.anjuke.com/loupan/532990/fujin-0107.html",
+      "site_name": "安居客"
     },
     {
       "index": 4,
-      "title": "Ora Coffee国内首店 ",
-      "url": "https://business.sohu.com/a/840535340_121118713",
-      "site_name": "无"
-    },
-    {
-      "index": 5,
-      "title": "ORA Coffee 上海 - Trip.com",
-      "url": "https://hk.trip.com/moments/detail/shanghai-2-142660359/",
-      "site_name": ""
-    },
-    {
-      "index": 6,
-      "title": "笑脸蜘蛛| ORA coffee，全国首家概念店落地，以创新的设计呈现 - 搜狐",
-      "url": "https://www.sohu.com/a/849161355_120860591",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 7,
-      "title": "皮爷咖啡,探索平价",
-      "url": "https://www.canyin88.com/zixun/2024/12/24/97602.html",
-      "site_name": "红餐网"
-    },
-    {
-      "index": 8,
-      "title": "EP YAYING雅莹进驻上海新天地、UR在曼谷开设海外最大门店 - 赢商网",
-      "url": "https://m.winshang.com/news729865.html",
-      "site_name": ""
-    },
-    {
-      "index": 9,
       "title": "Ora Coffee (Changning IMIX PARK Branch) - Apple Maps",
       "url": "https://maps.apple.com/place?place-id=H2710I3F996A943EFD9&_provider=57879",
       "site_name": "Apple (中国)"
     },
     {
-      "index": 10,
-      "title": "皮爷咖啡中国首次开出新品牌Ora Coffee！也卖9.9元咖啡 - FoodTalks",
-      "url": "https://www.foodtalks.cn/news/54763",
-      "site_name": "FoodTalks全球食品资讯网"
+      "index": 5,
+      "title": "上海探店|永嘉尽头街角绝美咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/762095917",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "梅园咖啡屋，上海/ OffhandPractice | 谷德设计网- gooood",
+      "url": "https://www.gooood.cn/meiyuan-cafe-by-offhandpractice.htm",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海本地病例涉及区域和场所汇总表(持续更新)- 上海本地宝",
+      "url": "https://m.sh.bendibao.com/news/245889.html",
+      "site_name": "本地宝"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:35Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:45Z",
+  "retriedEn": true
 }

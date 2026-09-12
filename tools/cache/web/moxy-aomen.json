@@ -1,11 +1,26 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "营业时间6:30AM–11:00PM，开放至深夜",
+      "kind": "time",
+      "quote": "6:30AM – 11:00PM. Open.",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F99BA0F816AF&coordinate=31.246543%2C121.440901&name=MOXY+Cafe+%26+Bistr&address=Aomen+Road+and+Jiangning+Road+Intersection+Southwest+20+Meters%2C+Putuo%2C+Shanghai+China&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "地址位于澳门路与江宁路交叉口西南20米",
+      "kind": "space",
+      "quote": "Address. Aomen Road and Jiangning Road Intersection Southwest 20 Meters",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F99BA0F816AF&coordinate=31.246543%2C121.440901&name=MOXY+Cafe+%26+Bistr&address=Aomen+Road+and+Jiangning+Road+Intersection+Southwest+20+Meters%2C+Putuo%2C+Shanghai+China&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "上海西康路咖啡馆上海咖啡馆分布魔都咖啡",
-      "url": "https://madmin.gafei.com/views-52267",
-      "site_name": "咖啡网"
+      "title": "南京万豪Moxy酒店(江宁开发区竹山路店)",
+      "url": "https://hotels.ctrip.com/hotels/83130876.html",
+      "site_name": "携程旅行网"
     },
     {
       "index": 2,
@@ -15,29 +30,30 @@
     },
     {
       "index": 3,
-      "title": "摩卡咖啡豆 500M - 商品搜索 - 京东",
-      "url": "https://search.jd.com/Search?keyword=摩卡咖啡豆%20500ML&enc=utf-8&wq=圆托盘&pvid=0dfb8285871d40219fa1a13a7bbd3834",
-      "site_name": "京东商城;京东多媒体网"
+      "title": "万豪+宜家联手打造的潮牌Moxy:金陵第一“鸭店”~南京江宁Moxy酒店体验",
+      "url": "https://zhuanlan.zhihu.com/p/466977031",
+      "site_name": "知乎"
     },
     {
       "index": 4,
-      "title": "上海普陀Moxy酒店| Modern Hotel - 万豪",
-      "url": "https://www.marriott.com.cn/hotels/shaxx-moxy-shanghai-putuo/overview/",
+      "title": "Moxy Shanghai Putuo, Shanghai (updated prices 2026)",
+      "url": "https://www.booking.com/hotel/cn/moxy-shanghai-putuo.html",
       "site_name": ""
     },
     {
       "index": 5,
-      "title": "MoCafe Mo Coffee (Qingnian Road Branch) - Apple Maps",
-      "url": "https://maps.apple.com/place?place-id=H2710I3F987D745AC07&_provider=57879",
-      "site_name": "Apple (中国)"
+      "title": "南京江宁 Moxy 酒店",
+      "url": "https://www.marriott.com.cn/hotels/nkgox-moxy-nanjing-jiangning/reviews/",
+      "site_name": "马里奥特万豪国际公司网站"
     },
     {
       "index": 6,
-      "title": "从网红店到个人私藏，魔都20条马路咖啡店攻略！ - 知乎专栏",
-      "url": "https://zhuanlan.zhihu.com/p/34581051",
-      "site_name": "知乎"
+      "title": "上海普陀Moxy酒店",
+      "url": "https://www.marriott.com.cn/hotels/travel/shaxx-moxy-shanghai-putuo/",
+      "site_name": "马里奥特万豪国际公司网站"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:32Z",
+  "retriedEn": true
 }

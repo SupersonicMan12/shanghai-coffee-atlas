@@ -1,81 +1,67 @@
 {
   "cafeId": "manner-coffee-xinlintiandi",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "b4001b3a6476",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "4754444de846",
   "raw": {
     "headline": {
-      "zh": "2㎡站喝精品咖啡",
-      "en": "2㎡ standing-bar specialty coffee"
+      "zh": "站喝小吧台",
+      "en": "Standing bar only"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "小型吧台式门店，无座位区",
-        "en": "Tiny bar-style shop, no seating",
+        "zh": "无座位区，仅设吧台站立消费",
+        "en": "No seating, standing-only service",
         "from": [
-          1,
-          5
+          5,
+          8
         ]
       },
       {
         "kind": "drinks",
-        "zh": "提供美式、冷萃、燕麦拿铁等",
+        "zh": "提供美式、冷萃及燕麦拿铁等招牌饮品",
         "en": "Serves Americano, cold brew, oat milk latte",
         "from": [
           3,
           4,
-          12,
-          16
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "使用自建SC认证工坊烘焙豆",
-        "en": "Beans roasted in own SC-certified facility",
-        "from": [
           10
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日07:00–17:00营业",
-        "en": "Open daily 07:00–17:00",
+        "kind": "beans",
+        "zh": "使用自建烘焙工坊的意式豆，含限定款",
+        "en": "Uses in-house roasted beans, including limited editions",
         "from": [
-          15
+          9
         ]
       },
       {
-        "kind": "story",
-        "zh": "品牌始于2015年静安2㎡小店",
-        "en": "Brand started in 2015 from a 2㎡ shop",
+        "kind": "time",
+        "zh": "营业时间 07:00-17:00",
+        "en": "Open 07:00–17:00 daily",
         "from": [
-          8,
-          13
+          11
         ]
       }
     ],
     "axisHints": {
       "linger": {
-        "value": 10,
+        "value": 20,
         "from": [
-          1,
-          5,
-          8
+          5
         ],
-        "zh": "站喝模式，无座位",
-        "en": "Standing-only, no seats"
+        "zh": "无座位，适合快速取用",
+        "en": "No seats, quick grab"
       },
-      "adventure": {
+      "energy": {
         "value": 60,
         "from": [
-          2,
-          10,
-          12
+          7
         ],
-        "zh": "自烘豆+限定意式饮品",
-        "en": "House-roasted beans & seasonal drinks"
+        "zh": "临街落地窗，外向通透",
+        "en": "Street-facing glass, open feel"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:40:43Z"
+  "fetchedAt": "2026-09-12T16:45:34Z"
 }

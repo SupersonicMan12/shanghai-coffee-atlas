@@ -1,0 +1,71 @@
+{
+  "cafeId": "funk-and-kale",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "8b7d2567c217",
+  "photos": [
+    "https://aos-comment.amap.com/B0K35G6BMK/comment/6F6FC108_8658_4995_8BE3_C37A41BAD5B0_L0_001_1080_1440_1737015601687_62629278.jpg",
+    "http://store.is.autonavi.com/showpic/144e8c8a91a59ae92cd84836660bcfbc",
+    "http://store.is.autonavi.com/showpic/1e481aa9b8aaf24446fc8094e3672dc7"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为玻璃门入口，门内可见木质吧台与多组桌椅，属中等规模咖啡馆空间",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内吧台为金属台面+木纹柜体，后方有置物架及咖啡机、磨豆机等设备",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上可见两杯饮品：一杯含柠檬片与红枣的茶饮、一杯黄色泡沫果汁，无咖啡类特调名称",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "主食为一碗带肉丸与细粉的汤面（类似越南河粉），配菜含牛肉沙拉、玉米炒蔬菜、虾仁塔可",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内座位为木质椅子+圆桌组合，目测约8-12个座位，属小到中型店",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃门可见室外为城市街道环境，无明显庭院或水景；室内靠窗处有大窗户，但未见窗外具体景致",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见任何人使用笔记本电脑，也无书架/植物/宠物等装饰元素",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机、手冲台、虹吸壶等专业烘焙或冲煮设备，仅见常规意式咖啡机及磨豆机",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:19Z"
+}

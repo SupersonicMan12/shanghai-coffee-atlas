@@ -28,6 +28,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import json
 import re
 import sys
@@ -51,12 +52,39 @@ NOT_USEFUL = re.compile(r'店招|招牌[字灯]|logo|标志|标牌|纸杯|纸袋
                         r'|^(无|未见|没有|未出现|看不到|未能|不可见)|未见|但无|也未|不明确|无法(确定|判断|辨认)'
                         r'|^serves coffee$|coffee is the (recommended|main)|^(提供|主营|供应)咖啡$|professional espresso( machine)?( and grinder)?$'
                         r'|专业意式咖啡机|专业咖啡(机|设备)$|单人餐|single-person meals|calorie timing|卡路里'
-                        r'|透明杯|杯装饮品|含冰块|绿叶装饰|clear (plastic )?cups?|with ice cubes|garnished with (green )?leaves', re.I)
+                        r'|透明杯|杯装饮品|含冰块|绿叶装饰|clear (plastic )?cups?|with ice cubes|garnished with (green )?leaves'
+                        r'|塑料杯|带盖|带蜡烛|盐胡椒|调味品|专业设备|无烘焙|超级奶|salt and pepper|plastic cups?|candle', re.I)
 
 # opening hours are rendered from the weekly table; a bare hours line is noise
 BARE_HOURS = re.compile(r'^(open (daily )?(from )?\d|营业时间|每日\s*\d|周一至周日\s*\d)', re.I)
 
 OTHER_BRANCH = re.compile(r'[\u4e00-\u9fffA-Za-z0-9]{2,10}店(是|为|用|提供|主打|设|有|采用|开设)|首家|旗舰店')
+
+# brand copy that says nothing about *this* branch: origin stories, store counts,
+# nationwide promotions, corporate facts
+BRAND_COPY = re.compile(
+    r'品牌|部分门店|全国|全球|门店(数|超|遍布|总数|达|为|均|统一|采用|设计|面积)|家门店|第二杯|限时|优惠|促销'
+    r'|创立|成立|创始|起源|旗下|集团|加盟|融资|估值|连锁|直营|致力于|保留节目'
+    r'|founded|brand|nationwide|stores? (across|nationwide|in china)|second cup|promotion|franchis|chain',
+    re.I,
+)
+
+# corporate history and promotions read the same on every branch, whoever runs it
+GENERIC_COPY = re.compile(
+    r'连锁|多数门店|部分门店|全国首店|特价|优惠|第二杯|限时|促销|加盟|品牌故事|品牌标识|先驱|代表之一|创立超'
+    r'|\d{4}\s*年[^，。]{0,8}(创立|成立|创办)(?!.*(主理人|冠军|歌手|演员|主厨|烘焙师))'
+    r'|franchis|promotion|second cup|chain',
+    re.I,
+)
+
+# a name that appears on 4+ atlas records is a multi-branch brand even when it is
+# not in the curated CHAINS list (咖啡喝伐, 邦德, Pronto, PS Cafe...)
+BRANCH_NOISE = re.compile(r'[\(（].*?[）\)]|\s·\s.*$|coffee|caf[eé]|咖啡馆|咖啡店|咖啡|[\s.\-&,，、\'’!！·]', re.I)
+
+
+def brand_key(cafe: dict) -> str:
+    return BRANCH_NOISE.sub('', (cafe['nameZh'] or cafe['name']).lower())
+
 
 # Amap `tag` is a comma list of dishes users photographed; these are not dishes.
 NOT_A_DISH = re.compile(r'停车|wifi|外卖|包间|刷卡|团购|会员|充电|免费|营业|服务|环境|自助|闭店|开业', re.I)
@@ -158,6 +186,8 @@ def evidence_items(cafe: dict, src: dict) -> list[dict]:
         items.append({'text': f['text'], 'kind': norm_kind(f.get('kind')), 'evidence': 'web',
                       'confidence': 0.6 if named else 0.45, 'source': f.get('url'), 'quote': f.get('quote')})
     for f in src['brand'].get('facts') or []:
+        if norm_kind(f.get('kind')) == 'story' or BRAND_COPY.search(f['text']):
+            continue
         items.append({'text': f['text'], 'kind': norm_kind(f.get('kind')), 'evidence': 'web', 'confidence': 0.5,
                       'source': f.get('url'), 'quote': f.get('quote'), 'brand': True})
     if cafe['source'] == 'editorial' and cafe['note']:
@@ -267,7 +297,7 @@ def synthesise(cafe: dict, items: list[dict], model: str) -> dict | None:
     return out
 
 
-def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict]:
+def resolve(items: list[dict], raw: dict, chain: bool = False) -> tuple[list[dict], dict | None, dict]:
     def cited(frm) -> list[dict]:
         if isinstance(frm, (int, str)):
             frm = re.findall(r'\d+', str(frm))
@@ -295,6 +325,10 @@ def resolve(items: list[dict], raw: dict) -> tuple[list[dict], dict | None, dict
             continue
         # brand-level web facts about *another* branch ("外滩源店是全国首家…")
         if any(s.get('brand') for s in srcs) and OTHER_BRANCH.search(zh):
+            continue
+        if GENERIC_COPY.search(zh) or GENERIC_COPY.search(en):
+            continue
+        if chain and (BRAND_COPY.search(zh) or BRAND_COPY.search(en)):
             continue
         conf = max(s['confidence'] for s in srcs)
         if len(srcs) > 1 and len(evidence) > 1:
@@ -341,9 +375,12 @@ def main() -> None:
     args = ap.parse_args()
 
     all_cafes = cafes()
+    branches = Counter(brand_key(c) for c in all_cafes)
     plan: list[tuple[dict, dict, list[dict]]] = []
     for cafe in all_cafes:
         src = gather(cafe)
+        if len(brand_key(cafe)) >= 2 and branches[brand_key(cafe)] >= 4:
+            src['chain'] = src['chain'] or (brand_key(cafe), '')
         plan.append((cafe, src, evidence_items(cafe, src)))
 
     if not args.no_model:
@@ -364,7 +401,7 @@ def main() -> None:
         d = deterministic(cafe, src)
         cached = read_json(TRAITS / f"{cafe['id']}.json") if items else None
         if cached and isinstance(cached.get('raw'), dict):
-            traits, headline, hints = resolve(items, cached['raw'])
+            traits, headline, hints = resolve(items, cached['raw'], chain=bool(src['chain']))
             d['traits'] = traits
             if headline:
                 d['headline'] = headline

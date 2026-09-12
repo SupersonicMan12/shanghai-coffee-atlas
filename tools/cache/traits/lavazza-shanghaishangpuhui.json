@@ -1,25 +1,26 @@
 {
   "cafeId": "lavazza-shanghaishangpuhui",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "033bfae9bb9c",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "df148bd48646",
   "raw": {
     "headline": {
-      "zh": "亚洲首家CASA LAVAZZA文化之家",
-      "en": "Asia's first CASA LAVAZZA coffee cultural house"
+      "zh": "亚洲首家意式咖啡文化之家",
+      "en": "Asia's first Casa Lavazza"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "设专业手冲操作台，配备全球仅60台的37号老鹰咖啡机",
-        "en": "Features a professional pour-over station and the rare #37 Eagle espresso machine (one of only 60 worldwide)",
+        "zh": "整面临街落地窗，采光充足",
+        "en": "Full-floor floor-to-ceiling windows with ample natural light",
         "from": [
-          10
+          6,
+          4
         ]
       },
       {
         "kind": "drinks",
-        "zh": "供应上海限定拼配豆及‘橙力香草籽雪克美式’等健康饮品",
-        "en": "Serves Shanghai-exclusive blend and health-focused drinks like Orange Energy Vanilla Seed Shaker Americano",
+        "zh": "推出上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Features Shanghai-exclusive blend and 'Orange Power Vanilla Shake Americano'",
         "from": [
           8,
           9
@@ -27,58 +28,65 @@
       },
       {
         "kind": "seating",
-        "zh": "增设舒适靠窗座位，划分下午茶休憩与沙龙区域",
-        "en": "Offers comfortable window-side seating and designated areas for afternoon tea and salons",
+        "zh": "设有舒适靠窗座位，适配慢坐休憩",
+        "en": "Offers comfortable window-side seating for relaxed lounging",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "立体展示墙分层陈列生豆至深度烘焙豆",
+        "en": "Layered display wall showing green to dark roast beans",
         "from": [
           11
         ]
       },
       {
-        "kind": "beans",
-        "zh": "立体咖啡豆展示墙分层陈列生豆至深度烘焙豆",
-        "en": "Three-tiered coffee bean wall displays green, medium-roast, and dark-roast beans",
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-18:00",
+        "en": "Open daily 07:00–18:00",
         "from": [
           12
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "营业时间周一至周日07:00-18:00",
-        "en": "Open daily from 7:00 to 18:00",
-        "from": [
-          14
         ]
       }
     ],
     "axisHints": {
       "focus": {
-        "value": 55,
+        "value": 40,
         "from": [
-          11
+          10
         ],
-        "zh": "有靠窗座位但未提电源/网络",
-        "en": "Window seats provided but no mention of power or Wi-Fi"
+        "zh": "有座位可办公",
+        "en": "Seating suitable for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "临街且有绿化带",
+        "en": "On busy street with greenery"
       },
       "linger": {
-        "value": 85,
-        "from": [
-          11
-        ],
-        "zh": "明确打破‘站着喝’模式，设休憩与沙龙区",
-        "en": "Explicitly designed for lingering with dedicated rest and salon zones"
-      },
-      "adventure": {
         "value": 70,
         "from": [
-          8,
-          9,
-          10,
-          12
+          10
         ],
-        "zh": "上海限定豆、雪克美式、手冲台、多层烘焙豆展示",
-        "en": "Shanghai-exclusive blend, shaker Americano, pour-over station, and multi-roast bean display"
+        "zh": "专设休憩与沙龙区",
+        "en": "Designed for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "上海限定饮品创新",
+        "en": "Innovative local limited drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:44:52Z"
+  "fetchedAt": "2026-09-12T16:46:15Z"
 }

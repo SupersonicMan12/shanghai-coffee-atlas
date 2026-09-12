@@ -1,76 +1,86 @@
 {
   "cafeId": "heigoukafei-xingqibashangwulou",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "f4ef60c6d841",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "85204735dcbd",
   "raw": {
     "headline": {
-      "zh": "有黑狗店员的治愈咖啡馆",
-      "en": "Cafe with a black dog staff"
+      "zh": "90后店主与黑狗Vicky",
+      "en": "90s owner and dog Vicky"
     },
     "traits": [
       {
         "kind": "people",
-        "zh": "特殊店员是黑狗Vicky",
-        "en": "Staff includes a black dog named Vicky",
+        "zh": "店主为90后女孩，有特殊店员黑狗Vicky",
+        "en": "90s female owner with special staff Vicky the dog",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡及创意饮品如酒酿气泡美式",
+        "en": "offers hand pour and creative drinks like rice wine soda americano",
         "from": [
           11
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "提供手冲与创意饮品如酒酿气泡美式",
-        "en": "Serves pour-over and creative drinks like fermented rice sparkling Americano",
+        "kind": "space",
+        "zh": "临街落地玻璃窗，采光良好，有室外座位",
+        "en": "floor-to-ceiling windows facing street, good lighting, outdoor seating",
         "from": [
-          12
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "店外设两把椅子作室外座位",
-        "en": "Two outdoor chairs available outside",
-        "from": [
+          2,
           4,
-          8
-        ]
-      },
-      {
-        "kind": "light",
-        "zh": "整面临街玻璃窗，采光良好",
-        "en": "Full-height street-facing glass provides ample light",
-        "from": [
-          5,
-          9
+          8,
+          3,
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "每日08:00–18:00营业",
-        "en": "Open daily 08:00–18:00",
+        "zh": "营业时间周一至周日 08:00-18:00",
+        "en": "open daily 08:00–18:00",
         "from": [
-          14
+          13
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          13
+        ],
+        "zh": "营业至18点，适合下午使用",
+        "en": "closes at 6pm, good for afternoon"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "氛围松弛治愈，不喧闹",
+        "en": "calm and cozy, not noisy"
+      },
       "linger": {
         "value": 60,
         "from": [
-          4,
-          8,
-          13
+          3,
+          7
         ],
-        "zh": "有室外座位和治愈氛围",
-        "en": "Outdoor seating and calming vibe"
+        "zh": "有室外座椅，适合久坐",
+        "en": "has outdoor seats for lingering"
       },
       "adventure": {
         "value": 70,
         "from": [
-          12
+          11
         ],
-        "zh": "提供酒酿气泡美式等创意饮品",
-        "en": "Offers inventive drinks like rice-fermented sparkling Americano"
+        "zh": "有酒酿气泡美式等创意饮品",
+        "en": "features experimental drinks like rice wine soda"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:37:14Z"
+  "fetchedAt": "2026-09-12T16:44:13Z"
 }

@@ -1,65 +1,73 @@
 {
   "cafeId": "chilly-bean-gubei",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "2cf69b704b9a",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "05e97b40c9b0",
   "raw": {
     "headline": {
-      "zh": "意式咖啡冰淇淋限定店",
-      "en": "Espresso gelato pop-up"
+      "zh": "亚洲首家意式咖啡烘焙吧",
+      "en": "Asia's first Italian coffee bakery bar"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌为illy咖啡基底的意式咖啡冰淇淋与咖啡云霜",
-        "en": "Serves espresso gelato and coffee cloud using illy beans",
+        "zh": "招牌为意式咖啡冰淇淋与咖啡云霜",
+        "en": "Signature drinks: iced coffee ice cream and coffee cloud frost",
         "from": [
           5
         ]
       },
       {
         "kind": "beans",
-        "zh": "使用illy经典拼配，含9种100%阿拉比卡豆",
-        "en": "Uses illy’s 9-bean 100% Arabica blend",
+        "zh": "使用9种100%阿拉比卡咖啡豆拼配",
+        "en": "Uses 9 types of 100% Arabica beans blended in classic ratio",
         "from": [
           6
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间10:30-18:00，每日开放",
+        "zh": "营业时间为每日10:30至18:00",
         "en": "Open daily 10:30–18:00",
         "from": [
-          12
+          11
         ]
       },
       {
-        "kind": "story",
-        "zh": "亚洲首家意大利咖啡美食烘焙吧",
-        "en": "Asia’s first Italian coffee bakery bar",
+        "kind": "space",
+        "zh": "位于邻里复合社区内，有庭院空间",
+        "en": "Located in a neighborhood compound with lawn area",
         "from": [
-          7
+          9,
+          10
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 60,
+      "energy": {
+        "value": 40,
         "from": [
-          5,
-          6
+          9
         ],
-        "zh": "提供咖啡冰淇淋等创新饮品",
-        "en": "Offers coffee gelato creations"
+        "zh": "邻里社区氛围安静",
+        "en": "Quiet neighborhood vibe"
       },
       "linger": {
         "value": 30,
         "from": [
           4
         ],
-        "zh": "店内未见座位区域",
-        "en": "No seating visible"
+        "zh": "无座位，适合站喝",
+        "en": "No seating, quick stand-only visit"
+      },
+      "focus": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "无办公设施，不适合工作",
+        "en": "No setup for work"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:37Z"
+  "fetchedAt": "2026-09-12T16:42:15Z"
 }

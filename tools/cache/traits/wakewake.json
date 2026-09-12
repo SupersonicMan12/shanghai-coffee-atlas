@@ -1,34 +1,50 @@
 {
- "cafeId": "wakewake",
- "model": "qwen-max",
- "inputDigest": "0e65a5f387d5",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "wakewake",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "69305f03ab64",
+  "raw": {
+    "headline": {
+      "zh": "招牌双份，边走边喝",
+      "en": "Double shot, keep walking"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为双份浓缩，需站着喝完",
+        "en": "Signature drink is double shot, meant to be consumed standing",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "裸露灯泡与电线，呈现粗犷极简风格",
+        "en": "Exposed lightbulbs and wiring create a raw minimalist aesthetic",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "站喝设计，不适合久坐",
+        "en": "Standing-only format discourages lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "咖啡强劲，氛围紧凑",
+        "en": "Bold espresso drives energetic vibe"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "空间很小，适合站着快速喝完",
-    "en": "Tiny space, for quick standing drinks",
-    "from": 1
-   }
-  ],
-  "axisHints": {
-   "energy": {
-    "value": 80,
-    "from": 1,
-    "zh": "环境嘈杂热闹",
-    "en": "Loud and bustling"
-   },
-   "linger": {
-    "value": 20,
-    "from": 1,
-    "zh": "鼓励站饮快走",
-    "en": "Quick in and out"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:12:38Z"
+  "fetchedAt": "2026-09-12T16:41:23Z"
 }

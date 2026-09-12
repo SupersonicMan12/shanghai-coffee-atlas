@@ -1,68 +1,83 @@
 {
   "cafeId": "nowwa-shanghailvzhoukangcheng",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "69dafa07f513",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d2da9f5fa2e3",
   "raw": {
     "headline": {
-      "zh": "临街站喝平价果咖",
-      "en": "Grab affordable fruit coffee to-go"
+      "zh": "小马果咖系列",
+      "en": "Small Horse Fruit Coffee series"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌‘小马果咖’系列突破咖啡定义",
-        "en": "Signature 'Xiao Ma Guo Ka' redefines coffee",
+        "zh": "招牌饮品为小马果咖系列，突破咖啡定义框架",
+        "en": "Signature drink is Small Horse Fruit Coffee series, breaking coffee conventions",
         "from": [
           8
         ]
       },
       {
         "kind": "beans",
-        "zh": "严选耶加雪菲、危地马拉等高海拔阿拉比卡豆",
-        "en": "Uses high-altitude Arabica from Yirgacheffe, Guatemala, etc.",
+        "zh": "严选耶加雪菲、危地马拉、哥伦比亚、云南高海拔阿拉比卡豆",
+        "en": "Uses Yirgacheffe, Guatemala, Colombia, and Yunnan high-altitude Arabica beans",
         "from": [
           9
         ]
       },
       {
+        "kind": "price",
+        "zh": "单杯价格约10元，主打中端平价精品咖啡",
+        "en": "Single cup priced around 10 yuan, mid-range affordable specialty coffee",
+        "from": [
+          10
+        ]
+      },
+      {
         "kind": "time",
-        "zh": "每日08:00-19:00营业",
+        "zh": "营业时间周一至周日 08:00-19:00",
         "en": "Open daily 08:00–19:00",
         "from": [
-          14
+          12
         ]
       },
       {
         "kind": "space",
-        "zh": "临街玻璃门设计，外部空间开阔",
-        "en": "Street-facing glass door with open exterior space",
+        "zh": "临街落地玻璃门，外部空间开阔，带拱形结构建筑",
+        "en": "Large front-facing glass doors, open exterior space, arched building structure",
         "from": [
           1,
           4,
-          7
+          7,
+          5
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 20,
+      "energy": {
+        "value": 60,
         "from": [
-          1,
-          5,
-          7
+          6
         ],
-        "zh": "站立吧台无座位",
-        "en": "Standing bar, no seating"
+        "zh": "五店同庆活动暗示热闹",
+        "en": "Five-store celebration suggests buzz"
       },
-      "adventure": {
-        "value": 70,
+      "linger": {
+        "value": 30,
         "from": [
-          8
+          1
         ],
-        "zh": "果咖突破传统框架",
-        "en": "Fruit coffee defies norms"
+        "zh": "站喝式吧台设计",
+        "en": "Standing bar format"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          11
+        ],
+        "zh": "覆盖写字楼等办公场景",
+        "en": "Located in office/urban hubs"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:45Z"
+  "fetchedAt": "2026-09-12T16:44:50Z"
 }

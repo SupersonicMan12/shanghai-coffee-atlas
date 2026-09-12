@@ -3,35 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "Coffee Spot | 小小站立式咖啡馆,在角落一坐,进入属于自己都世界上海豆子_风味",
-      "url": "https://www.sohu.com/a/592284973_121124402",
-      "site_name": "搜狐"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 2,
-      "title": "南瓜、辣椒、洋葱都能当杯子?闵行这对闺蜜开的村咖,许多人跨越半个上海来打卡",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NzEzNzAwOQ==&mid=2652022530&idx=1&sn=4a87492d3bb69d553e842e4f8708a125&chksm=85b50af303ae91e11c66ff74b4d6ccb801157598ed4bf1393a494def4e1052332a8fe90abb4a&scene=27",
-      "site_name": "腾讯网"
+      "title": "Ruixing Coffee (Xiandai Mansion Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118715840910769&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 3,
-      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
-      "url": "https://new.qq.com/rain/a/20260305A063Y600",
-      "site_name": "腾讯网"
+      "title": "coffee surround - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-122765546/",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "Standout cafes at 2024 Shanghai coffee fest (I)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240807/add3399f096b4c7ab83cd3d45439ef5b.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 5,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:39:15Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:29Z",
+  "retriedEn": true
 }

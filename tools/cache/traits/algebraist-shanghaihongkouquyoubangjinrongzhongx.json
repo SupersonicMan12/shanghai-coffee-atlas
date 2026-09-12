@@ -1,73 +1,91 @@
 {
   "cafeId": "algebraist-shanghaihongkouquyoubangjinrongzhongx",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "a4a1072a2ec2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f7038c03cc64",
   "raw": {
     "headline": {
-      "zh": "虹口友邦金融中心站喝咖啡",
-      "en": "Standing coffee in Hongkou finance hub"
+      "zh": "主打玫瑰布列夫饮品",
+      "en": "Features rose-based signature drinks"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌含重瓣玫瑰布列夫、kiri法酪拿铁系列",
-        "en": "Signature drinks: double-petal rose breve, kiri latte series",
+        "zh": "招牌饮品为重瓣玫瑰布列夫，售出超65万杯",
+        "en": "Signature drink is the double-petaled rose bref, sold over 650k units",
         "from": [
           4
         ]
       },
       {
-        "kind": "beans",
-        "zh": "用全球甄选豆，以数学方式演算制作方案",
-        "en": "Uses globally sourced beans with math-based brewing",
+        "kind": "beans|drinks",
+        "zh": "使用全球甄选咖啡豆，用数学方式演算制作方案",
+        "en": "Sourced beans globally, with math-driven brewing formulas",
         "from": [
           5
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日08:00-21:00营业，覆盖午休高峰",
-        "en": "Open 08:00–21:00 daily, busy at lunch",
-        "from": [
-          8,
-          10
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "吧台前方有玻璃围栏，位于商场中庭夹层",
-        "en": "Bar with glass railing on mall mezzanine",
+        "kind": "space|light|view",
+        "zh": "位于商场中庭二层或夹层，吧台前有玻璃围栏",
+        "en": "Located on second floor or mezzanine of mall, with glass barrier in front",
         "from": [
           3
         ]
       },
       {
-        "kind": "price",
-        "zh": "饮品20~48元，周二有买一赠一活动",
-        "en": "Drinks ¥20–48, Tue BOGO deals",
+        "kind": "people|time",
+        "zh": "中午时段上班族密集，营业至21:00",
+        "en": "Busy during lunch hours, open until 9 PM daily",
         "from": [
-          6
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "equipment",
+        "zh": "吧台右侧配置两台意式咖啡机、一台磨豆机和一台自动饮品机",
+        "en": "Two espresso machines, one grinder, and one automatic beverage machine on right side",
+        "from": [
+          1
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 20,
+      "focus": {
+        "value": 30,
         "from": [
-          3
+          7
         ],
-        "zh": "商场夹层站喝设计",
-        "en": "Standing bar setup"
+        "zh": "午间人多，专注度中等",
+        "en": "Moderate focus due to lunchtime crowd"
       },
       "energy": {
         "value": 70,
         "from": [
-          8
+          7
         ],
-        "zh": "午休时段上班族密集",
-        "en": "Busy with office crowd at noon"
+        "zh": "白领午休高峰客流密集",
+        "en": "Crowded during lunch break"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "站喝为主，座位有限",
+        "en": "Standing bar setup, limited seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "玫瑰布列夫属创新饮品，搭配数学配方",
+        "en": "Innovative rose-based drink with math-based formulation"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:38Z"
+  "fetchedAt": "2026-09-12T16:43:09Z"
 }

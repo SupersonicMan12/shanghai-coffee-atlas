@@ -1,64 +1,80 @@
 {
   "cafeId": "nowwa-shenghuoyizhanshanghaihuachengguangchang",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "6159a2894cac",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "fbe66abe88c2",
   "raw": {
     "headline": {
-      "zh": "站喝平价果咖",
-      "en": "Stand-up fruit coffee, affordable"
+      "zh": "小马果咖系列突破咖啡定义",
+      "en": "The 'Xiao Ma Guo Ka' series redefines coffee"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌‘小马果咖’突破咖啡定义",
-        "en": "Signature ‘Xiao Ma Fruit Coffee’ redefines coffee",
+        "zh": "招牌饮品为小马果咖系列，融合果味与咖啡",
+        "en": "Signature drinks are the 'Xiao Ma Guo Ka' series, blending fruit and coffee",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉等高海拔阿拉比卡豆",
+        "en": "Uses high-altitude Arabica beans from Yirga Cheffe, Guatemala, and more",
         "from": [
           3
         ]
       },
       {
-        "kind": "beans",
-        "zh": "用耶加雪菲、危地马拉等高海拔阿拉比卡豆",
-        "en": "Uses high-altitude Arabica beans like Yirgacheffe",
+        "kind": "price",
+        "zh": "单杯价格约10元，主打中端平价精品",
+        "en": "Around ¥10 per cup, mid-tier affordable specialty",
         "from": [
           4
         ]
       },
       {
         "kind": "time",
-        "zh": "每日10:00–17:00营业",
+        "zh": "营业时间周一至周日 10:00-17:00",
         "en": "Open daily 10:00–17:00",
         "from": [
-          9
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "2019年6月由饿了么高管团队在上海创立",
-        "en": "Founded in Shanghai by Ele.me execs, June 2019",
-        "from": [
-          8
+          6
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "营业时间短，不适合久坐办公",
+        "en": "Short hours, not ideal for long work stays"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "位于年轻人高频场景，人流较多",
+        "en": "Located in high-footprint youth zones"
+      },
       "linger": {
         "value": 20,
         "from": [
-          2
+          6
         ],
-        "zh": "透明杯盖带吸管，适合外带",
-        "en": "Takeout-friendly cups"
+        "zh": "站喝小店，适合快速消费",
+        "en": "Standing bar, designed for quick service"
       },
       "adventure": {
-        "value": 70,
+        "value": 80,
         "from": [
-          3
+          2
         ],
-        "zh": "果咖系列突破传统框架",
-        "en": "Fruit coffee breaks norms"
+        "zh": "小马果咖系列打破传统咖啡框架",
+        "en": "Breaks traditional coffee norms with fruity blends"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:36:49Z"
+  "fetchedAt": "2026-09-12T16:44:00Z"
 }

@@ -3,41 +3,60 @@
   "results": [
     {
       "index": 1,
+      "title": "Costa Coffee(上海绚荟城店) - 上海市闵行区- 餐饮服务;咖啡厅",
+      "url": "https://www.amap.com/place/B0J6CCKBUQ",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 2,
+      "title": "莲花之家咖啡馆(Lotus Home Cafe) - 携程酒店",
+      "url": "https://m.ctrip.com/html5/hotel/hoteldetail/108641925.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 3,
+      "title": "上海市10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 4,
+      "title": "“走——喫咖啡去”,上海的咖啡香不止于此",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1009183",
+      "site_name": "解放网"
+    },
+    {
+      "index": 5,
+      "title": "溢咖啡公益馆- Shanghai - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-36972804/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "老外驚了!上海這條100多米的小馬路上,竟有18家咖啡店。",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/the-foreigner-was-shocked-on-this-small-road-of-more-than-100-meters-in-shanghai-there-are-18-coffee-shops-460293/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海如何成为名副其实的咖啡之城?这个原创新展作答",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1009345",
+      "site_name": "解放网"
+    },
+    {
+      "index": 8,
       "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
       "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
       "site_name": "文汇网"
     },
     {
-      "index": 2,
-      "title": "莲花酒吧，上海/ OFFICE AIO | 谷德设计网",
-      "url": "https://www.gooood.cn/bar-lotus-china-by-office-aio.htm",
-      "site_name": ""
-    },
-    {
-      "index": 3,
-      "title": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
-      "site_name": ""
-    },
-    {
-      "index": 4,
-      "title": "“玩梗”需谨慎！ 上海一咖啡店因售卖“莲花清温咖啡”被立案调查 - 食品",
-      "url": "http://food.china.com.cn/2023-01/10/content_85051168.htm",
-      "site_name": "中国网"
-    },
-    {
-      "index": 5,
-      "title": "上海美食節｜在澡堂喝咖啡，不沖膠捲只沖咖啡的暗房……上海這些 ...",
-      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festivala-darkroom-where-you-drink-coffee-in-a-bathhouse-and-only-make-coffee-without-film-these-new-and-interesting-coffee-shops-in-shanghai-are-waiting-for-you-to-challen-689257/",
-      "site_name": ""
-    },
-    {
-      "index": 6,
-      "title": "读懂广州·粤韵丨满城咖香成风尚 一杯咖啡融世界",
-      "url": "https://gzwxb.gov.cn/context/contextId/216178",
-      "site_name": "无"
+      "index": 9,
+      "title": "上海咖啡门店首破万家 一杯咖啡如何“链”动全城?",
+      "url": "https://www.cnr.cn/shanghai/tt/20260501/t20260501_527607643.shtml",
+      "site_name": "央广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:37Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:16Z",
+  "retriedEn": true
 }

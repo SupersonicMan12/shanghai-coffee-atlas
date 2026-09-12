@@ -1,84 +1,91 @@
 {
   "cafeId": "algebraist-shanghaizhongxintaifuguangchang",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "89079afb6d4d",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "816daef04a30",
   "raw": {
     "headline": {
-      "zh": "站喝精品咖啡",
-      "en": "Standing-bar specialty coffee"
+      "zh": "招牌玫瑰布列夫售出超65万杯",
+      "en": "Best-seller rose boulevard sold over 650k cups"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "吧台高脚凳，座位极少",
-        "en": "Bar stools, very few seats",
+        "kind": "drinks",
+        "zh": "招牌饮品重瓣玫瑰布列夫2024年销量超65万杯",
+        "en": "Best-selling 'Heavy Petal Rose Boulevard' sold over 650k units in 2024",
         "from": [
-          2
+          6
         ]
       },
       {
         "kind": "beans",
-        "zh": "专业咖啡机与磨豆机，陈列多款咖啡豆",
-        "en": "Pro equipment and multiple bean bags on display",
+        "zh": "使用全球甄选咖啡豆，以数学方式演算制作方案",
+        "en": "Sourced beans globally and optimized brewing mathematically",
         "from": [
-          1,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台前设高脚凳，座位数量级为few",
+        "en": "Few high stools at counter, standing-bar layout",
+        "from": [
+          2,
           3
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "招牌含重瓣玫瑰布列夫、kiri法酪拿铁系列",
-        "en": "Signature drinks: double-rose Breve, Kiri cheese latte",
-        "from": [
-          6,
-          13
-        ]
-      },
-      {
         "kind": "time",
-        "zh": "每日07:00–20:30营业",
-        "en": "Open daily 7am–8:30pm",
+        "zh": "营业时间覆盖午休高峰，11:00-14:00客流密集",
+        "en": "Open 7:00–20:30, busy during lunch break",
         "from": [
-          12
+          9,
+          10
         ]
       },
       {
-        "kind": "people",
-        "zh": "午休时段周边上班族客流密集",
-        "en": "Busy with office workers at lunch",
+        "kind": "light",
+        "zh": "外侧为落地玻璃窗，可看见街道",
+        "en": "Large floor-to-ceiling windows facing street",
         "from": [
-          10
+          4
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "午休时段上班族多，适合快速取用",
+        "en": "Lunch crowd, quick grab-and-go"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "中午时段人流密集，略喧闹",
+        "en": "Lunchtime rush, moderately lively"
+      },
       "linger": {
         "value": 20,
         "from": [
           2
         ],
-        "zh": "座位极少，适合快饮",
-        "en": "Few seats, grab-and-go"
-      },
-      "energy": {
-        "value": 70,
-        "from": [
-          10
-        ],
-        "zh": "午间人流密集",
-        "en": "Crowded at lunch"
+        "zh": "站喝式布局，不适合久坐",
+        "en": "Standing bar, not meant for lingering"
       },
       "adventure": {
-        "value": 65,
+        "value": 70,
         "from": [
           6,
-          7,
-          13
+          7
         ],
-        "zh": "特色风味拿铁与数学演算方案",
-        "en": "Unique lattes, math-driven recipes"
+        "zh": "自研配方+数学化工艺，饮品有实验性",
+        "en": "Math-driven recipes, experimental profile"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:39:21Z"
+  "fetchedAt": "2026-09-12T16:43:36Z"
 }

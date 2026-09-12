@@ -1,74 +1,74 @@
 {
   "cafeId": "dingdiankafei-chengshijingdiangaodi",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "30cd915fe337",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "146eea508104",
   "raw": {
     "headline": {
-      "zh": "临街落地窗配专业咖啡机",
-      "en": "Street-facing windows with pro espresso"
+      "zh": "专业咖啡机+果昔饮品",
+      "en": "Pro espresso machine & fruit smoothies"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "店内设灰色沙发座椅",
-        "en": "Gray sofa seating inside",
-        "from": [
-          6
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "提供含果肉的深红色果昔饮品",
-        "en": "Serves red fruit smoothie with pulp",
+        "kind": "beans|drinks|food",
+        "zh": "提供含果肉颗粒的深红色果昔类饮品",
+        "en": "Serves red fruit smoothies with pulp",
         "from": [
           3
         ]
       },
       {
-        "kind": "beans",
-        "zh": "使用DeLonghi专业级咖啡机萃取浓缩",
-        "en": "Uses professional DeLonghi espresso machine",
+        "kind": "beans|drinks|food",
+        "zh": "使用 DeLonghi 专业级咖啡机萃取浓缩咖啡",
+        "en": "Uses DeLonghi pro espresso machine",
         "from": [
           2,
-          8
+          7
+        ]
+      },
+      {
+        "kind": "space|seating",
+        "zh": "店内设灰色沙发座椅，可久坐",
+        "en": "Features gray sofa seating for lingering",
+        "from": [
+          5
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:30至21:00营业",
-        "en": "Open daily 7:30–21:00",
+        "zh": "营业时间周一至周日 07:30-21:00",
+        "en": "Open daily 07:30–21:00",
         "from": [
-          10
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "整面临街玻璃窗",
-        "en": "Full-height street-facing glass",
-        "from": [
-          1,
           9
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有沙发适合办公",
+        "en": "Sofas support work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "临街玻璃窗，人流可见",
+        "en": "Street-facing glass, visible to passersby"
+      },
       "linger": {
         "value": 60,
         "from": [
-          6
+          5
         ],
-        "zh": "有沙发可坐",
-        "en": "Has sofa seating"
-      },
-      "adventure": {
-        "value": 40,
-        "from": [
-          3
-        ],
-        "zh": "提供果昔类非传统饮品",
-        "en": "Offers non-traditional smoothies"
+        "zh": "有沙发座椅可久坐",
+        "en": "Sofas invite lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:56Z"
+  "fetchedAt": "2026-09-12T16:45:24Z"
 }

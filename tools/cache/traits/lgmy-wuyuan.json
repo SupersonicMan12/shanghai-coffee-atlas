@@ -1,46 +1,64 @@
 {
- "cafeId": "lgmy-wuyuan",
- "model": "qwen-max",
- "inputDigest": "222c2ab898bc",
- "raw": {
-  "headline": {
-   "zh": "画廊与咖啡结合，静谧中品味艺术",
-   "en": "Gallery meets café, savor art in silence"
+  "cafeId": "lgmy-wuyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e9c71f7ea274",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡配艺术展",
+      "en": "Pour-over with art exhibitions"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "一半画廊一半咖啡馆，安静到能听见意式机呼吸",
+        "en": "Half gallery, half café; quiet enough to hear the espresso machine breathe",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为手冲咖啡，搭配画作展示",
+        "en": "Signature pour-over among the prints",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "人均约100元",
+        "en": "Average per person ¥100",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "环境静，适合专注",
+        "en": "Quiet environment for focus"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "安静，不喧闹",
+        "en": "Quiet, not noisy"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          2
+        ],
+        "zh": "安静适合久坐",
+        "en": "Suitable for lingering"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "一半是展览空间，一半是咖啡馆",
-    "en": "Half exhibition, half café",
-    "from": 1
-   },
-   {
-    "kind": "drinks",
-    "zh": "手冲咖啡在艺术品中流淌",
-    "en": "Pour-over among the prints",
-    "from": 2
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": 1,
-    "zh": "安静到能听见咖啡机呼吸",
-    "en": "Quiet enough to hear espresso machine"
-   },
-   "energy": {
-    "value": 20,
-    "from": 1,
-    "zh": "非常安静的环境",
-    "en": "Very quiet ambiance"
-   },
-   "linger": {
-    "value": 70,
-    "from": 1,
-    "zh": "适合慢慢品尝和欣赏艺术",
-    "en": "Good for lingering and appreciating art"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:09:28Z"
+  "fetchedAt": "2026-09-12T16:41:08Z"
 }

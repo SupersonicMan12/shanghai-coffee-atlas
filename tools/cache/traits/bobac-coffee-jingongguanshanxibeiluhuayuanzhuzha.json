@@ -1,7 +1,7 @@
 {
   "cafeId": "bobac-coffee-jingongguanshanxibeiluhuayuanzhuzha",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "78e4f15040bc",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "b2d04dabf136",
   "raw": {
     "headline": {
       "zh": "肉桂焦糖拿铁配椒盐饼干",
@@ -10,45 +10,45 @@
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌为70%加纳黑巧肉桂焦糖拿铁",
-        "en": "Signature drink uses 70% Ghana dark chocolate",
+        "zh": "使用70%加纳原豆黑巧制作的性感肉桂焦糖拿铁",
+        "en": "Cinnamon caramel latte made with 70% Ghana origin dark chocolate",
         "from": [
-          8
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "三拼中深烘豆配碱水焦糖牛奶",
-        "en": "Triple-blend medium-dark roast with pretzel caramel milk",
-        "from": [
-          9
+          7
         ]
       },
       {
         "kind": "food",
-        "zh": "提供内馅咸香带盐粒的椒盐饼干",
-        "en": "Serves salty-spiced cookies with salt crystals",
+        "zh": "提供椒盐风味饼干搭配咖啡",
+        "en": "Served with salted flavor cookies for coffee",
         "from": [
-          11
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "十几平米复古小空间，临街落地窗透阳光",
+        "en": "Small retro space with street-facing glass windows and sunlight",
+        "from": [
+          9,
+          5,
+          3
         ]
       },
       {
         "kind": "time",
-        "zh": "周二至周日09:00-17:00营业，周一休息",
-        "en": "Open Tue–Sun 09:00–17:00, closed Mon",
+        "zh": "周二至周日 09:00-17:00 营业",
+        "en": "Open Tue–Sun 09:00–17:00",
         "from": [
-          12,
-          13
+          11,
+          12
         ]
       },
       {
-        "kind": "seating",
-        "zh": "十几平米空间，原木桌，有人用电脑",
-        "en": "Compact space with wood tables and laptop users",
+        "kind": "beans",
+        "zh": "三拼中深烘豆子加入预调碱水焦糖牛奶",
+        "en": "Three-part medium-dark roast beans with pre-mixed alkaline caramel milk",
         "from": [
-          5,
-          7,
-          10
+          8
         ]
       }
     ],
@@ -56,29 +56,29 @@
       "focus": {
         "value": 60,
         "from": [
-          7
+          6
         ],
-        "zh": "有顾客使用电脑",
-        "en": "People work on laptops"
+        "zh": "有人用电脑办公",
+        "en": "People working on laptops"
       },
       "linger": {
         "value": 40,
         "from": [
-          10
-        ],
-        "zh": "仅十几平米复古小空间",
-        "en": "Tiny retro space"
-      },
-      "adventure": {
-        "value": 80,
-        "from": [
-          8,
           9
         ],
-        "zh": "含黑巧、碱水焦糖等创意配方",
-        "en": "Creative drinks with chocolate, pretzel caramel"
+        "zh": "面积小，适合短暂停留",
+        "en": "Small size, short stay"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "临街位置有外部人流",
+        "en": "Street-facing with outside foot traffic"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:40:32Z"
+  "fetchedAt": "2026-09-12T16:43:49Z"
 }

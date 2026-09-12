@@ -1,64 +1,83 @@
 {
   "cafeId": "costa-coffee-jiangxijiminkexinjituanyouxiangongs",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "cdecf196db4a",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d36f517cb99c",
   "raw": {
-    "headline": null,
+    "headline": {
+      "zh": "临街落地窗采光好",
+      "en": "Large windows with great natural light"
+    },
     "traits": [
       {
+        "kind": "light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Large windows provide good natural lighting",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
         "kind": "seating",
-        "zh": "室内设6-8个座位",
-        "en": "Indoor seating for 6–8 people",
+        "zh": "设有约6-8个座位的桌椅区",
+        "en": "Has about 6–8 table seats",
         "from": [
           4
         ]
       },
       {
-        "kind": "light",
-        "zh": "落地窗带来良好采光",
-        "en": "Floor-to-ceiling windows provide ample light",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "窗外可见街道、树木和车辆",
-        "en": "View of street, trees, and parked cars",
-        "from": [
-          3
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "提供拿铁、海盐焦糖拿铁等咖啡",
-        "en": "Serves lattes including salted caramel",
+        "zh": "菜单展示拿铁咖啡、海盐焦糖风味拿铁等饮品",
+        "en": "Menu includes latte, sea salt caramel latte, and more",
         "from": [
           6,
-          8,
-          14
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "冷藏柜陈列提拉米苏、巧克力酥卷等食品",
+        "en": "Refrigerated display holds tiramisu and chocolate croissants",
+        "from": [
+          5,
+          8
         ]
       },
       {
         "kind": "time",
-        "zh": "工作日营业至16:30",
-        "en": "Open weekdays until 16:30",
+        "zh": "营业时间周一至周五 07:30-16:30",
+        "en": "Open Mon–Fri 07:30–16:30",
         "from": [
-          13
+          10
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "focus": {
         "value": 40,
         "from": [
-          4,
-          13
+          10
         ],
-        "zh": "座位有限且早关门",
-        "en": "Limited seats, closes early"
+        "zh": "工作日营业时间短",
+        "en": "Short weekday hours"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "座位数量有限",
+        "en": "Limited seating"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "临街可见车辆与街道",
+        "en": "On a street with passing vehicles"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:21Z"
+  "fetchedAt": "2026-09-12T16:48:38Z"
 }

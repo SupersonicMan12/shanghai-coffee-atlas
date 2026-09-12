@@ -1,21 +1,91 @@
 {
- "cafeId": "arabica-taiyanggong",
- "model": "qwen-max",
- "inputDigest": "02b2c8e06e71",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "arabica-taiyanggong",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1d2e1311a7fd",
+  "raw": {
+    "headline": {
+      "zh": "站喝为主，极简通透",
+      "en": "Standing bar, minimalist and bright"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "近5米长站立吧台，通透明亮",
+        "en": "Near-5-meter standing bar in a bright, open space",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆",
+        "en": "Uses 100% Arabica coffee beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为浓缩基底咖啡",
+        "en": "Signature drink is a crema-based espresso",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "仅设站立区，无固定座位",
+        "en": "Only standing area, no fixed seating",
+        "from": [
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上21:00",
+        "en": "Closes at 9 PM daily",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "无办公设备，不适合专注",
+        "en": "No setup for deep work"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "通透设计但无人群喧闹感",
+        "en": "Bright but not loud"
+      },
+      "linger": {
+        "value": 10,
+        "from": [
+          6,
+          3
+        ],
+        "zh": "仅适合站喝，不适宜久坐",
+        "en": "Not meant for lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "主打浓缩基底，风格传统",
+        "en": "Classic espresso focus"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "beans",
-    "zh": "使用全球精选的100%阿拉比卡咖啡豆",
-    "en": "Uses 100% globally sourced Arabica beans",
-    "from": 5,
-    "',6]\"},\",": "{"
-   }
-  ]
- },
- "fetchedAt": "2026-09-12T14:24:39Z"
+  "fetchedAt": "2026-09-12T16:43:02Z"
 }

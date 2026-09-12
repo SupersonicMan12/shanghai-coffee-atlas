@@ -1,55 +1,64 @@
 {
   "cafeId": "wagas-osm-2",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "526aca8822e2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "fb89b836ccca",
   "raw": {
     "headline": {
-      "zh": "健康轻食配趣味果汁",
-      "en": "Healthy eats, playful juices"
+      "zh": "果汁名超有梗",
+      "en": "Drinks named with humor"
     },
     "traits": [
       {
-        "kind": "food",
-        "zh": "菜单详列原料及热量时段搭配",
-        "en": "Menu lists ingredients and calorie timing",
-        "from": [
-          2
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌果汁名如“朋克生活”“救救我”",
-        "en": "Juices named 'Punk Life', 'Save Me'",
+        "zh": "招牌果汁名趣味十足，如“朋克生活”“救救我”",
+        "en": "Signature juices have playful names like 'Punk Life' and 'Save Me'",
         "from": [
           1
         ]
       },
       {
+        "kind": "food",
+        "zh": "主打健康轻食，菜单列明原料与热量搭配",
+        "en": "Focus on healthy light meals with ingredients and calorie info",
+        "from": [
+          2
+        ]
+      },
+      {
         "kind": "time",
-        "zh": "宏伊国际广场店08:00–20:30营业",
-        "en": "Open 08:00–20:30 at Hongyi Plaza",
+        "zh": "宏伊国际广场店营业至20:30，支持自助点餐",
+        "en": "Open until 20:30 with self-service ordering",
         "from": [
           4
         ]
-      },
-      {
-        "kind": "story",
-        "zh": "1999年丹麦人John在上海创立",
-        "en": "Founded in Shanghai by Dane John, 1999",
-        "from": [
-          5
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "门店集中于万象城、太古里等核心商圈",
-        "en": "Locations in core districts like MixC, Taikoo Li",
-        "from": [
-          3
-        ]
       }
     ],
-    "axisHints": {}
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "支持自助点餐，适合办公",
+        "en": "Self-ordering suits work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "营业时间长，适合久坐",
+        "en": "Long hours invite lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "位于核心商圈，人流较多",
+        "en": "Located in busy commercial areas"
+      }
+    }
   },
-  "fetchedAt": "2026-09-12T14:41:20Z"
+  "fetchedAt": "2026-09-12T16:43:43Z"
 }

@@ -1,67 +1,72 @@
 {
   "cafeId": "shanghaikailisikafeiwu-binjiangmingyuan",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "a9ec985f087b",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ee7a7d6f85f1",
   "raw": {
     "headline": {
-      "zh": "营业至凌晨4点的复古餐酒吧",
-      "en": "Retro diner-bar open till 4am"
+      "zh": "营业至凌晨4点",
+      "en": "Opens until 4am"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "木质餐桌配多把椅子，适合多人聚餐",
-        "en": "Wooden tables with multiple chairs for groups",
+        "kind": "time",
+        "zh": "营业时间周一至周日12:00-04:00",
+        "en": "Open daily 12:00–04:00",
         "from": [
-          1,
-          2
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "提供含冰块与柠檬片的琥珀色鸡尾酒",
-        "en": "Amber cocktails served with ice and lemon",
-        "from": [
-          5
+          6
         ]
       },
       {
         "kind": "food",
-        "zh": "推荐菜包括牛排和鸡尾酒",
-        "en": "Recommended dishes: steak and cocktails",
+        "zh": "提供牛排和鸡尾酒",
+        "en": "Serves steak and cocktails",
         "from": [
-          8
+          7
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日营业至次日凌晨4点",
-        "en": "Open daily until 4am next day",
+        "kind": "seating",
+        "zh": "有木质餐桌与多把椅子，适合多人用餐",
+        "en": "Wooden tables and multiple chairs for groups",
         "from": [
-          7
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内为木质桌椅与砖墙结构",
+        "en": "Wooden furniture and brick walls inside",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品使用黑色吸管",
+        "en": "Drinks come with black straws",
+        "from": [
+          5
         ]
       }
     ],
     "axisHints": {
       "linger": {
-        "value": 70,
+        "value": 80,
         "from": [
-          2,
-          3
+          6
         ],
-        "zh": "有桌椅和复古氛围适合久坐",
-        "en": "Seating and retro vibe invite lingering"
+        "zh": "营业至凌晨，适合久坐",
+        "en": "Closes at 4am, good for lingering"
       },
-      "adventure": {
+      "energy": {
         "value": 60,
         "from": [
-          5,
-          8
+          3
         ],
-        "zh": "主打鸡尾酒而非经典咖啡",
-        "en": "Cocktail-focused over standard coffee"
+        "zh": "复古氛围，略带热闹感",
+        "en": "Retro vibe, moderately lively"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:10Z"
+  "fetchedAt": "2026-09-12T16:44:30Z"
 }

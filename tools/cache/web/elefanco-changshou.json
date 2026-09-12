@@ -1,55 +1,72 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "营业时间从早上8点到凌晨12点",
+      "kind": "time",
+      "quote": "Opening hours: 8 am-12 am.",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "长寿路104号，普陀区",
+      "kind": "space",
+      "quote": "Address: No 104 Changshou Road, Putuo district.",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "以精品咖啡与美酒特调为特色",
+      "kind": "drinks",
+      "quote": "Cozy cafe ELEFANCO is best known for their special preparation of fine wine and ",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site": "“上海”门户网"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "这些咖啡,你不一定喝过",
-      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
-      "site_name": "网易"
+      "title": "ELEFANCO醒象-日咖夜酒 (Changshou Road Commercial Area ...",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-121703991/",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "Citywalk来长寿,漫步街头品七彩咖啡!",
-      "url": "https://www.jfdaily.com/wx/detail.do?id=864522",
-      "site_name": "解放网"
+      "title": "15 boutique cafés in Putuo district (II)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 3,
-      "title": "世界咖啡豆主要产区主要分布在哪里|咖啡豆产区咖啡带分布图介绍",
-      "url": "https://www.gafei.com/kafeibiji-136075",
-      "site_name": "咖啡网"
+      "title": "咖世家咖啡(上海)有限公司宝杨路店",
+      "url": "https://www.qcc.com/cassets/51604d67a8d456478d2f3c78ac4f53f6",
+      "site_name": "企查查网"
     },
     {
       "index": 4,
-      "title": "普陀这些家门口的咖啡店,你都喝过了吗?快来投票选出最爱的那一家吧! ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTMyMjY4Ng==&mid=2658856348&idx=2&sn=0bc8105ba93f6112356d2e31cb34c86f&chksm=bc1e18e0cbc12ba95e5267d693af37c2fa0fdafe3ec829a245ce4d325247813d71cd2447845d&scene=27",
-      "site_name": "腾讯网"
+      "title": "上海逸摩贸易有限公司",
+      "url": "http://qixin.com/company/140570e5-3e2d-43cd-8630-30f0c9d56fd2",
+      "site_name": "无"
     },
     {
       "index": 5,
-      "title": "推荐收藏!超详细的全球53个咖啡产地大调研",
-      "url": "https://zhuanlan.zhihu.com/p/20121378",
-      "site_name": "知乎"
+      "title": "周大福荟馆(虹桥天地购物中心店)",
+      "url": "https://map.360.cn/site/detail/a2af38d260bf2ccb",
+      "site_name": "无"
     },
     {
       "index": 6,
-      "title": "去东南亚咖啡馆,喝一杯“不卷”的咖啡",
-      "url": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=225621",
-      "site_name": "三联生活周刊"
+      "title": "伊诺咖啡(南桥店)",
+      "url": "https://www.dianping.com/shop/5229682/photos/album",
+      "site_name": "大众点评网"
     },
     {
       "index": 7,
-      "title": "南方觉醒|一颗咖啡豆的前世今生",
-      "url": "http://www.xinhuanet.com/20250525/f41289ea00774fdd8424e146d80aa56c/c.html",
-      "site_name": "新华网"
-    },
-    {
-      "index": 8,
-      "title": "深度好文!全球咖啡主要生产国分布图详解",
-      "url": "https://zhuanlan.zhihu.com/p/622774022",
-      "site_name": "知乎"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:53Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:30Z",
+  "retriedEn": true
 }

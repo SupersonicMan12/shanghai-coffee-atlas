@@ -3,41 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "青浦这些特色咖啡馆,藏着独属于一人的惬意时光",
-      "url": "https://www.meet-in-shanghai.net/cn/news/these-special-cafes-in-qingpu-hide-a-comfortable-time-that-belongs-to-one-person-997191/",
-      "site_name": "上海市文旅推广网"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 2,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
+      "title": "ZOOCOFFEE(风尚天地店)",
+      "url": "https://www.dianping.com/shop/17885546/photos/album",
+      "site_name": "大众点评网"
     },
     {
       "index": 3,
-      "title": "手冲咖啡正宗咖啡店怎么选?3个维度带你找到灵魂咖啡馆+FAQ",
-      "url": "https://www.sina.cn/gc/article/nirehkk4179535.html",
-      "site_name": "新浪网"
+      "title": "15 boutique cafés in Putuo district (III)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/fa7462705eb64689956fcf9fe4f21e4e.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
-      "url": "https://new.qq.com/rain/a/20260305A063Y600",
-      "site_name": "腾讯网"
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 5,
-      "title": "上海咖啡館，可欣賞明珠塔美景 - Trip.com",
-      "url": "https://my.trip.com/moments/detail/shanghai-2-144198154?locale=zh-MY",
-      "site_name": ""
+      "title": "Minhang district's 'coffee road'",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240708/f7c0cb49ba0a42ebbfd1cd6d106fb100.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 6,
-      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "site_name": "腾讯网"
+      "title": "四川北路的隐藏身份——“上海咖啡一条街”!",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405106747152138592",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "Tuwu TUTU in Shanghai China",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F984538EE397&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 9,
+      "title": "上海咖啡店记录城市历史 - ",
+      "url": "https://touch.shio.gov.cn/jsp/jrsh_detail.jsp?id=20220728170540612",
+      "site_name": "上海市人民政府新闻办公室官网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:42Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:48Z",
+  "retriedEn": true
 }

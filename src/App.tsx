@@ -45,6 +45,7 @@ import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type P
 import { PHASE_LINE_ZH, UI } from './data/labels'
 
 type Panel = 'compass' | 'crawls' | 'passport'
+type View = 'map' | 'list'
 type Lang = LangMode
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
@@ -57,6 +58,7 @@ interface HashState {
   method?: boolean
   anchor?: Anchor
   lang?: Lang
+  view?: View
 }
 
 function readHash(): HashState {
@@ -68,6 +70,7 @@ function readHash(): HashState {
   if (s && SCENARIO_BY_ID.has(s)) out.scenario = s
   const lang = h.get('lang')
   if (lang === 'both' || lang === 'en' || lang === 'zh') out.lang = lang
+  if (h.get('view') === 'list') out.view = 'list'
   const cafe = h.get('cafe')
   if (cafe && byId.has(cafe)) out.cafe = cafe
   const crawl = h.get('crawl')
@@ -150,7 +153,7 @@ export default function App() {
   const [railOpen, setRailOpen] = useState(
     () => typeof window === 'undefined' || window.innerWidth > 900,
   )
-  const [view, setView] = useState<'map' | 'list'>('map')
+  const [view, setView] = useState<View>(initial.view ?? 'map')
   const [onboard, setOnboard] = useState(() => shouldOnboard())
 
   const setLang = useCallback((l: Lang) => {
@@ -299,9 +302,10 @@ export default function App() {
     if (methodOpen) parts.push('method')
     if (anchor) parts.push(`at=${anchorToHash(anchor)}`)
     if (lang !== 'both') parts.push(`lang=${lang}`)
+    if (view === 'list') parts.push('view=list')
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, crawlId, compassOn, axes, scenarioId, methodOpen, anchor, lang])
+  }, [selectedId, crawlId, compassOn, axes, scenarioId, methodOpen, anchor, lang, view])
 
   useEffect(() => {
     if (import.meta.env.PROD && 'serviceWorker' in navigator) {
@@ -355,6 +359,7 @@ export default function App() {
       setMethodOpen(Boolean(h.method))
       setAnchor(h.anchor ?? null)
       if (h.lang) setLangState(h.lang)
+      setView(h.view ?? 'map')
       setScenarioId(h.scenario ?? null)
       if (h.axes) {
         setAxesNow(h.axes)

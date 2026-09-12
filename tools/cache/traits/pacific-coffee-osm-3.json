@@ -1,65 +1,72 @@
 {
   "cafeId": "pacific-coffee-osm-3",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "ae5f8aef6e9f",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ad73fd7be83a",
   "raw": {
     "headline": {
-      "zh": "手调酒咖与自烘豆",
-      "en": "Alcoholic coffee & in-house roasted beans"
+      "zh": "季节限定手调饮品",
+      "en": "seasonal specialty drinks"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌含酒精手调如橙风酣梦美式",
-        "en": "Signature drinks include alcoholic Orange Dream Americano",
+        "zh": "招牌含酒精的橙风酣梦美式等季节限定手调款",
+        "en": "seasonal specialty drinks including alcoholic Orange Dream Americano",
         "from": [
           1
         ]
       },
       {
         "kind": "beans",
-        "zh": "用埃塞俄比亚SOE日晒耶加雪菲豆",
-        "en": "Uses Ethiopian SOE natural Yirgacheffe beans",
+        "zh": "使用埃塞俄比亚耶加雪菲日晒豆等精品咖啡豆",
+        "en": "uses premium Ethiopian Yirgacheffe sun-dried beans",
         "from": [
           2
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "同一商圈有标准店、Brew Bar和LUXE旗舰店",
-        "en": "Offers standard, Brew Bar, and LUXE roastery stores in one area",
-        "from": [
-          4
         ]
       },
       {
         "kind": "time",
-        "zh": "多数门店营业至21:00或22:00",
-        "en": "Most stores open until 21:00 or 22:00",
+        "zh": "多数门店营业时间为09:00–22:00或10:00–21:00",
+        "en": "most stores open 09:00–22:00 or 10:00–21:00",
         "from": [
-          5
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "1992年香港创立，定位高端商务咖啡",
-        "en": "Founded in Hong Kong in 1992 as premium business coffee",
-        "from": [
-          6
+          4
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 85,
+      "focus": {
+        "value": 40,
         "from": [
-          1,
-          2
+          4
         ],
-        "zh": "含酒手调+精品自烘豆",
-        "en": "Alcoholic drinks & specialty roasting"
+        "zh": "营业时间适中，可办公",
+        "en": "midday hours, work-friendly"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "营业时段常见于商业区，人流量中等",
+        "en": "mid-level foot traffic in business areas"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "营业时间较长，适合久坐",
+        "en": "long hours allow for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "含酒精及阿胶等非常规配料",
+        "en": "alcohol and unusual ingredients like donkey-hide gelatin"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:37:05Z"
+  "fetchedAt": "2026-09-12T16:48:52Z"
 }

@@ -1,52 +1,82 @@
 {
- "cafeId": "coffee-yunwushan-rd-81",
- "model": "qwen-max",
- "inputDigest": "54234f4fdfbb",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "coffee-yunwushan-rd-81",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5da3fbc27d41",
+  "raw": {
+    "headline": {
+      "zh": "临街小厅式咖啡馆",
+      "en": "Street-facing small hall cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，室内小厅布局",
+        "en": "Floor-to-ceiling street-facing windows, compact hall layout",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面玻璃带来充足自然光",
+        "en": "Abundant natural light from full-length windows",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用Marco商用热水机，提供多温控出水",
+        "en": "Marco commercial hot water machine with multiple temperature settings",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日08:00-18:00",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐饮品为coffee",
+        "en": "Coffee recommended on Gaode",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "有书架黑胶，适合专注",
+        "en": "Books and vinyl suggest focus"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "临街开放，略显热闹",
+        "en": "Street-facing, moderately lively"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有座椅与书架，可久坐",
+        "en": "Seating and books encourage lingering"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "小厅式布局，木质书架与绿植装点",
-    "en": "Small hall layout with wooden shelves and plants",
-    "from": 2
-   },
-   {
-    "kind": "view",
-    "zh": "整面临街玻璃窗，室内明亮通透",
-    "en": "Full street-facing glass window, bright interior",
-    "from": 7
-   },
-   {
-    "kind": "drinks",
-    "zh": "提供冰咖啡，分层液体含冰块",
-    "en": "Serves iced coffee with layered liquids and ice",
-    "from": 3
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间周一至周日08:00-18:00",
-    "en": "Open Mon-Sun 08:00-18:00",
-    "from": 8
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 20,
-    "from": 4,
-    "zh": "无电脑使用者",
-    "en": "No computer users"
-   },
-   "linger": {
-    "value": 60,
-    "from": 2,
-    "zh": "有舒适的座位和书架",
-    "en": "Comfortable seating and bookshelves"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:22:25Z"
+  "fetchedAt": "2026-09-12T16:42:46Z"
 }

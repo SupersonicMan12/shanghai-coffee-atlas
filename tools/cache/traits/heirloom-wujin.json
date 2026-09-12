@@ -1,52 +1,90 @@
 {
- "cafeId": "heirloom-wujin",
- "model": "qwen-max",
- "inputDigest": "ec446121b687",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "heirloom-wujin",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2e62cf1db94b",
+  "raw": {
+    "headline": {
+      "zh": "百年石库门里的手冲周选",
+      "en": "Hand-brew of the week in a heritage shikumen"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于百年石库门老宅，保留拼花地砖与雕花栏杆",
+        "en": "In a century-old shikumen mansion with original inlaid tiles and carved railings",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light|view",
+        "zh": "天井阳光透过绿植洒下，光影斑驳",
+        "en": "Sunlight filters through greenery in the courtyard, casting dappled light",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌：每周手冲咖啡（Y26）",
+        "en": "Signature: weekly hand-brew (Y26)",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上6点，周末稍晚开门",
+        "en": "Closes at 6 PM, opens later on weekends",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "本地常客如家人，价格像2015年",
+        "en": "Regulars treated like family, prices feel like 2015",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "社区小店，非办公首选",
+        "en": "Local corner spot, not for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "院中绿意，动静适中",
+        "en": "Green courtyard, balanced vibe"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "庭院舒适，可久坐",
+        "en": "Comfortable courtyard for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "每周手冲，变化多样",
+        "en": "Weekly hand-brew, varied offerings"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "people",
-    "zh": "社区小店，待客如家人",
-    "en": "Neighborhood shop, treats guests like family",
-    "from": 3
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌手冲咖啡每周更新",
-    "en": "Weekly hand-brewed coffee special",
-    "from": 4
-   },
-   {
-    "kind": "time",
-    "zh": "工作日早8点开门，周末9点半",
-    "en": "Opens 8 AM weekdays, 9:30 AM weekends",
-    "from": 5
-   },
-   {
-    "kind": "food",
-    "zh": "推荐双人餐",
-    "en": "Recommended for two",
-    "from": 6
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 20,
-    "from": 3,
-    "zh": "适合轻松聊天",
-    "en": "Casual chats"
-   },
-   "linger": {
-    "value": 70,
-    "from": 3,
-    "zh": "适合久坐聊天",
-    "en": "Good for long chats"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:14:53Z"
+  "fetchedAt": "2026-09-12T16:41:50Z"
 }

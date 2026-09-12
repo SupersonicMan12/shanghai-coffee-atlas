@@ -1,65 +1,56 @@
 {
   "cafeId": "85c-bakery-cafe-osm",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "118641e9adb5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8cb39dc41435",
   "raw": {
     "headline": {
-      "zh": "海盐奶酪咖啡配24小时营业",
-      "en": "Salted cheese coffee, open 24 hours"
+      "zh": "招牌海盐咖啡",
+      "en": "Signature sea salt coffee"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌海盐咖啡配绵密奶酪",
-        "en": "Signature salted coffee with creamy cheese topping",
+        "zh": "招牌饮品为海盐咖啡，上层有绵密奶酪",
+        "en": "Signature drink is sea salt coffee with creamy cheese on top",
         "from": [
           1
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "部分门店24小时营业",
-        "en": "Some locations open 24 hours",
-        "from": [
-          3
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "品牌名源自85°C冲煮咖啡最香醇",
-        "en": "Named after optimal 85°C coffee brewing temperature",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "开放式空间，适合约会与家庭聚会",
-        "en": "Open layout suited for dates and family gatherings",
-        "from": [
-          4
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "大杯咖啡第二杯限时30元",
-        "en": "Second large coffee priced at ¥30 during promotions",
-        "from": [
-          5
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "饮品独特但非办公重点",
+        "en": "Unique drink, not office-focused"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "中等热闹，适合日常停留",
+        "en": "Moderate buzz, everyday vibe"
+      },
       "linger": {
         "value": 60,
         "from": [
-          3,
-          4
+          1
         ],
-        "zh": "24小时营业且有聚会空间",
-        "en": "24/7 access and social seating"
+        "zh": "可久坐品尝特色饮品",
+        "en": "Good for lingering to enjoy drink"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "咸甜风味搭配较特别",
+        "en": "Unusual sweet-salty combo"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:55Z"
+  "fetchedAt": "2026-09-12T16:48:19Z"
 }

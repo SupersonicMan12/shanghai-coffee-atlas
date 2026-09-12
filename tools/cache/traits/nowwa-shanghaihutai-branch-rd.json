@@ -1,17 +1,17 @@
 {
   "cafeId": "nowwa-shanghaihutai-branch-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "ee84bfbee68d",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e183e4fd5485",
   "raw": {
     "headline": {
-      "zh": "站喝平价果咖",
-      "en": "Standing bar for affordable fruit coffee"
+      "zh": "小马果咖系列",
+      "en": "Small Horse Fruit Coffee series"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌饮品为‘小马果咖’系列",
-        "en": "Signature drinks are the 'Xiao Ma Guo Ka' series",
+        "zh": "招牌饮品为小马果咖系列",
+        "en": "Signature drink is the Small Horse Fruit Coffee series",
         "from": [
           1
         ]
@@ -19,31 +19,31 @@
       {
         "kind": "beans",
         "zh": "使用耶加雪菲、危地马拉等阿拉比卡豆",
-        "en": "Uses Yirgacheffe, Guatemala, etc. Arabica beans",
+        "en": "Uses Yirgacheffe, Guatemala, and other Arabica beans",
         "from": [
           2
         ]
       },
       {
-        "kind": "food",
-        "zh": "推荐饮品含生椰拿铁",
-        "en": "Recommended drink includes coconut latte",
+        "kind": "price",
+        "zh": "单杯价格约10元，主打平价精品",
+        "en": "Around ¥10 per cup, mid-tier affordable specialty",
         "from": [
-          8
+          3
         ]
       },
       {
         "kind": "time",
-        "zh": "每日08:15–21:00营业",
+        "zh": "营业时间周一至周日 08:15-21:00",
         "en": "Open daily 08:15–21:00",
         "from": [
-          7
+          5
         ]
       },
       {
-        "kind": "story",
-        "zh": "2019年6月由饿了么高管团队创立于上海",
-        "en": "Founded in Shanghai in June 2019 by Ele.me execs",
+        "kind": "food",
+        "zh": "高德推荐菜为生椰拿铁",
+        "en": "Recommended dish on Gaode: almond milk latte",
         "from": [
           6
         ]
@@ -53,20 +53,20 @@
       "linger": {
         "value": 20,
         "from": [
+          5
+        ],
+        "zh": "站喝小店，适合快取",
+        "en": "Standing bar, quick grab"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
           4
         ],
-        "zh": "门店含‘店中店’站喝形态",
-        "en": "Includes standing 'store-in-store'"
-      },
-      "adventure": {
-        "value": 70,
-        "from": [
-          1
-        ],
-        "zh": "果咖突破咖啡定义框架",
-        "en": "Fruit coffee redefines coffee norms"
+        "zh": "覆盖写字楼等年轻人场景",
+        "en": "Located in youth-heavy zones"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:35:51Z"
+  "fetchedAt": "2026-09-12T16:43:43Z"
 }

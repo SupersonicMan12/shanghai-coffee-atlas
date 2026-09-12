@@ -1,64 +1,80 @@
 {
   "cafeId": "the-old-man-and-the-sea-bar-jinhai-rd-18",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "21a3e0c83994",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a91b109181fb",
   "raw": {
     "headline": {
-      "zh": "深夜咖啡酒吧",
-      "en": "Late-night coffee bar"
+      "zh": "深夜营业的海明威主题酒吧",
+      "en": "Midnight-open Hemingway-themed bar"
     },
     "traits": [
       {
         "kind": "time",
-        "zh": "每日19:00至次日1:00营业",
-        "en": "Open daily 19:00–01:00",
+        "zh": "营业至凌晨1点，适合夜间活动",
+        "en": "Opens until 1 AM, great for night outings",
         "from": [
-          8
+          7
         ]
       },
       {
         "kind": "drinks",
-        "zh": "提供含冰块与柠檬片的淡黄色饮品",
-        "en": "Serves pale yellow drink with ice and lemon",
+        "zh": "桌上摆放Beluga伏特加，提供高端烈酒",
+        "en": "Serves Beluga vodka, premium spirits on table",
         "from": [
           3
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "店内可见Beluga伏特加酒",
-        "en": "Stocks Beluga vodka bottles",
+        "kind": "space",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-floor street-facing glass windows, good lighting",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "墙上挂有海明威主题照片墙装饰",
+        "en": "Features Hemingway-themed photo wall decor",
         "from": [
           4
         ]
       },
       {
-        "kind": "view",
-        "zh": "整面临街玻璃窗",
-        "en": "Full-height street-facing windows",
+        "kind": "light",
+        "zh": "店内有木质门与玻璃窗，可见内部灯光",
+        "en": "Wooden door and glass window reveal interior lighting",
         "from": [
-          7
+          1
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "energy": {
         "value": 60,
         "from": [
-          6
+          7
         ],
-        "zh": "有桌椅与菜单，适合坐下",
-        "en": "Tables and menus suggest lingering"
+        "zh": "夜间营业，人流量中等",
+        "en": "Night hours, moderate crowd"
       },
-      "energy": {
+      "linger": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "营业至凌晨，适合久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "adventure": {
         "value": 50,
         "from": [
-          6
+          3
         ],
-        "zh": "用餐饮酒环境",
-        "en": "Dining/drinking atmosphere"
+        "zh": "提供高端伏特加，饮品不寻常",
+        "en": "Premium vodka, unusual drink choice"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:02Z"
+  "fetchedAt": "2026-09-12T16:44:26Z"
 }

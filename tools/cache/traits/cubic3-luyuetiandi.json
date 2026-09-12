@@ -1,57 +1,93 @@
 {
   "cafeId": "cubic3-luyuetiandi",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "eceb3d3cb553",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1f02ebcc9cf7",
   "raw": {
     "headline": {
-      "zh": "5元起的自烘精品咖啡",
-      "en": "Premium roasted coffee from ¥5"
+      "zh": "自烘咖啡豆低价精品",
+      "en": "Affordable specialty coffee with in-house roasting"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "提供全球50多产地现烘咖啡豆",
-        "en": "Offers freshly roasted beans from 50+ origins",
+        "zh": "提供来自全球50多个产地的现烘咖啡豆",
+        "en": "Offers freshly roasted beans from 50+ global origins",
         "from": [
           7
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌为标准美式咖啡单人餐",
-        "en": "Signature is standard Americano single set",
+        "zh": "招牌饮品为冰美式，最低5元/杯",
+        "en": "Featured drink is iced americano, starting at ¥5",
         "from": [
-          8
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "主打低价精品咖啡的连锁品牌",
-        "en": "Chain brand focused on affordable specialty coffee",
-        "from": [
-          11,
-          12
+          13,
+          11
         ]
       },
       {
         "kind": "time",
-        "zh": "工作日8:00-18:00，周末9:00-18:00",
-        "en": "Open 8–18 weekdays, 9–18 weekends",
+        "zh": "周一至周五 08:00-18:00，周末 09:00-18:00",
+        "en": "Open Mon–Fri 08:00–18:00, Sat–Sun 09:00–18:00",
         "from": [
-          13
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内设吧台与操作区，支持外带和堂食",
+        "en": "Features counter and service area for takeaway and dine-in",
+        "from": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌成立于2021年，主打低价精品咖啡",
+        "en": "Founded in 2021 as a low-price specialty coffee chain",
+        "from": [
+          10
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          10,
+          9
+        ],
+        "zh": "适合办公或聊天",
+        "en": "Suitable for work or chat"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          12
+        ],
+        "zh": "营业时间较短，非高峰时段较安静",
+        "en": "Limited hours, quieter off-peak"
+      },
+      "linger": {
+        "value": 55,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "有吧台和座位，可久坐",
+        "en": "Has counters and seating for lingering"
+      },
       "adventure": {
         "value": 70,
         "from": [
           7
         ],
-        "zh": "支持现烘多产地豆",
-        "en": "Fresh-roasted, diverse beans"
+        "zh": "支持现烘咖啡豆，饮品种类多样",
+        "en": "Features on-site roasting and varied drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:23Z"
+  "fetchedAt": "2026-09-12T16:44:39Z"
 }

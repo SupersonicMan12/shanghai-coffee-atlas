@@ -1,55 +1,55 @@
 {
   "cafeId": "peet-s-weijingyinxiangcheng",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "16dc18c0483e",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "11c51de4e17a",
   "raw": {
     "headline": {
-      "zh": "自烘豆+宽敞堂食",
-      "en": "In-house roasted beans, spacious seating"
+      "zh": "露天座位区+手冲设备",
+      "en": "Outdoor seating with pour-over setup"
     },
     "traits": [
       {
-        "kind": "beans",
-        "zh": "使用21天内新鲜烘焙的咖啡豆",
-        "en": "Uses coffee beans roasted within 21 days",
-        "from": [
-          10
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "招牌巨星澳白33元/杯",
-        "en": "Signature Major Dickason's Flat White ¥33",
-        "from": [
-          9
-        ]
-      },
-      {
         "kind": "seating",
-        "zh": "设露天座、编织椅圆形桌及多区域座位",
-        "en": "Outdoor seating, woven chairs, round tables, multiple zones",
+        "zh": "店外有带遮阳伞的露天座位区",
+        "en": "Outdoor seating area with umbrellas",
         "from": [
           1,
-          2,
-          6,
           8
         ]
       },
       {
-        "kind": "space",
-        "zh": "店内空间宽敞明亮，有落地窗",
-        "en": "Spacious and bright interior with floor-to-ceiling windows",
+        "kind": "beans|drinks",
+        "zh": "招牌饮品巨星澳白使用21天内新鲜烘焙咖啡豆",
+        "en": "Star drink 'Giant Macchiato' uses beans roasted within 21 days",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "店内设落地窗，采光良好，空间宽敞明亮",
+        "en": "Large windows provide ample natural light and open space",
         "from": [
           4,
-          5
+          5,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供桂花酒酿奶砖拿铁、摘星系列等特色饮品",
+        "en": "Offers specialty drinks like Guihua Wine-Steamed Milk Brick Latte",
+        "from": [
+          14
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间07:30–21:30",
-        "en": "Open daily 7:30 AM – 9:30 PM",
+        "zh": "营业时间周一至周日 07:30–21:30",
+        "en": "Open daily 07:30–21:30",
         "from": [
-          15
+          13
         ]
       }
     ],
@@ -57,35 +57,39 @@
       "focus": {
         "value": 60,
         "from": [
-          2,
-          4,
-          6
+          11
         ],
-        "zh": "多座位区且布局整洁",
-        "en": "Multiple quiet zones, tidy layout"
+        "zh": "宽敞堂食区适合办公",
+        "en": "Spacious dining area suitable for work"
       },
       "linger": {
         "value": 70,
         "from": [
           1,
-          2,
           4,
-          6,
-          8
+          11
         ],
-        "zh": "室内外多座位适合久坐",
-        "en": "Indoor/outdoor seating for lingering"
+        "zh": "露天与堂食区可久坐",
+        "en": "Comfortable for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          13
+        ],
+        "zh": "日常营业时间中等",
+        "en": "Moderate weekday energy"
       },
       "adventure": {
         "value": 65,
         "from": [
-          3,
-          10
+          9,
+          14
         ],
-        "zh": "有手冲设备与自烘豆",
-        "en": "Pour-over setup and in-house roasting"
+        "zh": "有特色创意饮品",
+        "en": "Creative specialty drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:37:28Z"
+  "fetchedAt": "2026-09-12T16:44:12Z"
 }

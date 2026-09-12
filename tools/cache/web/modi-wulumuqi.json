@@ -3,35 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "Cafe Modi",
-      "url": "https://www.tripadvisor.cn/Restaurant_Review-g274707-d7123299-Reviews-Cafe_Modi-Prague_Bohemia.html",
-      "site_name": "Tripadvisor猫途鹰"
+      "title": "西藏大厦万怡酒店自助餐厅MoMo Cafe(徐汇万怡店)",
+      "url": "https://baike.baidu.com/item/西藏大厦万怡酒店自助餐厅MoMo%20Cafe（徐汇万怡店）/14270214",
+      "site_name": "百度百科"
     },
     {
       "index": 2,
-      "title": "摩卡咖啡的特点",
-      "url": "https://www.yiche.com/baike/30510608.htm",
-      "site_name": "易车网"
+      "title": "Contact Information | Mandarin Oriental Pudong, Shanghai ",
+      "url": "https://www.mandarinoriental.com.cn/es/shanghai/pudong/contact-us",
+      "site_name": "文华东方"
     },
     {
       "index": 3,
-      "title": "摩卡咖啡的主要特征",
-      "url": "https://m.yiche.com/baike/30505519.htm",
-      "site_name": "易车网"
+      "title": "上海MODO公寓(音乐之门分店)",
+      "url": "https://map.360.cn/site/detail/9bd0bf1bbf3ef1ac",
+      "site_name": "无"
     },
     {
       "index": 4,
-      "title": "全球连线丨荷兰人马丁：让不同文化在一杯咖啡里相融 - 新华网",
-      "url": "https://www.news.cn/world/20260324/21a9208f590740968c03e4bd222e6827/c.html",
-      "site_name": "新华网"
+      "title": "MoMo Cafe(上海西藏大厦万怡酒店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d3448521-Reviews-MoMo_Cafe_Courtyard_by_Marriott_Shanghai_Xujiahui-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 5,
-      "title": "來自世界各地的7大咖啡 - MICHELIN Guide",
-      "url": "https://guide.michelin.com/sg/zh_CN/article/dining-out/7-types-of-coffee",
-      "site_name": ""
+      "title": "魔都10月,捡秋捡出巨多高级新店!_餐厅_上海_地址",
+      "url": "https://chihe.sohu.com/a/822481992_121124455",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 6,
+      "title": "Shanghai Municipality : 1-48 von 155 restaurants ",
+      "url": "https://guide.michelin.com/ch/de/shanghai-municipality/restaurants",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "上海普陀Moxy酒店",
+      "url": "https://www.marriott.com.cn/hotels/travel/shaxx-moxy-shanghai-putuo/",
+      "site_name": "马里奥特万豪国际公司网站"
+    },
+    {
+      "index": 8,
+      "title": "Shanghai Brew House(虹梅路店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d1939807-Reviews-Shanghai_Brew_House_Hongmei_Road-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 9,
+      "title": "这些都不是巴黎,是上海_地址_洋房_的花园",
+      "url": "https://fashion.sohu.com/a/690791328_121123868",
+      "site_name": "搜狐网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:33Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:13Z",
+  "retriedEn": true
 }

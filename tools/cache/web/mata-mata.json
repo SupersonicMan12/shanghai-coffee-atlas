@@ -1,55 +1,52 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "乌鲁木齐路292号，近复兴西路",
+      "kind": "space",
+      "quote": "292 Wulumuqi Lu, near Fuxing Xi Lu, Xuhui District.",
+      "url": "https://www.smartshanghai.com/venue/5772/Mata-Mata",
+      "site": "Mata-Mata Shanghai - Cafes, Sandwiches, Bakeries, Xuhui"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "上海咖啡地图第一弹，5大区24家，连WiFi密码都帮你查好了！ - 知乎",
-      "url": "https://zhuanlan.zhihu.com/p/20422359",
-      "site_name": "知乎"
+      "title": "Jamaica Blue(乌鲁木齐中路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
     },
     {
       "index": 2,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 3,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 4,
-      "title": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "title": "Mata-Mata Shanghai - Cafes, Sandwiches, Bakeries, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/5772/Mata-Mata",
       "site_name": ""
     },
     {
+      "index": 3,
+      "title": "Mata·Mata玛塔(乌鲁木齐店)-图片-上海-第17页-大众点评网",
+      "url": "https://www.dianping.com/shop/4126248/photos?pg=17",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Ruixing Coffee (Wulumuqi Middle Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F969347636AF&address=Wulumuqi+Middle+Road+No.306+Commerce-subjacent+%28Changshu+Road+Subway+Station+Entrance+%26+Exit+8+Pedestrian+470+Meters%29%2C+Xuhui%2C+Shanghai+China&coordinate=31.211602%2C121.446282&name=Ruixing+Coffee+%28Wulumuqi+Middle+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
       "index": 5,
-      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
-      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
-      "site_name": "新浪网"
+      "title": "马路记:乌中路,遥遥领先",
+      "url": "https://m.thepaper.cn/newsDetail_forward_29272608",
+      "site_name": "澎湃新闻网"
     },
     {
       "index": 6,
-      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
-      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
-      "site_name": "QQ"
-    },
-    {
-      "index": 7,
-      "title": "上海有哪些好喝的连锁精品咖啡馆？ - 知乎专栏",
-      "url": "https://zhuanlan.zhihu.com/p/51659715",
-      "site_name": "知乎"
-    },
-    {
-      "index": 8,
-      "title": "咖啡馆里没有雨季上海10家静谧咖啡馆推荐 - 新浪上海",
-      "url": "http://sh.sina.cn/news/sh/2016-05-26/detail-ifxsktkr6089438.d.html",
-      "site_name": "新浪网"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:38Z",
+  "retriedEn": true
 }

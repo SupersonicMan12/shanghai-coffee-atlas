@@ -1,71 +1,79 @@
 {
   "cafeId": "tims-sanyiniaoxiangludashalingfeng",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "a23e9c9e0d98",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9c430683c90e",
   "raw": {
     "headline": {
-      "zh": "咖啡暖食全时段供应",
-      "en": "Coffee and warm food all day"
+      "zh": "现做暖食贝果",
+      "en": "fresh-made warm bagels"
     },
     "traits": [
       {
         "kind": "food",
-        "zh": "提供现做贝果三明治和意式肉酱披萨",
-        "en": "Serves freshly made bagel sandwiches and pizza",
+        "zh": "提供现做的烤牛肉贝果三明治等暖食",
+        "en": "serves freshly made warm bagel sandwiches",
         "from": [
-          1,
           7,
           8,
-          13
+          10
         ]
       },
       {
         "kind": "drinks",
-        "zh": "有芝芝厚乳拿铁和鲜萃奶咖等饮品",
-        "en": "Offers drinks like thick milk latte and fresh-brew milk coffee",
+        "zh": "供应芝芝厚乳拿铁和鲜萃奶咖等饮品",
+        "en": "offers thick milk latte and fresh brewed milk coffee",
         "from": [
           2,
-          15
+          12
         ]
       },
       {
         "kind": "seating",
-        "zh": "座位多，含木质桌椅与橙色座椅组合",
-        "en": "Plenty of seating with wood tables and orange chairs",
+        "zh": "空间宽敞，设有多种桌椅组合且座位较多",
+        "en": "spacious with varied seating and ample tables",
         "from": [
           3,
-          4,
-          5
+          4
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:00-22:00营业",
-        "en": "Open daily 07:00–22:00",
+        "zh": "营业时间覆盖全天，周一至周日 07:00-22:00",
+        "en": "open daily 07:00–22:00",
         "from": [
-          14
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
-        "en": "Beans hand-picked and small-batch roasted",
-        "from": [
-          9
+          11
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "座位多适合办公",
+        "en": "plenty of seats for work"
+      },
       "linger": {
         "value": 70,
         "from": [
           3,
           4
         ],
-        "zh": "空间宽敞座位多",
-        "en": "Spacious with ample seating"
+        "zh": "空间大可久坐",
+        "en": "spacious enough to linger"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "多人用餐空间中等热闹",
+        "en": "moderate buzz from group use"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:37:34Z"
+  "fetchedAt": "2026-09-12T16:44:18Z"
 }

@@ -1,72 +1,65 @@
 {
   "cafeId": "maancat-yanan-w",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "3fd54f3aeb87",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "468568a080a3",
   "raw": {
     "headline": {
-      "zh": "慢猫咖啡：可久坐的街角店",
-      "en": "A corner spot made for lingering"
+      "zh": "招牌拿铁不续杯",
+      "en": "Signature latte, no refills"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "店内设软椅，适合长时间停留",
-        "en": "Soft chairs encourage long stays",
+        "kind": "drinks",
+        "zh": "招牌Slow-cat拿铁设计为不续杯",
+        "en": "Signature Slow-cat latte designed with no refills",
         "from": [
-          6
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "提供金枪鱼三明治、意式薄底披萨等餐食",
-        "en": "Serves tuna sandwiches and thin-crust pizza",
-        "from": [
-          9
+          4
         ]
       },
       {
         "kind": "time",
-        "zh": "每日营业至21:30",
-        "en": "Open daily until 9:30 PM",
+        "zh": "营业至晚间22:30，适合长时间停留",
+        "en": "Open until 10:30 PM, great for long stays",
         "from": [
-          8
+          1
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "招牌饮品为Slow-cat latte",
-        "en": "Signature drink: Slow-cat latte",
+        "kind": "people",
+        "zh": "人均消费约100元，定位中高端",
+        "en": "Around ¥100 per person, mid-to-high end",
         "from": [
-          7
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "整面临街玻璃窗",
-        "en": "Full-height street-facing windows",
-        "from": [
-          5
+          2
         ]
       }
     ],
     "axisHints": {
       "linger": {
-        "value": 85,
+        "value": 80,
         "from": [
-          6
+          1,
+          3
         ],
-        "zh": "强调无紧迫感与长坐",
-        "en": "No sense of urgency"
+        "zh": "营业时间长，氛围放松",
+        "en": "Long hours, relaxed vibe"
       },
       "focus": {
         "value": 60,
         "from": [
-          6
+          3
         ],
-        "zh": "软椅与慢节奏适合办公",
-        "en": "Soft chairs, slow pace"
+        "zh": "无紧迫感，适合专注",
+        "en": "No sense of urgency"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "氛围舒缓，不喧闹",
+        "en": "Calm and unhurried"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:48Z"
+  "fetchedAt": "2026-09-12T16:42:25Z"
 }

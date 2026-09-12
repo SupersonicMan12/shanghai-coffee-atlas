@@ -1,55 +1,65 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "地址：五原路250号，近永福路",
+      "kind": "space",
+      "quote": "250 Wuyuan Lu, near Yongfu Lu, Xuhui District.",
+      "url": "https://www.smartshanghai.com/venue/11659/lgmy",
+      "site": "LGMY - Arts & Stage, Art Galleries, Cafes, Xuhui - SmartShanghai"
+    },
+    {
+      "text": "人均约100元",
+      "kind": "story",
+      "quote": "Average per person ￥100.",
+      "url": "https://www.diningcity.cn/en/shanghai/7230_lgmy_artslivepace",
+      "site": "Restaurant LGMY Artslivepace 流光漫影in Shanghai | DiningCity"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "推荐篇|上海下午茶探店记录",
-      "url": "https://zhuanlan.zhihu.com/p/104180191",
-      "site_name": "知乎"
+      "title": "LGMY - Arts & Stage, Art Galleries, Cafes, Xuhui - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/11659/lgmy",
+      "site_name": ""
     },
     {
       "index": 2,
+      "title": "Restaurant LGMY Artslivepace 流光漫影in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/en/shanghai/7230_lgmy_artslivepace",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "当前活跃内容",
+      "url": "https://www.bulgarihotels.com/zh_CN/shanghai/whats-on",
+      "site_name": "宝格丽酒店网站"
+    },
+    {
+      "index": 4,
+      "title": "永源路外籍消费占比超35%,上海商业版图悄然生变,品牌首店热衷非标商业",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1132291",
+      "site_name": "解放网"
+    },
+    {
+      "index": 5,
       "title": "《魔都雨季City Walk图鉴》",
       "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
       "site_name": "无"
     },
     {
-      "index": 3,
-      "title": "上海美食节 | 咖啡还能玩出什么新花式?“中式”咖啡了解一下",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
-      "site_name": "上海市文旅推广网"
-    },
-    {
-      "index": 4,
-      "title": "上海深度漫游清单|生活16年后,我的咖啡馆餐厅私藏②",
-      "url": "https://www.douban.com/note/878617546/",
-      "site_name": "豆瓣网"
-    },
-    {
-      "index": 5,
-      "title": "上海16个区的咖啡,哪一杯最妖娆?哪一杯最奇幻?哪一杯最高智商?来投票吧",
-      "url": "https://finance.sina.cn/2021-03-31/detail-ikmxzfmi9880331.d.html",
-      "site_name": "新浪网"
-    },
-    {
       "index": 6,
-      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
-      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
-      "site_name": "新浪网"
+      "title": "上海一米阳光Y公寓(金陵东路分店)",
+      "url": "https://hotels.ctrip.com/hotels/54628414.html",
+      "site_name": "携程旅行网"
     },
     {
       "index": 7,
-      "title": "一杯咖啡，一座城- 云新闻- 云南日报网",
-      "url": "https://www.yndaily.com/html/2025/yunxinwen_0424/134323.html",
-      "site_name": ""
-    },
-    {
-      "index": 8,
-      "title": "上海咖啡馆地图：网红店那么多，究竟哪些值得去？ - 界面新闻",
-      "url": "https://www.jiemian.com/article/2339621.html",
-      "site_name": "界面新闻"
+      "title": "旅超|杨浦人宣布!这条2天1晚游玩线路有料又出片!",
+      "url": "https://www.meet-in-shanghai.net/cn/news/yangpu-people-announced-this-2-days-and-1-night-tour-route-is-informative-and-filmed-067500",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:38:56Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:25Z",
+  "retriedEn": true
 }

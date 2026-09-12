@@ -3,65 +3,54 @@
   "results": [
     {
       "index": 1,
-      "title": "Pull-Tab拉环咖啡",
-      "url": "https://baike.baidu.com/item/Pull-Tab拉环咖啡/67540897",
-      "site_name": "百度百科"
+      "title": "Pull-Tab Lahuan Coffee (Shanghai Fengxian Baziqiao Branch)",
+      "url": "https://maps.apple.com/place?auid=1118840361519404&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 2,
-      "title": "拉环咖啡在浙江、江苏、江西下架8家门店",
-      "url": "https://www.thepaper.cn/newsDetail_forward_34044295",
-      "site_name": "澎湃新闻网"
+      "title": "Pull-Tab Lahuan Coffee (Shanghai Minhang Xinzhuangzhen ...",
+      "url": "https://maps.apple.com/place?auid=1118806873138283&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 3,
-      "title": "Pull-Tab拉环咖啡,惊喜狂欢,【开学季】经典冰美式,超值折扣,随时退、过期自动退(注意,叠加渠道专享后的价格是13.9元,团购价是15.9元;)",
-      "url": "https://www.douyin.com/note/7682990318157551722",
-      "site_name": "抖音-记录美好生活"
-    },
-    {
-      "index": 4,
-      "title": "Pull-Tab拉环咖啡,惊喜狂欢,4.5分推荐,【我嘞个豆 - 抖音",
-      "url": "https://www.douyin.com/note/7681960672763326114",
-      "site_name": "抖音-记录美好生活"
-    },
-    {
-      "index": 5,
-      "title": "Pull-Tab拉环咖啡,好货推荐,4.5分推荐,南洋咖啡k - 抖音",
-      "url": "https://www.douyin.com/note/7684152283081713295",
-      "site_name": "抖音-记录美好生活"
-    },
-    {
-      "index": 6,
-      "title": "Pull-Tab拉环咖啡,好货推荐,4.7分推荐,【开学季】经典冰美式(注意,叠加渠道专享后的价格是13.9元,团购价是15.9元;)",
-      "url": "https://www.douyin.com/note/7683354140952967147",
-      "site_name": "抖音-记录美好生活"
-    },
-    {
-      "index": 7,
-      "title": "春天就要出门逛街,这波新店我先冲了!(二)",
-      "url": "https://baijiahao.baidu.com/s?id=1829617519396849207",
-      "site_name": "百度"
-    },
-    {
-      "index": 8,
-      "title": "Pull-Tab拉环咖啡战略全面升级：告别规模扩张，以门店深耕 - 凤凰网",
-      "url": "https://baby.ifeng.com/c/8w45lBT3ZyI",
-      "site_name": "凤凰网"
-    },
-    {
-      "index": 9,
-      "title": "Pull-Tab拉环咖啡(杭州市上城区来福士中心店)",
-      "url": "https://www.amap.com/place/B0JKH7B8JP",
+      "title": "Pull-Tab拉环咖啡(上海嘉定中信泰富万达店) - 上海市嘉定区 - 高德地图",
+      "url": "https://www.amap.com/place/B0KA7HPI17",
       "site_name": "高德地图"
     },
     {
-      "index": 10,
-      "title": "Pull-Tab拉环咖啡,好货推荐,4.8分推荐,PT瀑布手 - 抖音",
-      "url": "https://www.douyin.com/note/7684148697265155663",
-      "site_name": "抖音-记录美好生活"
+      "index": 4,
+      "title": "光明邨大酒家(淮海中路总店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d3450009-Reviews-GuangMing_Cun_Da_Restaurant-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 5,
+      "title": "上海周边配套,商场,超市,学校,医院,银行,交通 -58爱房",
+      "url": "https://mfang.58.com/sh/loupan/303848/zhoubian/",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "Pull Tab Coffee Shanghai | TikTok",
+      "url": "https://www.tiktok.com/discover/pull-tab-coffee-shanghai",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 8,
+      "title": "[First in SH] Coffee, Matcha & LV Hotel: SH's Newest Openings",
+      "url": "https://www.meet-in-shanghai.net/en/news/first-in-sh-coffee-matcha--lv-hotel-shs-newest-openings-163205/",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:21Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:09Z",
+  "retriedEn": true
 }

@@ -1,17 +1,25 @@
 {
   "cafeId": "peet-s-donghulushouzuo",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "065568c4c342",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "b7fda74e3c1b",
   "raw": {
     "headline": {
-      "zh": "手作店配户外座",
-      "en": "Handcrafted coffee with outdoor seating"
+      "zh": "21天新鲜烘焙豆",
+      "en": "Freshly roasted within 21 days"
     },
     "traits": [
       {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses coffee beans roasted within 21 days",
+        "from": [
+          7
+        ]
+      },
+      {
         "kind": "seating",
-        "zh": "临街设户外座位区，配遮阳伞和绿植",
-        "en": "Outdoor seating with umbrellas and plants",
+        "zh": "临街设有带遮阳伞的户外座位区",
+        "en": "Outdoor seating with umbrellas along the street",
         "from": [
           1,
           5
@@ -19,60 +27,65 @@
       },
       {
         "kind": "light",
-        "zh": "户外区有大型落地窗，采光良好",
-        "en": "Large windows provide ample natural light",
+        "zh": "户外座位区配有大型落地窗，采光良好",
+        "en": "Large floor-to-ceiling windows for good natural light",
         "from": [
           4
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌巨星澳白33元，用创世巨星豆",
-        "en": "Signature 'Star Flat White' uses in-house beans",
+        "zh": "招牌饮品为巨星澳白，33元/杯",
+        "en": "Star drink: Giant White, 33 yuan",
         "from": [
           6
         ]
       },
       {
-        "kind": "beans",
-        "zh": "只用21天内新鲜烘焙的咖啡豆",
-        "en": "Only beans roasted within 21 days",
-        "from": [
-          7
-        ]
-      },
-      {
         "kind": "time",
-        "zh": "工作日营业至21:30，周末至22:00",
-        "en": "Open until 21:30 weekdays, 22:00 weekends",
+        "zh": "营业时间周一至周四、周日 07:30-21:30，周五至周六 07:30-22:00",
+        "en": "Open 07:30–21:30 Mon–Thu & Sun, 07:30–22:00 Fri–Sat",
         "from": [
-          12
+          10
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "堂食区有顾客就坐",
+        "en": "Customers seated inside"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "街道旁有大树，停放多辆非机动车",
+        "en": "Trees and many bikes outside"
+      },
       "linger": {
-        "value": 70,
+        "value": 65,
         "from": [
           1,
           3,
-          5,
-          9
+          4
         ],
-        "zh": "有户外座与宽敞堂食区",
-        "en": "Outdoor and spacious indoor seating"
+        "zh": "有户外座位和宽敞堂食区",
+        "en": "Outdoor seats and spacious indoor area"
       },
       "adventure": {
-        "value": 60,
+        "value": 40,
         "from": [
-          6,
-          7,
-          13
+          11
         ],
-        "zh": "自烘豆+多款特色特调",
-        "en": "House-roasted beans and signature drinks"
+        "zh": "推荐菜含特色风味拿铁与气泡美式",
+        "en": "Features unique flavored lattes and sparkling americans"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:44:54Z"
+  "fetchedAt": "2026-09-12T16:45:42Z"
 }

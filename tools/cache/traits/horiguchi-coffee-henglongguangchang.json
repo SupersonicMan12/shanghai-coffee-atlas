@@ -1,52 +1,54 @@
 {
   "cafeId": "horiguchi-coffee-henglongguangchang",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "5805318af3d6",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d9774cb49d86",
   "raw": {
     "headline": {
-      "zh": "1-9号拼配豆，98元/杯",
-      "en": "Nine signature blends, ¥98 each"
+      "zh": "9种拼配豆手冲咖啡",
+      "en": "Nine signature blended coffees, hand-poured"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "提供1至9号九种拼配咖啡豆",
-        "en": "Offers nine signature blend coffees (No.1–9)",
+        "zh": "提供1-9号九种拼配咖啡豆，每种风味不同",
+        "en": "Offers nine distinct blended coffee beans, one for each number",
         "from": [
-          9,
-          10
+          8,
+          1
         ]
       },
       {
         "kind": "drinks",
-        "zh": "所有经典混合咖啡均为98元一杯",
-        "en": "All classic blends cost ¥98 per cup",
+        "zh": "招牌为1-9号拼配咖啡，单价98元",
+        "en": "Signature 1-9 blend coffee at 98 yuan each",
         "from": [
-          10
+          9
         ]
       },
       {
-        "kind": "space",
-        "zh": "店面不大不小，日式装修风格",
-        "en": "Modest-sized space with Japanese-style decor",
+        "kind": "space|light|view|seating|sound",
+        "zh": "店内设有多个座位，环境安静有序，适合办公或聊天",
+        "en": "Multiple seats, quiet and orderly, good for work or chat",
         "from": [
+          2,
+          6,
           12
         ]
       },
       {
-        "kind": "seating",
-        "zh": "店内设多个座位，可供用餐",
-        "en": "Multiple seats available for dining",
+        "kind": "time",
+        "zh": "营业时间周一至周日10:00-21:00",
+        "en": "Open daily 10:00–21:00",
         "from": [
-          3
+          15
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日营业时间10:00–21:00",
-        "en": "Open daily 10:00–21:00",
+        "kind": "story",
+        "zh": "品牌故事源自日本精品咖啡之父的中国首店",
+        "en": "Founded by Japan's pioneer of specialty coffee in China",
         "from": [
-          16
+          13
         ]
       }
     ],
@@ -54,32 +56,41 @@
       "focus": {
         "value": 70,
         "from": [
-          7,
-          13
+          6,
+          12
         ],
-        "zh": "环境安静有序，适合办公",
-        "en": "Quiet and orderly for focus"
+        "zh": "安静有序，适合专注",
+        "en": "Quiet and focused"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          6,
+          12
+        ],
+        "zh": "环境安静，不喧闹",
+        "en": "Calm and low-energy"
       },
       "linger": {
-        "value": 75,
-        "from": [
-          3,
-          13
-        ],
-        "zh": "座位多且氛围静谧柔和",
-        "en": "Seating and calm invite lingering"
-      },
-      "adventure": {
         "value": 60,
         "from": [
-          1,
-          6,
-          9
+          2,
+          12
         ],
-        "zh": "提供手冲及多种拼配豆",
-        "en": "Hand-brew and varied blends"
+        "zh": "有座位可久坐，适合停留",
+        "en": "Seated comfort for lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          5,
+          8
+        ],
+        "zh": "手冲+九种拼配豆，饮用方式多样",
+        "en": "Hand-pour with nine unique blends"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:35:25Z"
+  "fetchedAt": "2026-09-12T16:43:37Z"
 }

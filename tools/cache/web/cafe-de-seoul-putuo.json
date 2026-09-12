@@ -3,17 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "买咖啡逛金库!首尔咖啡店凭“神秘体验”火遍全球",
-      "url": "https://user.guancha.cn/wap/content?id=1383150&comments-container",
-      "site_name": "观察者网"
+      "title": "James Joyce Coffetel Shanghai Changfeng Park Caoyang Hotel",
+      "url": "https://www.agoda.com/james-joyce-coffetel-shanghai-caoyang-branch/hotel/shanghai-cn.html",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "为了这些“世界网红咖啡馆”,专程去飞去首尔,真名不虚传",
-      "url": "https://www.163.com/dy/article/J3HKPQOI0521G5OJ.html",
-      "site_name": "网易"
+      "title": "Huaihai Road",
+      "url": "https://www.meet-in-shanghai.net/en/shopping/huaihai-road-179632/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 3,
+      "title": "Ten riverside cafés in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240521/330f5762c816485b8f6d6121c838c7dc.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "15 boutique cafés in Putuo district (III)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/fa7462705eb64689956fcf9fe4f21e4e.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Shanghai just loves to smell the coffee",
+      "url": "https://www.chinadaily.com.cn/a/202104/19/WS607cd9a5a31024ad0bab6590_2.html",
+      "site_name": "中国日报网"
+    },
+    {
+      "index": 7,
+      "title": "Cafe de L Avenue(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d5960830-Reviews-Cafe_de_L_Avenue-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "Popular rural cafes in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20250226/aaa1c1bc59054419992c0d6e300b8433.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 9,
+      "title": "[First in SH] Coffee, Matcha & LV Hotel: SH's Newest Openings",
+      "url": "https://www.meet-in-shanghai.net/en/news/first-in-sh-coffee-matcha--lv-hotel-shs-newest-openings-163205/",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:04Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:30Z",
+  "retriedEn": true
 }

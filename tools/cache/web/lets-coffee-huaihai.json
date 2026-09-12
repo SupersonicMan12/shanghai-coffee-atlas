@@ -3,41 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "Coffee Spot | 小小站立式咖啡馆,在角落一坐,进入属于自己都世界上海豆子_风味",
-      "url": "https://www.sohu.com/a/592284973_121124402",
-      "site_name": "搜狐"
+      "title": "上海龙之梦大酒店",
+      "url": "https://www.tripadvisor.cn/Hotel_Review-g308272-d588816-Reviews-The_Longemont_Shanghai-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 2,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "Longmen Village Tickets [2026] - Shanghai - Trip.com",
+      "url": "https://www.trip.com/travel-guide/attraction/shanghai/longmen-village-24651401/",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
-      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
-      "site_name": "中国政府网"
+      "title": "LongMen Hollyear Hotel, Shanghai | 2026 Updated Prices, Deals",
+      "url": "https://www.agoda.com/longmen-hollyear-hotel/hotel/shanghai-cn.html",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "好喝到上头!高明这份咖啡地图赶紧mark → ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAwMTQ3NDE4Mw==&mid=2652579751&idx=1&sn=88e4a1ffce5e9c695585d3dd86c16688&chksm=8136ac4fb6412559c981c313a3f94c4c085a86482807ace30b3cfe213e345b339dd631d9d935&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 5,
-      "title": "跑遍上海八大区最推荐的7家新咖啡店 - 时尚- 新浪",
-      "url": "https://fashion.sina.cn/l/ts/2020-06-01/detail-iircuyvi6139928.d.html?vt=4",
-      "site_name": "新浪网"
-    },
-    {
-      "index": 6,
-      "title": "当代青年把咖啡馆当成小酒馆，赶紧看这11 杯最上头的隐藏特饮！",
-      "url": "https://zhuanlan.zhihu.com/p/366714078",
-      "site_name": "知乎"
+      "title": "Longmen Fudi Cellar in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118368909427167&lsp=57879",
+      "site_name": "Apple (中国)"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:44:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:25Z",
+  "retriedEn": true
 }

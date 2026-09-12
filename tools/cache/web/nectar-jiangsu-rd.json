@@ -1,49 +1,59 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "长宁路Metrotown购物中心内，近中山公园地铁站2/3/4号线",
+      "kind": "space",
+      "quote": "Changning Road Metrotown #01-81, Shanghai",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site": "领英网"
+    },
+    {
+      "text": "Nectar蛋糕外观精致但不浮夸",
+      "kind": "food",
+      "quote": "Nectar cakes are pretty but not fancy.",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site": "领英网"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
     },
     {
       "index": 2,
-      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
-      "url": "https://new.qq.com/rain/a/20260305A063Y600",
-      "site_name": "腾讯网"
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 3,
-      "title": "上海最特別的咖啡店！ - Trip.com",
-      "url": "https://hk.trip.com/moments/detail/shanghai-2-147029703/",
-      "site_name": ""
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
+      "title": "Discover delightful cafes in parks of Changning district",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240617/8a21a339d30d4074b41b7c9106d39b47.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 5,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 6,
-      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "title": "2026 Recommended Food in Changning District (Updated ...",
+      "url": "https://www.trip.com/moments/theme/destination-changning-district-2015073-food-993052/",
       "site_name": ""
     },
     {
-      "index": 7,
-      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
-      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
-      "site_name": "中国政府网"
+      "index": 6,
+      "title": "Charming mansion cafes for afternoon tea delights in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240528/1c66307c4fee4b84bdd3a497b2185b4f.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:10Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:02Z",
+  "retriedEn": true
 }

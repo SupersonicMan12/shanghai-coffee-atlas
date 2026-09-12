@@ -1,17 +1,17 @@
 {
   "cafeId": "m-stand-lingkongsoho",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "9973b9440483",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "dcfe76ba5624",
   "raw": {
     "headline": {
-      "zh": "临街玻璃幕墙站喝店",
-      "en": "Street-side stand-up coffee spot"
+      "zh": "临街玻璃大店",
+      "en": "Large glass-fronted street-side shop"
     },
     "traits": [
       {
-        "kind": "space",
-        "zh": "门店位于商场外街角，整面临街玻璃",
-        "en": "Corner unit with full-height street-facing glass",
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "门店位于商场外街角，整面临街玻璃幕墙",
+        "en": "Located at corner of shopping mall, full-floor glass facade",
         "from": [
           1,
           7
@@ -19,40 +19,57 @@
       },
       {
         "kind": "drinks",
-        "zh": "冰咖啡装在透明塑料杯带吸管",
-        "en": "Iced coffee served in clear plastic cup with straw",
+        "zh": "招牌饮品为冰咖啡，深褐色液体装于透明塑料杯",
+        "en": "Signature drink is iced coffee in transparent plastic cup, dark brown liquid",
         "from": [
           2,
           3
         ]
       },
       {
-        "kind": "seating",
-        "zh": "店门口无室外座位",
-        "en": "No outdoor seating at entrance",
+        "kind": "time",
+        "zh": "营业时间 07:30-18:30，周一至周日",
+        "en": "Open daily 07:30–18:30",
         "from": [
-          6
+          11
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日营业至18:30",
-        "en": "Open daily until 6:30 PM",
+        "kind": "food",
+        "zh": "推荐菜包括美式咖啡、香肠、卡布奇诺、椰子、油条",
+        "en": "Recommended items: Americano, sausage, cappuccino, coconut, youtiao",
         "from": [
-          13
+          12
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "吧台可见，适合快速取餐",
+        "en": "Counter visible, quick service"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "临街位置，人流较密集",
+        "en": "Street-facing, moderate foot traffic"
+      },
       "linger": {
         "value": 20,
         "from": [
           6
         ],
-        "zh": "无室外座位，适合快饮",
-        "en": "Grab-and-go setup"
+        "zh": "门口无室外座位，不适宜久坐",
+        "en": "No outdoor seating, not meant for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:32:13Z"
+  "fetchedAt": "2026-09-12T16:48:15Z"
 }

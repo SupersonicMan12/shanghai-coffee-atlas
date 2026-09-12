@@ -3,47 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "Cypher(上海市) - 餐厅/美食点评 - Tripadvisor",
-      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d18341393-Reviews-Cypher-Shanghai.html",
-      "site_name": "Tripadvisor"
-    },
-    {
-      "index": 2,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 3,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 4,
-      "title": "上海美食節｜在澡堂喝咖啡，不沖膠捲只沖咖啡的暗房……上海這些 ...",
-      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festivala-darkroom-where-you-drink-coffee-in-a-bathhouse-and-only-make-coffee-without-film-these-new-and-interesting-coffee-shops-in-shanghai-are-waiting-for-you-to-challen-689257/",
+      "title": "Cypher - Snapchat",
+      "url": "https://www.snapchat.com/place/cypher/2c983af0-5754-11ea-b0d0-3f23d5d32ef6",
       "site_name": ""
     },
     {
+      "index": 2,
+      "title": "Contact - Chinese Academy of Sciences Shanghai Branch",
+      "url": "http://english.shb.cas.cn/au/ct/",
+      "site_name": "中国科学院"
+    },
+    {
+      "index": 3,
+      "title": "Multi-Omics Core Facility - 上科大生命学院",
+      "url": "https://slst.shanghaitech.edu.cn/english/facilities1/list.htm",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "芯旸光电科技(上海)有限公司",
+      "url": "https://www.zhipin.com/companys/d414c44f62c282f61n1y3t-9.html",
+      "site_name": "Boss直聘"
+    },
+    {
       "index": 5,
-      "title": "不止于咖啡，揭开上海咖啡馆“万店密码” - 央广网",
-      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
-      "site_name": "央广网"
+      "title": "Core Facility for Fruit Fly",
+      "url": "http://english.cemcs.cas.cn/facilities/ff/",
+      "site_name": "中国科学院"
     },
     {
       "index": 6,
-      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "title": "Cypher Shanghai - | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/17070/cypher_xiangyang_nan_lu",
       "site_name": ""
     },
     {
       "index": 7,
-      "title": "Grid Coffee上海首店开业，品牌目前已有48间门店 - FoodTalks",
-      "url": "https://www.foodtalks.cn/flash/19720",
-      "site_name": "FoodTalks全球食品资讯网"
+      "title": "Dadong (Yueyang Plaza Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1117162014963838&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "Restaurant CYPHER（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh/shanghai/cypher",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "天能银玥(上海)新能源材料有限公司",
+      "url": "https://www.zhipin.com/companys/8d5e6f3c7bcdb81b1nJz39m1FlM~.html",
+      "site_name": "Boss直聘"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:46Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:19Z",
+  "retriedEn": true
 }

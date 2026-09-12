@@ -1,40 +1,85 @@
 {
- "cafeId": "bitter-donkey",
- "model": "qwen-max",
- "inputDigest": "bbbbf819b12e",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "bitter-donkey",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "463a967649fb",
+  "raw": {
+    "headline": {
+      "zh": "热带水果冷萃",
+      "en": "Tropical fruit cold brew"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为埃塞俄比亚冷萃，风味组合独特",
+        "en": "Signature Ethiopian cold brew with unique flavor pairing",
+        "from": [
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街小空间，整面玻璃窗",
+        "en": "Small street-facing space with full glass window",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 10:30-18:30",
+        "en": "Open daily 10:30–18:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用手冲设备进行咖啡萃取",
+        "en": "Uses manual brewing equipment for extraction",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "手冲需专注",
+        "en": "Manual brewing requires focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "有常客与狗，氛围热闹",
+        "en": "Regulars and dogs make it lively"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "小店无外座，适合短暂停留",
+        "en": "Small no outdoor seating, short stays"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "冷萃搭配热带水果风味",
+        "en": "Cold brew paired with tropical fruit notes"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "people",
-    "zh": "常客带着狗来，氛围友好随意",
-    "en": "Regulars and their dogs, friendly vibe",
-    "from": 2
-   },
-   {
-    "kind": "drinks",
-    "zh": "路边冷萃咖啡是招牌饮品",
-    "en": "Cold brew on the kerb is a specialty",
-    "from": 3
-   }
-  ],
-  "axisHints": {
-   "energy": {
-    "value": 50,
-    "from": 2,
-    "zh": "友好的氛围，但不是特别热闹",
-    "en": "Friendly but not too lively"
-   },
-   "linger": {
-    "value": 60,
-    "from": 2,
-    "zh": "适合与朋友或宠物久坐",
-    "en": "Good for sitting with friends or pets"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:09:45Z"
+  "fetchedAt": "2026-09-12T16:41:08Z"
 }

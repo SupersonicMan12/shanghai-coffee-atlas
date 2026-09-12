@@ -3,41 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "世纪大道咖啡",
-      "url": "https://m.dianping.com/shop/939615200",
-      "site_name": "大众点评网"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 2,
-      "title": "宜吃咖啡·“嘎讪胡”丨“江东”有聊!这份隐藏版咖啡馆打卡清单,快收藏!",
-      "url": "https://static.zhoudaosh.com/33644E1AED99F5044E5EC29AB4EC8F1025C902920B8BCFB0DBF7AB0DA5A8B7BC",
+      "title": "上海美食地理",
+      "url": "https://weibo.com/322073331",
       "site_name": "无"
     },
     {
       "index": 3,
-      "title": "神仙打架,咖啡市这名字可不是白叫的",
-      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
-      "site_name": "网易"
+      "title": "Spring in Shanghai: Where to find the best brunches",
+      "url": "https://english.shanghai.gov.cn/en-Restaurants/20260410/a88a95d07ece46bfa61915030802658e.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "SWAG coffee 特调咖啡多巴胺气泡",
-      "url": "https://www.bilibili.com/video/BV1mN411t7hx/",
-      "site_name": "哔哩哔哩"
+      "title": "Company Name Company Address Company Certificates ",
+      "url": "https://www.starbucks.com.cn/en/help/legal/delivery-store-certificate/guangzhou/",
+      "site_name": "星巴克 | 用每一杯咖啡传递星巴克独特的咖啡"
     },
     {
       "index": 5,
-      "title": "精品咖啡_百度百科",
-      "url": "https://baike.baidu.com/item/%E7%B2%BE%E5%93%81%E5%92%96%E5%95%A1/1279888",
-      "site_name": "百度"
+      "title": "凯德集团再创城市惊喜:全球首个星巴克熊店长小镇亮相来福士",
+      "url": "http://qx.tynews.com.cn/system/2026/05/08/031018682.shtml",
+      "site_name": "无"
     },
     {
       "index": 6,
-      "title": "咖啡文化，品的是上海街景风情的丰富味道[图]",
-      "url": "https://news.sjtu.edu.cn/mtjj/20210110/139781.html",
-      "site_name": ""
+      "title": "Company Name Company Address Company Certificates ",
+      "url": "https://www.starbucks.com.cn/en/help/legal/delivery-store-certificate/guilin",
+      "site_name": "星巴克 | 用每一杯咖啡传递星巴克独特的咖啡"
+    },
+    {
+      "index": 7,
+      "title": "公司名称 公司地址 信息公示 ",
+      "url": "https://www.starbucks.com.cn/help/legal/delivery-store-certificate/guangzhou/",
+      "site_name": "星巴克 | 用每一杯咖啡传递星巴克独特的咖啡"
+    },
+    {
+      "index": 8,
+      "title": "企业新闻",
+      "url": "https://www.starbucks.com.cn/about/news",
+      "site_name": "星巴克 | 用每一杯咖啡传递星巴克独特的咖啡"
+    },
+    {
+      "index": 9,
+      "title": "​Shanghai Summer|​18 city-customized events guide",
+      "url": "https://sww.sh.gov.cn/swdt/20250723/340d414f0f5942358bf33851675a4036.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:47Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:27Z",
+  "retriedEn": true
 }

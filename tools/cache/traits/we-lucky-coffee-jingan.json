@@ -1,45 +1,44 @@
 {
   "cafeId": "we-lucky-coffee-jingan",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "4d3d14335d84",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6b1a16f33822",
   "raw": {
     "headline": {
-      "zh": "5-14元现磨咖啡站喝店",
-      "en": "Standing cafe with $1–2 coffee"
+      "zh": "站喝小吧，现磨咖啡",
+      "en": "Stand-up bar with fresh brew"
     },
     "traits": [
       {
         "kind": "seating",
-        "zh": "室外3个座位，店内少量座位",
-        "en": "3 outdoor seats, few indoor seats",
+        "zh": "门外有3个带遮阳伞的室外座位",
+        "en": "3 outdoor seats with umbrellas outside",
         "from": [
           1,
-          2,
           5
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "全店饮品5元起，14元封顶",
-        "en": "Drinks from ¥5 to ¥14",
+        "kind": "beans",
+        "zh": "使用巴西、埃塞俄比亚等地阿拉比卡豆",
+        "en": "Arabica beans from Brazil, Ethiopia, etc.",
         "from": [
           7
         ]
       },
       {
-        "kind": "beans",
-        "zh": "用巴西等四地产阿拉比卡豆",
-        "en": "Arabica beans from 4 origins",
+        "kind": "drinks",
+        "zh": "采用工厂烘焙豆搭配半自动设备现磨",
+        "en": "Factory-roasted beans, brewed on semi-auto",
         "from": [
-          8
+          10
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:00–23:00营业",
-        "en": "Open daily 7am–11pm",
+        "zh": "营业时间周一至周日 07:00-23:00",
+        "en": "Open daily 7:00–23:00",
         "from": [
-          13
+          11
         ]
       }
     ],
@@ -48,23 +47,20 @@
         "value": 20,
         "from": [
           1,
-          2,
-          5,
-          9
+          5
         ],
-        "zh": "小店站喝为主，座位少",
-        "en": "Standing bar, few seats"
+        "zh": "仅设室外站座，适合快取",
+        "en": "Only standing spots, quick grab"
       },
-      "adventure": {
-        "value": 30,
+      "energy": {
+        "value": 60,
         "from": [
-          8,
-          12
+          6
         ],
-        "zh": "常规豆+半自动机制作",
-        "en": "Standard beans, semi-auto machine"
+        "zh": "临街落地窗，人流可见",
+        "en": "Street-facing glass, visible to passers"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:39:47Z"
+  "fetchedAt": "2026-09-12T16:43:37Z"
 }

@@ -1,52 +1,64 @@
 {
- "cafeId": "mr-beans-zhabei",
- "model": "qwen-max",
- "inputDigest": "f2987e77a72f",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "mr-beans-zhabei",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0a18ebe62985",
+  "raw": {
+    "headline": {
+      "zh": "无限续杯咖啡",
+      "en": "Bottomless drip coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为科学园区人群提供的无限续杯滴滤咖啡",
+        "en": "Bottomless drip coffee for science-park crowd",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "独立咖啡馆，服务丹宁办公区人群",
+        "en": "Independent cafe serving Daning office belt",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": " refill政策支持多个初创企业",
+        "en": "Refill policy funds several startups",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "可支持办公的续杯政策",
+        "en": "Refill policy supports work"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          2
+        ],
+        "zh": "无限续杯适合久坐",
+        "en": "Bottomless drip encourages lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "办公区背景有日常人流动",
+        "en": "Office belt with steady foot traffic"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "整面临街玻璃窗，视野开阔",
-    "en": "Full street-facing windows, open view",
-    "from": 6
-   },
-   {
-    "kind": "drinks",
-    "zh": "深色饮品配蓝色切割玻璃杯",
-    "en": "Dark drink in a blue cut glass",
-    "from": 3
-   },
-   {
-    "kind": "food",
-    "zh": "绿色方形蛋糕撒碎开心果仁",
-    "en": "Green square cake with pistachios",
-    "from": 4
-   },
-   {
-    "kind": "story",
-    "zh": "支持初创企业的无限续杯政策",
-    "en": "Refill policy supports startups",
-    "from": 7
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": 7,
-    "zh": "适合办公，支持初创企业",
-    "en": "Good for work, startup-friendly"
-   },
-   "linger": {
-    "value": 90,
-    "from": 7,
-    "zh": "无限续杯，适合久坐",
-    "en": "Unlimited refills, good for lingering"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:18:47Z"
+  "fetchedAt": "2026-09-12T16:42:10Z"
 }

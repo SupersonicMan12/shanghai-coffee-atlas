@@ -1,46 +1,83 @@
 {
- "cafeId": "seesaw-yuyuan",
- "model": "qwen-max",
- "inputDigest": "047cc3c072d6",
- "raw": {
-  "headline": {
-   "zh": "2012年先锋，云南单品咖啡的代表",
-   "en": "2012 Pioneer, Yunnan Coffee Advocate"
+  "cafeId": "seesaw-yuyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "3f10afc670bc",
+  "raw": {
+    "headline": {
+      "zh": "云南单源咖啡先锋",
+      "en": "Pioneer of Yunnan single origin"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "招牌为云南单一产地咖啡豆",
+        "en": "Signature drink is Yunnan single origin coffee",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于弄堂内的设计中心，空间开阔",
+        "en": "Located in a design center within an alley, with spacious layout",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "自建烘焙实验室，启动云南十年计划",
+        "en": "Own roastery and launched a ten-year project in Yunnan",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "曾与李佳琦、Maison Margiela联名快闪",
+        "en": "Hosted pop-ups with Li Jiaqi and Maison Margiela",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "大空间适合办公",
+        "en": "Spacious enough for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "好地段人流适中",
+        "en": "Moderate foot traffic"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "大空间适合久坐",
+        "en": "Good for lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "自烘+联名快闪创新强",
+        "en": "Innovative roasting and collabs"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "beans",
-    "zh": "提供云南单品咖啡豆",
-    "en": "Yunnan single origin coffee beans",
-    "from": 8
-   },
-   {
-    "kind": "story",
-    "zh": "早期门店位于弄堂设计中心内",
-    "en": "Early store in a design center alley",
-    "from": 5
-   },
-   {
-    "kind": "price",
-    "zh": "均价30-40元，曾尝试降至9.9元",
-    "en": "Average price 30-40 yuan, tried 9.9 yuan",
-    "from": 2
-   }
-  ],
-  "axisHints": {
-   "adventure": {
-    "value": 80,
-    "from": 1,
-    "zh": "手冲单品咖啡概念",
-    "en": "Pour-over single origin concept"
-   },
-   "linger": {
-    "value": 70,
-    "from": 3,
-    "zh": "大空间适合久坐",
-    "en": "Large space for long stays"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:12:55Z"
+  "fetchedAt": "2026-09-12T16:41:26Z"
 }

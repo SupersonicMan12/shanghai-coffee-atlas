@@ -1,55 +1,7 @@
 {
   "facts": [],
-  "results": [
-    {
-      "index": 1,
-      "title": "Puppy Cubby Cafe狗咖撸狗甜品屋-环境-景观位图片-上海-大众点评网",
-      "url": "https://www.dianping.com/shop/G9XDZs7r4Q15jSX4/photos/tag-%E7%8E%AF%E5%A2%83-%E6%99%AF%E8%A7%82%E4%BD%8D",
-      "site_name": ""
-    },
-    {
-      "index": 2,
-      "title": "上海咖啡馆|我挖到了一家ins风治愈系小狗咖啡馆! - 大众点评吃喝玩乐精选",
-      "url": "https://www.dianping.com/discovery/1459501375",
-      "site_name": "大众点评网"
-    },
-    {
-      "index": 3,
-      "title": "Puppy Cubby Cafe Shanghai - | SmartShanghai",
-      "url": "https://www.smartshanghai.com/venue/17380/puppy_cubby_cafe",
-      "site_name": ""
-    },
-    {
-      "index": 4,
-      "title": "上海| 9间宠物咖啡馆就这样幸福得萌一个下午 - 搜狐",
-      "url": "https://www.sohu.com/a/123530722_409602",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 5,
-      "title": "GO GO CAFE狗狗咖啡屋(上海市) - 餐厅/美食点评 - Tripadvisor",
-      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d10775329-Reviews-GO_GO_Cafe-Shanghai.html",
-      "site_name": "Tripadvisor"
-    },
-    {
-      "index": 6,
-      "title": "上海有哪些值得一去的宠物咖啡馆?",
-      "url": "https://www.jianshu.com/p/c6bdd239bfc9",
-      "site_name": "简书"
-    },
-    {
-      "index": 7,
-      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
-      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
-      "site_name": "央广网"
-    },
-    {
-      "index": 8,
-      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
-      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
-      "site_name": "腾讯网"
-    }
-  ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:39Z"
+  "results": [],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:15Z",
+  "retriedEn": true
 }

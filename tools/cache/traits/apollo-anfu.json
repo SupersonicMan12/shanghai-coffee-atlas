@@ -1,77 +1,92 @@
 {
   "cafeId": "apollo-anfu",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "6f6c19ad3b2e",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6062ffb56698",
   "raw": {
     "headline": {
-      "zh": "日咖夜酒，安福路转场",
-      "en": "Coffee by day, wine by dusk"
+      "zh": "地中海风味海鲜饭",
+      "en": "Mediterranean-style paella"
     },
     "traits": [
       {
-        "kind": "time",
-        "zh": "每日9:00–19:00营业",
-        "en": "Open daily 9am–7pm",
+        "kind": "food",
+        "zh": "主菜为盛于铸铁锅的海鲜饭，含虾、贻贝等",
+        "en": "Paella served in cast iron, with shrimp, mussels, clams",
         "from": [
-          4,
-          12
+          1
         ]
       },
       {
-        "kind": "food",
-        "zh": "提供酸奶燕麦38元、玉米蛋糕45元等轻食",
-        "en": "Serves yogurt oats (¥38), corn cake (¥45)",
+        "kind": "space",
+        "zh": "临街老式建筑，带大落地窗",
+        "en": "Old building with large floor-to-ceiling windows",
         "from": [
-          8
+          3,
+          5
         ]
       },
       {
         "kind": "seating",
-        "zh": "室外设2把折叠椅与1张小木桌",
-        "en": "Outdoor seating: 2 chairs, 1 small table",
+        "zh": "木质桌椅配卡座，靠窗有双人桌",
+        "en": "Wooden tables and booths, with two-seater sets by window",
         "from": [
-          1,
-          6
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 10:30-23:00，全天可至",
+        "en": "Open 10:30–23:00 daily",
+        "from": [
+          10
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌为Espresso now, negroni later",
-        "en": "Tagline: Espresso now, negroni later",
+        "zh": "招牌饮品：早 espresso，晚 negroni",
+        "en": "Espresso by day, negroni by night",
         "from": [
-          11
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "吧台陈列多罐装咖啡豆",
-        "en": "Multiple coffee bean jars on bar",
-        "from": [
-          2
+          8,
+          9
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 40,
+      "focus": {
+        "value": 30,
         "from": [
-          1,
-          6
+          4
         ],
-        "zh": "户外仅2椅，不便久坐",
-        "en": "Limited outdoor seating"
+        "zh": "无电脑使用迹象",
+        "en": "No laptop use seen"
       },
-      "adventure": {
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "临街老房，视野开阔",
+        "en": "Street-facing old building"
+      },
+      "linger": {
         "value": 60,
         "from": [
           2,
-          5,
-          13
+          10
         ],
-        "zh": "有手冲与多款豆可选",
-        "en": "Offers pour-over and varied beans"
+        "zh": "有卡座与长营业时间",
+        "en": "Booths and long hours"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "饮品从咖啡过渡到鸡尾酒",
+        "en": "Shift from espresso to negroni"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:00Z"
+  "fetchedAt": "2026-09-12T16:41:09Z"
 }

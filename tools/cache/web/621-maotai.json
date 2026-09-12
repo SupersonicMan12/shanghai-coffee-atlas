@@ -1,25 +1,79 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "营业时间：每天11:00–19:00",
+      "kind": "time",
+      "quote": "Hours. Every Day. 11:00AM – 7:00PM.",
+      "url": "https://maps.apple.com/place?auid=1118849724385680&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "地址：上海市长宁区茅台路199号",
+      "kind": "space",
+      "quote": "Address. Maotai Road No.199, Changning.",
+      "url": "https://maps.apple.com/place?auid=1118849724385680&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "电话：+86 185 2105 2214",
+      "kind": "people",
+      "quote": "Phone. +86 185 2105 2214",
+      "url": "https://maps.apple.com/place?auid=1118849724385680&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "大众点评评分4.8分（576条评论）",
+      "kind": "people",
+      "quote": "Dianping. 4.8. (576).",
+      "url": "https://maps.apple.com/place?auid=1118849724385680&lsp=57879",
+      "site": "Apple (中国)"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "最著名的六大精品咖啡出产地",
-      "url": "https://zhuanlan.zhihu.com/p/545677078",
-      "site_name": "知乎"
+      "title": "621 Boutique Jiabei Beijiansuo in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118849724385680&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 2,
-      "title": "咖啡能种出稻香吗?Grid Coffee 2026 中国云南产地季,走进「云南,共生之地」",
-      "url": "https://m.163.com/dy/article/L6D2HONT0531LTUZ.html",
-      "site_name": "网易"
+      "title": "Standout cafes at 2024 Shanghai coffee fest (I)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240807/add3399f096b4c7ab83cd3d45439ef5b.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 3,
-      "title": "咖啡豆烘培深度品牌及商品- 京东",
-      "url": "https://www.jd.com/brand/13209a1b3f6743e7134b.html",
-      "site_name": "京东"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "上海互加上海龙阳路店公寓(21号店)",
+      "url": "https://hotels.ctrip.com/hotels/53232637.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:43Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:55Z",
+  "retriedEn": true
 }

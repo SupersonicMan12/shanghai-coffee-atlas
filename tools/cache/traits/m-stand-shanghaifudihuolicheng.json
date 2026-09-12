@@ -1,78 +1,68 @@
 {
   "cafeId": "m-stand-shanghaifudihuolicheng",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "2fbc78107bde",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e731b7c3a444",
   "raw": {
     "headline": {
-      "zh": "商场外带院子的M Stand",
-      "en": "M Stand with an outdoor courtyard"
+      "zh": "室外座位带遮阳伞",
+      "en": "Outdoor seating with umbrellas"
     },
     "traits": [
       {
         "kind": "seating",
-        "zh": "设室外座位区，配遮阳伞和桌椅",
-        "en": "Outdoor seating with umbrellas and tables",
+        "zh": "设有带遮阳伞的室外座位区",
+        "en": "Has outdoor seating with umbrellas",
         "from": [
           2,
+          3,
           7
         ]
       },
       {
-        "kind": "view",
-        "zh": "室外区旁有绿植装饰",
-        "en": "Greenery beside outdoor seating",
-        "from": [
-          3
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "提供塑料杯装冰咖啡",
-        "en": "Serves iced coffee in plastic cups",
+        "zh": "提供带盖塑料杯装冰咖啡",
+        "en": "Serves iced coffee in capped plastic cups",
         "from": [
           4
         ]
       },
       {
         "kind": "food",
-        "zh": "供应巧克力类甜点",
-        "en": "Offers chocolate-based desserts",
+        "zh": "供应带蜡烛的巧克力类甜点",
+        "en": "Serves chocolate dessert with candles",
         "from": [
           5
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:00-22:00营业",
-        "en": "Open daily 7am–10pm",
+        "zh": "营业时间周一至周日 07:00-22:00",
+        "en": "Open daily 07:00–22:00",
         "from": [
-          13
+          11
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "energy": {
         "value": 60,
         "from": [
           2,
-          6,
           7
         ],
-        "zh": "有固定桌椅可久坐",
-        "en": "Seated outdoor area"
+        "zh": "室外座位区有社交氛围",
+        "en": "Social vibe outdoors"
       },
-      "energy": {
-        "value": 50,
+      "linger": {
+        "value": 70,
         "from": [
           2,
-          6,
-          9,
-          11
+          7
         ],
-        "zh": "商场入口处半开放区",
-        "en": "Semi-open mall entrance spot"
+        "zh": "适合久坐休息",
+        "en": "Good for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:39Z"
+  "fetchedAt": "2026-09-12T16:48:41Z"
 }

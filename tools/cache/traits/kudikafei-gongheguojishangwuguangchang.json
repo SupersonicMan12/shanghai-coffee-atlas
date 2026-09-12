@@ -1,19 +1,18 @@
 {
   "cafeId": "kudikafei-gongheguojishangwuguangchang",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "7b921cf22657",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "af6912092286",
   "raw": {
     "headline": {
-      "zh": "主打亚洲风味果茶与慕斯饮品",
-      "en": "Asian-inspired fruit teas and mousse drinks"
+      "zh": "站喝区+云顶慕斯饮品",
+      "en": "Standing bar with cloud mousse drinks"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "提供杨枝甘露、云顶慕斯等多层配料饮品",
-        "en": "Serves layered drinks like mango pomelo sago and mousse series",
+        "zh": "提供含多层配料的云顶慕斯系列饮品",
+        "en": "Offers cloud mousse drinks with layered ingredients",
         "from": [
-          1,
           2,
           3,
           4
@@ -21,59 +20,80 @@
       },
       {
         "kind": "drinks",
-        "zh": "招牌含斑斓芒果椰子冰沙、苹果茉莉冰茶",
-        "en": "Signature drinks include pandan mango frappe and apple jasmine iced tea",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙等亚洲风味果茶",
+        "en": "Features Asian-inspired fruit teas like pandan mango coco frappe",
         "from": [
           5
         ]
       },
       {
         "kind": "beans",
-        "zh": "使用100%阿拉比卡豆，三年获IIAC金奖",
+        "zh": "使用100%阿拉比卡咖啡豆，连续三年获IIAC金奖",
         "en": "Uses 100% Arabica beans, IIAC gold for three years",
         "from": [
           6
         ]
       },
       {
-        "kind": "time",
-        "zh": "周一至周五营业至19:00",
-        "en": "Open until 19:00 on weekdays",
+        "kind": "space",
+        "zh": "为站喝设计，无堂食座位",
+        "en": "Designed as standing bar, no seating available",
         "from": [
-          11
+          1,
+          7,
+          8
         ]
       },
       {
-        "kind": "food",
-        "zh": "推荐阳光青提系列、流云拿铁、橙C新品",
-        "en": "Featured items: Sunshine Grape series, Cloud Latte, Orange C",
+        "kind": "time",
+        "zh": "营业时间为周一至周五 07:30-19:00",
+        "en": "Open Mon–Fri 07:30–19:00",
         "from": [
-          12
+          9
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 75,
+      "linger": {
+        "value": 20,
         "from": [
           1,
+          7,
+          8
+        ],
+        "zh": "站喝设计，不宜久坐",
+        "en": "Standing-only layout"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "便捷店型，人流中等",
+        "en": "Compact format, moderate foot traffic"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "非办公友好型站喝空间",
+        "en": "Not suited for focused work"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
           2,
           3,
           4,
           5
         ],
-        "zh": "多款创意亚洲风味饮品",
-        "en": "Creative Asian-inspired drinks"
-      },
-      "linger": {
-        "value": 20,
-        "from": [
-          8
-        ],
-        "zh": "为COTTI Express站喝小店",
-        "en": "Standing-bar COTTI Express format"
+        "zh": "慕斯饮品与亚洲风味创新",
+        "en": "Innovative mousse drinks and Asian flavors"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:36:13Z"
+  "fetchedAt": "2026-09-12T16:43:51Z"
 }

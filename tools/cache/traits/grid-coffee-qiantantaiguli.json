@@ -1,79 +1,84 @@
 {
   "cafeId": "grid-coffee-qiantantaiguli",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "14b67e417cab",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a21117d3da95",
   "raw": {
     "headline": {
-      "zh": "前滩太古里精品咖啡",
-      "en": "Premium coffee at Qiantan Taikoo Li"
+      "zh": "前滩太古里Art Deco咖啡馆",
+      "en": "Art Deco café in Qiantan IFC"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "设室内桌椅及室外带伞座位",
-        "en": "Indoor tables and shaded outdoor seating",
+        "kind": "space",
+        "zh": "临街玻璃门，带室外遮阳伞座位区",
+        "en": "Glass storefront with outdoor shaded seating",
         "from": [
+          3,
           1,
-          5,
-          8,
-          13
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内落地窗，采光良好",
+        "en": "Large floor-to-ceiling windows with good natural light",
+        "from": [
+          4
         ]
       },
       {
         "kind": "beans",
-        "zh": "全系使用SCA 84分以上单一产地豆",
-        "en": "Single-origin beans, SCA 84+ rated",
+        "zh": "全系使用SCA 84分以上单一产地豆，随季更换",
+        "en": "Single-origin beans, SCA 84+ scores, seasonal rotation",
         "from": [
           10
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌有罗马人美式、咸奶萃、白脱拿铁",
-        "en": "Signature drinks: Roman Americano, salty milk espresso, buttermilk latte",
+        "zh": "招牌饮品含罗马人美式、咸奶萃、白脱拿铁",
+        "en": "Signature drinks include Roman Americano, salty milk extract, white butter latte",
         "from": [
           9
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间07:00–21:00",
-        "en": "Open daily 7am–9pm",
+        "zh": "营业时间07:00-21:00，周一至周日",
+        "en": "Open daily 07:00–21:00",
         "from": [
-          16
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "上海首店，Art Deco风格",
-        "en": "Shanghai’s first store, Art Deco style",
-        "from": [
-          12,
           13
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "focus": {
         "value": 60,
         "from": [
-          1,
-          5,
-          8
+          5
         ],
-        "zh": "有室内外座位可坐",
-        "en": "Seating available indoors and out"
+        "zh": "有桌椅，可办公",
+        "en": "Has tables for working"
       },
-      "adventure": {
+      "energy": {
         "value": 50,
         "from": [
-          9,
-          10
+          3,
+          8
         ],
-        "zh": "微创新饮品+高分单一产地豆",
-        "en": "Micro-innovations with premium beans"
+        "zh": "临街商场，人流适中",
+        "en": "Located in busy mall, moderate foot traffic"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          5,
+          1
+        ],
+        "zh": "有座位区，适合久坐",
+        "en": "Seating available for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:21Z"
+  "fetchedAt": "2026-09-12T16:48:43Z"
 }

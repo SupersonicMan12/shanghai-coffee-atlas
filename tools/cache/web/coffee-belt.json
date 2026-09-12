@@ -3,41 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "世界咖啡豆主要产区主要分布在哪里|咖啡豆产区咖啡带分布图介绍",
-      "url": "https://www.gafei.com/kafeibiji-136075",
-      "site_name": "咖啡网"
+      "title": "Coffee Belt",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10775348-Reviews-Coffee_Belt-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 2,
-      "title": "咖啡带?也许不存在了",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTg5MjU1MA==&mid=2651330554&idx=1&sn=29360808bae0939497e78070e00c3f19&chksm=bc65627fd08be865f03ed16f3c155db25b01f9abcd8c247c88c505880d7c48e49c0432a39271&scene=27",
-      "site_name": "腾讯网"
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
     },
     {
       "index": 3,
-      "title": "了解咖啡种植带 - 中国咖啡网",
-      "url": "https://w.gafei.com/kafeizhishi/2014082911375.html",
-      "site_name": "咖啡网"
+      "title": "Coffee Belt Shanghai - | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/15733/coffee_belt_shaanxi_nan_lu",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "咖啡养成记丨喝咖啡要先学会豆(一) ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzU2NTY2ODA4NA==&mid=2247564260&idx=4&sn=e7d6e5ba415808509050403a9235bf0e&chksm=fcbb8a7fcbcc0369223df2019036d989a0ab2c7c5cbee9ce4bd3cef17f1e17de79ad0d0a65c7&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 5,
-      "title": "改变世界的豆子,打工人的“续命”神器 ",
-      "url": "http://www.isenlin.cn/sf_ABECE867AAEE42F1941E8ACD95FEE67D_209_A952252C215.html",
-      "site_name": "关注森林"
-    },
-    {
-      "index": 6,
-      "title": "格林威尔柯纳咖啡农场( Greenwell Kona Coffee Farm)",
-      "url": "https://www.meipian.cn/5idwx8kh",
-      "site_name": "美篇网"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "中国政府网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:39:46Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:32Z",
+  "retriedEn": true
 }

@@ -1,73 +1,75 @@
 {
   "cafeId": "ruixingkafei-fudankejiyuan",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "731ca9bf61af",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "66858762f10e",
   "raw": {
     "headline": {
-      "zh": "复旦科技园快取站",
-      "en": "Quick pickup near Fudan"
+      "zh": "分层咖啡配浓缩",
+      "en": "Layered coffee with espresso shot"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
-        "en": "Known for hits like coconut and sauce lattes",
+        "zh": "饮品为分层咖啡，含奶泡与焦糖",
+        "en": "Layered coffee with foam and caramel",
         "from": [
-          8
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "工作日7:00-20:00，周末8:00-18:00",
-        "en": "Open 7am–8pm weekdays, 8am–6pm weekends",
-        "from": [
-          14
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "20-60㎡快取店，无或少量堂食",
-        "en": "20–60㎡ pickup-only with minimal seating",
-        "from": [
-          11
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "咖啡豆来自全球核心产区直采",
-        "en": "Beans sourced directly from global origins",
-        "from": [
-          9
+          2,
+          4,
+          5
         ]
       },
       {
         "kind": "drinks",
-        "zh": "推荐饮品含瑞纳冰与厚乳拿铁系列",
-        "en": "Featured drinks include RuiNaBing and thick milk lattes",
+        "zh": "提供小杯浓缩咖啡",
+        "en": "Single-origin espresso shot available",
         "from": [
-          15
+          3
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "营业时间周一至周五 07:00-20:00",
+        "en": "Open 7:00–20:00 Mon–Fri",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括牛油果森林瑞纳冰、杨梅瑞纳冰等",
+        "en": "Popular drinks include avocado forest iced tea and sour plum iced tea",
+        "from": [
+          12
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          10
+        ],
+        "zh": "线上下单，到店自提",
+        "en": "Order online, pick up in-store"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "快取店，人流动态中",
+        "en": "Fast pickup model, moderate foot traffic"
+      },
       "linger": {
         "value": 20,
         "from": [
-          11
+          9,
+          10
         ],
-        "zh": "快取店设计，不适合久坐",
-        "en": "Pickup format, not for lingering"
-      },
-      "adventure": {
-        "value": 60,
-        "from": [
-          8,
-          15
-        ],
-        "zh": "频繁推新且含特色风味饮品",
-        "en": "Frequent novelty and signature flavors"
+        "zh": "快取店，无堂食区",
+        "en": "Quick-service only, no seating"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:54Z"
+  "fetchedAt": "2026-09-12T16:44:56Z"
 }

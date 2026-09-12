@@ -1,40 +1,64 @@
 {
- "cafeId": "kaffeine-xiangyang",
- "model": "qwen-max",
- "inputDigest": "718e217033fe",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "kaffeine-xiangyang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "718e217033fe",
+  "raw": {
+    "headline": {
+      "zh": "Batch brew 自助续杯",
+      "en": "Batch brew refills available"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为批量冲煮自助续杯",
+        "en": "Batch brew refills are the signature drink",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "长条凳配可用电源",
+        "en": "Long bench with working power outlets",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "可眺望梧桐树街道",
+        "en": "View of plane tree-lined street",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "有电源可办公",
+        "en": "Power outlets for work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "长凳适合久坐",
+        "en": "Long bench encourages lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "街边静谧感",
+        "en": "Quiet street vibe"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "seating",
-    "zh": "长凳提供足够的座位空间",
-    "en": "Long bench for ample seating",
-    "from": 1
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品为批量冲煮续杯",
-    "en": "Signature: Batch brew refills",
-    "from": 2
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 70,
-    "from": 1,
-    "zh": "有插座适合工作",
-    "en": "Good for working with outlets"
-   },
-   "linger": {
-    "value": 60,
-    "from": 1,
-    "zh": "长凳和街景适合久坐",
-    "en": "Long bench and street view"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:09:50Z"
+  "fetchedAt": "2026-09-12T16:41:12Z"
 }

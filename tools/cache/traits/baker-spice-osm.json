@@ -1,80 +1,73 @@
 {
   "cafeId": "baker-spice-osm",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "0cf61eb3dea5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "92222e76a34c",
   "raw": {
     "headline": {
-      "zh": "安福路12年老店，自研拼配豆",
-      "en": "12-year Anfu Road original with house blend"
+      "zh": "自研拼配豆，覆盖多产区",
+      "en": "House-blend beans from global origins"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "招牌精品咖啡限时11元一杯",
-        "en": "Signature specialty coffee for ¥11, limited time",
+        "kind": "beans",
+        "zh": "采用自研拼配豆，来源包括埃塞俄比亚、哥伦比亚、云南",
+        "en": "House-blend beans sourced from Ethiopia, Colombia, Yunnan",
         "from": [
           1
         ]
       },
       {
-        "kind": "beans",
-        "zh": "采用自研拼配豆，豆源覆盖埃塞俄比亚、哥伦比亚、云南",
-        "en": "House-blended beans from Ethiopia, Colombia, and Yunnan",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "北欧风大店，含半开放厨房与落地窗",
-        "en": "Spacious Nordic-style shop with open kitchen and floor-to-ceiling windows",
+        "kind": "time",
+        "zh": "安福路店营业至晚上10:30",
+        "en": "Open until 10:30 PM at Anfu Road location",
         "from": [
           4
         ]
       },
       {
-        "kind": "time",
-        "zh": "安福路店营业至22:30",
-        "en": "Anfu Road store open until 10:30 PM",
+        "kind": "seating",
+        "zh": "设有露天位，含HAY座椅与半开放厨房",
+        "en": "Features outdoor seating, HAY chairs, and open kitchen",
         "from": [
-          5
+          3
         ]
       },
       {
-        "kind": "story",
-        "zh": "2010年始于上海安福路，Wagas集团旗下",
-        "en": "Founded on Anfu Road in 2010, under Wagas Group",
+        "kind": "food",
+        "zh": "周年庆期间意面享5.4折起优惠",
+        "en": "Pasta discounted up to 46% during anniversary sale",
         "from": [
-          6
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "安福路店人均约42元",
+        "en": "Average spend around ¥42 at Anfu Road branch",
+        "from": [
+          2
         ]
       }
     ],
     "axisHints": {
-      "focus": {
-        "value": 50,
-        "from": [
-          4
-        ],
-        "zh": "有半开放厨房和固定座椅",
-        "en": "Has open kitchen and fixed seating"
-      },
       "linger": {
         "value": 70,
         "from": [
+          3,
           4
         ],
-        "zh": "空间宽敞，含露天位与HAY座椅",
-        "en": "Spacious with outdoor seating and HAY chairs"
+        "zh": "有露天位且营业至晚，适合久坐",
+        "en": "Outdoor seats and late hours invite lingering"
       },
-      "adventure": {
-        "value": 40,
+      "energy": {
+        "value": 60,
         "from": [
-          2
+          3
         ],
-        "zh": "自研拼配豆但未提手冲或实验饮品",
-        "en": "House blend but no mention of pour-over or experimental drinks"
+        "zh": "北欧风大店带落地窗与厨房，人气较旺",
+        "en": "Large Nordic-style space with big windows draws crowd"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:42:38Z"
+  "fetchedAt": "2026-09-12T16:45:53Z"
 }

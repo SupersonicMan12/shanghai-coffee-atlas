@@ -3,29 +3,36 @@
   "results": [
     {
       "index": 1,
-      "title": "三3 咖啡波特",
-      "url": "https://www.jiuhuar.com/craftbeer/659bd76b526c6031747c0654.html",
-      "site_name": "酒花儿"
+      "title": "Three Thirds Coffee Shanghai - Cafes, Specialty Coffee, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/15003/three_thirds_coffee_xuhong_bei_lu",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "咖啡史上的三波浪潮 - 知乎专栏",
-      "url": "https://zhuanlan.zhihu.com/p/99665066",
-      "site_name": "知乎"
+      "title": "三叶屋咖啡(上海)有限公司",
+      "url": "https://www.tianyancha.com/staxgrade/3134301527-5e0e",
+      "site_name": "天眼查"
     },
     {
       "index": 3,
-      "title": "咖啡豆烘焙程度之界定 - 知乎专栏",
-      "url": "https://zhuanlan.zhihu.com/p/340704035",
-      "site_name": "知乎"
+      "title": "米其林体验餐厅",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10680699-Reviews-Aura_Lounge_Jazz_Bar_The_Ritz_Carlton_Shanghai_Pudong-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 4,
-      "title": "特写|第三次咖啡浪潮来袭 - 精品阅读- 新浪",
-      "url": "https://top.sina.cn/zx/2017-07-25/tnews-ifyihrit1393629.d.html?vt=4",
-      "site_name": "新浪网"
+      "title": "上海咖啡探店012|三月来上海请喝叁叁coffee - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/988625976",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "ZOOCOFFEE(风尚天地店)",
+      "url": "https://www.dianping.com/shop/17885546/photos/album",
+      "site_name": "大众点评网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:57Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:57Z",
+  "retriedEn": true
 }

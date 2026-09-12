@@ -1,71 +1,71 @@
 {
   "cafeId": "apollo-anfu",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "6cb094fa6924",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "87850b9f4e22",
   "photos": [
-    "https://store.is.autonavi.com/showpic/8fb3d9435cac9d2a0000002343348796?type=pic",
-    "https://aos-comment.amap.com/B00156O2XJ/comment/17c67e2fe515df9ca2a9cd562e884e17_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/bc86116696cb84d60000002343404015?type=pic"
+    "https://aos-comment.amap.com/B0FFJ1ABWS/comment/1afb4ea2777d740fc1523c4dfd409aa2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFJ1ABWS/comment/0801E4F7_B1C1_40A6_8A19_0622EFD7A39B_L0_001_1278_1706_1742828086024_29414971.jpg",
+    "https://aos-comment.amap.com/B0FFJ1ABWS/comment/3142BB68_CF25_4F51_9FA8_79F540D1677B_L0_001_1512_201_1766234396677_46200874.jpg"
   ],
   "photoKinds": [
+    "food",
     "storefront",
-    "drink",
     "interior"
   ],
   "observations": [
     {
-      "text": "店招为CAFÉ del VOLCÁN，临街玻璃门面，右侧有25号门牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外设2把折叠椅+1小木桌，1人坐于户外桌前低头看手机",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内可见木质吧台、白色咖啡机（带锥形漏斗）、多罐装咖啡豆、木质长凳与高脚凳",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "天花板有裸露木梁、黑色吊灯（含橙色内衬款），左侧为红砖墙",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "桌上有一杯热拿铁（带叶形拉花）、一杯冰咖啡（杯身印英文）、一杯水、两块小饼干",
-      "kind": "drinks",
+      "text": "店招显示为 'APOLLO AN FU LU'，门牌号201，位于安福路",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "玻璃门贴有营业时间：MON-SUN 9:00AM–7:00PM",
-      "kind": "time",
+      "text": "主菜为海鲜饭（Paella），盛于铸铁锅中，含虾、贻贝、蛤蜊、鱿鱼圈、柠檬角及洋葱圈",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "店内无可见书架、植物或宠物；未见手冲台、虹吸壶或烘焙机",
+      "text": "室内为木质桌椅+卡座组合，靠窗区域有两组双人桌，可见至少4个座位位点",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗户为大尺寸落地窗，窗外可见红砖建筑、电线杆与无叶树木，属临街视角",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内摆放大型绿植（琴叶榕），窗台有小型盆栽，未见烘焙机/手冲台等专业咖啡设备",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放橙色蜡烛与玻璃杯，未见饮品杯或明确食物名称标签",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无人使用笔记本电脑，仅见一人腿部坐于卡座上，无明显交谈声源迹象",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面为老式建筑立面，白色水泥墙配黑色金属窗框，非商场内店铺",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单板部分可见，标有“America”及中英文豆名，但价格与具体产地不可辨",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.85
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
   "seats": "some",
   "laptops": false,
-  "outdoor": true,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:36:45Z"
+  "fetchedAt": "2026-09-12T16:40:20Z"
 }

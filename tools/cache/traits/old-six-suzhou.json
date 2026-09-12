@@ -1,40 +1,92 @@
 {
- "cafeId": "old-six-suzhou",
- "model": "qwen-max",
- "inputDigest": "93dd18c44547",
- "raw": {
-  "headline": {
-   "zh": "河边小憩，日咖夜酒至深夜",
-   "en": "Riverside spot, coffee by day, wine till late"
+  "cafeId": "old-six-suzhou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "32ed01cddce0",
+  "raw": {
+    "headline": {
+      "zh": "苏州河畔百年粮仓咖啡馆",
+      "en": "Century-old granary by the Suzhou River"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "位于苏州河畔百年历史建筑，曾是杜月笙私家粮仓",
+        "en": "Housed in a century-old historic building, formerly Du Yuesheng's private grain warehouse",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "保留典型近代英式仓储建筑风格",
+        "en": "Preserves typical early 20th-century English warehouse architecture",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌：河畔意式浓缩，夜宵转为皮特-纳特起泡酒",
+        "en": "Signature: Creek-side espresso turns into pét-nat nightcap",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨2点，夜间有皮特-纳特酒供饮",
+        "en": "Open until 2am, with pét-nat available after dark",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临河敞开大门，可吹风品咖啡",
+        "en": "Open-facing riverside entrance for breezy coffee sipping",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "夜宵时段为主，专注度中等",
+        "en": "Night-focused, moderate focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "临河开放，动静结合",
+        "en": "Riverside open, balanced energy"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "营业至凌晨，适合久坐",
+        "en": "Open late, ideal for lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "意式浓缩后转为皮特-纳特，饮品不寻常",
+        "en": "Espresso transitions to pét-nat, unconventional"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "临河而坐，正对邮政大楼钟楼",
-    "en": "River view with Post Office clock tower",
-    "from": 1
-   },
-   {
-    "kind": "time",
-    "zh": "咖啡供应到天黑，之后有自然酒",
-    "en": "Coffee until dark, then natural wine till 2am",
-    "from": 1
-   }
-  ],
-  "axisHints": {
-   "energy": {
-    "value": 50,
-    "from": 1,
-    "zh": "白天安静夜晚热闹",
-    "en": "Quiet day, lively night"
-   },
-   "linger": {
-    "value": 80,
-    "from": 1,
-    "zh": "适合长时间停留",
-    "en": "Great for long stays"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:18:17Z"
+  "fetchedAt": "2026-09-12T16:42:12Z"
 }

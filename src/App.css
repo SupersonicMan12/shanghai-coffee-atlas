@@ -2294,7 +2294,6 @@
 }
 
 .search-hits li {
-  padding: 8px 10px;
   min-height: 44px;
   display: flex;
   flex-direction: column;
@@ -2303,12 +2302,29 @@
   cursor: pointer;
 }
 
-.search-hits li.on,
-.search-hits li:hover {
+.search-hits button {
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.search-hits button.on,
+.search-hits button:hover {
   background: color-mix(in srgb, var(--ink) 8%, transparent);
 }
 
 .search-hits .search-none {
+  padding: 8px 10px;
   cursor: default;
   opacity: 0.6;
   font-size: 12px;

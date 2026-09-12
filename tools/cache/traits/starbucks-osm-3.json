@@ -1,63 +1,82 @@
 {
   "cafeId": "starbucks-osm-3",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "6ff23b1a5f55",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "4fd31966105b",
   "raw": {
-    "headline": null,
+    "headline": {
+      "zh": "上海限定特饮",
+      "en": "Shanghai-exclusive drink"
+    },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "有城市限定特饮‘上海咖啡’，含麦乳精与司考奇",
-        "en": "Offers Shanghai-exclusive drink with malted milk and scotch",
-        "from": [
-          1
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "臻选店提供小批量、有人文故事的咖啡豆及多种冲煮方式",
-        "en": "Reserve stores serve small-batch beans with stories and brew methods",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "space",
-        "zh": "力宝广场店用可回收材质和电子屏菜单",
-        "en": "Lippo Plaza store uses recycled materials and digital menus",
+        "zh": "推出融合麦乳精的上海限定特饮",
+        "en": "Serves Shanghai-exclusive drink with malted milk",
         "from": [
           3
         ]
       },
       {
         "kind": "space",
-        "zh": "智慧湾店由6个工业风集装箱构成，为大陆首家",
-        "en": "Zhihui Bay store is China's first, built from 6 shipping containers",
+        "zh": "设有室外座位区，可坐金属椅",
+        "en": "Features outdoor seating with metal chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选门店提供具人文故事的小批量咖啡豆",
+        "en": "Offers small-batch coffee beans with human stories",
         "from": [
           4
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "外滩源店是全国首家臻选咖啡·酒坊，主打Mixato融合概念",
-        "en": "Bund Source store is China's first Reserve Roastery & Bar, Mixato concept",
+        "kind": "space",
+        "zh": "力宝广场店采用可回收环保材质与电子屏菜单",
+        "en": "Uses recyclable materials and digital menu",
         "from": [
           5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "智慧湾科创园店为大陆首家集装箱概念店",
+        "en": "First container-style store in mainland China",
+        "from": [
+          6
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 80,
+      "focus": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "营业至22:30，适合办公",
+        "en": "Opens late, good for work"
+      },
+      "linger": {
+        "value": 70,
         "from": [
           1,
-          2,
-          5
+          9
         ],
-        "zh": "有特调、手冲与酒咖融合",
-        "en": "Unique drinks and brewing"
+        "zh": "有室外座位且营业时间长",
+        "en": "Outdoor seats and long hours"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有城市限定饮品与小批量豆",
+        "en": "City-specific drink and small-batch beans"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:30Z"
+  "fetchedAt": "2026-09-12T16:44:15Z"
 }

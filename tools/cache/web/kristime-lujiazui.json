@@ -3,59 +3,66 @@
   "results": [
     {
       "index": 1,
-      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 2,
-      "title": "KRISTIME下午茶·蛋糕(上海浦東張江地區)－餐牌 - Trip.com",
-      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121650739/",
-      "site_name": ""
-    },
-    {
-      "index": 3,
-      "title": "KRISTIME下午茶·蛋糕(张江店) - Shanghai - Trip.com",
-      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-121650739/",
-      "site_name": ""
-    },
-    {
-      "index": 4,
-      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
-      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
-      "site_name": ""
-    },
-    {
-      "index": 5,
       "title": "KRISTIME Afternoon Tea Cake (Zhangjiang Branch) - Apple Maps",
       "url": "https://maps.apple.com/place?auid=1118558839504895&lsp=57879",
       "site_name": "Apple (中国)"
     },
     {
+      "index": 2,
+      "title": "KRISTIME下午茶·蛋糕(张江店) - Shanghai - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-121650739/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "飞航广场面包蛋糕",
+      "url": "https://m.dianping.com/shop/96740627",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "天好咖啡Tims - 上海机场(集团)有限公司",
+      "url": "https://www.shairport.com/pudong/List/info_itemid_8146.html",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "文华东方饼店| 上海浦东文华东方酒店 - Mandarin Oriental",
+      "url": "https://www.mandarinoriental.com/zh-cn/shanghai/pudong/dine/the-mandarin-cake-shop",
+      "site_name": ""
+    },
+    {
       "index": 6,
-      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
-      "url": "https://zhuanlan.zhihu.com/p/62719170",
-      "site_name": "知乎"
+      "title": "Baker&Spice(K11店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d4704120-Reviews-Aura_Lounge_Jazz_Bar_The_Ritz_Carlton_Shanghai_Pudong-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 7,
-      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
-      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
-      "site_name": "文汇网"
+      "title": "Fascino - Shanghai Airport (Group) Co Ltd",
+      "url": "https://www.shanghaiairport.com/enpd/List/info_itemid_7728.html",
+      "site_name": ""
     },
     {
       "index": 8,
-      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
-      "site_name": ""
+      "title": "Places to grab a cup of coffee in Pudong airport",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240718/2d6c75b52aad47cba2e60fff2548358e.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 9,
-      "title": "讓我們一起探索上海必去的咖啡店和甜點店吧！ - Trip.com",
-      "url": "https://my.trip.com/moments/detail/shanghai-2-139997531?locale=zh-MY",
-      "site_name": ""
+      "title": "魔都冬日第一波新店,开我心趴上了!",
+      "url": "https://www.163.com/dy/article/JIL8IT8L05228HQE.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 10,
+      "title": "圣诞来临🎄85度C圣诞草莓季来袭⚡️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/740621263",
+      "site_name": "大众点评网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:45Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:23Z",
+  "retriedEn": true
 }

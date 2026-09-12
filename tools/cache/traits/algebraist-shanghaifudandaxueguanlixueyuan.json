@@ -1,17 +1,17 @@
 {
   "cafeId": "algebraist-shanghaifudandaxueguanlixueyuan",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "cfa7330168eb",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ded876c1bac2",
   "raw": {
     "headline": {
-      "zh": "复旦管院旁站饮数学风咖啡",
-      "en": "Standing-bar coffee near Fudan Business School"
+      "zh": "复旦管院旁站喝小馆",
+      "en": "Stand-up bar near Fudan GSB"
     },
     "traits": [
       {
         "kind": "seating",
-        "zh": "临街设4-6个室外藤编椅小圆桌",
-        "en": "4–6 outdoor rattan chairs and small round tables on the street",
+        "zh": "室外有4-6个藤编椅小桌",
+        "en": "4-6 outdoor wicker chairs with small tables",
         "from": [
           2,
           9
@@ -19,79 +19,77 @@
       },
       {
         "kind": "drinks",
-        "zh": "招牌含kiri法酪拿铁、重瓣玫瑰布列夫",
-        "en": "Signature drinks include Kiri Fromage Latte and Double-Petal Rose Brioche",
+        "zh": "招牌为重瓣玫瑰布列夫，年售超65万杯",
+        "en": "Flagship: Double-petaled rose brioche, sold over 650k cups yearly",
         "from": [
           11,
-          18
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "营业时间07:30-18:00，覆盖午休高峰",
-        "en": "Open 07:30–18:00, covering lunch-break rush hours",
-        "from": [
-          15,
-          17
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "前身为2015年苏州诚品书店MatrixCoffee",
-        "en": "Originally MatrixCoffee at Suzhou Eslite Bookstore in 2015",
-        "from": [
           16
         ]
       },
       {
-        "kind": "price",
-        "zh": "价格20~48元，曾推星期二买一赠一",
-        "en": "Priced ¥20–48; offered buy-one-get-one-free on Tuesdays",
+        "kind": "space",
+        "zh": "临街落地窗，室内宽敞有绿植",
+        "en": "Floor-to-ceiling windows, spacious interior with greenery",
         "from": [
-          13
+          10,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至18:00，覆盖午休高峰",
+        "en": "Closes at 18:00, open during lunch rush",
+        "from": [
+          15,
+          14
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全球甄选咖啡豆，数学演算配方",
+        "en": "Sourced globally, brewing formulas calculated mathematically",
+        "from": [
+          12
         ]
       }
     ],
     "axisHints": {
       "focus": {
-        "value": 30,
+        "value": 40,
         "from": [
-          5,
-          8
+          14
         ],
-        "zh": "站饮为主，无办公设施证据",
-        "en": "Standing-bar format, no work setup observed"
+        "zh": "午间客流密集",
+        "en": "Lunchtime crowd"
       },
       "energy": {
-        "value": 65,
+        "value": 60,
         "from": [
-          15
+          14
         ],
-        "zh": "中午时段白领客流密集",
-        "en": "Lunchtime influx of office workers"
+        "zh": "上班族集中时段",
+        "en": "Workday lunch rush"
       },
       "linger": {
-        "value": 20,
+        "value": 30,
         "from": [
           1,
           2,
-          4,
-          9
+          8
         ],
-        "zh": "室外座位少且为站立/短坐设计",
-        "en": "Limited outdoor seating suited for brief stays"
+        "zh": "站喝型小馆，座位少",
+        "en": "Stand-up bar with limited seats"
       },
       "adventure": {
-        "value": 75,
+        "value": 50,
         "from": [
           11,
-          12,
-          18
+          12
         ],
-        "zh": "用数学演算方案，推重瓣玫瑰布列夫等创意饮品",
-        "en": "Math-based brewing; creative drinks like Double-Petal Rose Brioche"
+        "zh": "自研配方与特色饮品",
+        "en": "Custom formulas and signature drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:43:53Z"
+  "fetchedAt": "2026-09-12T16:46:09Z"
 }

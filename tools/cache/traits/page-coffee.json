@@ -1,58 +1,91 @@
 {
- "cafeId": "page-coffee",
- "model": "qwen-max",
- "inputDigest": "b2601b3bd999",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "page-coffee",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "b5087f407c9c",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡+特调沙丘",
+      "en": "Pour-over & unique 'Shamrock' drink"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "使用当季全球咖啡豆，主打手冲咖啡",
+        "en": "Seasonal global beans, pour-over focus",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特调饮品【沙丘】含冷萃、玉米、柚子、味噌和奶油",
+        "en": "Signature 'Shamrock' drink: cold brew with corn, yuzu, miso, cream",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating|time",
+        "zh": "营业时间周二至周日10:30–18:00，周一闭店",
+        "en": "Open Tue–Sun 10:30–18:00, closed Mon",
+        "from": [
+          12,
+          16
+        ]
+      },
+      {
+        "kind": "space|light|view|seating",
+        "zh": "整面临街玻璃，二楼窗台有绿植与杂物",
+        "en": "Full-floor front-facing glass, second floor window ledge with plants and clutter",
+        "from": [
+          7,
+          6
+        ]
+      },
+      {
+        "kind": "people|story",
+        "zh": "夫妻经营，老板亲手讲解风味灵感",
+        "en": "Owner couple, hands-on flavor storytelling",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          14
+        ],
+        "zh": "有插座，适合办公",
+        "en": "Has outlets for work"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          14
+        ],
+        "zh": "安静，不喧闹",
+        "en": "Quiet, not noisy"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          10,
+          14
+        ],
+        "zh": "可久坐，有插座",
+        "en": "Good for lingering with outlets"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9
+        ],
+        "zh": "饮品搭配非常不寻常",
+        "en": "Unusual drink ingredients"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "落地窗设计，临街视野开阔",
-    "en": "Full street view with floor-to-ceiling windows",
-    "from": "[7]"
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品为可续杯滴滤咖啡",
-    "en": "Signature drink is refillable drip coffee",
-    "from": "[9]"
-   },
-   {
-    "kind": "seating",
-    "zh": "安静的桌位适合工作学习",
-    "en": "Quiet tables for work and study",
-    "from": "[8]"
-   },
-   {
-    "kind": "time",
-    "zh": "营业至下午6点，周二到周日",
-    "en": "Open until 6 PM, Tue-Sun",
-    "from": "[10]"
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": "[8]",
-    "zh": "安静环境适合专注工作",
-    "en": "Quiet, good for focus"
-   },
-   "linger": {
-    "value": 70,
-    "from": "[8]",
-    "zh": "安静舒适的氛围适合久坐",
-    "en": "Comfortable for long stays"
-   },
-   "energy": {
-    "value": 20,
-    "from": "[8]",
-    "zh": "整体氛围较为安静",
-    "en": "Generally quiet atmosphere"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:13:56Z"
+  "fetchedAt": "2026-09-12T16:41:33Z"
 }

@@ -1,74 +1,94 @@
 {
   "cafeId": "yichihuayuan-anhehuayuan",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "1f45d2513298",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d2096c69fe03",
   "raw": {
     "headline": {
-      "zh": "融合茶咖与千平花园",
-      "en": "Tea-infused coffee in a garden"
+      "zh": "庭院咖啡园，茶咖融合",
+      "en": "Tea-infused coffee in a garden setting"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "含庭院与临街整面玻璃窗",
-        "en": "Has courtyard and full street-facing glass",
+        "zh": "门店含庭院与绿植造景，地面铺落叶",
+        "en": "Features a courtyard with leaf-covered ground and greenery",
         "from": [
           1,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-floor street-facing glass windows with good natural light",
+        "from": [
+          3,
           5
         ]
       },
       {
-        "kind": "beans",
-        "zh": "咖啡豆融合碧螺春、龙井、普洱等中国茶",
-        "en": "Beans blended with Chinese teas like Longjing",
-        "from": [
-          7
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌饮品含桂花拿铁",
-        "en": "Signature drink includes osmanthus latte",
+        "zh": "招牌饮品为桂花拿铁，融合中国茶文化",
+        "en": "Signature drink is osmanthus latte, blending Chinese tea culture",
         "from": [
-          6
+          6,
+          7
         ]
       },
       {
         "kind": "food",
         "zh": "提供手工焦糖南瓜重芝士蛋糕等西式甜点",
-        "en": "Serves caramel pumpkin cheesecake and Western desserts",
+        "en": "Offers handmade caramel pumpkin cheesecake and Western pastries",
         "from": [
           6
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间10:00–22:00，覆盖全天四餐",
-        "en": "Open 10–22, serving all-day meals",
+        "zh": "营业时间覆盖早咖至晚间微醺，全天运营",
+        "en": "Operates all day from morning coffee to evening drinks",
         "from": [
           10,
-          12
+          11
         ]
       }
     ],
     "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "全天候营业，适合久坐",
+        "en": "All-day operation invites lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "庭院静谧但临街有客流",
+        "en": "Quiet garden with street-side foot traffic"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "未见有人办公，非专注场所",
+        "en": "No visible work activity, not focused"
+      },
       "adventure": {
         "value": 70,
         "from": [
           7
         ],
-        "zh": "用中国茶融合咖啡豆",
-        "en": "Blends coffee with Chinese tea"
-      },
-      "linger": {
-        "value": 80,
-        "from": [
-          9
-        ],
-        "zh": "超千平大店含户外区",
-        "en": "Spacious with outdoor seating"
+        "zh": "使用碧螺春、龙井等茶咖创新",
+        "en": "Experimental tea-based coffees like Longjing and Biluo Chun"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:03Z"
+  "fetchedAt": "2026-09-12T16:42:55Z"
 }

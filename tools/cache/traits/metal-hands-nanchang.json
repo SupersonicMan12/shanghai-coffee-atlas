@@ -1,70 +1,94 @@
 {
- "cafeId": "metal-hands-nanchang",
- "model": "qwen-max",
- "inputDigest": "92b3f6ec5fb5",
- "raw": {
-  "headline": {
-   "zh": "自烘高品质阿拉比卡豆，招牌Dirty咖啡",
-   "en": "In-house roasted Arabica, famous for Dirty coffee"
+  "cafeId": "metal-hands-nanchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "486e379bfd5a",
+  "raw": {
+    "headline": {
+      "zh": "自烘阿拉比卡豆招牌Dirty",
+      "en": "House-roasted Arabica, signature Dirty"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自烘焙高品质阿拉比卡咖啡豆",
+        "en": "Uses house-roasted high-quality Arabica beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为Dirty系列，含肉桂、开心果等特调",
+        "en": "Signature Dirty drinks with flavors like cinnamon and pistachio",
+        "from": [
+          10,
+          3,
+          16
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于南昌路234号的lane-house庭院内",
+        "en": "Located in a lane-house courtyard on Nanchang Road 234",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位，适合歇脚拍照聊天办公",
+        "en": "Features outdoor seating for resting, photo-taking, chatting, or working",
+        "from": [
+          8,
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日08:30至19:30",
+        "en": "Open daily 08:30–19:30",
+        "from": [
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "可办公",
+        "en": "Work-friendly"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "人多但安静",
+        "en": "Crowded but quiet"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          13
+        ],
+        "zh": "适合久坐",
+        "en": "Good for lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          3,
+          4,
+          5
+        ],
+        "zh": "手冲与特调花样多",
+        "en": "Multiple hand-pour and specialty drinks"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "beans",
-    "zh": "使用自己烘焙的高品质阿拉比卡咖啡豆",
-    "en": "Uses in-house roasted high-quality Arabica beans",
-    "from": 1
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌饮品为Dirty咖啡",
-    "en": "Signature drink is the Dirty coffee",
-    "from": 2
-   },
-   {
-    "kind": "space",
-    "zh": "半开放环境，玻璃屋顶与木质结构结合",
-    "en": "Semi-open space with glass roof and wooden structure",
-    "from": 3
-   },
-   {
-    "kind": "people",
-    "zh": "工作日下午去不用排队，店里人多但安静",
-    "en": "Not crowded on weekday afternoons, quiet atmosphere",
-    "from": 4
-   },
-   {
-    "kind": "space",
-    "zh": "店内布置艺术画作与文艺书籍，适合歇脚拍照聊天办公",
-    "en": "Art and books, good for resting, chatting, and working",
-    "from": 5
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": 4,
-    "zh": "适合专注办公",
-    "en": "Good for focused work"
-   },
-   "energy": {
-    "value": 20,
-    "from": 4,
-    "zh": "安静氛围",
-    "en": "Quiet ambiance"
-   },
-   "linger": {
-    "value": 90,
-    "from": 4,
-    "zh": "适合久坐",
-    "en": "Great for long stays"
-   },
-   "adventure": {
-    "value": 80,
-    "from": 1,
-    "zh": "自烘咖啡豆",
-    "en": "In-house roasted beans"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:10:13Z"
+  "fetchedAt": "2026-09-12T16:41:18Z"
 }

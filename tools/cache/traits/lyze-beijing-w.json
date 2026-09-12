@@ -1,46 +1,69 @@
 {
- "cafeId": "lyze-beijing-w",
- "model": "qwen-max",
- "inputDigest": "aa5adca700aa",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "lyze-beijing-w",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "cc87ac3806b6",
+  "raw": {
+    "headline": {
+      "zh": "临街站喝小吧",
+      "en": "Kerbside filter bar"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "门口设木质长凳，可站或坐",
+        "en": "Outdoor wooden bench for standing or sitting",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街玻璃窗，空间紧凑",
+        "en": "Narrow space with full-floor windows",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打手冲滤泡咖啡",
+        "en": "Focus on filter coffee",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 10:00-17:00",
+        "en": "Open 10:00–17:00 daily",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2,
+          11
+        ],
+        "zh": "站喝为主，久坐少",
+        "en": "Primarily for standing drinks"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "临街人流多，略喧闹",
+        "en": "Street-facing, moderately lively"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "店内空间紧凑，有几张小桌和金属椅",
-    "en": "Compact space with small tables and metal chairs",
-    "from": 2
-   },
-   {
-    "kind": "view",
-    "zh": "整面临街玻璃窗，视野开阔",
-    "en": "Full street-facing glass windows, open view",
-    "from": 7
-   },
-   {
-    "kind": "seating",
-    "zh": "店外台阶前设木质长凳",
-    "en": "Wooden bench in front of the store",
-    "from": 6
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 10,
-    "from": 8,
-    "zh": "常有办公人群但空间紧凑",
-    "en": "Office regulars, but compact"
-   },
-   "linger": {
-    "value": 30,
-    "from": 2,
-    "zh": "空间紧凑，适合短暂停留",
-    "en": "Compact, for brief stays"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:18:19Z"
+  "fetchedAt": "2026-09-12T16:42:18Z"
 }

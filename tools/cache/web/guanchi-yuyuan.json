@@ -1,43 +1,59 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "愚园路限定豆乳芋泥蒙布朗冰激凌芭菲，含手工翻糖樱花片",
+      "kind": "drinks",
+      "quote": "愚园路限定豆乳芋泥蒙布朗冰激凌芭菲,以清新的豆乳冰淇淋打底搭配绵密软糯的手打芋泥和手工制作的翻糖樱花片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI5NjE2OTE0NQ==&mid=2650314848&idx=1&sn=563989a2b058aed1c28eeaead82a9a99&chksm=f507d52cb71e68db11f0d239732f47d4b0ba9e2c51b650657b4ac82177b529adb0e00d337018&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于愚园路1088弄48号105，营业时间11:00–19:30",
+      "kind": "time",
+      "quote": "地址:愚园路1088弄48号105营业时间:11:00-19:30",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI5NjE2OTE0NQ==&mid=2650314848&idx=1&sn=563989a2b058aed1c28eeaead82a9a99&chksm=f507d52cb71e68db11f0d239732f47d4b0ba9e2c51b650657b4ac82177b529adb0e00d337018&scene=27",
+      "site": "腾讯网"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
-    },
-    {
-      "index": 2,
-      "title": "中国咖啡看云南 无限可能在怒江 | 从“原料基地”到“品牌高地”:怒江咖啡的觉醒年代",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI0OTE5MjkzOA==&mid=2651531546&idx=3&sn=ffd418ff8a3fa2d425ce400e78661346&chksm=f30f6f574886cebaf6618b2d085b67f7b140caba308b359c5826e243d6d3e9d4844bd8f64f36&scene=27",
+      "title": "讲真,小长假的愚园路超好逛的! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI5NjE2OTE0NQ==&mid=2650314848&idx=1&sn=563989a2b058aed1c28eeaead82a9a99&chksm=f507d52cb71e68db11f0d239732f47d4b0ba9e2c51b650657b4ac82177b529adb0e00d337018&scene=27",
       "site_name": "腾讯网"
     },
     {
-      "index": 3,
-      "title": "周日品区| 上海中心城区不同的＂咖啡气质＂，品一品哪一杯最有味",
-      "url": "https://www.shobserver.com/news/detail?id=41539",
-      "site_name": "上观"
-    },
-    {
-      "index": 4,
-      "title": "上海成为全球咖啡馆最多的城市咖啡文化日趋精品、个性化",
-      "url": "https://sh.cctv.com/2021/04/08/ARTIzZfqbVL5qcRmINpPeGXm210408.shtml",
-      "site_name": "央视网"
-    },
-    {
-      "index": 5,
-      "title": "在上海喝一杯老咖啡，香气中深藏历史与传奇",
-      "url": "https://m.cls.cn/detail/871611",
+      "index": 2,
+      "title": "Top Cafes in Shanghai - Travel China Guide",
+      "url": "https://www.travelchinaguide.com/cityguides/shanghai/dining/cafe.htm",
       "site_name": ""
     },
     {
+      "index": 3,
+      "title": "魔都咖啡馆大汇总",
+      "url": "https://m.sohu.com/n/453587217/",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "黄浦江边的咖啡店",
+      "url": "http://www.why.com.cn/wx/article/2023/05/07/16833521251184984950.html",
+      "site_name": "上海青年电子社区"
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
       "index": 6,
-      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
-      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
       "site_name": "中国政府网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:05Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:02Z",
+  "retriedEn": true
 }

@@ -1,76 +1,92 @@
 {
   "cafeId": "eazy-bean-lantianluyuhongfenglujiaochakouxinan40",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "c4e2bdc3c16f",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6605b34d6c84",
   "raw": {
     "headline": {
-      "zh": "自烘豆+临窗撸猫小馆",
-      "en": "House-roasted beans, cats, and street views"
+      "zh": "自烘手冲咖啡",
+      "en": "house-roasted pour-over"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "使用自家精选并烘焙的咖啡豆",
-        "en": "Uses house-selected and roasted coffee beans",
+        "zh": "使用自家精选与烘焙的咖啡豆",
+        "en": "coffee beans are house-selected and house-roasted",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供肯尼亚与哥伦比亚大肚脐手冲咖啡",
+        "en": "offers Kenya and Colombia Dugutu pour-over",
         "from": [
           9
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "提供肯尼亚、哥伦比亚等手冲咖啡",
-        "en": "Offers Kenyan and Colombian pour-over coffees",
-        "from": [
-          10
-        ]
-      },
-      {
-        "kind": "view",
-        "zh": "整面临街玻璃窗，可看街道景象",
-        "en": "Full-height street-facing windows with street views",
+        "kind": "space",
+        "zh": "临街落地窗，采光良好，可望街道景象",
+        "en": "floor-to-ceiling windows with street views and good light",
         "from": [
           2,
-          7,
-          8
+          6,
+          7
         ]
       },
       {
         "kind": "food",
-        "zh": "售卖粉色奶油贝果配巧克力碎",
-        "en": "Sells pink cream bagels with chocolate chips",
+        "zh": "售卖表面撒有巧克力碎的粉色奶油贝果",
+        "en": "sells pink cream brioche with chocolate chips",
         "from": [
-          4
+          3
         ]
       },
       {
         "kind": "people",
         "zh": "店内有猫咪可互动",
-        "en": "Has a cat available for petting",
+        "en": "has cats available for petting",
         "from": [
-          12
+          11
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 80,
+      "focus": {
+        "value": 30,
         "from": [
-          9,
           10
         ],
-        "zh": "自烘豆与多款手冲",
-        "en": "House-roasted beans and varied pour-overs"
+        "zh": "空间小，不适合久坐办公",
+        "en": "small space, not ideal for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          12,
+          2
+        ],
+        "zh": "位于路口，人流车流可见",
+        "en": "at intersection, visible street activity"
       },
       "linger": {
-        "value": 60,
+        "value": 40,
         "from": [
-          5,
-          11
+          10
         ],
-        "zh": "窗边可坐但空间较小",
-        "en": "Window seating but limited space"
+        "zh": "空间较小，适合短暂停留",
+        "en": "small space, short stays preferred"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          14
+        ],
+        "zh": "手冲品类多样，含特殊发酵处理",
+        "en": "diverse pour-over options, including experimental fermentation"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:37:58Z"
+  "fetchedAt": "2026-09-12T16:44:21Z"
 }

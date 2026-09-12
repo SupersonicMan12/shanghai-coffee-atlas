@@ -3,35 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "POLLY 波麗咖啡(上海靜安寺/南京西路)－餐牌、食評及資訊 - Trip.com",
-      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/polly-148509079/",
+      "title": "P Coffee Shanghai - Cafes, Changning | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/34390/polly_coffee",
       "site_name": ""
     },
     {
       "index": 2,
-      "title": "无主题",
-      "url": "https://www.twneoreach.com/neolith2_3iframe.asp?kind=&kind2=&kind3=&kind4=1261",
+      "title": "polly - Restaurant Reviews, Menu & Contact - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/polly-148509079/",
       "site_name": ""
     },
     {
       "index": 3,
-      "title": "Polly Huo給米珈琲的食評| OpenRice 香港開飯喇",
-      "url": "https://www.openrice.com/zh/hongkong/review/%E6%85%95%E5%90%8D%E8%80%8C%E4%BE%86%E7%9A%84%E7%B2%BE%E5%93%81-e6063259",
-      "site_name": ""
+      "title": "Ten riverside cafés in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240521/330f5762c816485b8f6d6121c838c7dc.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "玻利维亚咖啡豆品种特点历史介绍 瓦利基庄园海拔风味描述",
-      "url": "https://www.gafei.com/kafeibiji-133648",
-      "site_name": "咖啡网"
+      "title": "米其林体验餐厅",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10680699-Reviews-Aura_Lounge_Jazz_Bar_The_Ritz_Carlton_Shanghai_Pudong-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 5,
-      "title": "P COFFEE by夏朵- 上海影城/新华路咖啡团购 - 大众点评",
-      "url": "http://m.dianping.com/shop/737085831?msource=applemaps",
-      "site_name": ""
+      "title": "Recommended bookstore cafes in Shanghai (II)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240125/27879d468a864da59a8b7284be31928a.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:14Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:01Z",
+  "retriedEn": true
 }

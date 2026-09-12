@@ -3,17 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "值友故事:好咖啡要分享,我的日常豆单笔记(八) ",
-      "url": "https://weibo.com/ttarticle/p/show?id=2309405286544629432477",
-      "site_name": "无"
+      "title": "轻食咖啡店推崇健康生活方式| 感知上海P1",
+      "url": "https://touch.shio.gov.cn/jsp/jrsh_detail.jsp?id=4967",
+      "site_name": "中国政府网"
     },
     {
       "index": 2,
-      "title": "嗨,来杯印尼咖啡! ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAwMTcwMjgyNA==&mid=2650529673&idx=2&sn=45d36c713339863c5d00a3d0939042af&chksm=8390b20e00bcf2e3cbb179b62511e547419ce4b77e66f9513a9f60e28bd79ff1aff5f4647cab&scene=27",
-      "site_name": "腾讯网"
+      "title": "轻食咖啡店推崇健康生活方式 | Touch Shanghai",
+      "url": "https://touch.shio.gov.cn/jsp/jrsh_detail_en.jsp?id=4967",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 3,
+      "title": "29 Anfu Lu in Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/listings/xuhui/anfulu/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "2022最新安福路逛街攻略/安福路扫街探店攻略",
+      "url": "https://zhuanlan.zhihu.com/p/458543204",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "Funk & Kale (Anfu Lu) Shanghai - Salads, Sandwiches, Sherpa's ...",
+      "url": "https://www.smartshanghai.com/venue/17212/funk__kale_anfu_lu",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Caffeine-fueled fun to brew at CAFEEX 2024 Shanghai Coffee Expo",
+      "url": "https://www.meet-in-shanghai.net/en/news/caffeinefueled-fun-to-brew-at-cafeex-2024-shanghai-coffee-expo-137896/",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:38:56Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:22Z",
+  "retriedEn": true
 }

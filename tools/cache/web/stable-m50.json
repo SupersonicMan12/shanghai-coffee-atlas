@@ -3,47 +3,54 @@
   "results": [
     {
       "index": 1,
-      "title": "日常杂记 | 一个咖啡爱好者的\"扫盲\"手册(上)",
-      "url": "https://zhuanlan.zhihu.com/p/2025601918647444756",
-      "site_name": "知乎"
+      "title": "Stable Coffee Shanghai - Cafes, Specialty Coffee, Putuo",
+      "url": "https://www.smartshanghai.com/venue/15000/stable_coffee_moganshan_lu",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "​黑咖啡哪个牌子好喝?2026无糖黑咖啡实测,上班族、学生党、居家饮用专属",
-      "url": "https://m-xhncloud.voc.com.cn/news/detail/17854485.html",
-      "site_name": "无"
+      "title": "nodcafe (M50 Creative Space) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F96B08D6E0F1&address=Moganshan+Road+No.50+%28M50+Creative+Park%29+Building+No.22+Building+3%2C+Putuo%2C+Shanghai+China&coordinate=31.247890%2C121.449998&name=nodcafe+%28M50+Creative+Space%29&_provider=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 3,
-      "title": "这些咖啡,你不一定喝过",
-      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
-      "site_name": "网易"
+      "title": "A Coffee Break at Smile and Nod Café in Shanghai's M50 Art District",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-134210351/",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "买咖啡有哪些容易被忽略但非常重要的细节?",
-      "url": "https://www.zhihu.com/question/589425516/answer/3097924697",
-      "site_name": "知乎"
+      "title": "15 boutique cafés in Putuo district (II)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 5,
-      "title": "咖啡小白和入门者:咖啡豆如何选择?",
-      "url": "https://zhuanlan.zhihu.com/p/672610728",
-      "site_name": "知乎"
+      "title": "M50 Art District ",
+      "url": "https://www.smartshanghai.com/venue/5460/Moganshan_Lu",
+      "site_name": "无"
     },
     {
       "index": 6,
-      "title": "持续更新中，不同咖啡的性价比和品尝体验（咖啡豆、速溶冻干",
-      "url": "https://zhuanlan.zhihu.com/p/523450580",
-      "site_name": "知乎"
+      "title": "咖世家咖啡(上海)有限公司宝杨路店",
+      "url": "https://www.zhipin.com/companys/c38f6b7f8b89d8630HJy3di-EQ~~.html",
+      "site_name": "Boss直聘"
     },
     {
       "index": 7,
-      "title": "咖啡豆浅烘培排行榜- 京东",
-      "url": "https://www.jd.com/phb/key_1320efa8f35c0cd08ee3.html",
-      "site_name": "京东"
+      "title": "法萃咖啡(上海)有限公司",
+      "url": "https://www.jobui.com/company/17285772/",
+      "site_name": "职友集"
+    },
+    {
+      "index": 8,
+      "title": "Ten riverside cafés in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240521/330f5762c816485b8f6d6121c838c7dc.html",
+      "site_name": "“上海”门户网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:41Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:47Z",
+  "retriedEn": true
 }

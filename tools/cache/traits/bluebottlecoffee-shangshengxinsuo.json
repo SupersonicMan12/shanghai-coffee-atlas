@@ -1,70 +1,92 @@
 {
- "cafeId": "bluebottlecoffee-shangshengxinsuo",
- "model": "qwen-max",
- "inputDigest": "ce4d1cd3062e",
- "raw": {
-  "headline": {
-   "zh": "独占整栋洋楼，复古与现代交融",
-   "en": "Entire vintage building, blend of old and new"
+  "cafeId": "bluebottlecoffee-shangshengxinsuo",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "7e1d52c4ddc7",
+  "raw": {
+    "headline": {
+      "zh": "48小时新鲜烘焙",
+      "en": "Freshly roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只售卖烘焙后不超过48小时的咖啡",
+        "en": "Sells coffee roasted within 48 hours",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括海耶斯谷(浓缩)、贝拉多曼等拼配咖啡",
+        "en": "Signature drinks include Hayes Valley, Bella Dolce, and other blends",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，采光充足",
+        "en": "Floor-to-ceiling windows with ample natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "可使用电脑办公",
+        "en": "Suitable for working with laptop",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上8点（周末）",
+        "en": "Closes at 8 PM on weekends",
+        "from": [
+          4,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "可办公",
+        "en": "Work-friendly"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          14
+        ],
+        "zh": "中等人流",
+        "en": "Moderate foot traffic"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          7,
+          4,
+          14
+        ],
+        "zh": "适合久坐",
+        "en": "Good for lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "经典拼配为主",
+        "en": "Classic blends mainly"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "挑高三角形屋顶结构，白色条状吊顶嵌入筒灯",
-    "en": "High triangular roof with white strip ceiling lights",
-    "from": 1
-   },
-   {
-    "kind": "drinks",
-    "zh": "提供海耶斯谷(浓缩)、贝拉多曼等经典拼配咖啡",
-    "en": "Offers Hayes Valley (espresso), Bella Donovan, etc.",
-    "from": 9
-   },
-   {
-    "kind": "food",
-    "zh": "裕通小食——精选上海老字号传统点心",
-    "en": "Yutong snacks - traditional Shanghai treats",
-    "from": 12
-   },
-   {
-    "kind": "time",
-    "zh": "周一至周五 09:00-18:00，周六至周日 09:00-20:00",
-    "en": "Mon-Fri 09:00-18:00, Sat-Sun 09:00-20:00",
-    "from": 16
-   },
-   {
-    "kind": "people",
-    "zh": "适合办公，有人在用电脑",
-    "en": "Suitable for work, people seen using laptops",
-    "from": 7
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 80,
-    "from": 7,
-    "zh": "有人在用电脑",
-    "en": "People working on laptops"
-   },
-   "energy": {
-    "value": 30,
-    "from": 7,
-    "zh": "适合办公，相对安静",
-    "en": "Quiet, suitable for work"
-   },
-   "linger": {
-    "value": 70,
-    "from": 7,
-    "zh": "适合久坐办公",
-    "en": "Good for long stays"
-   },
-   "adventure": {
-    "value": 50,
-    "from": 9,
-    "zh": "既有经典拼配也有手冲",
-    "en": "Classic blends and pour-over options"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:23:01Z"
+  "fetchedAt": "2026-09-12T16:48:22Z"
 }

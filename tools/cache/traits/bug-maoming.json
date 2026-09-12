@@ -1,64 +1,42 @@
 {
- "cafeId": "bug-maoming",
- "model": "qwen-max",
- "inputDigest": "9dcf7cfdec62",
- "raw": {
-  "headline": {
-   "zh": "小批量实验咖啡，偶尔翻车但美味",
-   "en": "Small-batch experiments, sometimes crash but delicious"
+  "cafeId": "bug-maoming",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "64950e203f1e",
+  "raw": {
+    "headline": {
+      "zh": "每周实验豆，喝到就是彩蛋",
+      "en": "Experimental beans every week — try it to win"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为本周实验豆批次，不定期更换",
+        "en": "Featured drink: this week's experimental batch",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "饮品为实验性批次",
+        "en": "Experimental drink batches"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "小批量实验，适合慢品",
+        "en": "Small-batch experiments, meant to savor"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "整面玻璃推拉门，视野开阔",
-    "en": "Full glass sliding doors, open view",
-    "from": "[3,10]"
-   },
-   {
-    "kind": "seating",
-    "zh": "室外有2把黑色折叠椅",
-    "en": "2 black folding chairs outside",
-    "from": "[2,9]"
-   },
-   {
-    "kind": "beans",
-    "zh": "吧台上有多个带盖玻璃咖啡豆罐",
-    "en": "Multiple glass jars of coffee beans at the bar",
-    "from": "[5]"
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间周一至周日08:00-18:00",
-    "en": "Open Mon-Sun 08:00-18:00",
-    "from": "[13]"
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 50,
-    "from": "[7]",
-    "zh": "有顾客在室内高脚凳上坐",
-    "en": "Customer sitting on high stool"
-   },
-   "energy": {
-    "value": 30,
-    "from": "[2,7]",
-    "zh": "店外人行道安静，店内有人操作",
-    "en": "Quiet outside, some activity inside"
-   },
-   "linger": {
-    "value": 60,
-    "from": "[2,7,9]",
-    "zh": "提供室内外座位，适合久坐",
-    "en": "Indoor and outdoor seating, good for lingering"
-   },
-   "adventure": {
-    "value": 80,
-    "from": "[11,12]",
-    "zh": "主打实验性小批量咖啡",
-    "en": "Focus on experimental small batches"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:20:52Z"
+  "fetchedAt": "2026-09-12T16:42:27Z"
 }

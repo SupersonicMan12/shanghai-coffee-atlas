@@ -1,36 +1,74 @@
 {
   "cafeId": "m-stand-senlanhuayuancheng",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "d62b4a0dea99",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c82298bf4e4d",
   "raw": {
-    "headline": null,
+    "headline": {
+      "zh": "临街落地窗采光好",
+      "en": "Large windows with great natural light"
+    },
     "traits": [
       {
         "kind": "light",
-        "zh": "落地窗采光良好",
-        "en": "Floor-to-ceiling windows provide good natural light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Features large floor-to-ceiling windows for good natural light",
         "from": [
           6
         ]
       },
       {
-        "kind": "seating",
-        "zh": "室内设有桌椅座位",
-        "en": "Indoor tables and chairs available",
+        "kind": "space",
+        "zh": "店面为临街玻璃门，可见树木",
+        "en": "Front-facing glass doors with view of trees outside",
         "from": [
-          4
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "入口为双开玻璃门，有木质把手",
+        "en": "Double glass doors with wooden handles at entrance",
+        "from": [
+          2
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:30–21:45营业",
-        "en": "Open daily 07:30–21:45",
+        "zh": "营业时间至晚上9:45",
+        "en": "Closes at 9:45 PM daily",
         "from": [
-          12
+          10
         ]
       }
     ],
-    "axisHints": {}
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          10
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "位于商场首层临街，人流较旺",
+        "en": "Located on main mall level, busy area"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有座位且室内有人活动",
+        "en": "Has seating and visible activity inside"
+      }
+    }
   },
-  "fetchedAt": "2026-09-12T15:38:29Z"
+  "fetchedAt": "2026-09-12T16:48:40Z"
 }

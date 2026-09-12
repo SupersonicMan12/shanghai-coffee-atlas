@@ -1,82 +1,84 @@
 {
   "cafeId": "arabica-osm",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "1d584211026c",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "344618fc8acf",
   "raw": {
     "headline": {
-      "zh": "100%阿拉比卡豆现烘手冲",
-      "en": "100% Arabica, freshly roasted & pour-over"
+      "zh": "100%阿拉比卡手冲咖啡",
+      "en": "100% Arabica pour-over"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "使用100%阿拉比卡咖啡豆，店内现烘",
-        "en": "100% Arabica beans, roasted in-house",
+        "zh": "使用100%阿拉比卡咖啡豆，含拼配豆",
+        "en": "100% Arabica beans, including blends",
         "from": [
-          6,
-          7
+          2,
+          6
         ]
       },
       {
         "kind": "drinks",
-        "zh": "提供手冲咖啡，菜单标注豆子产地与烘焙度",
-        "en": "Pour-over available; origin & roast on menu",
+        "zh": "招牌为手冲咖啡，菜单标注产地与烘焙度",
+        "en": "Signature pour-over; origin and roast listed",
         "from": [
-          1,
-          2,
           3,
-          13
+          9
         ]
       },
       {
         "kind": "seating",
-        "zh": "设圆形沙发座与小圆桌，可堂食",
-        "en": "Circular sofas and small tables for seating",
+        "zh": "设圆形沙发与小圆桌，可休闲久坐",
+        "en": "Round sofas and small tables for relaxed seating",
         "from": [
-          4
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "通透明亮的站喝+少量堂食空间",
+        "en": "Bright, open stand-up bar with limited indoor seating",
+        "from": [
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "每日07:30–20:30营业",
+        "zh": "营业时间周一至周日 07:30-20:30",
         "en": "Open daily 07:30–20:30",
         "from": [
-          12
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "2018年进入上海，首店位于武康路",
-        "en": "Entered Shanghai in 2018 via Wukang Road",
-        "from": [
-          11
+          8
         ]
       }
     ],
     "axisHints": {
       "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "有沙发座椅可久坐",
+        "en": "Has seating for lingering"
+      },
+      "energy": {
         "value": 40,
         "from": [
-          4,
-          9
+          7
         ],
-        "zh": "有少量座位但主打站喝",
-        "en": "Limited seating, standing-bar focus"
+        "zh": "通透明亮但以站喝为主",
+        "en": "Bright but primarily stand-up"
       },
       "adventure": {
         "value": 70,
         "from": [
-          1,
-          2,
           3,
-          6,
-          7,
-          13
+          9
         ],
-        "zh": "自烘豆+手冲+产地信息",
-        "en": "In-house roasting & pour-over options"
+        "zh": "手冲咖啡与详细豆信息",
+        "en": "Pour-over with detailed bean info"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:36:53Z"
+  "fetchedAt": "2026-09-12T16:44:04Z"
 }

@@ -1,44 +1,52 @@
 {
   "cafeId": "ditto-cafe-bar-huaihai-middle-rd-514",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "ff3dd4f00763",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5b16d653df90",
   "raw": {
     "headline": {
-      "zh": "临街小馆营业至凌晨",
-      "en": "Street-side cafe open till 3am"
+      "zh": "临街落地窗小馆",
+      "en": "Street-facing glass cafe"
     },
     "traits": [
       {
-        "kind": "view",
-        "zh": "窗边座位可看街道景象",
-        "en": "Window seats overlook the street",
+        "kind": "space",
+        "zh": "空间较小，有吧台和桌椅",
+        "en": "Small space with counter and tables",
         "from": [
-          5,
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可看街道景象",
+        "en": "Full street-facing glass windows",
+        "from": [
+          6,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨3点，适合夜归",
+        "en": "Open until 3:00 AM, late-night option",
+        "from": [
           7
         ]
       },
       {
         "kind": "drinks",
-        "zh": "提供含奶层冰咖啡",
-        "en": "Serves iced coffee with milk layer",
+        "zh": "可能使用手冲或虹吸设备",
+        "en": "Possibility of pour-over or syphon brewing",
         "from": [
-          1
+          5
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日10:00-03:00营业",
-        "en": "Open daily 10am to 3am",
+        "kind": "food",
+        "zh": "高德推荐单人餐",
+        "en": "Recommended single-person meal on Gaode",
         "from": [
           8
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "空间较小，设吧台和桌椅",
-        "en": "Compact space with bar and tables",
-        "from": [
-          3
         ]
       }
     ],
@@ -46,21 +54,21 @@
       "linger": {
         "value": 40,
         "from": [
-          3
+          2
         ],
-        "zh": "空间较小限制久坐",
-        "en": "Compact space limits lingering"
+        "zh": "空间小，适合短暂停留",
+        "en": "Small space, brief stay"
       },
       "energy": {
         "value": 60,
         "from": [
-          2,
-          7
+          1,
+          6
         ],
-        "zh": "临街落地窗较有街景互动",
-        "en": "Street-facing windows add buzz"
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible foot traffic"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:34:30Z"
+  "fetchedAt": "2026-09-12T16:43:26Z"
 }

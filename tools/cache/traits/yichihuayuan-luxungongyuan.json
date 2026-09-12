@@ -1,34 +1,34 @@
 {
   "cafeId": "yichihuayuan-luxungongyuan",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "1243cd485cc1",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ba84f140230f",
   "raw": {
     "headline": {
-      "zh": "临水千平茶咖融合空间",
-      "en": "Waterfront tea-coffee fusion space"
+      "zh": "临水露台+茶咖融合",
+      "en": "Waterfront terrace with tea-infused coffee"
     },
     "traits": [
       {
+        "kind": "space",
+        "zh": "临水单层建筑，一侧为大面积玻璃幕墙与开放式吧台入口",
+        "en": "Single-story building facing water with large glass facade and open bar entrance",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
         "kind": "view",
-        "zh": "临水平静水面，对岸有树与步道",
-        "en": "Faces calm water with trees opposite",
+        "zh": "对岸有树木、步道与户外桌椅区，水面平静",
+        "en": "Opposite bank features trees, pathways, and outdoor seating by calm water",
         "from": [
           2
         ]
       },
       {
-        "kind": "space",
-        "zh": "门店面积约千平方米，含户外座位区",
-        "en": "Around 1000 sqm with outdoor seating",
-        "from": [
-          11,
-          6
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌饮品含桂花拿铁及茶咖融合款",
-        "en": "Signature drinks include osmanthus latte and tea-coffee blends",
+        "zh": "招牌饮品为桂花拿铁，融合中国茶文化",
+        "en": "Signature drink is osmanthus latte, blending Chinese tea culture",
         "from": [
           8,
           9
@@ -37,42 +37,57 @@
       {
         "kind": "food",
         "zh": "提供手工焦糖南瓜重芝士蛋糕等西式甜点",
-        "en": "Serves handmade caramel pumpkin cheesecake and Western desserts",
+        "en": "Offers handmade caramel pumpkin cheesecake and Western pastries",
         "from": [
           8
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间10:00–20:00，覆盖全天多时段",
-        "en": "Open 10:00–20:00 daily, all-day service",
+        "zh": "营业时间覆盖早咖至晚间微醺，全天候运营",
+        "en": "Operates all day from morning coffee to evening drinks",
         "from": [
           12,
-          14
+          13
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 80,
+      "focus": {
+        "value": 30,
         "from": [
-          11,
-          6,
-          2
+          13
         ],
-        "zh": "大空间+户外座+临水景",
-        "en": "Spacious with outdoor seating"
+        "zh": "营业时间长但非专注空间",
+        "en": "Long hours but not focused space"
       },
-      "adventure": {
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "多人排队，环境较热闹",
+        "en": "Crowded with many people"
+      },
+      "linger": {
         "value": 70,
         "from": [
-          9,
-          3
+          2,
+          13
         ],
-        "zh": "茶咖融合+手冲设备可见",
-        "en": "Tea-coffee blends and pour-over"
+        "zh": "有户外座位适合久坐",
+        "en": "Outdoor seating encourages lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9
+        ],
+        "zh": "使用碧螺春、龙井等茶咖实验",
+        "en": "Experimental tea-infused coffee"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:40Z"
+  "fetchedAt": "2026-09-12T16:43:07Z"
 }

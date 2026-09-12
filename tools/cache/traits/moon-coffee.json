@@ -1,52 +1,93 @@
 {
- "cafeId": "moon-coffee",
- "model": "qwen-max",
- "inputDigest": "e6668de0a2bb",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "moon-coffee",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "00ee061a32c6",
+  "raw": {
+    "headline": {
+      "zh": "藏在小巷的宇航员咖啡",
+      "en": "Astronaut-themed coffee in a hidden alley"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于茂名北路75弄小巷深处，需穿过树影长廊进入",
+        "en": "Hidden in a narrow alley under plane trees, hard to find",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为“小月球”，冰球与玻璃碰撞有叮当声",
+        "en": "Signature drink 'Little Moon' features clinking ice balls",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供主理人精选的手冲咖啡（Roaster choice pour-over）",
+        "en": "Roaster choice pour-over available",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供橙子夹心蛋糕卷搭配饮品",
+        "en": "Orange-filled cake roll served with drinks",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-17:30，周末9:00-18:00营业",
+        "en": "Open 8:00–17:30 (Mon–Fri), 9:00–18:00 (Sat–Sun)",
+        "from": [
+          8,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          8,
+          12
+        ],
+        "zh": "营业时间适中，适合办公",
+        "en": "Moderate hours for work"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          10
+        ],
+        "zh": "小巷深处，安静不喧闹",
+        "en": "Quiet and secluded"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          10,
+          8,
+          12
+        ],
+        "zh": "隐秘空间适合久坐",
+        "en": "Cozy nook for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7,
+          11
+        ],
+        "zh": "特色饮品与手冲咖啡体现创意",
+        "en": "Creative drinks and pour-over focus"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "drinks",
-    "zh": "特色饮品小月球，冰球碰撞玻璃叮当响",
-    "en": "Special drink with ice ball clinking in glass",
-    "from": 2
-   },
-   {
-    "kind": "time",
-    "zh": "工作日8:00-17:30，周末9:00-18:00营业",
-    "en": "Open 8:00-17:30 weekdays, 9:00-18:00 weekends",
-    "from": 3
-   },
-   {
-    "kind": "story",
-    "zh": "主理人定期举办摄影、音乐等主题分享活动",
-    "en": "Regular themed events by the owner",
-    "from": 4
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 50,
-    "from": 5,
-    "zh": "安静且隐蔽，适合轻度办公",
-    "en": "Quiet and hidden, light work"
-   },
-   "energy": {
-    "value": 20,
-    "from": 5,
-    "zh": "藏于巷弄之中，环境静谧",
-    "en": "Hidden, quiet atmosphere"
-   },
-   "linger": {
-    "value": 60,
-    "from": 5,
-    "zh": "氛围宁静，适合久坐",
-    "en": "Calm, good for long stay"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:13:44Z"
+  "fetchedAt": "2026-09-12T16:41:33Z"
 }

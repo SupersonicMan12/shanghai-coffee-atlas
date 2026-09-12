@@ -12,9 +12,12 @@ No page is scraped by us: the search plugin returns titles/snippets; we
 never fetch Dianping/XHS pages or any review text.
 
 Resumable: tools/cache/web/<cafe-id>.json and tools/cache/web/brand-<key>.json.
+`--retry-empty` re-runs editorial cafés whose first pass found nothing, this
+time with an English query (SmartShanghai / Time Out / That's cover many of
+the curated independents that Chinese search buries under bean articles).
 
 Usage:
-    DASHSCOPE_API_KEY=... python3 tools/enrich_web.py [--limit N] [--model qwen-plus] [--brands-only]
+    DASHSCOPE_API_KEY=... python3 tools/enrich_web.py [--limit N] [--model qwen-plus] [--brands-only] [--retry-empty]
 """
 
 from __future__ import annotations
@@ -38,6 +41,17 @@ PROMPT = """请联网搜索上海咖啡馆「{query}」，只根据检索到的�
 BRAND_PROMPT = """请联网搜索咖啡连锁品牌「{query}」，只根据检索到的公开网页标题和摘要，列出这个品牌**区别于其他连锁**、对选店有用的具体特点：招牌饮品、豆子/烘焙、价格带与优惠（如自带杯减价）、门店形态（站喝小店/大店）、营业时间习惯、品牌来历。
 每条给出 ref（搜索结果编号）和 quote（≤40 字）。不写泛泛评价，不编造。
 输出 JSON：{{"facts":[{{"text":"中文事实 ≤40字","kind":"space|light|view|seating|sound|beans|drinks|food|people|time|story","ref":1,"quote":"..."}}]}}"""
+
+
+PROMPT_EN = """Search the web for the Shanghai café "{query}" (address: {address}). Using only the titles and snippets of the
+search results, list concrete, distinctive facts that would help someone decide whether to go: beans (origin / own roasting /
+roast level), signature drinks or food, space and view (orientation, light, window view, river view, rooftop, courtyard,
+heritage building), seats and sockets, laptop-friendliness, pets, late hours, the owner's story, price level.
+Every fact must be traceable to one result: give ref (the result's integer index) and quote (≤40 characters of its
+title or snippet). Skip vague praise ("great vibe", "good coffee") and anything the results do not support; make sure the
+result is about this Shanghai café and not a namesake elsewhere. Return an empty array if nothing qualifies.
+Output JSON, with text in Simplified Chinese:
+{{"facts":[{{"text":"中文事实 ≤40字","kind":"space|light|view|seating|sound|beans|drinks|food|people|time|story","ref":1,"quote":"..."}}]}}"""
 
 
 def clean_facts(obj: dict, results: list[dict]) -> list[dict]:
@@ -69,15 +83,18 @@ def clean_facts(obj: dict, results: list[dict]) -> list[dict]:
     return out[:8]
 
 
-def run(path: Path, prompt: str, model: str) -> int:
+def run(path: Path, prompt: str, model: str, retried: bool = False) -> int:
     try:
         text, results = dashscope_search(model, prompt)
     except Exception as exc:  # noqa: BLE001 — resumable
         print(f'{path.stem}: {exc}', file=sys.stderr)
         return -1
     facts = clean_facts(parse_json_object(text), results)
-    write_json(path, {'facts': facts, 'results': [{k: r.get(k) for k in ('index', 'title', 'url', 'site_name')}
-                                                  for r in results], 'model': model, 'fetchedAt': now_iso()})
+    rec = {'facts': facts, 'results': [{k: r.get(k) for k in ('index', 'title', 'url', 'site_name')} for r in results],
+           'model': model, 'fetchedAt': now_iso()}
+    if retried:
+        rec['retriedEn'] = True
+    write_json(path, rec)
     print(f'{path.stem}: {len(facts)} facts', flush=True)
     return len(facts)
 
@@ -88,8 +105,26 @@ def main() -> None:
     ap.add_argument('--model', default='qwen-plus')
     ap.add_argument('--brands-only', action='store_true')
     ap.add_argument('--workers', type=int, default=4)
+    ap.add_argument('--retry-empty', action='store_true',
+                    help='editorial cafés with a cached empty result: search again with an English query')
     args = ap.parse_args()
     jobs: list[tuple[Path, str]] = []
+    if args.retry_empty:
+        for cafe in cafes():
+            path = WEB / f"{cafe['id']}.json"
+            cached = read_json(path)
+            if cafe['source'] != 'editorial' or chain_of(cafe['name'], cafe['nameZh']) or cached is None:
+                continue
+            if cached.get('facts') or cached.get('retriedEn'):
+                continue
+            query = ' '.join(x for x in (cafe['name'], cafe['street'], 'Shanghai') if x)
+            jobs.append((path, PROMPT_EN.format(query=query, address=cafe['streetZh'] or cafe['street'])))
+        if args.limit:
+            jobs = jobs[:args.limit]
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
+            results = list(pool.map(lambda j: run(j[0], j[1], args.model, retried=True), jobs))
+        print(f"retry done={sum(1 for r in results if r >= 0)} found={sum(1 for r in results if r > 0)}")
+        return
     for _, key, query in CHAINS:
         path = WEB / f'brand-{key}.json'
         if read_json(path) is None:

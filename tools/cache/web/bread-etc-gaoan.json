@@ -9,23 +9,18 @@
     },
     {
       "index": 2,
-      "title": "BREAD etc(襄阳南路店)",
-      "url": "https://www.dianping.com/review/941487644",
-      "site_name": "大众点评网"
-    },
-    {
-      "index": 3,
-      "title": "Bread & Bistro (Xiangyang Nan Lu) Shanghai - Bakeries, Cafes, Xuhui",
-      "url": "https://www.smartshanghai.com/venue/13687/bread_etc",
+      "title": "Bread Etc (Nanjing Xi Lu) - Bakeries, Cafes, Jing'an - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/14296/bread_etc_nanjing_xi_lu",
       "site_name": ""
     },
     {
-      "index": 4,
-      "title": "静安寺商圈适合谈生意的下午茶! - 大众点评吃喝玩乐精选",
-      "url": "https://www.dianping.com/discovery/1211212014",
-      "site_name": "大众点评网"
+      "index": 3,
+      "title": "Historical Photographs of China",
+      "url": "https://www.hpcbristol.sjtu.edu.cn/tag/bread",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:29Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:05Z",
+  "retriedEn": true
 }

@@ -1,54 +1,64 @@
 {
   "cafeId": "seesaw-shanghaihongqiaoguojijichang1haohangzhanl",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "68fe0a122e32",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f9e9eb80d35c",
   "raw": {
-    "headline": null,
+    "headline": {
+      "zh": "自烘实验室+云南收豆站",
+      "en": "In-house roastery and Yunnan sourcing"
+    },
     "traits": [
       {
         "kind": "beans",
-        "zh": "自建烘焙实验室，设云南收豆站",
-        "en": "Own roastery lab and Yunnan bean stations",
+        "zh": "自建烘焙实验室，直接采购云南咖啡豆",
+        "en": "Own roastery and direct sourcing from Yunnan coffee farms",
         "from": [
-          4
+          2
         ]
       },
       {
         "kind": "drinks",
-        "zh": "提供手冲单品咖啡",
-        "en": "Offers pour-over single-origin coffee",
+        "zh": "曾与李佳琦、Maison Margiela联名推出快闪饮品",
+        "en": "Previously hosted pop-up drinks with Li Jiaqi and Maison Margiela",
         "from": [
-          1
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "曾将精品咖啡豆概念引入国内",
-        "en": "Pioneered specialty beans in China",
-        "from": [
-          1
-        ]
-      },
-      {
-        "kind": "price",
-        "zh": "咖啡均价30-40元",
-        "en": "Coffee averages ¥30–40",
-        "from": [
-          2
+          4
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 75,
+      "focus": {
+        "value": 40,
         "from": [
-          1,
           4
         ],
-        "zh": "推手冲与自烘豆",
-        "en": "Pour-over and own-roasted beans"
+        "zh": "联名快闪带来临时体验感",
+        "en": "Pop-up events add temporary vibe"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "联名快闪吸引人流，氛围活跃",
+        "en": "Pop-ups draw crowds, lively energy"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "大空间适合停留，但非长期办公",
+        "en": "Spacious layout allows lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "自烘豆子与实验性联名饮品",
+        "en": "Custom roasting and experimental drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:32:24Z"
+  "fetchedAt": "2026-09-12T16:42:41Z"
 }

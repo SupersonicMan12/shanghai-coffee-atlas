@@ -1,64 +1,56 @@
 {
   "cafeId": "85-c-bakery-cafe-osm",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "3eeae66127c6",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "cd55cf61d0c3",
   "raw": {
     "headline": {
-      "zh": "海盐咖啡配奶酪",
-      "en": "Salted coffee with cheese foam"
+      "zh": "招牌海盐咖啡配奶酪",
+      "en": "Signature sea salt coffee with cheese"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌海盐咖啡上层配绵密奶酪",
-        "en": "Signature salted coffee topped with creamy cheese",
+        "zh": "招牌饮品为海盐咖啡，上层有绵密奶酪",
+        "en": "Signature drink is sea salt coffee with creamy cheese on top",
         "from": [
           1
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "品牌名源自85°C冲煮咖啡最香醇",
-        "en": "Named after 85°C, ideal coffee brewing temperature",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "部分门店24小时营业，覆盖三餐时段",
-        "en": "Some locations open 24 hours for all-day service",
-        "from": [
-          3
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "开放式空间设计，适合情侣约会与家庭聚会",
-        "en": "Open layout suits couples and family gatherings",
-        "from": [
-          4
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "大杯咖啡第二杯限时30元",
-        "en": "Second large coffee for ¥30 during promotion",
-        "from": [
-          5
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "饮品独特但非办公场景",
+        "en": "Unique drink, not office-focused"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "连锁店常见人流量",
+        "en": "Typical chain store foot traffic"
+      },
       "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "饮品需现场搭配，适合短暂停留",
+        "en": "Requires on-site assembly, short stay"
+      },
+      "adventure": {
         "value": 70,
         "from": [
-          4
+          1
         ],
-        "zh": "开放式空间适合久坐聚会",
-        "en": "Spacious layout encourages lingering"
+        "zh": "咸甜口感组合不常见",
+        "en": "Uncommon sweet-salty flavor combo"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:41:59Z"
+  "fetchedAt": "2026-09-12T16:48:54Z"
 }

@@ -1,74 +1,75 @@
 {
   "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "0151c625fa94",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "3e228642c46b",
   "raw": {
     "headline": {
-      "zh": "含百香果籽的橙黄特调",
-      "en": "Passion fruit-seed drink on menu"
+      "zh": "临街二层明亮空间",
+      "en": "Bright second-floor street-facing spot"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "饮品含百香果籽，呈橙黄色",
-        "en": "Drink contains passion fruit seeds, orange-yellow",
+        "kind": "space",
+        "zh": "位于临街二楼，有整面玻璃窗",
+        "en": "Second-floor with full street-facing glass windows",
         "from": [
-          1
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "高德推荐菜为大包",
-        "en": "Recommended dish: large bao (steamed bun)",
-        "from": [
-          9
+          3,
+          6,
+          4
         ]
       },
       {
         "kind": "seating",
-        "zh": "红色靠垫座椅，座位数量有限",
-        "en": "Red-cushioned seats, limited in number",
+        "zh": "内部设红色靠垫座椅，数量有限",
+        "en": "Limited red cushioned seating inside",
         "from": [
-          6
+          5
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日营业至24:00",
-        "en": "Open daily until midnight",
+        "kind": "drinks",
+        "zh": "高德推荐菜为大包",
+        "en": "Highly recommended: big bun",
         "from": [
           8
         ]
       },
       {
-        "kind": "view",
-        "zh": "整面临街玻璃窗，采光明亮",
-        "en": "Full-height street-facing windows, bright interior",
+        "kind": "time",
+        "zh": "营业时间至凌晨24:00",
+        "en": "Open until 12:00 AM",
         "from": [
-          4,
-          5,
           7
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "营业至深夜，适合夜归",
+        "en": "Open late, good for night visits"
+      },
       "linger": {
         "value": 40,
         "from": [
+          5
+        ],
+        "zh": "座位有限，不适宜久坐",
+        "en": "Limited seats, not ideal for long stays"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
           6
         ],
-        "zh": "座位有限不利久坐",
-        "en": "Limited seating"
-      },
-      "adventure": {
-        "value": 70,
-        "from": [
-          1
-        ],
-        "zh": "含果籽特调较特别",
-        "en": "Unusual seeded drink"
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible to passersby"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:34Z"
+  "fetchedAt": "2026-09-12T16:45:14Z"
 }

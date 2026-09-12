@@ -3,41 +3,36 @@
   "results": [
     {
       "index": 1,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
+      "title": "SHOPPING ",
+      "url": "https://www.meet-in-shanghai.net/travel-city/shopping/shopping-detail.php?id=594",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 2,
-      "title": "手冲咖啡正宗咖啡店怎么选?3个维度带你找到灵魂咖啡馆+FAQ",
-      "url": "https://www.sina.cn/gc/article/nirehkk4179535.html",
-      "site_name": "新浪网"
+      "title": "[2026 Shanghai Restaurant] O.P.S. CAFE Travel Guide ... - Trip.com",
+      "url": "https://www.trip.com/moments/poi-o-p-s-cafe-36960781/",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "淮海中路，上海的“咖啡集散大道” - 澎湃新闻",
-      "url": "https://www.thepaper.cn/newsDetail_forward_26648097",
-      "site_name": "澎湃新闻"
+      "title": "Ruixing Coffee (Jiashan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F967E2C9C197&address=Jiashan+Road+No.451+Phoenix+Tree+Garden+Block+B+Commerce-subjacent%2C+Xuhui%2C+Shanghai+China&coordinate=31.205443%2C121.460550&name=Ruixing+Coffee+%28Jiashan+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 4,
-      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
-      "url": "https://new.qq.com/rain/a/20260305A063Y600",
-      "site_name": "腾讯网"
+      "title": "Hotel",
+      "url": "https://www.meet-in-shanghai.net/en/star-hotel/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 5,
-      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
-      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
-      "site_name": "新浪网"
-    },
-    {
-      "index": 6,
-      "title": "在上海喝一杯老咖啡，香气中深藏历史与传奇 - 财联社",
-      "url": "https://www.cls.cn/detail/871611",
-      "site_name": ""
+      "title": "Four Points by Sheraton Shanghai Pudong",
+      "url": "https://www.meet-in-shanghai.net/en/star-hotel/four-points-by-sheraton-shanghai-pudong-916030/",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:39:19Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:29Z",
+  "retriedEn": true
 }

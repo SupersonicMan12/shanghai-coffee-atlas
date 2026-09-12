@@ -1,5 +1,13 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "地址：邢家桥南路145号（四川北路地铁站1号口步行430米）",
+      "kind": "space",
+      "quote": "Xingjiaqiao South Road No.145 (Sichuan North Road Subway Station Entrance & Exit",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F99153779083&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
   "results": [
     {
       "index": 1,
@@ -9,41 +17,42 @@
     },
     {
       "index": 2,
+      "title": "上海揽轶餐饮企业管理有限公司",
+      "url": "https://www.zhipin.com/companys/a1eb1f2c5a7f49ce1XN62Nq1EQ~~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 3,
+      "title": "Apoli Itabakery — A Magical Little Bakery in Shanghai - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-137984828/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "15 boutique cafés in Putuo district (III)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/fa7462705eb64689956fcf9fe4f21e4e.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
       "title": "营业时间_四川北路/海伦路甜品团购 - 大众点评",
       "url": "http://m.dianping.com/shop/876213046?msource=applemaps",
       "site_name": ""
     },
     {
-      "index": 3,
-      "title": "GoodMoney studio | K.Y Pâtisserie 法式甜品&茶",
-      "url": "https://www.zcool.com.cn/work/ZNjkwOTM0MjQ=.html",
-      "site_name": "站酷网"
-    },
-    {
-      "index": 4,
-      "title": "32强集结就位,谁能突围拿下最终的「商业之星」称号?",
-      "url": "https://zhuanlan.zhihu.com/p/2025616936701113917",
-      "site_name": "知乎"
-    },
-    {
-      "index": 5,
-      "title": "持续更新中，不同咖啡的性价比和品尝体验（咖啡豆、速溶冻干",
-      "url": "https://zhuanlan.zhihu.com/p/523450580",
-      "site_name": "知乎"
-    },
-    {
       "index": 6,
-      "title": "卢旺达布桑泽:从历史中走来的醇厚风味 ",
-      "url": "https://post.smzdm.com/p/akog45m4/",
-      "site_name": "什么值得买"
+      "title": "35 Pastry Listings in Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/listings/pastry/",
+      "site_name": ""
     },
     {
       "index": 7,
-      "title": "皮爷咖啡“大航海家”重磅登场,一键解锁太妃巧克力的甘甜! ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzA5ODYzNzIzMA==&mid=2649286920&idx=1&sn=f8db74ee641a650ef38574375ddc63c2&chksm=8892cdc9bfe544dffeb132c332391c0d3a230561b8f6d6efba4d484b4079a3c7de627895893d&scene=27",
-      "site_name": "腾讯网"
+      "title": "品味上海咖啡香,“上海的城市精神就藏在这杯咖啡中”",
+      "url": "https://m.jfdaily.com/wx/detail.do?id=924721",
+      "site_name": "解放网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:07Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:03Z",
+  "retriedEn": true
 }

@@ -3,35 +3,54 @@
   "results": [
     {
       "index": 1,
-      "title": "宾歌咖啡_百度百科",
-      "url": "https://baike.baidu.com/item/%E5%AE%BE%E6%AD%8C%E5%92%96%E5%95%A1/936968",
-      "site_name": "百度"
+      "title": "桔子酒店(上海外滩中山南路店)",
+      "url": "https://m.map.so.com/m/album/detail/pid=5f966b2f8df58729",
+      "site_name": "360搜索"
     },
     {
       "index": 2,
-      "title": "BINGO! - 生田/餐酒吧| Tabelog - 食べログ",
-      "url": "https://tabelog.com/tw/kanagawa/A1405/A140506/14038552/",
-      "site_name": ""
+      "title": "C's PUB",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d3450193-Reviews-C_s_PUB-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 3,
-      "title": "BINGO酒吧_百度百科",
-      "url": "https://baike.baidu.com/item/BINGO%E9%85%92%E5%90%A7/14200936",
-      "site_name": "百度"
+      "title": "Longji Hong Kong Restaurant (Bingo Bingo Plaza Branch)",
+      "url": "https://maps.apple.com/place?auid=1117162012116722&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 4,
-      "title": "精选咖啡豆",
-      "url": "https://www.smzdm.com/ju/shaiwu/s8y675l/",
-      "site_name": "什么值得买"
+      "title": "CHILI'S CAFE AND BAR (BINGO STORE), Shanghai - Tripadvisor",
+      "url": "https://en.tripadvisor.com.hk/Restaurant_Review-g308272-d33302460-Reviews-Chili_s_Cafe_And_Bar_bingo_Store-Shanghai.html",
+      "site_name": ""
     },
     {
       "index": 5,
-      "title": "BINGO PUB 濱格露天酒吧(萬景樓) - 深圳",
-      "url": "https://www.openrice.com.cn/zh/shenzhen/r-bingo-pub-%E6%BF%B1%E6%A0%BC%E9%9C%B2%E5%A4%A9%E9%85%92%E5%90%A7-%E6%B2%99%E4%BA%95-%E8%A5%BF%E5%BC%8F-r5974207",
+      "title": "上海斑斓家最帅的003公寓(33号店)",
+      "url": "https://hotels.corporatetravel.ctrip.com/hotels/53023368.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "Restaurant blue frog Shanghai Bingo Plaza in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/en/shanghai/blue_frog_shanghai_bingo_plaza",
       "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "捞王(BFC外滩金融中心店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d16676066-Reviews-Lao_Wang_BFC-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 8,
+      "title": "上海bingbingchloe公寓(定西路分店)",
+      "url": "https://hotels.corporatetravel.ctrip.com/hotels/49702196.html",
+      "site_name": "携程旅行网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:30Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:13Z",
+  "retriedEn": true
 }

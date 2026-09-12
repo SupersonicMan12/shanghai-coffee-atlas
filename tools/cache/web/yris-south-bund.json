@@ -3,11 +3,36 @@
   "results": [
     {
       "index": 1,
-      "title": "咖啡豆種類怎麼分？3大品種、5大產地與風味差異完整介紹 - illy Taiwan",
-      "url": "https://www.illy.com.tw/blogs/coffee-knowledge/coffee-bean-types",
-      "site_name": ""
+      "title": "You Shan Coffee (Zhongshan North Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118671406280908&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "上海有哪些不错的咖啡馆?",
+      "url": "https://www.zhihu.com/question/19784247/answer/3470279590",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡,大陆第一",
+      "url": "https://zhuanlan.zhihu.com/p/458228227",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "香浓又安逸~普陀15家小众优选咖啡馆,长风这里有3家→ ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247983854&idx=1&sn=011fdfb6b74d63b06a0a34efb8e9c86f&chksm=ea14a7955fb1c9c5a665853f9495ff022fbd018dc507209f35cb5e372520b6b67f65b9365a68&scene=27",
+      "site_name": "腾讯网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:44:04Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:28Z",
+  "retriedEn": true
 }

@@ -1,58 +1,74 @@
 {
- "cafeId": "gloria-jeans-huaihai",
- "model": "qwen-max",
- "inputDigest": "c5f052c99adc",
- "raw": {
-  "headline": {
-   "zh": "澳洲烘焙咖啡豆，每杯多放60颗",
-   "en": "Australian-roasted beans, 60 more per cup"
+  "cafeId": "gloria-jeans-huaihai",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "cbf3bae1eff2",
+  "raw": {
+    "headline": {
+      "zh": "澳洲烘焙阿拉比卡豆",
+      "en": "Australian-roasted Arabica beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用澳洲工厂烘焙的阿拉比卡咖啡豆",
+        "en": "Uses Australian-roasted Arabica beans",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌Flat White需双份浓缩与牛奶融于底部",
+        "en": "Signature Flat White uses double espresso and milk blended at bottom",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有露天与沙发座位，可久坐",
+        "en": "Features outdoor and sofa seating for lingering",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间每日7:30至22:00",
+        "en": "Open daily 7:30 to 22:00",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "有沙发和免费WiFi",
+        "en": "Sofas and free WiFi"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "淮海路商圈，不喧闹",
+        "en": "Huaihai Road location, not loud"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "沙发舒适，适合久坐",
+        "en": "Comfortable sofas for lingering"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "beans",
-    "zh": "采用澳洲工厂烘焙的阿拉比卡咖啡豆",
-    "en": "Uses Australian-roasted Arabica beans",
-    "from": 9
-   },
-   {
-    "kind": "drinks",
-    "zh": "招牌Flat White需双份浓缩+轻薄奶泡",
-    "en": "Signature Flat White with double shot",
-    "from": 10
-   },
-   {
-    "kind": "seating",
-    "zh": "设有露天座位和沙发座位",
-    "en": "Outdoor and sofa seating available",
-    "from": 11
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间为每日7:30至22:00",
-    "en": "Open daily from 7:30 AM to 10 PM",
-    "from": 12
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 50,
-    "from": 11,
-    "zh": "提供免费WiFi，适合办公",
-    "en": "Free WiFi, good for work"
-   },
-   "linger": {
-    "value": 60,
-    "from": 11,
-    "zh": "座位宽敞舒适，适合久坐",
-    "en": "Comfortable, spacious seats"
-   },
-   "adventure": {
-    "value": 40,
-    "from": 9,
-    "zh": "经典意式咖啡，略有创新",
-    "en": "Classic espresso, slightly innovative"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:22:15Z"
+  "fetchedAt": "2026-09-12T16:42:34Z"
 }

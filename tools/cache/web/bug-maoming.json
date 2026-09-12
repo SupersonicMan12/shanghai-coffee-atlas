@@ -3,47 +3,48 @@
   "results": [
     {
       "index": 1,
-      "title": "看海躺平喝咖啡,这座海滨城市也太舒服了!",
-      "url": "https://zhuanlan.zhihu.com/p/2081073374114100775",
-      "site_name": "知乎"
+      "title": "上海美食节 | 咖啡还能玩出什么新花式?“中式”咖啡了解一下",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 2,
-      "title": "探店特辑丨翠湖角落的宝藏店,把特调咖啡做成香水 ",
-      "url": "https://chihe.sohu.com/a/1075183389_121124630",
-      "site_name": "搜狐网"
+      "title": "上海,茂名南路街区,漫步文艺街巷感受老上海优雅风情",
+      "url": "https://www.toutiao.com/article/7651506514968068671/",
+      "site_name": "今日头条"
     },
     {
       "index": 3,
-      "title": "咖啡能种出稻香吗?Grid Coffee 2026 中国云南产地季,走进「云南,共生之地」 ",
-      "url": "https://m.sohu.com/a/1073854350_121948396",
-      "site_name": "搜狐网"
+      "title": "上海美食節 | 咖啡還能玩出什麼新花式?“中式”咖啡瞭解一下",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-798077/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 4,
-      "title": "Peaberry Coffee",
-      "url": "https://baike.baidu.com/item/Peaberry%20Coffee/10090432",
-      "site_name": "百度百科"
+      "title": "上海喝咖啡攻略 隐藏在瑞金街区里的咖啡馆",
+      "url": "https://www.163.com/dy/article/GLUR31SK053469KO.html",
+      "site_name": "网易"
     },
     {
       "index": 5,
-      "title": "乌干达咖啡",
-      "url": "https://baike.baidu.com/item/乌干达咖啡/68044589",
-      "site_name": "百度百科"
+      "title": "BLACKSHEEP ESPRESSO（茂名南路店） (上海淮海路/新天地地區)",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/blacksheep-espresso-31188465/",
+      "site_name": ""
     },
     {
       "index": 6,
-      "title": "乌干达咖啡,为何让人如此着迷?",
-      "url": "https://zhuanlan.zhihu.com/p/715775311",
-      "site_name": "知乎"
+      "title": "玫瑰咖啡厅（茂名南路店）_百度百科",
+      "url": "https://baike.baidu.com/item/%E7%8E%AB%E7%91%B0%E5%92%96%E5%95%A1%E5%8E%85%EF%BC%88%E8%8C%82%E5%90%8D%E5%8D%97%E8%B7%AF%E5%BA%97%EF%BC%89/14219648",
+      "site_name": "百度"
     },
     {
       "index": 7,
-      "title": "咖啡猎人-专业咖啡冲煮记录- App Store - Apple",
-      "url": "https://apps.apple.com/us/app/%E5%92%96%E5%95%A1%E7%8C%8E%E4%BA%BA-%E4%B8%93%E4%B8%9A%E5%92%96%E5%95%A1%E5%86%B2%E7%85%AE%E8%AE%B0%E5%BD%95/id1434271537",
-      "site_name": "Apple (中国)"
+      "title": "花园饭店玫瑰咖啡厅(茂名南路店) - 上海市黄浦区- 餐饮服务 - 高德地图",
+      "url": "https://www.amap.com/place/B00155IS5C",
+      "site_name": "高德地图"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:28Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:04Z",
+  "retriedEn": true
 }

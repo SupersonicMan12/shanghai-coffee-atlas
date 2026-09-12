@@ -1,58 +1,91 @@
 {
- "cafeId": "guanchi-yuyuan",
- "model": "qwen-max",
- "inputDigest": "9ad9a5dcd67d",
- "raw": {
-  "headline": {
-   "zh": "庭院小池塘，锦鲤比座位多",
-   "en": "Pond with more koi than seats"
+  "cafeId": "guanchi-yuyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2ab9527ded37",
+  "raw": {
+    "headline": {
+      "zh": "愚园路限定冰激凌芭菲",
+      "en": "Yuyuan Road-exclusive ice cream parfait"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供愚园路限定豆乳芋泥蒙布朗冰激凌芭菲",
+        "en": "Serves Yuyuan Road-exclusive red bean milk taro mousse ice cream parfait",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内设有一处小型庭院，有锦鲤",
+        "en": "Features a small courtyard with koi fish",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含牧场牛乳、梦幻海盐等特色饮品",
+        "en": "Offers specialty drinks like dairy ranch and dream sea salt",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间11:00–19:30（高德显示10:00–19:00）",
+        "en": "Opens 11:00–19:30 (10:00–19:00 per Gaode)",
+        "from": [
+          8,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用黑色锥形料斗磨豆机与La Marzocco咖啡机",
+        "en": "Equipped with black conical hopper grinder and La Marzocco machine",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "营业时间较早结束",
+        "en": "Closes early"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "闹市中的小庭院，略带喧闹",
+        "en": "Lively in urban setting"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "庭院可停留，适合久坐",
+        "en": "Courtyard invites lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          7
+        ],
+        "zh": "限定款冰激凌芭菲具创意",
+        "en": "Creative limited-edition parfait"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "庭院内有小池塘和锦鲤",
-    "en": "Courtyard with a small pond and koi",
-    "from": 7
-   },
-   {
-    "kind": "drinks",
-    "zh": "提供美式、拿铁、冷萃等咖啡",
-    "en": "Serves Americano, latte, cold brew, etc.",
-    "from": 2
-   },
-   {
-    "kind": "drinks",
-    "zh": "菜单含牧场牛乳、梦幻海盐等饮品",
-    "en": "Menu includes milk, sea salt, and more",
-    "from": 3
-   },
-   {
-    "kind": "time",
-    "zh": "营业时间周一至周日10:00-19:00",
-    "en": "Open Mon-Sun 10:00-19:00",
-    "from": 9
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 20,
-    "from": 6,
-    "zh": "无办公环境描述",
-    "en": "No work setup seen"
-   },
-   "energy": {
-    "value": 30,
-    "from": 5,
-    "zh": "有绿植和监控设备",
-    "en": "Plants and surveillance present"
-   },
-   "linger": {
-    "value": 40,
-    "from": 7,
-    "zh": "庭院小且座位少",
-    "en": "Small courtyard, few seats"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:20:10Z"
+  "fetchedAt": "2026-09-12T16:42:23Z"
 }

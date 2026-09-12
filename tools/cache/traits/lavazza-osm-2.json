@@ -1,17 +1,17 @@
 {
   "cafeId": "lavazza-osm-2",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "43bf5442436d",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d178e778f280",
   "raw": {
     "headline": {
-      "zh": "亚洲首家CASA LAVAZZA",
-      "en": "Asia's first CASA LAVAZZA"
+      "zh": "亚洲首家意式咖啡文化之家",
+      "en": "Asia's first Casa Lavazza"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "商场内，大面积玻璃幕墙临街",
-        "en": "Inside mall with full-height street-facing glass",
+        "zh": "临街落地玻璃，视野开阔可看城市倒影",
+        "en": "Floor-to-ceiling windows with cityscape reflections",
         "from": [
           1,
           5,
@@ -20,37 +20,37 @@
       },
       {
         "kind": "seating",
-        "zh": "设室外座位与靠窗舒适座位",
-        "en": "Outdoor seats and comfortable window seating",
+        "zh": "设有舒适靠窗座位，支持久坐休憩",
+        "en": "Comfortable window seats for lingering",
         "from": [
-          2,
-          7,
-          13
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "配备全球仅60台的37号老鹰咖啡机",
-        "en": "Houses Eagle coffee machine #37 (1 of 60 globally)",
-        "from": [
+          3,
           12
         ]
       },
       {
         "kind": "drinks",
-        "zh": "供应上海限定拼配豆及橙力香草籽雪克美式",
-        "en": "Offers Shanghai-exclusive blend and orange-vanilla shaken espresso",
+        "zh": "推出上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Shanghai-exclusive blend and orange vanilla shake americano",
         "from": [
+          9,
           10,
           11
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日营业至22:00",
-        "en": "Open daily until 22:00",
+        "kind": "beans",
+        "zh": "陈列生豆至深度烘焙的全阶段咖啡豆",
+        "en": "Display of green to dark roast beans",
         "from": [
-          16
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-22:00",
+        "en": "Open daily 07:30–22:00",
+        "from": [
+          14
         ]
       }
     ],
@@ -58,23 +58,29 @@
       "linger": {
         "value": 80,
         "from": [
-          13
+          12
         ],
-        "zh": "增设靠窗座鼓励久坐",
-        "en": "Seating encourages lingering"
+        "zh": "有舒适座位可久坐",
+        "en": "Designed for lingering"
       },
-      "adventure": {
-        "value": 70,
+      "energy": {
+        "value": 60,
         "from": [
-          10,
-          11,
-          12,
-          14
+          2,
+          7
         ],
-        "zh": "限定豆、手冲台、特殊饮品",
-        "en": "Limited beans, pour-over bar, unique drinks"
+        "zh": "有室外座位，环境略喧闹",
+        "en": "Outdoor seating adds buzz"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "空间开放适合社交",
+        "en": "Spacious, social-friendly"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:36:37Z"
+  "fetchedAt": "2026-09-12T16:43:58Z"
 }

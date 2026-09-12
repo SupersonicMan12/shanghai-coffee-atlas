@@ -1,80 +1,86 @@
 {
   "cafeId": "abby-abbie-huangjinchengdao",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "96141b91abd5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "bfb3e2119d63",
   "raw": {
     "headline": {
-      "zh": "可办公的社区咖啡馆",
-      "en": "A neighborhood cafe for working"
+      "zh": "招牌澳白配提拉米苏",
+      "en": "Signature oat milk latte with tiramisu"
     },
     "traits": [
       {
-        "kind": "seating",
-        "zh": "设有室外座位与木质桌椅",
-        "en": "Outdoor seating with wooden tables and chairs",
-        "from": [
-          7,
-          9
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌饮品为污云拿铁",
-        "en": "Signature drink is Dirty Cloud Latte",
+        "zh": "招牌饮品为澳白",
+        "en": "Signature drink is oat milk latte",
         "from": [
-          11
+          10
         ]
       },
       {
         "kind": "food",
-        "zh": "提供手工提拉米苏和多种蛋糕甜点",
-        "en": "Serves handmade tiramisu and various cakes",
+        "zh": "提供手工提拉米苏",
+        "en": "Serves handmade tiramisu",
         "from": [
-          3,
-          6,
-          12,
-          17
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "每日营业时间为08:00-18:30",
-        "en": "Open daily 08:00–18:30",
-        "from": [
-          14,
+          11,
           16
         ]
       },
       {
-        "kind": "people",
-        "zh": "有顾客使用电脑办公",
-        "en": "Customers work on laptops here",
+        "kind": "seating",
+        "zh": "设有室外木质桌椅和遮阳伞座位",
+        "en": "Has outdoor wooden tables with umbrellas",
         "from": [
-          2,
-          10
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间从早上8点到晚上18:30",
+        "en": "Open 08:00–18:30 daily",
+        "from": [
+          13,
+          15
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客在使用电脑工作",
+        "en": "Customers seen working on laptops",
+        "from": [
+          9,
+          2
         ]
       }
     ],
     "axisHints": {
       "focus": {
-        "value": 70,
-        "from": [
-          2,
-          10
-        ],
-        "zh": "可见顾客用电脑办公",
-        "en": "People work on laptops"
-      },
-      "linger": {
         "value": 60,
         "from": [
-          7,
-          9
+          9,
+          2
         ],
-        "zh": "设室外座位适合久坐",
-        "en": "Outdoor seating invites lingering"
+        "zh": "可办公",
+        "en": "Good for working"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "适合久坐",
+        "en": "Great for lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "秋日静谧氛围",
+        "en": "Calm autumn vibe"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:32:33Z"
+  "fetchedAt": "2026-09-12T16:42:46Z"
 }

@@ -3,35 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "FOOM COFFEE不仅仅是一杯咖啡,是时髦的生活方式[嘿哈] - 大众点评吃喝玩乐精选",
-      "url": "https://www.dianping.com/discovery/694646107",
-      "site_name": "大众点评网"
+      "title": "Where to enjoy spring cherry blossoms in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/en/news/where-to-enjoy-spring-cherry-blossoms-in-shanghai-268949/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 2,
-      "title": "咖啡+烘焙开启FOOM的一天 商务区这家网红店请你来打卡(文末有福利) ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI0MDA4OTU5Nw==&mid=2651759092&idx=2&sn=be9152eb3b21ce4839f3f532ef7e191f&chksm=f2da2166c5ada87067c50389a8e7814513935dc3846ddaee8b458647314bdda0db4135714e1d&scene=27",
-      "site_name": "腾讯网"
+      "title": "[2026 Shanghai Shopping mall] Tian An 1000Trees Travel Guide ...",
+      "url": "https://www.trip.com/moments/poi-tian-an-1000trees-84433135/",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "地图已备好,OATLY联名咖啡馆秋cool特饮打卡走起~",
-      "url": "https://3g.163.com/dy/article/GKIUUP0E0538AQ3O.html",
-      "site_name": "网易"
+      "title": "Putuo to host new year market along riverside walkway",
+      "url": "https://english.shpt.gov.cn/news/news/3649.shtml",
+      "site_name": "无"
     },
     {
       "index": 4,
-      "title": "每天认识一个品牌 | FOOM 咖啡",
-      "url": "https://post.m.smzdm.com/zz/p/a0zp8odw/",
-      "site_name": "什么值得买"
-    },
-    {
-      "index": 5,
-      "title": "FOOM金奖豆精品挂耳咖啡阿拉比卡云南手冲现磨美式挂耳式 ",
-      "url": "https://post.smzdm.com/p/aqz0w7wv",
-      "site_name": "什么值得买"
+      "title": "Moganshan Road recognized as city signature district",
+      "url": "https://english.shpt.gov.cn/news/news/3439.shtml",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:07Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:33Z",
+  "retriedEn": true
 }

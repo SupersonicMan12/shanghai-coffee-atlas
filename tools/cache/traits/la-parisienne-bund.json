@@ -1,40 +1,70 @@
 {
- "cafeId": "la-parisienne-bund",
- "model": "qwen-max",
- "inputDigest": "684c74b98904",
- "raw": {
-  "headline": {
-   "zh": "千层酥伴江景，享受法式烘焙",
-   "en": "Millefeuille with river view, French bakery"
+  "cafeId": "la-parisienne-bund",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0ae82b807b83",
+  "raw": {
+    "headline": {
+      "zh": "河景法式千层酥",
+      "en": "Riverfront millefeuille"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "面向黄浦江，可看船运景观",
+        "en": "Faces the river, with barge traffic views",
+        "from": [
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌千层酥，口感酥脆",
+        "en": "Signature millefeuille with crisp texture",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于BFC外滩金融中心南区1楼",
+        "en": "Located on 1st floor, South District, BFC",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "位置在商场内，非专注空间",
+        "en": "In mall, not focused space"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "滨江位置带来人流与动静",
+        "en": "Riverside location brings foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "商场内面包店，适合短暂停留",
+        "en": "Mall bakery, brief stay typical"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "view",
-    "zh": "面对江面，观赏往来船只",
-    "en": "Facing the river, watch barge traffic",
-    "from": "[1, 2]"
-   }
-  ],
-  "axisHints": {
-   "focus": {
-    "value": 30,
-    "from": "[1]",
-    "zh": "适合轻松聊天",
-    "en": "Casual chat"
-   },
-   "energy": {
-    "value": 40,
-    "from": "[1]",
-    "zh": "有江面船只带来活力",
-    "en": "River traffic adds energy"
-   },
-   "linger": {
-    "value": 60,
-    "from": "[1, 2]",
-    "zh": "适合停留品尝甜点",
-    "en": "Good for dessert tasting"
-   }
-  }
- },
- "fetchedAt": "2026-09-12T14:21:59Z"
+  "fetchedAt": "2026-09-12T16:42:32Z"
 }

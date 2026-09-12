@@ -1,75 +1,85 @@
 {
   "cafeId": "73coffee-jiankangzhigu",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "6a5a5f835207",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "467da7b81aaa",
   "raw": {
     "headline": {
-      "zh": "创意特调+自烘豆",
-      "en": "Creative drinks with house-roasted beans"
+      "zh": "自烘豆+创意特调",
+      "en": "House-roasted beans & creative drinks"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "主打创意特调，如“海水也甜”“椰青茴”",
-        "en": "Signature creative drinks like 'Sweet Sea Water'",
+        "kind": "beans",
+        "zh": "使用自烘咖啡豆，意式机为Victoria Arduino",
+        "en": "House-roasted beans, Victoria Arduino espresso machine",
         "from": [
-          10
+          2,
+          8
         ]
       },
       {
-        "kind": "beans",
-        "zh": "使用自烘豆，按季节上新特饮",
-        "en": "Uses house-roasted beans, seasonal specials",
+        "kind": "drinks",
+        "zh": "招牌饮品包括海水也甜、椰青茴等创意特调",
+        "en": "Signature drinks like 'Seawater is Sweet' and 'Coconut Fennel'",
         "from": [
           9
         ]
       },
       {
-        "kind": "space",
-        "zh": "室内空间窄小，属小型咖啡馆",
-        "en": "Narrow interior, small cafe size",
-        "from": [
-          6
-        ]
-      },
-      {
         "kind": "seating",
-        "zh": "店外设桌椅，提供室外座位",
-        "en": "Outdoor seating available outside",
+        "zh": "店外设室外桌椅，店内空间较窄",
+        "en": "Outdoor seating, compact interior space",
         "from": [
-          4,
-          8
+          3,
+          5,
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "每日营业至18:00",
-        "en": "Open daily until 18:00",
+        "zh": "营业时间为周一至周日 09:00-18:00",
+        "en": "Open daily 09:00–18:00",
         "from": [
-          14
+          13
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 85,
+      "focus": {
+        "value": 30,
         "from": [
-          9,
-          10
+          11
         ],
-        "zh": "自烘豆+创意特调",
-        "en": "House-roasted beans and unique drinks"
+        "zh": "可边玩边喝，专注度一般",
+        "en": "Playful vibe, not focused"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "临街位置，略显喧闹",
+        "en": "On busy street, moderate noise"
       },
       "linger": {
         "value": 40,
         "from": [
-          6,
-          11
+          5,
+          10
         ],
-        "zh": "空间小但干净",
-        "en": "Small but tidy space"
+        "zh": "空间小，适合短暂停留",
+        "en": "Small space, not for long stays"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "自烘豆+当季特饮，创意强",
+        "en": "Creative seasonal drinks, house-roasted"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:36:06Z"
+  "fetchedAt": "2026-09-12T16:43:49Z"
 }

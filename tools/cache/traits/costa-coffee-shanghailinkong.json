@@ -1,69 +1,66 @@
 {
   "cafeId": "costa-coffee-shanghailinkong",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "9fbe96d89cea",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "70660728848b",
   "raw": {
     "headline": {
-      "zh": "生椰系列与经典拿铁并存",
-      "en": "Panda coconut drinks alongside classic lattes"
+      "zh": "生椰系饮品受欢迎",
+      "en": "Popular coconut-based drinks"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "提供熊猫生椰拿铁、椰皇美式等特色饮品",
-        "en": "Serves Panda coconut lattes and Coconut Americano",
+        "zh": "提供生椰乌龙轻乳茶、椰皇三重奏等特色饮品",
+        "en": "Offers specialty drinks like coconut milk tea and coconut trio",
         "from": [
           1,
-          2,
-          11
+          2
         ]
       },
       {
         "kind": "drinks",
-        "zh": "拿铁为品牌保留节目，细腻柔滑香醇",
-        "en": "Latte is a signature—smooth, mellow, aromatic",
+        "zh": "有带奶油顶的热饮和冰咖啡类饮品",
+        "en": "Serves hot drinks with whipped cream and iced coffee",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏与巧克力酥卷倍受欢迎",
+        "en": "Tiramisu and chocolate croissant are bestsellers",
         "from": [
           5
         ]
       },
       {
-        "kind": "food",
-        "zh": "供应提拉米苏和巧克力酥卷",
-        "en": "Offers tiramisu and chocolate rolls",
-        "from": [
-          6
-        ]
-      },
-      {
         "kind": "time",
-        "zh": "营业时间为每日07:30-18:00",
-        "en": "Open daily 7:30–18:00",
+        "zh": "营业时间周一至周日 07:30-18:00",
+        "en": "Open daily 07:30–18:00",
         "from": [
-          10
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "有带奶油顶的热饮和冰咖啡类",
-        "en": "Serves cream-topped hot drinks and iced coffee",
-        "from": [
-          3,
-          4
+          7
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
+      "energy": {
         "value": 60,
         "from": [
-          1,
-          2,
-          11
+          7
         ],
-        "zh": "含多款创意椰系特调",
-        "en": "Features creative coconut-based specials"
+        "zh": "日间营业，人流中等",
+        "en": "Midday foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "营业至下午六点，适合短暂停留",
+        "en": "Closes early, brief stay"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:32:19Z"
+  "fetchedAt": "2026-09-12T16:48:16Z"
 }

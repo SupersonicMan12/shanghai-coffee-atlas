@@ -1,43 +1,35 @@
 {
   "cafeId": "lokal-by-wagas-osm",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "be418bde014d",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c200b67072c4",
   "raw": {
     "headline": {
-      "zh": "招牌果汁名超有梗",
-      "en": "Juice names are delightfully witty"
+      "zh": "饮品名超有梗",
+      "en": "Drinks with wild names"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌果汁命名趣味十足，如“朋克生活”“救救我”“医生说”",
-        "en": "Signature juices have witty names like 'Punk Life', 'Save Me', and 'The Doctor Says'",
+        "zh": "招牌饮品名如'朋克生活''救救我'，趣味十足",
+        "en": "Signature drinks named like 'Punk Life' and 'Save Me'",
         "from": [
           1
         ]
       },
       {
         "kind": "food",
-        "zh": "菜单详列每道菜原料及热量时段搭配",
-        "en": "Menu lists all ingredients and pairs high/low-calorie items with time-of-day suggestions",
+        "zh": "主打健康轻食，菜单列明原料与热量搭配",
+        "en": "Healthy light meals with ingredient and calorie info",
         "from": [
           2
         ]
       },
       {
         "kind": "time",
-        "zh": "宏伊国际广场店营业时间为08:00–20:30",
-        "en": "Hongyi International Plaza store is open daily from 8:00 to 20:30",
+        "zh": "宏伊国际广场店营业至20:30，支持自助点餐",
+        "en": "Open until 8:30 PM with self-service ordering",
         "from": [
           4
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "由丹麦人John Fohlmann Christensen于1999年在上海创立",
-        "en": "Founded in Shanghai in 1999 by Dane John Fohlmann Christensen",
-        "from": [
-          5
         ]
       }
     ],
@@ -47,18 +39,26 @@
         "from": [
           4
         ],
-        "zh": "支持自助点餐但未提办公设施",
-        "en": "Self-ordering supported, no work setup mentioned"
+        "zh": "支持自助点餐，可办公",
+        "en": "Self-ordering for work"
       },
       "linger": {
         "value": 60,
         "from": [
           4
         ],
-        "zh": "营业至20:30且有座位",
-        "en": "Open until 20:30 with seating"
+        "zh": "营业至晚八点半，适合久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "饮品命名极具创意",
+        "en": "Highly creative drink names"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:42:42Z"
+  "fetchedAt": "2026-09-12T16:45:54Z"
 }

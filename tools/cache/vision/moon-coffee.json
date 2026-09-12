@@ -1,0 +1,71 @@
+{
+  "cafeId": "moon-coffee",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "0a8bd5a34efc",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJCF81P/comment/160A751A_7278_432C_9C8E_E64C0120749E_L0_001_1279_1497_1727257060855_15814914.jpg",
+    "http://store.is.autonavi.com/showpic/0ab2d80517f623e93908c57662675fe8",
+    "https://aos-comment.amap.com/B0FFJCF81P/comment/BDBA5605_0D6A_4043_AA92_BFED7A06195C_L0_001_1440_1679_1727257060854_76819117.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店名「月球咖啡」及宇航员涂鸦墙，墙上写有“NEED OXYGEN, NEED COFFEE!”",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前可见一台La Marzocco半自动意式咖啡机，带手柄与冲煮头，顶部放有玻璃杯与白布",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上摆放一杯绿色饮品（疑似抹茶/青汁）、一杯深色冰饮（疑似冰美式或冰黑巧），配一块橙子夹心蛋糕卷",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单纸条显示“春日午后茶”组合价48元，含“开心果燕麦 Dirty”与“宁泊林茶司康”，标注“Dirty (38)”",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙面贴有2024年“月球”主题日历、水墨画海报、“十周年”纪念图，左侧可见部分宇航员涂鸦延续至室内墙",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃门可见街景与一辆自行车，门上反光有“SUONAN”等字样，表明临街且为玻璃门入口",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内桌面为木质圆桌，未见明显电脑使用者，无书架/植物/宠物等装饰物",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见烘焙机/手冲台/虹吸壶等其他专业设备，仅咖啡机清晰可见",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:31Z"
+}

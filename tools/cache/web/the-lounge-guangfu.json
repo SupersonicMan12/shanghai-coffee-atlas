@@ -3,35 +3,24 @@
   "results": [
     {
       "index": 1,
-      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "site_name": "腾讯网"
+      "title": "苏州河畔的迷人街区 | 感知上海 P1",
+      "url": "https://touch.shio.gov.cn/jsp/jrsh_detail.jsp?id=20240730201724572",
+      "site_name": "中国政府网"
     },
     {
       "index": 2,
-      "title": "这些咖啡,你不一定喝过",
-      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
-      "site_name": "网易"
+      "title": "Dance to live music on a night at a museum-The Official Shanghai ...",
+      "url": "https://www.meet-in-shanghai.net/en/news/dance-to-live-music-on-a-night-at-a-museum-761877/",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 4,
-      "title": "咖啡能种出稻香吗?Grid Coffee 2026 中国云南产地季,走进「云南,共生之地」",
-      "url": "https://m.163.com/dy/article/L6D2HONT0531LTUZ.html",
-      "site_name": "网易"
-    },
-    {
-      "index": 5,
-      "title": "槟城乔治市最佳咖啡馆推荐:本地人私藏的8家咖啡圣地 ",
-      "url": "https://news.sohu.com/a/1002305387_121622982",
-      "site_name": "搜狐网"
+      "title": "2026 Recommended Attraction in Fotografiska Shanghai (Updated ...",
+      "url": "https://au.trip.com/moments/theme/poi-fotografiska-shanghai-141963004-attraction-993137/",
+      "site_name": ""
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:44Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:47Z",
+  "retriedEn": true
 }

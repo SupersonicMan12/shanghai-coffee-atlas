@@ -3,47 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "Niiice Café咖啡",
-      "url": "http://istats.baidu.com/project?id=31235376163&from=search",
-      "site_name": "无"
+      "title": "Coffee carnival blends history and aroma at Shanghai History Museum",
+      "url": "https://www.meet-in-shanghai.net/en/news/coffee-carnival-blends-history-and-aroma-at-shanghai-history-museum-776128/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 2,
-      "title": "千亿级咖啡赛道尚未发掘？如家、尚美等连锁酒店盯上下沉咖啡市场",
-      "url": "https://m.cyzone.cn/article/651043",
-      "site_name": ""
+      "title": "上海美食節 | 咖啡還能玩出什麼新花式?“中式”咖啡瞭解一下",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-798077/",
+      "site_name": "上海市文旅推广网"
     },
     {
       "index": 3,
-      "title": "MBA创业故事丨第二十三期：嵌入式咖啡馆niiice café 的应运而生",
-      "url": "https://mba.ecnu.edu.cn/16/7c/c2454a202364/page.htm",
-      "site_name": ""
+      "title": "Charming mansion cafes for afternoon tea delights in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240528/1c66307c4fee4b84bdd3a497b2185b4f.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "購買滿 100 顆膠囊,即享免運服務",
-      "url": "https://www.nespresso.com/tw/zh/order/capsules/vertuo/costa-rica-vertuo-coffee-pods",
-      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
-    },
-    {
-      "index": 5,
-      "title": "購買滿 100 顆膠囊,即享免運服務",
-      "url": "https://www.nespresso.com/tw/zh/order/capsules/original/black-honey-nicaragua-coffee-pods",
-      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
-    },
-    {
-      "index": 6,
-      "title": "纯正之源系列",
-      "url": "https://www.nespresso.com/hk/zh/cafe-pure-origine",
-      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
-    },
-    {
-      "index": 7,
-      "title": "A guide to Colombian coffee",
-      "url": "https://www.nespresso.com/au/en/news/discover-colombian-coffee",
-      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
+      "title": "[Caffeinated] 5 New Iconic Cafes That Are Booming",
+      "url": "https://www.meet-in-shanghai.net/en/guide/caffeinated-5-new-iconic-cafes-that-are-booming-813217/",
+      "site_name": ""
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:42Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:17Z",
+  "retriedEn": true
 }

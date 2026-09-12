@@ -1,41 +1,33 @@
 {
   "cafeId": "wagas-osm-5",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "546eea34e927",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "4a2e055a8884",
   "raw": {
     "headline": {
-      "zh": "招牌果汁名趣味十足",
-      "en": "Playfully named signature juices"
+      "zh": "饮品名超有趣",
+      "en": "Drinks have fun names"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌果汁命名趣味十足，如“朋克生活”“救救我”“医生说”",
-        "en": "Signature juices have playful names like 'Punk Life', 'Save Me', and 'Doctor Says'",
+        "zh": "招牌果汁名如'朋克生活''救救我'等",
+        "en": "Signature juices named like 'Punk Life' and 'Save Me'",
         "from": [
           1
         ]
       },
       {
         "kind": "food",
-        "zh": "主打健康轻食，菜单详列原料及热量时段搭配",
-        "en": "Health-focused menu lists all ingredients and pairs foods by calorie level and time of day",
+        "zh": "主打健康轻食，菜单列原料与热量",
+        "en": "Healthy light meals with ingredient and calorie details",
         "from": [
           2
         ]
       },
       {
-        "kind": "story",
-        "zh": "丹麦人John Fohlmann Christensen于1999年在上海创立",
-        "en": "Founded in Shanghai in 1999 by Dane John Fohlmann Christensen",
-        "from": [
-          5
-        ]
-      },
-      {
         "kind": "time",
-        "zh": "营业时间为08:00–20:30",
-        "en": "Open daily from 8:00 to 20:30",
+        "zh": "营业时间08:00–20:30，支持自助点餐",
+        "en": "Open 08:00–20:30 with self-service ordering",
         "from": [
           4
         ]
@@ -43,22 +35,30 @@
     ],
     "axisHints": {
       "focus": {
-        "value": 40,
+        "value": 50,
         "from": [
           4
         ],
-        "zh": "支持自助点餐但未提办公设施",
-        "en": "Self-ordering available, no work facilities cited"
+        "zh": "可自助点餐，适合办公",
+        "en": "Self-service supports work"
       },
       "linger": {
         "value": 60,
         "from": [
           4
         ],
-        "zh": "营业至20:30且有座位",
-        "en": "Open until 8:30 PM with seating"
+        "zh": "营业到晚，适合久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "位于核心商圈，人流多",
+        "en": "In prime urban areas, busy"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:42:36Z"
+  "fetchedAt": "2026-09-12T16:45:53Z"
 }

@@ -1,63 +1,83 @@
 {
   "cafeId": "kudikafei-senlanwanbeiqu5haolou",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "41af1a3579f5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0f7b19f6eeb8",
   "raw": {
-    "headline": null,
+    "headline": {
+      "zh": "亚洲风味果茶专营",
+      "en": "Asian-flavor fruit teas"
+    },
     "traits": [
       {
-        "kind": "light",
-        "zh": "自然采光良好，有整面临街落地窗",
-        "en": "Good natural light with full-height street-facing windows",
-        "from": [
-          4,
-          7
-        ]
-      },
-      {
         "kind": "drinks",
-        "zh": "招牌含斑斓芒果椰子冰沙、苹果茉莉冰茶",
-        "en": "Signature drinks include pandan mango coco frappe and apple jasmine iced tea",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Features pandan mango coconut frappe and apple jasmine tea",
         "from": [
           8
         ]
       },
       {
         "kind": "beans",
-        "zh": "使用100%阿拉比卡豆，连续三年获IIAC金奖",
-        "en": "Uses 100% Arabica beans, IIAC gold winner for three years",
+        "zh": "使用连续三年获IIAC金奖的阿拉比卡咖啡豆",
+        "en": "Uses Arabica beans winning IIAC gold for three years",
         "from": [
           9
         ]
       },
       {
+        "kind": "space",
+        "zh": "临街落地窗，自然采光良好",
+        "en": "Large floor-to-ceiling windows with good natural light",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "天花板为木质条形结构，楼梯下方有嵌入式灯带",
+        "en": "Wooden strip ceiling and built-in LED strips under stairs",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
         "kind": "time",
-        "zh": "营业时间07:00–20:00，每日开放",
+        "zh": "营业时间周一至周日 07:00-20:00",
         "en": "Open daily 07:00–20:00",
         "from": [
-          14
+          12
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 20,
+      "focus": {
+        "value": 30,
         "from": [
-          11,
           12
         ],
-        "zh": "为COTTI Express站喝店型，暂无堂食确认",
-        "en": "Standing-bar format, no seating confirmed"
+        "zh": "营业时间长但非办公友好",
+        "en": "Long hours but not office-friendly"
       },
-      "adventure": {
-        "value": 65,
+      "energy": {
+        "value": 60,
         "from": [
-          8
+          4,
+          7
         ],
-        "zh": "提供亚洲风味特色果茶",
-        "en": "Offers Asian-inspired fruit teas"
+        "zh": "临街采光好，人流可能较活跃",
+        "en": "Good street-facing light, likely busy"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          11
+        ],
+        "zh": "装修中，暂无堂食座位信息",
+        "en": "Under renovation, no seating confirmed"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:30Z"
+  "fetchedAt": "2026-09-12T16:44:38Z"
 }

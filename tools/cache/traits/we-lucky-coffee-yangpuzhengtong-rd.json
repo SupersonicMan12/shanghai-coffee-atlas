@@ -1,52 +1,51 @@
 {
   "cafeId": "we-lucky-coffee-yangpuzhengtong-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "72cb211e194b",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5c74dda9f9e2",
   "raw": {
     "headline": {
-      "zh": "全店饮品5-14元封顶",
-      "en": "All drinks priced between ¥5 and ¥14"
+      "zh": "巴西埃塞豆拼配",
+      "en": "Brazil & Ethiopia bean blend"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "全店饮品5元起步、14元封顶",
-        "en": "All drinks cost between ¥5 and ¥14",
+        "kind": "beans",
+        "zh": "咖啡豆来自巴西、埃塞俄比亚等四大产区",
+        "en": "Coffee beans from Brazil, Ethiopia, and others",
         "from": [
           1
         ]
       },
       {
-        "kind": "beans",
-        "zh": "咖啡豆源自巴西、埃塞俄比亚、危地马拉、哥伦比亚四大产区阿拉比卡豆",
-        "en": "Arabica beans from Brazil, Ethiopia, Guatemala, and Colombia",
+        "kind": "space",
+        "zh": "约20平方米街边小店，无固定座位",
+        "en": "About 20 sqm street-side shop, standing only",
         "from": [
           2
         ]
       },
       {
-        "kind": "space",
-        "zh": "约20平方米街边小店，standing-bar",
-        "en": "Approximately 20 sqm street-side standing bar",
+        "kind": "drinks",
+        "zh": "采用工厂烘焙豆搭配半自动设备现磨",
+        "en": "Factory-roasted beans, brewed with semi-auto machines",
         "from": [
-          3,
-          7
+          4
         ]
       },
       {
-        "kind": "story",
-        "zh": "2017年创立，2020年4月开放加盟，由蜜雪冰城总经理张红甫带队重启",
-        "en": "Founded in 2017; relaunched with franchise model in April 2020 by Zhang Hongfu of Mixue Ice Cream & Tea",
+        "kind": "people",
+        "zh": "布局于大学城、步行街等人流密集区",
+        "en": "Located in high-footfall areas like university towns",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为coffee",
+        "en": "Highly recommended on Gaode: coffee",
         "from": [
           5
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "采用工厂烘焙咖啡豆配合门店半自动设备制作现磨咖啡",
-        "en": "Freshly brewed using factory-roasted beans and semi-automatic machines",
-        "from": [
-          6
         ]
       }
     ],
@@ -54,22 +53,20 @@
       "linger": {
         "value": 20,
         "from": [
-          3,
-          7
+          2
         ],
-        "zh": "站立吧台，无坐席",
-        "en": "Standing-only format"
+        "zh": "仅设站喝位",
+        "en": "Standing-only setup"
       },
-      "adventure": {
-        "value": 30,
+      "energy": {
+        "value": 70,
         "from": [
-          2,
-          6
+          3
         ],
-        "zh": "四大产区拼配豆+工厂烘焙",
-        "en": "Multi-origin blend, factory-roasted"
+        "zh": "位于人流密集区",
+        "en": "In high-footfall zones"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:44:04Z"
+  "fetchedAt": "2026-09-12T16:46:10Z"
 }

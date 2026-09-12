@@ -1,33 +1,56 @@
 {
- "cafeId": "cuiqu-caoyang",
- "model": "qwen-max",
- "inputDigest": "38cf2e3ec13b",
- "raw": {
-  "headline": {
-   "zh": null,
-   "en": null
+  "cafeId": "cuiqu-caoyang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ed9cfb64f63b",
+  "raw": {
+    "headline": {
+      "zh": "底价美式到晚上10点",
+      "en": "Bottomless-ish americano till 10pm"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌美式无限续杯至22点",
+        "en": "Bottomless-ish americano till 10pm",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "学生党聚集地，从不赶人",
+        "en": "Student-budget refuge; no one ever asked to leave",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "适合学习办公",
+        "en": "Good for studying"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          1
+        ],
+        "zh": "可久坐不被催促",
+        "en": "Long stay welcome"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "学生氛围中等热闹",
+        "en": "Moderate student buzz"
+      }
+    }
   },
-  "traits": [
-   {
-    "kind": "space",
-    "zh": "无电脑使用者可见",
-    "en": "No laptops in use",
-    "from": 3,
-    "},{": 6,
-    "]}, {": "seating",
-    "],": "drinks",
-    "], {": "time",
-    "]}  ],  ": "focus",
-    "value": 30
-   },
-   {
-    "  ": "linger",
-    "value": 50,
-    "from": 7,
-    "zh": "学生预算友好，可久坐",
-    "en": "Student-budget friendly, good for long stays"
-   }
-  ]
- },
- "fetchedAt": "2026-09-12T14:17:44Z"
+  "fetchedAt": "2026-09-12T16:42:03Z"
 }

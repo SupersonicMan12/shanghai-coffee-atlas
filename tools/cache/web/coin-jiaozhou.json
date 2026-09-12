@@ -3,53 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
+      "title": "瑞幸咖啡(上海)有限公司静安胶州路一店",
+      "url": "https://baike.baidu.com/item/瑞幸咖啡（上海）有限公司静安胶州路一店/53578456",
+      "site_name": "百度百科"
     },
     {
       "index": 2,
-      "title": "李子坝小黄楼 | COIN COFFEE 藏在咖啡里的重庆味道",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM0MDYyOQ==&mid=2657627603&idx=1&sn=967014d14d292448ba91cb97bd0d8982&chksm=bd47f9698a30707f74a235ea8993d59da2a8f071a3b1240e111c20e6bf8ca1b6d60b3676d8ba&scene=27",
-      "site_name": "腾讯网"
+      "title": "上海市(静安区) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn8277443-Shanghai.html",
+      "site_name": "Tripadvisor"
     },
     {
       "index": 3,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
+      "title": "上海新店 | 梧桐树下🍁美式复古暗绿咖啡馆💚光影美极了! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/906105301",
+      "site_name": "大众点评网"
     },
     {
       "index": 4,
-      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
-      "url": "https://www.foodtalks.cn/news/44541",
-      "site_name": "FoodTalks全球食品资讯网"
+      "title": "Lark coffee喊你chill一下💫魔都日咖夜酒咖啡",
+      "url": "https://www.dianping.com/discovery/965412877",
+      "site_name": "大众点评网"
     },
     {
       "index": 5,
-      "title": "Coffee Spot | 小小站立式咖啡馆,在角落一坐,进入属于自己都世界上海豆子_风味",
-      "url": "https://www.sohu.com/a/592284973_121124402",
-      "site_name": "搜狐"
+      "title": "luckincoffee瑞幸咖啡(普陀胶州路店) - Shanghai - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-143183267/",
+      "site_name": ""
     },
     {
       "index": 6,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "上海探店 | 老麦咖啡馆的郁金香🌷开啦",
+      "url": "https://www.dianping.com/discovery/782860183",
+      "site_name": "大众点评网"
     },
     {
       "index": 7,
-      "title": "不止于咖啡，揭开上海咖啡馆“万店密码” - 央广网",
-      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
-      "site_name": "央广网"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 8,
-      "title": "上海咖啡馆突破1万家，全球第一！一杯咖啡里到底有什么？ - 解放日报",
-      "url": "https://www.shobserver.cn/news/detail?id=1111820",
-      "site_name": ""
+      "title": "在上海3天,这条小马路我走了5遍也没逛透。",
+      "url": "https://zhuanlan.zhihu.com/p/620766676",
+      "site_name": "知乎"
+    },
+    {
+      "index": 9,
+      "title": "China Gold Coin (Hankou Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F926803E75E8&address=Hankou+Road+No.696+%28People%27s+Square+Subway+Station+Entrance+%26+Exit+14+Pedestrian+160+Meters%29%2C+Huangpu%2C+Shanghai+China&coordinate=31.233727%2C121.477187&name=China+Gold+Coin+%28Hankou+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:18Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:36Z",
+  "retriedEn": true
 }

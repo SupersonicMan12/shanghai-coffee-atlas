@@ -3,41 +3,54 @@
   "results": [
     {
       "index": 1,
-      "title": "地域咖啡,为啥有的能出圈,有的只能守着本地?",
-      "url": "https://www.163.com/dy/article/L6LHTEJK05198DT6.html",
-      "site_name": "网易"
+      "title": "外滩SOHO-F栋",
+      "url": "https://map.360.cn/site/detail/1c458e0552dd283a",
+      "site_name": "无"
     },
     {
       "index": 2,
-      "title": "一颗豆串联山海情——云县咖啡产业的逆袭与共富之路",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyNjU2NzQ1Mg==&mid=2247580211&idx=4&sn=0b26c4a49033fe59b6d878338dd9986a&chksm=e9150462f12108c1d6c3eec95590525d10b76fe928be8f76a8e202e02ba3d9134b80df846bcf&scene=27",
-      "site_name": "腾讯网"
+      "title": "库迪咖啡(徐汇龙吴路店)",
+      "url": "https://m.dianping.com/shop/920991952",
+      "site_name": "大众点评网"
     },
     {
       "index": 3,
-      "title": "【大理观察】大理全州布局超 3000 多家咖啡门店,大理咖啡・谁赚到钱? ",
-      "url": "https://www.sohu.com/a/1075206638_319382",
-      "site_name": "搜狐网"
+      "title": "Recharge after work: Essential coffee spots in Huangpu",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20250605/093287378e49409dbb1171859011ad47.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 4,
-      "title": "中国“豆子”,让世界看见",
-      "url": "https://finance.sina.cn/2025-08-25/detail-infnewrc9062966.d.html",
-      "site_name": "新浪网"
+      "title": "平凉路/东外滩咖啡",
+      "url": "https://m.dianping.com/shop/807585127",
+      "site_name": "大众点评网"
     },
     {
       "index": 5,
-      "title": "蓝山咖啡产地2021年新款- 京东",
-      "url": "https://www.jd.com/xinkuan/132027166f65f2322574.html",
-      "site_name": "京东"
+      "title": "Dugout Coffee & Brunch Shanghai - Cafes, Dog Friendly, Huangpu",
+      "url": "https://www.smartshanghai.com/venue/25284/dugout_coffee_brunch",
+      "site_name": ""
     },
     {
       "index": 6,
-      "title": "五分钟告诉你蓝山咖啡的真相！ - 知乎专栏",
-      "url": "https://zhuanlan.zhihu.com/p/20329485",
-      "site_name": "知乎"
+      "title": "dou coffee roasters - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/dou-coffee-roasters-133434935/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "☕️上海咖啡店篇",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404798532224942641",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "上海美食節 | 咖啡還能玩出什麼新花式?“中式”咖啡瞭解一下",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-798077/",
+      "site_name": "上海市文旅推广网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:21Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:07Z",
+  "retriedEn": true
 }

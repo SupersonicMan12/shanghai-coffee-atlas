@@ -1,25 +1,74 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "提供来自不同优质产区的咖啡",
+      "kind": "beans",
+      "quote": "coffee that comes from differents regions that are well known for their excellen",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
+      "site": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok"
+    },
+    {
+      "text": "推荐自制饼干",
+      "kind": "food",
+      "quote": "We particularly recommend our homemade cookies, they are just DELICIOUS !",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
+      "site": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok"
+    },
+    {
+      "text": "供应早餐、午餐和晚餐，含沙拉、意面和三明治",
+      "kind": "food",
+      "quote": "For lunch and dinner time, we offer fresh and fast meals such as salad, pasta an",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
+      "site": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok"
+    },
+    {
+      "text": "地址：上海市虹口区东大名路687号109-110室",
+      "kind": "space",
+      "quote": "Shop 109-110, No.687 Dongdaming Road, Hongkou District, Shanghai China",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10276802-Reviews-L_Atelier_de_Joel_Robuchon-Shanghai.html",
+      "site": "Tripadvisor猫途鹰"
+    },
+    {
+      "text": "价格水平：$（平价）",
+      "kind": "story",
+      "quote": "CUISINES Cafe, International PRICE $",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
+      "site": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "Hue的舒適休憩之所  ｜Trip.com 順化",
-      "url": "https://my.trip.com/moments/detail/hue-667-144348192?locale=zh-MY",
-      "site_name": ""
+      "title": "L'ATELIER de Joël Robuchon",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10276802-Reviews-L_Atelier_de_Joel_Robuchon-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 2,
-      "title": "不用问,这22个精品咖啡会让你赞不绝口!选择咖啡时须注意什么? ",
-      "url": "https://www.sohu.com/a/893247669_121622982",
-      "site_name": "搜狐网"
+      "title": "米其林体验餐厅",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d10680699-Reviews-Aura_Lounge_Jazz_Bar_The_Ritz_Carlton_Shanghai_Pudong-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
     },
     {
       "index": 3,
-      "title": "星期日咖啡館｜Trip.com 清邁",
-      "url": "https://my.trip.com/moments/detail/chiang-mai-209-146067931?locale=zh-MY",
+      "title": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
       "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "艾利爵士餐厅",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d2231474-Reviews-or10-AiLi_JueShi_Restaurant-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 5,
+      "title": "上海Damon8公寓(江西中路分店)",
+      "url": "https://hotels.ctrip.com/hotel/dianping/52662096.html",
+      "site_name": "携程旅行网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:40:50Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:54Z",
+  "retriedEn": true
 }

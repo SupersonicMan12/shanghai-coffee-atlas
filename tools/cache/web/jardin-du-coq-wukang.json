@@ -3,17 +3,60 @@
   "results": [
     {
       "index": 1,
-      "title": "復古悠閒，一邊聽搖滾吃早餐：公雞咖啡 - BIOS monthly",
-      "url": "https://www.biosmonthly.com/article/3675",
-      "site_name": ""
+      "title": "上海隐居繁华武康路公馆",
+      "url": "https://hotels.ctrip.com/hotels/36148460.html",
+      "site_name": "携程旅行网"
     },
     {
       "index": 2,
-      "title": "上海艾本精品酒店·大公鸡小酒馆Le Coq Wine&Bistro(花园店) - Trip.com",
-      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-90681781/",
-      "site_name": ""
+      "title": "上...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4828662016320367709",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "上海武康路景点介绍!求你们别再...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4428118709103442339",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "春日漫步武康路,遇见最悠闲的上海!",
+      "url": "https://baijiahao.baidu.com/s?id=1862527524584635395",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "魔都武康路,花开路边,漫步好心情!",
+      "url": "https://baijiahao.baidu.com/s?id=1861109815478396645",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "魔都武康路,新绿花开,散步放松首选路!",
+      "url": "https://baijiahao.baidu.com/s?id=1861180595298471570",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "在武康路过春天,悠闲惬意百分百!",
+      "url": "https://baijiahao.baidu.com/s?id=1862591437346409047",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "武康路历史漫步,红墙绿树春日照,文艺之旅!",
+      "url": "https://baijiahao.baidu.com/s?id=1860986115418057876",
+      "site_name": "百度"
+    },
+    {
+      "index": 9,
+      "title": "上海武康路深,梧桐嫩芽映老窗,名人旧居春犹在",
+      "url": "https://baijiahao.baidu.com/s?id=1862112047897409816",
+      "site_name": "百度"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:31Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:08Z",
+  "retriedEn": true
 }

@@ -1,56 +1,64 @@
 {
   "cafeId": "wagas-osm-4",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "dd237d79eeaf",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "190e0f8a38c8",
   "raw": {
     "headline": {
-      "zh": "健康轻食配趣味果汁",
-      "en": "Healthy eats, playful juices"
+      "zh": "招牌果汁命名有趣",
+      "en": "Fun drink names"
     },
     "traits": [
       {
+        "kind": "drinks",
+        "zh": "饮品名称如‘朋克生活’‘救救我’等趣味十足",
+        "en": "Drink names like 'Punk Life' and 'Save Me' are fun",
+        "from": [
+          1
+        ]
+      },
+      {
         "kind": "food",
-        "zh": "菜单详列原料及热量时段搭配",
-        "en": "Menu lists ingredients and calorie timing",
+        "zh": "主打健康轻食，菜单列明原料与热量搭配",
+        "en": "Healthy light meals with ingredient and calorie info",
         "from": [
           2
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "招牌果汁名如“朋克生活”“救救我”",
-        "en": "Juices named “Punk Life”, “Save Me”",
-        "from": [
-          1
-        ]
-      },
-      {
         "kind": "time",
-        "zh": "营业时间08:00–20:30",
-        "en": "Open 08:00–20:30",
+        "zh": "营业时间08:00–20:30，支持自助点餐与流动支付",
+        "en": "Open 08:00–20:30, self-service and mobile payment",
         "from": [
           4
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "1999年由丹麦人John Fohlmann Christensen在上海创立",
-        "en": "Founded in Shanghai in 1999 by Dane John Fohlmann Christensen",
-        "from": [
-          5
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
+      "focus": {
         "value": 60,
         "from": [
-          1
+          4
         ],
-        "zh": "果汁命名创意十足",
-        "en": "Playful juice names"
+        "zh": "支持自助点餐，适合办公",
+        "en": "Self-service supports work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "营业至晚八点半，可久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "位于核心商圈，人流中等",
+        "en": "In core commercial areas"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:35:14Z"
+  "fetchedAt": "2026-09-12T16:43:32Z"
 }

@@ -1,52 +1,45 @@
 {
   "cafeId": "manner-coffee-jiafeng-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "32b13042b261",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "387d99440d07",
   "raw": {
     "headline": {
-      "zh": "街角站喝，自带杯减5元",
-      "en": "Corner stand-up spot, BYO cup for ¥5 off"
+      "zh": "街角站喝小馆",
+      "en": "Corner standing bar cafe"
     },
     "traits": [
       {
         "kind": "space",
-        "zh": "临街玻璃窗，街角位置",
-        "en": "Street-corner spot with full glass windows",
+        "zh": "临街玻璃窗，站喝模式，面积小",
+        "en": "Street-facing glass, standing-only, compact space",
         "from": [
           5,
-          6
+          6,
+          7
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌含燕麦拿铁、冰甜",
-        "en": "Known for oat milk latte and iced sweet coffee",
-        "from": [
-          11
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "自建5000平SC认证烘焙工坊",
-        "en": "Owns 5,000 sqm SC-certified roastery",
+        "zh": "招牌燕麦拿铁、冰甜，早期口碑高",
+        "en": "Popular oat milk latte and iced sweet, early standout",
         "from": [
           9
         ]
       },
       {
-        "kind": "time",
-        "zh": "每日07:00–17:00营业",
-        "en": "Open daily 07:00–17:00",
+        "kind": "beans",
+        "zh": "自建烘焙工坊，意式豆常推限定款",
+        "en": "In-house roastery, limited-edition espresso beans",
         "from": [
-          14
+          8
         ]
       },
       {
-        "kind": "story",
-        "zh": "发源于2015年静安2㎡小店",
-        "en": "Started in 2015 from a 2 sqm shop in Jing’an",
+        "kind": "time",
+        "zh": "营业至17:00，不支持夜宵",
+        "en": "Closes at 5 PM, no late hours",
         "from": [
-          12
+          10
         ]
       }
     ],
@@ -56,19 +49,27 @@
         "from": [
           7
         ],
-        "zh": "轻落地站喝模式",
-        "en": "Stand-up only format"
+        "zh": "站喝小店，不适久坐",
+        "en": "Standing-only, not for lingering"
       },
-      "adventure": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "空间小，难专注办公",
+        "en": "Small space, not ideal for focus"
+      },
+      "energy": {
         "value": 60,
         "from": [
-          9,
-          11
+          5,
+          6
         ],
-        "zh": "自烘豆+限定意式款",
-        "en": "House-roasted beans, seasonal espresso"
+        "zh": "临街位置，人流可见",
+        "en": "On busy corner, visible to passersby"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:38:39Z"
+  "fetchedAt": "2026-09-12T16:44:44Z"
 }

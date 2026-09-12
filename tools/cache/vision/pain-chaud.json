@@ -1,0 +1,53 @@
+{
+  "cafeId": "pain-chaud",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "48997721ff63",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/005e5ecd049e078fcf9cc518e2cc3c22",
+    "https://store.is.autonavi.com/showpic/ca7a4da79c9fa1ef0000005634568578?type=pic",
+    "http://store.is.autonavi.com/showpic/755b684c16384a9026e374c9f84d2ead"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "三份抹茶奶油泡芙，顶部撒碎开心果与抹茶粉，内馅为绿色奶油并嵌入整粒开心果。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店名PAIN CHAUD百丘，位于商场内，入口为白色瓷砖+木质竖条墙，设双层拱形门洞。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "门口立式菜单牌展示中秋限定礼盒及六款口味月饼，含“抹茶龙井”“金凤果料”等，未见价格。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见金属置物架、操作台及烘焙托盘车，但无手冲/虹吸/磨豆机等咖啡设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "单块栗子蛋糕切面清晰，分层为饼底、奶冻、栗子泥夹心，表面饰以栗子泥挤花与小颗粒装饰。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:25Z"
+}

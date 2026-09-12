@@ -3,59 +3,48 @@
   "results": [
     {
       "index": 1,
-      "title": "上海达播温实业有限公司",
-      "url": "https://www.zhipin.com/companys/b3533534ab0661e91HZ80tq1EVI~.html",
-      "site_name": "Boss直聘"
+      "title": "Double Win Coffee(打浦桥日月光店)",
+      "url": "https://m.dianping.com/shop/1099979577",
+      "site_name": "大众点评网"
     },
     {
       "index": 2,
-      "title": "Double Win · 标签 - 品牌星球Brandstar",
-      "url": "https://www.brandstar.com.cn/tag/Double%20Win",
+      "title": "Double Win Cafe (Xiangyang Nan Lu) Shanghai - | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/19727/double_win_cafe",
       "site_name": ""
     },
     {
       "index": 3,
-      "title": "DOUBLE WIN | 项目信息 - 创投平台",
-      "url": "https://pitchhub.36kr.com/project/1678208592409608",
-      "site_name": "36氪"
+      "title": "菜单/人均消费/电话/地址/菜系/点评/营业时间_餐厅介绍_哪个菜好吃 ...",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/78049644.html",
+      "site_name": "携程旅行网"
     },
     {
       "index": 4,
-      "title": "南宁首家Double win | 秋天的第一杯咖啡☕ - 大众点评吃喝玩乐精选",
-      "url": "https://m.dianping.com/discovery/704570850",
-      "site_name": "大众点评网"
+      "title": "Double Win Coffee（中達廣場店） (上海陸家嘴)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/seewant-cafe-xiwang-coffee-488189/",
+      "site_name": ""
     },
     {
       "index": 5,
-      "title": "咖啡里放青花椒 上海人气咖啡西南首店亮相成都",
-      "url": "https://sichuan.scol.com.cn/m/amsc/202109/58272112.html",
-      "site_name": "四川在线"
-    },
-    {
-      "index": 6,
-      "title": "今年开店数超6年总和,又一咖啡品牌加速布局中国市场",
-      "url": "https://www.sohu.com/a/499070145_350514",
-      "site_name": "搜狐网"
-    },
-    {
-      "index": 7,
-      "title": "融资数亿、2年销量增长3.4倍，“中国咖啡”的时代到了| CBNData",
-      "url": "https://www.cbndata.com/information/168758",
-      "site_name": "第一财经商业数据中心"
-    },
-    {
-      "index": 8,
-      "title": "火爆魔都的Double Win来天目里啦|具出片 - 大众点评吃喝玩乐精选",
-      "url": "https://m.dianping.com/discovery/703934270",
+      "title": "人民广场/南京路咖啡",
+      "url": "https://m.dianping.com/shop/6378199",
       "site_name": "大众点评网"
     },
     {
-      "index": 9,
-      "title": "double win cafe加盟",
-      "url": "https://www.anxjm.com/busInfo/395562.html",
-      "site_name": ""
+      "index": 6,
+      "title": "【Double Win Coffee(建国中路店)】地址,电话,路线,周边设施_360地图",
+      "url": "https://m.map.360.cn/m/search/detail/pid=c5e3a1b38e084852",
+      "site_name": "360官网"
+    },
+    {
+      "index": 7,
+      "title": "上海互加上海龙阳路店公寓(21号店)",
+      "url": "https://hotels.ctrip.com/hotels/53232637.html",
+      "site_name": "携程旅行网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:07Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:58Z",
+  "retriedEn": true
 }

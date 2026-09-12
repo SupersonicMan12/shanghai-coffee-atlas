@@ -1,73 +1,48 @@
 {
   "cafeId": "85-c-bakery-cafe-osm-3",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "813554a17ca5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "36425a65a5a9",
   "raw": {
     "headline": {
-      "zh": "海盐奶酪咖啡首创者",
-      "en": "Home of sea-salt cheese coffee"
+      "zh": "海盐咖啡配奶酪",
+      "en": "Sea salt coffee with cheese"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌海盐咖啡配绵密奶酪",
-        "en": "Signature sea-salt coffee topped with creamy cheese",
+        "zh": "招牌饮品是海盐咖啡，上层有绵密奶酪",
+        "en": "Signature drink is sea salt coffee with creamy cheese on top",
         "from": [
           1
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "品牌名源于85°C冲煮咖啡",
-        "en": "Named after optimal 85°C coffee brewing temperature",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "部分门店24小时营业",
-        "en": "Some locations open 24 hours",
-        "from": [
-          3
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "开放式空间适合约会与家庭聚会",
-        "en": "Open layout suits dates and family gatherings",
-        "from": [
-          4
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "大杯咖啡第二杯限时30元",
-        "en": "Second large coffee priced at ¥30 during promotions",
-        "from": [
-          5
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 60,
-        "from": [
-          3,
-          4
-        ],
-        "zh": "24小时营业且有聚会空间",
-        "en": "Open 24h with social seating"
-      },
-      "adventure": {
-        "value": 70,
+      "focus": {
+        "value": 30,
         "from": [
           1
         ],
-        "zh": "咸甜奶酪咖啡较独特",
-        "en": "Savory-sweet cheese coffee stands out"
+        "zh": "有固定座位可办公",
+        "en": "Has seats for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "门店常见消费场景",
+        "en": "Typical café vibe"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "适合停留饮用",
+        "en": "Suitable for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:36:12Z"
+  "fetchedAt": "2026-09-12T16:48:46Z"
 }

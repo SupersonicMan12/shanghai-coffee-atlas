@@ -1,56 +1,90 @@
 {
   "cafeId": "ruixingkafei-huaihaizhonghuadasha",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "724edd4094a8",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "da583dcd7bfb",
   "raw": {
     "headline": {
-      "zh": "站喝快取，新品高频",
-      "en": "Grab-and-go with frequent new drinks"
+      "zh": "快取站，线上点单",
+      "en": "Quick pickup, order online"
     },
     "traits": [
       {
+        "kind": "space",
+        "zh": "门店面积20-60㎡，无堂食区",
+        "en": "20-60㎡ fast pickup only, no seating",
+        "from": [
+          4
+        ]
+      },
+      {
         "kind": "drinks",
-        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
-        "en": "Signature drinks include Shengye and Jiangxiang lattes",
+        "zh": "平均每3-4天推一款新品",
+        "en": "New drink every 3-4 days",
         "from": [
           3
         ]
       },
       {
-        "kind": "beans",
-        "zh": "咖啡豆为深烘，产地品牌不可辨",
-        "en": "Beans are dark roasted; origin unidentifiable",
+        "kind": "time",
+        "zh": "营业时间周一至周五07:00-20:00",
+        "en": "Open 07:00-20:00 Mon-Fri",
         "from": [
-          2
+          6
         ]
       },
       {
         "kind": "time",
-        "zh": "工作日7:00-20:00，周末8:00-20:00营业",
-        "en": "Open 7–8am to 8pm, later start on weekends",
+        "zh": "周六日营业时间08:00-20:00",
+        "en": "Open 08:00-20:00 Sat-Sun",
         "from": [
-          9
+          6
         ]
       },
       {
-        "kind": "price",
-        "zh": "主力饮品价格带12-15元",
-        "en": "Main drinks priced at ¥12–15",
+        "kind": "drinks",
+        "zh": "推荐饮品包括西柚冰萃咖啡、厚乳拿铁等",
+        "en": "Recommended drinks include grapefruit iced coffee, thick milk latte",
         "from": [
-          5
+          7
         ]
       }
     ],
     "axisHints": {
       "linger": {
+        "value": 10,
+        "from": [
+          4
+        ],
+        "zh": "无堂食，不适合久坐",
+        "en": "No seating, not for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "快取模式，中等人流",
+        "en": "Fast pickup, moderate foot traffic"
+      },
+      "focus": {
         "value": 20,
         "from": [
-          6
+          4,
+          5
         ],
-        "zh": "无或少量堂食，快取为主",
-        "en": "Takeout-focused, minimal seating"
+        "zh": "无座位，难专注办公",
+        "en": "No seats, not for focus"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "新品频出，口味多变",
+        "en": "Frequent new drinks, varied flavors"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:37:09Z"
+  "fetchedAt": "2026-09-12T16:43:16Z"
 }

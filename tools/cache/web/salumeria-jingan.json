@@ -3,29 +3,54 @@
   "results": [
     {
       "index": 1,
-      "title": "全静安的咖啡爱好者都在这里了吧……_腾讯新闻",
-      "url": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
-      "site_name": "腾讯网"
+      "title": "Alimentari & Degusteria Shanghai - Cafes, Deli, Sherpa's, Jing'an",
+      "url": "https://www.smartshanghai.com/venue/15507/alimentari_and_degusteria_jiaozhou_lu",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "从平价到奢华,自三星跨五星——全球咖啡精选指南!",
-      "url": "https://zhuanlan.zhihu.com/p/711942877",
-      "site_name": "知乎"
+      "title": "An Italian Living Like a Local in Old Jing'an - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/en/news/an-italian-living-like-a-local-in-old-jingan-359473/",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "亚美尼亚咖啡",
-      "url": "https://www.bilibili.com/read/cv52774326/",
-      "site_name": "哔哩哔哩弹幕网"
+      "title": "Shanghai's Global Taste series: Italian food in Jing'an",
+      "url": "https://english.shanghai.gov.cn/en-Restaurants/20260129/b17ec5c2bcc84958a167d509edf3196b.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 4,
-      "title": "咖啡種類有哪些?10款經典咖啡飲品,牛奶/濃縮咖啡比例全掌握 ",
-      "url": "https://www.nespresso.com/tw/zh/blog-coffee-type",
-      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
+      "title": "Restaurant BARBARIAN (WUDING LU) in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/shanghai/barbarian_wudiing_lu",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Porcellino Salumeria Italiana (Pudong Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118650762232581&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "Alimentari & Degusteria - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/alimentari-and-degusteria-57282252/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "沃德事饮料(上海)有限公司 ",
+      "url": "https://aifanfan.baidu.com/xkbssr?enterpriseId=979b48c717c44f234a5d41603ad3f716",
+      "site_name": "爱番番"
+    },
+    {
+      "index": 8,
+      "title": "SALOMON萨洛蒙(嘉里城店)",
+      "url": "https://map.360.cn/site/detail/2cd6a38003559c0c",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:21Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:38Z",
+  "retriedEn": true
 }

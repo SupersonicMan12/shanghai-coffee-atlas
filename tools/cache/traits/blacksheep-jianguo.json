@@ -1,76 +1,94 @@
 {
   "cafeId": "blacksheep-jianguo",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "0b5badf77cc5",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "47e1180240a8",
   "raw": {
     "headline": {
-      "zh": "自烘非洲豆+秘密雪屋",
-      "en": "House-roasted African beans, hidden snow room"
+      "zh": "自烘单一产地咖啡",
+      "en": "house-roasted single-origin espresso"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "自烘焙豆，涵盖意式到手冲",
-        "en": "In-house roasted beans for espresso to pour-over",
+        "zh": "主打自烘焙单一产地意式咖啡，豆源来自非洲农场",
+        "en": "house-roasted single-origin espresso with beans sourced from African farms",
         "from": [
-          4
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "深入非洲农庄直采豆源",
-        "en": "Sources beans directly from African farms",
-        "from": [
-          3
+          2,
+          3,
+          10,
+          11
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌SOE奶咖与‘一羊千喜’特饮",
-        "en": "Signature SOE milk coffee and 'Yi Yang Qian Xi' drink",
+        "zh": "招牌特饮‘一羊千喜’含咖啡、牛奶、冰淇淋与小羊饼干",
+        "en": "signature drink 'One Sheep, Thousands of Joy' with coffee, milk, ice cream, and sheep-shaped cookie",
         "from": [
-          9,
-          12
+          8
         ]
       },
       {
         "kind": "food",
-        "zh": "‘碰瓷羊’甜品含白巧外壳与咖啡慕斯",
-        "en": "'Peng Ci Yang' dessert: white chocolate shell, coffee mousse",
+        "zh": "招牌甜品‘碰瓷羊’为白巧克力外壳配咖啡黑香豆慕斯",
+        "en": "signature dessert 'Bump Sheep' features white chocolate shell with coffee-black bean mousse",
         "from": [
-          10
+          9
         ]
       },
       {
         "kind": "space",
-        "zh": "建国中路老店约30平米，有秘密雪屋打卡区",
-        "en": "30 sqm old shop with hidden 'snow room' nook",
+        "zh": "建国中路老店约30平米，空间极小但强调内向庇护感",
+        "en": "tiny 30sqm shop with inward-focused, sheltered atmosphere",
         "from": [
-          6,
-          7
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有秘密‘雪屋’穹窿打卡区，适合一人静坐自拍",
+        "en": "hidden dome nook for solo quiet sitting and self-photography",
+        "from": [
+          6
         ]
       }
     ],
     "axisHints": {
-      "adventure": {
-        "value": 85,
+      "focus": {
+        "value": 30,
         "from": [
-          3,
-          4,
-          11
+          5
         ],
-        "zh": "自烘+非洲单一产地豆",
-        "en": "House-roasted, single-origin African beans"
+        "zh": "空间小，适合专注",
+        "en": "small space for focus"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "镜面门面反射城市，内部隐蔽",
+        "en": "reflective facade, hidden interior"
       },
       "linger": {
-        "value": 40,
+        "value": 50,
         "from": [
           6
         ],
-        "zh": "仅30平米小店",
-        "en": "Tiny 30 sqm space"
+        "zh": "有私密角落可久坐",
+        "en": "private nook encourages lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          10,
+          11
+        ],
+        "zh": "自烘单一产地豆，品类丰富",
+        "en": "self-roasted single-origin, diverse range"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:09Z"
+  "fetchedAt": "2026-09-12T16:41:22Z"
 }

@@ -1,73 +1,90 @@
 {
   "cafeId": "yichihuayuan-osm",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "a68c52a32401",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0a03e192ce71",
   "raw": {
     "headline": {
-      "zh": "茶咖融合的全天候大花园",
-      "en": "All-day garden cafe with tea-infused coffee"
+      "zh": "茶咖融合甜点",
+      "en": "Tea-coffee fusion treats"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "用碧螺春、龙井、普洱做茶咖",
-        "en": "Coffee infused with Biluochun, Longjing, Pu'er",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "招牌含桂花拿铁和手工焦糖南瓜重芝士蛋糕",
-        "en": "Signature drinks and cakes include osmanthus latte and pumpkin cheesecake",
+        "zh": "招牌饮品为桂花拿铁、手工焦糖南瓜重芝士蛋糕",
+        "en": "Signature drinks include osmanthus latte and caramel pumpkin cheesecake",
         "from": [
           1
         ]
       },
       {
+        "kind": "beans",
+        "zh": "使用碧螺春、西湖龙井、云南普洱等中国茶咖豆",
+        "en": "Uses Chinese tea beans like Biluochun, Longjing, Yunnan Pu-erh",
+        "from": [
+          2
+        ]
+      },
+      {
         "kind": "space",
-        "zh": "门店多为超千平，含绿植造景与户外露营区",
-        "en": "Stores often exceed 1000 sqm with greenery and outdoor camping areas",
+        "zh": "门店超千平，含绿植造景与户外露营区",
+        "en": "Over 1000 sqm venues with greenery and outdoor camping areas",
         "from": [
           4
         ]
       },
       {
         "kind": "time",
-        "zh": "营业覆盖早咖到晚餐+微醺时段",
-        "en": "Open from morning coffee through dinner and drinks",
+        "zh": "营业时间覆盖早咖至微醺晚餐时段",
+        "en": "Operates from morning coffee to evening wine hours",
         "from": [
           5
         ]
       },
       {
-        "kind": "story",
-        "zh": "2015年从陶家宅民宿自然生长出的咖啡简餐品牌",
-        "en": "Grew organically from a 2015 homestay in Taojia Village",
+        "kind": "price",
+        "zh": "咖啡单价约40元，定位为‘进园门票’",
+        "en": "Coffee priced around 40 RMB, seen as 'admission fee'",
         "from": [
-          6
+          3
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 85,
+      "focus": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "价格高，非办公首选",
+        "en": "High price, not office-focused"
+      },
+      "energy": {
+        "value": 60,
         "from": [
           4,
           5
         ],
-        "zh": "大空间+全天营业适合久坐",
-        "en": "Spacious and all-day hours"
+        "zh": "大空间+全天运营，有社交氛围",
+        "en": "Large space + full-day ops, social vibe"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "大空间+全天候，适合久坐",
+        "en": "Spacious + all-day, great for lingering"
       },
       "adventure": {
         "value": 70,
         "from": [
           2
         ],
-        "zh": "茶咖融合属非传统做法",
-        "en": "Tea-infused coffee is unconventional"
+        "zh": "茶咖融合，饮品不寻常",
+        "en": "Tea-coffee fusion, unusual drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:09Z"
+  "fetchedAt": "2026-09-12T16:45:06Z"
 }

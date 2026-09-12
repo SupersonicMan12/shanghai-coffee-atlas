@@ -1,77 +1,75 @@
 {
   "cafeId": "arabica-ferguson",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "c0fab8f1d309",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1c4e4d3e1051",
   "raw": {
     "headline": {
-      "zh": "武康庭玻璃房现烘阿拉比卡",
-      "en": "Glass house with fresh-roasted Arabica"
+      "zh": "武康庭院子的京都咖啡",
+      "en": "Kyoto latte in a 1930s courtyard"
     },
     "traits": [
       {
-        "kind": "space",
-        "zh": "临街玻璃房，设室外座位",
-        "en": "Street-facing glass shed with outdoor seating",
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街落地玻璃窗，室内通透明亮，有绿植墙与室外座位",
+        "en": "Floor-to-ceiling windows, open and bright with green walls and outdoor seating",
         "from": [
           1,
           4,
-          5
+          5,
+          7
         ]
       },
       {
-        "kind": "beans",
-        "zh": "使用100%阿拉比卡豆，店内现烘",
-        "en": "100% Arabica beans, roasted in-house",
+        "kind": "beans|drinks",
+        "zh": "使用100%阿拉比卡咖啡豆制作浓缩基底咖啡",
+        "en": "Uses 100% Arabica beans for espresso base",
         "from": [
-          6,
-          7
+          6
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌京都拿铁可在庭院享用",
-        "en": "Kyoto latte served in the courtyard",
+        "zh": "招牌饮品为庭院里的京都风味拿铁",
+        "en": "Signature Kyoto latte served in the courtyard",
         "from": [
-          13
+          9
         ]
       },
       {
         "kind": "time",
-        "zh": "每日09:00–18:00营业",
+        "zh": "营业时间周一至周日 09:00-18:00",
         "en": "Open daily 09:00–18:00",
         "from": [
-          14
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "2018年入驻上海武康路老庭院",
-        "en": "Opened in Shanghai’s Ferguson Lane in 2018",
-        "from": [
-          11
+          10
         ]
       }
     ],
     "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "站喝为主，不适宜久坐办公",
+        "en": "Standing-only layout, not for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "老洋房庭院，人流略多",
+        "en": "In a bustling old compound courtyard"
+      },
       "linger": {
         "value": 40,
         "from": [
-          2,
-          9
+          8
         ],
-        "zh": "少量堂食，以站喝为主",
-        "en": "Mostly standing bar"
-      },
-      "adventure": {
-        "value": 70,
-        "from": [
-          6,
-          7
-        ],
-        "zh": "自烘阿拉比卡豆，基底独特",
-        "en": "In-house roasted single-origin base"
+        "zh": "站喝空间为主，不易久留",
+        "en": "Designed for quick service, not lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:01Z"
+  "fetchedAt": "2026-09-12T16:41:01Z"
 }

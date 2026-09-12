@@ -3,29 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "上海的咖啡新店喝不完,真的喝不完……",
-      "url": "https://www.sohu.com/a/999294402_113612",
-      "site_name": "搜狐"
+      "title": "Shanghai Paikafei (Huashan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118575597599283&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 2,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "Huashan Apartment Shanghai - Serviced Apartments, Jing'an District",
+      "url": "https://www.smartshanghai.com/venue/20767/huashan_apartment",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
-      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
-      "site_name": "QQ"
+      "title": "Huashan Road Tickets [2026] - Shanghai - Trip.com",
+      "url": "https://www.trip.com/travel-guide/attraction/shanghai/huashan-road-94570/",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
-      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
-      "site_name": ""
+      "title": "ShangHai Abest Apartment",
+      "url": "https://www.agoda.com/zh-cn/zh-cn/shanghai-abest-apartment/hotel/shanghai-cn.html",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:43:51Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:18Z",
+  "retriedEn": true
 }

@@ -1,64 +1,81 @@
 {
   "cafeId": "we-lucky-coffee-yuxiu-rd",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "3142dd1f2399",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "af1350c3ac65",
   "raw": {
     "headline": {
-      "zh": "全店饮品5元起14元封顶",
-      "en": "Drinks from ¥5, capped at ¥14"
+      "zh": "商场内站喝小咖店",
+      "en": "Stand-up coffee in mall"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "全店饮品5元起步、14元封顶",
-        "en": "All drinks range from ¥5 to ¥14",
+        "kind": "space",
+        "zh": "位于商场内，有玻璃门与落地窗",
+        "en": "Located in a mall with glass doors and floor-to-ceiling windows",
         "from": [
-          7
+          1,
+          5
         ]
       },
       {
-        "kind": "beans",
-        "zh": "咖啡豆来自巴西等四大产区阿拉比卡豆",
-        "en": "Arabica beans from four major origins",
+        "kind": "light",
+        "zh": "店内采光良好，顶灯明亮",
+        "en": "Bright overhead lighting and good natural light",
         "from": [
-          8
+          4
         ]
       },
       {
         "kind": "seating",
-        "zh": "店内座位数量较多",
-        "en": "Multiple seats available inside",
+        "zh": "座位数量较多，适合久坐",
+        "en": "Multiple seats, suitable for lingering",
         "from": [
           3
         ]
       },
       {
-        "kind": "time",
-        "zh": "营业时间09:00-21:00",
-        "en": "Open daily 09:00–21:00",
+        "kind": "beans",
+        "zh": "使用巴西、埃塞俄比亚等地阿拉比卡豆",
+        "en": "Uses Arabica beans from Brazil, Ethiopia, etc.",
         "from": [
-          13
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为09:00-21:00",
+        "en": "Open 09:00–21:00",
+        "from": [
+          11
         ]
       }
     ],
     "axisHints": {
-      "linger": {
-        "value": 40,
+      "focus": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "座位多，可办公",
+        "en": "Seats allow work"
+      },
+      "energy": {
+        "value": 60,
         "from": [
           9
         ],
-        "zh": "约20平方米小店，装修简洁",
-        "en": "Compact, no-frills space"
+        "zh": "布局于高人流商场",
+        "en": "In high-footfall mall"
       },
-      "adventure": {
-        "value": 20,
+      "linger": {
+        "value": 70,
         "from": [
-          12
+          3
         ],
-        "zh": "工厂烘焙豆配半自动设备",
-        "en": "Factory-roasted beans, semi-auto"
+        "zh": "座位多，适合久坐",
+        "en": "Plenty of seats for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:39:01Z"
+  "fetchedAt": "2026-09-12T16:45:03Z"
 }

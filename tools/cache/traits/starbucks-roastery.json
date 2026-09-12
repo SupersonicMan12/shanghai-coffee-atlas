@@ -1,41 +1,34 @@
 {
   "cafeId": "starbucks-roastery",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "995cc1600161",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "86d4898b5c58",
   "raw": {
     "headline": {
-      "zh": "上海首家臻选烘焙工坊",
-      "en": "Shanghai's first Reserve Roastery"
+      "zh": "上海首座烘焙工坊",
+      "en": "Shanghai's first roastery"
     },
     "traits": [
       {
-        "kind": "drinks",
-        "zh": "有城市限定特饮‘上海咖啡’",
-        "en": "Offers city-exclusive 'Shanghai Coffee'",
+        "kind": "beans|drinks",
+        "zh": "提供具人文故事的小批量咖啡豆与限定特饮",
+        "en": "Offers story-driven small-batch beans and limited-edition drinks",
         "from": [
-          7
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "提供小批量人文故事咖啡豆",
-        "en": "Serves small-batch beans with stories",
-        "from": [
+          7,
           8
         ]
       },
       {
         "kind": "food",
-        "zh": "双人下午茶套餐228元",
-        "en": "Afternoon tea for two at ¥228",
+        "zh": "供应铸铁锅浓汤配溏心蛋与烤面包片",
+        "en": "Serves green soup in cast-iron pot with soft-boiled eggs and toast",
         "from": [
-          1
+          3
         ]
       },
       {
-        "kind": "view",
-        "zh": "临街整面大玻璃窗",
-        "en": "Full-height street-facing windows",
+        "kind": "space|view",
+        "zh": "临街落地玻璃窗，可览街道与行人",
+        "en": "Floor-to-ceiling windows facing the street with views of pedestrians",
         "from": [
           4,
           6
@@ -43,42 +36,61 @@
       },
       {
         "kind": "time",
-        "zh": "周五周六营业至午夜24点",
-        "en": "Open until midnight on Fri–Sat",
+        "zh": "营业至凌晨0点（周五至周六）",
+        "en": "Closes at 00:00 on Fridays and Saturdays",
         "from": [
-          17
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "设有巨型铜罐，招牌为氮气风味飞行品鉴",
+        "en": "Features a massive copper cask; signature is Nitro flight",
+        "from": [
+          13,
+          14
         ]
       }
     ],
     "axisHints": {
-      "energy": {
-        "value": 85,
+      "focus": {
+        "value": 30,
         "from": [
           15
         ],
-        "zh": "常年人流密集",
-        "en": "Permanently crowded"
+        "zh": "营业时间长但非办公区",
+        "en": "Long hours but not for work"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          13
+        ],
+        "zh": "人流密集，临街热闹",
+        "en": "Crowded, lively street-facing"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "有餐食与特色饮品，适合停留",
+        "en": "Food and unique drinks encourage lingering"
       },
       "adventure": {
-        "value": 90,
+        "value": 80,
         "from": [
           7,
           8,
-          16
+          14
         ],
-        "zh": "特饮与冲煮工艺丰富",
-        "en": "Unique drinks and brewing methods"
-      },
-      "linger": {
-        "value": 70,
-        "from": [
-          15,
-          3
-        ],
-        "zh": "可坐享下午茶与景观",
-        "en": "Space to linger with views"
+        "zh": "自烘豆与实验性饮品",
+        "en": "Custom roasting and experimental drinks"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:35:22Z"
+  "fetchedAt": "2026-09-12T16:41:31Z"
 }

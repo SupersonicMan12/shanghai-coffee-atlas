@@ -1,43 +1,97 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "设有露天座位，支持Wi-Fi及停车服务",
+      "kind": "seating",
+      "quote": "该店设有露天座位,支持刷卡、Wi-Fi及停车服务",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为每日9:00至22:00",
+      "kind": "time",
+      "quote": "营业时间为每日9:00至22:00",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "人均消费约34元，主打拿铁咖啡及芝士蛋糕等甜点",
+      "kind": "drinks",
+      "quote": "主打拿铁咖啡及柠檬芝士蛋糕、蓝莓芝士蛋糕等甜点",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "适宜情侣约会、朋友聚餐等休闲场景",
+      "kind": "people",
+      "quote": "适宜情侣约会、朋友聚餐等休闲场景",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    }
+  ],
   "results": [
     {
       "index": 1,
+      "title": "九六广场",
+      "url": "https://baike.baidu.com/item/九六广场/133022",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "上海九六广场商业经营管理有限公司",
+      "url": "https://baike.baidu.com/item/上海九六广场商业经营管理有限公司/53542034",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "九六广场_百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA/133022",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "百度地图",
+      "url": "https://api.map.baidu.com/marker?location=31.233485,121.531321&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B7%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA&content=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B7%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA&output=html",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "上海会館 96広場店 - 豫園 ユーユェン/中華料理 | 食べログ",
+      "url": "https://tabelog.com/china/A5102/A510202/51003405/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "巧克力小酒馆",
+      "url": "https://baike.baidu.com/item/巧克力小酒馆/14328976",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "宜芝多(96广场店)",
+      "url": "https://baike.baidu.com/item/宜芝多（96广场店）/15165366",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
       "title": "COSTACOFFEE(96广场店)",
       "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
       "site_name": "百度百科"
     },
     {
-      "index": 2,
-      "title": "COSTACOFFEE（96广场店）_百度百科",
-      "url": "https://baike.baidu.com/item/COSTACOFFEE%EF%BC%8896%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89/15232941",
-      "site_name": "百度"
-    },
-    {
-      "index": 3,
-      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
-      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
-      "site_name": "中国政府网"
-    },
-    {
-      "index": 4,
-      "title": "上海从咖啡消费高地变身产业集聚码头",
-      "url": "https://www.shanghai.gov.cn/nw4411/20260817/0fe1505dae484a7bb9e45a7fc8a4c8a7.html",
-      "site_name": "中国政府网"
-    },
-    {
-      "index": 5,
-      "title": "the Ninth Coffee 上海首店/ 方书君工作室| ArchDaily 中文版",
-      "url": "https://www.archdaily.com/zh/996549/the-ninth-coffee-shang-hai-shou-dian-fang-shu-jun-gong-zuo-shi",
+      "index": 9,
+      "title": "96广场美食【上海九六广场美食,餐厅预订7折起】订餐小秘书官网",
+      "url": "http://www.xiaomishu.com/shop/search-po107/",
       "site_name": ""
     },
     {
-      "index": 6,
-      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
-      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
-      "site_name": ""
+      "index": 10,
+      "title": "大茴香(96广场店)",
+      "url": "https://baike.baidu.com/item/大茴香（96广场店）/15188813",
+      "site_name": "百度百科"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:40Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:24Z",
+  "retriedEn": true
 }

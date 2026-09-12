@@ -1,18 +1,19 @@
 {
   "cafeId": "xincanzhekafei-xingfuliczuo",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "373ee42946da",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d02358bb4546",
   "raw": {
     "headline": {
-      "zh": "专注云南豆的手冲咖啡馆",
-      "en": "Yunnan-bean focused pour-over cafe"
+      "zh": "云南豆手冲专研",
+      "en": "specializing in Yunnan beans & hand pour"
     },
     "traits": [
       {
         "kind": "beans",
-        "zh": "使用店主亲选烘焙的云南咖啡豆",
-        "en": "Uses Yunnan beans selected and roasted by owner",
+        "zh": "使用小A亲自处理的云南精品咖啡豆",
+        "en": "features Yunnan single-origin beans sourced and processed by owner Xiao A",
         "from": [
+          8,
           9,
           10
         ]
@@ -20,60 +21,66 @@
       {
         "kind": "drinks",
         "zh": "提供冰滴、冷萃与奶基咖啡组合",
-        "en": "Serves cold brew, ice drip, and milk-based drinks",
+        "en": "offers ice drip, cold brew, and milk-based coffee blends",
         "from": [
-          4,
-          5
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "手冲咖啡售价52元（93分豆）",
-        "en": "Pour-over priced at ¥52 (93-point beans)",
-        "from": [
-          6
+          3,
+          4
         ]
       },
       {
         "kind": "seating",
-        "zh": "座位为数量有限的木制矮凳",
-        "en": "Limited seating on wooden low stools",
+        "zh": "仅设有限木制矮凳，适合站喝",
+        "en": "limited wooden stools only, suited for standing orders",
         "from": [
-          8
+          7
         ]
       },
       {
         "kind": "time",
-        "zh": "每日10:00–18:00营业",
-        "en": "Open daily 10:00–18:00",
+        "zh": "营业时间周一至周日 10:00-18:00",
+        "en": "open daily 10:00–18:00",
         "from": [
-          12
+          11
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "focus": {
         "value": 30,
         "from": [
-          8
+          7
         ],
-        "zh": "座位少且为矮凳",
-        "en": "Few low stools"
+        "zh": "座位少，不便久坐办公",
+        "en": "few seats, not ideal for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "灯光柔和，无明显喧闹",
+        "en": "soft lighting, no loud noise"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "座位有限，难久坐",
+        "en": "limited seating, not meant to linger"
       },
       "adventure": {
-        "value": 80,
+        "value": 70,
         "from": [
-          1,
           3,
           4,
-          5,
-          9,
-          11
+          10
         ],
-        "zh": "手冲、虹吸、冰滴及单一产地豆",
-        "en": "Pour-over, siphon, cold drip, single-origin"
+        "zh": "多款手冲与特殊萃取方式",
+        "en": "varied brewing methods and specialty pours"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:32:57Z"
+  "fetchedAt": "2026-09-12T16:42:53Z"
 }

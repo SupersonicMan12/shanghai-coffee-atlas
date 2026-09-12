@@ -3,65 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 2,
-      "title": "上海有9000家咖啡馆,这是我们最爱的20家|2025年度榜单",
-      "url": "https://www.sohu.com/a/984538328_113612",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 3,
-      "title": "上海有9000家咖啡馆,这是我们最爱的20家|2025年度榜单",
-      "url": "https://www.163.com/dy/article/KL3RTBEO0553TF9O.html",
-      "site_name": "163网易免费邮"
-    },
-    {
-      "index": 4,
-      "title": "上海咖啡,大陆第一北欧咖啡馆_rgang",
-      "url": "https://www.sohu.com/a/648096380_121147284?scm=1102.xchannel:1479:110036.0.3.0~9010.68.1217001.0.0",
-      "site_name": "搜狐"
-    },
-    {
-      "index": 5,
-      "title": "上海新晋“顶流”!-86℃的夏天是怎样的感觉?",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTk0NTY2OQ==&mid=2650762198&idx=1&sn=f4d7486d831f5c90d7f9bd75d2298cc7&chksm=899c59e0f8b551416b0dba0a96ad046d8eed600834e38bd0f477dc20bf2f46f97b05d7564890&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 6,
-      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
-      "url": "https://m.jfdaily.com/news/detail?id=1111820",
-      "site_name": "解放网"
-    },
-    {
-      "index": 7,
-      "title": "上海咖啡馆的震撼,全国领先。",
-      "url": "https://www.163.com/dy/article/IO18U9VF0522CJAP.html",
-      "site_name": "163网易免费邮"
-    },
-    {
-      "index": 8,
-      "title": "藏在咖啡馆里的上海历史--文史 - 中国作家网",
-      "url": "https://www.chinawriter.com.cn/n1/2022/0329/c404063-32386419.html",
-      "site_name": ""
-    },
-    {
-      "index": 9,
-      "title": "酱园弄,回来了",
-      "url": "https://whlyj.sh.gov.cn/gqfc/20250619/e23c5e137b3543c4858b705d6b420d48.html",
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
       "site_name": "“上海”门户网"
     },
     {
-      "index": 10,
-      "title": "【专题报道】Punchline中国首店开在上海弄堂深处尝过这杯才知过去 ...",
-      "url": "https://www.shyp.gov.cn/shypq/yshj-tzgg/20200707/359613.html",
-      "site_name": "中国政府网"
+      "index": 2,
+      "title": "Shanghai just loves to smell the coffee",
+      "url": "https://www.chinadaily.com.cn/a/202104/19/WS607cd9a5a31024ad0bab6590_2.html",
+      "site_name": "中国日报网"
+    },
+    {
+      "index": 3,
+      "title": "Shanghai's Hidden Gem Cafe: Village Uncle (村口大叔) - TikTok",
+      "url": "https://www.tiktok.com/@ikwazzz/video/7627653804581801233",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "SHANGHAI QUENCHES ITS THIRST FOR COFFEE AGAIN",
+      "url": "https://www.chinadaily.com.cn/a/202206/15/WS62a948cda310fd2b29e62d86.html",
+      "site_name": "中国日报网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:12Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:03Z",
+  "retriedEn": true
 }

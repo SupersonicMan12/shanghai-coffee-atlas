@@ -1,64 +1,56 @@
 {
   "cafeId": "85-c-bakery-cafe-osm-2",
-  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
-  "inputDigest": "2e8bdad6eff4",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "77ccb0c277f9",
   "raw": {
     "headline": {
       "zh": "海盐咖啡配奶酪",
-      "en": "Sea-salt coffee with cheese foam"
+      "en": "Sea salt coffee with cheese"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "招牌海盐咖啡上层配绵密奶酪",
-        "en": "Signature sea-salt coffee topped with creamy cheese",
+        "zh": "招牌饮品为海盐咖啡，上层有绵密奶酪",
+        "en": "Signature drink is sea salt coffee with creamy cheese on top",
         "from": [
           1
-        ]
-      },
-      {
-        "kind": "story",
-        "zh": "品牌名源自85°C冲煮咖啡最香醇",
-        "en": "Named after 85°C, the ideal coffee brewing temperature",
-        "from": [
-          2
-        ]
-      },
-      {
-        "kind": "time",
-        "zh": "部分门店24小时营业，覆盖三餐时段",
-        "en": "Some locations open 24 hours, serving all dayparts",
-        "from": [
-          3
-        ]
-      },
-      {
-        "kind": "seating",
-        "zh": "开放式空间设计，适合情侣约会和家庭聚会",
-        "en": "Open layout suited for dates and family gatherings",
-        "from": [
-          4
-        ]
-      },
-      {
-        "kind": "food",
-        "zh": "大杯咖啡第二杯限时30元",
-        "en": "Second large coffee priced at ¥30 during promotions",
-        "from": [
-          5
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "饮品独特但非办公场景",
+        "en": "Unique drink, not for work"
+      },
+      "energy": {
         "value": 60,
         "from": [
-          4
+          1
         ],
-        "zh": "开放式空间适合久坐",
-        "en": "Open layout encourages lingering"
+        "zh": "连锁店常见热闹氛围",
+        "en": "Typical chain store energy"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "饮品需搭配食用，适合停留",
+        "en": "Drink requires eating, encourages lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "咸甜组合不常见",
+        "en": "Uncommon sweet-salty combo"
       }
     }
   },
-  "fetchedAt": "2026-09-12T14:41:57Z"
+  "fetchedAt": "2026-09-12T16:48:24Z"
 }

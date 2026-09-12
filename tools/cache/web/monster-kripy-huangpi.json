@@ -3,59 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
-      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
-      "site_name": "腾讯网"
+      "title": "MONSTER LEMBUT | Trip.com Shanghai",
+      "url": "https://id.trip.com/moments/detail/shanghai-2-140084947?locale=id-ID",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
-      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
-      "site_name": "QQ"
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 3,
-      "title": "这首店一开,上海有了一阵小轰动! ",
-      "url": "https://m.sohu.com/sa/812972692_391486",
-      "site_name": "搜狐网"
+      "title": "这个端午,静安一定稳稳接住你!去哪儿玩够嗨,怎么逛最适意?三大商圈打卡攻略来了",
+      "url": "https://www.shobserver.com/sgh/detail?id=4006567",
+      "site_name": "上观新闻"
     },
     {
       "index": 4,
-      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
-      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
-      "site_name": "东方财富网"
-    },
-    {
-      "index": 5,
-      "title": "值友故事:好咖啡要分享,我的日常豆单笔记(八) ",
-      "url": "https://weibo.com/ttarticle/p/show?id=2309405286544629432477",
-      "site_name": "无"
-    },
-    {
-      "index": 6,
-      "title": "谁懂啊!北外滩上海咖啡文化节神仙口味合集,看完必冲→",
-      "url": "https://www.jfdaily.com/sgh/detail?id=1743601",
-      "site_name": "解放网"
-    },
-    {
-      "index": 7,
-      "title": "以一座城市,品一杯咖香",
-      "url": "https://www.icppcc.cn/newsDetail_1096801",
-      "site_name": "政协头条"
-    },
-    {
-      "index": 8,
-      "title": "全球咖啡店最多的城市竟是上海，瑞幸们要内卷了？ - FoodTalks",
-      "url": "https://www.foodtalks.cn/news/7445",
-      "site_name": "FoodTalks全球食品资讯网"
-    },
-    {
-      "index": 9,
-      "title": "一杯咖啡，一座城- 云新闻- 云南日报网",
-      "url": "https://www.yndaily.com/html/2025/yunxinwen_0424/134323.html",
-      "site_name": ""
+      "title": "Recharge after work: Essential coffee spots in Huangpu",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20250605/093287378e49409dbb1171859011ad47.html",
+      "site_name": "中国政府网"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:44:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:28Z",
+  "retriedEn": true
 }

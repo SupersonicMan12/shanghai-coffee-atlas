@@ -3,29 +3,48 @@
   "results": [
     {
       "index": 1,
-      "title": "Coucou 咖啡厅 - Sortiraparis",
-      "url": "https://www.sortiraparis.com/zh/lieux/82428-coucou-ka-fei-ting",
+      "title": "Super cozy and cute cafe on Nanchang rd   | Trip.com Shanghai",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-119671251/",
       "site_name": ""
     },
     {
       "index": 2,
-      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
-      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "title": "There are hidden gems to explore around Nanchang Road",
+      "url": "https://www.citynewsservice.cn/articles/cns/lifestyle/there-are-hidden-gems-to-explore-around-nanchang-road-dmjwxryn",
       "site_name": ""
     },
     {
       "index": 3,
-      "title": "一杯来自中国的咖啡，靠什么在海外“圈粉”？",
-      "url": "https://segg.sh.gov.cn/zxfw/xwzx/20260421/7e241e8c147d4fbb9d1ad69abb51ac18.html",
-      "site_name": "中国政府网"
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "“上海”门户网"
     },
     {
       "index": 4,
-      "title": "也来说说咖啡趣事",
-      "url": "https://www.thepaper.cn/newsDetail_forward_31929744",
-      "site_name": "澎湃新闻网"
+      "title": "Step into Shanghai's streets and charms",
+      "url": "https://english.shanghai.gov.cn/en-CityTour/20240913/86641fb1fb8b46549a354a4715796d42.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Coucou Hot Pot Chaqi (Shanghai the Mixc Shopping Center Branch)",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9268A7AF196&address=Wuzhong+Road+No.1599+Shanghai+the+Mixc+F+L3%2C+Minhang%2C+Shanghai+China&coordinate=31.170540%2C121.370448&name=Coucou+Hot+Pot+Chaqi+%28Shanghai+the+Mixc+Shopping+Center+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "Cou Cou Hot Pot (Taikoo Li) Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/26033/cou_cou_hot_pot_taikoo_li",
+      "site_name": ""
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:44:02Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:24Z",
+  "retriedEn": true
 }

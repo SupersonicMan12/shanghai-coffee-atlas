@@ -3,53 +3,30 @@
   "results": [
     {
       "index": 1,
-      "title": "微信公众平台",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MTg0NTk5Mw==&mid=2650659287&idx=7&sn=feab886fed5552976f542192a055cf9a&chksm=865c7209c2cbf75fe23445742c0851c1a949e75ceb4114c9c75ffce258dd7e9c510ae02d66da&scene=27",
-      "site_name": "腾讯网"
+      "title": "URBN Boutique Shanghai",
+      "url": "https://www.agoda.com/en-za/urbn-boutique-shanghai/hotel/shanghai-cn.html",
+      "site_name": "无"
     },
     {
       "index": 2,
-      "title": "全上海最火的咖啡馆,在家也能喝上了!",
-      "url": "https://www.sohu.com/a/1029729889_113612",
-      "site_name": "搜狐"
+      "title": "Book SKjianshejiudiansongjiangdaxuechengdongmingguangchangdian",
+      "url": "https://www.agoda.cn/sushi-qingju-hotel-songjiang-university-town/hotel/shanghai-cn.html",
+      "site_name": "安可达"
     },
     {
       "index": 3,
-      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
-      "site_name": "腾讯网"
+      "title": "URBN Hotel Shanghai - Traveloka",
+      "url": "https://www.traveloka.com/en-en/hotel/china/urbn-hotel-shanghai-9000007487312",
+      "site_name": ""
     },
     {
       "index": 4,
-      "title": "闻“咖啡香”识一座城,这些生活在上海的老外“入坑”了…",
-      "url": "https://www.163.com/dy/article/HF0C1L680512DU6N.html",
-      "site_name": "网易"
-    },
-    {
-      "index": 5,
-      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
-      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
-      "site_name": "东方财富网"
-    },
-    {
-      "index": 6,
-      "title": "总书记点赞的豆子有多香?上海九千家咖啡馆都在用 ",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDU4Mzc3Nw==&mid=2652135627&idx=1&sn=abd8055bb899ffc45c1e5180409c882e&chksm=bccc0b25f638e9e090db97a3088465c09a1388783cb336fdd0970fd15292f9293f3ce4bf0191&scene=27",
-      "site_name": "腾讯网"
-    },
-    {
-      "index": 7,
-      "title": "上海一咖啡店天价咖啡引热议 每杯仅用13-15克豆子,全球限量20公斤",
-      "url": "https://www.163.com/dy/article/KFJJOMB005566I6C.html",
-      "site_name": "163网易免费邮"
-    },
-    {
-      "index": 8,
-      "title": "上海前10咖啡馆,你在家也能喝到了,内含3支瑰夏!",
-      "url": "https://news.qq.com/rain/a/20250419A03TE800",
-      "site_name": "腾讯网"
+      "title": "Book the Suites Shanghai",
+      "url": "https://www.agoda.cn/the-suites-shanghai/hotel/shanghai-cn.html?searchrequestid=550b2e7a-33b6-456d-ab2c-c9626c9d6105",
+      "site_name": "安可达"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:42:25Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:39Z",
+  "retriedEn": true
 }

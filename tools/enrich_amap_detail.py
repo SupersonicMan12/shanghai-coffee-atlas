@@ -3,7 +3,9 @@
 
 Resumable and quota-aware: one JSON per café under tools/cache/amap-detail/;
 cafés with a cache file are skipped. Cafés that carry `evidence.amap.id` are
-fetched by id; the rest are matched by a 150 m around-search on name.
+fetched by id; the rest are matched by name — first a 200 m around-search,
+then a city text search kept only within 400 m. Café coordinates are WGS-84 and
+Amap speaks GCJ-02, so both searches convert first.
 
 Usage:
     AMAP_WEB_API_KEY=... python3 tools/enrich_amap_detail.py [--limit N] [--refresh-unmatched]
@@ -13,7 +15,9 @@ from __future__ import annotations
 
 import argparse
 import difflib
+import math
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -21,11 +25,20 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from amap_harvest import wgs84_to_gcj02  # noqa: E402
 from enrich_common import AMAP_DETAIL, cafes, now_iso, read_json, write_json  # noqa: E402
 
 API = 'https://restapi.amap.com/v3/place'
 DELAY = 0.36
 QUOTA_INFOCODES = {'10003', '10014', '10044'}
+AROUND_M = 200
+TEXT_MAX_M = 400
+NOISE = re.compile(
+    r'[\(（].*?[\)）]|^上海市?|\b(coffee|caf[eé]|roaster[sy]?|roastery|espresso|bar|studio)\b'
+    r'|咖啡馆|咖啡店|咖啡厅|咖啡|烘焙|[\s.\-&,，、\'’!！·]',
+    re.I,
+)
+CJK = re.compile(r'[\u4e00-\u9fff]')
 
 
 def get(path: str, params: dict[str, str]) -> dict:
@@ -61,13 +74,64 @@ def record(cafe: dict, payload: dict, matched: bool, source_id: str | None) -> d
     }
 
 
+def core(name: str | None) -> str:
+    return NOISE.sub('', (name or '').lower())
+
+
+def substantive(s: str) -> bool:
+    return len(s) >= 4 or (len(s) >= 2 and bool(CJK.search(s)))
+
+
 def similar(cafe: dict, poi: dict) -> bool:
-    cand = str(poi.get('name') or '').lower()
-    for target in (cafe['name'], cafe['nameZh']):
-        t = (target or '').lower()
-        if t and (t in cand or cand in t or difflib.SequenceMatcher(None, cand, t).ratio() >= 0.6):
+    """Compare names with branch suffixes and 'coffee/咖啡' noise stripped, so
+    'Maancat Coffee' never matches 'La casbah coffee 咖啡店'."""
+    cand = core(poi.get('name'))
+    if not cand:
+        return False
+    # the atlas writes branches as 'Seesaw 咖啡 · 愚园路'; the road is not part of the name
+    for target in (cafe['name'], re.sub(r'\s·\s.*$', '', cafe['nameZh'] or '')):
+        t = core(target)
+        if not t:
+            continue
+        if t == cand:
+            return True
+        if substantive(t) and substantive(cand) and (t in cand or cand in t):
+            return True
+        if difflib.SequenceMatcher(None, cand, t).ratio() >= 0.75:
             return True
     return False
+
+
+def is_cafe_poi(poi: dict) -> bool:
+    return str(poi.get('typecode') or '').startswith('0505') or '咖啡' in str(poi.get('type') or '')
+
+
+def metres(lng1: float, lat1: float, lng2: float, lat2: float) -> float:
+    r = 6371000
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    a = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(lng2 - lng1) / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def find_poi(cafe: dict) -> dict | None:
+    glng, glat = wgs84_to_gcj02(cafe['lng'], cafe['lat'])
+    around = get('around', {'location': f'{glng:.6f},{glat:.6f}', 'radius': str(AROUND_M),
+                            'types': '050500', 'sortrule': 'distance', 'offset': '25', 'page': '1'})
+    poi = next((p for p in around.get('pois') or [] if similar(cafe, p)), None)
+    if poi is not None:
+        return poi
+    time.sleep(DELAY)
+    for keyword in dict.fromkeys(k for k in (cafe['nameZh'], cafe['name']) if k):
+        text = get('text', {'keywords': keyword, 'city': '上海', 'citylimit': 'true', 'offset': '20', 'page': '1'})
+        for p in text.get('pois') or []:
+            loc = str(p.get('location') or '')
+            if ',' not in loc or not is_cafe_poi(p) or not similar(cafe, p):
+                continue
+            plng, plat = (float(x) for x in loc.split(','))
+            if metres(glng, glat, plng, plat) <= TEXT_MAX_M:
+                return p
+        time.sleep(DELAY)
+    return None
 
 
 def main() -> None:
@@ -90,9 +154,7 @@ def main() -> None:
             if cafe['amapId']:
                 rec = record(cafe, get('detail', {'id': cafe['amapId']}), True, cafe['amapId'])
             else:
-                around = get('around', {'location': f"{cafe['lng']},{cafe['lat']}", 'radius': '150',
-                                        'types': '050500', 'sortrule': 'distance', 'offset': '20', 'page': '1'})
-                poi = next((p for p in around.get('pois') or [] if similar(cafe, p)), None)
+                poi = find_poi(cafe)
                 if poi is None:
                     rec = {'cafeId': cafe['id'], 'matched': False, 'photos': [], 'fetchedAt': now_iso()}
                 else:

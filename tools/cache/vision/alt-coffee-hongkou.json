@@ -1,0 +1,71 @@
+{
+  "cafeId": "alt-coffee-hongkou",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "de37808142a3",
+  "photos": [
+    "https://aos-comment.amap.com/B0LDOR5SU0/comment/content_media_external_file_1000034296_ss__1769416434295_38446216.jpg",
+    "https://aos-comment.amap.com/B0LDOR5SU0/comment/content_media_external_file_6530_1758082966976_76671286.jpg",
+    "https://aos-comment.amap.com/B0LDOR5SU0/comment/content_media_external_file_132882_ss__1758982490085_18285292.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台后方置物架上可见红色Fuji Royal手动磨豆机",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台区域设有多组手冲器具（滤杯、分享壶）及多个金属手冲壶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "左侧窗边有红色Novo Mark II虹吸壶咖啡机，窗外可见绿树与白色汽车",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台操作区摆放多瓶装咖啡豆（玻璃罐），部分标签可辨识为“云南”等产地字样",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台下方置物架上放有两台电热水壶（银色与白色）及两个不锈钢手冲壶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙面挂有黑板写有“松屋式手冲”，表明主打该冲煮法",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "空间为狭长型室内，无明显室外座位，未见顾客或工作人员使用笔记本电脑",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "装修以白色砖墙为主，吧台为深色木纹+黑色金属支架，具工业复古风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 1.0
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:33Z"
+}

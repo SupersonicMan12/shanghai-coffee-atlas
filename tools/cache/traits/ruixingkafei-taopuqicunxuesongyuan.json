@@ -1,53 +1,53 @@
 {
   "cafeId": "ruixingkafei-taopuqicunxuesongyuan",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "63da351e4e7f",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e593484e1721",
   "raw": {
     "headline": {
-      "zh": "街角快取站，生椰拿铁热",
-      "en": "Corner quick-stop for coconut lattes"
+      "zh": "站喝快取店，无堂食",
+      "en": "Stand-up quick pickup, no seating"
     },
     "traits": [
       {
         "kind": "seating",
-        "zh": "木质桌椅，座位数量较少",
-        "en": "Few wooden tables and chairs",
+        "zh": "店内设木质桌椅，座位数量较少",
+        "en": "Few wooden tables and chairs inside",
         "from": [
           2
         ]
       },
       {
         "kind": "drinks",
-        "zh": "招牌饮品含生椰拿铁、杨枝甘露",
-        "en": "Signature drinks: coconut latte, mango sago",
+        "zh": "招牌饮品包括生椰拿铁、杨枝甘露、柠檬茶",
+        "en": "Popular drinks include coconut milk latte, yuzu tea, lemon tea",
         "from": [
           9,
-          16
+          13
         ]
       },
       {
-        "kind": "time",
-        "zh": "工作日7:00-21:00，周末7:30起",
-        "en": "Open 7:00–21:00 weekdays, 7:30 weekends",
+        "kind": "space",
+        "zh": "临街玻璃门，整面落地窗",
+        "en": "Full glass front facing the street",
         "from": [
-          15
+          3,
+          8
         ]
       },
       {
         "kind": "people",
-        "zh": "有顾客使用笔记本电脑",
-        "en": "Customers use laptops here",
+        "zh": "顾客可见使用笔记本电脑办公",
+        "en": "Customers seen using laptops for work",
         "from": [
           1
         ]
       },
       {
-        "kind": "view",
-        "zh": "整面临街玻璃窗，街角位置",
-        "en": "Full street-facing glass at corner spot",
+        "kind": "time",
+        "zh": "营业时间周一至周五 07:00-21:00，周末 07:30-21:00",
+        "en": "Open 07:00–21:00 Mon–Fri, 07:30–21:00 Sat–Sun",
         "from": [
-          3,
-          8
+          12
         ]
       }
     ],
@@ -57,28 +57,36 @@
         "from": [
           1
         ],
-        "zh": "可见有人用电脑办公",
-        "en": "Laptops in use"
+        "zh": "有顾客用电脑办公",
+        "en": "Laptops in use by customers"
       },
-      "linger": {
-        "value": 30,
-        "from": [
-          2,
-          12
-        ],
-        "zh": "座位少，属快取店模型",
-        "en": "Few seats, takeout-focused"
-      },
-      "adventure": {
+      "energy": {
         "value": 50,
         "from": [
-          9,
-          16
+          3,
+          8,
+          6
         ],
-        "zh": "推出现象级风味拿铁",
-        "en": "Known for flavored lattes"
+        "zh": "临街且有水果摊位",
+        "en": "On busy street with fruit stand"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "90%为快取店，无或少量堂食",
+        "en": "Most are quick pickup stores with little seating"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "平均每3-4天推一款新品",
+        "en": "New drink launched every 3–4 days"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:40:44Z"
+  "fetchedAt": "2026-09-12T16:45:40Z"
 }

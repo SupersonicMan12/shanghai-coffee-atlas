@@ -1,51 +1,52 @@
 {
   "cafeId": "bluebottlecoffee-xianmengzhongxin",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "f139e07806c3",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "023840c95a83",
   "raw": {
     "headline": {
-      "zh": "只售48小时内现烘咖啡",
-      "en": "Sells only coffee roasted within 48 hours"
+      "zh": "48小时新鲜烘焙咖啡",
+      "en": "Freshly roasted within 48 hours"
     },
     "traits": [
       {
+        "kind": "beans",
+        "zh": "只售卖烘焙后48小时内咖啡豆",
+        "en": "Sells coffee only within 48 hours of roasting",
+        "from": [
+          7
+        ]
+      },
+      {
         "kind": "drinks",
-        "zh": "提供海耶斯谷(浓缩)、贝拉多曼、传奇律动和三非变奏等经典拼配咖啡",
-        "en": "Serves signature blends: Hayes Valley, Belladonna, Legend Rhythm, and San Fei Variations",
+        "zh": "提供海耶斯谷(浓缩)等经典拼配饮品",
+        "en": "Offers signature blends like Hayes Valley (espresso)",
         "from": [
           8
         ]
       },
       {
         "kind": "food",
-        "zh": "提供一块巧克力蛋糕类甜点",
-        "en": "Serves a chocolate cake-style dessert",
+        "zh": "供应巧克力蛋糕类甜点",
+        "en": "Serves chocolate cake-style pastries",
         "from": [
           4
         ]
       },
       {
         "kind": "space",
-        "zh": "店面为小型独立店，有吧台式窗口",
-        "en": "Small standalone shop with a counter-style window",
+        "zh": "店面为小型独立店，带吧台窗口",
+        "en": "Small standalone shop with counter window",
         "from": [
-          1
-        ]
-      },
-      {
-        "kind": "drinks",
-        "zh": "可见抹茶拿铁和焦糖玛奇朵两款饮品",
-        "en": "Offers matcha latte and caramel macchiato",
-        "from": [
-          3
+          1,
+          5
         ]
       },
       {
         "kind": "time",
-        "zh": "营业时间：周一至周日 09:00-21:00",
-        "en": "Open daily 9:00–21:00",
+        "zh": "营业时间周一至周日 09:00-21:00",
+        "en": "Open daily 09:00–21:00",
         "from": [
-          15
+          13
         ]
       }
     ],
@@ -53,28 +54,29 @@
       "focus": {
         "value": 30,
         "from": [
-          1
+          13
         ],
-        "zh": "吧台式窗口为主",
-        "en": "Counter-style window only"
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          13
+        ],
+        "zh": "日常营业，中等人流",
+        "en": "Moderate foot traffic"
       },
       "linger": {
-        "value": 20,
+        "value": 40,
         "from": [
-          1
+          1,
+          13
         ],
-        "zh": "小型独立店，无座位区",
-        "en": "Small standalone shop, no seating area"
-      },
-      "adventure": {
-        "value": 60,
-        "from": [
-          8
-        ],
-        "zh": "提供多款命名独特经典拼配",
-        "en": "Multiple distinct named signature blends"
+        "zh": "小型吧台店，适合短暂停留",
+        "en": "Counter-only layout, short stays"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:42:26Z"
+  "fetchedAt": "2026-09-12T16:48:48Z"
 }

@@ -1,25 +1,41 @@
 {
-  "facts": [],
+  "facts": [
+    {
+      "text": "地址为安福路322号14幢一楼，近武康路与安福路交口",
+      "kind": "space",
+      "quote": "地址: 上海市徐汇区安福路322号14幢一楼(武康路与安福路交口)",
+      "url": "https://www.amap.com/place/B0FFI9QGYS",
+      "site": "高德地图"
+    },
+    {
+      "text": "用户评价称‘饼好吃酒好喝’",
+      "kind": "food",
+      "quote": "第一次来,只能说饼好吃酒好喝啊!",
+      "url": "https://www.amap.com/place/B0FFI9QGYS",
+      "site": "高德地图"
+    }
+  ],
   "results": [
     {
       "index": 1,
-      "title": "M Stand",
-      "url": "https://baike.baidu.com/item/M%20Stand/62218591",
-      "site_name": "百度百科"
+      "title": "RACBAR",
+      "url": "https://www.amap.com/place/B0FFI9QGYS",
+      "site_name": "高德地图"
     },
     {
       "index": 2,
-      "title": "RAC Coffee(上海市) - 餐厅/美食点评 - Tripadvisor",
-      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d13236001-Reviews-RAC_Coffee-Shanghai.html",
-      "site_name": "Tripadvisor"
+      "title": "RAC (Anfu Lu) Shanghai - Cafes, Crepes, French, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/15087/rac_bar_anfu_lu",
+      "site_name": ""
     },
     {
       "index": 3,
-      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
-      "site_name": "腾讯网"
+      "title": "上海“宝藏级”文艺小马路?没错,说的就是TA",
+      "url": "https://www.jfdaily.com.cn/wx/detail.do?id=444431",
+      "site_name": "无"
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:38:53Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:26:59Z",
+  "retriedEn": true
 }

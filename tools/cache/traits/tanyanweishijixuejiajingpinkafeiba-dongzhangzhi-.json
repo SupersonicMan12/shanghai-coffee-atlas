@@ -1,74 +1,69 @@
 {
   "cafeId": "tanyanweishijixuejiajingpinkafeiba-dongzhangzhi-",
-  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
-  "inputDigest": "c8cedf6c1661",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9a013082e0a2",
   "raw": {
     "headline": {
-      "zh": "威士忌与精品咖啡共存",
-      "en": "Whisky and specialty coffee together"
+      "zh": "威士忌雪茄配精品咖啡",
+      "en": "Whisky, cigars with specialty coffee"
     },
     "traits": [
       {
         "kind": "drinks",
-        "zh": "提供冰咖啡饮品含奶层",
-        "en": "Serves iced coffee with milk layer",
+        "zh": "提供麦卡伦12年等威士忌饮品",
+        "en": "Serves Macallan 12-year and other whiskies",
         "from": [
           2
         ]
       },
       {
-        "kind": "drinks",
-        "zh": "陈列麦卡伦12年等威士忌",
-        "en": "Stocks Macallan 12 and other whiskies",
-        "from": [
-          3
-        ]
-      },
-      {
-        "kind": "beans",
-        "zh": "使用专业意式咖啡机萃取",
-        "en": "Uses professional espresso machine",
-        "from": [
-          1,
-          5
-        ]
-      },
-      {
         "kind": "seating",
-        "zh": "设有室外座位",
-        "en": "Has outdoor seating",
+        "zh": "设有室外座位，可享街道与绿植景观",
+        "en": "Outdoor seating with street and greenery views",
         "from": [
-          7
+          5,
+          4,
+          3
         ]
       },
       {
         "kind": "time",
-        "zh": "每日11:00-23:00营业",
-        "en": "Open daily 11am–11pm",
+        "zh": "营业时间至晚上23:00",
+        "en": "Open until 11:00 PM",
         "from": [
-          8
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打精品咖啡，有咖啡机萃取浓缩",
+        "en": "Specialty coffee with espresso machine in use",
+        "from": [
+          1,
+          7
         ]
       }
     ],
     "axisHints": {
-      "linger": {
+      "energy": {
         "value": 60,
         "from": [
-          7
+          3,
+          4
         ],
-        "zh": "有室外座位可久坐",
-        "en": "Outdoor seating for lingering"
+        "zh": "闹市中的安静角落",
+        "en": "Quiet corner in a busy area"
       },
-      "adventure": {
-        "value": 50,
+      "linger": {
+        "value": 70,
         "from": [
-          2,
-          3
+          5,
+          6
         ],
-        "zh": "咖啡与威士忌组合少见",
-        "en": "Unusual coffee-whisky combo"
+        "zh": "适合久坐休憩",
+        "en": "Good for lingering"
       }
     }
   },
-  "fetchedAt": "2026-09-12T15:33:58Z"
+  "fetchedAt": "2026-09-12T16:43:08Z"
 }

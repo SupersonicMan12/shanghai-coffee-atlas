@@ -3,41 +3,42 @@
   "results": [
     {
       "index": 1,
-      "title": "一杯极简意式咖啡,畅享欧洲之旅! - 大众点评吃喝玩乐精选",
-      "url": "https://www.dianping.com/discovery/951366492",
-      "site_name": "大众点评网"
+      "title": "Shanghai Min (EXPO) 上海小南国（世博店）",
+      "url": "https://www.diningcity.cn/en/shanghai/restaurant_xiao_nan_guo_expo/map",
+      "site_name": ""
     },
     {
       "index": 2,
-      "title": "上海市(上海世博展览馆) 5 大咖啡馆 - Tripadvisor",
-      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn15622148-Shanghai.html",
-      "site_name": "Tripadvisor"
+      "title": "Vuoiuna Caffe Laibei Coffee (Convention & Exhibition Centre Branch)",
+      "url": "https://maps.apple.com/place?auid=1118835274363627&lsp=57879",
+      "site_name": "Apple (中国)"
     },
     {
       "index": 3,
-      "title": "上海真的不缺有意思的地方!这届年轻人爱上弄堂咖啡馆→",
-      "url": "https://www.shyouth.net/web/1/shouye/qingchunshanghai/info-909dea062e4501e3b39bd0220a6352d9.html",
-      "site_name": "上海共青团工作门户网站"
+      "title": "15 boutique cafés in Putuo district (III)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/fa7462705eb64689956fcf9fe4f21e4e.html",
+      "site_name": "中国政府网"
     },
     {
       "index": 4,
-      "title": "上海咖啡店首次突破10000家!“五一”假期来上海国际咖啡文化节品全球风味",
-      "url": "https://www.51ldb.com/shsldb/ms/content/019ddd9bae4cc001000066d533acd97d.html",
-      "site_name": "劳动报"
+      "title": "上海昂道电子商务有限公司",
+      "url": "https://baike.baidu.com/item/上海昂道电子商务有限公司/52655023",
+      "site_name": "百度百科"
     },
     {
       "index": 5,
-      "title": "咖啡，为什么上海？ - 央广网",
-      "url": "https://www.cnr.cn/shanghai/shzx/zq/20230510/t20230510_526247261.shtml",
-      "site_name": "央广网"
+      "title": "Shanghai Xuhui Store",
+      "url": "https://www.ikea.cn/cn/en/stores/shanghai-xuhui/",
+      "site_name": "宜家家居官网"
     },
     {
       "index": 6,
-      "title": "品味上海咖啡香 ",
-      "url": "https://m.gmw.cn/2025-06/09/content_1304054829.htm",
-      "site_name": "光明网"
+      "title": "Arte Cafe & Lounge - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/arte-cafe-and-lounge-11159308/",
+      "site_name": ""
     }
   ],
-  "model": "qwen-plus",
-  "fetchedAt": "2026-09-12T13:41:41Z"
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:19Z",
+  "retriedEn": true
 }
