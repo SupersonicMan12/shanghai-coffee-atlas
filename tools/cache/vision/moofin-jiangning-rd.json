@@ -1,0 +1,65 @@
+{
+  "cafeId": "moofin-jiangning-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "d276befc954f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/33c9fcc8522bb6920000000959710116?type=pic",
+    "https://aos-comment.amap.com/B0J6U7LR6I/comment/content_media_external_file_8964_ss__1758456213219_74404831.jpg",
+    "https://aos-comment.amap.com/B0J6U7LR6I/comment/BDF4D571_3E09_4A39_A4CC_6E147DA47D5D_L0_001_2000_150_1765329163497_87404195.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有绿植围栏和立式菜单牌，显示有鱼蛋三明治。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质圆桌和金属托盘，桌上放着可颂与拉花咖啡。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "食物含贝果三明治、可颂，饮品为浓缩与带拉花的奶咖。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口玻璃门通透，室内可见部分桌椅，采光应较好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内桌子是实木材质，环境简洁，无明显多人聚集。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "未见烘焙机、手冲台或磨豆机等专业设备。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无顾客在用电脑，也未见书架或宠物。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:24Z"
+}

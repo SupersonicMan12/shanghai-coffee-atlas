@@ -1,0 +1,71 @@
+{
+  "cafeId": "geographer-shangchangshijihuiguangchang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4ef02a4d0ac1",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFM7B97Q/comment/1535b7e9a540b00a6008d479ecf6d758_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFM7B97Q/comment/1af849d0a946e184c97c4d71ae5f8716_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFM7B97Q/comment/43c78f24497bb9893036d23106ee9609_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台区有高脚凳，后方有卡座，座位数量级为some。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品有“Sweetie Polly”，含芒果汁、氮气处理，当季限定。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有大型人造月亮灯、绿植和几何造型酒架装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台上方挂有电子屏幕菜单，可看到部分饮品名称。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有立式安检门，位于入口处。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用电脑或手机办公。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见手冲咖啡器具及磨豆机在吧台区域。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "店内有书架陈列书籍，部分区域呈洞穴式拱形结构。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:01:02Z"
+}

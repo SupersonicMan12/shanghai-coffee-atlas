@@ -1,0 +1,49 @@
+{
+  "cafeId": "momo-cafe-zhenruhuanyucheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c0947300b67a",
+  "raw": {
+    "headline": {
+      "zh": "全国首店北海道汤咖喱",
+      "en": "First-ever Hokkaido soup curry"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "主打清爽微辣北海道汤咖喱",
+        "en": "Serves refreshing, mildly spicy Hokkaido soup curry",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日11:00–22:00营业",
+        "en": "Open daily 11:00–22:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "全国首店，龙华西岸西餐销量第7",
+        "en": "National flagship; ranked #7 in Xijian Western food",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "人均约105元，有团购套餐",
+        "en": "Avg. ¥105/person; offers group deals",
+        "from": [
+          6,
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:40:54Z"
+}

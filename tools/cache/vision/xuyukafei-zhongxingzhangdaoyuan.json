@@ -1,0 +1,71 @@
+{
+  "cafeId": "xuyukafei-zhongxingzhangdaoyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3b037f8ae0d6",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/781946bb8bcb677f2d4ca7dcfb8c45be",
+    "http://store.is.autonavi.com/showpic/b75d1e2d8625b3beb428edb8c1a5adb4",
+    "http://store.is.autonavi.com/showpic/ed52d7128c895d7ab2a68fbf640c2a13"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有三杯拉花咖啡，包括心形和网格图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡杯配碟，有黄色、红色等鲜艳颜色",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放紫色花卉装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有书架，书籍数量较多",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有沙发椅和小桌，适合阅读或休息",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有画作和照片，有装饰性文字标语",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有小型陶瓷杯装咖啡，杯身绘有人物图案",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌面散落咖啡豆，用于装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:07Z"
+}

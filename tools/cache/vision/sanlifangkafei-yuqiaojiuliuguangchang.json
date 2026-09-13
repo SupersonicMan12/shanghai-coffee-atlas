@@ -1,0 +1,65 @@
+{
+  "cafeId": "sanlifangkafei-yuqiaojiuliuguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a666f5d5b3a6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/43c70cc6c61cca710000002506190409?type=pic",
+    "https://store.is.autonavi.com/showpic/59d699251f704ea585b5c789fda7942a",
+    "https://store.is.autonavi.com/showpic/da39807c27db96e20000002851424425?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内位于商场内，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有吧台和操作区，可见饮品制作设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示牌显示有Dirty Coffee饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见橙色瓶装液体，可能为浓缩液或糖浆",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内设有宣传架和菜单展示",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "地面为浅色瓷砖，环境整洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "无明显座位区域，未见顾客使用",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:15Z"
+}

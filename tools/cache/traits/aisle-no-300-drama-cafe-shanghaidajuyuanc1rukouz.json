@@ -1,0 +1,81 @@
+{
+  "cafeId": "aisle-no-300-drama-cafe-shanghaidajuyuanc1rukouz",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f2b3ebe0d843",
+  "raw": {
+    "headline": {
+      "zh": "剧院后台风咖啡馆",
+      "en": "Theater-backstage vibe cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内呈斜顶结构，有金属与木质元素",
+        "en": "Sloped ceiling with metal and wood elements",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内有大型绿植和天窗采光",
+        "en": "Large plants and skylight illumination",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有编号座椅，类似影院排布",
+        "en": "Numbered seats arranged like a cinema",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "主打浅烘与极浅烘咖啡豆",
+        "en": "Specializes in light and ultra-light roast beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨两点，日咖夜酒",
+        "en": "Opens until 2am, day coffee night drinks",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          15
+        ],
+        "zh": "位于大剧院内，人流集中",
+        "en": "Located in a busy theater complex"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          15
+        ],
+        "zh": "交通便利，人流较多",
+        "en": "Well-connected with moderate foot traffic"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          14
+        ],
+        "zh": "营业时间长，适合久坐",
+        "en": "Long hours support extended stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:24Z"
+}

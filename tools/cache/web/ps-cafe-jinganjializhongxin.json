@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "PS.Cafe 是新加坡品牌，成立于1999年",
+      "kind": "story",
+      "quote": "它是新加坡咖啡文化的先驱，是高端咖啡品牌的代表之一。",
+      "url": "https://www.forbeschina.com/entrepreneur/46713",
+      "site": "福布斯生活| 新加坡咖啡文化的先驱PS.Cafe落地上海港汇"
+    },
+    {
+      "text": "推荐朗姆葡萄芝士蛋糕",
+      "kind": "food",
+      "quote": "推荐朗姆葡萄芝士蛋糕、松露雪花芝士薯条、比安",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/ps_cafe",
+      "site": "Restaurant PS.Cafe（上海）| 鼎食聚"
+    },
+    {
+      "text": "店铺绿植环绕，整体装修很有格调",
+      "kind": "space",
+      "quote": "店铺绿植环绕，整体装修很有格调，室外露台位置营造出城中度假的氛围。",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/ps_cafe",
+      "site": "Restaurant PS.Cafe（上海）| 鼎食聚"
+    },
+    {
+      "text": "价格偏贵，但是味道还是很不错的",
+      "kind": "story",
+      "quote": "他们的东西性价比不高，价格偏贵，但是味道还是很不错的",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-83484692/",
+      "site": "PS·Cafe（港滙店） (上海徐家匯地區)－餐牌、食評及資訊 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Restaurant PS.Cafe（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/ps_cafe",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "福布斯生活| 新加坡咖啡文化的先驱PS.Cafe落地上海港汇",
+      "url": "https://www.forbeschina.com/entrepreneur/46713",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Restaurant PS.Cafe（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh/shanghai/ps_cafe",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "2026O.P.S. CAFE | 上海餐廳指南與旅客實拍| Trip Moments",
+      "url": "https://hk.trip.com/moments/poi-o-p-s-cafe-36960781/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "PS·Cafe（港滙店） (上海徐家匯地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-83484692/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "这里的咖啡,为何如此“与众不同”?文末送福利→",
+      "url": "https://m.thepaper.cn/newsDetail_forward_24724601",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 8,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:05Z"
+}

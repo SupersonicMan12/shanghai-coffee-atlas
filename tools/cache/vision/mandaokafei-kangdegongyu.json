@@ -1,0 +1,65 @@
+{
+  "cafeId": "mandaokafei-kangdegongyu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9ff9088e1f9e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7337a7d8ed2365a14f296ffcef5a9cb1",
+    "http://store.is.autonavi.com/showpic/3c1004aa053e099f3e19bb581157a9a9",
+    "http://store.is.autonavi.com/showpic/f40410a65ff739206284c778dceae888"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面有玻璃门和落地窗，临街可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有餐桌和椅子，可容纳少量顾客",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供米饭套餐类食物，含炒菜、蔬菜、汤",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为咖啡，盛在白色杯碟中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有会员充值活动海报，显示充值金额与优惠",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有植物装饰，环境整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内设有吧台区域，可见饮料展示柜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:20Z"
+}

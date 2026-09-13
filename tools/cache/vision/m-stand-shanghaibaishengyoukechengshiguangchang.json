@@ -1,0 +1,71 @@
+{
+  "cafeId": "m-stand-shanghaibaishengyoukechengshiguangchang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "e02dfdefe105",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/763207b89acc0af9f78b40f2fad397a1",
+    "http://store.is.autonavi.com/showpic/9d1d4682b969c87a3180d35f9974a8bb",
+    "http://store.is.autonavi.com/showpic/9f84607415770681137281357a2e8cf8"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为绿色外墙+白色灯箱招牌，标有“M Stand”及“SHANG HAI Since 2017”",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口处设A型立牌菜单，右侧墙面有竖排文字“More Than Coffee”",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台内可见咖啡机、磨豆机、手冲架等设备，一人在操作",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内为开放式吧台设计，无明显座位区可见",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图中两块亚克力板分别印有品牌信息与‘WHAT’S ON YOUR Mind’字样",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外有绿植遮挡，夜间拍摄，地面有积雪或白色覆盖物",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图左侧可见摩托车后视镜，店门敞开，未见室外座位",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "无任何饮品、食物、书架、宠物、烘焙机或电脑出现",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:37Z"
+}

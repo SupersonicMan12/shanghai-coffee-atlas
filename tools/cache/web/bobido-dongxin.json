@@ -1,0 +1,61 @@
+{
+  "facts": [
+    {
+      "text": "店内有两层的舒适空间，装修风格明亮又可爱",
+      "kind": "space",
+      "quote": "店内有两层的舒适空间,装修风格明亮又可爱",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "2楼还有明档,可以看师傅现场搓包",
+      "kind": "view",
+      "quote": "2楼还有明档,可以看师傅现场搓包",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "主打一个现做现卖",
+      "kind": "food",
+      "quote": "主打一个现做现卖",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "招牌奶油布丁 26元",
+      "kind": "drinks",
+      "quote": "招牌奶油布丁 26元",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "超级奶拿铁 26元",
+      "kind": "drinks",
+      "quote": "超级奶拿铁 26元",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "“没忍住,又在上海买漂亮面包了!” ",
+      "url": "https://www.sohu.com/a/977317506_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "BobiDo Bao & Cafe in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118806911767468&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "BUBU Cafe - 淺草/咖啡店| Tabelog - 食べログ",
+      "url": "https://tabelog.com/tw/tokyo/A1311/A131102/13158468/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:06Z"
+}

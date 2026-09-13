@@ -1,0 +1,59 @@
+{
+  "cafeId": "peet-s-jiangwanli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "db541b146146",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/27fd1f31bf10ed65e7a1674d1bf6cf1c",
+    "https://store.is.autonavi.com/showpic/d25202071dd20d040000002307136106?type=pic",
+    "https://aos-comment.amap.com/B0JKNAADO1/comment/A94A7E7B_F395_4085_B48B_6EC393655F42_L0_001_1320_153_1773563134620_38746934.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面有室外座位区，摆放着桌椅和遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有大型盆栽植物装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内为木质桌面，环境整洁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供拉花拿铁饮品，表面有网格状焦糖装饰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供巧克力蛋糕，配有奶油和樱桃",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:16Z"
+}

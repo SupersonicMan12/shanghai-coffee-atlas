@@ -1,0 +1,71 @@
+{
+  "cafeId": "captaingeorge-taiyuan-rd-236",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1ebd6929b667",
+  "photos": [
+    "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_file_1000021396_ss__1763255553663_47697733.jpg",
+    "https://store.is.autonavi.com/showpic/fbb81d53eb3705770000002737688128?type=pic",
+    "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_file_100000074_1762786747715_72125151.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "门口有木制折叠桌和长凳，提供室外座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内桌上摆有美式、拉花咖啡和一杯奶咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示豆子产地为肯尼亚奇安加SOE。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门玻璃标有营业时间周一至周日10-19点。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外长凳上放着手冲器具，可见咖啡制作设备。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立牌写明“宠物友好”，允许带宠物入内。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑外墙为石材，门框与窗框为深色木制。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街大窗无遮挡，阳光可直射室内及门廊。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:04:46Z"
+}

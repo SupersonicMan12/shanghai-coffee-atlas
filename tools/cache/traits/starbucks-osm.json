@@ -1,0 +1,90 @@
+{
+  "cafeId": "starbucks-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "136173ffec50",
+  "raw": {
+    "headline": {
+      "zh": "上海限定咖啡",
+      "en": "Shanghai-exclusive coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "推出城市限定特饮‘上海咖啡’",
+        "en": "Serves Shanghai-exclusive special drink",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供具人文故事的小批量咖啡豆",
+        "en": "Offers small-batch beans with human stories",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于力宝广场，为绿色环保门店",
+        "en": "Located in Lepu Plaza, eco-friendly green store",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "为大陆首家集装箱概念店，由6个工业风集装箱构成",
+        "en": "China's first container concept store, 6 industrial containers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "嘉御庭店为宠物友好店，提供专宠饮品",
+        "en": "Pet-friendly with special pet drinks",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "有手冲与小批量豆，适合专注",
+        "en": "Hand brew & small batch, focused"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "工业风集装箱店，氛围热闹",
+        "en": "Industrial container vibe, lively"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "集装箱店，座位有限",
+        "en": "Container design, limited seating"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "城市限定+小批量豆，饮品创新",
+        "en": "Unique drink + specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:57Z"
+}

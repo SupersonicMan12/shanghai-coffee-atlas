@@ -1,0 +1,28 @@
+{
+ "cafeId": "lets-coffee-huaihai",
+ "model": "qwen-max",
+ "inputDigest": "2fa60cc729ce",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：3号出口通勤者康塔多",
+    "en": "Signature drink: Commuter cortado by Exit 3",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 1,
+    "zh": "站吧台设计，适合快速饮用",
+    "en": "Standing bar, quick sip and go"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:44Z"
+}

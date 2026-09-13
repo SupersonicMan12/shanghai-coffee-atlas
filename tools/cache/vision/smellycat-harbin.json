@@ -1,0 +1,71 @@
+{
+  "cafeId": "smellycat-harbin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "7e963474dc13",
+  "photos": [
+    "https://aos-comment.amap.com/B0015709UL/comment/8041AE6C_5C75_4AB0_AB5D_71254D354814_L0_001_1440_192_1763992243326_49644974.jpg",
+    "https://aos-comment.amap.com/B0015709UL/comment/7895B17A_15D8_4C9F_8DBE_459E4F87BCB6_L0_001_2000_1500_1728453536469_43542699.jpg",
+    "https://aos-comment.amap.com/B0015709UL/comment/F9D57DCA_46A7_487D_AF8A_A1269A1A7DBA_L0_001_2000_151_1761977769774_84177873.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为红色门框+玻璃橱窗，招牌标有'SMELLY CAT'及'ESTABLISHED IN 2009'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口双开门敞开，门上贴有营业时间：周一至周日 11:00-10:00",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "橱窗内可见白色猫形雕塑、粉色自行车、复古海报（含'FRIENDS fans club'字样）",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内有红砖墙、霓虹灯牌（'Latte'、'ICE'）、红色沙发与花纹高脚凳，挂圣诞花环",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台陈列小玩偶公仔、黑板菜单，墙上挂多幅画作与老式灯具",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "桌上汉堡切半，插两旗：'F.R.I.E.N.D.S'与'JOEY DOESN'T SHARE FOOD'；旁为橙色杯咖啡，拉花写'friends'",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外立牌展示'开饭啦'餐品图：咖喱饭与能量碗，含二维码",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "室内无可见电脑使用者、烘焙机、手冲台或磨豆机等专业器具",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:01Z"
+}

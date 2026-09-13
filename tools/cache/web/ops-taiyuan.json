@@ -1,0 +1,100 @@
+{
+  "facts": [
+    {
+      "text": "门店面积不足10平方米，店内未设座位，顾客需站立消费",
+      "kind": "seating",
+      "quote": "其太原路店面积狭小,不足10平方米,店内未设座位,顾客需站立消费。",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "只做特调，不提供拿铁、美式等传统意式咖啡",
+      "kind": "drinks",
+      "quote": "O.P.S. CAFE专注于创意特调咖啡,不提供拿铁、美式等传统意式咖啡",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "每季推出5-6款新品，结合时令食材打造限定特调",
+      "kind": "drinks",
+      "quote": "每季研发新菜单,结合时令食材打造限定特调",
+      "url": "https://www.163.com/dy/article/KSVTGBH005259ET1.html",
+      "site": "网易"
+    },
+    {
+      "text": "将咖啡与水果、酒类、香料等食材进行创意融合",
+      "kind": "drinks",
+      "quote": "其产品核心特点在于将咖啡与水果、酒类、茶、香料等食材进行创意融合。",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "品牌由Siwei与阿光2017年在上海创立，主理人为阿光",
+      "kind": "story",
+      "quote": "O.P.S. CAFE是一家2017年由Siwei与阿光在上海创立的创意特调咖啡品牌",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "团队由冠军咖啡师合伙人及手冲咖啡亚军等专业人员构成",
+      "kind": "story",
+      "quote": "其团队由冠军咖啡师合伙人及手冲咖啡亚军等专业人员构成。",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "被顾客戏称为“罚站咖啡”，常年存在排队现象",
+      "kind": "people",
+      "quote": "因其创意咖啡和咖啡师的讲解服务,门店长期存在排队现象,被顾客戏称为“罚站咖啡”。",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    },
+    {
+      "text": "工作日排队约20多分钟，周末可能达40分钟",
+      "kind": "time",
+      "quote": "排队时间在工作日约20多分钟,周末可能达40分钟。",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "O.P.S. CAFE",
+      "url": "https://baike.baidu.com/item/O.P.S.%20CAFE/67629260",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "O.P.S.华南首店即将登陆深圳、MUSINSA STANDARD再开三家旗舰店、ACG大本营全球第二家店落址南京…|品牌周报",
+      "url": "https://www.163.com/dy/article/KSVTGBH005259ET1.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "火了6年的O.P.S又出手,上海精品咖啡卷出新高度",
+      "url": "https://www.163.com/dy/article/I7E7JM2H051285HS.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 4,
+      "title": "O.P.S. CAFE (上海衡山路地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/ops-cafe-36960781/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "95 啟程拓殖 × O.P.S.:上海顶流咖啡主理人的真心话大冒险",
+      "url": "https://www.xiaoyuzhoufm.com/episode/68f880302265473020afaf4d",
+      "site_name": "小宇宙播客"
+    },
+    {
+      "index": 6,
+      "title": "探店：闻名上海滩的OPS咖啡，红的秘诀是不卖“咖啡” - 界面新闻",
+      "url": "https://www.jiemian.com/article/3041329.html",
+      "site_name": "界面新闻"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:29Z"
+}

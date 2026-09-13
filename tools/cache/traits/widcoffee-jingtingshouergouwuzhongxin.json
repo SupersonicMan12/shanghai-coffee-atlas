@@ -1,0 +1,69 @@
+{
+  "cafeId": "widcoffee-jingtingshouergouwuzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "71626aab5895",
+  "raw": {
+    "headline": {
+      "zh": "提供SCA咖啡师认证课程",
+      "en": "Offers SCA barista certification"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供带吸管的冷饮",
+        "en": "Serves cold drinks with straws",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有抹茶和焦糖刨冰配红豆冰淇淋",
+        "en": "Matcha and caramel shaved ice with red bean and ice cream",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供饮品搭配的甜品套餐",
+        "en": "Dessert sets paired with drinks",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:00",
+        "en": "Open daily until 21:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "提供SCA认证及多种咖啡技能培训",
+        "en": "Offers SCA certification and coffee training courses",
+        "from": [
+          1,
+          6,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          6,
+          7
+        ],
+        "zh": "提供专业咖啡技能培训",
+        "en": "Professional coffee training offered"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:06Z"
+}

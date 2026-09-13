@@ -1,0 +1,86 @@
+{
+  "facts": [
+    {
+      "text": "主打松软且韧性十足的日本风味面包",
+      "kind": "food",
+      "quote": "该店主打松软且韧性十足的日本风味面包",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    {
+      "text": "提供早餐服务、下午茶套餐",
+      "kind": "drinks",
+      "quote": "提供在线菜单,有下午茶,提供早餐",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    {
+      "text": "有露天位、无烟区、无线网络、停车服务",
+      "kind": "seating",
+      "quote": "有露天位,可以刷卡,有停车位,提供在线菜单,有下午茶,提供早餐,有无烟区,有wifi",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为08:00-19:00（另有一处写08:00-22:00）",
+      "kind": "time",
+      "quote": "营业时间为08:00-19:00",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    {
+      "text": "位于太阳广场东塔1楼，地址：仙霞路88号（近娄山关路）",
+      "kind": "space",
+      "quote": "地址 上海长宁区仙霞路88号太阳广场东塔1楼(近娄山关路)",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    {
+      "text": "店面很小，干净整洁",
+      "kind": "space",
+      "quote": "店面很小,干净整洁",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "SUN Cafe&Bakery(荣华东道店)",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "想体验特色咖啡馆，推荐你去这5家看看 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 3,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 4,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "上海有8000家咖啡馆，这是我们最爱的15佳| 年度盘点",
+      "url": "http://static.zhoudaosh.com/files/cnews/2019/20190131/1918BBA580E1C7ED485821A4E52A0B0D047A7AFB150A245E903E80CEADD654FA/3.html",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:44:36Z"
+}

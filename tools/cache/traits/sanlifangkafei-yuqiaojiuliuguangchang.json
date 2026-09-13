@@ -1,0 +1,40 @@
+{
+  "cafeId": "sanlifangkafei-yuqiaojiuliuguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b40a7d569695",
+  "raw": {
+    "headline": {
+      "zh": "商场内宽敞咖啡店",
+      "en": "Spacious mall coffee shop"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于商场内，空间宽敞",
+        "en": "Spacious space inside a shopping mall",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供Dirty Coffee和冰美式",
+        "en": "Serves Dirty Coffee and iced Americano",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–20:00营业",
+        "en": "Open daily 08:00–20:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:38:52Z"
+}

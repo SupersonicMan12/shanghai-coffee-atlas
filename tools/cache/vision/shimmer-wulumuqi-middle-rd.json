@@ -1,0 +1,41 @@
+{
+  "cafeId": "shimmer-wulumuqi-middle-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "132a80c4b3e7",
+  "photos": [
+    "https://aos-comment.amap.com/B0HRPM4M1M/comment/64c55918-304f-4b8a-9b83-6f41c9171b3c.png",
+    "http://store.is.autonavi.com/showpic/2ddad3c7be8fe20a37b4a750c1ae4240",
+    "https://aos-comment.amap.com/B0HRPM4M1M/comment/5e17fd9d-6c49-41c1-b785-797389aa38f8.png"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "四款不同杯型与装饰的特调饮品，含大冰块、橙皮、奶盖等元素。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街店面，门口有电动车和消防栓，非商场内店铺。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯深色特调，配大冰块与橙皮装饰，置于木桌。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:35Z"
+}

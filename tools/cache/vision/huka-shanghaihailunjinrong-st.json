@@ -1,0 +1,65 @@
+{
+  "cafeId": "huka-shanghaihailunjinrong-st",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9d52718b89a0",
+  "photos": [
+    "https://aos-comment.amap.com/B0K6YC9WJ8/comment/9cf5379b36b838b542a50ca700eeae12_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/d0e0e4e835933241f4de32fb6397fb82",
+    "https://store.is.autonavi.com/showpic/e739d47008759b440da69ac36f4a5fa0"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有透明玻璃杯和粉色包装盒陈列",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示东方早餐套餐售价14.9元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有方形石质座椅和圆形小桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，墙面为木质与金属材质",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见冷藏柜、蒸箱等设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有电子显示屏展示饮品和食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内走廊区域灯带照明，现代风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:14Z"
+}

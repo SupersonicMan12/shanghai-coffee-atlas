@@ -1,0 +1,65 @@
+{
+  "cafeId": "huaxingxingkafei-shilong-rd-848",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "14323f64ab59",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e23698d943fc0a700000000735216757?type=pic",
+    "https://store.is.autonavi.com/showpic/777f0f80f2b45767dc7d6f6d700a0839",
+    "https://aos-comment.amap.com/comment/content_service_63326aa4d4f54e43f011dcdb5f5715e2_1766833479356_77185325.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有粉色玫瑰花作为装饰",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口招牌显示店名为“花醒醒咖啡”",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上可见树莓可可纸杯蛋糕售价12元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见咖啡北海道戚风蛋糕售价12元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见巧克力麦芬售价14元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上可见花醒醒拼配豆60g售价20元",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品杯中可见心形拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:09Z"
+}

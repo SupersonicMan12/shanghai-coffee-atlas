@@ -1,0 +1,71 @@
+{
+  "cafeId": "anqikafeijiancan-gaoke-west-rd-2701",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "51f26c447b42",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/05de921817e7636d5c814512f73a25b9",
+    "https://aos-comment.amap.com/B0J6YRD2W7/comment/81C59774_27C9_413F_BE6D_14CA90AC8FE6_L0_001_1502_200_1764226617663_89491881.jpg",
+    "https://aos-comment.amap.com/B0J6YRD2W7/comment/B759CA9E_C699_4F03_A6F1_B016923EA641_L0_001_2000_150_1764226617663_70711183.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃门和大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有木质平台和人行道，适合行人经过",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列多种三明治和面包类食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "三明治包装上有标签，部分为火腿、蛋类等常见配料",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有人进出，显示正常营业中",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺招牌显示为‘安琪咖啡简餐’，提供咖啡与简餐服务",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前设有菜单展示牌，但内容不可辨识",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面采用现代风格设计，有金属框架和木饰面",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:20Z"
+}

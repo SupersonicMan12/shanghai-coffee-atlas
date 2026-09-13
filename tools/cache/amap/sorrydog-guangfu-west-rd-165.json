@@ -1,0 +1,173 @@
+{
+  "cafeId": "sorrydog-guangfu-west-rd-165",
+  "query": {
+    "location": "121.432975,31.245738",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:04:25Z",
+  "matchedPoiId": "B0J0JSGYFV",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_1000038662_ss__1759290419101_21372773.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_100003866_1759290506183_85061277.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J0JSGYFV/comment/96c798a4579bfcf7ed44a63d02551534_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19102132623",
+        "id": "B0J0JSGYFV",
+        "tag": [],
+        "entr_location": "121.433018,31.245519",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "光新",
+        "childtype": [],
+        "atag": [],
+        "name": "sorrydog",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "40.00",
+          "opentime2": "周一至周日 10:00-18:00",
+          "rating": "4.6",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639411",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:27:21",
+        "website": [],
+        "address": "光复西路165号pidan在河边一楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.432977,31.245740",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/94ad151c45d6dfa20000002463432323?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/ee4fe6a7ea1e121f7e64ba157e122ecc"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1bc60cf38303be610000002463408633?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19901841073",
+        "id": "B0MA5UPBDR",
+        "tag": "杨枝甘露,生椰拿铁",
+        "entr_location": "121.430511,31.24663",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "光新",
+        "childtype": [],
+        "atag": "杨枝甘露,生椰拿铁",
+        "name": "库迪咖啡(镇坪路地铁站店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "244",
+        "importance": [],
+        "biz_ext": {
+          "cost": "14.00",
+          "opentime2": "周一至周日 07:00-21:00",
+          "rating": "3.5",
+          "open_time": "07:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621639411",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:22:00",
+        "website": [],
+        "address": "长寿路街道镇坪路地铁站3号线4号线7号线站内1层3-107",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.430575,31.246525",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

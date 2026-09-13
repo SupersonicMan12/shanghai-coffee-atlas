@@ -1,0 +1,71 @@
+{
+  "cafeId": "voyage-dongping",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ea805919a1aa",
+  "photos": [
+    "https://aos-comment.amap.com/B0GUA79TX0/comment/0399b1e165f9b2d12e7ce8d84bf0f80a_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/f9adab1d9982a5880000002485902349?type=pic",
+    "https://aos-comment.amap.com/B0GUA79TX0/comment/ADD9CD4A_0B4A_40E1_9EFF_88AECB709BE7_L0_001_1126_200_1742560263969_44841744.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面外墙为水泥质感，木质屋檐，临街玻璃门，墙上有蓝色'VOYAGE COFFEE'字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外有3个黑色高脚吧台凳，1个灰色BRUTE垃圾桶，左侧为竹篱笆围挡",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见一台Tiamo虹吸式咖啡壶（双头），含冰球顶瓶、玻璃滤杯与金属支架",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品卡标注‘零号 ZERO’，描述含‘香料 黑巧 烟熏’，并说明为深烘咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "桌上有一杯透明玻璃杯装的黑咖啡，表面有细密泡沫",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内背景可见蓝色公示牌，含‘便民饮食’字样及临时备案信息",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃门反射出‘VOYAGE COFFEE’倒影，门框为银色金属窄边框",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外人行道旁有落叶乔木，远处可见蓝底白图机动车道指示牌",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:00Z"
+}

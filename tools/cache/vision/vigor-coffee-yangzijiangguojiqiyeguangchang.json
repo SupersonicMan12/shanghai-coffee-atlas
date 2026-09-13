@@ -1,0 +1,71 @@
+{
+  "cafeId": "vigor-coffee-yangzijiangguojiqiyeguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "553d4b4b2738",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/64dfc1806285ff64ba2e621ce8f24ec2",
+    "https://store.is.autonavi.com/showpic/ccb15b0e010e1eb165d20e801ebf5952",
+    "https://store.is.autonavi.com/showpic/9cbeaff727c52b2b931390db83cb4ce7"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和咖啡制作设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有四人座圆桌和椅子",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间为现代简约风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有展示柜陈列食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "有菜单板挂在墙上",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:11:52Z"
+}

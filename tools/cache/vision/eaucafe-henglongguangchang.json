@@ -1,0 +1,71 @@
+{
+  "cafeId": "eaucafe-henglongguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ed510bf289a6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7dd1b40b160a184d0000001829236552?type=pic",
+    "https://store.is.autonavi.com/showpic/02f71135de6364630a96cc530876aa0a",
+    "https://store.is.autonavi.com/showpic/38e1f3986d7c9e1a0000002307212212?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有双色越莓咸麦果巧巴，售价32元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有AOP黄油麦芽可颂，售价20元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有樱花卡仕达贝克，售价22元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质桌椅和长条沙发座",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间宽敞，位于商场内",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有小型圆形木桌和配套椅子",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上有带灯光的木质置物架",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口可见“EAU”标识",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:05Z"
+}

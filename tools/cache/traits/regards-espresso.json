@@ -1,0 +1,64 @@
+{
+ "cafeId": "regards-espresso",
+ "model": "qwen-max",
+ "inputDigest": "39cce2fe01d2",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供拿铁、美式、澳白，特调用限定豆子与酒类搭配",
+    "en": "Serves lattes, americano, flat white; special blends with spirits",
+    "from": 1
+   },
+   {
+    "kind": "price",
+    "zh": "拿铁美式价格仅15/18元，被称作‘良心价’",
+    "en": "Lattes and americanos at only 15/18 RMB, very affordable",
+    "from": 2
+   },
+   {
+    "kind": "time",
+    "zh": "去年下半年才正式营业，已成延平路男女老少都青睐的精品咖啡店",
+    "en": "Opened late last year, now a local favorite on Yanping Road",
+    "from": 3
+   },
+   {
+    "kind": "view",
+    "zh": "敞开式区域让人不由自主望向吧台，咖啡香气扑鼻",
+    "en": "Open area draws eyes to the bar, coffee aroma fills the air",
+    "from": 4
+   },
+   {
+    "kind": "beans",
+    "zh": "使用高价咖啡机和磨豆机等设备",
+    "en": "Uses high-end coffee machines and grinders",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 4,
+    "zh": "站着喝的小店不适合专注工作",
+    "en": "Standing bar, not for deep work"
+   },
+   "linger": {
+    "value": 0,
+    "from": 4,
+    "zh": "站着喝的小店适合即买即走",
+    "en": "Standing bar, grab and go"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 1,
+    "zh": "有特调饮品，但主要还是经典意式",
+    "en": "Has special blends, but mainly classic espresso drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:12Z"
+}

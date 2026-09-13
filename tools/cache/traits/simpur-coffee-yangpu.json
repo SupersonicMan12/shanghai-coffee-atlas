@@ -1,0 +1,57 @@
+{
+  "cafeId": "simpur-coffee-yangpu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ba21ddb4af9d",
+  "raw": {
+    "headline": {
+      "zh": "整面临街落地玻璃窗",
+      "en": "Floor-to-ceiling glass frontage"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗",
+        "en": "Full-height glass front facing the street",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:00-18:30",
+        "en": "Open daily 7:00–18:30",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为coffee",
+        "en": "Coffee is the recommended item on Gaode",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "门口有施工材料，似未完全开业",
+        "en": "Construction materials at entrance suggest incomplete opening"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "门口有施工材料，似未完全开业",
+        "en": "Incomplete opening implies limited seating or service"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:25Z"
+}

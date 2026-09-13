@@ -1,0 +1,71 @@
+{
+  "cafeId": "w-caf-sh-the-beats-xintiandi",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "12ed57d78dde",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKH77Q1R/comment/9D226332_B5A8_4515_8278_58D4A1A08BE4_L0_001_1500_200_1754112242009_07435035.jpg",
+    "https://store.is.autonavi.com/showpic/846ab48a886cd7de0000002337350909?type=pic",
+    "https://aos-comment.amap.com/B0KKH77Q1R/comment/D9100797_D5C6_4A84_B805_3978734D524E_L0_001_1500_200_1765841872611_02985906.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台、木质桌椅、红砖墙、绿植墙及黑白几何地砖。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见一台La Marzocco咖啡机置于吧台，上方酒架陈列多瓶葡萄酒。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图含三杯带‘OASIS OF LIFE’封口贴的饮品，一杯浅棕、一杯紫、一杯浅绿。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第一张图有酸奶配松饼、蓝莓、草莓、麦片与薄荷；另有一盒杏桃慕斯蛋糕（标‘LUNABOWL’）。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图有黑面包汉堡、千层三文鱼、巧克力淋面松饼配冰淇淋、意式烩饭及一杯红酒。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图桌上放有SKYITE酒瓶、刀叉筒、空盘及玻璃红酒杯。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中两人坐在靠墙卡座用餐，卡座为棕色软垫长凳。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图桌面为木质，背景可见临街玻璃窗与室外木板地面。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:56Z"
+}

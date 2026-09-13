@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-cube-lujiazuihuan-rd-717",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "0ad16de6e88a",
+  "photos": [
+    "https://aos-comment.amap.com/B0J3XDRCHV/comment/31dce797c76ac6a665826c53f6e478ed_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/a3dc402a0735374b0000003107524323?type=pic",
+    "https://store.is.autonavi.com/showpic/dd9daa53161fecc20000002575598063?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店外有木质平台和多组桌椅，是室外座位区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区被高大树木环绕，有绿植景观。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包含一杯撒可可粉的奶咖和一杯冰咖啡。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方展示柜里陈列着多款小挞类甜点。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台墙面为竖条纹石材，风格简约。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外区域有遮阳伞，适合白天户外休息。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见明显烘焙机或手冲台等专业器具。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中未见顾客或工作人员在使用电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:27Z"
+}

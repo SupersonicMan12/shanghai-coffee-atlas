@@ -1,0 +1,71 @@
+{
+  "cafeId": "la-casbah-huaihai",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "40c29e767039",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6f19bffe52fa153e1b622e4bc352c10c",
+    "http://store.is.autonavi.com/showpic/8d8a372bce327e9a7400013090169206",
+    "http://store.is.autonavi.com/showpic/db510923392320c57c952075c4b4e3c5"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，门头为蓝白发光字‘La casbah coffee咖啡店’，门牌号1554可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口为玻璃推拉门，店内可见吧台、菜单板、陈列柜与植物装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯拿铁拉花为心形+星形可可粉图案，盛于白色瓷杯，配金属勺",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内有深色菜单板（含中英文），下方为玻璃展示柜，内放多层糕点托盘",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面为橙黄色涂料，左侧有黑板菜单，右侧有窗及绿植，无明显落地窗",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口立一A型菜单牌，内容为图文饮品列表，但文字模糊不可辨",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片3中未见顾客、电脑、烘焙机、手冲台、磨豆机或书架",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片1显示店外人行道有锥形筒与黄色设备箱，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:48Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "kicking-beans-wuding",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "22d08c12b271",
+  "photos": [
+    "https://aos-comment.amap.com/B0HDPZIDHT/comment/172bf900bd1f457df24faa5878685bf6_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/2eef0d640e167856678b319fa408cf77",
+    "https://store.is.autonavi.com/showpic/c1242a3b6eabfae1ff6f425cfb942efe"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小型咖啡店，设外摆窗口与玻璃门入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见两台白色商用磨豆机（带透明豆仓）置于操作台",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内右侧有橙色软垫长凳+小桌组合，至少2人就座",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面与顶棚绘有蓝绿色植物主题手绘壁画，覆盖大部分可见立面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图门口两侧各有一组开业花篮，一人站在门内",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图可见门牌号‘727’及空调外机、监控摄像头",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图外摆桌上放一玻璃瓶插黄白花束，下方为灰色储物箱",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无落地窗；临街为可上翻开启的金属框服务窗口+单开玻璃门",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:31Z"
+}

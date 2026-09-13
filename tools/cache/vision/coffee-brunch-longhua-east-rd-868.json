@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-brunch-longhua-east-rd-868",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "786125a4b2e7",
+  "photos": [
+    "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13720_IMG_1762915225_11422_IMG_20251112_103845_jpg_ss__1764145962436_35701744.jpg",
+    "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13716_IMG_1762914978_11418_IMG_20251112_103438_jpg_ss__1764145962433_03287619.jpg",
+    "https://store.is.autonavi.com/showpic/5fd3be143fd1cec67920cc26cbb923fe"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，含冰块和泡沫",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于临街位置，有落地玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有少量室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见桌椅，空间适中",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间灯光亮起，室内照明充足",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口放置菜单立牌，展示饮品图片",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "白天自然光透过玻璃照入店内",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺与相邻商铺共用建筑结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:34Z"
+}

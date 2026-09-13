@@ -1,0 +1,66 @@
+{
+  "cafeId": "85-c-shengtiantianquanyanjiugongfang-shanghaiche",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ef743e187c04",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJNCO0Z/comment/1E3BFF6C_4016_41B0_ACCB_7C55530D5AA9_L0_001_1536_204_1770604348630_22335561.jpg",
+    "https://aos-comment.amap.com/B0FFJNCO0Z/comment/F170DEE4_5958_4C41_BC97_509E88E07852_L0_001_1536_204_1770604348605_47240411.jpg",
+    "https://aos-comment.amap.com/B0FFJNCO0Z/comment/E739F61B_88F6_448C_B669_828BFC74EE23_L0_001_1536_204_1770604348615_72721866.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店门口有黄色招牌，写有'浦东首店'和'Donut'",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "售卖多种口味的生甜甜圈，包括草莓、巧克力等",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜甜圈表面撒有糖粉，顶部装饰有奶油、坚果或草莓",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内展示有饮品，为橙色果茶类饮料，装在玻璃壶中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "甜点包装盒印有'85° DONUT'字样",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门面为临街玻璃门，可见内部部分区域",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有红色装饰物和花卉布置，可能为节日装饰",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:26Z"
+}

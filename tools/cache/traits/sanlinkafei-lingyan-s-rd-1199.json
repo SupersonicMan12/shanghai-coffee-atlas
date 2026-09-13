@@ -1,0 +1,45 @@
+{
+  "cafeId": "sanlinkafei-lingyan-s-rd-1199",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "31a4c9869029",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为牛排",
+        "en": "Beef steak listed as recommended dish",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-24:00营业",
+        "en": "Open daily 09:00–24:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "需上二楼进入店铺",
+        "en": "Accessed via second floor",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街整面落地玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          8
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:34Z"
+}

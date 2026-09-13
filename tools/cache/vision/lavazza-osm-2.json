@@ -1,0 +1,65 @@
+{
+  "cafeId": "lavazza-osm-2",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dfea49969433",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/874bc8146656c9950000002660618535?type=pic",
+    "https://aos-comment.amap.com/B0L3ASUJXC/comment/2025-12-26-15-56-59%2BC45D3DC1-5AB7-4DCC-A345-7D00AB780E0_1766735830786_34154531.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场内，有大面积玻璃幕墙",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店有室外座位和遮阳伞",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间宽敞，有现代设计风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有悬挂灯饰和展示墙",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示品牌来自意大利都灵，成立于1895年",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃幕墙外可见城市建筑倒影",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "入口处有品牌标识和中文信息",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:51Z"
+}

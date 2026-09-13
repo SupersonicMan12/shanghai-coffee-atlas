@@ -1,0 +1,73 @@
+{
+  "cafeId": "baimakafeiguanhuayuanyangfangcanting-zhangyang-r",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ce8e8215465a",
+  "raw": {
+    "headline": {
+      "zh": "80年老洋房里的北外滩景",
+      "en": "80-year-old villa with North Bund views"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于历史超80年的老洋房内",
+        "en": "Housed in a building over 80 years old",
+        "from": [
+          1,
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "可眺望北外滩景色",
+        "en": "Views of North Bund across the courtyard",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有带草坪树木的室外庭院座位",
+        "en": "Outdoor seating in a courtyard with lawn and trees",
+        "from": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌菜含西班牙海鲜饭和披萨",
+        "en": "Signature dishes include paella and pizza",
+        "from": [
+          3,
+          8,
+          17
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "zh": "有庭院和室内绿植适合久坐",
+        "en": "Courtyard and indoor plants invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:11Z"
+}

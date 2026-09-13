@@ -1,0 +1,55 @@
+{
+  "cafeId": "kenyuekafei-xizang-n-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "31f4d67b3640",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9467f4c94cd0af18bfd90e05ce03fd3a"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于街角，临街有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见至少两人就座",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见店内有人使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:27Z"
+}

@@ -1,0 +1,85 @@
+{
+  "cafeId": "dreamecafe-pro-xianmengzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2a6278dbff64",
+  "raw": {
+    "headline": {
+      "zh": "青山周平设计的江景观景平台",
+      "en": "Arata Isozaki-designed riverside viewing platform"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "二楼Park空间可远眺黄浦江一线江景",
+        "en": "Second-floor Park space offers direct views of the Huangpu River",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间由建筑师青山周平打造，含Gallery、Theater、Park三个主题区域",
+        "en": "Designed by architect Arata Isozaki, with Gallery, Theater, and Park zones",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "Gallery以艺术品方式陈列全球咖啡豆，主打哥伦比亚单一产区手冲系列",
+        "en": "Gallery displays global coffee beans as art; current focus: Colombian single-origin hand-drip series",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供粉色奶昔、冰咖啡和巧克力甜点",
+        "en": "Serves pink milkshake, iced coffee, and chocolate dessert",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日10:00-21:00",
+        "en": "Open daily from 10:00 to 21:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          6,
+          10
+        ],
+        "zh": "有开放观景平台但非专注办公空间",
+        "en": "Open viewing area, not optimized for focus"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          5,
+          10
+        ],
+        "zh": "二楼Park为开放式观景平台，适合久坐",
+        "en": "Open-air Park platform encourages lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "本季主打五款SOE手冲，展现不同处理法风味",
+        "en": "Five SOE hand-drip coffees with varied processing methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:25Z"
+}

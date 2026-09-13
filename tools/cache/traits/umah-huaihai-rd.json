@@ -1,0 +1,86 @@
+{
+  "cafeId": "umah-huaihai-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "fbde92e6458d",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆手冲专门店",
+      "en": "Specializes in house-roasted pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘咖啡豆，提供手冲",
+        "en": "Roasts its own beans for pour-over",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是手冲咖啡",
+        "en": "Signature drink is pour-over coffee",
+        "from": [
+          11,
+          16
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于老房子中，空间较小",
+        "en": "In a historic building, compact space",
+        "from": [
+          5,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有吧台和座位区",
+        "en": "Has bar counter and seating area",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:00–18:00",
+        "en": "Open daily 07:00–18:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "适合坐下来慢慢喝",
+        "en": "Good for focused time"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          13
+        ],
+        "zh": "适合坐下来细细品",
+        "en": "Encourages lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          3,
+          10,
+          11,
+          16
+        ],
+        "zh": "自烘豆+多产地手冲",
+        "en": "House-roasted, varied origins"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:40Z"
+}

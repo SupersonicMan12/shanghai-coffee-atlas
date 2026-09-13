@@ -1,0 +1,47 @@
+{
+ "cafeId": "coffea-shed-zhangningquyanan-west-rd-1262",
+ "model": "qwen-max",
+ "inputDigest": "0a9323ae7822",
+ "raw": {
+  "headline": {
+   "zh": "源自咖啡产地的灵感，开放多元空间",
+   "en": "Inspired by coffee origins, open and diverse"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "店内有吧台区和室外座位",
+    "en": "Bar area and outdoor seating available",
+    "from": 2,
+    ":[3, 4]}},": "axisHints"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 2,
+    "zh": "顾客站立点单，适合轻度工作",
+    "en": "Good for light work"
+   },
+   "energy": {
+    "value": 40,
+    "from": 2,
+    "zh": "有顾客但不喧闹",
+    "en": "Not too noisy"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "提供室外座位适合久坐",
+    "en": "Outdoor seating for long stays"
+   },
+   "adventure": {
+    "value": 60,
+    "from": 8,
+    "zh": "关联云南咖啡产地，探索种植智慧",
+    "en": "Explore Yunnan coffee origins"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:05Z"
+}

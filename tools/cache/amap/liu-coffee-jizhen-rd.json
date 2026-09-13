@@ -1,0 +1,173 @@
+{
+  "cafeId": "liu-coffee-jizhen-rd",
+  "query": {
+    "location": "121.369950,31.237812",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:06Z",
+  "matchedPoiId": "B0HRC5LR8K",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HRC5LR8K/comment/content_media_external_file_1000026190_ss__1763636924545_99598944.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a7b78e6f5903eecc0000001497772243?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/34e1e068e6d7ed2709a68f73939080bb"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18321988251",
+        "id": "B0HRC5LR8K",
+        "tag": "coffee",
+        "entr_location": "121.36979,31.237907",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长征",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "鎏咖啡Liu·coffee(吉镇路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "31.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "4.6",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621628911",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 01:33:40",
+        "website": [],
+        "address": "吉镇路76号(祁连山南路地铁站1号口步行310米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.369949,31.237814",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c0f4f103df3043f20000000689680420?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e9ca5cd8c4a9aaec0000002727516059?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/5192d3731a8d4dd90000002727528015?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MGCCFACX",
+        "tag": "coffee",
+        "entr_location": "121.36727658302532,31.23738004509403",
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长征",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "luckin coffee 瑞幸咖啡(金沙江路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "241",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周日 07:30-18:00；周一至周五 06:30-19:30；周六 07:00-18:00",
+          "rating": "3.7",
+          "open_time": "07:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621628911",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-26 12:06:44",
+        "website": [],
+        "address": "金沙江路2220号(祁连山南路地铁站2号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.367475,31.237325",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

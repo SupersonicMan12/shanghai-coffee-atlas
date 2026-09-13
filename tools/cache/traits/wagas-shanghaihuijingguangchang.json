@@ -1,0 +1,73 @@
+{
+  "cafeId": "wagas-shanghaihuijingguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2c52c4935e66",
+  "raw": {
+    "headline": {
+      "zh": "招牌果汁命名有趣",
+      "en": "Fun drink names"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "饮品名称如“朋克生活”“救救我”等趣味十足",
+        "en": "Drinks named like 'Punk Life' and 'Save Me'",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供鸡肉沙拉配鹰嘴豆和牛油果",
+        "en": "Serves chicken salad with chickpeas and avocado",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space|light|view|seating",
+        "zh": "临街落地窗，室内有木质桌椅，座位中等",
+        "en": "Floor-to-ceiling windows, wooden tables and chairs, medium seating",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周一至周五07:00–21:00，周末08:00–20:00",
+        "en": "Open 07:00–21:00 Mon–Fri, 08:00–20:00 Sat–Sun",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "支持自助点餐，适合办公",
+        "en": "Self-service supports work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "位于核心商圈，人流适中",
+        "en": "In core commercial area"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "支持流动支付，可久坐",
+        "en": "Mobile payment allows lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:58Z"
+}

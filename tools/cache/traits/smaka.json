@@ -1,0 +1,70 @@
+{
+  "cafeId": "smaka",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d7585dff0a1f",
+  "raw": {
+    "headline": {
+      "zh": "瑞典豆配肉桂卷",
+      "en": "Swedish beans with cinnamon buns"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自瑞典各地小型精品烘焙坊",
+        "en": "Beans from small Swedish roasteries",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌有布达佩斯蛋糕、肉桂卷、小豆蔻面包",
+        "en": "Serves Budapest cake, cinnamon & cardamom buns",
+        "from": [
+          9,
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "面包含黑松芝士恰巴达（¥25）、杂粮面包（¥12）等",
+        "en": "Breads include truffle ciabatta (¥25), multigrain (¥12)",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–21:00营业",
+        "en": "Open daily 8am–9pm",
+        "from": [
+          3,
+          10,
+          14
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          2,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "使用瑞典小众烘焙坊豆子",
+        "en": "Swedish specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:16Z"
+}

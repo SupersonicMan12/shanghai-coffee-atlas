@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品包括创意咖啡，如夏日特调Yum Yum Berry等。",
+      "kind": "drinks",
+      "quote": "第一杯是用了杨梅风味为主要元素的Yum Yum Berry",
+      "url": "https://www.163.com/dy/article/K2QIQF5H0521G5OJ.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "空间设计强调边界与顾客体验，有明显界限的吧台区。",
+      "kind": "space",
+      "quote": "通过材质所呈现颜色的明显差异,去强调空间内部一条沿着吧台而走的那条明显的界限。",
+      "url": "https://news.sohu.com/a/827643069_121124642",
+      "site": "搜狐网"
+    },
+    {
+      "text": "提出“咖啡Omakase”概念，提供一对一服务。",
+      "kind": "story",
+      "quote": "提出了“咖啡Omakase”的概念,结合比赛出品的经典“一豆三喝”的形式",
+      "url": "https://news.sohu.com/a/827643069_121124642",
+      "site": "搜狐网"
+    },
+    {
+      "text": "创始人潘恩琪为2024年世界咖啡师大赛中国总冠军。",
+      "kind": "story",
+      "quote": "2024年6月创始人潘恩琪荣膺世界咖啡师大赛中国区总冠军",
+      "url": "https://www.163.com/dy/article/KOUNBMEC0521G5OJ.html",
+      "site": "网易"
+    },
+    {
+      "text": "店内采用旧建筑改造，保留了历史印记。",
+      "kind": "space",
+      "quote": "对于原有的店面想要去保留一些印记。让店面的更新对于街道和城市来说是可读的。",
+      "url": "https://news.sohu.com/a/827643069_121124642",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "五店市“咖好”|闪光持续,第二批品牌官宣!_巧克力_贝克斯可可_精品",
+      "url": "https://www.sohu.com/a/959517050_121123725",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "ALOHA COFFEE（襄阳南路店），上海/ 知一设计研究室咖啡 ... - 新浪",
+      "url": "https://www.sina.cn/news/detail/5097053686858406.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "上海ALOHA咖啡襄阳南路店 / 知一设计研究室 ",
+      "url": "https://news.sohu.com/a/827643069_121124642",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "上海24小时,带你寻味8家咖啡店里的“杯中夏日”(文末福利)",
+      "url": "https://www.163.com/dy/article/K2QIQF5H0521G5OJ.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 5,
+      "title": "Aloha咖啡· 上海| 知一设计研究室 - 灵感实验室",
+      "url": "https://lingganlb.com/index/index/detail.html?code=A8071213480797680634",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "ALOHA COFFEE(襄阳南路店),上海 / 知一设计研究室",
+      "url": "https://www.gooood.cn/aloha-coffeexiangyang-south-road-by-atelier-in.htm",
+      "site_name": "谷德网"
+    },
+    {
+      "index": 7,
+      "title": "咖啡青年节京外阵容|20城品牌集结,探索中国精品咖啡城市风味(文末送票)",
+      "url": "https://www.163.com/dy/article/KOUNBMEC0521G5OJ.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:35Z"
+}

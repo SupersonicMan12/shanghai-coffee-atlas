@@ -1,0 +1,87 @@
+{
+  "cafeId": "m1218coffee-jiangpu-rd-826-2",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4275b258081e",
+  "raw": {
+    "headline": {
+      "zh": "柿子拿铁+手冲台+临街落地窗",
+      "en": "Persimmon latte, pour-over bar, street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可看街景",
+        "en": "Full street-facing glass windows for street views",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座椅和室内吧台",
+        "en": "Outdoor seating and indoor counter seating",
+        "from": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打柿子拿铁咖啡",
+        "en": "Signature persimmon latte",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲台或烘焙机",
+        "en": "Equipped with pour-over station or roaster",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供巧克力冰淇淋等甜品",
+        "en": "Serves chocolate ice cream and other desserts",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "有吧台但无明确办公设施",
+        "en": "Counter present, no work setup visible"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "zh": "有室内外座位及甜品，适合久坐",
+        "en": "Outdoor + indoor seats + desserts support lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "手冲台与柿子拿铁显示饮品创新",
+        "en": "Pour-over setup and persimmon latte indicate drink experimentation"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:47Z"
+}

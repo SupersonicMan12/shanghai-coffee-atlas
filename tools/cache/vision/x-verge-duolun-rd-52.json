@@ -1,0 +1,71 @@
+{
+  "cafeId": "x-verge-duolun-rd-52",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fe7f0b97c5c6",
+  "photos": [
+    "https://aos-comment.amap.com/B0J2KA3WZ9/comment/124725ff84893843d2d478b20b99c12d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J2KA3WZ9/comment/d69595a9e70f6bfccfdddeb235aa86a2_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J2KA3WZ9/comment/9eea7947a0ff894833a31caf9ac18860_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "饮品为肉桂摩卡，杯中放有肉桂棒",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡馆位于砖墙建筑内，入口有玻璃门和拱形门框",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示经典咖啡价格为28-30元，特色饮品价格为38-50元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供燕麦奶选项，加3元可更换",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有冷热饮品选项，部分饮品仅提供冷饮",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单包含肉桂摩卡、茉莉桂花拿铁等风味咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺营业时间为每日10:00至18:00",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有复古路灯，门前无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:37Z"
+}

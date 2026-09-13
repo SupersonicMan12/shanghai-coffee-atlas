@@ -1,0 +1,78 @@
+{
+  "cafeId": "coffee-bar-xiruiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "dff8f435e9bd",
+  "raw": {
+    "headline": {
+      "zh": "庭院露营风特调咖啡",
+      "en": "Courtyard camping vibe with unique coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "设有庭院和露营专用桌椅",
+        "en": "Has a courtyard with camping-style furniture",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为樱花马蹄生椰水",
+        "en": "Signature drink: cherry blossom water with coconut",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供话梅冰美式等特调咖啡",
+        "en": "Offers plum iced Americano and other specials",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚花魁SOE咖啡豆",
+        "en": "Uses Ethiopia Hambella SOE beans",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至24:00",
+        "en": "Open daily until midnight",
+        "from": [
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有庭院和多种座位",
+        "en": "Courtyard and varied seating"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3,
+          4,
+          8,
+          10
+        ],
+        "zh": "多款创意特调与SOE豆",
+        "en": "Creative drinks and SOE beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:12Z"
+}

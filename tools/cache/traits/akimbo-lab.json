@@ -1,0 +1,53 @@
+{
+ "cafeId": "akimbo-lab",
+ "model": "qwen-max",
+ "inputDigest": "3ec9f63ecdbf",
+ "raw": {
+  "headline": {
+   "zh": "独特手冲与发酵风味滤泡咖啡",
+   "en": "Unique pour-overs and fermented filter brews"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "所有咖啡豆在深圳烘焙后空运到上海",
+    "en": "Beans roasted in Shenzhen, air-freighted to Shanghai",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "主打手冲咖啡，提供冷萃和咖啡教育",
+    "en": "Specializes in hand-drip, cold brew, and coffee education",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为‘不倒翁咖啡’",
+    "en": "Signature drink: 'Tumbler Coffee'",
+    "from": 6
+   },
+   {
+    "kind": "food",
+    "zh": "右侧橙子实为一款甜点，可配咖啡组成简式下午茶",
+    "en": "Orange-shaped dessert pairs well with coffee for a light afternoon tea",
+    "from": 7
+   },
+   {
+    "kind": "space",
+    "zh": "店内放置老式收银机等古老装置，像实验室",
+    "en": "Decorated with vintage items, feels like a lab",
+    "from": 3
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 90,
+    "from": 2,
+    "![](https://www.example.com/image.jpg)": "9",
+    "zh": "主打手冲和实验性咖啡",
+    "en": "Focus on pour-overs and experimental brews"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:06Z"
+}

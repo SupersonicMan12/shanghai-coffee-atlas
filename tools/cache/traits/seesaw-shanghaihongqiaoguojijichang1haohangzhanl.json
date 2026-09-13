@@ -1,0 +1,64 @@
+{
+  "cafeId": "seesaw-shanghaihongqiaoguojijichang1haohangzhanl",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f9e9eb80d35c",
+  "raw": {
+    "headline": {
+      "zh": "自烘实验室+云南收豆站",
+      "en": "In-house roastery and Yunnan sourcing"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自建烘焙实验室，直接采购云南咖啡豆",
+        "en": "Own roastery and direct sourcing from Yunnan coffee farms",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "曾与李佳琦、Maison Margiela联名推出快闪饮品",
+        "en": "Previously hosted pop-up drinks with Li Jiaqi and Maison Margiela",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "联名快闪带来临时体验感",
+        "en": "Pop-up events add temporary vibe"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "联名快闪吸引人流，氛围活跃",
+        "en": "Pop-ups draw crowds, lively energy"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "大空间适合停留，但非长期办公",
+        "en": "Spacious layout allows lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "自烘豆子与实验性联名饮品",
+        "en": "Custom roasting and experimental drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:41Z"
+}

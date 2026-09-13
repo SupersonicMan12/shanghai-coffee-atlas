@@ -1,0 +1,101 @@
+{
+  "facts": [
+    {
+      "text": "咖啡豆由自家烘焙，选用巴西、危地马拉、巴拿马SOE意式豆",
+      "kind": "beans",
+      "quote": "意式咖啡选用的是SOE,即当季精选的意式豆,源自巴西、危地马拉和巴拿马",
+      "url": "https://baijiahao.baidu.com/s?id=1846307858432284356",
+      "site": "百度"
+    },
+    {
+      "text": "手冲提供6款中浅度烘焙产地最高评级豆",
+      "kind": "beans",
+      "quote": "手冲咖啡则提供了从入门款到特别推荐的6款咖啡豆,全部来自产地最高评级,采用中浅度烘焙",
+      "url": "https://baijiahao.baidu.com/s?id=1846307858432284356",
+      "site": "百度"
+    },
+    {
+      "text": "位于1930年代花园洋房内，带前院（北花园）和后院（南花园）",
+      "kind": "space",
+      "quote": "武康路368号是一栋建于1930年代的独立老洋房...前院(北花园)和后院(南花园)",
+      "url": "https://baike.baidu.com/item/武康路368号/23056120",
+      "site": "百度百科"
+    },
+    {
+      "text": "庭院设计为绿色矮墙‘迷宫’式，闹中取静",
+      "kind": "view",
+      "quote": "前院(北花园)和后院(南花园)均被设计成带有绿色矮墙的“迷宫”式庭院",
+      "url": "https://baike.baidu.com/item/武康路368号/23056120",
+      "site": "百度百科"
+    },
+    {
+      "text": "秋日银杏叶落满庭院，金黄一片",
+      "kind": "view",
+      "quote": "秋天时,Drops花园里的银杏叶子落满地,一片金黄",
+      "url": "https://baijiahao.baidu.com/s?id=1846307858432284356",
+      "site": "百度"
+    },
+    {
+      "text": "建筑五层，绿色小径垂直贯穿，挑空引入自然光",
+      "kind": "light",
+      "quote": "设计通过一条绿色小径连接武康路、前后花园和建筑内部,垂直贯穿五层楼...利用挑空手法让自然光渗透到低楼层",
+      "url": "https://baike.baidu.com/item/武康路368号/23056120",
+      "site": "百度百科"
+    },
+    {
+      "text": "全席禁烟",
+      "kind": "seating",
+      "quote": "禁煙・喫煙, 全席禁煙",
+      "url": "https://tabelog.com/china/A5102/A510203/51002687/",
+      "site": "Drops咖啡工作室 - 淮海路/カフェ - 食べログ"
+    },
+    {
+      "text": "设卡座席与吧台，空间时尚",
+      "kind": "seating",
+      "quote": "空間・設備, オシャレな空間、カウンター席",
+      "url": "https://tabelog.com/china/A5102/A510203/51002687/",
+      "site": "Drops咖啡工作室 - 淮海路/カフェ - 食べログ"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海哪家咖啡馆最美上海最美花园洋房咖啡厅Drops Coffee Studi",
+      "url": "https://cno.gafei.com/views-120010",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 2,
+      "title": "武康路368号",
+      "url": "https://baike.baidu.com/item/武康路368号/23056120",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "Drops咖啡工作室 - 淮海路/カフェ - 食べログ",
+      "url": "https://tabelog.com/china/A5102/A510203/51002687/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "武康路风情与Drops咖啡的独特魅力",
+      "url": "https://baijiahao.baidu.com/s?id=1846307858432284356",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "Drops咖啡工作室(武康路店) (靜安寺/南京西路, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-42038409",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Drops (Fuxing Zhong Lu) Shanghai - Cafes, Xuhui | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/20064/drops_fuxing_zhong_lu",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:06Z",
+  "retriedEn": true
+}

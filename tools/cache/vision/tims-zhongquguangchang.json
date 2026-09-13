@@ -1,0 +1,73 @@
+{
+  "cafeId": "tims-zhongquguangchang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ce14c46edcc3",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/051f1ed5300e3f9daaee7cd3e6cf1caf",
+    "https://store.is.autonavi.com/showpic/3a764fa1db3bd0650000000690402053?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场玻璃门入口，门头有红色'Tim Hortons'字样及枫叶标志",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见木质桌椅、靠窗座位，有顾客就坐，空间为商场内标准餐饮铺位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯为红白配色纸杯，印有枫叶与'Tims'字样，内含奶泡层的浅色饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物为环形咸口面包，表面覆盖融化的橙黄色芝士与黑芝麻，旁附小块奶酪",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单封面为《Au Revoir, Paris de Flore》，作者Joshua David Stein，插画Julia Rothman",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌面为浅色木纹材质，摆放眼镜、落叶、书本与饮品，无电脑可见",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招下方玻璃上贴有红色枫叶形'Tims'贴纸，标注'COFFEE HOUSE EST. 1964'",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片2中可见店内部分区域有吊灯照明，未见落地窗或室外座",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:42Z"
+}

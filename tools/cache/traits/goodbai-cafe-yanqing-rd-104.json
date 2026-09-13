@@ -1,0 +1,66 @@
+{
+  "cafeId": "goodbai-cafe-yanqing-rd-104",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8aa350d78102",
+  "raw": {
+    "headline": {
+      "zh": "白敬亭旗下摩洛哥风咖啡馆",
+      "en": "Bai Jingting's Moroccan-inspired cafe"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "由演员白敬亭创立的品牌旗下店",
+        "en": "Founded by actor Bai Jingting",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "有花园式庭院，适合拍照",
+        "en": "Features a garden-style courtyard",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为“延庆路104”与“毛球历险记”",
+        "en": "Signature drinks: 'Yanqing Road 104' and 'Maoqiu Adventure'",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-18:00（部分日期9:00起）",
+        "en": "Open 10–18 (9 on some weekdays)",
+        "from": [
+          12,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "有庭院可久坐放松",
+        "en": "Courtyard invites lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "提供特调及非传统饮品组合",
+        "en": "Offers creative, non-traditional drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:45Z"
+}

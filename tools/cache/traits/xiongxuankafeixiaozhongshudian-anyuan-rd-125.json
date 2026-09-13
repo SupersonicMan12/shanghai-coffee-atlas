@@ -1,0 +1,65 @@
+{
+  "cafeId": "xiongxuankafeixiaozhongshudian-anyuan-rd-125",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1c3a94f53f34",
+  "raw": {
+    "headline": {
+      "zh": "书店咖啡馆可盖章",
+      "en": "Bookstore café with stamping"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "书店与咖啡馆结合空间",
+        "en": "Combined bookstore and café space",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有黑色圆桌和棋盘格卡座",
+        "en": "Black round tables and checkered booth seats",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供多层巧克力蛋糕切片",
+        "en": "Serves layered chocolate cake slices",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "冰咖啡装在透明塑料杯配吸管",
+        "en": "Iced coffee served in clear plastic cup with straw",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日10:00-17:00，周末12:00-18:30",
+        "en": "Weekdays 10–17, weekends 12–18:30",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "有座位和书适合久坐",
+        "en": "Seating and books invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:38Z"
+}

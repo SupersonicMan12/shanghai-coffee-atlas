@@ -1,0 +1,71 @@
+{
+  "cafeId": "ops-taiyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6415b93c0c0c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/46cd24af0f4c64a10000003593544204?type=pic",
+    "https://aos-comment.amap.com/B0FFI8BKU8/comment/E0FA2EE2_73C5_42DE_A585_F2EE50EF21CE_L0_001_1512_201_1769324601259_16965735.jpg",
+    "https://store.is.autonavi.com/showpic/8ea03c6699d3c4000000001181124576?type=pic"
+  ],
+  "photoKinds": [
+    "menu",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "菜单为透明夹板装订，顶部印有12个月份，手写划掉‘July Aug’",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "菜单列5款饮品：Useless Magic、The Leapt、The Infusion（ABV 1.2%）、Ruby Diamond、Punch，价格50或55元",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "饮品配料含埃塞/肯尼亚水洗/日晒咖啡、网纹蜜瓜、百香果、柠檬叶、伯爵茶、雪莉酒、金酒、燕麦奶等",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图中两杯饮品插有卡片：'Wampee'（2024 SUMMER）与'Winnie The Pooh'（2024 SPRING）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图中吧台摆放两杯饮品，标签为'Spring Shower'与'Another Paw Paw'，含埃塞Wuri-Washed-Heirloom豆",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图背景可见不锈钢操作台、金属滤网架、白色布巾及模糊的磨豆机轮廓",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "第一张图背景为临街人行道与绿树，门为深灰色格栅门，疑似老洋房入口",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "所有饮品杯身印有手写体'o.p.s.'标识，使用透明塑料杯与纸质托盘",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:49Z"
+}

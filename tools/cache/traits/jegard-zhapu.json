@@ -1,0 +1,70 @@
+{
+ "cafeId": "jegard-zhapu",
+ "model": "qwen-max",
+ "inputDigest": "e0eb6d8682ba",
+ "raw": {
+  "headline": {
+   "zh": "手冲与精品咖啡，呈现每一豆特色",
+   "en": "Hand-drip & specialty, each bean's unique"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供手冲和精品咖啡，注重豆子特点",
+    "en": "Offers hand-drip and specialty coffee",
+    "from": 8
+   },
+   {
+    "kind": "beans",
+    "zh": "店内自行烘焙咖啡豆，新鲜出炉",
+    "en": "In-house roasted beans, fresh daily",
+    "from": 7
+   },
+   {
+    "kind": "seating",
+    "zh": "座位间保持距离，适合安静或交流",
+    "en": "Seats spaced for quiet or chats",
+    "from": 10
+   },
+   {
+    "kind": "sound",
+    "zh": "音乐声不大，复古旋律轻轻流动",
+    "en": "Soft vintage tunes in the background",
+    "from": 9
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日 10:00-20:00",
+    "en": "Open Mon-Sun 10:00-20:00",
+    "from": 15
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 60,
+    "from": 10,
+    "zh": "座位间有距离，适合专注工作",
+    "en": "Spaced seats, good for focus"
+   },
+   "energy": {
+    "value": 30,
+    "from": 9,
+    "zh": "音乐轻柔，环境不吵闹",
+    "en": "Soft music, not noisy"
+   },
+   "linger": {
+    "value": 70,
+    "from": 10,
+    "zh": "座位舒适，适合久坐",
+    "en": "Comfortable for long stays"
+   },
+   "adventure": {
+    "value": 80,
+    "from": 7,
+    "zh": "自烘豆子，手冲花样多",
+    "en": "In-house roasting, varied hand-drips"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:01Z"
+}

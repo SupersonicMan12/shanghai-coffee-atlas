@@ -1,0 +1,43 @@
+{
+  "cafeId": "lygon-street-coffee-hongqiaozhentianlin-rd-1036",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "53fb48f37994",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/291ef58c47db00dfab589c6e2a749fac"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面有大面积玻璃窗",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有遮阳伞和草地",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗外可见树木绿植",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑为现代风格，有金属框架结构",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:00Z"
+}

@@ -1,0 +1,95 @@
+{
+  "cafeId": "peet-s-weijingyinxiangcheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "11c51de4e17a",
+  "raw": {
+    "headline": {
+      "zh": "露天座位区+手冲设备",
+      "en": "Outdoor seating with pour-over setup"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外有带遮阳伞的露天座位区",
+        "en": "Outdoor seating area with umbrellas",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "招牌饮品巨星澳白使用21天内新鲜烘焙咖啡豆",
+        "en": "Star drink 'Giant Macchiato' uses beans roasted within 21 days",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "店内设落地窗，采光良好，空间宽敞明亮",
+        "en": "Large windows provide ample natural light and open space",
+        "from": [
+          4,
+          5,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供桂花酒酿奶砖拿铁、摘星系列等特色饮品",
+        "en": "Offers specialty drinks like Guihua Wine-Steamed Milk Brick Latte",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30–21:30",
+        "en": "Open daily 07:30–21:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          11
+        ],
+        "zh": "宽敞堂食区适合办公",
+        "en": "Spacious dining area suitable for work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          11
+        ],
+        "zh": "露天与堂食区可久坐",
+        "en": "Comfortable for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          13
+        ],
+        "zh": "日常营业时间中等",
+        "en": "Moderate weekday energy"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          9,
+          14
+        ],
+        "zh": "有特色创意饮品",
+        "en": "Creative specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:12Z"
+}

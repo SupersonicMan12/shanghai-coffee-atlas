@@ -1,0 +1,71 @@
+{
+  "cafeId": "arabica-xianjinrongcheng",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "908efad1aa58",
+  "photos": [
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/E07B59EA_5DE9_46B1_8ABA_E51EEF1456A1_L0_001_1511_201_1771753672596_09315587.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772194793468_85442967_1772194950672_71061326.jpg",
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/4c5bb56204422af5e294e65b8b597245_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台座和高脚凳，空间不大，适合短暂停留。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街是黑色金属框大玻璃窗，采光好，可看到外面树木。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示有埃塞俄比亚孔加、罕贝拉等单一产地豆可选。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单列有燕麦奶选项，价格与常规牛奶一致。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有人坐在吧台旁，桌上放着笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯中有心形拉花，旁边配有可颂面包。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上标有“SEE THE WORLD THROUGH COFFEE”字样。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外为灰色砖墙结构，门口无室外座位。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:17Z"
+}

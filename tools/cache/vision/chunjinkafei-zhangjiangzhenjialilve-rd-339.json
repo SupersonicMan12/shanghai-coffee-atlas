@@ -1,0 +1,65 @@
+{
+  "cafeId": "chunjinkafei-zhangjiangzhenjialilve-rd-339",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6a2aac287601",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/eb12e0b185c2dfb980ae84d892678815",
+    "https://aos-comment.amap.com/B0GDXHQXQZ/headerImg/a51765c231443828faa11f9b0fb1db95_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/32c173d4814dfcce3829bffed861824a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街建筑一层，有台阶通向入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店前有玻璃围挡和绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间拍摄，门口有发光招牌和植物",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门前有玫瑰花丛，叶片带水珠",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店铺外立面为大面积玻璃窗，临街可见",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "门前有停车场，停有车辆",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名显示为‘淳尽咖啡’，英文为‘ASTOR CAFE & BAR’",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:31Z"
+}

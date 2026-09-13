@@ -1,0 +1,73 @@
+{
+  "cafeId": "damankafei-zhongfuchengerqi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9b0defbc80b4",
+  "raw": {
+    "headline": {
+      "zh": "埃塞G1豆美式专门店",
+      "en": "Specializes in Ethiopian G1 Americano"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚G1等级阿拉比卡豆",
+        "en": "Uses Ethiopian G1 Arabica beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是美式咖啡",
+        "en": "Signature drink is Americano",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供抹茶蛋糕、饼干及芝士下午茶",
+        "en": "Serves matcha cake, cookies, and cheese afternoon tea",
+        "from": [
+          4,
+          15
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位较少，含木质矮凳和绿色桌椅",
+        "en": "Limited seating with wooden stools and green tables",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末营业至19:00，平日至18:00",
+        "en": "Open until 19:00 on weekends, 18:00 weekdays",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "适合办公或短暂休息",
+        "en": "Good for work or short break"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          12
+        ],
+        "zh": "适合喝杯咖啡再继续行程",
+        "en": "Pause for coffee before moving on"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:55Z"
+}

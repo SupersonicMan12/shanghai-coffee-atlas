@@ -1,0 +1,59 @@
+{
+  "cafeId": "vuoiuna-caffe-kaideshangpuzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a63d124c4cce",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a4d1223afc714ad70000002434766271?type=pic",
+    "https://store.is.autonavi.com/showpic/5e13cffc311b54d20000002434712995?type=pic",
+    "https://store.is.autonavi.com/showpic/a1978ae73378c1160000002434732610?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有约4-6个高脚吧台座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位为金色金属框架配彩色坐垫的高脚椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见一杯印有店名的冰咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内空间为小型店铺，以吧台位为主",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有大型饮品宣传海报",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "收银台区域可见橙色杯子和打包袋",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:25Z"
+}

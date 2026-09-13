@@ -1,0 +1,71 @@
+{
+  "cafeId": "lili-time-mengzi-east-rd-63",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c964bc5a075e",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKL3DTH/comment/file_media_Photo_4593_IMG_1770691638_4802_IMG_20260210_104534_5c6c8a7d-49cf-49c0-aae7-2e4d086e0a72_jpe_1770691883346_69908037.jpg",
+    "http://store.is.autonavi.com/showpic/1e95dbab8fc905d8e750f78995af3ee6",
+    "https://aos-comment.amap.com/B0FFKL3DTH/comment/9ca980f93251fbd1513d0d950cb0b6a0_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "砖墙外立面，挂有黄色门牌‘63 蒙自东路’及灰色招牌‘LiLi Time·巷子’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "招牌含‘Certified B Corporation’标识及中英文标语‘Love is Life illuminated / 愛是被點亮的生活’",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "一张桌上放白瓷杯拿铁（拉花叶形）与小盘甜点（黄色布丁状，配薄荷叶）",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌为黑色圆桌，背景可见灰色椅子与模糊室内陈设",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃杯装分层饮品（下层浅棕、上层乳白），置于麻编杯垫上，旁有绿植盆栽",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "窗边位置，窗外可见建筑与天空，自然光充足",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片3中叠加英文文字‘Coffee is the best medicine.’等，非店内实体内容",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "三张图均未出现吧台、烘焙机、手冲设备、菜单价格、豆子产地或书架/宠物",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:53Z"
+}

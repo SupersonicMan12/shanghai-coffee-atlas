@@ -1,0 +1,64 @@
+{
+  "cafeId": "eaucafe-henglongguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f3a8c21db17b",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "有双色越莓咸麦果巧巴（32元）",
+        "en": "Sells cranberry-chocolate malt loaf, ¥32",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有AOP黄油麦芽可颂（20元）",
+        "en": "Offers AOP butter malt croissant, ¥20",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有樱花卡仕达贝克（22元）",
+        "en": "Serves sakura custard bake, ¥22",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设木质桌椅、长条沙发及圆形小桌",
+        "en": "Wooden tables, sofa benches, and round tables",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-22:00营业",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          5,
+          6
+        ],
+        "zh": "空间宽敞，有多种座位",
+        "en": "Spacious with varied seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:18Z"
+}

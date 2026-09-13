@@ -1,0 +1,44 @@
+{
+  "cafeId": "you-to-here-chenchun-rd-109",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "974ffd239893",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供奶泡顶热咖啡",
+        "en": "Serves hot coffee with milk foam",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应巧克力奶油蛋糕配焦糖酱",
+        "en": "Chocolate cream cake with caramel sauce",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-20:00营业",
+        "en": "Open daily 10:00–20:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:39Z"
+}

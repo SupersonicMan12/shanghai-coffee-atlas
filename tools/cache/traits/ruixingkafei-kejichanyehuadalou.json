@@ -1,0 +1,68 @@
+{
+  "cafeId": "ruixingkafei-kejichanyehuadalou",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f667f1266618",
+  "raw": {
+    "headline": {
+      "zh": "站喝快取，新品高频",
+      "en": "Grab-and-go with frequent new drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含生椰拿铁、酱香拿铁等爆款",
+        "en": "Signature drinks include coconut and baijiu lattes",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "20-60㎡快取店，无或少量堂食",
+        "en": "20–60㎡ pickup-only with minimal seating",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-16:30营业",
+        "en": "Open daily 07:00–16:30",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主力价格带12-15元",
+        "en": "Main price range ¥12–15",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "快取站喝为主",
+        "en": "Pickup-focused, minimal stay"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "高频推新且有特色饮品",
+        "en": "Frequent novel drink launches"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:58Z"
+}

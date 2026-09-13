@@ -1,0 +1,83 @@
+{
+  "cafeId": "aokka-coffee-jiangwanlimeet678",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4dd310f04a27",
+  "raw": {
+    "headline": {
+      "zh": "露营风户外度假咖啡馆",
+      "en": "Camping-themed outdoor café"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内有8-10个绿色户外风格座椅，室外设绿色折叠椅与小桌",
+        "en": "8–10 green outdoor-style chairs indoors; green foldable chairs and small tables outdoors",
+        "from": [
+          1,
+          2,
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供危地马拉瑰夏拿铁，带橙柚花香、微甜不酸",
+        "en": "Guatemala Geisha latte with orange-citrus blossom aroma, subtly sweet and low acidity",
+        "from": [
+          4,
+          15
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃幕墙，落地窗设计",
+        "en": "Full-height glass facade with floor-to-ceiling windows",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用 Guatemala Santa Felisa 咖啡豆",
+        "en": "Serves Guatemala Santa Felisa coffee beans",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间8:00–22:00",
+        "en": "Open daily from 8:00 to 22:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          2,
+          6,
+          8,
+          9,
+          10,
+          12
+        ],
+        "zh": "室内外多座位+露营风氛围促久坐",
+        "en": "Multiple indoor/outdoor seats + camping vibe encourages lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          4,
+          15
+        ],
+        "zh": "使用特定产地瑰夏豆并定制风味拿铁",
+        "en": "Single-origin Geisha beans and signature flavored latte"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:38Z"
+}

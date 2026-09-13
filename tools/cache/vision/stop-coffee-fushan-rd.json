@@ -1,0 +1,53 @@
+{
+  "cafeId": "stop-coffee-fushan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "82823a2e365b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/76f9c0e2731b2d77aea2f7965078bcee",
+    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/bbe6de6c1824a21aad03f93af3431fbf_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/content_media_external_images_media_100010462_1734148438402_46615297.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台式小店，门口有2张折叠椅，店内可见少量桌椅。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃门，采光好，门外是街道和树木。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拉花咖啡，图案为圣诞老人脸。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有顾客站着喝咖啡，未见人用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后有货架和操作设备，但无明显烘焙机或手冲台。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:25Z"
+}

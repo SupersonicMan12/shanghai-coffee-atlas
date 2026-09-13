@@ -1,0 +1,173 @@
+{
+  "cafeId": "someet-cafe-gumei-rd-563",
+  "query": {
+    "location": "121.404844,31.144463",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:59:25Z",
+  "matchedPoiId": "B0FFKXAZJZ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/121e751993b6772bd5190acd78d52922"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/b1c234279b1d0f428a4e59461474c569"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFKXAZJZ/comment/15871d4add36a69d78ac4dc1ef6a5887_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54321582",
+        "id": "B0FFKXAZJZ",
+        "tag": "烤肉,卡布奇诺,奶油",
+        "entr_location": "121.405083,31.144407",
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "梅陇",
+        "childtype": [],
+        "atag": "烤肉,卡布奇诺,奶油",
+        "name": "someet cafe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "56.00",
+          "opentime2": "周一至周日 10:00-21:00",
+          "rating": "4.6",
+          "open_time": "10:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537211",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:20:46",
+        "website": [],
+        "address": "古美路563号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.404843,31.144460",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4a16ee0a34d4a53c6b7d71c8c3740fa4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "闵行区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54739651",
+        "id": "B0FFG0YZYH",
+        "tag": "单人餐,下午茶",
+        "entr_location": [],
+        "adcode": "310112",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "梅陇",
+        "childtype": [],
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(古美文创街店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F011012_356690",
+        "distance": "75",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537211",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:11:44",
+        "website": [],
+        "address": "文化创意街古美路569号1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.404576,31.145104",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

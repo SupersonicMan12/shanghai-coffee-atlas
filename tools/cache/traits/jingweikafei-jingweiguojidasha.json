@@ -1,0 +1,36 @@
+{
+  "cafeId": "jingweikafei-jingweiguojidasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "dcb6ba7bc8c5",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街店面带落地窗",
+        "en": "Street-facing with floor-to-ceiling windows",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门口设绿植围挡",
+        "en": "Greenery barrier at entrance",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "现代风格建筑无庭院天台",
+        "en": "Modern building, no courtyard or rooftop",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:34:14Z"
+}

@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "WiFi超快，插座超多，适合打工人敲电脑",
+      "kind": "seating",
+      "quote": "WiFi超快,插座超多,还有凉爽的空调!一杯咖啡,一台电脑,一天工作学习都不累。",
+      "url": "https://www.dianping.com/discovery/1208924474",
+      "site": "大众点评网"
+    },
+    {
+      "text": "闹中取静，坐落在繁华地带环贸附近",
+      "kind": "space",
+      "quote": "那就是起时咖啡,坐落在繁华地带环贸附近,闹中取静,超舒服的社区咖啡店。",
+      "url": "https://www.dianping.com/discovery/1208924474",
+      "site": "大众点评网"
+    },
+    {
+      "text": "推荐茉莉花拿铁，清淡花香，提神醒脑",
+      "kind": "drinks",
+      "quote": "🌼茉莉花拿铁 真的超推荐的!喝起来清淡的花香,提神醒脑。",
+      "url": "https://www.dianping.com/discovery/1208924474",
+      "site": "大众点评网"
+    },
+    {
+      "text": "榴莲蛋糕微甜，榴莲味很足",
+      "kind": "food",
+      "quote": "榴莲蛋糕,也是超赞的,微甜,可是榴莲味很足。",
+      "url": "https://www.dianping.com/discovery/1208924474",
+      "site": "大众点评网"
+    },
+    {
+      "text": "地址为陕西南路1******（与公开地址陕西南路186号一致）",
+      "kind": "space",
+      "quote": "陕西南路1******",
+      "url": "https://m.dianping.com/shop/114783397",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Thru Coffee起时咖啡",
+      "url": "https://m.dianping.com/shop/114783397",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "魔都💫办公自习的好去处,被我发现了 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1208924474",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Bean Thru coffee",
+      "url": "https://baike.baidu.com/item/Bean%20Thru%20coffee/14204322",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "咖啡说 Coffee Real Talk",
+      "url": "https://podcasts.apple.com/cn/podcast/咖啡说-coffee-real-talk/id1787890572?l=en",
+      "site_name": "苹果公司网站"
+    },
+    {
+      "index": 5,
+      "title": "Drip-Thru Coffee",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g35281-d12613340-Reviews-Drip_Thru_Coffee-Stockbridge_Georgia.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 6,
+      "title": "帮助您的咖啡店和面包店满足顾客不断变化的口味需求 - Franke",
+      "url": "https://www.franke.com/cn/zh/coffee-systems/industries/coffee-shop-bakery.html",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "『入门必备咖啡知识』最全咖啡分类大全，一文全都看懂！",
+      "url": "https://zhuanlan.zhihu.com/p/579620620",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "广州笔记｜在广州咖啡文化季前，来聊聊Coffee小史 - 广州日报新花城",
+      "url": "https://huacheng.gz-cmc.com/pages/2026/04/29/d2d4102c2348407fad0ef2c943ca1115.html",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:26:08Z"
+}

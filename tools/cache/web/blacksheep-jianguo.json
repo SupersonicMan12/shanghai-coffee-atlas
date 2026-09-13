@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "黑羊深入非洲农庄获取一手豆源，以农场名命名豆子",
+      "kind": "beans",
+      "quote": "黑羊深入非洲农庄获取一手豆源,并以豆子产地的农场名命名豆子",
+      "url": "https://www.sohu.com/a/318392579_163548",
+      "site": "搜狐网"
+    },
+    {
+      "text": "主打自烘焙咖啡豆，涵盖意式到手冲，品类丰富",
+      "kind": "beans",
+      "quote": "Black Sheep大名鼎鼎就是他们的自家烘焙的咖啡豆,涵盖意式到手冲,品类十分丰富",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    },
+    {
+      "text": "茂名南路新店附带露天小院，气温舒适时可在院中喝咖啡",
+      "kind": "view",
+      "quote": "在店内深处还附带一个露天小院,气温舒适的日子,坐在院子里喝咖啡十分惬意",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    },
+    {
+      "text": "建国中路老店约30平米，空间极小但强调内向庇护感",
+      "kind": "space",
+      "quote": "即便是30平米的街边小店,留给咖啡制作的区域也必须很充分",
+      "url": "https://www.sohu.com/a/318392579_163548",
+      "site": "搜狐网"
+    },
+    {
+      "text": "店内有秘密‘雪屋’穹窿打卡区，适合一人静坐自拍",
+      "kind": "space",
+      "quote": "这是给你们做的隐藏的打卡区呀。如果一个人静静在里面待上一会,没准有自拍的欲望",
+      "url": "http://www.sohu.com/a/394899459_120682021",
+      "site": "搜狐"
+    },
+    {
+      "text": "门面用镜面不锈钢，反射城市日夜斑斓，内部被仔细隐藏",
+      "kind": "space",
+      "quote": "镜面不锈钢反射城市的日夜的斑斓,而内部的一切都被仔细隐藏",
+      "url": "https://www.sohu.com/a/318392579_163548",
+      "site": "搜狐网"
+    },
+    {
+      "text": "招牌特饮‘一羊千喜’含咖啡、牛奶、冰淇淋及小羊饼干",
+      "kind": "drinks",
+      "quote": "一羊千喜寓意一只小羊,千万的喜悦。咖啡、牛奶、冰淇淋,加上topping的小羊饼干",
+      "url": "https://www.163.com/dy/article/GQF1K5QJ05228TQ0.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "招牌甜品‘碰瓷羊’为白巧克力外壳+咖啡黑香豆慕斯",
+      "kind": "food",
+      "quote": "甜品的最外层是白巧克力,内层是咖啡黑香豆慕斯",
+      "url": "https://www.163.com/dy/article/GQF1K5QJ05228TQ0.html",
+      "site": "163网易免费邮"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "弧度满满的“羊肚子” - Blacksheep Espresso咖啡馆,上海 / Mur Mur Lab ",
+      "url": "https://www.sohu.com/a/318392579_163548",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "一间“羊肚子”里的咖啡馆_Mur",
+      "url": "http://www.sohu.com/a/394899459_120682021",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "一间“羊肚子”里的咖啡馆 | 上海Blacksheep Espresso_Mur",
+      "url": "https://www.sohu.com/a/394701278_669443",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "魔都咖啡地图 | 春日咖啡散策2.0_coffee",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "Blacksheep Espresso咖啡馆，上海/ Mur Mur Lab | 谷德设计网- gooood",
+      "url": "https://www.gooood.cn/blacksheep-espresso-china-by-mur-mur-lab.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "魔都“易烊千玺”来了,有点好喝!",
+      "url": "https://www.163.com/dy/article/GQF1K5QJ05228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "BLACKSHEEP ESPRESSO（茂名南路店） (上海淮海路/新天地地區)",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/blacksheep-espresso-31188465/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:55Z"
+}

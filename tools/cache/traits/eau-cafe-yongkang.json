@@ -1,0 +1,56 @@
+{
+ "cafeId": "eau-cafe-yongkang",
+ "model": "qwen-max",
+ "inputDigest": "f38ca96d93b0",
+ "raw": {
+  "headline": {
+   "zh": "三种水泡同一款豆，体验不同风味",
+   "en": "Taste one bean brewed with three waters"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街大玻璃窗，可看城市街道行人",
+    "en": "Large street-facing windows, view of the city",
+    "from": 2,
+    "','3', '6']},  // 合并了多个编号，因为这些照片都展示了临街大玻璃窗的特点以及窗外的城市景象。注意，这里直接在字符串中合并编号是为了符合JSON格式要求，实际上应该是一个数组 [": "2",
+    "3": ", ",
+    "6": "]。同样的处理也适用于其他条目。",
+    "2": ", "
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供美丽微甜的甜点与顶级咖啡",
+    "en": "Serves lightly sweet desserts and top-notch coffee",
+    "from": 9
+   },
+   {
+    "kind": "story",
+    "zh": "采用复古现代设计，营造轻松氛围",
+    "en": "Retro-modern design, chill atmosphere",
+    "from": 7,
+    ",'10']},  // 同上，这里应该是数组形式：[": ",",
+    "7": ",",
+    "10": "]。"
+   },
+   "axisHints"
+  ],
+  "linger": {
+   "value": 85,
+   "from": [
+    "10"
+   ],
+   "zh": "轻松氛围适合久坐放松",
+   "en": "Chill for long stays"
+  },
+  "adventure": {
+   "value": 80,
+   "from": [
+    "11"
+   ],
+   "zh": "用不同矿物质水泡同一种豆子",
+   "en": "Brews same bean with different waters"
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:38Z"
+}

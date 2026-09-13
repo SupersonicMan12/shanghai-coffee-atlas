@@ -1,0 +1,398 @@
+{
+  "cafeId": "yanyangpanba-lingyan-s-rd-181",
+  "query": {
+    "location": "121.495408,31.159574",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:16Z",
+  "matchedPoiId": "B0LALCOOGP",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LALCOOGP/comment/a859907ca297f8070203cd0c717767db_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LALCOOGP/comment/B3CC7DFD_4E48_4A3D_B6C8_95B94F3D05BC_L0_001_1500_200_1754926699922_20091295.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LALCOOGP/comment/28AE091E_05BB_4B66_B009_FEFA6143086E_L0_001_2016_151_1761439346530_63355874.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LALCOOGP",
+        "tag": [],
+        "entr_location": "121.495155,31.159501",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上南",
+        "childtype": [],
+        "atag": [],
+        "name": "岩羊攀吧",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一 18:00-02:00；周二至周日 13:00-02:00",
+          "rating": "4.6",
+          "open_time": "13:00-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539901",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 15:51:19",
+        "website": [],
+        "address": "灵岩南路181号b栋102",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.495410,31.159576",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L6F16X4H/comment/F3B3E1F8_5808_4CA9_A4ED_CA6DD81C9148_L0_001_1500_200_1771407793933_72740316.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L6F16X4H/comment/1674CC76_F32A_4F11_BBE7_965097B0A082_L0_001_1500_200_1771407793930_50778697.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/623105477c598fb4b0f690276697df5f"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L6F16X4H",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.494874,31.158915",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": [],
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "Manner Coffee(杨思新象限店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "83",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.3",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539901",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 15:54:47",
+        "website": [],
+        "address": "灵岩南路与思浦路交叉口东南20米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.494944,31.158938",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0784d3e553d344170000002575564584?type=pic"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e0e4652aaf96d43f078f4ee9c0c57608"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/05d5f6ddd7e58c920000002575646187?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18018640831",
+        "id": "B0KKZATA2P",
+        "tag": "单人餐,双人餐",
+        "entr_location": "121.496173,31.159941",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "三林",
+        "childtype": [],
+        "atag": "单人餐,双人餐",
+        "name": "Vuoiuna Caffe来杯咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "83",
+        "importance": [],
+        "biz_ext": {
+          "cost": "19.00",
+          "opentime2": "周一至周日 07:00-23:00",
+          "rating": "4.5",
+          "open_time": "07:00-23:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 16:11:32",
+        "website": [],
+        "address": "上南路3120号B1-17室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.496233,31.159836",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L32H34LW/comment/content_media_external_file_1000033803_ss__1764380232426_23304265.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/56196e73fce75a100000002270484536?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1f25556331d2829c0000002341974679?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13661629299",
+        "id": "B0L32H34LW",
+        "tag": [],
+        "entr_location": "121.496489,31.16007",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上南",
+        "childtype": [],
+        "atag": [],
+        "name": "摩登海上空间",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "170",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一至周日 11:00-18:00",
+          "rating": "4.5",
+          "open_time": "11:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539902",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 03:56:04",
+        "website": [],
+        "address": "上南路3120号杨思新象限C3幢",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.497190,31.159479",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/86ea5afcacd30c2fda9ebc5a990497fc"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1286a66ba5ca57570000002452152383?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e6030e736e6bc3b30000002554048265?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18117328798",
+        "id": "B0MDKLDLDP",
+        "tag": "杨枝甘露,生椰拿铁",
+        "entr_location": "121.4933793646509,31.160469080921715",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上南",
+        "childtype": [],
+        "atag": "杨枝甘露,生椰拿铁",
+        "name": "库迪咖啡(杨思路地铁站1号口店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "203",
+        "importance": [],
+        "biz_ext": {
+          "cost": "9.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "4.0",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621539901",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 07:12:37",
+        "website": [],
+        "address": "杨思路444号(杨思地铁站2号口步行70米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.493459,31.160333",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

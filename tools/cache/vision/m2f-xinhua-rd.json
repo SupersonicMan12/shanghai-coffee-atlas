@@ -1,0 +1,71 @@
+{
+  "cafeId": "m2f-xinhua-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "9987009f4798",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFH9DCTA/comment/c2ae1a6ec267e2b6bd916799f50d61f8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFH9DCTA/comment/content_media_external_file_175246_ss__1759128756342_78155004.jpg",
+    "https://aos-comment.amap.com/comment/20260321-74f3f8c1c0ea31961df54a9b-9ylim1qMkbT9pq0ZJUEuOi.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门上方有两块酒红色遮阳篷，均印黄色'M2F'字样；门牌号165（非380）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街为大面积玻璃推拉门与开放式吧台区，设3张高脚桌+4把吧椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内吧台后方有木质格架陈列咖啡豆袋，墙上挂多张证书/菜单卡",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台面摆放多瓶酒类（含Kavalan、GlenTurret等威士忌）、手冲壶、磨豆机、滴滤咖啡机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "前景玻璃罩内有2个可颂（1个杏仁可颂，1个带果干的羊角包）",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台上方有金属框架+OSB板结构的二层平台，堆放咖啡生豆麻袋",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见至少2名工作人员在操作，无人使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外人行道停放1辆红圈山地自行车，门前无固定户外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:16Z"
+}

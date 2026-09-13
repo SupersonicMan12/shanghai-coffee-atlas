@@ -1,0 +1,398 @@
+{
+  "cafeId": "huaka-riyueguang",
+  "query": {
+    "location": "121.460474,31.199779",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:06:09Z",
+  "matchedPoiId": "B0G3A5DHFO",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3A5DHFO/comment/4D61E3A4_818B_4EE6_9DE2_A149C1DB216E_L0_001_1500_2000_1730565869168_60385815.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3A5DHFO/comment/E87D10D4_CE22_496A_814A_B98FF899C53D_L0_001_1500_2000_1730565869170_58770345.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G3A5DHFO/comment/AAEDA1FE_0B31_40EB_ADAB_2D15AEC88E0C_L0_001_1500_2000_1730565869172_06201962.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13817381467;13951379220",
+        "id": "B0G3A5DHFO",
+        "tag": "下午茶,冰美式",
+        "entr_location": "121.460341,31.199846",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "下午茶,冰美式",
+        "name": "花咖(日月光店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "44.00",
+          "opentime2": "周一至周五 08:00-19:00；周六至周日 09:00-18:00",
+          "rating": "4.5",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633622",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 21:44:15",
+        "website": [],
+        "address": "清真路45号(嘉善路地铁站4号口步行250米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.460474,31.199781",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155IFBP",
+        "pcode": "310000",
+        "keytag": "茶业",
+        "type": "购物服务;专卖店;专营店|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0dd4994974ef11222492b58685e9e517"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8d34f389316bba44414cd11534c27057"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/162a80cf1e1171edc1c56746f42d716c"
+          }
+        ],
+        "building": [],
+        "typecode": "061200|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15901780638",
+        "id": "B0G27LFIWZ",
+        "tag": [],
+        "entr_location": "121.46137223839659,31.200856221144505",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": "320",
+        "atag": [],
+        "name": "沁艺茶庄(新路大楼店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_550703",
+        "distance": "157",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 09:00-24:00",
+          "rating": "3.8",
+          "open_time": "09:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634602",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:43:22",
+        "website": [],
+        "address": "大木桥路79号(嘉善路地铁站4号口步行190米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.461508,31.200878",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0H06SCKAQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGNU4TJ6/comment/eb83601773417ba6e9d4a63ad3feefa0_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGNU4TJ6/comment/547bee6c2f4aa5bcb76c45dc19f20bc9_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGNU4TJ6/comment/ca85b99dd553a08c1d98d5994015a4ab_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13122512251;13916776689",
+        "id": "B0IGNU4TJ6",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": "202",
+        "atag": [],
+        "name": "中古屋咖啡(玖時活力中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "189",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周日 10:00-21:00",
+          "rating": "3.9",
+          "open_time": "10:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634602",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 10:41:35",
+        "website": [],
+        "address": "大木桥路18号玖時活力中心F4层(嘉善路地铁站4号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.460502,31.201485",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0H06SCKAQ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6ec68f7c45a4c2103db707b2e3fb199c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/86c5108ac56bba37ed549124d0e5654f"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J6GMECYK",
+        "tag": "厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,美式,拿铁,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": "202",
+        "atag": "厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,美式,拿铁,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(玖時活力中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "191",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634602",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:59:53",
+        "website": [],
+        "address": "大木桥路18号玖时活力中心商场B2层B2002室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.460418,31.201497",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4aaffc350563b2d99ef38ae0a470d654"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/00e72015b69aa094bd7afc842068e04d"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15921218325",
+        "id": "B0IBCZH3NR",
+        "tag": "柠檬气泡饮,美式,不止拿铁,农夫卷,巴旦木炼乳拿铁,鲜萃奶咖,全麦贝果,拿铁,巴旦木炼乳澳白,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,奶咖,下午茶",
+        "entr_location": "121.457483,31.198553",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "枫林路",
+        "childtype": [],
+        "atag": "柠檬气泡饮,美式,不止拿铁,农夫卷,巴旦木炼乳拿铁,鲜萃奶咖,全麦贝果,拿铁,巴旦木炼乳澳白,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,奶咖,下午茶",
+        "name": "Tims咖啡(申信大楼捷枫店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "295",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-22:00；周六至周日 07:00-22:00",
+          "rating": "4.2",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621633621",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:36:48",
+        "website": [],
+        "address": "小木桥路219号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.457692,31.198612",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

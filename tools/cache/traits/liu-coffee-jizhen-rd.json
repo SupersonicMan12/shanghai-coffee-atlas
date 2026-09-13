@@ -1,0 +1,97 @@
+{
+  "cafeId": "liu-coffee-jizhen-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ba0490cfab67",
+  "raw": {
+    "headline": {
+      "zh": "退役军人主理的咖啡馆",
+      "en": "Café run by veteran"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街玻璃门+遮阳棚，室外有折叠椅和木凳",
+        "en": "Street-facing glass door with awning, outdoor seating with folding chairs and wooden stools",
+        "from": [
+          1,
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "店外置绿植，右侧有置物架摆多盆植物",
+        "en": "Outdoor greenery with potted plants on a right-side shelf",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周一至周日07:30起（2月20-23日8:00起）",
+        "en": "Open daily from 07:30 (8:00 during Feb 20–23)",
+        "from": [
+          6,
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "退役军人主理，融入军魂与东方美学",
+        "en": "Run by a veteran, blending military ethos with oriental aesthetics",
+        "from": [
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "店内展示咖啡器具与菜单板，有优选咖啡馆认证",
+        "en": "Coffee equipment and menu board displayed, certified as 'Preferred Café'",
+        "from": [
+          4,
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "有吧台可办公",
+        "en": "Bar counter for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible to passersby"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seating encourages lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有咖啡器具与认证，可能手冲或自烘",
+        "en": "Equipment and certification suggest specialty brewing"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:34Z"
+}

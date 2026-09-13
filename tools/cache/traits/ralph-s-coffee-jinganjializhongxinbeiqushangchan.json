@@ -1,0 +1,64 @@
+{
+  "cafeId": "ralph-s-coffee-jinganjializhongxinbeiqushangchan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8e2a61b6bb97",
+  "raw": {
+    "headline": {
+      "zh": "咖啡区与服装区共存",
+      "en": "Coffee bar inside a clothing space"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内咖啡区与服装陈列区并存",
+        "en": "Coffee area shares space with clothing displays",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供带奶泡艺术的拿铁类饮品",
+        "en": "Serves lattes with latte art",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "搭配小食为姜饼人饼干",
+        "en": "Serves gingerbread men as snack",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃带来充足自然光",
+        "en": "Full-height street-facing glass for natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至21:00",
+        "en": "Open until 21:00 on weekdays",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "空间混合，非纯咖啡馆",
+        "en": "Mixed-use space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:36Z"
+}

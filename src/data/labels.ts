@@ -9,6 +9,8 @@ export const DISTRICTS: District[] = [
   'Putuo',
   'Hongkou',
   'Pudong',
+  'Yangpu',
+  'Minhang',
 ]
 
 export const DISTRICT_ZH: Record<District, string> = {
@@ -19,6 +21,8 @@ export const DISTRICT_ZH: Record<District, string> = {
   Putuo: '普陀',
   Hongkou: '虹口',
   Pudong: '浦东',
+  Yangpu: '杨浦',
+  Minhang: '闵行',
 }
 
 export const TAG_LABEL: Record<Tag, string> = {
@@ -271,6 +275,7 @@ export const UI = {
   // café card
   close: { en: 'Close', zh: '关闭' },
   againstCompass: { en: 'against your compass', zh: '相对你的罗盘' },
+  source: { en: 'source', zh: '来源' },
   hoursWord: { en: 'Hours', zh: '营业时间' },
   seatsWord: { en: 'Seats', zh: '座位' },
   spendWord: { en: 'Spend', zh: '花费' },
@@ -377,6 +382,35 @@ export const UI = {
   obNext: { en: 'Next', zh: '下一步' },
   obDone: { en: 'Start exploring', zh: '开始探索' },
   obSkip: { en: 'Skip', zh: '跳过' },
+  obScenarioTitle: { en: 'What is the next hour for?', zh: '下一个小时想怎么过？' },
+  obScenarioBody: {
+    en: 'Pick one and the compass sets itself — then it tells you where to go, and why.',
+    zh: '选一个，罗盘自己转好——然后告诉你去哪，以及为什么。',
+  },
+  obJustLook: { en: 'Just let me look around', zh: '我先随便看看' },
+
+  // scenarios & verdicts
+  scenariosTitle: { en: 'What is the next hour for?', zh: '下一个小时想怎么过？' },
+  scenarioModified: { en: 'tweaked', zh: '已微调' },
+  scenarioNowHint: { en: 'suits this hour', zh: '适合此刻' },
+  scenarioClear: { en: 'Clear scenario', zh: '取消场景' },
+  compassSays: { en: 'Compass says', zh: '罗盘说' },
+  pickWord: { en: 'Pick', zh: '首选' },
+  estimateMark: { en: 'est.', zh: '估' },
+  estimateTitle: {
+    en: 'Estimated — no external source has confirmed this café yet.',
+    zh: '估算值——尚无外部来源核实这家店。',
+  },
+  oftenOrdered: { en: 'Often ordered', zh: '他们家常被点的' },
+  hardFacts: { en: 'Hard facts', zh: '硬信息' },
+  weekHours: { en: 'This week', zh: '本周营业' },
+  photosLabel: { en: 'Photos', zh: '照片' },
+  sharePicks: { en: 'Share my 3 picks', zh: '分享我的三家首选' },
+  myCompassPicks: { en: 'My compass → 3 picks', zh: '我的罗盘 → 三家首选' },
+  withinWalk: { en: 'within a 20 min walk', zh: '20 分钟步行内' },
+  sheetPeek: { en: 'Show the compass', zh: '展开罗盘' },
+  sheetHide: { en: 'Hide the compass', zh: '收起罗盘' },
+  keysHint: { en: '1–8 scenario · / search · Esc close', zh: '1–8 场景 · / 搜索 · Esc 关闭' },
 } satisfies Record<string, Pair>
 
 export const VERDICT_ZH: Record<string, string> = {

@@ -1,0 +1,69 @@
+{
+  "cafeId": "maan-coffee-lifengguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7055d8e51579",
+  "raw": {
+    "headline": {
+      "zh": "商场里的临街绿意咖啡馆",
+      "en": "Greenery-filled cafe on the street"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设户外座位区，带绿植装饰",
+        "en": "Outdoor seating with greenery",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，通透明亮",
+        "en": "Full-height street-facing windows",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内墙面悬挂植物，有展示墙",
+        "en": "Indoor hanging plants and display wall",
+        "from": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10 PM",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供单人餐与咖啡",
+        "en": "Serves coffee and single meals",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:19Z"
+}

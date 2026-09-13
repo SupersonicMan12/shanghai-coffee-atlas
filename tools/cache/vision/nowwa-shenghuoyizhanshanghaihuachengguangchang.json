@@ -1,0 +1,47 @@
+{
+  "cafeId": "nowwa-shenghuoyizhanshanghaihuachengguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ce20162421aa",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp",
+    "https://aos-comment.amap.com/B0LD7S1358/comment/024DE8E0_7ACE_4A71_B2D0_BF9CD1D73741_L0_001_1536_204_1769653887498_33740815.jpg",
+    "https://aos-comment.amap.com/B0LD7S1358/comment/F3AB2529_7280_4859_9C59_0937DACC7CCB_L0_001_2048_153_1769653887505_89296913.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，杯身印有NOWWA品牌标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款饮品呈深褐色，含冰块，可能为冷萃或美式咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯盖为透明塑料材质，带吸管和封口纸",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印有“全球累计超2000+家店”字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:08Z"
+}

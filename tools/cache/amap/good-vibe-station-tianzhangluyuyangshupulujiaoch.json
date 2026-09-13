@@ -1,0 +1,160 @@
+{
+  "cafeId": "good-vibe-station-tianzhangluyuyangshupulujiaoch",
+  "query": {
+    "location": "121.523445,31.249284",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:11:19Z",
+  "matchedPoiId": "B0JDUXXW7C",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a5c98ceae7b07e420000003028734472?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDUXXW7C/comment/DEB0B845_830E_4272_AA4A_E998EE3C93CC_L0_001_1496_199_1761086721543_08946489.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDUXXW7C/comment/content_media_external_images_media_56201_ss__1733675193858_10246871.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13162003041",
+        "id": "B0JDUXXW7C",
+        "tag": "鱿鱼,卡布奇诺,巧克力",
+        "entr_location": "121.523090,31.249327",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "提篮桥",
+        "childtype": [],
+        "atag": "鱿鱼,卡布奇诺,巧克力",
+        "name": "Good Vibe Station好气咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "42.00",
+          "opentime2": "周一至周日 11:00-22:00",
+          "rating": "4.5",
+          "open_time": "11:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621649122",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:35:22",
+        "website": [],
+        "address": "天章路与杨树浦路交叉口南340米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.523440,31.249282",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L1OCPB2M",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "水润万物咖啡吧(城投水务店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "156",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "3.3",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621740102",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:01:02",
+        "website": [],
+        "address": "杨树浦路与通北路交叉口南220米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.524225,31.250525",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

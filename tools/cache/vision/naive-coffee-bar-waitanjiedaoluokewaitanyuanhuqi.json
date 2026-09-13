@@ -1,0 +1,71 @@
+{
+  "cafeId": "naive-coffee-bar-waitanjiedaoluokewaitanyuanhuqi",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ef2211a257f2",
+  "photos": [
+    "https://aos-comment.amap.com/B0J2H9I48E/comment/AF809FE0_40C4_4A23_82C1_759540F1FB6B_L0_001_2000_150_1758123099271_74040776.jpg",
+    "https://aos-comment.amap.com/B0J2H9I48E/comment/b86bfeccaa2ad3d0c95f079f2dc128f1_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J2H9I48E/comment/6734926C_730B_4C16_9730_439A3FF1B7FB_L0_001_2000_150_1772877480146_17404932.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "木质托盘上放三杯饮品：一杯带叶饰的泡沫鸡尾酒、一杯大冰球黄饮、一杯加冰透明饮，另有一小碗三角脆片。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口处墙面有‘naive 理想国’字样，玻璃门为弧顶金属框设计，门内可见暖光吧台与书架。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯奶泡饮品表面有咖啡液绘制图案、插樱桃，旁附卡片写有‘《十一个时区之旅》’及‘我们身处黑暗，被光包围’。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图中托盘旁有红色手机壳手机与磨砂玻璃灯罩烛台，背景为临街玻璃窗与金属椅。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图饮品置于不锈钢台面，托盘为深色木纹，旁有印‘naive 理想国’字样的纸巾与卡片。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第二张图门内右侧有嵌入式层板书架，陈列书籍与小物件；吧台区域有吊灯与木质吧台面。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.92
+    },
+    {
+      "text": "第一张图中无可见座位、电脑或专业咖啡器具；仅见饮品与小吃。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "三张图均未出现烘焙机、手冲台、虹吸壶、磨豆机等专业咖啡设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:51Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "manmaokafei-xianxia-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f76c85567eed",
+  "raw": {
+    "headline": {
+      "zh": "猫主题装饰配焦糖厚吐司",
+      "en": "Cat-themed café with caramel toast"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供厚吐司配奶油、番茄和焦糖酱",
+        "en": "Serves thick toast with cream, tomato, and caramel",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有适合两人的小型餐桌椅",
+        "en": "Has small two-person tables and chairs",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至23:30",
+        "en": "Open daily until 23:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品为猫咖啡",
+        "en": "Recommended drink is 'cat coffee'",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店内有猫主题装饰品",
+        "en": "Features cat-themed décor",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "有两人座和温馨灯光",
+        "en": "Cozy lighting and seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:16Z"
+}

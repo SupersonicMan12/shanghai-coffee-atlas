@@ -1,0 +1,68 @@
+{
+  "cafeId": "xidaduokafeigongzuoshi-jianguo-west-rd-395",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "88f700f8f1e4",
+  "raw": {
+    "headline": {
+      "zh": "专注手冲原产地豆",
+      "en": "Specializes in origin-focused pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "主理人偏爱原产区咖啡豆",
+        "en": "Prefers single-origin beans for pure flavor",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打手冲咖啡",
+        "en": "Signature drink is pour-over coffee",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有大型装饰性绿植",
+        "en": "Features large decorative indoor plants",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周四至周日12:00-18:00",
+        "en": "Open Thu–Sun, 12:00–18:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          5,
+          7,
+          10
+        ],
+        "zh": "多组滤杯与原产地豆",
+        "en": "Multiple brewers & origin beans"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "绿植与整面落地窗",
+        "en": "Plants and floor-to-ceiling windows"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:38Z"
+}

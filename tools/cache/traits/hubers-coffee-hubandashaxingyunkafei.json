@@ -1,0 +1,77 @@
+{
+  "cafeId": "hubers-coffee-hubandashaxingyunkafei",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d3247fb382dc",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃站喝小馆",
+      "en": "Stand-up café with street-facing glass"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound",
+        "zh": "临街落地玻璃门，采光好，可站喝",
+        "en": "Street-facing floor-to-ceiling glass, bright, stand-up only",
+        "from": [
+          3,
+          9,
+          1
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "使用巴西、埃塞、危地马拉、哥伦比亚阿拉比卡豆",
+        "en": "Coffee beans from Brazil, Ethiopia, Guatemala, Colombia Arabica",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "拿铁盛于透明玻璃杯",
+        "en": "Latte served in clear glass cup",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space|seating",
+        "zh": "户外有遮阳棚和少量座位",
+        "en": "Outdoor seating with awning, limited spots",
+        "from": [
+          1,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 08:30-18:00",
+        "en": "Open 08:30–18:00 daily",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "站喝为主，适合短暂停留",
+        "en": "Primarily stand-up, short stays"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "On street, visible foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:59Z"
+}

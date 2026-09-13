@@ -1,0 +1,65 @@
+{
+  "cafeId": "cafe-shanghaizhongxindasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a7d5e9b6289c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/efa83ae7ba0d66920000004869526312?type=pic",
+    "https://store.is.autonavi.com/showpic/9c256c0763a46ebb0000002470290544?type=pic",
+    "https://store.is.autonavi.com/showpic/cb74aa1ed25e4a8e0000002470288499?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "提供精致甜点，包括马卡龙、慕斯、小蛋糕等",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有造型独特的绿色动物形状甜点",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点摆放在金色边框的镜面托盘上",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见多款创意甜点，如夹心三明治蛋糕和果冻杯",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "甜点上有“上海之巅看世界”字样标识",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "部分甜点装饰有花瓣和巧克力片",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "蛋糕层次分明，顶部有橙色果胶和奶油装饰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:33Z"
+}

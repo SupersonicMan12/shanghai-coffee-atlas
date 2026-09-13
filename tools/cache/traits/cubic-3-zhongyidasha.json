@@ -1,0 +1,51 @@
+{
+  "cafeId": "cubic-3-zhongyidasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d564a64c1265",
+  "raw": {
+    "headline": {
+      "zh": "主打冰美式与生椰拿铁",
+      "en": "Known for iced Americano and coconut latte"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式和生椰拿铁",
+        "en": "Serves iced Americano and coconut latte",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机和手冲器具",
+        "en": "Equipped with grinders and pour-over gear",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8点开门，周末9点",
+        "en": "Opens at 8 on weekdays, 9 on weekends",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 40,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "有手冲设备但主打常规饮品",
+        "en": "Pour-over gear but standard drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:55Z"
+}

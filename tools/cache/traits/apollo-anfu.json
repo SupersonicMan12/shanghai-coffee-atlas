@@ -1,0 +1,92 @@
+{
+  "cafeId": "apollo-anfu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6062ffb56698",
+  "raw": {
+    "headline": {
+      "zh": "地中海风味海鲜饭",
+      "en": "Mediterranean-style paella"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "主菜为盛于铸铁锅的海鲜饭，含虾、贻贝等",
+        "en": "Paella served in cast iron, with shrimp, mussels, clams",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街老式建筑，带大落地窗",
+        "en": "Old building with large floor-to-ceiling windows",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "木质桌椅配卡座，靠窗有双人桌",
+        "en": "Wooden tables and booths, with two-seater sets by window",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 10:30-23:00，全天可至",
+        "en": "Open 10:30–23:00 daily",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品：早 espresso，晚 negroni",
+        "en": "Espresso by day, negroni by night",
+        "from": [
+          8,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "无电脑使用迹象",
+        "en": "No laptop use seen"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "临街老房，视野开阔",
+        "en": "Street-facing old building"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          10
+        ],
+        "zh": "有卡座与长营业时间",
+        "en": "Booths and long hours"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "饮品从咖啡过渡到鸡尾酒",
+        "en": "Shift from espresso to negroni"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:09Z"
+}

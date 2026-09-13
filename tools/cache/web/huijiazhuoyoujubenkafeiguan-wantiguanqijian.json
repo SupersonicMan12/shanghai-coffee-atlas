@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "全年无休，营业时间从10:00至凌晨2:00。",
+      "kind": "time",
+      "quote": "营业时间. 10-00-凌晨2-00(全年无休)",
+      "url": "https://baike.baidu.com/item/%E6%B1%87%E4%BD%B3%E6%A1%8C%E6%B8%B8%E5%92%96%E5%95%A1%E5%BE%90%E6%B1%87%E6%97%97%E8%88%B0%E5%BA%97/14236500",
+      "site": "百度"
+    },
+    {
+      "text": "提供千款桌游选择，适合团队活动。",
+      "kind": "people",
+      "quote": "千款桌游任君选,剧本沉浸乐无疆。",
+      "url": "https://weibo.com/1800013684/Q7aJd1oo0",
+      "site": "无"
+    },
+    {
+      "text": "有专教主持服务，增强游戏体验。",
+      "kind": "people",
+      "quote": "专教主持妙趣扬。",
+      "url": "https://weibo.com/1800013684/Q7aJd1oo0",
+      "site": "无"
+    },
+    {
+      "text": "人均消费约38元，价格亲民。",
+      "kind": "story",
+      "quote": "人均价格. 38",
+      "url": "https://baike.baidu.com/item/%E6%B1%87%E4%BD%B3%E6%A1%8C%E6%B8%B8%E5%92%96%E5%95%A1%E5%BE%90%E6%B1%87%E6%97%97%E8%88%B0%E5%BA%97/14236500",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "汇佳桌游咖啡馆(徐汇旗舰店)",
+      "url": "https://map.360.cn/site/detail/e013efb46abff6ce",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "汇佳桌游咖啡馆(人民广场一店) - 新浪财经",
+      "url": "https://cj.sina.cn/articles/view/7879923100/1d5ae159c01901hxu0?froms=ggmp&vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "汇佳桌游咖啡徐汇旗舰店_百度百科",
+      "url": "https://baike.baidu.com/item/%E6%B1%87%E4%BD%B3%E6%A1%8C%E6%B8%B8%E5%92%96%E5%95%A1%E5%BE%90%E6%B1%87%E6%97%97%E8%88%B0%E5%BA%97/14236500",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "双节同庆喜洋洋,汇佳桌游聚欢堂 千款桌... 来自汇佳桌游 - 微博",
+      "url": "https://weibo.com/1800013684/Q7aJd1oo0",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "汇佳小哥教你玩桌游系列- 播单- 优酷视频",
+      "url": "https://list.youku.com/albumlist/show/id_26365839.html?&ascending=0",
+      "site_name": "优酷"
+    },
+    {
+      "index": 6,
+      "title": "汇佳桌游剧本咖啡馆(万体馆旗舰店)-图片-shanghai休闲娱乐 - 大众点评",
+      "url": "https://www.dianping.com/shop/l9IWKofcdElJkDII/photos?pg=49",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "【汇佳桌游咖啡馆(汉口路店)】地址,电话,路线,周边设施 - 360地图",
+      "url": "https://m.map.360.cn/m/search/detail/pid=6fd7ea48c6754ec5",
+      "site_name": "360官网"
+    },
+    {
+      "index": 8,
+      "title": "汇佳桌游咖啡馆(人民广场一店) - 上海棋牌场馆- 活动网",
+      "url": "https://huodong.com/venue/detail/eyeou",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "汇佳桌游剧本咖啡馆(万体馆旗舰店)-环境图片 - 大众点评",
+      "url": "https://www.dianping.com/shop/l9IWKofcdElJkDII/photos/tag-%E7%8E%AF%E5%A2%83",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "汇佳桌游剧本咖啡馆(万体馆旗舰店) - 大众点评",
+      "url": "http://m.dianping.com/shop/4700277?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:02Z"
+}

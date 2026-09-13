@@ -1,0 +1,86 @@
+{
+  "cafeId": "lavazza-osm-2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d178e778f280",
+  "raw": {
+    "headline": {
+      "zh": "亚洲首家意式咖啡文化之家",
+      "en": "Asia's first Casa Lavazza"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃，视野开阔可看城市倒影",
+        "en": "Floor-to-ceiling windows with cityscape reflections",
+        "from": [
+          1,
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有舒适靠窗座位，支持久坐休憩",
+        "en": "Comfortable window seats for lingering",
+        "from": [
+          3,
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推出上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Shanghai-exclusive blend and orange vanilla shake americano",
+        "from": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "陈列生豆至深度烘焙的全阶段咖啡豆",
+        "en": "Display of green to dark roast beans",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-22:00",
+        "en": "Open daily 07:30–22:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          12
+        ],
+        "zh": "有舒适座位可久坐",
+        "en": "Designed for lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有室外座位，环境略喧闹",
+        "en": "Outdoor seating adds buzz"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "空间开放适合社交",
+        "en": "Spacious, social-friendly"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:58Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "danluokafei-datonghuayuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9e9c17dbec70",
+  "photos": [
+    "https://aos-comment.amap.com/B0JR7LFLUU/comment/20260323-80fd8e4284a3d06229c3b0a4-6RlQaTlAKf06gEPHIZsCTI.jpg",
+    "https://store.is.autonavi.com/showpic/c2d9da6f8d24288b0000001891706547?type=pic",
+    "https://aos-comment.amap.com/B0JR7LFLUU/comment/20260323-80fd8e4284a3d06229c3b0a4-5RMbUBFssgf8LsmWNU9vz0.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "咖啡拉花为马图案，配中文字符",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于临街位置，有户外桌椅",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺使用集装箱改造，入口开放",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外有绿植和停车区域",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见部分座位和室内空间",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口有落地灯和小型绿化带",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:18Z"
+}

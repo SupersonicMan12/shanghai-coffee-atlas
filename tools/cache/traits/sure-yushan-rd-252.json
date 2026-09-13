@@ -1,0 +1,38 @@
+{
+  "cafeId": "sure-yushan-rd-252",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "619b545b55ab",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "香煎羊排168元，配时蔬沙拉和土豆泥",
+        "en": "Pan-seared lamb chops ¥168 with seasonal veggies, herb salad, mashed potatoes",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内宽敞，设有多张铺白桌布的餐桌",
+        "en": "Spacious interior with multiple tables dressed in white linens",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日11:00-22:00营业",
+        "en": "Open Tue–Sun, 11:00–22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:39:48Z"
+}

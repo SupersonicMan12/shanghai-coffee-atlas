@@ -1,0 +1,70 @@
+{
+  "cafeId": "xingbake-moli-zhanzhangjiangkexuezhiment5",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fab963d4092b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ce8796d544fc4da10000002307662045?type=pic",
+    "https://store.is.autonavi.com/showpic/b7b6c97a84d0ea9a0000002307636359?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有展示柜陈列糕点和饮品",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中有可颂、蛋糕等烘焙食品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有粉色包装的毛绒玩具商品出售，售价78元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单展示三种饮品：茉莉风味、抹茶和拿铁类",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有收银台和点单屏幕",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见部分饮品价格，如一杯100朵茉莉系列饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "柜台后方有水槽和饮料制作设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，窗外可见城市建筑",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:26Z"
+}

@@ -1,0 +1,78 @@
+{
+  "cafeId": "tims-jinqiaoriyueguangzhongxin",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "79e17b43ecf0",
+  "raw": {
+    "headline": {
+      "zh": "现做贝果咖啡厅",
+      "en": "Fresh-baked bagels with coffee"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供现做的贝果、可颂等暖食",
+        "en": "Offers freshly made bagels, croissants, and other warm pastries",
+        "from": [
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间宽敞，设吧台与少量桌椅",
+        "en": "Spacious interior with counter and a few tables",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "设有专业咖啡制作区，含烘焙机设备",
+        "en": "Features professional coffee station with roasting equipment",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日07:00-22:00",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有座位可办公",
+        "en": "Has seats for working"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "有顾客在消费",
+        "en": "Customers present"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "空间宽敞可久坐",
+        "en": "Spacious enough to linger"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:57Z"
+}

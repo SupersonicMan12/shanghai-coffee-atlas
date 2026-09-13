@@ -1,0 +1,79 @@
+{
+  "cafeId": "niuxiangkafei-jinhebalishiyun",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "564e667d6e92",
+  "raw": {
+    "headline": {
+      "zh": "自烘浅焙豆配热冰滴",
+      "en": "House-roasted light beans, hot ice drip"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘焙精品咖啡豆，含卢旺达SOE等",
+        "en": "House-roasted specialty beans, e.g. Rwanda SOE",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供热冰滴及一豆两喝选项",
+        "en": "Serves hot ice drip and one-bean-two-ways",
+        "from": [
+          8,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "零售“六步溪”“大烟枪”等咖啡豆",
+        "en": "Sells retail bags like Liu Bu Xi, Da Yan Qiang",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间紧凑但整洁，有小木桌",
+        "en": "Compact but tidy space with small wooden tables",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末营业10:00–17:00",
+        "en": "Open weekends 10:00–17:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8
+        ],
+        "zh": "自烘豆+手冲+热冰滴",
+        "en": "House-roast, pour-over, hot ice drip"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          5
+        ],
+        "zh": "有桌可坐但空间紧凑",
+        "en": "Seating available, compact space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:28Z"
+}

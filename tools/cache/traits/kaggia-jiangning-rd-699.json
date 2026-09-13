@@ -1,0 +1,39 @@
+{
+  "cafeId": "kaggia-jiangning-rd-699",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0f52773090c2",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "商场内宽敞空间，设吧台与展示柜",
+        "en": "Spacious mall spot with bar and display case",
+        "from": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街落地窗提供充足自然光",
+        "en": "Full-height street-facing windows for ample daylight",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至20:30",
+        "en": "Open daily until 8:30 PM",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:35:39Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "yizhangzhuozikafei-xinhongkoushizhengshangwulou",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "df436fb3e0b1",
+  "photos": [
+    "https://aos-comment.amap.com/B0IKMZHGS7/comment/2B194A84_BC18_47EA_A9FC_2E4842F1F486_L0_001_1500_200_1764165955806_53122596.jpg",
+    "https://aos-comment.amap.com/B0IKMZHGS7/comment/C63F82C4_DE79_47EF_84C1_1A271759DFAF_L0_001_1080_144_1769253768191_53214851.jpg",
+    "https://store.is.autonavi.com/showpic/d8a546c0e281175f0000002262942145?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "两张照片显示户外木桌放置两杯带‘3周年’贴纸的冰咖啡，配黑吸管与透明盖。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张照片为玻璃杯装的分层冰咖啡（奶底+浓缩），置于木质杯垫上，有黑吸管。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张照片背景可见灰色折叠椅，椅背印有‘ENKINMO’字样，地面为蓝灰方砖铺地。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张照片中饮品杯身贴绿色圆形标签，内有简笔画与‘3周年’字样，无其他文字可辨。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张照片为热拿铁，杯面有叶形拉花，盛于带黑线白瓷杯，置于木质托盘。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张照片背景为浅色墙面与部分藤编椅背，桌面为原木色，无窗户或室外景可见。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "三张照片均未出现菜单、价格、豆子产地、烘焙机、手冲台、磨豆机、书架、植物或宠物。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "三张照片中均无人物入镜，无法判断是否有人用电脑或店内客流情况。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:01Z"
+}

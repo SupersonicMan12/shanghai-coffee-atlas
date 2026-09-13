@@ -1,0 +1,71 @@
+{
+  "cafeId": "offbeat-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "41d8b027f2b8",
+  "photos": [
+    "https://aos-comment.amap.com/B0LDJ1R2P9/comment/68226491_7D9F_4003_965D_E348ECEA64CC_L0_001_1500_200_1759421987086_60270388.jpg",
+    "https://store.is.autonavi.com/showpic/6445db4ec0a4c28e0000003195062631?type=pic",
+    "https://aos-comment.amap.com/B0LDJ1R2P9/comment/4AD5BA3C_7FA3_416C_8F05_F9B89F181988_L0_001_1536_204_1759979034495_45968756.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小窗口式吧台，嵌入深色砖墙与木框结构中",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗口右侧挂有菜单，可见‘無问咖啡’店名及‘CLASSIC 经典咖啡’等分类",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单列有美式/SOE、拿铁/SOE、澳白/SOE、Dirty/茉莉花Dirty，价格26–36元",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一朵粉玫瑰插在木块+试管组合的简易花器中，固定于窗框旁",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室外地面放一白色桶装混色菊花（粉、白、紫），紧邻墙面",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见一人穿黑衣站在吧台后，低头看手机，无顾客在座",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为深褐色冰饮，盛于带纹理玻璃杯，饰以绿叶与花瓣，置于木托盘上",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "背景可见木质置物架与青瓷天鹅摆件，未见烘焙机、手冲台或磨豆机",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:18Z"
+}

@@ -1,0 +1,39 @@
+{
+  "facts": [
+    {
+      "text": "仅11平米，2021年开半年即登企鹅年度咖啡榜单第一",
+      "kind": "story",
+      "quote": "2021年,仅11平米的Radar在思南路刚开半年,就超越一众老店成为当年的企鹅年度咖啡榜单第一。",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "reda coffee雷達咖啡（博客小街店） - 信陽 - 永安旅遊",
+      "url": "https://www.wingontravel.com/discovery/restaurant-153699050",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "西达摩咖啡豆",
+      "url": "https://baike.baidu.com/item/西达摩咖啡豆/68549945",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "咖啡知识 | 世界常见咖啡生豆品种详解(一) ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MzI2MzYyMQ==&mid=2247504103&idx=4&sn=a2cfd7a02bfadefe2bd4e07d636595da&chksm=9062128da7159b9b5db7ee2f5f68673006937f4d475d34936e5b843facbdf958a565e12e7724&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:33Z"
+}

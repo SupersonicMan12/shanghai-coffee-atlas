@@ -1,0 +1,59 @@
+{
+  "cafeId": "coleadffee-wuxing-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cdc8c7ed076c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHJX3D4/comment/e6daf5067fec3e000deaacf90d906201_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/69ac9cd04e039e380a14209831ca7159",
+    "http://store.is.autonavi.com/showpic/3989259dadf660038092201c4d0bd9c1"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有草莓挞出售",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于临街位置",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有黑色皮质沙发座椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有玻璃咖啡壶和滤杯组合",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为玻璃门，可进入",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:30Z"
+}

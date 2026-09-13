@@ -1,0 +1,74 @@
+{
+  "cafeId": "xuyukafei-zhongxingzhangdaoyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "293211707f7a",
+  "raw": {
+    "headline": {
+      "zh": "有书有花可久坐",
+      "en": "Books, flowers, and cozy seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "配有沙发椅和小桌，适合阅读休息",
+        "en": "Sofa chairs and small tables for reading or resting",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内设有多本书籍的书架",
+        "en": "Bookshelf stocked with many books",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供小型陶瓷杯装咖啡，杯绘人物图案",
+        "en": "Coffee served in small ceramic cups with figure designs",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为‘甜蜜时光’",
+        "en": "Recommended dish: 'Sweet Time'",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00-20:00，但2026年2月16-22日全天关闭",
+        "en": "Open 09:00–20:00; closed Feb 16–22, 2026",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有书有沙发适合久坐",
+        "en": "Books and sofas invite lingering"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有书架和阅读座位",
+        "en": "Bookshelf and reading-friendly seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:06Z"
+}

@@ -1,0 +1,32 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "URBN Boutique Shanghai",
+      "url": "https://www.agoda.com/en-za/urbn-boutique-shanghai/hotel/shanghai-cn.html",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "Book SKjianshejiudiansongjiangdaxuechengdongmingguangchangdian",
+      "url": "https://www.agoda.cn/sushi-qingju-hotel-songjiang-university-town/hotel/shanghai-cn.html",
+      "site_name": "安可达"
+    },
+    {
+      "index": 3,
+      "title": "URBN Hotel Shanghai - Traveloka",
+      "url": "https://www.traveloka.com/en-en/hotel/china/urbn-hotel-shanghai-9000007487312",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Book the Suites Shanghai",
+      "url": "https://www.agoda.cn/the-suites-shanghai/hotel/shanghai-cn.html?searchrequestid=550b2e7a-33b6-456d-ab2c-c9626c9d6105",
+      "site_name": "安可达"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:39Z",
+  "retriedEn": true
+}

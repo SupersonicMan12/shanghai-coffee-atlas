@@ -1,0 +1,71 @@
+{
+  "cafeId": "1925-baoshan-rd-403",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8d6ea11c2426",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/86d46f6ac3a016470000003181458410?type=pic",
+    "https://store.is.autonavi.com/showpic/c027eaebefad4ee40000003181460295?type=pic",
+    "https://store.is.autonavi.com/showpic/22255c459a131c450000003182598876?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外有2把折叠椅和1张小桌，属室外座。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "二楼阳台挂红色横幅，写“好喝的咖啡里面请”。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单可见“1925限定”款如工焙拿铁、宝山里弄米道。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后墙菜单列意式咖啡、风味拿铁、牛乳鲜茶等品类。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有货架陈列咖啡豆、挂耳包、杯子、明信片等商品。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门头有大红蝴蝶结装饰，门口地面为红色步道。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "左侧有棵大树，树干粗壮，枝叶稀疏，临街可见。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内未见顾客或工作人员，无电脑使用迹象。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:24Z"
+}

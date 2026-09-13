@@ -1,0 +1,69 @@
+{
+  "cafeId": "lianyizhankafeiguan-xiuwen-rd-118",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bef95132e5a6",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲咖啡馆",
+      "en": "Street-side pour-over café"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡40元起，提供多种茶饮",
+        "en": "Pour-over from ¥40, plus assorted teas",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内木质桌椅，室外有露天座位",
+        "en": "Indoor wood tables and outdoor seating",
+        "from": [
+          4,
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机和手冲设备",
+        "en": "Grinder and pour-over gear on site",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至16:30，周末至18:00",
+        "en": "Open till 16:30 weekdays, 18:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 65,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating indoors and out"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "提供手冲及专业设备",
+        "en": "Offers pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:36Z"
+}

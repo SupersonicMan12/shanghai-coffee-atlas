@@ -1,0 +1,57 @@
+{
+  "cafeId": "plusone-xian",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d89a24e0d0f2",
+  "raw": {
+    "headline": {
+      "zh": "临街大玻璃窗+保时捷天鹅车",
+      "en": "Floor-to-ceiling windows + swan-decorated Porsche"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗，采光良好",
+        "en": "Full-height street-facing glass windows with ample natural light",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量不多",
+        "en": "Limited indoor seating available",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内悬挂绿植，营造自然氛围",
+        "en": "Hanging plants inside create a natural atmosphere",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-20:00，全年无休",
+        "en": "Open daily 10:00–20:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "座位不多但非站饮",
+        "en": "Limited but seated setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:29Z"
+}

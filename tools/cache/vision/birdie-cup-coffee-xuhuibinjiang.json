@@ -1,0 +1,59 @@
+{
+  "cafeId": "birdie-cup-coffee-xuhuibinjiang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d38f370a4fb7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/71e87c6412ce18e195e7c5940c287feb",
+    "https://store.is.autonavi.com/showpic/f078d1926f30f06d0000002489836581?type=pic",
+    "https://store.is.autonavi.com/showpic/b4a6fd47e900250d0000002475060197?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为白色方格纹理外观，有黑色遮阳篷",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见一名戴口罩的店员在服务窗口后",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "服务窗口内可见咖啡制作设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗外可见绿色植物和湿漉漉的地面",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于室外，地面为砖石铺就",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过窗户可见店内部分陈设，但细节不清",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:49Z"
+}

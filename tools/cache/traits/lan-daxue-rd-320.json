@@ -1,0 +1,86 @@
+{
+  "cafeId": "lan-daxue-rd-320",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a4a76637dfcd",
+  "raw": {
+    "headline": {
+      "zh": "云南高原豆自烘SOE手冲",
+      "en": "Yunnan highland beans, roasted and brewed in-house"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自云南临沧耿马深山，主理人全程参与种植到烘焙",
+        "en": "Coffee beans from Lincang Gengma's highlands; roaster oversees planting to roasting",
+        "from": [
+          5,
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌‘手冲黑美人’，香气四溢、入口绵密、唇齿留香",
+        "en": "Signature pour-over 'Black Beauty': aromatic, silky mouthfeel, lingering finish",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "‘一豆双喝’：同种豆制成美式与拿铁两款",
+        "en": "'One Bean, Two Ways': same bean used for both Americano and latte",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "纯白两层loft集装箱，二楼设露营空间配露营装备",
+        "en": "Two-story white loft container with a rooftop camping setup and gear",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "限定桂花酒酿系列，非咖啡爱好者也会因咖啡香消费",
+        "en": "Seasonal osmanthus rice wine series — draws even non-coffee drinkers with coffee aroma",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "二楼露营空间非办公导向",
+        "en": "Camping space not for work"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "莫奈小花园+露营空间促久坐",
+        "en": "Garden + camping setup encourages lingering"
+      },
+      "adventure": {
+        "value": 90,
+        "from": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "zh": "自烘SOE、手冲黑美人、一豆双喝、桂花酒酿系列",
+        "en": "In-house SOE, signature pour-over, one-bean dual brew, seasonal fermented drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:01Z"
+}

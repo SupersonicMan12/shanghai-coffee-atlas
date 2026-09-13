@@ -1,0 +1,74 @@
+{
+  "cafeId": "kafei-jinganjializhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "bb18d79f7459",
+  "raw": {
+    "headline": {
+      "zh": "商场内高挑玻璃顶咖啡馆",
+      "en": "Café under soaring glass ceiling"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于商场内，空间开阔",
+        "en": "Spacious interior inside the mall",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "高挑玻璃顶与临街落地窗，采光良好",
+        "en": "Bright from glass ceiling and street-facing windows",
+        "from": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台前设少量高脚凳",
+        "en": "Few high stools at the bar counter",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机、咖啡机等专业器具",
+        "en": "Equipped with professional coffee gear",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日小程序下单享买一送一",
+        "en": "Buy-one-get-one via app on weekdays",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "店内有顾客流动",
+        "en": "Customers moving through"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "仅设少量高脚凳",
+        "en": "Only a few stools"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:35Z"
+}

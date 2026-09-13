@@ -1,0 +1,52 @@
+{
+ "cafeId": "1900loft-xinhua-rd",
+ "model": "qwen-max",
+ "inputDigest": "c0bab0d5ba4e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街落地窗，可欣赏夜景与绿化带",
+    "en": "Street-level windows with night views and greenery",
+    "from": "[2,3,6,4]"
+   },
+   {
+    "kind": "seating",
+    "zh": "提供黑色皮质沙发座和圆木桌",
+    "en": "Leather sofas and round wooden tables available",
+    "from": "[1]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间从早十点到晚十点",
+    "en": "Open from 10:00 to 22:00 daily",
+    "from": "[7]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 60,
+    "from": "[1]",
+    "zh": "有舒适的座位适合工作",
+    "en": "Comfortable seating for work"
+   },
+   "linger": {
+    "value": 80,
+    "from": "[1,4,7]",
+    "zh": "舒适的环境和较长的营业时间",
+    "en": "Cozy ambiance, long hours"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[2,3,6]",
+    "zh": "玻璃幕墙店面较为安静",
+    "en": "Quiet, glass storefront"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:18Z"
+}

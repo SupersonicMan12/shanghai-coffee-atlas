@@ -1,0 +1,71 @@
+{
+  "cafeId": "hua-hua-coffee-shanghaishishangyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2ae54735e90c",
+  "photos": [
+    "https://aos-comment.amap.com/B0G3V4BGTU/comment/content_media_external_file_1000017381_ss__1766905917131_63631841.jpg",
+    "https://aos-comment.amap.com/B0G3V4BGTU/comment/234BD196_E796_4255_87EA_BB9EFF8A3094_L0_001_1500_200_1771928203229_99143665.jpg",
+    "https://aos-comment.amap.com/B0G3V4BGTU/comment/content_media_external_file_1000017380_ss__1766905917131_62438852.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有黄色遮阳棚和玻璃门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内空间狭长，采用白色砖墙和木质装饰。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有卡座和小圆桌，座位数量较少。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有绿植和圣诞帽装饰的高脚凳，适合拍照。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好，窗外可见街道装饰。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内摆放咖啡豆罐、菜单板和书架，氛围温馨。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口及店内有节日装饰，如圣诞树、彩灯和挂饰。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有植物点缀，环境自然舒适。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:01Z"
+}

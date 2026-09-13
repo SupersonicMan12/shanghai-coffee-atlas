@@ -1,0 +1,71 @@
+{
+  "cafeId": "huaka-riyueguang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "62953899c659",
+  "photos": [
+    "https://aos-comment.amap.com/B0G3A5DHFO/comment/4D61E3A4_818B_4EE6_9DE2_A149C1DB216E_L0_001_1500_2000_1730565869168_60385815.jpg",
+    "https://aos-comment.amap.com/B0G3A5DHFO/comment/E87D10D4_CE22_496A_814A_B98FF899C53D_L0_001_1500_2000_1730565869170_58770345.jpg",
+    "https://aos-comment.amap.com/B0G3A5DHFO/comment/AAEDA1FE_0B31_40EB_ADAB_2D15AEC88E0C_L0_001_1500_2000_1730565869172_06201962.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有楼梯和木质置物架，空间为两层结构",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有手冲器具、磨豆机和咖啡豆罐，具备专业咖啡制作设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中有多种蛋糕，包括彩虹千层、巧克力蛋糕等",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多处绿植装饰，包括多肉植物和盆栽",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃窗可见外部街道和车辆，采光良好",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有电子菜单屏，显示咖啡、茶饮及价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有红色卡通猴子雕塑摆件，位于角落",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "地面为浅色木纹地板，墙面为大理石纹理",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:32Z"
+}

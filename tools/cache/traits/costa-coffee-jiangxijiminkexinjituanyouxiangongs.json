@@ -1,0 +1,83 @@
+{
+  "cafeId": "costa-coffee-jiangxijiminkexinjituanyouxiangongs",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d36f517cb99c",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗采光好",
+      "en": "Large windows with great natural light"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Large windows provide good natural lighting",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有约6-8个座位的桌椅区",
+        "en": "Has about 6–8 table seats",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单展示拿铁咖啡、海盐焦糖风味拿铁等饮品",
+        "en": "Menu includes latte, sea salt caramel latte, and more",
+        "from": [
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "冷藏柜陈列提拉米苏、巧克力酥卷等食品",
+        "en": "Refrigerated display holds tiramisu and chocolate croissants",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五 07:30-16:30",
+        "en": "Open Mon–Fri 07:30–16:30",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "工作日营业时间短",
+        "en": "Short weekday hours"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "座位数量有限",
+        "en": "Limited seating"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "临街可见车辆与街道",
+        "en": "On a street with passing vehicles"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:38Z"
+}

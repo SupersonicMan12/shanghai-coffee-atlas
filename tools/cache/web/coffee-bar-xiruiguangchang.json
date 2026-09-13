@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是樱花马蹄生椰水",
+      "kind": "drinks",
+      "quote": "樱花马蹄生椰水是当下的主打",
+      "url": "https://www.163.com/dy/article/I7TDI90K0514C79Q.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "店内有庭院和露营专用桌椅",
+      "kind": "space",
+      "quote": "庭院内摆放了露营专用的桌椅",
+      "url": "https://www.163.com/dy/article/I7TDI90K0514C79Q.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "提供特调咖啡如话梅冰美式",
+      "kind": "drinks",
+      "quote": "话梅冰美式、开心果拿铁、牛油果拿铁、人参冰拿铁……",
+      "url": "https://www.163.com/dy/article/I7TDI90K0514C79Q.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "营业时间从早上11点开始",
+      "kind": "time",
+      "quote": "上午11:00開門",
+      "url": "https://www.163.com/dy/article/I7TDI90K0514C79Q.html",
+      "site": "163网易免费邮"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "延安西路上新开的这家咖啡馆,樱花马蹄生椰水是当下的主打",
+      "url": "https://www.163.com/dy/article/I7TDI90K0514C79Q.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "在陆家嘴,喝杯不一样的咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0MzE2NDk4OA==&mid=2247639580&idx=2&sn=1af8868fe713629f65e4b71f45428025&chksm=fa3124d11ac3d55b735ba827500ed72fc1220696006c21d675c164340fcf55fd07af78265878&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "手冲咖啡正宗咖啡店怎么选?3个维度带你找到灵魂咖啡馆+FAQ",
+      "url": "https://www.sina.cn/gc/article/nirehkk4179535.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "上海咖啡館，可欣賞明珠塔美景 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144198154?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
+      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
+      "site_name": "央广网"
+    },
+    {
+      "index": 8,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:17Z"
+}

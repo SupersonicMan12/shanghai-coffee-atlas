@@ -1,0 +1,92 @@
+{
+  "cafeId": "coffee-tree",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5190ec80b5e8",
+  "raw": {
+    "headline": {
+      "zh": "武康庭内老洋房咖啡馆",
+      "en": "Old mansion café in Wukang Court"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于武康庭内老洋房，有户外与室内座位",
+        "en": "Housed in a historic mansion within Wukang Court, with indoor and outdoor seating",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为庭院卡布奇诺",
+        "en": "Signature drink is Courtyard cappuccino",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供早午餐、午餐、晚餐及饮料，含欧陆与美式风味",
+        "en": "Serves brunch, lunch, dinner, and drinks with European and American styles",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚间22:00，周末稍晚开门",
+        "en": "Closes at 10 PM, opens later on weekends",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "服务生使用英语交流，氛围偏国际",
+        "en": "Staff communicate in English, giving an international vibe",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "英语服务暗示国际氛围",
+        "en": "English service suggests international vibe"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "闹市中的静谧空间",
+        "en": "Quiet oasis in a bustling area"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          3,
+          4
+        ],
+        "zh": "营业时间长，适合久坐",
+        "en": "Long hours suit lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "招牌饮品具特色但非实验性",
+        "en": "Signature drink distinctive but not experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:07Z"
+}

@@ -1,0 +1,73 @@
+{
+  "cafeId": "aloha-coffee-xiangyang-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d0b08672e261",
+  "raw": {
+    "headline": {
+      "zh": "世界冠军主理的咖啡Omakase",
+      "en": "World-champion-led coffee Omakase"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "创始人潘恩琪为2024 WBC中国总冠军",
+        "en": "Founder Pan Enqi won 2024 WBC China",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供“咖啡Omakase”及一豆三喝体验",
+        "en": "Offers coffee Omakase with one bean, three brews",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含杨梅风味夏日特调Yum Yum Berry",
+        "en": "Signature Yum Yum Berry features plum flavor",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "旧建筑改造，保留原有历史印记",
+        "en": "Renovated old building preserving historic traces",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内空间小，座位少",
+        "en": "Small space with few seats",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "座位少空间小",
+        "en": "Few seats, small space"
+      },
+      "adventure": {
+        "value": 85,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "创意特调与Omakase形式",
+        "en": "Creative drinks and Omakase format"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:36Z"
+}

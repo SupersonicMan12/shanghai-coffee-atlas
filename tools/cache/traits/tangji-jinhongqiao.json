@@ -1,0 +1,65 @@
+{
+  "cafeId": "tangji-jinhongqiao",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "564e7d08f88c",
+  "raw": {
+    "headline": {
+      "zh": "商场站喝手冲专门店",
+      "en": "Standing bar for single-origin brews"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "商场地下二层站立吧台",
+        "en": "Standing-only bar in mall basement",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供云南、巴西等多国手冲豆",
+        "en": "Single-origin beans from Yunnan, Brazil, etc.",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "热/冰手冲35/40元，另有日式冰咖啡等",
+        "en": "Hot/iced pour-over ¥35/40; Japanese iced coffee",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-21:30营业",
+        "en": "Open daily 10:00–21:30",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "仅设站立吧台",
+        "en": "Standing-only setup"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "多产地手冲选项",
+        "en": "Multiple origin pour-overs"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:40Z"
+}

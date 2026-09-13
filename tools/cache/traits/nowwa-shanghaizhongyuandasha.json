@@ -1,0 +1,86 @@
+{
+  "cafeId": "nowwa-shanghaizhongyuandasha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0414278343df",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃庭院座",
+      "en": "Street-facing glass with courtyard view"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地窗，可坐室外庭院",
+        "en": "Floor-to-ceiling windows facing street, with outdoor courtyard seating",
+        "from": [
+          1,
+          4,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内采光良好，自然光充足",
+        "en": "Good natural lighting inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为‘小马果咖’系列",
+        "en": "Signature drink is 'Xiao Ma Guo Ka' series",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉等阿拉比卡豆",
+        "en": "Uses Yirgacheffe, Guatemala, and other Arabica beans",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上19:00",
+        "en": "Closes at 7 PM",
+        "from": [
+          6,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有顾客看手机，可办公",
+        "en": "People using phones, work-friendly"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7,
+          4
+        ],
+        "zh": "临街庭院，人流可见",
+        "en": "Street-facing with visible foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "有圆桌橙椅，适合久坐",
+        "en": "Round wooden tables with orange chairs, suitable for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:46:15Z"
+}

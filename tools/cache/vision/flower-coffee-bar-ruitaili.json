@@ -1,0 +1,71 @@
+{
+  "cafeId": "flower-coffee-bar-ruitaili",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "9940028b9b1b",
+  "photos": [
+    "https://aos-comment.amap.com/B0HR0UW8F6/comment/content_media_external_file_112601_ss__1746071999034_74266557.jpg",
+    "https://aos-comment.amap.com/B0HR0UW8F6/comment/b0f2c9bb3f3bb076c7014625182709d8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HR0UW8F6/comment/10bb84a9e624931b594c7d23df13593c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "红砖外墙老建筑，门牌号234，店招为‘汭 REI FLOWER COFFEE BAR’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街玻璃窗+蓝色窗框，窗下设5个绿色软垫矮座（带小木凳）",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "红色遮阳篷，门口台阶旁有陶罐插花、蓝黄快递柜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中可见东方明珠、上海中心等陆家嘴建筑群，为河对岸视角",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图有两杯带盖纸杯咖啡（红/白杯身），杯印‘汭 REI’；一块橙色夹心蛋糕",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图有提拉米苏（可可粉+碎巧克力）、抹茶千层蛋糕；背景两杯饮品（绿/白杯）",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "第一张图橱窗贴有饮品海报（含樱花、桃子等图案），但文字不清",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第一张图二楼阳台晾晒衣物，非商业空间改造痕迹明显",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:32Z"
+}

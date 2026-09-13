@@ -1,0 +1,52 @@
+{
+ "cafeId": "tuan-baiyulan",
+ "model": "qwen-max",
+ "inputDigest": "2157199668d1",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "位于商场地下二层，临通道无独立门面",
+    "en": "In the basement of a mall, no separate entrance",
+    "from": 1
+   },
+   {
+    "kind": "food",
+    "zh": "招牌美食：芝麻麻薯包与燕麦拿铁",
+    "en": "Signature: Sesame mochi bun and oat latte",
+    "from": 9
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周日 10:00-21:00",
+    "en": "Open Mon-Sun 10:00-21:00",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 8,
+    "zh": "适合中午办公人群",
+    "en": "Good for office lunch crowd"
+   },
+   "energy": {
+    "value": 60,
+    "from": 8,
+    "zh": "午间较热闹，下午安静",
+    "en": "Busy at noon, quiet by four"
+   },
+   "linger": {
+    "value": 40,
+    "from": 5,
+    "zh": "无自然采光窗，环境偏暗",
+    "en": "No natural light, dim environment"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:22Z"
+}

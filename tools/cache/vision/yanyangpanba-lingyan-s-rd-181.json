@@ -1,0 +1,71 @@
+{
+  "cafeId": "yanyangpanba-lingyan-s-rd-181",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a9a33604b1ea",
+  "photos": [
+    "https://aos-comment.amap.com/B0LALCOOGP/comment/a859907ca297f8070203cd0c717767db_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0LALCOOGP/comment/B3CC7DFD_4E48_4A3D_B6C8_95B94F3D05BC_L0_001_1500_200_1754926699922_20091295.jpg",
+    "https://aos-comment.amap.com/B0LALCOOGP/comment/28AE091E_05BB_4B66_B009_FEFA6143086E_L0_001_2016_151_1761439346530_63355874.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量座位，空间较小",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有顾客坐着，有人在使用手机",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有菜单板，展示饮品推荐",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品为浅色带冰块的饮料，旁边有一罐屈臣氏苏打水",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有攀岩主题装饰，如绳索、头盔等挂件",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺临街，玻璃门和窗户透光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有壁画和动漫风格海报，风格年轻化",
+      "kind": "style",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:21:36Z"
+}

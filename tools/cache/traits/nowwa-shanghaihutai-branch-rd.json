@@ -1,0 +1,72 @@
+{
+  "cafeId": "nowwa-shanghaihutai-branch-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e183e4fd5485",
+  "raw": {
+    "headline": {
+      "zh": "小马果咖系列",
+      "en": "Small Horse Fruit Coffee series"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为小马果咖系列",
+        "en": "Signature drink is the Small Horse Fruit Coffee series",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉等阿拉比卡豆",
+        "en": "Uses Yirgacheffe, Guatemala, and other Arabica beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "单杯价格约10元，主打平价精品",
+        "en": "Around ¥10 per cup, mid-tier affordable specialty",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 08:15-21:00",
+        "en": "Open daily 08:15–21:00",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为生椰拿铁",
+        "en": "Recommended dish on Gaode: almond milk latte",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "站喝小店，适合快取",
+        "en": "Standing bar, quick grab"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "覆盖写字楼等年轻人场景",
+        "en": "Located in youth-heavy zones"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:43Z"
+}

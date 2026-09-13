@@ -1,0 +1,46 @@
+{
+  "cafeId": "guyuemianbaokafeiriliao-lingling-rd-598-1",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f0c782624438",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/68c9c6dbb29706503cec29369fa4b6d9",
+    "https://aos-comment.amap.com/B0FFHSJI5R/comment/content_media_external_file_100002877_1747964612632_17022602.jpg",
+    "https://aos-comment.amap.com/B0FFHSJI5R/comment/0a8250b55ffe6394808cbfba0e5200ac_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃窗，可见内部有顾客。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口台阶旁有金属扶手，方便进出。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "食物照片显示有三份金黄色的春卷。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一食物为一份土豆沙拉，盛放在带有蓝色条纹的白色盘子上。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:02Z"
+}

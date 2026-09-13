@@ -1,0 +1,71 @@
+{
+  "cafeId": "pine-tree-house-yangzhai-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a2df89d6901c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLOFC4M/comment/92e90b1247da6a200d02b21e8e327854_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLOFC4M/comment/content_media_external_file_100015769_1753400434600_26446317.jpg",
+    "https://aos-comment.amap.com/B0FFLOFC4M/comment/content_media_external_file_100015769_1753400434607_16045287.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "主菜为烤鸡翅/鸡腿配沙拉，附红绿两种蘸酱，盛于青釉椭圆盘。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内有木质桌椅、吊灯、绿植装饰；窗边设卡座与圆桌，可见多组座位。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一扇仿旧木框玻璃窗上手写菜单含'HERB CLAM SPAGHETTI'等英文菜品名。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "甜品柜陈列多款蛋糕（抹茶、巧克力、水果装饰），置于玻璃展示柜中。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "另一餐点含焗烤肉奶酪盅（表面融芝士+三片粉红熟度牛肉）、花形面包、牛油果沙拉。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内有悬挂绿植、木质横梁、墙面挂架置物，风格偏乡村复古。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.92
+    },
+    {
+      "text": "照片中未见吧台、磨豆机、手冲架、虹吸壶或烘焙设备。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "无任何人出现在任一照片中，无法判断是否有人用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:01Z"
+}

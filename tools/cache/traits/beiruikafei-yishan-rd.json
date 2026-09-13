@@ -1,0 +1,85 @@
+{
+  "cafeId": "beiruikafei-yishan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "34c6d5214be8",
+  "raw": {
+    "headline": {
+      "zh": "一豆两喝美式+拿铁",
+      "en": "One bean, two drinks: espresso + latte"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "选用同一支精品豆子提供美式+拿铁combo",
+        "en": "Serves an espresso and latte combo made from the same specialty bean",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含伯爵脏小贝DIRTY和大眼怪贝瑞冰",
+        "en": "Signature drinks include Earl Grey Dirty and 'Big-Eyed Monster' Beirui Ice",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌早餐9.9元起，含芥末熏鸡嫩蛋芝士贝果",
+        "en": "Breakfast starts at ¥9.9, e.g., wasabi-smoked chicken, soft egg, cheese bagel",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街玻璃门，落地玻璃窗可见街道景观",
+        "en": "Street-facing glass door and floor-to-ceiling windows with street views",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至20:30",
+        "en": "Open Monday–Friday until 8:30 PM",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有座位但未见办公设备",
+        "en": "Seating present but no evidence of work setup"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "有座位、采光好、可见街景",
+        "en": "Seating, good light, street views"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "伯爵脏小贝+一豆两喝组合",
+        "en": "Earl Grey Dirty + single-bean espresso/latte pairing"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:11Z"
+}

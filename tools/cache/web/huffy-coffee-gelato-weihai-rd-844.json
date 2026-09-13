@@ -1,0 +1,76 @@
+{
+  "facts": [
+    {
+      "text": "店主拥有墨尔本大学硕士学位,辞电商学做Gelato",
+      "kind": "story",
+      "quote": "主理人是拥有墨尔本大学硕士学位的高材生,辞掉电商工作,独自飞到意大利学做Gelato",
+      "url": "https://www.163.com/dy/article/J6JJIHMA05228TQ0.html",
+      "site": "网易"
+    },
+    {
+      "text": "沪上最佳墨鱼汁曲奇口味Gelato",
+      "kind": "drinks",
+      "quote": "「墨鱼汁曲奇」墨鱼汁曲奇好吃，沪上最佳很浓的海盐咸曲奇味",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F984191A73F0&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海这条700米的百年小马路,又上新了! ",
+      "url": "http://mt.sohu.com/a/1071037536_121106832",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "HUFFY Coffee & gelato in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F984191A73F0&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "魔都热到全国第一,速来吃冰",
+      "url": "https://www.163.com/dy/article/J6JJIHMA05228TQ0.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 4,
+      "title": "【Huffy G Gelato(瑞金二路店)】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/1975157764?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "HUFFY Coffee & gelato in Shanghai, China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F984191A73F0",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "上海的gelato卷疯了,不吃就会掉队 ",
+      "url": "https://www.sohu.com/a/967067712_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "上海超级咖啡街区来了,在前滩!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30652252",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 8,
+      "title": "08.上海有几千家冰淇淋,究竟哪几家最值得吃?",
+      "url": "https://www.xiaoyuzhoufm.com/episode/66cecb6d56bfd3907aa9cd7a",
+      "site_name": "小宇宙播客"
+    },
+    {
+      "index": 9,
+      "title": "连吃30 家上海冰淇淋店,我们做了一份综述测评 ",
+      "url": "https://chihe.sohu.com/a/935864397_121119041",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:30Z"
+}

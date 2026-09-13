@@ -1,0 +1,60 @@
+{
+  "cafeId": "ride-binjiang-ave-4600",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2e227ad54594",
+  "raw": {
+    "headline": {
+      "zh": "临江玻璃房配精致甜点",
+      "en": "Riverside glass café with detailed pastries"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位，配白色编织椅",
+        "en": "Outdoor seating with white woven chairs",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，通透可见店内",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供含坚果、蓝莓、椰片的巧克力甜点",
+        "en": "Chocolate pastries with nuts, blueberries, coconut",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日11:00-21:00，周末10:00-21:00",
+        "en": "Open 11–21 weekdays, 10–21 weekends",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:02Z"
+}

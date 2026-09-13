@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "text": "提供深烘和浅烘SOE咖啡豆",
+      "kind": "beans",
+      "quote": "深度烘焙的咖啡豆...适合搭配牛奶或追求强烈口感的人群。",
+      "url": "https://www.163.com/dy/article/JSER5BU50514A3B5.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "招牌饮品是钻石维也纳咖啡",
+      "kind": "drinks",
+      "quote": "他家的钻石维也纳咖啡既保留了浓缩咖啡的醇厚与浓郁,",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30510041",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "空间分为咖啡馆和珠宝展厅",
+      "kind": "space",
+      "quote": "位于多伦路52号底层的“X-Verge”是由一整块超大空间组成的复合咖啡店,分成咖啡馆和珠宝展厅前后两个部分。",
+      "url": "https://www.sohu.com/a/729943363_121124402/",
+      "site": "搜狐"
+    },
+    {
+      "text": "拥有工业ins风的装修风格",
+      "kind": "space",
+      "quote": "水磨石+素水泥的内部，大理石纹皮沙发，金属茶桌，",
+      "url": "https://www.sina.cn/news/detail/5094514437654135.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "可以欣赏到珠宝展厅的艺术作品",
+      "kind": "view",
+      "quote": "在咖啡厅的一隅,藏着一扇神秘的门。轻轻推开,便踏入了另一个艺术空间。",
+      "url": "https://www.163.com/dy/article/JSER5BU50514A3B5.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "这里不仅是咖啡爱好者的“实验室”,还隐藏着一处颠覆传统的美学空间。",
+      "url": "https://www.163.com/dy/article/JSER5BU50514A3B5.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "店主希望咖啡馆是可以连接日常与生活,提供灵感的第三空间。",
+      "kind": "story",
+      "quote": "X-Verge Coffee代表探索咖啡的无限可能,我们希望咖啡馆是可以连接日常与生活,提供灵感的第三空间。",
+      "url": "https://www.163.com/dy/article/JSER5BU50514A3B5.html",
+      "site": "163网易免费邮"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "深圳市伽南珠宝有限公司",
+      "url": "https://www.zhipin.com/companys/baa617ce312b5a091nR709--E1Q~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 2,
+      "title": "漫步虹口 邂逅咖啡香气里的慢生活",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30510041",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "第二杯半价!一杯咖啡的时间,邂逅意想不到的美学空间 | 虹口甄选",
+      "url": "https://www.163.com/dy/article/JSER5BU50514A3B5.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "珠光宝气!多伦路这家新咖啡店你打卡了吗?展厅咖啡馆_文化",
+      "url": "https://www.sohu.com/a/729943363_121124402/",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡馆：多伦路一带难得的风格coffee，还能欣赏宝石#微 ... - 新浪",
+      "url": "https://www.sina.cn/news/detail/5094514437654135.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "美术馆的咖啡,有点香也有点苦",
+      "url": "https://finance.sina.cn/2025-09-25/detail-infrsnhm8761483.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "建筑地图203 | 上海：咖啡馆里的建筑学 - 有方",
+      "url": "https://www.archiposition.com/items/94364b05be",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:47Z"
+}

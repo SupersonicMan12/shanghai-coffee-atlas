@@ -1,0 +1,80 @@
+{
+  "cafeId": "hana-coffee-changshouyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1db8278d01a6",
+  "raw": {
+    "headline": {
+      "zh": "人气Dirty Queen配户外座",
+      "en": "Famous Dirty Queen with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外有紫色坐垫台阶和折叠椅可坐",
+        "en": "Outdoor seating with purple cushioned steps and foldable chairs",
+        "from": [
+          1,
+          8,
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为人气Dirty Queen",
+        "en": "Signature drink is the popular Dirty Queen",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "以深烘豆的完美萃取为主体",
+        "en": "Focuses on perfectly extracted dark roast beans",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:00或18:00（依来源不同）",
+        "en": "Closes between 17:00 and 18:00 depending on source",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，采光好可见街道",
+        "en": "Full street-facing glass windows with good daylight and street view",
+        "from": [
+          5,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          8,
+          12
+        ],
+        "zh": "有户外座位适合轻松久坐",
+        "en": "Outdoor space invites lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3,
+          11,
+          13
+        ],
+        "zh": "提供Dirty和手冲等特色选项",
+        "en": "Offers Dirty and pour-over options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:35Z"
+}

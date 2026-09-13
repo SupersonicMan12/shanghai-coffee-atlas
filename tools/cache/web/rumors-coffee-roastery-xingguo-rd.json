@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "主营单品手冲咖啡，咖啡豆由店长亲自烘焙",
+      "kind": "beans",
+      "quote": "主营单品手冲咖啡。店铺采用日式滴滤式手冲手法,咖啡豆由店长亲自烘焙",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "常备蓝山NO.1、瑰夏及野生猫屎咖啡等近三十种单品豆",
+      "kind": "beans",
+      "quote": "常备蓝山NO.1、瑰夏及野生猫屎咖啡等近三十种单品豆",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    {
+      "text": "采用古法「法兰绒」手冲萃取法，上海不超过5家使用",
+      "kind": "drinks",
+      "quote": "它采用的手冲方式是古法「法兰绒」,这是很多咖啡专家都爱用的萃取法。在上海,采用这种方式的咖啡店不超过5家",
+      "url": "https://www.163.com/dy/article/FDK2AC2J0524BGJU.html?referFrom=",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "兴国路店藏在梧桐树下，日式工业舱风格，带窗框玻璃窗",
+      "kind": "space",
+      "quote": "藏在兴国路梧桐树下的老牌日式手冲咖啡馆...带窗框的玻璃窗",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site": "百度"
+    },
+    {
+      "text": "红砖墙与钢化玻璃天顶，阳光如聚光灯洒落",
+      "kind": "light",
+      "quote": "红砖墙与下沉沙发座...头顶两堵墙之间架起的钢化玻璃天顶,阳光像被拉长的聚光灯",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site": "百度"
+    },
+    {
+      "text": "临街一排木凳供路人休憩，咖啡香随微风飘入人行道",
+      "kind": "seating",
+      "quote": "临街一排木凳,是店家留给路人的“彩蛋”。阳光好的午后,微风把咖啡香吹进人行道",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site": "百度"
+    },
+    {
+      "text": "靠窗卡座高度恰使视线与街面平齐，兼顾看世界与隐私",
+      "kind": "view",
+      "quote": "窗边高脚椅的高度刚好让视线与街面平齐,“看世界”与“被世界看见”被恰到好处地隔开",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site": "百度"
+    },
+    {
+      "text": "创始人中山先生（日本）与家铭（上海）2010年共同创立",
+      "kind": "story",
+      "quote": "2010年由中日夫妻中山先生与家铭共同创立",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "手冲顶配体验:鲁马滋咖啡值不值那杯“天价”",
+      "url": "https://baijiahao.baidu.com/s?id=1856881593851359049",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "鲁马滋(湖南路店)",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "RUMORS Coffee ROASTERY Roaster Coffee (Xingguo Road Branch)",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9267871447A&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "RUMORS COFFEE ROASTERY魯馬滋咖啡（興國路店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/rumors-coffee-xingguo-road-15772669/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "我想在上海,做一个咖啡精",
+      "url": "https://www.163.com/dy/article/FDK2AC2J0524BGJU.html?referFrom=",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "鲁马滋(余庆路店)",
+      "url": "https://baike.baidu.com/item/鲁马滋（余庆路店）/14194164",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "【RUMORS COFFEE ROASTERY鲁马滋咖啡(兴国路店)】电话_地址",
+      "url": "http://m.dianping.com/shop/17823304?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:44:52Z"
+}

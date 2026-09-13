@@ -1,0 +1,75 @@
+{
+  "cafeId": "a-calling-yongfudisanxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f06c3f0e5ab3",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗湖景咖啡",
+      "en": "Lake-view cafe with floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "可凝视湖景，稍离人流",
+        "en": "Overlooks a lake, slightly removed from foot traffic",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，阳光充足",
+        "en": "Full-height street-facing windows with ample sunlight",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "窗边有座位，适合阅读或工作",
+        "en": "Window seats suitable for reading or working",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供完整餐饮服务",
+        "en": "Offers full food and beverage service",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周五六营业至23:00",
+        "en": "Open until 23:00 on Fridays and Saturdays",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "桌上可见书和笔",
+        "en": "Books and pens on tables"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "窗边座适合久坐",
+        "en": "Window seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:38Z"
+}

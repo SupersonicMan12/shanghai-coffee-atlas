@@ -1,0 +1,71 @@
+{
+  "cafeId": "baozanglvzhou-hubindaogouwuzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b5737cc9f67c",
+  "photos": [
+    "https://aos-comment.amap.com/B0LGZ1YBG8/comment/content_media_external_file_224995_ss__1758615510502_96674293.jpg",
+    "https://aos-comment.amap.com/B0LGZ1YBG8/comment/03DEF30B_D3FB_4F2B_842D_C26F2644561D_L0_001_1500_2000_1741785122155_10769294.jpg",
+    "https://aos-comment.amap.com/B0LGZ1YBG8/comment/content_media_external_file_100005483_1749298962161_43373168.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为小型饮品店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和少量圆形小桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见抹茶类饮品和红色果茶等多款饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身贴有标签，标明品牌名称与饮用提示",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有电子菜单屏幕显示饮品信息",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "操作台后方有制作饮品的设备，包括封口机、搅拌机等",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内地面为深色瓷砖，墙面为绿色与橙色搭配",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "门口放置扫码下单立牌，支持线上点单",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:52Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "doe-xintiandi",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a1c99dcb9a54",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFI33QZU/comment/9053641740f71609facd40296fac1034_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFI33QZU/comment/2bb31d99f33d2866d1a35cba345180ef_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFI33QZU/comment/fdd43d2a2bbffcefe6bdd4fa74ad1893_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "透明塑料杯装冰咖啡，杯身印有'STAY WOKE AUTHENTIC COFFEE BY D.O.E'字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "木质墙面配黑色金属层架，陈列多张黑胶唱片封面（含Ugly Duckling、Wallabees等）",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "临街落地玻璃窗，窗外可见绿树、街道与行驶车辆",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "靠窗设长条木吧台，配4张黑色金属高脚凳",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台面摆放杂志（《GRIND》封面可见）及一叠唱片/书籍",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内地面为浅色木纹地板，右侧有大型绿植（旅人蕉）置于水泥盆中",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "墙角置物台上有黑胶唱机与头戴式耳机",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "第一张图中手握杯者穿黑色长袖，仅见手部与杯，无其他人物或设备",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:19Z"
+}

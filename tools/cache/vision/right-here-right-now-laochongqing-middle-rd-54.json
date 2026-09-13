@@ -1,0 +1,71 @@
+{
+  "cafeId": "right-here-right-now-laochongqing-middle-rd-54",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "aae7fdf35618",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f5d55cd6dc1288590000000721410774?type=pic",
+    "https://aos-comment.amap.com/B0H1TCKSKM/comment/content_media_external_images_media_8029_1726481036655_59715931.jpg",
+    "https://aos-comment.amap.com/B0H1TCKSKM/comment/content_media_external_images_media_8029_1726481036654_30925128.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小门面，入口旁有手写招牌‘RIGHT HERE RIGHT NOW 来喝来闹’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内为紧凑吧台式布局，吧台前可见木质桌椅，背景墙为灰色，置物架靠墙安装",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上木架陈列多款咖啡豆包装，含FRIEDHATS、ROSE、F.K.E.FEAA、Karocoto等品牌及产地（如KENYA、COLOMBIA）",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台区域有手冲壶、Hario滤杯、电子秤、磨豆机（白色Ditting）、意式咖啡机（ditting品牌标识）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "窗内可见‘咖啡手冲’书法装裱画、书本堆叠、绿植与一盆紫花（疑似蝴蝶兰）",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "左侧玻璃门内可见1张圆木桌配2把木椅，地面为深色木地板",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.94
+    },
+    {
+      "text": "吧台前桌面放置1个带红花图案的陶瓷滤杯座、1个Hario玻璃分享壶、1个黄色标签咖啡瓶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.93
+    },
+    {
+      "text": "未见任何人、电脑、食物、菜单价格或烘焙机；无室外座位可见",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:40Z"
+}

@@ -1,0 +1,112 @@
+{
+  "facts": [
+    {
+      "text": "日式厚吐司松软，搭配冰拿铁是完美组合",
+      "kind": "food",
+      "quote": "招牌日式厚吐司hin松软搭配冰拿铁就是完美的一人",
+      "url": "https://www.sina.cn/news/detail/4555689793953936.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "原木色极简zakka风，大片麦穗黄和纯净白色装饰",
+      "kind": "space",
+      "quote": "原木色极简zakka风带来一些清新感和暖意...大片麦穗黄和纯净白色",
+      "url": "https://dy.163.com/article/GO2NGLJK0545AXH6.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "愚园路店为二层小楼，二楼可居高临下一览愚园路风景",
+      "kind": "view",
+      "quote": "二楼是能“居高临下”一览愚园路风景的宽敞空间",
+      "url": "https://www.dianping.com/discovery/786249386",
+      "site": "大众点评网"
+    },
+    {
+      "text": "永嘉路店营业时间9:00–19:00",
+      "kind": "time",
+      "quote": "⏰时间：9:00-19:00",
+      "url": "https://www.sina.cn/news/detail/4555689793953936.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "愚园路店为品牌第二家店，创立于2017年，灵感来自日剧治愈生活",
+      "kind": "story",
+      "quote": "品牌创立于2017年,灵感来源于日剧,剧中细腻平淡生活所表达的治愈力量",
+      "url": "https://you.ctrip.com/food/2/133714154.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "愚园路店可同时服务近40位顾客，空间比首店更大",
+      "kind": "seating",
+      "quote": "相较主打吐司系列的品牌首店来说,这家产品更丰富,店内空间更大,可同时服务近40位顾客",
+      "url": "https://you.ctrip.com/food/2/133714154.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "提供白玉桂花拿铁，洒干桂花、摆可爱团子",
+      "kind": "drinks",
+      "quote": "白玉桂花拿铁,洒满了干桂花又摆上了可爱团子🍡的拿铁",
+      "url": "https://www.dianping.com/discovery/786249386",
+      "site": "大众点评网"
+    },
+    {
+      "text": "愚园路店有宠物友好标识",
+      "kind": "people",
+      "quote": "Pet-friendly",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-71539686/",
+      "site": "面包咖啡好天气パンカフェ日和 - Shanghai Restaurants - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海｜面包咖啡好天气パンカフェ日和  地址：永嘉路331号  时间：9 ...",
+      "url": "https://www.sina.cn/news/detail/4555689793953936.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "春光明媚好天气🍳咖啡mix面包太惬意 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/786249386",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "上海打卡攻略一面包咖啡好天气パンカフェ日和 (愚园路店)",
+      "url": "https://m.dianping.com/ugcdetail/216505620?bizType=29",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "花24小时探索魔都!时髦精都这么玩!",
+      "url": "https://dy.163.com/article/GO2NGLJK0545AXH6.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 5,
+      "title": "花24小时,带你解锁一场魔都生活新体验!",
+      "url": "https://www.163.com/dy/article/GNQQLSHQ0542AWHG.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "面包咖啡好天气パンカフェ日和(愚园路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/133714154.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "面包咖啡好天气パンカフェ日和 - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-71539686/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "永嘉路精品咖啡指南!咖啡控必mark!",
+      "url": "https://www.163.com/dy/article/GP9DR1ES0545AXH6.html",
+      "site_name": "163网易免费邮"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:45Z"
+}

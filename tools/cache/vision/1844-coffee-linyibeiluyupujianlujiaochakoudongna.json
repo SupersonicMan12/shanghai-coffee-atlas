@@ -1,0 +1,65 @@
+{
+  "cafeId": "1844-coffee-linyibeiluyupujianlujiaochakoudongna",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "320f8a156e8e",
+  "photos": [
+    "https://aos-comment.amap.com/B0KBNRKE2B/comment/content_media_external_file_60509_ss__1764060335393_40801024.jpg",
+    "https://store.is.autonavi.com/showpic/0fea3d2a9426be2a0000002428728591?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1770138509417_63655926_1770138515327_58378687.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为标准咖啡店柜台形式",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供贝果类面包食品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有咖啡券展示，支持消费抵扣",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "营业时间为7:00-18:00",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见工作人员在操作台后工作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有电子菜单屏显示饮品选项",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有收银设备和点单屏幕",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:22Z"
+}

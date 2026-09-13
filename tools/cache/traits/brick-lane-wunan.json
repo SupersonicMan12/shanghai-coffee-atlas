@@ -1,0 +1,81 @@
+{
+  "cafeId": "brick-lane-wunan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0af4da394eda",
+  "raw": {
+    "headline": {
+      "zh": "蓝纹芝士阿芙佳朵配黑胶",
+      "en": "Blue cheese affogato with vinyl"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是蓝纹芝士阿芙佳朵",
+        "en": "Signature drink is blue cheese affogato",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供特色热巧「热闹ReNow」",
+        "en": "Serves special hot chocolate 'ReNow'",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "吧台配三张高脚凳，空间紧凑",
+        "en": "Compact space with three bar stools",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街落地窗可看马路对面",
+        "en": "Street-facing window overlooks opposite buildings",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-18:00，周末9:00-18:00",
+        "en": "Open 8–18 weekdays, 9–18 weekends",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "空间紧凑仅设吧台座",
+        "en": "Tight space, bar seating only"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          4,
+          9
+        ],
+        "zh": "分层咖啡配烤棉花糖、蓝纹芝士阿芙佳朵",
+        "en": "Unusual drinks like cheese affogato"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          11
+        ],
+        "zh": "顾客在梧桐树下闲聊",
+        "en": "People chat under plane trees"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:08Z"
+}

@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "营业至翌日01:30，适合夜猫子",
+      "kind": "time",
+      "quote": "08:00-翌日01:30",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com"
+    },
+    {
+      "text": "有露台，提供户外体验",
+      "kind": "space",
+      "quote": "露台",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com"
+    },
+    {
+      "text": "宠物友善环境，欢迎毛小孩",
+      "kind": "people",
+      "quote": "寵物友善",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 3,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "上海咖啡寻味记：不去网红店数人头，这里才有老上海的味道 - 界面新闻",
+      "url": "https://m.jiemian.com/article/3008629.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 7,
+      "title": "【宝罗思咖啡酒吧】地址,电话,路线,周边,在哪,怎样 - 百度",
+      "url": "https://j.map.baidu.com/dd/cEPf",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "宝罗思咖啡(悦达黄浦河滨大厦店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15495877.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 9,
+      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
+      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
+      "site_name": "东方财富网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:48Z"
+}

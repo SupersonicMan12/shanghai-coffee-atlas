@@ -1,0 +1,34 @@
+{
+ "cafeId": "niiice-yongjia",
+ "model": "qwen-max",
+ "inputDigest": "aeb5cd39175c",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "人行道边的长凳，正对衡山路",
+    "en": "Pavement bench facing Hengshan Road",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 50,
+    "from": 1,
+    "zh": "有户外座位适合久坐",
+    "en": "Outdoor seating for lingering"
+   },
+   "adventure": {
+    "value": 30,
+    "from": 2,
+    "zh": "招牌饮品为冰柚子美式",
+    "en": "Iced yuzu americano as signature"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:10Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "arabica-yuyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6b534b881951",
+  "raw": {
+    "headline": {
+      "zh": "豫园老宅里的站喝精品咖",
+      "en": "Standing cafe in Yuyuan heritage house"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "传统中式木结构建筑内",
+        "en": "Inside traditional Chinese timber structure",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "以站立吧台为主，少量堂食",
+        "en": "Standing bar with limited seating",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，店内现烘",
+        "en": "100% Arabica beans, roasted in-house",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–21:00营业",
+        "en": "Open daily 09:30–21:00",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          10
+        ],
+        "zh": "主打站喝，座位极少",
+        "en": "Standing format, minimal seats"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "自烘阿拉比卡豆，精品路线",
+        "en": "In-house roasted specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:23Z"
+}

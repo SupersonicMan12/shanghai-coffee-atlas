@@ -1,0 +1,65 @@
+{
+  "cafeId": "coffee-i-see-shuicheng-rd-570",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e05b87943566",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/66c70914352b1a740000002120392895?type=pic",
+    "https://aos-comment.amap.com/B0L667M443/comment/content_media_external_images_media_92400_ss__1741251140153_88209967.jpg",
+    "https://aos-comment.amap.com/B0L667M443/comment/F303DC74_8F17_4836_9F81_742E1EFA8498_L0_001_1126_2000_1741786293562_54307085.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃门和窗户，采光良好",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有室外座位，配备木凳和折叠椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡豆罐和花艺装饰，环境整洁",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁类，表面撒有坚果碎",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有三人正在交谈，其中一人手持饮品",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机和磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "室内有木质吧台和蓝色软包墙面",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:12:12Z"
+}

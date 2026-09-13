@@ -1,0 +1,51 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-libo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "628dde7ae018",
+  "raw": {
+    "headline": {
+      "zh": "配黄油的奶茶色咖啡",
+      "en": "Butter-paired coffee drink"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供室外座位和室内沙发桌位",
+        "en": "Outdoor seating and indoor sofa tables",
+        "from": [
+          2,
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品为奶茶色液体，搭配一盒黄油",
+        "en": "Milk-tea-colored drink served with butter",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 10 PM",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          7
+        ],
+        "zh": "有沙发和绿植，空间宽敞",
+        "en": "Spacious with sofas and plants"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:34Z"
+}

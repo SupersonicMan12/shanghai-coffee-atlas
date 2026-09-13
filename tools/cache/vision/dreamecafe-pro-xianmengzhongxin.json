@@ -1,0 +1,54 @@
+{
+  "cafeId": "dreamecafe-pro-xianmengzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5917882b1a55",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1GHRZFO/comment/content_media_external_images_media_49700_ss__1730479034311_74994616.jpg",
+    "https://aos-comment.amap.com/B0K1GHRZFO/comment/60bef3ecac89af94f197e3d9d1d342ef_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0K1GHRZFO/comment/C737E7AA_0569_47AF_B7D3_C8665051A198_L0_001_1276_1702_1734850356786_51905423.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质托盘和简约餐具",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供粉色奶昔、冰咖啡和巧克力甜点",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一个男性顾客在店门口",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面入口为玻璃门，外有立式广告牌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，但未见明显窗户",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:30Z"
+}

@@ -1,0 +1,473 @@
+{
+  "cafeId": "1982-puming-rd",
+  "query": {
+    "location": "121.513995,31.210624",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:18Z",
+  "matchedPoiId": "B0KRFSLBW2",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00157I4IN",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6c6cc29a37d03faa27b46f3e986ffb45"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/29e45d3e10408b4971b029be690a9cba"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/cb7ae9108a482cfd0379ce2d7429621b"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18621272676",
+        "id": "B0KRFSLBW2",
+        "tag": [],
+        "entr_location": "121.513754,31.210734",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "320",
+        "atag": [],
+        "name": "1982咖啡(浦明路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 08:00-19:30",
+          "rating": "4.5",
+          "open_time": "08:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645100",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:40:04",
+        "website": [],
+        "address": "浦明路1341号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.513998,31.210623",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G04571AL",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/75395b97ddcc5b6a4ad1d488cb5837e1"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1JSCYFH/comment/d8002f0a9a2615908ddaf1d5a44871b1_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I1JSCYFH/comment/5233393099d1896affc268ffaae7ed50_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50758007",
+        "id": "B0I1JSCYFH",
+        "tag": "下午茶",
+        "entr_location": "121.512586,31.210369",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "下午茶",
+        "name": "星巴克(陆家嘴滨江中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "132",
+        "importance": [],
+        "biz_ext": {
+          "cost": "44.00",
+          "opentime2": "周一至周五 06:30-19:30；周六至周日 07:30-18:00",
+          "rating": "4.5",
+          "open_time": "07:30-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645100",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 05:54:08",
+        "website": [],
+        "address": "滨江大道5159号N5座地上1层L104B单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.512613,31.210488",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G33ZVQZ1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K64GJO4I/comment/75E86CEB_1B86_4498_B6D8_9A8A6E7D1B9E_L0_001_1170_152_1767143498040_90645988.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K64GJO4I/comment/8AA17EBD_2DAC_44B6_A25C_7CA06D88A0AF_L0_001_1500_200_1765083195878_76024783.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K64GJO4I/comment/baac2ae7-16ba-4442-bc35-61eadc30985d.png"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18721160311",
+        "id": "B0K64GJO4I",
+        "tag": "摘星奶砖拿铁,夏黑葡萄气泡美式,摘星芝士蛋糕,三重云萃小方瓶,重山云瑰拿铁,摘星拿铁,摘星气泡美式,重山云瑰澳白,航海花蜜榛果风味拿铁,coffee,芝士,芝士蛋糕",
+        "entr_location": "121.512027,31.211224",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "摘星奶砖拿铁,夏黑葡萄气泡美式,摘星芝士蛋糕,三重云萃小方瓶,重山云瑰拿铁,摘星拿铁,摘星气泡美式,重山云瑰澳白,航海花蜜榛果风味拿铁,coffee,芝士,芝士蛋糕",
+        "name": "Peet's皮爷咖啡(陆家嘴滨江中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "201",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周五 07:30-19:30；周六至周日 07:30-18:30",
+          "rating": "4.5",
+          "open_time": "07:30-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:21:55",
+        "website": [],
+        "address": "浦明路1436号陆家嘴滨江中心N3座F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511909,31.210951",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001537107",
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KUH1JFR3/comment/fd55cee5b91cfe7943613fe275f5258a_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/61c3ff1813ade00c8f4ab8acfc4388f2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0KUH1JFR3",
+        "tag": "coffee,杨枝甘露,柠檬茶,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "塘桥",
+        "childtype": "202",
+        "atag": "coffee,杨枝甘露,柠檬茶,生椰拿铁",
+        "name": "luckin coffee 瑞幸咖啡(上尚商厦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "218",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645100",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 15:29:05",
+        "website": [],
+        "address": "浦东南路2100号上尚商厦F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.516288,31.210531",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFLEW9I0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7ae9fb68c478efb4032c7e2f63bb6565"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3ecfe81dfbd40c4145214cccb2a3c419"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/8e0b9995eb28aa5bc83961bcc43ef267"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0ID6C461W",
+        "tag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "entr_location": "121.512148,31.209366",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+        "name": "Manner Coffee(陆家嘴滨江中心店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "222",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:29:09",
+        "website": [],
+        "address": "浦明路1436号陆家嘴滨江中心F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.512162,31.209389",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7aa070e11061f02d0000002419028952?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6191bba01699d6910000002419002971?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0M61ZG10J",
+        "tag": "生椰拿铁,柠檬茶,杨枝甘露",
+        "entr_location": "121.511497,31.210051",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": [],
+        "atag": "生椰拿铁,柠檬茶,杨枝甘露",
+        "name": "瑞幸咖啡(陆家嘴滨江中心塘桥店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "232",
+        "importance": [],
+        "biz_ext": {
+          "cost": "16.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "3.8",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621645002",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 01:28:17",
+        "website": [],
+        "address": "浦明路与微山路交叉口西北140米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511652,31.210038",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

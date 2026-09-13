@@ -1,0 +1,58 @@
+{
+ "cafeId": "rumors-roastery",
+ "model": "qwen-max",
+ "inputDigest": "3c8f1375cfbf",
+ "raw": {
+  "headline": {
+   "zh": "藏在梧桐树下的老牌日式手冲咖啡馆",
+   "en": "Hidden Japanese pour-over café among sycamores"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "複式结构，沿街落地窗带来惬意感受",
+    "en": "Duplex with street-facing windows, cozy ambiance",
+    "from": 3
+   },
+   {
+    "kind": "beans",
+    "zh": "各式品种的咖啡豆，专业且多样",
+    "en": "Wide range of coffee beans, very professional",
+    "from": 4
+   },
+   {
+    "kind": "people",
+    "zh": "烘焙师现场工作，乐于讨论烘焙曲线",
+    "en": "Roaster on-site, staff discuss roast profiles",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 1,
+    "zh": "静谧氛围适合专注办公",
+    "en": "Quiet, good for focused work"
+   },
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "主打静谧氛围",
+    "en": "Emphasizes tranquility"
+   },
+   "linger": {
+    "value": 80,
+    "from": 1,
+    "zh": "治愈感拉满，适合久坐",
+    "en": "Very soothing, great for lingering"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 4,
+    "zh": "提供多种咖啡豆和烘焙方式",
+    "en": "Offers diverse beans and roasts"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:32Z"
+}

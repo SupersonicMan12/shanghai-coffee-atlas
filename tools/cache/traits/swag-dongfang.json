@@ -1,0 +1,34 @@
+{
+ "cafeId": "swag-dongfang",
+ "model": "qwen-max",
+ "inputDigest": "4bd54b3b12ed",
+ "raw": {
+  "headline": {
+   "zh": "招牌饮品 Sparkling Espresso Tonic，风味独特",
+   "en": "Unique Sparkling Espresso Tonic"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "推荐饮品：Sparkling Espresso Tonic",
+    "en": "Recommended: Sparkling Espresso Tonic",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "菜单上有多种创意饮品",
+    "en": "Menu with creative drinks",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 2,
+    "zh": "菜单上有多款创意饮品",
+    "en": "Creative drink menu"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:47Z"
+}

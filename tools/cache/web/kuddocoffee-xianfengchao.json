@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "text": "室内阶梯式座位",
+      "kind": "seating",
+      "quote": "室内阶梯式座位",
+      "url": "https://www.sina.cn/news/detail/5317321591882245.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "宠物友好",
+      "kind": "people",
+      "quote": "宠物友好",
+      "url": "https://www.sina.cn/news/detail/5317321591882245.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "主打手冲咖啡，如哥斯达黎加巨石庄园、巴拿马安波里奥庄园豆子",
+      "kind": "beans",
+      "quote": "两小杯手冲分别是🇨🇷哥斯达黎加巨石庄园和巴拿马安波里奥庄园的豆子",
+      "url": "https://www.dianping.com/discovery/935261537",
+      "site": "大众点评网"
+    },
+    {
+      "text": "明太子年轮唱片面包，顶上芝士香甜可口",
+      "kind": "food",
+      "quote": "明太子年轮唱片面包小巧精致,顶上缓缓留下的芝士香甜可口",
+      "url": "https://www.dianping.com/discovery/935261537",
+      "site": "大众点评网"
+    },
+    {
+      "text": "坐在里面边喝咖啡边欣赏窗外风景",
+      "kind": "view",
+      "quote": "坐在里面边喝咖啡边欣赏窗外风景",
+      "url": "https://www.dianping.com/discovery/935261537",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "kuddo coffee|西岸凤巢|室内阶梯式座位|宠物友好 - 新浪",
+      "url": "https://www.sina.cn/news/detail/5317321591882245.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "西岸凤巢这家咖啡店你来过吗? - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/935261537",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "GATE M 西岸凤巢多家新店齐开;品牌持续焕新,构筑「生活情绪地」",
+      "url": "https://zhuanlan.zhihu.com/p/2040092102340632715",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "徐汇西岸商业迈入新阶段:西岸凤巢官宣首批品牌,定义上海首个“女性生活情绪地”",
+      "url": "https://www.163.com/dy/article/KO7O5T8805503FCU.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "cubic3三立方咖啡(西岸凤巢店) - Шанхай - Trip.com",
+      "url": "https://ru.trip.com/restaurant/china/shanghai/detail/restaurant-136442643/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "西岸凤巢首批品牌官宣、延庆坊好好花园亮相、盘菜生书店落地温州",
+      "url": "https://www.163.com/dy/article/KOMPU90I05391FIW.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 7,
+      "title": "Kudi Coffee (Hongqiao R & F Center Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97AE32F5DB3&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 8,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "GATE M西岸凤巢首批品牌官宣,打造专属女性的生活情绪地",
+      "url": "https://www.163.com/dy/article/KO8AP0TK055040N3.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 10,
+      "title": "AI打工人楼下商场大变样!西岸凤巢焕新升级,梦中心运营方华之门入局",
+      "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20260320/571008.html",
+      "site_name": "上海徐汇政府门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:26:49Z"
+}

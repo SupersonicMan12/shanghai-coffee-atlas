@@ -1,0 +1,37 @@
+{
+  "cafeId": "paikafei-longyang-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3047ad5b9b9b",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/42993d56c25bc8a98475bbbd7f90ca63"
+  ],
+  "photoKinds": [
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "照片显示高楼与绿植，无店铺可见",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有树木和灌木丛，环境绿化较好",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景为玻璃幕墙高层建筑",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:46Z"
+}

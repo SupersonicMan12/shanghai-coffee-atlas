@@ -1,0 +1,59 @@
+{
+  "cafeId": "silverflow-youbangjinrongzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d0b60f62e8a8",
+  "photos": [
+    "https://aos-comment.amap.com/B0KRM53UYV/comment/a0aba06222aed54463e07dc5dd7d07bc_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRM53UYV/comment/ba442120e4fea685014ba7ad47882412_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRM53UYV/comment/b183bc44a9bd72fc1a2a452ff697a6ae_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡饮品，包括拿铁类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名为Silverflow Coffee，位于商场内",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有玫瑰生酪拿铁等饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见吧台区域，有电子菜单屏和咖啡制作设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供贝果产品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品杯上有品牌标识，为一次性纸杯",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:04Z"
+}

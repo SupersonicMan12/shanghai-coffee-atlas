@@ -1,0 +1,52 @@
+{
+ "cafeId": "lotus-club-lujiazui",
+ "model": "qwen-max",
+ "inputDigest": "8c91b0b05f0e",
+ "raw": {
+  "headline": {
+   "zh": "在跑车展厅里享受咖啡",
+   "en": "Coffee in a sportscar showroom"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街大面积落地玻璃窗，可见室内陈列与跑车",
+    "en": "Large street-facing windows with car display inside",
+    "from": "[1]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：Espresso beside an Emira",
+    "en": "Signature drink: Espresso beside an Emira",
+    "from": "[5]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": "[2]",
+    "zh": "无室外座位，不太适合专注办公",
+    "en": "No outdoor seating, not for deep work"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[3]",
+    "zh": "位于现代高楼群中，环境相对安静",
+    "en": "In a modern high-rise area, quiet"
+   },
+   "linger": {
+    "value": 40,
+    "from": "[2]",
+    "zh": "无室外座位，但店内可停留",
+    "en": "No outdoor seats, but can linger inside"
+   },
+   "adventure": {
+    "value": 60,
+    "from": "[4]",
+    "zh": "提供常规咖啡，但有特别体验",
+    "en": "Regular coffee, but unique experience"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:10Z"
+}

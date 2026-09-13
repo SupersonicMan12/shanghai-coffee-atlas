@@ -1,0 +1,68 @@
+{
+  "cafeId": "oz-cafe-maoming",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "1efbf87ef2e0",
+  "raw": {
+    "headline": {
+      "zh": "澳式魔法咖啡，点单即得默契",
+      "en": "Order the magic, earn respect"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含冰美式、卡布奇诺、鸡尾酒",
+        "en": "Serves iced Americano, cappuccino, cocktails",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至午夜24点",
+        "en": "Open till midnight on weekdays",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可见街道行人",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "按墨尔本规则：点‘魔法’获尊重",
+        "en": "Order ‘the magic’—it’s Melbourne rules",
+        "from": [
+          8,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "有折叠椅与节日装饰可久坐",
+        "en": "Seating and decor invite staying"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "提供未列菜单的‘澳式魔法’饮品",
+        "en": "Offers off-menu ‘Aussie magic’ drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:54Z"
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "realm-coffee-lingshi-rd-699",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "80c41e086862",
+  "raw": {
+    "headline": {
+      "zh": "分层咖啡配户外座",
+      "en": "Layered coffee with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供分层咖啡，上深下橙黄",
+        "en": "Serves layered coffee, dark over orange-yellow",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外小桌椅座位区",
+        "en": "Outdoor seating with small tables and chairs",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Floor-to-ceiling windows provide good daylight",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8点开，周末10点开",
+        "en": "Opens at 8 on weekdays, 10 on weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          9
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Indoor and outdoor seats invite lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "饮品有分层视觉特色",
+        "en": "Visually distinct layered drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:18Z"
+}

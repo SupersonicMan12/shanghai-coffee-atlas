@@ -1,0 +1,73 @@
+{
+  "cafeId": "ling-coffee-bar-yuncheng-rd-267",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4836c212f9d6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a82e3e42c8de8c30e694a50bb0e94e08",
+    "https://store.is.autonavi.com/showpic/2fd13041870d57ad0000002347438492?type=pic",
+    "https://aos-comment.amap.com/B0LGVMSNDD/comment/file_media_Photo_47267_IMG_1768887949_46578_IMG_20260120_134409_jpg_ss__1769012444847_24725825.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺临街，有大面积玻璃窗和可开启的门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有少量木质桌椅，提供室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域及陈列柜，有饮品制作设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为手冲咖啡，使用蓝釉陶碗盛装，配枫叶装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示咖啡豆产地为印尼林东（Indonesia Lintong）",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有一份草莓奶油甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质结构和植物装饰，风格偏自然温馨",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "门店位于街道旁，门口有台阶和盆栽",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:48Z"
+}

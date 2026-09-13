@@ -1,0 +1,72 @@
+{
+  "cafeId": "shanghaikailisikafeiwu-binjiangmingyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ee7a7d6f85f1",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨4点",
+      "en": "Opens until 4am"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日12:00-04:00",
+        "en": "Open daily 12:00–04:00",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供牛排和鸡尾酒",
+        "en": "Serves steak and cocktails",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有木质餐桌与多把椅子，适合多人用餐",
+        "en": "Wooden tables and multiple chairs for groups",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内为木质桌椅与砖墙结构",
+        "en": "Wooden furniture and brick walls inside",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品使用黑色吸管",
+        "en": "Drinks come with black straws",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          6
+        ],
+        "zh": "营业至凌晨，适合久坐",
+        "en": "Closes at 4am, good for lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "复古氛围，略带热闹感",
+        "en": "Retro vibe, moderately lively"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:30Z"
+}

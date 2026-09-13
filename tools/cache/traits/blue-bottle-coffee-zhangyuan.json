@@ -1,0 +1,83 @@
+{
+  "cafeId": "blue-bottle-coffee-zhangyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "db9b690c48e1",
+  "raw": {
+    "headline": {
+      "zh": "只卖48小时内烘焙的咖啡",
+      "en": "Coffee roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆仅在烘焙后48小时内出售",
+        "en": "Coffee beans sold within 48 hours of roasting",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括海耶斯谷(浓缩)等经典拼配",
+        "en": "Signature drinks include Hayes Valley (espresso) and other classic blends",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内为落地玻璃门，采光良好",
+        "en": "Large glass doors with good natural lighting",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台前设长条木桌，可多人共坐",
+        "en": "Long wooden tables at the counter for multiple guests",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间每日8:00至22:00",
+        "en": "Open daily 8:00–22:00",
+        "from": [
+          1,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "有长桌适合办公",
+        "en": "Long tables support work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          13
+        ],
+        "zh": "可久坐且营业到晚",
+        "en": "Good for lingering late"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "临街但采光好，不喧闹",
+        "en": "Street-facing but not noisy"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:28Z"
+}

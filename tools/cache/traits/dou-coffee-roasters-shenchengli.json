@@ -1,0 +1,69 @@
+{
+  "cafeId": "dou-coffee-roasters-shenchengli",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0703dcd7f5c9",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲咖啡专门店",
+      "en": "Specialty hand-brew coffee roaster"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "店内咖啡均为手工制作、现磨调剂",
+        "en": "All coffee is hand-brewed and freshly ground",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供人气草莓熊手冲咖啡",
+        "en": "Offers popular Strawberry Bear pour-over",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "咖啡师专业热情，熟悉各类咖啡豆",
+        "en": "Baristas are knowledgeable and passionate about beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：工作日7:30-17:00，周末8:00-18:00",
+        "en": "Open weekdays 7:30–17:00, weekends 8:00–18:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "适合悠闲久坐交流",
+        "en": "Good for lingering chats"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "zh": "手冲花样多，自烘豆",
+        "en": "Hand-brew focused with house-roasted beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:03Z"
+}

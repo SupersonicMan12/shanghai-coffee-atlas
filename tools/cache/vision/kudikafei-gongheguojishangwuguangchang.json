@@ -1,0 +1,46 @@
+{
+  "cafeId": "kudikafei-gongheguojishangwuguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5418148d51d7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "http://store.is.autonavi.com/showpic/e0932430a72fd40a8777dd4b332df936",
+    "http://store.is.autonavi.com/showpic/08f927643854f0455c865b0ef88dae64"
+  ],
+  "photoKinds": [
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有杨枝甘露饮品，含红豆和芒果",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "推出云顶慕斯系列饮品，杯身带盖",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供可饮用的慕斯蛋糕类饮品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品包含多层配料，如红豆、果粒",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:16Z"
+}

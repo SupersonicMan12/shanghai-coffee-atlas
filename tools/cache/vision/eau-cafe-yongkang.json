@@ -1,0 +1,71 @@
+{
+  "cafeId": "eau-cafe-yongkang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a9a07c95f0c7",
+  "photos": [
+    "https://aos-comment.amap.com/B0KDGCKJEO/comment/389B09F1_0805_46A3_9737_319933C0E63E_L0_001_1500_200_1750561784204_06917004.jpg",
+    "https://store.is.autonavi.com/showpic/40a0fbc764e7b04493aca1e51ff17377",
+    "https://aos-comment.amap.com/B0KDGCKJEO/comment/AD118028_4EFD_4AF9_97E1_EAD58118D3D5_L0_001_1500_200_1758009299884_01048166.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "第一张图：透明围边蛋糕，顶部有荔枝果肉、奶油花、迷迭香与EÄU标签。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图：蛋糕切片置于白盘，含多层海绵与夹心，配一杯冰咖啡，背景为临街玻璃窗与街道。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图：店招为发光蓝色'EÄU'字母+手写体'café'，安装于白色粗粝墙面檐下。",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图可见临街大玻璃窗，窗外是城市街道、行人、电动车与木质长凳。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图中桌面仅见一杯冰咖啡与蛋糕切片，未见电脑、书架、植物或宠物。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图显示店铺位于街角，旁有行道树与路牌（部分可见'襄阳'）。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图蛋糕底座为印有'E.au'字样的浅色纸板托盘。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "三张图均未出现吧台、磨豆机、手冲/虹吸设备、书架、烘焙机或菜单价格。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:08Z"
+}

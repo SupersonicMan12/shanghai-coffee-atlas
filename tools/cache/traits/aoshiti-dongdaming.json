@@ -1,0 +1,93 @@
+{
+  "cafeId": "aoshiti-dongdaming",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e027e6e0c021",
+  "raw": {
+    "headline": {
+      "zh": "金属实验室风咖啡馆",
+      "en": "Metal lab-style coffee spot"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "双色拼接金属台面，配黑色高脚凳",
+        "en": "Two-tone metal tables with black stools",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡与奶咖，有水化学建议",
+        "en": "Offers hand brew and milk coffee, water chemistry tips",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台后可见Kaffa意式机与手冲壶",
+        "en": "Kaffa espresso machine and pour-over setup visible",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-18:00",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店名源自钢的奥氏体相，强调精准萃取",
+        "en": "Named after steel's austenite phase, precision extraction focus",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6,
+          2
+        ],
+        "zh": "有专业设备与水化学指导",
+        "en": "Pro equipment and water chemistry focus"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          4,
+          1
+        ],
+        "zh": "金属网格顶+绿植，氛围中性",
+        "en": "Metal grid ceiling with greenery, neutral vibe"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          3
+        ],
+        "zh": "有固定座位，适合停留",
+        "en": "Fixed seating invites lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "墙上挂冶金级萃取图表，饮品有实验性",
+        "en": "Metallurgy-grade extraction charts suggest experimental drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:53Z"
+}

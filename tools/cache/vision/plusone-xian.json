@@ -1,0 +1,65 @@
+{
+  "cafeId": "plusone-xian",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6002c22c6d15",
+  "photos": [
+    "https://aos-comment.amap.com/B0L2TO44Z8/comment/content_media_external_file_1000062494_ss__1771674071907_47105994.jpg",
+    "https://store.is.autonavi.com/showpic/186567b69fd32a45472491a4d3e9c3a1",
+    "https://store.is.autonavi.com/showpic/26a40f2049c424df0000002799440348?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有白色吧台，摆放饮品菜单和咖啡机。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见大型天鹅装饰的改装保时捷车。",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面外墙有蜂窝状绿色装饰，入口处有卡通人物贴纸。",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，采光良好，可见室外绿植。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧有顾客坐在椅子上，但座位数量不多。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台上可见挂耳咖啡包装和菜单，但具体饮品名称不清晰。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内有悬挂绿植，营造自然氛围。",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:31Z"
+}

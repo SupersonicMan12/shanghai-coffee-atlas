@@ -1,0 +1,99 @@
+{
+  "facts": [
+    {
+      "text": "所有咖啡豆在深圳烘焙后空运到上海",
+      "kind": "beans",
+      "quote": "这家店提供的所有咖啡豆都是在深圳烘培好后,空运到上海",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "主打手冲咖啡，也提供冷萃和咖啡教育",
+      "kind": "drinks",
+      "quote": "they do single-origins, hand-drip, cold brew and coffee education",
+      "url": "https://www.smartshanghai.com/venue/15979/akimbo_cafe_lab_yuyuan_lu",
+      "site": "Akimbo Cafe Lab Shanghai - Cafes, Changning | SmartShanghai"
+    },
+    {
+      "text": "店内放置老式收银机等古老装置，像实验室",
+      "kind": "space",
+      "quote": "坐落在上海愚园百货公司的Akimbo更像一个实验室,放置了很多古老的装置",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "绿金配色三头定制版SANREMO Cafe Racer咖啡机，上海仅三台",
+      "kind": "space",
+      "quote": "绿金配色的咖啡机是三头定制版SANREMO Cafe Racer咖啡机,目前上海只有三台",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "位于愚园百货公司，选址因‘这条路没有太商业’，强调生活气息与慢沉淀",
+      "kind": "story",
+      "quote": "我们选择在愚园路开店,就是因为这条路没有太商业",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODA2NzgyNQ==&mid=2652693083&idx=6&sn=830d4e22c95591279fa856ade604110b&chksm=bd3829458a4fa053d961621b45eaa81662d4956ead92b88ba18071fe920a8b8a1e2c8a5876d2&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌饮品为‘不倒翁咖啡’",
+      "kind": "drinks",
+      "quote": "比较推荐的是这款不倒翁咖啡",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "右侧橙子实为一款甜点，可配咖啡组成简式下午茶",
+      "kind": "food",
+      "quote": "咖啡配上甜点,就是一份简式下午茶,右侧的橙子其实是一款甜点",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site": "界面新闻"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "愚园路上新开的“百货公司”,卖咖啡、潮牌和艺术品",
+      "url": "https://www.jiemian.com/article/2572924.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 2,
+      "title": "蛇口SO艺术空间🤍AKIMBO CAFE LAB〰️〰️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/691371113",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Akimbo Cafe Lab Shanghai - Cafes, Changning | SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/15979/akimbo_cafe_lab_yuyuan_lu",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "深圳探店|网红咖啡Akimbo - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/963617530",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "网红咖啡店,不允许你没喝过! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/678298516",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "【探店】愚园路:上海最有氛围的咖啡街 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODA2NzgyNQ==&mid=2652693083&idx=6&sn=830d4e22c95591279fa856ade604110b&chksm=bd3829458a4fa053d961621b45eaa81662d4956ead92b88ba18071fe920a8b8a1e2c8a5876d2&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "什么？Akimbo Cafe 的设计师在隔壁？ - 搜狐",
+      "url": "https://www.sohu.com/a/343546286_120044174",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:18Z"
+}

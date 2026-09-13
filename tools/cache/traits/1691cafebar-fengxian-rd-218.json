@@ -1,0 +1,79 @@
+{
+  "cafeId": "1691cafebar-fengxian-rd-218",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "45ae033a97b7",
+  "raw": {
+    "headline": {
+      "zh": "日咖夜酒，老房四楼",
+      "en": "Day café, night bar in old building"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于老房子四楼，电梯直达",
+        "en": "On 4th floor of old building, elevator access",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位，含高脚桌椅与木平台",
+        "en": "Indoor and outdoor seating with high tables and wood deck",
+        "from": [
+          1,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨2点，日咖夜酒",
+        "en": "Open till 2am, café by day bar by night",
+        "from": [
+          10,
+          13
+        ]
+      },
+      {
+        "kind": "sound",
+        "zh": "周五晚有吉他弹唱live演出",
+        "en": "Live guitar performances on Friday nights",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "满墙名人头像、复古画与年代感书籍",
+        "en": "Walls lined with vintage books, portraits and retro art",
+        "from": [
+          8,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "周五晚有现场演出",
+        "en": "Live music on Fridays"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          5,
+          6
+        ],
+        "zh": "复合空间配绿植地毯",
+        "en": "Cozy mixed-use space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:25Z"
+}

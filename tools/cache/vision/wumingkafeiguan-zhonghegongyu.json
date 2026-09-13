@@ -1,0 +1,71 @@
+{
+  "cafeId": "wumingkafeiguan-zhonghegongyu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8aff4698c7c0",
+  "photos": [
+    "https://aos-comment.amap.com/B0JALPX7YT/comment/194c8571c401a56e1ec4913a16d1212f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JALPX7YT/comment/bbe65ec6c67a26ea4722a1f86a322047_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/c0639462105daa340000003070442011?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有室外座位，临街玻璃窗，可坐人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间宽敞，有多张桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有大树遮阴，环境安静",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡制作设备，包括手冲台和磨豆机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "有顾客在店外座位休息，店内有人在点单",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰咖啡，杯中有冰块",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面挂有艺术画作，有绿植装饰",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:01Z"
+}

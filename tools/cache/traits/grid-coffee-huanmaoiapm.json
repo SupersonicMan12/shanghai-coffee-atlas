@@ -1,0 +1,93 @@
+{
+  "cafeId": "grid-coffee-huanmaoiapm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1cfcc8ff89a5",
+  "raw": {
+    "headline": {
+      "zh": "SCA84+豆微创新",
+      "en": "SCA 84+ beans with twists"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地豆",
+        "en": "All beans are SCA 84+ single origin",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括罗马人美式、咸奶萃等微创新款",
+        "en": "Signature drinks include Roman-style Americano, salty milk extract",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，采光良好",
+        "en": "Floor-to-ceiling street-facing windows with excellent natural light",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内有吧台、桌椅及室外座位",
+        "en": "Counter, indoor tables, and outdoor seating available",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:00-21:00",
+        "en": "Open 07:00–21:00 daily",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1,
+          12
+        ],
+        "zh": "有座位和营业时间长",
+        "en": "Seating and long hours"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6,
+          12
+        ],
+        "zh": "临街且有户外位",
+        "en": "Street-facing with outdoor seats"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          12
+        ],
+        "zh": "有桌椅和较长营业时间",
+        "en": "Tables and extended hours"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "招牌饮品有微创新",
+        "en": "Signature drinks with twists"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:54Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "flow-ruijiner-rd-69",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "623a59764be8",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1D5CXMO/comment/content_media_external_images_media_54737_ss__1730728619458_29257143.jpg",
+    "https://aos-comment.amap.com/B0K1D5CXMO/comment/content_media_external_images_media_54725_ss__1730728619458_81581785.jpg",
+    "https://aos-comment.amap.com/B0K1D5CXMO/comment/C39FAEB4_9C4A_4C38_A9B5_FE2037845312_L0_001_1512_2016_1732959771890_97837419.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "白色纸杯印有戴帽兔子黑标，杯中为带叶形拉花的拿铁类饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "手写菜单列有Wine、Craft Beer、Whisky；饮品含气泡水、可可、抹茶、路易波士茶；甜品含蛋糕、冰淇淋；价格32或48元。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域可见Victoria Arduino咖啡机、两袋密封咖啡豆、堆叠同款兔子标纸杯及塑料杯盖。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "咖啡机旁放有蓝色抹布与数个装饰玻璃杯，墙面为浅棕哑光材质。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "纸杯置于深色木质桌面，木纹清晰，桌面边缘呈弧形。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单纸张夹于木质写字板上，背景可见部分深色木柱与穿酒红色上衣的人。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "咖啡机顶部放置两袋白袋装咖啡豆，标签含二维码与文字（内容不可辨）。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单中‘日常更新（询）’标注在威士忌与冰淇淋项后，暗示部分品项非固定供应。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:22Z"
+}

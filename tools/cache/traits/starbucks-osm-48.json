@@ -1,0 +1,63 @@
+{
+  "cafeId": "starbucks-osm-48",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3be1f4a5fcb5",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "有城市限定特饮‘上海咖啡’，含麦乳精与司考奇",
+        "en": "Offers Shanghai-exclusive drink with malted milk and s'coch",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选店提供小批量、有人文故事的咖啡豆",
+        "en": "Reserve stores serve small-batch beans with human stories",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "力宝广场店用可回收材质与电子屏菜单",
+        "en": "Lippo Plaza store uses recycled materials and digital menus",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "智慧湾店由6个工业风集装箱构成",
+        "en": "Zhihui Bay store built from six industrial-style containers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "外滩源店为全国首家咖啡·酒坊，主打Mixato融合饮品",
+        "en": "Bund Origin store is China's first coffee-bar with Mixato drinks",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "限定特饮与融合酒咖",
+        "en": "Unique drinks and coffee-bar fusion"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:41Z"
+}

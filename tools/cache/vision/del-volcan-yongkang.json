@@ -1,0 +1,71 @@
+{
+  "cafeId": "del-volcan-yongkang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6cb094fa6924",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8fb3d9435cac9d2a0000002343348796?type=pic",
+    "https://aos-comment.amap.com/B00156O2XJ/comment/17c67e2fe515df9ca2a9cd562e884e17_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/bc86116696cb84d60000002343404015?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于永康路25号（门牌号绿底白字），临街玻璃门+橱窗，上方有棕色波浪边遮阳篷标店名",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外人行道设2把折叠椅+1小木桌，另1人坐折叠椅用手机；左侧邻店为‘漫山茶肆’",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见木质吧台、白色咖啡机（带锥形漏斗）、多罐装咖啡豆、悬挂黑橙色吊灯、裸露木梁与红砖墙",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方墙上挂菜单板，可见‘America’字样及部分中英文豆名（如‘哥伦比亚’‘水洗’），但价格不清",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品照含：1杯热拿铁（心形拉花）、1杯冰咖啡（塑料杯+吸管+饼干顶饰）、1杯水（青绿色玻璃杯）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "热拿铁配小饼干置于青绿碟上；冰咖啡杯身印英文‘Life is too short for bad coffee’",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "室内座位含：靠墙长凳+条纹坐垫、高脚凳、2把折叠椅（其中1把放黄色背包），共约6–8个座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "无电脑使用者可见；未见手冲台、虹吸壶、烘焙机；未见书架、宠物或大型植物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:47Z"
+}

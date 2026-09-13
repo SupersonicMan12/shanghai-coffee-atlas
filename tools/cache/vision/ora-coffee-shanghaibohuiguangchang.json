@@ -1,0 +1,71 @@
+{
+  "cafeId": "ora-coffee-shanghaibohuiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c3af4f6e5eab",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6c2438a8824479f90000002872306539?type=pic",
+    "https://store.is.autonavi.com/showpic/e4230f81f5d191470000002872316337?type=pic",
+    "https://store.is.autonavi.com/showpic/00dd5c8cf253e1e4fc0918921ebffdfe"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街玻璃幕墙建筑内，有落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有室外座位区，配备遮阳伞和金属桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有四把折叠椅和两组小圆桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见工作人员在操作台工作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有透明玻璃门，可看到内部部分空间",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡豆包装陈列架",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "有外摆服务窗口，可直接对外点单",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招为黑色底金色字，悬挂在建筑外侧",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:47Z"
+}

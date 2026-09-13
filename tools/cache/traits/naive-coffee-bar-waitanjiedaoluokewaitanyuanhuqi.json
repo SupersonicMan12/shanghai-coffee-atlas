@@ -1,0 +1,75 @@
+{
+  "cafeId": "naive-coffee-bar-waitanjiedaoluokewaitanyuanhuqi",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d37c045a0107",
+  "raw": {
+    "headline": {
+      "zh": "书咖酒一体空间",
+      "en": "Books, coffee & cocktails"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "集书籍、咖啡、鸡尾酒于一体的多功能空间",
+        "en": "A space combining books, coffee and cocktails",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供带装饰的奶泡饮品与鸡尾酒",
+        "en": "Serves decorated milk foam drinks and cocktails",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "附带小食如三角脆片",
+        "en": "Serves snacks like triangular crisps",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街整面落地玻璃窗",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至次日凌晨1点",
+        "en": "Open until 1 a.m.",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          10
+        ],
+        "zh": "适合周末待一下午",
+        "en": "Good for afternoon lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "饮品含鸡尾酒与创意装饰",
+        "en": "Cocktails & creative drink designs"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:54Z"
+}

@@ -1,0 +1,85 @@
+{
+  "cafeId": "funk-and-kale",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e0f50147b98f",
+  "raw": {
+    "headline": {
+      "zh": "安福路 brunch 热门打卡",
+      "en": "Anfu Lu brunch hotspot"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地窗，采光充足，视野开阔",
+        "en": "floor-to-ceiling windows with great light and views",
+        "from": [
+          6,
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为咖啡特调与茶饮组合",
+        "en": "signature combo of coffee and tea drinks",
+        "from": [
+          8,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "主食含河粉汤面与创意塔可拼盘",
+        "en": "served with pho-style noodle soup and creative taco platter",
+        "from": [
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "木质圆桌配椅子，约8-12个座位",
+        "en": "wooden round tables with chairs, 8–12 seats",
+        "from": [
+          5,
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上9点半，适合晚间落脚",
+        "en": "open until 9:30 PM, great for evening stop",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "人多需排队，专注度受限",
+        "en": "crowded, not ideal for focus"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "安福路早午餐人流密集",
+        "en": "busy brunch crowd on Anfu Lu"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          9
+        ],
+        "zh": "座位有限但营业时间长",
+        "en": "limited seats but long hours"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:01Z"
+}

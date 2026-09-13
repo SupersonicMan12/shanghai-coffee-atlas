@@ -1,0 +1,71 @@
+{
+  "cafeId": "honky-tonk-coffee-xiangyang-s-rd-262",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "7a488cf6ad6e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a8283b525c141adf0000000711550860?type=pic",
+    "https://store.is.autonavi.com/showpic/60f27dc158f3c3900000003456526956?type=pic",
+    "https://aos-comment.amap.com/B0L15H0EUV/comment/%5B2026-02-12-19-58-52%5D6E8E679E-BEF1-4D6A-9138-5136CB7EF25_1770897540173_40265682.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外人行道有几张小桌椅供顾客外坐，旁边停着电瓶车和自行车。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单可见美式、拿铁、Dirty、摩卡等饮品，价格20-48元不等。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内桌上放着一杯冰美式和一杯带奶盖与青柠皮的特调咖啡。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面在石库门风格老建筑里，临街是大玻璃门，有遮阳棚。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上标有TETERKI、TRIOON II等咖啡豆品牌，可选加价换豆。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上有“虎斑橘”、“焙茶”、“抹茶”等特调和风味拿铁选项。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位上有人在用手机，未见有人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内照片显示木质桌面和深色地板，环境简洁，无书架或植物。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:12Z"
+}

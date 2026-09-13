@@ -1,0 +1,54 @@
+{
+  "facts": [
+    {
+      "text": "浅烘的豆子加上茶味，很特别。",
+      "kind": "beans",
+      "quote": "浅烘的豆子加上茶味，很特别。",
+      "url": "https://www.sina.cn/news/detail/5023381886080231.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "白胡子美式咖啡和焙茶布丁。",
+      "kind": "story",
+      "quote": "白鬍子美式 焙茶布丁 檸檬鼠尾草司康",
+      "url": "https://news.qq.com/rain/a/20250329A04AOL00",
+      "site": "QQ"
+    },
+    {
+      "text": "有放空的角落，适合放松。",
+      "kind": "space",
+      "quote": "咖啡香瀰漫著還有放空的角落",
+      "url": "https://news.qq.com/rain/a/20250329A04AOL00",
+      "site": "QQ"
+    },
+    {
+      "text": "营业时间10:00-18:00，夏令时不变。",
+      "kind": "time",
+      "quote": "夏令时营业时间10:00-18:00",
+      "url": "https://chihe.sohu.com/a/1073026995_121622982",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "别人家的咖啡馆[超话]# 大小乐咖啡商店   永嘉路52号大大小小都是 ...",
+      "url": "https://www.sina.cn/news/detail/5023381886080231.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "最爱的16家之外，还有这些优秀咖啡馆我们不愿割舍…… - QQ",
+      "url": "https://news.qq.com/rain/a/20250329A04AOL00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 3,
+      "title": "从银座到神保町:一份写给咖啡爱好者的东京独立咖啡馆地图 ",
+      "url": "https://chihe.sohu.com/a/1073026995_121622982",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:45Z"
+}

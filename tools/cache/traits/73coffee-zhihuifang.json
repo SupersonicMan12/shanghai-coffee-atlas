@@ -1,0 +1,81 @@
+{
+  "cafeId": "73coffee-zhihuifang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5e2c9dd3020f",
+  "raw": {
+    "headline": {
+      "zh": "进门玩‘石头剪子布蜥蜴斯波克’点单",
+      "en": "Order by playing Rock-Paper-Scissors-Lizard-Spock"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "咖啡种类不少，按季节上新当季特饮",
+        "en": "Multiple coffee options with seasonal specials",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店面不大但收拾得挺干净",
+        "en": "Small but neatly maintained space",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内有白色沙发和木制桌椅",
+        "en": "White sofas and wooden tables and chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内天花板有工业风管道和长条灯",
+        "en": "Industrial-style ceiling pipes and linear lights",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "老板林明旺是数学系毕业的理工男",
+        "en": "Owner Lin Mingwang is a math graduate and engineer",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "店面不大但干净，未提办公设施",
+        "en": "Small clean space, no work setup mentioned"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "有沙发和桌椅，空间小但整洁",
+        "en": "Sofas and chairs in small clean space"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "按季节上新当季特饮",
+        "en": "Seasonal drink rotations"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:18Z"
+}

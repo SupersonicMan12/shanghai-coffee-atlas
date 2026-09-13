@@ -1,0 +1,74 @@
+{
+  "cafeId": "silverflow-gumei-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0868e5452139",
+  "raw": {
+    "headline": {
+      "zh": "商场内手冲贝果小店",
+      "en": "Hand-brew bagel spot in mall"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于商场内的小型店铺",
+        "en": "Small stall inside a shopping mall",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内明亮，采光良好",
+        "en": "Bright interior with good natural light",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "柜内陈列贝果，推荐欧包",
+        "en": "Bagels displayed; sourdough bread recommended",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡，有磨豆机等设备",
+        "en": "Offers hand-brew coffee with grinders",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日早6:30开始营业",
+        "en": "Opens at 6:30 AM on weekdays",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "商场小店，空间有限",
+        "en": "Compact mall stall"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "设有手冲设备",
+        "en": "Features hand-brew setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:10Z"
+}

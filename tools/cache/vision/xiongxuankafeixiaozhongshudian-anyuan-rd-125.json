@@ -1,0 +1,71 @@
+{
+  "cafeId": "xiongxuankafeixiaozhongshudian-anyuan-rd-125",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e77cc039a028",
+  "photos": [
+    "https://aos-comment.amap.com/B0L0PZ04JD/comment/content_media_external_file_192914_ss__1768395346968_60661514.jpg",
+    "https://aos-comment.amap.com/B0L0PZ04JD/comment/content_media_external_file_192910_ss__1768395346955_54394919.jpg",
+    "https://aos-comment.amap.com/B0L0PZ04JD/comment/file_media_Photo_46446_IMG_1767767756_45804_IMG_20260107_143416_jpg_ss__1769232653989_41814769.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质书架，摆满书籍，空间像书店与咖啡馆结合。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，窗外可见马路和人行横道。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有黑色圆桌和带棋盘格坐垫的卡座座位。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品为冰咖啡，装在透明塑料杯中，配吸管。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物是多层巧克力蛋糕，切片放在白瓷盘上。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗边挂有手工编织圣诞花环装饰。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内光线明亮，主要来自自然采光。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见任何人使用电脑或专业咖啡器具。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:10Z"
+}

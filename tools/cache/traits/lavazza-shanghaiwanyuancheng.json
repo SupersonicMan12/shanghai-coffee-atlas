@@ -1,0 +1,95 @@
+{
+  "cafeId": "lavazza-shanghaiwanyuancheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "930a20ce8b63",
+  "raw": {
+    "headline": {
+      "zh": "上海限定咖啡文化空间",
+      "en": "Shanghai-exclusive coffee culture space"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街转角落地窗，设室外遮阳伞桌椅",
+        "en": "Corner storefront with floor-to-ceiling windows and outdoor shaded tables",
+        "from": [
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seats",
+        "zh": "设舒适靠窗座位，支持久坐休憩",
+        "en": "Comfortable window-side seats for lingering",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推出上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Shanghai-exclusive blend and 'Orange Power Vanilla Shake Americano'",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "菜单含炭烤风味牛排",
+        "en": "Features charcoal-grilled steak on menu",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚间22:00",
+        "en": "Opens until 10:00 PM",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "有靠窗座位可办公",
+        "en": "Seated area suitable for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "室外座位位于临街位置",
+        "en": "Located on busy street with outdoor seating"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "专设慢坐休憩区",
+        "en": "Designed for relaxed sitting"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "有上海限定饮品",
+        "en": "Shanghai-exclusive drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:00Z"
+}

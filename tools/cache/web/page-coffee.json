@@ -1,0 +1,94 @@
+{
+  "facts": [
+    {
+      "text": "使用当季精选全球咖啡豆，主打手冲咖啡",
+      "kind": "beans",
+      "quote": "We serve pour-over coffee from our seasonally curated global bean selection.",
+      "url": "https://www.mapquest.com/cn/page-coffee-804035556",
+      "site": "Page Coffee, 495 Shaanxi Road Near Datong Li, Shanghai, CN"
+    },
+    {
+      "text": "特调饮品【沙丘】：冷萃基底+玉米+柚子+味噌+奶油",
+      "kind": "drinks",
+      "quote": "☕️尝试了特调【沙丘】,老板说这是他们的创意款。冷萃咖啡底,加入了玉米、柚子、味增和奶油",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    },
+    {
+      "text": "极简装修，原木色调配暖光，门口有清新绿色logo",
+      "kind": "space",
+      "quote": "店铺装修是极简风格,原木色调搭配暖色光线,感觉特别温馨治愈。",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    },
+    {
+      "text": "座椅下配备齐平插座，细节贴心",
+      "kind": "seating",
+      "quote": "座椅下居然有齐平的插座(太贴心!)",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    },
+    {
+      "text": "宠物友好店，可携宠物入内",
+      "kind": "people",
+      "quote": "还是宠物友好店,瞬间好感度up!",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间10:00–19:00，周一闭店",
+      "kind": "time",
+      "quote": "10.00-19.00. Closed on Mondays.",
+      "url": "https://www.mapquest.com/cn/page-coffee-804035556",
+      "site": "Page Coffee, 495 Shaanxi Road Near Datong Li, Shanghai, CN"
+    },
+    {
+      "text": "夫妻经营的小店，老板亲手讲解风味灵感",
+      "kind": "story",
+      "quote": "老板递上咖啡时,还附了一张专属小卡片,耐心讲解风味灵感,能感受到他们对产品的用心和热爱。像这样的夫妻老婆店的温情",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Page Coffee, 495 Shaanxi Road Near Datong Li, Shanghai, CN",
+      "url": "https://www.mapquest.com/cn/page-coffee-804035556",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "南京西路商圈宝藏咖啡店!这抹绿让我推门而入 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "Chill Cafe Hopping in Shanghai ☕️ - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-152290644/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Thru Coffee Qishi Coffee (Shaanxi South Road 186 Long Unit Shop)",
+      "url": "https://maps.apple.com/place?auid=1118368858427541&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "SHANGHAI QUENCHES ITS THIRST FOR COFFEE AGAIN",
+      "url": "https://www.chinadaily.com.cn/a/202206/15/WS62a948cda310fd2b29e62d86.html",
+      "site_name": "中国日报网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:54Z",
+  "retriedEn": true
+}

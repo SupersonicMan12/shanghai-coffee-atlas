@@ -1,0 +1,71 @@
+{
+  "cafeId": "ferm-coffee-biyunzundi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2b8a8898ff5c",
+  "photos": [
+    "https://aos-comment.amap.com/B0JRBU5LGH/comment/241ddb2e381a38fe30ef6d7632488c25_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/48dedc123dd307e20000004363568741?type=pic",
+    "https://store.is.autonavi.com/showpic/3652b4eec149856c0000004363592149?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和咖啡制作设备，包括手冲器具和磨豆机",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶拿铁和拿铁，拉花为心形图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带奶油顶的咖啡饮品和烤制小点心",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间宽敞，有木质装饰和落地窗，采光良好",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见店内有展示柜陈列面包类食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植点缀，环境整洁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "有菜单板和书籍展示，可能提供阅读区域",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "桌上有饮品和食物，显示可堂食",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:00Z"
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "niko-and-whole-775-restaurant-and-bar-huaihai755",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "330762203bc9",
+  "raw": {
+    "headline": {
+      "zh": "三楼西餐集合店配一楼咖啡",
+      "en": "3F Western fusion, 1F coffee"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "有俯瞰淮海中路的景观位",
+        "en": "Seats overlook Huaihai Road",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "主打牛排、海鲜、意面、披萨、沙拉、鸡尾酒",
+        "en": "Serves steak, seafood, pasta, pizza, salad, cocktails",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "深色实木长桌配金属椅",
+        "en": "Dark wood communal tables with metal chairs",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–21:00营业",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          10,
+          14
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "咖啡区在1楼，与女装饰品区同层",
+        "en": "Coffee on 1F with fashion & accessories",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "可逛累小歇",
+        "en": "Place to rest while shopping"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:37Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "tixiangyanmokafei-wanping-s-rd-263",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "cdd6b3c18135",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/58cf1aa44bbfde4aa3c1a0b24a33e133",
+    "https://aos-comment.amap.com/B00154848C/comment/26035A6B_A2E0_4A61_944C_E663F5BFFCE3_L0_001_2048_153_1766365070776_59699427.jpg",
+    "https://aos-comment.amap.com/B00154848C/comment/content_media_external_file_100005547_1759212730323_01246993.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅和深色沙发座，空间不大。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见华夫饼、布丁、香蕉船、法式吐司等甜点。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供分层奶昔饮品，配橙色吸管。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外是临街玻璃窗，可看到对面街道景象。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上摆放多个毛绒玩偶，非专业咖啡器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "座位为卡座与单人椅组合，数量级为few。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:35Z"
+}

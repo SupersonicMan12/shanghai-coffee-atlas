@@ -1,0 +1,49 @@
+{
+  "cafeId": "maikafei-kaixuan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "bcf81c2ed8e0",
+  "photos": [
+    "https://aos-comment.amap.com/B0K6GSZQE1/comment/2025-12-25-11-32-56%2B5A6F072D-EE1D-4670-A42E-6DAE5404281_1766633602301_10014456.jpg"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有卡通人物雕塑装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "空间为室内吧台区域，有木质台面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见黄色座椅，座位数量有限",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板有悬挂式灯饰和嵌入式照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有人在店内活动",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:43Z"
+}

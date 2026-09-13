@@ -1,0 +1,71 @@
+{
+  "cafeId": "faust-tianping-rd-216",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "69def7d0d2a4",
+  "photos": [
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/5B46D65D_4C74_4ED4_87B3_AFB12F76F568_L0_001_1500_200_1765174818394_53659653.jpg",
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/6e513af848abd7ce131e3a6ec9c58062_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/58767AEB_E89B_484D_9826_8677465013F3_L0_001_1500_200_1764993345985_16525557.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台窗口服务，内部空间小，仅见1名店员操作咖啡机。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台内有咖啡机、磨豆机和手冲器具，设备齐全。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台外摆放小型圣诞树和花束，有节日装饰。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口A字牌菜单显示特调咖啡与蛋糕，价格32-48元。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前设两个圆形软垫高脚凳，为室外座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯热拿铁拉花呈心形，配一块芝士蛋糕。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内未见书架或宠物，也无顾客使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街玻璃窗，采光好，可看到街道人行道。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:31Z"
+}

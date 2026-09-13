@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品【软饭】热乎乎的酒酿配合巧克力香气",
+      "kind": "drinks",
+      "quote": "一杯【软饭】实际上是热乎乎的酒酿配合了巧克力的香气",
+      "url": "https://news.qq.com/rain/a/20251024A0402D00",
+      "site": "QQ"
+    },
+    {
+      "text": "店内有既热烈又稳重的咖啡色设计",
+      "kind": "space",
+      "quote": "这间Can Company会以既热烈又稳重的咖啡色吸引你的目光",
+      "url": "http://www.sohu.com/a/661483188_786454",
+      "site": "搜狐"
+    },
+    {
+      "text": "极具现代感的内部设计，营造喝咖啡氛围",
+      "kind": "space",
+      "quote": "极具现代感的内部设计也让不大的空间更加有层次和喝咖啡的氛围感",
+      "url": "http://www.sohu.com/a/661483188_786454",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "上海的精致与烟火日常,藏在这些腔调咖啡馆里(上)丨飨味城市爱情_生活",
+      "url": "http://www.sohu.com/a/661483188_786454",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "彭博：上海为何是全球最具吸引力的咖啡之城 - QQ News",
+      "url": "https://news.qq.com/rain/a/20251024A0402D00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 4,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "上海从咖啡消费高地变身产业集聚码头",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260817/0fe1505dae484a7bb9e45a7fc8a4c8a7.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "上海CAN COMPANY Coffee / MAS芒果建筑设计| 谷德设计网",
+      "url": "https://www.gooood.cn/can-coffee-shanghai-by-mas.htm",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "咖啡，为什么上海？ - 央广网",
+      "url": "https://www.cnr.cn/shanghai/shzx/zq/20230510/t20230510_526247261.shtml",
+      "site_name": "央广网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:57Z"
+}

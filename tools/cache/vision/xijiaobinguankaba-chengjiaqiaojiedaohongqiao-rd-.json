@@ -1,0 +1,65 @@
+{
+  "cafeId": "xijiaobinguankaba-chengjiaqiaojiedaohongqiao-rd-",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c1463784cebc",
+  "photos": [
+    "https://aos-comment.amap.com/B0I1RC4EZI/comment/E7511225_3E13_4698_9E28_8BCF63975C2E_L0_001_1334_200_1773583137144_33069328.jpg",
+    "https://aos-comment.amap.com/B0I1RC4EZI/comment/B7920F5B_2044_4BAE_A0B8_8B5C53413961_L0_001_1500_200_1763093949275_73911819.jpg",
+    "http://store.is.autonavi.com/showpic/d2d20a137080aa0fc2bfce9692102a27"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室外庭院有桌椅，临水，绿树环绕",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内空间有木质地板和条纹布艺座椅",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供咖啡、蛋糕和水果拼盘等食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括拿铁和冰水，搭配甜点",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有玻璃茶几和装饰性植物",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "设有CC Coffee Bar标识的入口区域",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "户外区域有草坪和水面，适合休闲用餐",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:48Z"
+}

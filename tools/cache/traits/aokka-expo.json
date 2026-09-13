@@ -1,0 +1,94 @@
+{
+  "cafeId": "aokka-expo",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5f17263cb562",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲咖啡",
+      "en": "Fresh-roast pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "提供自烘手冲咖啡，主打新鲜烘焙",
+        "en": "Fresh-roast pour-over coffee offered",
+        "from": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "seating|space",
+        "zh": "室内外共约25个座位，含折叠椅与卡座",
+        "en": "25 seats total: outdoor folding chairs and indoor booths",
+        "from": [
+          1,
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括梅雨气泡、蜜处理与特调咖啡",
+        "en": "Signature drinks: Meiyu Bubbles, Honey Process, specialty cocktails",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆选择多样，云南小茉莉采用窖制茉莉花茶工艺",
+        "en": "Diverse beans; Yunnan Xiao Moli uses tea-crafting technique",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "整面落地窗临街，空间通透开阔",
+        "en": "Full-floor-to-ceiling windows facing street, open and airy",
+        "from": [
+          7,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "有卡座适合办公",
+        "en": "Booths suit work"
+      },
+      "energy": {
+        "value": 55,
+        "from": [
+          12
+        ],
+        "zh": "空间错落但通透，人流适中",
+        "en": "Open yet layered, moderate foot traffic"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          3,
+          12
+        ],
+        "zh": "座位多且空间舒适",
+        "en": "Comfortable seating encourages lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "特调与特殊处理豆丰富",
+        "en": "Specialty drinks and processing methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:56Z"
+}

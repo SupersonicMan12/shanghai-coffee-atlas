@@ -1,0 +1,67 @@
+{
+  "cafeId": "miiix-coffee-caohejing",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "911484d764e3",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f797aa76a28176dc4ddf3a96897d89de"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和透明窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有双层玻璃门，门内有吧台区域",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见工作人员在操作咖啡设备",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口右侧贴有促销海报，内容为饮品活动",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内地面为浅色地砖，墙面为白色",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外左侧墙上有编号1065的门牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有纸箱堆放，可能为物料暂存",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:18:53Z"
+}

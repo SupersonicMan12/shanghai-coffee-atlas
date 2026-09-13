@@ -1,0 +1,117 @@
+{
+  "facts": [
+    {
+      "text": "店主开始自己烘焙咖啡豆",
+      "kind": "beans",
+      "quote": "一个重要的原因是,老板开始自己烘焙了。",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site": "腾讯网"
+    },
+    {
+      "text": "墙上的手写菜单写着不同豆子的产地、处理方法和风味",
+      "kind": "beans",
+      "quote": "墙上的手写菜单写着不同豆子的产地、处理方法和风味",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1744155",
+      "site": "无"
+    },
+    {
+      "text": "主打手冲风味与社区小店体验",
+      "kind": "drinks",
+      "quote": "Radar Coffee 深受咖啡爱好者关注,主打手冲风味与社区小店体验",
+      "url": "https://hi.online.sh.cn/content/2026-09/10/content_10486120.htm",
+      "site": "上海热线"
+    },
+    {
+      "text": "地址：黄浦区思南路27号",
+      "kind": "space",
+      "quote": "Radar Coffee 线下门店:黄浦区思南路27号",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site": "腾讯网"
+    },
+    {
+      "text": "名字源于6年的海员生活，寓意是寻找更有趣的咖啡豆",
+      "kind": "story",
+      "quote": "radar 名字源于6年的海员生活，现在的寓意是寻找更有趣的咖啡豆。",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "只专注于不同国家风土咖啡豆带来的风味",
+      "kind": "beans",
+      "quote": "雷达咖啡是一家追求纯粹咖啡的店，只专注于不同国家风土咖啡豆带来的风味",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "早上7点开门，曾6点开门",
+      "kind": "time",
+      "quote": "最近Radar开门延到了7点,贾师傅还有继续延后半小时的设想。",
+      "url": "https://www.dianping.com/discovery/992431184",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "被迫营业、手写菜单、复古回忆…这几家治愈系咖啡店,坐一下午都不腻!",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1744155",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡店:寻找属于你的咖啡选择 ",
+      "url": "https://hi.online.sh.cn/content/2026-09/10/content_10486120.htm",
+      "site_name": "上海热线"
+    },
+    {
+      "index": 3,
+      "title": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "Radar Coffee（思南路店） (淮海路/新天地地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-132087708",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "今年企鹅榜单第一名咖啡店radar - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/758231469",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "一次喝到10家最强上海咖啡阵容,真过瘾了……",
+      "url": "https://new.qq.com/rain/a/20260305A063Y600",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "做了10年咖啡,这一份最特别。 ",
+      "url": "https://chihe.sohu.com/a/946146562_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 9,
+      "title": "Radar六记|什么是手冲咖啡的标杆?(下) - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/992431184",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 10,
+      "title": "“解封后的第一杯咖啡” - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/820669152",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:46:36Z"
+}

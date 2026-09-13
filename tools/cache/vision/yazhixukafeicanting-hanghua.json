@@ -1,0 +1,65 @@
+{
+  "cafeId": "yazhixukafeicanting-hanghua",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9abc79e54a82",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/3fa18b008fd468c419cdc3b4a2640f51",
+    "http://store.is.autonavi.com/showpic/0aea6209be9ace29921d866709f3397f",
+    "http://store.is.autonavi.com/showpic/1e991f1769ea0bb49d1dff5c71c8742e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺临街，有玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有金属护栏，停放电动车",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺为一层结构，门头标有‘雅之叙咖啡餐厅’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分桌椅，空间较小",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃窗可见室内灯光照明",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有行道树和街道",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门头显示提供本帮菜与餐饮服务",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:08Z"
+}

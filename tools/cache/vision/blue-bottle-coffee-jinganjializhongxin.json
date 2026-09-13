@@ -1,0 +1,59 @@
+{
+  "cafeId": "blue-bottle-coffee-jinganjializhongxin",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "428f1ee02ccc",
+  "photos": [
+    "https://aos-comment.amap.com/B0IGNCA2RB/comment/15c27a17adbd0f1a142dd024348d8912_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IGNCA2RB/comment/40a36595b019be63acb54f31668387d8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IGNCA2RB/comment/0e0c05c0303ff352e6f55fbbb226c007_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "menu",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "菜单木板显示有单品咖啡、冷萃、乌龙抹茶等，价格24-48元。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物含抹茶酱华夫饼、水波蛋吐司配沙拉、拿铁与抹茶拿铁。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一份餐点为撒糖粉华夫饼配奶油和果酱，搭配两杯热饮和一杯冰饮。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内桌椅为木质托盘+金属桌面，座位形式为室内桌座。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙面为深灰色砖墙，装修风格偏工业风，无可见植物或书架。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见任何人，也无电脑、宠物、烘焙机或手冲台等器具。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:20Z"
+}

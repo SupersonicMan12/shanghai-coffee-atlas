@@ -1,0 +1,83 @@
+{
+  "cafeId": "0566-pudongjialicheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9d2a0d2d4710",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡+日式甜点",
+      "en": "Handcrafted coffee with Japanese pastries"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为名古屋风味手冲咖啡",
+        "en": "Signature is handcrafted coffee from Nagoya",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供抹茶柚子生芝士与冲绳盐灸太妃等日式甜点",
+        "en": "Offers Japanese-style sweets like matcha yuzu cheesecake and Okinawa salt caramel",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "甜点陈列于木质盒中，标价48元",
+        "en": "Pastries displayed in wooden boxes priced at 48 yuan",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-22:00",
+        "en": "Open daily 09:00–22:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "手冲咖啡适合专注",
+        "en": "Handcrafted coffee supports focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "日式精致风格略安静",
+        "en": "Quiet with refined Japanese style"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          3
+        ],
+        "zh": "可久坐品尝甜点",
+        "en": "Suitable for lingering with pastries"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7,
+          5
+        ],
+        "zh": "手冲与独特甜点组合",
+        "en": "Handbrew and unique pastries"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:20Z"
+}

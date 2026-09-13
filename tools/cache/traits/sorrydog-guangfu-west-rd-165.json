@@ -1,0 +1,59 @@
+{
+  "cafeId": "sorrydog-guangfu-west-rd-165",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "97246214840b",
+  "raw": {
+    "headline": {
+      "zh": "猫咪友好的阶梯咖啡馆",
+      "en": "Cat-friendly cafe with tiered seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有阶梯式座位区和白色圆桌",
+        "en": "Tiered seating with white round tables",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "右侧有大面积落地窗，窗外见绿树",
+        "en": "Large floor-to-ceiling windows facing trees",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "提供木质猫窝和牵引绳环扣",
+        "en": "Wooden cat nooks and leash hooks provided",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间10:00-18:00",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          6
+        ],
+        "zh": "有阶梯座、猫窝和绿植",
+        "en": "Tiered seats, cat nooks, plants"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:35Z"
+}

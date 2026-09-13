@@ -1,0 +1,52 @@
+{
+  "cafeId": "heijiaojiuba-baitiankafei",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b9530e6e3cc4",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨2点的街角咖啡馆",
+      "en": "Open till 2am corner cafe"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设有桌椅，地面为灰色石砖",
+        "en": "Outdoor seating on gray stone tiles",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日11:00–02:00营业",
+        "en": "Open daily 11am–2am",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          7,
+          8
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seats indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:44Z"
+}

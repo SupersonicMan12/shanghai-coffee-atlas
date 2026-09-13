@@ -1,0 +1,68 @@
+{
+  "cafeId": "m-stand-shanghaifudihuolicheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e731b7c3a444",
+  "raw": {
+    "headline": {
+      "zh": "室外座位带遮阳伞",
+      "en": "Outdoor seating with umbrellas"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有带遮阳伞的室外座位区",
+        "en": "Has outdoor seating with umbrellas",
+        "from": [
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供带盖塑料杯装冰咖啡",
+        "en": "Serves iced coffee in capped plastic cups",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应带蜡烛的巧克力类甜点",
+        "en": "Serves chocolate dessert with candles",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-22:00",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "室外座位区有社交氛围",
+        "en": "Social vibe outdoors"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "适合久坐休息",
+        "en": "Good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:41Z"
+}

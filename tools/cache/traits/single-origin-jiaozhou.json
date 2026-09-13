@@ -1,0 +1,58 @@
+{
+  "cafeId": "single-origin-jiaozhou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "44043e00750d",
+  "raw": {
+    "headline": {
+      "zh": "只做埃塞单品",
+      "en": "Ethiopian-only roastery"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "专注埃塞俄比亚单一产地咖啡豆，自烘",
+        "en": "Ethiopian single-origin beans, in-house roasted",
+        "from": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "自烘豆子需专注品鉴",
+        "en": "Roasted beans demand attention"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "主打单一产地，氛围沉静",
+        "en": "Single-origin focus creates calm"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "可停留品豆，非快饮场所",
+        "en": "Meant for lingering with coffee"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "自烘手冲，豆源可细究",
+        "en": "In-house roasting and station-level detail"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:25Z"
+}

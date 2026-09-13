@@ -1,0 +1,68 @@
+{
+  "cafeId": "waitankafei-xingtengdasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4c6bf132f474",
+  "raw": {
+    "headline": {
+      "zh": "外滩手冲咖啡专门店",
+      "en": "Hand-brew coffee spot near the Bund"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供带奶油和可可粉的冰咖啡",
+        "en": "Serves iced coffee with cream and cocoa powder",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲咖啡设备与磨豆机",
+        "en": "Equipped with pour-over gear and grinders",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "一层临街，整面落地玻璃窗",
+        "en": "Ground-floor space with full-height street-facing windows",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至17:30",
+        "en": "Open daily until 5:30 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          9
+        ],
+        "zh": "手冲设备与特色饮品",
+        "en": "Pour-over setup and signature drinks"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "有展示柜与装饰花艺",
+        "en": "Display cases and decorative florals"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:04Z"
+}

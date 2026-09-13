@@ -1,0 +1,70 @@
+{
+  "cafeId": "gregorius-shade-anfu-rd-53",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b5da2094700b",
+  "raw": {
+    "headline": {
+      "zh": "安福路树荫下的玻璃屋",
+      "en": "A glass café shaded on Anfu Road"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，有树荫遮挡",
+        "en": "Full-height street-facing windows with shade",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供巴斯克蛋糕",
+        "en": "Serves Basque cheesecake",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应冰美式与热咖啡",
+        "en": "Offers iced americano and hot coffee",
+        "from": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          5
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:45Z"
+}

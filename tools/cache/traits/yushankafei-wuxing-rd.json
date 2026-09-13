@@ -1,0 +1,83 @@
+{
+  "cafeId": "yushankafei-wuxing-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f0b59b0c8623",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆手冲咖啡店",
+      "en": "In-house roasted beans and pour-over coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "拥有专属咖啡烘焙师，对豆子进行自烘",
+        "en": "Has an in-house coffee roaster who roasts beans on-site",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐手冲咖啡和卡布奇诺",
+        "en": "Hand-poured coffee and cappuccino are recommended on Gaode",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗，窗外可见街道和车辆",
+        "en": "Floor-to-ceiling street-facing windows with street and vehicle views",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内光线明亮，自然光充足",
+        "en": "Bright interior with abundant natural light",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "可见木质桌椅，数量约2-4个",
+        "en": "2–4 wooden tables and chairs visible",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "仅2-4个座位，空间有限",
+        "en": "Only 2–4 seats, limited space"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "营业至18:00，座位少",
+        "en": "Closes at 6pm, few seats"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          7,
+          10
+        ],
+        "zh": "自烘豆+手冲为推荐项",
+        "en": "In-house roasting + hand-pour recommended"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:49Z"
+}

@@ -1,0 +1,60 @@
+{
+  "cafeId": "wvolla-brunch-chuangzhitiandichuangzhifang1qubei",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2edff9aeabfb",
+  "photos": [
+    "https://aos-comment.amap.com/B0G0463ZGO/comment/8cbe47dcd6f4349dfacbc65cf98ef3e5_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/54e602c23b95841a2bb4c3f1744a28f6",
+    "https://aos-comment.amap.com/B0G0463ZGO/comment/a24ecd6c61b62bf0660804abfac08af1_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为绿色调，有室外吧台椅。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质桌面和灰色椅子。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见一杯拿铁咖啡和一份千层蛋糕。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括薯条、三明治和牛排。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有大屏幕电视播放画面。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "室外有几张高脚椅，但无顾客。",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:45Z"
+}

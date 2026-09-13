@@ -1,0 +1,65 @@
+{
+  "cafeId": "nana-coffee-daning",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e8a6b77c836e",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/2e551f3e64adf487abc08c5df103f5ae_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/9295a16c2ad90edb4e68570b01d6a00e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/e29eb2baef540571f0dccf4f90a8b362_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面外有木制“营业中”招牌，窗台摆多盆小植物和装饰品。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗玻璃手写营业时间8:00-17:00，周二休息，美式3元、拿铁2元。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外可见一张木桌，桌上放一杯咖啡，有室外座位。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内窗边有人坐着，背对镜头，疑似在操作或休息。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为玻璃杯装的拿铁，表面有叶子形拉花。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口左侧放一把木椅，右侧窗下有白色塑料水槽。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗上挂红色串珠灯笼装饰，窗内贴有雪花和鱼形贴纸。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:13Z"
+}

@@ -1,0 +1,76 @@
+{
+  "cafeId": "tims-kangqiaokuanting",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "42131625862d",
+  "raw": {
+    "headline": {
+      "zh": "现做贝果套餐19.9元",
+      "en": "Fresh-baked bagel combo for 19.9"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供现做的贝果等暖食，可选多种套餐",
+        "en": "Offers freshly made bagels and warm food combos",
+        "from": [
+          4,
+          8,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "美式咖啡搭配肉桂提子贝果套餐售价19.9元",
+        "en": "Americano with cinnamon raisin bagel combo at 19.9 yuan",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间每日07:00至20:00",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜内陈列多种贝果",
+        "en": "Multiple bagels displayed in glass case",
+        "from": [
+          5,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          11
+        ],
+        "zh": "营业时间长但非办公导向",
+        "en": "Long hours, not office-focused"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          11
+        ],
+        "zh": "日常营业，中等人流",
+        "en": "Moderate foot traffic"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          11
+        ],
+        "zh": "适合短暂停留，不主打久坐",
+        "en": "Short stay, not built for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:00Z"
+}

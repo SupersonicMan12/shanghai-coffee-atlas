@@ -1,0 +1,71 @@
+{
+  "cafeId": "koala-bar-cafe-zhangning",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "38e14c4c49b5",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0c0860e10c60ab464989a2660b8f5638",
+    "http://store.is.autonavi.com/showpic/20a6eea06b3ab946c311160b2692f735",
+    "http://store.is.autonavi.com/showpic/deaa64aed680087d6152353e85e13c8f"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "第一张图：黑色招牌含Heineken标志、考拉卡通、'KOALA BAR & CAFE'字样，临街玻璃门，门前停两车。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图：木质外墙+绿色遮阳棚，招牌为'KOALA BAR'，门口台阶上立多张海报，有绿植盆栽。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图：透明玻璃杯盛奶泡咖啡，杯身印'PORTION'金色logo，置于白瓷碟上，背景有糖罐与烟盒。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第一张图可见白色伸缩遮阳棚，覆盖入口上方，但无室外座位区域。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图门口台阶前设数块立式菜单/海报板，内容模糊不可辨识价格或豆种。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "三张图中均未见吧台、手冲设备、磨豆机、烘焙机等专业咖啡器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图店门为大面积玻璃推拉门，可透见室内昏暗，但无法确认内部布局与座位数量。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "第三张图桌面为深色木质，旁有红色小碗与白色奶盅，无电脑、书架、植物或宠物可见。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:14Z"
+}

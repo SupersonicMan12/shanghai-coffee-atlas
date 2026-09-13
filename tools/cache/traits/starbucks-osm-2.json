@@ -1,0 +1,92 @@
+{
+  "cafeId": "starbucks-osm-2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8ae1a915e43f",
+  "raw": {
+    "headline": {
+      "zh": "上海限定特饮",
+      "en": "Shanghai-exclusive drink"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供融合麦乳精的上海限定特饮",
+        "en": "Serves Shanghai-exclusive drink with malted milk",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "橱窗陈列可颂、贝果、千层蛋糕等烘焙食品",
+        "en": "Displays croissants, bagels, and layer cakes in window",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-22:00",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街独立单层店面，设无障碍坡道",
+        "en": "Freestanding single-story shop with ramp access",
+        "from": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选门店提供具人文故事的小批量咖啡豆",
+        "en": "Offers small-batch beans with human stories",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          14
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours suit work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "临街位置，城市街道旁",
+        "en": "On busy city street"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          14
+        ],
+        "zh": "营业时间长，可久坐",
+        "en": "Long hours allow lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          9
+        ],
+        "zh": "有上海限定与小批量豆子",
+        "en": "Unique local drink & rare beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:33Z"
+}

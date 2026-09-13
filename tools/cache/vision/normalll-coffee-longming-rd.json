@@ -1,0 +1,59 @@
+{
+  "cafeId": "normalll-coffee-longming-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "09e00f205bd0",
+  "photos": [
+    "https://aos-comment.amap.com/B0JALG7M60/comment/529D1E41_A22B_45C2_AA94_22E4822F715C_L0_001_1500_2000_1737799325419_93482058.jpg",
+    "https://store.is.autonavi.com/showpic/f2f3ceb149d5cb860000003090082481?type=pic",
+    "https://store.is.autonavi.com/showpic/b1a8e1105ef781b40000003090094114?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "饮品为拉花拿铁，奶泡图案清晰",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机、磨豆机等专业设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，门口有立式招牌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间较小，为小型咖啡馆",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见吧台区域，有菜单展示架",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有遮阳棚，地面铺砖",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:18:04Z"
+}

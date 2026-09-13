@@ -1,0 +1,65 @@
+{
+  "cafeId": "grid-coffee-xinyaoguanghuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0013573fda44",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/92322e2bd5cedc646931345117a49c1e",
+    "https://store.is.autonavi.com/showpic/842c134a36bf5aed0000001442314412?type=pic",
+    "https://aos-comment.amap.com/B0L16MQXJC/comment/984bf664-65e1-4345-b2e8-d096ce959018.png"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场内，临街玻璃门设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有桌椅座位，数量级为少量",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外侧有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有宣传立牌，展示饮品信息",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见店外有遮阳伞和户外座椅",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见悬挂灯饰与木质墙面装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有顾客正在使用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:15Z"
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "bagels-schmears-ruijinshequnanmenpang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "84887cf92bef",
+  "raw": {
+    "headline": {
+      "zh": "斯坦福学霸贝果社区店",
+      "en": "Stanford grad's bagel spot"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "近10种基础贝果可选",
+        "en": "Nearly 10 basic bagel flavors",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供黑咖啡、鲜萃咖啡和苹果汁",
+        "en": "Black coffee, cold brew, apple juice",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主为斯坦福毕业生创业开贝果店",
+        "en": "Founded by a Stanford graduate",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日7:00-21:00营业，中午常售罄",
+        "en": "Open 7–9 daily, often sells out by noon",
+        "from": [
+          6,
+          13,
+          15
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量有限",
+        "en": "Limited indoor seating",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "座位有限不便久坐",
+        "en": "Limited seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:29Z"
+}

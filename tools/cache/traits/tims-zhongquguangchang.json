@@ -1,0 +1,76 @@
+{
+  "cafeId": "tims-zhongquguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c4ba708192b4",
+  "raw": {
+    "headline": {
+      "zh": "现做暖食贝果",
+      "en": "Freshly made savory bagels"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供现做的贝果、多拿滋等暖食",
+        "en": "Serves freshly made bagels, danishes, and other warm pastries",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地窗，靠窗有木质桌椅座位",
+        "en": "Floor-to-ceiling windows with wooden tables by the window",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点，覆盖全天消费场景",
+        "en": "Opens at 7am, closes at 10pm daily",
+        "from": [
+          9,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为奶咖",
+        "en": "Signature drink is milk coffee",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "有书本和眼镜，可办公",
+        "en": "Has books and glasses — workable"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "商场内店铺，人流适中",
+        "en": "In-mall location, moderate foot traffic"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "有靠窗座位，适合久坐",
+        "en": "Comfortable window seats for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:32Z"
+}

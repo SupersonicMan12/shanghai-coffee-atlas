@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "豆子自家选豆烘豆，中浅烘，风味含香草、奶油、威士忌",
+      "kind": "beans",
+      "quote": "豆子🫘中浅烘 风味:香草🌿、奶油🧁、威士忌🥃",
+      "url": "https://www.dianping.com/discovery/1235483099",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌原味可露丽，法国波尔多传统点心，当天手工制作",
+      "kind": "food",
+      "quote": "原味可露丽是店里的招牌之一。这是一种来自法国波尔多地区的传统点心",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26641202",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店内一盆一人多高的龟背竹‘霸占’中心，营造隐私空间",
+      "kind": "space",
+      "quote": "一盆一人多高的龟背竹郁郁葱葱,‘霸占’着店内中心的位置,巧妙地营造出了一个隐私空间",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26641202",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "宠物友好",
+      "kind": "people",
+      "quote": "☕️魔都咖啡|莫卡白日梦豆子惊艳了 🐈宠物友好",
+      "url": "https://www.dianping.com/discovery/1235483099",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店长为‘95后’咖啡师杨鲁鹏，从业近十年，理念是‘把产品做好’",
+      "kind": "story",
+      "quote": "DayDreaming(白日梦)的店长、“95后”咖啡师杨鲁鹏却对做网红不感兴趣",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26641202",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "汇探店 | 在这家咖啡店,让心灵小憩一下",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26641202",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "DayDreaming by Monos 白日夢(衡山路地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/daydreaming-by-monos-121678732",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "☕️魔都咖啡|莫卡白日梦豆子惊艳了 🐈宠物友好 🈶️手冲拉花教学 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1235483099",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "白日梦咖啡·DAYDREAMING-价目表-菜单图片-珠海-大众点评网",
+      "url": "http://www.dianping.com/shop/l5ltV185kG6MuUxa/photos/tag-%E4%BB%B7%E7%9B%AE%E8%A1%A8-%E8%8F%9C%E5%8D%95",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "大白天就做白日梦⁉️没错‼️喝小鸟杯来一起做梦 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/717865461",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:55Z"
+}

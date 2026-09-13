@@ -1,0 +1,63 @@
+{
+  "facts": [
+    {
+      "text": "营业中，人均¥15",
+      "kind": "time",
+      "quote": "肯悦咖啡(大渡河路店) 4.1. ¥15/人.",
+      "url": "http://m.dianping.com/shop/1152967852?msource=applemaps",
+      "site": "营业时间_长风公园/华师大咖啡团购 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "7个月开1600+家，关600+家，肯悦咖啡进入高频调整阶段 - CBNData",
+      "url": "https://www.cbndata.com/information/295719",
+      "site_name": "第一财经商业数据中心"
+    },
+    {
+      "index": 2,
+      "title": "营业时间_长风公园/华师大咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/1152967852?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "肯悦咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E8%82%AF%E6%82%A6%E5%92%96%E5%95%A1/66929206",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "寒冬逆势扩张，肯悦咖啡在九块九时代如何创新？ - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/5826527690",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "肯德基肯悦咖啡不到1年开店100家，猛攻下沉市场 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/52085",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 6,
+      "title": "打破咖啡边界，肯悦“可以吃的咖啡” 爆了 - 餐饮界",
+      "url": "https://canyinj.com/news/20441.html",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "肯悦的爆款速度，是咖啡大战的一次“抢跑” - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/31274781477",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "东山肯悦咖啡明天开业,快来抢福利!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUyMTAyNzg4Ng==&mid=2247657416&idx=3&sn=cda4cfe1b948e373de577493efa81a6e&chksm=f87586a173647db75c358ff362533d7e3ab048834df1829a3fe285fb1abf4afcce313db36262&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:24:56Z"
+}

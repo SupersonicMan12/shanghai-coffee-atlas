@@ -1,0 +1,41 @@
+{
+  "cafeId": "the-lounge-guangfu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "832e2a31f416",
+  "raw": {
+    "headline": {
+      "zh": "临河玻璃窗坐席",
+      "en": "River-facing glass seats"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临河玻璃窗，可看货船缓慢经过",
+        "en": "Creek-facing glass window with slow-moving barges",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "视野开阔适合专注",
+        "en": "Open view aids focus"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          1
+        ],
+        "zh": "临水座位宜久坐",
+        "en": "Water view encourages lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:42Z"
+}

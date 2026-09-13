@@ -1,0 +1,65 @@
+{
+  "cafeId": "lili-time-qiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0a11b99c76ee",
+  "photos": [
+    "https://aos-comment.amap.com/B0H2TZOY4G/comment/fe7581a0669c93f36921be020fb91339_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H2TZOY4G/comment/45fcc71c4510f1c1eb9882fd1322048e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H2TZOY4G/comment/CA22D176_BDBD_4A87_90B4_CEBC4B78E6CC_L0_001_1500_200_1754042048707_20193194.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有拉花咖啡和分层饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供蛋糕类甜点，含杏仁片装饰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有手冲咖啡器具，可见滤杯与玻璃壶",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有植物装饰，环境注重细节",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品搭配绿叶点缀，呈现精致摆盘",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "有顾客在场，使用手机或饮品",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "桌面为木质，空间风格简约自然",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:22:00Z"
+}

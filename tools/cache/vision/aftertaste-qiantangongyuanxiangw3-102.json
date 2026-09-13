@@ -1,0 +1,72 @@
+{
+  "cafeId": "aftertaste-qiantangongyuanxiangw3-102",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "88ed818a2acf",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/765a229af3aded930000002582616116?type=pic",
+    "https://aos-comment.amap.com/B0K3H7688O/comment/B9C8FD50_85F4_46C1_AD1C_45A395F74E23_L0_001_1500_200_1763117692985_09222584.jpg",
+    "https://aos-comment.amap.com/B0K3H7688O/comment/E0DD20B2_7653_455A_8D81_CD8BB412E87A_L0_001_1500_200_1768963036591_28862534.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "门店位于前滩公园巷W3-102，临街有独立入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供手冲咖啡与拿铁，杯具为陶瓷材质",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品使用巴拿马火山豆，产地信息标注清晰",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单标明风味含石榴、荔枝、李子等，处理法为日晒、厌氧日晒、蜜处理",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰萃咖啡，透明塑料杯装，带吸管",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店外立面为深色水泥质感，设计简约现代",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见木质托盘和深色背景布，装修风格偏极简",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品标签注明季节拼配及海拔信息（1500-1900 masl）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:48Z"
+}

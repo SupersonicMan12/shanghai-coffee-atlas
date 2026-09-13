@@ -1,0 +1,124 @@
+{
+  "facts": [
+    {
+      "text": "复古南法风情咖啡馆，店内装饰充满年代感[ref_1]",
+      "kind": "space",
+      "quote": "复古又华丽,低调又高级。",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    {
+      "text": "店内收集多台老式打字机、海报等复古物件[ref_1]",
+      "kind": "space",
+      "quote": "店里还收集了好几台老式打字机、海报",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    {
+      "text": "提供手磨清咖啡和老麦拿铁[ref_1]",
+      "kind": "drinks",
+      "quote": "我们点了手磨清咖啡和老麦拿铁",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    {
+      "text": "拥有露天位置与木质桌椅，环境优雅[ref_1]",
+      "kind": "space",
+      "quote": "店门露天位置都是木质桌椅,小颗白石子铺路",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    {
+      "text": "适合拍照打卡，特别是郁金香盛开时[ref_5]",
+      "kind": "view",
+      "quote": "院子里一排郁金香都开啦,特别出片～",
+      "url": "https://www.dianping.com/discovery/782860183",
+      "site": "大众点评网"
+    },
+    {
+      "text": "推荐樱花慕斯、巴布洛酥皮牛肉等美食[ref_5]",
+      "kind": "food",
+      "quote": "樱花慕斯 草莓果肉➕马斯卡伯尼芝士做成的慕斯",
+      "url": "https://www.dianping.com/discovery/782860183",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店主曾为世界银行高管，热爱艺术生活[ref_1]",
+      "kind": "story",
+      "quote": "老板热爱摇滚、艺术、淘物,曾任世界银行高管职位",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    {
+      "text": "原位于桃江路25号，现址武康大楼底楼[ref_6]",
+      "kind": "story",
+      "quote": "后因租赁问题,咖啡馆于2019年搬迁至武康大楼底楼",
+      "url": "https://baike.baidu.com/item/老麦咖啡馆/761264",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡探店——老麦咖啡馆",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "老麦咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E8%80%81%E9%BA%A6%E5%92%96%E5%95%A1%E9%A6%86/761264",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "一颗咖啡豆的旅行,需要经过34人之手",
+      "url": "https://chihe.sohu.com/a/625767133_121395734",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡馆|秋冬氛围感小院老麦咖啡馆☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/726434841",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海探店 | 老麦咖啡馆的郁金香🌷开啦",
+      "url": "https://www.dianping.com/discovery/782860183",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "老麦咖啡馆",
+      "url": "https://baike.baidu.com/item/老麦咖啡馆/761264",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "上海网红咖啡馆鼻祖的困惑和忧愁 - 虎嗅网",
+      "url": "https://m.huxiu.com/article/1504188.html",
+      "site_name": "虎嗅网"
+    },
+    {
+      "index": 8,
+      "title": "上海网红咖啡馆鼻祖的困惑和忧愁",
+      "url": "https://www.huxiu.com/article/1504188.html",
+      "site_name": "虎嗅网"
+    },
+    {
+      "index": 9,
+      "title": "老麦咖啡馆- 全部书评 - 豆瓣",
+      "url": "https://m.douban.com/book/subject/20366374/reviews",
+      "site_name": "豆瓣"
+    },
+    {
+      "index": 10,
+      "title": "老麦咖啡馆静安寺店歇业:与客人道了一天的别,咖啡精神仍在",
+      "url": "https://m.thepaper.cn/api_prom.jsp?contid=18719814",
+      "site_name": "澎湃新闻网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:30Z"
+}

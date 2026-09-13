@@ -1,0 +1,89 @@
+{
+  "facts": [
+    {
+      "text": "提供多种咖啡饮品",
+      "kind": "drinks",
+      "quote": "冰生椰丝绒拿铁 冰海盐芝士厚乳拿铁",
+      "url": "https://m.dianping.com/shop/1750559958",
+      "site": "大众点评网"
+    },
+    {
+      "text": "位于中庚漫游城内",
+      "kind": "space",
+      "quote": "闵虹路8号******",
+      "url": "http://m.dianping.com/shop/1540243811?msource=applemaps",
+      "site": "MINI-CO小咖咖啡(中庚漫游城店) - 大众点评"
+    },
+    {
+      "text": "营业时间至晚上10点",
+      "kind": "time",
+      "quote": "营业时间: 10:00:00 AM-22:00:00 PM",
+      "url": "https://www.oppo.com/cn/offline-stores/detail.CN31101264.OPPO官方授权体验店闵行中庚漫游城/",
+      "site": "OPPO官方网站"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "莲花路/南方商城咖啡",
+      "url": "https://m.dianping.com/shop/1163145720",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "MINI-CO小咖咖啡(金茂大厦店)",
+      "url": "https://m.dianping.com/shop/567476221",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "莲花路/南方商城咖啡",
+      "url": "https://m.dianping.com/shop/1228413807",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "莲花路/南方商城咖啡",
+      "url": "https://m.dianping.com/shop/1750559958",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "MINI-CO小咖咖啡(中庚漫游城店) - 大众点评",
+      "url": "http://m.dianping.com/shop/1540243811?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "【闵行Go(购)】上海 中庚·漫游城——漫生活,潮未来 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NDE5OTMwOQ==&mid=2247585794&idx=2&sn=f358cd351f9f8a6039177d341d8a114a&chksm=cef13a7ce62bfa22012552bafcba203978afd4aa9a87a95fba37642201fcd268b645cfc7d8ed&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "OPPO官方授权体验店(上海闵行区中庚漫游城店)",
+      "url": "https://www.oppo.com/cn/offline-stores/detail.CN31101264.OPPO官方授权体验店闵行中庚漫游城/",
+      "site_name": "OPPO官方网站"
+    },
+    {
+      "index": 8,
+      "title": "小咖咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%B0%8F%E5%92%96%E5%92%96%E5%95%A1/63152444",
+      "site_name": "百度"
+    },
+    {
+      "index": 9,
+      "title": "上海中庚漫游城、百联南方商城迎来机器人咖啡大师！一分钟调制 ...",
+      "url": "https://biz.ifeng.com/c/83nUQ7og4U2",
+      "site_name": "凤凰网"
+    },
+    {
+      "index": 10,
+      "title": "拒打价格战却增收26%！咖啡圈的低价困局有了新解法？ - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20250731A02CD900",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:42Z"
+}

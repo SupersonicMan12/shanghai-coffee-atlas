@@ -1,0 +1,71 @@
+{
+  "cafeId": "boundless-way-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b9e83ce7ef45",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/09b1435b6bfc4896b3d9805c18ead798",
+    "https://aos-comment.amap.com/B0FFK5MRX4/comment/F502AED0_874C_4012_86BB_7B55442B696A_L0_001_2000_150_1770904580530_34168064.jpg",
+    "https://aos-comment.amap.com/B0FFK5MRX4/comment/18DC33C4_D8CF_45B8_A12E_50115E1D81F6_L0_001_1500_200_1760771048351_23442429.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，门头灰色，招牌含英文'THE BOUNDLESS WAY CAFE'及中文'無物咖啡'（应为'無边界'笔误）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口为整面玻璃推拉门+两侧落地玻璃窗，室内可见多张桌椅，属小店规模",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见至少4张桌、6把以上椅子，含白色与深色椅，布局紧凑",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上木质贴面有手绘图案：咖啡豆枝、'上海'字样、工具简笔画",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯拿铁，杯碟为白底绿条纹陶瓷，奶泡拉花为双心叶形",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯黑咖啡盛于彩格纹陶杯，配木质杯垫；旁有一盘螺旋状可颂（含坚果碎）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见悬挂式蓝绿色吊灯、浅木色墙面/吧台，无明显烘焙机或手冲台入镜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口立一A字牌，但内容模糊不可辨识",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:10Z"
+}

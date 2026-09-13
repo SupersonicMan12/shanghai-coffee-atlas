@@ -1,0 +1,71 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-nanfengcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "bfaddf22920f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a716db236a6552163718f2266bc9a1ec",
+    "https://store.is.autonavi.com/showpic/75b1222380ad57317f502ce40667057b",
+    "https://store.is.autonavi.com/showpic/a94cd9d31292844dfabfa79eb6de15a5"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，空间宽敞明亮",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和饮品制作区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡制作设备如磨豆机、萃取机等",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有纸质菜单展示在电子屏上",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "陈列架上摆放着咖啡豆包装产品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有工作人员在操作台后工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "柜台前放置多个纸袋，用于打包饮品或商品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内地面为光滑木质地板，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:13:04Z"
+}

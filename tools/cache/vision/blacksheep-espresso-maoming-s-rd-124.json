@@ -1,0 +1,71 @@
+{
+  "cafeId": "blacksheep-espresso-maoming-s-rd-124",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "6da53efb5c69",
+  "photos": [
+    "https://aos-comment.amap.com/B0H69SI5XW/comment/1ba84c8c4d0ecaab2d42b929080ae1f6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H69SI5XW/comment/d5b4c7a42c77b181b30a968bd76a31e1_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H69SI5XW/comment/00646e5e5eeaa42d3ec638a1661a9788_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店招为发光长条灯箱，固定于灰色肌理墙面，左侧有黑色羊形logo",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "木质圆桌，桌上放一杯心形拉花拿铁、印有店名的纸巾及咖啡信息卡",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "信息卡显示豆种为原生种，产地埃塞俄比亚、西达摩，处理站圣塔维尼，风味：蓝莓、菠萝、杏桃、甜橙",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "桌上有一杯冰美式（深色液体+冰块+吸管）、一个燕麦片贝果、一个可颂、一杯热拿铁",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "餐具为深棕色手柄叉子，杯碟为灰白釉面陶瓷带深色边缘",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "左侧可见玻璃门框，门内隐约有‘一至周’‘18:0’字样（营业时间部分可见）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见吧台、烘焙机、手冲台、虹吸壶、书架、植物、宠物或电脑使用者",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "照片中无价格信息，无明确菜单全文，仅见单杯咖啡信息卡",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:05Z"
+}

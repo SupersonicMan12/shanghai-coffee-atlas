@@ -1,0 +1,71 @@
+{
+  "cafeId": "mini-co-shanghaizhonggengmanyoucheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4919449b1683",
+  "photos": [
+    "https://aos-comment.amap.com/B0L67RO1DY/comment/content_media_external_file_1014650467_ss__1766254802138_43706392.jpg",
+    "https://aos-comment.amap.com/B0L67RO1DY/comment/content_media_external_file_1000008871_ss__1747631569726_17955926.jpg",
+    "https://aos-comment.amap.com/B0L67RO1DY/comment/content_media_external_file_1014650468_ss__1766254802125_39908275.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为小型咖啡吧台店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有电子菜单屏展示饮品选项",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见员工在操作台后工作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有立式广告牌展示新品及价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜中有饮品图片，包括桃味、黄杏等口味",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机和制饮设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:58Z"
+}

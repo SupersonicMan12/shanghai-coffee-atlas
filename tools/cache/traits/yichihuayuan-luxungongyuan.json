@@ -1,0 +1,93 @@
+{
+  "cafeId": "yichihuayuan-luxungongyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ba84f140230f",
+  "raw": {
+    "headline": {
+      "zh": "临水露台+茶咖融合",
+      "en": "Waterfront terrace with tea-infused coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临水单层建筑，一侧为大面积玻璃幕墙与开放式吧台入口",
+        "en": "Single-story building facing water with large glass facade and open bar entrance",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "对岸有树木、步道与户外桌椅区，水面平静",
+        "en": "Opposite bank features trees, pathways, and outdoor seating by calm water",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为桂花拿铁，融合中国茶文化",
+        "en": "Signature drink is osmanthus latte, blending Chinese tea culture",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手工焦糖南瓜重芝士蛋糕等西式甜点",
+        "en": "Offers handmade caramel pumpkin cheesecake and Western pastries",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间覆盖早咖至晚间微醺，全天候运营",
+        "en": "Operates all day from morning coffee to evening drinks",
+        "from": [
+          12,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          13
+        ],
+        "zh": "营业时间长但非专注空间",
+        "en": "Long hours but not focused space"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "多人排队，环境较热闹",
+        "en": "Crowded with many people"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          13
+        ],
+        "zh": "有户外座位适合久坐",
+        "en": "Outdoor seating encourages lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9
+        ],
+        "zh": "使用碧螺春、龙井等茶咖实验",
+        "en": "Experimental tea-infused coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:07Z"
+}

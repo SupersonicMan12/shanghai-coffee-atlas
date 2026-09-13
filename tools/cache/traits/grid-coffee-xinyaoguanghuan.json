@@ -1,0 +1,86 @@
+{
+  "cafeId": "grid-coffee-xinyaoguanghuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c4140a38514a",
+  "raw": {
+    "headline": {
+      "zh": "前滩太古里艺术风咖啡",
+      "en": "Art Deco style café in Qiantan"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内少量桌椅，外有遮阳伞户外座",
+        "en": "Few indoor tables and outdoor seating with umbrellas",
+        "from": [
+          2,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用SCA杯测84分以上单一产地豆，季更",
+        "en": "Single-origin beans, SCA 84+ points, seasonal rotation",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含罗马人美式、咸奶萃、白脱拿铁",
+        "en": "Featured drinks include Roman Espresso, salty milk extract, butter latte",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：07:00-14:00, 16:30-21:30",
+        "en": "Open 07:00-14:00, 16:30-21:30 daily",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街落地窗设计，采光良好",
+        "en": "Large floor-to-ceiling windows with good natural light",
+        "from": [
+          1,
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "可办公，有电脑使用者",
+        "en": "Suitable for working, seen users with laptops"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2,
+          4,
+          7
+        ],
+        "zh": "有室内外座位，适合停留",
+        "en": "Has seating inside and out, allows lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          13
+        ],
+        "zh": "非深夜营业，商圈常规时段",
+        "en": "Standard mall hours, not late-night"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:47Z"
+}

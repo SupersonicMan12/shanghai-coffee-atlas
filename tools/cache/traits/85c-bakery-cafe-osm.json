@@ -1,0 +1,56 @@
+{
+  "cafeId": "85c-bakery-cafe-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8cb39dc41435",
+  "raw": {
+    "headline": {
+      "zh": "招牌海盐咖啡",
+      "en": "Signature sea salt coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为海盐咖啡，上层有绵密奶酪",
+        "en": "Signature drink is sea salt coffee with creamy cheese on top",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "饮品独特但非办公重点",
+        "en": "Unique drink, not office-focused"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "中等热闹，适合日常停留",
+        "en": "Moderate buzz, everyday vibe"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "可久坐品尝特色饮品",
+        "en": "Good for lingering to enjoy drink"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "咸甜风味搭配较特别",
+        "en": "Unusual sweet-salty combo"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:19Z"
+}

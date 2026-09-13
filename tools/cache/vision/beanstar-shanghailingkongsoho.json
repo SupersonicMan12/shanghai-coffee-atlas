@@ -1,0 +1,65 @@
+{
+  "cafeId": "beanstar-shanghailingkongsoho",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d9551868f596",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/df849134c70914177fdd76d5fd45bfc3",
+    "https://aos-comment.amap.com/B0KK15UDPK/comment/7A028642_2E30_425E_BAD6_1561DB842B7D_L0_001_1080_145_1745373477138_86893098.jpg",
+    "https://aos-comment.amap.com/B0KK15UDPK/comment/531E3CF9_B81E_4A34_9F0E_275AAC3F304F_L0_001_1080_144_1745373477140_95331687.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场内，入口有花篮装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列宇治抹茶拿铁饮品广告",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示有咖啡豆包装袋和苏打汽水",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有顾客在店门口停留",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有宣传展架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "杯装饮品为BeanStar品牌",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有电视屏幕播放产品宣传",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:21Z"
+}

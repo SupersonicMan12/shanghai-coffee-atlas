@@ -1,0 +1,82 @@
+{
+  "cafeId": "ora-coffee-we-pubeiluyuqinzhoulujiaochakouxi120m",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2ae411201b1e",
+  "raw": {
+    "headline": {
+      "zh": "上海南站咖啡打卡人气第1名",
+      "en": "Top-rated coffee spot near Shanghai South Railway Station"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "小型独立店，临街玻璃窗，店内有木质柜台和少量座位",
+        "en": "Small standalone shop with street-facing glass windows, wooden counter, and limited seating",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大落地窗提供采光，可见室外街道",
+        "en": "Large floor-to-ceiling windows provide natural light and street views",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品包括抹茶拿铁等冷饮",
+        "en": "Serves matcha latte and other cold drinks",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆香气明显，味道浓郁",
+        "en": "Strong aroma and bold flavor from the coffee beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五 07:30-17:30；周六至周日 08:00-16:00",
+        "en": "Open Mon–Fri 7:30–17:30, Sat–Sun 8:00–16:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "仅少量座位，无办公设施证据",
+        "en": "Limited seating, no evidence of work setup"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "少量座位，非久坐导向",
+        "en": "Limited seating, not designed for long stays"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "提供抹茶拿铁，豆香明显但无手冲/自烘证据",
+        "en": "Serves matcha latte; bold beans but no evidence of roasting or pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:51Z"
+}

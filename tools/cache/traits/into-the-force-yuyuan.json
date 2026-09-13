@@ -1,0 +1,42 @@
+{
+ "cafeId": "into-the-force-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "842ca6de8582",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供多种在地风味和日常灵感的咖啡",
+    "en": "Menu includes basic, local, and moment series",
+    "from": 3,
+    "},{": "kind",
+    "drinks": "菜单包括基础咖啡、在地飞行和灵感时刻系列"
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 10,
+    "from": 10,
+    "],": "zh",
+    "饮品中包含具有地方特色的创新选项": "en",
+    "Local and creative drink options available": "linger",
+    "有嵌入式木板桌适合短暂停留": "en",
+    "Embedded wooden table for brief stays": "energy",
+    "街区氛围增添了一份日常和烟火气": "en",
+    "Neighborhood vibe adds a touch of daily life": "focus",
+    "主要为站立或短暂休息设计": "en",
+    "Designed mainly for standing or short breaks": "time",
+    "营业时间从早上10点到晚上8点": "en",
+    "Open from 10 AM to 8 PM": "food",
+    "kind": "food",
+    "zh": "除了咖啡还供应面包和甜品",
+    "en": "Serves bread and desserts besides coffee"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:04Z"
+}

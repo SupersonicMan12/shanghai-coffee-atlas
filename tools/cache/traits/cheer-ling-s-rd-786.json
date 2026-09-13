@@ -1,0 +1,77 @@
+{
+  "cafeId": "cheer-ling-s-rd-786",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "92d13711cf09",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房配室外座",
+      "en": "Street-facing glass café with outdoor seats"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应灰色系蛋糕和蓝莓蛋糕等甜点",
+        "en": "Serves grey-toned and blueberry cakes",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃，采光通透",
+        "en": "Full-height street-facing windows",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业09:00-19:00",
+        "en": "Open daily 09:00–19:00",
+        "from": [
+          7,
+          10
+        ]
+      },
+      {
+        "kind": "focus",
+        "zh": "店内备有笔纸和笔记本",
+        "en": "Pens, paper, and notebooks provided",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "提供办公文具",
+        "en": "Work supplies available"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          3,
+          8
+        ],
+        "zh": "室外可久坐休息",
+        "en": "Outdoor lingering possible"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:09Z"
+}

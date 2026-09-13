@@ -1,0 +1,85 @@
+{
+  "cafeId": "garden-books-changle",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5ff183ead8f9",
+  "raw": {
+    "headline": {
+      "zh": "带庭院的自烘手冲咖啡馆",
+      "en": "Courtyard cafe with house-roasted pour-over"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "拥有草坪大树的室外庭院",
+        "en": "Outdoor courtyard with lawn and trees",
+        "from": [
+          3,
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "供应自家烘焙浅烘咖啡豆",
+        "en": "Serves house-roasted light-roast beans",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为特色手冲咖啡",
+        "en": "Signature drink is specialty pour-over coffee",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设绿色金属桌椅座位",
+        "en": "Green metal tables and chairs outdoors",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          13
+        ],
+        "zh": "座位旁有电源插座",
+        "en": "Power outlets at seats"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "庭院适合久坐放松",
+        "en": "Courtyard encourages lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "自烘豆与特色手冲",
+        "en": "House-roasted beans & pour-over focus"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:46Z"
+}

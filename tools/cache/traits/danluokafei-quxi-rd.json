@@ -1,0 +1,76 @@
+{
+  "cafeId": "danluokafei-quxi-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2bb2cc37bd8a",
+  "raw": {
+    "headline": {
+      "zh": "航天主题双拼特调咖啡馆",
+      "en": "Space-themed cafe with dual-shot drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供卡萨布兰卡红瑰夏双拼特调",
+        "en": "Serves Casablanca Red Geisha combo drink",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设白色折叠桌椅及室外座位",
+        "en": "Outdoor seating with white folding tables",
+        "from": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店名‘丹罗’源自闽南语‘等待’",
+        "en": "'Danluo' means 'waiting' in Hokkien",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "每周五下午可能遇见IP宠物狗焦糖",
+        "en": "Meet mascot dog Jiao Tang on Friday afternoons",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为08:00-18:00",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          7
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10
+        ],
+        "zh": "双拼特调属创意饮品",
+        "en": "Combo drink is inventive"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:14Z"
+}

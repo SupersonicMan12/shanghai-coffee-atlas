@@ -1,0 +1,52 @@
+{
+  "cafeId": "grid-coffee-huanmaoiapm",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fc3937086d45",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/71ab32b569c43860dfbc54c638336fe3",
+    "https://store.is.autonavi.com/showpic/cff76de00393fd980000001444238503?type=pic",
+    "https://store.is.autonavi.com/showpic/27e630b17af368aa0000001444228605?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和多张桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡制作设备（磨豆机等）",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有户外遮阳伞和植物",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:26:12Z"
+}

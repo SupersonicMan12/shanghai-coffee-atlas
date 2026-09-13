@@ -1,0 +1,72 @@
+{
+  "cafeId": "costa-coffee-waigaoqiaofeisu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a1d381918da6",
+  "raw": {
+    "headline": {
+      "zh": "熊猫系列饮品受欢迎",
+      "en": "Panda-themed drinks are popular"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "熊猫生椰拿铁等为推荐饮品",
+        "en": "Panda coconut milk latte and others are recommended",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有靠墙卡座与小桌，可多人就坐",
+        "en": "Has wall-side booths and small tables for multiple people",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "有落地窗，采光良好",
+        "en": "Has floor-to-ceiling windows with good lighting",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五7:00-17:00，周末8:00-16:00",
+        "en": "Open 7:00-17:00 Mon-Fri, 8:00-16:00 Sat-Sun",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏、巧克力酥卷受欢迎",
+        "en": "Tiramisu and chocolate croissant are popular",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "可多人就坐，适合久坐",
+        "en": "Seating for groups, suitable to linger"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "门口有人经过，有一定人流",
+        "en": "People pass by, moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:38Z"
+}

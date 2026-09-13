@@ -1,0 +1,71 @@
+{
+  "cafeId": "algebraist-zantingyingye",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "699f68c394c9",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "https://aos-comment.amap.com/B0LU5LOGK2/comment/content_media_external_file_100000266_1765521353278_47505375.jpg",
+    "https://store.is.autonavi.com/showpic/7ea98bb676c843370000000725960056?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店为商场内小型吧台式咖啡亭，木质框架+背光招牌，无独立门面",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方可见意式咖啡机、磨豆机各一台，及一排白色纸杯（带红色三角标）",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "招牌英文为 'algebraist® coffee'，右侧墙面有中文 '代数学家®咖啡'",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内背景墙中央有红色几何标志：倒三角、横线、正方形，与首图logo一致",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "地面为高反光深色地砖，反射出店体暖光与红色标志",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "前景可见灰色软包座椅局部，但未见完整座位区或顾客就坐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板为白色板材+嵌入式线性灯带，照明均匀明亮",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "左侧有玻璃隔断与闸机，疑似位于写字楼/商场大堂动线旁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:36Z"
+}

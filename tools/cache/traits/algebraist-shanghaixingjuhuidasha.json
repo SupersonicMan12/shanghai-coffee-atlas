@@ -1,0 +1,77 @@
+{
+  "cafeId": "algebraist-shanghaixingjuhuidasha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1a0bf2ca3ec8",
+  "raw": {
+    "headline": {
+      "zh": "招牌玫瑰布列夫售出超65万杯",
+      "en": "Bestseller:重瓣玫瑰布列夫, 650k+ sold"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为重瓣玫瑰布列夫，2024年销量超65万杯",
+        "en": "Bestselling drink:重瓣玫瑰布列夫, 650k+ sold in 2024",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space|light|view|seating",
+        "zh": "临街落地窗设计，采光良好，座位数量较少",
+        "en": "Large floor-to-ceiling windows, good natural light, limited seating",
+        "from": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间覆盖午休高峰，中午客流密集",
+        "en": "Open during lunch rush, busy midday",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "使用全球甄选咖啡豆，以数学方式演算制作方案",
+        "en": "Sourced beans globally, brewed using mathematical precision",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          10,
+          9
+        ],
+        "zh": "午休时段人流大，专注度中等",
+        "en": "Moderate focus due to lunchtime crowd"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "中午上班族集中，较热闹",
+        "en": "Lunchtime buzz from office workers"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          3,
+          10
+        ],
+        "zh": "座位少且为站喝模式，不宜久坐",
+        "en": "Limited seats, standing bar only – not for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:06Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "book-a-coffee-dahuajinxiuhuacheng11jiequ",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "63da4fd974dc",
+  "raw": {
+    "headline": {
+      "zh": "提供奶洗咖啡与室外座位",
+      "en": "Serves milk-washed coffee with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有遮阳伞和户外桌椅",
+        "en": "Outdoor seating with umbrellas and tables",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供奶洗咖啡，可见手冲器具",
+        "en": "Offers milk-washed coffee; pour-over gear visible",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间较小",
+        "en": "Compact interior space",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full street-facing glass; bright interior",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至19:00，周末至18:00",
+        "en": "Open till 19:00 weekdays, 18:00 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "提供奶洗等特色咖啡",
+        "en": "Features milk-washed coffee"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "店内空间较小",
+        "en": "Compact interior"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:18Z"
+}

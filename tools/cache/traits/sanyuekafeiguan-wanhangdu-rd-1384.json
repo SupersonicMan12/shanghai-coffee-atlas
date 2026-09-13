@@ -1,0 +1,84 @@
+{
+  "cafeId": "sanyuekafeiguan-wanhangdu-rd-1384",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9cb29353c40c",
+  "raw": {
+    "headline": {
+      "zh": "老房子阳台看苏州河",
+      "en": "Historic building with Suzhou River view"
+    },
+    "traits": [
+      {
+        "kind": "space|view",
+        "zh": "阳台可观赏苏州河与市井生活",
+        "en": "Balcony overlooks Suzhou River and street life",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "使用深烘豆，招牌为拿铁与芝士蛋糕",
+        "en": "Dark roast beans, signature latte and cheesecake",
+        "from": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日10:00-22:00",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          11,
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "老板生日在三月，因此得名",
+        "en": "Named after owner's March birthday",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space|light|seating",
+        "zh": "内部有复古家具与皮质沙发",
+        "en": "Features vintage furniture and leather sofas",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "无电脑，不适合办公",
+        "en": "No computers, not for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "闹市中的安静角落",
+        "en": "Quiet in a bustling area"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          10,
+          8
+        ],
+        "zh": "适合久坐的复古空间",
+        "en": "Great for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:56Z"
+}

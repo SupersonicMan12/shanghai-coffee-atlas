@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品含斑斓芒果椰子冰沙、苹果茉莉冰茶等亚洲风味果茶",
+      "kind": "drinks",
+      "quote": "菜单里就有:斑斓芒果椰子冰沙(Pandan Mango Coco Frappe)以及:苹果茉莉冰茶",
+      "url": "https://www.sohu.com/a/1071774182_121124615",
+      "site": "搜狐"
+    },
+    {
+      "text": "选用100%阿拉比卡咖啡豆，连续三年获IIAC国际咖啡品鉴大赛金奖",
+      "kind": "beans",
+      "quote": "其选用的100%阿拉比卡咖啡豆已连续三年斩获IIAC国际咖啡品鉴大赛金奖",
+      "url": "https://baijiahao.baidu.com/s?id=1875858089181419495",
+      "site": "百度"
+    },
+    {
+      "text": "大部分饮品价格控制在6加元以下，曾推App首杯0.99加元促销",
+      "kind": "story",
+      "quote": "目前大部分饮品价格都控制在6加元以下...App购买首杯只要0.99加元",
+      "url": "https://www.sohu.com/a/1071774182_121124615",
+      "site": "搜狐"
+    },
+    {
+      "text": "推出便捷店型COTTI Express（店中店），占地小、投资低",
+      "kind": "space",
+      "quote": "库迪咖啡宣布推出便捷店型“COTTI Express”,是一种店中店,占地面积小、投资小",
+      "url": "https://3g.163.com/news/article/J2QF5N2C0514R9NP.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "标准店面积80–200㎡，提供堂食座位；Metrotown店装修中，暂未确认 seating",
+      "kind": "seating",
+      "quote": "店内究竟会采用什么样的装修风格、有没有堂食座位...目前都还看不到",
+      "url": "https://www.sohu.com/a/1071774182_121124615",
+      "site": "搜狐"
+    },
+    {
+      "text": "品牌名Cotti源自意大利咖啡佐食Biscotti，定位泛咖啡生活方式",
+      "kind": "story",
+      "quote": "“Cotti\"品牌名源自意大利特色咖啡佐食Biscotti...代表一种泛咖啡的生活方式",
+      "url": "https://m.51xxsp.com/index.php/brand/148009/",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "8个月连开3家!库迪咖啡杀进Metrotown,就在这里!全场饮品6刀以下!",
+      "url": "https://www.sohu.com/a/1071774182_121124615",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 2,
+      "title": "库迪咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%BA%93%E8%BF%AA%E5%92%96%E5%95%A1/61942947",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "库迪咖啡加盟",
+      "url": "https://m.51xxsp.com/index.php/brand/148009/",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "库迪咖啡获评“2026年度连锁咖啡品牌”",
+      "url": "https://baijiahao.baidu.com/s?id=1875858089181419495",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "库迪咖啡",
+      "url": "https://baike.baidu.com/item/库迪咖啡/61942947",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "库迪咖啡推出便捷店型_手机网易网",
+      "url": "https://3g.163.com/news/article/J2QF5N2C0514R9NP.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "德媒| 中国连锁咖啡库迪（Cotti）正在德国大城市扩张 - QQ",
+      "url": "https://view.inews.qq.com/a/20260314A03JGE00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 8,
+      "title": "东山再起?陆正耀杀回咖啡赛道!能否再造一个“瑞幸”?CottiCoffee_王百",
+      "url": "https://www.sohu.com/a/582287705_115106?_trans_=000019_wzwza&scm=9010.68.0.0.0",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:37:38Z"
+}

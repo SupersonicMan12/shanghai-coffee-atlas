@@ -1,0 +1,67 @@
+{
+  "cafeId": "huffy-coffee-gelato-weihai-rd-844",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3ecf014cc3da",
+  "raw": {
+    "headline": {
+      "zh": "墨鱼汁曲奇gelato沪上最佳",
+      "en": "Shanghai's best squid-ink cookie gelato"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌墨鱼汁曲奇gelato被评沪上最佳",
+        "en": "Squid-ink cookie gelato hailed as Shanghai's best",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人辞电商工作赴意学做gelato",
+        "en": "Owner quit e-commerce to study gelato in Italy",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "空间不大，配木质小圆桌和长凳",
+        "en": "Compact space with wooden round tables and benches",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日12:00-21:00，周一13:00-21:00",
+        "en": "Open Tue–Sun 12–21, Mon 13–21",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "空间不大座位有限",
+        "en": "Compact seating limits lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "zh": "gelato口味独特如墨鱼汁曲奇",
+        "en": "Unusual gelato flavors like squid-ink cookie"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:42Z"
+}

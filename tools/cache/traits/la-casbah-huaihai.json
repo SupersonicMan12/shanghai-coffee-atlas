@@ -1,0 +1,66 @@
+{
+  "cafeId": "la-casbah-huaihai",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8fe9a3335b4a",
+  "raw": {
+    "headline": {
+      "zh": "北非风情香料咖啡",
+      "en": "North-African spiced coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为薄荷茶与马格里布香料咖啡",
+        "en": "Serves mint tea and Maghrebi-spiced coffee",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐金枪鱼三明治、意式薄底披萨与大理石芝士蛋糕",
+        "en": "Known for tuna sandwich, thin-crust pizza, marble cheesecake",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "提供露天座位，可预订8–10人大桌",
+        "en": "Offers outdoor seating; large tables bookable",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 9:30 PM",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "提供北非特色香料咖啡",
+        "en": "North-African spiced coffee"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          8
+        ],
+        "zh": "设露天座位且可订大桌",
+        "en": "Outdoor seating, large tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:50Z"
+}

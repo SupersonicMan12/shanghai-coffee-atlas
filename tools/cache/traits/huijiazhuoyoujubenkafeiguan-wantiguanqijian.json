@@ -1,0 +1,77 @@
+{
+  "cafeId": "huijiazhuoyoujubenkafeiguan-wantiguanqijian",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b72bfeb325fd",
+  "raw": {
+    "headline": {
+      "zh": "千款桌游配咖啡",
+      "en": "Thousands of board games with coffee"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "全年无休，周一二三10:00-24:00，周末至凌晨2点",
+        "en": "Open daily; weekdays till midnight, weekends till 2am",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "提供千款桌游及剧本杀沉浸体验",
+        "en": "Offers thousands of board games and immersive script murder",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有专教主持服务增强游戏体验",
+        "en": "Dedicated game masters enhance play experience",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应黑咖啡，配咖啡豆和方糖",
+        "en": "Serves black coffee with beans and sugar cubes",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          1,
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 75,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "多人桌游与主持活动",
+        "en": "Group games with hosts"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          4,
+          5,
+          8
+        ],
+        "zh": "营业至凌晨且适合团队久玩",
+        "en": "Late hours, good for long sessions"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:12Z"
+}

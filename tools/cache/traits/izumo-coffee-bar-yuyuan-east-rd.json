@@ -1,0 +1,74 @@
+{
+  "cafeId": "izumo-coffee-bar-yuyuan-east-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9c64e3ee0f32",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+站喝吧台",
+      "en": "House-roasted beans, stand-up bar"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自家烘焙的咖啡豆",
+        "en": "Uses house-roasted coffee beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供意式和手冲咖啡",
+        "en": "Serves espresso and pour-over coffee",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设吧台与高脚凳，适合短暂停留",
+        "en": "Bar counter with stools for quick stays",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应甜点类食品",
+        "en": "Offers sweet desserts",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至22:00，晚间转为酒吧",
+        "en": "Open until 22:00, becomes a bar at night",
+        "from": [
+          10,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "吧台高脚凳设计",
+        "en": "Standing/bar seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "自烘豆与手冲选项",
+        "en": "House-roasted beans, pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:33Z"
+}

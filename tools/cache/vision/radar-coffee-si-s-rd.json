@@ -1,0 +1,71 @@
+{
+  "cafeId": "radar-coffee-si-s-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2709d61ab3a5",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/content_media_external_file_100004227_1766656886672_60865416.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/48C1C478_CC8A_4C44_B331_2CFB0BCB15CD_L0_001_1500_200_1751786471095_98732675.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/3c5400d6d7b21d0c04410f169a5de101_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店招为黑色横条结构，印有RADAR COFFEE及美式20、拿铁24、澳白24价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门头下方有金属圆孔穿孔板，上方可见裸露白色电线与金属支架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见木质窗框玻璃门，门上贴有白色'COFFEE'字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯热拿铁盛于带黑线白瓷杯，拉花为双心图案，置于木托盘",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯冰咖啡盛于双层玻璃杯，旁插卡片标有'云南孟连 YUNNAN MENGLIAN'豆名",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "另一杯热拿铁盛于浅青色竖纹陶瓷杯，拉花为单心图案，置于木桌",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景可见木质矮凳/脚凳与深色软垫座椅，地面为浅色地砖",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见烘焙机、手冲台、虹吸壶、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:33Z"
+}

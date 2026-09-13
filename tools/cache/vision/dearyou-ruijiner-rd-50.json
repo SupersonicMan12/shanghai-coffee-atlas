@@ -1,0 +1,71 @@
+{
+  "cafeId": "dearyou-ruijiner-rd-50",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "88426b32e0a5",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKB4I1FE/comment/5BF31CA8_D86E_4AC2_8176_81B3E3E4187F_L0_001_1500_200_1759569838833_59401532.jpg",
+    "https://aos-comment.amap.com/B0K3UAX0DU/comment/0CA719BA_89BF_446E_A16F_66B1DE4D3EBB_L0_001_1500_200_1754120791246_07885084.jpg",
+    "https://aos-comment.amap.com/B0K3UAX0DU/comment/643229CC_435B_451F_B64D_8E0ACD3D49FF_L0_001_1500_200_1754120791257_33941962.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃门面，挂有写‘咖啡豆研究所’的白色日式暖帘。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外石台上有绿色地址牌：瑞金二路50-2；可见‘拉’字推门标识。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内为深木色吧台与背板，后方两层置物架陈列酒瓶与咖啡豆罐。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台上可见La Marzocco咖啡机、叠放黑色纸杯、透明花袋装紫花束。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台前有两杯咖啡：一杯带心形拉花，一杯撒彩色糖珠；配一块黄桃蛋糕。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "菜单卡显示‘前年酿的梅子酒’，标价38元/杯，附插图与简短说明。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景货架有编号04–08的咖啡豆包装袋，但产地文字不可辨识。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片1中玻璃反光可见街边树木与白色围栏，非落地窗，为临街普通玻璃门。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:15Z"
+}

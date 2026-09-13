@@ -1,0 +1,71 @@
+{
+  "cafeId": "youshan-caoyang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "23395494137d",
+  "photos": [
+    "https://aos-comment.amap.com/B0J2VCFAPF/comment/AEC175CE_10A2_4DD3_A3EE_0E2C53E057E6_L0_001_2000_112_1763620519475_29016318.jpg",
+    "https://aos-comment.amap.com/B0J2VCFAPF/comment/content_media_external_images_media_65159_ss__1733368994432_12298316.jpg",
+    "https://aos-comment.amap.com/B0J2VCFAPF/comment/content_media_external_images_media_58971_ss__1733368994433_93777083.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街弧形吧台店，外立面为浅色抹灰，带木质窗框大玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外设4个木制高脚凳（吧台前）与多把蓝色折叠椅+小桌（左侧区域）",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内吧台后方可见CREM牌磨豆机、手冲壶、玻璃分享壶及多个金属豆罐",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品照片中：一杯黑咖啡（无拉花）、一杯带心形拉花的奶咖，杯身有红心图案",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内墙面为白色瓷砖，楼梯下方贴有黑色蝙蝠剪纸装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前立牌显示‘单豆两喝’图示及二维码，另一立牌标有‘会员专属 积分兑换商城’",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招含蓝底白字‘又山 COFFEE’圆形标与‘ANOTHER MOUNTAIN COFFEE’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室外座位区旁有收拢的米色遮阳伞与绿植背景（干草状观赏植物）",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:16Z"
+}

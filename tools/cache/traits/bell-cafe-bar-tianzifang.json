@@ -1,0 +1,74 @@
+{
+  "cafeId": "bell-cafe-bar-tianzifang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "17c4686d51bb",
+  "raw": {
+    "headline": {
+      "zh": "自烘咖啡豆+香蕉奶咖",
+      "en": "House-roasted beans & banana milk coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供自烘咖啡豆，前店后厂模式",
+        "en": "Serves house-roasted beans, front-store back-factory setup",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为香蕉奶咖，甜度适中",
+        "en": "Signature drink is banana milk coffee, medium sweetness",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台座位配高脚凳，空间较小",
+        "en": "Counter seats with barstools, compact space",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 14:00-02:00",
+        "en": "Open daily 14:00–02:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "适合聊天和办公",
+        "en": "Good for chatting and working"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "空间小但可久坐办公",
+        "en": "Small but suitable for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "自烘豆与香蕉奶咖独特",
+        "en": "Unique house-roasted beans & banana milk coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:30Z"
+}

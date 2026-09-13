@@ -1,0 +1,71 @@
+{
+  "cafeId": "goat-is-dancing-cafe-guangyuan-rd-194",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "973218565832",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d0b3692ef73438bf0576e9540c747beb",
+    "http://store.is.autonavi.com/showpic/8d9050fb6e5d669d97e9618511ce1330",
+    "http://store.is.autonavi.com/showpic/6d87b68a4e2af0f8f4ce8878d232d119"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停有电动车和摩托车",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见植物和陈列品",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示COFFEESTAND字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门上贴有红色告示",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺位于街角，邻近美容店",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见手冲设备和咖啡器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "橱窗内展示有饮品杯和包装袋",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:28Z"
+}

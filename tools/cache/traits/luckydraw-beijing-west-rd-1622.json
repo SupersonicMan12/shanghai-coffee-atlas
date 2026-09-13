@@ -1,0 +1,79 @@
+{
+  "cafeId": "luckydraw-beijing-west-rd-1622",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "babcc1f6709e",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房配特调气泡美式",
+      "en": "Streetfront glass café with sparkling citrus Americano"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，有行道树与马路景观",
+        "en": "Full street-facing glass with sidewalk trees and road view",
+        "from": [
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌「柚见钟情」含西柚粒、糖浆、美式与气泡水",
+        "en": "Signature 'You Jian Zhong Qing' has grapefruit bits, syrup, Americano, sparkling water",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供浅焙朗姆果香拼配及坚果调性巴西豆",
+        "en": "Offers light-roast rum-fruit blend and nutty Brazilian bean",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台式座位，空间紧凑",
+        "en": "Bar-style seating in a compact space",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至17:30，周末至18:30",
+        "en": "Open till 17:30 weekdays, 18:30 weekends",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "适合坐半天",
+        "en": "Good for half-day stay"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "zh": "多款创意特调与风味豆",
+        "en": "Creative drinks and flavored beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:36Z"
+}

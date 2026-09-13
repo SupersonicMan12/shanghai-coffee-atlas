@@ -1,0 +1,60 @@
+{
+  "cafeId": "yibeikafei-puhuitang-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "789c24818227",
+  "raw": {
+    "headline": {
+      "zh": "整面临街落地窗",
+      "en": "Floor-to-ceiling street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可见街道和车辆",
+        "en": "Floor-to-ceiling glass front facing the street, with street and vehicle views",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店外摆放绿植，环境有绿化",
+        "en": "Green plants placed outside the shop",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:00-17:30，周一至周日",
+        "en": "Open daily from 8:00 to 17:30",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "临街大窗易分心",
+        "en": "Street-facing windows may distract"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "通透空间+绿植宜久坐",
+        "en": "Spacious light + greenery supports lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:19Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "2nd-cup-coffee-cuiting",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "eda4f8b46d5c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJ5CQV2/comment/%5B2025-09-21-14-58-18%5D1607F9F1-7649-47A4-AF23-9F2234A18B8_1758437909514_40402868.jpg",
+    "https://aos-comment.amap.com/B0FFJ5CQV2/comment/F34C8DEB_D22A_41AE_A8DE_5B8880F6CB78_L0_001_1506_200_1757643128177_38306256.jpg",
+    "https://aos-comment.amap.com/B0FFJ5CQV2/comment/DFFC570E_36EB_42A8_AA58_270042A75525_L0_001_1080_144_1764024142941_24386934.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店门口有木质长凳1张、小圆桌1张，2人就坐；右侧有折叠椅1把。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门头为金属面板，标有'2nd cup'及'精品咖啡'，地址牌显示'紫云西路36号'。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "临街为大面积玻璃门与窗，室内可见吊灯、吧台、蛋糕柜及手冲区轮廓。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙上陈列3个装裱证书：SCAE Barista Level 1、'一起咖吧'活动奖状、'Toper杯'烘焙赛亚军奖状。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "货架展示4罐标有'2nd'的咖啡豆、3个挂式玻璃豆罐、2盒Hero手冲壶（粉/白）。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上红杯拿铁有熊形拉花，旁有插着紫白蝴蝶兰的小玻璃瓶。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "窗边木桌可见街道与行道树，窗外有自行车经过。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用电脑；未见烘焙机、虹吸壶或磨豆机实体设备。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:49Z"
+}

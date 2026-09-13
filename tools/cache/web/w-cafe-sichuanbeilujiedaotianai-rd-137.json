@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "位于甜爱路，有爱心邮筒",
+      "kind": "space",
+      "quote": "咖啡馆门前的爱心邮筒",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230409/37e015b5-e580-4649-a303-73a08add245d.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "提供墨尔本一颗橙子tiger bomb咖啡",
+      "kind": "drinks",
+      "quote": "墨尔本一颗橙子tiger bomb咖啡",
+      "url": "https://www.douyin.com/note/7684161436856481634",
+      "site": "抖音-记录美好生活"
+    },
+    {
+      "text": "拥有法式奶油风厨房拱门和开花店",
+      "kind": "space",
+      "quote": "法式奶油风厨房拱门 #开花店",
+      "url": "https://www.douyin.com/note/7683454274400468288",
+      "site": "抖音-记录美好生活"
+    },
+    {
+      "text": "营业时间每天10:00-18:00",
+      "kind": "time",
+      "quote": "营业时间为每天10:00-18:00",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-130833369?locale=zh-MY",
+      "site": "上海必去的特色咖啡店 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "虹口这些咖啡馆太有特色，氛围感满满→-上海市虹口区人民政府",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230409/37e015b5-e580-4649-a303-73a08add245d.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "MW CAFÉ | 在上海,他们用一杯咖啡重构生活哲学",
+      "url": "https://new.qq.com/rain/a/20250805A04HHX00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "云雾w.cafe,超值团购,4.5分推荐,咖啡单人小杯套餐",
+      "url": "https://www.douyin.com/note/7683454274400468288",
+      "site_name": "抖音-记录美好生活"
+    },
+    {
+      "index": 4,
+      "title": "云雾w.cafe,销量爆款,宠粉特惠,墨尔本一颗橙子tige - 抖音",
+      "url": "https://www.douyin.com/note/7684161436856481634",
+      "site_name": "抖音-记录美好生活"
+    },
+    {
+      "index": 5,
+      "title": "上海必去的特色咖啡店 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-130833369?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "W COFFEE 💕💕咖啡必备",
+      "url": "https://www.dianping.com/discovery/729750717",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "最近,被网友称为“W”咖啡的新晋咖啡连锁店风靡朋友圈,它和普通咖啡店不同,没有现金交易,只能先下载其APP,所有点单、结账都直接在APP上完成。门店内没有堂食座椅,只有制作吧台,所有顾客都只能自提拿走或者由店员外送。",
+      "url": "https://easylearn.baidu.com/edu-page/tiangong/questiondetail?id=1821267113261353353&fr=search",
+      "site_name": "百度教育"
+    },
+    {
+      "index": 8,
+      "title": "【W CAFÉ SH The Beats brunch&bistro(新天地店)】电话_地址_价格",
+      "url": "http://m.dianping.com/shop/1400705589?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "健康路上的咖啡店B/W CAFE - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/662643164",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 10,
+      "title": "W coffee又出新品咖啡啦!",
+      "url": "https://m.dianping.com/discovery/1936254460",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:00Z"
+}

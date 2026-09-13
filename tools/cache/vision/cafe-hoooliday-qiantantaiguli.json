@@ -1,0 +1,65 @@
+{
+  "cafeId": "cafe-hoooliday-qiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "43c843cf7c05",
+  "photos": [
+    "https://aos-comment.amap.com/B0L2UREYRK/comment/content_media_external_file_141538_ss__1767608184050_07158115.jpg",
+    "https://store.is.autonavi.com/showpic/5f4e7ee72811f6c1824f75971b25ee7d",
+    "https://aos-comment.amap.com/B0L2UREYRK/comment/7F327019_76BF_4FA0_A800_1D2EC81B75ED_L0_001_1500_200_1761800278753_52322662.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有冰咖啡和拉花拿铁两种饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有露天座位区",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多张桌椅，空间较宽敞",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有木质椅子和大理石桌面",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为临街玻璃门设计，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有立牌提示，可能涉及防疫或营业信息",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见多组圆形小桌和配套椅子",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:44Z"
+}

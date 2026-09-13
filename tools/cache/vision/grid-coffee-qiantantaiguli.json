@@ -1,0 +1,71 @@
+{
+  "cafeId": "grid-coffee-qiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ca1c918b641e",
+  "photos": [
+    "https://aos-comment.amap.com/B0K277VVJC/comment/content_media_external_images_media_90135_ss__1741495096411_91666863.jpg",
+    "https://aos-comment.amap.com/B0K277VVJC/comment/%5B2026-03-11-23-01-41%5D68A074A4-59DB-4D34-9ED4-C03C41B323B_1773241307405_41244403.jpg",
+    "https://aos-comment.amap.com/B0K277VVJC/comment/content_media_external_images_media_1000229506_ss__1728277396571_45254612.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有室外座位区，带遮阳伞和绿植",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台和咖啡机，可见La Marzocco设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供热饮和冰咖啡，杯身印有品牌标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面位于商场内，临街玻璃门设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有少量桌椅，供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "有植物装饰，包括盆栽橄榄树",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一人在店内坐着，可能正在休息或等待",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:51Z"
+}

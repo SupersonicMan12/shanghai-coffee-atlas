@@ -1,0 +1,65 @@
+{
+  "cafeId": "sanlifangkafei-zhengli-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1c681da03bab",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9744d4a630c3c4a821a887111bb44845",
+    "https://store.is.autonavi.com/showpic/6408d2aeb4f2356045226e6efa794725",
+    "https://store.is.autonavi.com/showpic/0c8de6081fd845db0000002429076789?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内为小型咖啡店形式，有吧台区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见顾客在吧台前排队等候",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内座位较少，主要为几张桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "靠窗位置有货架展示咖啡杯和产品盒",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，有大面积窗户",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗外可见绿树和街道景观",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:42Z"
+}

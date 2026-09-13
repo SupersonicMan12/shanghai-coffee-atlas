@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-here-lujiazui",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "45955c0297d3",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9172fca441b2566e0000001714144781?type=pic",
+    "https://store.is.autonavi.com/showpic/019971e2dc6062f70000001714162397?type=pic",
+    "https://store.is.autonavi.com/showpic/f6566a1dde6097920000001714188054?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "木质双开门，门上贴有咖啡饮品名称列表（如Cappuccino、Latte等）",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门右侧挂有黄铜铭牌，标有'COFFEE HERE'及'FRESHLY ROASTED'",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店内可见两台La Marzocco商用意式咖啡机，上下叠放，置于麻袋布上",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "一张桌上放红色陶瓷杯与玻璃手冲壶，壶内有深色液体，应为手冲咖啡",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "门框与墙面为浅色原木材质，左侧可见部分木质椅子",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡机上方放一咖啡豆造型玩偶，左侧有麻绳卷；背景有菜单板但文字模糊",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门玻璃反射出对面建筑与街道，表明临街且有较大玻璃面",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见书架、植物、宠物、烘焙机或明确食物；无电脑使用者可见",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:26Z"
+}

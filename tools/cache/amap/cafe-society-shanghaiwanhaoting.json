@@ -1,0 +1,394 @@
+{
+  "cafeId": "cafe-society-shanghaiwanhaoting",
+  "query": {
+    "location": "121.462746,31.181074",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:07:06Z",
+  "matchedPoiId": "B0H16CZO71",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFGLXASH",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1d3bb65089d132888f2ed07d0d261715"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H16CZO71/comment/0c866e2991c92f48b401e592614001a1_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H16CZO71/comment/content_media_external_file_100007133_1766328157124_95624125.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "19121051398",
+        "id": "B0H16CZO71",
+        "tag": "奶油,卡布奇诺",
+        "entr_location": "121.463182,31.180913",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "320",
+        "atag": "奶油,卡布奇诺",
+        "name": "Cafe Society咖啡会社(尚海湾豪庭店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "41.00",
+          "opentime2": "周一至周日 09:00-20:00",
+          "rating": "4.6",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631720",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:53:40",
+        "website": [],
+        "address": "东安路888弄12幢1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.462745,31.181070",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFHGNNDX",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a46d08a8e1b8f03b0d57dc7f4a6bd81c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/bc3b8a55155963c0c066ad64d91888d9"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L2HGA6NB",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "luckin coffee 瑞幸咖啡(阳光滨江天地店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "67",
+        "importance": [],
+        "biz_ext": {
+          "cost": "17.00",
+          "opentime2": "周一至周日 07:00-19:00",
+          "rating": "4.0",
+          "open_time": "07:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631710",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 16:54:43",
+        "website": [],
+        "address": "凯滨路18弄1-5号尚海湾豪庭2期",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.462625,31.180475",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0HB9ZEDMI/comment/0F4E0992_D3F5_4AB7_B0AD_CE4002A7EA0A_L0_001_1500_200_1768646171728_88464284.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f3034c069fd1179a0000002995538752?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54110270",
+        "id": "B0HB9ZEDMI",
+        "tag": "单人餐,奶油",
+        "entr_location": "121.463557,31.181379",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "西岸",
+        "childtype": [],
+        "atag": "单人餐,奶油",
+        "name": "星巴克(上海徐汇滨江店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "89",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.6",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631720",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:18:06",
+        "website": [],
+        "address": "龙腾大道3222号1层101单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.463635,31.180804",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K2O18GI9/comment/content_media_external_images_media_93766_ss__1742030346323_85635429.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K2O18GI9/comment/content_media_external_images_media_93754_ss__1742030346324_34996627.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K2O18GI9/comment/content_media_external_images_media_93770_ss__1742030346323_95656657.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13816374109",
+        "id": "B0K2O18GI9",
+        "tag": "提拉米苏,牛乳",
+        "entr_location": "121.461779,31.181363",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": [],
+        "atag": "提拉米苏,牛乳",
+        "name": "Useless cafe(滨江店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "113",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": "周一至周日 08:00-17:00",
+          "rating": "4.0",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631622",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:32:32",
+        "website": [],
+        "address": "凯滨路38号阳光滨江天地地下一层中庭D07",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.461557,31.181075",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0H31AXXAJ",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/bc3790277f0af77fb4ee9b88ad89c8d9"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IKRUPKNZ/comment/2EDB7E7E_D821_4A92_B32C_A0FB4E4633BD_L0_001_1500_2000_1736776376764_52894029.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IKRUPKNZ/comment/AD40C78F_AA13_4868_B078_19FFD6EB9F1D_L0_001_1512_2016_1736776376763_75926579.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64227331",
+        "id": "B0IKRUPKNZ",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.461857,31.181965",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(上海阳光滨江尚湾里店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "132",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:30-18:30",
+          "rating": "4.2",
+          "open_time": "07:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631622",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:22:00",
+        "website": [],
+        "address": "凯滨路38号B1层D08A单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.461356,31.180993",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

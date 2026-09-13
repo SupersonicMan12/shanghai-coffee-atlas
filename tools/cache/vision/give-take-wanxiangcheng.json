@@ -1,0 +1,51 @@
+{
+  "cafeId": "give-take-wanxiangcheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a7085c181fc0",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/89937ff894d1c6517699a61bd7d1a38c",
+    "https://aos-comment.amap.com/B0HKMK5O6Q/comment/c3bbb728be2d83e9c395d4f77836862c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡制作设备和收银台",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供自带杯减5元优惠",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有扫码领取优惠券的二维码",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机和咖啡机等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品名为‘熊咖经典 CLASSIC’",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:18:18Z"
+}

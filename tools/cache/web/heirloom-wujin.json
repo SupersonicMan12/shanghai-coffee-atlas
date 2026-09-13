@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "地址：四川北路989弄今潮8弄8号楼",
+      "kind": "space",
+      "quote": "一尺花园(颍川寄庐店) 百年老宅里的咖啡时光",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260506/61a1c893-24d6-465e-9c6b-c37e287b84c1.html",
+      "site": "上海市虹口区人民政府"
+    },
+    {
+      "text": "百年石库门老宅，保留拼花地砖、雕花栏杆",
+      "kind": "space",
+      "quote": "在百年石库门老宅里喝咖啡 氛围感直接封神",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260506/61a1c893-24d6-465e-9c6b-c37e287b84c1.html",
+      "site": "上海市虹口区人民政府"
+    },
+    {
+      "text": "天井里阳光透过枝叶洒下，满院绿植",
+      "kind": "light",
+      "quote": "天井里的阳光透过枝叶洒下来 温柔到骨子里",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260506/61a1c893-24d6-465e-9c6b-c37e287b84c1.html",
+      "site": "上海市虹口区人民政府"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Mono Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9A1A249D167&address=Sichuan+North+Road+989+Long+No.35-95+Jinchao+8+Long%2C+Hongkou%2C+Shanghai+China&coordinate=31.250448%2C121.484510&name=Mono+Coffee&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "最近爱喝的4家上海咖啡探店。",
+      "url": "https://zhuanlan.zhihu.com/p/700715529",
+      "site_name": "知乎"
+    },
+    {
+      "index": 3,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Rumors Coffee (Xingguo Road) - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/rumors-coffee-15772669/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "不用远走!五一泡在虹口咖啡里,5家氛围感小店解锁假期正确打开方式",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260506/61a1c893-24d6-465e-9c6b-c37e287b84c1.html",
+      "site_name": "上海市虹口区人民政府"
+    },
+    {
+      "index": 7,
+      "title": "寻味黄浦 | 在黄浦,解锁咖啡馆的多元体验 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODYyMDgwNg==&mid=2650953458&idx=1&sn=62056551bb57aac9e0ab62ebddaeee7a&chksm=85fd13182a66ff5d393313f0e903e98e45f19d4171c475b0f08f420ca6f190aa2c9f85ae19df&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:06Z",
+  "retriedEn": true
+}

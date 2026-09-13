@@ -1,0 +1,96 @@
+{
+  "cafeId": "starbucks-roastery",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "86d4898b5c58",
+  "raw": {
+    "headline": {
+      "zh": "上海首座烘焙工坊",
+      "en": "Shanghai's first roastery"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "提供具人文故事的小批量咖啡豆与限定特饮",
+        "en": "Offers story-driven small-batch beans and limited-edition drinks",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应铸铁锅浓汤配溏心蛋与烤面包片",
+        "en": "Serves green soup in cast-iron pot with soft-boiled eggs and toast",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space|view",
+        "zh": "临街落地玻璃窗，可览街道与行人",
+        "en": "Floor-to-ceiling windows facing the street with views of pedestrians",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨0点（周五至周六）",
+        "en": "Closes at 00:00 on Fridays and Saturdays",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "设有巨型铜罐，招牌为氮气风味飞行品鉴",
+        "en": "Features a massive copper cask; signature is Nitro flight",
+        "from": [
+          13,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          15
+        ],
+        "zh": "营业时间长但非办公区",
+        "en": "Long hours but not for work"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          13
+        ],
+        "zh": "人流密集，临街热闹",
+        "en": "Crowded, lively street-facing"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "有餐食与特色饮品，适合停留",
+        "en": "Food and unique drinks encourage lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          7,
+          8,
+          14
+        ],
+        "zh": "自烘豆与实验性饮品",
+        "en": "Custom roasting and experimental drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:31Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "3637space-huaqiaochengsuhewanxingzhenggongguan2q",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "041fe577c898",
+  "photos": [
+    "https://aos-comment.amap.com/B0IK6ZF652/comment/6bbd789d2ac7cb9431851860f2c914ef_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IK6ZF652/comment/db2bbd95e6a2c447f658f5dec9ecf463_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IK6ZF652/comment/content_media_external_file_1000019200_ss__1759478079306_55496726.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "有高脚杯装的红色饮品，配迷迭香和肉桂棒。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有浅黄色起泡饮品，用高脚杯盛放，配肉桂棒。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "绿色饮品顶部有泡沫，装饰可食用紫花。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有插着玫瑰的玻璃花瓶，背景模糊有沙发。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景可见酒瓶、点心盘和多套餐具，空间非吧台型。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品置于木质杯垫或原木切片上，有自然元素。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:20Z"
+}

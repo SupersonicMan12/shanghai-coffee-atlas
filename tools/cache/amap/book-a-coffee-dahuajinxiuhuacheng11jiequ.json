@@ -1,0 +1,398 @@
+{
+  "cafeId": "book-a-coffee-dahuajinxiuhuacheng11jiequ",
+  "query": {
+    "location": "121.536376,31.180046",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:01:14Z",
+  "matchedPoiId": "B0JR47HLR9",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "7",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155KOJB",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598685_ss__1743634806278_52048658.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598673_ss__1743634806372_11052854.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JR47HLR9/comment/C569D6D6_B57F_4AE0_945A_4495A2F38A25_L0_001_1500_200_1767602077485_94002968.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15364734291;18621720686",
+        "id": "B0JR47HLR9",
+        "tag": "coffee",
+        "entr_location": "121.536393,31.180014",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南码头",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "Book a Coffee(大华锦绣华城11街区店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "32.00",
+          "opentime2": "周一至周五 08:00-19:00；周六至周日 08:00-18:00",
+          "rating": "4.5",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621641212",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:15:51",
+        "website": [],
+        "address": "下南路826号(下南路地铁站4号口步行410米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.536378,31.180050",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF65E8N",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6ec68f7c45a4c2103db707b2e3fb199c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/991733f6af45b765155d845b121406c1"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0H1X41C82",
+        "tag": "美式,拿铁,厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,生椰拿铁,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "六里",
+        "childtype": "202",
+        "atag": "美式,拿铁,厚乳拿铁,海盐芝士厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(成山路巴黎春天店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "133",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "3.9",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621641212",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:46:59",
+        "website": [],
+        "address": "成山路1993号巴黎春天成山店B1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.535548,31.179075",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF65E8N",
+        "pcode": "310000",
+        "keytag": "糕点/烘焙",
+        "type": "餐饮服务;糕饼店;糕饼店|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJNCO0Z/comment/1E3BFF6C_4016_41B0_ACCB_7C55530D5AA9_L0_001_1536_204_1770604348630_22335561.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJNCO0Z/comment/F170DEE4_5958_4C41_BC97_509E88E07852_L0_001_1536_204_1770604348605_47240411.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFJNCO0Z/comment/E739F61B_88F6_448C_B669_828BFC74EE23_L0_001_1536_204_1770604348615_72721866.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050800|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18121013640",
+        "id": "B0FFJNCO0Z",
+        "tag": "小蛋糕,咖啡奶茶",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "六里",
+        "childtype": "202",
+        "atag": "小蛋糕,咖啡奶茶",
+        "name": "85度C(生甜甜圈研究工坊 上海成山二店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010013_1038728",
+        "distance": "139",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.2",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621641212",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:05:55",
+        "website": [],
+        "address": "成山路1993号巴黎春天成山店一层8、9号号商铺",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.535458,31.179065",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF65E8N",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/24e7a1a6dc824df91e97159f596d0816"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/bd838c9a84ce9b3e25b74e1e10f07b99"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/643deec9ea3d96029c52f872b9ea63fd"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13003155067",
+        "id": "B0L3M7MHUQ",
+        "tag": [],
+        "entr_location": "121.535449,31.178642",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "六里",
+        "childtype": "202",
+        "atag": [],
+        "name": "M Stand(上海成山路巴黎春天店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "164",
+        "importance": [],
+        "biz_ext": {
+          "cost": "36.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.4",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621641212",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 05:04:05",
+        "website": [],
+        "address": "成山路1993号巴黎春天成山店F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.535405,31.178820",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF65E8N",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-60891430",
+        "id": "B00156CYWR",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.534718,31.178448",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南码头",
+        "childtype": "201",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(成山路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010013_450415",
+        "distance": "215",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-22:00；周六至周日 07:00-22:00",
+          "rating": "4.6",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621641212",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-11 21:50:04",
+        "website": "www.starbucks.cn",
+        "address": "成山路1993号巴黎春天(成山店)F1层(西门附近)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "TY0010320210100111",
+          "truefloor": "F1",
+          "cpid": "B0FFF65E8N",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.534697,31.178742",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

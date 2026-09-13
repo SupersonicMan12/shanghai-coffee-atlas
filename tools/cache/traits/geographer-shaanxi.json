@@ -1,0 +1,90 @@
+{
+  "cafeId": "geographer-shaanxi",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "20c5289173c8",
+  "raw": {
+    "headline": {
+      "zh": "日咖夜酒洞穴风",
+      "en": "Daytime cafe, nighttime bar in cave style"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "白天咖啡，18点后转为酒吧",
+        "en": "Cafe by day, bar after 6 PM",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "百年老建筑，保留海派腔调",
+        "en": "Housed in a century-old building with shanghai charm",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品「地球融化燕麦拿铁」灵感来自全球变暖",
+        "en": "Signature 'Melting Earth Oat Latte' inspired by global warming",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人受《国家地理》启发创立品牌",
+        "en": "Founded by a fan of National Geographic",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "贝壳造型座椅，设计独特",
+        "en": "Shell-shaped seats with unique design",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "日咖夜酒模式影响专注度",
+        "en": "Day-to-night shift affects focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "夜间酒吧带来热闹氛围",
+        "en": "Night bar brings liveliness"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "特色座位与老建筑适合久坐",
+        "en": "Unique seating and historic space encourage lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3,
+          7
+        ],
+        "zh": "饮品命名与地图标注有创意",
+        "en": "Creative drink naming and map-based origin display"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:28Z"
+}

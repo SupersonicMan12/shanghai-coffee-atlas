@@ -1,0 +1,63 @@
+{
+  "cafeId": "hlab-cafe-hongyixiaoqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4f97ad91a514",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7908757efc4678a48ea6b563a4b2507d",
+    "http://store.is.autonavi.com/showpic/96393891813f0f9d336b08e8db1594e8"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃窗展示内部",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有雪人装饰物，可能为冬季或节庆布置",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺前有树木和灌木，街道两侧为居民楼",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺入口处可见室内灯光，内部有陈列柜",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为小型独立门店，无明显庭院或大空间",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺门头标有“欧邑小站·虹仪”及英文名称",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分货架与商品陈列，但无明确饮品或食物展示",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:15Z"
+}

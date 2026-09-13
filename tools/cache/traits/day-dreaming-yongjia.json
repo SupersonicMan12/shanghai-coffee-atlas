@@ -1,0 +1,86 @@
+{
+  "cafeId": "day-dreaming-yongjia",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c5d86d74316c",
+  "raw": {
+    "headline": {
+      "zh": "无Wi-Fi密码的虹吸慢咖",
+      "en": "No Wi-Fi password, just slow siphon"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自选自烘豆，中浅烘带香草奶油威士忌风味",
+        "en": "House-roasted beans: vanilla, cream, whisky notes",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌原味可露丽，法国波尔多传统点心",
+        "en": "Signature canelé from Bordeaux, made daily",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "靠窗木椅、单人木质小凳，座位有限",
+        "en": "Limited seating: window chairs and solo stools",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–19:30营业",
+        "en": "Open daily 7:30–19:30",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "95后店长杨鲁鹏，从业近十年",
+        "en": "Run by '95s barista Yang Lupeng, ~10 yrs exp",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          13,
+          14
+        ],
+        "zh": "故意不设Wi-Fi密码",
+        "en": "No Wi-Fi password on purpose"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          3,
+          13
+        ],
+        "zh": "座位少且强调慢饮",
+        "en": "Few seats, slow siphon focus"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8,
+          13,
+          14
+        ],
+        "zh": "自烘豆+虹吸壶八分钟",
+        "en": "House roast + 8-min siphon brew"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:54Z"
+}

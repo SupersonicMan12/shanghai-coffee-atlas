@@ -1,0 +1,66 @@
+{
+  "cafeId": "costa-coffee-shanghailinkong",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "70660728848b",
+  "raw": {
+    "headline": {
+      "zh": "生椰系饮品受欢迎",
+      "en": "Popular coconut-based drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供生椰乌龙轻乳茶、椰皇三重奏等特色饮品",
+        "en": "Offers specialty drinks like coconut milk tea and coconut trio",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有带奶油顶的热饮和冰咖啡类饮品",
+        "en": "Serves hot drinks with whipped cream and iced coffee",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏与巧克力酥卷倍受欢迎",
+        "en": "Tiramisu and chocolate croissant are bestsellers",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-18:00",
+        "en": "Open daily 07:30–18:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "日间营业，人流中等",
+        "en": "Midday foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "营业至下午六点，适合短暂停留",
+        "en": "Closes early, brief stay"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:16Z"
+}

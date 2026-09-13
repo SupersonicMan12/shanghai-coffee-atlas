@@ -1,0 +1,66 @@
+{
+  "cafeId": "zankafei-guilin-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e79d57ec28d6",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFF3JKTP/comment/A598E3C7_6945_463D_B8F8_CFD4BFE285B9_L0_001_1500_200_1760936127240_29351567.jpg",
+    "https://aos-comment.amap.com/B0FFF3JKTP/comment/AE833518_98E1_40AD_B27E_E7D2BAD7DC79_L0_001_1432_200_1753880771797_96010971.jpg",
+    "https://aos-comment.amap.com/B0FFF3JKTP/comment/995dbff5865ccab4dcbb566934d633ff_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为独立小楼，有木质台阶入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内为大空间，木地板，工业风装修",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街有大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见多张木质桌椅和格子沙发座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上摆放着咖啡和两份甜点（巧克力蛋糕、芝士蛋糕）",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗户可见室外绿树景观",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有书架和大量绿植装饰",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:01Z"
+}

@@ -1,0 +1,42 @@
+{
+  "cafeId": "bug-maoming",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "64950e203f1e",
+  "raw": {
+    "headline": {
+      "zh": "每周实验豆，喝到就是彩蛋",
+      "en": "Experimental beans every week — try it to win"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为本周实验豆批次，不定期更换",
+        "en": "Featured drink: this week's experimental batch",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "饮品为实验性批次",
+        "en": "Experimental drink batches"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "小批量实验，适合慢品",
+        "en": "Small-batch experiments, meant to savor"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:27Z"
+}

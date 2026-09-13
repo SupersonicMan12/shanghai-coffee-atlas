@@ -1,0 +1,59 @@
+{
+  "cafeId": "plan-b-xiangyang-n-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "2354d0a110a2",
+  "photos": [
+    "https://aos-comment.amap.com/B0GRDSEWJA/comment/2026-03-02-12-57-31%2BECB032B8-D3D4-423F-93D7-939E92D4547_1772427459255_95605203.jpg",
+    "https://store.is.autonavi.com/showpic/b04755e925a9c6e60000003050492225?type=pic",
+    "https://store.is.autonavi.com/showpic/487a78929c2c32940000003050494124?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外台阶有座位，一人坐着休息。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，室内可见吧台和高脚凳。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板显示特调咖啡，价格35元起。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有白色瓷砖墙、绿植和红色灯笼装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯饮品杯身有拉花图案。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯橙色饮品旁放着椰子片零食包。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:29Z"
+}

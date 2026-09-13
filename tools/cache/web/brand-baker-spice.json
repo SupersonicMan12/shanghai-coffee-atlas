@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品包括精品咖啡，限时11元一杯[ref_2]",
+      "kind": "drinks",
+      "quote": "精品咖啡,限时11元一杯",
+      "url": "https://www.dianping.com/discovery/718423134",
+      "site": "大众点评网"
+    },
+    {
+      "text": "采用自研拼配豆，豆源覆盖埃塞俄比亚、哥伦比亚、云南等产区[ref_6]",
+      "kind": "beans",
+      "quote": "采用自研拼配豆,豆源覆盖埃塞俄比亚、哥伦比亚、云南等全球精品产区",
+      "url": "https://www.163.com/dy/article/K8D95CHQ05198DT6.html",
+      "site": "163网易免费邮"
+    },
+    {
+      "text": "人均价格42元（安福路店）、62元（商城店），周年庆意面5.4折起[ref_1][ref_4][ref_2]",
+      "kind": "light",
+      "quote": "人均价格:42",
+      "url": "https://baike.baidu.com/item/Baker%26Spice（安福路店）/14270816",
+      "site": "百度百科"
+    },
+    {
+      "text": "门店形态为北欧风大店，含半开放厨房、落地窗、HAY座椅、露天位[ref_2][ref_4]",
+      "kind": "space",
+      "quote": "北欧风格,原木色的餐桌、货架、来自HAY的座椅、半开放的厨房、大大的落地窗",
+      "url": "https://www.dianping.com/discovery/718423134",
+      "site": "大众点评网"
+    },
+    {
+      "text": "安福路店营业时间7am–10:30pm；上海广场店8:00–21:00[ref_1][ref_2]",
+      "kind": "time",
+      "quote": "营业时间:7am-10:30pm",
+      "url": "https://baike.baidu.com/item/Baker%26Spice（安福路店）/14270816",
+      "site": "百度百科"
+    },
+    {
+      "text": "2010年始于上海安福路，Wagas集团旗下，丹麦文化基因，主打‘烘焙+餐饮’模型[ref_5][ref_6]",
+      "kind": "story",
+      "quote": "BAKER & SPICE始于2010年,首店于上海安福路诞生",
+      "url": "https://www.163.com/dy/article/K8CRI532052287C5.html",
+      "site": "163网易免费邮"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Baker&Spice(安福路店)",
+      "url": "https://baike.baidu.com/item/Baker%26Spice（安福路店）/14270816",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "北欧风格的西式简餐|Baker & Spice - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/718423134",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "健康吃|有能量|Baker&Spice - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/718421239",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "Baker&Spice(商城店)",
+      "url": "https://baike.baidu.com/item/Baker%26Spice（商城店）/14267378",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "BAKER & SPICE香溢焙客迎来全国第100店,引领健康风味西餐的十五年",
+      "url": "https://www.163.com/dy/article/K8CRI532052287C5.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "逆势突围,Wagas集团旗下又一品牌实现百店里程碑",
+      "url": "https://www.163.com/dy/article/K8D95CHQ05198DT6.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "Baker & Spice（港汇恒隆店）_百度百科",
+      "url": "https://baike.baidu.com/item/Baker%20%26%20Spice%EF%BC%88%E6%B8%AF%E6%B1%87%E6%81%92%E9%9A%86%E5%BA%97%EF%BC%89/14203744",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "原创 逆势突围,Wagas集团旗下又一品牌实现百店里程碑",
+      "url": "https://www.sohu.com/a/930879313_115106",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 9,
+      "title": "Baker & Spice Café(IFC商场店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4807348-Reviews-Baker_Spice_Cafe_IFC_ShangChang-Shanghai.html",
+      "site_name": "Tripadvisor"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:51Z"
+}

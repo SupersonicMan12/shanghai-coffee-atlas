@@ -1,0 +1,77 @@
+{
+  "cafeId": "dior-shanghaiqiantantaiguli",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d20f77006dc4",
+  "raw": {
+    "headline": {
+      "zh": "国内首家迪奥咖啡馆",
+      "en": "China's first DIOR cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于商场三层，有户外休息区与桌椅",
+        "en": "On third floor with outdoor seating area and tables",
+        "from": [
+          2,
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "户外区域设遮阳伞与装饰雕塑",
+        "en": "Outdoor area has umbrellas and decorative sculptures",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "店内陈列多种口味冰淇淋",
+        "en": "Offers multiple flavors of ice cream",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日10:00至22:00",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内空间明亮，采用现代简约风格",
+        "en": "Bright interior with modern minimalist design",
+        "from": [
+          5,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "有舒适户外座位",
+        "en": "Comfortable outdoor seating"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          9
+        ],
+        "zh": "商场内位置，人流适中",
+        "en": "Located in mall, moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:09Z"
+}

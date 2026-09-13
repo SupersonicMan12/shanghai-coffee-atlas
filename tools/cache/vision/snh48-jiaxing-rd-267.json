@@ -1,0 +1,71 @@
+{
+  "cafeId": "snh48-jiaxing-rd-267",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "df9d275acf0f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0d074834548866ff1e91a72c2ecb758e",
+    "http://store.is.autonavi.com/showpic/af2715ed6e66e3fd169f53f9afafbad3",
+    "http://store.is.autonavi.com/showpic/60f6c2887aced6f327c95731c2ab6e00"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街建筑底层，有明显招牌和入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有多人聚集，显示人气较高",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间灯光亮起，招牌可见，表明营业至晚间",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "建筑为多层结构，店面在一层，上方有窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有车辆停靠，行人往来频繁",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺标有“CAFE&SHOP”字样，确认为咖啡与零售结合空间",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "街道两侧有电线杆和路灯，环境为城市商业街区",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示“THEATER SNH48”，暗示可能与演出相关联",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:12Z"
+}

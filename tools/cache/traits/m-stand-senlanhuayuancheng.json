@@ -1,0 +1,74 @@
+{
+  "cafeId": "m-stand-senlanhuayuancheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c82298bf4e4d",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗采光好",
+      "en": "Large windows with great natural light"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "店内有落地窗，采光良好",
+        "en": "Features large floor-to-ceiling windows for good natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店面为临街玻璃门，可见树木",
+        "en": "Front-facing glass doors with view of trees outside",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "入口为双开玻璃门，有木质把手",
+        "en": "Double glass doors with wooden handles at entrance",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间至晚上9:45",
+        "en": "Closes at 9:45 PM daily",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          10
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "位于商场首层临街，人流较旺",
+        "en": "Located on main mall level, busy area"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有座位且室内有人活动",
+        "en": "Has seating and visible activity inside"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:40Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "mikaku-mini",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2922322dbf67",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKTTCYV/comment/6adedcb834c7276e1fece794e9c72e63_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/f64b988e12fddaa50000002479776940?type=pic",
+    "https://aos-comment.amap.com/B0FFKTTCYV/comment/882c73b93cbf4eca147adf9ec384d181_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门+大面积落地窗，灰色外墙，门牌号20",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外人行道摆放5把折叠椅+2张小桌，属室外座",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内可见多人围坐小桌，有折叠椅与矮凳，空间紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中食物为厚松饼夹奶油、无花果、冰淇淋，配一杯顶部有奶油与橙皮碎的饮品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图为巧克力奶昔，含奥利奥饼干、巧克力碎、巧克力酱，插黑白条纹吸管",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内玻璃上贴有‘Thank You’重复胶带及手写‘Camping Club’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "未见吧台、磨豆机、手冲架、虹吸壶等专业咖啡器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:26Z"
+}

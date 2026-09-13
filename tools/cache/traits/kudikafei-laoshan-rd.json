@@ -1,0 +1,66 @@
+{
+  "cafeId": "kudikafei-laoshan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "bfaef984c9c2",
+  "raw": {
+    "headline": {
+      "zh": "站喝亚洲风味咖啡",
+      "en": "Stand-up Asian-inspired coffee"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "工作日7:00-17:30营业",
+        "en": "Open weekdays 7:00–17:30",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙等亚洲果茶",
+        "en": "Serves Asian fruit drinks like pandan mango frappe",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，连三年获IIAC金奖",
+        "en": "100% Arabica beans, IIAC gold winner 3 years",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "为COTTI Express站喝店型",
+        "en": "COTTI Express standing-bar format",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          6
+        ],
+        "zh": "站喝设计不便久坐",
+        "en": "Standing-only setup"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          10
+        ],
+        "zh": "提供特色亚洲风味饮品",
+        "en": "Unique Asian-inspired drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:06Z"
+}

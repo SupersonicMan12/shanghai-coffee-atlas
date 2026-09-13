@@ -1,0 +1,71 @@
+{
+  "cafeId": "lanna-yuyuan-e",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "5e357f7e571b",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/20e699d63c8bce6614c0e8ee2a988c22_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/ecb35741290b1e1f80f86b5748e41cce_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFFAMT7H/comment/94c09072241f2103cec1dfb7511ac9ab_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层小店，门头有‘IN CLOUD SHISHA’与‘LANNA COFFEE’双招牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口敞开，可见内部吧台、1张高脚圆桌、2把黑色高脚椅，地面为灰白格纹瓷砖。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧玻璃门内坐1人，戴眼镜，手持手机；未见电脑或工作状态。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "右侧玻璃门贴有饮品图示菜单，含6款杯装饮料（带冰/奶盖/分层），标有价格如¥27、¥32等。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内墙面有木质饰面与蓝色蕨叶标志；背景可见弧形暖光灯带装饰墙。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为分层冰咖啡（下白上棕），杯身贴蓝圈白底蕨叶logo，与墙上标识一致。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "左后方玻璃窗有手写体‘DISCOVER YUNNAN SPECIALTY COFFEE’字样。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品置于不锈钢吧台面，背景可见双门冷藏柜，内有瓶装饮料。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:26Z"
+}

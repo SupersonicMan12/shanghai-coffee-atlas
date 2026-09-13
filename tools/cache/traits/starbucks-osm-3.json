@@ -1,0 +1,82 @@
+{
+  "cafeId": "starbucks-osm-3",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "4fd31966105b",
+  "raw": {
+    "headline": {
+      "zh": "上海限定特饮",
+      "en": "Shanghai-exclusive drink"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "推出融合麦乳精的上海限定特饮",
+        "en": "Serves Shanghai-exclusive drink with malted milk",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设有室外座位区，可坐金属椅",
+        "en": "Features outdoor seating with metal chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "臻选门店提供具人文故事的小批量咖啡豆",
+        "en": "Offers small-batch coffee beans with human stories",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "力宝广场店采用可回收环保材质与电子屏菜单",
+        "en": "Uses recyclable materials and digital menu",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "智慧湾科创园店为大陆首家集装箱概念店",
+        "en": "First container-style store in mainland China",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "营业至22:30，适合办公",
+        "en": "Opens late, good for work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "有室外座位且营业时间长",
+        "en": "Outdoor seats and long hours"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有城市限定饮品与小批量豆",
+        "en": "City-specific drink and small-batch beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:15Z"
+}

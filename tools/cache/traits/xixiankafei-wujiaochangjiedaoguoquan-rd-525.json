@@ -1,0 +1,66 @@
+{
+  "cafeId": "xixiankafei-wujiaochangjiedaoguoquan-rd-525",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "422edb5e1240",
+  "raw": {
+    "headline": {
+      "zh": "冰美式加贝果套餐划算",
+      "en": "Iced Americano + bagel set is a great value"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供冰淇淋配巧克力酱和樱桃",
+        "en": "Serves ice cream with chocolate sauce and cherries",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "美式咖啡豆醇厚无焦苦味",
+        "en": "Americanos are smooth and free of burnt bitterness",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30-23:00营业",
+        "en": "Open daily from 9:30 AM to 11:00 PM",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐卡布奇诺",
+        "en": "Cappuccino is a top-rated drink on Gaode",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有搅拌机和射灯，但无办公相关证据",
+        "en": "Has blenders and spotlights, no work evidence"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "光线充足且有绿植，环境温馨",
+        "en": "Bright lighting and greenery suggest comfort for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:24Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "rac-anfu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b77d2de9764c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFI9QGYS/comment/C9C11F26_970F_427E_9455_91423A96EE4F_L0_001_1500_200_1754205360007_74212935.jpg",
+    "https://store.is.autonavi.com/showpic/bebce74cf77842d90000002986760780?type=pic",
+    "https://aos-comment.amap.com/B0FFI9QGYS/comment/50C9DF2F_B346_45F3_B868_8C1C6BF4CEBF_L0_001_3024_403_1756361384056_32353934.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店招为绿色底板黄字'RAC'，位于白色外墙门楣上方",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街玻璃窗带金色描边，反射出街景与店内金色'RAC'字样",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "手持白色纸杯，印有'RAC COFFEE'黑字标识，配塑料盖",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "纸杯内可见浅色奶泡层，疑似拿铁类饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "棕色纸袋印有'RAC'及'CRÊPES . BRUNCH . WINE'字样",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内可见酒架陈列多瓶葡萄酒，窗内贴有黄色植物剪影装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口右侧挂圆形标牌：四拟人化酒瓶持杯行走图案",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "照片1背景中可见模糊室内座位与暖色吊灯光斑",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:35:25Z"
+}

@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "采用了70%加纳原豆黑巧制作的性感肉桂焦糖拿铁",
+      "kind": "drinks",
+      "quote": "性感肉桂焦糖拿铁 采用了店家精挑细选了很久的70%加纳原豆黑巧",
+      "url": "http://mt.sohu.com/a/973450669_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "店内有三拼中深烘豆子加入预调碱水焦糖牛奶",
+      "kind": "story",
+      "quote": "三拼的中深烘豆子加入预调的碱水焦糖牛奶堪比咸甜永动机",
+      "url": "https://www.thepaper.cn/newsDetail_forward_29378397",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "店铺面积小，复古风格，窗户透出温暖阳光",
+      "kind": "story",
+      "quote": "十几平米的空间被打造得很复古,天气好的时候窗子里会透出温暖的阳光",
+      "url": "http://mt.sohu.com/a/973450669_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "提供椒盐风味的饼干搭配咖啡饮用",
+      "kind": "food",
+      "quote": "饼干的咸香内陷和顶部零星的盐粒,让它的口味更有记忆点",
+      "url": "https://www.thepaper.cn/newsDetail_forward_29378397",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "营业时间为09:00-17:00，周二至周日开放",
+      "kind": "time",
+      "quote": "营业时间 |周二至周日 09:00-17:00 地址| 陕西北路549-1号",
+      "url": "http://mt.sohu.com/a/973450669_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "能量续航中—静安区这些宝藏咖啡店等你来打卡! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDM2NzIwMw==&mid=2650369118&idx=1&sn=838580b396c979f5c9ecb77fca12c2aa&chksm=be851fd289f296c49581b11b4b4f8636dbebd8097cb0c12be4d30d338d8e3a9df342a7ea7e87&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "上海人喝咖啡,也分季节",
+      "url": "https://www.thepaper.cn/newsDetail_forward_29378397",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "BOBAC Coffee (Jin Residence Shaanxi North Road Garden ...",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F932886F4E3D",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "上海知名「罚站咖啡」,还有人没去排队过吗? ",
+      "url": "http://mt.sohu.com/a/973450669_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "鹰集咖啡(丰盛里店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d15686479-Reviews-S_Engine_Coffee_Fengsheng_Li-Shanghai.html",
+      "site_name": "Tripadvisor"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:24Z"
+}

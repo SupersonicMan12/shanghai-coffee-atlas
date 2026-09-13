@@ -1,0 +1,88 @@
+{
+  "cafeId": "arabica-dayangqianshu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f9898c90cf30",
+  "raw": {
+    "headline": {
+      "zh": "100%阿拉比卡站喝",
+      "en": "100% Arabica for standing orders"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆",
+        "en": "Uses 100% Arabica beans",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "近5米长站立吧台，无固定座位",
+        "en": "Nearly 5-meter standing bar, no fixed seats",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为浓缩基底咖啡",
+        "en": "Signature drink is a crema-based coffee",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "天花板嵌入式灯带，光线明亮",
+        "en": "Embedded ceiling light strips, bright lighting",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上9点",
+        "en": "Closes at 9 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          7
+        ],
+        "zh": "纯站喝空间，不适久坐",
+        "en": "Standing-only space, not for lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "通透明亮，人流中等",
+        "en": "Bright and open, moderate foot traffic"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "站喝为主，专注度有限",
+        "en": "Standing-only, limited focus"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "有手冲壶，可选手冲饮品",
+        "en": "Hand pour setup available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:29Z"
+}

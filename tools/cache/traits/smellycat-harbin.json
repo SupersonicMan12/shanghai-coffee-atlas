@@ -1,0 +1,94 @@
+{
+  "cafeId": "smellycat-harbin",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "bdefc8da9939",
+  "raw": {
+    "headline": {
+      "zh": "老友记场景还原",
+      "en": "Friends-themed interior"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街落地玻璃窗，室内有红砖墙与霓虹灯牌",
+        "en": "Floor-to-ceiling windows facing the street, red brick walls and neon signs",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有橘黄色大沙发与花纹高脚凳",
+        "en": "Orange sectional sofa and patterned high stools",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "drinks|food",
+        "zh": "提供经典拿铁、卡布奇诺与巧克力布朗尼",
+        "en": "Serves classic latte, cappuccino, and chocolate brownie",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点，周日也开放",
+        "en": "Closes at 10 PM daily, including Sundays",
+        "from": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店面位于1913年仓库，还原《老友记》中央公园咖啡馆",
+        "en": "Housed in a 1913 warehouse, recreates Central Perk from Friends",
+        "from": [
+          11,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "无专业烘焙设备",
+        "en": "No brewing equipment visible"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "复古装饰与多人座位",
+        "en": "Retro decor and shared seating"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "舒适沙发适合久坐",
+        "en": "Comfortable sofa invites lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          14
+        ],
+        "zh": "饮品为经典款",
+        "en": "Classic drink offerings"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:51Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "ditto-cafe-bar-huaihai-middle-rd-514",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5b16d653df90",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗小馆",
+      "en": "Street-facing glass cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "空间较小，有吧台和桌椅",
+        "en": "Small space with counter and tables",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可看街道景象",
+        "en": "Full street-facing glass windows",
+        "from": [
+          6,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨3点，适合夜归",
+        "en": "Open until 3:00 AM, late-night option",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "可能使用手冲或虹吸设备",
+        "en": "Possibility of pour-over or syphon brewing",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐单人餐",
+        "en": "Recommended single-person meal on Gaode",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "空间小，适合短暂停留",
+        "en": "Small space, brief stay"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:26Z"
+}

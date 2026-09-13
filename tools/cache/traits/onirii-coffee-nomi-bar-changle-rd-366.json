@@ -1,0 +1,78 @@
+{
+  "cafeId": "onirii-coffee-nomi-bar-changle-rd-366",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "2294b21d14eb",
+  "raw": {
+    "headline": {
+      "zh": "自烘埃塞手冲豆",
+      "en": "House-roasted Ethiopian pour-overs"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆自烘焙，三款埃塞俄比亚原生种手冲豆",
+        "en": "House-roasted beans; three Ethiopian heirloom pour-over options",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特色饮品Lucky 7，酸甜感明显层次丰富",
+        "en": "Signature Lucky 7: complex, layered, pronounced sweet-sour notes",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内座位少，以吧台为主，另设两把室外绿凳",
+        "en": "Few indoor seats (bar-focused), plus two outdoor green stools",
+        "from": [
+          5,
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，室内采光良好",
+        "en": "Full-height street-facing glass provides ample natural light",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至24点，分两时段",
+        "en": "Open daily until midnight, split hours",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "座位少，空间狭长",
+        "en": "Limited seating, narrow layout"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          10,
+          11,
+          12
+        ],
+        "zh": "自烘豆+试管展示+特色创意饮",
+        "en": "House roasting, tube display, unique drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:11Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "146bistro-cafe-yanchang-rd-146",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2b87b0855e09",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/03acf30063a624320000003132906325?type=pic",
+    "https://store.is.autonavi.com/showpic/bcc66cc91a401e5aa286cfc3e2faa728",
+    "https://store.is.autonavi.com/showpic/b47f554580002caf0000000681618634"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于延长路146号，临街有玻璃窗和门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有室外桌椅，提供户外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好，可见店内部分区域",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有绿植装饰，环境整洁",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单板显示美式、拿铁等饮品及价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有人在操作，疑似工作人员",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门外摆放木质桌椅，适合小聚",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招标明为咖啡·小酒馆，提供酒饮可能",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:21Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "fenhaokafei-guang-east-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b362c15a128d",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/ffddcac19db3b5379a62a8d0ae692996_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/1eec961ad1b732bc3bd0016f48eec351_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/898934a0d43d0274e4b7c22cd383ee25_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于街角，临街有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质长椅和圆形小桌，座位数量较少",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见一人在使用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为冰咖啡，杯身印有品牌标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有白色砖墙装饰，整体风格简约",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有空调外机，门口放置宣传立牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有大窗户，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:30Z"
+}

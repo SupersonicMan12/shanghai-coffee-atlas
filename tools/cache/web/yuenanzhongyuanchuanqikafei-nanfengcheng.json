@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "text": "提供越南滴漏咖啡",
+      "kind": "drinks",
+      "quote": "我選得越南雞蛋咖啡，濃郁口感",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/trung-nguyn-legend-135628776/",
+      "site": "越南中原傳奇咖啡（中國首店） (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "价格实惠",
+      "kind": "story",
+      "quote": "¥18/人",
+      "url": "http://m.dianping.com/shop/896337768?msource=applemaps",
+      "site": "【越南中原传奇咖啡(南丰城店)】电话_地址_价格_营业时间 - 大众点评"
+    },
+    {
+      "text": "位于遵义路100号",
+      "kind": "story",
+      "quote": "遵義路10******",
+      "url": "http://m.dianping.com/shop/896337768?msource=applemaps",
+      "site": "【越南中原传奇咖啡(南丰城店)】电话_地址_价格_营业时间 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "南京西路商圈咖啡",
+      "url": "https://m.dianping.com/shop/1506563669",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "越南中原传奇咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2289271736",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "【越南中原传奇咖啡(南丰城店)】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/896337768?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "掀起魔都10月欢乐浪潮,上百精彩活动轮番上演",
+      "url": "https://www.163.com/dy/article/HI2F1BUM0522W8J1.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "能量咖啡灵感无限越南中原传奇集团首家海外咖啡旗舰店正式登陆上海",
+      "url": "https://www.ellechina.com/fashion/news/a41581226/1665469649yy/",
+      "site_name": "ELLE中文网"
+    },
+    {
+      "index": 6,
+      "title": "越南中原传奇集团在中国上海开设首家海外旗舰店",
+      "url": "https://zh.vietnamplus.vn/article-post175856.vnp",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "探访「越南中原传奇咖啡」海外首店：主打滴漏咖啡 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/38367",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 8,
+      "title": "越南中原傳奇咖啡（中國首店） (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/trung-nguyn-legend-135628776/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:12:23Z"
+}

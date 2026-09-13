@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "text": "乌鲁木齐路292号，近复兴西路",
+      "kind": "space",
+      "quote": "292 Wulumuqi Lu, near Fuxing Xi Lu, Xuhui District.",
+      "url": "https://www.smartshanghai.com/venue/5772/Mata-Mata",
+      "site": "Mata-Mata Shanghai - Cafes, Sandwiches, Bakeries, Xuhui"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Jamaica Blue(乌鲁木齐中路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 2,
+      "title": "Mata-Mata Shanghai - Cafes, Sandwiches, Bakeries, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/5772/Mata-Mata",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Mata·Mata玛塔(乌鲁木齐店)-图片-上海-第17页-大众点评网",
+      "url": "https://www.dianping.com/shop/4126248/photos?pg=17",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Ruixing Coffee (Wulumuqi Middle Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F969347636AF&address=Wulumuqi+Middle+Road+No.306+Commerce-subjacent+%28Changshu+Road+Subway+Station+Entrance+%26+Exit+8+Pedestrian+470+Meters%29%2C+Xuhui%2C+Shanghai+China&coordinate=31.211602%2C121.446282&name=Ruixing+Coffee+%28Wulumuqi+Middle+Road+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "马路记:乌中路,遥遥领先",
+      "url": "https://m.thepaper.cn/newsDetail_forward_29272608",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:38Z",
+  "retriedEn": true
+}

@@ -1,0 +1,76 @@
+{
+  "cafeId": "youlankafei-shanghaishibo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1ccdae54f4c3",
+  "raw": {
+    "headline": {
+      "zh": "茶馆风咖啡馆，供应酸菜鱼",
+      "en": "Teahouse-style café serving fish"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "供应酸菜鱼和牛肉",
+        "en": "Serves sour cabbage fish and beef",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用阿拉比卡种精品咖啡豆",
+        "en": "Uses Arabica specialty coffee beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大型落地窗配浅色窗帘，采光良好",
+        "en": "Large floor-to-ceiling windows with light curtains",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有绿植与小型喷泉景观",
+        "en": "Indoor plants and a small fountain feature",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–23:30营业",
+        "en": "Open daily 09:00–23:30",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4,
+          5
+        ],
+        "zh": "采光好、有绿植喷泉",
+        "en": "Good light, plants, fountain"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "菜单咖啡种类多且用精品豆",
+        "en": "Varied coffee menu with specialty beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:15Z"
+}

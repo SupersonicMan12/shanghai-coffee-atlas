@@ -1,0 +1,52 @@
+{
+ "cafeId": "ora-kerry",
+ "model": "qwen-max",
+ "inputDigest": "20e513f91e2e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "户外有1张桌子，5把椅子和遮阳伞",
+    "en": "Outdoor seating with 1 table, 5 chairs, and umbrella",
+    "from": 1
+   },
+   {
+    "kind": "view",
+    "zh": "临街玻璃门和落地窗，视野开阔",
+    "en": "Street-facing glass door and large windows, open view",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "特色饮品如‘即如雪非雪杏花雨’、‘红宝石·瑰夏’",
+    "en": "Signature drinks like 'Snowy Apricot Rain' and 'Ruby Gesha'",
+    "from": 4
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间为周一至周日 07:00-18:00",
+    "en": "Open Mon-Sun 7:00-18:00",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "站喝小店，提供少量户外座位",
+    "en": "Standing bar, limited outdoor seats"
+   },
+   "energy": {
+    "value": 60,
+    "from": 2,
+    "zh": "临街位置，有一定人流量",
+    "en": "Street-facing, moderate foot traffic"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:27Z"
+}

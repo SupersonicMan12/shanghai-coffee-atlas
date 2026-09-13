@@ -1,0 +1,73 @@
+{
+  "cafeId": "coffee-cocktail-daning-rd-735",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "404f8e3bb910",
+  "raw": {
+    "headline": {
+      "zh": "深夜咖啡鸡尾酒",
+      "en": "Coffee & cocktails till 3am"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日13:00–03:00营业",
+        "en": "Open daily 1pm to 3am",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供咖啡与鸡尾酒",
+        "en": "Serves coffee and cocktails",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量有限",
+        "en": "Limited indoor seating",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "白天自然光充足",
+        "en": "Flooded with daylight",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间较小，有挂帘分隔",
+        "en": "Compact space with curtain partitions",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "座位少空间小",
+        "en": "Few seats, small space"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "咖啡与鸡尾酒结合",
+        "en": "Coffee meets cocktails"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:36Z"
+}

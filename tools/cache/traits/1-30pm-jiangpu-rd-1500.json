@@ -1,0 +1,66 @@
+{
+  "cafeId": "1-30pm-jiangpu-rd-1500",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e4589d563dbc",
+  "raw": {
+    "headline": {
+      "zh": "埃塞俄比亚日晒G1豆",
+      "en": "Ethiopian natural G1 coffee beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚日晒G1等级咖啡豆",
+        "en": "Serves Ethiopian natural G1 coffee beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式、茉香拿铁等饮品",
+        "en": "Offers iced Americano, jasmine latte, and others",
+        "from": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "可选燕麦奶",
+        "en": "Oat milk available",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品价格区间约18-28元",
+        "en": "Drinks priced around ¥18–¥28",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二营业至18:00，平日09:30-18:00",
+        "en": "Open Tue 14:00–18:00; daily 09:30–18:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          5
+        ],
+        "zh": "使用日晒G1精品豆",
+        "en": "Specialty natural-processed beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:38Z"
+}

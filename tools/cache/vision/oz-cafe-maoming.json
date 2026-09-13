@@ -1,0 +1,71 @@
+{
+  "cafeId": "oz-cafe-maoming",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "311c4ed1118f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0c757fff183cbe1d0000000738594576?type=pic",
+    "https://aos-comment.amap.com/B0G2M1ZN29/comment/CEDB568F_F818_4668_B4C4_8DAEFED6DA1B_L0_001_1500_200_1746416922757_85835244.jpg",
+    "https://store.is.autonavi.com/showpic/3b7329781f0560400000000738586694?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "白色陶瓷杯碟盛放一杯拉花咖啡，拉花呈天鹅造型。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台为浅木色台面，下方有蓝白花纹瓷砖与蓝色六角砖拼接墙面。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方可见一台白色商用意式咖啡机（带木质底座）。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙面为蓝色，贴有多张彩色演出海报（含'POTENT'字样），并有射灯照明。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台前放置一把白色帆布折叠椅，椅背有'DAMO'标签。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台下方置物架陈列多个小摆件（招财猫、老虎等陶瓷玩偶）及一个蓝白猫形存钱罐。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "临街为大面积玻璃窗，窗外可见街道与行人，室内有圣诞树装饰。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "吧台上有两个立式菜单牌，但文字内容无法辨识；无可见价格或豆子产地信息。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:09Z"
+}

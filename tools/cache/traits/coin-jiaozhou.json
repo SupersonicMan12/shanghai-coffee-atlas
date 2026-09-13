@@ -1,0 +1,40 @@
+{
+ "cafeId": "coin-jiaozhou",
+ "model": "qwen-max",
+ "inputDigest": "dd371d95f2e1",
+ "raw": {
+  "headline": {
+   "zh": "快速便捷的意式咖啡体验",
+   "en": "Quick and convenient espresso"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "柜台宽度几乎与店面一样窄",
+    "en": "Barely wider than its own counter",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供精确找零的意式浓缩咖啡",
+    "en": "Exact-change espresso",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": 1,
+    "zh": "空间狭小，不适合专注工作",
+    "en": "Too narrow for focused work"
+   },
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "适合站着喝完就走",
+    "en": "In and out quickly"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:55Z"
+}

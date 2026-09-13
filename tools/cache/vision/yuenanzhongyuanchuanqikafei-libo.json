@@ -1,0 +1,71 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-libo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fe870098a08e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2fc728ec93bcba270000003368424488?type=pic",
+    "https://store.is.autonavi.com/showpic/fb4bbad8139f94be0000003368412818?type=pic",
+    "https://store.is.autonavi.com/showpic/0866e5cad9e35dfa0000003368438224?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和大面积落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外设有桌椅，可提供户外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有棕色皮质沙发和方形餐桌，空间宽敞",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "地面为黑白格瓷砖，天花板有吊灯和音响设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见冷藏柜、吧台及咖啡制作区域",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为一杯奶茶色液体，搭配一盒黄油",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有绿植装饰，环境整洁明亮",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客在活动，有人站在门口附近",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:11Z"
+}

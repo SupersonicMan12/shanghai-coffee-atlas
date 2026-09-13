@@ -1,0 +1,55 @@
+{
+  "cafeId": "blancgi-caf-taipingyangxintiandishangyezhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1546909d91a0",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外座位与遮阳伞",
+        "en": "Outdoor seating with sun umbrellas",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "吧台陈列多种瓶装饮料",
+        "en": "Various bottled drinks at the bar",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有吧台、操作区及多人桌椅",
+        "en": "Indoor bar, prep area, and group seating",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好自然采光",
+        "en": "Large windows provide ample daylight",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 9:30 PM",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:35:10Z"
+}

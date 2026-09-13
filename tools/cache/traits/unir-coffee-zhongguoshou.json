@@ -1,0 +1,78 @@
+{
+  "cafeId": "unir-coffee-zhongguoshou",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d4b7943dadd2",
+  "raw": {
+    "headline": {
+      "zh": "日本冠军团队手冲咖啡",
+      "en": "Japanese champions' pour-over coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设有多张藤编椅座位",
+        "en": "Outdoor seating with woven chairs",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光充足",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "出售埃塞俄比亚·花魁等精选豆",
+        "en": "Sells Ethiopian Hambella beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡起价48元，有城市限定特调",
+        "en": "Pour-over from ¥48, city-exclusive drinks",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "由国际评委与日本冠军带队打造",
+        "en": "Led by int'l judge & Japanese champ",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5,
+          6
+        ],
+        "zh": "室外阴凉座位适合久坐",
+        "en": "Shaded outdoor seats invite lingering"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          3,
+          8,
+          9
+        ],
+        "zh": "手冲、特调与精选豆组合",
+        "en": "Pour-over, specials & single origins"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:38Z"
+}

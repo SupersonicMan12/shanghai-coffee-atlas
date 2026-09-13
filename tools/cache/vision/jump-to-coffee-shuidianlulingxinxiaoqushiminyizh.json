@@ -1,0 +1,65 @@
+{
+  "cafeId": "jump-to-coffee-shuidianlulingxinxiaoqushiminyizh",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "07b3a57d659e",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1CRLIZT/comment/c38846d26628af5c82893ff8f485124e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0K1CRLIZT/comment/7a4701115aa4e9005aa77cdac4aa89cf_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/e0282f40f258ddf67219937b605b88d4"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有抹茶拿铁和冰美式等饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示价格从9元到19元不等",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和展示柜",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有咖啡豆、鲜牛奶、巧克力等原料信息",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见咖啡制作设备如磨豆机和手冲器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供气泡美式、拿铁、摩卡等饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为小型咖啡馆布局",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:13:24Z"
+}

@@ -1,25 +1,32 @@
 import type {
   Axes,
   AxisEvidence,
+  AxisHint,
   AxisSource,
   Cafe,
   DianpingSignals,
 } from '../data/types'
 import dianpingRaw from '../data/dianping.json'
+import { detailFor } from './details'
 
 /**
  * The Bayesian blend behind every axis (the “?” page explains this in prose).
  *
- *   axis = (w_e·E + w_s·S + w_u·ū·n/(n+k)) / (w_e + w_s·1[S] + w_u·n/(n+k))
+ *   axis = (w_e·E + w_s·S + w_h·c_h·H + w_u·ū·n/(n+k))
+ *        / (w_e + w_s·1[S] + w_h·c_h + w_u·n/(n+k))
  *
  * E — editorial prior (the curated value in `cafe.axes`).
  * S — structured-signal estimate from measurable proxies, only when a real
  *     proxy exists for that axis on that café.
+ * H/c_h — an observed hint from the evidence pipeline (photos, web, Amap
+ *     per-head cost) and its confidence; the weight scales with c_h so a
+ *     tentative reading barely moves the needle.
  * ū/n — mean and count of reader votes, shrunk by k so one loud opinion
  *     cannot move a café but five consistent ones can.
  */
 export const W_EDITORIAL = 1
 export const W_STRUCTURED = 2
+export const W_HINT = 2.5
 export const W_VOTES = 3
 export const SHRINK_K = 5
 
@@ -249,16 +256,23 @@ export function blendAxis(
   structured: number | undefined,
   votes: AxisVotes | undefined,
   trust = 0,
+  hint?: AxisHint,
+  editorialConfidence = 0.35,
 ): AxisEvidence {
   const n = votes && votes.count > 0 ? votes.count : 0
   const shrink = n / (n + SHRINK_K)
   const hasS = typeof structured === 'number'
+  const hc = hint ? Math.max(0, Math.min(1, hint.confidence)) : 0
 
   let num = W_EDITORIAL * editorial
   let den = W_EDITORIAL
   if (hasS) {
     num += W_STRUCTURED * structured
     den += W_STRUCTURED
+  }
+  if (hint && hc > 0) {
+    num += W_HINT * hc * hint.value
+    den += W_HINT * hc
   }
   if (n > 0 && votes) {
     num += W_VOTES * votes.mean * shrink
@@ -267,12 +281,15 @@ export function blendAxis(
 
   const sources: AxisSource[] = ['editorial']
   if (hasS) sources.push('measured')
+  if (hc > 0) sources.push('observed')
   if (n > 0) sources.push('voted')
 
-  // Confidence by evidence tier: editorial alone is a considered guess,
-  // structure roughly doubles it, votes close the remaining gap
+  // Confidence by evidence tier: editorial alone is a considered guess (an
+  // imported prior even less), structure roughly doubles it, an observed
+  // hint adds its own confidence on top, votes close the remaining gap
   // asymptotically as n grows.
-  const base = hasS ? 0.7 : 0.35
+  let base = hasS ? Math.max(0.7, editorialConfidence) : editorialConfidence
+  if (hc > 0) base += (1 - base) * hc
   let confidence = base + (1 - base) * shrink
   // External trust (Dianping rating × review volume) deepens the ink a
   // little — corroboration, not a new opinion about any axis.
@@ -294,13 +311,21 @@ export function blendCafe(
 ): BlendedAxes {
   const s = structuredSignals(cafe, ctx)
   const trust = dianpingTrust(dianpingFor(cafe))
+  const hints = detailFor(cafe).axisHints
   const out = {} as BlendedAxes
   for (const key of AXIS_KEYS) {
-    // If workstream 1 already published a blended AxisEvidence on the café,
-    // trust it — the data pipeline saw evidence we cannot recompute here.
+    // A published AxisEvidence on the café (importer priors carry one with
+    // low confidence) is the editorial term; structure, observed hints and
+    // votes still blend on top of it.
     const published = cafe.evidence?.axes?.[key]
-    out[key] =
-      published ?? blendAxis(cafe.axes[key], s[key], votes?.[key], trust)
+    out[key] = blendAxis(
+      published?.value ?? cafe.axes[key],
+      s[key],
+      votes?.[key],
+      trust,
+      hints?.[key],
+      published?.confidence ?? 0.35,
+    )
   }
   return out
 }

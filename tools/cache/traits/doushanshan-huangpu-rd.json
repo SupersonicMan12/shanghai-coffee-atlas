@@ -1,0 +1,57 @@
+{
+ "cafeId": "doushanshan-huangpu-rd",
+ "model": "qwen-max",
+ "inputDigest": "d21afe53de07",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街玻璃窗，可欣赏河景",
+    "en": "Street-facing windows with river view",
+    "from": 9,
+    "},10,11]\"},11]\"}{": "kind",
+    "seating": "zh",
+    "站立式吧台，适合快速饮用": "en",
+    "Standing bar for quick sips": "from",
+    "],[": 2
+   },
+   {
+    "kind": "food",
+    "zh": "提供39元/份的蒙布朗栗子蛋糕和咖啡可可脆",
+    "en": "Serves Mont Blanc chestnut cake and coffee cocoa crisp at 39 RMB each",
+    "from": 4
+   },
+   {
+    "kind": "drinks",
+    "zh": "供应7天新鲜豆制作的咖啡",
+    "en": "Serves coffee made from 7-day fresh beans",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 2,
+    "zh": "站立式吧台不适合专注办公",
+    "en": "Standing bar, not for focus"
+   },
+   "linger": {
+    "value": 10,
+    "from": 2,
+    "zh": "站喝小店，停留时间短",
+    "en": "Standing bar, short stay"
+   },
+   "adventure": {
+    "value": 50,
+    "from": 6,
+    "zh": "无明显手冲或虹吸设备",
+    "en": "No pour-over or siphon setup"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:28Z"
+}

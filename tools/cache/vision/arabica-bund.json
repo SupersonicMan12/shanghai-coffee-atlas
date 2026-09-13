@@ -1,0 +1,71 @@
+{
+  "cafeId": "arabica-bund",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b0c3daaea26b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0140c33f92841f55a061d7196d599131",
+    "https://aos-comment.amap.com/B0FFJ5N0Q3/comment/9105148b-fdb2-4f03-aec6-242eca191605.png",
+    "https://store.is.autonavi.com/showpic/428c405d2e04d0d40000003170754125?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街石库门风格建筑，入口有三级台阶，外摆4张桌+8条长凳（部分占用人行道）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招为粉色旗帜，印有'% ARABICA'及地球图案；玻璃门内可见大型金色'%'标志",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内吧台前立柱为裸露混凝土，吧台面板为白色竖条纹饰面，底部为浅木色",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台后方可见白色咖啡机，机身印'% ARABICA'字样；上方置物架放多排纸杯与玻璃滤杯",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外座位区设于人行道旁，含白色金属桌、木质长凳；照片1中2人就坐，照片2无人",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.92
+    },
+    {
+      "text": "临街为大面积落地玻璃窗，无窗帘；从室内照片可见窗外有绿树与街道",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片1中左侧顾客桌上放笔记本电脑，右侧顾客未用电脑；照片2无人在座",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "外墙挂有‘优秀历史建筑’铭牌（中英文），位于建筑左下角立柱处",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:37Z"
+}

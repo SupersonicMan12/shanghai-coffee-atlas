@@ -1,0 +1,65 @@
+{
+  "cafeId": "ortensia-cafe-taian-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1bf0739ec025",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5bf1039398f7b5950000002431796019?type=pic",
+    "https://store.is.autonavi.com/showpic/fecf8133b1f147f50000002431714822?type=pic",
+    "https://store.is.autonavi.com/showpic/4fcb2d809a53d69e0000002431722816?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有高脚杯装的草莓开心果芭菲，配绿色冰淇淋球。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上摆着刨冰、分层甜点和两杯冰咖啡，环境明亮。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间宽敞，有大吊灯和拱形门洞，座位为布艺椅。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街是大面积玻璃窗，窗外可见绿树倒影。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单卡上印有“Strawberry & Pistachio Parfait”字样及插图。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无可见人用电脑，桌上有餐具和饮品杯。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见烘焙机或手冲台等专业咖啡器具。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:44Z"
+}

@@ -1,0 +1,96 @@
+{
+  "cafeId": "belt-coffee-guangmingdichan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d0a269b06482",
+  "raw": {
+    "headline": {
+      "zh": "北纬25°咖啡豆精选",
+      "en": "Coffee beans from 25°N to 25°S"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供10种单品咖啡豆，含巴拿马瑰夏绿标",
+        "en": "10 single-origin coffee beans available, including Panama Geisha Green Label",
+        "from": [
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "有室外绿植庭院与遮阳伞座位区",
+        "en": "Outdoor green courtyard with shaded seating",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内大窗户，采光良好",
+        "en": "Large windows provide good natural lighting",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "使用光明鲜奶，推出光明食品特色特饮",
+        "en": "Uses Bright Dairy fresh milk, offers Bright Food-themed special drinks",
+        "from": [
+          9,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五 07:30-18:00，周末 10:00-18:00",
+        "en": "Open Mon–Fri 07:30–18:00, Sat–Sun 10:00–18:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "有木质桌椅适合办公",
+        "en": "Wooden tables for working"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          11
+        ],
+        "zh": "室外庭院在闹市中",
+        "en": "Courtyard in a bustling area"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          11,
+          7
+        ],
+        "zh": "有庭院和舒适座椅可久坐",
+        "en": "Comfortable seating and courtyard for lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          14
+        ],
+        "zh": "有光明食品特色特饮",
+        "en": "Bright Food-themed specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:53Z"
+}

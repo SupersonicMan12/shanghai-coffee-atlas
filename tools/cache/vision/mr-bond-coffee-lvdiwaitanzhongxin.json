@@ -1,0 +1,72 @@
+{
+  "cafeId": "mr-bond-coffee-lvdiwaitanzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0abfbf1ee0e1",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKBX0FYW/comment/24A4E186_D0B9_4BE7_B19F_3D3B70B010A0_L0_001_1500_200_1758203442855_44833607.jpg",
+    "https://aos-comment.amap.com/B0KKBX0FYW/comment/content_media_external_file_1000013899_ss__1753761142480_36312826.jpg",
+    "https://store.is.autonavi.com/showpic/72bfccf5b683d8c80000002232784110?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，空间为标准商业铺位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有烘焙食品展示柜，陈列多种面包和糕点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见现烤面包，包括可颂、贝果、吐司等",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有饮品杯，显示为外带纸杯，带盖",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有美式、拿铁、卡布奇诺等咖啡选项",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "烘焙区每日现烤，非冷冻食品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有促销活动：下午4点起买二送一",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有植物装饰，环境整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:27Z"
+}

@@ -1,0 +1,53 @@
+{
+  "cafeId": "yongjia-rd-331",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "923087038f6f",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKQQYGG/comment/1c0c5362a4ca49c6616b5445ded69314_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFKQQYGG/comment/60c40747dccc2b7f064ff105a18b13de_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFKQQYGG/comment/c5f22a49c5295c3f57766fe2563a7471_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内为木质桌椅，座位约8-10个",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有大面积窗户，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为法式吐司，配草莓和奶油",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上有桂花拿铁、黄油啤酒拿铁等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有猫咪主题的装饰和菜单信息",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:17Z"
+}

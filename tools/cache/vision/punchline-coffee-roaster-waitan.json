@@ -1,0 +1,72 @@
+{
+  "cafeId": "punchline-coffee-roaster-waitan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e3b11617ab52",
+  "photos": [
+    "https://aos-comment.amap.com/B0I62AFP14/comment/4fbd5226e185cd32ff8ac1f32b68761c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I62AFP14/comment/05d72ba345a0471a391d083eb4d23565_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I62AFP14/comment/028B0FDF_5517_4A92_BD2D_2DAEA0D5880C_L0_001_1500_2000_1741556433485_55464206.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "有咖啡饮品和甜点，包括拉花拿铁、浓缩咖啡和柠檬茶类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供芝士蛋糕类甜点，摆盘精致",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯具为玻璃材质，搭配木质托盘和小食碟",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内环境为木质墙面，氛围温馨",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有纸质菜单或收据显示店名为Punchline Coffee&Roaster（外滩店）",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有特调饮品，含花瓣和柠檬片装饰，可能是非传统咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌面上有书籍或资料，可能为阅读区或学习空间",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品价格为32元，收银员信息可见",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:45Z"
+}

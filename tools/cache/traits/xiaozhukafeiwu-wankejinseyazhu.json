@@ -1,0 +1,77 @@
+{
+  "cafeId": "xiaozhukafeiwu-wankejinseyazhu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "393ad7e20a34",
+  "raw": {
+    "headline": {
+      "zh": "社区客厅，365天开门",
+      "en": "Neighborhood living room, open daily"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "店主因家庭回沪，在自家楼下开店",
+        "en": "Owner returned to Shanghai and opened shop downstairs",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌有西班牙拿铁、荔枝特饮、暖茶咖",
+        "en": "Signature drinks: Spanish latte, lychee, tea-coffee",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "豆子取中庸路线，偶有茉莉或柑橘风味",
+        "en": "Balanced beans; occasional jasmine or citrus notes",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "全年无休，每日07:30–18:00营业",
+        "en": "Open daily 07:30–18:00, no days off",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "一层临街门面，整面玻璃窗",
+        "en": "Ground-floor streetfront with full glass facade",
+        "from": [
+          3,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "定位为可随时进来喘口气的社区客厅",
+        "en": "Meant as a place to pause anytime"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "豆子避开极端，偶推特殊处理批次",
+        "en": "Occasional unique beans, not mainstream"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:40Z"
+}

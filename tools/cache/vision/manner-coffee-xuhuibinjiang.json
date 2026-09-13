@@ -1,0 +1,71 @@
+{
+  "cafeId": "manner-coffee-xuhuibinjiang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4deca411e905",
+  "photos": [
+    "https://aos-comment.amap.com/B0HRPN1P7B/comment/d88d82a967411cfbb8fa0a6322c7585b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HRPN1P7B/comment/58fbef024995b6119d68a986d73c15be_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HRPN1P7B/comment/20260314-6c0b0849f7302f57d0da921b-9L005qG8NAk8yO6L608aDb.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有数排折叠椅和大型盆栽，属室外座区域。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单可见季节单与经典单，含风味拿铁、SOE等选项。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有两台Fiorenzato磨豆机，一台装咖啡豆，一台空仓。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "两张饮品图中一杯为绿色抹茶类，一杯为浅棕色奶咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于有弧形玻璃幕墙的现代建筑内，非临街独立店。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内座位区可见，但未见有人使用电脑办公。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "窗外绿树成荫，非河景或街道景观，应为庭院或绿化带。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上部分饮品标价如“美式¥15”，价格清晰可辨。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:23Z"
+}

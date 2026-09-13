@@ -1,0 +1,71 @@
+{
+  "cafeId": "komeda-s-coffee-qiantan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f1124aecd997",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/975a2071471dafcb6de8565078b768c3",
+    "https://aos-comment.amap.com/B0GK07CGVK/comment/a39f5c78aa815ef8750b8a857652feb6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GK07CGVK/comment/84bba6d6043b92273479b487564a1f01_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于街边，有玻璃门和砖墙装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供咖啡与吐司套餐，含黄油和红豆酱",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为黑咖啡，配小杯牛奶和勺子",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款饮品为拿铁，标注为Caffe Latte",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客就座，环境安静舒适",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上摆放食物和饮品，可见用餐场景",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:58Z"
+}

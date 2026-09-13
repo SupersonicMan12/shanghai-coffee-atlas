@@ -1,0 +1,64 @@
+{
+ "cafeId": "chowchow-harbin",
+ "model": "qwen-max",
+ "inputDigest": "06f751e83ebe",
+ "raw": {
+  "headline": {
+   "zh": "宠物友好，设有领养角",
+   "en": "Pet-friendly with adoption corner"
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "店名纪念主理人曾饲养的松狮犬",
+    "en": "Named after the owner's chow-chow",
+    "from": 10
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供特色饮品如芭乐冰美式",
+    "en": "Serves unique drinks like guava iced Americano",
+    "from": 11
+   },
+   {
+    "kind": "seating",
+    "zh": "有室内和室外座位",
+    "en": "Offers indoor and outdoor seating",
+    "from": 6
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗，视野开阔",
+    "en": "Full street-facing glass, wide view",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 30,
+    "from": 13,
+    "zh": "适合轻度办公",
+    "en": "Light work OK"
+   },
+   "energy": {
+    "value": 60,
+    "from": 13,
+    "zh": "宠物带来活力",
+    "en": "Pets add energy"
+   },
+   "linger": {
+    "value": 70,
+    "from": 6,
+    "zh": "适合久坐休闲",
+    "en": "Good for long stays"
+   },
+   "adventure": {
+    "value": 50,
+    "from": 11,
+    "zh": "特色饮品有一定创新",
+    "en": "Some drink innovation"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:55Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "sanyouerfenzhiyi-taiyuan-rd-305",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f430d9e664d0",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/adffe90141cf273c0000002367904584?type=pic",
+    "https://aos-comment.amap.com/B0JR461DID/comment/content_media_external_file_8926_1766281132084_90753513.jpg",
+    "https://aos-comment.amap.com/B0JR461DID/comment/768338f5-c6e1-4a72-8806-79ae00a7e0db.png"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门口有“3½”门牌号，入口窄小，室内灯光暖黄。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品含“三十与贝”（水洗埃塞、干贝）和“树枝与绿实”（氮气黑咖啡、凤梨）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶饮品，配料含贵州抹茶、燕麦奶、牛奶、柚子油，配小点心。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内桌为木质，饮品置于木托盘上，环境简洁。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品旁附纸质说明卡，列有原料、风味描述及酒精度（ABV 2.7%、4.5%）。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处地面有条纹台阶，门外人行道铺石子，散落几片落叶。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品搭配玉米片蘸酱或咸味饼干，非传统咖啡馆甜点。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "无可见座位数量、电脑使用、烘焙设备或大型窗户。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:30Z"
+}

@@ -1,0 +1,48 @@
+{
+  "cafeId": "85-c-shengtiantianquanyanjiugongfang-shanghaiche",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c15bbad6ff04",
+  "raw": {
+    "headline": {
+      "zh": "浦东首店生甜甜圈",
+      "en": "Pudong's first fresh donut shop"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "售卖草莓、巧克力等生甜甜圈",
+        "en": "Sells fresh donuts like strawberry and chocolate",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供橙色果茶类饮品，装在玻璃壶中",
+        "en": "Serves orange fruit tea in glass pitchers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30-22:00营业",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可见内部部分区域",
+        "en": "Full street-facing glass windows",
+        "from": [
+          5,
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:38:14Z"
+}

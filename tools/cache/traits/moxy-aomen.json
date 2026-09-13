@@ -1,0 +1,61 @@
+{
+  "cafeId": "moxy-aomen",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "607bdce44335",
+  "raw": {
+    "headline": {
+      "zh": "深夜营业的自助沙拉咖啡馆",
+      "en": "Late-night self-serve salad cafe"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业至晚上11点，可深夜用餐",
+        "en": "Open until 11:00 PM, late-night dining available",
+        "from": [
+          6,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供自助沙拉台，含多种配料与酱料",
+        "en": "Self-serve salad bar with multiple toppings and dressings",
+        "from": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "木质长吧台式自助餐台，无窗无植物",
+        "en": "Wooden long counter for self-service, no windows or plants",
+        "from": [
+          1,
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          10
+        ],
+        "zh": "营业时间长，适合久坐",
+        "en": "Long hours invite lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "墙面光面无装饰，氛围安静",
+        "en": "Sleek walls, quiet ambiance"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:03Z"
+}

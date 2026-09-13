@@ -1,0 +1,57 @@
+{
+  "cafeId": "beiruikafei-huijinbeiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "749cc68152b4",
+  "raw": {
+    "headline": {
+      "zh": "商场临街窗边咖啡",
+      "en": "Window-side coffee in mall"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，视野通透",
+        "en": "Full-height street-facing windows",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "小杯咖啡12-24元，大杯15-24元",
+        "en": "Small coffee ¥12–24, large ¥15–24",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供手作热食",
+        "en": "Serves house-made hot food",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30-17:00营业",
+        "en": "Open daily 06:30–17:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "下午五点关门不宜久坐",
+        "en": "Closes early at 5pm"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:38Z"
+}

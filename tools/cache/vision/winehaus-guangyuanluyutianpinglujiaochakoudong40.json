@@ -1,0 +1,65 @@
+{
+  "cafeId": "winehaus-guangyuanluyutianpinglujiaochakoudong40",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4e6a74b15900",
+  "photos": [
+    "https://aos-comment.amap.com/B0J3DOEXAW/comment/C2984B76_0F09_42FF_8B11_53F8738956E1_L0_001_1500_200_1769825197169_17173346.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772237017522_03070206_1772237086336_77024786.jpg",
+    "https://store.is.autonavi.com/showpic/dd8df9a51dda13bb0000002416664321?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有落地玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列多款葡萄酒，瓶身标价清晰可见",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外摆放四瓶不同酒款，标签设计多样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质置物架，整齐陈列酒瓶",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口贴有红色新年装饰，含‘福’字与马图案",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见绿植点缀，环境整洁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门牌号为155，地址在广元路",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:37Z"
+}

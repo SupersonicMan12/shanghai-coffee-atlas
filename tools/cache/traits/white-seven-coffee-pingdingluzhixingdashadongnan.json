@@ -1,0 +1,74 @@
+{
+  "cafeId": "white-seven-coffee-pingdingluzhixingdashadongnan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5dd2f113aad8",
+  "raw": {
+    "headline": {
+      "zh": "制皂厂旧址改造的工业风咖啡院",
+      "en": "Industrial coffee yard in former Shanghai Soap Factory"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "由上海制皂厂老厂房改造，保留齿轮、钢架、水泥墙面",
+        "en": "Converted from Shanghai Soap Factory's old factory, retaining gears, steel frames, and concrete walls",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "庭院内有树木、地灯和支撑的树与灌木丛",
+        "en": "Courtyard with trees, ground lights, a supported tree, and shrubs",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店名‘白七’源于‘白＋七＝皂’，呼应制皂厂旧址",
+        "en": "Name 'White Seven' comes from 'white + seven = soap', referencing the former soap factory site",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日10:00-17:30",
+        "en": "Open daily 10:00–17:30",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为coffee",
+        "en": "Coffee is the top recommended item on Gaode",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "营业至17:30，非深夜办公型",
+        "en": "Closes at 5:30 PM"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "有庭院与照明，适合久坐",
+        "en": "Courtyard with lighting invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:17Z"
+}

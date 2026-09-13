@@ -1,0 +1,65 @@
+{
+  "cafeId": "kudikafei-putuoxingguangyaoguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0ab8baba28a4",
+  "raw": {
+    "headline": {
+      "zh": "主打亚洲风味果咖",
+      "en": "Asian-inspired coffee & fruit drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Signature drinks include pandan mango frappe and apple jasmine iced tea",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡豆，连三年获IIAC金奖",
+        "en": "Uses 100% Arabica beans, IIAC gold winner for three years",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐鲜气杨梅、五常米乳拿铁等新品",
+        "en": "Features fresh bayberry and Wuchang rice milk latte",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至19:00",
+        "en": "Open weekdays until 7 PM",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "多款亚洲风味特调",
+        "en": "Distinctive Asian-inspired drinks"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "为COTTI Express站喝店型",
+        "en": "Standing-bar COTTI Express format"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:55Z"
+}

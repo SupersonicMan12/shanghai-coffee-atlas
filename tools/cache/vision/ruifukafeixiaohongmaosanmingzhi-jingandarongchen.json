@@ -1,0 +1,53 @@
+{
+  "cafeId": "ruifukafeixiaohongmaosanmingzhi-jingandarongchen",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d05a7c06b8de",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5749a68e4732918d0000002350214492?type=pic",
+    "https://aos-comment.amap.com/B0M6FUZR8U/comment/20260306-e7bbaf707db3ffb1bba05c67-AYqmAZvmS688yV6f0oIHmT.jpg",
+    "https://aos-comment.amap.com/B0M6FUZR8U/comment/20260306-e7bbaf707db3ffb1bba05c67-97YAggoJeqf5xmMQHWUcko.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店名是睿福咖啡小红帽三明治，位于商场内",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供三明治，内含鸡肉、羽衣甘蓝和芝士",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供波浪薯条，配番茄酱和芝士碎",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面有大面积玻璃窗，临街可见",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有白色盘子盛放食物，桌面为石纹材质",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:44Z"
+}

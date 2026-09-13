@@ -1,0 +1,69 @@
+{
+  "cafeId": "damping-hecheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "038f9a4ac3e5",
+  "raw": {
+    "headline": {
+      "zh": "有户外座的社区咖啡馆",
+      "en": "Neighborhood cafe with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设户外折叠椅与坐垫长凳",
+        "en": "Outdoor seating with folding chairs and cushioned benches",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供Dirty、桂花拿铁等特色饮品",
+        "en": "Serves Dirty, osmanthus latte, and other specialty drinks",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应香肠芝士糕点及芝麻碱水结",
+        "en": "Offers sausage-cheese pastry and sesame pretzel",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗，室内木质桌椅",
+        "en": "Full-height street-facing windows, wooden indoor furniture",
+        "from": [
+          7,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "设有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:57Z"
+}

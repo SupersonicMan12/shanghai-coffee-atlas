@@ -1,0 +1,71 @@
+{
+  "cafeId": "shengli-zhapu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "850cc8c36619",
+  "photos": [
+    "https://aos-comment.amap.com/B0KRBHRKC0/comment/cdb03d1e3486e402d4b9a7cfb2f54791_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRBHRKC0/comment/0e08c925f61b212cfc916be6b0875024_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRBHRKC0/comment/1b445708f9a1627904a7095c9b093686_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "other",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "透明塑料杯装冰咖啡，杯身印有'VICTORY CINEMA 勝利電影院'及建筑图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "绿色纸杯堆叠在白色台面，杯身同印'勝利電影院 VICTORY CINEMA'字样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "背景为临街老式建筑墙面，有大型黑色汉字壁画（如'國'、'景'）",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图左侧可见商用磨豆机（透明豆仓内有咖啡豆）",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图中并列两杯饮品：一杯深色冰咖啡、一杯浅黄色气泡饮料",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "饮品置于木质桌面，阳光下有清晰阴影，表明为白天室外或临窗位置",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "街道背景显示为城市窄巷，两侧为多层旧式建筑，无明显绿植或河景",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.94
+    },
+    {
+      "text": "第二张图右侧可见白色公交车驶过，街道为城市普通马路",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.93
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:58Z"
+}

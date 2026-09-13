@@ -1,0 +1,92 @@
+{
+  "cafeId": "jazo-coffee-guang-middle-rd-805",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "714897770986",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆配耶椰冰美式",
+      "en": "House-roasted beans with Yeye Iced Americano"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚、肯尼亚等产地自烘豆",
+        "en": "Offers house-roasted Ethiopian and Kenyan beans",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌耶椰冰美式含椰清与果肉",
+        "en": "Signature Yeye Iced Americano with coconut water and pulp",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "售卖贝果、可颂等烘焙食品，芝芝贝果16元",
+        "en": "Sells bagels, croissants; cheese bagel ¥16",
+        "from": [
+          2,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有户外座位和临街落地窗",
+        "en": "Outdoor seating with floor-to-ceiling street-facing windows",
+        "from": [
+          1,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:30开，周末8:30开，均18:00结束",
+        "en": "Open 7:30–18:00 weekdays, 8:30–18:00 weekends",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          3,
+          4,
+          5,
+          11,
+          12
+        ],
+        "zh": "自烘豆+风味描述+特色饮品",
+        "en": "House-roasted, flavor notes, unique drinks"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          9,
+          15
+        ],
+        "zh": "有户外座且办咖啡活动",
+        "en": "Outdoor seats and coffee events"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          15
+        ],
+        "zh": "适合办公或聊天",
+        "en": "Suitable for work or chat"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:49Z"
+}

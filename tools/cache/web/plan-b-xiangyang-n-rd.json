@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "店内提供多种自烘焙咖啡豆",
+      "kind": "beans",
+      "quote": "在plan-b你可以尝试到6款不同产地国家的咖啡豆",
+      "url": "https://post.m.smzdm.com/p/a78zxmmo/",
+      "site": "什么值得买"
+    },
+    {
+      "text": "招牌饮品包括百利甜拿铁和卡美罗焦糖咖啡",
+      "kind": "drinks",
+      "quote": "百利甜拿铁 22元「百利甜拿铁」, 卡美罗焦糖咖啡 22元",
+      "url": "https://www.dianping.com/discovery/945000719",
+      "site": "大众点评网"
+    },
+    {
+      "text": "环境风格很ins，适合拍照打卡",
+      "kind": "space",
+      "quote": "整体风格很ins,拍照很出片",
+      "url": "https://www.dianping.com/discovery/945000719",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间从早上8点至晚上11点",
+      "kind": "time",
+      "quote": "⏰:08:00-23:00",
+      "url": "https://www.dianping.com/discovery/945000719",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "美食大侦探 | 今天吃什么好呢?你有PLANB吗? ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjY3MDYyNw==&mid=2930974042&idx=1&sn=e82dba45e577a7db0e87a1ae30174e08&chksm=b5bc777a5abfd574d37b0e8bd6eed9878d5530a05ca34ed710e368fa3daf8a778df339bb41d6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "不是plan B,是我永远的plan A - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/875624543",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "【挺膺担当见行动】燃动未来 智享健康——和平“青年夜校”第八季第二期活动开始啦,快来抢课! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjM0MDgyOA==&mid=2652325953&idx=1&sn=eb9eca109de456307e08fcb8f6eb43e3&chksm=bc0b89d156a0cffe69460b70fd12ac9db57aa36617344576fa0816b1faedcd910ec3809609dd&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "PLAN- B效应- Podcast - Apple Podcasts",
+      "url": "https://podcasts.apple.com/tw/podcast/plan-b%E6%95%88%E5%BA%94/id1597237787",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "澄海探店 | Plan B的意外之喜 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/945000719",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "生活总有plan-b,再忙也不差1杯咖啡的时间",
+      "url": "https://post.m.smzdm.com/p/a78zxmmo/",
+      "site_name": "什么值得买"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:08Z"
+}

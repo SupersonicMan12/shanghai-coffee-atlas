@@ -1,0 +1,81 @@
+{
+  "cafeId": "coplusde-xiangyang-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8201faef5672",
+  "raw": {
+    "headline": {
+      "zh": "自烘60+款全球豆",
+      "en": "Roasts 60+ global coffee beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘咖啡豆，产地含哥伦比亚、印尼等60余款",
+        "en": "In-house roasted beans from 60+ origins including Colombia, Indonesia",
+        "from": [
+          2,
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌拿铁用无乳糖牛奶可选",
+        "en": "Signature latte available with lactose-free milk",
+        "from": [
+          12,
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设室外座位，靠整面街窗",
+        "en": "Outdoor seating by full-height street-facing windows",
+        "from": [
+          9,
+          10,
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末早9点开，平日11点开",
+        "en": "Opens at 9am weekends, 11am weekdays",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐柠檬饮品与下午茶",
+        "en": "Recommended: lemon drinks and afternoon tea",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          9,
+          13
+        ],
+        "zh": "有室外座和吧台可久坐",
+        "en": "Outdoor and bar seating for lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          6,
+          11
+        ],
+        "zh": "自烘60+产地豆，含特色拼配",
+        "en": "60+ origin beans, house blends"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:48Z"
+}

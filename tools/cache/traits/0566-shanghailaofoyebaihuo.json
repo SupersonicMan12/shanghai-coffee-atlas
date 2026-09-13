@@ -1,0 +1,75 @@
+{
+  "cafeId": "0566-shanghailaofoyebaihuo",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f60c6c87aa50",
+  "raw": {
+    "headline": {
+      "zh": "日式简约木作甜品",
+      "en": "Japanese minimalist wood-themed pastries"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街落地窗，店内有木质桌椅可坐",
+        "en": "Floor-to-ceiling windows, wooden tables inside for seating",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "beans|drinks|food",
+        "zh": "提供埃塞俄比亚、肯尼亚产地咖啡豆",
+        "en": "Coffee beans sourced from Ethiopia and Kenya",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有木盒装柚子、芒果与奶油水果甜品",
+        "en": "Fruit desserts in wooden boxes: yuzu, mango, cream",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上9点半，周一至周日均开放",
+        "en": "Open daily until 9:30 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "有顾客用餐，非专注办公环境",
+        "en": "Customers eating, not focused work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "日常营业，有顾客，中等热闹",
+        "en": "Daily operation with customers, moderate buzz"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有座位可坐，适合停留片刻",
+        "en": "Seating available for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:28Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "taipingyangkafei-shanghaizhan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "5952d351e20d",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/content_media_external_file_367964_ss__1768873885822_92710632.jpg",
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/e4a1930cec694a5abe0be7dc82f21c26_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/d332184beaaf3eb3e99993aca6dee77c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有多个桌椅座位，顾客正在用餐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口是商场/车站大厅的公共区域，地面光洁。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "冷藏柜内有三明治、瓶装水和果汁等即食食品。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "冷藏柜上层陈列OATLY燕麦奶和Perrier气泡水。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃窗可见店内有顾客坐着，部分在看手机。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "右侧展示柜陈列有蛋糕或甜点类食品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:26Z"
+}

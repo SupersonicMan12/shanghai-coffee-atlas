@@ -1,0 +1,53 @@
+{
+  "cafeId": "kudikafei-lingkongsoho18haolou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d510579b4015",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "http://store.is.autonavi.com/showpic/9f141b67ef1a449a2e094ae29f079b43",
+    "https://aos-comment.amap.com/B0G2AOBWRJ/comment/9e3c49ab5a1e277b38d4ad612aca513d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "有杨枝甘露系列饮品，含红豆和芒果成分",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门店位于临街位置，有玻璃门和大面积窗户",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示品牌为Cotti Coffee，带有红色@标志",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品杯身印有@标志，与品牌标识一致",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "宣传图展示三种不同颜色的饮品，底部有红豆、芒果等配料",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:20Z"
+}

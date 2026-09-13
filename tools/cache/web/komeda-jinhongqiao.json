@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "招牌咖啡香气浓郁醇厚，回味带一丝甘甜",
+      "kind": "drinks",
+      "quote": "口美达的招牌咖啡堪称经典,香气浓郁醇厚,但不会过于焦苦,回味中还带着一丝甘甜。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0OTAyMw==&mid=2651675617&idx=1&sn=1d533144d92da271dbb6f62b508d09c4&chksm=8abffdc5bce1b3d0a76a58d57447fbd234477f93344d62cdda79fe59241ca057265788e3f0f1&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "上午11点前点大杯咖啡送烤吐司（配红豆沙）",
+      "kind": "food",
+      "quote": "上午11點前還送烤吐司，選了個搭配紅豆沙的。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-112177583/",
+      "site": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com"
+    },
+    {
+      "text": "装修有复古感，安静的小店，日式氛围浓",
+      "kind": "space",
+      "quote": "很安静的小店 装修很有复古感 小店给人的感觉也很日式",
+      "url": "https://m.dianping.com/discovery/782361003",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业中（截至2026年8月24日），位于金虹桥商场地下1楼LG1018室",
+      "kind": "time",
+      "quote": "KOMEDA'S COFFEE口美达咖啡(金虹桥店)位于上海市长宁区茅台路179号金虹桥商场地下1楼LG1018室",
+      "url": "https://map.360.cn/site/detail/b95caafa8c5cb60e",
+      "site": "无"
+    },
+    {
+      "text": "人均消费约¥55，评分4.0，天山咖啡热门榜第1名",
+      "kind": "story",
+      "quote": "★ ★ ★ ★ ★ 4.0 ¥55/人 天山 咖啡 天山咖啡热门榜 ·第1名",
+      "url": "https://m.dianping.com/shop/1754461593",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "KOMEDA'S COFFEE口美达咖啡(金虹桥店)",
+      "url": "https://map.360.cn/site/detail/b95caafa8c5cb60e",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "Komeda's Coffee口美达咖啡(金虹桥店)",
+      "url": "https://m.dianping.com/shop/1754461593",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "古早日式咖啡屋 不允许错过的口美达 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/782361003",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "虹桥咖啡微旅行,出发!这个初夏,一起享受“啡”比寻常的松弛感 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0OTAyMw==&mid=2651675617&idx=1&sn=1d533144d92da271dbb6f62b508d09c4&chksm=8abffdc5bce1b3d0a76a58d57447fbd234477f93344d62cdda79fe59241ca057265788e3f0f1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-112177583/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "口美达日本咖啡连锁",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d12334459-Reviews-KOMEDA_s_offee-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 7,
+      "title": "日经BP精选:日本KOMEDA’s Coffee达到1000家店,中国也有",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404941065181331478",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "Komeda's Coffee | LaLaport都市船塢豐洲",
+      "url": "https://mitsui-shopping-park.com/tw/gourmet/lalaport/toyosu/g0015000000020210/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:53Z"
+}

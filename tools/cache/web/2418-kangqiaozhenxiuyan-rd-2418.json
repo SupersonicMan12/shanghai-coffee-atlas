@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "音乐主题咖啡馆",
+      "kind": "story",
+      "quote": "安利一家小资音乐主题咖啡厅",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供冰滴咖啡",
+      "kind": "drinks",
+      "quote": "冰滴风味独特 比起普通美式味道更突出",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site": "大众点评网"
+    },
+    {
+      "text": "环境文艺又休闲",
+      "kind": "space",
+      "quote": "环境超赞 @上海笔记创作助手 @点小二",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site": "大众点评网"
+    },
+    {
+      "text": "有四层空间",
+      "kind": "space",
+      "quote": "一共有四层,1、2层是散客喝咖啡",
+      "url": "https://m.dianping.com/discovery/1552414386",
+      "site": "大众点评网"
+    },
+    {
+      "text": "适合朋友聚会和小型团建",
+      "kind": "people",
+      "quote": "3、4层承接10人左右的场地租赁",
+      "url": "https://m.dianping.com/discovery/1552414386",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供椰椰燕麦Dirty",
+      "kind": "drinks",
+      "quote": "点了一杯「椰椰燕麦Dirty」",
+      "url": "https://m.dianping.com/discovery/1552414386",
+      "site": "大众点评网"
+    },
+    {
+      "text": "位于浦东新区康桥镇秀沿路2418号",
+      "kind": "view",
+      "quote": "浦东新区康桥镇秀沿路2418号1-2层",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site": "大众点评网"
+    },
+    {
+      "text": "门口可以停车",
+      "kind": "view",
+      "quote": "门口可以停车🚗",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【魔都咖啡测评】安利一家小资音乐主题咖啡厅 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/709478744",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "来喝杯下午茶吧☕️秀沿路小资咖啡馆推荐～ - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/1552414386",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "2418 Coffee(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d17546572-Reviews-2418-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 4,
+      "title": "绝美!开在城堡里的咖啡馆!-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/news/beautiful-a-caf%C3%A9-in-a-castle-357569/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "絕美!開在城堡裡的咖啡館! - 上海 - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/beautiful-a-caf%C3%A9-opened-in-a-castle-322937/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
+      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
+      "site_name": "央广网"
+    },
+    {
+      "index": 7,
+      "title": "在上海喝一杯老咖啡，香气中深藏历史与传奇",
+      "url": "https://m.cls.cn/detail/871611",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:46Z"
+}

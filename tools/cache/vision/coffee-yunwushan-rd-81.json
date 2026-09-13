@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-yunwushan-rd-81",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c489942ee56c",
+  "photos": [
+    "https://aos-comment.amap.com/B0L26SEM86/comment/08F5E24E_7129_41B6_965F_6404214C92D2_L0_001_1500_200_1772951231247_12394648.jpg",
+    "https://aos-comment.amap.com/default_poi/comment/content_media_external_file_1000030844_ss__1759136175262_50060922.jpg",
+    "https://aos-comment.amap.com/B0L26SEM86/comment/4BB4A0FC_5376_42C8_867B_2A8D47C38C59_L0_001_1536_204_1760328601042_60458881.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "灰色墙面挂有手写‘小于一 咖啡’白牌，临街玻璃门可见室内",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "玻璃门内挂红色菱形装饰，写有‘快乐玩耍’字样",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见木质书架、绿植、黑色椅子，空间为小厅式布局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯冰咖啡置于软木杯垫上，玻璃杯盛装，含冰块与分层液体",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景书架上有书籍、黑胶唱片、一对音箱，无电脑使用者",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一台marco品牌商用热水机（显示97°/60°/15°），旁有苔藓球竹植",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙面下半部为米色瓷砖，上半部为白色涂料",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见烘焙机、手冲台、虹吸壶、磨豆机等专业咖啡器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:28Z"
+}

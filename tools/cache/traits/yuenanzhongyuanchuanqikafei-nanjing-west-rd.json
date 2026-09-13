@@ -1,0 +1,77 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-nanjing-west-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "306488dff51d",
+  "raw": {
+    "headline": {
+      "zh": "越南风味咖啡与简餐",
+      "en": "Vietnamese coffee and savory bites"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用越南邦美蜀罗布斯塔豆",
+        "en": "Uses Buon Ma Thuot Robusta beans",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为越南滴漏咖啡，有多层分层饮品",
+        "en": "Serves Vietnamese drip coffee and layered drinks",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供火车头粉、Banh Mi等越南简餐",
+        "en": "Offers pho, banh mi and Vietnamese mains",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "两层空间带独立包房",
+        "en": "Two floors with private rooms",
+        "from": [
+          4,
+          5,
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 21:30",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          11,
+          13
+        ],
+        "zh": "有包房和宽敞空间",
+        "en": "Spacious with private rooms"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9,
+          14
+        ],
+        "zh": "有鸡蛋咖啡、浅盐烤菠萝拿铁",
+        "en": "Unique drinks like egg & pineapple lattes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:52Z"
+}

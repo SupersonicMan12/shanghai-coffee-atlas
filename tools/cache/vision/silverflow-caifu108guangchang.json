@@ -1,0 +1,55 @@
+{
+  "cafeId": "silverflow-caifu108guangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "016e4565d364",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/258b481ba25397d38d5892cb23be1521"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有几张桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "空间为商场内小型咖啡店，面积不大",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后可见手冲设备和磨豆机",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上标有“贝果”字样，可能提供贝果",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有植物装饰，摆放于地面",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台上方有红色标识，可能是品牌或菜单提示",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:19:04Z"
+}

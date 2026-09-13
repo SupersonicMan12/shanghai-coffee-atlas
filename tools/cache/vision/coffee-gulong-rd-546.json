@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-gulong-rd-546",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "21ff45212e69",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6b386d6d2b4c13b3e196b1ea6d500145",
+    "https://store.is.autonavi.com/showpic/2baafb858f46bd170000003328118581?type=pic",
+    "https://store.is.autonavi.com/showpic/77936377ba667ae412f788970fe7f692"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有手冲咖啡器具和咖啡豆展示",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有咖啡豆包装盒，标注产地信息",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拉花拿铁饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有两把椅子和小桌，供室外休息",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有圆形灯饰，门内可见木质家具",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:18:01Z"
+}

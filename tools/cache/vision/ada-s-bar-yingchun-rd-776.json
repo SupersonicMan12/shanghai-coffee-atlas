@@ -1,0 +1,55 @@
+{
+  "cafeId": "ada-s-bar-yingchun-rd-776",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7b9adbb105cd",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/3e5298a8bc337e3e4ddd9b54564c8fd4"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃门和入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有红色开业促销海报",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招显示为‘Ada's Bar Café & Whisky Bar’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧相邻店铺为甜品店，招牌为‘RETOUCHERIE’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见一人站立于门口附近",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "门内灯光较暗，未见明显座位或吧台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:27Z"
+}

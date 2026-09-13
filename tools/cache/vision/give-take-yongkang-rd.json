@@ -1,0 +1,65 @@
+{
+  "cafeId": "give-take-yongkang-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8eae6ba58428",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f1fe6619b6e5f2300000002345702853?type=pic",
+    "https://aos-comment.amap.com/B0G0DCBM76/comment/b64ab897bcd2be57bc4f6c23586d6f98_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/1e7317eb85a9f8990000002355532606?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有几张折叠椅和小桌，供顾客在人行道上使用。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口立着一张海报，宣传蜂蜜卡美罗拿铁饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区旁有花箱和悬挂绿植，街道上有行人与车辆。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯冰美式放在一本打开的书上，旁边有水杯和纸片。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门为灰色金属质感，门上挂有路牌和店名标识。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃门可见店内有顾客背影，但内部空间细节不清。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "街道两旁有店铺、空调外机和悬挂花盆，环境较生活化。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:15Z"
+}

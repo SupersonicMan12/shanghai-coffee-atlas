@@ -1,0 +1,74 @@
+{
+  "cafeId": "coffee-zhongshan-n-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "59e6d1939691",
+  "raw": {
+    "headline": {
+      "zh": "数十种产地手冲豆可选",
+      "en": "Dozens of origin-specific beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供数十种不同产地风味咖啡豆",
+        "en": "Dozens of coffee beans by origin and flavor",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌冷萃「初来乍到」含山楂微酸",
+        "en": "Signature cold brew with hawthorn tartness",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有户外座位及二楼窗台景观位",
+        "en": "Outdoor seating and second-floor window seats",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:00-21:00（网页信息）",
+        "en": "Open 08:00–21:00 daily (website)",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主曾经营甜品咖啡店Pipsmile",
+        "en": "Owner previously ran Pipsmile café",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          4,
+          7
+        ],
+        "zh": "多产地手冲与处理法选项",
+        "en": "Many origins and processing methods"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "设户外与窗台景观座位",
+        "en": "Has scenic outdoor and window seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:34Z"
+}

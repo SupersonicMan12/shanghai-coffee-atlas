@@ -1,0 +1,59 @@
+{
+  "cafeId": "luckydraw-beijing-west-rd-1622",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ffed785b2579",
+  "photos": [
+    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/file_media_Photo_16868_IMG_1767062909_14014_IMG_20251230_104649_jpg_ss__1767074502845_99305338.jpg",
+    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/52dcb9c999fa20d1bdf55a1be793ece4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/0948538c9859cc05c9846f845e6a768b_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃门面，店外有行道树和马路景观。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带拉花的咖啡，如拿铁或澳白。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物是含蛋、蔬菜和芝麻的煎饼类小吃。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台式座位，空间紧凑。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "咖啡杯旁配有玻璃水杯，服务细节到位。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面位于街道边，非商场或庭院内。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:09Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "luneurs-beiwaitanlaifushiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7950e9724a10",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKL5TTN7/comment/file_media_Photo_2344_IMG_1754483542_2173_IMG_20250403_194258_jpg_ss__1765882997487_59308836.jpg",
+    "https://store.is.autonavi.com/showpic/44e4f86932c2db670000003570570921?type=pic",
+    "https://aos-comment.amap.com/B0HKL5TTN7/comment/dd3cc2de8a95c754f5825d811a9bb8d8_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有冰淇淋和咖啡饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供焦糖海盐、黑巧克力、香草等口味冰淇淋",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有特色饮品如甜梨美式、蜜桃云朵冷萃",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供意式浓缩、美式、拿铁等咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示咖啡价格20-50元，冰淇淋35-50元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于商场内，空间为小型吧台+座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有少量座位，约4-6个座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有遮阳棚和立式菜单板",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:30Z"
+}

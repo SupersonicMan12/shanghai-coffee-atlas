@@ -1,0 +1,71 @@
+{
+  "cafeId": "into-the-force-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "e9046a083463",
+  "photos": [
+    "https://aos-comment.amap.com/B0H2UUR26J/comment/24206cb2fd34de7828818a3e6e6ff8e8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H2UUR26J/comment/9e63e6c492a5858837691b34ce61859b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H2UUR26J/comment/6134FA30_AF89_4937_8F15_EB744EEB769A_L0_001_2000_150_1763080986409_84470334.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "混凝土墙面与立柱，金属网格隔断上印有'WITH SATURNBIRD COFFEE'及'原力飞行'字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "左侧墙嵌入式浅木色长条桌板，地面为深色水磨石，可见壁挂式红外取暖器",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "四杯饮品：冰美式（标'into Changsha'）、燕麦拿铁（标'Nuo Oat'）、芭乐碰（杯沿糖边+卡片说明）、一杯顶部插红色冰棒的分层咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "菜单清晰显示三类饮品：基础咖啡（如美式28元、拿铁32元）、在地飞行（如芭乐碰48元）、灵感时刻（如芒果糯米海38元）",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "菜单底部列三种咖啡豆选项：醇厚豆（肯尼亚/埃塞等）、联名限定SOE、特选豆（巴西/哥伦比亚等）",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "菜单中'芭乐碰'标注'into Minnan'，'青芒酸嘢'标注'into Guangxi'，'紫苏桃'标注'into Changsha'",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片1中无可见座位数量，仅见一个嵌入式木板桌；照片2、3未显示座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见烘焙机、手冲台、虹吸壶、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:31Z"
+}

@@ -1,0 +1,58 @@
+{
+  "cafeId": "white-zhixing-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0357676b4dce",
+  "photos": [
+    "https://aos-comment.amap.com/default_poi/comment/content_media_external_file_1000068249_ss__1743142432356_92022916.jpg",
+    "http://store.is.autonavi.com/showpic/6154b7ee0b4ad772be8c9b125756b988",
+    "http://store.is.autonavi.com/showpic/a4c3a12bd7021d58ca11519c73d8f812"
+  ],
+  "photoKinds": [
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "餐厅内部为现代简约风格，木质地板和墙面。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "主用餐区设有长桌和多排座椅，可容纳多人。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括意面和烤 salmon，摆盘精致。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐厅内有绿植装饰，提升环境氛围。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "部分餐桌配有柠檬片和紫色花朵作为装饰。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "餐厅光线充足，但未见明显窗户采光。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:42Z"
+}

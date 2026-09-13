@@ -1,0 +1,65 @@
+{
+  "cafeId": "bld-tianlin-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e57aaf08a325",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/88ef10e242a2101beb9c1777006fe328",
+    "https://aos-comment.amap.com/B0FFIZVWUX/comment/9125BB8F_FA5F_4682_8064_8A016B41CC94_L0_001_1170_987_1733325607816_96981488.jpg",
+    "http://store.is.autonavi.com/showpic/1d79cc7692599e92ec63d403a0ddb7d9"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "咖啡厅内部空间宽敞，有大理石台面和展示柜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有多款精致甜点陈列在冰盘上，包括小蛋糕和慕斯",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供华夫饼配水果、奶油和橙片的餐点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见烘焙食品和饮品制作区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "甜点摆放在圆形金属托盘中，置于冰层上保持低温",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多个圆形展示台，用于摆放食物",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "环境整洁，以现代风格为主，使用石材和金属材质",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:08Z"
+}

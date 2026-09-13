@@ -1,0 +1,70 @@
+{
+  "facts": [
+    {
+      "text": "选用云南普洱的精品咖啡豆，采用独特发酵工艺",
+      "kind": "beans",
+      "quote": "我们这儿选用的都是云南普洱的精品咖啡豆",
+      "url": "https://www.163.com/dy/article/IFB0V11M0514IGIT.html",
+      "site": "网易"
+    },
+    {
+      "text": "提供米酒咖啡、松茸咖啡等特色饮品",
+      "kind": "drinks",
+      "quote": "驿站向旅客提供米酒咖啡、松茸咖啡等特色产品",
+      "url": "https://m.sohu.com/a/905052225_265827/?pvid=000115_3w_a",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "古树+咖啡=新一代的青春守边疆 - QQ.com",
+      "url": "https://news.qq.com/rain/a/20260409A01O4800",
+      "site_name": "QQ"
+    },
+    {
+      "index": 2,
+      "title": "古树+咖啡=新一代的青春守边疆",
+      "url": "http://news.cyol.com/gb/baobao/articles/2026-04/09/content_ZvX8d2HzJl.html",
+      "site_name": "中青在线"
+    },
+    {
+      "index": 3,
+      "title": "边境线上的古树咖啡_搜狐网",
+      "url": "https://m.sohu.com/a/905052225_265827/?pvid=000115_3w_a",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "这里的咖啡,为何如此“与众不同”?文末送福利→",
+      "url": "https://www.163.com/dy/article/IFB0V11M0514IGIT.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "古树传记| 朱苦拉古咖啡群：中国咖啡的鼻祖 - 云南学习平台",
+      "url": "https://yn.xuexi.cn/local/detail.html?ae5e411fe91d6d3c1ac4def110933f4f=64fe26b23aff85c4ce7577ab769fd668&6e9d852f0075def5a5b44097c3ebecda=8a790baa1536c1606589859200baa908f7fbd4c6b2833a413f98b76ee76fe0d8&ac11f3c9ee565cedc2b7aa9b8914e5a6=f2e5d0485864df1ff4f3385ab026c7dfac7e5dad48d0db327979ccbbe0bc6bcc",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "在皖南古村喝咖啡,享百年古树佑护...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4638587246327491801",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "全球有多少种“咖啡豆”?哪种最好喝?今天全读懂,来,涨知识了 ",
+      "url": "https://post.smzdm.com/p/anv3z5q3/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 8,
+      "title": "活力无限·美味咖啡 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTkzNzE5Mw==&mid=2652960585&idx=2&sn=a56d2f345a8f2b1b16a045b02a17b233&chksm=bcefe7ddb28002a1f0d71b6e4eea3bfc817b1359de2bcb0a41379a632b7de1d93dad6436a82d&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:12Z"
+}

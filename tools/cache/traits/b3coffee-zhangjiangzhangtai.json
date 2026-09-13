@@ -1,0 +1,61 @@
+{
+  "cafeId": "b3coffee-zhangjiangzhangtai",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e0f5658f8560",
+  "raw": {
+    "headline": {
+      "zh": "168元分层咖啡配室外座",
+      "en": "¥168 layered coffee with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位和遮阳伞",
+        "en": "Outdoor seating with sun umbrellas",
+        "from": [
+          1,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品为奶咖分层，标价168元",
+        "en": "Layered milk-coffee drink priced at ¥168",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备专业磨豆机与咖啡机",
+        "en": "Equipped with professional grinders and espresso machines",
+        "from": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30-22:00营业",
+        "en": "Open daily 07:30–22:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:53Z"
+}

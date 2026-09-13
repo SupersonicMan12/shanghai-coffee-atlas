@@ -1,0 +1,37 @@
+{
+  "cafeId": "chunjinkafei-zhangjiangzhenjialilve-rd-339",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "591682390cc9",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街整面玻璃窗，视野通透",
+        "en": "Full-height street-facing windows",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至19:00，周末至16:00",
+        "en": "Open until 19:00 weekdays, 16:00 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:38:15Z"
+}

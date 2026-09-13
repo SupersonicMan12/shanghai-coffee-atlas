@@ -1,0 +1,59 @@
+{
+  "cafeId": "punchline-coffee-roaster-tongji",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "154422c12f69",
+  "photos": [
+    "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4705_IMG_1770971019_4914_IMG_20260213_162157_9a9cad5a-9991-4d65-b79b-7d737e458617_jpe_1770970959620_12331408.jpg",
+    "https://store.is.autonavi.com/showpic/725467e8b53a9d400000003813390678?type=pic",
+    "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4701_IMG_1770970988_4910_IMG_20260213_162123_ed1a8794-c909-4592-8cbc-7169cc9c6d50_jpe_1770970959631_84965427.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，临街玻璃门敞开",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见一台Rancilio品牌咖啡机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前摆放着多个卡通玩偶",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯分层冰咖啡，顶部有柠檬片",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外地面有落叶，显示秋季",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内光线明亮，但未见大面积窗户",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:09Z"
+}

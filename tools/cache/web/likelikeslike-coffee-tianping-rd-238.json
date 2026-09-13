@@ -1,0 +1,118 @@
+{
+  "facts": [
+    {
+      "text": "店内有一整面墙的咖啡相关书籍",
+      "kind": "space",
+      "quote": "室内部分有一整面的墙,摆放的全是咖啡相关的书籍",
+      "url": "https://www.dianping.com/discovery/1186567443",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供插座方便久坐办公",
+      "kind": "seating",
+      "quote": "我们店几乎每个座位下都有插座,方便每一个久坐的人",
+      "url": "https://www.toutiao.com/article/7641521476088250934/",
+      "site": "今日头条"
+    },
+    {
+      "text": "有露天小院带树荫，适合户外就座",
+      "kind": "story",
+      "quote": "门口是四方的露天小院,有树荫遮盖所以不会太热",
+      "url": "https://www.dianping.com/discovery/1186567443",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌饮品为香草荚拿铁",
+      "kind": "drinks",
+      "quote": "点了一杯招牌「香草荚拿铁」咖啡豆的香味非常浓郁",
+      "url": "https://www.dianping.com/discovery/1186567443",
+      "site": "大众点评网"
+    },
+    {
+      "text": "自制香草浆配方独特",
+      "kind": "drinks",
+      "quote": "用的是自家熬制的香草浆...最终确定了自制香草浆配方",
+      "url": "https://www.toutiao.com/article/7641521476088250934/",
+      "site": "今日头条"
+    },
+    {
+      "text": "店主友善且能聊，社区氛围浓厚",
+      "kind": "people",
+      "quote": "既有“很梧桐区”的风情,又有“很友善、很能聊”的店主",
+      "url": "https://www.toutiao.com/article/7641521476088250934/",
+      "site": "今日头条"
+    },
+    {
+      "text": "营业时间至晚上8点",
+      "kind": "time",
+      "quote": "10:00-20:00",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136049165/",
+      "site": "likelikeslike coffee悟同咖啡(上海徐家匯地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "宠物友好，欢迎携带宠物",
+      "kind": "people",
+      "quote": "寵物友善",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136049165/",
+      "site": "likelikeslike coffee悟同咖啡(上海徐家匯地區)－餐牌 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "一杯咖啡里也有“人间烟火”!上海咖啡馆突破万家后,这里出了首份软法指引",
+      "url": "https://www.toutiao.com/article/7676057464529338926/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 2,
+      "title": "天平路的夏日是梧桐绿荫 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1186567443",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "报名|青年夜校:先不管了,来杯咖啡吧!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjA2MzgxNQ==&mid=2650742293&idx=2&sn=98d409279518c335fbea65243e505e5b&chksm=86b2b461e118088498725ccb8975fe2122ee31a8578cdb241de26428fb4931d1178d87e9826b&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "一杯咖啡里也有“人间烟火”！上海咖啡馆突破万家后 - QQ News",
+      "url": "https://view.inews.qq.com/a/20260820A0C34500",
+      "site_name": "QQ"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
+      "url": "https://www.toutiao.com/article/7641521476088250934/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 6,
+      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
+      "url": "https://baijiahao.baidu.com/s?id=1865568972469618490",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "likelikeslike coffee悟同咖啡(Xujiahui District, Shanghai) - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-136049165/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "【likelikeslike coffee 悟同咖啡】电话_地址_价格_营业时间_徐家汇商 ...",
+      "url": "http://m.dianping.com/shop/710672683?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "likelikeslike coffee悟同咖啡(上海徐家匯地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136049165/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:40Z"
+}

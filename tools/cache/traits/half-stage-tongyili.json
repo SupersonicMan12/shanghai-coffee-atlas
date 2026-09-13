@@ -1,0 +1,64 @@
+{
+ "cafeId": "half-stage-tongyili",
+ "model": "qwen-max",
+ "inputDigest": "083c803b8973",
+ "raw": {
+  "headline": {
+   "zh": "天台咖啡馆，城市景观尽收眼底",
+   "en": "Rooftop cafe with a full city view"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "位于三楼天台，可俯瞰城市密集区",
+    "en": "On a 3rd-floor terrace, overlooking the city",
+    "from": "[5,7,8]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供手冲咖啡，使用Hario滤杯等器具",
+    "en": "Serves pour-over coffee with Hario equipment",
+    "from": "[2]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室内及室外均有座位",
+    "en": "Indoor and outdoor seating available",
+    "from": "[6]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间从上午10点到下午5点",
+    "en": "Open from 10 AM to 5 PM",
+    "from": "[10]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 40,
+    "from": "[8]",
+    "zh": "适合轻度工作或聊天",
+    "en": "Good for light work or chat"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[4,5,6]",
+    "zh": "较为安静的城市天台环境",
+    "en": "Quiet rooftop in urban area"
+   },
+   "linger": {
+    "value": 60,
+    "from": "[4,6]",
+    "zh": "有室内和室外座位，适合久坐",
+    "en": "Suitable for long stays"
+   },
+   "adventure": {
+    "value": 70,
+    "from": "[2,9]",
+    "zh": "提供手冲咖啡，饮品选择多样",
+    "en": "Offers diverse pour-over coffee options"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:19:41Z"
+}

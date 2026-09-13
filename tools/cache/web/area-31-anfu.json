@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "有小小的院子，这个季节坐在室外晒晒太阳还挺舒服",
+      "kind": "space",
+      "quote": "31區咖啡看起來很低調，有個小小的院子，這個季節坐在室外晒晒太陽還挺舒服的。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/area31-61285289/",
+      "site": "Area31 Coffee (上海淮海路/新天地地區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "手沖咖啡有好幾種咖啡豆可以選擇，也可以讓老闆推薦",
+      "kind": "beans",
+      "quote": "手沖咖啡有好幾種咖啡豆可以選擇，也可以讓老闆推薦。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/area31-61285289/",
+      "site": "Area31 Coffee (上海淮海路/新天地地區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "地址:上海徐汇区五原路88号",
+      "kind": "space",
+      "quote": "地址:上海徐汇区五原路88号咖啡 探店",
+      "url": "https://www.sohu.com/a/594828946_100114195",
+      "site": "搜狐网"
+    },
+    {
+      "text": "美式只要18元,奶咖23元",
+      "kind": "story",
+      "quote": "一看价格就非常社区和日常,美式只要18元,奶咖23元",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site": "网易"
+    },
+    {
+      "text": "老板是个和我年纪差不多、同样来自高雄的男主人",
+      "kind": "story",
+      "quote": "老板是个和我年纪差不多、同样来自高雄的男主人。",
+      "url": "https://weibo.com/7731500028/MgelVulWz",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Area31 Coffee (上海淮海路/新天地地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/area31-61285289/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "探店1000家之8| 上海AREA 31咖啡馆 地址:上海徐汇区五原路88号咖啡 探店",
+      "url": "https://www.sohu.com/a/594828946_100114195",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 4,
+      "title": "31区,是我住在五原路上时,几乎每天出门都会去的一间咖啡店。",
+      "url": "https://weibo.com/7731500028/MgelVulWz",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "漫步海河北岸|这里有一份咖啡清单,请查收!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4ODQ1NTA5Ng==&mid=2660748473&idx=1&sn=b1b3382fe4dbc516e6dbbfe096fb0f28&chksm=8a59804761f46270f82a030e4bac84d48886691ea1a936fab135d5b9dbac51587877ce7cd750&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "咖啡公馆31号",
+      "url": "https://baike.baidu.com/item/咖啡公馆31号/14200071",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "共话中国经济新机遇丨通讯：一杯巴拿马瑰夏见证中巴咖啡合作新图景",
+      "url": "https://www.news.cn/world/20260811/d3c4b6cde6d94928a6cf69edca715277/c.html",
+      "site_name": "新华网"
+    },
+    {
+      "index": 8,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 9,
+      "title": "关注丨3000家咖啡店扎堆贵阳!这座西南山城,凭啥火成咖啡顶流?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjQ1NTM0MA==&mid=2650661275&idx=3&sn=8f16fb6f086ec7782d0fcd5e9ae31d9d&chksm=bfc76b00f84d4a3ab065622af725d98dbc7813b86bed0dbe180706d7664e86c57558de2752dc&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:38Z"
+}

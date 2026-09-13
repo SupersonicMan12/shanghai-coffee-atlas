@@ -1,0 +1,81 @@
+{
+  "facts": [
+    {
+      "text": "前身是上海船厂修船分厂3号厂房，保留铁轨及钢架结构",
+      "kind": "space",
+      "quote": "这里曾经是上海船厂修船分厂的3号厂房,经改造成为咖啡馆,保留了原有船厂使用的铁轨及厂房的钢架结构",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site": "上海市虹口区人民政府"
+    },
+    {
+      "text": "位于杨浦滨江步道南段，江边散步歇脚地，可吹江风",
+      "kind": "view",
+      "quote": "在黄浦江边喝着咖啡吹江风",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site": "上海市虹口区人民政府"
+    },
+    {
+      "text": "周末人气更高，宠物友好店，许多人带爱宠来",
+      "kind": "people",
+      "quote": "周末的好气咖啡人气更高,这里也是宠物友好店。许多人会带自己的爱宠们来",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site": "上海市虹口区人民政府"
+    },
+    {
+      "text": "每周五、六晚有固定现场Live Show，所有工作人员都是歌手",
+      "kind": "sound",
+      "quote": "每周五和每周六晚上店內有固定的現場演出。...所有工作人員都是歌手",
+      "url": "https://www.shyp.gov.cn/shypq/myyp/20251224/496816.html",
+      "site": "上海市杨浦区人民政府"
+    },
+    {
+      "text": "主理人陈文哲是音乐人，店如‘中转站’‘驿站’，曾为跑步人士驿站",
+      "kind": "story",
+      "quote": "他是一位音樂人 也是這家店的主理人...更像是一個‘中轉站’‘驛站’...專業跑者驛站",
+      "url": "https://www.shyp.gov.cn/shypq/myyp/20251224/496816.html",
+      "site": "上海市杨浦区人民政府"
+    },
+    {
+      "text": "坚持手工制作，不以全自动环节代替，堂食送餐到桌",
+      "kind": "story",
+      "quote": "好氣咖啡不走量 不以全自動的環節代替手工...堅持堂食、送餐到桌",
+      "url": "https://www.shyp.gov.cn/shypq/myyp/20251224/496816.html",
+      "site": "上海市杨浦区人民政府"
+    },
+    {
+      "text": "营业至19:00（Young Coffee同址参考，但非本店直接信息；本店未明确营业时间）",
+      "kind": "time",
+      "quote": "☕Young Coffee 地址:共青路130号船台公园Gbox 营业时间:周二至周日 10:00-19:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MDMyOTMwOA==&mid=2650307199&idx=2&sn=a90a7d6c7a0d7c4350df8b4f9fc7bf73&chksm=8681aca51fcab4029e28a0a8dd5bcf641b87a993e5e1c4f17242a400d6a9ba5b17e16b369a77&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "好chill~在黄浦江边喝着咖啡吹江风",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site_name": "上海市虹口区人民政府"
+    },
+    {
+      "index": 2,
+      "title": "区情|在杨浦滨江,吃吃喝喝逛上一整天",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MDMyOTMwOA==&mid=2650307199&idx=2&sn=a90a7d6c7a0d7c4350df8b4f9fc7bf73&chksm=8681aca51fcab4029e28a0a8dd5bcf641b87a993e5e1c4f17242a400d6a9ba5b17e16b369a77&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡能量站",
+      "url": "https://market.cmbchina.com/MPage/online/220509174048027/btpd.html",
+      "site_name": "招商银行"
+    },
+    {
+      "index": 4,
+      "title": "下班后3小时,来杨浦夜游!",
+      "url": "https://www.shyp.gov.cn/shypq/myyp/20251224/496816.html",
+      "site_name": "上海市杨浦区人民政府"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:46Z"
+}

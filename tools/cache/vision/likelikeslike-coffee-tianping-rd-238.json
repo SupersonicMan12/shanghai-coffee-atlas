@@ -1,0 +1,71 @@
+{
+  "cafeId": "likelikeslike-coffee-tianping-rd-238",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "dc54ade4a997",
+  "photos": [
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/0c95755723094e5ecc0457cb7dc02949_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/b4bc4faab2cea3242751f0406d25b8fc_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/99cf70ee2f701b7dca8b80dfc0ee3a35_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "室外有石板座和小圆桌，室内有长条沙发座",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方墙上有手冲咖啡豆产地及价格",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台陈列多个虹吸壶和磨豆机",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃柜内有可颂、贝果等烘焙品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有人坐在沙发上，其中一人在看手机",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有黑色高脚凳，台面放着笔记本电脑",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处有垂挂绿植和白色花藤装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示美式23元、拿铁28元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:38Z"
+}

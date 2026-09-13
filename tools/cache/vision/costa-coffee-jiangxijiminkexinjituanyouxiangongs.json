@@ -1,0 +1,63 @@
+{
+  "cafeId": "costa-coffee-jiangxijiminkexinjituanyouxiangongs",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8b8c97c18702",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/bb7e181d6b9a8b86422e26ef4763ca13",
+    "http://store.is.autonavi.com/showpic/12e48bcccd30869b5021f9e080d43f87"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和点单区，为标准咖啡馆布局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗外可见街道、树木和停放车辆",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内设有桌椅，约有6-8个座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有冷藏柜，陈列饮品和食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单板上展示饮品图片及名称",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台后方可见咖啡机等设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:20:32Z"
+}

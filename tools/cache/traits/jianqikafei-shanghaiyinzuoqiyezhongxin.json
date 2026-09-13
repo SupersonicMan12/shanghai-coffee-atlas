@@ -1,0 +1,53 @@
+{
+  "cafeId": "jianqikafei-shanghaiyinzuoqiyezhongxin",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "570ffae8db28",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "小型室内店铺，无室外座位",
+        "en": "Small indoor space, no outdoor seating",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供咖啡制作设备与吧台",
+        "en": "Coffee brewing equipment and counter available",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 10:00-22:00",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "墙上挂有中文书法装饰",
+        "en": "Features Chinese calligraphy art on walls",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "无室外座位，适合短暂停留",
+        "en": "No outdoor seats, brief stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:29Z"
+}

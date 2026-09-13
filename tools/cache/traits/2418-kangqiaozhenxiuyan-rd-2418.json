@@ -1,0 +1,78 @@
+{
+  "cafeId": "2418-kangqiaozhenxiuyan-rd-2418",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3ce765f705fc",
+  "raw": {
+    "headline": {
+      "zh": "四层音乐主题咖啡馆",
+      "en": "Four-floor music-themed cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "共四层，1-2层散客区，3-4层可租",
+        "en": "Four floors; 1-2 for walk-ins, 3-4 rentable",
+        "from": [
+          12,
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰滴咖啡和椰椰燕麦Dirty",
+        "en": "Serves cold-drip and coconut oat Dirty",
+        "from": [
+          10,
+          14
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应华夫饼、水果拼盘、冰淇淋和提拉米苏",
+        "en": "Offers waffles, fruit platters, ice cream, tiramisu",
+        "from": [
+          4,
+          17
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设少量室外桌椅",
+        "en": "Has a few outdoor seats",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-19:30营业",
+        "en": "Open daily 08:00–19:30",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "多层空间适合久坐",
+        "en": "Multi-floor layout invites lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10,
+          14
+        ],
+        "zh": "有特色饮品如冰滴和Dirty",
+        "en": "Features distinctive drinks like cold-drip"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:14Z"
+}

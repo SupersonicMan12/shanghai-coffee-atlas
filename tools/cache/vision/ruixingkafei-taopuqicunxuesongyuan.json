@@ -1,0 +1,65 @@
+{
+  "cafeId": "ruixingkafei-taopuqicunxuesongyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2a05b237a550",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
+    "https://aos-comment.amap.com/B0LKTLXG6O/comment/content_media_external_file_53595_ss__1769762131027_65490253.jpg",
+    "https://store.is.autonavi.com/showpic/39d4c3c0164321470000001707292804?type=pic"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有顾客使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街角，临街玻璃门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面挂有多幅咖啡师工作照片",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡制作设备和操作台",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门店外有清洁工具和水果摊位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有电子屏幕显示促销信息",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:50Z"
+}

@@ -1,0 +1,76 @@
+{
+  "cafeId": "naomao-jinchao",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0705c7585dc4",
+  "raw": {
+    "headline": {
+      "zh": "深夜可喝手冲的石库门咖啡馆",
+      "en": "Shikumen cafe serving midnight pour-over"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业至凌晨2点（今潮8弄区域）",
+        "en": "Open until 2am in Jinchao 8 lanes",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌甜品为Naomao卡通形象芒果百香果慕斯",
+        "en": "Signature dessert: Naomao-shaped mango-passionfruit mousse",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设室外座位，配浅绿金属椅与木圆桌",
+        "en": "Outdoor seating with green metal chairs and wooden tables",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于今潮8弄石库门弄堂内",
+        "en": "Located inside Jinchao 8 shikumen lanes",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "Naomao是东京出生、爱自然与运动的白猫",
+        "en": "Naomao is a Tokyo-born white cat who loves nature and sports",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6,
+          7
+        ],
+        "zh": "有庭院式座位和绿植环绕",
+        "en": "Courtyard seating with greenery"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          16
+        ],
+        "zh": "提供深夜手冲咖啡",
+        "en": "Offers midnight pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:25Z"
+}

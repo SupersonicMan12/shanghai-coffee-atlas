@@ -1,0 +1,398 @@
+{
+  "cafeId": "xingkongkafeiting-fudandaxue",
+  "query": {
+    "location": "121.505304,31.299819",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:10:56Z",
+  "matchedPoiId": "B00155HCYW",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155HCYW/comment/3cea6685b27753ea512f5fd6201be1a9_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155HCYW/comment/10668fb511269281645d4275baec2085_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155HCYW/comment/content_media_external_file_65368_ss__1760276583112_84071926.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-55665418",
+        "id": "B00155HCYW",
+        "tag": "三明治,卡布奇诺,披萨,热饮,意大利面,堂食,提拉米苏,水果茶",
+        "entr_location": "121.505340,31.299742",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": [],
+        "atag": "三明治,卡布奇诺,披萨,热饮,意大利面,堂食,提拉米苏,水果茶",
+        "name": "星空咖啡厅(复旦大学店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "32.00",
+          "opentime2": "周一至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621745021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:16:37",
+        "website": [],
+        "address": "五角场街道邯郸路220号复旦大学光华楼1楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505306,31.299823",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFICHZQH/comment/82e88ba4c593b7126abcbe4456e3e1de_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFICHZQH/comment/4879F3ED_8E69_424B_89AD_4A9094A618E8_L0_001_1500_200_1761540307730_34237976.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a8d2aca9fe7261e76f7c3d57964c18e6"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15021889003",
+        "id": "B0FFICHZQH",
+        "tag": "单人餐",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "单人餐",
+        "name": "纽拉咖啡New Life(政民路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "215",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周五 07:00-17:00；周六至周日 10:00-17:00",
+          "rating": "4.5",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621746001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:24:16",
+        "website": [],
+        "address": "五角场政民路411-4号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505101,31.301743",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b62fa6906cbb63ad5538efb765fa0b0b"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f894a40c5eac925c04a8b27a32ef8447"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/cccece86e91cd5fde896a80397e1dfdd"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KKBCEFH9",
+        "tag": "coffee",
+        "entr_location": "121.505961,31.301956",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "Bazinga Coffee(政民路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "245",
+        "importance": [],
+        "biz_ext": {
+          "cost": "22.00",
+          "opentime2": "周一至周日 08:00-17:00",
+          "rating": "3.9",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621746001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 14:46:24",
+        "website": [],
+        "address": "五角场街道政民路308号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505961,31.301956",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;外国餐厅;西餐厅(综合风味)|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHDKHQH/comment/71665016_C06C_4811_BBCB_2C54453AD206_L0_001_671_68_1757309007989_00175716.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHDKHQH/comment/content_media_external_file_100006623_1762625829875_55496137.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHDKHQH/comment/57E7B15C_FA1F_4450_8742_FBBC42A4A378_L0_001_IMG_6033.JPG"
+          }
+        ],
+        "building": [],
+        "typecode": "050201|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65111693;021-65112276;15239831428",
+        "id": "B0FFHDKHQH",
+        "tag": "太妃焦糖芝士蛋糕,至尊海鲜焗饭,熔岩巧克力蛋糕,焗意大利肉酱面,蓝莓芝士蛋糕,金枪鱼色拉,西冷牛排套餐,现磨咖啡,伯爵茶香布丁,CHEESE蛋糕,蓝莓CHEESE,那不勒斯风味通心粉,烤牛排套餐,西冷牛排,BBQ牛排,下午茶,小蛋糕,意面,披萨,美式咖啡,薯条,烤鸡翅,牛排",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "太妃焦糖芝士蛋糕,至尊海鲜焗饭,熔岩巧克力蛋糕,焗意大利肉酱面,蓝莓芝士蛋糕,金枪鱼色拉,西冷牛排套餐,现磨咖啡,伯爵茶香布丁,CHEESE蛋糕,蓝莓CHEESE,那不勒斯风味通心粉,烤牛排套餐,西冷牛排,BBQ牛排,下午茶,小蛋糕,意面,披萨,美式咖啡,薯条,烤鸡翅,牛排",
+        "name": "夏朵餐厅(复旦店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "246",
+        "importance": [],
+        "biz_ext": {
+          "cost": "129.00",
+          "opentime2": "周一至周日 09:00-22:00",
+          "rating": "4.7",
+          "open_time": "09:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621746001",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:07:07",
+        "website": [],
+        "address": "政民路310号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505529,31.302024",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0I0RUTZ3A",
+        "tag": "陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,杨枝甘露,椰子,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,杨枝甘露,椰子,生椰拿铁",
+        "name": "瑞幸咖啡(复旦叶耀珍楼超市店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "249",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621745021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:45:55",
+        "website": [],
+        "address": "邯郸路220号复旦大学邯郸校区叶耀珍楼底商",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.505286,31.297582",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

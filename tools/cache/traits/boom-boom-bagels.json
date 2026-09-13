@@ -1,0 +1,46 @@
+{
+ "cafeId": "boom-boom-bagels",
+ "model": "qwen-max",
+ "inputDigest": "88f4ae3b9086",
+ "raw": {
+  "headline": {
+   "zh": "美式街头风，解决早餐一站式",
+   "en": "American street vibe, one-stop breakfast"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供苏打咖啡和防弹咖啡",
+    "en": "Soda and bulletproof coffee available",
+    "from": 1
+   },
+   {
+    "kind": "food",
+    "zh": "七款料足贝果三明治，如烟熏猪肩肉、鸡肉",
+    "en": "Seven loaded bagel sandwiches, e.g., pulled pork, chicken",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "美式街头风格装修，有涂鸦和藕紫色窗框",
+    "en": "American street style, graffiti, mauve window frames",
+    "from": 3
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 3,
+    "zh": "美式街头风格热闹",
+    "en": "Vibrant American street style"
+   },
+   "linger": {
+    "value": 70,
+    "from": 4,
+    "zh": "适合久坐解决早餐",
+    "en": "Good for a sit-down breakfast"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:54Z"
+}

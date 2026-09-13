@@ -1,0 +1,47 @@
+{
+  "cafeId": "starbucks-osm",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "997b83f40f87",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4",
+    "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c",
+    "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "第一张图：白色陶瓷杯，杯身有星巴克浮雕Logo，盛装焦糖玛奇朵类饮品，顶部奶泡覆焦糖网格，焦糖液沿杯壁滴落。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张图：透明玻璃杯盛装香草拿铁，奶泡表面有心形拉花，杯旁放置一捆香草荚。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图：透明玻璃杯盛装焦糖风味分层饮品（如焦糖海盐拿铁），顶部奶泡覆焦糖网格，杯身无Logo。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "三张图均为静物拍摄，未见任何人物、电脑、吧台、座位或店内环境，无法判断空间类型、座位数、采光、室外座等信息。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T16:40:36Z"
+}

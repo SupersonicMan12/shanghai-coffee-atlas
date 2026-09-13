@@ -1,0 +1,76 @@
+{
+  "cafeId": "algebraist-meiguifang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "b47e412277d8",
+  "raw": {
+    "headline": {
+      "zh": "数学系风格招牌饮品",
+      "en": "Math-themed signature drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为重瓣玫瑰布列夫，年售超65万杯",
+        "en": "Signature drink: 650k+ sold annual 'Double Bloom Rose Blev'",
+        "from": [
+          6,
+          13
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街落地窗，门口灰白条纹地砖，设A字黑板菜单架",
+        "en": "Floor-to-ceiling window front, gray-white striped floor, A-frame menu board",
+        "from": [
+          2,
+          5,
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:30，覆盖白领午休高峰",
+        "en": "Closes at 17:30, peaks during lunch break",
+        "from": [
+          9,
+          12
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "使用全球甄选咖啡豆，以数学方式演算制作方案",
+        "en": "Global beans, math-optimized brewing formula",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "午间人流密集，专注度中等",
+        "en": "Lunch rush, moderate focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "上班族集中，氛围活跃",
+        "en": "Work crowd, lively vibe"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          12
+        ],
+        "zh": "营业时间短，适合快取",
+        "en": "Short hours, quick grab"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:17Z"
+}

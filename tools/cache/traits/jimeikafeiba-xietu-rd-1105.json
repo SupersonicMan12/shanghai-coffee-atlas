@@ -1,0 +1,66 @@
+{
+  "cafeId": "jimeikafeiba-xietu-rd-1105",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b8e21cf3c719",
+  "raw": {
+    "headline": {
+      "zh": "有室外座位的社区咖啡吧",
+      "en": "Outdoor seating in a neighborhood café"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位和遮阳伞",
+        "en": "Outdoor seating with sun umbrellas",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有大型落地窗，采光良好",
+        "en": "Large floor-to-ceiling windows provide ample natural light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "店内可见烘焙机或手冲台",
+        "en": "On-site roaster or pour-over station visible",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至19:30",
+        "en": "Open Monday–Friday until 7:30 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seating supports lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          7
+        ],
+        "zh": "可见烘焙机或手冲台",
+        "en": "Roaster or pour-over station present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:11Z"
+}

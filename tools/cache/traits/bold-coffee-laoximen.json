@@ -1,0 +1,69 @@
+{
+  "cafeId": "bold-coffee-laoximen",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8dd57aefe58d",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲小馆",
+      "en": "Street-facing hand-brew spot"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，通透明亮",
+        "en": "Full street-facing glass, bright and open",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡，菜单标价清晰",
+        "en": "Offers hand-brew coffee with clear pricing",
+        "from": [
+          3,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "仅室内座位，空间较小",
+        "en": "Indoor seating only, compact space",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–17:30营业",
+        "en": "Open daily 09:30–17:30",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "空间小且无外座",
+        "en": "Compact, no outdoor seating"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "设手冲器具与特色饮品",
+        "en": "Hand-brew setup and specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:14Z"
+}

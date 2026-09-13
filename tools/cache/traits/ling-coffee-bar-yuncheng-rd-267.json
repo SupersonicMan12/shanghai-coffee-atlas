@@ -1,0 +1,68 @@
+{
+  "cafeId": "ling-coffee-bar-yuncheng-rd-267",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "eea2e430b097",
+  "raw": {
+    "headline": {
+      "zh": "手冲印尼林东豆",
+      "en": "Hand-brewed Lintong coffee"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用印尼林东产地咖啡豆",
+        "en": "Uses Indonesia Lintong beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡配蓝釉陶碗与枫叶装饰",
+        "en": "Served in blue-glazed bowl with maple leaf",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设少量木质桌椅",
+        "en": "Few outdoor wooden tables and chairs",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–19:00营业",
+        "en": "Open daily 09:30–19:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "手冲配特色器皿与产地豆",
+        "en": "Hand-brew with distinct vessel"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7,
+          9
+        ],
+        "zh": "有室外座位与自然风格",
+        "en": "Outdoor seating, cozy interior"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:47Z"
+}

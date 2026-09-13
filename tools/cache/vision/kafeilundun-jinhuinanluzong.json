@@ -1,0 +1,65 @@
+{
+  "cafeId": "kafeilundun-jinhuinanluzong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b39372964fbb",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/7778fdc8ebe9f148619fbb66469fa2a8",
+    "http://store.is.autonavi.com/showpic/03df36d61c49e050549e9326e53051c3",
+    "https://store.is.autonavi.com/showpic/a2f61d680129ea490000002989666398?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "饮品有拉花艺术，呈现叶子图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有红色遮阳伞和户外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡和冰拿铁等冷饮",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街建筑，有大型招牌和钟表",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见砖墙装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示提供咖啡、茶、啤酒、披萨、华夫饼、意大利面",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有人在店内手持饮品，表明营业中",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:49Z"
+}

@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "使用自烘豆工厂的咖啡豆",
+      "kind": "beans",
+      "quote": "拥有自烘豆工厂的黑羊咖啡",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26648097",
+      "site": "澎湃新闻"
+    },
+    {
+      "text": "提供多种精品阿拉比卡豆",
+      "kind": "beans",
+      "quote": "所有均为精品阿拉比卡豆",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网"
+    },
+    {
+      "text": "有重瓣玫瑰拿铁等特色饮品",
+      "kind": "drinks",
+      "quote": "重瓣玫瑰拿铁. ¥10 7 Recommend",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "营业时间至18:00",
+      "kind": "time",
+      "quote": "周一至周日09:00～18:00",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26648097",
+      "site": "澎湃新闻"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海漕河泾店已营业～gogogo喝咖啡喽 #咖啡#miiixcoffee#小成本创业 #咖啡创业 #裸辞创业 ",
+      "url": "https://post.smzdm.com/zz/p/aog45lzm/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 2,
+      "title": "淮海中路，上海的“咖啡集散大道” - 澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_26648097",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 3,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Miiix Coffee (Shangpu Road Shop) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "miiix coffee苏河湾店 - 途牛",
+      "url": "https://m-p.tuniu.com/restaurant/10178140/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "miiix Coffee (Caohejing Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118810884807104&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "【miiix coffee(宝山上大店)】电话_地址_价格_营业时间_上海大学 ...",
+      "url": "http://m.dianping.com/shop/1294652891?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:37Z"
+}

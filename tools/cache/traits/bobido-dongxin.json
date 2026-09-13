@@ -1,0 +1,73 @@
+{
+  "cafeId": "bobido-dongxin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "dd94bd3a8462",
+  "raw": {
+    "headline": {
+      "zh": "现做包子配奶咖",
+      "en": "Steamed buns meet milk coffee"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌奶油布丁26元",
+        "en": "Signature cream pudding for ¥26",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "超级奶拿铁26元",
+        "en": "Super Milk Latte for ¥26",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有两层舒适空间",
+        "en": "Two comfortable floors inside",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "2楼设明档可看师傅搓包",
+        "en": "Watch bakers knead buns on floor 2",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–21:00营业",
+        "en": "Open daily 08:30–21:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "两层舒适空间适合久坐",
+        "en": "Comfortable two-floor space"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "包子与布里欧修融合",
+        "en": "Bao meets brioche concept"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:32Z"
+}

@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "text": "没有菜单，主打手冲流水席形式",
+      "kind": "drinks",
+      "quote": "店里没有菜单,老板却发明了一种叫“手冲流水席”的喝法",
+      "url": "https://www.dianping.com/discovery/848823246",
+      "site": "大众点评网"
+    },
+    {
+      "text": "墙上有各种豆袋，手冲豆包装显示品质有保证",
+      "kind": "beans",
+      "quote": "手冲豆光看包装就知道品质有保证,墙上的各种豆袋,琳琅满目",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=b18cbe8f41a29687be4842ed&third_party=zr",
+      "site": "百度地图"
+    },
+    {
+      "text": "有门口小院子，客人可在门口小院子稍事休息",
+      "kind": "space",
+      "quote": "安排我们在门口小院子稍事休息",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=b18cbe8f41a29687be4842ed&third_party=zr",
+      "site": "百度地图"
+    },
+    {
+      "text": "老板是东北人，爱热闹、能唠嗑，有脱口秀潜质",
+      "kind": "story",
+      "quote": "老板爱热闹,能唠嗑,是个东北人...老板还具有脱口秀潜质",
+      "url": "https://www.dianping.com/discovery/848823246",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业至深夜，被称为上海“深夜食堂”",
+      "kind": "time",
+      "quote": "被称为上海“深夜食堂”的咖啡馆",
+      "url": "https://www.dianping.com/discovery/848823246",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "RIGHT HERE RIGHT NOW来喝来闹(静安店)",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=b18cbe8f41a29687be4842ed&third_party=zr",
+      "site_name": "百度地图"
+    },
+    {
+      "index": 2,
+      "title": "被称为上海“深夜食堂”的咖啡馆,到底有多好玩? - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/848823246",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡馆私藏清单| 咖啡馆数量全球第一，上海当之无愧！",
+      "url": "https://zhuanlan.zhihu.com/p/490079892",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "古韵新声|“读城”新入口：红墙黄瓦间的一杯咖啡 - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33981868",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "上海有9000家咖啡馆,这是我们最爱的20家|2025年度榜单 ",
+      "url": "https://www.sohu.com/a/984538328_113612",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:46:36Z"
+}

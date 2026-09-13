@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "咖啡师根据顾客口味推荐浅烘焙或深烘焙的豆子",
+      "kind": "beans",
+      "quote": "咖啡师根据顾客口味推荐浅烘焙或深烘焙的豆子",
+      "url": "http://m.winshang.com/pp486712.html",
+      "site": "THE BOUNDLESS WAY CAFE_简介_电话_门店分布 - 赢商网"
+    },
+    {
+      "text": "招牌饮品包括DIRTY、热红酒、手冲咖啡盲盒、冷萃咖啡",
+      "kind": "drinks",
+      "quote": "DIRTY(13) · 热红酒(8) · 手冲咖啡盲盒 · 冷萃咖啡(5)",
+      "url": "https://www.dianping.com/shop/126090562/photos",
+      "site": "THE BOUNDLESS WAY CAFE 缤物咖啡-图片-上海-大众点评网"
+    },
+    {
+      "text": "招牌食物有法式肉桂卷、巧克力软曲奇、岩焗芝士吐司",
+      "kind": "food",
+      "quote": "法式肉桂卷(4) · 巧克力软曲奇 · 岩焗芝士吐司",
+      "url": "https://www.dianping.com/shop/126090562/photos",
+      "site": "THE BOUNDLESS WAY CAFE 缤物咖啡-图片-上海-大众点评网"
+    },
+    {
+      "text": "装修风格简约时尚，以大地色系为主色调，搭配木质元素",
+      "kind": "space",
+      "quote": "装修风格简约而不失时尚，以大地色系为主色调，搭配木质",
+      "url": "http://m.winshang.com/pp486712.html",
+      "site": "THE BOUNDLESS WAY CAFE_简介_电话_门店分布 - 赢商网"
+    },
+    {
+      "text": "白胡子伯爵饮品层次感明显，安佳奶油会慢慢化进咖啡里",
+      "kind": "drinks",
+      "quote": "白胡子伯爵 层次感明显,安佳奶油会慢慢化进咖啡里的",
+      "url": "https://www.dianping.com/discovery/849154328",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "THE BOUNDLESS WAY CAFE 缤物咖啡-图片-上海-大众点评网",
+      "url": "https://www.dianping.com/shop/126090562/photos",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "THE BOUNDLESS WAY CAFE_简介_电话_门店分布 - 赢商网",
+      "url": "http://m.winshang.com/pp486712.html",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "火爆!魔都这些咖啡店,去了几次都不够 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/849154328",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "米香得体- THE BOUNDLESS WAY CAFE 缤物咖啡-菜 - 大众点评",
+      "url": "https://www.dianping.com/shop/H7gr1ia2w61F6aLm/photos/tag-%E8%8F%9C-%E7%B1%B3%E9%A6%99%E5%BE%97%E4%BD%93",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "THE BOUNDLESS WAY CAFE 缤物咖啡-菜图片-上海 - 大众点评",
+      "url": "https://www.dianping.com/shop/H7gr1ia2w61F6aLm/photos/tag-%E8%8F%9C?pg=31",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "THE BOUNDLESS WAY Cafe in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118368856333272&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:58Z"
+}

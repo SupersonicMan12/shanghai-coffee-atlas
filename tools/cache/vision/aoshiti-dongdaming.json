@@ -1,0 +1,71 @@
+{
+  "cafeId": "aoshiti-dongdaming",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "032627c9da3b",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1RXFOM3/comment/c03fd500bfe4f71f8fec933646442c9c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOM3/comment/8d4c23859f5e231c784fa259e2797288_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOM3/comment/075bb63be2fe75acb4f8ec4439bd323c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "一张桌上放着一杯冰咖啡（分层，含冰块与奶）和一块巧克力蛋糕配叉子。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台为灰色石材质感，上方两层金属架悬挂大量绿萝盆栽，有环形吊灯。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方可见白色Kaffa意式咖啡机、磨豆机、手冲壶及多只杯具。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中一名穿围裙的店员在吧台后操作，吧台面有芦荟盆栽与黄色警示牌。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "天花板为金属网格吊顶，装有多组轨道射灯；墙面为浅灰水泥质感。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "第一张图桌面为双色拼接金属台面（浅金+深灰），背景有金属圆柱桌腿与黑色凳子。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.94
+    },
+    {
+      "text": "第二张图左侧有玻璃展示柜，内有包装食品；前方立一黑板菜单，字迹部分可辨但价格/品名不清。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见落地窗、临街玻璃、室外座位、书架、宠物或明确标示的豆子产地与价格。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:21Z"
+}

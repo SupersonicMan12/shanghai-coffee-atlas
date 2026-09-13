@@ -1,0 +1,67 @@
+{
+  "cafeId": "sanlifangkafei-guojiakaifayinhangdasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c3b0c2226482",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/54faa77677230e4a9c162ad62aaeb33e"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内为吧台式空间，无明显座位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见磨豆机和咖啡制作设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有两台显示屏",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "墙面为金属材质，整体风格现代简约",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域有水槽和清洗设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见烘焙机或手冲台等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无可见的饮品、食物或菜单",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无人员在场，未见使用电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:20:12Z"
+}

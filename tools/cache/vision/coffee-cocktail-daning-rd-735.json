@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-cocktail-daning-rd-735",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "83eb54e602d1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d28d7704d14162ff21a0c40765610800",
+    "http://store.is.autonavi.com/showpic/e44cc5095a8bfc6633d4d9e047b61693",
+    "https://store.is.autonavi.com/showpic/932a57c8bc1dbd82f2789eebfd63af74"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有台阶和玻璃门入口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有绿植装饰，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域，有咖啡制作设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口立牌展示饮品图片，为冰咖啡类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招显示为‘鹿鸣 coffee&cocktail’，提供咖啡与鸡尾酒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见挂帘遮挡部分区域，空间较小",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有桌椅摆放，座位数量有限",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "拍摄时间为白天，自然光照入店内",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:23Z"
+}

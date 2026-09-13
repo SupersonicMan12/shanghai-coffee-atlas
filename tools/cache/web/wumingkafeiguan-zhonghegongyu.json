@@ -1,0 +1,55 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "无名咖啡馆- 图书- 豆瓣",
+      "url": "https://m.douban.com/book/subject/37180799/",
+      "site_name": "豆瓣"
+    },
+    {
+      "index": 2,
+      "title": "无名咖啡馆 - 微信读书",
+      "url": "https://weread.qq.com/web/bookDetail/13d329b0811e81fe2g015b57",
+      "site_name": "QQ"
+    },
+    {
+      "index": 3,
+      "title": "《无名咖啡馆》：慰藉人生的小故事 - 新京报",
+      "url": "https://m.bjnews.com.cn/detail/1749783237168948.html",
+      "site_name": "新京报"
+    },
+    {
+      "index": 4,
+      "title": "西达摩咖啡豆",
+      "url": "https://baike.baidu.com/item/西达摩咖啡豆/68549945",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "文| 园长 编 | 陈梅希 黑龙江的蔓越莓、崇明岛的藏红花、甘肃的",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404990417677451347",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "华侨漂洋过海带回来的咖啡,“无中生有”长出一条产业链",
+      "url": "http://www.qb.gd.gov.cn/jrqx/content/post_1329410.html",
+      "site_name": "广东侨网"
+    },
+    {
+      "index": 8,
+      "title": "咖啡产地及如何鉴赏评价- 一抹夏忧   - 博客园",
+      "url": "https://www.cnblogs.com/web-record/p/10477913.html",
+      "site_name": "博客园"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:31Z"
+}

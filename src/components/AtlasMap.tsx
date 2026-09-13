@@ -3,23 +3,42 @@ import {
   useCallback,
   useEffect,
   useImperativeHandle,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
+  type KeyboardEvent as ReactKeyboardEvent,
   type PointerEvent as ReactPointerEvent,
-  type WheelEvent as ReactWheelEvent,
   type Ref,
 } from 'react'
 import type { Cafe, Crawl } from '../data/types'
 import type { Anchor } from '../lib/near'
 import { LINE_COLOR } from '../data/metro'
 import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project, walkingMinutes, haversine } from '../lib/projection'
-import { sketch } from '../lib/hand'
-import { BaseLayers } from './BaseLayers'
+import { blot, numerals, pennant, sketch } from '../lib/hand'
+import { BaseLayers, BaseRaster } from './BaseLayers'
+import { paletteHost, readBasemapColors, sameColors, type BasemapColors } from '../lib/basemapColors'
 import { Glyph } from './Glyphs'
 import { UI } from '../data/labels'
 import { useI18n, type LangMode } from '../lib/i18n'
 import { displayNames } from '../lib/names'
+import { detailFor } from '../lib/details'
+import {
+  bucketK,
+  clamp,
+  clusterQuiet,
+  isQuietPin,
+  labelSet,
+  layoutFor,
+  pinRadius,
+  basePinRadius,
+  QUIET_R,
+  strengthOf,
+  tierOf,
+  type Density,
+  type Layout,
+  type Tier,
+} from '../lib/pins'
 
 export interface View {
   x: number
@@ -29,6 +48,16 @@ export interface View {
 
 const MIN_K = 0.85
 const MAX_K = 7
+
+/** Pointer travel (CSS px) before a press stops being a tap and becomes a drag. */
+const DRAG_PX = 6
+const DOUBLE_TAP_MS = 320
+const DOUBLE_TAP_PX = 24
+const WHEEL_SETTLE_MS = 90
+const KINETIC_DECAY = 0.92
+const KINETIC_STOP_PX = 0.05
+const WHEEL_LERP = 0.25
+const RUBBER = 0.32
 
 export interface AtlasHandle {
   focusOn: (lng: number, lat: number, k?: number) => void
@@ -40,6 +69,8 @@ interface Props {
   cafes: Cafe[]
   scores: Map<string, number>
   compassOn: boolean
+  /** The compass's top picks, in order. Derived from `scores` when absent. */
+  topIds?: string[]
   selectedId: string | null
   onSelect: (id: string | null) => void
   visited: Set<string>
@@ -53,42 +84,135 @@ interface Props {
   handleRef?: Ref<AtlasHandle>
 }
 
-function clamp(v: number, lo: number, hi: number) {
-  return Math.max(lo, Math.min(hi, v))
+/** How the paper sits in the stage: base scale and centring offset, in CSS px. */
+interface Metrics {
+  s0: number
+  offX: number
+  offY: number
+  w: number
+  h: number
+  left: number
+  top: number
 }
 
-export function isQuietPin(
-  k: number,
-  cafe: Cafe,
-  strength: number | null,
-  active: boolean,
-  inCrawl: boolean,
-): boolean {
-  return (
-    cafe.source === 'imported' &&
-    k < 1.8 &&
-    !active &&
-    !(strength !== null && strength > 0.82) &&
-    !inCrawl
-  )
+interface Rect {
+  left: number
+  top: number
+  right: number
+  bottom: number
 }
 
-export function pinRadius(
-  k: number,
-  cafe: Cafe,
-  strength: number | null,
-  active: boolean,
-  inCrawl: boolean,
-): number {
-  const base = k < 1.3 ? 7 : k < 2.4 ? 7 + ((k - 1.3) / 1.1) * 4 : 11
-  if (isQuietPin(k, cafe, strength, active, inCrawl)) return 3.2
-  return base + (strength === null ? 1 : strength * 5)
+function measure(el: HTMLElement): Metrics {
+  const r = el.getBoundingClientRect()
+  const w = el.clientWidth || r.width
+  const h = el.clientHeight || r.height
+  const s0 = Math.max(w / PAPER_WIDTH, h / PAPER_HEIGHT) || 1
+  return {
+    s0,
+    offX: (w - PAPER_WIDTH * s0) / 2,
+    offY: (h - PAPER_HEIGHT * s0) / 2,
+    w,
+    h,
+    left: r.left,
+    top: r.top,
+  }
+}
+
+/** The view that shows the whole sheet, centred, with a hair of margin. */
+function wholeSheet(m: Metrics): View {
+  const k = Math.max(MIN_K, (Math.min(m.w / PAPER_WIDTH, m.h / PAPER_HEIGHT) / m.s0) * 0.98)
+  return { k, x: (PAPER_WIDTH * (1 - k)) / 2, y: (PAPER_HEIGHT * (1 - k)) / 2 }
+}
+
+/** The part of user space (paper at k=1) currently on screen. */
+function visibleRect(m: Metrics): Rect {
+  return {
+    left: -m.offX / m.s0,
+    top: -m.offY / m.s0,
+    right: (m.w - m.offX) / m.s0,
+    bottom: (m.h - m.offY) / m.s0,
+  }
+}
+
+function zoomAbout(v: View, k: number, ux: number, uy: number): View {
+  return { k, x: ux - ((ux - v.x) / v.k) * k, y: uy - ((uy - v.y) / v.k) * k }
+}
+
+/** Where the paper is allowed to sit: never off the stage, centred when smaller than it. */
+function clampView(v: View, vis: Rect): View {
+  const w = PAPER_WIDTH * v.k
+  const h = PAPER_HEIGHT * v.k
+  const vw = vis.right - vis.left
+  const vh = vis.bottom - vis.top
+  const x = w >= vw ? clamp(v.x, vis.right - w, vis.left) : clamp(v.x, vis.left, vis.right - w)
+  const y = h >= vh ? clamp(v.y, vis.bottom - h, vis.top) : clamp(v.y, vis.top, vis.bottom - h)
+  return { k: v.k, x, y }
+}
+
+/** Soft resistance past the edge while a finger is still down. */
+function rubber(v: View, vis: Rect): View {
+  const c = clampView(v, vis)
+  return {
+    k: v.k,
+    x: c.x + (v.x - c.x) * RUBBER,
+    y: c.y + (v.y - c.y) * RUBBER,
+  }
+}
+
+function easeInOut(t: number): number {
+  return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2
+}
+
+function sameView(a: View, b: View): boolean {
+  return Math.abs(a.x - b.x) < 0.01 && Math.abs(a.y - b.y) < 0.01 && Math.abs(a.k - b.k) < 0.0001
+}
+
+function prefersReducedMotion(): boolean {
+  return typeof matchMedia !== 'undefined' && matchMedia('(prefers-reduced-motion: reduce)').matches
+}
+
+function hoverCapable(): boolean {
+  return typeof matchMedia !== 'undefined' && matchMedia('(hover: hover) and (pointer: fine)').matches
+}
+
+interface Fly {
+  from: View
+  to: View
+  t0: number
+  dur: number
+}
+
+interface Motion {
+  fly: Fly | null
+  /** Eased wheel zoom: where we are heading and the user-space point held still. */
+  targetK: number | null
+  ax: number
+  ay: number
+  lastWheel: number
+  /** Kinetic pan, user units per frame. */
+  vx: number
+  vy: number
+  raf: number
+}
+
+interface Gesture {
+  x: number
+  y: number
+  k: number
+  cx: number
+  cy: number
+  dist: number
+  moved: boolean
+  captured: number | null
+  /** Centroid samples (user units) for the release velocity. */
+  trail: { t: number; x: number; y: number }[]
 }
 
 export function AtlasMap({
   cafes,
   scores,
   compassOn,
+  topIds,
   selectedId,
   onSelect,
   visited,
@@ -101,76 +225,286 @@ export function AtlasMap({
   onDropPin,
   handleRef,
 }: Props) {
-  const svgRef = useRef<SVGSVGElement | null>(null)
+  const stageRef = useRef<HTMLDivElement | null>(null)
+  const sheetRef = useRef<HTMLDivElement | null>(null)
   const [view, setView] = useState<View>({ x: 0, y: 0, k: 1 })
   const [hovered, setHovered] = useState<string | null>(null)
-  const viewRef = useRef(view)
-  useEffect(() => {
-    viewRef.current = view
-  }, [view])
+  const [colors, setColors] = useState<BasemapColors | null>(null)
+  const [rasterReady, setRasterReady] = useState(false)
+  const { mode, t } = useI18n()
 
-  // Multi-pointer gesture state: one finger pans, two fingers pinch-zoom.
+  /** The view painted on screen right now; React's `view` trails it by one gesture. */
+  const cur = useRef<View>(view)
+  const metrics = useRef<Metrics>({
+    s0: 1,
+    offX: 0,
+    offY: 0,
+    w: PAPER_WIDTH,
+    h: PAPER_HEIGHT,
+    left: 0,
+    top: 0,
+  })
+  const motion = useRef<Motion>({
+    fly: null,
+    targetK: null,
+    ax: 0,
+    ay: 0,
+    lastWheel: 0,
+    vx: 0,
+    vy: 0,
+    raf: 0,
+  })
   const ptrs = useRef(new Map<number, { x: number; y: number }>())
-  const gesture = useRef<{
-    x: number
-    y: number
-    k: number
-    cx: number
-    cy: number
-    dist: number
-    moved: boolean
-  } | null>(null)
+  const gesture = useRef<Gesture | null>(null)
   const suppressClick = useRef(false)
+  const lastTap = useRef<{ t: number; x: number; y: number } | null>(null)
+  const reduced = useRef(false)
+  const canHover = useRef(false)
+  const onSelectRef = useRef(onSelect)
+  /** Stage geometry mirrored into state for the few things React lays out (the tooltip). */
+  const [stageBox, setStageBox] = useState<Metrics | null>(null)
+
+  useEffect(() => {
+    onSelectRef.current = onSelect
+  }, [onSelect])
+
+  useEffect(() => {
+    reduced.current = prefersReducedMotion()
+    canHover.current = hoverCapable()
+  }, [])
+
+  // ------------------------------------------------------------ transform ---
+
+  // The sheet transform is driven through a paused Web Animation: an inline
+  // style write makes Blink re-layerize every paint chunk under the sheet
+  // (thousands of pins) per frame; a keyframe update only touches the
+  // compositor transform node.
+  const sheetAnim = useRef<Animation | null>(null)
+
+  const apply = useCallback((v: View) => {
+    const sheet = sheetRef.current
+    if (!sheet) return
+    const m = metrics.current
+    const transform = `translate(${(m.offX + v.x * m.s0).toFixed(2)}px, ${(m.offY + v.y * m.s0).toFixed(2)}px) scale(${(v.k * m.s0).toFixed(5)})`
+    if (typeof sheet.animate !== 'function') {
+      sheet.style.transform = transform
+      return
+    }
+    const a = sheetAnim.current
+    if (a && a.effect instanceof KeyframeEffect) {
+      a.effect.setKeyframes([{ transform }, { transform }])
+      return
+    }
+    const created = sheet.animate([{ transform }, { transform }], { duration: 1000, fill: 'both' })
+    created.pause()
+    sheetAnim.current = created
+  }, [])
+
+  useEffect(
+    () => () => {
+      sheetAnim.current?.cancel()
+      sheetAnim.current = null
+    },
+    [],
+  )
+
+  const setGesturing = useCallback((on: boolean) => {
+    const sheet = sheetRef.current
+    if (!sheet) return
+    if (on === ('gesturing' in sheet.dataset)) return
+    if (on) sheet.dataset.gesturing = ''
+    else delete sheet.dataset.gesturing
+  }, [])
+
+  const commit = useCallback(() => {
+    setGesturing(false)
+    const v = cur.current
+    setView((prev) => (sameView(prev, v) ? prev : v))
+  }, [setGesturing])
 
   const toUser = useCallback((clientX: number, clientY: number): [number, number] => {
-    const svg = svgRef.current
-    if (!svg) return [0, 0]
-    const ctm = svg.getScreenCTM()
-    if (!ctm) return [0, 0]
-    const pt = new DOMPoint(clientX, clientY).matrixTransform(ctm.inverse())
-    return [pt.x, pt.y]
+    const m = metrics.current
+    return [(clientX - m.left - m.offX) / m.s0, (clientY - m.top - m.offY) / m.s0]
   }, [])
+
+  const stopMotion = useCallback(() => {
+    const m = motion.current
+    m.fly = null
+    m.targetK = null
+    m.vx = 0
+    m.vy = 0
+  }, [])
+
+  const schedule = useCallback(() => {
+    if (motion.current.raf) return
+    motion.current.raf = requestAnimationFrame(function frame() {
+      const m = motion.current
+      m.raf = 0
+      if (gesture.current) {
+        apply(cur.current)
+        return
+      }
+      const now = performance.now()
+      let v = cur.current
+      let busy = false
+      const vis = visibleRect(metrics.current)
+
+      if (m.fly) {
+        const t = clamp((now - m.fly.t0) / m.fly.dur, 0, 1)
+        const e = easeInOut(t)
+        const { from, to } = m.fly
+        const k = from.k * Math.pow(to.k / from.k, e)
+        const fcx = (PAPER_WIDTH / 2 - from.x) / from.k
+        const fcy = (PAPER_HEIGHT / 2 - from.y) / from.k
+        const tcx = (PAPER_WIDTH / 2 - to.x) / to.k
+        const tcy = (PAPER_HEIGHT / 2 - to.y) / to.k
+        const cx = fcx + (tcx - fcx) * e
+        const cy = fcy + (tcy - fcy) * e
+        v = { k, x: PAPER_WIDTH / 2 - cx * k, y: PAPER_HEIGHT / 2 - cy * k }
+        if (t >= 1) {
+          v = to
+          m.fly = null
+        } else busy = true
+      } else {
+        if (m.targetK !== null) {
+          const close = Math.abs(m.targetK - v.k) < 0.0015
+          const nk = close ? m.targetK : v.k + (m.targetK - v.k) * WHEEL_LERP
+          v = zoomAbout(v, nk, m.ax, m.ay)
+          if (close) m.targetK = null
+          else busy = true
+        }
+        if (now - m.lastWheel < WHEEL_SETTLE_MS) busy = true
+
+        if (m.vx !== 0 || m.vy !== 0) {
+          v = { k: v.k, x: v.x + m.vx, y: v.y + m.vy }
+          m.vx *= KINETIC_DECAY
+          m.vy *= KINETIC_DECAY
+          if (Math.hypot(m.vx, m.vy) * metrics.current.s0 < KINETIC_STOP_PX) {
+            m.vx = 0
+            m.vy = 0
+          } else busy = true
+        }
+
+        const c = clampView(v, vis)
+        const dx = c.x - v.x
+        const dy = c.y - v.y
+        if (dx !== 0 || dy !== 0) {
+          if (dx !== 0) m.vx = 0
+          if (dy !== 0) m.vy = 0
+          if (reduced.current || Math.abs(dx) + Math.abs(dy) < 0.5 / metrics.current.s0) {
+            v = c
+          } else {
+            v = { k: v.k, x: v.x + dx * 0.22, y: v.y + dy * 0.22 }
+            busy = true
+          }
+        }
+      }
+
+      cur.current = v
+      apply(v)
+      if (busy) m.raf = requestAnimationFrame(frame)
+      else commit()
+    })
+  }, [apply, commit])
+
+  useEffect(() => {
+    const m = motion.current
+    if (m.fly || m.targetK !== null || m.vx || m.vy) schedule()
+    return () => {
+      if (m.raf) cancelAnimationFrame(m.raf)
+      m.raf = 0
+    }
+  }, [schedule])
+
+  const flyTo = useCallback(
+    (to: View, baseMs: number, maxMs = baseMs) => {
+      const from = cur.current
+      to = clampView({ ...to, k: clamp(to.k, MIN_K, MAX_K) }, visibleRect(metrics.current))
+      gesture.current = null
+      ptrs.current.clear()
+      stopMotion()
+      if (reduced.current || sameView(from, to)) {
+        cur.current = to
+        apply(to)
+        commit()
+        return
+      }
+      const m = metrics.current
+      const fcx = (PAPER_WIDTH / 2 - from.x) / from.k
+      const fcy = (PAPER_HEIGHT / 2 - from.y) / from.k
+      const tcx = (PAPER_WIDTH / 2 - to.x) / to.k
+      const tcy = (PAPER_HEIGHT / 2 - to.y) / to.k
+      const travel = Math.hypot(tcx - fcx, tcy - fcy) * Math.max(from.k, to.k) * m.s0
+      const zoom = Math.abs(Math.log(to.k / from.k))
+      const dur = clamp(baseMs + travel * 0.12 + zoom * 90, baseMs, maxMs)
+      motion.current.fly = { from, to, t0: performance.now(), dur }
+      setGesturing(true)
+      schedule()
+    },
+    [apply, commit, schedule, setGesturing, stopMotion],
+  )
 
   useImperativeHandle(
     handleRef,
     () => ({
       focusOn(lng, lat, k = 3.4) {
         const [px, py] = project(lng, lat)
-        setView({ k, x: PAPER_WIDTH / 2 - px * k, y: PAPER_HEIGHT / 2 - py * k })
+        flyTo({ k, x: PAPER_WIDTH / 2 - px * k, y: PAPER_HEIGHT / 2 - py * k }, 480, 640)
       },
       reset() {
-        setView({ x: 0, y: 0, k: 1 })
+        flyTo(wholeSheet(metrics.current), 480, 640)
       },
       zoomBy(factor) {
-        setView((v) => {
-          const k = clamp(v.k * factor, MIN_K, MAX_K)
-          const cx = PAPER_WIDTH / 2
-          const cy = PAPER_HEIGHT / 2
-          return {
-            k,
-            x: cx - ((cx - v.x) / v.k) * k,
-            y: cy - ((cy - v.y) / v.k) * k,
-          }
-        })
+        const v = cur.current
+        flyTo(zoomAbout(v, clamp(v.k * factor, MIN_K, MAX_K), PAPER_WIDTH / 2, PAPER_HEIGHT / 2), 300)
       },
     }),
-    [],
+    [flyTo],
   )
 
-  const onWheel = useCallback(
-    (e: ReactWheelEvent<SVGSVGElement>) => {
-      const [ux, uy] = toUser(e.clientX, e.clientY)
-      setView((v) => {
-        const k = clamp(v.k * Math.exp(-e.deltaY * 0.0016), MIN_K, MAX_K)
-        return {
-          k,
-          x: ux - ((ux - v.x) / v.k) * k,
-          y: uy - ((uy - v.y) / v.k) * k,
-        }
-      })
-    },
-    [toUser],
-  )
+  // -------------------------------------------------------------- layout ---
+
+  useLayoutEffect(() => {
+    const stage = stageRef.current
+    if (!stage) return
+    metrics.current = measure(stage)
+    setStageBox(metrics.current)
+    apply(cur.current)
+    const ro = new ResizeObserver(() => {
+      metrics.current = measure(stage)
+      setStageBox(metrics.current)
+      apply(cur.current)
+      if (!gesture.current) schedule()
+    })
+    ro.observe(stage)
+    return () => ro.disconnect()
+  }, [apply, schedule])
+
+  useLayoutEffect(() => {
+    if (!gesture.current && !motion.current.raf) {
+      cur.current = view
+      apply(view)
+    }
+  }, [view, apply])
+
+  // The palette lives in CSS variables the app shell sets inline for the hour;
+  // the bitmap needs real colours, so read them and watch that element.
+  useEffect(() => {
+    const stage = stageRef.current
+    if (!stage) return
+    const read = () => {
+      const next = readBasemapColors(stage)
+      if (next) setColors((prev) => (sameColors(prev, next) ? prev : next))
+    }
+    read()
+    const host = paletteHost(stage)
+    if (!host) return
+    const mo = new MutationObserver(read)
+    mo.observe(host, { attributes: true, attributeFilter: ['style', 'class'] })
+    return () => mo.disconnect()
+  }, [])
+
+  // ------------------------------------------------------------- pointers ---
 
   const rebaseline = useCallback(() => {
     const pts = [...ptrs.current.values()]
@@ -181,22 +515,40 @@ export function AtlasMap({
     const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length
     const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length
     const dist = pts.length >= 2 ? Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) : 0
-    const v = viewRef.current
-    const moved = gesture.current?.moved ?? false
-    gesture.current = { x: v.x, y: v.y, k: v.k, cx, cy, dist, moved }
+    const v = cur.current
+    const prev = gesture.current
+    gesture.current = {
+      x: v.x,
+      y: v.y,
+      k: v.k,
+      cx,
+      cy,
+      dist,
+      moved: prev?.moved ?? false,
+      captured: prev?.captured ?? null,
+      trail: [],
+    }
   }, [])
 
-  const onPointerDown = (e: ReactPointerEvent<SVGSVGElement>) => {
-    const [ux, uy] = toUser(e.clientX, e.clientY)
-    ptrs.current.set(e.pointerId, { x: ux, y: uy })
-    if (ptrs.current.size === 1) suppressClick.current = false
+  const onPointerDown = (e: ReactPointerEvent<HTMLDivElement>) => {
+    if (e.button !== 0 && e.pointerType === 'mouse') return
+    if (ptrs.current.size === 0) {
+      metrics.current = measure(e.currentTarget)
+      suppressClick.current = false
+      // A press that catches the paper mid-glide is a stop, not a pick.
+      const gliding = Math.hypot(motion.current.vx, motion.current.vy) * metrics.current.s0 > 1.5
+      const wasMoving = motion.current.fly !== null || gliding
+      stopMotion()
+      if (wasMoving) suppressClick.current = true
+      setHovered(null)
+    }
+    ptrs.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
     rebaseline()
   }
 
-  const onPointerMove = (e: ReactPointerEvent<SVGSVGElement>) => {
+  const onPointerMove = (e: ReactPointerEvent<HTMLDivElement>) => {
     if (!ptrs.current.has(e.pointerId)) return
-    const [ux, uy] = toUser(e.clientX, e.clientY)
-    ptrs.current.set(e.pointerId, { x: ux, y: uy })
+    ptrs.current.set(e.pointerId, { x: e.clientX, y: e.clientY })
     const g = gesture.current
     if (!g) return
     const pts = [...ptrs.current.values()]
@@ -207,56 +559,185 @@ export function AtlasMap({
       const dist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y)
       k = clamp((g.k * dist) / g.dist, MIN_K, MAX_K)
     }
-    if (Math.abs(cx - g.cx) + Math.abs(cy - g.cy) > 4 || k !== g.k) {
-      if (!g.moved) svgRef.current?.setPointerCapture(e.pointerId)
+    if (!g.moved && (Math.hypot(cx - g.cx, cy - g.cy) > DRAG_PX || k !== g.k)) {
       g.moved = true
       suppressClick.current = true
+      setGesturing(true)
     }
-    setView({
+    if (g.moved && g.captured === null) {
+      try {
+        e.currentTarget.setPointerCapture(e.pointerId)
+        g.captured = e.pointerId
+      } catch {
+        // pointer already gone; nothing to hold
+      }
+    }
+    if (!g.moved) return
+    const [ux, uy] = toUser(cx, cy)
+    const [ux0, uy0] = toUser(g.cx, g.cy)
+    const raw: View = {
       k,
-      x: cx - ((g.cx - g.x) / g.k) * k,
-      y: cy - ((g.cy - g.y) / g.k) * k,
-    })
+      x: ux - ((ux0 - g.x) / g.k) * k,
+      y: uy - ((uy0 - g.y) / g.k) * k,
+    }
+    const v = rubber(raw, visibleRect(metrics.current))
+    const now = performance.now()
+    g.trail.push({ t: now, x: v.x, y: v.y })
+    while (g.trail.length > 2 && now - g.trail[0].t > 80) g.trail.shift()
+    cur.current = v
+    schedule()
   }
 
-  const endDrag = useCallback(
-    (pointerId: number) => {
+  const release = useCallback(
+    (pointerId: number, clientX?: number, clientY?: number) => {
       if (!ptrs.current.delete(pointerId)) return
-      rebaseline()
+      const g = gesture.current
+      if (ptrs.current.size > 0) {
+        rebaseline()
+        return
+      }
+      gesture.current = null
+      if (!g) return
+      const m = motion.current
+      if (g.moved) {
+        const trail = g.trail
+        const now = performance.now()
+        if (trail.length >= 2 && now - trail[trail.length - 1].t < 100 && !reduced.current) {
+          const a = trail[0]
+          const b = trail[trail.length - 1]
+          const dt = Math.max(1, b.t - a.t)
+          m.vx = ((b.x - a.x) / dt) * (1000 / 60)
+          m.vy = ((b.y - a.y) / dt) * (1000 / 60)
+          const cap = 60 / metrics.current.s0
+          const speed = Math.hypot(m.vx, m.vy)
+          if (speed > cap) {
+            m.vx = (m.vx / speed) * cap
+            m.vy = (m.vy / speed) * cap
+          }
+        }
+        schedule()
+        return
+      }
+      // A clean tap. Two of them in quick succession, close together, zoom in.
+      if (clientX !== undefined && clientY !== undefined) {
+        const now = performance.now()
+        const prev = lastTap.current
+        if (prev && now - prev.t < DOUBLE_TAP_MS && Math.hypot(clientX - prev.x, clientY - prev.y) < DOUBLE_TAP_PX) {
+          lastTap.current = null
+          suppressClick.current = true
+          const [ux, uy] = toUser(clientX, clientY)
+          const v = cur.current
+          flyTo(zoomAbout(v, clamp(v.k * 1.6, MIN_K, MAX_K), ux, uy), 320)
+          return
+        }
+        lastTap.current = { t: now, x: clientX, y: clientY }
+      }
+      schedule()
     },
-    [rebaseline],
+    [flyTo, rebaseline, schedule, toUser],
   )
 
-  const onPointerUp = (e: ReactPointerEvent<SVGSVGElement>) => {
-    endDrag(e.pointerId)
+  const onPointerUp = (e: ReactPointerEvent<HTMLDivElement>) => {
+    release(e.pointerId, e.clientX, e.clientY)
   }
 
   useEffect(() => {
-    const end = (e: PointerEvent) => endDrag(e.pointerId)
+    const end = (e: PointerEvent) => release(e.pointerId)
     window.addEventListener('pointerup', end)
     window.addEventListener('pointercancel', end)
     return () => {
       window.removeEventListener('pointerup', end)
       window.removeEventListener('pointercancel', end)
     }
-  }, [endDrag])
+  }, [release])
 
+  // Wheel and the iOS pinch gesture need non-passive listeners, which React
+  // does not offer; keep the page still and ease the zoom toward its target.
   useEffect(() => {
-    const el = svgRef.current
+    const el = stageRef.current
     if (!el) return
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault()
+      if (gesture.current) return
+      const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 400 : e.deltaY
+      if (!dy) return
+      const m = motion.current
+      // Measure once per burst: a layout read mid-zoom forces SVG text to re-lay out.
+      if (performance.now() - m.lastWheel > WHEEL_SETTLE_MS) metrics.current = measure(el)
+      setHovered(null)
+      m.fly = null
+      m.vx = 0
+      m.vy = 0
+      const base = m.targetK ?? cur.current.k
+      const factor = Math.exp(-dy * (e.ctrlKey ? 0.01 : 0.0016))
+      const target = clamp(base * factor, MIN_K, MAX_K)
+      const [ux, uy] = toUser(e.clientX, e.clientY)
+      m.ax = ux
+      m.ay = uy
+      m.lastWheel = performance.now()
+      if (reduced.current) {
+        cur.current = zoomAbout(cur.current, target, ux, uy)
+        m.targetK = null
+      } else {
+        m.targetK = target
+      }
+      setGesturing(true)
+      schedule()
+    }
     const stop = (e: Event) => e.preventDefault()
-    el.addEventListener('wheel', stop, { passive: false })
-    return () => el.removeEventListener('wheel', stop)
-  }, [])
+    el.addEventListener('wheel', onWheel, { passive: false })
+    el.addEventListener('gesturestart', stop)
+    el.addEventListener('gesturechange', stop)
+    el.addEventListener('touchmove', stop, { passive: false })
+    return () => {
+      el.removeEventListener('wheel', onWheel)
+      el.removeEventListener('gesturestart', stop)
+      el.removeEventListener('gesturechange', stop)
+      el.removeEventListener('touchmove', stop)
+    }
+  }, [schedule, setGesturing, toUser])
 
-  const placed = useMemo(
-    () =>
-      cafes.map((c) => {
-        const [x, y] = project(c.lng, c.lat)
-        return { cafe: c, x, y }
-      }),
-    [cafes],
-  )
+  const onKeyDown = (e: ReactKeyboardEvent<HTMLDivElement>) => {
+    if (e.target !== e.currentTarget) return
+    const v = cur.current
+    const step = 80 / v.k
+    const pan = (dx: number, dy: number) => flyTo({ k: v.k, x: v.x - dx * v.k, y: v.y - dy * v.k }, 180)
+    switch (e.key) {
+      case '+':
+      case '=':
+        flyTo(zoomAbout(v, clamp(v.k * 1.45, MIN_K, MAX_K), PAPER_WIDTH / 2, PAPER_HEIGHT / 2), 300)
+        break
+      case '-':
+      case '_':
+        flyTo(zoomAbout(v, clamp(v.k / 1.45, MIN_K, MAX_K), PAPER_WIDTH / 2, PAPER_HEIGHT / 2), 300)
+        break
+      case '0':
+        flyTo({ x: 0, y: 0, k: 1 }, 480, 640)
+        break
+      case 'ArrowLeft':
+        pan(-step, 0)
+        break
+      case 'ArrowRight':
+        pan(step, 0)
+        break
+      case 'ArrowUp':
+        pan(0, -step)
+        break
+      case 'ArrowDown':
+        pan(0, step)
+        break
+      case 'Escape':
+        onSelect(null)
+        break
+      default:
+        return
+    }
+    e.preventDefault()
+  }
+
+  // ----------------------------------------------------------------- data ---
+
+  const layout = useMemo(() => layoutFor(cafes), [cafes])
 
   const route = useMemo(() => {
     if (!crawl || crawlCafes.length < 2) return null
@@ -280,129 +761,86 @@ export function AtlasMap({
     return m
   }, [crawlCafes])
 
+  const kb = bucketK(view.k)
   const inv = 1 / view.k
-  const { mode, t } = useI18n()
-  const labelIds = useMemo(() => {
-    const k = Math.round(view.k * 20) / 20
-    const paperInv = 1 / k
-    type Candidate = { id: string; priority: number; order: number }
-    type Box = { x: number; y: number; w: number; h: number; id?: string }
-    const byId = new Map(placed.map((p) => [p.cafe.id, p]))
-    const candidates = new Map<string, Candidate>()
-    const add = (id: string, priority: number, order: number) => {
-      const current = candidates.get(id)
-      if (!current || priority < current.priority || (priority === current.priority && order < current.order)) {
-        candidates.set(id, { id, priority, order })
-      }
-    }
-    if (selectedId) add(selectedId, 0, 0)
-    if (hovered) add(hovered, 0, 1)
-    crawlIndex.forEach((order, id) => add(id, 1, order))
-    if (compassOn) {
-      placed.forEach(({ cafe }) => {
-        const score = scores.get(cafe.id)
-        if (score !== undefined && score >= 80) add(cafe.id, 2, 1000 - score)
-      })
-    }
-    placed.forEach(({ cafe }) => {
-      const evidenceOrder = cafe.evidence?.dianping ? 0 : cafe.evidence?.amap ? 1 : 2
-      if (cafe.source !== 'imported') {
-        const score = scores.get(cafe.id) ?? 0
-        add(cafe.id, 3, compassOn ? 1000 - score : evidenceOrder)
-      } else if (k >= 2.4) {
-        const score = scores.get(cafe.id) ?? 0
-        add(cafe.id, 4, compassOn ? 1000 - score : evidenceOrder)
-      }
-    })
 
-    const sorted = [...candidates.values()].sort(
-      (a, b) => a.priority - b.priority || a.order - b.order || a.id.localeCompare(b.id),
-    )
-    const budget = k < 1.3 ? 28 : k < 2.1 ? 90 : sorted.length
-    const grid = new Map<string, Box[]>()
-    const accepted = new Set<string>()
-    const cellsFor = (box: Box) => {
-      const cells: string[] = []
-      for (let x = Math.floor(box.x / 40); x <= Math.floor((box.x + box.w) / 40); x += 1) {
-        for (let y = Math.floor(box.y / 40); y <= Math.floor((box.y + box.h) / 40); y += 1) {
-          cells.push(`${x},${y}`)
-        }
-      }
-      return cells
-    }
-    const insert = (box: Box) => {
-      cellsFor(box).forEach((cell) => {
-        const list = grid.get(cell) ?? []
-        list.push(box)
-        grid.set(cell, list)
-      })
-    }
-    const overlaps = (a: Box, b: Box) =>
-      a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
-    placed.forEach(({ cafe, x, y }) => {
-      const strength = compassOn ? clamp(((scores.get(cafe.id) ?? 50) - 50) / 45, 0, 1) : null
-      if (isQuietPin(k, cafe, strength, selectedId === cafe.id || hovered === cafe.id, crawlIndex.has(cafe.id))) {
-        return
-      }
-      const radius = pinRadius(k, cafe, strength, selectedId === cafe.id || hovered === cafe.id, crawlIndex.has(cafe.id))
-      insert({
-        x: x - radius * paperInv,
-        y: y - radius * paperInv,
-        w: 2 * radius * paperInv,
-        h: 2 * radius * paperInv,
-        id: cafe.id,
-      })
+  // A zoom commit re-sizes every pin at once; that is a snap, not a breath,
+  // so the ink transitions are held off for the frame it lands in.
+  useLayoutEffect(() => {
+    const sheet = sheetRef.current
+    if (!sheet) return
+    sheet.dataset.snap = ''
+    let raf = requestAnimationFrame(() => {
+      raf = requestAnimationFrame(() => delete sheet.dataset.snap)
     })
-    sorted.slice(0, budget).forEach(({ id }) => {
-      const item = byId.get(id)
-      if (!item) return
-      const { cafe, x, y } = item
-      const names = displayNames(cafe, mode)
-      const lines = k >= 2.5 && names.secondary ? [names.primary, names.secondary] : [names.primary]
-      const textWidth = (text: string) => {
-        const cjk = [...text].filter((char) => /[\u3400-\u9fff]/.test(char)).length
-        return (text.length - cjk) * 7 + cjk * 10.5
-      }
-      const width = Math.max(...lines.map(textWidth)) + 6
-      const height = lines.length === 2 ? 28 : 15
-      const radius = pinRadius(
-        k,
-        cafe,
-        compassOn ? clamp(((scores.get(cafe.id) ?? 50) - 50) / 45, 0, 1) : null,
-        selectedId === cafe.id || hovered === cafe.id,
-        crawlIndex.has(cafe.id),
-      )
-      const box = {
-        x: x - width * paperInv / 2,
-        y: y + (radius + 4) * paperInv,
-        w: width * paperInv,
-        h: height * paperInv,
-      }
-      const always = selectedId === id || hovered === id
-      const blocked = cellsFor(box).some((cell) => (grid.get(cell) ?? []).some((obstacle) => {
-        if (obstacle.id === id) return false
-        return overlaps(box, obstacle)
-      }))
-      if (!blocked || always) {
-        accepted.add(id)
-        insert(box)
-      }
-    })
-    return accepted
-  }, [placed, view.k, scores, compassOn, selectedId, hovered, crawlIndex, mode])
+    return () => {
+      cancelAnimationFrame(raf)
+      delete sheet.dataset.snap
+    }
+  }, [view.k])
 
-  const onHover = useCallback((id: string) => setHovered(id), [])
-  const onLeave = useCallback(
-    (id: string) => setHovered((h) => (h === id ? null : h)),
-    [],
+  const topKey = compassOn ? (topIds ? topIds.slice(0, 3).join('|') : '') : 'off'
+  const top = useMemo<string[]>(() => {
+    if (topKey === 'off') return []
+    if (topKey) return topKey.split('|')
+    const best: { id: string; score: number }[] = []
+    scores.forEach((score, id) => {
+      if (best.length < 3 || score > best[best.length - 1].score) {
+        best.push({ id, score })
+        best.sort((a, b) => b.score - a.score)
+        if (best.length > 3) best.pop()
+      }
+    })
+    return best.map((b) => b.id)
+  }, [topKey, scores])
+
+  const density = useMemo<Density>(
+    () => clusterQuiet(layout, kb, compassOn, scores, selectedId, crawlIndex),
+    [layout, kb, compassOn, scores, selectedId, crawlIndex],
   )
 
-  const onPick = useCallback(
-    (id: string) => {
-      if (!suppressClick.current) onSelect(id)
-    },
-    [onSelect],
+  const labelIds = useMemo(
+    () =>
+      labelSet({
+        layout,
+        k: kb,
+        scores,
+        compassOn,
+        selectedId,
+        crawlIndex,
+        topIds: top,
+        hidden: density.hidden,
+        mode,
+      }),
+    [layout, kb, scores, compassOn, selectedId, crawlIndex, top, density, mode],
   )
+
+  // Labels that just lost their slot stay mounted for one beat so they can
+  // fade out instead of popping.
+  const [fading, setFading] = useState<Set<string>>(EMPTY_IDS)
+  const prevLabels = useRef(labelIds)
+  useEffect(() => {
+    const prev = prevLabels.current
+    if (prev === labelIds) return
+    prevLabels.current = labelIds
+    const gone = new Set<string>()
+    prev.forEach((id) => {
+      if (!labelIds.has(id)) gone.add(id)
+    })
+    setFading(gone.size ? gone : EMPTY_IDS)
+    if (!gone.size) return
+    const handle = window.setTimeout(() => setFading(EMPTY_IDS), 280)
+    return () => window.clearTimeout(handle)
+  }, [labelIds])
+
+  const onHover = useCallback((id: string) => {
+    if (canHover.current && !gesture.current && !motion.current.raf) setHovered(id)
+  }, [])
+  const onLeave = useCallback((id: string) => setHovered((h) => (h === id ? null : h)), [])
+
+  const onPick = useCallback((id: string) => {
+    if (!suppressClick.current) onSelectRef.current(id)
+  }, [])
 
   const anchorPlace = useMemo(() => {
     if (!anchor) return null
@@ -412,17 +850,41 @@ export function AtlasMap({
     return { x, y }
   }, [anchor])
 
+  const tip = useMemo(() => {
+    if (!hovered || !stageBox) return null
+    const i = layout.index.get(hovered)
+    if (i === undefined) return null
+    const cafe = layout.cafes[i]
+    const m = stageBox
+    const names = displayNames(cafe, mode)
+    const headline = detailFor(cafe).headline
+    const r = pinRadius(kb, cafe, strengthOf(compassOn, scores.get(cafe.id)), true, crawlIndex.has(cafe.id))
+    const sx = m.offX + (layout.xs[i] * view.k + view.x) * m.s0
+    const sy = m.offY + (layout.ys[i] * view.k + view.y) * m.s0
+    const below = sy < 96
+    return {
+      left: sx,
+      top: below ? sy + (r + 8) * m.s0 : sy - (r + 8) * m.s0,
+      below,
+      name: names.primary,
+      sub: names.secondary,
+      line: headline ? t(headline) : cafe.hood,
+      isHeadline: Boolean(headline),
+    }
+  }, [hovered, stageBox, layout, mode, kb, compassOn, scores, crawlIndex, view, t])
+
   return (
-    <svg
-      ref={svgRef}
+    <div
+      ref={stageRef}
       className={`atlas${pinArm ? ' pin-arm' : ''}`}
-      viewBox={`0 0 ${PAPER_WIDTH} ${PAPER_HEIGHT}`}
-      preserveAspectRatio="xMidYMid slice"
-      onWheel={onWheel}
+      tabIndex={0}
+      role="application"
+      aria-label={t(UI.wholeSheet)}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={onPointerUp}
       onPointerCancel={onPointerUp}
+      onKeyDown={onKeyDown}
       onClick={(e) => {
         if (suppressClick.current) {
           suppressClick.current = false
@@ -430,161 +892,203 @@ export function AtlasMap({
         }
         if (pinArm) {
           const [ux, uy] = toUser(e.clientX, e.clientY)
-          const px = (ux - view.x) / view.k
-          const py = (uy - view.y) / view.k
+          const v = cur.current
+          const px = (ux - v.x) / v.k
+          const py = (uy - v.y) / v.k
           const lng = BBOX.west + (px / PAPER_WIDTH) * (BBOX.east - BBOX.west)
           const lat = BBOX.north - (py / PAPER_HEIGHT) * (BBOX.north - BBOX.south)
           onDropPin(lng, lat)
           return
         }
-        if (e.target === svgRef.current) onSelect(null)
+        onSelect(null)
       }}
     >
-      <defs>
-        <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7" result="n" />
-          <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G" />
-        </filter>
-        <filter id="bleed" x="-20%" y="-20%" width="140%" height="140%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" seed="19" result="n" />
-          <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" />
-        </filter>
-        <filter id="softglow" x="-60%" y="-60%" width="220%" height="220%">
-          <feGaussianBlur stdDeviation="6" />
-        </filter>
-        <radialGradient id="vignette" cx="50%" cy="45%" r="72%">
-          <stop offset="60%" stopColor="var(--paper)" stopOpacity="0" />
-          <stop offset="100%" stopColor="var(--paper-edge)" stopOpacity="0.95" />
-        </radialGradient>
-      </defs>
+      <div ref={sheetRef} className="paper" style={{ width: PAPER_WIDTH, height: PAPER_HEIGHT }}>
+        <BaseRaster colors={colors} k={kb} onReady={setRasterReady} />
+        <svg
+          className="paper-svg"
+          viewBox={`0 0 ${PAPER_WIDTH} ${PAPER_HEIGHT}`}
+          width={PAPER_WIDTH}
+          height={PAPER_HEIGHT}
+        >
+          <defs>
+            <radialGradient id="halo">
+              <stop offset="0%" stopColor="var(--glow)" stopOpacity="0.55" />
+              <stop offset="55%" stopColor="var(--glow)" stopOpacity="0.28" />
+              <stop offset="100%" stopColor="var(--glow)" stopOpacity="0" />
+            </radialGradient>
+          </defs>
 
-      <g transform={`translate(${view.x},${view.y}) scale(${view.k})`}>
-        <BaseLayers />
+          <g className="viewport">
+            <BaseLayers k={kb} raster={rasterReady} />
 
-        {route && (
-          <g className="route">
-            <path d={route.d} fill="none" stroke="var(--accent)" strokeWidth={4.5 * inv} opacity="0.2" />
-            <path
-              d={route.d}
-              fill="none"
-              stroke="var(--accent)"
-              strokeWidth={2 * inv}
-              strokeDasharray={`${1.5 * inv} ${7 * inv}`}
-              strokeLinecap="round"
-            />
-            {route.legs.map((leg, i) => (
-              <text
-                key={i}
-                x={leg.mid[0]}
-                y={leg.mid[1]}
-                className="leg-label"
-                textAnchor="middle"
-                fontSize={11 * inv}
-              >
-                {leg.mins} min
-              </text>
-            ))}
-          </g>
-        )}
-
-        {anchorPlace && anchor && (
-          <g
-            transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`}
-            className="anchor-mark"
-          >
-            {anchor.kind === 'metro' ? (
-              <>
-                <circle r="20" fill="var(--glow)" opacity="0.25" filter="url(#softglow)" />
-                <circle r="10.5" fill="var(--paper)" stroke="var(--ink)" strokeWidth="1.6" />
-                <circle
-                  r="13.5"
-                  fill="none"
-                  stroke={LINE_COLOR[anchor.station.lines[0]] ?? 'var(--accent)'}
-                  strokeWidth="2.2"
-                  strokeDasharray="5 3"
-                />
-                {/* the metro roundel, sketched: two legs and a crossbar */}
+            {route && (
+              <g className="route">
+                <path d={route.d} fill="none" stroke="var(--accent)" strokeWidth={4.5 * inv} strokeOpacity="0.2" />
                 <path
-                  d="M-5.5 4.5 L-3.6 -4.5 L0 1.5 L3.6 -4.5 L5.5 4.5"
+                  d={route.d}
                   fill="none"
-                  stroke="var(--ink)"
-                  strokeWidth="1.9"
+                  stroke="var(--accent)"
+                  strokeWidth={2 * inv}
+                  strokeDasharray={`${1.5 * inv} ${7 * inv}`}
                   strokeLinecap="round"
-                  strokeLinejoin="round"
                 />
-                <text y="-22" textAnchor="middle" className="anchor-label">
-                  {anchor.station.name}
-                </text>
-                <text y="32" textAnchor="middle" className="anchor-label zh">
-                  {anchor.station.nameZh}
-                </text>
-              </>
-            ) : (
-              <>
-                <circle r="18" fill="var(--glow)" opacity="0.25" filter="url(#softglow)" />
-                <path
-                  d="M0 2 C-7 -6 -6 -14 0 -14 C6 -14 7 -6 0 2 Z"
-                  fill="var(--accent)"
-                  stroke="var(--ink)"
-                  strokeWidth="1.2"
-                />
-                <circle cy="-9" r="2.6" fill="var(--paper)" />
-                <ellipse cy="3.4" rx="5" ry="1.4" fill="var(--ink)" opacity="0.25" />
-                <text y="-20" textAnchor="middle" className="anchor-label">
-                  {t(UI.yourPin)}
-                </text>
-              </>
+                {route.legs.map((leg, i) => (
+                  <text
+                    key={i}
+                    x={leg.mid[0]}
+                    y={leg.mid[1]}
+                    className="leg-label"
+                    textAnchor="middle"
+                    fontSize={11 * inv}
+                  >
+                    {leg.mins} min
+                  </text>
+                ))}
+              </g>
             )}
+
+            {anchorPlace && anchor && (
+              <g transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`} className="anchor-mark">
+                {anchor.kind === 'metro' ? (
+                  <>
+                    <circle r="26" fill="url(#halo)" />
+                    <circle r="10.5" fill="var(--paper)" stroke="var(--ink)" strokeWidth="1.6" />
+                    <circle
+                      r="13.5"
+                      fill="none"
+                      stroke={LINE_COLOR[anchor.station.lines[0]] ?? 'var(--accent)'}
+                      strokeWidth="2.2"
+                      strokeDasharray="5 3"
+                    />
+                    {/* the metro roundel, sketched: two legs and a crossbar */}
+                    <path
+                      d="M-5.5 4.5 L-3.6 -4.5 L0 1.5 L3.6 -4.5 L5.5 4.5"
+                      fill="none"
+                      stroke="var(--ink)"
+                      strokeWidth="1.9"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <text y="-22" textAnchor="middle" className="anchor-label">
+                      {anchor.station.name}
+                    </text>
+                    <text y="32" textAnchor="middle" className="anchor-label zh">
+                      {anchor.station.nameZh}
+                    </text>
+                  </>
+                ) : (
+                  <>
+                    <circle r="24" fill="url(#halo)" />
+                    <path
+                      d="M0 2 C-7 -6 -6 -14 0 -14 C6 -14 7 -6 0 2 Z"
+                      fill="var(--accent)"
+                      stroke="var(--ink)"
+                      strokeWidth="1.2"
+                    />
+                    <circle cy="-9" r="2.6" fill="var(--paper)" />
+                    <ellipse cy="3.4" rx="5" ry="1.4" fill="var(--ink)" fillOpacity="0.25" />
+                    <text y="-20" textAnchor="middle" className="anchor-label">
+                      {t(UI.yourPin)}
+                    </text>
+                  </>
+                )}
+              </g>
+            )}
+
+            {me && (
+              <g transform={`translate(${project(me.lng, me.lat).join(',')}) scale(${inv})`} className="me">
+                <circle r="22" fill="var(--accent)" fillOpacity="0.18" />
+                <circle r="7" fill="var(--accent)" stroke="var(--paper)" strokeWidth="2.4" />
+                <text y="-16" textAnchor="middle" className="me-label">
+                  {t(UI.you)}
+                </text>
+              </g>
+            )}
+
+            <Blots clusters={density.clusters} inv={inv} />
+
+            <Pins
+              layout={layout}
+              scores={scores}
+              compassOn={compassOn}
+              selectedId={selectedId}
+              hovered={hovered}
+              crawlOn={Boolean(crawl)}
+              crawlIndex={crawlIndex}
+              visited={visited}
+              saved={saved}
+              k={kb}
+              inv={inv}
+              labelIds={labelIds}
+              fading={fading}
+              topIds={top}
+              hidden={density.hidden}
+              mode={mode}
+              onHover={onHover}
+              onLeave={onLeave}
+              onPick={onPick}
+            />
           </g>
-        )}
+        </svg>
+      </div>
 
-        {me && (
-          <g
-            transform={`translate(${project(me.lng, me.lat).join(',')}) scale(${inv})`}
-            className="me"
-          >
-            <circle r="22" fill="var(--accent)" opacity="0.18" />
-            <circle r="7" fill="var(--accent)" stroke="var(--paper)" strokeWidth="2.4" />
-            <text y="-16" textAnchor="middle" className="me-label">
-              {t(UI.you)}
-            </text>
-          </g>
-        )}
+      <svg className="vignette" aria-hidden="true">
+        <defs>
+          <radialGradient id="vignette" cx="50%" cy="45%" r="72%">
+            <stop offset="60%" stopColor="var(--paper)" stopOpacity="0" />
+            <stop offset="100%" stopColor="var(--paper-edge)" stopOpacity="0.95" />
+          </radialGradient>
+        </defs>
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#vignette)" />
+      </svg>
 
-        <Pins
-          placed={placed}
-          scores={scores}
-          compassOn={compassOn}
-          selectedId={selectedId}
-          hovered={hovered}
-          crawlOn={Boolean(crawl)}
-          crawlIndex={crawlIndex}
-          visited={visited}
-          saved={saved}
-          inv={inv}
-          k={view.k}
-          labelIds={labelIds}
-          mode={mode}
-          onHover={onHover}
-          onLeave={onLeave}
-          onPick={onPick}
-        />
-      </g>
-
-      <rect
-        x="0"
-        y="0"
-        width={PAPER_WIDTH}
-        height={PAPER_HEIGHT}
-        fill="url(#vignette)"
-        pointerEvents="none"
-      />
-    </svg>
+      {tip && (
+        <div className={`pin-tip${tip.below ? ' below' : ''}`} style={{ left: tip.left, top: tip.top }} role="tooltip">
+          <strong>{tip.name}</strong>
+          {tip.sub && <span className="zh">{tip.sub}</span>}
+          <em className={tip.isHeadline ? 'headline' : 'hood'}>{tip.line}</em>
+        </div>
+      )}
+    </div>
   )
 }
 
+// ---------------------------------------------------------------- pins ---
+
+const EMPTY_IDS = new Set<string>()
+const BLOTS = [0, 1, 2, 3, 4].map((seed) => blot(seed + 3))
+const PENNANTS = [0, 1, 2].map((seed) => pennant(seed + 11))
+const COUNTS = new Map<number, string>()
+function countPath(n: number): string {
+  let d = COUNTS.get(n)
+  if (d === undefined) {
+    d = numerals(`×${n}`, n)
+    COUNTS.set(n, d)
+  }
+  return d
+}
+
+const Blots = memo(function Blots({ clusters, inv }: { clusters: Density['clusters']; inv: number }) {
+  if (!clusters.length) return null
+  return (
+    <g className="blots" pointerEvents="none">
+      {clusters.map((c, i) => {
+        const r = (8 + Math.min(6, Math.sqrt(c.n) * 1.6)) * inv
+        return (
+          <g key={c.key} className="blot" transform={`translate(${c.x},${c.y})`}>
+            <path d={BLOTS[i % BLOTS.length]} transform={`scale(${r})`} fill="var(--ink-soft)" fillOpacity="0.42" />
+            <path d={BLOTS[(i + 2) % BLOTS.length]} transform={`scale(${r * 0.72})`} fill="var(--ink)" fillOpacity="0.35" />
+            <path className="blot-n" d={countPath(c.n)} transform={`scale(${inv}) translate(0,4)`} />
+          </g>
+        )
+      })}
+    </g>
+  )
+})
+
 interface PinsProps {
-  placed: { cafe: Cafe; x: number; y: number }[]
+  layout: Layout
   scores: Map<string, number>
   compassOn: boolean
   selectedId: string | null
@@ -593,22 +1097,192 @@ interface PinsProps {
   crawlIndex: Map<string, number>
   visited: Set<string>
   saved: Set<string>
-  inv: number
+  /** Bucketed committed zoom; the layer never sees mid-gesture values. */
   k: number
+  inv: number
   labelIds: Set<string>
+  fading: Set<string>
+  topIds: string[]
+  hidden: Set<string>
   mode: LangMode
   onHover: (id: string) => void
   onLeave: (id: string) => void
   onPick: (id: string) => void
 }
 
+interface PinProps {
+  cafe: Cafe
+  x: number
+  y: number
+  k: number
+  inv: number
+  strength: number | null
+  tier: Tier | null
+  isSel: boolean
+  isHover: boolean
+  crawlNo: number | undefined
+  dim: boolean
+  visited: boolean
+  saved: boolean
+  label: boolean
+  fade: boolean
+  place: number | undefined
+  mode: LangMode
+  onHover: (id: string) => void
+  onLeave: (id: string) => void
+  onPick: (id: string) => void
+}
+
+/** One café. Memoised on primitives so a score update only re-renders the pins whose ink changes. */
+const Pin = memo(function Pin({
+  cafe,
+  x,
+  y,
+  k,
+  inv,
+  strength,
+  tier,
+  isSel,
+  isHover,
+  crawlNo,
+  dim,
+  visited,
+  saved,
+  label,
+  fade,
+  place,
+  mode,
+  onHover,
+  onLeave,
+  onPick,
+}: PinProps) {
+  const active = isSel || isHover
+  const inCrawl = crawlNo !== undefined
+  const quiet = isQuietPin(k, cafe, strength, active, inCrawl)
+  // Only the inked circles follow the score; glyph, badges and label sit on
+  // the zoom-level frame so a slider drag never relayouts their paths.
+  const pinR = pinRadius(k, cafe, strength, active, inCrawl)
+  const frameR = quiet ? QUIET_R : basePinRadius(k) + (strength === null ? 1 : 5)
+  const r = pinR * inv
+  const f = frameR * inv
+  const showGlyph = frameR >= 7
+  const halo = active || tier === 'hi' || place !== undefined
+  const names = label || fade ? displayNames(cafe, mode) : null
+
+  return (
+    <g
+      data-id={cafe.id}
+      transform={`translate(${x},${y})`}
+      className={`pin${quiet ? ' quiet' : ''}${dim ? ' dim' : ''}${active ? ' active' : ''}${tier ? ` ${tier}` : ''}${
+        place !== undefined ? ' top' : ''
+      }`}
+      onPointerEnter={(e) => {
+        if (e.pointerType === 'mouse') onHover(cafe.id)
+      }}
+      onPointerLeave={() => onLeave(cafe.id)}
+      onClick={(e) => {
+        e.stopPropagation()
+        onPick(cafe.id)
+      }}
+    >
+      {quiet && <circle r={7 * inv} fill="transparent" />}
+      <circle className="halo" r={halo ? r * 2.4 : 0} fill="url(#halo)" />
+      <circle
+        className="body"
+        r={r}
+        fill="var(--pin-fill)"
+        stroke="var(--ink)"
+        strokeWidth={(quiet ? 0.9 : tier === 'hi' ? 1.9 : 1.4) * inv}
+      />
+      {(active || k >= 1.8) && (
+        <circle
+          className="ring"
+          r={r + 2.5 * inv}
+          fill="none"
+          stroke="var(--ink)"
+          strokeWidth={0.7 * inv}
+          strokeDasharray={`${1 * inv} ${3 * inv}`}
+          strokeOpacity={active ? 0.9 : 0.35}
+        />
+      )}
+      {showGlyph && (
+        <g className="glyph" transform={`scale(${(f / 11) * 0.95})`}>
+          <Glyph archetype={cafe.archetype} color="var(--ink)" />
+        </g>
+      )}
+      {visited && (
+        <g transform={`translate(${f * 0.72},${-f * 0.72}) scale(${inv})`}>
+          <circle r="6" fill="var(--stamp)" fillOpacity="0.92" />
+          <path
+            d="M-2.6 0.2 l1.8 1.9 l3.5 -4"
+            fill="none"
+            stroke="var(--paper)"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </g>
+      )}
+      {saved && !visited && (
+        <g transform={`translate(${f * 0.72},${-f * 0.72}) scale(${inv})`}>
+          <circle r="5.4" fill="var(--accent)" fillOpacity="0.9" />
+          <path
+            d="M0 -3 l0.9 2 l2.2 0.2 l-1.7 1.5 l0.5 2.2 l-1.9 -1.2 l-1.9 1.2 l0.5 -2.2 l-1.7 -1.5 l2.2 -0.2 z"
+            fill="var(--paper)"
+          />
+        </g>
+      )}
+      {inCrawl && (
+        <g transform={`translate(${-f * 0.9},${-f * 0.9}) scale(${inv})`}>
+          <circle r="7.5" fill="var(--accent)" />
+          <text className="crawl-num" textAnchor="middle" y="3.4">
+            {crawlNo}
+          </text>
+        </g>
+      )}
+      {place !== undefined && (
+        <g className="flag" transform={`translate(${f * 0.55},${-f * 0.7}) scale(${inv})`}>
+          <path d={PENNANTS[place].mast} fill="none" stroke="var(--ink)" strokeWidth="1.5" strokeLinecap="round" />
+          <path
+            d={PENNANTS[place].flag}
+            fill="var(--accent)"
+            stroke="var(--ink)"
+            strokeWidth="1.1"
+            strokeLinejoin="round"
+          />
+          <text className="flag-n" x="6.4" y="-13.6" textAnchor="middle">
+            {place + 1}
+          </text>
+        </g>
+      )}
+      <g className={`label${fade ? ' fading' : ''}`} transform={`translate(0,${(frameR + 4) * inv}) scale(${inv})`}>
+        {names && (
+          <>
+            <text className="pin-label" textAnchor="middle" y="10">
+              {names.primary}
+            </text>
+            {k >= 2.5 && names.secondary && (
+              <text className="pin-label zh" textAnchor="middle" y="22">
+                {names.secondary}
+              </text>
+            )}
+          </>
+        )}
+      </g>
+    </g>
+  )
+})
+
 /**
- * The pin layer is by far the widest subtree (600 cafés × several nodes), so
- * it is memoized: panning and pinching only change the parent transform and
- * skip re-rendering every pin.
+ * The pin layer is by far the widest subtree (~600 cafés × several nodes), so
+ * it is memoised on bucketed zoom, selection, hover and the identity of the
+ * score map: a pan or pinch re-renders it zero times, a slider drag once per
+ * score update — and then only the pins whose ink actually changes. Ink
+ * follows the compass — full ink and a warm halo at ≥90, a fade below 70 —
+ * through CSS transitions, so the city breathes rather than flickers.
  */
 const Pins = memo(function Pins({
-  placed,
+  layout,
   scores,
   compassOn,
   selectedId,
@@ -617,112 +1291,51 @@ const Pins = memo(function Pins({
   crawlIndex,
   visited,
   saved,
-  inv,
   k,
+  inv,
   labelIds,
+  fading,
+  topIds,
+  hidden,
   mode,
   onHover,
   onLeave,
   onPick,
 }: PinsProps) {
+  const { cafes, xs, ys } = layout
+  const rank = new Map(topIds.map((id, i) => [id, i]))
   return (
-    <g>
-      {placed.map(({ cafe, x, y }) => {
+    <g className={`pins${compassOn ? ' compass-on' : ''}`}>
+      {cafes.map((cafe, i) => {
+        if (hidden.has(cafe.id)) return null
         const score = scores.get(cafe.id)
-        const isMatch = score !== undefined
-        const isSel = selectedId === cafe.id
         const isHover = hovered === cafe.id
-        const inCrawl = crawlIndex.get(cafe.id)
-        const strength = compassOn ? clamp(((score ?? 50) - 50) / 45, 0, 1) : null
-        const pinR = pinRadius(k, cafe, strength, isSel || isHover, Boolean(inCrawl))
-        const r = pinR * inv
-        const active = isSel || isHover
-        const dim = !isMatch || (crawlOn ? !inCrawl : false)
-        const quiet = isQuietPin(k, cafe, strength, active, Boolean(inCrawl))
-        const label = labelIds.has(cafe.id)
-        const names = displayNames(cafe, mode)
-        const showGlyph = pinR >= 7
-
+        const crawlNo = crawlIndex.get(cafe.id)
+        const label = labelIds.has(cafe.id) || isHover
         return (
-          <g
+          <Pin
             key={cafe.id}
-            transform={`translate(${x},${y})`}
-            className={`pin${quiet ? ' quiet' : ''}${dim ? ' dim' : ''}${active ? ' active' : ''}`}
-            onPointerEnter={() => onHover(cafe.id)}
-            onPointerLeave={() => onLeave(cafe.id)}
-            onClick={(e) => {
-              e.stopPropagation()
-              onPick(cafe.id)
-            }}
-          >
-            {quiet && <circle r={7 * inv} fill="transparent" />}
-            {(active || (compassOn && strength !== null && strength > 0.9)) && (
-              <circle r={r * 2} fill="var(--glow)" opacity="0.5" filter="url(#softglow)" />
-            )}
-            <circle
-              r={r}
-              fill="var(--pin-fill)"
-              stroke="var(--ink)"
-              strokeWidth={(quiet ? 0.9 : 1.4) * inv}
-            />
-            {(active || k >= 1.8) && (
-              <circle
-                r={r + 2.5 * inv}
-                fill="none"
-                stroke="var(--ink)"
-                strokeWidth={0.7 * inv}
-                strokeDasharray={`${1 * inv} ${3 * inv}`}
-                opacity={active ? 0.9 : 0.35}
-              />
-            )}
-            {showGlyph && (
-              <g transform={`scale(${(r / 11) * 0.95})`}>
-                <Glyph archetype={cafe.archetype} color="var(--ink)" />
-              </g>
-            )}
-            {visited.has(cafe.id) && (
-              <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
-                <circle r="6" fill="var(--stamp)" opacity="0.92" />
-                <path
-                  d="M-2.6 0.2 l1.8 1.9 l3.5 -4"
-                  fill="none"
-                  stroke="var(--paper)"
-                  strokeWidth="1.6"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </g>
-            )}
-            {saved.has(cafe.id) && !visited.has(cafe.id) && (
-              <g transform={`translate(${r * 0.72},${-r * 0.72}) scale(${inv})`}>
-                <circle r="5.4" fill="var(--accent)" opacity="0.9" />
-                <path
-                  d="M0 -3 l0.9 2 l2.2 0.2 l-1.7 1.5 l0.5 2.2 l-1.9 -1.2 l-1.9 1.2 l0.5 -2.2 l-1.7 -1.5 l2.2 -0.2 z"
-                  fill="var(--paper)"
-                />
-              </g>
-            )}
-            {inCrawl && (
-              <g transform={`translate(${-r * 0.9},${-r * 0.9}) scale(${inv})`}>
-                <circle r="7.5" fill="var(--accent)" />
-                <text className="crawl-num" textAnchor="middle" y="3.4">
-                  {inCrawl}
-                </text>
-              </g>
-            )}
-            {label && (
-              <g transform={`translate(0,${(pinR + 4) * inv}) scale(${inv})`}>
-                <text className="pin-label" textAnchor="middle" y="10">
-                  {names.primary}
-                </text>
-                {k >= 2.5 && names.secondary && (
-                  <text className="pin-label zh" textAnchor="middle" y="22">
-                    {names.secondary}
-                  </text>
-                )}
-              </g>
-            )}
-          </g>
+            cafe={cafe}
+            x={xs[i]}
+            y={ys[i]}
+            k={k}
+            inv={inv}
+            strength={strengthOf(compassOn, score)}
+            tier={tierOf(compassOn, score)}
+            isSel={selectedId === cafe.id}
+            isHover={isHover}
+            crawlNo={crawlNo}
+            dim={score === undefined || (crawlOn && crawlNo === undefined)}
+            visited={visited.has(cafe.id)}
+            saved={saved.has(cafe.id)}
+            label={label}
+            fade={!label && fading.has(cafe.id)}
+            place={rank.get(cafe.id)}
+            mode={mode}
+            onHover={onHover}
+            onLeave={onLeave}
+            onPick={onPick}
+          />
         )
       })}
     </g>

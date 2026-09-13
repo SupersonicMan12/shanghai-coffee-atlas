@@ -1,0 +1,71 @@
+{
+  "cafeId": "algebraist-meiguifang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b010c7bcc941",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "http://store.is.autonavi.com/showpic/3d377da172475f15d2f902da152d939a",
+    "https://aos-comment.amap.com/B0I64S21OI/comment/379858260cce6c5f032ee29524dffe16_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场/商业体入口，门头为木质条板+黑色边框，招牌写'algebraist COFFEE'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口两侧有大幅玻璃橱窗广告，左侧为拿铁拉花杯图，右侧为冰饮图，均含红色三角形标志",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口地面为灰白相间条纹地砖，设A字形黑板菜单架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "纸杯印有'BREWED TO PERFECTION²'、红叉符号及'algebraist COFFEE'字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "纸杯为白色，带白色塑料盖与双层杯托，无其他饮品名称或配方可见",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图中红色图形为倒三角+横线+正方形组合，是品牌视觉标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图中店内入口处可见部分室内空间，但无法辨识座位、吧台或设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.6
+    },
+    {
+      "text": "第三张图仅持杯手部入镜，背景为浅色墙面，无环境信息",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:15Z"
+}

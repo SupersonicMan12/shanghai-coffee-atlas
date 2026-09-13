@@ -1,0 +1,71 @@
+{
+  "cafeId": "hefa-coffee-jingansi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1568b17dfd61",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFK8YRKN/comment/8ffaaa7d2ecbbc20355264081db02f8a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFK8YRKN/comment/D853680C_5079_4EB0_BC51_AC53639D8A85_L0_001_2016_151_1756045969408_93580603.jpg",
+    "https://aos-comment.amap.com/B0FFK8YRKN/comment/5A4585C3_4C59_40DF_A3EF_99B9D1A9BE9C_L0_001_1512_201_1756045969409_35345486.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面位于街边，临街有遮阳棚",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间狭长，吧台式布局",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示美式、拿铁、卡布奇诺等饮品及价格",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有顾客在吧台点单",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店员在操作区工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有时钟和菜单板",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:17:39Z"
+}

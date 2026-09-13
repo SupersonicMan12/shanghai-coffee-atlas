@@ -1,0 +1,67 @@
+{
+  "cafeId": "xiaduocanting-fudan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c3f4659ac087",
+  "raw": {
+    "headline": {
+      "zh": "临街小型独立店，沙拉与蛋糕双主打",
+      "en": "Small street-side spot with salads and cakes"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供金枪鱼色拉、三文鱼蔬菜沙拉",
+        "en": "Serves tuna salad and salmon-vegetable salad",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "店内陈列大玻璃罐装饮品",
+        "en": "Displays drinks in large glass jars",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "中等空间，设吧台与多张椅子",
+        "en": "Medium-sized space with a bar and multiple chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 65,
+        "from": [
+          2
+        ],
+        "zh": "有吧台和多张椅子",
+        "en": "Bar and multiple chairs"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1,
+          2,
+          6
+        ],
+        "zh": "临街小型独立店",
+        "en": "Small street-side shop"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:11Z"
+}

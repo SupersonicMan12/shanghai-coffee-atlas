@@ -1,0 +1,71 @@
+{
+  "cafeId": "as-garden-cafe-lujiazuifucheng-rd-199",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1e53df0f9afc",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/13aedb45ddcd152aa0b1f335710fa289",
+    "https://aos-comment.amap.com/B0KUD5F8IV/comment/D7B1BB00_19B4_48BA_A686_EEE7AC545EA6_L0_001_2000_133_1759133087032_97982866.jpg",
+    "https://aos-comment.amap.com/B0KUD5F8IV/comment/0842C310_FF68_47C8_A895_91D7BF4F991B_L0_001_1500_200_1761094128388_25518862.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有室外庭院座位，木桌椅，背景是绿植墙和树木。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆着班尼迪克蛋、咖啡拉花、马苏里拉奶酪沙拉。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品有带拉花的咖啡和一杯黄色果汁，配薄荷叶。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位区有遮阳伞，桌上有小花瓶插鲜花。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处有高大绿篱，后方是白色建筑，背景是高层住宅楼。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "庭院地面为木质地板，摆放多组桌椅，空间开阔。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见有人在店内使用电脑或工作。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见任何烘焙机、手冲台或磨豆机等专业设备。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:00Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "captain-george",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "00cb9b922e36",
+  "photos": [
+    "https://aos-comment.amap.com/B0LULRA4FQ/comment/fd0cbd85-e72b-4687-9626-b36d77a51ae9.png",
+    "https://aos-comment.amap.com/comment/content_service__1770292681803_77553896_1770292845469_87981063.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1770292681807_73349077_1770292845470_39052299.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为石砌外墙老建筑，入口木门，右侧大窗临街，窗内可见‘CAPTAIN GEORGE Flavor Museum COFFEE ROASTER’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外有木质长凳1张、盆栽3盆、A字牌立牌1个，门口设金属隔离柱",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "窗内可见多人围坐，至少5人，无电脑；室内有吊灯、绿植、木质吧台或柜体",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图：木桌上放一杯带拉花的拿铁、一杯水、一个金属保温瓶（刻TAIC）、一张中文咖啡信息卡（#02 埃塞俄比亚 科巴 瑰夏1931 SOE）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图：木托盘上三杯饮品（美式、拿铁、牛奶饮‘SNOWY LANDSCAPE’）、一壶手冲咖啡、一小碟马卡龙（3枚）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图托盘卡片列明三款饮品名称与配方：AMERICANO、MILK BEVERAGE、SNOWY LANDSCAPE，含樱桃、酸奶、巧克力等成分",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图中手冲壶为玻璃材质，带滤杯结构，置于托盘后方；无可见磨豆机、虹吸或烘焙机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店名标牌显示地址为‘Taiyuan Rd. No. 236’，A字牌写营业时间‘10:00–07:00’",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:50Z"
+}

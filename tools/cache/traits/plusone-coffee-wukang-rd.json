@@ -1,0 +1,83 @@
+{
+  "cafeId": "plusone-coffee-wukang-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "77bc53d42cf0",
+  "raw": {
+    "headline": {
+      "zh": "三层楼+70㎡露台咖啡馆",
+      "en": "Three-story café with 70 sqm terrace"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "三层楼，室内90平方米咖啡区加70平方米户外露台",
+        "en": "Three-story space with 90 sqm indoor coffee area and 70 sqm outdoor terrace",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "手冲‘山茶花瑰夏’含茉莉花、薰衣草等香气",
+        "en": "Pour-over 'Camellia Geisha' with jasmine, lavender, lily of the valley, and aloe aromas",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "限定饮品如春日‘桂味荔枝’、初夏‘元气满满气泡冷萃’",
+        "en": "Seasonal drinks including 'Osmanthus Lychee' (spring) and 'Energetic Sparkling Cold Brew' (early summer)",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "食物包括冰淇淋、糖葫芦和香蕉杯",
+        "en": "Food offerings include ice cream, candied hawthorn, and banana cup",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00—20:00",
+        "en": "Open daily from 10:00 to 20:00",
+        "from": [
+          14,
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "店内有顾客在座位上但数量不多",
+        "en": "Few seated customers observed"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "有固定座位且含户外露台",
+        "en": "Seated seating plus outdoor terrace"
+      },
+      "adventure": {
+        "value": 85,
+        "from": [
+          11,
+          12
+        ],
+        "zh": "手冲系列与季节限定饮品多样",
+        "en": "Diverse pour-over and seasonal drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:46Z"
+}

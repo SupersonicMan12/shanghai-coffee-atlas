@@ -1,0 +1,49 @@
+{
+  "cafeId": "zhengnengkafeiting-haiyang-rd-681",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b90e129f78cb",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/ffdb0c4113013f838a08a156bd3868a3"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场内，入口为玻璃门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见室内桌椅，座位数量有限",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有紫色气球装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见红色宣传海报",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:33Z"
+}

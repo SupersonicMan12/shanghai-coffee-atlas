@@ -1,0 +1,59 @@
+{
+  "cafeId": "peet-s-coffee-longhuahui",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "270d3d4d3272",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/70c949b0131268060000003168588163?type=pic",
+    "https://aos-comment.amap.com/B0LRZL2IUN/comment/content_media_external_file_4264_ss__1766653064338_23860159.jpg",
+    "https://store.is.autonavi.com/showpic/58494a1162c5e54f0000002434906593?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店外有几张桌椅和绿植，属室外座区域。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台后方可见咖啡机与磨豆机等器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口立牌显示69元单人套餐含咖啡+蛋糕。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "白天拍摄，店面为临街玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门旁有圣诞树装饰，照片应摄于节日期间。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间照片中，店外有大型灯笼装饰装置。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:04:32Z"
+}

@@ -1,0 +1,173 @@
+{
+  "cafeId": "shanghaipaikafeishanghailaozihao-228jiefang",
+  "query": {
+    "location": "121.542875,31.288029",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:11:32Z",
+  "matchedPoiId": "B0JK1UH8B3",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFGDGH6A",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006676_ss__1763101994078_14593166.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006704_ss__1763101994037_76572083.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/9128b0aa0619880c69ddaafbecfdbcf7"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13564098594",
+        "id": "B0JK1UH8B3",
+        "tag": "卡布奇诺,美式咖啡,奶油",
+        "entr_location": "121.542917,31.288066",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长白新村",
+        "childtype": "320",
+        "atag": "卡布奇诺,美式咖啡,奶油",
+        "name": "上海牌咖啡·上海老字号(228街坊店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "32.00",
+          "opentime2": "周一至周日 08:30-19:30",
+          "rating": "4.4",
+          "open_time": "08:30-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744311",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:13:26",
+        "website": [],
+        "address": "长白路160号228街坊",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.542875,31.288025",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGDGH6A",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/9542feb05208e5ad5fb5c72eaa5762ff"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDCDZ0MF/comment/%5B2025-07-17-13-18-47%5D43D05FB0-3DED-4B65-89C4-38506C4E2ED_1752729545105_65230901.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JDCDZ0MF/comment/%5B2025-07-17-13-19-04%5DEA7E3FBB-5FE7-44F3-B39A-B91C1CC5E6E_1752729545105_77135319.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-66566718",
+        "id": "B0JDCDZ0MF",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.541428,31.288832",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "长白新村",
+        "childtype": "320",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(上海创寓228店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "140",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.5",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744310",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 07:53:20",
+        "website": [],
+        "address": "延吉东路349号地上一层7101单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.541594,31.288663",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

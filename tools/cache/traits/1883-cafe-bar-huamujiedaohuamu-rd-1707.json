@@ -1,0 +1,45 @@
+{
+  "cafeId": "1883-cafe-bar-huamujiedaohuamu-rd-1707",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d456e3fde8c3",
+  "raw": {
+    "headline": {
+      "zh": "带遮阳棚的户外座位",
+      "en": "Outdoor seating with shade canopy"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设两组桌椅，可外摆用餐",
+        "en": "Two outdoor table sets for al fresco dining",
+        "from": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日12:00-24:00营业",
+        "en": "Open daily 12:00–24:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "zh": "有户外座位且空间开阔",
+        "en": "Outdoor seats, open space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:47Z"
+}

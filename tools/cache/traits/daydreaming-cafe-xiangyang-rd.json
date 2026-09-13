@@ -1,0 +1,74 @@
+{
+  "cafeId": "daydreaming-cafe-xiangyang-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "51b04bee47d7",
+  "raw": {
+    "headline": {
+      "zh": "提供充电线的安静咖啡馆",
+      "en": "Quiet cafe with charging cables"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "面包售价18至78元，含可颂和瑞士卷",
+        "en": "Pastries ¥18–78: croissants, Swiss rolls",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜为蛋挞",
+        "en": "Signature dish: egg tart",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有落地窗，光线充足",
+        "en": "Floor-to-ceiling windows, ample daylight",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–19:30营业",
+        "en": "Open daily 07:30–19:30",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台设黑色椅子，至少可坐2人",
+        "en": "Bar seating with black chairs for ≥2",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "提供充电线和冷气",
+        "en": "Charging cables & AC"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5,
+          6
+        ],
+        "zh": "有座、光线好、可充电",
+        "en": "Seating, light, power"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:59Z"
+}

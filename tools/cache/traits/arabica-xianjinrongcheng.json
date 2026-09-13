@@ -1,0 +1,94 @@
+{
+  "cafeId": "arabica-xianjinrongcheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8831fdd7672a",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗采光好",
+      "en": "Large street-facing windows with great light"
+    },
+    "traits": [
+      {
+        "kind": "light|view",
+        "zh": "整面落地玻璃窗，采光充足，可看到外侧树木",
+        "en": "Full-height glass window with ample natural light and view of trees outside",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供埃塞俄比亚孔加、罕贝拉等单一产地咖啡豆",
+        "en": "Offers single-origin beans like Ethiopia Konga and Hambella",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品使用100% Arabica咖啡豆制作浓缩基底",
+        "en": "Signature drink uses 100% Arabica espresso base",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "以站立吧台为主，配高脚凳，空间紧凑",
+        "en": "Primarily standing bar with high stools, compact space",
+        "from": [
+          1,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚18:30，工作日早7:30开门",
+        "en": "Opens at 7:30 AM, closes at 6:30 PM on weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "可办公，有电脑使用者",
+        "en": "Suitable for working with laptops"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1,
+          10
+        ],
+        "zh": "站喝为主，人流适中",
+        "en": "Stands-only layout, moderate foot traffic"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          10
+        ],
+        "zh": "空间小，适合短暂停留",
+        "en": "Small space, designed for quick visits"
+      },
+      "adventure": {
+        "value": 20,
+        "from": [
+          3
+        ],
+        "zh": "单一产地豆但无手冲/自烘信息",
+        "en": "Single-origin beans, no experimental drinks noted"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:47Z"
+}

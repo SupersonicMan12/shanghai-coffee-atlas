@@ -1,0 +1,81 @@
+{
+  "cafeId": "chili-s-cafe-bar-binjiang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "04b3c8b7819e",
+  "raw": {
+    "headline": {
+      "zh": "墨西哥海岸风日咖夜酒",
+      "en": "Tex-Mex cafe by day, bar by night"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "面朝江畔，靠窗景观位佳",
+        "en": "Riverfront view with good window seats",
+        "from": [
+          8,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌巧克力熔岩蛋糕配香草冰淇淋",
+        "en": "Famous molten chocolate cake with vanilla ice cream",
+        "from": [
+          3,
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供德克萨斯风味墨西哥汉堡与薯条",
+        "en": "Tex-Mex burgers and fries on the menu",
+        "from": [
+          4,
+          6,
+          15
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周五六营业至次日凌晨1点",
+        "en": "Open until 1am Fri–Sat",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "总统特选玛格丽特鸡尾酒酸甜口感",
+        "en": "President's Margarita: tart and sweet",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5,
+          8,
+          10,
+          11
+        ],
+        "zh": "有室外座和景观位适合久坐",
+        "en": "Outdoor and window seats invite lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "日咖夜酒带日落派对氛围",
+        "en": "Day-to-night vibe with sunset parties"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:55Z"
+}

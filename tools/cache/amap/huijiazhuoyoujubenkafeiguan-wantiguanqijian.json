@@ -1,0 +1,390 @@
+{
+  "cafeId": "huijiazhuoyoujubenkafeiguan-wantiguanqijian",
+  "query": {
+    "location": "121.441286,31.184647",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:09:05Z",
+  "matchedPoiId": "B00155QX3E",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "体育休闲服务;娱乐场所;棋牌室|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/d823418a15bced862f6692a30005f08b"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/abe4ab80a27649b3c25edd940a7aca08"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/72bab60f55a16f1a30357d2ffa174e5f"
+          }
+        ],
+        "building": [],
+        "typecode": "080306|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18621781788",
+        "id": "B00155QX3E",
+        "tag": [],
+        "entr_location": "121.441508,31.18448",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": [],
+        "atag": [],
+        "name": "汇佳桌游剧本咖啡馆(万体馆旗舰店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_515691",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "42.00",
+          "opentime2": "周一至周四 10:00-24:00；周五至周日 10:00-02:00",
+          "rating": "4.5",
+          "open_time": "10:00-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632500",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 13:28:17",
+        "website": [],
+        "address": "斜土路2899号(上海体育场地铁站3号口步行240米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.441288,31.184643",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0G06GMU24",
+        "pcode": "310000",
+        "keytag": "桌游",
+        "type": "体育休闲服务;娱乐场所;游戏厅|体育休闲服务;娱乐场所;棋牌室|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/31e9d02f3f79b5dd6a2e1707f8ae1e1b"
+          }
+        ],
+        "building": [],
+        "typecode": "080305|080306|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KBR7T0LB",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "202",
+        "atag": [],
+        "name": "汇佳桌游(万体馆旗舰店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "20",
+        "importance": [],
+        "biz_ext": {
+          "cost": "49.00",
+          "opentime2": [],
+          "rating": "4.0",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632500",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-28 06:23:26",
+        "website": [],
+        "address": "徐家汇街道斜土路2899号上影公寓2号楼",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.441502,31.184683",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B001510ED1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/42d87004c1646753a842c6596581eb9b"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c01081fdc8aff23dee8b1a259f8558bd"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0c20552533078ff3a98887a88141012b"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MAYS1CSX",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "BOLD COFFEE PRO(八万人店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "37",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.1",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632500",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 21:37:31",
+        "website": [],
+        "address": "斜土路2899号上影公寓",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.441145,31.184329",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L9ZX",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54660125",
+        "id": "B0FFJEQ29J",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.442506,31.184792",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "201",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(星游城店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_494500",
+        "distance": "102",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "4.2",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632501",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-11 18:45:51",
+        "website": [],
+        "address": "天钥桥路580号星游城1F-13单元+2F-13单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "37900210200376",
+          "truefloor": "1F",
+          "cpid": "B00155L9ZX",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.442277,31.184995",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFF00LW3",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFIU6KTY",
+        "tag": "西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,生椰拿铁,杨枝甘露",
+        "entr_location": "121.441301,31.186019",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "龙华",
+        "childtype": "202",
+        "atag": "西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(光启文化广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "130",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-18:00",
+          "rating": "4.1",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621632500",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:47:47",
+        "website": [],
+        "address": "斜土路2899号光启文化广场B座一层大堂",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.441210,31.185820",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

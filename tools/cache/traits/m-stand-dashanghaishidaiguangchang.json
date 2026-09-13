@@ -1,0 +1,58 @@
+{
+  "cafeId": "m-stand-dashanghaishidaiguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4fc070647772",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房，主打冰棒咖啡",
+      "en": "Streetfront glass box with coffee pops"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃幕墙，视野通透",
+        "en": "Full street-facing glass wall, open view",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供含果料的长方形冰棒甜品",
+        "en": "Rectangular fruit-studded coffee pops",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日早7点开门，周末9点",
+        "en": "Opens 7am weekdays, 9am weekends",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐香肠、油条",
+        "en": "Recommended: sausage and youtiao",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "无户外座位，人行道仅通行",
+        "en": "No outdoor seating, walkway only"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:01Z"
+}

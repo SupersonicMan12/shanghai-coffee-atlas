@@ -1,0 +1,65 @@
+{
+  "cafeId": "the-oranges-fumin-rd-183",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "b0486195bfc4",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_images_media_5833_1743635135465_34345326.jpg",
+    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_images_media_1000227723_ss__1727877756438_88875939.jpg",
+    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_file_1000029844_ss__1758203431774_22659562.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街有长条吧台座位，至少可坐4人。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大玻璃窗，采光好，可见内部灯光和顾客。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台外侧是街道，有人坐在窗边，无室外座。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有一杯拉花拿铁、一杯冰咖啡和一份焦糖布丁。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冷饮，杯身凝结水珠，适合夏天。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间不大，吧台后方可见操作区和货架。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有顾客在交谈，未见有人使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:47Z"
+}

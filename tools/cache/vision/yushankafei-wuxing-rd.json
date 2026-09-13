@@ -1,0 +1,59 @@
+{
+  "cafeId": "yushankafei-wuxing-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "038bbf22cb59",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/68291ee9dba60c1f0000005670464318?type=pic",
+    "https://aos-comment.amap.com/B0I0PG2D3U/comment/C12DC2BC_C7E7_431F_A5E0_9DCB636755AB_L0_001_1536_204_1757550809610_30517837.jpg",
+    "https://aos-comment.amap.com/B0I0PG2D3U/comment/3A9FB265_458E_4B19_B1C0_DC6107553DAD_L0_001_1536_204_1757550809875_38354416.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内墙面为粉色砖墙，挂有照片",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见木质桌椅，数量约2-4个",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁，有心形拉花",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内光线明亮，自然光充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗户外可见街道和车辆",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:41Z"
+}

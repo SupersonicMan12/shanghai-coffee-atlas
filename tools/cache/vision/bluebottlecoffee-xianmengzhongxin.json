@@ -1,0 +1,60 @@
+{
+  "cafeId": "bluebottlecoffee-xianmengzhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c25825a86480",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/862457ad5bc4d5b40000003145662439?type=pic",
+    "https://aos-comment.amap.com/B0K1GHU4P8/comment/4e73e2b53453460efa83696e7cd3fa8c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0K1GHU4P8/comment/2B06CE44_BF3F_4F9C_9029_208D204FBB63_L0_001_2000_167_1766852569437_32878661.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，有吧台式窗口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内采用木质货架展示商品",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见抹茶拿铁和焦糖玛奇朵两款饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供一块巧克力蛋糕类甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有陈列商品的木质货架",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面外有黄色卡通熊雕塑",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:24Z"
+}

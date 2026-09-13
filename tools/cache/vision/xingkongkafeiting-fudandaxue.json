@@ -1,0 +1,52 @@
+{
+  "cafeId": "xingkongkafeiting-fudandaxue",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7f71d803eee9",
+  "photos": [
+    "https://aos-comment.amap.com/B00155HCYW/comment/3cea6685b27753ea512f5fd6201be1a9_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B00155HCYW/comment/10668fb511269281645d4275baec2085_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B00155HCYW/comment/content_media_external_file_65368_ss__1760276583112_84071926.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内为多层开放式空间，有二楼座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见多张桌椅，座位数量较多",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一楼吧台区域有人活动，可能有饮品制作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一幅食物插画，展示类似蛋包饭的菜品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:56Z"
+}

@@ -1,0 +1,46 @@
+{
+  "facts": [
+    {
+      "text": "一樓無座位，僅擺放器具和雜貨；二、三樓及夾層有小木桌，空間不大",
+      "kind": "space",
+      "quote": "一樓沒有可坐的空間，只是用來擺放制作咖啡的器具和雜貨。爬上陡峭地有些危險的樓梯，二、三樓和中間的夾層都有一些小木桌。",
+      "url": "https://www.letsgojp.cn/archives/479065/",
+      "site": "都是喝咖啡，日本的「吃茶店」、「カフェ」、「珈琲店」到底 ... - 全国"
+    },
+    {
+      "text": "周末時一座難求",
+      "kind": "seating",
+      "quote": "空間不大，周末時一座難求。",
+      "url": "https://www.letsgojp.cn/archives/479065/",
+      "site": "都是喝咖啡，日本的「吃茶店」、「カフェ」、「珈琲店」到底 ... - 全国"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "党报记者八闽调研行| 社区咖啡店里的人间烟火-东南网-福建官方新闻 ...",
+      "url": "https://fjnews.fjsen.com/wap/2024-08/12/content_31709725.htm",
+      "site_name": "东南网"
+    },
+    {
+      "index": 2,
+      "title": "社区咖啡店里的人间烟火-中新网福建 - 福建新闻 - 中国新闻网",
+      "url": "https://www.fj.chinanews.com.cn/news/2024/2024-08-13/552176.html",
+      "site_name": "中国新闻网"
+    },
+    {
+      "index": 3,
+      "title": "濟州寶藏海景咖啡廳之Vadada Cafe | Trip.com Seogwipo",
+      "url": "https://id.trip.com/moments/detail/seogwipo-14755-147003214?locale=id-ID",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "都是喝咖啡，日本的「吃茶店」、「カフェ」、「珈琲店」到底 ... - 全国",
+      "url": "https://www.letsgojp.cn/archives/479065/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:39:43Z"
+}

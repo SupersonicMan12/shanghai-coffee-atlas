@@ -1,0 +1,97 @@
+{
+  "cafeId": "lavazza-shanghaihaike",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "44085b5eaf77",
+  "raw": {
+    "headline": {
+      "zh": "上海限定咖啡文化空间",
+      "en": "Shanghai-exclusive coffee culture space"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内设靠窗舒适座位区，适合久坐休憩",
+        "en": "Comfortable window seats for lingering",
+        "from": [
+          12,
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街落地窗采光良好，视野开阔",
+        "en": "Large floor-to-ceiling windows with ample natural light",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "户外设有遮阳伞与桌椅的露天座位区",
+        "en": "Outdoor seating area with umbrellas and tables",
+        "from": [
+          3,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推出上海限定拼配豆与橙力香草籽雪克美式",
+        "en": "Shanghai-exclusive blend and Orange-Vanilla Shake Iced Americano",
+        "from": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "立体展示墙分层陈列生豆至深度烘焙豆",
+        "en": "Tiered display of green to dark roast beans",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "有靠窗座位，可专注办公",
+        "en": "Window seats for focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          6,
+          8
+        ],
+        "zh": "户外座位区处于开放街道环境",
+        "en": "Open street-side setting"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          12,
+          7
+        ],
+        "zh": "配备舒适座位，支持长时间停留",
+        "en": "Designed for long stays"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "有上海限定饮品和特别拼配豆",
+        "en": "Limited-edition local drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:39Z"
+}

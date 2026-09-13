@@ -1,0 +1,71 @@
+{
+  "cafeId": "ora-kerry",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "96305220f4ec",
+  "photos": [
+    "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16264_IMG_1766025678_13452_IMG_20251218_103938_jpg_ss__1766404924574_02585596.jpg",
+    "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16267_IMG_1766025818_13455_IMG_20251218_104158_jpg_ss__1766404924544_51755604.jpg",
+    "https://store.is.autonavi.com/showpic/6fc0fec468adcb210000002560140420?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外设1张户外桌、4把绿色金属椅、1把黄色塑料椅及遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为临街玻璃门+大面积落地窗，可见室内吧台与操作区",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内吧台后方有全自动咖啡机、手冲壶、磨豆机、电子秤等器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上屏幕显示Ora Coffee品牌图与4种咖啡粉特写，含‘燕麦拿铁’字样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印‘Ora Coffee’；一杯为奶盖+橙色粉（标签名‘即如雪非雪杏花雨’），另一杯为冰美式类深色饮料（标签名‘红宝石·瑰夏’）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "左侧墙挂板列有烘焙日期：2025-12-8、2025-12-1、2025-12-2、2025-12-1",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外立牌写‘扫码下单’，入口处有‘自然好豆，自然好喝’标语",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "店内一名员工背对镜头在吧台操作，穿黑色上衣+围裙",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:38Z"
+}

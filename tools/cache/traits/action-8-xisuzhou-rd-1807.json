@@ -1,0 +1,48 @@
+{
+  "cafeId": "action-8-xisuzhou-rd-1807",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d3e7a8c089a4",
+  "raw": {
+    "headline": {
+      "zh": "日咖夜酒双时段营业",
+      "en": "Day coffee, night drinks"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "周二至周日10:30-14:00及18:00-02:00营业，周一闭店",
+        "en": "Open Tue–Sun 10:30–14:00 & 18:00–02:00; closed Mon",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲台与磨豆机等咖啡器具",
+        "en": "Has pour-over station and grinder",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街店面带落地窗",
+        "en": "Street-facing with floor-to-ceiling windows",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "设有手冲台与专业器具",
+        "en": "Pour-over setup present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:28Z"
+}

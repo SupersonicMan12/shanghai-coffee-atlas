@@ -1,0 +1,71 @@
+{
+  "cafeId": "someet-cafe-gumei-rd-563",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f22b2457e256",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/121e751993b6772bd5190acd78d52922",
+    "http://store.is.autonavi.com/showpic/b1c234279b1d0f428a4e59461474c569",
+    "https://aos-comment.amap.com/B0FFKXAZJZ/comment/15871d4add36a69d78ac4dc1ef6a5887_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆有室外座位，带遮阳伞",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大面积落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质隔断和绿植装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有客人在座位上使用笔记本电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有一杯拉花拿铁咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质桌椅和砖墙结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树木和街道可见",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "咖啡杯为白色陶瓷，拉花呈心形",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:06Z"
+}

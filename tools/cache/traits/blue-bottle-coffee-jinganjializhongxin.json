@@ -1,0 +1,83 @@
+{
+  "cafeId": "blue-bottle-coffee-jinganjializhongxin",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "aaa3a22c3b84",
+  "raw": {
+    "headline": {
+      "zh": "48小时内现烘咖啡",
+      "en": "Freshly roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只售卖出炉不超过48小时的咖啡",
+        "en": "Serves coffee roasted within 48 hours",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括海耶斯谷(浓缩)、贝拉多曼等拼配咖啡",
+        "en": "Features signature blends like Hayes Valley (espresso) and Bella Domingo",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供抹茶酱华夫饼、水波蛋吐司配沙拉等餐点",
+        "en": "Offers items like matcha syrup waffle and poached egg toast with salad",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内桌座，木质托盘配金属桌面",
+        "en": "Indoor table seating with wooden trays and metal surfaces",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日08:00-22:00",
+        "en": "Open daily 08:00–22:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          4,
+          12
+        ],
+        "zh": "有固定座位且营业时间长",
+        "en": "Fixed seats and long hours"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          12
+        ],
+        "zh": "适合久坐，营业至晚",
+        "en": "Good for lingering into evening"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          12
+        ],
+        "zh": "营业时间长但无喧闹提示",
+        "en": "Long hours, no noise cues"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:30Z"
+}

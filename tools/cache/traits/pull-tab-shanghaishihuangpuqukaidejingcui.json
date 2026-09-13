@@ -1,0 +1,74 @@
+{
+  "cafeId": "pull-tab-shanghaishihuangpuqukaidejingcui",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a786bbe9c13c",
+  "raw": {
+    "headline": {
+      "zh": "冰咖啡有奶泡层",
+      "en": "Iced coffee with milk foam"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含奶泡层的冰咖啡",
+        "en": "Serves iced coffee with milk foam layer",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设两把椅子供顾客使用",
+        "en": "Offers two chairs for customers",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "吧台后方有咖啡制作设备与瓶装原料",
+        "en": "Coffee equipment and bottled ingredients behind counter",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日07:30-19:00",
+        "en": "Open daily 07:30–19:00",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "吧台区域整洁并有植物装饰",
+        "en": "Counter area is tidy with plant decoration",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "座位少，不适合久坐",
+        "en": "Few seats, not for lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1,
+          5,
+          6
+        ],
+        "zh": "空间小，环境安静",
+        "en": "Small space, quiet atmosphere"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:20Z"
+}

@@ -1,0 +1,79 @@
+{
+  "facts": [
+    {
+      "text": "菜单上的单品豆每隔几天更换一次",
+      "kind": "beans",
+      "quote": "菜单上的单品豆每隔几天就会更换一次,很有新鲜感。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店内提供澳白，奶泡丝滑甜感明显",
+      "kind": "drinks",
+      "quote": "店里的澳白奶泡丝滑,甜感明显,风味层次饱满;",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "手冲咖啡多选用巴拿马瑰夏，花果香十足",
+      "kind": "drinks",
+      "quote": "手冲咖啡大多选用巴拿马的瑰夏,干净清透,花果香十足。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于静安区，有丰富餐点如意大利面、比萨饼等",
+      "kind": "food",
+      "quote": "菜单上的意大利面，比萨饼，汉堡等等。",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8179537-Reviews-Grand_Yard_Cafe-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "设有漂亮的台球桌和啤酒乒乓球游戏",
+      "kind": "space",
+      "quote": "漂亮的台球桌和啤酒乒乓球，后者在二楼。",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8179537-Reviews-Grand_Yard_Cafe-Shanghai.html",
+      "site": "Tripadvisor"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "GRANDYARD CAFE AND BAR(华通大厦店)-图片-上海 - 大众点评",
+      "url": "https://www.dianping.com/shop/6006790/photos?pg=11",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "GRANDYARD CAFE AND BAR(华通大厦店)-菜图片-上海 - 大众点评",
+      "url": "https://www.dianping.com/shop/H8NXmO9Diad4tCaX/photos/tag-%E8%8F%9C?pg=5",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "Grand Yard Shanghai - Cafes, Bars, Sports Bars, Jing'an District",
+      "url": "https://www.smartshanghai.com/venue/14417/grand_yard_cafe_and_bar",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Grand Yard Cafe(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8179537-Reviews-Grand_Yard_Cafe-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "社会面新增7+5,涉松江闵行浦东等多区!迪士尼、东方明珠暂时关闭,有医院调整核酸要求 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwODc0MTMxMw==&mid=2650193125&idx=1&sn=5718728845f1fb6a07f0df4c43fa9abd&chksm=8368544bb41fdd5dc8c20ecd447a65b733735d85622b8c349e0df1af9e471a245b68d60efa5e&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:00:05Z"
+}

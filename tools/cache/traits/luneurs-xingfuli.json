@@ -1,0 +1,64 @@
+{
+ "cafeId": "luneurs-xingfuli",
+ "model": "qwen-max",
+ "inputDigest": "2471b63bd5d5",
+ "raw": {
+  "headline": {
+   "zh": "招牌Gelato affogato，享受宁静与美味",
+   "en": "Signature Gelato Affogato, savor tranquility and flavor"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "绿树成荫的街道，柔和色调和新鲜花卉",
+    "en": "Leafy street, soft tones, and fresh flowers",
+    "from": 1
+   },
+   {
+    "kind": "seating",
+    "zh": "户外露台适合啜饮冰镇馥芮白咖啡",
+    "en": "Outdoor terrace for iced flat whites",
+    "from": 2
+   },
+   {
+    "kind": "beans",
+    "zh": "店主甄选优质产地咖啡豆进行不同程度烘焙",
+    "en": "Owner selects quality beans for varied roasts",
+    "from": 3
+   },
+   {
+    "kind": "food",
+    "zh": "招牌Gelato affogato",
+    "en": "Signature Gelato Affogato",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": 4,
+    "zh": "更适合休闲放松",
+    "en": "More for leisure"
+   },
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "宁静的环境",
+    "en": "Quiet ambiance"
+   },
+   "linger": {
+    "value": 80,
+    "from": 2,
+    "zh": "有户外露台适合久坐",
+    "en": "Outdoor terrace for lingering"
+   },
+   "adventure": {
+    "value": 40,
+    "from": 3,
+    "zh": "不同烘焙程度的咖啡豆",
+    "en": "Varied coffee roasts"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:35Z"
+}

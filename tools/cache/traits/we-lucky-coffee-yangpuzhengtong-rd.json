@@ -1,0 +1,72 @@
+{
+  "cafeId": "we-lucky-coffee-yangpuzhengtong-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5c74dda9f9e2",
+  "raw": {
+    "headline": {
+      "zh": "巴西埃塞豆拼配",
+      "en": "Brazil & Ethiopia bean blend"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆来自巴西、埃塞俄比亚等四大产区",
+        "en": "Coffee beans from Brazil, Ethiopia, and others",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "约20平方米街边小店，无固定座位",
+        "en": "About 20 sqm street-side shop, standing only",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "采用工厂烘焙豆搭配半自动设备现磨",
+        "en": "Factory-roasted beans, brewed with semi-auto machines",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "布局于大学城、步行街等人流密集区",
+        "en": "Located in high-footfall areas like university towns",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为coffee",
+        "en": "Highly recommended on Gaode: coffee",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "仅设站喝位",
+        "en": "Standing-only setup"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "位于人流密集区",
+        "en": "In high-footfall zones"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:46:10Z"
+}

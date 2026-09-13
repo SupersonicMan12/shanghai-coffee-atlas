@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
 import { AXES, blendAllMemo, isOpenAt, scoreVerdict } from '../lib/match'
@@ -16,11 +17,18 @@ import {
 } from '../data/labels'
 import { useI18n } from '../lib/i18n'
 import { displayNames } from '../lib/names'
+import { detailFor, firmTraits } from '../lib/details'
+import type { Why } from '../lib/why'
 import { CalibrateWidget } from './CalibrateWidget'
+import { VerdictBlock } from './Verdict'
+
+const DAY_EN = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+const DAY_ZH = ['日', '一', '二', '三', '四', '五', '六']
 
 const SOURCE_WORD = {
   editorial: { en: 'editorial', zh: '编辑', both: 'editorial 编辑' },
   measured: { en: 'measured', zh: '实测', both: 'measured 实测' },
+  observed: { en: 'observed', zh: '照片/公开资料', both: 'observed 照片/公开资料' },
   voted: { en: 'voted', zh: '读者', both: 'voted 读者' },
 } as const
 
@@ -30,6 +38,9 @@ interface Props {
   want: Axes
   compassOn: boolean
   hour: number
+  weekday: number
+  /** The compass's verdict for this café, when the compass is on. */
+  why: Why | null
   visited: boolean
   saved: boolean
   distanceMinutes: number | null
@@ -54,6 +65,8 @@ export function CafeCard({
   want,
   compassOn,
   hour,
+  weekday,
+  why,
   visited,
   saved,
   distanceMinutes,
@@ -75,6 +88,13 @@ export function CafeCard({
   const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
   const toClose = minutesToClose(cafe, hour)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
+  const detail = detailFor(cafe)
+  const curated = cafe.source !== 'imported'
+  const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
+  const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
+  const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
+  const usedAsReason = new Set((why?.reasons ?? []).filter((r) => r.kind === 'trait').map((r) => r.text.en))
+  const traits = firmTraits(cafe, compassOn && why ? 5 : 3).filter((tr) => !usedAsReason.has(tr.text))
   return (
     <aside className="card" key={cafe.id}>
       <button className="card-close" onClick={onClose} aria-label={t(UI.close)}>
@@ -116,8 +136,85 @@ export function CafeCard({
         </div>
       )}
 
-      <p className="card-signature">“{cafe.signature}”</p>
-      <p className="card-note">{cafe.note}</p>
+      {compassOn && why ? (
+        <VerdictBlock why={why} />
+      ) : (
+        detail.headline && (
+          <p className="card-headline">
+            {t(detail.headline)}
+            {mode === 'both' && <span className="zh"> {detail.headline.zh}</span>}
+          </p>
+        )
+      )}
+      {traits.length > 0 && (
+        <ul className="verdict-reasons card-traits">
+          {traits.map((tr) => (
+            <li key={tr.text} className="vr-trait">
+              {zh ? tr.textZh : tr.text}
+              {mode === 'both' && <span className="zh"> {tr.textZh}</span>}
+              {tr.source?.startsWith('http') && (
+                <a className="trait-src" href={tr.source} target="_blank" rel="noreferrer" aria-label={t(UI.source)}>
+                  ↗
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {curated && (
+        <>
+          <p className="card-signature">“{cafe.signature}”</p>
+          <p className="card-note">{cafe.note}</p>
+        </>
+      )}
+
+      {photos.length > 0 && (
+        <div className={`card-photos n${photos.length}`} aria-label={t(UI.photosLabel)}>
+          {photos.map((src) => (
+            <figure key={src} className="card-photo">
+              <img
+                src={src}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                referrerPolicy="no-referrer"
+                onError={() => setBroken((prev) => new Set(prev).add(src))}
+              />
+            </figure>
+          ))}
+        </div>
+      )}
+
+      {detail.dishes.length > 0 && (
+        <div className="card-dishes">
+          <span className="cd-label">
+            {t(UI.oftenOrdered)}
+            {mode === 'both' && <span className="zh"> {UI.oftenOrdered.zh}</span>}
+          </span>
+          {detail.dishes.map((d) => (
+            <span key={d} className="dish">
+              {d}
+            </span>
+          ))}
+        </div>
+      )}
+
+      {week && (
+        <div className="card-week">
+          <span className="cw-label">{t(UI.weekHours)}</span>
+          <ul>
+            {week.map((h) => (
+              <li key={h.day} className={h.day === weekday ? 'today' : ''}>
+                <b>{zh ? DAY_ZH[h.day] : DAY_EN[h.day]}</b>
+                <span>
+                  {formatHour(h.open)}–{formatHour(h.close)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="card-facts">
         <div>
@@ -207,14 +304,6 @@ export function CafeCard({
         </div>
       </div>
 
-      <div className="card-tags">
-        {cafe.tags.map((tag) => (
-          <span key={tag} className="tag">
-            {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
-          </span>
-        ))}
-      </div>
-
       <div className="card-actions">
         <button className={`act${visited ? ' on' : ''}`} onClick={onStamp}>
           {visited ? t(UI.stamped) : t(UI.stampVisited)}
@@ -239,6 +328,17 @@ export function CafeCard({
       </div>
 
       <CalibrateWidget cafe={cafe} />
+
+      {cafe.tags.length > 0 && (
+        <div className="card-tags">
+          <span className="ct-label">{t(UI.hardFacts)}</span>
+          {cafe.tags.map((tag) => (
+            <span key={tag} className="tag">
+              {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
+            </span>
+          ))}
+        </div>
+      )}
     </aside>
   )
 }

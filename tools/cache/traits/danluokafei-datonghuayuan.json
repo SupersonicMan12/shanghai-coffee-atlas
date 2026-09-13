@@ -1,0 +1,75 @@
+{
+  "cafeId": "danluokafei-datonghuayuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "48f394b66a97",
+  "raw": {
+    "headline": {
+      "zh": "航天主题集装箱咖啡馆",
+      "en": "Space-themed container café"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店铺由集装箱改造，入口开放",
+        "en": "Housed in a repurposed shipping container with open entrance",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有户外桌椅和室内座位",
+        "en": "Offers both outdoor and indoor seating",
+        "from": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为COMBO双拼特调",
+        "en": "Signature drink is the COMBO dual-flavor special",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供不含咖啡因的雪梨冰酒酿",
+        "en": "Serves caffeine-free pear fermented rice drink",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为8:00至22:00",
+        "en": "Open daily from 8:00 to 22:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          11
+        ],
+        "zh": "营业时间长适合久坐",
+        "en": "Long hours suit lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "特调与无咖饮品较特别",
+        "en": "Unusual drinks like dual-flavor and non-coffee options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:45Z"
+}

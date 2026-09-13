@@ -1,0 +1,71 @@
+{
+  "cafeId": "elefanco-changshou",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "71243806ccd6",
+  "photos": [
+    "https://aos-comment.amap.com/B0GKJO0EJ0/comment/3f282fecb6649feef0f015e55dba3a9e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GKJO0EJ0/comment/file_media_Photo_18464_IMG_1769409535_15526_IMG_20260126_143715_jpg_ss__1773501756132_38247962.jpg",
+    "https://store.is.autonavi.com/showpic/f0fe6bb4470b8a8a0000001919918129?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门左侧有绿色路牌‘100 长寿路’，临街玻璃门，门外设木质平台与折叠椅桌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外悬挂红、橙色纸灯笼，部分写有‘福’字；橱窗内有霓虹灯‘ELEFANCO’云形标识。",
+      "kind": "decoration",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为单层挑高空间，灰色地砖，吧台为木面+灰底，配3个木座高脚凳。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方可见意式咖啡机、磨豆机、酒架及水族箱；右侧墙有格子架陈列小瓶装商品。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台上方悬挂2个藤编球形吊灯；天花板有红色金属网状艺术装置；吧台前摆多只玩偶与OATLY燕麦奶盒。",
+      "kind": "decoration",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "店内右侧有拱形通道通向楼梯，通道旁立绿植；另见2个灰布圆凳+金属小桌组合。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "吧台正中贴红色横幅‘马上有福’；吧台后有2名工作人员，一人操作设备，一人坐姿。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "店外木质平台上摆放2套折叠椅+小木桌（每套2椅1桌），另远处可见1张圆桌配4把折叠椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:08Z"
+}

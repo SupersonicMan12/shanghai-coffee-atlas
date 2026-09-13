@@ -1,0 +1,71 @@
+{
+  "cafeId": "ibarrel-bistro-brunch-qiantangongyuanxiang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "73ca9fe2f41d",
+  "photos": [
+    "https://aos-comment.amap.com/B0K30RWNYG/comment/DC1527BF_5D84_4D1F_8602_39585EFF94A4_L0_001_1500_2000_1738393064001_33929662.jpg",
+    "http://store.is.autonavi.com/showpic/36357fbd44be78b6bb3a72abeb3b8173",
+    "https://aos-comment.amap.com/B0K30RWNYG/comment/content_media_external_file_1000117605_ss__1765704817216_99190997.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和酒架，提供西式餐点",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放汉堡、薯条、意面和汤，食物种类丰富",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有玻璃门和落地窗，临街可见",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有室外座位区，有桌椅和绿植",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有节日装饰，如圣诞树和充气圣诞老人",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有咖啡饮品，杯中可见拉花",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有木质桌椅，空间布局紧凑",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外招牌为'ibarrel'，位于钱家滩路与江泳路交叉口附近",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:49Z"
+}

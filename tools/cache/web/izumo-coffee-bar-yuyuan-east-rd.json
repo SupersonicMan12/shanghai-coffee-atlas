@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "使用自家烘焙的咖啡豆",
+      "kind": "beans",
+      "quote": "咖啡豆自家烘培，泡出來的咖啡很香",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/izumo-coffee-bar-62117772/",
+      "site": "IZUMO COFFEE(伊勢丹百貨店) (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "提供意式手冲咖啡",
+      "kind": "drinks",
+      "quote": "各種意式手沖等，價格也是很親民",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/izumo-coffee-bar-62117772/",
+      "site": "IZUMO COFFEE(伊勢丹百貨店) (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "位于静安寺商圈",
+      "kind": "view",
+      "quote": "靜安寺商圈咖啡",
+      "url": "https://m.dianping.com/shop/67301821",
+      "site": "大众点评网"
+    },
+    {
+      "text": "晚上作为酒吧营业",
+      "kind": "time",
+      "quote": "晚上應該還是酒吧",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/izumo-coffee-bar-62117772/",
+      "site": "IZUMO COFFEE(伊勢丹百貨店) (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "具有情調的环境",
+      "kind": "space",
+      "quote": "這條路上鬧中取靜，很有情調哦",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/izumo-coffee-bar-62117772/",
+      "site": "IZUMO COFFEE(伊勢丹百貨店) (上海靜安寺/南京西路) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "静安寺商圈咖啡",
+      "url": "https://m.dianping.com/shop/67301821",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "IZUMO COFFEE(伊勢丹百貨店) (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/izumo-coffee-bar-62117772/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "手冲咖啡正宗的咖啡店",
+      "url": "https://www.sina.cn/gc/article/nircvuq4366889.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "IZUMO COFFEE BAR-图片-上海-第12页-大众点评网",
+      "url": "http://www.dianping.com/shop/67301821/photos?pg=12",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "神仙打架,咖啡市这名字可不是白叫的",
+      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 7,
+      "title": "南瓜、辣椒、洋葱都能当杯子?闵行这对闺蜜开的村咖,许多人跨越半个上海来打卡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MzIzODQzMg==&mid=2650768166&idx=8&sn=82204a6e1deff3b08a65e4b58325e943&chksm=89dfa807565cb09ab8867d0d3ff48d7396e520c3c13f4ed4d5949459831486dfbe52d6aadcf5&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "IZUMO COFFEE BAR-图片-上海-第27页-大众点评网",
+      "url": "http://www.dianping.com/shop/67301821/photos?pg=27",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:15:56Z"
+}

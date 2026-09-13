@@ -1,0 +1,71 @@
+{
+  "cafeId": "maoxianniao-tongyili",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "40cd35b7f2d6",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/6FFC86E4_D699_49F2_B704_F2B5D8F2F6B8_L0_001_1500_200_1763430724716_05386565.jpg",
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14292_ss__1761124545634_25899686.jpg",
+    "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14296_ss__1761124545629_08913347.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有红色枫叶椅，门面为灰砖+石材门框，临街",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内吧台可见，桌面为深色带划痕的金属/石质材质",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯身印有“CAFÉ & BAR”及“冒险鸟”，杯内有冰、绿植与棕色块状物",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上放有一块千层蛋糕，分层为粉红、白、紫三色，置于圆形木盘上",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内背景有灰色沙发座，配橙灰几何图案抱枕，属靠墙卡座布局",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "门上玻璃贴有营业时间：每日10:00–22:00，表明为日间至夜间营业",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "无明显专业咖啡设备（如手冲台、磨豆机）或书架植物等装饰物可见",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见顾客使用笔记本电脑，也无人员在操作咖啡器具",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:36Z"
+}

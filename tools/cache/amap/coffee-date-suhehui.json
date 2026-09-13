@@ -1,0 +1,98 @@
+{
+  "cafeId": "coffee-date-suhehui",
+  "query": {
+    "location": "121.422715,31.228259",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:30Z",
+  "matchedPoiId": "B0JDOCFGZ3",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00156TISY",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d391ad3a06ccbb32e1adb50bd2462a6f"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d695de659d33195a0000002546306068?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/08355d21912c26b2449e50e9cc0d2c5d"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "普陀区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17621738418",
+        "id": "B0JDOCFGZ3",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310107",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "coffee date(苏河汇店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "27.00",
+          "opentime2": "周一至周日 08:00-22:00",
+          "rating": "4.5",
+          "open_time": "08:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621637312",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:13:35",
+        "website": [],
+        "address": "光复西路1107号苏河汇(隆德路地铁站3号口步行240米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.422716,31.228264",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

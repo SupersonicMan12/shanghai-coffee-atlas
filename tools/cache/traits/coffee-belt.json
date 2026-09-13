@@ -1,0 +1,28 @@
+{
+ "cafeId": "coffee-belt",
+ "model": "qwen-max",
+ "inputDigest": "d419f45116ff",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌是带走的意式浓缩咖啡",
+    "en": "Signature: espresso to go",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "适合站着喝完就走",
+    "en": "Standing bar, quick stop"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:11:10Z"
+}

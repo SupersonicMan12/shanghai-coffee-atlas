@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "豆子来自埃塞俄比亚G1等级阿拉比卡豆",
+      "kind": "beans",
+      "quote": "精选埃塞俄比亚G1等级100%阿拉比卡豆",
+      "url": "https://www.genomics.cn/bgibioverse/HuadaSelection/index.aspx",
+      "site": "华大万物 - 华大基因"
+    },
+    {
+      "text": "招牌饮品是美式咖啡",
+      "kind": "drinks",
+      "quote": "选择美式的原因是它是距离Espresso原液在味道上偏差最少的选择",
+      "url": "https://k.sina.com.cn/article_7857141524_1d452771401902zar2.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "空间有良好的采光",
+      "kind": "light",
+      "quote": "заведение небольшое, но с очень уютной атмосферой",
+      "url": "https://kz.trip.com/moments/detail/shanghai-2-147443459",
+      "site": "Секретное кафе с лягушонком Daman Coffee (大满咖啡) в Шанхае。"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "Идеальное место, чтобы сделать паузу и выпить чашечку кофе перед продолжением пр",
+      "url": "https://kz.trip.com/moments/detail/shanghai-2-147443459",
+      "site": "Секретное кафе с лягушонком Daman Coffee (大满咖啡) в Шанхае。"
+    },
+    {
+      "text": "营业到晚上",
+      "kind": "time",
+      "quote": "Идеальное место, чтобы сделать паузу и выпить чашечку кофе перед продолжением пр",
+      "url": "https://kz.trip.com/moments/detail/shanghai-2-147443459",
+      "site": "Секретное кафе с лягушонком Daman Coffee (大满咖啡) в Шанхае。"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Секретное кафе с лягушонком Daman Coffee (大满咖啡) в Шанхае。",
+      "url": "https://kz.trip.com/moments/detail/shanghai-2-147443459",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "咖啡店点单指南：澳白与卡布奇诺的区别",
+      "url": "https://www.sina.cn/news/detail/5334295150601539.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "8款外卖咖啡横评:我们缺少一杯真正的好咖啡 | 界面 · 财经号",
+      "url": "https://k.sina.com.cn/article_7857141524_1d452771401902zar2.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "运动黑咖啡品牌哪个好 2026 年高活性黑咖啡:8 款热门产品对比 ",
+      "url": "https://post.smzdm.com/p/aggx2zp7/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 5,
+      "title": "华大万物 - 华大基因",
+      "url": "https://www.genomics.cn/bgibioverse/HuadaSelection/index.aspx",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "2024挂耳咖啡排第一了,黑咖啡推荐,十大潜力咖啡品质咖啡,好咖啡这边看",
+      "url": "https://zhuanlan.zhihu.com/p/706906484",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "从门店到家庭,咖啡成日常生活的标配",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTcxMDkwOQ==&mid=2652409748&idx=2&sn=38c5633c11666d32de2ce7d950f0a521&chksm=85c09733d9b4c3f7599e0d81ee838e9e4431195a37c686a888513d9c2f749984d567d64e42a9&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:10Z"
+}

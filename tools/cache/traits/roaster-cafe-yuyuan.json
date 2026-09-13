@@ -1,0 +1,56 @@
+{
+  "cafeId": "roaster-cafe-yuyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "5f0c7376f42e",
+  "raw": {
+    "headline": {
+      "zh": "豆店附带咖啡吧",
+      "en": "Bean shop with bar attached"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "招牌为一包豆子外加一个杯子",
+        "en": "Bag of beans, cup thrown in",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound",
+        "zh": "位于一条几乎无人进入的小巷尽头",
+        "en": "On a stub of a street most people never turn into",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "位置隐蔽，不易专注",
+        "en": "Hard to focus due to location"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "小巷深处，人少安静",
+        "en": "Quiet due to secluded spot"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "位置偏僻，适合短暂停留",
+        "en": "Suitable for short stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:26Z"
+}

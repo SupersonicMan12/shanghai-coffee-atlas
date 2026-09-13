@@ -1,0 +1,91 @@
+{
+  "cafeId": "grid-coffee-ruihongtaiyanggong",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a6df5f4195cb",
+  "raw": {
+    "headline": {
+      "zh": "SCA84分以上豆子",
+      "en": "SCA 84+ beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地豆",
+        "en": "All beans are SCA 84+ single origin",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设沙发与靠背椅，可久坐",
+        "en": "Sofas and armchairs for lingering",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地玻璃窗采光良好，室内明亮",
+        "en": "Floor-to-ceiling windows with bright light",
+        "from": [
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店外有遮阳伞与户外桌椅",
+        "en": "Outdoor tables and umbrellas",
+        "from": [
+          1,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-21:30",
+        "en": "Open daily 07:00–21:30",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "有人用手机，适合办公",
+        "en": "People using phones"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "绿植环绕，环境安静",
+        "en": "Greenery, calm vibe"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "有沙发，适合久坐",
+        "en": "Sofas encourage lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "招牌饮品有微创新",
+        "en": "Slight twists on classics"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:23Z"
+}

@@ -1,0 +1,90 @@
+{
+  "cafeId": "taipingyangkafei-eryi",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9319bb3ce641",
+  "raw": {
+    "headline": {
+      "zh": "含酒精限定手调饮品",
+      "en": "Alcohol-infused seasonal drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含玫瑰汾酒、阿胶冻等特色成分",
+        "en": "Signature drinks feature rose fenjiu and donkey-hide gelatin",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚日晒耶加雪菲豆作为精品原料",
+        "en": "Uses Ethiopian Yirgacheffe sun-dried beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为09:00–22:00或10:00–21:00",
+        "en": "Opens 09:00–22:00 or 10:00–21:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有吧台和少量桌椅，可坐饮",
+        "en": "Has counter and a few tables for seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店铺位于街边，有遮阳棚与绿植围挡",
+        "en": "On street with awning and greenery barrier",
+        "from": [
+          1,
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "座位有限，适合短暂停留",
+        "en": "Limited seats, brief stay"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "街边绿化好，环境安静",
+        "en": "Greenery-lined street, quiet"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "仅有少量桌椅，不宜久坐",
+        "en": "Few tables, not ideal for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "含酒精与药膳成分的创新饮品",
+        "en": "Alcohol and medicinal ingredients in drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:35Z"
+}

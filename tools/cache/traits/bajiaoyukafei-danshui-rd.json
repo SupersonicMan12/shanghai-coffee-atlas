@@ -1,0 +1,78 @@
+{
+  "cafeId": "bajiaoyukafei-danshui-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b6d295f822ed",
+  "raw": {
+    "headline": {
+      "zh": "可自选豆子的早关门咖啡馆",
+      "en": "Choose-your-bean café closes early"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供自选咖啡豆服务",
+        "en": "Customers can choose their own beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含蛋酒特调“马霍路·秋令”",
+        "en": "Signature drink features eggnog: 'Maholo Autumn'",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "使用冰博克奶制作奶咖",
+        "en": "Uses ice-bock milk in milk coffees",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至16:00，周六至17:00",
+        "en": "Closes at 16:00 on weekdays, 17:00 Sat",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间紧凑，设吧台和操作区",
+        "en": "Compact interior with bar and brewing station",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "空间紧凑且无外座",
+        "en": "Tight space, no outdoor seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          7,
+          8,
+          9,
+          10
+        ],
+        "zh": "自选豆、手冲、特调蛋酒",
+        "en": "Custom beans, pour-over, eggnog drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:30Z"
+}

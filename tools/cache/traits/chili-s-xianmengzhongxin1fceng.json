@@ -1,0 +1,93 @@
+{
+  "cafeId": "chili-s-xianmengzhongxin1fceng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "10d6aeadaaf5",
+  "raw": {
+    "headline": {
+      "zh": "徐汇滨江外摆区日咖夜酒",
+      "en": "Riverside outdoor seating, day coffee & night drinks"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "面朝徐汇滨江，沿街步行十米即达江畔",
+        "en": "Faces Xuhui Riverside; just a 10-meter walk to the riverbank",
+        "from": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "露天座位区配米色遮阳伞与黑色金属桌椅",
+        "en": "Outdoor seating with beige umbrellas and black metal tables and chairs",
+        "from": [
+          1,
+          2,
+          6,
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌食物含牛肉塔可、炸鸡块、鱿鱼圈",
+        "en": "Signature dishes include beef tacos, chicken nuggets, and calamari rings",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为总统特选玛格丽特",
+        "en": "Signature drink is the Presidential Margarita",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至最晚24:00，周末延至午夜",
+        "en": "Open until 24:00, weekends until midnight",
+        "from": [
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          1,
+          2,
+          6,
+          7,
+          9,
+          10,
+          12
+        ],
+        "zh": "滨江外摆+日咖夜酒",
+        "en": "Riverside outdoor + day/night format"
+      },
+      "energy": {
+        "value": 65,
+        "from": [
+          13,
+          17
+        ],
+        "zh": "日咖夜酒+日落派对",
+        "en": "Day-to-night service + sunset parties"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          14
+        ],
+        "zh": "招牌玛格丽特有定制命名",
+        "en": "Signature margarita has bespoke naming"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:25Z"
+}

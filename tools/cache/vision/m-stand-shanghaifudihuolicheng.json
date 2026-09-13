@@ -1,0 +1,72 @@
+{
+  "cafeId": "m-stand-shanghaifudihuolicheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e2f5a4a6721b",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=stb6b82a8d-61ac-47d1-a418-17128adfa160&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/0a6028bc9e768f343e46a3c73a14ffcf",
+    "https://store.is.autonavi.com/showpic/c9bb34fae8e4dc8f0000002377404209?type=pic"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场外，有玻璃幕墙和落地窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有室外座位区，配备遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位旁有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为带盖塑料杯装冰咖啡，有冷凝水",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯盖上有M Stand标志",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有一份巧克力类甜点，插有两根蜡烛",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺入口上方标有'M Stand'字样",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区域地面为灰色地砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:54Z"
+}

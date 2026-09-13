@@ -1,0 +1,71 @@
+{
+  "cafeId": "chateau-coffee-huangjinchengdao851hao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a5540d6c5007",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/aaabf89c923cbfa37d426408960343a4",
+    "http://store.is.autonavi.com/showpic/9f0bf8513ae81c769e6bf418b8b36d57",
+    "http://store.is.autonavi.com/showpic/9f5cf528716515f13b5ec5f2f820d377"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有遮阳棚和绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有花坛和小型景观布置",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "白天与夜晚均可见店铺外观",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外侧有“夏都”字样标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺旁有玻璃橱窗展示商品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口区域有台阶和铺装地面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间灯光照亮店招和入口",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺为独立门面，非商场内",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:56Z"
+}

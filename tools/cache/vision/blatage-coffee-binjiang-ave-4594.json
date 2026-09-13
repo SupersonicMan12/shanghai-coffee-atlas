@@ -1,0 +1,71 @@
+{
+  "cafeId": "blatage-coffee-binjiang-ave-4594",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ad98d2a91ba7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c510d3b8b330a1c40000003216254716?type=pic",
+    "http://store.is.autonavi.com/showpic/0eb9cfb5f52e3eb689ab4efe39665d3d",
+    "https://store.is.autonavi.com/showpic/da164779b85fd1bb0000003216254715?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "菜单有咖啡与非咖啡饮品，如蜂蜜椰奶、熔岩巧克力，价格25-38元。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有专业咖啡机、磨豆机等设备，可见手冲器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，窗外可见绿树，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "售卖挂耳包和咖啡豆，有Sidamo Blend、Punch Blend等单品。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙面菜单显示咖啡可选B33%至B120%，有黑参参、黑伍壹等名称。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间为吧台式，未见明显座位区。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "无顾客在场，未见有人使用电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外无露天座位，仅室内空间。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:58Z"
+}

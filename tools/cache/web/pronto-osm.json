@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "提供自烘咖啡豆",
+      "kind": "beans",
+      "quote": "CAFE & BAR PRONTO是源自日本的意大利风格咖啡轻食连锁品牌",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site": "百度百科"
+    },
+    {
+      "text": "招牌饮品包括猕猴桃意式奶冻拿铁",
+      "kind": "drinks",
+      "quote": "曾推出限定饮品猕猴桃意式奶冻拿铁和猕猴桃果汁汽水",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site": "百度百科"
+    },
+    {
+      "text": "设有露天座位和景观位",
+      "kind": "space",
+      "quote": "设有露天座位、景观位及Wi-Fi设施",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间从早上7:30到晚上23:30",
+      "kind": "time",
+      "quote": "营业时间为每日7:30至23:30",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site": "百度百科"
+    },
+    {
+      "text": "品牌由竹村典彦于1988年在日本创立",
+      "kind": "story",
+      "quote": "品牌由竹村典彦于1988年在日本创立",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "CAFE & BAR PRONTO",
+      "url": "https://baike.baidu.com/item/CAFE%20%26%20BAR%20PRONTO/14289380",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 3,
+      "title": "上海的咖啡新店喝不完,真的喝不完……",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 5,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:46Z"
+}

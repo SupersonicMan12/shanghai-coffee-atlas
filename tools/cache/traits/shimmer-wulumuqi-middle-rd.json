@@ -1,0 +1,51 @@
+{
+  "cafeId": "shimmer-wulumuqi-middle-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "368cc6a16bbc",
+  "raw": {
+    "headline": {
+      "zh": "特调如调酒，营业至凌晨",
+      "en": "Cocktail-level drinks, open till 1am"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供能拿奖级别的特调饮品",
+        "en": "Award-caliber signature drinks",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30至次日01:30营业",
+        "en": "Open daily 8:30am–1:30am",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 90,
+        "from": [
+          1,
+          3,
+          4
+        ],
+        "zh": "特调含大冰块、橙皮、奶盖等复杂元素",
+        "en": "Complex, cocktail-style drinks"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "临街店面设木桌可坐",
+        "en": "Street-side seating available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:39Z"
+}

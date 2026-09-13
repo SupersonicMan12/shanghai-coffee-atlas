@@ -1,0 +1,71 @@
+{
+  "cafeId": "onirii-coffee-nomi-bar-changle-rd-366",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "df82b930b99f",
+  "photos": [
+    "https://aos-comment.amap.com/B0HRVRZELA/comment/3fcfad8ffc08dfdc591d9345b5c865bb_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HRVRZELA/comment/a1d892a5c2caaf0ee65eaab0b8430aba_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HRVRZELA/comment/ffb205569efefa9f01025a9343995726_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "吧台后有咖啡师，可见多台磨豆机与手冲器具。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前陈列8袋不同产地的咖啡豆，标签清晰。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街为大面积玻璃门，室内采光好，可见绿植。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有两把绿色小凳子，属室外座。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内空间狭长，以吧台为主，座位数量少。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可辨识“Americano”、“Latte”等品名及价格。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "店内有顾客在座位上，但未见使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "左侧墙面为蓝色砖墙装饰，非普通涂料。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:38Z"
+}

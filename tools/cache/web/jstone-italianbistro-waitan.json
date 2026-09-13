@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "text": "提供咖啡或茶＆精选红白酒",
+      "kind": "drinks",
+      "quote": "咖啡或茶＆ 精選紅白酒 ————————— 適合約會、週年紀念",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92687BE955A&address=Century+Avenue+No.1192+Century+Link+Plaza+Shopping+Mall+F+F5%2C+Pudong%2C+Shanghai+China&coordinate=31.227525%2C121.527275&name=JstoneItalianFineBistro+Dajue.+Century+Place&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "适合约会、周年纪念等特别时刻",
+      "kind": "people",
+      "quote": "適合約會、週年紀念，或只是想好好寵愛彼此的日子",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92687BE955A&address=Century+Avenue+No.1192+Century+Link+Plaza+Shopping+Mall+F+F5%2C+Pudong%2C+Shanghai+China&coordinate=31.227525%2C121.527275&name=JstoneItalianFineBistro+Dajue.+Century+Place&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "品牌灵感源自中国夏商周时期贵族文化",
+      "kind": "story",
+      "quote": "“大爵”灵感即源于中国公元前2400 年的夏商周时期贵族饮酒的爵杯",
+      "url": "http://m.dianping.com/shop/37942497?msource=applemaps",
+      "site": "【Jstone大爵Italian Fine Bistro(外滩店)】电话_地址_价格 - 大众点评"
+    },
+    {
+      "text": "传达出高雅、尊贵及敢于责任的品牌价值",
+      "kind": "story",
+      "quote": "希望传达出高雅、尊贵及敢于责任的品牌价值",
+      "url": "http://m.dianping.com/shop/37942497?msource=applemaps",
+      "site": "【Jstone大爵Italian Fine Bistro(外滩店)】电话_地址_价格 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Jstone大爵Italian Fine Bistro(世纪汇店)",
+      "url": "https://pmtmeishi.meituan.com/dp/prefer/list/107704053?token=*&latitude=*&longitude=*&dpid=*&cityid=*",
+      "site_name": "美团"
+    },
+    {
+      "index": 2,
+      "title": "Jstone大爵小意館Fine Bistro（外灘店） (上海打浦橋地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/jstoneitalian-kitchen-bar-26842909",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "【Jstone大爵Italian Fine Bistro(外滩店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/37942497?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Restaurant Jstone大爵Italian Fine Bistro（陆家嘴店）（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/jstone_italian_restaurant_cafe",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Jstone大爵Italian Fine Bistro(外滩店)(上海市) - 餐厅/美食点评",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8858089-Reviews-Jstone_Italian_Fine_Bistro-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "Restaurant Jstone大爵Italian Fine Bistro（虹梅路店）（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh/shanghai/jstone_italian_kitchen_bar_hongmei",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "Jstone Dajue ItalianBistro (Century Link Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92687BE955A&address=Century+Avenue+No.1192+Century+Link+Plaza+Shopping+Mall+F+F5%2C+Pudong%2C+Shanghai+China&coordinate=31.227525%2C121.527275&name=JstoneItalianFineBistro+Dajue.+Century+Place&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:44Z"
+}

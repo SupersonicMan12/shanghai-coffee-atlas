@@ -1,0 +1,92 @@
+{
+  "cafeId": "peet-s-jiangwanli",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ddd55524618e",
+  "raw": {
+    "headline": {
+      "zh": "室外座位配绿植",
+      "en": "Outdoor seating with plants"
+    },
+    "traits": [
+      {
+        "kind": "space|seating",
+        "zh": "有室外桌椅和遮阳伞",
+        "en": "Outdoor tables and umbrellas",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "大面积玻璃窗，采光良好",
+        "en": "Large glass windows, good natural light",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为巨星澳白，33元/杯",
+        "en": "Signature drink: Giant Star Flat White, 33 yuan",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供巧克力蛋糕，配有奶油和樱桃",
+        "en": "Chocolate cake with cream and cherry",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-20:00",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "室内整洁，可办公",
+        "en": "Clean interior, suitable for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "室外有绿植，氛围轻松",
+        "en": "Greenery outdoors, relaxed vibe"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "有室内外座位，适合久坐",
+        "en": "Seating inside and out, good for lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "使用21天内烘焙豆，新鲜度高",
+        "en": "Freshly roasted beans within 21 days"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:46:11Z"
+}

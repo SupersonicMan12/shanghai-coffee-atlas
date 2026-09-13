@@ -1,0 +1,71 @@
+{
+  "cafeId": "plusone-julululanding",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "33a808aa9449",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c513b7c30b8813680000000730330888?type=pic",
+    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1771043586120_52512449_1771043667163_64090812.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有室外座位区，多人在户外桌椅上就坐。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括带奶油和碎屑的热饮，以及一杯拉花咖啡。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物有顶部覆盖奶油的芝士蛋糕和栗子千层蛋糕。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有大棵绿树，遮挡部分阳光，环境较荫凉。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内座位可见，有人在用手机或电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "建筑为多层老式风格，二楼有阳台座位。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯具造型可爱，有笑脸和栗子装饰。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上放有小梳子，可能为顾客提供便利服务。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "many",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:37Z"
+}

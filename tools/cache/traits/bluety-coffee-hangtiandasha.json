@@ -1,0 +1,77 @@
+{
+  "cafeId": "bluety-coffee-hangtiandasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1fe64b84ef68",
+  "raw": {
+    "headline": {
+      "zh": "整面临街落地窗",
+      "en": "Floor-to-ceiling street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，内外视野通透",
+        "en": "Full-height street-facing glass provides clear interior and exterior views",
+        "from": [
+          5,
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设有座位区",
+        "en": "Indoor seating area available",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周三、周五至周日 08:00-17:00 营业",
+        "en": "Open Monday–Wednesday and Friday–Sunday, 8:00–17:00",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为 coffee",
+        "en": "Coffee is the top-rated item on Gaode",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门外有电动车停放区域",
+        "en": "Designated e-bike parking space outside the shop",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有座位但无办公证据",
+        "en": "Seating present but no evidence of work setup"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有固定座位且光线明亮",
+        "en": "Fixed seating and bright lighting support extended stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:01Z"
+}

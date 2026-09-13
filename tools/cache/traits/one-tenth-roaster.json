@@ -1,0 +1,28 @@
+{
+ "cafeId": "one-tenth-roaster",
+ "model": "qwen-max",
+ "inputDigest": "98c654c7f748",
+ "raw": {
+  "headline": {
+   "zh": "十克品尝杯，独特体验",
+   "en": "Ten-gram tasting, unique experience"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供十克品尝杯",
+    "en": "Offers ten-gram tasting pours",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "小批量烘焙，手冲花样多",
+    "en": "Small-batch roasts, varied pour-overs"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:07Z"
+}

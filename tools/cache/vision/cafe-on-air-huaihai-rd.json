@@ -1,0 +1,71 @@
+{
+  "cafeId": "cafe-on-air-huaihai-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "8e366bcb6af4",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFG7FPT0/comment/b76097e1c6019b88a2e57c98c3720cc7_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/775d0f5ab35bd6a30000002392748332?type=pic",
+    "https://aos-comment.amap.com/B0FFG7FPT0/comment/3392b40c534f6a9358806f8bf484773f_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "室内为长条形空间，右侧设木质隔断与靠墙卡座区，左侧有长吧台与书架区。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "靠墙卡座区配圆形木桌与红色塑料椅，约6组可见；左侧吧台旁另有2张小圆桌配木椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面为浅色木饰面，挂有世界地图等装裱画作；左侧尽头有高大书架，陈列书籍。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口为双开木质折叠门敞开状态，门外是人行道；门旁绿牌标示‘30’及‘思南路’字样。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "两人坐在店内临街开口处小桌旁，桌上放手机，无笔记本电脑可见。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有一杯带叶形拉花的咖啡（奶泡+浓缩），盛于白瓷杯碟；旁有一盘螺旋状可颂。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "可颂呈金黄色螺旋层状，表面有焦糖色纹路，置于白色圆盘中。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "桌面为浅色木纹材质；照片3中未见烘焙机、手冲台、虹吸壶或磨豆机等专业器具。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:09Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "huaxingxingkafei-shilong-rd-848",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7f72aae4feea",
+  "raw": {
+    "headline": {
+      "zh": "粉色玫瑰装饰的社区咖啡店",
+      "en": "Pink rose-decorated neighborhood café"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内以粉色玫瑰花作为装饰",
+        "en": "Pink roses used as interior decoration",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "北海道戚风蛋糕售价12元",
+        "en": "Hokkaido chiffon cake for ¥12",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "巧克力麦芬售价14元",
+        "en": "Chocolate muffin for ¥14",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "花醒醒拼配豆60g售价20元",
+        "en": "Huaxingxing house blend, 60g for ¥20",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日08:00-17:00",
+        "en": "Open daily 8:00–17:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4,
+          6
+        ],
+        "zh": "提供蛋糕与全天营业",
+        "en": "Offers cakes and all-day hours"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "销售自有拼配豆",
+        "en": "Sells house-blended beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:50Z"
+}

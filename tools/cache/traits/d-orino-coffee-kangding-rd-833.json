@@ -1,0 +1,80 @@
+{
+  "cafeId": "d-orino-coffee-kangding-rd-833",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "df4f29410e25",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆快更，手冲意式皆强",
+      "en": "Fast-updated house-roasted beans, great espresso & pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自烘豆单更新快，浅烘深烘均有",
+        "en": "House-roasted beans, light to dark roast, updated frequently",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌澳白用浅烘日晒埃塞SOE",
+        "en": "Signature flat white uses light-roast natural Ethiopian SOE",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内狭长，以吧台和置物架为主",
+        "en": "Narrow interior dominated by bar and shelving",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台边可坐，室外有折叠椅小凳",
+        "en": "Bar seating inside; folding chair and stool outside",
+        "from": [
+          1,
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周六 10:00-16:30 营业",
+        "en": "Open Tue–Sat, 10:00–16:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          4,
+          5
+        ],
+        "zh": "空间小、座位少，适合短暂停留",
+        "en": "Small space, few seats"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          3,
+          9,
+          10,
+          12
+        ],
+        "zh": "自烘豆+多样手冲器具，风味突出",
+        "en": "House-roasted beans, varied brewing gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:13Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "xiaoyejiabei-weining-rd-287",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2d3847bf6947",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0894af38ca4edacf0000000972368338?type=pic",
+    "http://store.is.autonavi.com/showpic/d666a0f84ee1fd54595cb7321cac21f6",
+    "http://store.is.autonavi.com/showpic/617b603173df214371eb92b929a8331f"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃窗和门。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台式座位，摆放咖啡杯与蛋糕。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见两杯咖啡和两块蛋糕，摆放在桌面上。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有盆栽植物，门旁挂有木质招牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内背景有酒架，陈列多种瓶装饮品。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门为深色金属门，带竖条格栅。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口张贴有营业时间及宠物友好标识。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:21Z"
+}

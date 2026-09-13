@@ -1,0 +1,398 @@
+{
+  "cafeId": "huoshankafei-jingzuanbohua",
+  "query": {
+    "location": "121.482891,31.268022",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:51:31Z",
+  "matchedPoiId": "B0KBY76A13",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "6",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155GDYW",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/55a878b23d6dd39911cc252c7f52c78b"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KBY76A13/comment/C6DC67FF_313D_4D39_A09A_5DF3ABB70504_L0_001_1500_200_1764236653289_02007892.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/cf20e6d2fc2a576b54bba52bdce00f28"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13585650226;19302189156",
+        "id": "B0KBY76A13",
+        "tag": "冰美式,双人餐",
+        "entr_location": "121.482933,31.268268",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": "320",
+        "atag": "冰美式,双人餐",
+        "name": "火山咖啡(晶钻博华店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "51.00",
+          "opentime2": "周一至周日 09:00-23:00",
+          "rating": "4.4",
+          "open_time": "09:00-23:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732801",
+        "shopinfo": "0",
+        "alias": "VOLCANO COFFEE",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 19:31:36",
+        "website": [],
+        "address": "甜爱支路33号1层丙单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.482887,31.268025",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155GDYW",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-65878807",
+        "id": "B00156EEY1",
+        "tag": "下午茶,单人餐,奶油",
+        "entr_location": "121.482583,31.268346",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": "200080",
+        "business_area": "江湾",
+        "childtype": "320",
+        "atag": "下午茶,单人餐,奶油",
+        "name": "星巴克(甜爱路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_633267",
+        "distance": "8",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周四 07:00-22:00；周五至周日 07:00-19:20",
+          "rating": "4.5",
+          "open_time": "07:00-19:20",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732801",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:16:07",
+        "website": "www.starbucks.cn",
+        "address": "四川北路2258号(鲁迅公园对面)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.482804,31.268041",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFK9LUHG",
+        "tag": "拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "曲阳",
+        "childtype": [],
+        "atag": "拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(甜爱坊店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "87",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-18:00",
+          "rating": "4.2",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 19:50:49",
+        "website": [],
+        "address": "甜爱支路24号-50号甜爱坊一层103甲室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.483748,31.268296",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFI0LMKN/comment/8e081967a530f22a07dc9ff562817152_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFI0LMKN/comment/1c0078663a78e07d4db7fc8b44bf9676_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFI0LMKN/comment/content_media_external_file_1000008109_ss__1764491280738_81390524.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13818611227",
+        "id": "B0FFI0LMKN",
+        "tag": "下午茶",
+        "entr_location": "121.484049,31.268021",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "江湾",
+        "childtype": [],
+        "atag": "下午茶",
+        "name": "W CAFE",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "116",
+        "importance": [],
+        "biz_ext": {
+          "cost": "37.00",
+          "opentime2": "周一至周日 10:30-18:30 2026-02-15至2026-02-17 周一至周日 全天关闭",
+          "rating": "4.5",
+          "open_time": "10:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732802",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:24:16",
+        "website": [],
+        "address": "四川北路街道甜爱路137号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.484115,31.268014",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0104e2e329804e70a316fbcf42b36242"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF9ZUL0/comment/6CC31A78_CEB5_4555_B19E_D77841D2D617_L0_001_1126_200_1769492091941_77726125.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c8e6d492c8850e3d74e3847110fa3b47"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "虹口区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18916391387",
+        "id": "B0FFF9ZUL0",
+        "tag": "巧克力蛋糕,黄油磅蛋糕,牛油果奶昔,抹茶卷,澳白,冰美式,拿铁,cappuccino,咖啡卷,有缘才能吃到的巧,双人餐",
+        "entr_location": "121.48017868254549,31.266655515817988",
+        "adcode": "310109",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "宝山路",
+        "childtype": [],
+        "atag": "巧克力蛋糕,黄油磅蛋糕,牛油果奶昔,抹茶卷,澳白,冰美式,拿铁,cappuccino,咖啡卷,有缘才能吃到的巧,双人餐",
+        "name": "星期五Friday(东江湾路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_505188",
+        "distance": "290",
+        "importance": [],
+        "biz_ext": {
+          "cost": "39.00",
+          "opentime2": "周一至周日 13:00-20:30",
+          "rating": "4.2",
+          "open_time": "13:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621731821",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:54:42",
+        "website": [],
+        "address": "东江湾路170号(虹口足球场地铁站6号口步行380米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.480289,31.266664",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

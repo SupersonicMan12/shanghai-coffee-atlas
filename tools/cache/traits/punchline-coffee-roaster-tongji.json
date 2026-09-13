@@ -1,0 +1,81 @@
+{
+  "cafeId": "punchline-coffee-roaster-tongji",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4c50df71cf1d",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+19世纪古董磨豆机",
+      "en": "In-house roasted beans & 19th-century grinder"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "店内陈列19世纪手摇磨豆机等古董咖啡器具",
+        "en": "Displays antique coffee tools, including a 19th-century hand grinder",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "每杯咖啡附手写风味卡，含产地、处理法和品鉴笔记",
+        "en": "Each coffee comes with a handwritten tasting card: origin, process, notes",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "四平路首店位于N-ICE2035未来生活原型街居民区弄堂内",
+        "en": "First location is in a residential alley as part of N-ICE2035 community project",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间09:00–18:00，晚间时段转变为酒吧模式",
+        "en": "Open 9:00–18:00; transforms into a bar in the evening",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人陈昱亨网络名“路易欠蹬”，运营咖啡专业测评账号",
+        "en": "Founder Chen Yuheng runs the coffee review account 'Louis Qian Deng'",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "晚间转为酒吧模式",
+        "en": "Evening bar mode"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "晚间转酒吧，支持久坐",
+        "en": "Evening bar mode supports lingering"
+      },
+      "adventure": {
+        "value": 85,
+        "from": [
+          6,
+          13
+        ],
+        "zh": "古董器具+手写风味卡",
+        "en": "Antique tools + detailed tasting cards"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:38Z"
+}

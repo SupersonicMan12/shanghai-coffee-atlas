@@ -1,0 +1,44 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Hotel",
+      "url": "https://www.meet-in-shanghai.net/en/star-hotel/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 2,
+      "title": "Cafix Coffee",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d7915300-Reviews-Cafix_Coffee-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 3,
+      "title": "Xizangcang Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98D9222DBA1&address=Yuanmei+Road+No.227+Block+A3+Room+112%2C+Minhang%2C+Shanghai+China&coordinate=31.039842%2C121.436376&name=Xizangcang+Coffee&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "Restaurant Ruijin Cajun in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/en/shanghai/ruijin_cajun",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【上海凯司令门店】搜索结果_360地图",
+      "url": "https://m.map.so.com/m/search/map_list/c=上海市&src=seo&keyword=上海凯司令门店",
+      "site_name": "360搜索"
+    },
+    {
+      "index": 6,
+      "title": "DongHai Cafe (The Bund Area, Shanghai) - Restaurant Reviews ...",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/donghai-cafe-61946488/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:51Z",
+  "retriedEn": true
+}

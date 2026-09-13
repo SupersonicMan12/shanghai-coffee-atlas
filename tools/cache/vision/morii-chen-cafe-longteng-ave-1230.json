@@ -1,0 +1,53 @@
+{
+  "cafeId": "morii-chen-cafe-longteng-ave-1230",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e9d5c9dfc610",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/18de655f1527c05fc9bb95c24b532b0f",
+    "https://aos-comment.amap.com/B0L6B7SKPX/comment/6EB6BDB3_B5B6_428F_BF7C_FDACFA9E9E2D_L0_001_1500_200_1767671149971_92239081.jpg",
+    "https://aos-comment.amap.com/B0L6B7SKPX/comment/9A96281A_8A44_4162_B6E8_48AF050882DE_L0_001_1500_200_1767671149970_39775955.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室内空间宽敞，地面为几何图案木地板",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见圆形黄色桌子和软垫凳子",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "有带轮子的白色服务车，摆放粉色绣球花",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "服务车内有大玻璃罐装饮品和杯子",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有绿植装饰，环境明亮",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:51Z"
+}

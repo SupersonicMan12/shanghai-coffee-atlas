@@ -1,0 +1,51 @@
+{
+  "cafeId": "manner-coffee-zhangjiangnashiguojishequ",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d4be1b7bbe86",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/86212c549ead29d791653490638bd893",
+    "https://aos-comment.amap.com/B0JAH5HTG1/comment/d6f7b8a0836d94f678a3e8d5ced99765_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁，奶泡上有心形拉花",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内地面为灰色地砖，空间较简洁",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "门口有立式广告牌，显示促销信息",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:55Z"
+}

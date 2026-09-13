@@ -1,0 +1,73 @@
+{
+  "cafeId": "xingbakekafei-shanghaizhongguorenshoujinrongzhon",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "490965b46ad4",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供高脚凳与桌椅，座位数量中等",
+        "en": "Medium seating with bar stools and tables",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内灯光明亮，无自然采光",
+        "en": "Bright artificial lighting, no natural light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客在店内使用电脑",
+        "en": "Customers observed working on laptops",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机和咖啡机",
+        "en": "Equipped with grinders and espresso machines",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为07:00-22:00",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People working on laptops"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          4,
+          6
+        ],
+        "zh": "有座位且有人久坐",
+        "en": "Seating available, people staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:50Z"
+}

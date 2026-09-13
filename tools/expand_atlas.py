@@ -19,9 +19,12 @@ The bulk-import heuristics, in one place so they can be audited:
   brand-stripped names are similar (ratio ≥ 0.66, or one contains the other).
   Curated cafés always win; Amap beats OSM (it carries signals).
 * District — Amap adname; OSM points take the majority district of their 5
-  nearest Amap POIs. Anything outside the seven atlas districts is dropped.
-* Hood — nearest curated café's hood when one sits within 1.5 km, else a
-  per-district catch-all ("Hongkou at large" etc.).
+  nearest Amap POIs. Anything outside the nine atlas districts is dropped
+  (Baoshan and everything beyond the sheet never enter).
+* Hood — nearest labelled thing wins: a curated café's hood when one sits
+  within 1.5 km, or a HOOD_ZONES anchor (metro stations from metro.ts, each
+  zone with its own radius — the outer clusters have no curated cafés yet),
+  else a per-district catch-all ("Yangpu at large" etc.).
 * Archetype — brand table for the big chains (Manner/Nowwa/Cotti/luckin →
   standing-bar, Starbucks/Tims/Costa → neighborhood, …), then name keywords
   (烘焙/roast → roastery, bake/面包 → bakery, 实验/lab → laboratory), default
@@ -31,13 +34,20 @@ The bulk-import heuristics, in one place so they can be audited:
   source 'editorial' so bulk imports render as the faintest ink on the map.
 * Chain cap — brands with more branches than MAX_BRANCHES keep a deterministic
   farthest-point-sampled subset, so one delivery-coffee brand cannot flood the
-  atlas.
-* Import budget — the inner ring holds ~2,400 café-typed POIs; the atlas stays
-  a readable sheet, not a phonebook. TARGET_IMPORT bounds the bulk import:
-  capped chains and confirmed OSM shops enter first, then the remaining budget
-  goes to independents in Amap-rating order (ties broken by POI id, so the
-  selection is stable run-to-run). Everything else stays in the cache for the
-  next expansion round.
+  atlas. The cap is per brand across both sources; OSM-mapped branches count
+  too, and the OSM_CAP allocation is for independents only.
+* Import budget — the whole-city sheet holds ~4,500 café-typed POIs; the
+  atlas stays a readable sheet, not a phonebook. TARGET_IMPORT bounds the bulk
+  import: capped chains and confirmed OSM shops enter first, then the
+  remaining budget goes to independents: HOOD_FLOOR best-rated per hood first
+  (so 大学路 or 前滩 get ink even though the dense core out-rates them), then
+  Amap-rating order city-wide (ties broken by POI id, so the selection is
+  stable run-to-run). Everything else stays in the cache for the next round.
+* Re-runs — records already in the imported section keep their place: an
+  Amap POI or OSM shop that is on the sheet today is admitted ahead of the
+  rating order, so ids that people may have shared or stamped survive an
+  expansion round. Only the section after MARKER is rewritten; the curated
+  records above it are never touched.
 
 Usage:
     python3 tools/expand_atlas.py
@@ -68,20 +78,81 @@ MARKER = '// ── Imported coverage'
 DISTRICTS = {
     '徐汇区': 'Xuhui', '静安区': "Jing'an", '黄浦区': 'Huangpu',
     '长宁区': 'Changning', '普陀区': 'Putuo', '虹口区': 'Hongkou',
-    '浦东新区': 'Pudong',
+    '浦东新区': 'Pudong', '杨浦区': 'Yangpu', '闵行区': 'Minhang',
 }
 
 HOOD_FALLBACK = {
     'Xuhui': 'Xuhui at large', "Jing'an": "Jing'an at large",
     'Huangpu': 'Huangpu at large', 'Changning': 'Changning at large',
     'Putuo': 'Putuo at large', 'Hongkou': 'Hongkou at large',
-    'Pudong': 'Pudong at large',
+    'Pudong': 'Pudong at large', 'Yangpu': 'Yangpu at large',
+    'Minhang': 'Minhang at large',
 }
+
+# Hood anchors for the parts of the sheet with no curated café to borrow a
+# hood from: (hood, metro stations in src/data/metro.ts, radius m). A café
+# takes the zone whose anchor station is nearest, if within that radius.
+HOOD_ZONES: list[tuple[str, list[str], int]] = [
+    # Yangpu
+    ('Daxue Rd · Wujiaochang', ['江湾体育场', '五角场'], 1000),
+    ('Fudan · Guoquan Rd', ['复旦大学', '国权路'], 800),
+    ('Tongji · Anshan', ['同济大学', '鞍山新村'], 800),
+    ('Changyang Creative Valley', ['江浦路', '江浦公园'], 900),
+    ('Yangshupu Riverside', ['宁国路', '隆昌路'], 1100),
+    ('Dabaishu', ['大柏树'], 900),
+    ('Xinjiangwan', ['殷高东路'], 1200),
+    # Hongkou north
+    ('Lu Xun Park', ['虹口足球场'], 800),
+    ('Quyang', ['曲阳路'], 900),
+    # Pudong east / south
+    ('Qiantan', ['东方体育中心'], 1500),
+    ('Sanlin', ['三林', '三林东'], 1200),
+    ('Century Park · Lianyang', ['世纪公园', '上海科技馆'], 1200),
+    ('Huamu', ['花木路', '龙阳路'], 1000),
+    ('Zhangjiang', ['张江高科', '金科路', '广兰路'], 1300),
+    ('Beicai', ['北蔡'], 1000),
+    ('Jinqiao · Biyun', ['金桥', '蓝天路', '金桥路'], 1200),
+    ('Yuanshen · Minsheng Rd', ['源深体育中心', '民生路'], 900),
+    # Xuhui south
+    ('West Bund', ['云锦路', '龙耀路'], 1000),
+    ('Shanghai South Station', ['上海南站'], 1000),
+    ('Caohejing', ['漕河泾开发区', '桂林路'], 1000),
+    ('Tianlin · Caobao Rd', ['漕宝路'], 900),
+    # Changning west
+    ('Gubei · Huangjincheng', ['水城路', '伊犁路'], 1000),
+    ('Tianshan', ['威宁路'], 1000),
+    ('Beixinjing', ['北新泾', '淞虹路'], 1200),
+    ('Longbai · Zoo', ['龙柏新村', '上海动物园'], 1000),
+    # Putuo / Jing'an north
+    ('Changfeng', ['大渡河路', '长风公园'], 1200),
+    ('Zhenru', ['真如', '铜川路'], 1200),
+    ('Taopu', ['桃浦新村', '武威路'], 1000),
+    ('Pengpu', ['彭浦新村', '汶水路', '共康路'], 1200),
+    # Minhang edge
+    ('Gumei', ['东兰路', '顾戴路'], 1000),
+    ('Xinzhuang North', ['虹莘路'], 900),
+]
+METRO_TS = ROOT / 'src' / 'data' / 'metro.ts'
+
+
+def load_zone_anchors() -> list[dict]:
+    ts = METRO_TS.read_text(encoding='utf-8')
+    pos = {m.group(1): (float(m.group(3)), float(m.group(2))) for m in re.finditer(
+        r"nameZh: '((?:[^'\\]|\\.)*)', lines: \[[^\]]*\], lng: ([\d.]+), lat: ([\d.]+)", ts)}
+    anchors = []
+    for hood, stations, radius in HOOD_ZONES:
+        for s in stations:
+            if s not in pos:
+                sys.exit(f'HOOD_ZONES: station {s!r} is not in metro.ts')
+            anchors.append({'hood': hood, 'lat': pos[s][0], 'lng': pos[s][1], 'radius': radius})
+    return anchors
 
 TEA_IMPOSTORS = re.compile(
     r'奶茶|蜜雪冰城|霸王茶姬|喜茶|奈雪|沪上阿姨|茶百道|一点点|CoCo都可|古茗|柠季|茉酸奶|益禾堂',
     re.I)
 SAYS_COFFEE = re.compile(r'咖啡|coffee|caf[eé]|espresso|latte|roast', re.I)
+# Amap keeps closed shops in the register with a status suffix in the name
+CLOSED = re.compile(r'暂停营业|已停业|已关闭|已闭店|停业中|已搬迁')
 
 # brand pattern -> (canonical brand key, archetype, price 1..3)
 CHAINS: list[tuple[re.Pattern[str], str, str, int]] = [
@@ -91,7 +162,7 @@ CHAINS: list[tuple[re.Pattern[str], str, str, int]] = [
     (re.compile(r'manner', re.I), 'manner', 'standing-bar', 1),
     (re.compile(r'm\s*stand', re.I), 'm-stand', 'standing-bar', 2),
     (re.compile(r'星巴克|starbucks', re.I), 'starbucks', 'neighborhood', 2),
-    (re.compile(r'tims|天好咖啡', re.I), 'tims', 'neighborhood', 2),
+    (re.compile(r'tims|tim\s*hortons|天好咖啡', re.I), 'tims', 'neighborhood', 2),
     (re.compile(r'costa', re.I), 'costa', 'neighborhood', 2),
     (re.compile(r'皮爷|peet', re.I), 'peets', 'neighborhood', 2),
     (re.compile(r'seesaw', re.I), 'seesaw', 'roastery', 2),
@@ -103,10 +174,16 @@ CHAINS: list[tuple[re.Pattern[str], str, str, int]] = [
     (re.compile(r'幸运咖', re.I), 'xingyunka', 'standing-bar', 1),
 ]
 MAX_BRANCHES = 5
-TARGET_IMPORT = 350
+# any other name that shows up more than MAX_BRANCHES times on the sheet is
+# a chain too (Wagas, 85°C, 一尺花园 …); filled in by main() from the candidate pool
+GENERIC_CHAINS: dict[str, str] = {}
+TARGET_IMPORT = 850
+# every hood keeps at least this many of its best-rated independents before
+# the city-wide rating order fills the rest of the budget
+HOOD_FLOOR = 6
 # OSM-only shops (the ones Amap misses) enter without ratings, so they get a
 # bounded, geographically spread allocation instead of competing on rating.
-OSM_CAP = 80
+OSM_CAP = 150
 
 # Conservative axis priors per archetype: middle-of-the-road numbers that let
 # the measured signals and future votes do the talking.
@@ -203,10 +280,20 @@ def parse_hours(open_time: str | None) -> tuple[float, float] | None:
     return round(opens * 4) / 4, round(closes * 4) / 4
 
 
+def brand_key(name: str) -> str:
+    """'Wagas(前滩太古里店)' / 'WAGAS' / 'Wagas 沃歌斯' → one key."""
+    base = re.sub(r'[（(].*?[)）]', '', name).lower()
+    base = re.sub(r'coffee|caf[eé]|roaster[sy]?|espresso|咖啡馆|咖啡店|咖啡', '', base)
+    return re.sub(r'[^0-9a-z]+', '', base) + ''.join(CJK.findall(base))
+
+
 def chain_of(name: str) -> tuple[str, str, int] | None:
     for pat, key, archetype, price in CHAINS:
         if pat.search(name):
             return key, archetype, price
+    key = brand_key(name)
+    if key in GENERIC_CHAINS:
+        return GENERIC_CHAINS[key], 'neighborhood', 2
     return None
 
 
@@ -262,6 +349,8 @@ def load_amap() -> list[dict]:
             if '050500' not in str(poi.get('typecode', '')):
                 continue
             if TEA_IMPOSTORS.search(name) and not SAYS_COFFEE.search(name):
+                continue
+            if CLOSED.search(name):
                 continue
             loc = poi.get('location')
             if not isinstance(loc, str) or ',' not in loc:
@@ -370,15 +459,18 @@ def cafe_ts(c: dict) -> str:
     return '\n'.join(lines)
 
 
-def farthest_point_sample(items: list[dict], k: int) -> list[dict]:
-    """Deterministic spread: start from the best-rated, greedily add the
-    branch farthest from everything already kept."""
+def farthest_point_sample(items: list[dict], k: int, seed: list[dict] | None = None) -> list[dict]:
+    """Deterministic spread: start from the seed (or the best-rated), greedily
+    add the branch farthest from everything already kept."""
     if len(items) <= k:
         return items
     items = sorted(items, key=lambda c: (-(float(c['rating']) if c.get('rating') else 0),
                                          c.get('amapId') or c.get('osmId') or c['raw']))
-    kept = [items[0]]
-    rest = items[1:]
+    seed = seed or []
+    kept = list(seed) if seed else [items[0]]
+    rest = [c for c in items if c not in kept]
+    if len(kept) >= k:
+        return kept
     while len(kept) < k and rest:
         best_i, best_d = 0, -1.0
         for i, cand in enumerate(rest):
@@ -391,15 +483,20 @@ def farthest_point_sample(items: list[dict], k: int) -> list[dict]:
 
 def main() -> int:
     src = CAFES_TS.read_text(encoding='utf-8')
-    curated = _harvest.parse_cafes()
+    marker_at = src.find(MARKER)
+    curated_src = src if marker_at == -1 else src[:marker_at]
+    curated = _harvest.parse_cafes(curated_src)
+    prior_amap = set(re.findall(r"amap: \{\s*id: '([^']+)'", src[marker_at:])) if marker_at != -1 else set()
+    prior_ids = {c['id'] for c in _harvest.parse_cafes(src[marker_at:])} if marker_at != -1 else set()
     curated_hoods: list[dict] = []
-    for block in re.finditer(r"\n\s*id:\s*'([^']+)',(.*?)\n  \}", src, re.S):
+    for block in re.finditer(r"\n\s*id:\s*'([^']+)',(.*?)\n  \}", curated_src, re.S):
         m = re.search(r"hood:\s*'((?:[^'\\]|\\.)*)'", block.group(2))
         lat = re.search(r'\blat:\s*([-\d.]+)', block.group(2))
         lng = re.search(r'\blng:\s*([-\d.]+)', block.group(2))
         if m and lat and lng:
             curated_hoods.append({'hood': m.group(1).replace("\\'", "'"),
-                                  'lat': float(lat.group(1)), 'lng': float(lng.group(1))})
+                                  'lat': float(lat.group(1)), 'lng': float(lng.group(1)), 'radius': 1500})
+    hood_anchors = curated_hoods + load_zone_anchors()
 
     amap = load_amap()
     osm = load_osm()
@@ -450,38 +547,69 @@ def main() -> int:
             votes[n['district']] = votes.get(n['district'], 0) + 1
         c['district'] = max(votes, key=lambda d: votes[d]) if votes else ''
     kept_osm = [c for c in kept_osm if c['district']]
-    kept_osm = farthest_point_sample(kept_osm, OSM_CAP)
 
-    # chain cap
+    # chain cap — one pool per brand across both sources, so an OSM-mapped
+    # Starbucks counts against the same MAX_BRANCHES as the Amap ones
+    brand_count: dict[str, int] = {}
+    for c in kept_amap + kept_osm:
+        if not chain_of(c['raw']):
+            k = brand_key(c['raw'])
+            brand_count[k] = brand_count.get(k, 0) + 1
+    GENERIC_CHAINS.update({k: f'brand:{k}' for k, n in brand_count.items() if k and n > MAX_BRANCHES})
     by_chain: dict[str, list[dict]] = {}
     independents: list[dict] = []
-    for c in kept_amap:
+    osm_independents: list[dict] = []
+    for c in kept_amap + kept_osm:
         ch = chain_of(c['raw'])
         if ch:
             by_chain.setdefault(ch[0], []).append(c)
-        else:
+        elif c['src'] == 'amap':
             independents.append(c)
+        else:
+            osm_independents.append(c)
     chains: list[dict] = []
     for key in sorted(by_chain):
         chains.extend(farthest_point_sample(by_chain[key], MAX_BRANCHES))
 
-    # independents fill whatever budget the chains and OSM shops leave over,
-    # best-rated first (stable tie-break on POI id)
-    budget = max(0, TARGET_IMPORT - len(chains) - len(kept_osm))
-    independents.sort(key=lambda c: (-(float(c['rating']) if c.get('rating') else 0), c['amapId']))
-    capped: list[dict] = independents[:budget] + chains
+    for c in osm_independents:
+        en = c.get('nameEn') or (c['raw'] if not CJK.search(c['raw']) else py(c['raw']))
+        c['prior'] = slugify(f'{en}-osm')[:48] in prior_ids
+    kept_osm = farthest_point_sample(osm_independents, OSM_CAP,
+                                     seed=[c for c in osm_independents if c['prior']])
+    kept_osm += [c for c in chains if c['src'] == 'osm']
+
+    def hood_for(lat: float, lng: float, district: str) -> str:
+        best, best_d = None, 1e12
+        for h in hood_anchors:
+            d = _harvest.haversine_m(lat, lng, h['lat'], h['lng'])
+            if d < best_d and d <= h['radius']:
+                best, best_d = h['hood'], d
+        return best if best is not None else HOOD_FALLBACK[district]
+
+    # independents fill whatever budget the chains and OSM shops leave over:
+    # shops already on the sheet first, then the HOOD_FLOOR best-rated of
+    # every hood (so the outer clusters get ink, not just the dense core),
+    # then best-rated city-wide (stable tie-break on POI id)
+    amap_chains = [c for c in chains if c['src'] == 'amap']
+    budget = max(0, TARGET_IMPORT - len(amap_chains) - len(kept_osm))
+    independents.sort(key=lambda c: (c['amapId'] not in prior_amap,
+                                     -(float(c['rating']) if c.get('rating') else 0), c['amapId']))
+    per_hood: dict[str, int] = {}
+    floor: list[dict] = []
+    rest: list[dict] = []
+    for c in independents:
+        c['hood'] = hood_for(c['lat'], c['lng'], c['district'])
+        n = per_hood.get(c['hood'], 0)
+        if c['amapId'] in prior_amap or n < HOOD_FLOOR:
+            floor.append(c)
+            per_hood[c['hood']] = n + 1
+        else:
+            rest.append(c)
+    capped: list[dict] = (floor + rest)[:budget] + amap_chains
 
     # -- build records -------------------------------------------------------
     used_ids = {c['id'] for c in curated}
     records: list[dict] = []
-
-    def hood_for(lat: float, lng: float, district: str) -> str:
-        best, best_d = None, 1e12
-        for h in curated_hoods:
-            d = _harvest.haversine_m(lat, lng, h['lat'], h['lng'])
-            if d < best_d:
-                best, best_d = h['hood'], d
-        return best if best is not None and best_d <= 1500 else HOOD_FALLBACK[district]
 
     def uid(base: str) -> str:
         cand, i = base, 2

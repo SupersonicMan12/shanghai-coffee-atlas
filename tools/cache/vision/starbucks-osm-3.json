@@ -1,0 +1,59 @@
+{
+  "cafeId": "starbucks-osm-3",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "34b5c87d6796",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJDWIE6/comment/content_media_external_file_100000366_1744852369199_59322035.jpg",
+    "https://aos-comment.amap.com/B0FFJDWIE6/comment/content_media_external_file_1000049297_ss__1762356875146_45279747.jpg",
+    "https://aos-comment.amap.com/B0FFJDWIE6/comment/content_media_external_file_100000366_1744852369200_01510023.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "第一张为热饮纸杯，带'古早味'主题杯套，第二张为手持冰咖啡，含冰块与奶层，第三张为陈列柜内包装好的三明治、蛋糕及外带杯。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张照片中陈列柜上方可见价格牌：'12.9'、'9.9'，标注'早餐组合'、'随星配'等字样。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张照片显示柜内有多种预包装食品，包括三明治、小蛋糕、杯装甜点及瓶装果汁，无现做烘焙品或烤箱设备可见。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张照片中手握杯体，桌面为深色木纹，未见其他顾客或电脑使用者。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "第一张照片杯身置于浅灰色圆桌，背景可见金属椅腿，暗示存在室外座位区。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "三张照片均未显示吧台、磨豆机、手冲设备、书架、植物或宠物等设施或元素。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:35Z"
+}

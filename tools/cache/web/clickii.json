@@ -1,0 +1,38 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Sisyphus Sisyphus Xiangji Store in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F99A48F9A213&address=Shaanxi+South+Road+188+Long+No.13+Room+101%2C+Xuhui%2C+Shanghai+China&coordinate=31.218947%2C121.456852&name=Sisyphus+Sisyphus+Xiangji+Store&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "Cafe 188",
+      "url": "https://www.dianping.com/shop/3528109/photos/album",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Caffeine-fueled fun to brew at CAFEEX 2024 Shanghai Coffee Expo",
+      "url": "https://www.meet-in-shanghai.net/en/news/caffeinefueled-fun-to-brew-at-cafeex-2024-shanghai-coffee-expo-137896/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:25Z",
+  "retriedEn": true
+}

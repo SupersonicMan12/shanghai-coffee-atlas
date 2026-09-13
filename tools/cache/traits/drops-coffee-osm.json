@@ -1,0 +1,40 @@
+{
+  "cafeId": "drops-coffee-osm",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a83d472e1f9f",
+  "raw": {
+    "headline": {
+      "zh": "黑石公寓底层+开阔后花园",
+      "en": "In Blackstone Apartments with open garden"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于黑石公寓底层空间，融合公寓建筑风格",
+        "en": "Located on the ground floor of Blackstone Apartments, blending with the building's architecture",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "天气好时可在视野开阔的后花园放松",
+        "en": "Open garden available for relaxing when weather is good",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "有开阔后花园适合久坐",
+        "en": "Garden supports extended stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:24Z"
+}

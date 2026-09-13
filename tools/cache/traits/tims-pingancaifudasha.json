@@ -1,0 +1,66 @@
+{
+  "cafeId": "tims-pingancaifudasha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "21abeac36d0f",
+  "raw": {
+    "headline": {
+      "zh": "咖啡暖食全时段供应",
+      "en": "Coffee and warm food all day"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "现做贝果、多拿滋、恰巴塔等暖食",
+        "en": "Freshly made bagels, donuts, and ciabatta",
+        "from": [
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked beans, small-batch roasted",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "多个长桌，座位数量较多",
+        "en": "Multiple long tables with ample seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Floor-to-ceiling windows with good light",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00-20:00营业",
+        "en": "Open daily 7am to 8pm",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "座位多且采光好",
+        "en": "Ample seating and natural light"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:27Z"
+}

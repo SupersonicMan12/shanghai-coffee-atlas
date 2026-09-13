@@ -1,0 +1,73 @@
+{
+  "cafeId": "d-march-zakka-coffee-sanyuekafei",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "6cb4dabcfd22",
+  "raw": {
+    "headline": {
+      "zh": "Zakka艺术品集合店配咖啡",
+      "en": "Zakka art shop with coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内有冷藏展示柜陈列甜点与饮料",
+        "en": "Chilled display case with pastries and drinks",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应Bundaberg碳酸饮料和可口可乐",
+        "en": "Serves Bundaberg soda and Coca-Cola",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "天气好时可在门外渔夫椅上晒太阳喝咖啡",
+        "en": "Fisherman's chairs outside for sunbathing and coffee on nice days",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日09:00-21:00",
+        "en": "Open daily 9:00–21:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为coffee与下午茶",
+        "en": "Gaode recommends coffee and afternoon tea",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 85,
+        "from": [
+          7
+        ],
+        "zh": "有户外渔夫椅适合久坐",
+        "en": "Outdoor fisherman's chairs invite lingering"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          6,
+          10
+        ],
+        "zh": "定位为Zakka艺术集合店，推下午茶",
+        "en": "Zakka art concept with afternoon tea focus"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:51Z"
+}

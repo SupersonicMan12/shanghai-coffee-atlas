@@ -1,0 +1,77 @@
+{
+  "cafeId": "umah-coffee-hongshoufang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "95fdf7ee60c0",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲配司康",
+      "en": "Street-side pour-over with scones"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设折叠椅和小桌",
+        "en": "Outdoor seating with foldable chairs and small tables",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆产自埃塞俄比亚、肯尼亚、格拉纳达",
+        "en": "Beans from Ethiopia, Kenya, Granada",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡及美式、拿铁等意式选项",
+        "en": "Offers pour-over and espresso drinks like Americano, latte",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "司康12或15元，巴斯克芝士蛋糕36元",
+        "en": "Scones ¥12/15, Basque cheesecake ¥36",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–19:00营业",
+        "en": "Open daily 08:00–19:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "提供多产地手冲",
+        "en": "Multi-origin pour-over available"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          9
+        ],
+        "zh": "有室外座位可坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:17Z"
+}

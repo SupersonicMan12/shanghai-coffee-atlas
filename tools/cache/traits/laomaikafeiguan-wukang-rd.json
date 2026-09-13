@@ -1,0 +1,86 @@
+{
+  "cafeId": "laomaikafeiguan-wukang-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5ab2a0c635a9",
+  "raw": {
+    "headline": {
+      "zh": "武康大楼底楼南法复古馆",
+      "en": "South of France vibe in Wukang"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗，带露天木质桌椅",
+        "en": "Full glass facade with outdoor wooden seating",
+        "from": [
+          1,
+          2,
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手磨清咖啡和老麦拿铁",
+        "en": "Serves hand-ground black coffee and Laomai latte",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐樱花慕斯与巴布洛酥皮牛肉",
+        "en": "Known for cherry blossom mousse and beef pastry",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主曾任世界银行高管，热爱艺术",
+        "en": "Owner ex-World Bank, passionate about art",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:30–24:00（部分日期至19:00）",
+        "en": "Open 10:30–24:00 (closes 19:00 some days)",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          8
+        ],
+        "zh": "有座位可久坐交谈",
+        "en": "Seating encourages lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          8,
+          9
+        ],
+        "zh": "露天位加拍照人流",
+        "en": "Outdoor tables + photo crowd"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "手磨清咖略显特别",
+        "en": "Hand-ground black coffee stands out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:23Z"
+}

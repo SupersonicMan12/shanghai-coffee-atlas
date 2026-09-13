@@ -1,0 +1,91 @@
+{
+  "cafeId": "metal-hands-nandan-rd-15",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5aaca6a00f2f",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+办公友好老房咖啡馆",
+      "en": "Self-roasted beans in a work-friendly old house"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自家烘焙的高品质阿拉比卡咖啡豆",
+        "en": "Uses self-roasted high-quality Arabica beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "单品咖啡75元起，含巴拿马翡翠庄园瑰夏",
+        "en": "Single-origin coffee from ¥75, e.g. Geisha",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供燕麦芝士巴斯克（48元）和无咖啡因抹茶厚乳（42元）",
+        "en": "Serves oat cheesecake (¥48) and decaf matcha latte (¥42)",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "老房子内，有吧台、少量木质桌椅和大片玻璃门",
+        "en": "In an old house with bar, few wood tables, large glass doors",
+        "from": [
+          2,
+          7,
+          13
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "顾客可在靠窗位用笔记本电脑办公",
+        "en": "Customers work on laptops by the window",
+        "from": [
+          4,
+          8,
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          8,
+          11,
+          12
+        ],
+        "zh": "提供插座且有人办公",
+        "en": "Has outlets, people work"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          11
+        ],
+        "zh": "有座位适合久坐聊天",
+        "en": "Seating for lingering chats"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "自烘豆+高端单品咖啡",
+        "en": "Self-roasted + premium single-origin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:20Z"
+}

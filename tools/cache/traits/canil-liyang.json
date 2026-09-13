@@ -1,0 +1,40 @@
+{
+ "cafeId": "canil-liyang",
+ "model": "qwen-max",
+ "inputDigest": "4487e3f4874f",
+ "raw": {
+  "headline": {
+   "zh": "狗狗爱好者聚集地",
+   "en": "Gathering spot for dog lovers"
+  },
+  "traits": [
+   {
+    "kind": "people",
+    "zh": "常客的狗狗可以免费享用Puppuccino",
+    "en": "Regulars' dogs get free Puppuccino",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "露台是虹口区狗狗社交的重要场所",
+    "en": "Terrace is a key dog social spot",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    "zh": "露台经常有狗狗聚会",
+    "en": "Frequent dog gatherings on terrace"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "适合与宠物长时间停留",
+    "en": "Good for long stays with pets"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:44Z"
+}

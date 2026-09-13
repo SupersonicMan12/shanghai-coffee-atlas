@@ -1,0 +1,81 @@
+{
+  "cafeId": "birdie-cup-cafe-jinganjializhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "acf92d3c6946",
+  "raw": {
+    "headline": {
+      "zh": "与艺术家联名的特色冰饮",
+      "en": "Artist-collab cafe with signature iced drinks"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "空间设计与艺术家常玉季跨界合作",
+        "en": "Interior co-designed with artist Chang Yuji",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供薄荷冰博客等特色冷饮",
+        "en": "Serves unique drinks like mint ice blog",
+        "from": [
+          4,
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用哥伦比亚、危地马拉和巴西阿拉比卡豆",
+        "en": "Uses Arabica beans from Colombia, Guatemala, Brazil",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有临街室外座位区",
+        "en": "Outdoor seating along the street",
+        "from": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至21:30，周末10:00开始",
+        "en": "Open till 21:30 weekdays, opens 10:00 weekends",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "zh": "有室外座与木质桌",
+        "en": "Outdoor seats and wood tables"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          5,
+          10
+        ],
+        "zh": "饮品含红粉、棉花糖、薄荷叶",
+        "en": "Drinks feature red powder, mint, marshmallows"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:29Z"
+}

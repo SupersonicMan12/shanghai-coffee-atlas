@@ -1,0 +1,71 @@
+{
+  "cafeId": "2418-kangqiaozhenxiuyan-rd-2418",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9ed653c4b158",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b6b501f8ee3d19170000003034048208?type=pic",
+    "https://aos-comment.amap.com/B0FFGO828S/comment/content_media_external_file_27178_ss__1763180185482_88821231.jpg",
+    "https://store.is.autonavi.com/showpic/70972e247cd9bbba0000003191814987?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街商铺，门头为绿色招牌，有2418咖啡标识",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质货架、鲜花展示台和蛋糕柜，环境整洁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有绿植装饰和红色节日挂饰，设有少量室外桌椅",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "食物包括华夫饼、水果拼盘和冰淇淋，搭配巧克力酱",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见烘焙豆包装袋陈列在货架上",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有玻璃展示柜，陈列糕点类食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内地面为木质拼花地板，墙面为浅色，整体风格温馨",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有鲜花售卖区域，摆放多束不同颜色的鲜花",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:22Z"
+}

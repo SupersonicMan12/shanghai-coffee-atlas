@@ -1,0 +1,65 @@
+{
+  "cafeId": "benshikafei-luoke-waitanyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a8b1cc314e37",
+  "raw": {
+    "headline": {
+      "zh": "手冲配浮花冰咖",
+      "en": "Floral iced pour-over coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "手冲咖啡配浮花与冰球",
+        "en": "Pour-over served with edible flower and ice sphere",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "豆子品质好，冲煮技术稳健",
+        "en": "Quality beans and consistent brewing",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日12:00–18:00营业",
+        "en": "Open daily 12:00–18:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "饮品含浮花与冰球",
+        "en": "Floral iced presentation"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          9
+        ],
+        "zh": "有户外座且氛围轻松",
+        "en": "Outdoor seats, relaxed vibe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:44Z"
+}

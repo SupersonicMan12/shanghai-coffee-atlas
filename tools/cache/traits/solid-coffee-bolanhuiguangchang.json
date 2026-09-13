@@ -1,0 +1,66 @@
+{
+  "cafeId": "solid-coffee-bolanhuiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b7a4bad51e92",
+  "raw": {
+    "headline": {
+      "zh": "热红酒美式特色店",
+      "en": "Known for mulled red wine Americano"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供热红酒美式、酒花与肉桂等饮品",
+        "en": "Serves mulled red wine Americano, hop & cinnamon drinks",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设木质桌椅，座位数量较少",
+        "en": "Wooden tables and chairs, limited seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full-height street-facing glass, bright interior",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:30-17:00，周末8:30-17:00营业",
+        "en": "Open 7:30–17:00 weekdays, 8:30–17:00 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "座位少但有人坐着喝",
+        "en": "Few seats, but people sit"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "饮品含酒花与肉桂等",
+        "en": "Drinks feature hops, cinnamon"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:58Z"
+}

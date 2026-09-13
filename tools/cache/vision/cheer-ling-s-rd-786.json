@@ -1,0 +1,71 @@
+{
+  "cafeId": "cheer-ling-s-rd-786",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "24130a615aeb",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKUSL14Z/comment/ca39cae07bf1ce365c491b5e2cac5325_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/f8e57f4d69ee62170000003067784942?type=pic",
+    "https://aos-comment.amap.com/B0KKUSL14Z/comment/D7681D5B_F40F_4E15_9672_F53C216499DE_L0_001_2000_127_1769143843767_87837297.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡拉花和黑巧克力饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供灰色系蛋糕和蓝莓蛋糕等甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，门口有室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有顾客坐着休息",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "玻璃展示柜内陈列多种蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见笔、纸和笔记本，可能适合工作",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口有绿植装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "营业时间标示为09:00-19:00",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:16Z"
+}

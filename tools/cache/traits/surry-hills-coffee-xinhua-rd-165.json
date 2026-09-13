@@ -1,0 +1,70 @@
+{
+ "cafeId": "surry-hills-coffee-xinhua-rd-165",
+ "model": "qwen-max",
+ "inputDigest": "997eceaa0dfc",
+ "raw": {
+  "headline": {
+   "zh": "专注可持续生活方式的精品咖啡馆",
+   "en": "Boutique café for sustainable living"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "提供台湾特色精品咖啡与茶饮",
+    "en": "Offers specialty coffee and tea from Taiwan",
+    "from": 9
+   },
+   {
+    "kind": "drinks",
+    "zh": "菜单上有多种经典咖啡饮品，如Flat White、Dirty等",
+    "en": "Menu includes classics like Flat White, Dirty",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "店内有水泥柱、藤蔓植物和多肉植物装饰",
+    "en": "Decorated with cement pillars, vines, and succulents",
+    "from": 4
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗带来良好视野",
+    "en": "Full street-facing windows for a great view",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "周五至周日营业到晚上8点，周一至周四到下午6点",
+    "en": "Open until 8 PM on Fri-Sun, 6 PM Mon-Thu",
+    "from": 12
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 6,
+    "zh": "有操作区但未明确是否适合办公",
+    "en": "Has work area, but unclear if suitable"
+   },
+   "energy": {
+    "value": 30,
+    "from": 7,
+    "zh": "临街位置可能有些许噪音",
+    "en": "Street location may have some noise"
+   },
+   "linger": {
+    "value": 70,
+    "from": 7,
+    "zh": "有舒适的室内环境适合久坐",
+    "en": "Comfortable interior for long stays"
+   },
+   "adventure": {
+    "value": 40,
+    "from": 3,
+    "zh": "提供多种豆子选择，但主要是经典饮品",
+    "en": "Multiple bean options, mainly classic drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:51Z"
+}

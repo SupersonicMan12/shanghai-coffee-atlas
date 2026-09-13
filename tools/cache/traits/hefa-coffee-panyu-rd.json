@@ -1,0 +1,69 @@
+{
+  "cafeId": "hefa-coffee-panyu-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5bbb1456fccf",
+  "raw": {
+    "headline": {
+      "zh": "临街整面落地窗+室外座位",
+      "en": "Floor-to-ceiling street-facing windows + outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full street-facing glass facade with ample natural light",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内吧台和少量座位，室外台阶可坐",
+        "en": "Compact indoor bar and limited seating; seats available on front steps",
+        "from": [
+          2,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30-17:30",
+        "en": "Open daily 7:30 AM to 5:30 PM",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为coffee",
+        "en": "Coffee is the top recommended item",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating supports lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "临街+旁有茶饮店，略有人流",
+        "en": "Street-facing + adjacent tea shop suggests moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:49Z"
+}

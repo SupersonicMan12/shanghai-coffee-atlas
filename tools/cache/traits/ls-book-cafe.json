@@ -1,0 +1,72 @@
+{
+  "cafeId": "ls-book-cafe",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "54f9d0424e15",
+  "raw": {
+    "headline": {
+      "zh": "张爱玲旧居楼下书咖",
+      "en": "Eileen Chang's former building, now a book café"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于1936年建成的赉安洋行设计老建筑内",
+        "en": "Housed in a 1936 heritage building designed by Léonard & Co.",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "一楼为咖啡馆与书店复合空间",
+        "en": "Ground floor hosts a café and bookstore combo",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "毗邻张爱玲昔日住所，非开放参观场所",
+        "en": "Adjacent to Eileen Chang's former residence, not open for tours",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为手冲咖啡与葡萄酒",
+        "en": "Signature drinks: pour-over coffee and wine after dark",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "可办公的书咖空间",
+        "en": "Work-friendly café space"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          5
+        ],
+        "zh": "适合久坐阅读或闲谈",
+        "en": "Great for lingering and reading"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "手冲与葡萄酒搭配有特色",
+        "en": "Pour-over and wine pairing stands out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:09Z"
+}

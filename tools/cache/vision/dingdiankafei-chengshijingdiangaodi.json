@@ -1,0 +1,71 @@
+{
+  "cafeId": "dingdiankafei-chengshijingdiangaodi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "bdf13ead121e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/61339a179338375a2e0ab6384c0b4f0a",
+    "https://aos-comment.amap.com/B0IRF7AKQ6/comment/content_media_external_images_media_4134389_1658839140547_499661a3.jpg",
+    "https://aos-comment.amap.com/B0IRF7AKQ6/comment/content_media_external_images_media_4172499_1658839140545_b60ae8a8.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机正在萃取浓缩咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供深红色果昔类饮品，含果肉颗粒",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品使用透明杯和吸管，部分带盖",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口有菜单黑板，但内容不清",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有灰色沙发座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面为砖石铺装，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡机品牌为DeLonghi，具备专业级操作面板",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:43Z"
+}

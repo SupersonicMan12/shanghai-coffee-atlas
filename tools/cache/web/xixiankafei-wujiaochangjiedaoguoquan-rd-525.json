@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "text": "冰美式加贝果的套餐确实划算",
+      "kind": "food",
+      "quote": "這家冰美式加貝果的套餐確實划算。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-34529219/",
+      "site": "熙賢咖啡(上海江灣/五角場商業區)－餐牌、食評及資訊｜Trip.com"
+    },
+    {
+      "text": "美式豆子選得不錯，入口很醇，沒有焦苦味",
+      "kind": "beans",
+      "quote": "美式豆子選得不錯，入口很醇，沒有焦苦味。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-34529219/",
+      "site": "熙賢咖啡(上海江灣/五角場商業區)－餐牌、食評及資訊｜Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 2,
+      "title": "熙賢咖啡(上海江灣/五角場商業區)－餐牌、食評及資訊｜Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-34529219/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
+      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
+      "site_name": "东方财富网"
+    },
+    {
+      "index": 6,
+      "title": "谁懂啊!北外滩上海咖啡文化节神仙口味合集,看完必冲→",
+      "url": "https://www.jfdaily.com/sgh/detail?id=1743601",
+      "site_name": "解放网"
+    },
+    {
+      "index": 7,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:28:14Z"
+}

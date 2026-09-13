@@ -1,0 +1,71 @@
+{
+  "cafeId": "manner-coffee-sanchenlishenghuozhongxin",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bf17e4deb49f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e98f2f6702d463b33c6283e96ced5c5d",
+    "https://store.is.autonavi.com/showpic/16fa2abd975f7a820000003125628661?type=pic",
+    "https://store.is.autonavi.com/showpic/454475abbed279b50000003678980120?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量长凳座位，空间紧凑。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有咖啡机、磨豆机等专业设备。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口立牌显示有“黄皮汤力美式”饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，可看到窗外树木和建筑。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上有英文标语“MAKE COFFEE PART OF YOUR LIFE”。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见两位顾客，一位在吧台前，一位在操作手机。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有一个白色垃圾桶和一个金属回收箱。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "座位是木质长凳配圆形坐垫，共三个位置。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:00:19Z"
+}

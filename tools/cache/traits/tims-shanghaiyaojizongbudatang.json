@@ -1,0 +1,68 @@
+{
+  "cafeId": "tims-shanghaiyaojizongbudatang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d1dc34066535",
+  "raw": {
+    "headline": {
+      "zh": "姚记大堂里的暖食咖啡站",
+      "en": "Warm-food coffee stop in Yaoji lobby"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于大楼大堂内，非临街独立铺",
+        "en": "Inside office lobby, not a street-facing shop",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设少量座位，空间开阔",
+        "en": "Few seats in an open space",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "入口有落地玻璃窗，采光良好",
+        "en": "Good daylight through floor-to-ceiling windows",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "现做贝果、多拿滋、恰巴塔等暖食",
+        "en": "Freshly made warm foods: bagels, donuts, ciabatta",
+        "from": [
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日07:00-18:00营业，周末关闭",
+        "en": "Open weekdays 07:00–18:00, closed weekends",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "座位少且在大堂",
+        "en": "Few seats in lobby"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:59Z"
+}

@@ -1,0 +1,81 @@
+{
+  "cafeId": "rac-anfu",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f1ea1e43bd7a",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃+酒架",
+      "en": "Street-facing glass with wine display"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "整面临街落地玻璃，可坐窗边看街景",
+        "en": "Full-floor-to-ceiling windows facing the street, seating by the window",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为荞麦薄饼配美式咖啡",
+        "en": "Signature: buckwheat galette with flat white",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜含蘑菇与牛肉",
+        "en": "Recommended dishes include mushrooms and beef",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周日至周六营业至22:30，周日早闭店",
+        "en": "Open until 22:30 Mon–Sat, closes at 17:00 Sun",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "户外有铺装桌椅，适合拍照打卡",
+        "en": "Outdoor pavement tables for photo-worthy moments",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "临街人流多，热闹",
+        "en": "Busy street foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "有户外座位，可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "临街嘈杂，难专注",
+        "en": "Street-side distraction"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:02Z"
+}

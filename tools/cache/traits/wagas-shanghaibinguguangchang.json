@@ -1,0 +1,98 @@
+{
+  "cafeId": "wagas-shanghaibinguguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "61081d88c42c",
+  "raw": {
+    "headline": {
+      "zh": "工业风现制轻食+咖啡",
+      "en": "Industrial-style fresh meals & coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，室外设金属桌椅",
+        "en": "Floor-to-ceiling windows with outdoor metal tables",
+        "from": [
+          1,
+          5,
+          10,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜提供三明治、沙拉、蛋糕等现制食品",
+        "en": "Display case features sandwiches, salads, cakes made fresh",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品命名趣味十足，如“朋克生活”“救救我”",
+        "en": "Fun-named drinks like 'Punk Life' and 'Save Me'",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设吧台与展示柜区座位，可办公",
+        "en": "Counter and display area seating suitable for working",
+        "from": [
+          2,
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–20:30，支持自助点餐",
+        "en": "Open 07:30–20:30 with self-ordering",
+        "from": [
+          16,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "有顾客用电脑办公",
+        "en": "People working on laptops"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "有顾客用餐和工作",
+        "en": "Customers eating and working"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "可长时间停留办公",
+        "en": "Suitable for lingering work"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          12
+        ],
+        "zh": "饮品名有趣但无实验性描述",
+        "en": "Creative names, not experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:48Z"
+}

@@ -1,0 +1,82 @@
+{
+  "cafeId": "lain-s-cafe-bar-zhongshanbeiyi-rd-880",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "7f024159ce90",
+  "raw": {
+    "headline": {
+      "zh": "湖景落地窗咖啡馆",
+      "en": "Lakeside café with floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "巨大落地窗可览湖景与绿植",
+        "en": "Floor-to-ceiling windows offer lake and greenery views",
+        "from": [
+          3,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为澳白，咖啡香浓郁",
+        "en": "Signature drink is a richly aromatic flat white",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供多种咖啡豆供顾客自由挑选",
+        "en": "Multiple coffee beans available for customer selection",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐提拉米苏与鸡米花",
+        "en": "Highly recommended: tiramisu and chicken nuggets",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 10:00-21:00",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "适合安静阅读办公",
+        "en": "Suitable for quiet work and reading"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "晴天适合朋友畅聊",
+        "en": "Good for casual friend chats"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          4
+        ],
+        "zh": "桌上有书包，适合久坐",
+        "en": "Furniture invites lingering stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:01Z"
+}

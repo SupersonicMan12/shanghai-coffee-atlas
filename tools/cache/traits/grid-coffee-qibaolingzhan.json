@@ -1,0 +1,83 @@
+{
+  "cafeId": "grid-coffee-qibaolingzhan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "270e99c58f9b",
+  "raw": {
+    "headline": {
+      "zh": "SCA84分以上豆子",
+      "en": "SCA 84+ beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "全系使用SCA杯测84分以上单一产地咖啡豆",
+        "en": "All beans SCA 84+ single origin",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括罗马人美式、咸奶萃等微创新款",
+        "en": "Signature drinks include Roman espresso, salty creamer",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设有高脚桌椅供顾客使用",
+        "en": "High tables and chairs available for seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日07:00-21:30",
+        "en": "Open daily 07:00–21:30",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店铺位于商场内，入口宽敞",
+        "en": "Located in mall with wide entrance",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2,
+          12
+        ],
+        "zh": "有座位且营业时间长",
+        "en": "Seating and long hours"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          12
+        ],
+        "zh": "有顾客在坐，非静谧",
+        "en": "Customers present, not quiet"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          2,
+          12
+        ],
+        "zh": "有高脚桌椅适合久坐",
+        "en": "High tables suit lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:37Z"
+}

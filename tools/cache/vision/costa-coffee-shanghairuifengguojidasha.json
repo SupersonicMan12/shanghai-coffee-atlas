@@ -1,0 +1,71 @@
+{
+  "cafeId": "costa-coffee-shanghairuifengguojidasha",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "99056c7a2b89",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a4f7845bf840e57d13e38a8fffb880dc",
+    "http://store.is.autonavi.com/showpic/f371b0b179f9b8e975e02a4fa0f8a9fa",
+    "http://store.is.autonavi.com/showpic/0a8cd03579d10a3800eb460c439c2d9d"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内为大空间，有落地玻璃窗、吧台、多组沙发与单人椅",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "右侧墙面有大幅手绘插画墙，内容含咖啡制作场景与熊猫元素",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见3组红色软包单人椅+小圆桌，1组浅灰布艺单人椅+小圆桌，另有多人沙发区",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台为红木色，后方有电子屏与操作区，未见烘焙机、手冲台或虹吸壶",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图展示‘熊猫桂花系列’三款饮品：桂花黑糖拿铁、桂花燕麦拿铁、桂花黑糖冰萃",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图为一杯冰萃咖啡，杯身印Costa咖啡豆标志，无其他文字或价格",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第一张图中吧台后有2名工作人员，顾客站立点单，无人使用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内采光来自大面积临街落地窗，窗外可见绿树与建筑轮廓",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:38Z"
+}

@@ -1,0 +1,77 @@
+{
+  "cafeId": "plan-b-xiangyang-n-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "46549d11ea44",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆+特调35元起",
+      "en": "House-roasted beans, signature drinks from ¥35"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供6款不同产地自烘焙咖啡豆",
+        "en": "Offers 6 house-roasted single-origin beans",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品：百利甜拿铁、卡美罗焦糖咖啡，22元",
+        "en": "Signature drinks: Baileys latte & caramel coffee, ¥22",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特调咖啡35元起",
+        "en": "Specialty coffee drinks from ¥35",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设室外台阶座位",
+        "en": "Outdoor seating on street-level steps",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至次日凌晨1-3点（周末更晚）",
+        "en": "Open until 1–3 AM (later on weekends)",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          8,
+          9
+        ],
+        "zh": "自烘豆+特调组合",
+        "en": "House-roasted beans + creative drinks"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6,
+          12
+        ],
+        "zh": "有座且营业到深夜",
+        "en": "Seating available, open late"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:57Z"
+}

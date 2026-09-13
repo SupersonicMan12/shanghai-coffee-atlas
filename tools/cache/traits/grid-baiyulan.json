@@ -1,0 +1,76 @@
+{
+  "cafeId": "grid-baiyulan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "72b6fc9ab8e2",
+  "raw": {
+    "headline": {
+      "zh": "站喝小馆，单源咖啡",
+      "en": "Stand-up bar, single-origin coffee"
+    },
+    "traits": [
+      {
+        "kind": "light|view",
+        "zh": "整面落地窗临街，采光充足",
+        "en": "Full-height floor-to-ceiling windows facing the street, ample daylight",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台站立区，无固定座椅",
+        "en": "Standing-only counter seating, no fixed chairs",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "全系使用SCA 84分以上单一产地豆，招牌为微创新经典款",
+        "en": "Single-origin beans, SCA 84+; signature drinks are reimagined classics",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:00-20:30",
+        "en": "Open 07:00–20:30 daily",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "站喝为主，不适合久坐",
+        "en": "Designed for standing, not lingering"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "无固定座位，专注度有限",
+        "en": "No fixed seats, low focus potential"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "临街落地窗，人流可见",
+        "en": "Street-facing windows, visible foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:17Z"
+}

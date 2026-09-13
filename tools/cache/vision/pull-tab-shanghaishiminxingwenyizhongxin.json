@@ -1,0 +1,65 @@
+{
+  "cafeId": "pull-tab-shanghaishiminxingwenyizhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "757645b32a33",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2260d7daf4e1fc180000002886736834?type=pic",
+    "https://aos-comment.amap.com/B0L3MDJV6S/comment/ED1B7336_E80D_4BD8_B5A6_A7813DE68415_L0_001_1500_200_1766196129367_37313783.jpg",
+    "https://store.is.autonavi.com/showpic/3913354ca06ced42d63e4bb4add4255d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有桌椅，提供室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位数量较少，约4-6个",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺门口有菜单立牌，展示饮品图片",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "玻璃门上有“小心玻璃”提示标识",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分桌椅，空间较窄",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门店为现代风格建筑，无明显老式或庭院特征",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:00Z"
+}

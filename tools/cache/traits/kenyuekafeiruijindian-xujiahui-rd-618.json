@@ -1,0 +1,68 @@
+{
+  "cafeId": "kenyuekafeiruijindian-xujiahui-rd-618",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e4db89a60e6a",
+  "raw": {
+    "headline": {
+      "zh": "9.9元起，与KFC共享空间",
+      "en": "From ¥9.9, shares space with KFC"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "冰咖啡可见分层",
+        "en": "Iced coffee shows visible layers",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于商场内，与KFC共处一室",
+        "en": "Inside mall, shares space with KFC",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品9.9元起",
+        "en": "Drinks from ¥9.9",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日06:30–22:00营业",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "商场内且邻近快餐区",
+        "en": "In mall near fast food"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          2,
+          3,
+          5
+        ],
+        "zh": "快餐式布局，无久坐迹象",
+        "en": "Fast-food style setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:07Z"
+}

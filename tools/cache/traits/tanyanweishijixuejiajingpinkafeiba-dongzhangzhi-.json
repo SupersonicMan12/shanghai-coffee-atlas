@@ -1,0 +1,69 @@
+{
+  "cafeId": "tanyanweishijixuejiajingpinkafeiba-dongzhangzhi-",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9a013082e0a2",
+  "raw": {
+    "headline": {
+      "zh": "威士忌雪茄配精品咖啡",
+      "en": "Whisky, cigars with specialty coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供麦卡伦12年等威士忌饮品",
+        "en": "Serves Macallan 12-year and other whiskies",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位，可享街道与绿植景观",
+        "en": "Outdoor seating with street and greenery views",
+        "from": [
+          5,
+          4,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间至晚上23:00",
+        "en": "Open until 11:00 PM",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打精品咖啡，有咖啡机萃取浓缩",
+        "en": "Specialty coffee with espresso machine in use",
+        "from": [
+          1,
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "闹市中的安静角落",
+        "en": "Quiet corner in a busy area"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "适合久坐休憩",
+        "en": "Good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:08Z"
+}

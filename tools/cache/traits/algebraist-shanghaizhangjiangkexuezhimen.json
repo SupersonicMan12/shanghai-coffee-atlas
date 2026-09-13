@@ -1,0 +1,91 @@
+{
+  "cafeId": "algebraist-shanghaizhangjiangkexuezhimen",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2bd01f4ded09",
+  "raw": {
+    "headline": {
+      "zh": "主打玫瑰布列夫与法酪拿铁",
+      "en": "Features rose-infused and kiri croissant lattes"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为重瓣玫瑰布列夫和kiri法酪拿铁系列",
+        "en": "Signature drinks include rose-infused brioche latte and kiri croissant latte series",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "小型吧台式空间，无固定座位区",
+        "en": "Compact counter-only layout with no fixed seating",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面落地玻璃窗，采光良好",
+        "en": "Full-height floor-to-ceiling windows with ample natural light",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用全球甄选咖啡豆，以数学方式演算制作方案",
+        "en": "Sourced beans globally, with math-driven brewing formulation",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚18:30，覆盖白领午休高峰",
+        "en": "Closes at 18:30, serving midday office crowd",
+        "from": [
+          10,
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          11
+        ],
+        "zh": "站喝为主，难专注办公",
+        "en": "Counter-only, not ideal for focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "午休时段客流密集",
+        "en": "Busy during lunch rush"
+      },
+      "linger": {
+        "value": 10,
+        "from": [
+          2
+        ],
+        "zh": "无座位，难以久坐",
+        "en": "No seats, short stays only"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "特色饮品具创新性",
+        "en": "Creative signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:30Z"
+}

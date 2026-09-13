@@ -1,0 +1,90 @@
+{
+  "cafeId": "ruixingkafei-huaihaizhonghuadasha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "da583dcd7bfb",
+  "raw": {
+    "headline": {
+      "zh": "快取站，线上点单",
+      "en": "Quick pickup, order online"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店面积20-60㎡，无堂食区",
+        "en": "20-60㎡ fast pickup only, no seating",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "平均每3-4天推一款新品",
+        "en": "New drink every 3-4 days",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五07:00-20:00",
+        "en": "Open 07:00-20:00 Mon-Fri",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周六日营业时间08:00-20:00",
+        "en": "Open 08:00-20:00 Sat-Sun",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品包括西柚冰萃咖啡、厚乳拿铁等",
+        "en": "Recommended drinks include grapefruit iced coffee, thick milk latte",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          4
+        ],
+        "zh": "无堂食，不适合久坐",
+        "en": "No seating, not for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "快取模式，中等人流",
+        "en": "Fast pickup, moderate foot traffic"
+      },
+      "focus": {
+        "value": 20,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "无座位，难专注办公",
+        "en": "No seats, not for focus"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "新品频出，口味多变",
+        "en": "Frequent new drinks, varied flavors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:16Z"
+}

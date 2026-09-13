@@ -1,0 +1,71 @@
+{
+  "cafeId": "0566-shanghailaofoyebaihuo",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1f8bcc82e1a7",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e9a8f4a6873ab41f0000003200450043?type=pic",
+    "https://aos-comment.amap.com/B0IKASPI7Q/comment/34a0cdf2d86903b6d2263d345ffd20b5_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/f14bead666df6e370000002270592945?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，临街玻璃门，有落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有木质桌椅，可容纳少量顾客",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "有木盒装水果甜品，含柚子、芒果和奶油",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供茶饮，搭配木盒装巧克力与绿叶装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示咖啡豆产地为埃塞俄比亚、肯尼亚等",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上有价格信息，如#61售价未明确标注",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有木质货架陈列商品，整体风格日式简约",
+      "kind": "style",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见顾客正在用餐",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:13Z"
+}

@@ -1,0 +1,64 @@
+{
+ "cafeId": "manner-coffee-loushanguan-rd",
+ "model": "qwen-max",
+ "inputDigest": "c0e16cc2ae39",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "室外有5组白色金属桌椅",
+    "en": "5 sets of white metal tables and chairs outside",
+    "from": "[1,7]"
+   },
+   {
+    "kind": "view",
+    "zh": "临街大面积玻璃窗，夜景可见对面建筑",
+    "en": "Large street-facing windows with night view of buildings",
+    "from": "[6,8]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品包括燕麦拿铁和冰甜",
+    "en": "Signature drinks include oat milk latte and iced sweet",
+    "from": "[13]"
+   },
+   {
+    "kind": "price",
+    "zh": "价格区间15-25元，定位平价精品",
+    "en": "Price range 15-25 RMB, affordable yet high quality",
+    "from": "[12]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": "[5]",
+    "zh": "主要站立点单或短暂等待",
+    "en": "Mainly for quick orders or brief waits"
+   },
+   "energy": {
+    "value": 40,
+    "from": "[5,6,8]",
+    "zh": "顾客多为站喝或短暂停留",
+    "en": "Most customers stand or stay briefly"
+   },
+   "linger": {
+    "value": 30,
+    "from": "[5,7]",
+    "zh": "室外座位适合短暂停留",
+    "en": "Outdoor seating for short stays"
+   },
+   "adventure": {
+    "value": 20,
+    "from": "[3,4,11]",
+    "zh": "菜单经典，手冲视频展示",
+    "en": "Classic menu, pour-over video shown"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:41Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "maan-coffee-lifengguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ea2f2cc4e2a0",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=std94bcd24-5c27-41b9-8264-483081dff6c1&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/f8207f50797039ad2e38acf36308a76e",
+    "https://aos-comment.amap.com/B0K21U08GG/comment/F306F277_BAA5_46D4_8C51_0DFD4B622D14_L0_001_2000_150_1766388713414_86527753.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，有多个拱形门廊入口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有绿植装饰的户外座位区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有展示墙，用于张贴作品或信息",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面悬挂植物，营造自然氛围",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "展示墙上贴有书法、画作等艺术类标签",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面正对街道，临街玻璃窗可见",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:54Z"
+}

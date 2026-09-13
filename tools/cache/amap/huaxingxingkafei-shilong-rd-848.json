@@ -1,0 +1,248 @@
+{
+  "cafeId": "huaxingxingkafei-shilong-rd-848",
+  "query": {
+    "location": "121.431069,31.149543",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:07:18Z",
+  "matchedPoiId": "B0L1LCEWMJ",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00154DWG1",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e23698d943fc0a700000000735216757?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/777f0f80f2b45767dc7d6f6d700a0839"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service_63326aa4d4f54e43f011dcdb5f5715e2_1766833479356_77185325.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0L1LCEWMJ",
+        "tag": "双人餐,单人餐",
+        "entr_location": "121.43102697685825,31.14950765948136",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": "320",
+        "atag": "双人餐,单人餐",
+        "name": "花醒醒咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周日 08:00-17:00",
+          "rating": "4.3",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537421",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 10:47:25",
+        "website": [],
+        "address": "石龙路848号(上海南站地铁站2号口步行450米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.431066,31.149538",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFGB626K",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/66de99b3caa7f29c0000001933900478?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/449ef70bb8d2a01d01bbbfa4a1bbb76d"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13311739517",
+        "id": "B0LRBHNU3Z",
+        "tag": "杨枝甘露,生椰拿铁",
+        "entr_location": "121.430963,31.148194",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "上海南站",
+        "childtype": "202",
+        "atag": "杨枝甘露,生椰拿铁",
+        "name": "库迪咖啡(上海南站泾河园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "142",
+        "importance": [],
+        "biz_ext": {
+          "cost": "9.00",
+          "opentime2": "周一至周日 07:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621537421",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:52:01",
+        "website": [],
+        "address": "石龙路951号泾河科创空间F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.431137,31.148261",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155QJEU/comment/333F954A_61DE_45D5_B832_ACE03C97E3CD_L0_001_1178_118_1757326160374_62562031.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155QJEU/comment/content_media_external_file_105133_ss__1768719778180_73138179.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B00155QJEU/comment/file_media_Photo_10651_IMG_1767862796_10225_screenshot_20260108_165816_jp_1767862816451_45753659.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54352313;021-60782939",
+        "id": "B00155QJEU",
+        "tag": "下午茶",
+        "entr_location": "121.43152061192362,31.152200447509305",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "康健",
+        "childtype": [],
+        "atag": "下午茶",
+        "name": "星巴克(上海南站店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F011012_360568",
+        "distance": "284",
+        "importance": [],
+        "biz_ext": {
+          "cost": "32.00",
+          "opentime2": "周一至周日 06:30-12:00,12:30-22:00",
+          "rating": "4.5",
+          "open_time": "06:30-12:00 12:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621538401",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 03:03:50",
+        "website": [],
+        "address": "沪闵路9001号上海南站地下商场南馆的第一层第B区南1-B25号店铺",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.431441,31.152079",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "cafeId": "arabica-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "344618fc8acf",
+  "raw": {
+    "headline": {
+      "zh": "100%阿拉比卡手冲咖啡",
+      "en": "100% Arabica pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆，含拼配豆",
+        "en": "100% Arabica beans, including blends",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为手冲咖啡，菜单标注产地与烘焙度",
+        "en": "Signature pour-over; origin and roast listed",
+        "from": [
+          3,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设圆形沙发与小圆桌，可休闲久坐",
+        "en": "Round sofas and small tables for relaxed seating",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "通透明亮的站喝+少量堂食空间",
+        "en": "Bright, open stand-up bar with limited indoor seating",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-20:30",
+        "en": "Open daily 07:30–20:30",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "有沙发座椅可久坐",
+        "en": "Has seating for lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "通透明亮但以站喝为主",
+        "en": "Bright but primarily stand-up"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          9
+        ],
+        "zh": "手冲咖啡与详细豆信息",
+        "en": "Pour-over with detailed bean info"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:04Z"
+}

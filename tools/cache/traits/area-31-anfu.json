@@ -1,0 +1,70 @@
+{
+ "cafeId": "area-31-anfu",
+ "model": "qwen-max",
+ "inputDigest": "c91596f4038d",
+ "raw": {
+  "headline": {
+   "zh": "低调小店，小小院子适合晒太阳",
+   "en": "Cozy courtyard, perfect for sunbathing"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, open view",
+    "from": "[1], [5], [8]"
+   },
+   {
+    "kind": "seating",
+    "zh": "室外有两组水泥长凳，适合休息",
+    "en": "Outdoor cement benches for seating",
+    "from": "[1], [7]"
+   },
+   {
+    "kind": "beans",
+    "zh": "手冲咖啡可选多种豆子，老板推荐",
+    "en": "Various beans for pour-over, owner recommends",
+    "from": "[10]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "美式18元，奶咖23元，价格亲民",
+    "en": "Affordable drinks: 18RMB Americano, 23RMB latte",
+    "from": "[11]"
+   },
+   {
+    "kind": "people",
+    "zh": "店主来自高雄，亲切友好",
+    "en": "Owner from Kaohsiung, friendly and welcoming",
+    "from": "[12]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": "[6]",
+    "zh": "适合轻松聊天",
+    "en": "Casual chat vibe"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[9]",
+    "zh": "安静舒适的小院",
+    "en": "Quiet, cozy courtyard"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[7], [9]",
+    "zh": "适合久坐享受阳光",
+    "en": "Great for long sits in the sun"
+   },
+   "adventure": {
+    "value": 50,
+    "from": "[10]",
+    "zh": "手冲咖啡选择多样",
+    "en": "Variety of pour-over options"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:02Z"
+}

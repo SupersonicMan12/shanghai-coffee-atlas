@@ -1,0 +1,59 @@
+{
+  "cafeId": "slab-town-fumin-rd-210",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "18ff07add510",
+  "photos": [
+    "https://aos-comment.amap.com/B0GUPSZDB0/comment/content_media_external_file_116369_ss__1766847522332_32260551.jpg",
+    "https://aos-comment.amap.com/B0GUPSZDB0/comment/2621982ff1fe82e7f6c0dc286b2e77b7_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GUPSZDB0/comment/260ecc880e801e5bf5922edb31020d4f_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面有深绿色厚帘子，门面不大，像小店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内货架陈列咖啡豆、杯子、保温杯等商品",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放一杯冰咖啡和一片带咖啡豆的蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面为竖条纹金属板，装修偏工业风",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见顾客或工作人员",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见明显吧台、手冲区或大型专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:43Z"
+}

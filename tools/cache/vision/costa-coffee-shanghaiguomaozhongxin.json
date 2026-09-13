@@ -1,0 +1,71 @@
+{
+  "cafeId": "costa-coffee-shanghaiguomaozhongxin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "0523c38a54d5",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0a8cd03579d10a3800eb460c439c2d9d",
+    "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8",
+    "http://store.is.autonavi.com/showpic/a6e2cd4b12d3cb26d6817c116948a8ea"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "透明玻璃杯装冰咖啡，含奶/奶油 swirl，杯身有 Costa 咖啡豆标志浮雕",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "高脚玻璃杯装热饮，杯身印 'COSTA' 字样，顶部为螺旋状奶泡与焦糖碎",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "三款桂花系列饮品：桂花酒酿冷萃、桂花燕麦铁、桂花酒酿拿铁，杯身标'COSTA COFFEE'",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图标注‘仅此款 牛奶可选 生椰乳/燕麦奶’",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图左下角有‘新品上市’黄色标签",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "所有照片均为纯白背景产品图，无店面、室内或环境信息",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "未见任何座位、吧台、窗户、设备或人员",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "未显示菜单价格、豆子产地、烘焙机或手冲器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:35Z"
+}

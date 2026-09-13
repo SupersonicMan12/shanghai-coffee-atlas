@@ -1,0 +1,59 @@
+{
+  "cafeId": "laizuoxiaoyuankafei-longwu-rd-2219",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6c4f7d467035",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c846def490d6ad950000002631624399?type=pic",
+    "https://store.is.autonavi.com/showpic/26e555f02e9a67490000002631482844?type=pic",
+    "https://store.is.autonavi.com/showpic/3b45c999a54063cd0000002631578708?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "other",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室内有吧台和多张木质椅子",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "大面积落地窗，采光良好，可见室外绿植",
+      "kind": "light|view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外庭院区有绿色椅子和小石桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外庭院有树木、草地和小溪景观",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处有指示牌，显示营业时间为周二至周日10:00-20:00",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内悬挂着咖啡豆形状的装饰灯",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:49Z"
+}

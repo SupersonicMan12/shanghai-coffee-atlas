@@ -1,0 +1,84 @@
+{
+  "cafeId": "m-stand-shanghaibaolishiguangli",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f421f4dae32d",
+  "raw": {
+    "headline": {
+      "zh": "户外座位可坐4人",
+      "en": "Outdoor seating for 4 people"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外有黑色长条形户外桌椅，可坐至少4人",
+        "en": "Black outdoor bench seats for at least 4 people",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地玻璃窗通透，采光良好",
+        "en": "Floor-to-ceiling windows with good natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含美式咖啡、奶咖、椰子等招牌饮品",
+        "en": "Features signature drinks like Americano, milk coffee, and coconut",
+        "from": [
+          3,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供油条、香肠等餐食类推荐菜",
+        "en": "Offers food items like youtiao and sausage as recommended dishes",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点，周末早开一小时",
+        "en": "Closes at 10 PM, opens one hour earlier on weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "有吧台和手机支架，适合办公",
+        "en": "Has charging and workspace setup"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4,
+          8
+        ],
+        "zh": "位于商场首层，人流较多",
+        "en": "Located in high-traffic mall entrance"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有户外座位和良好采光，适合久坐",
+        "en": "Comfortable outdoor seating with good lighting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:49Z"
+}

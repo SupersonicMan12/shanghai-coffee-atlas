@@ -1,0 +1,89 @@
+{
+  "cafeId": "freigeister-linxin-rd-268",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "990c05c49d01",
+  "raw": {
+    "headline": {
+      "zh": "可自选全球豆的读书咖啡馆",
+      "en": "Choose global beans, read books"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用来自世界各地的咖啡豆",
+        "en": "Uses coffee beans from around the world",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供自由拼配菜单，可选瑰夏等豆子",
+        "en": "Offers custom blends with Geisha, Ethiopia, etc.",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品含鸳鸯拿铁、巴西柠檬水",
+        "en": "Recommended drinks include yuanyang latte and Brazilian lemonade",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设有读书角和咖啡相关书籍书架",
+        "en": "Has a reading nook and bookshelves with coffee-related books",
+        "from": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至五及周日 08:00-17:00 营业",
+        "en": "Open Mon–Fri & Sun, 8am–5pm",
+        "from": [
+          6,
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          13,
+          14
+        ],
+        "zh": "有读书角和书架",
+        "en": "Reading nook and books"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          3,
+          7,
+          8,
+          13,
+          14
+        ],
+        "zh": "室内外座位+读书区",
+        "en": "Indoor/outdoor seats + reading area"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "可自选全球豆拼配",
+        "en": "Custom global bean blends"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:24Z"
+}

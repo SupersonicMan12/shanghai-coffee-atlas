@@ -1,0 +1,71 @@
+{
+  "cafeId": "mozzarella-e-vino-daxue-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "70347ef61f63",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/65d9aad35dd6110c0000002631812132?type=pic",
+    "https://store.is.autonavi.com/showpic/22737585b676f7a50000002638606790?type=pic",
+    "https://aos-comment.amap.com/B0L2FZ20FN/comment/DBB20B8D_94A1_407D_9B1D_62A803B14CD3_L0_001_1500_200_1761271763281_91032977.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为两层建筑，临街有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外座位约4-6个，配有白色遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间照片显示店内灯光明亮，透过窗户可见内部陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "白天照片显示二楼有开放式阳台或窗户，挂有装饰物",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有顾客就坐，环境看起来舒适休闲",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外摆放着多个盆栽植物，装饰性强",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一楼入口处有菜单立牌，但内容无法看清",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "街道视角可见人行横道和交通信号灯",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:46Z"
+}

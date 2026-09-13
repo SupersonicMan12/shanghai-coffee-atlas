@@ -1,0 +1,90 @@
+{
+  "cafeId": "cubic3-guohuaguojiguangchanggmall",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "5b54a8fb72af",
+  "raw": {
+    "headline": {
+      "zh": "站饮式冰咖专营店",
+      "en": "Standing-only iced coffee shop"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内为开放式吧台设计，无固定座位",
+        "en": "Open bar design with no fixed seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单可见冰美式、美式咖啡等饮品",
+        "en": "Menu features iced Americano and Americano",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "吧台前摆放有冰咖啡饮品",
+        "en": "Iced coffee drinks displayed at the bar",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "部分饮品标价9.9元",
+        "en": "Some drinks priced at ¥9.9",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日09:00-19:30",
+        "en": "Open daily 9:00–19:30",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "无固定座位，不适宜办公",
+        "en": "No seating, not for work"
+      },
+      "linger": {
+        "value": 10,
+        "from": [
+          1
+        ],
+        "zh": "无固定座位，不适合久坐",
+        "en": "No seating, not for lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "吧台前陈列冰饮，具即时活力感",
+        "en": "Iced drinks on display suggest lively pace"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "主打经典意式冰咖，非实验性",
+        "en": "Focuses on classic iced espresso drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:39Z"
+}

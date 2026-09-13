@@ -1,0 +1,59 @@
+{
+  "cafeId": "a-calling-yongfudisanxiaoqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1af7026cea14",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKOHHFTS/comment/e15735fc65a764684950e8c3c4b75b33_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKOHHFTS/comment/7e887ef5f1a05172e817bcb8859ec89e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HKOHHFTS/comment/74b8b6a69b95654c57e37cc0fe81407d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "桌上有日历显示12月20日，旁边有圣诞树装饰。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯拿铁拉花为心形，杯身有店名贴纸。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "窗边座位，窗外可见街道和行人，阳光充足。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放着打开的书和笔，适合阅读或工作。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "背景中有一只白色小狗，可能允许宠物入内。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "室内有绿色收纳箱和堆叠纸杯，非精致装修。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:34Z"
+}

@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "上海首家认证为社会企业的咖啡店",
+      "kind": "story",
+      "quote": "简介：上海首家认证为社会企业的咖啡店",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "70%员工是听障人士，提供就业机会",
+      "kind": "people",
+      "quote": "这里的员工有70%是听障人士",
+      "url": "https://3g.163.com/dy/article/HB7CI7DC0542AWHG.html",
+      "site": "网易"
+    },
+    {
+      "text": "店内装饰温馨，由听障设计师设计花艺作品",
+      "kind": "space",
+      "quote": "展台上摆放着听障设计师的精美花艺作品",
+      "url": "https://3g.163.com/dy/article/HB7CI7DC0542AWHG.html",
+      "site": "网易"
+    },
+    {
+      "text": "招牌饮品包括「茉莉白桃」和「杏仁咸奶油」",
+      "kind": "drinks",
+      "quote": "颜值在线的「茉莉白桃」...墙裂推荐喜欢咸口的姐妹一定要点这款「杏仁咸奶油」",
+      "url": "https://3g.163.com/dy/article/HB7CI7DC0542AWHG.html",
+      "site": "网易"
+    },
+    {
+      "text": "手冲咖啡选择多样，如埃塞俄比亚等",
+      "kind": "beans",
+      "quote": "☕️手冲咖啡:夏日限定活动～可以先点上一杯～喜欢的可以买豆子🫘",
+      "url": "https://m.dianping.com/discovery/847855340",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间周一至周四10:00-20:00，周五至周日10:00-21:00",
+      "kind": "time",
+      "quote": "🏠LILI TIME上海市蒙自东路63号 🈺营业时间: 周一~周四 10:00-20:00 周五~周日 10:00-21:00",
+      "url": "https://www.dianping.com/discovery/679418409",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "LiLi Time·巷子(上海打浦橋地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/lili-time-84139602/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "魔都用爱发电的咖啡馆,一定记得去看看!",
+      "url": "https://3g.163.com/dy/article/HB7CI7DC0542AWHG.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "LILI TIME·圜子|手冲咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/847855340",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡 | 生椰dirty,名字越短越好喝🥂 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/826591628",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "下午茶,冲泡一杯「LiLi Time·巷子」的原创主 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/841300700",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "用爱发电！魔都值得被看到的暖心咖啡馆-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/news/warm-heart-caf%C3%A9-that-deserves-to-be-seen-in-the-magic-city-541577/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "突然爆火!知名男歌手一到上海就直奔这里!很多人看后眼角泛红... ",
+      "url": "https://roll.sohu.com/a/910286657_162758",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 9,
+      "title": "LILI Time治愈心灵的公益咖啡馆☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/679418409",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 10,
+      "title": "咖啡小店:无声世界 醇香“有声”",
+      "url": "https://www.163.com/dy/article/KHHLLRBK0512A3H0.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:56:50Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "wutongkafei-fengyuli",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "f3d271f9e110",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/20abb2af8097325ee21736fac9a15544",
+    "https://aos-comment.amap.com/B0I2YDTSY5/comment/4DCD6197_4F52_4EBA_91FB_FBEDDA4E0A32_L0_001_1500_2000_1741349755124_86984444.jpg",
+    "https://aos-comment.amap.com/B0I2YDTSY5/comment/c4d018990f9432cea43aba5fcaddbbc4_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层小店，入口左侧有木质楼梯通向上层",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前设4把橙色折叠椅，为室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为木纹饰面，正面有白色立体'W'标志，上方为可升降玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示店名为'WUTONG BAR'，地址：上海市黄浦区淡水路198号",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单列有饮品如'青鸟（青梅）'¥58、'医保卡'¥38、'沉鱼（山楂）'¥48等，含价格与中英文名",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片2中两杯饮品：一杯带泡沫与玫瑰花瓣，一杯含青梅与大冰块；背景立牌写'WUTONG BAR'",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片3桌上放两杯饮品：一杯琥珀色带大冰块与干花，一杯高身杯含泡沫与绿叶装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "营业时间：周日-周四18:00~1:00，周五-周六18:00~1:30",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 1.0
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:58Z"
+}

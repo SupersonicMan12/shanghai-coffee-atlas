@@ -1,0 +1,59 @@
+{
+  "cafeId": "kenyuekafeilancunludian-tangqiaojiedaodongfang-r",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "74c0f68505f5",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/99fa0e14791a209a0000003134064471?type=pic",
+    "https://store.is.autonavi.com/showpic/e2177a9db107ab58916f2c58f6a366c9",
+    "https://store.is.autonavi.com/showpic/ecc04826dd522a939f82afbd35e9cdab"
+  ],
+  "photoKinds": [
+    "menu",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有焦糖厚蛋挞、苹果气泡美式、好米好米珍珠奶茶、芒芒杨枝甘露等饮品和食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于临街位置，有红色遮阳伞和室外区域",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为商业建筑底层，有玻璃门窗和户外座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "街道上有行人骑自行车经过，表明店铺位于交通便利的地段",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单中可见新品标识，推出苹果气泡美式等新饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供多种冷饮选项，包括含珍珠的奶茶和果茶类饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:24Z"
+}

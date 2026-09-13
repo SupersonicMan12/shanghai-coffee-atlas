@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "text": "店铺虽小，咖啡选择并不少，也有小程序点单",
+      "kind": "drinks",
+      "quote": "店铺虽小，咖啡选择并不少，也有小程序点单",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97B8954D652&address=Nanzheng+Road+355+Long+No.9+Floor+1+Room+1%2C+Putuo%2C+Shanghai+China&coordinate=31.248775%2C121.410275&name=823+Coffee+%28Hongqi+Zhongxindian%29&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "选了提拉米苏拿铁，18.8元，价格很实惠",
+      "kind": "drinks",
+      "quote": "选了提拉米苏拿铁，18.8元，价格很实惠",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97B8954D652&address=Nanzheng+Road+355+Long+No.9+Floor+1+Room+1%2C+Putuo%2C+Shanghai+China&coordinate=31.248775%2C121.410275&name=823+Coffee+%28Hongqi+Zhongxindian%29&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "上海咖啡CGCC中级认证培训班",
+      "kind": "story",
+      "quote": "上海咖啡CGCC中级认证培训班",
+      "url": "https://m.91goodschool.com/course/9473-171294.html",
+      "site": "无"
+    },
+    {
+      "text": "2019年投身于精品咖啡培训事业……‘823’这个品牌就应运而生了",
+      "kind": "story",
+      "quote": "2019年投身于精品咖啡培训事业……‘823’这个品牌就应运而生了",
+      "url": "https://www.91goodschool.com/course/9473-171315.html",
+      "site": "好学校培训网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡CGCC中级认证培训班",
+      "url": "https://m.91goodschool.com/course/9473-171294.html",
+      "site_name": "无"
+    },
+    {
+      "index": 2,
+      "title": "823 Coffee (Hongqi Zhongxindian) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97B8954D652&address=Nanzheng+Road+355+Long+No.9+Floor+1+Room+1%2C+Putuo%2C+Shanghai+China&coordinate=31.248775%2C121.410275&name=823+Coffee+%28Hongqi+Zhongxindian%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "全国咖啡馆数量排名第二的城市(不是北京) ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&mid=2652081699&idx=2&sn=eba546ae1706ecb31d9ed940e7620981&chksm=5dbfaab16ac823a7f379da398ff01f4bfb309bb6fbe2dc5dfa64c20fb69a5e37ee5567166fd4&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "上海零基础初级咖啡师培训班",
+      "url": "https://www.91goodschool.com/course/9473-171315.html",
+      "site_name": "好学校培训网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡馆，时尚品牌的新标配or新标签？ | 界面· 财经号",
+      "url": "https://m.jiemian.com/article/7906266.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 6,
+      "title": "「值得买才是双11」咖啡豆购买清单推荐:支出更低,渠道多样,品质不变",
+      "url": "https://zhuanlan.zhihu.com/p/4332546351",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "百万粉丝博主热荐，爆红上海的“黑拿铁”，到底是什么？ - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/9095",
+      "site_name": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:25Z"
+}

@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "提供自烘咖啡豆",
+      "kind": "beans",
+      "quote": "烘豆工坊区有来自全球50多个产地的咖啡豆支持现烘",
+      "url": "https://www.163.com/dy/article/KF5PRTDI0552H4RF.html",
+      "site": "网易"
+    },
+    {
+      "text": "招牌饮品为标准美式咖啡单人餐",
+      "kind": "drinks",
+      "quote": "CUBIC3三立方咖啡 标准美式咖啡单人餐",
+      "url": "https://m.smzdm.com/p/166508684/",
+      "site": "什么值得买"
+    },
+    {
+      "text": "空间设计简约高级",
+      "kind": "space",
+      "quote": "空间的设计,整体以高级灰为主色调",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404755943887077400",
+      "site": "无"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "CUBIC3三立方咖啡(陆悦天地店). Coffee · Pudong, Shanghai · Directions · Call · Delivery",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C5D415615&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "品牌故事强调低价精品咖啡",
+      "kind": "story",
+      "quote": "CUBIC3三立方是一家主打低价精品咖啡连锁品牌,2021年于上海创立",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site": "搜狐网"
+    },
+    {
+      "text": "价格特点为低价咖啡",
+      "kind": "story",
+      "quote": "最低5元/杯,比Manner还便宜",
+      "url": "https://user.guancha.cn/wap/content?id=638521",
+      "site": "观察者网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "CUBIC3 San Lifang Coffee (L+City Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C5D415615&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "iziRetail品牌沙龙:成立4年后,主打低价精品咖啡的「CUBIC3三立方」凭借非标店吸引更多咖啡爱好者关注 ",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "三立方咖啡CUBIC3|季节限定!喝完这杯,丝滑入秋 ",
+      "url": "https://chihe.sohu.com/a/1074751515_121123744",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "最低5元/杯,比Manner还便宜,在上海卖“低价咖啡”能赚钱吗?",
+      "url": "https://user.guancha.cn/wap/content?id=638521",
+      "site_name": "观察者网"
+    },
+    {
+      "index": 5,
+      "title": "【CUBIC3三立方咖啡(陆悦天地店)】电话_地址_价格_营业时间_张江 ...",
+      "url": "http://m.dianping.com/shop/1017663575277708?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "CUBIC3三立方咖啡 标准美式咖啡单人餐",
+      "url": "https://m.smzdm.com/p/166508684/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 7,
+      "title": "三立方咖啡,锚定“差异化”",
+      "url": "https://www.163.com/dy/article/KF5PRTDI0552H4RF.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "【KUDDO COFFEE(陆悦天地店)】电话_地址_价格_营业时间_张江商 ...",
+      "url": "http://m.dianping.com/shop/1525342599?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "5元就喝咖啡的三立方,设计也这么便宜?",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404755943887077400",
+      "site_name": "无"
+    },
+    {
+      "index": 10,
+      "title": "魔都首创1升冰咖啡!1杯炫一天,谁懂!",
+      "url": "https://www.163.com/dy/article/I777JQ0S0522A0I7.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:53Z"
+}

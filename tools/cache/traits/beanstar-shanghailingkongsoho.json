@@ -1,0 +1,81 @@
+{
+  "cafeId": "beanstar-shanghailingkongsoho",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6706d558fbbb",
+  "raw": {
+    "headline": {
+      "zh": "白丝绒慕斯拿铁招牌",
+      "en": "White Velvet Mousse Latte flagship"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用SCA85+阿拉比卡咖啡豆",
+        "en": "Uses SCA85+ Arabica beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为白丝绒慕斯拿铁",
+        "en": "Flagship drink: White Velvet Mousse Latte",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full-floor street-facing glass, ample natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点（网页信息）",
+        "en": "Open until 10 PM (web info)",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有顾客停留，环境适合聊天",
+        "en": "Customers linger, suitable for chatting",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "适合办公和聊天",
+        "en": "Suitable for work and chat"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "有顾客在门口停留",
+        "en": "Customers lingering outside"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          10,
+          3
+        ],
+        "zh": "适合办公和聊天的环境",
+        "en": "Suitable for work and chat"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:35Z"
+}

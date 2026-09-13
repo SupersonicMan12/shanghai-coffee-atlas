@@ -1,0 +1,69 @@
+{
+  "facts": [
+    {
+      "text": "门口有三只猫，两只是被遗弃的家猫，一只是老板养的宠物猫",
+      "kind": "story",
+      "quote": "有两只是被遗弃的家猫,最近正在“长个儿”,看起来略瘦长;另一只是老板自己买来的宠物猫",
+      "url": "https://www.dianping.com/discovery/1162919762",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡馆的七种滋味:找到匹配你当下心情的城市“样本间” ",
+      "url": "https://www.sohu.com/a/997521029_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "为什么说上海是亚洲咖啡文化的集大成者? ",
+      "url": "https://chihe.sohu.com/a/1072585862_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "不排队又能享受的舌尖快乐,不香吗?! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1162919762",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 6,
+      "title": "上海真的不缺有意思的地方!这届年轻人爱上弄堂咖啡馆→",
+      "url": "https://www.shyouth.net/web/1/shouye/qingchunshanghai/info-909dea062e4501e3b39bd0220a6352d9.html",
+      "site_name": "上海共青团工作门户网站"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "在陆家嘴,喝杯不一样的咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0MzE2NDk4OA==&mid=2247639580&idx=2&sn=1af8868fe713629f65e4b71f45428025&chksm=fa3124d11ac3d55b735ba827500ed72fc1220696006c21d675c164340fcf55fd07af78265878&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:41:53Z"
+}

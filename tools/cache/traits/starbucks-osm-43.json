@@ -1,0 +1,58 @@
+{
+ "cafeId": "starbucks-osm-43",
+ "model": "qwen-max",
+ "inputDigest": "b4ad3751aa66",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "推出首款城市限定特饮‘上海咖啡’",
+    "en": "Offers a unique city-limited 'Shanghai Coffee'",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "提供风味独特、蕴含人文故事的小批量咖啡豆",
+    "en": "Serves small-batch, story-rich coffee beans",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "部分门店采用可回收环保材质与电子屏菜单",
+    "en": "Uses eco-friendly materials and digital menus in some stores",
+    "from": 3
+   },
+   {
+    "kind": "story",
+    "zh": "大陆首家集装箱概念店由6个工业风集装箱构成",
+    "en": "First container store made of 6 industrial containers",
+    "from": 4
+   },
+   {
+    "kind": "drinks",
+    "zh": "外滩源酒坊主打Mixato融合概念",
+    "en": "Bund Source Bar focuses on Mixato concept",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "有城市限定饮品和多种冲煮方式",
+    "en": "City-limited drinks, diverse brewing methods"
+   },
+   "energy": {
+    "value": 70,
+    "from": 8,
+    "zh": "迪士尼小镇旗舰店配备大量咖啡师",
+    "en": "Disney store has many baristas"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:17Z"
+}

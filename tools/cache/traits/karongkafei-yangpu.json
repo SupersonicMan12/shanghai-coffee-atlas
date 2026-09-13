@@ -1,0 +1,56 @@
+{
+  "cafeId": "karongkafei-yangpu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7ff72ad38029",
+  "raw": {
+    "headline": {
+      "zh": "营业至23:00的临街咖啡店",
+      "en": "Open until 11 PM, street-facing"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街玻璃幕墙结构，可见外部街道",
+        "en": "Street-facing glass curtain wall, exterior street visible",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周日10:00-23:00营业",
+        "en": "Open daily from 10 AM to 11 PM",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门前有汽车停车位",
+        "en": "On-street parking available in front of the shop",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "有停车位，支持久坐",
+        "en": "Parking supports longer stays"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1
+        ],
+        "zh": "临街玻璃幕墙，有街道动静",
+        "en": "Street-facing glass brings ambient street energy"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:25Z"
+}

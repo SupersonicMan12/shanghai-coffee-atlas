@@ -1,0 +1,66 @@
+{
+  "cafeId": "winehaus-guangyuanluyutianpinglujiaochakoudong40",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a547c40c32f4",
+  "raw": {
+    "headline": {
+      "zh": "白天咖啡甜品，夜晚葡萄酒",
+      "en": "Coffee by day, wine by night"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "巧克力拿铁使用法芙娜巧克力",
+        "en": "Chocolate latte made with Valrhona",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "白天供应咖啡和甜品",
+        "en": "Serves coffee and pastries during daytime",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日13:00至次日00:30营业",
+        "en": "Open daily 13:00–00:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街店面带落地玻璃窗",
+        "en": "Street-facing with floor-to-ceiling windows",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "店内陈列多款标价清晰的葡萄酒",
+        "en": "Wine bottles clearly priced on display",
+        "from": [
+          2,
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有窗景与绿植，环境整洁",
+        "en": "Window view and greenery"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:20Z"
+}

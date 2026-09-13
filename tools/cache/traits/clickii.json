@@ -1,0 +1,28 @@
+{
+ "cafeId": "clickii",
+ "model": "qwen-max",
+ "inputDigest": "165428938ea5",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "提供两分钟快速意式浓缩咖啡",
+    "en": "Two-minute espresso available",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 1,
+    "zh": "站喝小店，适合快节奏",
+    "en": "Standing bar, fast-paced"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:52Z"
+}

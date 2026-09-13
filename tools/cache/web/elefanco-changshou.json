@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "营业时间从早上8点到凌晨12点",
+      "kind": "time",
+      "quote": "Opening hours: 8 am-12 am.",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "长寿路104号，普陀区",
+      "kind": "space",
+      "quote": "Address: No 104 Changshou Road, Putuo district.",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "以精品咖啡与美酒特调为特色",
+      "kind": "drinks",
+      "quote": "Cozy cafe ELEFANCO is best known for their special preparation of fine wine and ",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site": "“上海”门户网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "ELEFANCO醒象-日咖夜酒 (Changshou Road Commercial Area ...",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-121703991/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "15 boutique cafés in Putuo district (II)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240604/1f02898238f542a9bbdd19d900847461.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 3,
+      "title": "咖世家咖啡(上海)有限公司宝杨路店",
+      "url": "https://www.qcc.com/cassets/51604d67a8d456478d2f3c78ac4f53f6",
+      "site_name": "企查查网"
+    },
+    {
+      "index": 4,
+      "title": "上海逸摩贸易有限公司",
+      "url": "http://qixin.com/company/140570e5-3e2d-43cd-8630-30f0c9d56fd2",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "周大福荟馆(虹桥天地购物中心店)",
+      "url": "https://map.360.cn/site/detail/a2af38d260bf2ccb",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "伊诺咖啡(南桥店)",
+      "url": "https://www.dianping.com/shop/5229682/photos/album",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:30Z",
+  "retriedEn": true
+}

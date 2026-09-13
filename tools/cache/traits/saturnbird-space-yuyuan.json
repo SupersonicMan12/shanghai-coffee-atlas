@@ -1,0 +1,70 @@
+{
+ "cafeId": "saturnbird-space-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "2469fc12dcae",
+ "raw": {
+  "headline": {
+   "zh": "独特的咖啡风味体验与创新发酵技术",
+   "en": "Unique coffee flavors and innovative fermentation"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "26种颜色代表不同咖啡风味",
+    "en": "26 colors for diverse coffee flavors",
+    "from": 8
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供多种基础款和特调饮品",
+    "en": "Offers various basic and special drinks",
+    "from": 12
+   },
+   {
+    "kind": "space",
+    "zh": "室内挑高空间，裸露木梁结构",
+    "en": "High ceiling with exposed wooden beams",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "三款当季豆子：黑巧、莓果、花魁SOE",
+    "en": "Three seasonal beans: chocolate, berry, Hua Kui SOE",
+    "from": 10
+   },
+   {
+    "kind": "seating",
+    "zh": "设有室外座位",
+    "en": "Outdoor seating available",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 40,
+    "from": 1,
+    "zh": "宽敞的空间适合轻度工作",
+    "en": "Spacious for light work"
+   },
+   "energy": {
+    "value": 50,
+    "from": 7,
+    "zh": "有室内外座位，氛围适中",
+    "en": "Moderate vibe with indoor & outdoor"
+   },
+   "linger": {
+    "value": 60,
+    "from": 1,
+    "zh": "宽敞舒适的环境适合久坐",
+    "en": "Comfortable for long stays"
+   },
+   "adventure": {
+    "value": 80,
+    "from": 8,
+    "zh": "多种风味和创新发酵技术",
+    "en": "Diverse flavors and innovation"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:15Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "here-cafe-lounge-xiangyangdalou",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "180c438b8849",
+  "raw": {
+    "headline": {
+      "zh": "带桌游的深夜咖啡馆",
+      "en": "Late-night cafe with board games"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供35元午餐套餐",
+        "en": "Offers 35-yuan lunch set",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设小包厢、外厅及露天天井",
+        "en": "Has small private room, main hall, and open-air courtyard",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨2点",
+        "en": "Open until 2 a.m. daily",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐鸡翅、薯条、蘑菇",
+        "en": "Recommended: chicken wings, fries, mushrooms",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供黄色与粉红色饮品",
+        "en": "Serves yellow and pink-colored drinks",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          10
+        ],
+        "zh": "有吧台座和包厢可久坐",
+        "en": "Bar seating and private room"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7,
+          10
+        ],
+        "zh": "临街且有外厅天井",
+        "en": "Street-facing with courtyard"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:53Z"
+}

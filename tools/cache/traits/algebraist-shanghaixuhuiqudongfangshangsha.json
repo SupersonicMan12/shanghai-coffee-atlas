@@ -1,0 +1,82 @@
+{
+  "cafeId": "algebraist-shanghaixuhuiqudongfangshangsha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e9988e265ec6",
+  "raw": {
+    "headline": {
+      "zh": "重瓣玫瑰布列夫年销65万杯",
+      "en": "Rose Brioche sold 650k in 2024"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含重瓣玫瑰布列夫、kiri法酪拿铁系列",
+        "en": "Signature drinks: rose brioche, Kiri latte series",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设多张桌椅，非吧台型",
+        "en": "Multiple tables and chairs, not bar-only",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃幕墙，采光通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–21:00",
+        "en": "Open daily 07:30–21:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品价格20~48元，属中高价",
+        "en": "Drinks priced ¥20–48, mid-to-high range",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "有桌椅可坐",
+        "en": "Seating available"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "午间上班族客流密集",
+        "en": "Busy at lunch"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "特色风味拿铁与数学演算方案",
+        "en": "Unique lattes, math-driven recipes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:08Z"
+}

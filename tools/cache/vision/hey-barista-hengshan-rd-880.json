@@ -1,0 +1,65 @@
+{
+  "cafeId": "hey-barista-hengshan-rd-880",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "a588f3267298",
+  "photos": [
+    "https://aos-comment.amap.com/B0LA7ZOAAO/comment/content_media_external_images_media_354224_ss__1763190399388_67571374.jpg",
+    "https://aos-comment.amap.com/B0LA7ZOAAO/comment/content_media_external_file_1000075492_ss__1763285325174_13982464.jpg",
+    "https://aos-comment.amap.com/B0LA7ZOAAO/comment/content_media_external_file_1000080018_ss__1766056370129_07652778.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "入口处有木质格子门，内部空间纵深较长，可见楼梯与多张桌椅。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立牌显示“soular.i R&B bar”，营业时间19:30-01:00，周二至周日。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有顾客坐在桌前，疑似使用笔记本电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间照片显示店外有绿植，二楼阳台装饰有圣诞花环。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "白天照片中，一名女性站在门口，店内灯光明亮，天花板有轨道灯。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口左侧有宣传海报，右侧立牌标注“power by hey barista”。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "第三张夜景图中，门上挂有红色节日装饰物，店内灯光温暖。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:12Z"
+}

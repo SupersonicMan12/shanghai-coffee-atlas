@@ -1,0 +1,75 @@
+{
+  "cafeId": "gongfeikafei-sichuanbeilushangye-st",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3942a1b28f02",
+  "raw": {
+    "headline": {
+      "zh": "红色文化主题咖啡馆",
+      "en": "Red-themed cafe with history"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "原址为左联筹备会议场所，现为上海市革命文物",
+        "en": "Site of Left League meetings, now a Shanghai revolutionary relic",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "春季上新含冷萃鸡尾酒、绵云橙子海等特调",
+        "en": "Seasonal drinks include cold brew cocktails and orange cloud latte",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设1张圆桌+3把藤椅+遮阳伞",
+        "en": "Outdoor seating: 1 round table, 3 wicker chairs, umbrella",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–21:00营业",
+        "en": "Open daily 09:30–21:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供明治冰淇淋单球¥20、双球¥35",
+        "en": "Meiji ice cream: ¥20 single, ¥35 double",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "含冷萃鸡尾酒等创意特调",
+        "en": "Creative drinks like cold brew cocktails"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4,
+          10
+        ],
+        "zh": "有室外座且营业至21点",
+        "en": "Outdoor seats, open till 9pm"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:15Z"
+}

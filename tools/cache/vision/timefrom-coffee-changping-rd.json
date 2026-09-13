@@ -1,0 +1,72 @@
+{
+  "cafeId": "timefrom-coffee-changping-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c751a3132401",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/47e53ac2206a23d40000001540852736?type=pic",
+    "https://store.is.autonavi.com/showpic/2881771f560693f20000001540892028?type=pic",
+    "https://store.is.autonavi.com/showpic/b59f8888466ede270000001540848733?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，可看到店内陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有两只白色折叠椅和一张小桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有一只猫在休息",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有吧台、高脚凳和冷藏展示柜",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有植物装饰，墙上挂有装饰品",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示两款瑰夏咖啡豆，产地分别为哥伦比亚和秘鲁",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品标签显示风味描述如柠檬、柑橘、焦糖等",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:16:34Z"
+}

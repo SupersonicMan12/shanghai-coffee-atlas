@@ -1,0 +1,59 @@
+{
+  "cafeId": "shitengkafei-renminguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "610591768afb",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b9458cf2fd6bc5430000000656724927?type=pic",
+    "http://store.is.autonavi.com/showpic/9ae6a3915f38737c9fb08c143af26e05",
+    "https://aos-comment.amap.com/B0FFL645J5/comment/1758818a29bba7e53cda4755fe60da5c_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供拿铁、冰咖啡等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见磨豆机和咖啡器具",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有植物装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面为小型独立建筑，临街",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外墙面有英文标识 'coffee.'",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:15:17Z"
+}

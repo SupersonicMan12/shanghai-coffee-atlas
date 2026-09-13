@@ -1,0 +1,65 @@
+{
+  "cafeId": "maison-margiela-shangjiazhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d6a59ef10635",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a4f06a39ee542405c43a1e4d2f722f7e",
+    "https://aos-comment.amap.com/B0JU2UFGD9/comment/2026-03-11-14-09-54%2B781C366C-12F2-4689-BD7E-CED1EC2DBEE_1773209398661_94415853.jpg",
+    "http://store.is.autonavi.com/showpic/4a34cc5d7102895daf876dcfeac2ccf8"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，入口为玻璃门",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外设有白色座椅和圆形小桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有多个标有品牌名的白色花箱",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺拥有大面积落地玻璃窗",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有遮阳伞和可调节灯",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见陈列服装的衣架和展示柜",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外地面为六边形地砖铺成",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:01Z"
+}

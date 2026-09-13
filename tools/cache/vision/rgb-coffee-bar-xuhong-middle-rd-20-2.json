@@ -1,0 +1,59 @@
+{
+  "cafeId": "rgb-coffee-bar-xuhong-middle-rd-20-2",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "63d98fc974c0",
+  "photos": [
+    "https://aos-comment.amap.com/B0J22DXCHT/headerImg/8d6a5058f9f03a8e30e67e60103cdb54_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/d41f4b788d6785c7f08f51b201fb1bfa",
+    "https://aos-comment.amap.com/B0J22DXCHT/headerImg/bc4f37e8a17bb2b2c9c06c94e6fae33d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有黑色沙发和金属高脚桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为深色液体，配肉桂棒和迷迭香",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面临街，有开放式窗口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有绿植和抽象画装饰",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "地面为红砖铺设的室外区域",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线明亮，有窗户采光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:54Z"
+}

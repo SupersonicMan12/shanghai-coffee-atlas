@@ -1,0 +1,37 @@
+{
+ "cafeId": "cypher-yueyang",
+ "model": "qwen-max",
+ "inputDigest": "ce92ae300b7c",
+ "raw": {
+  "headline": {
+   "zh": "白天咖啡馆，夜晚变身黑胶酒吧",
+   "en": "Coffee by day, vinyl bar by night"
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "日间提供意式咖啡，夜间为听音酒吧",
+    "en": "Espresso during the day, listening bar at night",
+    "from": 1,
+    "[2] (编辑) 招牌：Espresso by day, listening bar by night": ", 2,  2"
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 70,
+    "from": 1,
+    ":[1] (编辑) Design-studio café that flips into a hi-fi wine room after dark; the record collection outvalues the espresso machine.": "[1] (编辑) Design-studio café that flips into a hi-fi wine room after dark; the record collection outvalues the espresso machine.",
+    "zh": "晚上变身为高保真酒室",
+    "en": "Hi-fi wine room at night"
+   },
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    ":[1] (编辑) Design-studio café that flips into a hi-fi wine room after dark; the record collection outvalues the espresso machine.": "[1] (编辑) Design-studio café that flips into a hi-fi wine room after dark; the record collection outvalues the espresso machine.",
+    "zh": "有珍贵的唱片收藏",
+    "en": "Valuable record collection"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:23Z"
+}

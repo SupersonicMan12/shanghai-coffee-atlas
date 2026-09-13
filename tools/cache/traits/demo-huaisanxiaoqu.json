@@ -1,0 +1,45 @@
+{
+  "cafeId": "demo-huaisanxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "58f146fc952b",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供炸牛排盖饭与泡菜饭",
+        "en": "Serves katsu don and kimchi rice",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设吧台与高脚椅，空间紧凑",
+        "en": "Bar counter with stools; compact space",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日营业至23:30，周末至23:00",
+        "en": "Open till 23:30 weekdays, 23:00 weekends",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:37:29Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "maru-zhongshanbeier-rd-1705",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1a02747bd03c",
+  "photos": [
+    "https://aos-comment.amap.com/B0L3CUJHHM/comment/EE335D9D_6ED6_4A7C_BDDA_36053C1E168E_L0_001_1500_200_1765974650675_57738697.jpg",
+    "https://aos-comment.amap.com/B0L3CUJHHM/comment/62B4BCA0_7A3F_4D0A_8301_F746BB27FF35_L0_001_1500_200_1765974650681_13147911.jpg",
+    "https://store.is.autonavi.com/showpic/658472dc0e77debdec2baddc3bb193be"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质椅子和格子桌布的餐桌",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见饮品为冰咖啡，装在高玻璃杯中",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一款饮品为拉花咖啡，盛于红色陶瓷杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有装饰性屏风，上有圣诞树图案",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内摆放有圣诞老人装饰物，节日氛围浓厚",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌子上有杯垫，使用软木材质",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:48Z"
+}

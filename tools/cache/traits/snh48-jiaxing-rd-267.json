@@ -1,0 +1,67 @@
+{
+  "cafeId": "snh48-jiaxing-rd-267",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d598cb685c53",
+  "raw": {
+    "headline": {
+      "zh": "SNH48主题咖啡店",
+      "en": "SNH48-themed cafe"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "周二至周日10:00-21:00营业",
+        "en": "Open Tue–Sun, 10am–9pm",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供柠檬茶和下午茶",
+        "en": "Serves lemon tea and afternoon tea",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，视野通透",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "门口常有多人聚集",
+        "en": "Frequent crowds gather outside",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 75,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "门口人流密集热闹",
+        "en": "Crowded and lively"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "行人频繁停靠短暂停留",
+        "en": "Brief stops common"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:20Z"
+}

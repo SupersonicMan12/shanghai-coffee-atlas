@@ -1,0 +1,63 @@
+{
+  "cafeId": "823coffee-hongqizhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c670083759a3",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/79b4f36f8100f32f22c228102e7433f7",
+    "http://store.is.autonavi.com/showpic/6651a6460f253829ddf385314dc37b4c"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有咖啡烘焙机和磨豆机",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和少量座位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有黑色椅子和白色小圆桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有立式宣传牌，展示饮品图片",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内墙面有'NO COFFEE NO LIFE'标语",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门为玻璃推拉门，临街可见",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有电视屏幕播放内容",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:23:54Z"
+}

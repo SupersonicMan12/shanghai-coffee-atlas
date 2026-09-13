@@ -1,0 +1,99 @@
+{
+  "cafeId": "kudikafei-gongheguojishangwuguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "af6912092286",
+  "raw": {
+    "headline": {
+      "zh": "站喝区+云顶慕斯饮品",
+      "en": "Standing bar with cloud mousse drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含多层配料的云顶慕斯系列饮品",
+        "en": "Offers cloud mousse drinks with layered ingredients",
+        "from": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙等亚洲风味果茶",
+        "en": "Features Asian-inspired fruit teas like pandan mango coco frappe",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆，连续三年获IIAC金奖",
+        "en": "Uses 100% Arabica beans, IIAC gold for three years",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "为站喝设计，无堂食座位",
+        "en": "Designed as standing bar, no seating available",
+        "from": [
+          1,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周一至周五 07:30-19:00",
+        "en": "Open Mon–Fri 07:30–19:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          7,
+          8
+        ],
+        "zh": "站喝设计，不宜久坐",
+        "en": "Standing-only layout"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "便捷店型，人流中等",
+        "en": "Compact format, moderate foot traffic"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "非办公友好型站喝空间",
+        "en": "Not suited for focused work"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "zh": "慕斯饮品与亚洲风味创新",
+        "en": "Innovative mousse drinks and Asian flavors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:51Z"
+}

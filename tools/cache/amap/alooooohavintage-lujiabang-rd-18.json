@@ -1,0 +1,394 @@
+{
+  "cafeId": "alooooohavintage-lujiabang-rd-18",
+  "query": {
+    "location": "121.502915,31.206796",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:54:08Z",
+  "matchedPoiId": "B0FFIK5US9",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8a72af3e6265b6869cbb672028aa3df3"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6eff90e8a188adf88db8217f0043a2ee"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13166147187",
+        "id": "B0K1P7CDSO",
+        "tag": "下午茶",
+        "entr_location": "121.50278981153795,31.206841147837824",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南浦大桥",
+        "childtype": [],
+        "atag": "下午茶",
+        "name": "Cafe Aloooooha(陆家浜路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "7",
+        "importance": [],
+        "biz_ext": {
+          "cost": "44.00",
+          "opentime2": "周一至周五 10:00-18:00；周六 11:00-19:00",
+          "rating": "4.1",
+          "open_time": "11:00-19:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644020",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:43:21",
+        "website": [],
+        "address": "半淞园路街道陆家浜路18号103室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.502834,31.206806",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "租赁服务",
+        "type": "餐饮服务;中餐厅;中餐厅|公司企业;公司;公司|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a159de0cf90b7e09bd8c14c88147febd"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/c482801c8d421fee2c5d359d5a562b0a"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c8821cef164fd50afc8e1ec11ebc2332"
+          }
+        ],
+        "building": [],
+        "typecode": "050100|170200|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-53021087",
+        "id": "B0FFFWQ1LX",
+        "tag": [],
+        "entr_location": "121.503245,31.206509",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南浦大桥",
+        "childtype": [],
+        "atag": [],
+        "name": "渡口空间",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1316861;679724",
+        "distance": "12",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 09:00-22:00",
+          "rating": "4.5",
+          "open_time": "09:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 11:22:35",
+        "website": [],
+        "address": "陆家浜路18号(南浦大桥地铁站1号口步行330米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.502862,31.206690",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "奢侈品回收",
+        "type": "餐饮服务;咖啡厅;咖啡厅|购物服务;服装鞋帽皮具店;服装鞋帽皮具店",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFIK5US9/comment/20fe192ebd10a0947edf1dbc7f94ee35_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1770128289020_19969173_1770128480424_85527107.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1769930779673_06735313_1769930781236_01788922.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500|061100",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13818822845;15601693457",
+        "id": "B0FFIK5US9",
+        "tag": [],
+        "entr_location": "121.503229,31.206486",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南浦大桥",
+        "childtype": [],
+        "atag": [],
+        "name": "Aloooooha Vintage(中古店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "19",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 10:30-21:00",
+          "rating": "4.8",
+          "open_time": "10:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:47:55",
+        "website": [],
+        "address": "陆家浜路与外马路交叉口西40米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.502897,31.206620",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/732473fbeacbe250021b7963193dfd96"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0eea1d9af279968c265a9e9155009a65"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7ba5eac0417336d7a9fb7aa6ec048be5"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-63321333",
+        "id": "B0FFK6GD5G",
+        "tag": "云吞,卡布奇诺,提拉米苏,芝士蛋糕",
+        "entr_location": "121.504015,31.207138",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南浦大桥",
+        "childtype": [],
+        "atag": "云吞,卡布奇诺,提拉米苏,芝士蛋糕",
+        "name": "Bund 1288 Cafe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "102",
+        "importance": [],
+        "biz_ext": {
+          "cost": "51.00",
+          "opentime2": "周一至周日 08:00-20:00",
+          "rating": "3.4",
+          "open_time": "08:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-06-27 09:01:20",
+        "website": [],
+        "address": "外马路1288号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.503815,31.207296",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "婚宴酒店",
+        "type": "餐饮服务;中餐厅;中餐厅|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/582ec4b36e2cf1c48536b92acc3dd0c0"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF00K2A/comment/29136dfed58eb0233d06b1b903e2ca76_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF00K2A/comment/da0262108a76e52d29becfb4c6edca1f_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050100|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "黄浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-63321333;15021517083",
+        "id": "B0FFGXH94M",
+        "tag": [],
+        "entr_location": "121.504123,31.207379",
+        "adcode": "310101",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "南浦大桥",
+        "childtype": [],
+        "atag": [],
+        "name": "外滩1288花园丽舍",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1316864;550899",
+        "distance": "121",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 11:00-14:00，17:00-20:00",
+          "rating": "3.1",
+          "open_time": "11:00-14:00 17:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644020",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 13:32:46",
+        "website": [],
+        "address": "外马路1288号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.503856,31.207527",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

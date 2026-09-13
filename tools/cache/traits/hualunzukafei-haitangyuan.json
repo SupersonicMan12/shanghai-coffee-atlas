@@ -1,0 +1,78 @@
+{
+  "cafeId": "hualunzukafei-haitangyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "932b3d2d2771",
+  "raw": {
+    "headline": {
+      "zh": "临街窗口站喝咖啡",
+      "en": "Grab coffee at a street window"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街开放式窗口，无内座",
+        "en": "Street-facing open window, no indoor seating",
+        "from": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供美式、拿铁、dirty等经典意式咖啡",
+        "en": "Serves classic espresso drinks like Americano, latte, dirty",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "出售贝果、可颂、面包棒和抹茶甜品",
+        "en": "Offers bagels, croissants, breadsticks, matcha desserts",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8点开门，周末10点开",
+        "en": "Opens 8am weekdays, 10am weekends",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用黄色意式咖啡机与磨豆机",
+        "en": "Uses yellow espresso machine and grinder",
+        "from": [
+          2,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "窗口点单，适合外带",
+        "en": "Takeaway window"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7
+        ],
+        "zh": "顾客排队点单",
+        "en": "Customers queue up"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:45Z"
+}

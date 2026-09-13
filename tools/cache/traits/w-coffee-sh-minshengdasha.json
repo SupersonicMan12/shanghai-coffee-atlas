@@ -1,0 +1,75 @@
+{
+  "cafeId": "w-coffee-sh-minshengdasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a3f7570756c7",
+  "raw": {
+    "headline": {
+      "zh": "招牌舒芙蕾配咖啡",
+      "en": "Known for its signature soufflé"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供现点现做的招牌舒芙蕾",
+        "en": "Serves made-to-order signature soufflé",
+        "from": [
+          7,
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内为小型咖啡馆空间",
+        "en": "Small café interior space",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好自然采光",
+        "en": "Floor-to-ceiling windows provide ample daylight",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至17:30",
+        "en": "Open weekdays until 17:30",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "周末客人较多可能需排队",
+        "en": "Weekends often busy with possible queues",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6,
+          9,
+          12
+        ],
+        "zh": "适合下午茶久坐",
+        "en": "Good for afternoon tea linger"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "周末客流大较热闹",
+        "en": "Busy and lively on weekends"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:11Z"
+}

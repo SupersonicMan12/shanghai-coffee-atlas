@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是COMBO双拼特调",
+      "kind": "drinks",
+      "quote": "COMBO双拼特调尤为吸睛",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site": "百度"
+    },
+    {
+      "text": "空间融合航天元素与咖啡香气",
+      "kind": "space",
+      "quote": "在航天想象与咖啡香气交织的空间里",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site": "百度"
+    },
+    {
+      "text": "提供不含咖啡因的雪梨冰酒酿",
+      "kind": "drinks",
+      "quote": "提供了不含咖啡因的雪梨冰酒酿",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site": "百度"
+    },
+    {
+      "text": "品牌故事源于闽南语‘等待’",
+      "kind": "story",
+      "quote": "‘丹罗’源自闽南语tán-lo̍h,意为‘等待’",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site": "百度"
+    },
+    {
+      "text": "营业时间较长，适合办公或聊天",
+      "kind": "time",
+      "quote": "8:00 22:00",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site": "百度"
+    },
+    {
+      "text": "店内有宠物狗‘焦糖’作为品牌符号",
+      "kind": "people",
+      "quote": "一只奶油色的小狗正趴在门口",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247765149&idx=6&sn=607e7ea8996420a2e04511d870c898c4&chksm=9eb252c044f323f64518acad869c2e7618654cb495ffb58dbca121fa7e837a43871e505c1d29&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【宝藏五里 乐享幸福】在瞿溪路上的这家咖啡店,感受地道的街角生活",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247765149&idx=6&sn=607e7ea8996420a2e04511d870c898c4&chksm=9eb252c044f323f64518acad869c2e7618654cb495ffb58dbca121fa7e837a43871e505c1d29&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "在快节奏城市中酝酿一杯“慢”咖啡!",
+      "url": "https://baijiahao.baidu.com/s?id=1832461815802283760",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "风格迥异,“藏”在闵行的这三家特色咖啡馆还不知道吗?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NzEzNzAwOQ==&mid=2651808892&idx=1&sn=3119798a5a459c18ee1c1e43bbc08905&chksm=85250d706dbca86cc42470f27c7641391b026061794dc7382aaf33e97622cbd723005318fb2d&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "在快节奏城市中酝酿一杯“慢”咖啡!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30837674",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 5,
+      "title": "不藏了!这份宝藏地图请收好,品味多重咖啡香～",
+      "url": "https://new.qq.com/rain/a/20251210A03E5900",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "在陆家嘴,喝杯不一样的咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0MzE2NDk4OA==&mid=2247639580&idx=2&sn=1af8868fe713629f65e4b71f45428025&chksm=fa3124d11ac3d55b735ba827500ed72fc1220696006c21d675c164340fcf55fd07af78265878&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "上海市(田子坊) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn15622163-Shanghai.html",
+      "site_name": "Tripadvisor"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:14:03Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "mata-mata",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "54d27405ca89",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFG0ZFS0/comment/8D75DC6C_F16A_488C_8F2C_3A06969D7E6E_L0_001_1280_1708_1737168142586_06456911.jpg",
+    "http://store.is.autonavi.com/showpic/cef409d042c85080ad4e975a8b6d7cbe",
+    "https://aos-comment.amap.com/comment/content_service__1772517144873_10906097_1772517156675_19612942.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层老建筑，外墙粗糙肌理，拱形木框玻璃门面",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "橱窗贴有麦穗、面包、椒盐卷饼等手绘图案，可见店内陈列柜与砖墙背景",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见一人坐着，但未见使用笔记本电脑，无明显办公场景",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片2显示盘中两款长条酥皮点心，内含螺旋香肠、淋酱并撒葱花，非普通可颂或贝果",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店招含“Bakery”字样，橱窗贴有“bread & coffee”，确认为烘焙+咖啡复合业态",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "玻璃门内可见木质吧台及后方陈列架，未见烘焙机/手冲台/虹吸/磨豆机等专业器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门外人行道狭窄，无室外座位；店内座位数目不清晰，仅可见少量座椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗户为整面落地玻璃，采光良好；街道对面有树木，反射可见绿叶",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:29Z"
+}

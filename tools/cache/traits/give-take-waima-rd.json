@@ -1,0 +1,61 @@
+{
+  "cafeId": "give-take-waima-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a87c44e27013",
+  "raw": {
+    "headline": {
+      "zh": "碎石庭院眺望高楼",
+      "en": "Gravel courtyard with skyline views"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外碎石庭院配折叠桌椅",
+        "en": "Outdoor gravel seating with folding tables and chairs",
+        "from": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "室外座位可眺望城市高楼",
+        "en": "Outdoor seats overlook city skyscrapers",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "一层临街玻璃窗带外摆，二层有阳台",
+        "en": "Ground-floor street-facing glass with outdoor seating, second-floor balcony",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-17:00，周末10:00-17:30",
+        "en": "Mon–Fri 8am–5pm; Sat–Sun 10am–5:30pm",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          4,
+          6
+        ],
+        "zh": "有庭院座位适合久坐",
+        "en": "Courtyard seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:14Z"
+}

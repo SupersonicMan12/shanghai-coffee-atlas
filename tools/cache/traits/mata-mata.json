@@ -1,0 +1,73 @@
+{
+  "cafeId": "mata-mata",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0a09c2f66848",
+  "raw": {
+    "headline": {
+      "zh": "湿菜市场边的冰咖啡",
+      "en": "Iced coffee on the wet-market corner"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为冰咖啡，位于菜场旁",
+        "en": "Specializes in iced coffee at a wet-market corner",
+        "from": [
+          7,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有螺旋香肠酥皮点心，非普通可颂",
+        "en": "Serves spiral sausage croissants, not regular ones",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门外无室外座位，仅少量室内座椅",
+        "en": "No outdoor seating, only a few indoor seats",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面落地玻璃窗，采光良好",
+        "en": "Full-height glass windows with good natural light",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-22:00",
+        "en": "Open daily 07:30–22:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "菜市场旁人流多",
+        "en": "Near a busy wet market"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "无室外座，座位少",
+        "en": "Few seats, no outdoor space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:20Z"
+}

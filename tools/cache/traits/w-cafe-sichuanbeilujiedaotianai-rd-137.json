@@ -1,0 +1,49 @@
+{
+  "cafeId": "w-cafe-sichuanbeilujiedaotianai-rd-137",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "06df58f0cda1",
+  "raw": {
+    "headline": {
+      "zh": "有爱心邮筒的Tiger Bomb咖啡",
+      "en": "Tiger Bomb coffee with love mailbox"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供墨尔本一颗橙子Tiger Bomb咖啡",
+        "en": "Serves Melbourne Orange Tiger Bomb coffee",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "门前设有爱心邮筒",
+        "en": "Features a heart-shaped mailbox outside",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:30至21:30",
+        "en": "Open 10:30–21:30",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "提供特色创意咖啡",
+        "en": "Offers unique specialty drink"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:50Z"
+}

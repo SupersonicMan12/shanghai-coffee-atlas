@@ -1,0 +1,55 @@
+{
+  "cafeId": "coffee-date-suhehui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "59cb92fc46e4",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设室外座位，含两把椅子",
+        "en": "Outdoor seating with two chairs on the street",
+        "from": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间较小，有吧台和少量桌椅",
+        "en": "Compact interior with a bar and few tables",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-22:00营业",
+        "en": "Open daily 8am–10pm",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供咖啡",
+        "en": "Serves coffee",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3
+        ],
+        "zh": "空间小，座位有限",
+        "en": "Limited seating, small space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:53Z"
+}

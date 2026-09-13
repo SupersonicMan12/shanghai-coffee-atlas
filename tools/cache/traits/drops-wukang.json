@@ -1,0 +1,83 @@
+{
+  "cafeId": "drops-wukang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1f0fef2e123b",
+  "raw": {
+    "headline": {
+      "zh": "自烘意式豆站喝",
+      "en": "Standing-bar with house-roasted espresso"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "意式豆自烘，来自巴西、危地马拉、巴拿马",
+        "en": "House-roasted SOE espresso from Brazil, Guatemala, Panama",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为单一产地意式浓缩，可站喝",
+        "en": "Signature single-origin espresso, designed for standing consumption",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "1930年代老洋房，前后院带绿色矮墙迷宫",
+        "en": "1930s villa with green-walled maze gardens front and back",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "五层建筑，绿色小径贯穿，挑空引入自然光",
+        "en": "Five-story building with vertical green path and skylight openness",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台与卡座，全席禁烟",
+        "en": "Counter and booth seating, fully smoke-free",
+        "from": [
+          7,
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          9
+        ],
+        "zh": "站喝设计，不宜久坐",
+        "en": "Built for standing, not lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "闹中取静的庭院，秋日银杏金黄",
+        "en": "Quiet garden in a busy street, golden ginkgo in fall"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "手冲提供6款高评级中浅烘焙豆",
+        "en": "Six high-grade, medium-light roasted origins for pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:01Z"
+}

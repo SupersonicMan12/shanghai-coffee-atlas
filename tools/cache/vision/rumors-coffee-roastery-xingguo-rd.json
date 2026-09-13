@@ -1,0 +1,71 @@
+{
+  "cafeId": "rumors-coffee-roastery-xingguo-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "24b96b12ec19",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d162a0f6e3a679e55c6372765fdf2ca1",
+    "https://store.is.autonavi.com/showpic/10ebe4c519fe5f680000003763176689?type=pic",
+    "http://store.is.autonavi.com/showpic/782054624838940e7ff2a59e1ba3167c"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，深色金属招牌+原木门框与立柱，招牌有'RUMORS COFFEE ROASTERY'及圆形logo",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口左侧挂有竖排中文木质招牌（字迹模糊不可辨），门口放一盆绿植于木桶中",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街设大面积黑色窗框玻璃窗，可透视室内；窗下有长条木凳作室外座",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内可见至少2人就坐桌前，其中1人背对镜头似在用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图为咖啡烘焙哲学图解，含阴阳符号、五行（空/土/火/水/風）、温度/风门/时间参数，非实景",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图显示带台阶的入口，黑框玻璃门；门外有红伞、绿白条纹椅、木桌，属庭院式室外区",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图背景为浅黄砖墙老建筑，二楼有铁艺阳台与垂挂灯饰，旁有绿植盆栽",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "三张图中均未见烘焙机、手冲台、虹吸壶、磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:55Z"
+}

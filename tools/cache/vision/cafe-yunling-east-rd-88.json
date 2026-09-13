@@ -1,0 +1,71 @@
+{
+  "cafeId": "cafe-yunling-east-rd-88",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "233e4a62be16",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/73a493f0776954bc0000002881416992?type=pic",
+    "https://store.is.autonavi.com/showpic/a7d1a28191fba4f238d82d1f1265814b",
+    "https://store.is.autonavi.com/showpic/b12a75e68d8d2c3a4721ba4b4d907010"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆有室外座位区，配备遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑为砖墙结构，带有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有树木和绿化植物环绕",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "咖啡馆临街，门前为铺装广场",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有落地玻璃门和展示窗",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑外观为现代风格，结合传统砖墙与金属框架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外座位数量较多，适合多人使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "傍晚时分拍摄，天色偏暗",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:09Z"
+}

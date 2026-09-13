@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是层次分明的flat white，奶泡细腻绵密",
+      "kind": "drinks",
+      "quote": "The signature flat white has distinct layers of flavor, with delicate and creamy",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-84139615/",
+      "site": "LB咖啡(世纪汇店) (Lujiazui Area, Shanghai) - Restaurant Reviews ..."
+    },
+    {
+      "text": "提供咖啡花蜜厚乳澳白",
+      "kind": "drinks",
+      "quote": "咖啡花蜜厚乳澳白-LB咖啡(世纪汇店)",
+      "url": "http://www.dianping.com/shop/G11hG6gXGcK4Uqh3/photos/tag-%E8%8F%9C?pg=4",
+      "site": "LB咖啡(世纪汇店)-菜图片-上海-第4页 - 大众点评"
+    },
+    {
+      "text": "地址为世纪大道1192号世纪汇，属陆家嘴区域",
+      "kind": "space",
+      "quote": "[LB咖啡(世纪汇店)]电话_地址_价格_营业时间_世纪大道咖啡团购",
+      "url": "http://m.dianping.com/shop/1976345017?msource=applemaps",
+      "site": "【LB咖啡(世纪汇店)】电话_地址_价格_营业时间_世纪大道咖啡团购"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "LB COFFEE澳百咖啡（旗艦店） (上海新國際博覽中心/世博園)－餐牌",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/little-bean-25040066/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "LB咖啡(世纪汇店) (Lujiazui Area, Shanghai) - Restaurant Reviews ...",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-84139615/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "LB咖啡(世纪汇店)-菜图片-上海-第4页 - 大众点评",
+      "url": "http://www.dianping.com/shop/G11hG6gXGcK4Uqh3/photos/tag-%E8%8F%9C?pg=4",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "LB Coffee (New World Plaza Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118536571339989&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "【LB咖啡(世纪汇店)】电话_地址_价格_营业时间_世纪大道咖啡团购",
+      "url": "http://m.dianping.com/shop/1976345017?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:41:47Z"
+}

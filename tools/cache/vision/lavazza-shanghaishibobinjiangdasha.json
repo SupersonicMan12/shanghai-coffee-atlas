@@ -1,0 +1,47 @@
+{
+  "cafeId": "lavazza-shanghaishibobinjiangdasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "030a44f0d4c1",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/953af7615a07d5eac4760fd25873bc02",
+    "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
+    "http://store.is.autonavi.com/showpic/3b0e7db98e6e1b4e99cbc5257c859436"
+  ],
+  "photoKinds": [
+    "other",
+    "other",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "照片中展示了一道烤排骨配蔬菜的菜品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "品牌标识显示为LAVAZZA，意大利咖啡品牌",
+      "kind": "brand",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "品牌宣传语提到‘不只是一杯espresso’",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "品牌标识下方标注‘ITALY'S FAVOURITE COFFEE’",
+      "kind": "brand",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:16Z"
+}

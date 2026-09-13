@@ -1,0 +1,77 @@
+{
+  "cafeId": "geographer-shangchangshijihuiguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "8ba9faea3800",
+  "raw": {
+    "headline": {
+      "zh": "洞穴风星球灯咖啡馆",
+      "en": "Cave-style cafe with planet lamps"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内有洞穴式拱形结构与人造月亮灯",
+        "en": "Features cave-like arches and a large artificial moon lamp",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供当季限定芒果氮气饮“Sweetie Polly”",
+        "en": "Serves seasonal mango nitro drink 'Sweetie Polly'",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台配有手冲器具与磨豆机",
+        "en": "Equipped with pour-over gear and grinders at the bar",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周日至凌晨2:30，平日至凌晨2:00",
+        "en": "Open until 2:30am on Sun, 2am weekdays",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐点心、单人餐与双人餐",
+        "en": "Offers snacks, single and double set meals",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有氮气特调和手冲设备",
+        "en": "Nitro drinks and pour-over setup"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7,
+          8
+        ],
+        "zh": "洞穴式空间适合久坐",
+        "en": "Cave-like space invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:02Z"
+}

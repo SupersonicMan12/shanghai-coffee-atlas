@@ -1,0 +1,64 @@
+{
+  "cafeId": "wagas-osm-4",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "190e0f8a38c8",
+  "raw": {
+    "headline": {
+      "zh": "招牌果汁命名有趣",
+      "en": "Fun drink names"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "饮品名称如‘朋克生活’‘救救我’等趣味十足",
+        "en": "Drink names like 'Punk Life' and 'Save Me' are fun",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "主打健康轻食，菜单列明原料与热量搭配",
+        "en": "Healthy light meals with ingredient and calorie info",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:00–20:30，支持自助点餐与流动支付",
+        "en": "Open 08:00–20:30, self-service and mobile payment",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "支持自助点餐，适合办公",
+        "en": "Self-service supports work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "营业至晚八点半，可久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "位于核心商圈，人流中等",
+        "en": "In core commercial areas"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:32Z"
+}

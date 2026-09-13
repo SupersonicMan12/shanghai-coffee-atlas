@@ -1,0 +1,59 @@
+{
+  "cafeId": "73coffee-zhihuifang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e318cf0989b6",
+  "photos": [
+    "https://aos-comment.amap.com/B0KRR9384X/comment/31c6e84cdf69171c12692b2c9e4ae467_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRR9384X/comment/86e3db7388a4a71ddfdf2e482feab2a4_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/60be11807beb94788b5ae93dea8dd808"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内有白色沙发和木制桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见收银机等设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "手持一杯印有'Bazinga!'字样的冰咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃门，门外有砖墙",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内天花板有工业风管道和长条灯",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有白色瓷砖墙面和红色三角旗装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:39Z"
+}

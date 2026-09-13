@@ -1,0 +1,65 @@
+{
+  "cafeId": "haw-side-coffee-zhongshannaner-rd-2031-4",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "db2d6bb22a24",
+  "photos": [
+    "https://aos-comment.amap.com/B0LA9SY3DX/comment/file_media_Photo_15689_IMG_1765431333_12980_IMG_20251211_133353_jpg_ss__1765685397297_99623814.jpg",
+    "https://aos-comment.amap.com/B0LA9SY3DX/comment/content_media_external_file_1417_ss__1760156417825_94469371.jpg",
+    "https://store.is.autonavi.com/showpic/7b3959772bde9a290000002891412607?type=pic"
+  ],
+  "photoKinds": [
+    "menu",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有埃塞俄比亚Wate sayisa等单一产地咖啡，价格23-45元。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供黑咖啡、奶咖、手冲（Pour Over）及Aeropress等多种冲煮方式。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品实物图：一杯带心形拉花的奶咖与一杯黑咖啡同盘呈现。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质置物架，摆放绿植、水壶和书籍，风格简约。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单标注“2025 autumn”，可能为当季限定或新菜单。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内墙面为斑驳水泥质感，搭配木架，非传统商业装修。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见任何顾客或工作人员，无法判断是否有人用电脑。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:09:00Z"
+}

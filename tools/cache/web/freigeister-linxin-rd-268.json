@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "使用全球精品咖啡豆",
+      "kind": "beans",
+      "quote": "使用来自世界各地的咖啡豆",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    },
+    {
+      "text": "提供自由拼配菜单",
+      "kind": "beans",
+      "quote": "用的是自由拼配菜单,可以随意选择瑰夏、埃塞或哥伦的豆子",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    },
+    {
+      "text": "鸳鸯拿铁是推荐款",
+      "kind": "drinks",
+      "quote": "推荐款包括鸳鸯拿铁、巴西柠檬水和多款意式咖啡",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    },
+    {
+      "text": "店内有书架和书籍",
+      "kind": "space",
+      "quote": "书架上摆放了咖啡相关的以及其他书籍",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    },
+    {
+      "text": "设有读书角",
+      "kind": "space",
+      "quote": "店内布置了读书角",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    },
+    {
+      "text": "与长宁区图书馆合作",
+      "kind": "story",
+      "quote": "还与长宁区图书馆合作定期更换书籍",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site": "QQ"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "这家藏在园区里的咖啡馆,如何做到“咖香不怕巷子深”?",
+      "url": "https://news.qq.com/rain/a/20250908A021ID00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 2,
+      "title": "这家藏在园区里的咖啡馆,如何做到“咖香不怕巷子深”?",
+      "url": "https://www.163.com/dy/article/K8U0MMSB0514C79Q.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡馆的七种滋味:找到匹配你当下心情的城市“样本间” ",
+      "url": "https://news.sohu.com/a/997521029_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "彭博:上海为何是全球最具吸引力的咖啡之城",
+      "url": "https://new.qq.com/rain/a/20251024A0402D00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "千店联动，“一杯咖啡的温暖”浸润上海街头 - 上观新闻",
+      "url": "https://www.jfdaily.com/news/detail?id=1169055",
+      "site_name": "解放日报"
+    },
+    {
+      "index": 7,
+      "title": "20年“咖龄”爱好者测评精华!上海这20+家网红咖啡,我全部打卡一遍之后,给出94分:因为特别6～",
+      "url": "https://www.163.com/dy/article/K1FPROFQ05188NOL.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "大赞！长宁这里好喝又便宜的咖啡，竟然是机器人做的！",
+      "url": "https://www.shanghai.gov.cn/cnq/20210922/5b8b7c9feddd44cfb26b4c5c5150c464.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 9,
+      "title": "【特写】在满城咖啡香的上海，独立咖啡馆如何“出圈”？ - 界面新闻",
+      "url": "https://www.jiemian.com/article/9469600.html",
+      "site_name": "界面新闻"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:28Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "benshikafei-luoke-waitanyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "78190c23ac73",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/eeea9ca40ae14a7186a8005e3bfa8562",
+    "https://aos-comment.amap.com/comment/content_service__1768964276860_99017644_1768964533948_45480192.jpg",
+    "https://aos-comment.amap.com/B0KRRDVKAG/comment/ADEC79C9_8F53_47A5_A231_9C7638D3AFD7_L0_001_1500_200_1768964276850_59925114.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面外墙为米色石材，入口左侧有深色金属铭牌，刻有‘本事’二字",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街为大面积黑色边框玻璃门/窗，反射可见对面建筑与绿植",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口台阶旁摆放一排5盆小型绿植（灰陶盆）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内木纹桌面，一杯拉花心形的奶咖（白瓷杯），配一朵花形浅黄糕点（方碟）",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯手冲咖啡盛于大号酒杯状玻璃杯，内含一朵浮花与冰球；旁有两层小圆糕点（扇形碟）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中可见一只戴两枚银戒的手正触碰小碟，无电脑、书架、宠物或烘焙设备",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见菜单、价格、豆子产地标识、磨豆机、手冲台、虹吸壶等专业器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中仅显示局部桌面与饮品，无法判断整体空间大小、座位数量及布局",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:34Z"
+}

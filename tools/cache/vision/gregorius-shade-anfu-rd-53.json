@@ -1,0 +1,59 @@
+{
+  "cafeId": "gregorius-shade-anfu-rd-53",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8b82dd8388d2",
+  "photos": [
+    "https://aos-comment.amap.com/B0I61590O5/comment/47A0386B_4249_4F03_A170_11C1B24B1C87_L0_001_1500_200_1757583886367_19016853.jpg",
+    "https://aos-comment.amap.com/B0I61590O5/comment/20260315-7e1a64ec6432ec4bbcb1a48e-1N7M3CiJoi27pDe0V1u9uz.jpg",
+    "https://store.is.autonavi.com/showpic/e202c35e18f75d9e0000003363984269?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃门，有树荫，门口停一辆折叠自行车。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有客人坐着，桌上放着一杯冰美式和一块巴斯克蛋糕。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有客人坐着，桌上放着一杯冰美式和一块巴斯克蛋糕。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台陈列咖啡豆包装袋，可见“Boater Blend”和“Fedora Blend”。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内桌面上放两杯热咖啡，杯子为带图案的白色马克杯。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面是浅色外墙，木制门框，旁边有一扇粉色门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:50Z"
+}

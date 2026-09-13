@@ -1,0 +1,59 @@
+{
+  "facts": [
+    {
+      "text": "长宁路Metrotown购物中心内，近中山公园地铁站2/3/4号线",
+      "kind": "space",
+      "quote": "Changning Road Metrotown #01-81, Shanghai",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site": "领英网"
+    },
+    {
+      "text": "Nectar蛋糕外观精致但不浮夸",
+      "kind": "food",
+      "quote": "Nectar cakes are pretty but not fancy.",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site": "领英网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
+    },
+    {
+      "index": 2,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 3,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 4,
+      "title": "Discover delightful cafes in parks of Changning district",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240617/8a21a339d30d4074b41b7c9106d39b47.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 5,
+      "title": "2026 Recommended Food in Changning District (Updated ...",
+      "url": "https://www.trip.com/moments/theme/destination-changning-district-2015073-food-993052/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Charming mansion cafes for afternoon tea delights in Shanghai",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240528/1c66307c4fee4b84bdd3a497b2185b4f.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:02Z",
+  "retriedEn": true
+}

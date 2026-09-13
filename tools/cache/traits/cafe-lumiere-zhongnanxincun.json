@@ -1,0 +1,87 @@
+{
+  "cafeId": "cafe-lumiere-zhongnanxincun",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "293e90b9d1e0",
+  "raw": {
+    "headline": {
+      "zh": "虹吸咖啡感官主理",
+      "en": "Sensory-led siphon coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "虹吸咖啡为招牌，由咖啡师龙坚坚主理，搅拌次数不固定",
+        "en": "Signature siphon coffee by barista Long Jianjian, stirring count varies by sensory judgment",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用圣科纳庄园G1水洗豆，该庄园获费城国际展览会金奖",
+        "en": "Santos Estate G1 washed beans, award-winning at the Philadelphia International Exhibition",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "小型室内空间，有落地窗与室外座位",
+        "en": "Compact interior with floor-to-ceiling windows and outdoor seating",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设木质小桌和桶状座椅",
+        "en": "Wooden small tables and barrel-shaped seats",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:30–18:30，周一至周日",
+        "en": "Open daily 08:30–18:30",
+        "from": [
+          13,
+          17
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 65,
+        "from": [
+          15
+        ],
+        "zh": "适合安静办公的平行世界感",
+        "en": "Quiet focus space, 'parallel world' feel"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          15
+        ],
+        "zh": "适合久坐独处的小空间",
+        "en": "Designed for lingering alone"
+      },
+      "adventure": {
+        "value": 85,
+        "from": [
+          9,
+          10,
+          11,
+          12,
+          16
+        ],
+        "zh": "自烘豆+虹吸+冰滴+巴拿马单品",
+        "en": "In-house roasting, siphon, cold drip, Panama single-origin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:40Z"
+}

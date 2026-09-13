@@ -1,0 +1,74 @@
+{
+  "cafeId": "dingdiankafei-chengshijingdiangaodi",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "146eea508104",
+  "raw": {
+    "headline": {
+      "zh": "专业咖啡机+果昔饮品",
+      "en": "Pro espresso machine & fruit smoothies"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks|food",
+        "zh": "提供含果肉颗粒的深红色果昔类饮品",
+        "en": "Serves red fruit smoothies with pulp",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans|drinks|food",
+        "zh": "使用 DeLonghi 专业级咖啡机萃取浓缩咖啡",
+        "en": "Uses DeLonghi pro espresso machine",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "space|seating",
+        "zh": "店内设灰色沙发座椅，可久坐",
+        "en": "Features gray sofa seating for lingering",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-21:00",
+        "en": "Open daily 07:30–21:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有沙发适合办公",
+        "en": "Sofas support work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "临街玻璃窗，人流可见",
+        "en": "Street-facing glass, visible to passersby"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "有沙发座椅可久坐",
+        "en": "Sofas invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:24Z"
+}

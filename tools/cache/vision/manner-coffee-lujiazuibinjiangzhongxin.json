@@ -1,0 +1,65 @@
+{
+  "cafeId": "manner-coffee-lujiazuibinjiangzhongxin",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "dcdb42c82657",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/fd662fe84a4c16e50000002739812019?type=pic",
+    "https://store.is.autonavi.com/showpic/67fef4bb77ffa25a0000002739760700?type=pic",
+    "https://aos-comment.amap.com/B0H2HBG22S/comment/6EC77355_ED4A_44B4_BA1B_2E878BADDB9D_L0_001_810_108_1766724568663_64087034.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台高脚凳和长条木桌，座位数量级为some。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "落地玻璃窗，可看到黄浦江对岸陆家嘴天际线，含东方明珠。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内墙面有内嵌式发光展示格，摆放白色杯具。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外照片显示位于滨江大道，背景可见游轮与江景。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显烘焙机、手冲台或虹吸等专业器具。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "第三张图手持一杯饮品，但无法确定具体种类或价格。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内未见有人使用电脑，也无书架或植物装饰。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:14Z"
+}

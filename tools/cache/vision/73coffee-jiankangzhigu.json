@@ -1,0 +1,71 @@
+{
+  "cafeId": "73coffee-jiankangzhigu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "00d5f649fff6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f178f87c01b50f7016b5960e76cfae07",
+    "http://store.is.autonavi.com/showpic/0a380396cdbf096900c3b7425c6e8f68",
+    "http://store.is.autonavi.com/showpic/299a6b6a865bcac8d4ff78c3b8471053"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和大窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台区域，配备专业咖啡机",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一台意式咖啡机，品牌为Victoria Arduino",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有拉花拿铁饮品，杯中呈现叶子图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有几张桌椅，可供室外使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内空间较窄，属于小型咖啡馆类型",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外可见部分街道环境，无明显遮挡",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:10Z"
+}

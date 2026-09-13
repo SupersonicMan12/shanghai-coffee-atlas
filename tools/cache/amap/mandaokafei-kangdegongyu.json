@@ -1,0 +1,548 @@
+{
+  "cafeId": "mandaokafei-kangdegongyu",
+  "query": {
+    "location": "121.446258,31.319569",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:57:30Z",
+  "matchedPoiId": "B0FFHIVR72",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "7",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00152B75B",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7337a7d8ed2365a14f296ffcef5a9cb1"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/3c1004aa053e099f3e19bb581157a9a9"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f40410a65ff739206284c778dceae888"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-56889918;13818549394",
+        "id": "B0FFHIVR72",
+        "tag": "点心",
+        "entr_location": "121.446529,31.319694",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "320",
+        "atag": "点心",
+        "name": "漫岛咖啡(康德公寓店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_1132755",
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "46.00",
+          "opentime2": "周一至周日 09:00-01:00",
+          "rating": "4.6",
+          "open_time": "09:00-01:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738512",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:12:34",
+        "website": [],
+        "address": "共和新路4808号2层地铁1号线共康站4号出口对面",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.446256,31.319567",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00152B75B",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1769276284513_28231953_1769276320888_00250161.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service__1769276284522_10760685_1769276320890_15369945.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KKZ9QVCD/comment/content_media_external_file_1000060516_ss__1770440978828_83153262.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KKZ9QVCD",
+        "tag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "320",
+        "atag": "海盐焦糖拿铁,烤坚果拿铁,coffee",
+        "name": "Manner Coffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "38",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.1",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738502",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 20:42:19",
+        "website": [],
+        "address": "共和新路4828弄1-18号康德公寓",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.446439,31.319259",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00152B75B",
+        "pcode": "310000",
+        "keytag": "奶茶/茶饮",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0643b45b8b6211c55d333b23da4c142b"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K6OZWDPI/comment/content_media_external_file_1000051992_ss__1762427086299_29235658.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0K6OZWDPI",
+        "tag": "下午茶,杨枝甘露,生椰拿铁,coffee",
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "320",
+        "atag": "下午茶,杨枝甘露,生椰拿铁,coffee",
+        "name": "luckin coffee 瑞幸咖啡(康德公寓店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "48",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738502",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 15:46:45",
+        "website": [],
+        "address": "共和新路4828弄1-18号康德公寓",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.446343,31.319136",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00156O3Y3",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-56720255",
+        "id": "B0FFHMUCQA",
+        "tag": "焦糖玛奇朵,摩卡,香草拿铁,卡布奇诺,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,下午茶,点心,单人餐",
+        "entr_location": [],
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "202",
+        "atag": "焦糖玛奇朵,摩卡,香草拿铁,卡布奇诺,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,下午茶,点心,单人餐",
+        "name": "星巴克(宏慧新汇园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_1132797",
+        "distance": "96",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:30-22:00",
+          "rating": "4.5",
+          "open_time": "06:30-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738502",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 17:10:02",
+        "website": [],
+        "address": "共和新路4750号城市新汇广场1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.446513,31.318729",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155L2MY",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/d124f50131ad5de292c2e29b5fcfd172"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J0J5LV2M/comment/3AA42C5F_E403_4D7C_850C_27ECEFF00750_L0_001_1500_200_1766824466420_77806475.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "宝山区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J0J5LV2M",
+        "tag": "生椰拿铁,杨枝甘露,柠檬茶,coffee",
+        "entr_location": "121.447723,31.318126",
+        "adcode": "310113",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "高境",
+        "childtype": "320",
+        "atag": "生椰拿铁,杨枝甘露,柠檬茶,coffee",
+        "name": "瑞幸咖啡(共康路2号口店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "220",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738502",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 19:28:50",
+        "website": [],
+        "address": "共和新路4715号底商(共康路地铁站2号口步行50米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.447894,31.318171",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFMD2GQA",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "宝山区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-66287293",
+        "id": "B00157504J",
+        "tag": "单人餐,下午茶",
+        "entr_location": "121.444351,31.32136",
+        "adcode": "310113",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "202",
+        "atag": "单人餐,下午茶",
+        "name": "星巴克(共康路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F009012_499696",
+        "distance": "250",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.6",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738511",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:09:44",
+        "website": [],
+        "address": "共和新路5000弄绿地·风尚新天地商城1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.445052,31.321565",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFM1MTU0",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/28b691b330be05a7dc98761a194fee59"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G2FMZGXI/comment/aa6320e368d0cd4639780864962eca65_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "宝山区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0G2FMZGXI",
+        "tag": "提拉米苏,柠檬茶",
+        "entr_location": "121.444889,31.321359",
+        "adcode": "310113",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "共康",
+        "childtype": "202",
+        "atag": "提拉米苏,柠檬茶",
+        "name": "瑞幸咖啡(吾品田风尚天地店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "252",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "3.6",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621738511",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:15:57",
+        "website": [],
+        "address": "共和新路5000弄吾品田风尚天地一层申魔夜市A1室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.445025,31.321575",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

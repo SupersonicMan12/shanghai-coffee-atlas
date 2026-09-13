@@ -1,0 +1,71 @@
+{
+  "cafeId": "jegard-zhapu",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "58d977102b56",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0daef2f2abfd30300000002456416180?type=pic",
+    "https://store.is.autonavi.com/showpic/1b189ed0293615cc0000003425650262?type=pic",
+    "https://store.is.autonavi.com/showpic/2e8c93c61fa1fe8f0000003074328370?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "杯底印有 'JEGARD SPECIALTY COFFEE' 黑色字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后方可见手冲装置（滤杯+铜制分享壶）及银色法压壶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上有一杯冰咖啡（玻璃杯+冰块）与一只浅色陶瓷小杯",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图中木桌上有木质圆托盘，背景为深色吧台与水槽",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图为一杯分层饮品：底层乳白、中层深褐、上层金黄奶泡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "可见木质椅背（竖条状），桌面为原木色，环境为室内",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "纸巾印有 'JEGARD SPECIALTY COFFEE' 字样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台面为黑色防滑垫，后方有不锈钢咖啡机部分机身",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:51Z"
+}

@@ -1,0 +1,20 @@
+{
+  "cafeId": "yukafei-shanghaishidiyirenminyiyuanbeibu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c8efd14b5556",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日07:00-17:00营业",
+        "en": "Open daily 7am to 5pm",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:33:17Z"
+}

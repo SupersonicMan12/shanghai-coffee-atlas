@@ -1,0 +1,57 @@
+{
+  "cafeId": "vuoiuna-ruijin-s-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fe9e4c82dda4",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/bd84881bdbf7b6aeb0e2ba9cdc9f3226",
+    "https://store.is.autonavi.com/showpic/e0090aafb872d447dc09581d6a669d4c"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门，可见内部吧台。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有白色吧台，后方可见咖啡制作设备。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台旁放置有灭火器。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可见街道和停放的摩托车。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，但未见明显窗户采光。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台上放置有菜单或宣传单。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:24Z"
+}

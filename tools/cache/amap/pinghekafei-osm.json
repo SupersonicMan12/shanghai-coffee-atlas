@@ -1,0 +1,248 @@
+{
+  "cafeId": "pinghekafei-osm",
+  "query": {
+    "location": "121.590838,31.240596",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:01:48Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF3AUC5/comment/1c5623d52a893b43756faf3e66ab7ec2_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF3AUC5/comment/8368e2985fd37c5f115a48a3f235d26b_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50688581",
+        "id": "B0FFF3AUC5",
+        "tag": "单人餐,下午茶",
+        "entr_location": [],
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": [],
+        "atag": "单人餐,下午茶",
+        "name": "星巴克臻选(碧云路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "281",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 06:00-22:00",
+          "rating": "4.7",
+          "open_time": "06:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621649700",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 17:46:04",
+        "website": [],
+        "address": "碧云路1156号&1160号全家旁边",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.588752,31.242386",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4c6c98a1acb30b06316a1db4d63e58d8"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f371b0b179f9b8e975e02a4fa0f8a9fa"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-50580567",
+        "id": "B00156F4MX",
+        "tag": "熊猫竹香生椰拿铁,丝慕白咖啡,熊猫生椰拿铁,椰皇美式,拿铁咖啡,海盐焦糖风味拿铁,生椰拿铁,coffee,杨枝甘露",
+        "entr_location": "121.593514,31.241083",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": [],
+        "atag": "熊猫竹香生椰拿铁,丝慕白咖啡,熊猫生椰拿铁,椰皇美式,拿铁咖啡,海盐焦糖风味拿铁,生椰拿铁,coffee,杨枝甘露",
+        "name": "COSTA COFFEE(上海红枫路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010013_490809",
+        "distance": "286",
+        "importance": [],
+        "biz_ext": {
+          "cost": "43.00",
+          "opentime2": "周一至周日 07:30-21:00",
+          "rating": "4.6",
+          "open_time": "07:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621648721",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 18:20:57",
+        "website": [],
+        "address": "红枫路399号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.593700,31.241396",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/d29e9724be0552e50271edc3d55c6899"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/00c3ce6908c0918b4c5eed0a1ac3d522"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/876e8c10be6840b656847aa50602411a"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KRCUE846",
+        "tag": "coffee",
+        "entr_location": "121.588215,31.242236",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "金桥",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "Nacy seven coffee",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "292",
+        "importance": [],
+        "biz_ext": {
+          "cost": "47.00",
+          "opentime2": "周一至周日 08:00-21:00",
+          "rating": "4.4",
+          "open_time": "08:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621649700",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 09:08:45",
+        "website": [],
+        "address": "碧云路1134号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.588410,31.242206",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

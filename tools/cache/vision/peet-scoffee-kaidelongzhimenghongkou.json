@@ -1,0 +1,71 @@
+{
+  "cafeId": "peet-scoffee-kaidelongzhimenghongkou",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "964e4789c2e6",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFL9CH8Z/comment/content_media_external_images_media_383943_ss__1743759568272_29777933.jpg",
+    "https://aos-comment.amap.com/B0FFL9CH8Z/comment/4DDA4904_2134_4D72_B0C3_BF6EFD9E45D5_L0_001_1500_2000_1734007500196_13239622.jpg",
+    "https://aos-comment.amap.com/B0FFL9CH8Z/comment/content_media_external_file_310714_1771830872377_34785341.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "两杯热拿铁盛于印有'Peet's COFFEE'字样的白瓷杯，置于木质托盘上，奶泡拉花为心形图案。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "一杯冰美式咖啡装在透明塑料杯中，杯身贴有标签注明‘美式咖啡（标杯/少冰/中烘豆）’及日期时间。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台区域设两台白色商用磨豆机，店员正在操作；吧台正面嵌有立体‘Peet's’字样标识。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内为商场内店铺布局，天花板为深色，嵌入式筒灯与环形灯提供照明，地面铺小方格马赛克瓷砖。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "背景墙面陈列多包挂耳咖啡，标有‘Peet’s’品牌及‘BATCH BY HAND’字样；右侧有冷藏展示柜。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.93
+    },
+    {
+      "text": "一张包装纸包裹的食品旁附小票，可见‘曼越莓贝果（含奶酪）’字样及‘加奶酪1份’备注。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "桌上另有一小杯‘百吉福’奶油奶酪（25g），标签清晰可见。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "背景纸袋印有‘Colombia HUILA MUJERES ESPRESSO’及咖啡豆植物图案，属特定产区意式拼配豆信息。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.94
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:15Z"
+}

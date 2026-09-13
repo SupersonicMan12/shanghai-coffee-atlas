@@ -1,0 +1,390 @@
+{
+  "cafeId": "grid-coffee-xinyaoguanghuan",
+  "query": {
+    "location": "121.415194,31.167103",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:42Z",
+  "matchedPoiId": "B0L16MQXJC",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0LGV1Z61R",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/92322e2bd5cedc646931345117a49c1e"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/842c134a36bf5aed0000001442314412?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L16MQXJC/comment/984bf664-65e1-4345-b2e8-d096ce959018.png"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18721788147",
+        "id": "B0L16MQXJC",
+        "tag": "coffee",
+        "entr_location": "121.415418,31.167158",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "虹梅路",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "Grid Coffee(鑫耀光环店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "40.00",
+          "opentime2": "周一至周日 07:00-14:00,16:30-21:30",
+          "rating": "4.4",
+          "open_time": "07:00-14:00 16:30-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 12:11:56",
+        "website": [],
+        "address": "上海城区虹梅街道247街坊31丘鑫耀光环Live一层S5-L1-26",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.415199,31.167104",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JAKUONGR",
+        "pcode": "310000",
+        "keytag": "西餐",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e76e6e94aa9d671048cd105b519fb70c"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LU1HFL2V/comment/80916596_1284_4CB6_B528_E970D4BB685D_L0_001_2048_153_1768630581364_41368811.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0LU1HFL2V/comment/614EE255_CD0D_4B7C_B6F9_158985BF30A1_L0_001_1179_148_1762840644733_43706801.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0LU1HFL2V",
+        "tag": [],
+        "entr_location": "121.415324,31.167465",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "201",
+        "atag": [],
+        "name": "Chili's cafe&bar奇利斯(鑫耀·光环Live)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "48",
+        "importance": [],
+        "biz_ext": {
+          "cost": "137.00",
+          "opentime2": "周六 10:30-24:00；周一至周四,周日 11:00-23:00；周五 11:00-24:00",
+          "rating": "4.6",
+          "open_time": "11:00-24:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-09-10 22:56:09",
+        "website": [],
+        "address": "叠彩路133号1层1部位S6L1-02",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "CG0005940210100095",
+          "truefloor": "1F",
+          "cpid": "B0JAKUONGR",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.414930,31.167472",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JAKUONGR",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/3b7dcd3fd500046b541740e3bd659f9f"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-60782939",
+        "id": "B0MUD5J4CK",
+        "tag": [],
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "201",
+        "atag": [],
+        "name": "星巴克(鑫耀·光环Live)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "287",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": [],
+          "rating": "3.8",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "1",
+        "email": [],
+        "timestamp": "2026-08-26 23:40:33",
+        "website": [],
+        "address": "苍梧路6-12号鑫耀·光环Live1F层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": "CG0005940210100114",
+          "truefloor": "1F",
+          "cpid": "B0JAKUONGR",
+          "floor": "1"
+        },
+        "exit_location": [],
+        "location": "121.413643,31.169314",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JAKUONGR",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L35UEARU/comment/E16D9108_2F32_45D8_8618_656951A83B54_L0_001_1500_200_1761053971429_33480808.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/2d6cfc5ac1406bea0000002438790387?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0L35UEARU/comment/content_media_external_images_media_4830_ss__1770341167426_43333935.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "15821277362",
+        "id": "B0L35UEARU",
+        "tag": [],
+        "entr_location": "121.413480,31.169369",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "202",
+        "atag": [],
+        "name": "口美达咖啡(鑫耀·光环店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "290",
+        "importance": [],
+        "biz_ext": {
+          "cost": "51.00",
+          "opentime2": "周一至周日 07:30-20:00",
+          "rating": "4.5",
+          "open_time": "07:30-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 09:02:05",
+        "website": [],
+        "address": "苍梧路6-12号鑫耀·光环Live1F层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.413744,31.169398",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JAKUONGR",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0dfaa1af0dba1ae4b47ee606658df183"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/comment/content_service_0b7e0f46b70ccc7e50966540665e7010_1767023508679_08677902.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e2c2dbb2bd080956139fe41ead6e8176"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64330558",
+        "id": "B0JAF7CEOX",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.413448,31.169573",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克臻选(上海鑫耀光环店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "290",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "4.4",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630300",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 21:55:32",
+        "website": [],
+        "address": "叠彩路233号地上1层S3-L1-06号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.413744,31.169398",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "cafeId": "geographer-ruihongtiandiyueliangwan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1e10ec42e44c",
+  "raw": {
+    "headline": {
+      "zh": "地球造型甜点配浅烘豆",
+      "en": "Globe desserts with light-roast beans"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供dirty咖啡和红色气泡饮料",
+        "en": "Serves dirty coffee and red sparkling drinks",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有地球造型甜点和抹茶蛋糕",
+        "en": "Offers globe-shaped desserts and matcha cake",
+        "from": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆采用浅烘、中浅烘和深烘",
+        "en": "Uses light, medium-light, and dark roast beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–01:00营业",
+        "en": "Open daily 09:00–01:00",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间设计像洞穴",
+        "en": "Cave-like interior design",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          9
+        ],
+        "zh": "适合聊天久坐",
+        "en": "Good for lingering chats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:32Z"
+}

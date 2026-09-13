@@ -1,0 +1,71 @@
+{
+  "cafeId": "1575-wanhangdu-rd-1575",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9e36b6760268",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHFFNI7/comment/file_media_Photo_9449_IMG_1774165712_8940_IMG_0135_HEIC_ss_2j_1774165636393_12384002.jpg",
+    "https://aos-comment.amap.com/B0FFHFFNI7/headerImg/ccf3dc18196ea8483ee244e3556db32d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFHFFNI7/comment/file_media_Photo_9450_IMG_1774165712_8941_IMG_0136_HEIC_ss_2j_1774165636383_32056904.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "咖啡杯上有拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和多张桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植和电动车停放",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡制作设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面为玻璃幕墙结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有顾客在使用电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "店门口有遮阳帘和透明玻璃门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:45Z"
+}

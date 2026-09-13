@@ -1,0 +1,58 @@
+{
+  "cafeId": "ps-cafe-ganghuihenglongguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "04ab30808e64",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6194e46f12e95ca70000003410800859?type=pic",
+    "https://aos-comment.amap.com/B0G3UO3SL6/comment/20260317-51ee4e460216d0323d159f34-46N4Zj9F3Zx8ZXRWvCzoPS.jpg",
+    "https://store.is.autonavi.com/showpic/8ae1a4ae4f925a1c0000003410812752?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内设有开放式吧台，吧台后有工作人员。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上方有 'PS.Cafe' 和 'Desserts' 标牌。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "顾客区可见多张大理石桌面的桌子和黑色椅子。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括意面配大虾和奶酪，以及蘑菇披萨。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有绿植作为装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板为白色条板，配有吊扇。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:05Z"
+}

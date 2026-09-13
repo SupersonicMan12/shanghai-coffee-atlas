@@ -1,0 +1,65 @@
+{
+  "cafeId": "sanlifangkafei-nanfengdasha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "7682371a4192",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗采光好",
+      "en": "Large windows with great natural light"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "店内有临街落地窗，采光良好，座位较少",
+        "en": "Large street-facing windows with good lighting and limited seating",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为分层冰咖啡，底部有奶或糖浆",
+        "en": "Signature drink is layered iced coffee with cream or syrup at bottom",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日07:00-17:30",
+        "en": "Open daily 07:00–17:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "座位少，不适合久坐办公",
+        "en": "Limited seats, not ideal for long work sessions"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "座位数量少，适合快速饮用",
+        "en": "Few seats, suited for quick visits"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "红色节日装饰，氛围稍显热闹",
+        "en": "Red holiday decor adds mild buzz"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:51Z"
+}

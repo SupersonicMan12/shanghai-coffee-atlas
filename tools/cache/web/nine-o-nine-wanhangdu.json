@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "位于中山公园3号门东行80米，靠近编号0909百年梧桐树",
+      "kind": "space",
+      "quote": "NINEONINE“909”咖啡西餐厅，位于万航渡路中山公园3号门东行80米。",
+      "url": "https://www.shanghai.gov.cn/nw17239/20250521/071639f605d64287b239cd3b55f89912.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "开发多种落叶造型甜品，呼应自然理念",
+      "kind": "food",
+      "quote": "NINE O NIN(909)开发了多种落叶造型的甜品",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30861413",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "主打“自然客厅”概念，有树叶造型茶漏、落叶花束等文创产品",
+      "kind": "story",
+      "quote": "树叶造型的茶漏、落叶花束等文创产品,也让NINE O NIN(909)“自然客厅”的概念更深入人心。",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30861413",
+      "site": "澎湃新闻网"
+    },
+    {
+      "text": "因毗邻编号0909悬铃木而得名，推广热爱生活、崇尚自然理念",
+      "kind": "story",
+      "quote": "因为想要推广热爱生活、崇尚自然的生活理念,NINE O NIN(909)开发了多种落叶造型的甜品",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30861413",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "来公园喝咖啡,享受宁静时光!长宁摩卡咖City Walk地图来了～",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30861413",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "旅游打卡|长宁这些“藏”在公园里的咖啡馆,你都来过吗? ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzY5MTQyOQ==&mid=2247637424&idx=1&sn=34bcb3268a60f9fd3e0e60560a24820f&chksm=e97ff130b29c3cf1a36c5088c7f18345605bc2fd8f62e06feaddc9140282ecdbaa0894ed390b&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "长宁林长制—公园城市5月，摩卡咖City Walk地图如约而至",
+      "url": "https://www.shanghai.gov.cn/nw17239/20250521/071639f605d64287b239cd3b55f89912.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "上海精品咖啡馆的独特魅力:Fetchin Coffee的体验",
+      "url": "https://baijiahao.baidu.com/s?id=1846801607719322222",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "平价的高端手冲,冲啊! - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/762752012",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡馆十大精选:品味都市中的咖啡时光",
+      "url": "https://baijiahao.baidu.com/s?id=1844650936836081691",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:18Z"
+}

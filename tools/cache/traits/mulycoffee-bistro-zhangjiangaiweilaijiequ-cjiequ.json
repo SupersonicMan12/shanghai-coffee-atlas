@@ -1,0 +1,83 @@
+{
+  "cafeId": "mulycoffee-bistro-zhangjiangaiweilaijiequ-cjiequ",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "a7f736c8fa65",
+  "raw": {
+    "headline": {
+      "zh": "三层自烘咖啡馆带露台",
+      "en": "Three-floor roastery with a rooftop"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "三层楼空间，三层设露台",
+        "en": "Three floors, with a rooftop on the third",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自烘焙咖啡豆",
+        "en": "Uses in-house roasted coffee beans",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为棉里小白熊",
+        "en": "Signature drink is Muly's Little Bear",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设吧台高脚凳及多个座位区",
+        "en": "Bar stools and multiple seating areas",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间8:00至19:00",
+        "en": "Open daily 8:00–19:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有顾客使用笔记本电脑",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          13
+        ],
+        "zh": "适合从早待到晚",
+        "en": "Stay from morning to evening"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          5,
+          10
+        ],
+        "zh": "自烘豆配手冲器具",
+        "en": "In-house roasting with pour-over gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:43Z"
+}

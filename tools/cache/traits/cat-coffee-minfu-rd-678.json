@@ -1,0 +1,73 @@
+{
+  "cafeId": "cat-coffee-minfu-rd-678",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "53eda7dd9ef5",
+  "raw": {
+    "headline": {
+      "zh": "整面临街玻璃，座位充足",
+      "en": "Floor-to-ceiling street-facing glass, ample seating"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可直接看到街道",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位数量较多，排列整齐",
+        "en": "Ample seating arranged in orderly rows",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内光线明亮，透过玻璃自然采光",
+        "en": "Bright interior with abundant natural light through glass",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日营业，周一及特定日期全天关闭",
+        "en": "Open Tue–Sun; closed Mon and specific dates",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐单人餐",
+        "en": "Single-person meal recommended on Gaode",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "座位多且整齐，未提办公设施",
+        "en": "Ample seating, no evidence of work setup"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "座位数量较多，适合久坐",
+        "en": "Ample seating supports extended stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:34Z"
+}

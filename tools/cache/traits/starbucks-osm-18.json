@@ -1,0 +1,52 @@
+{
+ "cafeId": "starbucks-osm-18",
+ "model": "qwen-max",
+ "inputDigest": "6fcb793426fc",
+ "raw": {
+  "headline": {
+   "zh": "全国首家星巴克臻选咖啡·酒坊",
+   "en": "First Starbucks Reserve Bar & Mixato"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供首款城市限定特饮‘上海咖啡’",
+    "en": "Serves the first city-limited 'Shanghai Coffee'",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "臻选门店供应独特风味小批量咖啡豆",
+    "en": "Offers unique, small-batch coffee beans",
+    "from": 2
+   },
+   {
+    "kind": "space",
+    "zh": "智慧湾科创园店为集装箱概念设计",
+    "en": "Container concept design at Zhihui Bay",
+    "from": 4
+   },
+   {
+    "kind": "people",
+    "zh": "黄浦绿地缤纷城店为手语服务门店",
+    "en": "Sign language service at Huangpu Green Land",
+    "from": 7
+   },
+   {
+    "kind": "story",
+    "zh": "外滩源酒坊主打Mixato融合概念",
+    "en": "Bund Source focuses on Mixato fusion",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "提供城市限定特饮和特色饮品",
+    "en": "City-limited drinks and unique offerings"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:21Z"
+}

@@ -1,0 +1,49 @@
+{
+  "cafeId": "tim-hortons-osm-3",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b454d74599cd",
+  "raw": {
+    "headline": {
+      "zh": "咖啡+暖食全天候覆盖",
+      "en": "Coffee and warm food all day"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "现做贝果、多拿滋、恰巴塔等暖食",
+        "en": "Freshly made bagels, donuts, and ciabatta",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked beans, small-batch roasted",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "覆盖早餐、午餐、下午茶全时段",
+        "en": "Serves breakfast, lunch, and afternoon tea",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "1964年加拿大冰球运动员创立",
+        "en": "Founded in 1964 by a Canadian hockey player",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:42:25Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "c-ee-u-cafe-xuhuiriyueguang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "243596f9db8a",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/020366bc5e3cad674335bee62d46eeeb",
+    "https://aos-comment.amap.com/B0K3ALC0EZ/comment/A59240CC_7C44_408C_8DE1_517F2B6A2C13_L0_001_1500_2000_1742717183927_48033006.jpg",
+    "https://aos-comment.amap.com/B0K3ALC0EZ/comment/6021651D_2A53_457F_B70B_48045E6F367C_L0_001_1500_2000_1742717183927_81922905.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内空间较小，为小型咖啡馆布局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方可见磨豆机等专业器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有少量桌椅座位，约2-4个",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃窗，自然光充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前摆放有菜单和饮品展示",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有绿植作为装饰",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "吧台后方有员工在工作",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:14Z"
+}

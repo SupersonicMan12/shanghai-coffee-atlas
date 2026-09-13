@@ -1,0 +1,59 @@
+{
+  "cafeId": "gms-coffee-lab-shanghaidapaidangkafei",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a2768bf2752a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6e95b5ec2e703a6824f1454adba67b09",
+    "https://aos-comment.amap.com/B0K0NC95NA/comment/B42C7AF4_EBDE_4ADB_850A_B412B4BD98D5_L0_001_1500_200_1753799496564_87956111.jpg",
+    "https://store.is.autonavi.com/showpic/3fa72d8552a3b1a4bf8d326dce78a77a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店门口有木质招牌，标有GMS coffee lab",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供埃塞俄比亚YKM Alaka咖啡豆的饮品",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包含拉花拿铁和浓缩咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙上挂有多款咖啡豆包装袋",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡豆产地标注为埃塞俄比亚，海拔2100-2300米",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品搭配卡片说明风味：金桔、芒果、菠萝蜜、锡兰红茶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:57Z"
+}

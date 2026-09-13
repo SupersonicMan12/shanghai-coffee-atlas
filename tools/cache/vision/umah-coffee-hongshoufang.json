@@ -1,0 +1,71 @@
+{
+  "cafeId": "umah-coffee-hongshoufang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e4b313f1a749",
+  "photos": [
+    "https://aos-comment.amap.com/B0KGJH0VKC/comment/74732613b01e0ac1fc3a5b042b9eb987_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KGJH0VKC/comment/e61a160bd9fdb263c37f15517d53501a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KGJH0VKC/comment/menu/6854af14c65cfd43ee70ceeab832724d_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有原味巴斯克芝士蛋糕和三种司康",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有美式、拿铁、dirty、卡布奇诺等咖啡选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡豆产地包括埃塞俄比亚、肯尼亚、格拉纳达等",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "有手冲咖啡（Pour Over）选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口设有折叠椅和小桌，提供室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街木结构门面，入口处有玻璃门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见店内有磨豆机和咖啡制作设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "司康价格为12元或15元，巴斯克芝士蛋糕36元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:23:19Z"
+}

@@ -1,0 +1,48 @@
+{
+  "cafeId": "kenyuekafeixinyijiedian-yishan-rd-700",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9953d2374e09",
+  "raw": {
+    "headline": {
+      "zh": "临街小馆，座位有限",
+      "en": "Street-side spot, few seats"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内座位数量较少",
+        "en": "Limited seating inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "门口落地窗，采光良好",
+        "en": "Good natural light from floor-to-ceiling window",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间06:00-23:00，节假日闭店",
+        "en": "Open 06:00–23:00, closed on holidays",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "座位少，不便久坐",
+        "en": "Few seats limit lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:02Z"
+}

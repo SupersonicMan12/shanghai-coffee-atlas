@@ -1,0 +1,71 @@
+{
+  "cafeId": "jiuzhimaoxiaojielumaoguanmaomishoumai-mingyuansh",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "9df71dfeca9c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/549186cda8ec9cfa73e43cbdfd8a29ef",
+    "https://aos-comment.amap.com/B0FFL5AAAV/comment/2af64ec7dc163a11291d03e04cc9228c_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/833c1d4bbe1d3e7f1c9fde4d09ef1de1"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有数张桌椅，空间可容纳多人同时就坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口为玻璃门，内侧有大窗户，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有一只穿黄色毛衣的猫坐在桌上。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上挂满彩色奖牌缎带，背景墙为深绿色。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见一只长毛布偶猫，面部特写。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木制桌子和椅子，材质清晰可见。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内未见咖啡机、磨豆机等专业器具。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见任何饮品、食物或菜单。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:39Z"
+}

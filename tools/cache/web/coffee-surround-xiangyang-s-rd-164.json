@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "营业时间：周一至周五08:00-18:00，周末10:00-19:00",
+      "kind": "time",
+      "quote": "⏰ 周一至周五 08:00-18:00 周末10:00-19:00",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site": "大众点评网"
+    },
+    {
+      "text": "地址位于襄阳南路164号",
+      "kind": "space",
+      "quote": "📍 襄阳南路164号",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site": "大众点评网"
+    },
+    {
+      "text": "品牌主张：如果可以快乐，谁愿意忘掉大风大雨？",
+      "kind": "story",
+      "quote": "🔹 如果可以快乐,谁愿意忘掉大风大雨?",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海新晋咖啡馆16家,永远年轻永远标新立异 ",
+      "url": "https://www.sohu.com/na/466242173_529040",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡探店| 每一口咖啡都是开心限定款 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "别再瞎选咖啡豆了!2026十大热门产区盘点,风味差距超乎想象!",
+      "url": "https://baijiahao.baidu.com/s?id=1875368651934638066",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "世界咖啡豆主要产区主要分布在哪里|咖啡豆产区咖啡带分布图介绍",
+      "url": "https://www.gafei.com/kafeibiji-136075",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 7,
+      "title": "从“豆子”到“杯子” 广东江门打造咖啡全产业链",
+      "url": "https://baijiahao.baidu.com/s?id=1868114246861636568",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "激动!整整一周!魔都这30家店可以免费喝咖啡?!今天下班了就冲! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzA5MDEyNQ==&mid=2657989818&idx=1&sn=e57206e712f6c178e67234d3e783051c&chksm=f240d498c5375d8ecc4a7cf3745aaf5d371766d06d4329dfca4b5aaa83619b5f2206534b44f1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "咖啡带是地球的“金腰带”?这些产地的豆子一口上头!",
+      "url": "https://baijiahao.baidu.com/s?id=1852995464948462920",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:33Z"
+}

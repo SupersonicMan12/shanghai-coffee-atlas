@@ -1,0 +1,72 @@
+{
+  "cafeId": "egg-xiangyang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f7ab4e50afe0",
+  "raw": {
+    "headline": {
+      "zh": "招牌焦糖香蕉蛋糕",
+      "en": "Signature caramel banana cake"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌焦糖香蕉蛋糕，口感软糯香脆",
+        "en": "Signature caramel banana cake, soft, moist, and crisp",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店铺分上下两层，有二楼靠窗位",
+        "en": "Two-story shop with second-floor window seats",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间每日8:00-18:30",
+        "en": "Open daily 8:00–18:30",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "Brunch eggs是招牌",
+        "en": "Brunch eggs are the signature",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "需排队，不适合专注",
+        "en": "Expect a wait, not for focus"
+      },
+      "energy": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "周末人气高，热闹",
+        "en": "Busy on weekends, lively"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "适合久坐，但有排队",
+        "en": "Good for lingering, but busy"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:19Z"
+}

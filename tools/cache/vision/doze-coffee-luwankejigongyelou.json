@@ -1,0 +1,71 @@
+{
+  "cafeId": "doze-coffee-luwankejigongyelou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "82efdf67ea26",
+  "photos": [
+    "https://aos-comment.amap.com/B0G27UEJQM/comment/content_media_external_file_1000030748_ss__1765087897043_66332214.jpg",
+    "https://aos-comment.amap.com/B0G27UEJQM/comment/content_media_external_file_1000030745_ss__1765087897043_89189945.jpg",
+    "https://aos-comment.amap.com/B0G27UEJQM/comment/136143D3_E31E_4906_8855_2541C81E1633_L0_001_1500_200_1763274693066_59131656.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺临街，有落地玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有折叠椅和小桌，提供室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见两台Fiorenzato磨豆机",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域有咖啡杯堆叠、收银设备和招财猫摆件",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为手冲咖啡，使用玻璃壶和陶瓷杯呈现",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口放置红色塑料凳，供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有木质吧台和黑色瓷砖墙面",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树木遮荫，阳光透过树叶投射在招牌上",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:14:39Z"
+}

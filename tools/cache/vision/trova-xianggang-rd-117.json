@@ -1,0 +1,72 @@
+{
+  "cafeId": "trova-xianggang-rd-117",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9394da917b8a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9743d295fb0f44f80000002310970536?type=pic",
+    "https://store.is.autonavi.com/showpic/ea9e725366cdb22a0000005624810212?type=pic",
+    "https://aos-comment.amap.com/B0H07H68N3/comment/content_media_external_file_192862_ss__1758205709913_64100057.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃门窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见桌椅，有顾客在坐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有可降解吸管和塑料杯盖的饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供巧克力可颂和黑白条纹蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯上有trova字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "室外有灰色圆桌，摆放托盘与食物",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放置运动相机和三脚架",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口地面为棋盘格瓷砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:44Z"
+}

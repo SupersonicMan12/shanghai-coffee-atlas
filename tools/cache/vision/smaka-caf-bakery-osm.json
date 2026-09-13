@@ -1,0 +1,72 @@
+{
+  "cafeId": "smaka-caf-bakery-osm",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "fdbfcce3cee8",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJKKNYJ/comment/79091D24_A88D_4A0E_A9B0_2AD169823CB2_L0_001_IMG_5363_1668485215054_2551dea8.HEIC",
+    "https://aos-comment.amap.com/B0FFJKKNYJ/comment/27c46e9f8fdf6ea955d6e2effc9bf77f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFJKKNYJ/comment/4D7F8756_2E7B_444E_B645_418535D43A17_L0_001_2000_1500_1731174915566_17459567.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于愚园路769号，临街玻璃门面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有展示柜陈列面包和蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供杂粮面包、黑松芝士恰巴达、可颂等烘焙食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "有草莓奶油卷、巧克力蛋糕、拿铁和冰咖啡等饮品甜点",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "营业时间为周一至周五08:00-21:00，周六至周日09:00-21:00",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见冷藏展示柜及糕点陈列区",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "有落地窗和玻璃门，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为小型独立店铺，内部布局紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:12:52Z"
+}

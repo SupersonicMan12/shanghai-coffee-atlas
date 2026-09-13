@@ -1,0 +1,56 @@
+{
+  "cafeId": "seesaw-coffee-shanghaijinxiu-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "24166f060159",
+  "raw": {
+    "headline": {
+      "zh": "自烘实验室直营",
+      "en": "in-house roastery"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自建烘焙实验室，直供门店",
+        "en": "in-house roastery supplies beans",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐饮品为咖啡",
+        "en": "coffee is the recommended drink",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "自烘豆适合专注",
+        "en": "roasted beans suit focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "大空间好地段，中等热闹",
+        "en": "large space, decent buzz"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "大空间适合久坐",
+        "en": "spacious layout encourages lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:54Z"
+}

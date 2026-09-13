@@ -1,0 +1,59 @@
+{
+  "cafeId": "momo-cafe-zhenruhuanyucheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "505eeed3bb3f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4f72577dfc3ca4000000003202826607?type=pic",
+    "https://store.is.autonavi.com/showpic/3cbfeffa30c45c210000003202824747?type=pic",
+    "https://store.is.autonavi.com/showpic/9bc7ac7ac13b2c180000003386914634?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内设有开放式厨房，可见烹饪设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有餐具和餐盘摆放，准备供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "厨房内可见烤箱、锅具等专业厨具",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示为'MOMO CAFÉ'，带有卡通猫头标志",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为现代工业风设计，以金属与砖墙为主",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见工作人员在厨房操作区域活动",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:02Z"
+}

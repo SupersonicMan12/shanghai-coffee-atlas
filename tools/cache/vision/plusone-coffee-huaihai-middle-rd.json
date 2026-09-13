@@ -1,0 +1,59 @@
+{
+  "cafeId": "plusone-coffee-huaihai-middle-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8f12abf0ee68",
+  "photos": [
+    "https://aos-comment.amap.com/B0JRXL9NB1/comment/EFF25945_2E5A_44E8_BA0A_FF5E28846A05_L0_001_1512_2016_1735815259051_92036561.jpg",
+    "https://store.is.autonavi.com/showpic/8fec747f52225aabe1a37f64a59760c3",
+    "https://store.is.autonavi.com/showpic/9c784bcb0a496e150000002991014156?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有圣诞装饰，氛围节日感强",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方可见咖啡机等设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有长条形座位，配白色坐垫",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见绿植点缀，环境有自然元素",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板为工业风裸露结构，有金属质感",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:36Z"
+}

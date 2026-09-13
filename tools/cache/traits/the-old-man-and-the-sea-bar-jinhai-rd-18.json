@@ -1,0 +1,80 @@
+{
+  "cafeId": "the-old-man-and-the-sea-bar-jinhai-rd-18",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a91b109181fb",
+  "raw": {
+    "headline": {
+      "zh": "深夜营业的海明威主题酒吧",
+      "en": "Midnight-open Hemingway-themed bar"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "营业至凌晨1点，适合夜间活动",
+        "en": "Opens until 1 AM, great for night outings",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "桌上摆放Beluga伏特加，提供高端烈酒",
+        "en": "Serves Beluga vodka, premium spirits on table",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-floor street-facing glass windows, good lighting",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "墙上挂有海明威主题照片墙装饰",
+        "en": "Features Hemingway-themed photo wall decor",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "店内有木质门与玻璃窗，可见内部灯光",
+        "en": "Wooden door and glass window reveal interior lighting",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "夜间营业，人流量中等",
+        "en": "Night hours, moderate crowd"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "营业至凌晨，适合久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "提供高端伏特加，饮品不寻常",
+        "en": "Premium vodka, unusual drink choice"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:26Z"
+}

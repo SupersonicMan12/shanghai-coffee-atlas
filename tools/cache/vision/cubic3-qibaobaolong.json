@@ -1,0 +1,71 @@
+{
+  "cafeId": "cubic3-qibaobaolong",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6cf07867ccfa",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/613c747d872664910000002739386156?type=pic",
+    "https://store.is.autonavi.com/showpic/f10e357cbb428c89597e22a4bd4a0b40",
+    "https://store.is.autonavi.com/showpic/101885b33300538b0000002714740116?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，含冰块和深色液体",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有几张圆形桌椅，座位数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示有美式、拿铁、脏咖啡等经典咖啡选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供果味冰美系列，包括桃子、橙子、葡萄等口味",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "非咖啡饮品包括桃子冰茶和薄荷冰茶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分饮品限时优惠价为9.9元",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域，有设备但未明确显示烘焙机或手冲台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:39Z"
+}

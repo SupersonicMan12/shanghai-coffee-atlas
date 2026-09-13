@@ -1,0 +1,36 @@
+{
+  "cafeId": "kiwi-coffee-jingfanggongyu3haoloulianbobeiluyilo",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "398949a16367",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供拿铁、美式等咖啡",
+        "en": "Serves latte, Americano and more",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:00-16:00营业",
+        "en": "Open 08:00–16:00 on weekdays",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:52Z"
+}

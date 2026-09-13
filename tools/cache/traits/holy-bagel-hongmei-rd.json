@@ -1,0 +1,71 @@
+{
+  "cafeId": "holy-bagel-hongmei-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4d05ea91c9a2",
+  "raw": {
+    "headline": {
+      "zh": "酥脆贝果配户外座",
+      "en": "Crispy bagels with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供酥脆贝果，含鸡肉鸡蛋、烟熏三文鱼等",
+        "en": "Serves crispy bagels like chicken-egg and smoked salmon",
+        "from": [
+          3,
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设人行道旁露天座位区",
+        "en": "Outdoor seating on the sidewalk",
+        "from": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应抹茶饮料与咖啡饮品",
+        "en": "Offers matcha drinks and coffee",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-height street-facing windows with good light",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30-19:30营业（部分日期至16:00）",
+        "en": "Open daily 07:30–19:30 (some days until 16:00)",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          6
+        ],
+        "zh": "有户外座和用餐顾客",
+        "en": "Outdoor seats and diners present"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:15Z"
+}

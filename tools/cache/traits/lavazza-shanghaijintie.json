@@ -1,0 +1,74 @@
+{
+  "cafeId": "lavazza-shanghaijintie",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "741f92794a40",
+  "raw": {
+    "headline": {
+      "zh": "上海限定咖啡豆",
+      "en": "Shanghai-exclusive coffee beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "提供上海限定拼配豆，称作味觉情书",
+        "en": "Serves Shanghai-exclusive blend, 'a love letter to the city'",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含橙力香草籽雪克美式与高蛋白奶系列",
+        "en": "Features signature 'Orange Power Vanilla Shaker Americano' and high-protein milk drinks",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有舒适靠窗座位，支持长时间停留",
+        "en": "Offers comfortable window seats for extended stays",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内设冷藏展示柜，陈列饮品或食品",
+        "en": "Has refrigerated display cases for drinks or food items",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-21:30",
+        "en": "Open daily 07:30–21:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          11
+        ],
+        "zh": "有舒适座位可久坐",
+        "en": "Comfortable seats for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "临街有遮阳伞和桌椅",
+        "en": "Outdoor seating with umbrellas"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:22Z"
+}

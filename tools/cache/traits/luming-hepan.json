@@ -1,0 +1,47 @@
+{
+ "cafeId": "luming-hepan",
+ "model": "qwen-max",
+ "inputDigest": "59940dd3f406",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "面朝苏州河，对岸是著名景点千树",
+    "en": "Facing Suzhou Creek, with Thousand Trees across",
+    "from": 6,
+    "','8' should be removed as it is not a valid number. The correct format for the 'from' field is to list the evidence numbers that support the trait, and in this case, only 6 and 8 are relevant. Here is the corrected JSON output:": 8
+   },
+   {
+    "kind": "space",
+    "zh": "店内空间宽敞，座位较多",
+    "en": "Spacious interior with plenty of seating",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "周一至周五营业时间为09:00-17:00",
+    "en": "Open Mon-Fri 09:00-17:00",
+    "from": 12
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": 5,
+    "zh": "照片中无人在店内使用电脑",
+    "en": "No one seen using a laptop"
+   },
+   "linger": {
+    "value": 50,
+    "from": 7,
+    "zh": "环境好适合久坐",
+    "en": "Good for sitting a while"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:32Z"
+}

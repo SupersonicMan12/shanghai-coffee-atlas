@@ -1,0 +1,65 @@
+{
+  "cafeId": "tequila-espresso-jiashan-rd-55",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "aff71547f420",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/93522C22_9E07_407B_973F_6B5EA585D6BE_L0_001_1263_154_1768821812268_52309918.jpg",
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/BB1EA383_1523_4422_9542_8C044805DD92_L0_001_1500_200_1772150772249_96983286.jpg",
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/63BDCBEC_E8A9_4F44_96E5_D82A65BF5322_L0_001_1290_145_1768821850240_78485117.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门口有两把LEVI'S折叠椅和一把木椅，可户外坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区有至少两台磨豆机和一台热水机。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门贴有营业时间：工作日8:00-17:30，周末9:00-17:30。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯浓缩咖啡盛在白色小杯中，表面有厚油脂。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门是透明玻璃，可看见内部有顾客和桌椅。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内吧台上方挂有黑白插画和酒瓶，有工业风吊灯。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口左侧有一个金属桶，右侧窗台放着洗手液瓶。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:26Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "m-stand-lingkongsoho",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "dcfe76ba5624",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃大店",
+      "en": "Large glass-fronted street-side shop"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "门店位于商场外街角，整面临街玻璃幕墙",
+        "en": "Located at corner of shopping mall, full-floor glass facade",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为冰咖啡，深褐色液体装于透明塑料杯",
+        "en": "Signature drink is iced coffee in transparent plastic cup, dark brown liquid",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:30-18:30，周一至周日",
+        "en": "Open daily 07:30–18:30",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜包括美式咖啡、香肠、卡布奇诺、椰子、油条",
+        "en": "Recommended items: Americano, sausage, cappuccino, coconut, youtiao",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "吧台可见，适合快速取餐",
+        "en": "Counter visible, quick service"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5,
+          8
+        ],
+        "zh": "临街位置，人流较密集",
+        "en": "Street-facing, moderate foot traffic"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          6
+        ],
+        "zh": "门口无室外座位，不适宜久坐",
+        "en": "No outdoor seating, not meant for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:15Z"
+}

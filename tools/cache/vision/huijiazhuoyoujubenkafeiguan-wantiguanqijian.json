@@ -1,0 +1,41 @@
+{
+  "cafeId": "huijiazhuoyoujubenkafeiguan-wantiguanqijian",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "5c2559dc82da",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d823418a15bced862f6692a30005f08b",
+    "http://store.is.autonavi.com/showpic/abe4ab80a27649b3c25edd940a7aca08",
+    "http://store.is.autonavi.com/showpic/c5cc2de3bf7f2751f5be4955257bebe8"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "一杯拿铁，奶泡上有心形拉花。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门面朝街道，玻璃橱窗可见内部。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯黑咖啡配咖啡豆和方糖。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:13Z"
+}

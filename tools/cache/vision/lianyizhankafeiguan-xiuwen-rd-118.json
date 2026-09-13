@@ -1,0 +1,71 @@
+{
+  "cafeId": "lianyizhankafeiguan-xiuwen-rd-118",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7de33e7edeec",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/df1a4eaee21fa2a37d0208dd4e71d258",
+    "https://store.is.autonavi.com/showpic/b3b14e6d3c2ec71835897a16af0717fc",
+    "https://store.is.autonavi.com/showpic/2dcf2af1ebda3bb6e3e6469d7c5bfdb4"
+  ],
+  "photoKinds": [
+    "menu",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示美式咖啡20元，拿铁25元",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供手冲咖啡（基础款）40元",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有红茶、茉莉花茶、桂花乌龙等茶饮",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和几张木质桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有工作人员在操作台后工作",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有露天座位区，顾客在户外休息",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于临街位置，门前有树木和绿植",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见磨豆机和手冲设备",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:19:15Z"
+}

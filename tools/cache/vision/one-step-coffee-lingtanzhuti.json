@@ -1,0 +1,59 @@
+{
+  "cafeId": "one-step-coffee-lingtanzhuti",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a4a75c5aeb86",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/11d68e365dd24a43c3718ff5ee5cb09f",
+    "https://aos-comment.amap.com/B0J217IWL7/comment/f5d1e820b06a12b0c081c80e0d369ee7_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J217IWL7/comment/70ea14665d7e78cdaf0fad22ca42c1ee_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面入口为八边形玻璃门，可见室内有绿植。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，有木质地板和多盆大型绿植。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见至少一个座位，为木桌椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供肉桂卷等烘焙食品。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带有拉花图案的咖啡饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大型绿植作为装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:31Z"
+}

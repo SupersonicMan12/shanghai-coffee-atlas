@@ -1,0 +1,65 @@
+{
+  "cafeId": "mini-co-shanghaixuhuiguojichuanmeigang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1edbff388e1e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/69b435cc6f63d8330000003049992134?type=pic",
+    "https://aos-comment.amap.com/B0LUZ7T2SS/comment/content_media_external_file_224138_ss__1757913392734_53277126.jpg",
+    "http://store.is.autonavi.com/showpic/49c623a129e668295bb678406bf22a58"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型店铺，有室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外设有约6-8张白色桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台式布局，但具体设备不清晰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一名顾客坐在室外座位上看手机",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口摆放着饮品促销立牌",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "地面为灰白相间的方格地砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:33Z"
+}

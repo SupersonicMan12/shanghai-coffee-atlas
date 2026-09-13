@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "店铺不大，半敞开座位，小街边咖啡",
+      "kind": "space",
+      "quote": "非常小，不过現在流行這樣的街邊咖啡",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/lanna-coffee-15775528/",
+      "site": "Lanna Coffee（愚園東路店） (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "使用埃塞俄比亚咖啡豆，水洗处理，花香柑橘风味",
+      "kind": "beans",
+      "quote": "咖啡豆- 埃塞俄比亚⚪︎ 风味性- 花香柑橘· 𖠄 喜欢水洗处理法带来的干净度",
+      "url": "https://www.foodtalks.cn/news/9095",
+      "site": "FoodTalks全球食品资讯网"
+    },
+    {
+      "text": "招牌饮品包括冰柠冷萃、薄荷咖啡、黑拿铁",
+      "kind": "drinks",
+      "quote": "冰柠冷萃(3) · 美式 · 拿铁(48) · 薄荷咖啡(7)",
+      "url": "https://www.dianping.com/shop/G7X23F4JXU8oVI6C/photos?pg=16",
+      "site": "Lanna Coffee(愚园东路店)-图片-上海-第16页-大众点评网"
+    },
+    {
+      "text": "营业区域为办公区，生意旺，适合办公",
+      "kind": "people",
+      "quote": "這裡是辦公區域，生意還是非常旺的",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/lanna-coffee-15775528/",
+      "site": "Lanna Coffee（愚園東路店） (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "咖啡杯手握舒适，便于啜饮",
+      "kind": "seating",
+      "quote": "他們的咖啡杯。他們手握得非常好，從他們身上啜飲咖啡很有趣",
+      "url": "https://post.smzdm.com/p/am8q7dmp/",
+      "site": "什么值得买"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "小店也有大使命：Lanna Coffee",
+      "url": "https://madmin.gafei.com/views-94053",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 2,
+      "title": "Lanna Coffee(愚园东路店)-图片-上海-第16页-大众点评网",
+      "url": "https://www.dianping.com/shop/G7X23F4JXU8oVI6C/photos?pg=16",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Lanna Coffee（愚園東路店） (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/lanna-coffee-15775528/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "蓝山咖啡味道果然不同 ",
+      "url": "https://post.smzdm.com/p/am8q7dmp/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 5,
+      "title": "百万粉丝博主热荐，爆红上海的“黑拿铁”，到底是什么？ - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/9095",
+      "site_name": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:19Z"
+}

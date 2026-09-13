@@ -1,0 +1,67 @@
+{
+  "cafeId": "bld-tianlin-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "948e28eb9c4f",
+  "raw": {
+    "headline": {
+      "zh": "营业至凌晨1点的酒店咖啡厅",
+      "en": "Open until 1 a.m."
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供黑巧克力脆皮蛋糕和树莓巧克力慕斯",
+        "en": "Serves chocolate crunch cake and raspberry mousse",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有2个半包间",
+        "en": "Has two semi-private booths",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨1:00",
+        "en": "Open daily until 1 a.m.",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应华夫饼配水果、奶油和橙片",
+        "en": "Serves waffles with fruit, cream, and orange slices",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间宽敞，有多个圆形食物展示台",
+        "en": "Spacious with multiple round food display stands",
+        "from": [
+          1,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          10
+        ],
+        "zh": "空间宽敞且有半包间",
+        "en": "Spacious with semi-private seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:56Z"
+}

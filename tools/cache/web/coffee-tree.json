@@ -1,0 +1,93 @@
+{
+  "facts": [
+    {
+      "text": "位于武康庭内一栋洋房，可选户外或幽静室内座位",
+      "kind": "space",
+      "quote": "Coffee Tree便是位於武康路376號武康庭的一棟洋房裡",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-tree-wu-kang-road-16952178/",
+      "site": "Coffee Tree(武康路店) (上海衡山路地區) - Trip.com"
+    },
+    {
+      "text": "室内灯光昏暗，服务生用英语交流",
+      "kind": "light",
+      "quote": "室内更幽静昏暗的燈光和英語口語的服務生",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-tree-wu-kang-road-16952178/",
+      "site": "Coffee Tree(武康路店) (上海衡山路地區) - Trip.com"
+    },
+    {
+      "text": "地址为武康路376号（近泰安路），在武康庭内",
+      "kind": "space",
+      "quote": "上海市 徐汇区武康路376号(近泰安路)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d2426974-Reviews-ShangHai_Coffee_Shu_Wu_Shanghai_Kang_Road-Shanghai.html",
+      "site": "Tripadvisor猫途鹰"
+    },
+    {
+      "text": "营业时间：周一至周五9:00–22:00；周末10:00–22:00",
+      "kind": "time",
+      "quote": "营业时间：周一至周五09:00-22:00. 周六至周日10:00-22:00.",
+      "url": "https://www.thepaper.cn/newsDetail_forward_12703237",
+      "site": "澎湃新闻"
+    },
+    {
+      "text": "人均价格约83元或117元（不同来源）",
+      "kind": "food",
+      "quote": "人均价格. 83",
+      "url": "https://baike.baidu.com/item/Coffee%20Tree%EF%BC%88%E6%AD%A6%E5%BA%B7%E8%B7%AF%E5%BA%97%EF%BC%89/14265640",
+      "site": "百度"
+    },
+    {
+      "text": "提供午餐、早午餐、晚餐及饮料，含欧洲、意餐、美式烹饪、牛排馆风格",
+      "kind": "food",
+      "quote": "餐时 午餐,早午餐,晚餐,饮料 餐时,功能",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d2426974-Reviews-ShangHai_Coffee_Shu_Wu_Shanghai_Kang_Road-Shanghai.html",
+      "site": "Tripadvisor猫途鹰"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡树(武康路店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d2426974-Reviews-ShangHai_Coffee_Shu_Wu_Shanghai_Kang_Road-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 2,
+      "title": "Coffee Tree（武康路店）_百度百科",
+      "url": "https://baike.baidu.com/item/Coffee%20Tree%EF%BC%88%E6%AD%A6%E5%BA%B7%E8%B7%AF%E5%BA%97%EF%BC%89/14265640",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡树(武康路店) - (上海市)餐厅/美食点评 - 猫途鹰Tripadvisor",
+      "url": "https://tapc.ctrip.com/Restaurant_Review-g308272-d2426974-",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "Coffee Tree(武康路店) (上海衡山路地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-tree-wu-kang-road-16952178/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "肖战也来打卡的街，原来这么好吃 - 澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_12703237",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 6,
+      "title": "我们一起去武康路喝咖啡吧_大楼",
+      "url": "http://www.sohu.com/a/452813409_99958624",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "Coffee Tree(武康路店) - 上海 - 永安旅遊",
+      "url": "https://www.wingontravel.com/discovery/restaurant-16952178",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:31Z",
+  "retriedEn": true
+}

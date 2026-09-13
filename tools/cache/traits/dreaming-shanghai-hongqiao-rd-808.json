@@ -1,0 +1,75 @@
+{
+  "cafeId": "dreaming-shanghai-hongqiao-rd-808",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b0a0c6fc6b7d",
+  "raw": {
+    "headline": {
+      "zh": "张国荣主题纪念咖啡馆",
+      "en": "Leslie Cheung-themed cafe"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "收藏张国荣签名唱片与生前衣物",
+        "en": "Holds Leslie Cheung's signed records and clothing",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "sound",
+        "zh": "设有专业声学空间播放音乐",
+        "en": "Features a professional acoustic music space",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供张国荣头像拿铁（56元）",
+        "en": "Serves Leslie Cheung latte (¥56)",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应张国荣主题蛋糕（91.2元）",
+        "en": "Offers themed cake (¥91.2)",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周四12:00-19:00，周末至23:00",
+        "en": "Open till 23:00 on weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2,
+          5
+        ],
+        "zh": "有桌椅、书籍和摆件可久坐",
+        "en": "Seating with books and decor"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "有定制主题饮品与蛋糕",
+        "en": "Custom-themed drinks and cake"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:45Z"
+}

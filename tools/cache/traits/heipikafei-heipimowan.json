@@ -1,0 +1,66 @@
+{
+  "cafeId": "heipikafei-heipimowan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9f752cbd4172",
+  "raw": {
+    "headline": {
+      "zh": "门口有猫的街角咖啡",
+      "en": "A street-corner coffee with a resident cat"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外座位4-6个，配绿色桌椅和盆栽",
+        "en": "4–6 outdoor seats with green tables, chairs, and potted plants",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡，装在带盖塑料杯中",
+        "en": "Serves iced coffee in lidded plastic cups",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街，背景可见高楼与施工吊车",
+        "en": "Street-facing with high-rises and construction cranes visible",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-18:30营业",
+        "en": "Open daily 9:00–18:30",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有固定室外座位",
+        "en": "Has fixed outdoor seating"
+      },
+      "energy": {
+        "value": 55,
+        "from": [
+          5
+        ],
+        "zh": "临城市街道，背景有施工吊车",
+        "en": "Urban street location with construction activity"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:24Z"
+}

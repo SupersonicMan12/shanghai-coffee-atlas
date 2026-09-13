@@ -1,0 +1,71 @@
+{
+  "cafeId": "better-together-cafe-taian-rd-115",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "9ea25fd6a0a7",
+  "photos": [
+    "https://aos-comment.amap.com/B0JD3X11B5/comment/84A61447_CD09_40D4_8C79_08503EACBE21_L0_001_1500_200_1762438851515_46448233.jpg",
+    "https://aos-comment.amap.com/B0JD3X11B5/comment/4694E26B_4954_4ADF_88B5_32CA2AFFE479_L0_001_2000_1500_1737289515978_55240611.jpg",
+    "http://store.is.autonavi.com/showpic/f5c03147f6dac8198a6cf66cc9229d86"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "展示柜内有多层甜点，包括巧克力慕斯蛋糕切片与焦糖梨造型甜品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外有覆雪装饰的圣诞树、充气驯鹿、木质平台及两把白色折叠椅。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店招为‘CanYa’与‘馋·canYa’，门牌显示地址为泰安路115弄9号。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内庭院区域有藤蔓爬墙、铁艺桌椅（圆桌配4椅），一名女性坐于桌旁。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "展示柜底层可见Bundaberg姜汁啤酒、柠檬青柠味饮料及VOSS矿泉水瓶。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外招牌含‘Better Together’字样，门口挂布帘与干植物装饰。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.92
+    },
+    {
+      "text": "无手冲台、磨豆机、虹吸壶或烘焙机等专业咖啡设备可见。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "未见书架、宠物、菜单价格或豆子产地信息；无人使用电脑。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.96
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:45Z"
+}

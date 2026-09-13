@@ -1,0 +1,72 @@
+{
+  "cafeId": "xiushousi-luwan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "101a3c0b6973",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHBVZTF/comment/5b690d29823e87c49cd0c5e92ca20e09_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/07543227398b987b0000003098926963?type=pic",
+    "https://aos-comment.amap.com/B0FFHBVZTF/comment/8457399a39dcb21e2f8b0e3f89a8f32b_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "food",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅和吧台座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上置物架陈列多种酒瓶",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供蒜蓉烤生蚝",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供三文鱼、鱼籽和牛油果盖饭",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间较小，为日式风格小店",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有顾客在吧台用餐",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "餐桌上放置调味品托盘",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:43Z"
+}

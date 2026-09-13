@@ -1,0 +1,53 @@
+{
+  "cafeId": "kiosk-coffee-taiyuan-rd-283-1",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1dd3394bc0dd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4b56fe6cdaab930d0000003304236603?type=pic",
+    "https://aos-comment.amap.com/B0LA9L0A88/comment/content_media_external_file_112096_ss__1745810987153_78312754.jpg",
+    "https://store.is.autonavi.com/showpic/d3fe6e53773fe64f0000002848090990?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有泰浓Dirty、报纸、青梅龙井美式等特调，价格25-38元。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外立牌菜单，可确认饮品名称与价格，无座位或空间信息。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图手持玻璃杯，背景为临街玻璃窗，窗外是庭院和植物。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图塑料杯放于室外小圆桌，背景为街道与树影，确认有室外座。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃窗可见后方有多个盆栽植物，但无法判断室内空间大小。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:17Z"
+}

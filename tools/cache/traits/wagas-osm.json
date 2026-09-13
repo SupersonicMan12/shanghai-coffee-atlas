@@ -1,0 +1,64 @@
+{
+  "cafeId": "wagas-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f1e15a77ca48",
+  "raw": {
+    "headline": {
+      "zh": "饮品名超有梗",
+      "en": "Drinks have wild names"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌果汁名趣味十足，如‘朋克生活’‘救救我’",
+        "en": "Signature juices have playful names like 'Punk Life' and 'Save Me'",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "主打健康轻食，菜单列原料与热量搭配",
+        "en": "Focus on healthy light meals with ingredient and calorie info",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "宏伊国际广场店营业至20:30，支持自助点餐",
+        "en": "Store open until 8:30 PM with self-service ordering",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "可自助点餐，适合办公",
+        "en": "Self-ordering supports work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "营业时间长，适合久坐",
+        "en": "Long hours invite lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "位于核心商圈，人流中等",
+        "en": "Located in busy commercial areas"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:01Z"
+}

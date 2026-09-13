@@ -1,0 +1,54 @@
+{
+  "cafeId": "costa-coffee-zantingyingye",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "16b62906d616",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设长排卡座及多张四人桌，座位约6组",
+        "en": "Features long booths and several four-person tables, about 6 seating groups",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，通透采光好",
+        "en": "Full-height street-facing glass windows provide ample light",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应提拉米苏和巧克力酥卷",
+        "en": "Serves tiramisu and chocolate swirl pastries",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供海盐焦糖拿铁、熊猫生椰系列等特色饮品",
+        "en": "Offers salted caramel lattes and panda coconut drinks",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为08:00-21:30",
+        "en": "Open daily 8:00–21:30",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:42:42Z"
+}

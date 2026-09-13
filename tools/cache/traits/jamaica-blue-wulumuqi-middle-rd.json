@@ -1,0 +1,74 @@
+{
+  "cafeId": "jamaica-blue-wulumuqi-middle-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d414d958cb6e",
+  "raw": {
+    "headline": {
+      "zh": "二楼露台观景位",
+      "en": "Second-floor terrace with views"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "二楼露台是最佳观景位",
+        "en": "Best views from the second-floor terrace",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆",
+        "en": "Uses 100% Arabica coffee beans",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供49元早餐、69元午餐套餐",
+        "en": "Offers breakfast (¥49) and lunch (¥69) sets",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有藤编桌椅可用餐",
+        "en": "Outdoor seating with wicker tables and chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至20:00",
+        "en": "Open daily until 8 PM",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          10
+        ],
+        "zh": "提供免费WiFi适合工作",
+        "en": "Free WiFi for work"
+      },
+      "linger": {
+        "value": 80,
+        "from": [
+          1,
+          9,
+          10
+        ],
+        "zh": "露台与室外座位宜久坐",
+        "en": "Terrace and outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:19Z"
+}

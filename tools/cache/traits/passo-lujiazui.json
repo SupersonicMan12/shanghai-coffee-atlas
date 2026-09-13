@@ -1,0 +1,28 @@
+{
+ "cafeId": "passo-lujiazui",
+ "model": "qwen-max",
+ "inputDigest": "0b88ea66c30e",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是会议前的双份浓缩咖啡",
+    "en": "Signature drink: pre-meeting double espresso",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 1,
+    "zh": "适合快速喝完离开",
+    "en": "Quick stop, grab and go"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:23Z"
+}

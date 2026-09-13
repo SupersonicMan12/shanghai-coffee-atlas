@@ -1,0 +1,67 @@
+{
+  "cafeId": "manner-coffee-xinlintiandi",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "4754444de846",
+  "raw": {
+    "headline": {
+      "zh": "站喝小吧台",
+      "en": "Standing bar only"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "无座位区，仅设吧台站立消费",
+        "en": "No seating, standing-only service",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供美式、冷萃及燕麦拿铁等招牌饮品",
+        "en": "Serves Americano, cold brew, oat milk latte",
+        "from": [
+          3,
+          4,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自建烘焙工坊的意式豆，含限定款",
+        "en": "Uses in-house roasted beans, including limited editions",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:00-17:00",
+        "en": "Open 07:00–17:00 daily",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "无座位，适合快速取用",
+        "en": "No seats, quick grab"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "临街落地窗，外向通透",
+        "en": "Street-facing glass, open feel"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:34Z"
+}

@@ -1,0 +1,73 @@
+{
+  "cafeId": "pop-huaihai-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4429b7469069",
+  "raw": {
+    "headline": {
+      "zh": "舒芙蕾配猫咪杯挂",
+      "en": "Soufflé with cat-shaped cup charms"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌舒芙蕾绵密如融化的棉花糖",
+        "en": "Signature soufflé melts like cotton candy",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "每款奶咖配一个猫咪咖啡杯挂",
+        "en": "Each milk coffee comes with a cat cup charm",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "烘焙师反复调试拼配与烘焙度",
+        "en": "Roaster fine-tunes blends and roast profiles",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设3个木质圆凳配小桌，无固定桌椅",
+        "en": "Three wooden stools with small tables, no fixed seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间9:00–21:00（网页）或10:00–21:30（高德）",
+        "en": "Open 9:00–21:00 (web) or 10:00–21:30 (map)",
+        "from": [
+          9,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "自调拼配与烘焙",
+        "en": "Custom blends and roasting"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "少量非固定座位",
+        "en": "Limited, non-fixed seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:44Z"
+}

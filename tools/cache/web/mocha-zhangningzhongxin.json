@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "坐拥1200平湖景房，超大落地玻璃窗，窗外湖景一览无遗",
+      "kind": "view",
+      "quote": "坐拥1200平的超大面积湖景房...超大落地玻璃窗，窗外湖景一览无遗",
+      "url": "https://finance.sina.cn/2023-01-29/detail-imycvtrt0396423.d.html?vt=4",
+      "site": "新浪网"
+    },
+    {
+      "text": "地址为上海市长宁区安顺路118号-7（虹桥路地铁站口步行490米）",
+      "kind": "space",
+      "quote": "地址为上海市长宁区安顺路118号-7(虹桥路地铁站号口步行490米)",
+      "url": "https://www.amap.com/place/B0G2OCI9TL",
+      "site": "高德地图"
+    },
+    {
+      "text": "谢绝12岁以下儿童入内",
+      "kind": "people",
+      "quote": "谢绝12岁以下儿童入内",
+      "url": "https://baike.baidu.com/item/Cat%20%26coffee/14194629",
+      "site": "百度"
+    },
+    {
+      "text": "本店不可外带饮食",
+      "kind": "food",
+      "quote": "本店不可外带饮食",
+      "url": "https://show.bilibili.com/platform/detail.html?id=16122",
+      "site": "哔哩哔哩"
+    },
+    {
+      "text": "周末高峰时段进店客人较多，有时需要排队等候",
+      "kind": "time",
+      "quote": "周末高峰时段进店客人较多，有时需要排队等候",
+      "url": "https://show.bilibili.com/platform/detail.html?id=16122",
+      "site": "哔哩哔哩"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海猫咪咖啡馆以猫为主题的咖啡店 - 手冲咖啡",
+      "url": "https://m.gafei.com/views-49024",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 2,
+      "title": "“咖啡+”？长风这些CP值超高的特色店等你来打卡|上海市 - 新浪财经",
+      "url": "https://finance.sina.cn/2023-01-29/detail-imycvtrt0396423.d.html?vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "MOCHA猫咪咖啡(长宁中心店) - 上海市长宁区- 餐饮服务;咖啡厅;咖啡厅",
+      "url": "https://www.amap.com/place/B0G2OCI9TL",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 4,
+      "title": "Cat &coffee_百度百科",
+      "url": "https://baike.baidu.com/item/Cat%20%26coffee/14194629",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "MOCHA猫咪咖啡(田子坊店) - 携程",
+      "url": "https://you.ctrip.com/food/2/22602756.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "上海·MoCHA猫咪咖啡×田子坊店",
+      "url": "https://show.bilibili.com/platform/detail.html?id=16122",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 7,
+      "title": "CATIER·貓公館·貓咪咖啡（大學路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/catier-maogongguanmaomi-coffee-daxuelu-57126008",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "南瓜、辣椒、洋葱都能当杯子?闵行这对闺蜜开的村咖,许多人跨越半个上海来打卡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MzIzODQzMg==&mid=2650768166&idx=8&sn=82204a6e1deff3b08a65e4b58325e943&chksm=89dfa807565cb09ab8867d0d3ff48d7396e520c3c13f4ed4d5949459831486dfbe52d6aadcf5&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "魔都越开越多的猫咪咖啡馆，哪些值得一撸？",
+      "url": "https://zhuanlan.zhihu.com/p/27381490",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:02Z"
+}

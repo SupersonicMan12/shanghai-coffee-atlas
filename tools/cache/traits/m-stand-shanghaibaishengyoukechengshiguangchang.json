@@ -1,0 +1,58 @@
+{
+ "cafeId": "m-stand-shanghaibaishengyoukechengshiguangchang",
+ "model": "qwen-max",
+ "inputDigest": "0b7427e99dca",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "开放式吧台设计，无明显座位区",
+    "en": "Open bar design, no seating area",
+    "from": 2
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃窗",
+    "en": "Full street-facing glass windows",
+    "from": 4
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间07:00-22:00",
+    "en": "Open from 07:00 to 22:00",
+    "from": 10
+   },
+   {
+    "kind": "food",
+    "zh": "推荐菜包括香肠、奶咖、油条等",
+    "en": "Recommended dishes: sausages, milk coffee, fried dough",
+    "from": 11
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": 2,
+    "zh": "无明显座位区",
+    "en": "No seating area"
+   },
+   "linger": {
+    "value": 20,
+    "from": 2,
+    "zh": "站喝为主，无明显座位区",
+    "en": "Standing bar, no seating area"
+   },
+   "adventure": {
+    "value": 50,
+    "from": 1,
+    "zh": "提供手冲咖啡",
+    "en": "Offers pour-over coffee"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:35Z"
+}

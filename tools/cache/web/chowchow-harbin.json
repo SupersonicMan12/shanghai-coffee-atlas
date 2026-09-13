@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "店内长期设立'小狗中介所'领养角，展示待领养宠物信息",
+      "kind": "people",
+      "quote": "店内长期设立\"小狗中介所\"领养角,展示待领养宠物的照片,健康状况与救助故事",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为7:30至18:30",
+      "kind": "time",
+      "quote": "咖啡馆的营业时间为7:30至18:30",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site": "百度百科"
+    },
+    {
+      "text": "店名源于主理人曾饲养的松狮犬，为纪念而命名",
+      "kind": "story",
+      "quote": "店名源于主理人曾饲养的松狮犬,为纪念这位特殊的家庭成员而命名.",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site": "百度百科"
+    },
+    {
+      "text": "提供芭乐冰美式等特色饮品",
+      "kind": "drinks",
+      "quote": "提供包括芭乐冰美式在内的饮品",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site": "百度百科"
+    },
+    {
+      "text": "位于上海虹口区哈尔滨路153号，街角咖啡馆",
+      "kind": "space",
+      "quote": "这是一家位于街角的咖啡馆",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "chowchow松狮咖啡",
+      "url": "https://baike.baidu.com/item/chowchow松狮咖啡/68111970",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "ChowChowCoffee松獅咖啡（五角場店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-131941752/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "唤醒长假多巴胺,园区宝藏咖啡馆合集来了~",
+      "url": "https://www.thepaper.cn/newsDetail_forward_28946927",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "Chow Chow Coffee",
+      "url": "https://baike.baidu.com/en/item/Chow%20Chow%20Coffee/2734922",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "看海躺平喝咖啡,这座海滨城市也太舒服了!",
+      "url": "https://zhuanlan.zhihu.com/p/2081073374114100775",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:41:17Z"
+}

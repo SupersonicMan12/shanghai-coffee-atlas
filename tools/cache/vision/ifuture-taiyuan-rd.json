@@ -1,0 +1,71 @@
+{
+  "cafeId": "ifuture-taiyuan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f73009c289b6",
+  "photos": [
+    "https://aos-comment.amap.com/B0I1GYWN0K/comment/content_media_external_file_103206_ss__1763431580270_44060048.jpg",
+    "https://aos-comment.amap.com/B0I1GYWN0K/comment/content_media_external_file_103205_ss__1763431580347_92569556.jpg",
+    "https://aos-comment.amap.com/B0I1GYWN0K/comment/content_media_external_file_103181_ss__1763431580343_08028165.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "有拿铁、美式、手冲咖啡等饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶拿铁、开心拿铁等特色奶咖",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单包含TWG茶系列和冷泡茶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有椰子海盐千层、香草可露丽等甜品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店为小型独立空间，带户外座位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有遮阳伞和桌椅，适合室外坐",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见手冲咖啡器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "营业时间为9:00-18:00",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:24:34Z"
+}

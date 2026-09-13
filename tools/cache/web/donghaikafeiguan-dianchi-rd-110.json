@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "咖啡选用海南岛、云南等地的豆子，坚持使用虹吸壶现煮。",
+      "kind": "beans",
+      "quote": "其咖啡选用海南岛、云南等地的咖啡豆，并坚持使用虹吸壶手工现磨现煮",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site": "百度百科"
+    },
+    {
+      "text": "特色饮品包括虹吸壶咖啡与罗宋汤。",
+      "kind": "drinks",
+      "quote": "主要特色:虹吸壶咖啡;罗宋汤;",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site": "百度百科"
+    },
+    {
+      "text": "内部装饰复古，保留黑白马赛克地面。",
+      "kind": "space",
+      "quote": "内部装饰复古,保留黑白马赛克地面等元素。",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site": "百度百科"
+    },
+    {
+      "text": "位于百年历史建筑中，感受旧上海氛围。",
+      "kind": "space",
+      "quote": "主要是感受一下旧上海氛围和情怀",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site": "知乎"
+    },
+    {
+      "text": "适合体验老上海的味道。",
+      "kind": "story",
+      "quote": "在这里体验老上海的味道",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d1218621-Reviews-DongHai_Cafe-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "营业时间至晚上21:00。",
+      "kind": "time",
+      "quote": "营业时间:周一至周日8:00-21:00",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "东海咖啡馆",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "东海咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B8%9C%E6%B5%B7%E5%92%96%E5%95%A1%E9%A6%86/67217652",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "想体验特色咖啡馆，推荐你去这5家看看 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/350527747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "最早“醒来”的咖啡馆，有人8点就来排队，爷叔坐轮椅也要来",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=743496",
+      "site_name": "解放日报"
+    },
+    {
+      "index": 5,
+      "title": "宝藏探店项目又回来了!东海咖啡馆了解一下→",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32204584",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "宝藏探店项目又回来了！东海咖啡馆了解一下→ - 上海市黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251218/d264b36f-26d0-4f88-99cd-6cd24fdc86c4.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "东海咖啡馆(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d1218621-Reviews-DongHai_Cafe-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "東海咖啡館(上海外灘核心區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/donghai-cafe-61946488/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "新消费派 | 从一颗豆到一座城——透视上海“咖啡经济”的世界坐标",
+      "url": "https://finance.eastmoney.com/a/202508143484458825.html",
+      "site_name": "东方财富网"
+    },
+    {
+      "index": 10,
+      "title": "东海咖啡馆- 日记- 豆瓣",
+      "url": "https://m.douban.com/note/856986623/",
+      "site_name": "豆瓣"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:04Z"
+}

@@ -1,0 +1,394 @@
+{
+  "cafeId": "mineur-cafe-siping-rd-1805-11",
+  "query": {
+    "location": "121.509787,31.289041",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:10:52Z",
+  "matchedPoiId": "B0M6OHLLX8",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "7",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/4bce738378e4a9af4bcf205febd843fe"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0M6OHLLX8/comment/0198D5FF_7272_4BFF_867B_6399D20B5E6A_L0_001_1512_201_1770688033944_37040977.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/f750170cd3d0f66c0000002901436803?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17321195589",
+        "id": "B0M6OHLLX8",
+        "tag": "双人餐",
+        "entr_location": "121.50986688540158,31.289012222453643",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "双人餐",
+        "name": "Mineur cafe矿煮咖啡",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周日 06:00-18:00",
+          "rating": "4.2",
+          "open_time": "06:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 12:09:04",
+        "website": [],
+        "address": "四平路1805-11号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.509787,31.289044",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/a1761334239757f90000003139480256?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1a115e9459e197f20000003139478450?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0MUGCM8TV",
+        "tag": "柠檬茶,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": [],
+        "atag": "柠檬茶,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(国权路地铁站1号口店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "135",
+        "importance": [],
+        "biz_ext": {
+          "cost": "18.00",
+          "opentime2": "周一至周五 06:30-17:00；周六至周日 08:00-17:30",
+          "rating": "3.9",
+          "open_time": "08:00-17:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744022",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-06 13:51:19",
+        "website": [],
+        "address": "四平路与国权路交叉口东北60米(国权路地铁站1号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.510783,31.289909",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0I295IS49",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0FFMB0NE2",
+        "tag": "西柚冰萃咖啡,厚乳拿铁,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,生椰拿铁,杨枝甘露",
+        "entr_location": [],
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "五角场",
+        "childtype": "202",
+        "atag": "西柚冰萃咖啡,厚乳拿铁,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,陨石拿铁,菠萝的海瑞纳冰,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,生椰拿铁,杨枝甘露",
+        "name": "瑞幸咖啡(杨浦复旦科技园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "214",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 08:00-18:00",
+          "rating": "4.1",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744011",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 21:47:15",
+        "website": [],
+        "address": "国泰路11号复旦科技园大厦主楼一层大堂",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507839,31.288068",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KVUZ",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGRYVMT2/comment/7D3810D2_CD75_46F9_A9EE_CE3CF26BA79F_L0_001_IMG_8767_1657687760483_a6749547.JPG"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0IGRYVMT2/comment/52F50870_04F1_46C1_9991_BE874DF8FA4F_L0_001_00D1D1B5-8FEF-4C16-A969-53692E91ECAF-L0-001_1657687760483_0a256438.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/0073c144b32a22670000000972346422?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0IGRYVMT2",
+        "tag": "coffee",
+        "entr_location": "121.507805,31.290606",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "320",
+        "atag": "coffee",
+        "name": "Sven Coffee(复旦大学店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "255",
+        "importance": [],
+        "biz_ext": {
+          "cost": "26.00",
+          "opentime2": "周一至周日 07:00-21:00",
+          "rating": "4.1",
+          "open_time": "07:00-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 02:50:23",
+        "website": [],
+        "address": "国权路334号(国权路地铁站4号口步行220米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507926,31.290696",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KEKS",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://aos-cdn-image.amap.com/sns/ugccomment/dcfe053b-5711-41b7-a2d4-a86dcbcc1db6.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1d88fea4fbdf557993e7cb5005e5ff70"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H0GHE3QD/comment/B0E0FFF0_53FC_404F_8A35_726C071494F3_L0_001_1500_200_1766768165384_85227972.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "杨浦区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13472516798",
+        "id": "B0H0GHE3QD",
+        "tag": "coffee,单人餐",
+        "entr_location": "121.507728,31.290483",
+        "adcode": "310110",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "四平路",
+        "childtype": "320",
+        "atag": "coffee,单人餐",
+        "name": "ChowChowCoffee松狮咖啡(国权路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "267",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周五 06:30-18:30；周六至周日 08:30-18:30",
+          "rating": "4.3",
+          "open_time": "06:30-18:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621744021",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:39:18",
+        "website": [],
+        "address": "国权路333弄18号-7商铺",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.507538,31.290483",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

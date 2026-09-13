@@ -1,0 +1,71 @@
+{
+  "cafeId": "mengongfang-tangqiao",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "70a8d09ad07e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7f1aca0962ac645b98251b3562c8bef7",
+    "http://store.is.autonavi.com/showpic/6b197adfe38e6c3d702a5c72c836aa29",
+    "http://store.is.autonavi.com/showpic/290ff09769a801188cc48902628cf11d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "临街单层店面，黄色立柱标‘梦工坊’，玻璃门+大面积临街玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招含英文‘Dream Workshop & Coffee’及飞鸟标志，右侧有‘Tang’字样招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见货架陈列商品，未见吧台、磨豆机、手冲或虹吸等专业咖啡器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图显示店前人行道有树与白色条纹花箱，无室外座位",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中店内左侧可见一辆自行车，未见顾客或工作人员",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "三张图均未显示菜单、饮品名称、食物实物或价格信息",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "店面宽度约4–5米，入口为双开玻璃门，内部纵深有限，属小型临街店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街玻璃通透，采光依赖自然光，但无法判断室内具体照明或朝向",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:43Z"
+}

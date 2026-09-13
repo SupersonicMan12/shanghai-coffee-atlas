@@ -1,0 +1,71 @@
+{
+  "cafeId": "kubrick-qiantantaiguli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ab7140639d46",
+  "photos": [
+    "https://aos-comment.amap.com/B0HKUCW5C9/comment/a46198a902a4717da8e2847f77f6ad8d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I64S0CWF/comment/content_media_external_images_media_217557_ss__1755254949188_02821796.jpg",
+    "https://aos-comment.amap.com/B0I64S0CWF/comment/D01C7C38_759B_4E4B_8B39_D0D2AE4F33B7_L0_001_1280_170_1759015227243_97495703.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "书店内有大量书籍和电影海报展示",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有阅读座位，有人正在使用",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有书架和多幅电影主题装饰画",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有玻璃门和透明橱窗，可见内部布局",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有立式菜单牌和宣传板",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有咖啡区标识，提供咖啡与轻食服务",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间为复合型书店，结合图书、咖啡与展览功能",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有悬挂的蓝色艺术装置，增强文化氛围",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:59Z"
+}

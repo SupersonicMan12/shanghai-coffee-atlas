@@ -1,0 +1,80 @@
+{
+  "cafeId": "ifuture-taiyuan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b371373b5672",
+  "raw": {
+    "headline": {
+      "zh": "科学主题咖啡馆",
+      "en": "Science-themed cafe"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供拿铁、美式、手冲及特色奶咖",
+        "en": "Serves lattes, Americanos, pour-over, and flavored milk coffees",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有椰子海盐千层、香草可露丽等甜品",
+        "en": "Offers coconut sea salt mille-feuille and vanilla canelé",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "小型空间带户外座位，配遮阳伞桌椅",
+        "en": "Compact space with outdoor seating under umbrellas",
+        "from": [
+          5,
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "由生物样本库创业者周学迅创办",
+        "en": "Founded by biobank entrepreneur Zhou Xuexun",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间9:00-18:00",
+        "en": "Open daily 9:00–18:00",
+        "from": [
+          8,
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          7
+        ],
+        "zh": "提供手冲与特色奶咖",
+        "en": "Pour-over and specialty milk drinks"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          6,
+          9
+        ],
+        "zh": "设户外座位适合久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:19Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "we-lucky-coffee-jingan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6b1a16f33822",
+  "raw": {
+    "headline": {
+      "zh": "站喝小吧，现磨咖啡",
+      "en": "Stand-up bar with fresh brew"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "门外有3个带遮阳伞的室外座位",
+        "en": "3 outdoor seats with umbrellas outside",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用巴西、埃塞俄比亚等地阿拉比卡豆",
+        "en": "Arabica beans from Brazil, Ethiopia, etc.",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "采用工厂烘焙豆搭配半自动设备现磨",
+        "en": "Factory-roasted beans, brewed on semi-auto",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-23:00",
+        "en": "Open daily 7:00–23:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "仅设室外站座，适合快取",
+        "en": "Only standing spots, quick grab"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "临街落地窗，人流可见",
+        "en": "Street-facing glass, visible to passers"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:37Z"
+}

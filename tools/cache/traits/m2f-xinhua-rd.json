@@ -1,0 +1,70 @@
+{
+ "cafeId": "m2f-xinhua-rd",
+ "model": "qwen-max",
+ "inputDigest": "5d45c6d05fc3",
+ "raw": {
+  "headline": {
+   "zh": "聋人主理，为聋哑咖啡师提供支持",
+   "en": "Deaf owner, supports deaf baristas"
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "主理人小宋是聋人，热心慈善活动",
+    "en": "Owner is deaf, active in charity",
+    "from": "[12, 13]"
+   },
+   {
+    "kind": "space",
+    "zh": "藏在老洋房里，弧形窗透光",
+    "en": "In old house, curved windows for light",
+    "from": "[9]"
+   },
+   {
+    "kind": "beans",
+    "zh": "两款精选豆子，耶加雪菲带柑橘香",
+    "en": "Two select beans, Yirgacheffe with citrus",
+    "from": "[10]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "澳白丝滑奶泡包裹醇厚咖啡",
+    "en": "Silky flat white, rich and creamy",
+    "from": "[11]"
+   },
+   {
+    "kind": "seating",
+    "zh": "设3张高脚桌+4把吧椅，无固定户外座位",
+    "en": "3 high tables, 4 bar stools, no outdoor seating",
+    "from": "[1, 7]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": "[6]",
+    "zh": "无人使用笔记本电脑",
+    "en": "No one using laptops"
+   },
+   "energy": {
+    "value": 30,
+    "from": "[6, 7]",
+    "zh": "室内有至少2名工作人员操作",
+    "en": "At least 2 staff working inside"
+   },
+   "linger": {
+    "value": 40,
+    "from": "[1, 7]",
+    "zh": "有高脚桌和吧椅但无固定户外座位",
+    "en": "High tables, no fixed outdoor seats"
+   },
+   "adventure": {
+    "value": 50,
+    "from": "[3, 10, 11]",
+    "en": "Hand-brewed coffee, selective beans",
+    "zh": "手冲咖啡，精选豆子"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:38Z"
+}

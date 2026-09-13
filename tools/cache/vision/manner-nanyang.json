@@ -1,0 +1,71 @@
+{
+  "cafeId": "manner-nanyang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "624a82782852",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1769052263715_10594955_1769052315265_15273421.jpg",
+    "https://aos-comment.amap.com/B0FFHIGY5F/comment/D3E96872_F199_482C_86C1_4E63DD9AE472_L0_001_1500_200_1761803775183_10482226.jpg",
+    "https://store.is.autonavi.com/showpic/6204f53b15caff0a0000002267738640?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层小店，门面窄，有蓝色遮阳棚与绿色铁栅门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见黑色磨豆机、意式咖啡机、叠放纸杯与两台平板点单设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台为金属台面，墙面贴白色小方格瓷砖，上方挂食品安全信息公示栏。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外停放多辆电动车与自行车，无室外座位区域可见。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "手持杯身印MANNER三角标，杯盖为带红色心形凸起的透明塑料盖。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "门旁贴有红色酒类广告海报，右侧墙贴菜单与二维码，地址牌显示‘205 南阳路’。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前立牌写‘南阳路 扫码点单’及英文‘MAKE COFFEE PART OF YOUR LIFE’。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内未见座位、书架、植物、宠物或使用电脑的人。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:16Z"
+}

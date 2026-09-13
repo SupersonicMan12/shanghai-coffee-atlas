@@ -1,0 +1,75 @@
+{
+  "cafeId": "manner-coffee-jiafeng-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "387d99440d07",
+  "raw": {
+    "headline": {
+      "zh": "街角站喝小馆",
+      "en": "Corner standing bar cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街玻璃窗，站喝模式，面积小",
+        "en": "Street-facing glass, standing-only, compact space",
+        "from": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌燕麦拿铁、冰甜，早期口碑高",
+        "en": "Popular oat milk latte and iced sweet, early standout",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "自建烘焙工坊，意式豆常推限定款",
+        "en": "In-house roastery, limited-edition espresso beans",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:00，不支持夜宵",
+        "en": "Closes at 5 PM, no late hours",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          7
+        ],
+        "zh": "站喝小店，不适久坐",
+        "en": "Standing-only, not for lingering"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "空间小，难专注办公",
+        "en": "Small space, not ideal for focus"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "On busy corner, visible to passersby"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:44Z"
+}

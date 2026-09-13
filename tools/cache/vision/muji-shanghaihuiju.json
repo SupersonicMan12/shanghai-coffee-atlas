@@ -1,0 +1,71 @@
+{
+  "cafeId": "muji-shanghaihuiju",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "291404189e0a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/c1a039038b59e5550000003039788067?type=pic",
+    "https://store.is.autonavi.com/showpic/c3bf9c14fa4986a40000002359864039?type=pic",
+    "https://store.is.autonavi.com/showpic/502b44ce5c0ada090000003765580004?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内空间宽敞，为商场内大空间布局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "陈列有多种包装食品，如零食和干货",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有服装展示区，有模特穿着衣物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见木质货架和圆形多层展示架，陈列整齐",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板裸露管道与金属结构，工业风格装修",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有顾客在店内浏览商品",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有绿植点缀，环境整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "商品以袋装形式为主，标签清晰",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:37Z"
+}

@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "text": "自家烘焙豆子，更新快，浅烘深烘均有",
+      "kind": "beans",
+      "quote": "意式和手冲都很能打, 自烘豆单更新快",
+      "url": "https://chihe.sohu.com/a/730101355_113612",
+      "site": "搜狐网"
+    },
+    {
+      "text": "招牌澳白使用浅烘日晒埃塞SOE，风味层次饱满",
+      "kind": "drinks",
+      "quote": "用浅烘的日晒埃塞SOE, 风味层次很饱满",
+      "url": "https://chihe.sohu.com/a/730101355_113612",
+      "site": "搜狐网"
+    },
+    {
+      "text": "空间小但人潮满满的实力派小店",
+      "kind": "space",
+      "quote": "藏身喺靜安區巷弄裡面，麻雀雖小卻人潮滿滿",
+      "url": "http://m.dianping.com/shop/1728944562?msource=applemaps",
+      "site": "【D.ORINO COFFEE】电话_地址_价格_营业时间_同乐坊/江宁路 ..."
+    },
+    {
+      "text": "店主擅长突出咖啡风土的多样性和正面风味",
+      "kind": "story",
+      "quote": "店主很擅长烘出豆子本身的独特性及正面风味",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 2,
+      "title": "最近有哪些值得一喝再喝的新咖啡店? ",
+      "url": "https://chihe.sohu.com/a/730101355_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "D.ORINO COFFEE-菜-浓缩咖啡图片-上海 - 大众点评",
+      "url": "https://www.dianping.com/shop/H5NU3TYNj5z2UtE4/photos/tag-%E8%8F%9C-%E6%B5%93%E7%BC%A9%E5%92%96%E5%95%A1",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "D.ORINO COFFEE-菜图片-上海-第18页-大众点评网",
+      "url": "https://www.dianping.com/shop/H5NU3TYNj5z2UtE4/photos/tag-%E8%8F%9C?pg=18",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【D.ORINO COFFEE】电话_地址_价格_营业时间_同乐坊/江宁路 ...",
+      "url": "http://m.dianping.com/shop/1728944562?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:59:56Z"
+}

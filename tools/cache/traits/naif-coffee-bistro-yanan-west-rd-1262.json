@@ -1,0 +1,74 @@
+{
+  "cafeId": "naif-coffee-bistro-yanan-west-rd-1262",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ea62337e4d20",
+  "raw": {
+    "headline": {
+      "zh": "百年泳池二楼，南法风带池景",
+      "en": "South of France vibe with pool view"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "走廊位和户外座可看蓝色池水",
+        "en": "Pool views from corridor and outdoor seats",
+        "from": [
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供日式牛肉饭、沙拉和三明治",
+        "en": "Serves Japanese beef bowl, salads, sandwiches",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品含冰镇气泡水和瓶装果汁",
+        "en": "Offers sparkling water and bottled juice",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内桌椅紧凑，有绿色大理石与木墩桌",
+        "en": "Compact indoor seating with marble and wood tables",
+        "from": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周末10:00-22:00，建议提前订位",
+        "en": "Open weekends 10–22; booking recommended",
+        "from": [
+          14,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        "zh": "有餐桌餐具，可坐享池景美食",
+        "en": "Seated dining with tableware and views"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:49Z"
+}

@@ -1,0 +1,51 @@
+{
+  "cafeId": "tap-that-ruijiner-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "811cba6b24f3",
+  "raw": {
+    "headline": {
+      "zh": "精酿啤酒专营",
+      "en": "Craft beer focus"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "主营精酿啤酒，非咖啡饮品",
+        "en": "Specializes in craft beer, not coffee",
+        "from": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨1点，周末14:00开门",
+        "en": "Closes at 1 AM, opens 2 PM weekends",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "晚间营业时间长，人多热闹",
+        "en": "Long hours, lively crowd"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4
+        ],
+        "zh": "深夜仍营业，适合久坐",
+        "en": "Open late, good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:23Z"
+}

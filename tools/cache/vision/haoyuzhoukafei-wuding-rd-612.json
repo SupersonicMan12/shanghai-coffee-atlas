@@ -1,0 +1,71 @@
+{
+  "cafeId": "haoyuzhoukafei-wuding-rd-612",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3157c48dcd86",
+  "photos": [
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/191baeb1819cf9faa71c2314547183b4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/34F23868_59D7_4DD0_8368_5FA632152FB2_L0_001_1502_200_1771917735587_07529717.jpg",
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/1354321E_DC33_426C_A0DB_D9773FBC3761_L0_001_1500_200_1771917735592_73824437.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和少量座位",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位为可移动的箱式座椅，数量较少",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见手冲咖啡设备及磨豆机等专业器具",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客在使用座位",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口设有临街玻璃门，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上贴有品牌宣传海报，无明显菜单或价格信息",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品为拿铁拉花，盛于深色陶瓷杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植，室内有风扇和木质天花板",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:01Z"
+}

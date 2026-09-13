@@ -1,0 +1,58 @@
+{
+  "cafeId": "freedomcoffee-benxi-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6b9eb57b7733",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1bc40ea550604cd70000001744414640?type=pic",
+    "https://store.is.autonavi.com/showpic/8151761c76972028bbf562a0d5a78825",
+    "https://store.is.autonavi.com/showpic/f2c6a2cc342122ed0000001744394902?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面入口处有蓝色遮阳篷和石墙装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为现代简约风格，墙面有艺术画作",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有灰色沙发卡座和圆形小桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立有咖啡主题的宣传广告牌",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内摆放有绿植，环境整洁",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "营业时间为上午10点至晚上10点",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:03Z"
+}

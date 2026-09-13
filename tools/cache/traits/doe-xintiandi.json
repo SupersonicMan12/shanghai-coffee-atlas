@@ -1,0 +1,70 @@
+{
+ "cafeId": "doe-xintiandi",
+ "model": "qwen-max",
+ "inputDigest": "67f92fc962e8",
+ "raw": {
+  "headline": {
+   "zh": "街头文化与精品咖啡的完美结合",
+   "en": "Streetwear and specialty coffee in harmony"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "木质墙面配黑色金属层架，陈列黑胶唱片",
+    "en": "Wooden walls with black metal shelves, vinyl records on display",
+    "from": "[1]"
+   },
+   {
+    "kind": "view",
+    "zh": "临街落地玻璃窗，窗外绿树、街道与车辆",
+    "en": "Street-facing glass windows, green trees and vehicles outside",
+    "from": "[2]"
+   },
+   {
+    "kind": "seating",
+    "zh": "靠窗设长条木吧台，配4张黑色金属高脚凳",
+    "en": "Long wooden bar by the window, 4 black metal stools",
+    "from": "[3]"
+   },
+   {
+    "kind": "beans",
+    "zh": "每一杯咖啡来自自家烘焙的亚非拉优质豆",
+    "en": "Coffee from self-roasted beans, sourced from Asia, Africa, Latin America",
+    "from": "[8]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日10:00-22:00",
+    "en": "Open daily from 10:00 to 22:00",
+    "from": "[16]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": "[3]",
+    "zh": "有长条吧台和高脚凳",
+    "en": "Long bar, high stools"
+   },
+   "energy": {
+    "value": 60,
+    "from": "[2]",
+    "zh": "临街，可见街道与车辆",
+    "en": "Street-facing, visible traffic"
+   },
+   "linger": {
+    "value": 70,
+    "from": "[3][10]",
+    "zh": "设有吧台和免费Wi-Fi",
+    "en": "Bar, free Wi-Fi"
+   },
+   "adventure": {
+    "value": 80,
+    "from": "[8]",
+    "zh": "自家烘焙精品豆",
+    "en": "Self-roasted specialty beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:12Z"
+}

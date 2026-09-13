@@ -1,0 +1,59 @@
+{
+  "cafeId": "mujikafei-guilin-rd-68",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3766453616b4",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHYQKV0/comment/content_media_external_file_113964_ss__1746585405715_33896221.jpg",
+    "https://aos-comment.amap.com/B0FFHYQKV0/comment/content_media_external_file_113945_ss__1746585405598_95876485.jpg",
+    "https://aos-comment.amap.com/B0FFHYQKV0/comment/6CC75ABD_195A_461F_BFDA_2BBA4BE1A2A9_L0_001_1500_200_1763162807650_37643079.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅，座位较多",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大玻璃窗，采光良好",
+      "kind": "light|view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外可见绿树和街道",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品包括拿铁（有拉花）和冰咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内装修风格简约，有编织吊灯",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面为独立小楼，临街",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:49Z"
+}

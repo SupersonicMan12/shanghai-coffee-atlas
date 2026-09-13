@@ -1,0 +1,40 @@
+{
+  "facts": [
+    {
+      "text": "适合安静地坐坐，享受音乐和咖啡。",
+      "kind": "space",
+      "quote": "很适合在这坐坐以后还  OAOA All Day Chill",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F944155FC0DE&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "招牌饮品为维也纳咖啡，貌美又好喝。",
+      "kind": "drinks",
+      "quote": "招牌的「维也纳咖啡」貌美又好喝！",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F944155FC0DE&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Metal hands Tieshou Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F944155FC0DE&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "值友故事:好咖啡要分享,我的日常豆单笔记(八) ",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405286544629432477",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "意式咖啡进阶必看!重度咖啡控8支私藏SOE豆子,每一支都是惊喜 ",
+      "url": "https://post.smzdm.com/p/anv3z2r2/",
+      "site_name": "什么值得买"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:09Z"
+}

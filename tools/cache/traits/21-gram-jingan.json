@@ -1,0 +1,28 @@
+{
+ "cafeId": "21-gram-jingan",
+ "model": "qwen-max",
+ "inputDigest": "86428942aaaf",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为现场称重21克的咖啡",
+    "en": "Signature drink: 21g dose weighed in front of you",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "站立式酒吧，适合快速饮用",
+    "en": "Standing bar, quick sip"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:09Z"
+}

@@ -1,0 +1,71 @@
+{
+  "facts": [
+    {
+      "text": "咖啡陪你是韩国连锁品牌",
+      "kind": "story",
+      "quote": "咖啡陪你管理有限公司成立于2012年",
+      "url": "https://baike.baidu.com/item/%E5%92%96%E5%95%A1%E9%99%AA%E4%BD%A0%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/5942852",
+      "site": "百度"
+    },
+    {
+      "text": "提供多种咖啡和甜品",
+      "kind": "drinks",
+      "quote": "很適合和閨蜜一同前來坐坐的，環境很安靜，茶品種類也挺多的",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/kafeipeini-caffebene-hongquanlu-11178308",
+      "site": "咖啡陪你（虹泉路店） (上海光大會展中心/漕河涇地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "价格不贵",
+      "kind": "story",
+      "quote": "價格也不貴，很適合放慢生活節奏",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/kafeipeini-caffebene-hongquanlu-11178308",
+      "site": "咖啡陪你（虹泉路店） (上海光大會展中心/漕河涇地區)－餐牌 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "咖啡陪你CaffeBene(虹泉路店)-图片-上海-第37页-大众点评网",
+      "url": "https://www.dianping.com/shop/11562494/photos?pg=37",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "咖啡陪你（虹泉路店） (上海光大會展中心/漕河涇地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/kafeipeini-caffebene-hongquanlu-11178308",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Caffe Bene咖啡陪你(川沙玛雅店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d10775367-Reviews-Caffe_Bene_Chuasha_Maya-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "好chill~在黄浦江边喝着咖啡吹江风-上海虹口企业服务云",
+      "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002004/20240823/58a32fd2-7576-412f-b581-54c17940d74e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "咖啡陪你管理有限公司_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%92%96%E5%95%A1%E9%99%AA%E4%BD%A0%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/5942852",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "Caffe Bene (Wuzhen Xizha Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118368617386390&lsp=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:13Z"
+}

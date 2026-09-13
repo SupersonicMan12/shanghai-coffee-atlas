@@ -1,0 +1,58 @@
+{
+  "cafeId": "hefa-coffee-panyu-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4cb3b0196ad8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/183346426d9bb7420000002349970425?type=pic",
+    "https://store.is.autonavi.com/showpic/ee01fafd806cef270000005603926757?type=pic",
+    "https://store.is.autonavi.com/showpic/5048865280e776330000005603928513?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，临街玻璃窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台和少量座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "大面积临街玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外台阶上有两人坐着休息。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停放一辆电动车。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "旁边有另一家茶饮店（茶百道）。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:56Z"
+}

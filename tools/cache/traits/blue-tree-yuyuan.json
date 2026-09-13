@@ -1,0 +1,40 @@
+{
+ "cafeId": "blue-tree-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "ca750c35cab2",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品是全天供应的大美式咖啡",
+    "en": "Signature drink: Big americano, all day long",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 10,
+    "from": 1,
+    "zh": "适合简单使用而非深度工作",
+    "en": "Suitable for casual use, not deep work"
+   },
+   "energy": {
+    "value": 10,
+    "from": 1,
+    "zh": "不太热闹，比较安静",
+    "en": "Quiet, not very lively"
+   },
+   "linger": {
+    "value": 50,
+    "from": 1,
+    "zh": "可以坐一会儿但不是久坐型",
+    "en": "Can sit a while, not for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:20Z"
+}

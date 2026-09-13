@@ -1,0 +1,66 @@
+{
+  "cafeId": "hc-coffee-bar-guangyue-rd-76",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e2f322bd85fc",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/eedc515f9867577d84c9c31d19662eea",
+    "https://aos-comment.amap.com/B0K2LZIHQK/comment/content_media_external_images_media_75143_ss__1735288103706_78800107.jpg",
+    "https://aos-comment.amap.com/B0K2LZIHQK/comment/content_media_external_images_media_75140_ss__1735288103705_59170792.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街玻璃幕墙建筑内，有落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有紫色灯光装饰，氛围偏现代夜店风格",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为绿色和粉红色鸡尾酒，顶部有泡沫和可食用花装饰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供玉米片和螺旋状水果作为配食",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗外可见城市夜景与装饰灯串，可能在较高楼层",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯型精致，摆盘讲究，适合拍照",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内空间较暗，以灯光营造氛围",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:39Z"
+}

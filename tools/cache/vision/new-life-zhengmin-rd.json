@@ -1,0 +1,53 @@
+{
+  "cafeId": "new-life-zhengmin-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "05c35bc38870",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFICHZQH/comment/82e88ba4c593b7126abcbe4456e3e1de_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFICHZQH/comment/4879F3ED_8E69_424B_89AD_4A9094A618E8_L0_001_1500_200_1761540307730_34237976.jpg",
+    "https://store.is.autonavi.com/showpic/a8d2aca9fe7261e76f7c3d57964c18e6"
+  ],
+  "photoKinds": [
+    "food",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型街边店，有室外桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为拿铁，有精美拉花",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为一块多层蛋糕，顶部有绿色奶油和装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有两张黑色小桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，有玻璃窗但未见明显采光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:52Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "sunset-ab-yanqinglu54nongxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3ce662de353a",
+  "raw": {
+    "headline": {
+      "zh": "店主健谈会推荐菜单",
+      "en": "Chatty local owner recommends orders"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "店主是当地人，健谈且会推荐菜单",
+        "en": "Local, chatty owner recommends what to order",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供紫米包、红豆包（15元）及提子丹麦、肉桂卷（18元）",
+        "en": "Serves purple rice/red bean buns (¥15), raisin danish/cinnamon roll (¥18)",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设一张桌子和一把椅子",
+        "en": "One outdoor table with a single chair",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐冻柠茶",
+        "en": "Frozen lemon tea is recommended",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "仅设一个室外座位",
+        "en": "Only one outdoor seat"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          1
+        ],
+        "zh": "配备手冲器具与专业设备",
+        "en": "Has pour-over setup and pro gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:54Z"
+}

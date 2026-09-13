@@ -1,0 +1,73 @@
+{
+  "cafeId": "baker-spice-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "92222e76a34c",
+  "raw": {
+    "headline": {
+      "zh": "自研拼配豆，覆盖多产区",
+      "en": "House-blend beans from global origins"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "采用自研拼配豆，来源包括埃塞俄比亚、哥伦比亚、云南",
+        "en": "House-blend beans sourced from Ethiopia, Colombia, Yunnan",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "安福路店营业至晚上10:30",
+        "en": "Open until 10:30 PM at Anfu Road location",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有露天位，含HAY座椅与半开放厨房",
+        "en": "Features outdoor seating, HAY chairs, and open kitchen",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "周年庆期间意面享5.4折起优惠",
+        "en": "Pasta discounted up to 46% during anniversary sale",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "安福路店人均约42元",
+        "en": "Average spend around ¥42 at Anfu Road branch",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "有露天位且营业至晚，适合久坐",
+        "en": "Outdoor seats and late hours invite lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "北欧风大店带落地窗与厨房，人气较旺",
+        "en": "Large Nordic-style space with big windows draws crowd"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:53Z"
+}

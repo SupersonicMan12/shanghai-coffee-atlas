@@ -1,0 +1,35 @@
+{
+ "cafeId": "popeline-hongkou",
+ "model": "qwen-max",
+ "inputDigest": "c35c86e93a88",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "招牌甜品为巴黎布雷斯特和长条榛子蛋糕",
+    "en": "Signature pastries: Paris-Brest and long noisette",
+    "from": 8,
+    "+9": 9
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 20,
+    "from": 7,
+    "zh": "照片中未见人或热闹场景",
+    "en": "No people or lively scenes in photos"
+   },
+   "linger": {
+    "value": 30,
+    "from": 7,
+    "zh": "照片中未见座位，可能不便久坐",
+    "en": "No seating visible, may not be for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:43Z"
+}

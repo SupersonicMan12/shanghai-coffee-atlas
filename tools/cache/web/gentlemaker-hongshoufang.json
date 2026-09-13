@@ -1,0 +1,99 @@
+{
+  "facts": [
+    {
+      "text": "以擦鞋为特色的咖啡店，提供专业皮鞋护理服务",
+      "kind": "story",
+      "quote": "这家以擦鞋为特色的咖啡店",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site": "知乎"
+    },
+    {
+      "text": "吧台明亮，右侧是擦鞋台兼接待台",
+      "kind": "space",
+      "quote": "一进门,看到的就是非常明亮的吧台...右边一扫,就能看到擦鞋台,同时也是接待台",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site": "知乎"
+    },
+    {
+      "text": "展台品牌流动，如设计师女鞋品牌riffloop",
+      "kind": "space",
+      "quote": "这个展台的品牌和内容,是流动的...riffloop是一个设计师女鞋品牌",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site": "知乎"
+    },
+    {
+      "text": "整墙护理产品，含Saphir、Bootblack和Mowbray品牌",
+      "kind": "space",
+      "quote": "在展台右手边的墙壁上,就是整墙的护理产品,主要是三个品牌的,Saphir,Bootblack和 Mowbray",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site": "知乎"
+    },
+    {
+      "text": "工作日上班时间客人不少，女性居多",
+      "kind": "people",
+      "quote": "我是工作日的上班时间去的,店里客人不少,女性居多",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site": "知乎"
+    },
+    {
+      "text": "早春得体：融合上海春日玉兰花香和龙眼花蜜",
+      "kind": "drinks",
+      "quote": "早春得体”将上海春日玉兰花香和龙眼花蜜融入咖啡",
+      "url": "https://www.whb.cn/commonDetail/930200",
+      "site": "文汇网"
+    },
+    {
+      "text": "乐口福Dirty：用乐口福可可与意式浓缩融合",
+      "kind": "drinks",
+      "quote": "乐口福Dirty”将香甜可可与油脂饱满的意式浓缩渐次相融",
+      "url": "https://www.whb.cn/commonDetail/930200",
+      "site": "文汇网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "打卡沪上知名特色咖啡店GentleMaker",
+      "url": "https://zhuanlan.zhihu.com/p/565448049",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "太卷了,上海咖啡,大陆第一_超市便利_什么值得买",
+      "url": "https://post.smzdm.com/p/a3dv48xk/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 3,
+      "title": "上海的「 GentleMaker Cafe 」咖啡店氛围怎么样？你最推荐哪些饮品？",
+      "url": "https://www.zhihu.com/question/538267645/answer/3440070433",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "豆花拿铁、乐口福Dirty……收下来自普陀这里的咖啡图鉴",
+      "url": "https://www.whb.cn/commonDetail/930200",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 5,
+      "title": "全静安的咖啡爱好者都在这里了吧……_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "上海首部！在梧桐区开咖啡店要避的“坑”，这份专属指南都有了",
+      "url": "https://www.jfdaily.com/news/detail?id=1170299",
+      "site_name": "解放日报"
+    },
+    {
+      "index": 7,
+      "title": "20年“咖龄”爱好者测评精华!上海这20+家网红咖啡,我全部打卡一遍之后,给出94分:因为特别6～",
+      "url": "https://www.163.com/dy/article/K1FPROFQ05188NOL.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:24:51Z"
+}

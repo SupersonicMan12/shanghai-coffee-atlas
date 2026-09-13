@@ -1,0 +1,71 @@
+{
+  "cafeId": "kuddo-coffee-zhangninglaifushi",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1fdeadf91821",
+  "photos": [
+    "https://aos-comment.amap.com/B0KRZNDF87/comment/c1058c25a873a9cbb8e9287710e5fa52_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRZNDF87/comment/7ca1cc1cc30ed73cca766d093e5a5ae5_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KRZNDF87/comment/b0919089d906a6c374a1cc4e33b0b509_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店位于商场内，临街玻璃幕墙设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外座位区，设在台阶上方平台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有吧台和展示柜，配备咖啡机和磨豆机等设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰咖啡、甜点杯和可颂类面包",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，采光良好，可见绿植景观",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有菜单展示牌，陈列饮品与食物图片",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "户外有宣传立牌，展示促销信息和产品图",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口有植物装饰，环境整洁现代",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:12:46Z"
+}

@@ -1,0 +1,64 @@
+{
+  "cafeId": "cafe-lumiere-zhongnanxincun",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3490fcf5b2a9",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/64046b74d2483ca5ccba02dadafd276c",
+    "https://aos-comment.amap.com/B0GUOC68JP/comment/05110c117f39ecbcba12780a008e3183_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0GUOC68JP/comment/5268f4b1998aaa4c7a9f1f86d5849ddb_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大树遮阴",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内为小型店铺，空间紧凑",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有陈列架，摆放咖啡器具和包装袋",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有木质小桌和桶状座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见绿植点缀，环境有自然感",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "门口停放多辆电动车和自行车",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有暖色灯光照明",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:25:37Z"
+}

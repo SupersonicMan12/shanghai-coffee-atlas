@@ -1,0 +1,71 @@
+{
+  "cafeId": "kanescoffee-hongshen-rd-3998",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cb4b7eb9b50b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8a9afde969d2cf530000000951034456?type=pic",
+    "https://store.is.autonavi.com/showpic/590c3b00323754d00000000951018614?type=pic",
+    "https://aos-comment.amap.com/B0KA5Z8EMQ/comment/CA8785C4_D793_42C4_A254_102FAC88C366_L0_001_2016_151_1770540282093_14921667.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有黑芝麻奶丝绒、花生奶丝绒、草莓奶丝绒三种面包",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "黑芝麻奶丝绒售价18元，花生奶丝绒售价18元，草莓奶丝绒售价19元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外有绿色座椅和遮阳棚，设有室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质桌椅，空间整洁，设有一棵装饰圣诞树",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有柜台和展示柜，背景可见烘焙设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺临街，有大面积玻璃窗和透明顶棚",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台区域，陈列菜单和食品展示柜",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外招牌标明提供奶油面包、可颂、蛋糕",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:27Z"
+}

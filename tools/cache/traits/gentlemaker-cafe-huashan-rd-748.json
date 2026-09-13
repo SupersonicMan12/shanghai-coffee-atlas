@@ -1,0 +1,67 @@
+{
+  "cafeId": "gentlemaker-cafe-huashan-rd-748",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "2c484f61a9dc",
+  "raw": {
+    "headline": {
+      "zh": "椰香花香限定咖啡",
+      "en": "Coconut & floral limited coffees"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含椰子味特色咖啡",
+        "en": "Signature coconut-flavored coffee available",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "限定Dirty咖啡带花香味",
+        "en": "Limited-edition floral-scented Dirty coffee",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供多种烘焙方式与风味的咖啡豆",
+        "en": "Offers beans with varied roast profiles",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "拥有独特拼配如温柔拼配",
+        "en": "Features unique blends like 'Gentle Blend'",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至18:00",
+        "en": "Open daily until 6 PM",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          9,
+          10,
+          12,
+          13
+        ],
+        "zh": "多款风味限定与拼配",
+        "en": "Varied roasts, blends, and specials"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:28Z"
+}

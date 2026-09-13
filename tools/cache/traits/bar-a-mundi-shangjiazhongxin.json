@@ -1,0 +1,67 @@
+{
+  "cafeId": "bar-a-mundi-shangjiazhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b7fa8dfbe947",
+  "raw": {
+    "headline": {
+      "zh": "西餐配香槟咖啡",
+      "en": "Champagne, coffee with Western fare"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "儿童套餐68元含田鸡排堡等",
+        "en": "Kids' meal ¥68 includes frog leg burger",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供香槟，组合价888元含国王蛋糕",
+        "en": "Champagne available; ¥888 set with king cake",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设吧台与高脚凳，座位少量",
+        "en": "Bar counter with stools, limited seating",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日11:00-21:00营业",
+        "en": "Open daily 11:00–21:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "座位少且为吧台式",
+        "en": "Limited bar-style seating"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          2,
+          4,
+          6
+        ],
+        "zh": "提供香槟及高价饮品组合",
+        "en": "Offers champagne and premium drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:12Z"
+}

@@ -1,0 +1,65 @@
+{
+  "cafeId": "leimi-yongkang-rd-88",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "fd48e8a3792c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1921a1c3d05c3bd40000002363104587?type=pic",
+    "https://aos-comment.amap.com/B00156O26N/comment/content_media_external_images_media_1000039931_ss__1748673879787_90747413.jpg",
+    "https://aos-comment.amap.com/B00156O26N/comment/5a134c99e27e45132533e79b1b3abbb3_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街老洋房建筑，二层有拱形窗，一楼是深色木门面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内桌上有咖啡杯、奶油蛋糕和奶盅，铺花纹桌垫。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上摆玻璃茶壶和两个白瓷杯，盛浅色茶汤。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外人行道上站着几位顾客，似在等位或闲聊。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面正对马路，有斑马线和交通灯，街道开阔。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一楼窗户为多格玻璃窗，非落地窗，采光一般。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见吧台、烘焙机或手冲设备，无书架与绿植。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:05:18Z"
+}

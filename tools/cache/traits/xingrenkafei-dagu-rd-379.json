@@ -1,0 +1,89 @@
+{
+  "cafeId": "xingrenkafei-dagu-rd-379",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "deeff013e652",
+  "raw": {
+    "headline": {
+      "zh": "特色果味冷萃",
+      "en": "Unique fruit-flavored cold brews"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供芭乐美式、菠萝冷萃等特调饮品",
+        "en": "Offers fruit-flavored specialty drinks like guava americano and pineapple cold brew",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "space|light|view",
+        "zh": "整面临街玻璃窗，可见室外绿化",
+        "en": "Full-length street-facing glass windows with view of outdoor greenery",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "部分饮品价格为8.8元至25元",
+        "en": "Some drinks priced between 8.8 and 25 yuan",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "菜单展示柜内有烘焙设备和罐装商品",
+        "en": "Brewing equipment and packaged goods visible in menu display case",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日08:30-19:00",
+        "en": "Open daily 08:30–19:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "营业时间较早结束",
+        "en": "Closes early"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "临街玻璃窗，外接绿化",
+        "en": "Street-facing with outdoor greenery"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "使用带吸管的塑料杯",
+        "en": "Served in plastic cups with straws"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "提供果味特调饮品",
+        "en": "Unusual fruit-flavored speciality drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:45Z"
+}

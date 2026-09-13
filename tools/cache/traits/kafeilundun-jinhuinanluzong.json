@@ -1,0 +1,58 @@
+{
+  "cafeId": "kafeilundun-jinhuinanluzong",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c2bde48c426c",
+  "raw": {
+    "headline": {
+      "zh": "咖啡配披萨意面",
+      "en": "Coffee with pizza and pasta"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供披萨、华夫饼和意大利面",
+        "en": "Serves pizza, waffles, and pasta",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应冰咖啡、冰拿铁等冷饮",
+        "en": "Offers iced coffee and iced lattes",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有户外座位",
+        "en": "Has outdoor seating",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–22:00营业",
+        "en": "Open daily 08:30–22:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:17Z"
+}

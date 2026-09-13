@@ -1,0 +1,40 @@
+{
+ "cafeId": "ailaooo-expo",
+ "model": "qwen-max",
+ "inputDigest": "73188a1485ca",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "木质长凳配小圆桌，还有藤编木椅",
+    "en": "Wooden benches with small tables and rattan chairs",
+    "from": "[3]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品为生椰拿铁",
+    "en": "Signature drink: Coconut latte",
+    "from": "[6], [8]"
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 70,
+    "from": "[5]",
+    "zh": "适合坐下休息的环境",
+    "en": "Good for sitting down"
+   },
+   "adventure": {
+    "value": 20,
+    "from": "[8]",
+    "zh": "提供经典咖啡和下午茶",
+    "en": "Classic coffee and afternoon tea"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:35Z"
+}

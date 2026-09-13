@@ -1,0 +1,398 @@
+{
+  "cafeId": "mr-bond-coffee-shenwang",
+  "query": {
+    "location": "121.420102,31.175475",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:47Z",
+  "matchedPoiId": "B0KRSCGCGU",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KRSCGCGU/comment/51055f1a1d2407d79226805cca1f2571_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KRSCGCGU/comment/content_media_external_file_1000039107_ss__1745111744836_59197475.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0KRSCGCGU/comment/453c435b8b562dca9fc33ea1997a3bac_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17765103222;18217704849",
+        "id": "B0KRSCGCGU",
+        "tag": "双人餐,coffee",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": [],
+        "atag": "双人餐,coffee",
+        "name": "Mr.Bond Coffee邦德咖啡(神旺店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "19.00",
+          "opentime2": "周一至周日 07:00-21:00 2026-02-17至2026-02-23 周一至周日 08:00-17:00",
+          "rating": "4.5",
+          "open_time": "07:00-21:00 08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631301",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 16:00:38",
+        "website": [],
+        "address": "宜山路660号104室(神旺660)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.420099,31.175478",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0HADUE42V",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/165cd51a0ab6eb7b345bc651dc7673bf"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/00e72015b69aa094bd7afc842068e04d"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54640166",
+        "id": "B0H0ODWZ55",
+        "tag": "鲜萃奶咖,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,全麦贝果,拿铁,不止拿铁,巴旦木炼乳澳白,农夫卷,巴旦木炼乳拿铁,柠檬气泡饮,美式,奶咖,奶油",
+        "entr_location": "121.419272,31.175126",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "320",
+        "atag": "鲜萃奶咖,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,全麦贝果,拿铁,不止拿铁,巴旦木炼乳澳白,农夫卷,巴旦木炼乳拿铁,柠檬气泡饮,美式,奶咖,奶油",
+        "name": "Tims咖啡(枫林科创园捷枫店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "97",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周日 07:00-18:00",
+          "rating": "4.2",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631301",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:53:51",
+        "website": [],
+        "address": "宜山路676号-678号(桂林路地铁站1号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.419116,31.175231",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JGLRHA83/comment/content_media_external_file_1000046819_ss__1770171335752_17624522.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0JGLRHA83/comment/202603_09-07215_1773012118612_44176947.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c4eb28ebad978372b36c389c4b488ce5"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JGLRHA83",
+        "tag": "coffee",
+        "entr_location": "121.418441,31.174938",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": [],
+        "atag": "coffee",
+        "name": "Manner Coffee(枫林国际·科创园店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "162",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-17:00",
+          "rating": "4.2",
+          "open_time": "07:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631301",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:29:26",
+        "website": [],
+        "address": "宜山路与桂林路交叉口东220米(桂林路地铁站5号口旁)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.418426,31.175182",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFG4HBLY",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/6279a12797e449d8594a49fd7543f542"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/5eefa57c2b94ccf9199432b762392a4a"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/16a96066765476e70000003189926630?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18701718220",
+        "id": "B0FFFQ0NLZ",
+        "tag": "香蕉奶昔,意大利面,榛子卡布奇诺,巧克力冰沙,美果洋甘菊,抹茶冰沙,焦糖冰沙,美国乳酪蛋糕,原味芝士蛋糕,燕麦蛋糕,小白,经典青酱意面,咖啡冰沙,小白咖啡,摩卡,榴莲慕斯蛋糕,蓝莓芝士蛋糕,温特斯牛排三明治,摩卡拿铁,香草冰沙,coffee",
+        "entr_location": "121.420731,31.177468",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": "香蕉奶昔,意大利面,榛子卡布奇诺,巧克力冰沙,美果洋甘菊,抹茶冰沙,焦糖冰沙,美国乳酪蛋糕,原味芝士蛋糕,燕麦蛋糕,小白,经典青酱意面,咖啡冰沙,小白咖啡,摩卡,榴莲慕斯蛋糕,蓝莓芝士蛋糕,温特斯牛排三明治,摩卡拿铁,香草冰沙,coffee",
+        "name": "温特斯咖啡WINTER'S COFFEE(柳州路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_598779",
+        "distance": "216",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 09:00-22:00",
+          "rating": "4.1",
+          "open_time": "09:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631301",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 12:17:04",
+        "website": [],
+        "address": "柳州路588号圣诺亚广场F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.420566,31.177381",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0HADUE42V",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-64150696",
+        "id": "B0FFH0HZ9G",
+        "tag": "下午茶,单人餐",
+        "entr_location": "121.417313,31.175692",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "320",
+        "atag": "下午茶,单人餐",
+        "name": "星巴克(科创动力店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "232",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周日 07:00-18:00",
+          "rating": "4.5",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621631301",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:40:49",
+        "website": [],
+        "address": "宜山路700号B2幢楼108单元",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.417735,31.175969",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

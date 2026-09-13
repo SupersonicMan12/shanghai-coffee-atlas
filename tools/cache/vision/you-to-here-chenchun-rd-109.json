@@ -1,0 +1,65 @@
+{
+  "cafeId": "you-to-here-chenchun-rd-109",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "eafad269a6b1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/40ac4aa29cf816e57afbfe5ff9faea14",
+    "https://aos-comment.amap.com/B0K0VHFI8Q/comment/content_media_external_file_19599_1769356895687_94849399.jpg",
+    "https://aos-comment.amap.com/B0K0VHFI8Q/comment/content_media_external_file_19599_1769356895685_71871509.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见橙色墙面和白色桌椅",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供咖啡饮品，杯中为奶泡顶的热饮",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供巧克力奶油蛋糕，搭配焦糖酱和装饰花",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐盘旁配Biscoff饼干",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品盛于蓝色杯子，置于金属托盘上",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有蓝色遮阳棚",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:22Z"
+}

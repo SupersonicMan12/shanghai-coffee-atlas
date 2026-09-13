@@ -1,0 +1,76 @@
+{
+  "cafeId": "shanghaipaikafeishanghailaozihao-228jiefang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "40f514bcc022",
+  "raw": {
+    "headline": {
+      "zh": "老式建筑临街落地窗",
+      "en": "Old-style building with floor-to-ceiling street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店面为老式建筑风格，有木质栅栏和绿植",
+        "en": "Old-style building with wooden fence and greenery",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Floor-to-ceiling street-facing windows provide good natural light",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有座位，旁有一棵大树提供遮荫",
+        "en": "Outdoor seating shaded by a large tree",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐卡布奇诺、美式咖啡、奶油",
+        "en": "Recommended drinks: cappuccino, Americano, cream-based coffee",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 08:30-19:30",
+        "en": "Open daily 8:30 AM–7:30 PM",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "采光好但无证据支持办公",
+        "en": "Good light, no work evidence"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有室外座位和遮荫树",
+        "en": "Outdoor seating with shade"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:45:14Z"
+}

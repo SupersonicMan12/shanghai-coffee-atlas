@@ -1,0 +1,104 @@
+{
+  "facts": [
+    {
+      "text": "全店饮品5元起步、14元封顶，主打绝对低价[ref_3][ref_7]",
+      "kind": "story",
+      "quote": "全店饮品5块钱起步,14块钱封顶",
+      "url": "https://www.sohu.com/a/518323070_121120312/",
+      "site": "搜狐"
+    },
+    {
+      "text": "咖啡豆源自巴西、埃塞俄比亚、危地马拉、哥伦比亚四大产区阿拉比卡豆[ref_3]",
+      "kind": "beans",
+      "quote": "所用咖啡豆主要选自巴西、埃塞俄比亚、危地马拉和哥伦比亚四大产区,均为阿拉比卡豆",
+      "url": "https://www.sohu.com/a/518323070_121120312/",
+      "site": "搜狐"
+    },
+    {
+      "text": "门店多为约20平方米街边小店，装修‘土气’、复制快、成本低[ref_3][ref_7]",
+      "kind": "space",
+      "quote": "多数门店都在20平方米左右,“土气”的装修风格省去了追求设计感的高成本",
+      "url": "https://www.sohu.com/a/518323070_121120312/",
+      "site": "搜狐"
+    },
+    {
+      "text": "主攻下沉市场，布局大学城、步行街、商场等高人流场景[ref_5][ref_9]",
+      "kind": "view",
+      "quote": "主攻下沉城市的大学城、步行街、商场等",
+      "url": "https://m.jiemian.com/article/7112140.html",
+      "site": "界面新闻"
+    },
+    {
+      "text": "2017年创立，2020年4月开放加盟，由蜜雪冰城总经理张红甫带队重启[ref_3][ref_5][ref_9]",
+      "kind": "story",
+      "quote": "直至2020年3月,蜜雪冰城总经理张红甫官宣加入...并于2020年4月开放加盟",
+      "url": "https://www.sohu.com/a/518323070_121120312/",
+      "site": "搜狐"
+    },
+    {
+      "text": "采用工厂烘焙咖啡豆配合门店半自动设备制作现磨咖啡[ref_2]",
+      "kind": "light",
+      "quote": "采用工厂烘焙咖啡豆配合门店半自动",
+      "url": "https://www.ebrun.com/20250829/595808.shtml",
+      "site": "蜜雪冰城的选择题：幸运咖快一点出海慢一点 - 亿邦动力"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "幸运咖_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%B9%B8%E8%BF%90%E5%92%96/59912446",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "蜜雪冰城的选择题：幸运咖快一点出海慢一点 - 亿邦动力",
+      "url": "https://www.ebrun.com/20250829/595808.shtml",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "蜜雪冰城卖咖啡,和瑞幸抢生意?幸运品牌_市场",
+      "url": "https://www.sohu.com/a/518323070_121120312/",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "幸运咖 | 平价咖啡里的小确幸,你Get到了吗?",
+      "url": "https://zhuanlan.zhihu.com/p/1895920270671344604",
+      "site_name": "知乎"
+    },
+    {
+      "index": 5,
+      "title": "“幸运咖”能让蜜雪冰城幸运吗?",
+      "url": "https://m.jiemian.com/article/7112140.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 6,
+      "title": "幸运咖没有长出自己的模样-钛媒体官方网站",
+      "url": "https://www.tmtpost.com/7974692.html",
+      "site_name": "钛媒体观察"
+    },
+    {
+      "index": 7,
+      "title": "蜜雪冰城卖咖啡,和瑞幸抢生意?幸运品牌_市场",
+      "url": "https://www.sohu.com/a/518323070_121120312",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "蜜雪冰城亲自下场卖咖啡 同一个集团下的幸运咖加盟商知情吗?",
+      "url": "https://www.toutiao.com/article/7660431594347446830/",
+      "site_name": "今日头条"
+    },
+    {
+      "index": 9,
+      "title": "“幸运咖”能让蜜雪冰城幸运吗?",
+      "url": "https://36kr.com/p/1618893732589826",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:38:22Z"
+}

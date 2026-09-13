@@ -1,0 +1,70 @@
+{
+  "cafeId": "cafe-yunling-east-rd-88",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1f7268710d60",
+  "raw": {
+    "headline": {
+      "zh": "咖啡+文创的苏河空间",
+      "en": "Coffee and culture by Suzhou Creek"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供“苏河栗秋”“晨露青提”等特调咖啡",
+        "en": "Serves signature drinks like 'Suhe Liqiu' and 'Chenlu Qingti'",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外座位较多，配遮阳伞和桌椅",
+        "en": "Plenty of outdoor seats with umbrellas and tables",
+        "from": [
+          1,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间融合文化展示与休闲功能",
+        "en": "Blends cultural display with leisure space",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30-17:30营业",
+        "en": "Open daily 09:30–17:30",
+        "from": [
+          18
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          3,
+          7,
+          13,
+          14
+        ],
+        "zh": "有室外座与安静角落",
+        "en": "Outdoor seating and quiet corners"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          11
+        ],
+        "zh": "提供地域特色特调",
+        "en": "Offers local-inspired specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:20Z"
+}

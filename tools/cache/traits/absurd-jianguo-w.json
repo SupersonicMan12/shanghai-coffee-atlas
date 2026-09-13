@@ -1,0 +1,28 @@
+{
+ "cafeId": "absurd-jianguo-w",
+ "model": "qwen-max",
+ "inputDigest": "aa6f027d1159",
+ "raw": {
+  "headline": {
+   "zh": "招牌饮品出乎意料地好喝",
+   "en": "Unexpected drinks surprisingly good"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "菜单上的创意饮品意外地成功",
+    "en": "Creative menu items surprisingly succeed",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 90,
+    "from": 1,
+    "zh": "提供非常规的创意饮品",
+    "en": "Serves unconventional creative drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:53Z"
+}

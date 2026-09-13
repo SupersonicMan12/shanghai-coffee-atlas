@@ -1,0 +1,71 @@
+{
+  "cafeId": "metal-hands-nanchang",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "505c7bfa7891",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/18909f6bbd4cf2920000003064050452?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1770791097838_61944009_1770791187919_20325739.jpg",
+    "https://store.is.autonavi.com/showpic/833456a937d0cdde0000003013658226?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "南昌路234号临街木柱挂有‘METAL HANDS’铜牌招牌，含地址",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内木质桌面，两杯饮品（肉桂拿铁、开心果Dirty）与一块芝士蛋糕摆于桌上",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示‘乔心鬼·Dirty’（¥47）与‘黄油肉桂·Dirty’（¥40），均为手冲咖啡类",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单‘Special Drink’栏可见‘燕麦·肉桂’（¥46）、‘生姜·肉桂’（¥38）等特调",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单‘手冲咖啡’列有‘秘鲁奥克萨潘帕’‘卢旺达盖瑟克’等单一产地豆，标注处理法",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单‘无咖啡饮品’含‘草莓气泡水 ¥35’‘单产地热可可 ¥42’等非咖啡选项",
+      "kind": "beverage",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "食物为一块带柠檬皮屑的芝士蛋糕，配覆盆子与绿叶装饰，置于复古金属盘",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无明显专业器具（如虹吸/手冲台/烘焙机）或书架植物，仅见桌面摆设",
+      "kind": "equipment",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:28Z"
+}

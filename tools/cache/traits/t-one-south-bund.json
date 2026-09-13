@@ -1,0 +1,31 @@
+{
+ "cafeId": "t-one-south-bund",
+ "model": "qwen-max",
+ "inputDigest": "0c7bf0c40b55",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "室外绿色平台提供至少4个座位",
+    "en": "Outdoor green terrace with at least 4 seats",
+    "from": 1,
+    "},9]},{": "seating",
+    "},": 7
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "},": ",7,",
+    "": "有舒适的户外座位适合久坐休息",
+    "en": "Comfortable outdoor seating for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:04Z"
+}

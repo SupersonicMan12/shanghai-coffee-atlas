@@ -1,0 +1,71 @@
+{
+  "cafeId": "kenyuekafeizhijiangdian-zhijiang-west-rd-398",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7dcdc904497b",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKVYV7IC/comment/%5B2025-02-27-14-16-07%5D155C11A0-CEB0-4B42-AB4B-A6C12791BA3_1740636982866_82193718.jpg",
+    "https://aos-comment.amap.com/B0KKVYV7IC/comment/D3A826B1_A208_4453_950B_970A98781F6A_L0_001_1500_2000_1740636982867_46919762.jpg",
+    "https://aos-comment.amap.com/B0KKVYV7IC/comment/%5B2025-02-27-14-16-19%5D73B76553-1C6F-44AF-9E74-756376E6FE1_1740636982867_58864498.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃窗和蓝色门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有蛋挞售卖，陈列在展示柜中",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "蛋挞标价为9元、17元、49元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客正在消费",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有落地窗，可看到街道外景",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有宣传海报显示‘粉桃浓浓抹茶拿铁’饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见百事可乐饮料机",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有纸袋，印有品牌标识",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:31Z"
+}

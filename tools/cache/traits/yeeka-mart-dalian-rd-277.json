@@ -1,0 +1,46 @@
+{
+  "cafeId": "yeeka-mart-dalian-rd-277",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3866d07fbf20",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供室外桌椅座位",
+        "en": "Outdoor seating available",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:30",
+        "en": "Open daily until 10:30 PM",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供单人餐",
+        "en": "Serves single-person meals",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          2,
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:34:10Z"
+}

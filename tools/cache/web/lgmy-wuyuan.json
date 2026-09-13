@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "地址：五原路250号，近永福路",
+      "kind": "space",
+      "quote": "250 Wuyuan Lu, near Yongfu Lu, Xuhui District.",
+      "url": "https://www.smartshanghai.com/venue/11659/lgmy",
+      "site": "LGMY - Arts & Stage, Art Galleries, Cafes, Xuhui - SmartShanghai"
+    },
+    {
+      "text": "人均约100元",
+      "kind": "story",
+      "quote": "Average per person ￥100.",
+      "url": "https://www.diningcity.cn/en/shanghai/7230_lgmy_artslivepace",
+      "site": "Restaurant LGMY Artslivepace 流光漫影in Shanghai | DiningCity"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "LGMY - Arts & Stage, Art Galleries, Cafes, Xuhui - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/11659/lgmy",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Restaurant LGMY Artslivepace 流光漫影in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/en/shanghai/7230_lgmy_artslivepace",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "当前活跃内容",
+      "url": "https://www.bulgarihotels.com/zh_CN/shanghai/whats-on",
+      "site_name": "宝格丽酒店网站"
+    },
+    {
+      "index": 4,
+      "title": "永源路外籍消费占比超35%,上海商业版图悄然生变,品牌首店热衷非标商业",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1132291",
+      "site_name": "解放网"
+    },
+    {
+      "index": 5,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "上海一米阳光Y公寓(金陵东路分店)",
+      "url": "https://hotels.ctrip.com/hotels/54628414.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "旅超|杨浦人宣布!这条2天1晚游玩线路有料又出片!",
+      "url": "https://www.meet-in-shanghai.net/cn/news/yangpu-people-announced-this-2-days-and-1-night-tour-route-is-informative-and-filmed-067500",
+      "site_name": "上海市文旅推广网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:25Z",
+  "retriedEn": true
+}

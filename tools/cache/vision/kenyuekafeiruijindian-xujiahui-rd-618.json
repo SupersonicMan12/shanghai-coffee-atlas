@@ -1,0 +1,59 @@
+{
+  "cafeId": "kenyuekafeiruijindian-xujiahui-rd-618",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "4b8e7dd05ccd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d925aa5fd19d76fa0000003362764052?type=pic",
+    "https://aos-comment.amap.com/B0L2S45L97/comment/content_media_external_file_1000023040_ss__1769485009700_42798465.jpg",
+    "https://store.is.autonavi.com/showpic/f78349f774bf59d70000003362762067?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，杯中可见分层液体",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店位于商场内，有促销广告牌",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有饮品展示柜和制作区",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品价格标示为9.9元起",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "杯身印有“KCOFFEE 肯悦咖啡”字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景可见KFC标识，说明与快餐品牌共处同一空间",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:49Z"
+}

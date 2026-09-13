@@ -1,0 +1,28 @@
+{
+ "cafeId": "yris-south-bund",
+ "model": "qwen-max",
+ "inputDigest": "d26c544b7e85",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "位于外滩南段，游客较少，可观赏灯光秀",
+    "en": "On the quieter southern Bund, with light show",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 20,
+    "from": 1,
+    "zh": "位于较安静的外滩南段",
+    "en": "Quiet southern Bund"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:49Z"
+}

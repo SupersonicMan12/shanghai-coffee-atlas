@@ -1,0 +1,71 @@
+{
+  "cafeId": "lagom-cafe-bar-jinganxingzuo",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "512e1c3a1245",
+  "photos": [
+    "https://aos-comment.amap.com/B0JRM9LJAJ/comment/427587B3_76C0_430C_B8BF_7DDAE317C61D_L0_001_2016_1512_1745576710443_25580972.jpg",
+    "https://aos-comment.amap.com/B0JRM9LJAJ/comment/E3663E7D_1A35_4631_997D_A8E6DBC14CDE_L0_001_1642_200_1747972281054_81404518.jpg",
+    "https://aos-comment.amap.com/B0JRM9LJAJ/comment/73718C8C_D68F_4923_A9B1_BE737B72470E_L0_001_1640_200_1747972281054_13606379.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有室外露台座位，背景可见城市高楼和中式屋顶。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间大，设长吧台与多张餐桌，座位数量多。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方货架陈列大量威士忌及烈酒瓶。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有投影屏幕，可播放影视内容。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板悬挂多串裸露灯泡，工业风装修。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外露台有白色围栏、遮阳伞和绿植。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有咖啡机等专业设备。",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内光线充足，自然光来自侧窗。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T13:58:09Z"
+}

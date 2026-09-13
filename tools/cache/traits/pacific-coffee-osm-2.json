@@ -1,0 +1,80 @@
+{
+  "cafeId": "pacific-coffee-osm-2",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "733f08cb7cec",
+  "raw": {
+    "headline": {
+      "zh": "季节限定手调饮品",
+      "en": "seasonal specialty drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含酒精的橙风酣梦美式等季节限定手调款",
+        "en": "seasonal specialty drinks including alcoholic Orange Dream Mocha",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚耶加雪菲日晒豆等精品咖啡豆",
+        "en": "uses Ethiopian Yirgacheffe natural process beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "多数门店营业时间为09:00–22:00或10:00–21:00",
+        "en": "most stores open 09:00–22:00 or 10:00–21:00",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供含阿胶冻、银耳的阿胶椰雪等特色饮品",
+        "en": "features unique drinks like tangy gelatin and silver ear dessert coffee",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "买一送一促消费，非专注场景",
+        "en": "promotions encourage quick visits"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "营业时间长，常见于商业区",
+        "en": "long hours in commercial zones"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "促销活动导向快速消费",
+        "en": "buy-one-get-one drives quick turnover"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "含酒、阿胶、椰冻等非常规配料",
+        "en": "unusual ingredients like alcohol, donkey-hide gelatin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:22Z"
+}

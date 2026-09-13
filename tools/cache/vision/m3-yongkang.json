@@ -1,0 +1,71 @@
+{
+  "cafeId": "m3-yongkang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "448c86cc76fc",
+  "photos": [
+    "https://aos-comment.amap.com/B0LUF51YXH/comment/331AF5C4_1F04_49F1_916E_57EA83B5D689_L0_001_1440_192_1754118125283_90747673.jpg",
+    "https://aos-comment.amap.com/B0LUF51YXH/comment/5F575FBC_98D4_4DAC_B094_085026E63374_L0_001_2000_133_1759827447207_00120084.jpg",
+    "https://aos-comment.amap.com/comment/20260318-8558c9addc994ecb1ffa76da-4vmBTnIQ8hs6I4g22hmjxc.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "木质吧台与置物架，墙面为米白色竖条瓷砖，空间紧凑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "墙上两层木架陈列大量玻璃罐（带金属盖）与金属饼干盒，盒身印'THE COOKIES YOUR COFFEE DESERVES'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台后方有两台黑色商用磨豆机（带透明豆仓）、一台意式咖啡机、手冲壶、水槽及小型冰箱",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "展示柜内有三类三明治：热辣培根墨西哥椒圈三明治（¥16）、翠花碳烤肠（¥16）、厚切培根南瓜坚果燕麦面包（¥18）",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "菜单牌显示豆子信息：MAHLKÖNIG CUBIC 3，附中英文说明；另有一张'COFFEE FREE'贴纸贴于冰箱",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见座位区域，照片中无顾客或工作人员使用电脑",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃橱窗可见店员身影，但未显示窗外街景细节",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "无烘焙机、虹吸壶、手冲台等设备可见；未见书架、植物或宠物",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:36:46Z"
+}

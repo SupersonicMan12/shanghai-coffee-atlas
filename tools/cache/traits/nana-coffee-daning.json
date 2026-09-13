@@ -1,0 +1,77 @@
+{
+  "cafeId": "nana-coffee-daning",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5fd9b074116d",
+  "raw": {
+    "headline": {
+      "zh": "3元美式，菜场旁怀旧小馆",
+      "en": "3-yuan Americano in a nostalgic market-side cafe"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "美式3元、拿铁2元",
+        "en": "Americano 3 yuan, latte 2 yuan",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "点单前可自选咖啡豆",
+        "en": "Choose your beans before ordering",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位，配木桌木椅",
+        "en": "Outdoor seating with wooden table and chair",
+        "from": [
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间8:00-17:00，周二休息",
+        "en": "Open 8–5, closed Tuesdays",
+        "from": [
+          2,
+          15
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内使用老家具，空间小巧",
+        "en": "Furnished with vintage pieces, compact space",
+        "from": [
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          12,
+          14
+        ],
+        "zh": "空间小且户外偶有异味",
+        "en": "Small space, occasional outdoor odor"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "提供选豆服务",
+        "en": "Offers bean selection"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:46Z"
+}

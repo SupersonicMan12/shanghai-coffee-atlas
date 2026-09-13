@@ -1,0 +1,71 @@
+{
+  "cafeId": "alooooohavintage-lujiabang-rd-18",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "d5856ff99b8f",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIK5US9/comment/20fe192ebd10a0947edf1dbc7f94ee35_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1770128289020_19969173_1770128480424_85527107.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769930779673_06735313_1769930781236_01788922.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店名标为 'ALOOOOOHA VINTAGE'，非咖啡馆，主营中古包与服饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "第一张图：临街玻璃橱窗，上方有大量紫粉色人造花与深红布艺装饰",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图：夜间外立面为灰色水泥墙，门头金属字 'ALOOOOOHA'，带格栅玻璃门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图：室内为环形货架陈列中古包，地面为水泥地，无桌椅或吧台",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "第三张图：可见3位顾客背对镜头站立浏览商品，无座位区域",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "店内未见咖啡机、磨豆机、手冲台、饮品杯、食物或菜单",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "地址牌显示门牌号为 '18'（陆家浜路18号）",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图右侧有装饰性小推车，挂红球、珠串与复古肖像画框",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.94
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:11Z"
+}

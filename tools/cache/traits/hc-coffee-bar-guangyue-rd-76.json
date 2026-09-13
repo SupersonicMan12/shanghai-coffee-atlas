@@ -1,0 +1,66 @@
+{
+  "cafeId": "hc-coffee-bar-guangyue-rd-76",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "55facd2722d9",
+  "raw": {
+    "headline": {
+      "zh": "夜店风咖啡酒吧",
+      "en": "Coffee bar with nightclub vibe"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供绿色和粉红色鸡尾酒配可食用花",
+        "en": "Serves green and pink cocktails with edible flowers",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "配食含玉米片与螺旋状水果",
+        "en": "Sides include corn chips and spiral-cut fruit",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外可见城市夜景与灯串",
+        "en": "City night view with string lights outside",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日营业至凌晨2点",
+        "en": "Open until 2am Tue–Sun",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "紫色灯光与暗调氛围",
+        "en": "Purple lighting, dim ambiance"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "鸡尾酒式创意饮品摆盘",
+        "en": "Cocktail-style drinks with stylized plating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:39Z"
+}

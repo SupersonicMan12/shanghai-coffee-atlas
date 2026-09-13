@@ -1,0 +1,71 @@
+{
+  "cafeId": "argang-kaffe-baoqing-rd-10",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f4e7d7abda8f",
+  "photos": [
+    "https://aos-comment.amap.com/B0H6NCF941/comment/F4712558_0F2C_4860_9CA8_5E37EA9BB724_L0_001_1512_201_1763304336593_48583193.jpg",
+    "https://aos-comment.amap.com/B0H6NCF941/comment/157f7ddd170aecca993f16fe46d50f0b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H6NCF941/comment/67B63C0D_CA6C_48B3_906F_94D7E3CC4A8E_L0_001_2000_144_1770877576529_38667579.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质桌椅和黄色栏杆，空间宽敞",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有落地窗，可见临街玻璃门和外部街道",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有植物装饰，门口贴有卡通猫图案",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供手冲咖啡，可见玻璃壶装深色液体",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有蛋糕切片，含奶油、果酱和巧克力层",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有多张桌子，可容纳多人用餐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有人在使用手机，坐着休息",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "餐巾纸上印有蓝色图案，可能是品牌标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:44Z"
+}

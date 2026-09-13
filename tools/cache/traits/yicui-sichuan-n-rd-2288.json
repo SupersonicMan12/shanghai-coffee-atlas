@@ -1,0 +1,58 @@
+{
+  "cafeId": "yicui-sichuan-n-rd-2288",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "355e6a57a3d9",
+  "raw": {
+    "headline": {
+      "zh": "树荫下的明亮玻璃屋",
+      "en": "Bright glass café under trees"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外有树荫下整洁座位区",
+        "en": "Outdoor seating under tree shade",
+        "from": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内明亮，整面临街玻璃窗",
+        "en": "Bright interior with full-height street-facing windows",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至18:00",
+        "en": "Open daily until 6 PM",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          5,
+          7,
+          9
+        ],
+        "zh": "有舒适户外座位可久坐",
+        "en": "Comfortable outdoor seating to stay"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:04Z"
+}

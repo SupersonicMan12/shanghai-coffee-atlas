@@ -1,0 +1,57 @@
+{
+  "cafeId": "rongkafeiqipairishimajiang-meichuanlubinfensheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5e8a210a9b69",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/4977956bcc2ae684ba36c6348bb21bd1",
+    "http://store.is.autonavi.com/showpic/9827fa74340faa868bf75e672f1300f2"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街商铺，有玻璃门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有车辆停放，属城市街道环境",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面招牌显示为‘荣咖啡棋牌’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺入口处可见玻璃门和大面积窗户",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外无明显室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑外观为现代商业楼体",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:41Z"
+}

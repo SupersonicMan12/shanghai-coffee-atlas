@@ -1,0 +1,59 @@
+{
+  "cafeId": "garden-books-changle",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1c5a9ce1c826",
+  "photos": [
+    "https://aos-comment.amap.com/B00155LIKE/comment/%5B2025-12-14-17-28-47%5D430E0AE1-D38A-4F07-B52B-81F1E62C5CC_1765704538758_15015164.jpg",
+    "https://aos-comment.amap.com/B00155LIKE/comment/2175f7e1c9f6d3771674ae4548289456_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/c66ec308a0cae7a639227ae9e5c7cb3c"
+  ],
+  "photoKinds": [
+    "interior",
+    "other",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "室内有书架陈列多本丁丁历险记法文原版书",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内柜台前摆放大型陶罐绿植与拼图商品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外庭院有草坪、大树及绿色金属桌椅",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "庭院中可见老洋房建筑，红瓦屋顶带藤蔓",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街店面为玻璃幕墙，可看见店内陈设",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外人行道停有黄色共享单车",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:40Z"
+}

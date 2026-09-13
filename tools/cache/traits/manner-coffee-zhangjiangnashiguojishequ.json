@@ -1,0 +1,90 @@
+{
+  "cafeId": "manner-coffee-zhangjiangnashiguojishequ",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6e3e917026aa",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗站喝小店",
+      "en": "Stand-up window cafe with street-facing glass"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街玻璃门与大面积落地窗",
+        "en": "Street-facing glass doors and large floor-to-ceiling windows",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台配高脚凳，无固定座位",
+        "en": "Counter with high stools, no fixed seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:00，工作日早7:30开门",
+        "en": "Closes at 5 PM, opens at 7:30 AM on weekdays",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含海盐焦糖拿铁、烤坚果拿铁",
+        "en": "Features sea salt caramel latte and roasted nut latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "自建5000平SC认证烘焙工坊",
+        "en": "Owns a 5000 sqm SC-certified roastery",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          2
+        ],
+        "zh": "吧台站喝，适合短暂停留",
+        "en": "Stand-up bar, short stays only"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible to passersby"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "无固定座位，难久坐",
+        "en": "No fixed seats, not meant to linger"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "自烘豆，有限定款",
+        "en": "House-roasted beans, limited editions"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:45Z"
+}

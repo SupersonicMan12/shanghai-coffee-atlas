@@ -1,0 +1,64 @@
+{
+  "cafeId": "costa-coffee-xinzhuangweijingyinxiangcheng",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1655eee9ffc4",
+  "raw": {
+    "headline": {
+      "zh": "提拉米苏和巧克力酥卷受欢迎",
+      "en": "Tiramisu and chocolate croissant are popular"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提拉米苏和巧克力酥卷味道赞，倍受欢迎",
+        "en": "Tiramisu and chocolate croissant are delicious and popular",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间多为早7:30至晚22:00或23:30",
+        "en": "Opens at 7:30, closes at 22:00 or 23:30",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为咖啡",
+        "en": "Coffee is recommended on Gaode",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "有咖啡可点，适合办公",
+        "en": "Has coffee for work"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "营业到晚23:30，适合久坐",
+        "en": "Closes at 23:30, good for lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2
+        ],
+        "zh": "商场店，人流中等",
+        "en": "Mall location, moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:33Z"
+}

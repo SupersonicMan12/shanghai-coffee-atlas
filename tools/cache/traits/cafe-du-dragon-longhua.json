@@ -1,0 +1,34 @@
+{
+ "cafeId": "cafe-du-dragon-longhua",
+ "model": "qwen-max",
+ "inputDigest": "922b08df4c5f",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "提供牛肉汉堡王、香肠披萨等西餐",
+    "en": "Serves beef burgers, sausage pizza, and more",
+    "from": 2
+   },
+   {
+    "kind": "drinks",
+    "zh": "特色饮品包括红丝绒拿铁、抹茶拿铁",
+    "en": "Special drinks include red velvet latte, matcha latte",
+    "from": 3
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 60,
+    "from": 4,
+    "zh": "位于寺庙旁，环境宁静但有游客",
+    "en": "Near temple, quiet but with visitors"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:19Z"
+}

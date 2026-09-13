@@ -1,0 +1,65 @@
+{
+  "cafeId": "miiix-coffee-dabaishu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1522034c071a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9e17c252a10b58b00000000722634506?type=pic",
+    "https://store.is.autonavi.com/showpic/e16af99aac7a2c240000004307898415?type=pic",
+    "https://store.is.autonavi.com/showpic/2a301217979a13f50000004307886737?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店门口有圣诞装饰，可见节日氛围",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店临街，有玻璃窗和门",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有立式广告牌，显示双杯冷萃套餐19.9元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡制作设备和堆叠的纸杯",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口停有一辆电动滑板车",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持一杯Miiix coffee纸杯饮品",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于曲阳路838-7号，为独立临街小店",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:28Z"
+}

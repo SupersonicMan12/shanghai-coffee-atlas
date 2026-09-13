@@ -1,0 +1,75 @@
+{
+  "cafeId": "dehomecoffee-jiaozhou-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c650db801fc5",
+  "raw": {
+    "headline": {
+      "zh": "只卖云南德宏自种精品豆",
+      "en": "Only serves Yunnan Dehong estate beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "仅售云南德宏自家庄园高海拔精品咖啡豆",
+        "en": "Sells only high-altitude beans from its own Dehong, Yunnan estate",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供日晒、蜜处理和双重厌氧处理咖啡",
+        "en": "Offers sun-dried, honey, and double anaerobic processed coffee",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为黑松露澳白",
+        "en": "Signature drink is black truffle flat white",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内座位不多，有室外座位",
+        "en": "Limited indoor seating, with outdoor seats available",
+        "from": [
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至18:30，周末至19:00",
+        "en": "Open till 18:30 weekdays, 19:00 weekends",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "自种豆+特殊处理法",
+        "en": "Estate beans & unusual processing"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          5,
+          12
+        ],
+        "zh": "座位少但宽敞",
+        "en": "Few but spacious seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:18Z"
+}

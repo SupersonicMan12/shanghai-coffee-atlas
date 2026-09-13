@@ -1,0 +1,65 @@
+{
+  "cafeId": "4-2-lianhuapaochedasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "728e7fc5406a",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/89fba4167a0f266b69b1f0d03df92d34",
+    "http://store.is.autonavi.com/showpic/bd6890158ad319b71d5de704b2e57d64",
+    "http://store.is.autonavi.com/showpic/7a0b4a75dd8467e71451738b919b9b78"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃幕墙，有落地窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台区域，摆放调酒器具",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见两款鸡尾酒饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内灯光偏暖，氛围较暗",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口悬挂电子招牌，显示店名",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为现代风格，以玻璃和金属为主",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有酒瓶陈列",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:09Z"
+}

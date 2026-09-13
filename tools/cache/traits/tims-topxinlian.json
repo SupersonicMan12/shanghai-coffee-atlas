@@ -1,0 +1,70 @@
+{
+  "cafeId": "tims-topxinlian",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "db07e2d95b63",
+  "raw": {
+    "headline": {
+      "zh": "咖啡+暖食全时段覆盖",
+      "en": "Coffee and warm food all day"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "现做贝果、多拿滋、恰巴塔等暖食",
+        "en": "Freshly made bagels, donuts, ciabatta",
+        "from": [
+          7,
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至20:00",
+        "en": "Open until 8pm on weekdays",
+        "from": [
+          4,
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内小圆桌配木质墙面，空间不大",
+        "en": "Compact indoor seating with small round tables",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设少量室外座位",
+        "en": "Limited outdoor seating available",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "咖啡豆手工采摘、小批量新鲜烘焙",
+        "en": "Hand-picked beans, small-batch roasted",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          5
+        ],
+        "zh": "有室内外座位可坐",
+        "en": "Seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:32Z"
+}

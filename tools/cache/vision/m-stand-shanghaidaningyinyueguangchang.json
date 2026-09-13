@@ -1,0 +1,65 @@
+{
+  "cafeId": "m-stand-shanghaidaningyinyueguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5bc3b6d1fda0",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/1224af99aa0265620000001521526301?type=pic",
+    "https://aos-comment.amap.com/B0H30ACGDE/comment/content_media_external_file_1000317040_ss__1758356871249_84689661.jpg",
+    "https://store.is.autonavi.com/showpic/7317c304636ea2990000001521500500?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "门店位于商场外，有玻璃门和落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有桌椅和遮阳伞，可坐室外",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有顾客在室外座位区使用手机",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见饮品为冰咖啡，杯身有水珠",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款饮品为热饮，装在黑色纸杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立牌显示有5折体验券活动",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外区域有绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:46Z"
+}

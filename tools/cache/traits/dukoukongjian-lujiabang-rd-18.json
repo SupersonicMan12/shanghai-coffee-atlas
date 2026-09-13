@@ -1,0 +1,28 @@
+{
+  "cafeId": "dukoukongjian-lujiabang-rd-18",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "47179cbfe5ab",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街大面积玻璃幕墙内设桌椅与黄色椅子",
+        "en": "Indoor seating with yellow chairs behind glass facade",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-22:00营业",
+        "en": "Open daily 09:00–22:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:38:19Z"
+}

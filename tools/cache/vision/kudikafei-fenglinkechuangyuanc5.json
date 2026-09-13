@@ -1,0 +1,53 @@
+{
+  "cafeId": "kudikafei-fenglinkechuangyuanc5",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "7b656cc7f997",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://store.is.autonavi.com/showpic/1eed71dc5f770f400000002899292255?type=pic",
+    "https://store.is.autonavi.com/showpic/ada90f087e5203640000002742234493?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室内空间较大，有吧台区和多组桌椅座位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧有大面积落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见至少6个座位，含圆桌和高脚吧台座",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有绿植装饰，无书架或宠物",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业咖啡器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:48Z"
+}

@@ -1,0 +1,248 @@
+{
+  "cafeId": "146bistro-cafe-yanchang-rd-146",
+  "query": {
+    "location": "121.459642,31.272784",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:55:45Z",
+  "matchedPoiId": "B0MGRDJMMC",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B00155HFL5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/03acf30063a624320000003132906325?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/bcc66cc91a401e5aa286cfc3e2faa728"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b47f554580002caf0000000681618634"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17340837884",
+        "id": "B0MGRDJMMC",
+        "tag": [],
+        "entr_location": "121.459329,31.272766",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": "320",
+        "atag": [],
+        "name": "146Bistro&Cafe",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 09:00-02:00",
+          "rating": "4.3",
+          "open_time": "09:00-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732622",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 07:20:21",
+        "website": [],
+        "address": "延长路146号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.459642,31.272783",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155HFL5",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1a14cc8ecab4cb015fa38195fcc75716"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H2O5D5DW/comment/%5B2026-01-29-08-14-11%5D34AD88D1-551D-4459-8D71-E549BCDCD1C_1769645663922_44261488.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0H2O5D5DW/comment/%5B2026-01-29-08-13-55%5DD1EC0C91-720B-4AED-AA03-B0DC695CE6B_1769645636919_74459723.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18217151626",
+        "id": "B0H2O5D5DW",
+        "tag": "黄油",
+        "entr_location": "121.458361,31.272486",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "和田",
+        "childtype": "320",
+        "atag": "黄油",
+        "name": "Urbino乌尔比诺",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "42",
+        "importance": [],
+        "biz_ext": {
+          "cost": "21.00",
+          "opentime2": "周一至周五 08:00-17:00；周六至周日 08:45-17:00",
+          "rating": "3.9",
+          "open_time": "08:00-17:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732622",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:04:25",
+        "website": [],
+        "address": "延长路154号101室-1",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.459223,31.272665",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B00155KS5Y",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J2MUMNWN/comment/1811A6E2_FA13_4872_AB25_44A6A5AEE352_L0_001_1500_200_1765779079985_03470849.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0J2MUMNWN/comment/173083622399_1730836225385_78634597.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "静安区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0J2MUMNWN",
+        "tag": "柠檬茶,生椰拿铁,卡布奇诺,杨枝甘露",
+        "entr_location": "121.4600688322384,31.27298535678343",
+        "adcode": "310106",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "大宁路",
+        "childtype": "320",
+        "atag": "柠檬茶,生椰拿铁,卡布奇诺,杨枝甘露",
+        "name": "瑞幸咖啡(延长路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "71",
+        "importance": [],
+        "biz_ext": {
+          "cost": "13.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.1",
+          "open_time": "07:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621732622",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 20:12:57",
+        "website": [],
+        "address": "延长路128弄7号(延长路地铁站2号口步行460米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.460301,31.273086",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

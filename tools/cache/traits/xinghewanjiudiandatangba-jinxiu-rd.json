@@ -1,0 +1,68 @@
+{
+  "cafeId": "xinghewanjiudiandatangba-jinxiu-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "22d726b5a529",
+  "raw": {
+    "headline": {
+      "zh": "酒店大堂吧配庭院景",
+      "en": "Lobby cafe with courtyard view"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "落地窗外可见绿植庭院",
+        "en": "Courtyard and greenery visible through floor-to-ceiling windows",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应三明治、小蛋糕、果冻和水果拼盘",
+        "en": "Serves sandwiches, mini cakes, jelly, and fruit platters",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "多张餐桌椅，适合多人用餐",
+        "en": "Multiple tables and chairs suitable for groups",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日12:00–20:30营业",
+        "en": "Open daily 12:00–20:30",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐卡布奇诺与鸡尾酒",
+        "en": "Recommended drinks: cappuccino and cocktails",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "座位充足且适合久坐",
+        "en": "Ample seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:04Z"
+}

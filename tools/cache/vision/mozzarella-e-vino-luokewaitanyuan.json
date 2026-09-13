@@ -1,0 +1,71 @@
+{
+  "cafeId": "mozzarella-e-vino-luokewaitanyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "ecd0a303924a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/9d657ba8e1d820220000002454020012?type=pic",
+    "https://store.is.autonavi.com/showpic/f532bf6eaf0aecec0000002823650096?type=pic",
+    "https://store.is.autonavi.com/showpic/c6244332bc2ea5f8cfb99a17b028001e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店名'Mozzarella e Vino'为金色立体字，安装于浅色石材外墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口上方有绿色金属框架+透明顶棚的遮阳结构，带圆形镂空装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室外设木质平台座位区，有绳索围栏、盆栽植物及立式灯罩",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "可见至少6组桌椅在户外平台就座，含儿童与成人，部分用餐桌",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街为大面积玻璃门窗，室内可见酒架与吧台区域",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "户外平台边缘摆放多个陶罐/石块装饰，地面为木板铺装",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.94
+    },
+    {
+      "text": "第三张图显示街道为石板路，店前有路灯与行道树，远处见现代高楼",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.93
+    },
+    {
+      "text": "未见手冲台、虹吸壶、磨豆机、烘焙机等专业咖啡器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:45Z"
+}

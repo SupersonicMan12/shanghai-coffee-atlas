@@ -1,0 +1,41 @@
+{
+  "cafeId": "kudikafei-laoshan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "c0828980d10f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://store.is.autonavi.com/showpic/71245b119bf4c51f0000002581356235?type=pic",
+    "https://store.is.autonavi.com/showpic/fc80fb3274e521eb0000000964914665?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "玻璃门上贴有营业时间：周一至周五7:00-17:30，周六周日8:00-17:30。",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品为绿色冰饮，杯身印有品牌名和“好咖啡源自好原料”字样。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面入口为玻璃门，门框黑色，上方有发光店招。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:27Z"
+}

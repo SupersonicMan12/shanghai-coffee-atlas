@@ -1,0 +1,92 @@
+{
+  "cafeId": "after-coffee-96",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2c616df1bc16",
+  "raw": {
+    "headline": {
+      "zh": "主打桂花冷萃",
+      "en": "features seasonal osmanthus cold brew"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为季节限定桂花冷萃",
+        "en": "seasonal signature: osmanthus cold brew",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "户外区设遮阳伞与水泥砖矮台座位",
+        "en": "outdoor seating with awnings and concrete block tables",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "手冲设备齐全，展示多款咖啡豆",
+        "en": "full pour-over setup with multiple coffee beans on display",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚间22:00，支持夜间停留",
+        "en": "opens 9:00 to 22:00, stays open late",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于九六广场内，临铺面通道非主街",
+        "en": "inside Jiuliu Plaza, facing service corridor not main street",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "支持Wi-Fi，可办公",
+        "en": "supports Wi-Fi for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          5
+        ],
+        "zh": "临通道，略带人流",
+        "en": "facing corridor, moderate foot traffic"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          8
+        ],
+        "zh": "有户外座位，适合久坐",
+        "en": "outdoor seats encourage lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          13
+        ],
+        "zh": "手冲+季节限定冷萃，饮品有特色",
+        "en": "pour-over + seasonal specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:01Z"
+}

@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "text": "书店与电影院相邻",
+      "kind": "space",
+      "quote": "开在前滩太古里的库布里克书店,直接和旁边的电影院相连接",
+      "url": "https://www.nationalreading.gov.cn/ydkj/swsh/202412/t20241212_877029_m.html",
+      "site": "中国全民阅读网"
+    },
+    {
+      "text": "拥有近10米的落地窗",
+      "kind": "light",
+      "quote": "近10米的落地窗,环绕书店构成了一个宽敞明亮的空间",
+      "url": "https://www.nationalreading.gov.cn/ydkj/swsh/202412/t20241212_877029_m.html",
+      "site": "中国全民阅读网"
+    },
+    {
+      "text": "提供电影主题书籍",
+      "kind": "beans",
+      "quote": "店内陈列了大量电影艺术类书籍和周边",
+      "url": "https://post.smzdm.com/zz/p/agwxdqxd/",
+      "site": "什么值得买"
+    },
+    {
+      "text": "设有阅读区和餐饮区",
+      "kind": "space",
+      "quote": "将餐饮消费区和阅读区分开",
+      "url": "https://www.nationalreading.gov.cn/ydkj/swsh/202412/t20241212_877029.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "适合安静阅读",
+      "kind": "sound",
+      "quote": "工作日的书店很清静,大家各自独坐一隅",
+      "url": "https://www.sohu.com/a/528598967_120578424",
+      "site": "搜狐"
+    },
+    {
+      "text": "营业时间至22:00",
+      "kind": "time",
+      "quote": "营业时间为10:00-22:00",
+      "url": "https://post.smzdm.com/zz/p/agwxdqxd/",
+      "site": "什么值得买"
+    },
+    {
+      "text": "以电影为主题",
+      "kind": "story",
+      "quote": "库布里克书店是一家以电影为主题的书店",
+      "url": "https://baijiahao.baidu.com/s?id=1853958539079832888",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "LOOK | 上海又添新书店了·书店指南",
+      "url": "https://www.thepaper.cn/newsDetail_forward_16776903",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "上海库布里克书店(前滩太古里店)",
+      "url": "https://www.nationalreading.gov.cn/ydkj/swsh/202412/t20241212_877029_m.html",
+      "site_name": "中国全民阅读网"
+    },
+    {
+      "index": 3,
+      "title": "前滩库布里克书店📚电影主题下的治愈之旅～ ",
+      "url": "https://post.smzdm.com/zz/p/agwxdqxd/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 4,
+      "title": "库布里克上海:文化新阵地开启城市新篇章",
+      "url": "https://baijiahao.baidu.com/s?id=1853958539079832888",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "上海库布里克书店（前滩太古里店）-山文书海-中国全民阅读网",
+      "url": "https://www.nationalreading.gov.cn/ydkj/swsh/202412/t20241212_877029.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "库布里克Kubrick书店(前滩太古里店) - 上海市浦东新区- 餐饮服务;咖啡厅",
+      "url": "https://www.amap.com/place/B0I64S0CWF",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 7,
+      "title": "上海前滩太古里又开新书店 跟茑屋书店同台竞争布里克电影_空间",
+      "url": "https://www.sohu.com/a/528598967_120578424",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "前滩太古里又开新书店!跟“茑屋书店”同台PK,什么来头?_手机网易网",
+      "url": "http://3g.163.com/dy/article/H21THRS6055040N3.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 9,
+      "title": "这家起源于香港、致敬「库布里克」的书店，来上海已经一年多了",
+      "url": "https://zhuanlan.zhihu.com/p/92343802",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:18:43Z"
+}

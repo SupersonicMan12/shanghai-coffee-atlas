@@ -1,0 +1,49 @@
+{
+  "cafeId": "hlab-cafe-hongyixiaoqu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e3a1ae079973",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街小型独立门店，无庭院或大空间",
+        "en": "Small standalone street-facing shop, no courtyard",
+        "from": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可看到室内陈列",
+        "en": "Full-height street-facing windows with interior display",
+        "from": [
+          1,
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-17:00营业",
+        "en": "Open daily 08:30–17:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5
+        ],
+        "zh": "小型门店无久坐空间",
+        "en": "Compact space, not for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:01Z"
+}

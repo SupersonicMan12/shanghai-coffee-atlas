@@ -1,0 +1,82 @@
+{
+  "cafeId": "stop-coffee-fushan-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "98d54dd58f29",
+  "raw": {
+    "headline": {
+      "zh": "临街手冲咖啡配露天座",
+      "en": "Street-side pour-over with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "门口设折叠椅及露天座位",
+        "en": "Outdoor seating with folding chairs at entrance",
+        "from": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full-height street-facing glass, bright interior",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "售卖精品咖啡豆",
+        "en": "Sells specialty coffee beans",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供现磨手冲等多种咖啡",
+        "en": "Offers pour-over and various brewed coffees",
+        "from": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–19:00营业",
+        "en": "Open daily 07:30–19:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          3,
+          5
+        ],
+        "zh": "有露天座但空间有限",
+        "en": "Outdoor seats, limited space"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          5,
+          6,
+          7
+        ],
+        "zh": "手冲与多种制作方式",
+        "en": "Pour-over and varied brewing methods"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:26Z"
+}

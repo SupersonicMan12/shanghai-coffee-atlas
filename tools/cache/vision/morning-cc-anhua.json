@@ -1,0 +1,71 @@
+{
+  "cafeId": "morning-cc-anhua",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "2fcc4e151d2c",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/22d85f2a288618add1c068682b4d03fb",
+    "https://store.is.autonavi.com/showpic/cff00756918bfe2df69ba72c5cfaaabd",
+    "https://aos-comment.amap.com/B0GR27BZHK/comment/fb37d0b344115d2348c9f3b52d4a52e4_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，招牌为'MORNING CC'，门头有橙色圆形灯饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街设3个带白色弧形吧台的开放式服务窗，窗框为红棕色金属",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外人行道为石板路，门前停一辆自行车，右侧可见绿树枝叶",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图显示同一店面右侧堆放多辆电动车/摩托车，无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中有一杯分层饮品（深褐+琥珀色），盛于竖条纹玻璃杯中",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图中有一份纸杯装小蛋糕，表面焦糖色，呈半圆形切开状",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图背景可见白色菜单纸，但文字模糊不可辨识",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "第一张图中店面二层有破损阳台结构，外墙为浅色涂料与砖石混合",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T13:40:23Z"
+}

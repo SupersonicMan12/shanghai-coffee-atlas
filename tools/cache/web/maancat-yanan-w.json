@@ -1,0 +1,78 @@
+{
+  "facts": [
+    {
+      "text": "营业时间：8:30-22:30",
+      "kind": "time",
+      "quote": "服务时间： 8：30-22：30 西餐.",
+      "url": "https://m.sh.bendibao.com/wangdian/dian/4788815.shtm",
+      "site": "本地宝"
+    },
+    {
+      "text": "地址：长宁区延安西路1146号(英达莱商务中心)1楼",
+      "kind": "space",
+      "quote": "长宁区延安西路1146号(英达莱商务中心)1楼.",
+      "url": "https://m.sh.bendibao.com/wangdian/dian/4788815.shtm",
+      "site": "本地宝"
+    },
+    {
+      "text": "人均消费约100元",
+      "kind": "food",
+      "quote": "人均：￥100. 食物: 0.0服务: 0.0环境: 0.0.",
+      "url": "https://www.diningcity.cn/zh/shanghai/35900_maancat_coffee",
+      "site": "Restaurant MAANCAT COFFEE（上海）| 鼎食聚"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Maancat Coffee 漫猫咖啡(延安西路店) - 上海本地宝",
+      "url": "https://m.sh.bendibao.com/wangdian/dian/4788815.shtm",
+      "site_name": "本地宝"
+    },
+    {
+      "index": 2,
+      "title": "Mancat Coffee漫猫咖啡(大华老街店)",
+      "url": "https://map.360.cn/site/detail/f9d32c8208d00f26",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "Restaurant MAANCAT COFFEE（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh/shanghai/35900_maancat_coffee",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海喵咖咖科技有限公司",
+      "url": "https://www.zhipin.com/companys/b51667da0ff0078a1HF42du9E1o~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 5,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風 - VOGUE 香港",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Restaurant Maancat Coffee 漫猫咖啡in Shanghai | DiningCity",
+      "url": "https://www.diningcity.cn/en/shanghai/9955_maancat_coffee",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "【Maancat Coffee 漫猫咖啡(真如店)】地址,电话,路线,周边设施",
+      "url": "https://m.map.360.cn/m/search/detail/pid=f8e9db4bdfca3ea9",
+      "site_name": "360官网"
+    },
+    {
+      "index": 8,
+      "title": "MANCAT COFFEE漫猫书咖(横港公路店) - 上海市松江区 - 高德地图",
+      "url": "https://www.amap.com/place/B0GK6CQS0K",
+      "site_name": "高德地图"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:09Z",
+  "retriedEn": true
+}

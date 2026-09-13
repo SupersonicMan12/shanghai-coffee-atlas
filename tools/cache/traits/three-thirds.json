@@ -1,0 +1,40 @@
+{
+ "cafeId": "three-thirds",
+ "model": "qwen-max",
+ "inputDigest": "a32c98775b4c",
+ "raw": {
+  "headline": {
+   "zh": "无限续杯美式，专为办公人士设计",
+   "en": "Bottomless americano for busy professionals"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供无限续杯的美式咖啡",
+    "en": "Offers bottomless working americano",
+    "from": 2
+   },
+   {
+    "kind": "people",
+    "zh": "适合带笔记本电脑工作的顾客",
+    "en": "Great for laptop users with deadlines",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 80,
+    "from": 1,
+    "zh": "适合带笔记本电脑工作的人",
+    "en": "Good for laptop users"
+   },
+   "linger": {
+    "value": 70,
+    "from": 2,
+    "zh": "提供无限续杯，适合长时间停留",
+    "en": "Bottomless coffee, good for long stays"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:32Z"
+}

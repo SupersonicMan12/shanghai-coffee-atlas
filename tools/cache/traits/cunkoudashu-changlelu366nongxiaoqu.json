@@ -1,0 +1,78 @@
+{
+  "cafeId": "cunkoudashu-changlelu366nongxiaoqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "c5cb25ea9088",
+  "raw": {
+    "headline": {
+      "zh": "自烘豆特调与紧凑吧台",
+      "en": "House-roasted beans and snug bar"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "手冲豆用小型家用烘焙机小批量烘成",
+        "en": "Hand-brew beans roasted in small batches at home",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特调如“十六浦”配肉桂棒与苹果干",
+        "en": "Signature drinks like 'Shi Liu Pu' with cinnamon stick",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有室外座位和贯穿店内的长吧台",
+        "en": "Outdoor seating and an indoor long bar counter",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily 10:00–18:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "菜单标示豆子产自耶加雪菲、坦桑尼亚等",
+        "en": "Beans sourced from Yirgacheffe, Tanzania, etc.",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          5,
+          9
+        ],
+        "zh": "空间紧凑，吧台为主",
+        "en": "Compact space, bar-focused"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          3,
+          4,
+          8,
+          10
+        ],
+        "zh": "自烘豆与创意特调",
+        "en": "House-roasted beans and creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:05Z"
+}

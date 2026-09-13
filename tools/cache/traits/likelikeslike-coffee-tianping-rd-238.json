@@ -1,0 +1,91 @@
+{
+  "cafeId": "likelikeslike-coffee-tianping-rd-238",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "5bd94ec562f8",
+  "raw": {
+    "headline": {
+      "zh": "自制香草浆拿铁配书墙",
+      "en": "House-made vanilla latte with coffee books"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌香草荚拿铁用自制香草浆",
+        "en": "Signature vanilla pod latte uses house-made syrup",
+        "from": [
+          15,
+          16
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内有一整面咖啡相关书籍墙",
+        "en": "Entire wall lined with coffee-related books",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "几乎每个座位下都有插座",
+        "en": "Power outlets under nearly every seat",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门口有带树荫的露天小院",
+        "en": "Shaded outdoor courtyard at entrance",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "常规营业至晚上8点",
+        "en": "Usually open until 8pm",
+        "from": [
+          18
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          6,
+          11,
+          13
+        ],
+        "zh": "多插座+有人用电脑办公",
+        "en": "Outlets and laptop users"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          1,
+          5,
+          6,
+          9,
+          13,
+          14
+        ],
+        "zh": "沙发、院子、插座支持久坐",
+        "en": "Sofas, courtyard, outlets"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          15,
+          16
+        ],
+        "zh": "手冲豆信息+自制香草浆",
+        "en": "House syrup and origin info"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:27Z"
+}

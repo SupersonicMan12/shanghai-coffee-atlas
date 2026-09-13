@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "位于BFC外滩金融中心南区1楼，典型巴黎风格餐厅",
+      "kind": "space",
+      "quote": "La Parisienne. 021-63350825. 1st floor,South District, No.600, BFC,Zhongshan No.",
+      "url": "https://www.bfcsh.com/index.php?m=Mobile&c=Store&a=show&id=11&language=en",
+      "site": "La Parisienne - BFC外滩金融中心官网"
+    },
+    {
+      "text": "类型为面包店，地址中山东二路600号，BFC购物中心内",
+      "kind": "space",
+      "quote": "Type: Bakery ; Address: 中山东二路 600, BFC 购物中心",
+      "url": "https://mapcarta.com/N8314000812",
+      "site": "La Parisienne - Shanghai Municipality - Mapcarta"
+    },
+    {
+      "text": "坐落于外滩金融中心3楼，评分80.5分",
+      "kind": "space",
+      "quote": "Address : 3/F, The Bund Finance Center, 600 Zhongshan East 2nd Rd, Huangpu Qu. ,",
+      "url": "https://www.laliste.com/places/meet-the-bund-shanghai-cn",
+      "site": "Meet the Bund - LaListe"
+    },
+    {
+      "text": "法式面包店与咖啡馆，地处滨江优越位置",
+      "kind": "view",
+      "quote": "它基本上是一个法式面包店和咖啡馆，但是河边的一个非常好的酒店。",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d9739828-Reviews-La_Parisienne-Shanghai.html",
+      "site": "Tripadvisor"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "La Parisienne - BFC外滩金融中心官网",
+      "url": "https://www.bfcsh.com/index.php?m=Mobile&c=Store&a=show&id=11&language=en",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "La Parisienne - Shanghai Municipality - Mapcarta",
+      "url": "https://mapcarta.com/N8314000812",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Meet the Bund - LaListe",
+      "url": "https://www.laliste.com/places/meet-the-bund-shanghai-cn",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "[2026 Shanghai Shopping mall] BFC Bund Financial Center Travel ...",
+      "url": "https://www.trip.com/moments/poi-bfc-bund-financial-center-31972486/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "巴黎回聲於La Parisienne SH｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144368058?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "La Parisienne — 上海餐廳排名| ByChefs",
+      "url": "https://shanghai.bychefs.com/zh/restaurant/la-parisienne-4/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "La Parisienne(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d9739828-Reviews-La_Parisienne-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "https://you.ctrip.com/food/shanghai2/7006191-dianping.html",
+      "url": "https://you.ctrip.com/food/shanghai2/7006191-dianping.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 9,
+      "title": "Shanghai restaurants offer cool treats to beat summer heat",
+      "url": "https://www.meet-in-shanghai.net/en/news/shanghai-restaurants-offer-cool-treats-to-beat-summer-heat-711120/",
+      "site_name": "上海市文旅推广网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:29:39Z",
+  "retriedEn": true
+}

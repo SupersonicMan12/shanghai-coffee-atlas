@@ -1,0 +1,59 @@
+{
+  "cafeId": "todoslosdias-minfu-rd-678",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b0037acefd39",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/c7dee0d84f886e857fbf642604d0f3bc",
+    "https://aos-comment.amap.com/B0J0GD88V8/comment/9CD30684_23C3_4B13_BF5B_E9F82E29A038_L0_001_1500_2000_1733373644942_25279876.jpg",
+    "https://aos-comment.amap.com/B0J0GD88V8/comment/e2257884b9283fe1f36f534becdae6de_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面有临街玻璃窗，可见圣诞装饰",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和多层货架，陈列烘焙食品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内有肉桂坚果法棍、香肠牛角包等",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见价格标签，如法棍14元，牛角包18元",
+      "kind": "price",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内座位区有桌椅，但数量不多",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "天花板悬挂橙色吊灯，墙面为木质条纹设计",
+      "kind": "decoration",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:24Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "shanghaipaikafei-huashan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "315c616fd8c4",
+  "photos": [
+    "https://aos-comment.amap.com/B0I2JA1LPV/comment/859F772D_0C15_4F76_9499_6361569A1B06_L0_001_960_128_1765378192198_50542537.jpg",
+    "https://aos-comment.amap.com/B0I2JA1LPV/comment/content_media_external_file_100000293_1767684403054_32097695.jpg",
+    "https://aos-comment.amap.com/B0I2JA1LPV/comment/content_media_external_file_128432_ss__1773531541564_46711393.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有木制藤编椅，可坐于街边。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见多组桌椅，空间不拥挤。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街为大玻璃门，采光好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拿铁拉花为老虎图案。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上列有美式、卡布奇诺等基础款。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿色台灯和植物装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "门口贴有“禁止宠物入内”标识。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有人坐着，但未见使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:48Z"
+}

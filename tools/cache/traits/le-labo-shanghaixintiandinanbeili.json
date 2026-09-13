@@ -1,0 +1,20 @@
+{
+  "cafeId": "le-labo-shanghaixintiandinanbeili",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "09ee3ef8e295",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "每日10:00-22:00营业",
+        "en": "Open daily 10am–10pm",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:36:57Z"
+}

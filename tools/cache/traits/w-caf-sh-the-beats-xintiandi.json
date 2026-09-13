@@ -1,0 +1,76 @@
+{
+  "cafeId": "w-caf-sh-the-beats-xintiandi",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3d2d5b548294",
+  "raw": {
+    "headline": {
+      "zh": "咖啡配红酒，新天地热门首",
+      "en": "Coffee with wine, Shanghai's top pick"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供带‘OASIS OF LIFE’封口贴的特色饮品",
+        "en": "Serves drinks with 'OASIS OF LIFE' seals",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应黑面包汉堡、三文鱼、意式烩饭等餐食",
+        "en": "Offers black bread burgers, salmon, risotto",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设靠墙棕色软垫卡座及室外座位",
+        "en": "Has brown booth seating and outdoor tables",
+        "from": [
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–21:00营业",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，可见室外木板地面",
+        "en": "Full-height street-facing windows with wood deck view",
+        "from": [
+          8,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "有卡座和室外位适合久坐",
+        "en": "Booths & outdoor seats invite lingering"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "饮品与餐食组合较特别",
+        "en": "Unusual drink and food pairings"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:12Z"
+}

@@ -1,0 +1,70 @@
+{
+  "cafeId": "nowwa-hongjindasha",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "078108759648",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp",
+    "http://store.is.autonavi.com/showpic/eb516e69c51d16a13fa994fef3bbb632",
+    "http://store.is.autonavi.com/showpic/67525d9d2e93e2a8cc479901bb67f0ca"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为商场内小型吧台式柜台，上方有橙色马形logo与‘挪瓦咖啡’招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "柜台后方有电子菜单屏，显示多款饮品选项（文字模糊不可辨）",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内设有多组软包座椅（绿色、橙色），可见约6人就座或站立",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "空间为挑高大堂环境，地面为浅色抛光石材，墙面有竖条纹饰面",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧有大面积玻璃幕墙，可见室外绿植与建筑轮廓，自然采光充足",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台区域堆放多个纸箱，部分未拆封，似处于开业或补货阶段",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "无可见烘焙机、手冲台、虹吸壶、磨豆机等专业咖啡器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "无人在使用笔记本电脑；有人手持手机或交谈",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:27Z"
+}

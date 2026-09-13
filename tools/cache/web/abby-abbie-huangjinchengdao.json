@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是澳白",
+      "kind": "drinks",
+      "quote": "点上一杯招牌污云拿铁",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/abby-abbie-84141284/",
+      "site": "ABBY ABBIE（黃金城道店） (虹橋地區, 上海) – 菜單 - Trip.com"
+    },
+    {
+      "text": "提供手工提拉米苏",
+      "kind": "food",
+      "quote": "经典提拉米苏",
+      "url": "https://m.dianping.com/discovery/2441373093",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店内有绿植和鲜花",
+      "kind": "space",
+      "quote": "随处处见的绿植、鲜花显出勃勃生机",
+      "url": "http://m.dianping.com/shop/727120095?msource=applemaps",
+      "site": "【ABBY ABBIE(伊犁南路店)】电话_地址_价格_营业时间 - Dianping"
+    },
+    {
+      "text": "营业时间从早上8点到晚上18:30",
+      "kind": "time",
+      "quote": "周一至周日 08:00-18:30",
+      "url": "https://m.dianping.com/discovery/2441373093",
+      "site": "大众点评网"
+    },
+    {
+      "text": "位于黄金城道741号",
+      "kind": "story",
+      "quote": "虹桥街道黄金城道741号",
+      "url": "https://j.map.baidu.com/c3/jyIf",
+      "site": "百度"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "过年来上海,留1天给古北",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30065706",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "[PDF] Untitled",
+      "url": "https://www.discoverasr.com.cn/content/dam/tal/media/images/properties/china/shanghai/Citadines-Gubei-Shanghai/activ8/active8-CoffeeLovers-CitadinesGubeiShanghai-CN.pdf",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "咖啡文化节 | 在长宁虹桥,品味别样的“咖啡香” ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzY5MTQyOQ==&mid=2247559828&idx=2&sn=926235908aaf173d6421e75952543175&chksm=e819fd5edf6e74485a443e96d2b369c0fbd744fe024d1431a65c9fe4f82190f190d762771cbc&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "ABBY ABBIE（黃金城道店） (虹橋地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/abby-abbie-84141284/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "我的咖啡品鉴日记 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/2441373093",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "【ABBY ABBIE】地址,电话,路线,周边,在哪,怎样_百度地图",
+      "url": "https://j.map.baidu.com/c3/jyIf",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "【ABBY ABBIE(伊犁南路店)】电话_地址_价格_营业时间 - Dianping",
+      "url": "http://m.dianping.com/shop/727120095?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:34Z"
+}

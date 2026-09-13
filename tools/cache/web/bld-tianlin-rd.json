@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "每日营业至凌晨1:00",
+      "kind": "time",
+      "quote": "该咖啡厅每日营业时间为8:00至凌晨1:00",
+      "url": "https://baike.baidu.com/item/漕河泾万丽酒店怡廊/14313015",
+      "site": "百度百科"
+    },
+    {
+      "text": "提供下午茶服务，含黑巧克力脆皮蛋糕、树莓巧克力慕斯",
+      "kind": "food",
+      "quote": "“KPL万丽荣耀下午茶”套餐包含黑巧克力脆皮蛋糕、树莓巧克力慕斯等甜点及咸食",
+      "url": "https://baike.baidu.com/item/漕河泾万丽酒店怡廊/14313015",
+      "site": "百度百科"
+    },
+    {
+      "text": "设有2个半包间，配备停车位并支持刷卡支付",
+      "kind": "seating",
+      "quote": "设有2个半包间,配备停车位并支持刷卡支付",
+      "url": "https://baike.baidu.com/item/漕河泾万丽酒店怡廊/14313015",
+      "site": "百度百科"
+    },
+    {
+      "text": "全日制餐厅，拥有开放式厨房，融合亚洲及欧陆风味",
+      "kind": "food",
+      "quote": "它拥有着开放式厨房，融入了亚洲风味及欧陆风味",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d7081048-Reviews-BLD_Cafe_Renaissance_Shanghai_Caohejing_Hotel-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "早餐、午餐、晚餐及零点服务，营业时间6:30-23:00",
+      "kind": "time",
+      "quote": "BLD咖啡厅 · 早上6:30 - 晚上11:00",
+      "url": "https://www.marriott.com.cn/hotels/shaca-renaissance-shanghai-caohejing-hotel/dining/",
+      "site": "上海中餐厅- 点心| 上海漕河泾万丽酒店 - 万豪"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海徐汇漕河泾万丽酒店",
+      "url": "https://hotels.ctrip.com/hotels/374905.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "BLD咖啡厅(上海漕河泾万丽酒店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d7081048-Reviews-BLD_Cafe_Renaissance_Shanghai_Caohejing_Hotel-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 3,
+      "title": "BLD咖啡厅(上海漕河泾万丽酒店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d7081048-Reviews-BLD_Cafe_Renaissance_Shanghai_Caohejing_Hotel-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 4,
+      "title": "漕河泾万丽酒店怡廊",
+      "url": "https://baike.baidu.com/item/漕河泾万丽酒店怡廊/14313015",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "上海漕河泾万丽酒店",
+      "url": "https://www.marriott.com.cn/hotels/maps/travel/SHACA-renaissance-shanghai-caohejing-hotel/",
+      "site_name": "马里奥特万豪国际公司网站"
+    },
+    {
+      "index": 6,
+      "title": "【雾山韩国料理〡万丽酒店·BLD咖啡厅】漕河泾万丽酒店〡218元抢2-3人烤肉套餐!399元万丽R记尊享双人自助晚餐!爆款回归",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgzOTQ4Mw==&mid=2652341549&idx=4&sn=740a25fce63d19e7e22e9144457f8e28&chksm=bcd676b98ba1ffaf29b0fa9d9ac376b28c5e7cd780e2d1892bd8ee93d83c563707c50d2d612a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "Restaurant BLD全日制西餐厅漕河泾万丽酒店（上海）| 鼎食聚",
+      "url": "https://www.diningcity.cn/zh-HK/shanghai/bad_cafe_renaissance_hotel_caohejing",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海中餐厅- 点心| 上海漕河泾万丽酒店 - 万豪",
+      "url": "https://www.marriott.com.cn/hotels/shaca-renaissance-shanghai-caohejing-hotel/dining/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "上海漕河泾万丽酒店·BLD咖啡厅 - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-61941305/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:38Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "jstone-italianbistro-waitan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "655dfc7263e0",
+  "photos": [
+    "https://aos-comment.amap.com/B0H3SDJMOM/comment/content_media_external_file_1000011059_ss__1763443196784_03967452.jpg",
+    "https://aos-comment.amap.com/B0H3SDJMOM/comment/content_media_external_file_100025859_1752828718328_69141343.jpg",
+    "https://aos-comment.amap.com/B0H3SDJMOM/comment/content_media_external_file_100025860_1752828718311_42381217.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场外立面，门头标有'Jstone ITALIAN FINE BISTRO 大爵小意馆'及L207编号",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街为大面积拱形玻璃窗与金属框架，左侧可见户外座位区含遮阳伞、绿植与桌椅",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "户外座区背景为玻璃幕墙，反射热气球图案装饰，非自然景观",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张图右下角立牌显示菜单部分内容，可见'工作日午市商务单人餐 158元'",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图是冷盘：薄切火腿配芝麻菜、小洋葱、酸黄瓜、可食用花，顶部饰哈密瓜片",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第三张图是披萨：厚底带焦斑，铺牛肉丸、芝麻菜、帕玛森芝士碎",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店面招牌上方有'绿地外滩潮方'标识，属商业综合体",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "户外座位区至少有2把收拢的米色遮阳伞、2组桌椅及盆栽柠檬树",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:17Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "hlab-coffee-oujiuxiaoqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1f95b9f460ed",
+  "photos": [
+    "https://aos-comment.amap.com/B0I6H5WJEX/comment/f37c10086b494b11bc07a39c5f45013b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I6H5WJEX/comment/ae9af506a3d51ca14338bfd5c4445144_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I6H5WJEX/comment/1b6e2ba8026fa016e031f15f2d5c222e_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "menu",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "菜单上有美式、拿铁、澳白、卡布奇诺等经典咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有特调拿铁如柠檬拿铁、桂花酒酿拿铁、麦乳精拿铁",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供文豪系列饮品，包括文豪美式、文豪拿铁、文豪奶茶、文豪馥茶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "经典咖啡价格在15至25元之间",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "特调拿铁价格为28至33元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见复古收音机和装饰瓶，店内有文化风格布置",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有标价38.8元的文豪系列饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯上印有‘欧阳04’字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:19Z"
+}

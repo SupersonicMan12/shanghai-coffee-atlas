@@ -1,0 +1,99 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是日式焦糖布丁",
+      "kind": "food",
+      "quote": "① 甜品界的“颜值担当” • 日式焦糖布丁",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供特调气泡水，如菠萝香茅气泡水",
+      "kind": "drinks",
+      "quote": "② 咖啡控的“续命神器” • 特调气泡水:菠萝香茅气泡水酸甜清爽",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    },
+    {
+      "text": "店内有藤编座椅与绿植点缀的飘窗位",
+      "kind": "space",
+      "quote": "店内藤编座椅与绿植点缀的飘窗位最受欢迎",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间从9:30到20:00",
+      "kind": "time",
+      "quote": "🕒营业时间:9:30-20:00",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    },
+    {
+      "text": "地址位于长宁区武夷路320号武夷mixB区107室",
+      "kind": "view",
+      "quote": "EAU CAFE(武夷路店) 地址:长宁区武夷路320号武夷mixB区107室",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxNjczMzYzNQ==&mid=2651771687&idx=1&sn=69beddcd0cc50659fbf818a7b946db5d&chksm=81858263a8a048de8afd5081a82162ffa2270a33688a2e5d3f3f28315119959345dfe14f8440&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "拥有蓝白日系美学与原木元素的装饰风格",
+      "kind": "space",
+      "quote": "蓝白门头+原木元素 的组合,让EAU CAFE在永康路一众咖啡馆中脱颖而出",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供周边设计,如极简风的咖啡杯套和甜品包装",
+      "kind": "story",
+      "quote": "周边设计:极简风的咖啡杯套和甜品包装,喝完还能带回家当手账本封面",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "今天这杯咖啡，你喝出什么不一样了吗？ (2026-09-01 ) - 上海市民政局",
+      "url": "https://mzj.sh.gov.cn/2026bsmz/20260901/430e0af8734e4b9cb1057d7e84ff8f3a.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "上海永康路甜品☕️-EAU CAFE ",
+      "url": "https://m.dianping.com/discovery/2264183858",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "咖啡店里吃刨冰,华阳这家店,有点意思 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxNjczMzYzNQ==&mid=2651771687&idx=1&sn=69beddcd0cc50659fbf818a7b946db5d&chksm=81858263a8a048de8afd5081a82162ffa2270a33688a2e5d3f3f28315119959345dfe14f8440&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "EAU Cafe, Shanghai - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-133108446/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "EAU CAFE(武夷路店) - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-134845517/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "EÀU CAFE - Restaurant Reviews, Menu & Contact - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/eu-cafe-70401002/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "EAU Cafe (Yongkang Road Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F980B3893B40&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:59Z"
+}

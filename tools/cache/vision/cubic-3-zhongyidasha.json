@@ -1,0 +1,59 @@
+{
+  "cafeId": "cubic-3-zhongyidasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6358a1cfdf29",
+  "photos": [
+    "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png",
+    "https://aos-comment.amap.com/B0IR05TYCX/comment/70959495d57938d10a207157badf82c9_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IR05TYCX/comment/5cb91e4b8aff8b7b717d74e4885978b6_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "other",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有磨豆机和咖啡萃取设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见冰美式饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有两杯装在纸杯中的冷萃或冰美式咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有多个咖啡器具，包括磨豆机和手冲杯",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "使用透明塑料杯和带盖设计盛装饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店名标识为(m)³ COFFEE，品牌名为三立方",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:51Z"
+}

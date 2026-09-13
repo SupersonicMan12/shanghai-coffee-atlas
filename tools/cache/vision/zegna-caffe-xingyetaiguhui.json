@@ -1,0 +1,66 @@
+{
+  "cafeId": "zegna-caffe-xingyetaiguhui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "69c4029bab44",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4c72b3112902f14c0000003306614666",
+    "https://store.is.autonavi.com/showpic/adf6c104d72f94be0000005058900098?type=pic",
+    "https://store.is.autonavi.com/showpic/0ed48c3711d126e10000003381384664?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有绿植装饰，环境自然",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有蓝色圆形桌和橙色椅子，座位布置现代",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡拉花艺术，饮品精致",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供蛋糕类甜点，搭配咖啡",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有木质格栅隔断，设计感强",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间为商场内独立区域，非临街开放",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:08Z"
+}

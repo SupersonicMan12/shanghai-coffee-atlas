@@ -1,0 +1,62 @@
+{
+  "cafeId": "vuoiuna-caffe-kaideshangpuzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3dbf97f77f74",
+  "raw": {
+    "headline": {
+      "zh": "仅设高脚吧台位的小店",
+      "en": "Small shop with bar seating only"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内有约4-6个金色金属框架配彩色坐垫的高脚吧台座位",
+        "en": "4–6 gold-metal bar stools with colorful cushions",
+        "from": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周一至周日 07:30-17:00",
+        "en": "Open daily 7:30 AM–5:00 PM",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "收银台区域可见橙色杯子和打包袋",
+        "en": "Serves drinks in orange cups and takeout bags",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "仅设高脚吧台位，空间小",
+        "en": "Small size, bar seating only"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "无桌椅，难办公",
+        "en": "No desks or tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:53Z"
+}

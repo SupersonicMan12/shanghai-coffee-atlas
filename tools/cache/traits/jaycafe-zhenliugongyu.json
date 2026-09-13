@@ -1,0 +1,59 @@
+{
+  "cafeId": "jaycafe-zhenliugongyu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e58ff0e0930f",
+  "raw": {
+    "headline": {
+      "zh": "仅设吧台高脚凳",
+      "en": "Bar seating only"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "仅提供吧台与靠墙高脚凳",
+        "en": "Only bar and wall-mounted stools",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐卡布奇诺",
+        "en": "Cappuccino is a recommended drink",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–18:30营业",
+        "en": "Open daily 07:30–18:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "仅高脚凳不便久坐",
+        "en": "Stools not for long stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:31Z"
+}

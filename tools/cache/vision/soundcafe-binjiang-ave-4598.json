@@ -1,0 +1,71 @@
+{
+  "cafeId": "soundcafe-binjiang-ave-4598",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "db8e9c250daa",
+  "photos": [
+    "https://aos-comment.amap.com/B0G1SK6FA6/comment/a2897a15983897c5f703c443386ff61f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G1SK6FA6/comment/54136fc65c0e898bf6fd798df99ea526_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G1SK6FA6/comment/2FF2C836_9710_49C5_9D6C_8D4955FA6337_L0_001_1500_200_1751600037876_20086386.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有黑板菜单，列有咖啡、茶饮及价格，如美式30元。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有长木桌配多把椅子，空间开阔，适合多人或工作。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有书架和装饰品，墙上挂干花束，有生活气息。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "桌上放笔记本电脑，有人在用电脑工作或学习。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为玻璃壶装柠檬茶，配小杯，摆放在木托盘上。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街是大面积玻璃窗，可看到室外绿植和远处建筑。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口上方堆叠稻草捆与南瓜，有季节性装饰元素。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门敞开，可见吧台后方有工作人员及货架陈列。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:28Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "chili-s-zhangtaiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "813464e10336",
+  "photos": [
+    "https://aos-comment.amap.com/B0K0DS8W56/comment/content_media_external_file_100016936_1769668297310_77937798.jpg",
+    "https://store.is.autonavi.com/showpic/e1893d59b63718bd969f53d6a8dce000",
+    "https://aos-comment.amap.com/B0K0DS8W56/comment/content_media_external_images_media_1000141419_ss__1736649961712_84183325.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "汉堡配薯条，附番茄酱",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有室外用餐区，带遮阳棚和灯光",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃窗，可见街道与树木",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有长桌和多把椅子，座位较多",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有菜单展示牌，显示菜品图片",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有花坛装饰，环境整洁",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐厅位于商场一楼，门面开阔",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质结构和串灯装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:39Z"
+}

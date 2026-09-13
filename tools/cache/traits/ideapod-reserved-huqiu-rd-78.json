@@ -1,0 +1,67 @@
+{
+  "cafeId": "ideapod-reserved-huqiu-rd-78",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8fea9b621dc8",
+  "raw": {
+    "headline": {
+      "zh": "为灵活工作者设计的办公咖啡馆",
+      "en": "Work cafe for flexible workers"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "阶梯式座位配木质矮桌，约6–8席",
+        "en": "Tiered seating with low wood tables, 6–8 seats",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–20:00营业",
+        "en": "Open daily 9:00–20:00",
+        "from": [
+          10,
+          12
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用笔记本电脑办公",
+        "en": "Patrons work on laptops",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐下午茶",
+        "en": "Afternoon tea recommended on Amap",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "明确为灵活工作者设计",
+        "en": "Designed for flexible workers"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "多样座位适合久坐",
+        "en": "Varied seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:48Z"
+}

@@ -1,0 +1,81 @@
+{
+ "cafeId": "offbeat-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "833ade4835e9",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "临街小窗口式吧台，嵌入深色砖墙中",
+    "en": "Street-facing window bar in dark brick wall",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供经典咖啡及茉莉花Dirty等特色饮品",
+    "en": "Serves classic coffee and jasmine Dirty",
+    "from": 2,
+    "></kind>3</from> </zh> </en> </traits> <axisHints> <focus> <value>0</value> <from>6</from> <zh>没有顾客在座，不适合专注办公</zh> <en>No customers, not for work</en> </focus> <linger> <value>50</value> <from>8</from> <zh>室外有座位，适合短暂停留</zh> <en>Outdoor seating, good for a short stay</en> </linger> <adventure> <value>40</value> <from>3, 10</from> <zh>提供日常特选豆子和茉莉花Dirty</zh> <en>Offers off-menu beans and jasmine Dirty</en> </adventure> </axisHints> </json>": "",
+    "headline": null,
+    "traits": "traits"
+   },
+   {
+    "kind": "beans",
+    "zh": "每日特选豆子，可询问店员",
+    "en": "Daily off-menu beans available",
+    "from": 10
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 0,
+    "from": 6,
+    "zh": "无顾客且空间较小，不适合工作",
+    "en": "Small, no customers, not for work"
+   },
+   "linger": {
+    "value": 50,
+    "from": 8,
+    "zh": "室外有座位，适合短暂休息",
+    "en": "Outdoor seats, good for short stays"
+   },
+   "adventure": {
+    "value": 40,
+    "from": 3,
+    "></kind>10</from> </zh> </en> </adventure> </axisHints> </json>": "traits"
+   },
+   "energy": {
+    "value": 30,
+    "from": 6,
+    "zh": "店内安静，无人嘈杂",
+    "en": "Quiet, no crowds"
+   }
+  },
+  "Traits": [
+   {
+    "kind": "space",
+    "zh": "临街小窗口式吧台，嵌入深色砖墙中",
+    "en": "Street-facing window bar in dark brick wall",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供经典咖啡及茉莉花Dirty等特色饮品",
+    "en": "Serves classic coffee and jasmine Dirty",
+    "from": 2,
+    "></kind>3</from> </zh> </en> </traits> <axisHints> <focus> <value>0</value> <from>6</from> <zh>没有顾客在座，不适合专注办公</zh> <en>No customers, not for work</en> </focus> <linger> <value>50</value> <from>8</from> <zh>室外有座位，适合短暂停留</zh> <en>Outdoor seating, good for a short stay</en> </linger> <adventure> <value>40</value> <from>3, 10</from> <zh>提供日常特选豆子和茉莉花Dirty</zh> <en>Offers off-menu beans and jasmine Dirty</en> </adventure> </axisHints> </json>": "traits"
+   },
+   {
+    "kind": "beans",
+    "zh": "每日特选豆子，可询问店员",
+    "en": "Daily off-menu beans available",
+    "from": 10
+   }
+  ]
+ },
+ "fetchedAt": "2026-09-12T14:19:47Z"
+}

@@ -1,0 +1,89 @@
+{
+  "cafeId": "pain-chaud",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ce69febb476d",
+  "raw": {
+    "headline": {
+      "zh": "栗子塔必试",
+      "en": "Try the chestnut tower"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌栗子塔含栗子泥、鲜奶油与栗子奶油",
+        "en": "Signature chestnut tower with chestnut puree, fresh cream, and chestnut butter",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "位于889广场西南角首层，270度弧形玻璃幕墙",
+        "en": "On first floor of 889 Plaza's southwest corner, with 270-degree curved glass facade",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-21:00",
+        "en": "Open daily 07:00–21:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "人气饮品包括拿铁与澳白",
+        "en": "Popular drinks include latte and oat milk flat white",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "抹茶奶油泡芙配开心果碎与整粒开心果",
+        "en": "Matcha cream puff with crushed pistachios and whole pistachio",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "有梳化座位可办公",
+        "en": "Has sofas for working"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "地处商场转角人流多",
+        "en": "Located at busy mall corner"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "有舒适座位适合久坐",
+        "en": "Comfortable seating for lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "甜点有特色组合",
+        "en": "Unique dessert combinations"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:15Z"
+}

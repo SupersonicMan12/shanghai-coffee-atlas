@@ -1,0 +1,65 @@
+{
+  "cafeId": "1982-puming-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3dfc71ea3336",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6c6cc29a37d03faa27b46f3e986ffb45",
+    "https://store.is.autonavi.com/showpic/29e45d3e10408b4971b029be690a9cba",
+    "https://store.is.autonavi.com/showpic/cb7ae9108a482cfd0379ce2d7429621b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街商铺，有遮阳棚和绿植装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门前有绿化带和灌木丛，环境整洁",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺门口可见台阶和入口，无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "建筑为现代玻璃幕墙结构，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前停放车辆，街道环境清晰可见",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招为粉色底板，显示品牌名称CHLITINA",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "门前地面有小猫出现，可能允许宠物进入或附近常有动物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:20Z"
+}

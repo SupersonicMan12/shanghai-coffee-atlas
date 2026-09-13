@@ -1,0 +1,61 @@
+{
+  "cafeId": "cafe-bar-xibutongyili",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "989c6644db07",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗+红椅坐席",
+      "en": "Street-facing glass with red seats"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街落地窗，室外有红色木椅座位",
+        "en": "Street-facing floor-to-ceiling windows with red outdoor seating",
+        "from": [
+          4,
+          5,
+          6,
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应多层粉红千层蛋糕",
+        "en": "Serves multi-layered pink mille-feuille cake",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 08:30-20:00，周一至周日",
+        "en": "Open daily 08:30–20:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有舒适坐垫与户外位",
+        "en": "Comfortable cushions and outdoor spots"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "临街位置，有外摆座",
+        "en": "On-street location with outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:26Z"
+}

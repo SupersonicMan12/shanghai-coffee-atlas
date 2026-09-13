@@ -1,0 +1,71 @@
+{
+  "cafeId": "sunset-ab-yanqinglu54nongxiaoqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "7586b625cc3c",
+  "photos": [
+    "https://aos-comment.amap.com/B0I13SRPG4/comment/D35A54E0_A141_4B24_876A_24FAB868DCE3_L0_001_1440_1719_1727339603752_38551335.jpg",
+    "https://aos-comment.amap.com/B0I13SRPG4/comment/24adbb2ba7196a251128debdb427411c_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I13SRPG4/comment/0653A855_9A7E_476D_8537_EB1F1FE8FA29_L0_001_1440_1716_1727339603751_14786967.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有绿植和一个橙色立牌，旁边是人行道和行道树。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有专业咖啡机、磨豆机和手冲器具。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃柜上手写菜单有紫米包、红豆包等食物，标价15元。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上海报显示有“盖碗茶”、“SUNSET SET”等饮品选项。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口放着一张小桌子和一把椅子，为室外座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台前有花瓶插着粉色兰花和绿色花烛。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单可见“提子丹麦”、“肉桂卷”等烘焙品，标价18元。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "墙上海报提及“COCONUT WITH JASMINE”，为一款饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:13Z"
+}

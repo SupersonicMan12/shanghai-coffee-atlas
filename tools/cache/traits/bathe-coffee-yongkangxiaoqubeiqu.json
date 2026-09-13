@@ -1,0 +1,75 @@
+{
+  "cafeId": "bathe-coffee-yongkangxiaoqubeiqu",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d962ff71179c",
+  "raw": {
+    "headline": {
+      "zh": "澡堂风冠军主理特调",
+      "en": "Champion-barista bathhouse-style drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含话梅糖浆或威士忌的亚洲风味特调",
+        "en": "Offers Asian-inspired drinks with plum syrup or whiskey",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "专注单一产区意式咖啡，豆单定期更新",
+        "en": "Single-origin espresso only; beans rotate regularly",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有座位区，非纯吧台式",
+        "en": "Has seating area, not bar-only",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "由世界咖啡与烈酒大赛中国冠军主理",
+        "en": "Run by World Coffee & Spirits China Champion",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-18:00（部分日期闭店）",
+        "en": "Open 10:00–18:00 (closed some dates)",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          3,
+          10,
+          11
+        ],
+        "zh": "特调含烈酒与亚洲元素",
+        "en": "Drinks feature spirits & Asian flavors"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "设有座位区可坐下",
+        "en": "Seating available for staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:41Z"
+}

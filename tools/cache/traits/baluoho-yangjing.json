@@ -1,0 +1,34 @@
+{
+ "cafeId": "baluoho-yangjing",
+ "model": "qwen-max",
+ "inputDigest": "f14f14ae4f0c",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "sound",
+    "zh": "安静的角落，没有背景音乐",
+    "en": "Quiet corner, no background music",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": 2,
+    "zh": "安静无干扰适合工作",
+    "en": "Quiet, good for work"
+   },
+   "energy": {
+    "value": 10,
+    "from": 2,
+    "zh": "非常安静",
+    "en": "Very quiet"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:40Z"
+}

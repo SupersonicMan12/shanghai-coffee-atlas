@@ -1,0 +1,46 @@
+{
+ "cafeId": "tim-hortons-osm-2",
+ "model": "qwen-max",
+ "inputDigest": "8a6999ebadce",
+ "raw": {
+  "headline": {
+   "zh": "咖啡+暖食，覆盖全天候消费场景",
+   "en": "Coffee + Warm Food, All Day Long"
+  },
+  "traits": [
+   {
+    "kind": "food",
+    "zh": "贝果等暖食现做现售",
+    "en": "Freshly made bagels and warm food",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "咖啡豆选自全球知名产区，手工采摘、小批量新鲜烘焙",
+    "en": "Hand-picked, small-batch roasted beans from top regions",
+    "from": 2
+   },
+   {
+    "kind": "time",
+    "zh": "覆盖早餐、午餐、下午茶等全时段",
+    "en": "Serves breakfast, lunch, and afternoon tea",
+    "from": 3
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 3,
+    "zh": "适合轻度工作和用餐",
+    "en": "Good for light work and meals"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "适合久坐享受全天餐点",
+    "en": "Great for long stays with all-day meals"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:22:49Z"
+}

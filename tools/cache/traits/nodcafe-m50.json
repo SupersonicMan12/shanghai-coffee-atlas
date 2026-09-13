@@ -1,0 +1,93 @@
+{
+  "cafeId": "nodcafe-m50",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "a7e5d0e474e8",
+  "raw": {
+    "headline": {
+      "zh": "四露台+涂鸦艺术",
+      "en": "Four terraces with graffiti art"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "有四个露台可供朋友小聚",
+        "en": "Has four terraces for small groups to gather",
+        "from": [
+          11,
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞SOE咖啡豆",
+        "en": "Uses Ethiopian SOE coffee beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为苹果肉桂拿铁",
+        "en": "Signature drink is apple cinnamon latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full-height street-facing glass, ample natural light",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内及通道绘有涂鸦，呼应园区艺术",
+        "en": "Interior and entryway feature graffiti reflecting M50's art vibe",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          11,
+          8
+        ],
+        "zh": "露台与临街设计带来一定人流",
+        "en": "Terraces and street frontage draw some foot traffic"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          11,
+          12
+        ],
+        "zh": "露台和艺术氛围适合久坐",
+        "en": "Terraces and artistic setting invite lingering"
+      },
+      "focus": {
+        "value": 30,
+        "from": [
+          6,
+          14
+        ],
+        "zh": "无办公设备，专注度不高",
+        "en": "No work setup, low focus potential"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "精品豆与特色饮品具一定创新性",
+        "en": "Specialty beans and unique drink offer moderate novelty"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:58Z"
+}

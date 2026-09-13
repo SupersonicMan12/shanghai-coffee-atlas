@@ -1,0 +1,45 @@
+{
+  "cafeId": "bluety-coffee-hangtiandasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "af940932c466",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f5dbfbbe3af394e1ae02828e6e6c4091",
+    "http://store.is.autonavi.com/showpic/ca5ca73272482dfb5704803de678d5a8"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门，可见内部有座位区。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，透过玻璃可见桌椅。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "门外停放多辆电动车，表明附近有停车区域。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吧台结构，但具体设备不清晰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:09Z"
+}

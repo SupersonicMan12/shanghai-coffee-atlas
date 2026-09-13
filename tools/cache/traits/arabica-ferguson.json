@@ -1,0 +1,75 @@
+{
+  "cafeId": "arabica-ferguson",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1c4e4d3e1051",
+  "raw": {
+    "headline": {
+      "zh": "武康庭院子的京都咖啡",
+      "en": "Kyoto latte in a 1930s courtyard"
+    },
+    "traits": [
+      {
+        "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story",
+        "zh": "临街落地玻璃窗，室内通透明亮，有绿植墙与室外座位",
+        "en": "Floor-to-ceiling windows, open and bright with green walls and outdoor seating",
+        "from": [
+          1,
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "使用100%阿拉比卡咖啡豆制作浓缩基底咖啡",
+        "en": "Uses 100% Arabica beans for espresso base",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为庭院里的京都风味拿铁",
+        "en": "Signature Kyoto latte served in the courtyard",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-18:00",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "站喝为主，不适宜久坐办公",
+        "en": "Standing-only layout, not for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "老洋房庭院，人流略多",
+        "en": "In a bustling old compound courtyard"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "站喝空间为主，不易久留",
+        "en": "Designed for quick service, not lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:01Z"
+}

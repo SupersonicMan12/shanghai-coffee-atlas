@@ -1,0 +1,71 @@
+{
+  "cafeId": "lemon-louis-panyu-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "87d8998ed91e",
+  "photos": [
+    "https://aos-comment.amap.com/B0G33SX8VL/comment/dad50e7b2b75c0c67e2de820685ea55f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G33SX8VL/comment/369bb3b337e4b13628b9591c010e7fda_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G33SX8VL/comment/content_media_external_images_media_100001241_1726916109476_30449126.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和大面积玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机、磨豆机等专业器具",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方陈列多种酒类和茶品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单显示古早、玛奇朵、拿铁等饮品选项",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "有手冲咖啡设备和虹吸壶",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品杯上印有品牌标识",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有咖啡指示箭头，指向店内咖啡区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内灯光温暖，货架照明充足",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:12:34Z"
+}

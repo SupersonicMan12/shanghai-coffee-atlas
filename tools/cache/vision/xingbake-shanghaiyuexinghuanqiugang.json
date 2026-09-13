@@ -1,0 +1,53 @@
+{
+  "cafeId": "xingbake-shanghaiyuexinghuanqiugang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "8a61119b12d2",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/56c42a2bb4274aa2184b70135cbd15ad",
+    "http://store.is.autonavi.com/showpic/6c193744b11ca71b02e03ef14e0beca2",
+    "https://aos-comment.amap.com/B0FFJ7X0TV/comment/58c1bbcfdca6d2f96d47d4e01dc1ece3_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "商场内店铺，入口敞开，可见内部有桌椅和顾客。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有顾客坐着，部分人面前有笔记本电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "玻璃门和橱窗通透，室内采光良好，无自然光直射。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内座位为桌椅组合，数量级为“some”，非吧台为主。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "橱窗贴有棕榈叶图案装饰，非纯透明玻璃。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:49Z"
+}

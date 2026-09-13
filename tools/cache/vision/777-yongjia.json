@@ -1,0 +1,71 @@
+{
+  "cafeId": "777-yongjia",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "3ae5de05b02c",
+  "photos": [
+    "https://aos-comment.amap.com/B0JDDMYCXI/comment/a3687890be6a2ae4ce01414a552ae8b8_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JDDMYCXI/comment/1c2cd569303a23d8490491a3b6240d1d_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JDDMYCXI/comment/b90ec18d800380def5e993fcc1beec87_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为蓝色木板外墙，门旁有红色蝴蝶结与圣诞花环装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店门口停放多辆电动车，地面铺满落叶，临街无室外座位区。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见裸露红砖墙与部分剥落灰泥墙，风格为工业复古风。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "吧台区域有木质小桌、折叠椅、塑料储物箱及绿植，座位极少（≤3个）。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "咖啡豆罐标签清晰显示产地：埃塞俄比亚Gujji Dorothy、洪都拉斯Sherry Mocha等。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "杯身有手绘简笔画（人物、哆啦A梦），杯托为黑色硅胶圈，非一次性杯托。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "墙上贴有‘公路浪人’海报，含‘Free Spirits’‘Riding’等英文词，无价格信息。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "第一张图中可见木质门上贴有促销海报，标有‘9元’字样及饮品图示。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:50Z"
+}

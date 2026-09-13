@@ -1,0 +1,34 @@
+{
+ "cafeId": "fine-line",
+ "model": "qwen-max",
+ "inputDigest": "447d99affbd6",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供招牌滤杯咖啡，两种豆子可选",
+    "en": "Signature filter flight with two bean options",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 30,
+    "from": 1,
+    "zh": "主要是站立吧台",
+    "en": "Standing bar primarily"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 1,
+    "zh": "有手冲台，注重单品选择",
+    "en": "Brew-bar focused, bean selection"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:20Z"
+}

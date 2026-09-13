@@ -1,0 +1,75 @@
+{
+  "cafeId": "yangyangkafei-zhongshan-n-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "260d2a0465cf",
+  "raw": {
+    "headline": {
+      "zh": "手冲与虹吸俱全的小窗咖",
+      "en": "Pour-over and siphon in a bright window spot"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-height street-facing windows with ample light",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台配高脚凳，仅容少量顾客",
+        "en": "Bar seating with stools for a few guests",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡和虹吸壶冲煮",
+        "en": "Offers pour-over and siphon brewing",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "展示柜内有甜点或糕点",
+        "en": "Pastries or cakes displayed in a case",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日8:00-19:00，周末10:00-18:00",
+        "en": "Open 8–19 weekdays, 10–18 weekends",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "空间小座位少",
+        "en": "Tiny space, few seats"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "有手冲和虹吸壶",
+        "en": "Pour-over & siphon available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:17Z"
+}

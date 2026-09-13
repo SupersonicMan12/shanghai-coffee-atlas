@@ -1,0 +1,59 @@
+{
+  "cafeId": "lavazza-shanghaiwanyuancheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "321082e19b90",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/a81d44f2e0176f28bd31f0cfed9d9754",
+    "https://store.is.autonavi.com/showpic/a33a4fac498924ea0000005963462363?type=pic",
+    "http://store.is.autonavi.com/showpic/51626e0f5d317f036bd1386c7c3ab12c"
+  ],
+  "photoKinds": [
+    "logo",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场临街转角，有大面积玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有桌椅和遮阳伞，提供室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分桌椅，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示有炭烤风味牛排，为菜单上食物之一",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店招牌显示LAVAZZA品牌及意大利起源信息",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有宣传海报，内容涉及饮品促销",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:59Z"
+}

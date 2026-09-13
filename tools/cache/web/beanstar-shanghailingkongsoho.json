@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "使用SCA85+阿拉比卡咖啡豆",
+      "kind": "beans",
+      "quote": "比星咖啡甄选SCA85+ 阿拉比卡咖啡豆",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site": "36氪"
+    },
+    {
+      "text": "提供白丝绒慕斯拿铁作为招牌饮品",
+      "kind": "drinks",
+      "quote": "推荐指数:★★★★★ 白丝绒慕斯拿铁",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site": "36氪"
+    },
+    {
+      "text": "拥有独特的空间美学设计",
+      "kind": "space",
+      "quote": "秉持⌈MADE WITH HEART⌋的品牌理念 提供质感与创意感十足的咖啡、茶饮与烘焙",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site": "36氪"
+    },
+    {
+      "text": "适合办公和聊天的环境",
+      "kind": "people",
+      "quote": "用心与大家分享一杯好喝不贵的精品咖啡",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site": "36氪"
+    },
+    {
+      "text": "营业时间至晚上10点",
+      "kind": "time",
+      "quote": "上海凌空SOHO店即将开业",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site": "36氪"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "BeanStar比星咖啡(上海静安寺店)",
+      "url": "https://m.dianping.com/shop/1149639158",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "人民广场/南京路咖啡",
+      "url": "https://m.dianping.com/shop/1776442377",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "BeanStar比星咖啡(上海佘山宝乐汇店)",
+      "url": "https://m.dianping.com/shop/567397849",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "宝山城区/吴淞咖啡",
+      "url": "https://m.dianping.com/shop/880999031",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "BeanStar比星咖啡(上海崇恒新天地店)",
+      "url": "https://m.dianping.com/shop/1034606964",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "BeanStar Bixing Coffee (Shanghai Jing'an Moho Mall Shop)",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97A45622094&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "比星咖啡_百度百科",
+      "url": "https://baike.baidu.com/item/%E6%AF%94%E6%98%9F%E5%92%96%E5%95%A1/62765056",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "比星咖啡| 项目信息-36氪 - 创投平台",
+      "url": "https://pitchhub.36kr.com/project/1843687657776260",
+      "site_name": "36氪"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:11:13Z"
+}

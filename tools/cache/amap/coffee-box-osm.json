@@ -1,0 +1,98 @@
+{
+  "cafeId": "coffee-box-osm",
+  "query": {
+    "location": "121.411689,31.208605",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:50:21Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "桑拿汗蒸",
+        "type": "生活服务;洗浴推拿场所;洗浴推拿场所|购物服务;服装鞋帽皮具店;服装鞋帽皮具店|餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLEPQ0O/comment/b6551c685f64afa531ace371b234ca21_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFLEPQ0O/comment/3555407f14991de34e6423a6282fa683_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/5d3cc34ad274b6603abfbedb69cb0f30"
+          }
+        ],
+        "building": [],
+        "typecode": "071400|061100|050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFLEPQ0O",
+        "tag": [],
+        "entr_location": "121.414141,31.208555",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "中山公园",
+        "childtype": [],
+        "atag": [],
+        "name": "纽斯SPA(天山路)(暂停营业)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_588170",
+        "distance": "239",
+        "importance": [],
+        "biz_ext": {
+          "cost": "192.00",
+          "opentime2": "周一至周日 00:00-24:00",
+          "rating": "4.5",
+          "open_time": "24小时营业",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635300",
+        "shopinfo": "0",
+        "alias": "纽斯洗浴",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:55:05",
+        "website": [],
+        "address": "天山路1900号环东华时尚休闲中心1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.414198,31.208802",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

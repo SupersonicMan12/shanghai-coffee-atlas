@@ -1,0 +1,110 @@
+{
+  "facts": [
+    {
+      "text": "主打“咖啡+暖食”双轮驱动，贝果等暖食现做现售",
+      "kind": "food",
+      "quote": "Tims天好咖啡的核心竞争力在于“咖啡+暖食”的双轮驱动",
+      "url": "https://www.sohu.com/a/1027657347_120962013",
+      "site": "搜狐"
+    },
+    {
+      "text": "咖啡豆选自全球知名产区，手工采摘、小批量新鲜烘焙",
+      "kind": "beans",
+      "quote": "咖啡豆经手工采摘、小批量新鲜烘焙，由咖啡大师把控萃取",
+      "url": "https://www.sohu.com/a/1027657347_120962013",
+      "site": "搜狐"
+    },
+    {
+      "text": "覆盖早餐、午餐、下午茶等全时段消费场景",
+      "kind": "time",
+      "quote": "组合成高性价比套餐，无缝覆盖早餐、午餐、下午茶等全时段",
+      "url": "https://www.sohu.com/a/1027657347_120962013",
+      "site": "搜狐"
+    },
+    {
+      "text": "2019年进入中国市场，源自1964年加拿大汉密尔顿的冰球运动员Tim Horton创立",
+      "kind": "story",
+      "quote": "1964年,传奇冰球运动员Tim Horton在加拿大汉密尔顿创立首家Tims咖啡馆",
+      "url": "https://www.sohu.com/a/1027657347_120962013",
+      "site": "搜狐"
+    },
+    {
+      "text": "截至2025年末门店达1047家，覆盖全国92座城市",
+      "kind": "space",
+      "quote": "截至2025年末,其门店总数达1047家,覆盖全国92座城市",
+      "url": "https://baike.baidu.com/item/Tims天好中国/67673403",
+      "site": "百度百科"
+    },
+    {
+      "text": "暖食涵盖贝果、多拿滋、恰巴塔等，区别于多数以冷食为主的咖啡厅",
+      "kind": "food",
+      "quote": "暖食涵盖贝果、多拿滋、恰巴塔等品类,覆盖从早餐到下午茶的全天候用餐时段",
+      "url": "https://www.sohu.com/a/1065232101_100106801",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Tims天好中国",
+      "url": "https://baike.baidu.com/item/Tims天好中国/67673403",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "“tims和瑞幸哪个好喝”背后,其实是两种咖啡哲学的对决",
+      "url": "https://www.sohu.com/a/1027657347_120962013",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "Tims天好中国发布2026年第二季度财报:期内营收同比下滑21.66%至2.73亿元",
+      "url": "https://www.sohu.com/a/1065232101_100106801",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "Tims天好中国迎来新帅与5500万美元弹药 - 华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3774253",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Tims咖啡品牌手册.PDF",
+      "url": "https://www.sohu.com/a/898228927_121119389",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "Tim Hortons_百度百科",
+      "url": "https://baike.baidu.com/item/Tim%20Hortons/948809",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "Tims天好中国，增长新范式 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/60448",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 8,
+      "title": "THCH）拥有Tims天好咖啡在中国大陆、香港",
+      "url": "https://www.timschina.com/mobile/home/about",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "什么是Tims天好咖啡？-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/43180",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 10,
+      "title": "Tims中国:成不了星巴克,也学不会瑞幸",
+      "url": "https://www.163.com/dy/article/L55VFON10519830E.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:37:52Z"
+}

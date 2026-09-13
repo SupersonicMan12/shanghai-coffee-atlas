@@ -1,0 +1,90 @@
+{
+  "facts": [
+    {
+      "text": "店内提供自家拼配的意式浓缩基底特调咖啡",
+      "kind": "drinks",
+      "quote": "一款名叫“永不结束的夏天和随时幻灭的爱情”的特调咖啡非常嘘头",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    },
+    {
+      "text": "空间设计时髦，有长吧台可面对面交流",
+      "kind": "space",
+      "quote": "店内空间不大,装修很时髦,一条长吧台贯穿其中",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    },
+    {
+      "text": "手冲所用豆子为小批量家用烘焙机烘成",
+      "kind": "beans",
+      "quote": "据咖啡师所说,店内手冲所用的豆子都是用小型家用烘焙机以小批量烘成",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    },
+    {
+      "text": "位于上海市长乐路368号",
+      "kind": "story",
+      "quote": "地址:上海市长乐路368号",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site": "搜狐"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "魔都咖啡地图 | 春日咖啡散策2.0_coffee",
+      "url": "https://www.sohu.com/na/457960337_391479",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 2,
+      "title": "共话丨上海村咖:一杯乡村咖啡里的“慢生意”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMzA3OTc3NQ==&mid=2650323285&idx=1&sn=1fa7f8f6f176f37e270296dc0af0c7a2&chksm=82a10ac4702277623dcb455a483f029d5704de24d5a5ccea653043eeff66c0d9f821d773e11a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 4,
+      "title": "上海最特別的咖啡店！ - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-147029703/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "村口大树，为谁做咖啡？为何做咖啡？ - QQ",
+      "url": "https://view.inews.qq.com/a/20250407A0896E00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 6,
+      "title": "上海最卷的一杯，想喝请等10分钟！ - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30385565",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 7,
+      "title": "咖啡指南屋、咖啡选豆屋和咖啡冲煮屋。在这里咖啡风味被分成 ... - 新浪",
+      "url": "https://www.sina.cn/news/detail/5123790076118937.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 8,
+      "title": "汇聚世界好风味，IT男叨叨和他的咖啡豆实验场| 咖啡与上海的故事",
+      "url": "https://news.sina.cn/2021-01-19/detail-ikftpnnx9397253.d.html?vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "村口大樹(上海淮海路/新天地地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/cunkou-big-tree-121684141/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:16Z"
+}

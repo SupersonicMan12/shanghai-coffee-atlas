@@ -1,0 +1,65 @@
+{
+  "cafeId": "koumeidakafei-xinyao-guanghuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f69df78c436c",
+  "raw": {
+    "headline": {
+      "zh": "临街窗边吃炸猪排三明治",
+      "en": "Grab a katsu sando by the window"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供炸猪排三明治和奶油泡芙",
+        "en": "Serves katsu sando and cream puffs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街整面落地窗，采光良好",
+        "en": "Full-height street-facing windows, bright",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "靠窗座位，至少有6号桌",
+        "en": "Window seats available, e.g. Table 6",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:30–20:00营业",
+        "en": "Open daily 7:30–20:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "食物含奶油与樱桃装饰，摆盘整洁",
+        "en": "Food plated neatly with cream and cherry",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "有固定编号靠窗座位",
+        "en": "Assigned window seats"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:05Z"
+}

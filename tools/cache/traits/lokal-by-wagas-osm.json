@@ -1,0 +1,64 @@
+{
+  "cafeId": "lokal-by-wagas-osm",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c200b67072c4",
+  "raw": {
+    "headline": {
+      "zh": "饮品名超有梗",
+      "en": "Drinks with wild names"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品名如'朋克生活''救救我'，趣味十足",
+        "en": "Signature drinks named like 'Punk Life' and 'Save Me'",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "主打健康轻食，菜单列明原料与热量搭配",
+        "en": "Healthy light meals with ingredient and calorie info",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "宏伊国际广场店营业至20:30，支持自助点餐",
+        "en": "Open until 8:30 PM with self-service ordering",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "支持自助点餐，可办公",
+        "en": "Self-ordering for work"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "营业至晚八点半，适合久坐",
+        "en": "Closes late, good for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "饮品命名极具创意",
+        "en": "Highly creative drink names"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:54Z"
+}

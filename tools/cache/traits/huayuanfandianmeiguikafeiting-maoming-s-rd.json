@@ -1,0 +1,69 @@
+{
+  "cafeId": "huayuanfandianmeiguikafeiting-maoming-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a098f819f14b",
+  "raw": {
+    "headline": {
+      "zh": "百年法式建筑里的西餐下午茶",
+      "en": "Afternoon tea in a historic French-style building"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "位于原法国俱乐部旧址，保留法国古典装饰风格",
+        "en": "In former French Club, retains classical French decor",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供西式便餐、秋季双人下午茶含甜咸点心",
+        "en": "Serves Western meals and seasonal afternoon tea sets",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "菜单含汉堡、肋排、生蚝、牛排、寿司等",
+        "en": "Menu includes burgers, ribs, oysters, steak, sushi",
+        "from": [
+          1,
+          14
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "面向马路边门，采光良好",
+        "en": "Good natural light from street-facing entrance",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间06:00-21:30",
+        "en": "Open daily 06:00–21:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          5,
+          7,
+          9,
+          10
+        ],
+        "zh": "提供完整餐食与下午茶，适合久坐",
+        "en": "Full meals & tea encourage lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:03Z"
+}

@@ -1,0 +1,47 @@
+{
+  "cafeId": "waveoffcoffee-jianguo-west-rd-550",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "992e0122bba1",
+  "photos": [
+    "https://aos-comment.amap.com/B0LRUMBJBK/comment/ce1044aa725dbf2f9b4fc0519f2659ec_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/5d5fcea3d03fea630000000681318831?type=pic",
+    "https://aos-comment.amap.com/B0LRUMBJBK/comment/E993F916_6424_4E42_A5F5_9C2A03499948_L0_001_1500_200_1764059716528_56120753.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外摆放多个A字板菜单，宣传蒜香蛋挞和艾许黄油产品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口地面堆放多个灰色混凝土路障造型的装饰物。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处可见玻璃门内有桌椅，为临街店铺。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面外墙为红砖，二楼有监控摄像头和射灯。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:02:35Z"
+}

@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "提供特色咖啡豆，包括焦糖莓果巧克力风味",
+      "kind": "beans",
+      "quote": "焦糖莓果巧克力风味优雅也精致是",
+      "url": "https://www.sina.cn/news/detail/5239735888121962.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "位于德必外滩WE106，拥有独特地理位置",
+      "kind": "space",
+      "quote": "九江路501号德必外滩WE106",
+      "url": "https://www.sina.cn/news/detail/5239735888121962.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "店内空间适合拍照打卡，环境优雅",
+      "kind": "space",
+      "quote": "大推呢間咖啡店經過南京步行街想喝咖啡進來試試",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98F74467DDF",
+      "site": "Apple (中国)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "#别人家的咖啡馆[超话]# Always Coffee Roaster   九江路501号德必 ...",
+      "url": "https://www.sina.cn/news/detail/5239735888121962.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "MAX-COFFEE-ROASTER",
+      "url": "https://weidian.com/?userid=310953530",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "Always Coffee Roaster - 营业时间_南京东路商圈咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/1284038030?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Punchline Coffee Roaster",
+      "url": "https://baike.baidu.com/item/Punchline%20Coffee%20Roaster/67339698",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "Always Coffee Roaster - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98F74467DDF",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:34Z"
+}

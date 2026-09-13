@@ -1,0 +1,53 @@
+{
+  "cafeId": "beanstar-shanghaixuhuixianzhitaxitalou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1246d0cb0972",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e3e5f2316c154ba06708a96ad72a2ce9",
+    "https://aos-comment.amap.com/B0KG6MNLIX/comment/30481112_8643_480B_99F4_9E6440C1C6B0_L0_001_1206_147_1767014857787_74877904.jpg",
+    "http://store.is.autonavi.com/showpic/fffac5970a08b307f6d9a882e40fa982"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型柜台式，位于室内空间",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见咖啡机等专业器具",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示区有带盖马克杯和纸袋等商品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "环境整洁，以白色为主色调",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内光线充足，但无明显窗户采光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:25:29Z"
+}

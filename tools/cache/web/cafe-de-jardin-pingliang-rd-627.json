@@ -1,0 +1,40 @@
+{
+  "facts": [
+    {
+      "text": "主要是阿姨妈妈们过来拍照，年轻人并不多",
+      "kind": "people",
+      "quote": "目前这家咖啡店知名度还不高，主要是阿姨妈妈们过来拍照，年轻人并不多",
+      "url": "https://you.ctrip.com/food/2/84139632.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "甜品和饮料价格并不贵，味道也还不错，性价比挺高",
+      "kind": "story",
+      "quote": "这里的甜品和饮料价格并不贵，味道也还不错，性价比挺高的",
+      "url": "https://you.ctrip.com/food/2/84139632.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "花园咖啡Cafe de Jardin - 携程",
+      "url": "https://you.ctrip.com/food/2/84139632.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "花园咖啡Cafe de Jardin - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-84139632/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:40Z"
+}

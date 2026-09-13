@@ -1,0 +1,71 @@
+{
+  "cafeId": "s-brunch-bar-changshou-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6ec6a6508f32",
+  "photos": [
+    "https://aos-comment.amap.com/B0KK4NVRM3/comment/content_media_external_images_media_1000066120_ss__1734694940958_12295214.jpg",
+    "https://store.is.autonavi.com/showpic/82614e2c1a16df5a0000003429428879?type=pic",
+    "https://store.is.autonavi.com/showpic/fb4caf0d5711c59c0000002306004385?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "临街玻璃窗，店内有落地窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有木质桌椅和绿色软垫座椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内空间中等大小，布局紧凑",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有电视屏幕，播放画面",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "酒架上陈列多种瓶装酒水",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有装饰性花艺与酒瓶展示",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见酒柜与饮品设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "地面为黑白方格瓷砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:39Z"
+}

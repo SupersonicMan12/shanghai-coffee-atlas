@@ -1,0 +1,79 @@
+{
+  "cafeId": "radar-coffee-si-s-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "58ccae180e04",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲，专注产地风味",
+      "en": "Self-roasted, origin-focused hand brews"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "店主自己烘焙咖啡豆",
+        "en": "Owner roasts their own beans",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供云南孟连等产地手冲",
+        "en": "Serves hand brews like Yunnan Menglian",
+        "from": [
+          2,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有深色软垫座椅与木质脚凳",
+        "en": "Seating includes padded chairs and wooden footstools",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-16:30营业",
+        "en": "Open 8:00–16:30 on weekdays",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店名源于海员生活，寓意寻豆",
+        "en": "Name inspired by seafaring life, seeking interesting beans",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          5,
+          6,
+          7,
+          9
+        ],
+        "zh": "自烘+手冲+产地标注",
+        "en": "Self-roast, hand brew, origin info"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          7
+        ],
+        "zh": "有坐具，主打社区体验",
+        "en": "Seating and community vibe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:37:45Z"
+}

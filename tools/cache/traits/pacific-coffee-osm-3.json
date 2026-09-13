@@ -1,0 +1,72 @@
+{
+  "cafeId": "pacific-coffee-osm-3",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ad73fd7be83a",
+  "raw": {
+    "headline": {
+      "zh": "季节限定手调饮品",
+      "en": "seasonal specialty drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌含酒精的橙风酣梦美式等季节限定手调款",
+        "en": "seasonal specialty drinks including alcoholic Orange Dream Americano",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚耶加雪菲日晒豆等精品咖啡豆",
+        "en": "uses premium Ethiopian Yirgacheffe sun-dried beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "多数门店营业时间为09:00–22:00或10:00–21:00",
+        "en": "most stores open 09:00–22:00 or 10:00–21:00",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          4
+        ],
+        "zh": "营业时间适中，可办公",
+        "en": "midday hours, work-friendly"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4
+        ],
+        "zh": "营业时段常见于商业区，人流量中等",
+        "en": "mid-level foot traffic in business areas"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          4
+        ],
+        "zh": "营业时间较长，适合久坐",
+        "en": "long hours allow for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "含酒精及阿胶等非常规配料",
+        "en": "alcohol and unusual ingredients like donkey-hide gelatin"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:52Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "3e228642c46b",
+  "raw": {
+    "headline": {
+      "zh": "临街二层明亮空间",
+      "en": "Bright second-floor street-facing spot"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于临街二楼，有整面玻璃窗",
+        "en": "Second-floor with full street-facing glass windows",
+        "from": [
+          3,
+          6,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "内部设红色靠垫座椅，数量有限",
+        "en": "Limited red cushioned seating inside",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为大包",
+        "en": "Highly recommended: big bun",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间至凌晨24:00",
+        "en": "Open until 12:00 AM",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "营业至深夜，适合夜归",
+        "en": "Open late, good for night visits"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "座位有限，不适宜久坐",
+        "en": "Limited seats, not ideal for long stays"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3,
+          6
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "Street-facing, visible to passersby"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:14Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "give-take-yongkang-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "cb5ab0a9b62f",
+  "raw": {
+    "headline": {
+      "zh": "聋哑咖啡师+熊爪互动",
+      "en": "Deaf baristas, bear-paw service"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "咖啡师为聋哑人士，沟通顺畅",
+        "en": "Baristas are deaf; communication is smooth",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "取餐时与毛绒熊爪互动",
+        "en": "Serve via a cute plush bear paw",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "25元椰皇冷萃，可加9.9元得小熊包挂",
+        "en": "Coconut cold brew ¥25, add ¥9.9 for keychain",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设折叠椅和小桌",
+        "en": "Outdoor folding chairs and small tables",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-17:00，周末10:00-19:00",
+        "en": "Mon–Fri 8–17, Sat–Sun 10–19",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "仅室外简易座位",
+        "en": "Only basic outdoor seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "有特色冷萃饮品",
+        "en": "Features specialty cold brew"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:03Z"
+}

@@ -1,0 +1,82 @@
+{
+  "cafeId": "youxinkafei-zhangninglaifushi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e162dffc304e",
+  "raw": {
+    "headline": {
+      "zh": "耶加雪菲手冲商务咖",
+      "en": "Yirgacheffe pour-over for work"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用埃塞俄比亚耶加雪菲豆",
+        "en": "Uses Ethiopian Yirgacheffe beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供巴拿马瑰夏手冲咖啡",
+        "en": "Serves Panama Geisha pour-over",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "商场内设吧台与少量座位",
+        "en": "Bar and limited seating inside mall",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上10点（网页信息）",
+        "en": "Open until 10pm (website)",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "出售可颂、果酱及轻食",
+        "en": "Sells croissants, jam, and light meals",
+        "from": [
+          1,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 75,
+        "from": [
+          12
+        ],
+        "zh": "定位商务办公共享空间",
+        "en": "Marketed as business workspace"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "提供单品手冲与耶加雪菲",
+        "en": "Offers single-origin pour-overs"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "仅有少量座位",
+        "en": "Limited seating available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:12Z"
+}

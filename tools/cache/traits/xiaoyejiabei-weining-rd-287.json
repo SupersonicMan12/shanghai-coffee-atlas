@@ -1,0 +1,76 @@
+{
+  "cafeId": "xiaoyejiabei-weining-rd-287",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "55925e065296",
+  "raw": {
+    "headline": {
+      "zh": "日式咖啡馆，晚上变酒吧",
+      "en": "Japanese café by day, bar by night"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "主推三款特色咖啡：小夜、江户、黄浦精选",
+        "en": "Three signature coffees: Xiaoye, Edo, Huangpu",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用新鲜烘焙的咖啡豆",
+        "en": "Uses freshly roasted coffee beans",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供芝士蛋糕",
+        "en": "Serves cheesecake",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨2点，19:30-20:00休整",
+        "en": "Open until 2am, break 19:30–20:00",
+        "from": [
+          12,
+          14
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有吧台式座位",
+        "en": "Has counter seating",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "自烘豆+三款特色手冲",
+        "en": "House-roasted beans & unique brews"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5,
+          11
+        ],
+        "zh": "有座位和酒架，可久坐",
+        "en": "Seating and drinks for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:48Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "j-meet-binjiang-ave-2727",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "4713b17f5ed9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/b59206e53ef8a6ee0000002876822524?type=pic",
+    "https://aos-comment.amap.com/B0JAKSGXFJ/comment/80D7FA94_9C01_4C59_8506_6C8811BC9E82_L0_001_2000_150_1766814177527_39678667.jpg",
+    "https://store.is.autonavi.com/showpic/472d5a3a16462d5a0000002876816733?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店外有绿植和几张桌椅，可室外坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳，可见酒杯架。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "两杯拉花咖啡，一杯是龙形，一杯是凤凰形。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯dirty咖啡配一块芝士蛋糕。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大理石纹桌面，光线从侧窗照入。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口招牌写有“日咖夜酒”，提供简餐甜点。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店员在整理户外座位，店内未见顾客。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内可见陈列柜和多张桌椅，空间不小。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:00:57Z"
+}

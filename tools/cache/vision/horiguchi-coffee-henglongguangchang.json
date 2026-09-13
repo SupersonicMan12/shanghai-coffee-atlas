@@ -1,0 +1,65 @@
+{
+  "cafeId": "horiguchi-coffee-henglongguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2eb4a4dfa326",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1770540531297_84652394_1770540552385_11258445.jpg",
+    "https://aos-comment.amap.com/B0K371QAZB/comment/content_media_external_images_media_1000007575_ss__1736650135073_61516753.jpg",
+    "https://aos-comment.amap.com/B0K371QAZB/comment/content_media_external_images_media_1000007580_ss__1736650135074_54750684.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡器具和三种不同风味的咖啡豆展示",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台配备专业意式咖啡机和磨豆机等设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有多个座位，顾客正在用餐",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有上海限定咖啡豆促销信息，价格为288元/200克",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于商场内，玻璃门设计，内部空间明亮整洁",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有手冲咖啡滤杯和玻璃壶，用于制作手冲咖啡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见工作人员在吧台操作，环境安静有序",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:11Z"
+}

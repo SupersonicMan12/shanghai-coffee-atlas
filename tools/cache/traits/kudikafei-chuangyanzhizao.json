@@ -1,0 +1,84 @@
+{
+  "cafeId": "kudikafei-chuangyanzhizao",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "329546c2efb6",
+  "raw": {
+    "headline": {
+      "zh": "亚洲风味果茶特色",
+      "en": "Asian-inspired fruit tea specialties"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Features signature drinks like Pandan Mango Coco Frappe and Apple Jasmine Iced Tea",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆，连续三年获国际金奖",
+        "en": "Uses 100% Arabica beans, awarded IIAC gold for three consecutive years",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "为商场内站喝小店，无堂食座位",
+        "en": "Standing-bar style shop in mall, no seating available",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周一至周日 07:00-20:00",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有工作人员操作，支持扫码点单",
+        "en": "Staff working, QR ordering available"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "商场内咖啡店，有吧台和人流动",
+        "en": "Mall-based with bar and foot traffic"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          9,
+          10
+        ],
+        "zh": "站喝小店，无堂食座位",
+        "en": "Standing-only, no seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "招牌饮品具亚洲风味创新",
+        "en": "Innovative Asian-inspired drink flavors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:37Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "friday-dongjiangwan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2df50619aaaa",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0104e2e329804e70a316fbcf42b36242",
+    "https://aos-comment.amap.com/B0FFF9ZUL0/comment/6CC31A78_CEB5_4555_B19E_D77841D2D617_L0_001_1126_200_1769492091941_77726125.jpg",
+    "https://store.is.autonavi.com/showpic/c8e6d492c8850e3d74e3847110fa3b47"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内有猫，玻璃上贴有文明看猫提示",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡营业时间为13:00-20:00",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "美式咖啡16元，拿铁18元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "使用鲜奶，不用云南豆",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质猫爬架和猫窝",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃门，可看到内部陈设",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有黑板菜单，标明饮品价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于东江湾路170号，招牌为“Friday 星期五”",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:54Z"
+}

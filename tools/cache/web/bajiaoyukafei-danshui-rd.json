@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "使用冰博克奶制作咖啡",
+      "kind": "drinks",
+      "quote": "超纲小拿铁和热燕麦澳洲小白也都是热门选手",
+      "url": "https://static.zhoudaosh.com/736216D54795ADA56B28DE8CBA8A433DB28D3AC586C23D2F9809BCECE930EA40",
+      "site": "无"
+    },
+    {
+      "text": "提供自选咖啡豆服务",
+      "kind": "beans",
+      "quote": "奶咖产品顾客都可以自己选豆子",
+      "url": "https://static.zhoudaosh.com/736216D54795ADA56B28DE8CBA8A433DB28D3AC586C23D2F9809BCECE930EA40",
+      "site": "无"
+    },
+    {
+      "text": "招牌饮品为马霍路·秋令",
+      "kind": "drinks",
+      "quote": "这杯特调的灵魂在于“蛋酒”",
+      "url": "https://static.zhoudaosh.com/736216D54795ADA56B28DE8CBA8A433DB28D3AC586C23D2F9809BCECE930EA40",
+      "site": "无"
+    },
+    {
+      "text": "营业时间较早结束",
+      "kind": "time",
+      "quote": "这家店每天关门的时间比较早",
+      "url": "https://static.zhoudaosh.com/736216D54795ADA56B28DE8CBA8A433DB28D3AC586C23D2F9809BCECE930EA40",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海这家独特咖啡店:无主理人却为何能吸引无数回头客? ",
+      "url": "http://mt.sohu.com/a/1071476657_121912641",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "不起眼但起范儿!黄陂北路一角上的“八角”",
+      "url": "https://static.zhoudaosh.com/736216D54795ADA56B28DE8CBA8A433DB28D3AC586C23D2F9809BCECE930EA40",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "魔都咖啡馆探店|八角屿OCTA咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/657864868",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "读懂广州·粤韵丨满城咖香成风尚 一杯咖啡融世界",
+      "url": "https://gzwxb.gov.cn/context/contextId/216178",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "文化热点|美好春日,咖啡飘香!2025上海(静安)世界咖啡文化节启动 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNDM2MjIwMQ==&mid=2247686128&idx=2&sn=8058cd22d6254bae5a4bd877fe3fcc2a&chksm=97fff2a83e7dfa557977770a6d1d1c3bde507c333f16ceba35dccdc328595a07128401ae56c7&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "好咖啡 出盐田 | 一口入魂!直接穿越埃塞俄比亚",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI2Mzc0Njk1OA==&mid=2247539927&idx=2&sn=bb0f076e26bc7c29e5868c849c7871e3&chksm=eb7fb74da5c788ae256009a0c1d71a71df7dd56fd263bc4fa2e0160c46df082b2f604e75342e&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "一杯咖啡,撬动千亿产业链 ",
+      "url": "https://www.fj.gov.cn/zwgk/ztzl/sxzygwzxsgzx/flsxkmh/202604/t20260408_7120291.htm",
+      "site_name": "中国福建"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:43Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "renmaikafei-jiaozhou-rd-695",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7e736dbe6c24",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1d9423df1f4d3320e4d3a6fd230b0e5a",
+    "http://store.is.autonavi.com/showpic/69a246538acc42e79c248bb4b58a985d",
+    "http://store.is.autonavi.com/showpic/be4f30d3a1f5987eac32be77ce21e64b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于街角，临街有玻璃窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有台阶和金属门框装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有绿植和遮阳伞",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前停有电动车，有人经过",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑为老式洋房风格，有阳台和雕花",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面有落地窗，可见内部灯光",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招上有咖啡杯图案和中英文名称",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门前有立牌展示信息",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:35Z"
+}

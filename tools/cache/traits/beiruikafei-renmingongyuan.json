@@ -1,0 +1,48 @@
+{
+  "cafeId": "beiruikafei-renmingongyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "48048893006c",
+  "raw": {
+    "headline": {
+      "zh": "鲜橙拿铁配熏鸡蛋堡",
+      "en": "Orange latte with chicken-egg toast"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是鲜橙拿铁",
+        "en": "Signature drink is fresh orange latte",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐食物是熏鸡嫩蛋吐司堡",
+        "en": "Recommended food is smoked chicken egg toast",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "除大年初一外正常营业",
+        "en": "Open daily except Chinese New Year's Day",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "鲜橙拿铁属创意特调",
+        "en": "Orange latte is a creative twist"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:41Z"
+}

@@ -1,0 +1,53 @@
+{
+  "cafeId": "yingwumeng-haishangmingmengongyu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "bda889de81a6",
+  "photos": [
+    "https://aos-comment.amap.com/B0J0NUCMSL/comment/0a0ff1a61e0e8d817c87c323d1c27864_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J0NUCMSL/comment/8ae14cbe0abce41ebf8388e49890070e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J0NUCMSL/comment/987710f4e83ac215da689b9d350883c0_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有玻璃窗和门头招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见一个大型鸟笼，内有鹦鹉",
+      "kind": "animals",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一张照片显示多只绿色鹦鹉在笼中活动",
+      "kind": "animals",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面沿街，外有树木遮荫",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线明亮，但未见明显采光窗户",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:20Z"
+}

@@ -1,0 +1,28 @@
+{
+ "cafeId": "coucou-paris-nanchang",
+ "model": "qwen-max",
+ "inputDigest": "525670e42179",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "人行道上有两张小桌，适合户外用餐",
+    "en": "Two bistro tables on the sidewalk for dining",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 40,
+    "from": 1,
+    "zh": "有户外座位但空间有限",
+    "en": "Limited outdoor seating"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:36Z"
+}

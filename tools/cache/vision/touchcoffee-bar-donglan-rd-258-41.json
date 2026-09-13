@@ -1,0 +1,71 @@
+{
+  "cafeId": "touchcoffee-bar-donglan-rd-258-41",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a64a73c60ced",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d7504ad7a4ac179f53d933e6e6485ed4",
+    "http://store.is.autonavi.com/showpic/8f748c8fbc495db43f87370674861f38",
+    "http://store.is.autonavi.com/showpic/fedbcf477c337e17bbc0eda1eeab490a"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品有草莓、蓝莓、薄荷叶装饰",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供多种颜色的鸡尾酒类饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有带火焰的短饮，配电子蜡烛照明",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品盛装在透明塑料杯中，杯身印有图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品中有柠檬片、肉桂棒和冰块",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品摆放在金属托盘上",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内环境有绿植装饰",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "部分饮品用蝴蝶形装饰物点缀",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:11Z"
+}

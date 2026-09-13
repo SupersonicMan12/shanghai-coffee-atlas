@@ -1,0 +1,71 @@
+{
+  "cafeId": "doushanshan-huangpu-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "95f39af2140f",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0752c63f10f714f7597d1fa0768a456e",
+    "https://store.is.autonavi.com/showpic/4fd5747def4dc42c0000003038624507?type=pic",
+    "https://store.is.autonavi.com/showpic/efd52e13b2fe6cf80000002191478866?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店址为黄浦路53号，门牌清晰可见",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口有旋转门与台阶，上方悬挂两盏红灯笼",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街为大面积玻璃橱窗，店内可见发光招牌‘豆山山咖啡 Peak & Bean’",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "冷藏展示柜内有两款蛋糕（蒙布朗栗子蛋糕、咖啡可可脆）标价39元/份",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "展示柜下层陈列多盒‘LY!’植物蛋白饮料及‘明治’高温杀菌乳",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.96
+    },
+    {
+      "text": "后方操作台可见不锈钢水槽、蒸锅、制冰机等设备，无明显手冲/虹吸/磨豆机",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "橱窗贴有‘7天新鲜豆’‘跑者友好 可以存包哦~’宣传语",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "建筑外立面为浅色石材+深色金属框架，非老洋房或商场内铺",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:10Z"
+}

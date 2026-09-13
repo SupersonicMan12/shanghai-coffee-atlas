@@ -1,0 +1,71 @@
+{
+  "cafeId": "xiaoshiguangkafeiguan-changshou-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "377f1f5e5a1d",
+  "photos": [
+    "https://aos-comment.amap.com/B001574YBE/comment/619b82132fc9efdc55ea4439cbc73019_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/869f231e75b986a60000002122858059?type=pic",
+    "https://store.is.autonavi.com/showpic/e18b7640f98148900000003090300630?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "门口黑板写早餐优惠8-10点，下午茶套餐48元",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有绿色长椅和吧台，空间不大",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有咖啡机、磨豆机等专业设备",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有两人坐在长椅上，未见电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯拿铁配一块芝士蛋糕",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面有大玻璃门和窗，采光好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单可见拿铁、美式、澳白、提拉米苏",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "自带杯咖啡减3元",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:40Z"
+}

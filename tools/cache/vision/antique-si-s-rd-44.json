@@ -1,0 +1,71 @@
+{
+  "cafeId": "antique-si-s-rd-44",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "12a121a98d17",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/156ccd7ea876e8cd0000003599074471?type=pic",
+    "https://store.is.autonavi.com/showpic/c3cbc65461b902430000004120406141?type=pic",
+    "https://aos-comment.amap.com/B0GKOM5R4J/comment/5E3B1404_9117_41C7_AC42_CD2FBB1B1E55_L0_001_1512_201_1757683759028_71655202.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "吧台后方有大量酒瓶与装饰性小人偶，非咖啡专用器具。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外庭院铺石板路，摆放多组木桌椅，空间较开阔。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上方悬挂大量高脚杯，暗示可能提供酒类饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "庭院内可见绿植、铁艺门与老式风扇，无电脑使用者。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内陈设复古，有彩色玻璃灯、面具与旧海报等装饰物。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗台为木质，窗内挂蕾丝帘，非落地或通透玻璃窗。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "未见手冲台、磨豆机或烘焙设备等专业咖啡器具。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中无顾客，也无人在座位上使用笔记本电脑。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:40Z"
+}

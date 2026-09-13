@@ -1,0 +1,68 @@
+{
+  "cafeId": "vuoiuna-ruijin-s-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b0cfbffd59fe",
+  "raw": {
+    "headline": {
+      "zh": "整面临街玻璃窗",
+      "en": "Floor-to-ceiling street-facing glass"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，可见街道和停放的摩托车",
+        "en": "Full-height street-facing glass showing the street and parked motorcycles",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街玻璃门，内部可见白色吧台",
+        "en": "Street-facing glass door with visible white counter inside",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "safety",
+        "zh": "吧台旁放置有灭火器",
+        "en": "Fire extinguisher placed next to the counter",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "吧台上放置有菜单或宣传单",
+        "en": "Menu or flyer displayed on the counter",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "仅见吧台，无座位证据",
+        "en": "Counter only, no seating visible"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "仅见吧台，无久坐设施证据",
+        "en": "Counter only, no seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:11Z"
+}

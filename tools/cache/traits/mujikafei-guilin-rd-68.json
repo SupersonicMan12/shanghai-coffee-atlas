@@ -1,0 +1,78 @@
+{
+  "cafeId": "mujikafei-guilin-rd-68",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "1c0325b7cd68",
+  "raw": {
+    "headline": {
+      "zh": "临街整面落地窗+室外座位",
+      "en": "Floor-to-ceiling street-facing windows + outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临街大玻璃窗，窗外可见绿树和街道",
+        "en": "Large street-facing windows with views of trees and the street",
+        "from": [
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内座位较多，另有室外座位",
+        "en": "Ample indoor seating plus outdoor seating",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店面为独立小楼，临街",
+        "en": "Freestanding building located directly on the street",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-20:00",
+        "en": "Open daily from 9:00 to 20:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐双人餐和单人餐",
+        "en": "Guangdong map lists set meals for one or two people",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "座位多且含室外位",
+        "en": "Ample indoor and outdoor seating"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          2,
+          7
+        ],
+        "zh": "采光强但临街无隔断",
+        "en": "Bright but street-facing with no sound barrier"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:01Z"
+}

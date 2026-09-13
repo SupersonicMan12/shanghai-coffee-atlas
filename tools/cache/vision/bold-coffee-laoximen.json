@@ -1,0 +1,69 @@
+{
+  "cafeId": "bold-coffee-laoximen",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e350182aec68",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a415357fdc860ae4055558b96980b345",
+    "https://store.is.autonavi.com/showpic/5334be5689e9b921acbad832c75ea888"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和操作区，空间较小",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口为玻璃门，临街可见",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有菜单板，显示饮品价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后有咖啡制作设备，包括磨豆机和手冲器具",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内摆放绿植，环境整洁",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见顾客或工作人员使用电脑",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可见部分饮品名称与价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:55Z"
+}

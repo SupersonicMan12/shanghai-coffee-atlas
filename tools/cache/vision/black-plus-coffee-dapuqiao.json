@@ -1,0 +1,53 @@
+{
+  "cafeId": "black-plus-coffee-dapuqiao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0ad17c7b2583",
+  "photos": [
+    "https://aos-comment.amap.com/B0L2GHT628/comment/content_media_external_file_1000064692_ss__1760755596435_45139756.jpg",
+    "https://store.is.autonavi.com/showpic/3a6d14d2adc0f4b11160adeea8713e5d",
+    "https://aos-comment.amap.com/B0L2GHT628/comment/content_media_external_file_1000064682_ss__1760755596442_59212279.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店铺，临街",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有临窗座位，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见黄色纸杯装饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外有盆栽和街道景观",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内墙面为浅色，有艺术画作",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:17Z"
+}

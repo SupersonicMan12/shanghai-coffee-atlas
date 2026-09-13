@@ -1,0 +1,71 @@
+{
+  "cafeId": "muwu-coffee-sanqianggongyecheng2menpang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8cc755bb0741",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/818259e2104dc8d4fd49187533e5ad2c",
+    "https://store.is.autonavi.com/showpic/e3b8bbbaf9bf73e1e1f1fb4307a1f9b5",
+    "https://store.is.autonavi.com/showpic/9019677910c9eda89eecdbdcfe431435"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆位于工业城入口旁，有独立门头",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有室外木质平台和桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有大树遮荫",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前有广告牌和指示牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口可见绿植和小型花坛",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺临街，可看到外部道路与车辆",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "有落地玻璃窗，室内可见部分陈设",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外设有咖啡字样的灯箱装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:01Z"
+}

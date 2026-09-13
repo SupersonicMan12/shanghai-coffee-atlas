@@ -1,0 +1,90 @@
+{
+  "cafeId": "ruixingkafei-chuangyanzhizaochengkongjian",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f117d80f57cd",
+  "raw": {
+    "headline": {
+      "zh": "站喝冰咖配珍珠",
+      "en": "Stand-and-drink iced coffee with pearls"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡配珍珠，顶部有奶油和巧克力酱",
+        "en": "Iced coffee with pearls, topped with cream and chocolate sauce",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有热饮，顶部带奶油",
+        "en": "Hot drinks with cream on top",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "饮品旁散落咖啡豆",
+        "en": "Coffee beans scattered near drinks",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "门店为快取店，无或少量堂食",
+        "en": "Quick-fetch store with little or no seating",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周一至周五 07:00-20:00，周末 08:00-18:00",
+        "en": "Open 07:00-20:00 Mon-Fri, 08:00-18:00 Sat-Sun",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          7
+        ],
+        "zh": "快取店，少堂食",
+        "en": "Quick-fetch, minimal seating"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "快取店，人流中等",
+        "en": "Quick-fetch, moderate foot traffic"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "站喝为主，久坐不便",
+        "en": "Stand-only, not built for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          6,
+          10
+        ],
+        "zh": "新品频出，如瑞纳冰系列",
+        "en": "Frequent new launches, e.g. Rina Ice series"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:51Z"
+}

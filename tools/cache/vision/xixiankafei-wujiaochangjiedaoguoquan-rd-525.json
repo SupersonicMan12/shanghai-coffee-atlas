@@ -1,0 +1,64 @@
+{
+  "cafeId": "xixiankafei-wujiaochangjiedaoguoquan-rd-525",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2829f1df9118",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/e03377ec4fb7151450922e31c2cc198b",
+    "http://store.is.autonavi.com/showpic/115d0fe62576d3c17f0217fb8fad5bf6",
+    "http://store.is.autonavi.com/showpic/a814fce5daaa97f8f25f1e2424312e8c"
+  ],
+  "photoKinds": [
+    "food",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有水果展示台，摆放多种新鲜水果。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有货架，陈列咖啡豆、杯子等物品。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见绿植装饰，环境较为温馨。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台区域设有玻璃杯架和搅拌机等设备。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线充足，天花板有射灯照明。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物照片显示冰淇淋搭配巧克力酱和樱桃。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内空间为小型店铺布局，座位数量未知。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:58Z"
+}

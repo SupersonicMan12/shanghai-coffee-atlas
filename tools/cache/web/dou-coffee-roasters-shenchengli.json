@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "text": "店内咖啡均为手工制作、现磨调剂",
+      "kind": "beans",
+      "quote": "店内的咖啡都是手工制作、现磨调剂",
+      "url": "https://m.dianping.com/discovery/1700179287",
+      "site": "大众点评网"
+    },
+    {
+      "text": "提供草莓熊手冲咖啡，人气颇高",
+      "kind": "drinks",
+      "quote": "店内的草莓熊手冲咖啡,人气颇高",
+      "url": "https://m.dianping.com/discovery/1700179287",
+      "site": "大众点评网"
+    },
+    {
+      "text": "咖啡师专业且热情，了解各种咖啡豆",
+      "kind": "people",
+      "quote": "店内的咖啡师专业且热情,不仅对各种咖啡豆的产地、风味了如指掌",
+      "url": "https://m.dianping.com/discovery/1700179287",
+      "site": "大众点评网"
+    },
+    {
+      "text": "氛围感强，适合悠闲时光",
+      "kind": "space",
+      "quote": "顾客可以在氛围感拉满的环境中,与咖啡师深入交流,享受悠闲的时光",
+      "url": "https://m.dianping.com/discovery/1700179287",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "DOU COFFEE草莓熊手冲,品味小资生活 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/1700179287",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "魔都手冲咖啡体验,给自己喝一杯纯粹的咖啡☕ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1364811949",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "上海译豆咖啡有限公司",
+      "url": "https://baike.baidu.com/item/上海译豆咖啡有限公司/52020604",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "连线|手冲分享会招募,喝一喝日本的豆子大井巷风味_Coffee",
+      "url": "https://www.sohu.com/a/673020843_121119038",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "城市咖啡烘焙, 饮食- 香港国际机场",
+      "url": "https://www.hongkongairport.com/sc/shop-dine/dining/urban-coffee-roaster",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:03:51Z"
+}

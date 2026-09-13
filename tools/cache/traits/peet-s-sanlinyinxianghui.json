@@ -1,0 +1,87 @@
+{
+  "cafeId": "peet-s-sanlinyinxianghui",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c687ccb45e95",
+  "raw": {
+    "headline": {
+      "zh": "21天新鲜烘焙豆",
+      "en": "Freshly roasted within 21 days"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses coffee beans roasted within 21 days",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为巨星澳白，33元/杯",
+        "en": "Star drink: Giant Star Oat Milk Latte, 33 yuan",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "有室外座位和遮阳伞，临街玻璃窗",
+        "en": "Outdoor seating with umbrellas and street-facing glass windows",
+        "from": [
+          1,
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供抹茶冷饮、拿铁和蛋糕",
+        "en": "Offers matcha cold drinks, lattes, and cakes",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30–22:00",
+        "en": "Open daily 07:30–22:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          13
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          2,
+          8
+        ],
+        "zh": "临街+室外座，略热闹",
+        "en": "Street-facing with outdoor seats"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "有宽敞堂食区，适合久坐",
+        "en": "Spacious indoor seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:51Z"
+}

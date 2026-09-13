@@ -1,0 +1,49 @@
+{
+  "cafeId": "give-take-wanxiangcheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "198b17b949da",
+  "raw": {
+    "headline": {
+      "zh": "自带杯减5元",
+      "en": "Bring your cup, get ¥5 off"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为“熊咖经典 CLASSIC”",
+        "en": "Signature drink: 'Bear Classic'",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机与咖啡机等专业器具",
+        "en": "Equipped with grinders and espresso machines",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五营业至16:00",
+        "en": "Open till 4pm on weekdays",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "仅有收银台与制作区",
+        "en": "Counter-only setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:59Z"
+}

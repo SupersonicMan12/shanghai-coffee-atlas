@@ -1,0 +1,65 @@
+{
+  "cafeId": "lumazikafei-zhongnanxincun",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "5852813da11a",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHB9C6V/comment/21f168a14542b07ed169e3a82a3168fe_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFHB9C6V/comment/97d8a9357962e98c23df9d245bb7283d_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/948727b95555aefcfa9a406a4df2ff43"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "临街有长条窗台座位，室内有吧台和高脚凳。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设多层木质书架，摆放杯具与书籍。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外人行道上有数位顾客站立或行走。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有人坐在窗边座位阅读，未见电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面位于两棵大树之间，街道对面无高楼。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门牌号为湖南路9号甲，可确认具体位置。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内吧台后方可见置物架，未见明显烘焙机。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:44Z"
+}

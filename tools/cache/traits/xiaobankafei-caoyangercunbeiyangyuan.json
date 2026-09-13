@@ -1,0 +1,67 @@
+{
+  "cafeId": "xiaobankafei-caoyangercunbeiyangyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "7cccaa5dc7b7",
+  "raw": {
+    "headline": {
+      "zh": "居民楼下的绿意咖啡角",
+      "en": "A green coffee nook in a residential building"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光良好",
+        "en": "Full glass facade with ample natural light",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐生椰拿铁、奶咖",
+        "en": "Recommended drinks: coconut latte, milk coffee",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30–18:00营业",
+        "en": "Open daily 08:30–18:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于居民楼底层，绿植环绕",
+        "en": "Ground floor of residential building, surrounded by plants",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          4,
+          7
+        ],
+        "zh": "有桌椅可坐",
+        "en": "Seating with tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:56Z"
+}

@@ -1,0 +1,58 @@
+{
+  "cafeId": "chili-s-xianmengzhongxin1fceng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ff8154f0964d",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1771744372207_74591839_1771744379783_70509282.jpg",
+    "https://aos-comment.amap.com/B0K1GHTYC0/comment/9FC70F11_92EB_4AB7_9573_F2F57AB0B790_L0_001_2000_150_1751416367448_68068467.jpg",
+    "https://store.is.autonavi.com/showpic/e771b0a6161d640a0000005988864476?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店外有多个带米色遮阳伞的露天座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见多张黑色金属桌椅，排列整齐",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括牛肉塔可、炸鸡块和鱿鱼圈等",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐厅位于现代建筑底层，临街",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面有大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室外座位区地面为灰色地砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:27Z"
+}

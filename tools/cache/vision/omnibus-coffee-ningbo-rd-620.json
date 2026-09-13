@@ -1,0 +1,71 @@
+{
+  "cafeId": "omnibus-coffee-ningbo-rd-620",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "d21e6df27733",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7ecb90c004916dbf0000002445570625?type=pic",
+    "https://aos-comment.amap.com/B0K2HSJF8N/comment/2BB026FA_6C45_4C8C_BB24_72922D766167_L0_001_1080_1440_1737730935098_68486403.jpg",
+    "https://aos-comment.amap.com/B0K2HSJF8N/comment/A13AE8FF_703C_4CB5_BAB1_3179F3A1145F_L0_001_1080_1440_1737730935098_52807791.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门口有红白条纹柱、绿植、彩色编织椅及木箱小桌，设室外座位。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招为电影板样式，写有‘正在营业’及营业时间：周一至五9:30–18:00，周六日10:00–19:00。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室外木箱桌上放一杯冰拿铁（带吸管）与一黑色杯，旁有卡片。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内木质托盘上并列两杯：一杯心形拉花拿铁，一杯黑咖啡（无奶）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "托盘插卡标明豆子为埃塞俄比亚Muntasha，产区Arbegona，出品方WHITE NOISE，处理方式96小时厌氧日晒。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第三张图中同款托盘置于小木桌，背景有彩色醒狮玩偶与棕白格纹坐垫，座位为靠墙软垫长凳。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一张图左侧可见纸箱堆叠、黄色电线及部分施工围挡，非完整商业街面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "木箱侧面印有‘FM Grinder - Yoda100’字样及搬运标识，箱体为带金属包角的运输箱。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:30Z"
+}

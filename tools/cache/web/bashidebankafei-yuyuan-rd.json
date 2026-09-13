@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "使用青花椒与浓缩咖啡结合，创造独特饮品",
+      "kind": "drinks",
+      "quote": "顶着辣椒和青花椒的不是火锅,而是咖啡",
+      "url": "https://www.sohu.com/na/466242173_529040",
+      "site": "搜狐网"
+    },
+    {
+      "text": "拥有冷色调工业风设计，展现时髦高冷外表",
+      "kind": "space",
+      "quote": "偶遇一家冷色调工业风的咖啡店BAsdBAN",
+      "url": "https://www.sina.cn/news/detail/4549121837111718.html",
+      "site": "新浪网"
+    },
+    {
+      "text": "悬浮吧台让顾客直接观看咖啡师工作",
+      "kind": "space",
+      "quote": "完全悬浮的吧台可让顾客直接观看到长吧台后咖啡师们的脚及运动轨迹",
+      "url": "https://www.gooood.cn/basdban-dongqi-architects.htm",
+      "site": "Basdban咖啡零售综合空间，上海/ dongqi栋栖设计 - gooood"
+    },
+    {
+      "text": "品牌强调产品为王、尊重社区理念",
+      "kind": "story",
+      "quote": "品牌以“产品为王、尊重社区”为核心理念",
+      "url": "https://www.jfdaily.com/sgh/detail?id=1721015",
+      "site": "解放日报"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海新晋咖啡馆16家,永远年轻永远标新立异 ",
+      "url": "https://www.sohu.com/na/466242173_529040",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "咖啡元老开店“只想做自己”，“巴适得板”咖啡是有趣的载体 - 网易",
+      "url": "https://www.163.com/dy/article/FJU5P5LR0521G5OJ.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "走在愚园路上像一场探宝行动，偶遇一家冷色调工业风的咖啡店 ... - 新浪",
+      "url": "https://www.sina.cn/news/detail/4549121837111718.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "阅读愚园路丨罗阳口述：BAsdBAN，让“巴适”落脚愚园路 - 解放日报",
+      "url": "https://www.jfdaily.com/sgh/detail?id=1721015",
+      "site_name": "解放日报"
+    },
+    {
+      "index": 5,
+      "title": "Basdban咖啡零售综合空间，上海/ dongqi栋栖设计 - gooood",
+      "url": "https://www.gooood.cn/basdban-dongqi-architects.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "BAsdBAN - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/354490743",
+      "site_name": "知乎"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:58:40Z"
+}

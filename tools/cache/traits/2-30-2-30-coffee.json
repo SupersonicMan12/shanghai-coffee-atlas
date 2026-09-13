@@ -1,0 +1,81 @@
+{
+  "cafeId": "2-30-2-30-coffee",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ebc060af52ae",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲临街小馆",
+      "en": "Self-roast, pour-over street-side spot"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内空间较小，有少量座位",
+        "en": "Compact space with limited seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "临街落地玻璃窗",
+        "en": "Street-facing floor-to-ceiling windows",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含多种冷热饮品",
+        "en": "Offers various hot and cold drinks",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备烘焙机和手冲设备",
+        "en": "Has roaster and pour-over setup",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:30-17:00，周末9:30-17:00",
+        "en": "Open 8:30–17:00 weekdays, 9:30–17:00 weekends",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "空间小座位少",
+        "en": "Small space, few seats"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          4
+        ],
+        "zh": "有烘焙机和手冲",
+        "en": "Roaster and pour-over gear"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "顾客排队，街道旁",
+        "en": "Queues and street traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:20Z"
+}

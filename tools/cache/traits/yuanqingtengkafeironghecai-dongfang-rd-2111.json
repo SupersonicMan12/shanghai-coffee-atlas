@@ -1,0 +1,58 @@
+{
+  "cafeId": "yuanqingtengkafeironghecai-dongfang-rd-2111",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "fa97ec662a26",
+  "raw": {
+    "headline": {
+      "zh": "咖啡融合菜配泡椒牛蛙",
+      "en": "Coffee spot with spicy frog dish"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌菜含泡椒牛蛙",
+        "en": "Signature dish includes spicy bullfrog",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内有长木桌和多把软椅",
+        "en": "Indoor long wood table with soft chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大窗带来充足自然采光",
+        "en": "Large windows provide ample daylight",
+        "from": [
+          1,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外设有一张木质野餐桌",
+        "en": "One outdoor wooden picnic table",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-21:00营业",
+        "en": "Open daily 09:00–21:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:42:32Z"
+}

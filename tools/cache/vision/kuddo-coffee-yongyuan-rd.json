@@ -1,0 +1,71 @@
+{
+  "cafeId": "kuddo-coffee-yongyuan-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "f24d99a15731",
+  "photos": [
+    "https://aos-comment.amap.com/B0LRD57B60/comment/D0E9CB0D_AC09_443B_AFE0_ADA192BEC607_L0_001_1498_199_1753006190947_87082074.jpg",
+    "https://aos-comment.amap.com/B0LRD57B60/comment/10EB92FA_FEA8_4889_90F5_267712B071DB_L0_001_1512_201_1753543398923_48898291.jpg",
+    "https://aos-comment.amap.com/B0LRD57B60/comment/353E5F8A_7DE6_49C5_90A8_1F9DCBE5CB78_L0_001_1500_200_1753543398927_35933656.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店外有立式“OPENING”告示牌，显示新店开业状态。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见砖墙与木质墙面，装修风格偏工业风。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有玻璃展示柜，陈列烘焙食品或甜点。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有顾客在座位上使用手机，非专注电脑工作。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品包含杯装冰咖啡和罐装即饮咖啡两种形态。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有多张桌椅，提供堂食座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单或包装上可见“哥伦比亚、惠兰”等咖啡豆产区信息。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "店门为卷帘门，部分开启，临街有遮阳棚。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:00Z"
+}

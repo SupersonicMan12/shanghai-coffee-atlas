@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "text": "氛围独特，令人惊艳，食物也一样美味",
+      "kind": "space",
+      "quote": "这里氛围独特,令人惊艳。而且,食物也一样美味。",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-11474080?locale=zh-MY",
+      "site": "祕密花園｜Trip.com 上海"
+    },
+    {
+      "text": "位于法华镇路，被称为‘无法隐藏的秘密之地’",
+      "kind": "space",
+      "quote": "一個無法隱藏的秘密之地 秘密花園(法華鎮路店)",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-11474080?locale=zh-MY",
+      "site": "祕密花園｜Trip.com 上海"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "转角遇到咖啡馆：探寻根植上海城市基因中的咖啡文化产业",
+      "url": "https://wenhui.whb.cn/zhuzhan/xinwen/20210125/389349.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 2,
+      "title": "微信公众平台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MTg0NTk5Mw==&mid=2650659287&idx=7&sn=feab886fed5552976f542192a055cf9a&chksm=865c7209c2cbf75fe23445742c0851c1a949e75ceb4114c9c75ffce258dd7e9c510ae02d66da&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "祕密花園｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-11474080?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "这家村咖用南瓜、辣椒、洋葱当杯子?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTI3MTE3OQ==&mid=2247537770&idx=6&sn=0632588a4b08d6ae9d902e5a25812f25&chksm=eb7f7cc4c18933e34f5084a21561ec383478ca50c92df56e219e0acd9eadcb6f6cc48da3a500&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "总书记点赞的豆子有多香?上海九千家咖啡馆都在用 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDU4Mzc3Nw==&mid=2652135627&idx=1&sn=abd8055bb899ffc45c1e5180409c882e&chksm=bccc0b25f638e9e090db97a3088465c09a1388783cb336fdd0970fd15292f9293f3ce4bf0191&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:44:44Z"
+}

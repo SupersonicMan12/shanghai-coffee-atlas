@@ -1,0 +1,71 @@
+{
+  "cafeId": "the-second-coffee-brewers-yunling-east-rd-599",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "c969b83b2698",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFHFDE70/comment/content_media_external_file_5374_1763596488533_03264806.jpg",
+    "http://store.is.autonavi.com/showpic/1a48f9ed366227fc674a8556aab1e8bb",
+    "https://aos-comment.amap.com/B0FFHFDE70/comment/c0636b1133a945fc3fc4da8a11393308_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和咖啡制作设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见手冲器具和磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有黄色遮阳伞和桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有面包展示柜，可见可颂类烘焙食品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间较小，为小店类型",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有红色边框玻璃门，临街位置",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质货架和置物架，陈列物品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:23:51Z"
+}

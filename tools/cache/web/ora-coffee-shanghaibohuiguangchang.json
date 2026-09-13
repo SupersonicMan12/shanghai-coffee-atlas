@@ -1,0 +1,96 @@
+{
+  "facts": [
+    {
+      "text": "使用28天新鲜烘焙的咖啡豆",
+      "kind": "beans",
+      "quote": "强调28天新鲜烘焙",
+      "url": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
+      "site": "腾讯网"
+    },
+    {
+      "text": "提供鲜萃茶咖，如祁红茉香系列",
+      "kind": "drinks",
+      "quote": "鲜萃茶咖是其独创产品",
+      "url": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店内设计简约时尚，以黑白色调为主",
+      "kind": "space",
+      "quote": "店內設計簡約時尚,黑白色調",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-142660359/",
+      "site": "ORA Coffee 上海 - Trip.com"
+    },
+    {
+      "text": "营业时间从早上7点到晚上9点",
+      "kind": "time",
+      "quote": "营业时间:7:00—21:30",
+      "url": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
+      "url": "https://news.qq.com/rain/a/20260516A033TI00?adChannelId=sh",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "浓郁又实惠!长宁这家宝藏咖啡馆,你打卡了吗?",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1750638",
+      "site_name": "无"
+    },
+    {
+      "index": 3,
+      "title": "上海南站咖啡",
+      "url": "https://m.dianping.com/shop/1724326827",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "ORA Coffee 上海 - Trip.com",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-142660359/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "皮爷咖啡中国首次开出新品牌Ora Coffee！也卖9.9元咖啡 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/54763",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 6,
+      "title": "我们为什么还需要咖啡门店?_空间_Ora_设计",
+      "url": "https://fashion.sohu.com/a/1073242717_120860591",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "ORA Coffee 上海 - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-142660359/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "皮爷咖啡推出中国新品牌Ora Coffee - TOM商业",
+      "url": "https://biz.tom.com/202412/1449914379.html",
+      "site_name": "TOM网"
+    },
+    {
+      "index": 9,
+      "title": "Ora Coffee国内首店 ",
+      "url": "https://business.sohu.com/a/840535340_121118713",
+      "site_name": "无"
+    },
+    {
+      "index": 10,
+      "title": "EP YAYING雅莹进驻上海新天地、UR在曼谷开设海外最大门店、皮爷咖啡推出平价品牌Ora Coffee…|品牌周报",
+      "url": "https://www.163.com/dy/article/JJ9T2C2B05259ET1.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:31Z"
+}

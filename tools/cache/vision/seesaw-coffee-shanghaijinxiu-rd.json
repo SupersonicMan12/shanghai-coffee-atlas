@@ -1,0 +1,33 @@
+{
+  "cafeId": "seesaw-coffee-shanghaijinxiu-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6aba355ed545",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=stc3067a92-e674-41b5-91e9-ff9987b12cfc&user=search&operate=original",
+    "https://aos-comment.amap.com/B0KKCMG5WB/comment/content_media_external_file_1000294563_ss__1754118162890_99379383.jpg"
+  ],
+  "photoKinds": [
+    "logo",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，杯中含冰块",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品盛于透明塑料杯，杯身有品牌标识",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:12Z"
+}

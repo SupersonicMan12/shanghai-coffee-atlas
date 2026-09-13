@@ -1,0 +1,92 @@
+{
+  "cafeId": "bluebottlecoffee-shangshengxinsuo",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "7e1d52c4ddc7",
+  "raw": {
+    "headline": {
+      "zh": "48小时新鲜烘焙",
+      "en": "Freshly roasted within 48 hours"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "只售卖烘焙后不超过48小时的咖啡",
+        "en": "Sells coffee roasted within 48 hours",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括海耶斯谷(浓缩)、贝拉多曼等拼配咖啡",
+        "en": "Signature drinks include Hayes Valley, Bella Dolce, and other blends",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地玻璃窗，采光充足",
+        "en": "Floor-to-ceiling windows with ample natural light",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "可使用电脑办公",
+        "en": "Suitable for working with laptop",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上8点（周末）",
+        "en": "Closes at 8 PM on weekends",
+        "from": [
+          4,
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "可办公",
+        "en": "Work-friendly"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          4,
+          14
+        ],
+        "zh": "中等人流",
+        "en": "Moderate foot traffic"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          7,
+          4,
+          14
+        ],
+        "zh": "适合久坐",
+        "en": "Good for lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "经典拼配为主",
+        "en": "Classic blends mainly"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:22Z"
+}

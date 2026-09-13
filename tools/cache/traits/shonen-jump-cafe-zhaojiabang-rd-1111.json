@@ -1,0 +1,64 @@
+{
+  "cafeId": "shonen-jump-cafe-zhaojiabang-rd-1111",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "7ced9acea809",
+  "raw": {
+    "headline": {
+      "zh": "少年漫画主题定制餐饮",
+      "en": "Manga-themed custom food & drinks"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "菜品按热门作品及角色定制",
+        "en": "Dishes customized by popular manga characters",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "热饮盛于黑色马克杯，带泡沫",
+        "en": "Hot drinks served in black mugs with foam",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "入口设360度漫画经典场景长廊",
+        "en": "360° manga scene corridor at entrance",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-22:00，每日开放",
+        "en": "Open daily 10:00–22:00",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "需通过官方公众号预约入店",
+        "en": "Entry requires official WeChat reservation",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "菜品饮品依角色定制",
+        "en": "Character-themed custom menu"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:26Z"
+}

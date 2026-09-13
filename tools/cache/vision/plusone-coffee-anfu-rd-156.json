@@ -1,0 +1,71 @@
+{
+  "cafeId": "plusone-coffee-anfu-rd-156",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "a7970d0fd93f",
+  "photos": [
+    "https://aos-comment.amap.com/B0IR1RWDF8/comment/D9D7ACFC_D2E1_46A9_8C16_0EC8CA5352C0_L0_001_1500_200_1764307551099_36167934.jpg",
+    "https://aos-comment.amap.com/B0IR1RWDF8/comment/DB846239_74ED_4C7B_9C9E_D67E25884B0B_L0_001_1500_2000__1661508233694_aa02c76a.jpg",
+    "https://aos-comment.amap.com/B0IR1RWDF8/comment/844312b24546a0b06f93b9483b86b34b_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店外有三把印字折叠椅和一个箱子，旁有圣诞树。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台前设三个高脚凳，吧台后有咖啡机。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外铺人造草坪，摆多把红架白座折叠椅和箱子。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大型绿植从天花板垂下，吧台旁放花瓶。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外广告牌显示“宇宙拿铁”、“桂花米酿”等饮品名。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外广告牌列出手冲咖啡豆产地如哥伦比亚、埃塞俄比亚。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外可见街道、行人与停放的自行车、电动车。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门牌号为安福路156号，位于临街建筑底层。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:51Z"
+}

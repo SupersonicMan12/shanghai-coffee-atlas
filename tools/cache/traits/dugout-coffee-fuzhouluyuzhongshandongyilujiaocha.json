@@ -1,0 +1,75 @@
+{
+  "cafeId": "dugout-coffee-fuzhouluyuzhongshandongyilujiaocha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "129355dec0c9",
+  "raw": {
+    "headline": {
+      "zh": "听障员工服务的洞穴风咖啡馆",
+      "en": "Cave-style cafe staffed by deaf baristas"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "所有员工为听障人士，提供非语言服务",
+        "en": "Staffed entirely by deaf employees using non-verbal communication",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "露台正对东方明珠",
+        "en": "Terrace faces the Oriental Pearl Tower",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌舒芙蕾分量大，适合作早午餐",
+        "en": "Signature soufflé pancakes are large, ideal for brunch",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室外有至少4张白色金属桌椅",
+        "en": "At least four white metal outdoor tables on stone platform",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-24:00营业",
+        "en": "Open daily 09:00–24:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          6,
+          10
+        ],
+        "zh": "有露台与户外座位适合久坐",
+        "en": "Terrace and outdoor seating invite lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          3
+        ],
+        "zh": "配备手冲壶架与意式机",
+        "en": "Offers both pour-over and espresso"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:14Z"
+}

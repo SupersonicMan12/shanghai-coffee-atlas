@@ -1,0 +1,71 @@
+{
+  "cafeId": "kafei-jinganjializhongxin",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "79f4e2911f54",
+  "photos": [
+    "https://aos-comment.amap.com/B0KK7H96LC/comment/content_media_external_file_1000027715_ss__1754717869770_81354775.jpg",
+    "https://aos-comment.amap.com/B0KK7H96LC/comment/content_media_external_file_1000026398_ss__1754717869826_18448788.jpg",
+    "https://aos-comment.amap.com/B0KK7H96LC/comment/content_media_external_file_1000026396_ss__1754717869818_26701574.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "位于商场内，空间开阔，有高挑玻璃顶",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为圆形设计，有工作人员在操作咖啡设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见磨豆机、咖啡机等专业器具",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有顾客正在点单，店内有人流动",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供买一送一促销活动，仅限工作日小程序下单",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前设有少量高脚凳供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "顶部有大型环形灯饰和悬挂灯具，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景中可见其他餐饮品牌，如cococean",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:17:49Z"
+}

@@ -1,0 +1,92 @@
+{
+  "cafeId": "ruixingkafei-taopuqicunxuesongyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "e593484e1721",
+  "raw": {
+    "headline": {
+      "zh": "站喝快取店，无堂食",
+      "en": "Stand-up quick pickup, no seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内设木质桌椅，座位数量较少",
+        "en": "Few wooden tables and chairs inside",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括生椰拿铁、杨枝甘露、柠檬茶",
+        "en": "Popular drinks include coconut milk latte, yuzu tea, lemon tea",
+        "from": [
+          9,
+          13
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街玻璃门，整面落地窗",
+        "en": "Full glass front facing the street",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "顾客可见使用笔记本电脑办公",
+        "en": "Customers seen using laptops for work",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五 07:00-21:00，周末 07:30-21:00",
+        "en": "Open 07:00–21:00 Mon–Fri, 07:30–21:00 Sat–Sun",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "有顾客用电脑办公",
+        "en": "Laptops in use by customers"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          8,
+          6
+        ],
+        "zh": "临街且有水果摊位",
+        "en": "On busy street with fruit stand"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "90%为快取店，无或少量堂食",
+        "en": "Most are quick pickup stores with little seating"
+      },
+      "adventure": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "平均每3-4天推一款新品",
+        "en": "New drink launched every 3–4 days"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:40Z"
+}

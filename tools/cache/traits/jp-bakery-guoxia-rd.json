@@ -1,0 +1,68 @@
+{
+  "cafeId": "jp-bakery-guoxia-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f664c52134a6",
+  "raw": {
+    "headline": {
+      "zh": "自烘咖啡+日式柚子黑巧烤肠面包",
+      "en": "In-house roasted coffee and yuzu-dark chocolate sausage bread"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街落地玻璃窗",
+        "en": "Full-height glass window facing the street",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "日式柚子黑巧烤肠面包",
+        "en": "Yuzu-dark chocolate sausage bread",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "减糖玛卡龙",
+        "en": "Reduced-sugar macarons",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "美式咖啡、澳白",
+        "en": "Americano and flat white",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-20:00营业",
+        "en": "Open daily 8:30 AM–8:00 PM",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 65,
+        "from": [
+          4,
+          6,
+          7
+        ],
+        "zh": "有自烘标识（roastery）及特色食品组合",
+        "en": "Roastery label and distinctive food-coffee pairing"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:44Z"
+}

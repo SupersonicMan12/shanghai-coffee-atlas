@@ -1,0 +1,240 @@
+{
+  "cafeId": "go-downstairs-coffee-osm",
+  "query": {
+    "location": "121.391653,31.202197",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T13:48:56Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "3",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFILCZGN",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/bdc61979b1483b320000002302788400?type=pic"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/b431ba590cc02df8937d770843eb145a"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e2bdf0069b5237d70000002302776655?type=pic"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18017682713",
+        "id": "B0JDVZSSI0",
+        "tag": "双人餐",
+        "entr_location": "121.391684,31.203791",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "古北",
+        "childtype": "320",
+        "atag": "双人餐",
+        "name": "Howlow咖啡(虹景小区虹古路270弄店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "190",
+        "importance": [],
+        "biz_ext": {
+          "cost": "37.00",
+          "opentime2": "周一 09:30-21:00；周三至周日 09:30-21:00",
+          "rating": "4.2",
+          "open_time": "09:30-21:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634111",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 09:04:58",
+        "website": [],
+        "address": "虹古路324-1临号(水城路地铁站出入口步行500米)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.391797,31.203903",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFILCZGN",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1ebef657acc70d85144a74280bc6a719"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0KAULHQ5H",
+        "tag": [],
+        "entr_location": "121.392231,31.203789",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "古北",
+        "childtype": "320",
+        "atag": [],
+        "name": "诺轩咖啡吧(虹景小区虹古路270弄店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1212263",
+        "distance": "201",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "1.3",
+          "open_time": [],
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634111",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-08-21 09:05:51",
+        "website": [],
+        "address": "虹景小区南门西90米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.392207,31.203940",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFILCZGN",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅|购物服务;购物相关场所;购物相关场所",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/609087cfb53e4491618f7bbef4f1d64c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/84a814f613bb20bd5a2de2694ae28c3b"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHJ5Z5G/comment/content_media_external_file_138060_ss__1761024754924_17842505.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500|060000",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "长宁区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13761059332",
+        "id": "B0FFHJ5Z5G",
+        "tag": [],
+        "entr_location": "121.392208,31.20379",
+        "adcode": "310105",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "古北",
+        "childtype": "320",
+        "atag": [],
+        "name": "Logos Gallerw(虹景小区虹古路270弄店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_568371",
+        "distance": "201",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 19:00-02:00",
+          "rating": "4.0",
+          "open_time": "19:00-02:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634111",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 15:49:23",
+        "website": [],
+        "address": "虹古路306号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.392207,31.203940",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

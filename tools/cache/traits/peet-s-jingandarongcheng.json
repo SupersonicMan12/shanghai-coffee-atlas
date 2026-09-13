@@ -1,0 +1,75 @@
+{
+  "cafeId": "peet-s-jingandarongcheng",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "70e39b3bfc3a",
+  "raw": {
+    "headline": {
+      "zh": "户外座位配暖灯，豆子21天内新鲜",
+      "en": "Outdoor seating, beans roasted within 21 days"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设多个露天座位与遮阳伞",
+        "en": "Multiple outdoor seats with sun umbrellas",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积玻璃幕墙，白天采光良好",
+        "en": "Large glass facade offers good daylight",
+        "from": [
+          3,
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses beans roasted within 21 days",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元/杯",
+        "en": "Signature Giant Flat White at ¥33",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至22:00",
+        "en": "Open daily until 22:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          9
+        ],
+        "zh": "有户外座和宽敞堂食区",
+        "en": "Outdoor and spacious indoor seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          6,
+          13
+        ],
+        "zh": "提供多款特色创意饮品",
+        "en": "Offers distinctive creative drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:03Z"
+}

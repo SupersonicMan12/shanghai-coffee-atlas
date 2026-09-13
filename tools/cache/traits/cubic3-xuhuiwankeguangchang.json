@@ -1,0 +1,57 @@
+{
+  "cafeId": "cubic3-xuhuiwankeguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9a2b3335eac9",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗小馆",
+      "en": "Street-facing glass-window cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "店内空间紧凑，为小型咖啡店",
+        "en": "Compact space, small coffee shop",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为冰美式、美式咖啡",
+        "en": "Signature drinks: iced and regular Americano",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日08:00-17:00，周末09:00-17:00营业",
+        "en": "Open 08:00–17:00 weekdays, 09:00–17:00 weekends",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，临街可见",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          5,
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1
+        ],
+        "zh": "空间紧凑不利久坐",
+        "en": "Compact space limits lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:41Z"
+}

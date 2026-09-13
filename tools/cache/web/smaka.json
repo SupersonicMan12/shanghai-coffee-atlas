@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "咖啡豆来自瑞典各地的小型精品烘焙坊",
+      "kind": "beans",
+      "quote": "咖啡豆来自瑞典各地的小型精品烘焙坊",
+      "url": "https://fashion.sina.cn/2017-04-18/detail-ifyeimqy2172397.d.html?vt=4",
+      "site": "新浪网"
+    },
+    {
+      "text": "招牌菜式包括布達佩斯蛋糕、肉桂卷",
+      "kind": "food",
+      "quote": "人氣菜式(20). 全部 . 布達佩斯蛋糕. 肉桂卷.",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/smaka-56548158/",
+      "site": "SMAKA（愚園路店） (上海靜安寺/南京西路) - Trip.com"
+    },
+    {
+      "text": "营业时间上午8:00 - 下午9:00",
+      "kind": "time",
+      "quote": "正在营业. 上午8:00 - 下午9:00",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d18429214-Reviews-SMAKA_Cafe_Bakery-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    {
+      "text": "地址为上海市長寧區愚園路769-3號",
+      "kind": "space",
+      "quote": "上海市長寧區愚園路769-3號",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/smaka-56548158/",
+      "site": "SMAKA（愚園路店） (上海靜安寺/南京西路) - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "SMAKA Cafe & Bakery(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d18429214-Reviews-SMAKA_Cafe_Bakery-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 2,
+      "title": "Smaka Cafe & Bakery - Snapchat",
+      "url": "https://www.snapchat.com/place/smaka-cafe-%26-bakery/40141b12-4ab7-11e9-93a7-0f9ad40abb88",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "像瑞典人一样坐下来享受咖啡时光_手机新浪网",
+      "url": "https://fashion.sina.cn/2017-04-18/detail-ifyeimqy2172397.d.html?vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "SMAKA（愚園路店） (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/smaka-56548158/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Smaka 的咖啡好喝（瑞典语”品尝”的意思）图三：东京出差会去711的 ...",
+      "url": "https://www.sina.cn/news/detail/5081415874776769.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "Stockholm Fortissio Lungo 咖啡 | Nespresso™ 香港",
+      "url": "https://www.nespresso.com/hk/zh/order/capsules/original/stockholm-lungo-coffee-capsule-old",
+      "site_name": "北京雀巢奈斯派索咖啡有限公司网站"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:40:17Z"
+}

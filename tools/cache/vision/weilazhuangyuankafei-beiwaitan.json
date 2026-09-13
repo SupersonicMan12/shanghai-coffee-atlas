@@ -1,0 +1,71 @@
+{
+  "cafeId": "weilazhuangyuankafei-beiwaitan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0b8335739373",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/2addee81c1b350937eb1f5b7d24ae989",
+    "https://store.is.autonavi.com/showpic/b1e5efdfc45d8a7a0000002996464464?type=pic",
+    "https://aos-comment.amap.com/B0KDGKAMD6/comment/content_media_external_file_69798_ss__1751896935778_53879848.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于户外，有遮阳棚和装饰花拱门",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有室外座位区，配备两把折叠椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺外侧有绿植和红色木马装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间可手持饮品在附近滨江区域饮用",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有促销告示牌，展示食物图片",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺临街，背景可见树木和现代建筑",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡制作设备及操作台",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "夜间拍摄，背景为城市灯光与江景",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:16Z"
+}

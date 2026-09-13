@@ -1,0 +1,65 @@
+{
+  "cafeId": "mr-bond-coffee-renminguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "686593f6182d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/184e50ea4b6db3ef0000003116098706?type=pic",
+    "https://store.is.autonavi.com/showpic/8c0f436096adc4b4a02848cac86c0380",
+    "https://store.is.autonavi.com/showpic/cae2cb3e345cfa960000002462368039?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为小型咖啡店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有可颂和面包售卖",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示超值套餐价格为19.8元",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "柜台后可见烘焙设备及陈列架",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有绿植装饰",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明显座位区域",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有展示柜陈列食品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:17Z"
+}

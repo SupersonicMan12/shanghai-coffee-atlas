@@ -1,0 +1,71 @@
+{
+  "cafeId": "kudikafei-hongkouhongchengge",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "18ac32eb25ac",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
+    "https://aos-comment.amap.com/B0JGAAC19I/comment/89629ebc0a5d20c06ab901193ed54c4a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JGAAC19I/comment/6d600425445f2e4927c587e3c95f8222_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺为商场内小型吧台式门店，无独立座位区，仅设1张小圆桌和2把椅子",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方可见商用咖啡机、制冰机、微波炉、扫码枪及纸杯/杯托等物料",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招含红色@符号与白色'COTTI'字样，下方有中文'库迪咖啡'，左侧立牌写'EVERY DAY @ COTTI'",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "两块电子屏显示饮品图（含粉色气泡饮、琥珀色冰饮）及‘百万大咖免费测评’活动信息",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台右侧立牌英文写'The Secret Of Flavor Lies In Beans'，未见豆子产地标识",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面挂有蓝色食品安全公示栏，含从业人员照片与健康证信息",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见手冲台、虹吸壶、烘焙机或磨豆机等专业器具",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内无顾客，无人使用电脑；仅1张小圆桌+2椅，属极少量座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:12Z"
+}

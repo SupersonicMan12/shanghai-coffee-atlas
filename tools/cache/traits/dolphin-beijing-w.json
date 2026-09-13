@@ -1,0 +1,58 @@
+{
+ "cafeId": "dolphin-beijing-w",
+ "model": "qwen-max",
+ "inputDigest": "55e1146a58b5",
+ "raw": {
+  "headline": {
+   "zh": "手摇打泡，保留冰凉触感",
+   "en": "Hand-shaken foam, keeps it cool"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "使用朝日唯品牛奶，奶香浓郁",
+    "en": "Uses Asahi milk, rich and creamy",
+    "from": 1
+   },
+   {
+    "kind": "drinks",
+    "zh": "坚持手摇打泡，保持饮品冰凉",
+    "en": "Hand-shaken foam for a cool sip",
+    "from": 2
+   },
+   {
+    "kind": "view",
+    "zh": "临窗长桌，窗外梧桐成荫",
+    "en": "Long table by the window, shaded by sycamores",
+    "from": 3
+   },
+   {
+    "kind": "space",
+    "zh": "海蓝色吧台和松木色桌椅",
+    "en": "Sea-blue bar and pine-colored furniture",
+    "from": 4
+   },
+   {
+    "kind": "drinks",
+    "zh": "桌上提供淡色满天星和新鲜薄荷水",
+    "en": "Light gypsophila and fresh mint water on tables",
+    "from": 5
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 3,
+    "zh": "有临窗长桌适合工作",
+    "en": "Long table by the window"
+   },
+   "linger": {
+    "value": 70,
+    "from": 3,
+    "zh": "环境宜人，适合久坐",
+    "en": "Pleasant setting, good for lingering"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:52Z"
+}

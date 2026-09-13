@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "店内有展示科学家照片的学术墙，每张带亲笔签名",
+      "kind": "space",
+      "quote": "有一面豪华的“中国生命科学”学术墙,上面布满了他为科学家们拍摄的照片,并且每一张照片上还带有科学家本人的亲笔签名",
+      "url": "https://www.shsmu.edu.cn/cbms/info/1080/6533.htm",
+      "site": "上海交通大学医学院"
+    },
+    {
+      "text": "由生物样本库创业者周学迅创办，融合科学传播与咖啡",
+      "kind": "story",
+      "quote": "周老师是中国生物样本库联盟副秘书长、研远科技(上海)有限公司iFuture Technologies创始人,同时也是“科学摄”的创始人",
+      "url": "https://www.shsmu.edu.cn/cbms/info/1080/6533.htm",
+      "site": "上海交通大学医学院"
+    },
+    {
+      "text": "位于太原路258号，在中国科学院上海营养与健康研究所支持下创建",
+      "kind": "space",
+      "quote": "2022年，在中国科学院上海营养与健康研究所的支持下，他在太原路上创建了“iFuture科学咖”",
+      "url": "https://finance.sina.cn/2025-08-25/detail-infnewrc9062966.d.html",
+      "site": "新浪网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "科学家正奋力拯救咖啡免于灭绝 - 新闻- 科学网",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/7/567733.shtm",
+      "site_name": "科学网"
+    },
+    {
+      "index": 2,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "生物化学与分子细胞生物学系举办“光影中的光阴故事”主题讲座",
+      "url": "https://www.shsmu.edu.cn/cbms/info/1080/6533.htm",
+      "site_name": "上海交通大学医学院"
+    },
+    {
+      "index": 4,
+      "title": "中国“豆子”,让世界看见",
+      "url": "https://finance.sina.cn/2025-08-25/detail-infnewrc9062966.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "高黎贡山遇上安第斯山,精品咖啡迎来“滇”峰对话!",
+      "url": "http://finance.sina.com.cn/jjxw/2026-09-10/doc-inirixkn8632525.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "为了咖啡控的执念,我花了30小时来到多巴湖,寻找一抹蓝色",
+      "url": "https://dy.163.com/article/K19MSJ2R051285HS.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:51Z"
+}

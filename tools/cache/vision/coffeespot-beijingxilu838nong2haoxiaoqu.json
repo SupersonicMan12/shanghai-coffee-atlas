@@ -1,0 +1,59 @@
+{
+  "cafeId": "coffeespot-beijingxilu838nong2haoxiaoqu",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ff9af9cec4d2",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1TSH2GW/comment/79A139B3_115C_4EEC_92ED_59DDA477D299_L0_001_1080_144_1762006155267_57770902.jpg",
+    "https://aos-comment.amap.com/B0H1TSH2GW/comment/1cd45ec9d9cb4e09c0bf6b4cd90eb128_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1TSH2GW/comment/6f852a9b292c1c50d7b9144dd0ce4e72_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有金属手推车和置物架，可见部分操作台。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供埃塞俄比亚Sidamo Yaye豆的意式和奶咖。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拉花奶咖配卡片，标注了豆种、处理法和风味。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外木桌上有三杯饮品，含冰饮和黑咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门为玻璃门，室内灯光明亮，但无窗外街景。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有员工在操作，顾客身影模糊可见。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:04Z"
+}

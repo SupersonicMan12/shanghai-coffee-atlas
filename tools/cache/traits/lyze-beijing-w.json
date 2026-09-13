@@ -1,0 +1,69 @@
+{
+  "cafeId": "lyze-beijing-w",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "cc87ac3806b6",
+  "raw": {
+    "headline": {
+      "zh": "临街站喝小吧",
+      "en": "Kerbside filter bar"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "门口设木质长凳，可站或坐",
+        "en": "Outdoor wooden bench for standing or sitting",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街玻璃窗，空间紧凑",
+        "en": "Narrow space with full-floor windows",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "主打手冲滤泡咖啡",
+        "en": "Focus on filter coffee",
+        "from": [
+          3,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 10:00-17:00",
+        "en": "Open 10:00–17:00 daily",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          2,
+          11
+        ],
+        "zh": "站喝为主，久坐少",
+        "en": "Primarily for standing drinks"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "临街人流多，略喧闹",
+        "en": "Street-facing, moderately lively"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:18Z"
+}

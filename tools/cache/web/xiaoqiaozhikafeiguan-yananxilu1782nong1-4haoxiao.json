@@ -1,0 +1,83 @@
+{
+  "facts": [
+    {
+      "text": "宠物友善接受订位",
+      "kind": "people",
+      "quote": "寵物友善接受訂位禁煙餐廳冷氣",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/petitgeorgecafe-20519259",
+      "site": "小喬治咖啡館(上海虹橋地區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "营业时间11:00-21:00",
+      "kind": "time",
+      "quote": "11:00-21:00",
+      "url": "https://m.flight.qunar.com/shark/active/cc16868c594f193f4d7f198d810db018?sightId=2768051464&channel=touch",
+      "site": "去哪儿网"
+    },
+    {
+      "text": "地址：延安西路1794号底层101、2层",
+      "kind": "space",
+      "quote": "延安西路1794號底層101、2層",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/petitgeorgecafe-20519259",
+      "site": "小喬治咖啡館(上海虹橋地區)－餐牌 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "PETITGEORGECAFE小乔治咖啡馆- 外滩中央广场 - 百度地图",
+      "url": "https://map.baidu.com/mobile/webapp/transit/detail/qt=bt&sn=1%24%2467becd85828e6754f33cba68%24%2413516720.00%2C3638176.23%24%24PETITGEORGECAFE%E5%B0%8F%E4%B9%94%E6%B2%BB%E5%92%96%E5%95%A1%E9%A6%86%24%24&en=1%24%245ef6815c37d3a9981f3894f7%24%2413524779.81%2C3642046.56%24%24%E5%A4%96%E6%BB%A9%E4%B8%AD%E5%A4%AE%E5%B9%BF%E5%9C%BA%24%24&sc=289&ec=289&c=289&pn=0&rn=5&wm=1/",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "【PETITGEORGECAFE小乔治咖啡馆】电话_地址_价格_营业时间_ ...",
+      "url": "http://m.dianping.com/shop/21413152?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "小喬治咖啡館(上海虹橋地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/petitgeorgecafe-20519259",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "乔治队长｜手冲咖啡细节大曝光·带你走进小房间",
+      "url": "https://www.bilibili.com/video/BV1DwADesExV/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 5,
+      "title": "又是冠军店！网络上风挺大的乔治队长价格亲民但出品有点普通",
+      "url": "https://www.bilibili.com/video/BV1iADZY9ENo/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 6,
+      "title": "小乔治咖啡馆",
+      "url": "https://m.flight.qunar.com/shark/active/cc16868c594f193f4d7f198d810db018?sightId=2768051464&channel=touch",
+      "site_name": "去哪儿网"
+    },
+    {
+      "index": 7,
+      "title": "从冠军奖杯到城市名片看贵州咖啡如何“突围” - 国际在线移动版",
+      "url": "https://gz.cri.cn/2025-05-20/b04dc2f9-2597-e8c8-3b80-d75d2c2a40ee.html",
+      "site_name": "国际在线"
+    },
+    {
+      "index": 8,
+      "title": "【探店】从网店到实体，从贵州到魔都|乔治队长咖啡 - Chiphell",
+      "url": "https://www.chiphell.com/article-34539-1.html",
+      "site_name": "Chiphell"
+    },
+    {
+      "index": 9,
+      "title": "这些咖啡,你不一定喝过",
+      "url": "https://www.163.com/dy/article/L69JQSSI0542FI2A.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:27Z"
+}

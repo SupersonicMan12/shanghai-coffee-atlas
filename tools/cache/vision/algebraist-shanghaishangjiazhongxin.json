@@ -1,0 +1,71 @@
+{
+  "cafeId": "algebraist-shanghaishangjiazhongxin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "5fbe20d02ec9",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
+    "https://aos-comment.amap.com/B0HU19ESQC/comment/content_media_external_file_448698_ss__1769437528062_89699653.jpg",
+    "http://store.is.autonavi.com/showpic/867fd0fe49af29b310688e98f21d5d0a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店名标为‘代数学家 咖啡’与‘algebraist COFFEE’，位于商场内木质结构吧台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台后方可见白色意式咖啡机、磨豆机（带透明豆仓）、堆叠纸杯及菜单立牌",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内区域有约10张木质圆桌配同材质矮凳，地面为水磨石，无沙发",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内靠墙设玻璃门隔间，左侧有落地玻璃窗通向室外通道",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台面有黄色支付终端、二维码贴纸、数个立式小菜单牌（文字模糊不可辨）",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第一张图仅为红色三角形、横线、正方形组成的抽象图形，无实际场景信息",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内未见书架、植物、宠物；无人在场，无电脑使用迹象",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上方悬挂环形LED灯，背景柱体为编织藤条/竹材包裹",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:48Z"
+}

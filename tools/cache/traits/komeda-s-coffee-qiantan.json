@@ -1,0 +1,85 @@
+{
+  "cafeId": "komeda-s-coffee-qiantan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c23a9b1c7178",
+  "raw": {
+    "headline": {
+      "zh": "冰与火系列配现烤吐司",
+      "en": "Ice & Fire series with fresh toast"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌冰与火系列点心",
+        "en": "Signature Ice & Fire pastries",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "11点前点咖啡送现烤吐司",
+        "en": "Free freshly baked toast before 11am with coffee",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供黑咖啡配小杯牛奶和勺子",
+        "en": "Black coffee served with small milk pitcher and spoon",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Good natural light from floor-to-ceiling windows",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-19:00营业",
+        "en": "Open daily 08:00–19:00",
+        "from": [
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6,
+          8,
+          13
+        ],
+        "zh": "空间宽敞安静适合久坐",
+        "en": "Spacious and quiet for lingering"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          6,
+          12,
+          13
+        ],
+        "zh": "有插座且环境安静",
+        "en": "Has outlets and calm atmosphere"
+      },
+      "energy": {
+        "value": 30,
+        "from": [
+          6
+        ],
+        "zh": "店内顾客安静就座",
+        "en": "Quiet seated customers"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:28Z"
+}

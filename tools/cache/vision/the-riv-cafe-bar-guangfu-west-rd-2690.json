@@ -1,0 +1,65 @@
+{
+  "cafeId": "the-riv-cafe-bar-guangfu-west-rd-2690",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "626a00ad02c8",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/acf39250c03a408cad99150c0f08759a",
+    "https://store.is.autonavi.com/showpic/202fb337434c70190000002850108011?type=pic",
+    "https://store.is.autonavi.com/showpic/d3d69cecc703c7c40000002850064619?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内空间宽敞，有多张餐桌和椅子",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有大量绿植装饰，环境自然",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "设有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位数量较多，适合多人用餐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板裸露管道，工业风装修风格",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有多个窗户，视野通透",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上有盐胡椒瓶，提供基本调味品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:57Z"
+}

@@ -1,0 +1,59 @@
+{
+  "cafeId": "peet-s-jingandarongcheng",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "fcc1187e75cd",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0963db09c9987c53f790e84048c7c158",
+    "https://aos-comment.amap.com/B0L60M91LL/comment/F5354456_CCB8_4657_8DDE_F051D42A2DE7_L0_001_1500_200_1763177731709_57746027.jpg",
+    "https://aos-comment.amap.com/B0L60M91LL/comment/content_media_external_file_820_1769448618893_39329637.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有多个露天座位和遮阳伞，适合户外坐。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间照片显示店内亮灯，有暖色串灯装饰。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "白天照片可见大面积玻璃幕墙，采光好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立牌有“加入会员”字样及价格信息。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店前地面铺砖，有绿植盆栽和行道树。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "三张图均未见店内有人使用电脑或专业器具。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:33Z"
+}

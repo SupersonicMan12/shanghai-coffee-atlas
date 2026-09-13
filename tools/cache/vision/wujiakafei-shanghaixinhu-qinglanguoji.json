@@ -1,0 +1,65 @@
+{
+  "cafeId": "wujiakafei-shanghaixinhu-qinglanguoji",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "62da726c1534",
+  "photos": [
+    "https://aos-comment.amap.com/B0G2MBTZCX/comment/content_media_external_file_100005391_1759447914767_26500306.jpg",
+    "http://store.is.autonavi.com/showpic/b0c7bab79cf2f52b8c56fd57508461a6",
+    "https://aos-comment.amap.com/B0G2MBTZCX/comment/content_media_external_file_100005391_1759447914769_96931149.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "吧台式小店，无堂食座位，仅设收银与展示柜。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有抹茶饮品与冰咖啡，杯身带品牌标识。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见烘焙展示柜，陈列糕点。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外为临街玻璃门面，门前有台阶与绿植。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板用木条装饰，搭配几何吊灯。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有员工操作，未见顾客或电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙面挂有红色菱形装饰，疑似节庆布置。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.75
+    }
+  ],
+  "seats": "none",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:58:25Z"
+}

@@ -1,0 +1,72 @@
+{
+  "cafeId": "home-cafe-hongmei-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "819951cbb237",
+  "photos": [
+    "https://aos-comment.amap.com/B0GKMKO478/comment/15E78C9E_55B4_41C9_8270_0EC1E270A85D_L0_001_1512_201_1761143921462_82368137.jpg",
+    "https://aos-comment.amap.com/B0GKMKO478/comment/BDA1A8B6_983A_4F72_9615_20B7776B1F97_L0_001_1276_170_1759569857787_58824965.jpg",
+    "https://aos-comment.amap.com/B0GKMKO478/comment/A3376EA7_A4FA_4E37_B732_35C992719393_L0_001_1500_200_1761568556183_78699585.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "咖啡馆为临街木结构门面，有台阶入口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质地板和蓝色软包长椅，座位数量较少",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗边有木质桌椅，可看到窗外街道和树木",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有大窗户，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放有咖啡杯、蛋糕和小点心",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡杯内为黑咖啡，表面有冰块",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有植物装饰，环境安静整洁",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口设有小型木桥和石制水池，有户外空间",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:17:57Z"
+}

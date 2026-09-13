@@ -1,0 +1,69 @@
+{
+  "cafeId": "coffeegroupies-kangding-rd-723",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "4e6d7249d6d9",
+  "raw": {
+    "headline": {
+      "zh": "店主自烘瑰夏手冲",
+      "en": "Owner-roasted Geisha pour-overs"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "手冲多用巴拿马瑰夏豆",
+        "en": "Pour-overs mostly use Panama Geisha beans",
+        "from": [
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "澳白奶泡丝滑、甜感明显",
+        "en": "Flat white has silky foam and clear sweetness",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "糕点15元一份",
+        "en": "Pastries priced at 15 yuan each",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店主亲自负责烘焙与出品",
+        "en": "Owner handles roasting and brewing personally",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日07:30开门，周末09:00",
+        "en": "Opens 07:30 weekdays, 09:00 weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 85,
+        "from": [
+          1,
+          3,
+          7,
+          8,
+          9
+        ],
+        "zh": "自烘+手冲专业器具",
+        "en": "In-house roasting & brew gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:36:21Z"
+}

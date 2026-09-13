@@ -1,0 +1,49 @@
+{
+  "cafeId": "chili-s-jiuguangzhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "289ee045fce4",
+  "raw": {
+    "headline": {
+      "zh": "买汉堡送汉堡，需配两杯饮",
+      "en": "Buy one burger, get one free with two drinks"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "汉堡搭配薯条和蘸酱出售",
+        "en": "Burgers served with fries and dipping sauce",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供鸡尾酒类饮品",
+        "en": "Offers cocktail-style drinks",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有带遮阳伞的室外座位区",
+        "en": "Outdoor seating with umbrellas available",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周日至周四营业至23:00，周末至24:00",
+        "en": "Open until 23:00 Sun–Thu, 24:00 Fri–Sat",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:35:30Z"
+}

@@ -1,0 +1,70 @@
+{
+  "cafeId": "146bistro-cafe-yanchang-rd-146",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "76f058f4530e",
+  "raw": {
+    "headline": {
+      "zh": "延长路临街带户外座",
+      "en": "Street-side with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供木质室外桌椅，适合小聚",
+        "en": "Outdoor wooden tables for small groups",
+        "from": [
+          2,
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Good natural light through floor-to-ceiling windows",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含美式、拿铁等基础咖啡",
+        "en": "Serves standard drinks like Americano and latte",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨2点",
+        "en": "Open daily until 2 a.m.",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          7,
+          8
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2,
+          7,
+          8
+        ],
+        "zh": "临街户外位略热闹",
+        "en": "Street-side outdoor area"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:31Z"
+}

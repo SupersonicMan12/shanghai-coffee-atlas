@@ -1,0 +1,59 @@
+{
+  "cafeId": "silverflow-yanggao-middle-rd-2112",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "dd326fd542a5",
+  "raw": {
+    "headline": {
+      "zh": "全场咖啡8.8元",
+      "en": "All coffee just ¥8.8"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌手冲瑰夏36元",
+        "en": "Signature pour-over Geisha ¥36",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "贝果9-14元，72小时冷发酵",
+        "en": "Bagels ¥9–14, 72h cold fermented",
+        "from": [
+          8,
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店外设木质桌椅",
+        "en": "Outdoor wooden tables and chairs",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至20:00",
+        "en": "Open until 8pm",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          7,
+          9
+        ],
+        "zh": "有手冲瑰夏和专业设备",
+        "en": "Pour-over & pro gear"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:56Z"
+}

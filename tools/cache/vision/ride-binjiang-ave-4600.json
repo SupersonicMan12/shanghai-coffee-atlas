@@ -1,0 +1,65 @@
+{
+  "cafeId": "ride-binjiang-ave-4600",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "d9295836408c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIKHPS1/comment/facb67815d3c896a4543a119f46858cb_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/6daf6eeb7d89a5f1806f581b33b72eb0",
+    "https://aos-comment.amap.com/B0FFIKHPS1/comment/cff5bcec62288fb4bf11271933f19f70_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "咖啡拉花为叶子图案",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供巧克力类甜点，搭配坚果、蓝莓和椰片",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有临街玻璃门，可见店内部分陈设",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口摆放白色编织椅，可能有室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店名RIDE CAFE在盘子上印有标识",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "咖啡杯与甜点摆放在大理石台面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "甜点装饰精致，包含多种配料",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:50Z"
+}

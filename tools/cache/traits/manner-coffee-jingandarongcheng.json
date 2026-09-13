@@ -1,0 +1,81 @@
+{
+  "cafeId": "manner-coffee-jingandarongcheng",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b214448931f5",
+  "raw": {
+    "headline": {
+      "zh": "静安大融城站喝平价精品",
+      "en": "Grab affordable specialty coffee to go"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设室外座位，非高峰可坐",
+        "en": "Outdoor seating available off-peak",
+        "from": [
+          1,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜等",
+        "en": "Known for oat milk latte and Bing Tian",
+        "from": [
+          11,
+          15
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "饮品价格带15–25元",
+        "en": "Drinks priced between ¥15–25",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日07:00–17:00营业",
+        "en": "Open daily 07:00–17:00",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "品牌始于2015年静安2㎡小店",
+        "en": "Brand started in 2015 from a 2㎡ shop",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "zh": "有座但属轻落地站喝模式",
+        "en": "Seating exists but designed for quick stops"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          9,
+          11,
+          15
+        ],
+        "zh": "自烘豆+限定款+特色饮品",
+        "en": "House-roasted beans and signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:03Z"
+}

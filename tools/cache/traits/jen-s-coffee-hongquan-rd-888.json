@@ -1,0 +1,65 @@
+{
+  "cafeId": "jen-s-coffee-hongquan-rd-888",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9cff85beea87",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有多区域座位及户外座椅区",
+        "en": "Multiple seating areas and outdoor seats",
+        "from": [
+          4,
+          5,
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间宽敞，有木质桌椅和水泥柱",
+        "en": "Spacious interior with wooden tables and concrete columns",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间08:00-21:00（部分日期全天关闭）",
+        "en": "Open 08:00–21:00 (closed all day on some dates)",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供薯条",
+        "en": "Serves french fries",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品使用玻璃杯或陶瓷杯配托盘",
+        "en": "Drinks served in glass or ceramic cups with trays",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          4,
+          5
+        ],
+        "zh": "多区域座位适合久坐",
+        "en": "Seating suits lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:00Z"
+}

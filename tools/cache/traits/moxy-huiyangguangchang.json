@@ -1,0 +1,74 @@
+{
+  "cafeId": "moxy-huiyangguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "928e4020ac45",
+  "raw": {
+    "headline": {
+      "zh": "24小时营业的酒店内酒吧",
+      "en": "24-hour bar inside a hotel"
+    },
+    "traits": [
+      {
+        "kind": "time",
+        "zh": "周一至周日00:00-24:00营业",
+        "en": "Open 24 hours, every day",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "宽敞走廊空间，地面铺反光瓷砖",
+        "en": "Spacious corridor layout with reflective tile flooring",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "天花板嵌入式照明，整体光线明亮",
+        "en": "Bright ambient lighting from recessed ceiling fixtures",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "两侧可见多人行走，人流正常",
+        "en": "People walking on both sides, indicating normal foot traffic",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "位于上海徐汇Moxy酒店内或附近",
+        "en": "Located inside or adjacent to Shanghai Xuhui Moxy Hotel",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 65,
+        "from": [
+          2
+        ],
+        "zh": "人流正常，空间开放",
+        "en": "Normal foot traffic, open space"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          2,
+          4
+        ],
+        "zh": "宽敞明亮走廊，适合中等停留",
+        "en": "Spacious bright corridor, medium dwell time"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:02Z"
+}

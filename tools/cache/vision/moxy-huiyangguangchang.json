@@ -1,0 +1,43 @@
+{
+  "cafeId": "moxy-huiyangguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "63c38e68eadc",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/165ba206f23226737aa7360f946fadac"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "室内为宽敞的走廊空间，地面铺有反光瓷砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "两侧可见多人行走，表明空间开放且人流正常",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景广告牌显示“上海徐汇Moxy酒店”，推测位于酒店内或附近",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "天花板有嵌入式照明，整体光线明亮",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:15Z"
+}

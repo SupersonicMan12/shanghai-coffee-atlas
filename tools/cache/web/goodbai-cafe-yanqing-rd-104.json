@@ -1,0 +1,93 @@
+{
+  "facts": [
+    {
+      "text": "店内提供三款特调咖啡及经典咖啡、非咖啡饮料。",
+      "kind": "drinks",
+      "quote": "Goodbai Cafe提供特调咖啡、经典咖啡、非咖啡饮料及甜点。",
+      "url": "https://baike.baidu.com/item/Goodbai%20Cafe/64655194",
+      "site": "百度百科"
+    },
+    {
+      "text": "招牌饮品包括“延庆路104”与“毛球历险记”。",
+      "kind": "drinks",
+      "quote": "强推「延庆路104」与「毛球历险记」,前者以混合果汁搭配拼豆冷萃,入口柔和清爽。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MTAzNzc2Nw==&mid=2652932813&idx=2&sn=5870c31fb9ad541d8669e037931cf4a6&chksm=f22d3be5c55ab2f34d605dbdb842b23e810e18d3f3d26204fec8be84b76134e1df78352ebc92&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "空间设计灵感来自摩洛哥花园和新古典主义风格。",
+      "kind": "space",
+      "quote": "GOODBAI CAFE新店从摩洛哥花园和新古典主义风格中汲取灵感,",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-131658865/",
+      "site": "GOODBAI CAFE｜Trip.com 上海"
+    },
+    {
+      "text": "拥有花园式的庭院空间，适合拍照。",
+      "kind": "space",
+      "quote": "花园式的庭院空间,走进其中情绪也变得舒缓,让赏味过程,成为一段假期般美好的体验。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MTAzNzc2Nw==&mid=2652932813&idx=2&sn=5870c31fb9ad541d8669e037931cf4a6&chksm=f22d3be5c55ab2f34d605dbdb842b23e810e18d3f3d26204fec8be84b76134e1df78352ebc92&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "墙面温柔的斑驳与地面手工打磨的色块相映。",
+      "kind": "story",
+      "quote": "墙面温柔的斑驳与地面手工打磨的色块相映,源自白鸽羽翼流线型的轮廓的复古喷泉,拍照更是出片。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MTAzNzc2Nw==&mid=2652932813&idx=2&sn=5870c31fb9ad541d8669e037931cf4a6&chksm=f22d3be5c55ab2f34d605dbdb842b23e810e18d3f3d26204fec8be84b76134e1df78352ebc92&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "营业时间至下午6点。",
+      "kind": "time",
+      "quote": "营业时间为10:00-18:00。",
+      "url": "https://baike.baidu.com/item/Goodbai%20Cafe/64655194",
+      "site": "百度百科"
+    },
+    {
+      "text": "由演员白敬亭创立的品牌旗下咖啡店。",
+      "kind": "story",
+      "quote": "GOODBAI诞生于2021年，是由白敬亭成立的服装及生活方式品牌。",
+      "url": "http://www.irgroad.com/irgnews.aspx?id=7582",
+      "site": "白敬亭的咖啡店「GOODBAI CAFE」落地上海，6月6日开业"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "Goodbai Cafe",
+      "url": "https://baike.baidu.com/item/Goodbai%20Cafe/64655194",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "GOODBAI CAFE 开启营业！ - SocialBeta",
+      "url": "https://socialbeta.com/campaign/21416",
+      "site_name": "SocialBeta"
+    },
+    {
+      "index": 3,
+      "title": "魔都咖啡新店指南,一起chill一下! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MTAzNzc2Nw==&mid=2652932813&idx=2&sn=5870c31fb9ad541d8669e037931cf4a6&chksm=f22d3be5c55ab2f34d605dbdb842b23e810e18d3f3d26204fec8be84b76134e1df78352ebc92&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "GOODBAI CAFE｜Trip.com 上海",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-131658865/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "“9块9”咖啡遍地时,白敬亭的精品咖啡店开业日大排长龙",
+      "url": "https://m.jiemian.com/article/11266960.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 6,
+      "title": "白敬亭的咖啡店「GOODBAI CAFE」落地上海，6月6日开业",
+      "url": "http://www.irgroad.com/irgnews.aspx?id=7582",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:02:03Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "dei-coffee-shop-jinqiao",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ea8092f59d14",
+  "raw": {
+    "headline": {
+      "zh": "手冲为主的小型临街店",
+      "en": "Hand-brew focused street-side spot"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "主打手冲咖啡，设备齐全",
+        "en": "Offers hand-brew coffee with full setup",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "仅设少量木质高脚凳",
+        "en": "Only a few wooden high stools available",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "吧台后有落地窗看街景",
+        "en": "Floor-to-ceiling window overlooks the street",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          4
+        ],
+        "zh": "座位少且为高脚凳",
+        "en": "Few high stools only"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "多套手冲器具与杯具",
+        "en": "Multiple brew setups and vessels"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:37:57Z"
+}

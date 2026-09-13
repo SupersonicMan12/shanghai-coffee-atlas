@@ -1,0 +1,69 @@
+{
+  "cafeId": "manner-coffee-jinzeyuanshiguangli",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "85abe95e153b",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/46e1a4396af34c7a1286d06f41a18bf5",
+    "https://store.is.autonavi.com/showpic/f24472d55c2eadddeda19162d27b8032"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场或商业街区，临街玻璃门设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有木质长椅，可供短暂休息",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分区域，有工作人员在操作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "入口处设有宣传立牌，展示饮品图片",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺为独立小屋式结构，面积较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门和窗户透光良好，采光充足",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外地面为铺装广场，无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "旁边有其他商铺，处于商业集中区域",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:43Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-nanjing-west-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ec6a974d2d85",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e744b3c784cabd850000003139164911?type=pic",
+    "https://aos-comment.amap.com/B0I21HOJ2P/comment/20260319-6b860ea013012cd56a0f95ee-6YIqIV3hfEz7UEdgops4Tm.jpg",
+    "https://aos-comment.amap.com/B0I21HOJ2P/comment/297300f285883f694eda651b8ec55425_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面外有绿植墙和梧桐树，人行道上有共享单车。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有华夫饼配蓝莓奶油、冰咖啡、越南牛奶咖啡瓶装。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "饮品包括多层分层咖啡，部分加奶油和柑橘片装饰。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为两层建筑，二楼有阳台，一楼临街大玻璃窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见螺旋楼梯，暗示有上下层空间。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中无人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机或手冲台等专业器具。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无室外座位区。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:22Z"
+}

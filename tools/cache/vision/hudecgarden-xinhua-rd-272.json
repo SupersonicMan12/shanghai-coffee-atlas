@@ -1,0 +1,71 @@
+{
+  "cafeId": "hudecgarden-xinhua-rd-272",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "36a860c34962",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0173651446bc6e600000003083548286?type=pic",
+    "https://store.is.autonavi.com/showpic/5fe3a2948f20b4390000003083554148?type=pic",
+    "https://store.is.autonavi.com/showpic/cd0e3887ca601a5290731c44b660e37a"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "室外庭院铺浅色地砖，设多组黑色金属桌椅（约10+座位），旁有草坪与高大乔木。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "建筑外墙为灰白色鱼鳞状肌理抹灰，带三座拱形玻璃门入口，右侧设玻璃围合吧台区。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口拱门两侧装黑色复古壁灯，门框为深色金属，门槛内铺深色地垫，可见室内浅色地砖与2人站立。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧玻璃窗内陈列大型绿植（如龟背竹）、白色杯具与银色手冲壶，无咖啡机或磨豆机可见。",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店名标牌为‘HUDEC GARDEN’及中文‘达克花园’，位于白色立柱上，旁有黑色铁艺大门与椭圆窥视孔。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "户外座位区沿庭院一侧排列，每桌配2–4把弯曲靠背椅，桌面为方形黑色金属板。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "建筑二层有阳台与栏杆，背景可见其他老式住宅屋顶与烟囱，属典型上海梧桐街区环境。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用笔记本电脑；室内两人着便装站立交谈，未见工作状态。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "many",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:14Z"
+}

@@ -1,0 +1,66 @@
+{
+  "cafeId": "white-zhixing-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "30ae2e748997",
+  "raw": {
+    "headline": {
+      "zh": "意面与烤三文鱼配花艺摆盘",
+      "en": "Pasta and roasted salmon with floral plating"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供意面和烤三文鱼，摆盘精致",
+        "en": "Serves pasta and roasted salmon, plated with care",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "主用餐区设长桌与多排座椅，可容纳多人",
+        "en": "Main dining area has long tables and multiple rows of seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "内部为现代简约风格，木质地板和墙面",
+        "en": "Modern minimalist interior with wooden floors and walls",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至21:30，周一至周日全天开放",
+        "en": "Open daily 10:00–21:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          2
+        ],
+        "zh": "多排座椅适合用餐，非专为办公设计",
+        "en": "Seating arranged for dining, not focused on work"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          4,
+          5
+        ],
+        "zh": "长桌+绿植+餐桌花饰，支持久坐",
+        "en": "Long tables, greenery, and floral accents support lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:03Z"
+}

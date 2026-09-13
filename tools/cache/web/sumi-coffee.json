@@ -1,0 +1,44 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "Ruixing Coffee (Xiandai Mansion Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118715840910769&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "coffee surround - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-122765546/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Standout cafes at 2024 Shanghai coffee fest (I)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240807/add3399f096b4c7ab83cd3d45439ef5b.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:29Z",
+  "retriedEn": true
+}

@@ -1,0 +1,68 @@
+{
+  "cafeId": "tuanzikafei-fengchengxiang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "98a76ebf6d57",
+  "raw": {
+    "headline": {
+      "zh": "奶盖/抹茶/咖啡三款并售",
+      "en": "Serves coffee, matcha, and creamy topped drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供咖啡、抹茶和奶盖类饮品",
+        "en": "Offers coffee, matcha, and creamy-topped drinks",
+        "from": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品配金色小勺，表面撒可可粉",
+        "en": "Drinks served with a gold spoon and dusted with cocoa powder",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内有绿植装饰",
+        "en": "Green plants decorate the interior",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-18:00营业",
+        "en": "Open daily from 10:00 to 18:00",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐双人餐",
+        "en": "Double set meal recommended on Gaode",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "木质托盘与绿植暗示停留感",
+        "en": "Wood tray and greenery suggest lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:47Z"
+}

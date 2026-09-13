@@ -1,0 +1,28 @@
+{
+ "cafeId": "bonus-guoda",
+ "model": "qwen-max",
+ "inputDigest": "b1fb8f15ce99",
+ "raw": {
+  "headline": {
+   "zh": "早9点前第二杯免费",
+   "en": "Free second shot before 9 AM"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "早上9点前第二杯咖啡免费",
+    "en": "Second coffee free before 9 AM",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "zh": "主要是站着喝的小店",
+    "en": "Standing bar, quick visits"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:02Z"
+}

@@ -1,0 +1,70 @@
+{
+  "cafeId": "one-step-coffee-hepinggongyuan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "d9dbdab0f8e6",
+  "raw": {
+    "headline": {
+      "zh": "和平公园湖畔亲水咖啡",
+      "en": "Lakeside coffee at Peace Park"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临湖设亲水平台，可览湖光涟漪",
+        "en": "Outdoor deck overlooks park lake",
+        "from": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内分三区：豆袋沙发、原木桌椅、开阔聚会区",
+        "en": "Three zones: bean bags, wood tables, open area",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供可颂、贝果等面包甜点，配手写价签",
+        "en": "Pastries like croissants and bagels with handwritten tags",
+        "from": [
+          3,
+          13
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "拿铁咖啡与牛奶比例恰到好处，口感顺滑",
+        "en": "Latte with balanced milk-coffee ratio, smooth texture",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          10,
+          15
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          5,
+          8,
+          9
+        ],
+        "zh": "有豆袋沙发、亲水平台和书架",
+        "en": "Bean bags, lakeside deck, books"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:28Z"
+}

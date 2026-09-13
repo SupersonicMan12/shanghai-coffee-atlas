@@ -1,0 +1,28 @@
+{
+  "cafeId": "yizhangzhuozikafei-xinhongkoushizhengshangwulou",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "90a2689a869a",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供分层冰咖啡（奶底+浓缩）",
+        "en": "Serves layered iced coffee with milk base",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日8:00-16:30，周末11:00-17:00营业",
+        "en": "Open weekdays 8–16:30, weekends 11–17",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T14:36:06Z"
+}

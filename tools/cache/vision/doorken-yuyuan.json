@@ -1,0 +1,71 @@
+{
+  "cafeId": "doorken-yuyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "9425fd6d9e3a",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/270f438d36827040f6818190406c3a35",
+    "https://store.is.autonavi.com/showpic/c8c81fdcc0c95e57f23205ebcb1e2a42",
+    "https://aos-comment.amap.com/B0M6JSDQQ8/comment/20260323-3b1c0e11c29285caf1fa5968-3u3yhW9g1Wa7tzwQee9vLQ.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门+大面积落地窗，门牌号61（非地址1203弄43号）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为狭长吧台式布局，吧台后方有咖啡机、磨豆机、手冲壶等设备",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙面为裸露水泥/灰泥质感，天花板有外露管道与工业吊灯",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前可见至少2把木椅，店内右侧有1张木桌配2把木椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧临街大玻璃窗外可见绿植与街道，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上有红色‘福’字装饰、招财猫摆件、枝条插花及‘NO! SMOKING’标牌",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "墙上挂有橙色包袋、圆形时钟、小镜子与置物架，架上放白瓷杯与咖啡豆袋",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招为黑色底板，手写体‘Doorken Coffee’及简笔门把手图标",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:24Z"
+}

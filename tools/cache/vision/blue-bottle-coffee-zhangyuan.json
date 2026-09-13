@@ -1,0 +1,65 @@
+{
+  "cafeId": "blue-bottle-coffee-zhangyuan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "46a9dcf70066",
+  "photos": [
+    "https://aos-comment.amap.com/B0IK6MJ311/comment/6BA6739D_065A_46AB_A321_DD5F05A133D9_L0_001_1500_2000_1733991359675_37313375.jpg",
+    "https://aos-comment.amap.com/B0IK6MJ311/comment/9884a81a-d216-426a-b731-0eb93d288691.png",
+    "https://aos-comment.amap.com/B0IK6MJ311/comment/20260311-6343305e4b0403939e628a6d-6ZEnzVc1LXsAR1O5jTnd6M.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店外是灰砖墙，有监控和小阳台仙人掌，门上标营业时间8am-10pm。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后有磨豆机、手冲架、咖啡机等专业设备，员工在操作。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板列出Espresso、Americano、Cappuccino等基础饮品，无价格。",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有玻璃货架陈列咖啡豆、杯子、保温瓶等商品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有长条木桌，可坐多人，但照片中无人就座。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口是落地玻璃门，店内可见木质墙面和吧台，采光较好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "货架下层展示多款咖啡豆包装，标签可见产地信息。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:07:36Z"
+}

@@ -1,0 +1,65 @@
+{
+  "facts": [
+    {
+      "text": "Lyze Coffee位于北京西路555-1号，是一家韩式风格咖啡馆",
+      "kind": "space",
+      "quote": "I could sit in this Korean-style coffee shop all day!",
+      "url": "https://sa.trip.com/moments/detail/shanghai-2-146405932?locale=en-SA",
+      "site": "I could sit in this Korean-style coffee shop all day! | Trip.com Shanghai"
+    },
+    {
+      "text": "Lyze Coffee地址为北京西路555-1号，上海",
+      "kind": "space",
+      "quote": "Lyze Coffee No. 555-1, Beijing West Road, Shanghai.",
+      "url": "https://uk.trip.com/moments/theme/poi-beijing-west-road-10520111-food-993052/",
+      "site": "2026 Recommended Food in Beijing West Road (Updated August)"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "SeesawCoffee ",
+      "url": "https://www.linkedin.com/company/seesaw-coffee",
+      "site_name": "领英网"
+    },
+    {
+      "index": 2,
+      "title": "I could sit in this Korean-style coffee shop all day! | Trip.com Shanghai",
+      "url": "https://sa.trip.com/moments/detail/shanghai-2-146405932?locale=en-SA",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "2026 Recommended Food in Beijing West Road (Updated August)",
+      "url": "https://uk.trip.com/moments/theme/poi-beijing-west-road-10520111-food-993052/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "为什么说上海是亚洲咖啡文化的集大成者? ",
+      "url": "https://chihe.sohu.com/a/1072585862_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "Grab a coffee in the cutest coffee shop in Shanghai - Trip.com",
+      "url": "https://us.trip.com/moments/detail/shanghai-2-148050870/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Shanghai's best budget-friendly coffee shops",
+      "url": "https://www.meet-in-shanghai.net/en/guide/shanghais-best-budgetfriendly-coffee-shops-012986/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "Shengdong Novelty SPARIKE Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98CDC2DA6D7&address=Beijing+West+Road+No.1717-2+%28Jing%27ansi+Subway+Station+Entrance+%26+Exit+1+Pedestrian+350+Meters%29%2C+Jing%27an%2C+Shanghai+China&coordinate=31.225182%2C121.443610&name=Shengdong+Novelty+SPARIKE+Coffee&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:46Z",
+  "retriedEn": true
+}

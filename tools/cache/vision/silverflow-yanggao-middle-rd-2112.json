@@ -1,0 +1,71 @@
+{
+  "cafeId": "silverflow-yanggao-middle-rd-2112",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "34aa925c286f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/baf1ba7152c0bef5f12eb81ed3423403",
+    "https://aos-comment.amap.com/B0K264K0XG/comment/F08ACDFF_9948_403B_A7A1_DDC2C49F5E75_L0_001_2000_150_1761815352313_07543286.jpg",
+    "https://aos-comment.amap.com/B0K264K0XG/comment/09576096_197D_484E_8692_1493D96ED96F_L0_001_2000_150_1761815352313_86517862.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为独立门店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台和操作区，可见咖啡设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外设有几张木质桌椅供顾客使用",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "商场内部空间宽敞，有多家餐饮店并排",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店铺门口摆放促销广告牌，显示每日特惠信息",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有玻璃门和落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见店内有烘焙机、磨豆机等咖啡制作设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "店内有贝果陈列展示，确认提供贝果产品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:21:23Z"
+}

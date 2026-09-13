@@ -1,0 +1,70 @@
+{
+  "cafeId": "chengyukafei-chengtoukonggudasha",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "fa46806d5738",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好自然采光",
+        "en": "Large windows provide ample natural light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有吧台和桌椅座位",
+        "en": "Offers bar and table seating",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客在店内活动",
+        "en": "Customers are present inside",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于商场内，入口宽敞",
+        "en": "Spacious entrance inside a mall",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店门口设有立式菜单牌",
+        "en": "Standing menu board at entrance",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "有顾客但未显喧闹",
+        "en": "Some customers, not loud"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "有桌椅且有人久坐",
+        "en": "Seating available, people staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:55Z"
+}

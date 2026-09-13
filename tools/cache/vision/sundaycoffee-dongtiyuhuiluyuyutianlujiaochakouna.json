@@ -1,0 +1,71 @@
+{
+  "cafeId": "sundaycoffee-dongtiyuhuiluyuyutianlujiaochakouna",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "af5e886f3db4",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/60c82aa969c290190000003000848831?type=pic",
+    "https://store.is.autonavi.com/showpic/1101d4caeb351a950000002616520692?type=pic",
+    "https://store.is.autonavi.com/showpic/b5a1c67779a5d3150000003000844875?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有玻璃门和大窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有木质长椅供休息",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机等专业设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有展示柜陈列糕点，包括可颂和贝果类面包",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内挂有饮品宣传牌，可见‘榛果拿铁’‘燕麦拿铁’等选项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有工作人员正在制作饮品",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有标识显示为社区服务站点，兼营咖啡",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内空间较小，为典型街边小店布局",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:14:21Z"
+}

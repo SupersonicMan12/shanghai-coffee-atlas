@@ -1,0 +1,105 @@
+{
+  "facts": [
+    {
+      "text": "复古红丝绒卡座，环境安静，可悠闲坐一下午",
+      "kind": "space",
+      "quote": "复古的红丝绒卡座,环境安静,可以悠闲的坐一下午",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site": "大众点评网"
+    },
+    {
+      "text": "有插座，适合IT从业者和自由职业者办公",
+      "kind": "seating",
+      "quote": "因为网速特别快,座位上有插座,很适合开会",
+      "url": "https://news.qq.com/rain/a/20260720A09TO900",
+      "site": "QQ"
+    },
+    {
+      "text": "早上11点前点咖啡送现烤吐司",
+      "kind": "food",
+      "quote": "早上11点前点咖啡是送现烤吐司哒",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌甜点‘冰与火’含热丹麦面包配香草冰淇淋",
+      "kind": "food",
+      "quote": "招牌甜点“冰与火”将热乎乎的丹麦面包与冰凉的香草冰淇淋结合",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0OTAyMw==&mid=2651675617&idx=1&sn=1d533144d92da271dbb6f62b508d09c4&chksm=8abffdc5bce1b3d0a76a58d57447fbd234477f93344d62cdda79fe59241ca057265788e3f0f1&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "营业时间覆盖早7点至晚23点",
+      "kind": "time",
+      "quote": "komeda的营业时间从7点到23点,几乎覆盖了所有“醒着的时间”",
+      "url": "https://news.qq.com/rain/a/20260720A09TO900",
+      "site": "QQ"
+    },
+    {
+      "text": "装修复古温暖，属昭和风日式咖啡店",
+      "kind": "space",
+      "quote": "店里属于复古温暖型的装修",
+      "url": "https://www.dianping.com/discovery/1002072791",
+      "site": "大众点评网"
+    },
+    {
+      "text": "地址为伊犁南路566号，属上海分店",
+      "kind": "story",
+      "quote": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-112177583/",
+      "site": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "日本最赚钱的餐饮品牌,是一家你没听过的咖啡馆",
+      "url": "https://news.qq.com/rain/a/20260720A09TO900",
+      "site_name": "QQ"
+    },
+    {
+      "index": 2,
+      "title": "日本最老komeda咖啡（名古屋喫茶之旅 - Bilibili",
+      "url": "https://www.bilibili.com/video/BV1wgJW6pE9j/",
+      "site_name": "哔哩哔哩"
+    },
+    {
+      "index": 3,
+      "title": "日本这个赚钱的餐饮品牌，是你没听过的咖啡馆 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/62487",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 4,
+      "title": "古早日式咖啡屋 不允许错过的口美达 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/782361003",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海探店|口美达咖啡☕️",
+      "url": "https://www.dianping.com/discovery/1002072791",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "KOMEDA咖啡|虹桥/古北咖啡厅热门榜第一位 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/672359880",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "虹桥咖啡微旅行,出发!这个初夏,一起享受“啡”比寻常的松弛感 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NjM0OTAyMw==&mid=2651675617&idx=1&sn=1d533144d92da271dbb6f62b508d09c4&chksm=8abffdc5bce1b3d0a76a58d57447fbd234477f93344d62cdda79fe59241ca057265788e3f0f1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "KOMEDA's coffee口美達咖啡（伊犁南路店） - 上海 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-112177583/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:45:26Z"
+}

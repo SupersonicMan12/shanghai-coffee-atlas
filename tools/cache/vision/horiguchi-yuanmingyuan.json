@@ -1,0 +1,71 @@
+{
+  "cafeId": "horiguchi-yuanmingyuan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "30b76f46f01e",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/1cd7d65163241ad9c1a874879c644e54",
+    "https://aos-comment.amap.com/B0FFIB7X9Y/comment/51ed2852dea193295c5e005d5f8f7d44_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/61477b30cef2f7c3a8e122e3d7010354"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "吧台为深色石材台面，下方为红棕色木柜，后方有开放式木质置物架。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方黑色背板上有发光的'HORIGUCHI COFFEE'字样及H形logo。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "前景可见4张深绿色皮质高脚吧椅，另有多张木桌配黑椅的座位区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图中吧台左侧有玻璃冷藏展示柜，内有数个方形甜点（标签可见'Chocolate'等）。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图右侧为大面积木框格子窗，窗外可见绿树与户外遮阳伞。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图为临街砖墙店面，入口上方有黑色招牌'HORIGUCHI COFFEE'，门前有紫色遮阳伞。",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二张图吧台上可见手冲壶、滤杯支架及若干玻璃瓶装糖浆或风味液。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "第一张图吧台后方置物架上陈列多套白色陶瓷杯碟，无明显烘焙机或大型磨豆机。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:34Z"
+}

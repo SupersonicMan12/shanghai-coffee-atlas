@@ -1,0 +1,49 @@
+{
+  "cafeId": "maikafei-yuyuan1hao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "318c3c2a5222",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/12546f9b430838dd1c6ded93423be348"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于临街位置，有玻璃门和橱窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为麦当劳品牌，招牌上有麦咖啡标识",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口可见部分室内空间，有顾客在店内",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树木遮挡，环境靠近自然植被",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "建筑外观为传统风格，有装饰性边框",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:15:36Z"
+}

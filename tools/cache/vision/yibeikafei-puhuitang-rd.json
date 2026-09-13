@@ -1,0 +1,47 @@
+{
+  "cafeId": "yibeikafei-puhuitang-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5346e9acc432",
+  "photos": [
+    "https://aos-comment.amap.com/B0JR363LAH/comment/1FAF9FC6_820B_4522_862F_5C839D22F96D_L0_001_1284_92_1768376072318_45790671.jpg",
+    "https://store.is.autonavi.com/showpic/092b077455576e9e0000004955522607?type=pic",
+    "https://aos-comment.amap.com/B0JR363LAH/comment/3CF2E3C7_8699_45DC_8129_22CFFEC81500_L0_001_800_67_1768376072317_74494344.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面有大面积玻璃窗，可见街道和车辆",
+      "kind": "space|light|view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内展示咖啡拉花比赛冠军奖牌",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一杯带有叶子图案拉花的咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外摆放有绿植，环境有绿化",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:08Z"
+}

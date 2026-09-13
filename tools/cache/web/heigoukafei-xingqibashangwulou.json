@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "黑狗咖啡的店主是90后女孩，有治愈感的咖啡店",
+      "kind": "story",
+      "quote": "这家店的背后,是一位90后店主的日常选择",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656156037&idx=2&sn=306a7ef70c3ab7cb4ededd94d9192bc3&chksm=bcced10ab646358d3e9565509607431f0ab5a280b4cabe780317903792401bf10712245cc8fc&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "黑狗咖啡有特殊的店员——黑狗Vicky",
+      "kind": "people",
+      "quote": "这里有一位特殊的店员 — —“黑狗Vicky”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656156037&idx=2&sn=306a7ef70c3ab7cb4ededd94d9192bc3&chksm=bcced10ab646358d3e9565509607431f0ab5a280b4cabe780317903792401bf10712245cc8fc&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "黑狗咖啡位于古美路35号",
+      "kind": "space",
+      "quote": "在古美的一条街巷里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656156037&idx=2&sn=306a7ef70c3ab7cb4ededd94d9192bc3&chksm=bcced10ab646358d3e9565509607431f0ab5a280b4cabe780317903792401bf10712245cc8fc&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "黑狗咖啡提供多种咖啡品种，包括手冲和创意饮品",
+      "kind": "drinks",
+      "quote": "从经典手冲到天马行空的酒酿气泡美式",
+      "url": "https://www.shobserver.com/sgh/detail?id=4030133",
+      "site": "上观"
+    },
+    {
+      "text": "黑狗咖啡的环境具有松弛治愈的氛围",
+      "kind": "view",
+      "quote": "整个店都有一种松弛治愈的氛围",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656156037&idx=2&sn=306a7ef70c3ab7cb4ededd94d9192bc3&chksm=bcced10ab646358d3e9565509607431f0ab5a280b4cabe780317903792401bf10712245cc8fc&scene=27",
+      "site": "腾讯网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "“我不推荐年轻人开咖啡店”，闵行90后姑娘却开了间最治愈的“黑狗咖啡”",
+      "url": "https://www.shobserver.com/sgh/detail?id=4030133",
+      "site_name": "上观"
+    },
+    {
+      "index": 2,
+      "title": "上海美食节 | 咖啡还能玩出什么新花式?“中式”咖啡了解一下",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 3,
+      "title": "域见上海 悦享闵行|喝咖啡、撸狗,全都要!闵行这家小店,很多人冲着它来",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656156037&idx=2&sn=306a7ef70c3ab7cb4ededd94d9192bc3&chksm=bcced10ab646358d3e9565509607431f0ab5a280b4cabe780317903792401bf10712245cc8fc&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 6,
+      "title": "上海探店|黑白双色咖啡BLATAGE COFFEE☕ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/881282902",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "上海美食節｜在澡堂喝咖啡，不沖膠捲只沖咖啡的暗房……上海這些 ...",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/shanghai-food-festivala-darkroom-where-you-drink-coffee-in-a-bathhouse-and-only-make-coffee-without-film-these-new-and-interesting-coffee-shops-in-shanghai-are-waiting-for-you-to-challen-689257/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:27Z"
+}

@@ -1,0 +1,92 @@
+{
+  "facts": [
+    {
+      "text": "张爱玲主题咖啡馆，墙上挂有张爱玲人物画",
+      "kind": "space",
+      "quote": "L's BOOK CAFE & WINE（常德路店）是一家咖啡厅，为一家张爱玲主题咖啡馆",
+      "url": "https://baike.baidu.com/item/L's%20BOOK%20CAFE%20%26%20WINE%EF%BC%88%E5%B8%B8%E5%BE%B7%E8%B7%AF%E5%BA%97%EF%BC%89/14198321",
+      "site": "百度"
+    },
+    {
+      "text": "位于常德路195号（原爱林登公寓），1936年建成的 heritage 建筑",
+      "kind": "space",
+      "quote": "常德路195号（曾用名：爱林登公寓）...由赉安洋行设计，建于1936年",
+      "url": "https://baike.baidu.com/item/%E5%B8%B8%E5%BE%B7%E8%B7%AF195%E5%8F%B7/12588220",
+      "site": "百度"
+    },
+    {
+      "text": "地处静安区常德路195号，近南京西路与豫园路，距静安寺5分钟车程",
+      "kind": "view",
+      "quote": "195 Changde Lu, near Yuyuan Lu, Jing'an District District. 5 minutes from Jing'a",
+      "url": "https://www.smartshanghai.com/venue/6959/L%C3%A2%E2%82%AC%E2%84%A2s_Book_Caf%C3%83%C2%A9__Wine",
+      "site": "L's Book Café & Wine Shanghai - Cafes, Book Shops, Jing'an District"
+    },
+    {
+      "text": "并非张爱玲故居开放参观场所，但为其昔日住所楼下空间",
+      "kind": "space",
+      "quote": "The legendary residence at 195 Changde Road... isn't open for public tours",
+      "url": "https://us.trip.com/moments/detail/shanghai-2-147422606/",
+      "site": "Chilling at Zhang Ailing's Shanghai Hideout 🌧️ - Trip.com"
+    },
+    {
+      "text": "一楼咖啡馆+书店复合空间（千彩书坊咖啡馆）",
+      "kind": "space",
+      "quote": "Qiancai Bookstore is located on the ground floor of Changde Apartment, No. 195 C",
+      "url": "https://www.trip.com/travel-guide/attraction/shanghai/qiancai-bookstore-13698738/",
+      "site": "Qiancai Bookstore Tickets [2026] - Promos, Prices, Reviews ..."
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "常德路195号_百度百科",
+      "url": "https://baike.baidu.com/item/%E5%B8%B8%E5%BE%B7%E8%B7%AF195%E5%8F%B7/12588220",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "L's BOOK CAFE & WINE（常德路店） - 百度百科",
+      "url": "https://baike.baidu.com/item/L's%20BOOK%20CAFE%20%26%20WINE%EF%BC%88%E5%B8%B8%E5%BE%B7%E8%B7%AF%E5%BA%97%EF%BC%89/14198321",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "L's Book Café & Wine Shanghai - Cafes, Book Shops, Jing'an District",
+      "url": "https://www.smartshanghai.com/venue/6959/L%C3%A2%E2%82%AC%E2%84%A2s_Book_Caf%C3%83%C2%A9__Wine",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Chilling at Zhang Ailing's Shanghai Hideout 🌧️ - Trip.com",
+      "url": "https://us.trip.com/moments/detail/shanghai-2-147422606/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "漫步上海——&quot;张爱玲的&quot;咖啡馆 - 携程",
+      "url": "https://you.ctrip.com/travels/shanghai2/3951038.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "来常德公寓喝一杯咖啡与张爱玲作一次“小团圆” - 静安区",
+      "url": "https://www.jingan.gov.cn/rmtzx/003001/20190219/bd6bb6da-64a8-401c-aba2-df9de886ee6c.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "上海市静安区常德路195号 - 360地图",
+      "url": "https://m.map.360.cn/?t=map&src=bendibao&k=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%9D%99%E5%AE%89%E5%8C%BA%E5%B8%B8%E5%BE%B7%E8%B7%AF195%E5%8F%B7&city=",
+      "site_name": "360官网"
+    },
+    {
+      "index": 8,
+      "title": "Qiancai Bookstore Tickets [2026] - Promos, Prices, Reviews ...",
+      "url": "https://www.trip.com/travel-guide/attraction/shanghai/qiancai-bookstore-13698738/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:44Z",
+  "retriedEn": true
+}

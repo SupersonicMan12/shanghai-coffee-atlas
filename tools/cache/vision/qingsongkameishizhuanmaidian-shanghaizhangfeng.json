@@ -1,0 +1,59 @@
+{
+  "cafeId": "qingsongkameishizhuanmaidian-shanghaizhangfeng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e85c0241ce01",
+  "photos": [
+    "https://aos-comment.amap.com/B0LGSL915L/comment/77BAA408_F468_40D1_86A8_6D2FD7CE4528_L0_001_1500_200_1767024743822_77414244.jpg",
+    "https://aos-comment.amap.com/B0LGSL915L/comment/AD2FDC44_51E5_40AD_93D5_B5640F174F21_L0_001_1500_200_1767024743820_80031442.jpg",
+    "https://aos-comment.amap.com/B0LGSL915L/comment/990B1A15_1250_41C9_9F0D_BF669D94FAFF_L0_001_1500_200_1766482438789_35917507.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，为小型咖啡吧台店",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有磨豆机、咖啡机等专业设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见手冲器具与滤杯，支持手冲咖啡制作",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有员工在操作，店内有人工作",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "柜台上有扫码点单二维码，支持自助下单",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "货架上堆放大量纸杯和包装材料，准备充分",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:23:21Z"
+}

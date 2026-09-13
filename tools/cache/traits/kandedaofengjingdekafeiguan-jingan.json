@@ -1,0 +1,60 @@
+{
+  "cafeId": "kandedaofengjingdekafeiguan-jingan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ff3705f15717",
+  "raw": {
+    "headline": {
+      "zh": "临窗俯瞰金色塔楼",
+      "en": "Window seats overlook golden tower"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临窗可俯瞰城市与金色宝塔式建筑",
+        "en": "Window views of city and golden pagoda",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设木质桌椅、红色卡座及室外座位",
+        "en": "Wooden tables, red booths, and outdoor seating",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至凌晨2点",
+        "en": "Open daily until 2 a.m.",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐双人餐与下午茶",
+        "en": "Offers set meals and afternoon tea",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          6,
+          7
+        ],
+        "zh": "有卡座和室外位适合久坐",
+        "en": "Booths and outdoor seats invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:31Z"
+}

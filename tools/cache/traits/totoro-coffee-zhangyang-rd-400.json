@@ -1,0 +1,77 @@
+{
+  "cafeId": "totoro-coffee-zhangyang-rd-400",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3f39d8a895c4",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配室外座",
+      "en": "Street-facing glass with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内有两人位圆形小桌与黄色沙发椅",
+        "en": "Indoor two-seater round tables with yellow sofas",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供手冲咖啡及云南、南非红茶",
+        "en": "Offers pour-over coffee and Yunnan/South African tea",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应可颂、巧克力面包等烘焙点心",
+        "en": "Serves croissants and chocolate bread",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-18:00营业",
+        "en": "Open daily 08:00–18:00",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，设室外座位",
+        "en": "Full street-facing glass windows with outdoor seats",
+        "from": [
+          9,
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          5,
+          9
+        ],
+        "zh": "有舒适座位和室外区",
+        "en": "Comfortable seating and outdoor area"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "提供手冲与特色茶饮",
+        "en": "Pour-over and specialty teas available"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:05Z"
+}

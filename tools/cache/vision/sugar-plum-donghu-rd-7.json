@@ -1,0 +1,58 @@
+{
+  "cafeId": "sugar-plum-donghu-rd-7",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e22a4ba76e45",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/83c5117b41b3b9250000004945662914?type=pic",
+    "https://store.is.autonavi.com/showpic/eaf78d5347fa2b3e0000002093276091?type=pic",
+    "http://store.is.autonavi.com/showpic/2461d9bc696a6449495e801abfc28c2b"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面临街，有大玻璃窗和敞开的门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见吧台和几把高脚椅。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "大玻璃窗采光良好，能看到店内部分陈设。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一棵大树位于店面前，遮挡部分视线。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有吧台，后方货架上摆放着瓶装饮品。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口停放着一辆摩托车和一辆自行车。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:15Z"
+}

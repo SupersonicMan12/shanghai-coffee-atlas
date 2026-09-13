@@ -1,0 +1,90 @@
+{
+  "facts": [
+    {
+      "text": "提供瑰夏手冲，店主分享新到豆子",
+      "kind": "beans",
+      "quote": "店主很热情地分享了一支新到的豆子 蹭到了一杯瑰夏的手冲",
+      "url": "https://www.dianping.com/discovery/1296507260",
+      "site": "大众点评网"
+    },
+    {
+      "text": "菜单有意式咖啡和手冲，含贝果",
+      "kind": "drinks",
+      "quote": "虽然店面不大菜单倒不含糊 有意式也有手冲 让我意外的是居然还有我爱的贝果",
+      "url": "https://www.dianping.com/discovery/1296507260",
+      "site": "大众点评网"
+    },
+    {
+      "text": "天钥桥路店被多人推荐冰美式、Dirty、生椰拿铁等",
+      "kind": "drinks",
+      "quote": "冰美式. 冰拿铁. Dirty. 生椰拿铁. 冷萃. 澳白. 阿芙佳朵.",
+      "url": "http://m.dianping.com/shop/1199748891?msource=applemaps",
+      "site": "Ferns Cafe 梵思咖啡(天钥桥路店) - 大众点评"
+    },
+    {
+      "text": "永嘉路店位于衡山路/复兴西路区域",
+      "kind": "space",
+      "quote": "[Ferns Cafe 梵思咖啡(永嘉路店)]好不好，衡山路/复兴西路咖啡",
+      "url": "http://m.dianping.com/shop/1023208058407567?msource=applemaps",
+      "site": "【Ferns Cafe 梵思咖啡(永嘉路店)】电话_地址 - 大众点评"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海新店,就在路边,又是一家咖啡新店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1296507260",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "菜-圣塔维尼蜜处理手冲图片-上海 - 大众点评",
+      "url": "https://www.dianping.com/shop/l4Mul7Q8mYvw61BF/photos/tag-%E8%8F%9C-%E5%9C%A3%E5%A1%94%E7%BB%B4%E5%B0%BC%E8%9C%9C%E5%A4%84%E7%90%86%E6%89%8B%E5%86%B2",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Ferns Cafe 梵思咖啡(天钥桥路店) - 大众点评",
+      "url": "http://m.dianping.com/shop/1199748891?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "【Ferns Cafe 梵思咖啡(永嘉路店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/1023208058407567?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Ferns Cafe 梵思咖啡(天钥桥路店)-环境图片-上海-第19页 - 大众点评",
+      "url": "https://www.dianping.com/shop/l4Mul7Q8mYvw61BF/photos/tag-%E7%8E%AF%E5%A2%83?pg=19",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "咖啡精神的第一粒种子：把世界当故乡",
+      "url": "https://www.gafei.com/kafeibiji-8390",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 7,
+      "title": "验证码拦截",
+      "url": "https://yichang.1688.com/shop/www/jiage/-BFA7B7C8BDF8BFDABFA7B7C8B6B9.html",
+      "site_name": "阿里1688"
+    },
+    {
+      "index": 8,
+      "title": "创造咖啡",
+      "url": "https://chinese.alibaba.com/g/created-coffee.html",
+      "site_name": "阿里巴巴国际交易市场"
+    },
+    {
+      "index": 9,
+      "title": "推荐一款中度或深度烘焙尽量无酸的豆子吗 - 买得易",
+      "url": "https://www.maideyi.com/a103713",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:20Z"
+}

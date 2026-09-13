@@ -1,0 +1,91 @@
+{
+  "cafeId": "algebraist-shanghaizhongxintaifuguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "816daef04a30",
+  "raw": {
+    "headline": {
+      "zh": "招牌玫瑰布列夫售出超65万杯",
+      "en": "Best-seller rose boulevard sold over 650k cups"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品重瓣玫瑰布列夫2024年销量超65万杯",
+        "en": "Best-selling 'Heavy Petal Rose Boulevard' sold over 650k units in 2024",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用全球甄选咖啡豆，以数学方式演算制作方案",
+        "en": "Sourced beans globally and optimized brewing mathematically",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台前设高脚凳，座位数量级为few",
+        "en": "Few high stools at counter, standing-bar layout",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间覆盖午休高峰，11:00-14:00客流密集",
+        "en": "Open 7:00–20:30, busy during lunch break",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "外侧为落地玻璃窗，可看见街道",
+        "en": "Large floor-to-ceiling windows facing street",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "午休时段上班族多，适合快速取用",
+        "en": "Lunch crowd, quick grab-and-go"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          9
+        ],
+        "zh": "中午时段人流密集，略喧闹",
+        "en": "Lunchtime rush, moderately lively"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          2
+        ],
+        "zh": "站喝式布局，不适合久坐",
+        "en": "Standing bar, not meant for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "自研配方+数学化工艺，饮品有实验性",
+        "en": "Math-driven recipes, experimental profile"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:36Z"
+}

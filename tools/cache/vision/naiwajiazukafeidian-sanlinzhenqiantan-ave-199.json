@@ -1,0 +1,71 @@
+{
+  "cafeId": "naiwajiazukafeidian-sanlinzhenqiantan-ave-199",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9c1d749194c1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/50abf5e74f4883e00000004731086989?type=pic",
+    "https://aos-comment.amap.com/B0KAS9Q39H/comment/89CDC9E5_0875_47EA_BB5F_CEEF09420FCE_L0_001_1290_94_1767662695015_11184595.jpg",
+    "https://store.is.autonavi.com/showpic/50eb8bf7af4898910000004731116396?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "menu",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内位于商场内，有大面积落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域有咖啡机和饮品制作设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有美式、拿铁等饮品选项",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见部分饮品价格，如23元、25元等",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内设有商品展示架，售卖周边产品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有大型卡通形象装饰物置于吧台前",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内光线充足，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外可见城市建筑与绿植景观",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:22:03Z"
+}

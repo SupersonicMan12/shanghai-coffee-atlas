@@ -1,0 +1,71 @@
+{
+  "cafeId": "bitter-donkey",
+  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
+  "inputDigest": "4380777ca03d",
+  "photos": [
+    "https://aos-comment.amap.com/B0LDS7MOIP/comment/95E69F21_CFAB_40B9_B5A3_8E2015549694_L0_001_1500_2000_1750814956037_96624096.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769408131072_59111396_1769408278673_10932491.jpg",
+    "https://store.is.autonavi.com/showpic/4c06f665f345ee420000002432612149?type=pic"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店名“Bitter Donkey”以白色字母钉在灰白外墙上，旁有圆形暖光壁灯",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内有人穿着印有“Bitter Donkey”字样的浅色衬衫进行手冲咖啡",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "手冲设备包含带刻度的电子秤、黑色滤杯、白色细口壶，正在萃取咖啡",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上放有一张菜单卡，标题为“热带水果的秩序”，列有“ethiopian cold brew”等豆子与风味组合",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "食物为一块柠檬芝士蛋糕配干柠檬片，饮品为白色杯中加粉色半圆脆片的冷萃（标注为ethiopian cold brew）",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见其他顾客，无电脑使用者；未见烘焙机/虹吸/大型磨豆机等设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街小空间，玻璃门可映出街景路牌，推测为小店型，无室外座位可见",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内场景仅显示手冲操作台，无法判断整体座位数量与布局",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T16:40:23Z"
+}

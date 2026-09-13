@@ -1,0 +1,53 @@
+{
+  "cafeId": "ora-coffee-we-pubeiluyuqinzhoulujiaochakouxi120m",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "447acf091889",
+  "photos": [
+    "https://aos-comment.amap.com/B0L11XNLV3/comment/48421404_666B_4DE0_B6BE_ACC422031F63_L0_001_1501_200_1769752857354_76048043.jpg",
+    "https://store.is.autonavi.com/showpic/57529029e469ca700000003385356130?type=pic",
+    "https://aos-comment.amap.com/B0L11XNLV3/comment/00F61E73_1513_46C0_889D_2F89F70D5DC9_L0_001_1512_201_1769752857344_60342285.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为小型独立店，临街玻璃窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见木质柜台和少量座位。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "大落地窗提供采光，可见室外街道。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括抹茶拿铁等冷饮。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有书架和植物装饰。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:25:05Z"
+}

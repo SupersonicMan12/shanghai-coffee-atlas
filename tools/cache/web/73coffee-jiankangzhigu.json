@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "豆子自烘",
+      "kind": "beans",
+      "quote": "还会按季节上新当季特饮，手冲咖啡的味道很特别。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-26080264",
+      "site": "73coffee（創智天地店） (上海江灣/五角場商業區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "招牌饮品",
+      "kind": "drinks",
+      "quote": "这家店的咖啡饮品主打创意特调咖啡，饮品的命名也很新颖独特：海水也甜、椰青茴、醒醒、骑楼下的午后",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下"
+    },
+    {
+      "text": "空间与视野",
+      "kind": "space",
+      "quote": "店面不大但收拾得挺干净",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-26080264",
+      "site": "73coffee（創智天地店） (上海江灣/五角場商業區)－餐牌 - Trip.com"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "考验智商的咖啡馆 进门比划“石头、剪子、蜥蜴”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MjE3OTIzNw==&mid=2649908210&idx=4&sn=d2c530927ef3df7ddc8624055eb1d6e6&chksm=f3304ab8c447c3ae68ca79da27d3c62115c81f958280432ab0be8607db0d3978aaf9cc7f6f7c&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "营业到几点",
+      "kind": "time",
+      "quote": "店面不大但收拾得挺干净",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-26080264",
+      "site": "73coffee（創智天地店） (上海江灣/五角場商業區)－餐牌 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "73coffee（創智天地店） (上海江灣/五角場商業區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-26080264",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "MBTI遇上咖啡:南沙ISFJ小店,藏着冠军级手冲",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjMyNzgxNg==&mid=2650764198&idx=1&sn=6ac8e1acff767a4b38f12da5b428487d&chksm=bf2534f73bafe3297090df4acdf1c12292374555aaf8cc4ae62cc0c63732eeaeec3e2c3e90e4&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "上海美食节| 咖啡还能玩出什么新花式？“中式”咖啡了解一下",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--what-other-new-styles-can-coffee-play-650533/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【讲述创业】考智商、送手绘、文艺范、萌熊爪,这些咖啡馆的创业者不一般 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MjE3OTIzNw==&mid=2649908210&idx=4&sn=d2c530927ef3df7ddc8624055eb1d6e6&chksm=f3304ab8c447c3ae68ca79da27d3c62115c81f958280432ab0be8607db0d3978aaf9cc7f6f7c&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "上海16个区的咖啡，哪一杯最妖娆？哪一杯最奇幻？哪一杯最高智商 ...",
+      "url": "https://finance.sina.cn/2021-03-31/detail-ikmxzfmi9880331.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "精品咖啡空间设计初探 - 有方",
+      "url": "https://www.archiposition.com/items/20180525104904",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:15:29Z"
+}

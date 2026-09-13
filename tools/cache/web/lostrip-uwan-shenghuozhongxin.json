@@ -1,0 +1,85 @@
+{
+  "facts": [
+    {
+      "text": "店内提供自烘焙的咖啡豆，浅烘为主",
+      "kind": "beans",
+      "quote": "主打浅烘焙咖啡豆",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site": "中国政府网"
+    },
+    {
+      "text": "拥有宽敞明亮的空间与全景玻璃幕墙",
+      "kind": "story",
+      "quote": "這裡擁有視野超棒的全景玻璃幕牆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTI3MTE3OQ==&mid=2247537770&idx=6&sn=0632588a4b08d6ae9d902e5a25812f25&chksm=eb7f7cc4c18933e34f5084a21561ec383478ca50c92df56e219e0acd9eadcb6f6cc48da3a500&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "座位充足，并设有插座方便办公",
+      "kind": "seating",
+      "quote": "座位與插座設計方便顧客使用",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site": "搜狐"
+    },
+    {
+      "text": "适合安静办公或朋友小聚聊天",
+      "kind": "people",
+      "quote": "非常適合在北外灘逛累時來這裡歇歇腳",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site": "FoodTalks全球食品资讯网"
+    },
+    {
+      "text": "营业时间至晚上9点",
+      "kind": "time",
+      "quote": "營業時間至21:00",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-125145938?locale=zh-MY",
+      "site": "可以欣賞風景的咖啡館。｜Trip.com 上海"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "超高颜值咖啡店！这里不仅好喝、好吃，更好拍！ - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001015/20251116/1a9f51d6-4fd5-4945-bd9d-9b75a62720e0.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "这家村咖用南瓜、辣椒、洋葱当杯子?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTI3MTE3OQ==&mid=2247537770&idx=6&sn=0632588a4b08d6ae9d902e5a25812f25&chksm=eb7f7cc4c18933e34f5084a21561ec383478ca50c92df56e219e0acd9eadcb6f6cc48da3a500&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "上海的咖啡新店喝不完,真的喝不完……",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "独立咖啡馆，正悄然兴起（上）-FoodTalks全球食品资讯",
+      "url": "https://www.foodtalks.cn/news/44541",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 5,
+      "title": "可以欣賞風景的咖啡館。｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-125145938?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "在上海!這是咖啡館?一眼九寨溝! - Meet in Shanghai",
+      "url": "https://www.meet-in-shanghai.net/tc/news/in-shanghai-is-this-a-caf%C3%A9-a-glance-at-jiuzhaigou-734874/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T13:57:37Z"
+}

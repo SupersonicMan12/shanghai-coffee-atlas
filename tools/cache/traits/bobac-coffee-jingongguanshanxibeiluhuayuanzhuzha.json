@@ -1,0 +1,84 @@
+{
+  "cafeId": "bobac-coffee-jingongguanshanxibeiluhuayuanzhuzha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "b2d04dabf136",
+  "raw": {
+    "headline": {
+      "zh": "肉桂焦糖拿铁配椒盐饼干",
+      "en": "Cinnamon caramel latte with salted cookies"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "使用70%加纳原豆黑巧制作的性感肉桂焦糖拿铁",
+        "en": "Cinnamon caramel latte made with 70% Ghana origin dark chocolate",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供椒盐风味饼干搭配咖啡",
+        "en": "Served with salted flavor cookies for coffee",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "十几平米复古小空间，临街落地窗透阳光",
+        "en": "Small retro space with street-facing glass windows and sunlight",
+        "from": [
+          9,
+          5,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日 09:00-17:00 营业",
+        "en": "Open Tue–Sun 09:00–17:00",
+        "from": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "三拼中深烘豆子加入预调碱水焦糖牛奶",
+        "en": "Three-part medium-dark roast beans with pre-mixed alkaline caramel milk",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People working on laptops"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "面积小，适合短暂停留",
+        "en": "Small size, short stay"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "临街位置有外部人流",
+        "en": "Street-facing with outside foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:49Z"
+}

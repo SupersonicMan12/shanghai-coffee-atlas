@@ -1,0 +1,55 @@
+{
+ "cafeId": "m3-yongkang",
+ "model": "qwen-max",
+ "inputDigest": "8e5b6574c39b",
+ "raw": {
+  "headline": {
+   "zh": "现烘咖啡豆，50+款SOE豆子任选",
+   "en": "50+ SOE beans, freshly roasted"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "提供50+款SOE豆子，支持现烘",
+    "en": "50+ SOE beans, freshly roasted",
+    "from": 8
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌Dirty使用-83.9度c冰博客牛奶",
+    "en": "Signature Dirty with -83.9°C ice blog milk",
+    "from": 9
+   },
+   {
+    "kind": "food",
+    "zh": "三明治种类丰富，价格16-18元",
+    "en": "Various sandwiches, priced 16-18 RMB",
+    "from": 4
+   },
+   {
+    "kind": "space",
+    "zh": "紧凑的站立式吧台，空间有限",
+    "en": "Compact standing bar, limited space",
+    "from": 1,
+    "|": 15
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 20,
+    "from": 1,
+    "|": 15,
+    "zh": "站立式吧台，适合快速消费",
+    "en": "Standing bar, quick consumption"
+   },
+   "adventure": {
+    "value": 80,
+    "from": 7,
+    "|": 8,
+    "zh": "自烘豆子，多种烘焙程度",
+    "en": "Self-roasted beans, various roasts"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:09:46Z"
+}

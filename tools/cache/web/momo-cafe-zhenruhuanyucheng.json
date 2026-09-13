@@ -1,0 +1,72 @@
+{
+  "facts": [
+    {
+      "text": "MoMo Café 北海道汤咖喱(全国首店)，龙华/西岸西餐销量榜第7名",
+      "kind": "food",
+      "quote": "MoMo Café 北海道汤咖喱(全国首店) ★ ★ ★ ★ ★ 4.2 ¥105/人 龙华/西岸 西餐 龙华/西岸西餐销量榜 ·第7名",
+      "url": "https://m.dianping.com/shop/1522306618",
+      "site": "大众点评网"
+    },
+    {
+      "text": "人均消费约105元，提供商户优惠和商家团购套餐",
+      "kind": "story",
+      "quote": "MoMo Café 北海道汤咖喱(全国首店) ★ ★ ★ ★ ★ 4.2 ¥105/人 龙华/西岸 西餐 龙华/西岸西餐销量榜 ·第7名 1万+ 休息中 龙华街",
+      "url": "https://m.dianping.com/shop/1522306618",
+      "site": "大众点评网"
+    },
+    {
+      "text": "坚持精选北海道食材，加入新鲜蔬果，烹制清爽微辣的咖喱汤",
+      "kind": "food",
+      "quote": "坚持精选北海道食材,加入新鲜蔬果,烹制出清爽微辣的咖喱汤,并且因为对食材严格挑选,大可放心食用。",
+      "url": "https://you.ctrip.com/food/hokkaido296/4928309/s0-p1.html",
+      "site": "携程旅行网"
+    },
+    {
+      "text": "餐厅氛围雅致，深色木桌椅加柔和的灯光",
+      "kind": "space",
+      "quote": "餐厅氛围雅致,深色木桌椅加柔和的灯光,在绝妙的环境下品尝美味。",
+      "url": "https://you.ctrip.com/food/hokkaido296/4928309/s0-p1.html",
+      "site": "携程旅行网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "龙华/西岸西餐",
+      "url": "https://m.dianping.com/shop/1522306618",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "https://you.ctrip.com/food/hokkaido296/4928309/s0-p1.html",
+      "url": "https://you.ctrip.com/food/hokkaido296/4928309/s0-p1.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 3,
+      "title": "【MoMo Café 北海道汤咖喱(全国首店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1522306618?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "【MoMo Café 北海道汤咖喱(百联西郊店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1004131037?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "汤咖哩",
+      "url": "https://baike.baidu.com/item/汤咖哩/2225020",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "說到札幌受歡迎的在地美食，就是這裡。 7家推薦的「湯咖哩餐廳」",
+      "url": "https://zh-tw.hoshinoresorts.com/guide/area/hokkaidotohoku/hokkaido/sapporo-hokkaido/sapporo-curry/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:36Z"
+}

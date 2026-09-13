@@ -1,0 +1,71 @@
+{
+  "cafeId": "big-sur-coffee-mengzi-rd",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "00ecca2be72d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0767ff8e7ea93a4e0000000735632598?type=pic",
+    "https://aos-comment.amap.com/B0FFH3RX03/comment/20260312-57abed94aa6f466d55573a9d-5ZTAN8UfDOy9TwCymsRRsr.jpg",
+    "https://store.is.autonavi.com/showpic/ebc7b86dd887197d0000002350108810?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层铺面，外墙米色，招牌为黑色立体字‘BIG SUR COFFEE’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "入口为整面黑色边框玻璃门+橱窗，可见室内吧台与高脚凳",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "室内吧台前有3个木质高脚凳，吧台面为木纹+白色小方砖拼接",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后墙为浅木纹板，挂有电视屏、黑色帆布袋及菜单架",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "可见一台黑色咖啡机（带‘ditting’标识），吧台上有手冲滤杯支架与豆袋陈列",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持饮品为透明塑料杯装冰饮，杯身印黑熊logo及‘BIG SUR COFFEE’字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "店外左侧立牌显示‘Hair 侬好’营业时间10:00–20:00，地址为蒙自路220号（非丽园路）",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内右侧有悬挂鹿角蕨绿植，吧台角落放绿色小盆栽",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.96
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:44:46Z"
+}

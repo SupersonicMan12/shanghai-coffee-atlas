@@ -1,0 +1,58 @@
+{
+  "cafeId": "tims-shanghaiyaojizongbudatang",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "1b60eb7a5bc4",
+  "photos": [
+    "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
+    "https://store.is.autonavi.com/showpic/0e1984ae46922478adfabafd64d03d2e",
+    "https://store.is.autonavi.com/showpic/43a86cb7708e7a7a47324ce5553bd5d3"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店在大楼大堂内，空间开阔，非独立街铺",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有吧台和少量座位，顾客在点单",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有树木遮挡，非临街主干道",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见咖啡豆墙装饰，无专业冲煮器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "无可见顾客使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:08Z"
+}

@@ -1,0 +1,56 @@
+{
+  "cafeId": "wujiakafei-shanghaixinhu-qinglanguoji",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "8b29d0fe08ae",
+  "raw": {
+    "headline": {
+      "zh": "布丁专门店配奇亚籽咖啡",
+      "en": "Pudding shop with chia-seed coffee"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "专门提供布丁，可搭配饮品",
+        "en": "Specializes in pudding, pairs with drinks",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "饮品可免费添加奇亚籽",
+        "en": "Free chia seeds as drink topping",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "吧台式小店，无堂食座位",
+        "en": "Counter-only, no seating inside",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00–18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "无座位，不便久坐",
+        "en": "No seating, not for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:39:52Z"
+}

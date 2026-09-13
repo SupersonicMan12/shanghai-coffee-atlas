@@ -1,0 +1,76 @@
+{
+  "cafeId": "miiix-coffee-hongqiaoxuhui",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "0b2f5ca43966",
+  "raw": {
+    "headline": {
+      "zh": "开心果拿铁是招牌",
+      "en": "Pistachio latte is the highlight"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品是开心果拿铁",
+        "en": "Signature drink is pistachio latte",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店铺不大，适合小歇",
+        "en": "Compact space, good for a short break",
+        "from": [
+          5,
+          13
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内有桌椅，无室外座位",
+        "en": "Indoor tables only, no outdoor seating",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间06:00-18:30",
+        "en": "Open daily 6am–6:30pm",
+        "from": [
+          14
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "允许携带宠物",
+        "en": "Pet-friendly",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 30,
+        "from": [
+          5,
+          13
+        ],
+        "zh": "空间小，适合短暂停留",
+        "en": "Small space, brief stay"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          9,
+          11
+        ],
+        "zh": "提供特色开心果拿铁",
+        "en": "Offers unique pistachio latte"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:32:18Z"
+}

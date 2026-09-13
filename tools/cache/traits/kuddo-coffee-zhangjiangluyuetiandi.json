@@ -1,0 +1,78 @@
+{
+  "cafeId": "kuddo-coffee-zhangjiangluyuetiandi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e8f77622b462",
+  "raw": {
+    "headline": {
+      "zh": "带商品架的宽敞办公友好咖啡馆",
+      "en": "Spacious, work-friendly cafe with retail"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "有室内木质桌椅和室外长椅",
+        "en": "Indoor wooden tables and outdoor benches",
+        "from": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗采光良好",
+        "en": "Good natural light from floor-to-ceiling windows",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用笔记本电脑",
+        "en": "Customers work on laptops",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "店内设服装和商品陈列架",
+        "en": "Sells clothing and goods in-store",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日07:30-19:00，周末08:00-19:00",
+        "en": "Open 07:30–19:00 weekdays, 08:00–19:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          4,
+          8
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6,
+          7
+        ],
+        "zh": "室内外均有座位",
+        "en": "Seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:30Z"
+}

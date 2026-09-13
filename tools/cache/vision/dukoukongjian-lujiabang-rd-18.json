@@ -1,0 +1,71 @@
+{
+  "cafeId": "dukoukongjian-lujiabang-rd-18",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b89a3eb8599c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a159de0cf90b7e09bd8c14c88147febd",
+    "http://store.is.autonavi.com/showpic/c482801c8d421fee2c5d359d5a562b0a",
+    "https://store.is.autonavi.com/showpic/c8821cef164fd50afc8e1ec11ebc2332"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "建筑外立面有‘渡口空间’金色招牌，位于二层临街位置",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一层为大面积玻璃幕墙，可见内部有绿植、桌椅与黄色椅子",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧照片中可见‘BIKESOUL’白色大字贴于玻璃幕墙，入口处有人坐地休息",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "建筑含多层露台与金属栏杆，部分楼层装有外挂空调机",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街有低矮灌木绿化带与人行道，无明确室外座位",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图入口内可见一辆自行车与绿色椅子，未见吧台或专业咖啡设备",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张图右下角有一穿黑衣行人走过，无人在用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "三张图均未显示菜单、饮品、食物、烘焙机、手冲台、磨豆机或书架",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:11Z"
+}

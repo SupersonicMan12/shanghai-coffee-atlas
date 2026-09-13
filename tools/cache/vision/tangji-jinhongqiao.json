@@ -1,0 +1,71 @@
+{
+  "cafeId": "tangji-jinhongqiao",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a000299c6221",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/29e45c189ec223c00000002340686563?type=pic",
+    "https://aos-comment.amap.com/B0JUZS3BGA/comment/3ed41e7390a26808c7fb9ea131fdf7dc_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JUZS3BGA/comment/388d18de-ea9c-49f0-a831-de3d9ded26cc.png"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店位于商场内（金虹桥LG2），招牌悬挂于网格吊顶下，邻近其他餐饮铺位。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方墙上挂四只铜色透明咖啡豆储豆罐，下方为三块黑板菜单。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "黑板菜单列有热/冰手冲选项，含云南、巴西、埃塞、肯尼亚、牙买加等产地豆，标价如35/40元（热/冰）。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "菜单显示‘堂吉咖啡 Since 2000’，提供拿铁、摩卡、燕麦、低因、日式冰咖啡、牛奶奶油巧克力等饮品及价格。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.96
+    },
+    {
+      "text": "吧台区有白色开水机、Rancilio意式机、磨豆机、纸杯架、糖浆瓶与陶瓷杯具。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图为一杯拉花咖啡（心形+同心圆），盛于灰白陶瓷杯，置于木纹桌面。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台前陈列多款袋装咖啡豆（含金色包装），置于木质小盒中，附标签卡片。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.94
+    },
+    {
+      "text": "左侧冰箱贴有红色‘乌年大吉’‘新年快乐’春联式装饰，为2023兔年风格。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.92
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:05Z"
+}

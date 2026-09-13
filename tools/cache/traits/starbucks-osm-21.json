@@ -1,0 +1,52 @@
+{
+ "cafeId": "starbucks-osm-21",
+ "model": "qwen-max",
+ "inputDigest": "83b46228df78",
+ "raw": {
+  "headline": {
+   "zh": "提供特色城市限定饮品和人文咖啡",
+   "en": "Offers unique city drinks and cultural coffees"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "推出首款城市限定特饮‘上海咖啡’",
+    "en": "Introduces the first city-limited 'Shanghai Coffee'",
+    "from": 1
+   },
+   {
+    "kind": "beans",
+    "zh": "臻选门店提供具人文故事的小批量咖啡豆",
+    "en": "Reserve stores offer small-batch, story-rich beans",
+    "from": 2
+   },
+   {
+    "kind": "story",
+    "zh": "智慧湾科创园店由6个工业风集装箱构成",
+    "en": "Zhìhuì Bay store built from 6 industrial containers",
+    "from": 4
+   },
+   {
+    "kind": "drinks",
+    "zh": "外滩源酒坊主打Mixato融合概念",
+    "en": "Bund Source Bar focuses on Mixato fusion concept",
+    "from": 5
+   },
+   {
+    "kind": "people",
+    "zh": "黄浦绿地缤纷城店为手语门店，听障咖啡师制作咖啡",
+    "en": "Huangpu Green Land store is a sign language cafe",
+    "from": 7
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "提供多种独特饮品",
+    "en": "Unique drink offerings"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:13Z"
+}

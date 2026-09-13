@@ -1,0 +1,98 @@
+{
+  "facts": [
+    {
+      "text": "招牌饮品是舒芙蕾",
+      "kind": "food",
+      "quote": "这家咖啡店的舒芙蕾是招牌",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-143194860",
+      "site": "W Coffee SH(EKA天物店) (浦東金橋地區, 上海) – 菜單"
+    },
+    {
+      "text": "环境时尚雅致",
+      "kind": "space",
+      "quote": "餐厅位于EKA天物，环境时尚雅致",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-143194860",
+      "site": "W Coffee SH(EKA天物店) (浦東金橋地區, 上海) – 菜單"
+    },
+    {
+      "text": "适合享受下午茶",
+      "kind": "view",
+      "quote": "是個很適合享受下午茶的好地方",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-143194860",
+      "site": "W Coffee SH(EKA天物店) (浦東金橋地區, 上海) – 菜單"
+    },
+    {
+      "text": "周末客人较多，可能需要排队",
+      "kind": "people",
+      "quote": "周末客人較多，可能需要排隊等位",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-143194860",
+      "site": "W Coffee SH(EKA天物店) (浦東金橋地區, 上海) – 菜單"
+    },
+    {
+      "text": "提供现点现做的舒芙蕾",
+      "kind": "food",
+      "quote": "舒芙蕾一直也很出名，值得打卡下",
+      "url": "https://m.dianping.com/discovery/1936254460",
+      "site": "大众点评网"
+    },
+    {
+      "text": "室内室外都很棒",
+      "kind": "space",
+      "quote": "室内室外都很棒",
+      "url": "https://m.dianping.com/discovery/1936254460",
+      "site": "大众点评网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【W COFFEE】电话_地址_价格_营业时间_中山区咖啡团购 - [undefined] - 大众点评网",
+      "url": "https://m.dianping.com/shop/991740645",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "与众不同的咖啡馆_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5275699451527893.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "W COFFEE 💕💕咖啡必备",
+      "url": "https://www.dianping.com/discovery/729750717",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "W Coffee SH(EKA天物店) (浦東金橋地區, 上海) – 菜單",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-143194860",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "揭秘餐饮美食知名品牌Wcoffee咖啡究竟怎么样?快来一起看看吧!",
+      "url": "https://jiameng.baidu.com/m/investmentfee/detail/212951515416?from=search",
+      "site_name": "加盟星"
+    },
+    {
+      "index": 6,
+      "title": "在上海!这是咖啡馆?",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405219089819238538",
+      "site_name": "无"
+    },
+    {
+      "index": 7,
+      "title": "W coffee又出新品咖啡啦!",
+      "url": "https://m.dianping.com/discovery/1936254460",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "W Coffee SH (EKA Tianwu Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9680ACBE798&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:42Z"
+}

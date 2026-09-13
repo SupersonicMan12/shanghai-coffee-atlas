@@ -1,0 +1,56 @@
+{
+  "cafeId": "cafe-xingang-rd-225",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "f245f6360f6c",
+  "raw": {
+    "headline": {
+      "zh": "提供中西简餐的咖啡馆",
+      "en": "Serves Western & Chinese light meals"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "菜单含奶茶、咖啡及中西简餐",
+        "en": "Menu includes coffee, milk tea, and light meals",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐肠粉和牛肉",
+        "en": "Recommended dishes: rice noodle rolls and beef",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "靠墙卡座配玻璃桌，座位数量适中",
+        "en": "Wall booths with glass tables, moderate seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:30–22:00营业",
+        "en": "Open daily 10:30–22:00",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "有卡座适合久坐",
+        "en": "Booths suitable for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:35Z"
+}

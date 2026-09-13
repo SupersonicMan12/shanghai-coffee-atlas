@@ -1,0 +1,72 @@
+{
+  "cafeId": "nowwa-shanghaiyuanshentiyuzhongxin",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "11228222423b",
+  "raw": {
+    "headline": {
+      "zh": "站喝平价果咖",
+      "en": "Stand-up fruit coffee, ~$1"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为‘小马果咖’系列",
+        "en": "Signature drinks are ‘Xiao Ma Guo Ka’ series",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用耶加雪菲、危地马拉等阿拉比卡豆",
+        "en": "Uses Yirgacheffe, Guatemalan Arabica beans",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐生椰拿铁",
+        "en": "Recommended drink: coconut latte",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:30-17:00营业",
+        "en": "Open daily 08:30–17:00",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2019年6月由饿了么高管在上海创立",
+        "en": "Founded in Shanghai by Ele.me execs, June 2019",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "门店含‘店中店’站喝形态",
+        "en": "Includes standing ‘store-in-store’ format"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "果咖突破咖啡定义框架",
+        "en": "Fruit coffee redefines category"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:14Z"
+}

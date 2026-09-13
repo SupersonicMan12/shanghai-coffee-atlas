@@ -1,0 +1,71 @@
+{
+  "cafeId": "kasir-xinhualushangying",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "094d0d2aef93",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/a3440248f91c50f1113ffe0cbb2de950",
+    "http://store.is.autonavi.com/showpic/6b6259645a57ac5d4672c0fbc37a2db6",
+    "http://store.is.autonavi.com/showpic/e9e6f7a42ac6310505d233a2e06b289e"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店招为‘丙卡社 KASIR’，白底红蓝字，下方有红色斜条纹装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街木质吧台式小店，吧台后方有手写价目表：美式28、拿铁36、手冲咖啡36、澳白32、肉桂卷32、kale牛仔裤38",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域可见磨豆机、手冲壶架、玻璃杯架及绿植盆栽",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为木质结构，窗框黑色，室内挂有‘BEER’等英文装饰牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外地面铺石板，树影投射在墙面与地面，可见行人背影",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图右侧立牌含‘免’字及二维码，疑似外卖/防疫提示",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "第三张图窗下设两个藤编矮凳，无桌，属等候区或小坐区",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "三张图均未见电脑、烘焙机、虹吸壶、书架、宠物或明确食物实物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:13Z"
+}

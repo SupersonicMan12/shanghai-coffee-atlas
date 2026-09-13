@@ -1,0 +1,72 @@
+{
+  "cafeId": "damping-hecheng",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "78d51f98ad52",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1769096788798_98855365_1769096791836_29930665.jpg",
+    "https://store.is.autonavi.com/showpic/19bcdf63e38eeecc0000002463754944?type=pic",
+    "https://aos-comment.amap.com/B0K2A5Q3SR/comment/314010FF_AD3E_4F1F_A609_D3969B4BD84C_L0_001_1500_200_1764578696073_33172343.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "food",
+    "menu",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "有两杯拉花咖啡，其中一杯为心形拉花",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供一款长条形烤制糕点，表面有香肠和芝士",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示有美式、拿铁、Dirty、卡布奇诺等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上有茉莉烤奶、桂花拿铁、燕麦拿铁等特色饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供法式经典可颂、芝麻碱水结等面包",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有专业咖啡设备，包括意式咖啡机、磨豆机和冷饮机",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面临街，门口设有户外座位区，包含折叠椅和坐垫长凳",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植盆栽，室内可见木质桌椅和玻璃门窗",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:12:35Z"
+}

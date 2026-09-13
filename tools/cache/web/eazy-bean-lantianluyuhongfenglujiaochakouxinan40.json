@@ -1,0 +1,73 @@
+{
+  "facts": [
+    {
+      "text": "使用自家精选和烘焙的咖啡豆",
+      "kind": "beans",
+      "quote": "店裡的咖啡豆都是自家精選、自家烘焙的",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-134844984/",
+      "site": "EAZY BEAN Coffee Beer·Wine (上海浦東金橋地區)－餐牌、食評及資訊"
+    },
+    {
+      "text": "提供肯尼亚和哥伦比亚大肚脐手冲咖啡",
+      "kind": "drinks",
+      "quote": "尝试了肯尼亚和哥伦比亚大肚脐手冲",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95580DDB0F9&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "店内空间较小",
+      "kind": "space",
+      "quote": "室内空间确实蛮小",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95580DDB0F9&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "有猫咪可以撸",
+      "kind": "people",
+      "quote": "撸到了隔壁家的萨摩，也撸到了恶 本猫来福",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95580DDB0F9&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    {
+      "text": "位于红枫路与蓝天路交叉口",
+      "kind": "view",
+      "quote": "紅楓路108弄9號103A（紅楓路藍天路交叉口）",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-134844984",
+      "site": "EAZY BEAN Coffee Beer·Wine (浦東金橋地區, 上海) – 菜單 - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "EAZY BEAN Coffee Beer·Wine (上海浦東金橋地區)－餐牌、食評及資訊",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-134844984/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "EAZY BEAN in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95580DDB0F9&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "EAZY BEAN Coffee Beer·Wine (浦東金橋地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-134844984",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "EAZY BEAN Coffee Beer·Wine - Shanghai Restaurants - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/city-134844984/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【挂耳咖啡】浅烘埃塞俄比亚班其玛吉日晒瑰夏/富有蓝山/柑橘森林/黑巧蜜豆/肯尼亚日式深烘",
+      "url": "https://shop113627245.m.youzan.com/wscgoods/detail/2782dub8jlnb9un",
+      "site_name": "有赞-懂私域运营的服务商"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:17:29Z"
+}

@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "设有露天座位，支持Wi-Fi及停车服务",
+      "kind": "seating",
+      "quote": "该店设有露天座位,支持刷卡、Wi-Fi及停车服务",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "营业时间为每日9:00至22:00",
+      "kind": "time",
+      "quote": "营业时间为每日9:00至22:00",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "人均消费约34元，主打拿铁咖啡及芝士蛋糕等甜点",
+      "kind": "drinks",
+      "quote": "主打拿铁咖啡及柠檬芝士蛋糕、蓝莓芝士蛋糕等甜点",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    },
+    {
+      "text": "适宜情侣约会、朋友聚餐等休闲场景",
+      "kind": "people",
+      "quote": "适宜情侣约会、朋友聚餐等休闲场景",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site": "百度百科"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "九六广场",
+      "url": "https://baike.baidu.com/item/九六广场/133022",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "上海九六广场商业经营管理有限公司",
+      "url": "https://baike.baidu.com/item/上海九六广场商业经营管理有限公司/53542034",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "九六广场_百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA/133022",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "百度地图",
+      "url": "https://api.map.baidu.com/marker?location=31.233485,121.531321&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B7%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA&content=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E4%B8%9C%E6%96%B9%E8%B7%AF796%E5%8F%B7%E4%B9%9D%E5%85%AD%E5%B9%BF%E5%9C%BA&output=html",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "上海会館 96広場店 - 豫園 ユーユェン/中華料理 | 食べログ",
+      "url": "https://tabelog.com/china/A5102/A510202/51003405/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "巧克力小酒馆",
+      "url": "https://baike.baidu.com/item/巧克力小酒馆/14328976",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "宜芝多(96广场店)",
+      "url": "https://baike.baidu.com/item/宜芝多（96广场店）/15165366",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "COSTACOFFEE(96广场店)",
+      "url": "https://baike.baidu.com/item/COSTACOFFEE（96广场店）/15232941",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 9,
+      "title": "96广场美食【上海九六广场美食,餐厅预订7折起】订餐小秘书官网",
+      "url": "http://www.xiaomishu.com/shop/search-po107/",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "大茴香(96广场店)",
+      "url": "https://baike.baidu.com/item/大茴香（96广场店）/15188813",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:24Z",
+  "retriedEn": true
+}

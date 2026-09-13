@@ -1,0 +1,92 @@
+{
+  "cafeId": "blacksheep-espresso-jianguo-middle-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6bc3ff0eb623",
+  "raw": {
+    "headline": {
+      "zh": "自烘埃塞豆子",
+      "en": "House-roasted Ethiopian beans"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "自家烘焙，多款埃塞俄比亚单一产地豆",
+        "en": "House-roasted, multiple Ethiopian single-origin beans",
+        "from": [
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "日晒埃塞俄比亚豆制成的SOE奶咖风味突出",
+        "en": "SOE milk coffee with prominent natural-processed Ethiopian flavor",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "30平米街边小店，吧台与客座各占一半",
+        "en": "30㎡ street-side shop, bar and seating each half the space",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间8:00–16:00（高德）",
+        "en": "Open 8:00–16:00 (GaoDe)",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "主理人大学兼职爱上咖啡，跨专业投身行业",
+        "en": "Owner met coffee during college part-time work, switched careers",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "空间有限，适合短暂停留",
+        "en": "Limited space, short stay"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "街边小店，日常氛围",
+        "en": "Street-side shop, everyday vibe"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "吧台与座位均等，可久坐",
+        "en": "Balanced bar and seats, suitable for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          6
+        ],
+        "zh": "自烘+农场命名豆，风味独特",
+        "en": "House-roasted, farm-named beans, unique profile"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:19Z"
+}

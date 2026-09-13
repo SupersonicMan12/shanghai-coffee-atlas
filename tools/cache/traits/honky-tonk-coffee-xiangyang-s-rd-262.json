@@ -1,0 +1,79 @@
+{
+  "cafeId": "honky-tonk-coffee-xiangyang-s-rd-262",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "0b19821b5082",
+  "raw": {
+    "headline": {
+      "zh": "石库门里的特调咖啡",
+      "en": "Specialty drinks in Shikumen"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于石库门老建筑临街铺面",
+        "en": "In a Shikumen building with street frontage",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "人行道设小桌椅供外坐",
+        "en": "Sidewalk seating with small tables and chairs",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为虎斑橘与维也纳咖啡",
+        "en": "Signature drinks: Tiger Orange and Vienna coffee",
+        "from": [
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供TETERKI、TRIOON II等豆可选换",
+        "en": "Offers TETERKI, TRIOON II beans as upgrades",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间06:00-17:00，16:00停止点单",
+        "en": "Open 06:00–17:00, last order at 16:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          7
+        ],
+        "zh": "有外摆和室内桌可坐",
+        "en": "Has indoor and outdoor seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          6,
+          9,
+          10
+        ],
+        "zh": "多款特调与可换豆选项",
+        "en": "Multiple specials and bean options"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:47:09Z"
+}

@@ -1,0 +1,69 @@
+{
+  "cafeId": "miiix-coffee-shangpu-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "45106c5c1804",
+  "raw": {
+    "headline": {
+      "zh": "临街户外座配抹茶拿铁",
+      "en": "Street-side seats with matcha latte"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "临街设木质户外桌椅",
+        "en": "Wooden outdoor seating on the street",
+        "from": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供抹茶拿铁等多款咖啡",
+        "en": "Offers matcha latte and other coffee drinks",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至19:00",
+        "en": "Open daily until 19:00",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing glass windows",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "zh": "有户外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          5
+        ],
+        "zh": "户外有顾客使用手机",
+        "en": "Customers use phones outdoors"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:38Z"
+}

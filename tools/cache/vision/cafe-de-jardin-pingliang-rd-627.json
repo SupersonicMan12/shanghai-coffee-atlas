@@ -1,0 +1,60 @@
+{
+  "cafeId": "cafe-de-jardin-pingliang-rd-627",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5876c3ca7395",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/ea3b015546c431540000002255858444?type=pic",
+    "https://aos-comment.amap.com/B0FFM558PN/comment/25BAC8B6_6C8B_4175_8A40_9447FCB33560_L0_001_1536_204_1765077309146_26602146.jpg",
+    "https://store.is.autonavi.com/showpic/061831f849e74a5d0000003917560834?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为灰色外墙，有拱形门窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有蓝白花纹餐具和鲜花装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供迷你披萨、甜点和多种饮品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口悬挂花环，门上标有营业时间",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内可见绿植，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供柠檬水、抹茶甜品等",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:26:22Z"
+}

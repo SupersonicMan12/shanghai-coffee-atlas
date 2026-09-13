@@ -1,0 +1,69 @@
+{
+  "cafeId": "wuyukafeidian-yunnan-n-rd-18",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "b6c0af45e62d",
+  "raw": {
+    "headline": {
+      "zh": "蜜瓜红薯风味澳白",
+      "en": "Honeydew & sweet potato flat white"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "澳白有蜜瓜、红薯、坚果风味",
+        "en": "Flat white with honeydew, sweet potato, nut notes",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供意式拼配及多款SOE豆",
+        "en": "Offers espresso blends and multiple SOEs",
+        "from": [
+          5,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至17:30或19:00",
+        "en": "Open until 17:30 or 19:00",
+        "from": [
+          1,
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜为小面",
+        "en": "Recommended dish: Chongqing noodles",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 75,
+        "from": [
+          5,
+          9,
+          10
+        ],
+        "zh": "特殊风味拼配豆",
+        "en": "Unusual flavor profiles"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:46Z"
+}

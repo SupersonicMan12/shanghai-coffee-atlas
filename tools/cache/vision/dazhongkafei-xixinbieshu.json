@@ -1,0 +1,71 @@
+{
+  "cafeId": "dazhongkafei-xixinbieshu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f57da578a3d5",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFIRRT71/comment/1cbea06c7497f37ca88db23d4cec8aeb_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/c7bc1a29fda0ec56e2b3953f78a88e91",
+    "https://store.is.autonavi.com/showpic/20bf1b9fc1950fd80000001498052970?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "饮品有奶油和巧克力酱装饰",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有金属罐装咖啡豆出售",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示提供美式、拿铁、摩卡等咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有手写菜单，标注价格",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于临街位置，门面为玻璃窗结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外可见编号581的门牌",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃窗上贴有营业时间：早6点至晚6点",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口展示有二维码支付方式",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:57Z"
+}

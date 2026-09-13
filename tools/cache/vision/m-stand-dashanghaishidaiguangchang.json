@@ -1,0 +1,71 @@
+{
+  "cafeId": "m-stand-dashanghaishidaiguangchang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c1d2911fa780",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/8e5078ce8a3e35570000002743594972?type=pic",
+    "https://store.is.autonavi.com/showpic/7474995a81b126fb0000002743666083?type=pic",
+    "https://aos-comment.amap.com/B0K61ULTAC/comment/%5B2026-01-04-18-37-19%5D30586FC9-451B-463E-B037-E13EA96E800_1767523042540_99604276.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于商场临街一层，玻璃幕墙+黑色金属框架结构",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店招为黑色底白字'M Stand'标识，左侧有'百盛豪庭'招牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "人行道旁设不锈钢分类垃圾桶（干垃圾/可回收物）",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图显示四支冰棒类甜品，插在小杯中，含柠檬片、草莓块、猕猴桃籽等可见果料",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "冰棒为长方形块状，木棍手持，其中一支深褐色带红色果块，一支黄绿色带黑籽",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "店面无可见户外座位区，人行道为铺砖步行区，有绿化矮灌木",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见手冲台、磨豆机、虹吸壶或烘焙设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中无人使用电脑，仅一位戴口罩行人路过",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:47Z"
+}

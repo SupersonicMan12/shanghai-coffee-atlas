@@ -1,0 +1,84 @@
+{
+  "facts": [
+    {
+      "text": "营业时间08:00-17:00",
+      "kind": "time",
+      "quote": "营业时间:08:00-17:00",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247983854&idx=1&sn=011fdfb6b74d63b06a0a34efb8e9c86f&chksm=ea14a7955fb1c9c5a665853f9495ff022fbd018dc507209f35cb5e372520b6b67f65b9365a68&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "地址: 上海市普陀区云岭东路599弄20号101b",
+      "kind": "space",
+      "quote": "地址: 上海市普陀区云岭东路599弄20号101b",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247983854&idx=1&sn=011fdfb6b74d63b06a0a34efb8e9c86f&chksm=ea14a7955fb1c9c5a665853f9495ff022fbd018dc507209f35cb5e372520b6b67f65b9365a68&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "定位为Coffee Brewers——“做咖啡的人”",
+      "kind": "story",
+      "quote": "Coffee Brewers——“做咖啡的人”是禾少咖啡给自己的定位",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247983854&idx=1&sn=011fdfb6b74d63b06a0a34efb8e9c86f&chksm=ea14a7955fb1c9c5a665853f9495ff022fbd018dc507209f35cb5e372520b6b67f65b9365a68&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "提供氮气咖啡，冷萃咖啡，以及其他类型的各种冲泡方式",
+      "kind": "drinks",
+      "quote": "专门提供特色咖啡和特别的冲泡方式，包括氮气咖啡，冷萃咖啡，以及其他类型的各种冲泡方式",
+      "url": "https://www.gooood.cn/the-second-coffee-brewers-shanghai-by-studio-doho.htm",
+      "site": "禾少咖啡，上海/ STUDIO DOHO | 谷德设计网- gooood"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "香浓又安逸~普陀15家小众优选咖啡馆,长风这里有3家→ ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247983854&idx=1&sn=011fdfb6b74d63b06a0a34efb8e9c86f&chksm=ea14a7955fb1c9c5a665853f9495ff022fbd018dc507209f35cb5e372520b6b67f65b9365a68&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "禾少咖啡，上海/ STUDIO DOHO | 谷德设计网- gooood",
+      "url": "https://www.gooood.cn/the-second-coffee-brewers-shanghai-by-studio-doho.htm",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
+      "url": "https://www.jfdaily.com.cn/news/detail?id=1111820",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡馆突破1万家,全球第一!一杯咖啡里到底有什么?",
+      "url": "https://www.jfdaily.com/staticsg/res/html/web/newsDetail.html?id=1111820",
+      "site_name": "解放网"
+    },
+    {
+      "index": 6,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "上海真的不缺有意思的地方!这届年轻人爱上弄堂咖啡馆→",
+      "url": "https://www.shyouth.net/web/1/shouye/qingchunshanghai/info-909dea062e4501e3b39bd0220a6352d9.html",
+      "site_name": "上海共青团工作门户网站"
+    },
+    {
+      "index": 8,
+      "title": "20年“咖龄”爱好者测评精华!上海这20+家网红咖啡,我全部打卡一遍之后,给出94分:因为特别6～",
+      "url": "https://www.163.com/dy/article/K1FPROFQ05188NOL.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:25:24Z"
+}

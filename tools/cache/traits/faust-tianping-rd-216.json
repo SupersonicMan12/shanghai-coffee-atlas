@@ -1,0 +1,87 @@
+{
+  "cafeId": "faust-tianping-rd-216",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "7c619e5cd5fe",
+  "raw": {
+    "headline": {
+      "zh": "露营风小馆带艺术沙龙",
+      "en": "Artsy cafe with camping vibe"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设两个高脚凳，室内有露营风座椅",
+        "en": "Two outdoor stools; indoor camping-style seats",
+        "from": [
+          5,
+          7,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full glass facade, bright natural light",
+        "from": [
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供“阳康”主题特调及常规咖啡",
+        "en": "Offers 'Yangkang' special and standard coffee",
+        "from": [
+          4,
+          11,
+          16
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日8:00-18:00，周末9:00-18:00",
+        "en": "Open 8–18 weekdays, 9–18 weekends",
+        "from": [
+          14,
+          15
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "不定期举办艺术展览与诗歌沙龙",
+        "en": "Hosts art shows and poetry salons",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "适合一人办公学习",
+        "en": "Good for solo work"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "环境舒适可久坐",
+        "en": "Comfortable to stay awhile"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          4,
+          11
+        ],
+        "zh": "有创意特调饮品",
+        "en": "Creative signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:45:18Z"
+}

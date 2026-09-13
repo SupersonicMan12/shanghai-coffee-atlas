@@ -1,0 +1,111 @@
+{
+  "facts": [
+    {
+      "text": "主打意式和特调，没有手冲，招牌‘毒液’酒香味明显",
+      "kind": "drinks",
+      "quote": "主打意式和特调,没有手冲,第一次到店最推荐试试招牌“毒液”,酒香味很不错",
+      "url": "https://news.sohu.com/a/884366179_391486",
+      "site": "搜狐网"
+    },
+    {
+      "text": "深烘冷萃适合炎炎夏日，毒液为深度烘焙拼配",
+      "kind": "beans",
+      "quote": "它家的深烘冷萃我觉得还不错,非常适合炎炎夏日",
+      "url": "https://m.dianping.com/discovery/831062522",
+      "site": "大众点评网"
+    },
+    {
+      "text": "日式简约风格，原木色主调，沿街小巷，玻璃橱窗映老楼",
+      "kind": "space",
+      "quote": "日式简约风格的Marmalade...以原木色为主色调...马路对面砖红色的老楼,棱角分明地折射在印着咖啡店logo的玻璃橱窗上",
+      "url": "https://www.dianping.com/discovery/697852409",
+      "site": "大众点评网"
+    },
+    {
+      "text": "南阳路店藏在不起眼的小巷里，午间生意很好",
+      "kind": "space",
+      "quote": "这家风格偏日式简约的咖啡店藏在不起眼的小巷里",
+      "url": "https://www.dianping.com/discovery/697852409",
+      "site": "大众点评网"
+    },
+    {
+      "text": "橙香美式含新鲜果肉与橘酱，层次丰富",
+      "kind": "drinks",
+      "quote": "「橙香美式」微苦的美式咖啡里有了甜美的橙酱和新鲜的果肉后,瞬间美式的口感不辣么简单,层次更丰富了",
+      "url": "https://www.dianping.com/discovery/705220218",
+      "site": "大众点评网"
+    },
+    {
+      "text": "招牌橘子果酱司康，搭配拿铁",
+      "kind": "food",
+      "quote": "又点了一杯经典拼配的拿铁,搭配招牌的橘子果酱司康",
+      "url": "https://www.dianping.com/discovery/697852409",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业时间07:30–20:00（前滩店），南阳路/北海路店未明确标出",
+      "kind": "time",
+      "quote": "营业时间:07:30-20:00",
+      "url": "https://news.sohu.com/a/884366179_391486",
+      "site": "搜狐网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "上海超级咖啡街区来了,在前滩! ",
+      "url": "https://news.sohu.com/a/884366179_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "100家魔都咖啡馆|甜香的橘子酱咖啡店Marmalade - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/697852409",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "复工咖啡唤醒记|Marmalade初体验[胜利]",
+      "url": "https://m.dianping.com/discovery/831062522",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "Marmalade（北海路店） (上海人民廣場地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-133711892/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海|Marmalade - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/759224013",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "日式简约风格的Marmalade - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/705220218",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "拿铁+买咖啡豆一个是美ye推荐的  Marmalade - 新浪",
+      "url": "https://www.sina.cn/news/detail/5173473834172674.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 8,
+      "title": "Marmalade Coffee Shop",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g504091-d13120458-Reviews-Marmalade_Coffee_Shop-Wantage_Vale_of_White_Horse_Oxfordshire_England.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 9,
+      "title": "上海咖啡探店Vlog！梅开二度！Marmalade的毒液拼配喝后分享！",
+      "url": "https://www.bilibili.com/video/BV1K94y1f7hZ/",
+      "site_name": "哔哩哔哩"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:42:39Z"
+}

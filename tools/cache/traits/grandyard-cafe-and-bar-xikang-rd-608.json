@@ -1,0 +1,83 @@
+{
+  "cafeId": "grandyard-cafe-and-bar-xikang-rd-608",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f4a3b6a366ca",
+  "raw": {
+    "headline": {
+      "zh": "巴拿马瑰夏手冲配台球",
+      "en": "Panama Geisha pour-over with pool"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "手冲多用巴拿马瑰夏豆",
+        "en": "Pour-overs mostly use Panama Geisha beans",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "澳白奶泡丝滑甜感明显",
+        "en": "Flat white has silky, noticeably sweet foam",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供意大利面、比萨、汉堡等餐点",
+        "en": "Serves pasta, pizza, burgers and more",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设台球桌及二楼啤酒乒乓球",
+        "en": "Has pool table and beer pong upstairs",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日15:00开门，周末11:00",
+        "en": "Opens 15:00 weekdays, 11:00 weekends",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 70,
+        "from": [
+          2,
+          10
+        ],
+        "zh": "有电视、台球和游戏",
+        "en": "TV, pool, and games"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          10
+        ],
+        "zh": "有室外座位和游戏设施",
+        "en": "Outdoor seating and games"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          6,
+          8
+        ],
+        "zh": "常换单品豆，主打瑰夏",
+        "en": "Rotating single origins, Geisha focus"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:22Z"
+}

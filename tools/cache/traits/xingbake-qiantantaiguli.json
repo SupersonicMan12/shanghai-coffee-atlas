@@ -1,0 +1,92 @@
+{
+  "cafeId": "xingbake-qiantantaiguli",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "779ce2295022",
+  "raw": {
+    "headline": {
+      "zh": "城市限定咖啡首发地",
+      "en": "Home of Shanghai's first city-exclusive coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "推出上海限定特饮‘上海咖啡’，融合麦乳精与司考奇",
+        "en": "Serves Shanghai-exclusive 'Shanghai Coffee' with malted milk and cappuccino",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "space|seating",
+        "zh": "门店外设户外座位区，可作室外休息使用",
+        "en": "Features outdoor seating area for al fresco relaxation",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "light|view",
+        "zh": "大面积落地玻璃窗设计，采光充足",
+        "en": "Large floor-to-ceiling glass windows for abundant natural light",
+        "from": [
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "臻选小批量咖啡豆，提供丰富冲煮工艺",
+        "en": "Offers small-batch beans with diverse brewing methods",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 06:30-22:00",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          14
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "位于商场广场，人流适中",
+        "en": "Located in a mall plaza, moderate foot traffic"
+      },
+      "linger": {
+        "value": 65,
+        "from": [
+          4,
+          6
+        ],
+        "zh": "有户外座位，适合久坐",
+        "en": "Outdoor seating encourages lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "城市限定饮品，配方独特",
+        "en": "Unique city-exclusive drink recipe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:16Z"
+}

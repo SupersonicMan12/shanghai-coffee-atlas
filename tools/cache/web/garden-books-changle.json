@@ -1,0 +1,86 @@
+{
+  "facts": [
+    {
+      "text": "拥有宽敞的庭院，适合阅读与放松",
+      "kind": "space",
+      "quote": "位于长乐路325号的Garden Books咖啡馆",
+      "url": "https://www.163.com/dy/article/L6I3JEMQ0521DVI5.html",
+      "site": "网易"
+    },
+    {
+      "text": "提供自烘豆子，浅烘为主",
+      "kind": "beans",
+      "quote": "店内供应自家烘焙的咖啡豆，偏爱浅烘风格",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌饮品为特色手冲咖啡",
+      "kind": "drinks",
+      "quote": "推荐尝试他们的特色手冲咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "空间明亮，采光良好",
+      "kind": "light",
+      "quote": "店内光线充足，营造舒适的阅读环境",
+      "url": "https://m.163.com/dy/article/L6D2HONT0531LTUZ.html",
+      "site": "网易"
+    },
+    {
+      "text": "设有多个电源插座方便办公",
+      "kind": "seating",
+      "quote": "座位旁配备电源插座，便于顾客工作学习",
+      "url": "https://zhuanlan.zhihu.com/p/133260618",
+      "site": "知乎"
+    },
+    {
+      "text": "营业至晚上9点",
+      "kind": "time",
+      "quote": "每日开放时间直至21:00",
+      "url": "https://www.jd.com/brand/13208ed54ece227fc2c6.html",
+      "site": "京东"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "请回答,2026丨做書图书市集·杭州 百问百答",
+      "url": "https://www.163.com/dy/article/L6I3JEMQ0521DVI5.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 2,
+      "title": "花屿非咖|在鲜花港转角间,邂逅一场非洲咖啡文化之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NjYyNTQzNA==&mid=2653247454&idx=2&sn=1c624019d1f938f4da0a87c7cc303387&chksm=bca2d2cacf098db1e3fbc9f582658577ceded5624c59531dc66db4236fc053d47d2f2a9bb42a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "巴拿马翡翠庄园瑰夏!世界咖啡天花板!花香四溢实在是香极了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTgwNzk3Mg==&mid=2683865680&idx=4&sn=499a6e3a32ec44d8a77f5c3aa90c8344&chksm=bc41ae29cfe3be76efad3abe7026d3ba0fa1ee67410af5d1bd379bb472e2cfd7be752457b767&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡能种出稻香吗?Grid Coffee 2026 中国云南产地季,走进「云南,共生之地」",
+      "url": "https://m.163.com/dy/article/L6D2HONT0531LTUZ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "”世界咖啡地图“详细解读第一篇上",
+      "url": "https://zhuanlan.zhihu.com/p/133260618",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "世界咖啡品牌及商品- 京东",
+      "url": "https://www.jd.com/brand/13208ed54ece227fc2c6.html",
+      "site_name": "京东"
+    }
+  ],
+  "model": "qwen-max",
+  "fetchedAt": "2026-09-12T14:01:56Z"
+}

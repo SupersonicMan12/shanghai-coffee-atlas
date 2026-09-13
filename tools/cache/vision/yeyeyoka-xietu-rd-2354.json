@@ -1,0 +1,59 @@
+{
+  "cafeId": "yeyeyoka-xietu-rd-2354",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f098befd379d",
+  "photos": [
+    "https://aos-comment.amap.com/B0I35ALGYL/comment/file_media_Photo_13315_IMG_1762482645_11087_IMG_20251107_102905_jpg_ss__1764572760519_80486601.jpg",
+    "https://aos-comment.amap.com/B0I35ALGYL/comment/file_media_Photo_13316_IMG_1762482785_11088_IMG_20251107_103125_jpg_ss__1764572760540_91003614.jpg",
+    "https://aos-comment.amap.com/B0I35ALGYL/comment/file_media_Photo_13317_IMG_1762482789_11089_IMG_20251107_103129_jpg_ss__1764572760529_36131991.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面有室外座位区，设有透明防雨罩。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示今日有黄油可颂、叉烧包等食品。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见一台红色磨豆机和咖啡制作设备。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为小型店铺类型，以吧台式操作区为主。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗，但窗外可见建筑而非景观。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "室内光线主要来自人工照明，无明显自然光。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:26:07Z"
+}

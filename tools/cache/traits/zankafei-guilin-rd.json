@@ -1,0 +1,78 @@
+{
+  "cafeId": "zankafei-guilin-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "565eb4ac9482",
+  "raw": {
+    "headline": {
+      "zh": "整面落地窗+绿树景观",
+      "en": "Floor-to-ceiling windows with tree views"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临街整面玻璃窗，窗外可见绿树",
+        "en": "Full-height street-facing glass windows with outdoor tree views",
+        "from": [
+          3,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积玻璃窗，采光良好",
+        "en": "Large glass windows provide ample natural light",
+        "from": [
+          3,
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "提供木质桌椅和格子沙发座位",
+        "en": "Wooden tables and checkered fabric sofas available",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐提拉米苏、薯条、鸡翅",
+        "en": "Gaode recommends tiramisu, french fries, and chicken wings",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至21:30",
+        "en": "Open daily until 9:30 PM",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          2,
+          4,
+          7
+        ],
+        "zh": "大空间+多种座位+绿植书架",
+        "en": "Spacious layout, varied seating, plants & books"
+      },
+      "focus": {
+        "value": 60,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "大空间木地板，有木质桌椅",
+        "en": "Spacious interior with wooden tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:43:10Z"
+}

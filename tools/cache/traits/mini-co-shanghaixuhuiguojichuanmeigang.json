@@ -1,0 +1,59 @@
+{
+  "cafeId": "mini-co-shanghaixuhuiguojichuanmeigang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "19a9536f8f2d",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗+室外座位",
+      "en": "Street-facing floor-to-ceiling windows & outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室外设6-8张白色桌椅",
+        "en": "6–8 white tables and chairs outdoors",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full street-facing glass windows with good natural light",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐小确杏美式、美式",
+        "en": "GaoDe-recommended drinks: Xiao Que Xing Americano and Americano",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日8:00-18:00营业",
+        "en": "Open daily 8:00–18:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "有固定室外座位",
+        "en": "Fixed outdoor seating"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:25Z"
+}

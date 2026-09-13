@@ -1,0 +1,82 @@
+{
+  "cafeId": "compass-coffee-xiaoqumenkoudiyijia",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "d94b4333a9e7",
+  "raw": {
+    "headline": {
+      "zh": "分层冷萃配橙片",
+      "en": "Layered cold brew with orange slice"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为分层冷萃咖啡，配橙片和冰块",
+        "en": "Signature drink is layered cold brew with orange slice and ice",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街整面玻璃窗，可见店内景象",
+        "en": "Full-height street-facing glass window with interior view",
+        "from": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "提供少量木质桌椅和折叠椅",
+        "en": "Limited seating with wooden tables and folding chairs",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲台等专业咖啡器具",
+        "en": "Professional brewing equipment including pour-over station",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五 08:00-18:00，周末 09:00-18:00",
+        "en": "Open Mon–Fri 8am–6pm, Sat–Sun 9am–6pm",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          6
+        ],
+        "zh": "座位少且非固定办公配置",
+        "en": "Limited seating, not office-optimized"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "有少量座位但未见长时停留迹象",
+        "en": "Some seating, no evidence of extended stays"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "提供分层冷萃及手冲器具",
+        "en": "Layered cold brew and pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:41Z"
+}

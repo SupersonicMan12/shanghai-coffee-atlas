@@ -1,0 +1,61 @@
+{
+  "cafeId": "deck-coffee-taproom-jingansi",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "6ecbae732af8",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供木质砧板装的西式烤肋排、鸡翅",
+        "en": "Serves Western-style ribs and wings on wooden boards",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "特调咖啡由世界冠军Boram制作",
+        "en": "Signature coffee crafted by world champion Boram",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "Deck Blend黑咖啡温润，酸度适中",
+        "en": "Deck Blend black coffee is smooth with balanced acidity",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "奶咖醇厚香甜",
+        "en": "Milk-based coffee is rich and sweet",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨1点",
+        "en": "Open until 1 a.m. daily",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          12
+        ],
+        "zh": "营业至凌晨1点",
+        "en": "Open late"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:36Z"
+}

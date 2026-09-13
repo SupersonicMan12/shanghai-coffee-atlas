@@ -1,0 +1,71 @@
+{
+  "cafeId": "pushing-coffee-maoming-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "de98eb24495b",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/de07fd4af82bca63887194fea8e2610c",
+    "http://store.is.autonavi.com/showpic/7bf53c9e97ba3cb7108b1f143958e70b",
+    "https://store.is.autonavi.com/showpic/979ea7d2b2b045c00000001611226400?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街老建筑底层，门头标有'PUSHING COFFEE'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有两辆共享单车停放",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺入口为玻璃双开门，门内可见楼梯通向二楼",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有一只狗坐在窗台边",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口上方悬挂圣诞老人装饰物",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客正在点单或取餐",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内设有服务窗口，可看到菜单板和饮品制作区域",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺编号为137，位于茂名南路",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:16:00Z"
+}

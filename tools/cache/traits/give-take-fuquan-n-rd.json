@@ -1,0 +1,39 @@
+{
+  "cafeId": "give-take-fuquan-n-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c7614bd0819a",
+  "raw": {
+    "headline": {
+      "zh": "100%回收建材环保店",
+      "en": "Built entirely from recycled materials"
+    },
+    "traits": [
+      {
+        "kind": "story",
+        "zh": "超80%员工为残障人士",
+        "en": "Over 80% of staff are disabled",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供特调饮品和赠品",
+        "en": "Offers special drinks and free gifts",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至周五8:00-16:30营业",
+        "en": "Open Mon–Fri, 8:00–16:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:32:06Z"
+}

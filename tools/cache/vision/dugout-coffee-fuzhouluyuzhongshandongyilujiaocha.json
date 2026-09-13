@@ -1,0 +1,71 @@
+{
+  "cafeId": "dugout-coffee-fuzhouluyuzhongshandongyilujiaocha",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "bcfc4a7cafc4",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/0fd9216bbc83165fbf6f88db412c704c",
+    "http://store.is.autonavi.com/showpic/f8df0f1698f84ec57daca7c1f3c4cb48",
+    "https://aos-comment.amap.com/B0HDLMVTDX/comment/8c7217f3a2ccc5c7dbb48ebb880f6558_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街单层建筑，外墙为浅色石砌，设两个拱形窗/门洞",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有白色金属框架桌椅，至少4张桌，位于台阶上方石基平台",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见三盏黑色吊灯、白色砖墙、带内嵌灯槽的异形壁龛置物架",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域有两台意式咖啡机、磨豆机、手冲壶架及透明收纳盒",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上有一盘厚松饼夹培根、顶煎蛋，淋酱汁；一盘宽面配刺山柑、芝麻菜、帕玛森碎",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "临街玻璃窗通透，可见室外街道与行道树，采光充足",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "遮阳篷印有店名及‘全天早午餐’中文字样",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片3中可见一人穿黄衣坐于桌旁，手部入镜，未见电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:00Z"
+}

@@ -1,0 +1,61 @@
+{
+  "cafeId": "redefine-fenghuangyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "105ed5f540f0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/776e15a9f67e4b8caf2bf7f5d49fe6b8"
+  ],
+  "photoKinds": [
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有吧台和高脚凳",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "空间为室内小店类型，面积较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "地面铺有几何图案地砖",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方可见植物和饮品陈列",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台区域有黑色背包放置",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内有金属框架高脚椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧有长凳式座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:23Z"
+}

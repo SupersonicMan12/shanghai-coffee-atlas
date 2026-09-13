@@ -1,0 +1,38 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "January Cafe_百度百科",
+      "url": "https://baike.baidu.com/item/January%20Cafe/14195460",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "Must-visit European-style architecture spots in January | Trip.com ...",
+      "url": "https://sa.trip.com/moments/detail/shanghai-2-141734532?locale=en-SA",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Upper House Shanghai in Shanghai | 2026 Updated prices, deals - Klook United States",
+      "url": "https://www.klook.com/en-US/hotels/detail/619085-upper-house-shanghai/",
+      "site_name": "客路旅行"
+    },
+    {
+      "index": 4,
+      "title": "魔都的新年从来不无聊,浪到飞起不是说着玩的!",
+      "url": "https://m.sohu.com/n/479685361/",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "Xiang Yue Chinese Restaurant (Hyatt Regency Shanghai Jiading)",
+      "url": "https://www.meet-in-shanghai.net/en/food/xiang-yue-chinese-restaurant-hyatt-regency-shanghai-jiading-589627/",
+      "site_name": "上海市文旅推广网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:58Z",
+  "retriedEn": true
+}

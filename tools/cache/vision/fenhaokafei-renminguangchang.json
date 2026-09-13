@@ -1,0 +1,66 @@
+{
+  "cafeId": "fenhaokafei-renminguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "641af9ecfb92",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/f71df9c45affd6550000003119104584?type=pic",
+    "https://aos-comment.amap.com/B0I3VOEJP3/comment/file_media_Photo_14274_IMG_1763627069_11926_IMG_20251120_162249_jpg_ss__1764215280744_88430616.jpg",
+    "https://aos-comment.amap.com/B0I3VOEJP3/comment/file_media_Photo_14277_IMG_1763627178_11929_IMG_20251120_162438_jpg_ss__1764215280542_58865605.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，门口有透明帘子和花卉装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台，有手冲咖啡器具和虹吸壶",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见绿豆冰拿铁、海盐荔枝黄杏冰滴等饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分饮品价格标注为25元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯套印有‘KEEP GOING’字样，杯中含吸管",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内天花板为红色，有悬挂装饰物",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有绿植和木质栏杆，饮品置于户外木桌上",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:15:31Z"
+}

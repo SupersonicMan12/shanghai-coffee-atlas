@@ -1,0 +1,71 @@
+{
+  "cafeId": "ushinecoffee-yongjia-rd-671",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b044d7bc874e",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1773017451945_68876851_1773017453875_40354998.jpg",
+    "https://store.is.autonavi.com/showpic/70b8f9d222745e46bf76933d68cc96a2",
+    "https://aos-comment.amap.com/B0JGA7E8BR/comment/4809a59f920fee8b41fe681716021dd5_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有手冲咖啡设备和虹吸壶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见专业咖啡器具如磨豆机、电热水壶",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街砖墙结构，有大玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和操作区，空间较紧凑",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗户上贴有'coffee'字样，显示为咖啡馆",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质置物架，摆放杯具和器皿",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有绿植装饰，窗边放置盆栽",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店名标识为'酉光咖啡工坊 / Ushine Coffee'",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:33Z"
+}

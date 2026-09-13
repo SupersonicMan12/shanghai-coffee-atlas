@@ -1,0 +1,28 @@
+{
+ "cafeId": "the-others-jingan",
+ "model": "qwen-max",
+ "inputDigest": "2a54180e6e56",
+ "raw": {
+  "headline": {
+   "zh": "与众不同的咖啡选择",
+   "en": "Unique coffee options"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供其他咖啡店没有的饮品",
+    "en": "Serves what others don't",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 1,
+    "zh": "提供独特的共发酵饮品",
+    "en": "Co-ferment drinks"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:04Z"
+}

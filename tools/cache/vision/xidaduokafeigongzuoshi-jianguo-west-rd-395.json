@@ -1,0 +1,59 @@
+{
+  "cafeId": "xidaduokafeigongzuoshi-jianguo-west-rd-395",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "dce8802188b0",
+  "photos": [
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48708_ss__1742346295932_71064215.jpg",
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48704_ss__1742346295920_95094715.jpg",
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48717_ss__1742346295932_06457003.jpg"
+  ],
+  "photoKinds": [
+    "other",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有三组KONO滤杯叠放，用于手冲咖啡制作。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡豆包装显示产地为哥伦比亚Huila和爪哇。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有梵高《卧室》复制品画作。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大型绿植叶片，空间有装饰性植物。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "背景有带玻璃门的深色展示柜，内有物品陈列。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域可见电子秤、量杯等专业冲煮器具。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:03:04Z"
+}

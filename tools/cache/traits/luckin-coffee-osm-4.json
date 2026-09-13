@@ -1,0 +1,65 @@
+{
+  "cafeId": "luckin-coffee-osm-4",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "a2be4a408032",
+  "raw": {
+    "headline": {
+      "zh": "快取站喝爆款咖啡",
+      "en": "Grab viral coffee to-go"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "每3-4天推一款新品，如生椰拿铁、酱香拿铁",
+        "en": "Launches a new drink every 3–4 days, e.g. coconut latte",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "全球核心产区直采，与巴西签五年超24万吨协议",
+        "en": "Direct-sources beans globally; 240k-ton Brazil deal",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "主力价格带12-15元，9.9元订单占比低于10%",
+        "en": "Main price range ¥12–15; under 10% orders at ¥9.9",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "90%以上为20-60㎡快取店，无或少量堂食",
+        "en": "Over 90% are 20–60㎡ pickup-only stores",
+        "from": [
+          4,
+          5
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          4
+        ],
+        "zh": "快取店为主，少堂食",
+        "en": "Pickup-focused, minimal seating"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "高频推出现象级新品",
+        "en": "Frequent viral new drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:14Z"
+}

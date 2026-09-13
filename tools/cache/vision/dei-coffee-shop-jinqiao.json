@@ -1,0 +1,71 @@
+{
+  "cafeId": "dei-coffee-shop-jinqiao",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2355022741c5",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/4090eb090278008b866a6e69c2002ad7",
+    "https://aos-comment.amap.com/B0LDKSMQND/comment/3270C10F_4483_4A78_858E_552C7417D764_L0_001_2000_1500_1757227984099_20936208.jpg",
+    "https://aos-comment.amap.com/B0LDKSMQND/comment/20260316-44bf88b809f57606fc1fc386-1TlXG0qN1Zu8lcYUCAnJk2.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小空间，入口有木门和玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有手冲咖啡器具、磨豆机和电热水壶等设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有员工在操作，可见咖啡制作流程",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质高脚凳，提供少量座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有落地窗，可看到街道和树木",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面为水泥质感，搭配木质置物架，风格简约工业",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多个手冲滤杯、玻璃壶和咖啡杯具",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有一只狗，店内有人活动",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:19:58Z"
+}

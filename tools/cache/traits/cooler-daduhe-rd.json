@@ -1,0 +1,76 @@
+{
+  "cafeId": "cooler-daduhe-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "255cd675db35",
+  "raw": {
+    "headline": {
+      "zh": "咖啡鸡尾酒三明治一体店",
+      "en": "Coffee, cocktails and sandwiches"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡与多种瓶装酒",
+        "en": "Serves iced coffee and bottled spirits",
+        "from": [
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌食物含三明治",
+        "en": "Sandwiches are a recommended dish",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至23:30",
+        "en": "Open daily until 23:30",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          8
+        ],
+        "zh": "有室外座位可久坐",
+        "en": "Outdoor seating invites lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          4,
+          6,
+          11
+        ],
+        "zh": "咖啡与鸡尾酒结合",
+        "en": "Coffee meets cocktails"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:47Z"
+}

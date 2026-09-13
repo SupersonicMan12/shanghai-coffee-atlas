@@ -1,0 +1,66 @@
+{
+  "cafeId": "cafe-di-wine-wukangdalou",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "cbee18c7ec64",
+  "raw": {
+    "headline": {
+      "zh": "酒咖融合，意面配花墙",
+      "en": "Wine-bar café with pasta and floral wall"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内约十组座位，含靠墙沙发与木质桌椅",
+        "en": "About ten indoor seats: wall sofa and wood tables",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗，入口有人造玫瑰花墙",
+        "en": "Full-height street-facing windows, artificial rose wall at entrance",
+        "from": [
+          4,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌蛋汁奶油培根意面，奶味浓郁口感饱满",
+        "en": "Signature creamy bacon pasta, rich and milky",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "高德推荐菜含沙拉与奶酪",
+        "en": "Recommended dishes: salad and cheese",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:30-22:00，2026年2-3月全天关闭",
+        "en": "Open 10:30–22:00; closed Feb–Mar 2026",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "有室内外座位可久坐",
+        "en": "Indoor/outdoor seating for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:44:12Z"
+}

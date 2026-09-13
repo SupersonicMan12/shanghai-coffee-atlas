@@ -1,0 +1,71 @@
+{
+  "cafeId": "manmaokafei-xianxia-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "719e0bdb685c",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFJMGQ6U/comment/02be750b6cfd295633a925dc1c036ac7_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/5d1742e552d04ee0c032b25158867092",
+    "http://store.is.autonavi.com/showpic/be8d1fb6caee90939f0893a30796b27f"
+  ],
+  "photoKinds": [
+    "food",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "有厚吐司配奶油和番茄，淋有焦糖酱",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质桌椅和砖墙装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有樱花树装饰和绿植墙",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域有展示柜和饮品制作设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有小型餐桌和椅子，适合两人座",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板悬挂灯光和装饰物，营造温馨氛围",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有菜单显示屏",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有猫主题装饰品",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:33Z"
+}

@@ -1,0 +1,74 @@
+{
+  "cafeId": "823coffee-hongqizhongxin",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "cd9b17df4bb5",
+  "raw": {
+    "headline": {
+      "zh": "自烘培训店，小程序点单",
+      "en": "Self-roasting cafe with training & app ordering"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "店内有咖啡烘焙机和磨豆机",
+        "en": "Has in-house roaster and grinders",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设吧台与少量黑色椅配白圆桌",
+        "en": "Bar seating with few black chairs and white tables",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供提拉米苏拿铁等特色饮品，18.8元起",
+        "en": "Serves Tiramisu latte from ¥18.8",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "2019年创立，专注精品咖啡培训",
+        "en": "Founded in 2019 for specialty coffee training",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间：周一至周五 08:30-17:30",
+        "en": "Open Mon–Fri 08:30–17:30",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1
+        ],
+        "zh": "有自烘设备支持特色豆",
+        "en": "In-house roasting enables unique beans"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          2,
+          3
+        ],
+        "zh": "座位少，空间紧凑",
+        "en": "Limited seating, compact space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:40:48Z"
+}

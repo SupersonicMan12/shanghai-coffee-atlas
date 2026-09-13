@@ -1,0 +1,71 @@
+{
+  "cafeId": "half-stage-tongyili",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "47bdd9aa11ff",
+  "photos": [
+    "https://aos-comment.amap.com/B0KKGA4MBP/comment/content_media_external_images_media_76836_ss__1735798901165_61814512.jpg",
+    "https://aos-comment.amap.com/B0KKGA4MBP/comment/content_media_external_images_media_76842_ss__1735798901164_94212658.jpg",
+    "https://aos-comment.amap.com/B0KKGA4MBP/comment/content_media_external_images_media_76783_ss__1735798901166_31747831.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "室内墙面为灰白几何折纸状立体瓷砖，悬挂红金星形与圆形装饰物。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台面摆放手冲咖啡器具：Hario滤杯、铜壶、玻璃分享壶、多瓶咖啡豆（透明罐装）。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见陶瓷杯、带花纹马克杯、白色方块糖包盒，无明确饮品或食物名称。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面为临街砖墙结构，设开放式服务窗口，外有两把导演椅+小圆桌。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "户外区域为天台/屋顶空间，砖墙标有‘1/2 STAGE’字样，布置模块化桌椅与储物箱式座位。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "户外背景可见高层建筑与施工吊车，非河景/树景，属城市密集区天台。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内未见书架、植物、宠物；无顾客或工作人员入镜；无人使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店名标识‘1/2 STAGE COFFEE’出现在店内砖墙及户外墙面，无菜单价格或豆子产地文字。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:39:12Z"
+}

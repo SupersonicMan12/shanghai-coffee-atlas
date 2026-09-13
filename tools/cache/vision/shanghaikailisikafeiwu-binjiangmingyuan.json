@@ -1,0 +1,65 @@
+{
+  "cafeId": "shanghaikailisikafeiwu-binjiangmingyuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f6c61649d4c8",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/5e986d65ec65e9f5d71e47301ec4ab76",
+    "https://store.is.autonavi.com/showpic/a8c77fc8ea8b06e10000003408592323?type=pic",
+    "http://store.is.autonavi.com/showpic/1416ec7ccbe70c9b8c24ba7869ad39fa"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品表面有拉花，写有LOVE字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间为木质桌椅和砖墙结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有木质餐桌和多把椅子，适合多人用餐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有装饰画和灯串，氛围偏复古",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上放置黑色烟灰缸，可能允许吸烟",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "饮品为琥珀色鸡尾酒类，含冰块与柠檬片",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯中插有两根黑色吸管",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:18Z"
+}

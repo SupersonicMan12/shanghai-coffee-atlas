@@ -1,0 +1,76 @@
+{
+  "cafeId": "j-create-xiehe-rd-99",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "fdaac5697e33",
+  "raw": {
+    "headline": {
+      "zh": "户外露营风咖啡",
+      "en": "Outdoor camping-style cafe"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "有室外座位区，背景为绿植",
+        "en": "Outdoor seating with greenery backdrop",
+        "from": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供炸鸡块、华夫薯条等小吃",
+        "en": "Serves fried chicken nuggets and waffle fries",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有柠檬气泡水类饮品，带花瓣装饰",
+        "en": "Offers lemon sparkling drinks with flower garnish",
+        "from": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:00-21:00",
+        "en": "Open daily 09:00–21:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐菜为抹茶蛋糕",
+        "en": "Recommended dish: matcha cake",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "适合久坐的户外空间",
+        "en": "Good for lingering outdoors"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6,
+          7
+        ],
+        "zh": "绿植环绕的半开放环境",
+        "en": "Semi-open green setting"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:41Z"
+}

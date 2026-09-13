@@ -1,0 +1,71 @@
+{
+  "cafeId": "book-a-coffee-nanhui-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ee1fba76c7bd",
+  "photos": [
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/b66a2131e0fbf5e82a7ccd962b7ff31a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/4784EFE6_785A_48B3_B228_D58041B60B71_L0_001_1500_200_1744999114634_09519577.jpg",
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/D1496340_0C23_47D3_B4CB_C6B2C9849224_L0_001_1512_2016_1744384453289_31002393.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门口有禁止停车锥桶，临街，上方有密集电线。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有落地玻璃窗，窗外可见树干和绿植。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放着一本赫尔曼·黑塞的《克林索尔的最后夏天》。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品为一杯拉花拿铁和一杯加冰的琥珀色饮料。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有藤编椅子、猫形抱枕，靠窗有小桌椅。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗边货架陈列咖啡豆袋和印有猫图案的抱枕。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无可见烘焙机或手冲台等专业咖啡器具。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见顾客使用笔记本电脑。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:08:05Z"
+}

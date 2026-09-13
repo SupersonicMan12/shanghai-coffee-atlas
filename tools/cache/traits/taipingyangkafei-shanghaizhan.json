@@ -1,0 +1,93 @@
+{
+  "cafeId": "taipingyangkafei-shanghaizhan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8de5eb2ba6cd",
+  "raw": {
+    "headline": {
+      "zh": "含酒特调咖啡",
+      "en": "Alcoholic signature drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供含玫瑰汾酒的橙风酣梦美式等特调饮品",
+        "en": "Serves alcoholic signature drinks like Orange Dream Martini with rose huangjiu",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "冷藏柜内有三明治、瓶装水、果汁及燕麦奶等即食食品",
+        "en": "Offers sandwiches, bottled water, juice, and oat milk in refrigerated cabinets",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设多个桌椅座位，可容纳顾客用餐或休息",
+        "en": "Features multiple tables and chairs for seating and dining",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃窗，采光良好",
+        "en": "Full-length street-facing glass windows with good natural light",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 06:00–21:00",
+        "en": "Open daily 06:00–21:00",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有座位可办公",
+        "en": "Seating available for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "顾客坐用，略喧闹",
+        "en": "Slightly bustling with seated customers"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有座位适合久坐",
+        "en": "Suitable for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          8
+        ],
+        "zh": "含酒精特调饮品",
+        "en": "Alcoholic specialty drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:28Z"
+}

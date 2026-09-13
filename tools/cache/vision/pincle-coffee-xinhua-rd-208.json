@@ -1,0 +1,71 @@
+{
+  "cafeId": "pincle-coffee-xinhua-rd-208",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "a84fb0b51fb6",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/5c6a483e0dc87ea40000002307288135?type=pic",
+    "https://store.is.autonavi.com/showpic/91a82eb0433e656b0000002435914720?type=pic",
+    "https://store.is.autonavi.com/showpic/bc6b7dd1aed343d70000002934582070?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "玻璃杯装拿铁，表面有心形与叶形拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "杯垫为黄色圆形，印有黑色'PINCLE'字样",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店面外墙为浅灰混凝土板拼接，黑色金属框架窗与门",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "店外立牌写'PREMIUM COFFEE SINCE 2018 PINCLE Founded by WCRC CHAMPION'",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "临街设长条窗，窗下有矮台面，可作吧台座；另有一张小木桌配凳",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口上方与墙面嵌入式灯箱均标'PINCLE'，夜间亮起",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "透过窗户可见室内有木质墙面、风扇、蓝色金属架及咖啡设备轮廓",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外人行道铺灰色地砖，上方有茂密悬铃木枝叶覆盖",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:42:24Z"
+}

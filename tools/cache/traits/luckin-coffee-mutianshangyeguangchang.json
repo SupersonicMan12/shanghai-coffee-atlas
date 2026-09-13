@@ -1,0 +1,66 @@
+{
+  "cafeId": "luckin-coffee-mutianshangyeguangchang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "3f977ee81273",
+  "raw": {
+    "headline": {
+      "zh": "临街落地窗站喝快咖",
+      "en": "Street-view standing bar"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，通透采光",
+        "en": "Full-height street-facing windows",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含生椰拿铁、酱香拿铁",
+        "en": "Signature drinks include coconut and baijiu lattes",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00–22:00营业",
+        "en": "Open daily 10am–10pm",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "主力饮品12–15元",
+        "en": "Main drinks priced ¥12–15",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5,
+          6
+        ],
+        "zh": "快取站喝模式",
+        "en": "Grab-and-go format"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "常推创新饮品",
+        "en": "Frequent novel drink launches"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:06Z"
+}

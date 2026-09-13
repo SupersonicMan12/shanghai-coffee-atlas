@@ -1,0 +1,70 @@
+{
+  "cafeId": "la-parisienne-bund",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "0ae82b807b83",
+  "raw": {
+    "headline": {
+      "zh": "河景法式千层酥",
+      "en": "Riverfront millefeuille"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "面向黄浦江，可看船运景观",
+        "en": "Faces the river, with barge traffic views",
+        "from": [
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌千层酥，口感酥脆",
+        "en": "Signature millefeuille with crisp texture",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于BFC外滩金融中心南区1楼",
+        "en": "Located on 1st floor, South District, BFC",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "位置在商场内，非专注空间",
+        "en": "In mall, not focused space"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "滨江位置带来人流与动静",
+        "en": "Riverside location brings foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "商场内面包店，适合短暂停留",
+        "en": "Mall bakery, brief stay typical"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:32Z"
+}

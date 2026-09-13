@@ -1,0 +1,71 @@
+{
+  "cafeId": "longteacoffee-hechuanluyupingjilujiaochakounan18",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0dff780b0fab",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6db57101fee7f2a503ebadd9647a085f",
+    "https://aos-comment.amap.com/B0L3MRN4Y4/comment/content_media_external_images_media_119315_ss__1766134826829_19827723.jpg",
+    "https://aos-comment.amap.com/B0L3MRN4Y4/comment/content_media_external_images_media_119309_ss__1766134826831_43430794.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质圆桌和皮质座椅，座位数量适中",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台区域，可见咖啡机与手冲设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜中有云南保山小粒咖啡豆及包装产品",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "陈列有民族服饰娃娃，体现地方文化特色",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植装饰，部分摆放在树桩花盆中",
+      "kind": "plants",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面有“古美茶咖学院”标识及茶园图片",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上放置红色党徽标志牌",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见磨豆机、电子秤等咖啡制作器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:18:02Z"
+}

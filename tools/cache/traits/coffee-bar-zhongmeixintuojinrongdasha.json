@@ -1,0 +1,66 @@
+{
+  "cafeId": "coffee-bar-zhongmeixintuojinrongdasha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "9ffcc7b47491",
+  "raw": {
+    "headline": {
+      "zh": "可做香囊的手作咖啡馆",
+      "en": "Make sachets while sipping coffee"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "多人围坐圆桌进行手工活动",
+        "en": "Groups gather around round tables for crafts",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供‘柏源生咖·荔枝白茶’冰饮",
+        "en": "Serves 'Lizhi White Tea' cold brew",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应淡紫夹层蛋糕配蓝莓奶油",
+        "en": "Offers layered cake with blueberry cream",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "平日09:00-22:00，周末10:00-23:00",
+        "en": "Open 09–22 weekdays, 10–23 weekends",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4
+        ],
+        "zh": "支持多人久坐手作",
+        "en": "Encourages lingering for group crafts"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "饮品含荔枝白茶特调",
+        "en": "Features unique tea-coffee blend"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:38Z"
+}

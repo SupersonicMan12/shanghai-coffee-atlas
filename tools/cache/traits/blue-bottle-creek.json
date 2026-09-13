@@ -1,0 +1,92 @@
+{
+  "cafeId": "blue-bottle-creek",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "2cf62a7f5924",
+  "raw": {
+    "headline": {
+      "zh": "上海首店老洋楼",
+      "en": "Shanghai's first store in a historic mansion"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "位于苏州河畔1920年代砖厂房，独占整栋双层老建筑",
+        "en": "Housed in a 1920s brick warehouse on Suzhou Creek, occupying an entire two-story building",
+        "from": [
+          10,
+          11,
+          14
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含海耶斯谷(浓缩)、贝拉多曼等经典拼配",
+        "en": "Features signature blends like Hayes Valley (espresso), Bella Dom, Legend Rhythm, and Three Non-variants",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供‘裕通小食’——上海老字号传统点心",
+        "en": "Offers 'Riverside Snacks' — traditional Shanghai local pastries",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只售卖烘焙后不超过48小时的咖啡豆",
+        "en": "Sells only coffee roasted within the last 48 hours",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间每日08:00至19:00",
+        "en": "Open daily 08:00–19:00",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          15
+        ],
+        "zh": "可手冲单杯，适合专注",
+        "en": "Single-origin drip by the water invites focus"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          10,
+          14
+        ],
+        "zh": "老建筑闹中取静，不喧哗",
+        "en": "Quiet yet central, in a historic setting"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          11,
+          15
+        ],
+        "zh": "老洋楼空间舒适，适合久坐",
+        "en": "Comfortable space in a historic building encourages lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          9
+        ],
+        "zh": "拼配为主，非极端实验",
+        "en": "Mainly classic blends, not experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:15Z"
+}

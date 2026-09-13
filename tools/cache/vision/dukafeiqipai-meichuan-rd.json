@@ -1,0 +1,65 @@
+{
+  "cafeId": "dukafeiqipai-meichuan-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8d26051570ac",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/fed794c1ba9baf92c29b1d6c5f278779",
+    "http://store.is.autonavi.com/showpic/8e2823b658d9a6c4d5af514475a6f4d1",
+    "http://store.is.autonavi.com/showpic/f8b05d4ee3e583bb09d4955a4cee6c73"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面入口有玻璃门，内部可见红色地垫",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有麻将桌和四把椅子，适合多人娱乐",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大面积落地窗，窗外可见树木",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台区域，摆放绿植和橙子装饰",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有人在工作，环境整洁明亮",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内空间宽敞，有多个座位区",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙面挂有山水画，风格偏向中式现代",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:23:32Z"
+}

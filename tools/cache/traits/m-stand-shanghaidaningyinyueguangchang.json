@@ -1,0 +1,63 @@
+{
+  "cafeId": "m-stand-shanghaidaningyinyueguangchang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9be20d4f3155",
+  "raw": {
+    "headline": {
+      "zh": "外摆区可坐",
+      "en": "Outdoor seating available"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设桌椅与遮阳伞，可坐室外",
+        "en": "Outdoor tables and umbrellas available for sitting",
+        "from": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰咖啡，杯身有水珠",
+        "en": "Serves iced coffee with condensation on cup",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为每日06:30至21:00",
+        "en": "Open daily 06:30–21:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          2,
+          3,
+          6
+        ],
+        "zh": "有外摆座位适合久坐",
+        "en": "Outdoor seats encourage lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          7,
+          9
+        ],
+        "zh": "位于商场主入口，人流中等",
+        "en": "Located at main mall entrance, moderate foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:33Z"
+}

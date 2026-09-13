@@ -1,0 +1,49 @@
+{
+  "cafeId": "art-gallery-cafe",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "bcd48c3e49f8",
+  "raw": {
+    "headline": {
+      "zh": "静到能听见滤杯声",
+      "en": "Quiet enough to hear the dripper"
+    },
+    "traits": [
+      {
+        "kind": "sound",
+        "zh": "店内安静，适合专注阅读与工作",
+        "en": "Extremely quiet, ideal for focused reading and work",
+        "from": [
+          1,
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 90,
+        "from": [
+          1
+        ],
+        "zh": "有人专为阅读而来",
+        "en": "People come to read"
+      },
+      "energy": {
+        "value": 10,
+        "from": [
+          1
+        ],
+        "zh": "整条街最安静的角落",
+        "en": "Quietest spot on the map"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          1
+        ],
+        "zh": "来此可坐一整天",
+        "en": "Built for long stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:45Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "peet-s-coffee-longhuahui",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "90e9b49ab18c",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗配室外座",
+      "en": "Street-facing glass with outdoor seating"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外桌椅区域",
+        "en": "Outdoor seating available",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街整面玻璃窗，白天采光良好",
+        "en": "Full-height street-facing windows, bright by day",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌巨星澳白33元/杯，用创世巨星豆",
+        "en": "Signature Giant Flat White, 33 RMB, with Giant beans",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Only beans roasted within 21 days",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间07:30–21:00",
+        "en": "Open daily 7:30 AM – 9:00 PM",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          10
+        ],
+        "zh": "有室外座和宽敞堂食区",
+        "en": "Outdoor + spacious indoor seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          7,
+          8
+        ],
+        "zh": "自烘豆+明星特调",
+        "en": "In-house roast + signature drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:20Z"
+}

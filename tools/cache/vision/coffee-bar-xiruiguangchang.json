@@ -1,0 +1,73 @@
+{
+  "cafeId": "coffee-bar-xiruiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1429c1e77f18",
+  "photos": [
+    "https://aos-comment.amap.com/B0JAOUWP5W/comment/a060606deb8434618ae7983a63966476_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/26be2235c539241d8c7c56741802a07e",
+    "https://aos-comment.amap.com/B0JAOUWP5W/comment/199cce2ceda578a81a274c79eb394fe5_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店外有橙色拱形门设计，临街可见",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有落地窗，采光良好，窗外可见绿植",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供埃塞俄比亚花魁SOE咖啡豆",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括奶咖、黑咖和特调Tiramisu咖啡",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物包含薯条配香肠、意面及啤酒",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有木质桌椅，座位形式为单人椅与高脚凳",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上标注了咖啡种类与描述，未见价格",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有透明玻璃瓶插红玫瑰装饰",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:13:03Z"
+}

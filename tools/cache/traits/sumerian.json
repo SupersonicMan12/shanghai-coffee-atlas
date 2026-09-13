@@ -1,0 +1,64 @@
+{
+ "cafeId": "sumerian",
+ "model": "qwen-max",
+ "inputDigest": "db86426e7c11",
+ "raw": {
+  "headline": {
+   "zh": "回归纯粹，品味全球精选咖啡",
+   "en": "Pure coffee, global beans"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "10种来自世界各地的精品豆",
+    "en": "10 types of premium beans worldwide",
+    "from": 4
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供多种冲泡方式：冰滴、冷泡等",
+    "en": "Served in ice drip, cold brew, etc.",
+    "from": 5
+   },
+   {
+    "kind": "seating",
+    "zh": "临街吧台在暖天非常抢手",
+    "en": "Street bar seats highly sought after in warm weather",
+    "from": 3
+   },
+   {
+    "kind": "food",
+    "zh": "招牌食物：三文鱼贝果",
+    "en": "Signature food: salmon bagel",
+    "from": 7
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间每日7:30至19:30",
+    "en": "Open daily from 7:30 to 19:30",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 80,
+    "from": 9,
+    "zh": "热闹且适合早餐",
+    "en": "Lively, good for breakfast"
+   },
+   "linger": {
+    "value": 50,
+    "from": 2,
+    "zh": "有沙发区和烘豆室",
+    "en": "Sofa area and roasting room"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 4,
+    "zh": "罕见埃塞俄比亚豆",
+    "en": "Rare Ethiopian beans"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:13:35Z"
+}

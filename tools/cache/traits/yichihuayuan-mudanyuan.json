@@ -1,0 +1,82 @@
+{
+  "cafeId": "yichihuayuan-mudanyuan",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "946fd89cfc5a",
+  "raw": {
+    "headline": {
+      "zh": "融合茶咖的庭院空间",
+      "en": "Tea-infused coffee in a garden setting"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用碧螺春、西湖龙井等茶咖豆",
+        "en": "Uses tea-based coffee beans like Biluochun and Longjing",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供含苹果片、肉桂棒的热饮",
+        "en": "Serves spiced hot drinks with apple slices and cinnamon sticks",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "设有绿植造景与户外露营区的超千平大店",
+        "en": "Features greenery and outdoor camping area in a 1000+ sqm space",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "配备圆形木桌与椅子，提供固定座位",
+        "en": "Offers fixed wooden tables and chairs for seating",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 10:00-21:00，全天候运营",
+        "en": "Open 10:00–21:00, operating all day",
+        "from": [
+          14
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 80,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "空间大适合久坐",
+        "en": "Large space encourages lingering"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          12
+        ],
+        "zh": "庭院与露营区带来自然氛围",
+        "en": "Garden and camping area create ambient energy"
+      },
+      "adventure": {
+        "value": 75,
+        "from": [
+          10,
+          3
+        ],
+        "zh": "茶咖与香料饮品具实验性",
+        "en": "Tea-coffee and spiced drinks are experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:10Z"
+}

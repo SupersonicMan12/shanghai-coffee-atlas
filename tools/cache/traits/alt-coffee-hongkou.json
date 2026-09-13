@@ -1,0 +1,95 @@
+{
+  "cafeId": "alt-coffee-hongkou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "07750a3ee3fd",
+  "raw": {
+    "headline": {
+      "zh": "主打松屋式手冲",
+      "en": "Specializes in Matsu-ya style pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans|drinks",
+        "zh": "使用全球多产地新鲜咖啡豆，只做手冲",
+        "en": "Fresh beans from global origins, only pour-over",
+        "from": [
+          9,
+          11
+        ]
+      },
+      {
+        "kind": "space|light|view|seating",
+        "zh": "临街落地窗，工业复古风，复式空间",
+        "en": "Floor-to-ceiling windows, industrial-retro, two-story space",
+        "from": [
+          6,
+          7,
+          11
+        ]
+      },
+      {
+        "kind": "beans|drinks",
+        "zh": "配备虹吸壶、手动磨豆机及多组手冲器具",
+        "en": "Equipped with syphon brewer, manual grinder, and multiple pour-over tools",
+        "from": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周日 10:00-18:00 营业",
+        "en": "Open Tue–Sun 10:00–18:00",
+        "from": [
+          15
+        ]
+      },
+      {
+        "kind": "beans|food",
+        "zh": "出售自家烘焙咖啡豆",
+        "en": "Sells house-roasted coffee beans",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          11
+        ],
+        "zh": "复式空间适合专注",
+        "en": "Two-story space for focus"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          13
+        ],
+        "zh": "本地人聚集，无排队",
+        "en": "Local crowd, no queue"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          11
+        ],
+        "zh": "熟客围坐，适合久坐",
+        "en": "Regulars gather, great for lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          10,
+          11
+        ],
+        "zh": "独特松屋式萃取法",
+        "en": "Unique Matsu-ya extraction method"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:39Z"
+}

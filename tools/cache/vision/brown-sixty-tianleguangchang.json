@@ -1,0 +1,71 @@
+{
+  "cafeId": "brown-sixty-tianleguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "19a1f6ebd240",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/53f8689b18061a132c3ce7ba77c8a5ee",
+    "https://aos-comment.amap.com/B0FFGSTWG1/comment/099eea6dce601660aa6a4c8d91517183_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFGSTWG1/comment/3058aad76c87c1212b8524cb6a1293b1_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店门口有玻璃门和红色遮阳棚，临街可见行人进出",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列多种糕点，包括巧克力蛋糕、水果塔、热十字面包等",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分甜点装在独立小盒中，摆放整齐",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内有标签标价，部分价格为60元",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客正在选购商品",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外侧有红色遮阳伞和石质花坛",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃橱窗内可见店内灯光与装饰植物",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有冷藏展示柜，用于陈列烘焙食品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:27Z"
+}

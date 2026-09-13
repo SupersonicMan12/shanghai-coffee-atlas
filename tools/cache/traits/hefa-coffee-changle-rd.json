@@ -1,0 +1,36 @@
+{
+  "cafeId": "hefa-coffee-changle-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c45555a3d7d9",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "临街店铺，有玻璃门入口",
+        "en": "Street-facing shop with glass door entrance",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "店外人行道可见行人经过",
+        "en": "Pedestrians pass by on the sidewalk outside",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐下午茶和咖啡",
+        "en": "Recommended for afternoon tea and coffee",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:36:27Z"
+}

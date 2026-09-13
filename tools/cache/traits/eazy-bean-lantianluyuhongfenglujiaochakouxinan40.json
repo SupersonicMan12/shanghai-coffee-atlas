@@ -1,0 +1,92 @@
+{
+  "cafeId": "eazy-bean-lantianluyuhongfenglujiaochakouxinan40",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6605b34d6c84",
+  "raw": {
+    "headline": {
+      "zh": "自烘手冲咖啡",
+      "en": "house-roasted pour-over"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用自家精选与烘焙的咖啡豆",
+        "en": "coffee beans are house-selected and house-roasted",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供肯尼亚与哥伦比亚大肚脐手冲咖啡",
+        "en": "offers Kenya and Colombia Dugutu pour-over",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "临街落地窗，采光良好，可望街道景象",
+        "en": "floor-to-ceiling windows with street views and good light",
+        "from": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "售卖表面撒有巧克力碎的粉色奶油贝果",
+        "en": "sells pink cream brioche with chocolate chips",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "店内有猫咪可互动",
+        "en": "has cats available for petting",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          10
+        ],
+        "zh": "空间小，不适合久坐办公",
+        "en": "small space, not ideal for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          12,
+          2
+        ],
+        "zh": "位于路口，人流车流可见",
+        "en": "at intersection, visible street activity"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          10
+        ],
+        "zh": "空间较小，适合短暂停留",
+        "en": "small space, short stays preferred"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          9,
+          14
+        ],
+        "zh": "手冲品类多样，含特殊发酵处理",
+        "en": "diverse pour-over options, including experimental fermentation"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:21Z"
+}

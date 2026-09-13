@@ -1,0 +1,62 @@
+{
+  "cafeId": "flower-coffee-bar-ruitaili",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f1eb60fb6f07",
+  "raw": {
+    "headline": {
+      "zh": "临河坐看陆家嘴天际线",
+      "en": "Riverside seats face Lujiazui skyline"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "户外座位正对东方明珠与陆家嘴天际线",
+        "en": "Outdoor seats face Oriental Pearl and Lujiazui skyline",
+        "from": [
+          3,
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "临河户外约十多张桌，配绿色软垫矮座",
+        "en": "About ten outdoor riverside tables with green cushioned stools",
+        "from": [
+          1,
+          6,
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "招牌为香脆可颂和柔软奶油蛋糕",
+        "en": "Signature items: flaky croissants and soft cream cakes",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨1点（部分日期调整）",
+        "en": "Open until 1am (varies by date)",
+        "from": [
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          1,
+          6,
+          10
+        ],
+        "zh": "临水户外座位适合久坐",
+        "en": "Riverside seating invites lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:36:47Z"
+}

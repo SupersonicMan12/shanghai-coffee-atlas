@@ -1,0 +1,38 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Graze Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/15229/graze_cafe_changle_lu",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Graze, No.626 Changle Road, Shanghai, CN - MapQuest",
+      "url": "https://www.mapquest.com/cn/graze-526355110",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Shanghai｜Changle Garden, find the French vibe here - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-121410374/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Kuoji Zaofang (Huashan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118806812022224&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "Shanghai Yibai Garden",
+      "url": "https://www.meet-in-shanghai.net/en/hotels/shanghai-yibai-garden-434776/",
+      "site_name": "上海市文旅推广网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:34Z",
+  "retriedEn": true
+}

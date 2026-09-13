@@ -1,0 +1,59 @@
+{
+  "cafeId": "wodekafei-shangkandasha",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8a5091634be2",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/766ef3697869121cb1848fdfaf04bd9b",
+    "http://store.is.autonavi.com/showpic/5a3df1b19ba0b3f0cb5a41c86f082673",
+    "http://store.is.autonavi.com/showpic/d39fdeb2f0b711f57e95ec639adc5bff"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内空间较大，有多个座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见多张木质桌椅，数量约5-8个",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "入口处为大面积玻璃门，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内摆放有绿植，增添氛围",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品杯身印有品牌Logo，为自制饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台区域，但无专业咖啡设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:46Z"
+}

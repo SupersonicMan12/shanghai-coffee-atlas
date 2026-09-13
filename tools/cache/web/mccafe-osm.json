@@ -1,0 +1,67 @@
+{
+  "facts": [
+    {
+      "text": "使用100%阿拉比卡咖啡豆",
+      "kind": "beans",
+      "quote": "咖啡坚持选用的100%阿拉比卡咖啡豆",
+      "url": "https://www.chinapp.com/pinpai/355219.html",
+      "site": "品牌网"
+    },
+    {
+      "text": "提供手工咖啡",
+      "kind": "drinks",
+      "quote": "麦咖啡(McCafé)是麦当劳旗下手工咖啡品牌",
+      "url": "https://www.mcdonalds.com.cn/know_your_coffee?extra_params=AAOMcwcNkNl6dD7lVt7QDulKkEiTcUvTM%252525252BWXnbQH5bNuaSCJo0O8I9c33yvgKhJzU4Q%252525253D",
+      "site": "麦当劳官网"
+    },
+    {
+      "text": "休息区宽敞，座位设计舒适",
+      "kind": "space",
+      "quote": "麦咖啡的休息区非常宽敞，座位都是以咖啡馆的风格进行设置",
+      "url": "http://www.why.com.cn/wx/article/2021/07/13/16261495701237819916.html",
+      "site": "青年报数字报"
+    },
+    {
+      "text": "适合办公或聊天",
+      "kind": "people",
+      "quote": "无论是门口简易的长条座椅，还是私密而又视野超棒的角落窗口位",
+      "url": "http://www.why.com.cn/wx/article/2021/07/13/16261495701237819916.html",
+      "site": "青年报数字报"
+    },
+    {
+      "text": "营业到晚上",
+      "kind": "time",
+      "quote": "未提及具体营业时间",
+      "url": "https://www.chinapp.com/pinpai/355219.html",
+      "site": "品牌网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "麦咖啡McCafe",
+      "url": "https://www.chinapp.com/pinpai/355219.html",
+      "site_name": "品牌网"
+    },
+    {
+      "index": 2,
+      "title": "麦当劳全新意式浓缩咖啡McCafe系列上市",
+      "url": "https://cno.gafei.com/views-109283",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 3,
+      "title": "C位亮相，织就一抹阳光色的梦想 - 青年报",
+      "url": "http://www.why.com.cn/wx/article/2021/07/13/16261495701237819916.html",
+      "site_name": "青年报数字报"
+    },
+    {
+      "index": 4,
+      "title": "了解麦咖啡 | 麦当劳官网",
+      "url": "https://www.mcdonalds.com.cn/know_your_coffee?extra_params=AAOMcwcNkNl6dD7lVt7QDulKkEiTcUvTM%252525252BWXnbQH5bNuaSCJo0O8I9c33yvgKhJzU4Q%252525253D",
+      "site_name": "麦当劳官网"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:16:35Z"
+}

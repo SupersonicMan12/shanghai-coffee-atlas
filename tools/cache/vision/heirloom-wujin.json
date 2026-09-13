@@ -1,0 +1,71 @@
+{
+  "cafeId": "heirloom-wujin",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "b13ac74b2ba9",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/6ec0b8ac32a1c30d0000000849366379?type=pic",
+    "https://aos-comment.amap.com/B0L6ALYJGU/comment/content_media_external_file_100001328_1768348132476_69373236.jpg",
+    "https://store.is.autonavi.com/showpic/0539fd166cfddc810000000966578613?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "透明杯装冰咖啡，杯身印'Heirloom 原咖 手制原味咖啡'及漏斗logo",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "白色纸杯同品牌logo，置于木质桌面上，背景虚化",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中冰咖啡杯配带饮嘴的透明盖，放于粉色蝴蝶结图案布垫上",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "店门口为红砖与青砖混砌外墙，拱形门洞，台阶三级，右侧有A字板菜单",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "门内可见浅色吧台、一台白色意式咖啡机，无手冲/虹吸/磨豆机清晰可见",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外左侧有折叠椅+小木凳，右侧立牌含饮品图，未见室外桌椅固定设置",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处挂壁灯一盏，门楣上方有遮阳棚，无落地窗或临街大玻璃",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "第三张图中未见顾客、电脑、书架、植物、宠物或菜单价格/豆种文字",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:49Z"
+}

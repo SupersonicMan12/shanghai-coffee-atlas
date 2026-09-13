@@ -1,0 +1,53 @@
+{
+  "cafeId": "akadama-coffee-bar-wuding-west-rd-1194",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "bb26f399ed51",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/91f7a4ea32fe7707316c3c7f4e0d1e84",
+    "https://store.is.autonavi.com/showpic/60af930df1e3e0420000003343436583",
+    "https://store.is.autonavi.com/showpic/b97b3007d863567b0000000964976616?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "临街有大玻璃窗，窗外可见马路和行道树。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗边设矮座垫与小木桌，为卡座式座位。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "甜品碗内有两球冰淇淋、焦糖酱和饼干碎。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无可见手冲台、磨豆机或烘焙设备。",
+      "kind": "roastingGear",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "窗边座位旁有小型书架和盆栽植物。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:32Z"
+}

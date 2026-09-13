@@ -1,0 +1,73 @@
+{
+  "cafeId": "baoluosikafei-yuedahuangpuhebindasha",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "13af8591b02a",
+  "raw": {
+    "headline": {
+      "zh": "深夜营业带露台",
+      "en": "Late-night café with a terrace"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有户外座位，含露台",
+        "en": "Outdoor seating available, including a terrace",
+        "from": [
+          1,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至次日凌晨1:30",
+        "en": "Open daily until 1:30 AM next day",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "宠物友善，欢迎带毛小孩",
+        "en": "Pet-friendly, welcomes furry companions",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐烤面包",
+        "en": "Recommended dish: toast",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          6
+        ],
+        "zh": "有户外座位适合久坐",
+        "en": "Outdoor seating encourages lingering"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "zh": "户外区有树与路灯",
+        "en": "Outdoor area with tree and lamp"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:38:36Z"
+}

@@ -1,0 +1,34 @@
+{
+ "cafeId": "radio-station-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "31f8ef425e75",
+ "raw": {
+  "headline": {
+   "zh": "在旧广播间里品尝特色意式咖啡",
+   "en": "Sip espresso in a vintage broadcast booth"
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "一楼有咖啡吧台和少量座位",
+    "en": "Ground floor with bar and limited seating",
+    "from": 8
+   },
+   {
+    "kind": "view",
+    "zh": "临街落地窗可看街景",
+    "en": "Street view from floor-to-ceiling windows",
+    "from": 6,
+    "): {": "value"
+   },
+   "linger"
+  ],
+  "adventure": {
+   "value": 40,
+   "from": 15,
+   "zh": "提供经典意式咖啡",
+   "en": "Offers classic espresso drinks"
+  }
+ },
+ "fetchedAt": "2026-09-12T14:20:23Z"
+}

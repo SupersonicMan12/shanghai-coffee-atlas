@@ -1,0 +1,34 @@
+{
+ "cafeId": "hexagon-urumqi",
+ "model": "qwen-max",
+ "inputDigest": "d93591c8c8b5",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品：Espresso tonic",
+    "en": "Signature drink: Espresso tonic",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 40,
+    "from": 1,
+    "zh": "白天咖啡馆，晚上酒馆",
+    "en": "Coffee by day, wine by night"
+   },
+   "linger": {
+    "value": 50,
+    "from": 1,
+    "zh": "日间可坐，夜间转为酒吧",
+    "en": "Daytime seating, turns into bar"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:14:40Z"
+}

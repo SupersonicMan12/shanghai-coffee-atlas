@@ -1,0 +1,92 @@
+{
+  "cafeId": "kudikafei-lingkongsoho18haolou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "15a9932b43f7",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃窗+亚洲风味果茶",
+      "en": "Street-facing glass & Asian-style fruit teas"
+    },
+    "traits": [
+      {
+        "kind": "light|view",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full street-facing glass, ample natural light",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含斑斓芒果椰子冰沙、苹果茉莉冰茶",
+        "en": "Signature drinks include Pandan Mango Coco Frappe and Apple Jasmine Iced Tea",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆，三年获IIAC金奖",
+        "en": "Uses 100% Arabica beans, IIIA gold winner for three years",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有杨枝甘露系列饮品，含红豆和芒果",
+        "en": "Offers Yangzhi Ganlu series with red bean and mango",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周五 07:30-20:00",
+        "en": "Open Mon–Fri 07:30–20:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          9
+        ],
+        "zh": "工作日营业到晚8点",
+        "en": "Closes at 8 PM on weekdays"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          2,
+          4
+        ],
+        "zh": "临街位置，人流可见",
+        "en": "On busy street, visible to passersby"
+      },
+      "linger": {
+        "value": 20,
+        "from": [
+          7
+        ],
+        "zh": "便捷店型，站喝为主",
+        "en": "Compact format, stand-up only"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          5,
+          3
+        ],
+        "zh": "亚洲风味果茶搭配丰富配料",
+        "en": "Unusual Asian-style fruit teas with layered ingredients"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:37Z"
+}

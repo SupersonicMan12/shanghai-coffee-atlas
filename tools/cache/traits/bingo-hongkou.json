@@ -1,0 +1,34 @@
+{
+ "cafeId": "bingo-hongkou",
+ "model": "qwen-max",
+ "inputDigest": "1a9e4a8cfed6",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "从咖啡到内格罗尼，日夜畅饮",
+    "en": "Coffee to negronis, all day long",
+    "from": 1
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 1,
+    "zh": "适合白天工作晚上社交",
+    "en": "Day work, night social"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "可以一整天待在这里",
+    "en": "Stay all day"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:42Z"
+}

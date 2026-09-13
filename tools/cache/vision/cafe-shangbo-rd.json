@@ -1,0 +1,37 @@
+{
+  "cafeId": "cafe-shangbo-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "dabc714f9507",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/3677a194eb2cfa45c75678b5e392b7ef"
+  ],
+  "photoKinds": [
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺招牌显示为「友趣 Cafe」",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于临街位置，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口挂有布帘，可能为入口处遮挡",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:05Z"
+}

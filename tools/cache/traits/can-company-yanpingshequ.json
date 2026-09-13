@@ -1,0 +1,65 @@
+{
+  "cafeId": "can-company-yanpingshequ",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "daf139e004ca",
+  "raw": {
+    "headline": {
+      "zh": "酒酿巧克力咖啡「软饭」",
+      "en": "Wine-fermented chocolate coffee 'Soft Rice'"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品「软饭」含热酒酿与巧克力香气",
+        "en": "Signature 'Soft Rice' features warm fermented glutinous rice and chocolate",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周二至周五 08:00 开始营业",
+        "en": "Opens at 08:00 Tue–Fri",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "吧台后陈列多罐装咖啡产品",
+        "en": "Multiple canned coffee products displayed behind counter",
+        "from": [
+          3
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "含酒酿的创意咖啡",
+        "en": "Fermented rice in coffee"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          5,
+          9
+        ],
+        "zh": "有室外座且空间有层次",
+        "en": "Outdoor seats and layered space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:10Z"
+}

@@ -1,0 +1,103 @@
+{
+  "facts": [
+    {
+      "text": "坚持只做堂食和到店自提，不提供外卖",
+      "kind": "time",
+      "quote": "所以他们坚持只做堂食和到店自提",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "选用同一支精品豆子，提供美式+拿铁combo一豆两喝",
+      "kind": "beans",
+      "quote": "选用同一支精品豆子,一次性奉上一小杯美式,搭配一小杯拿铁",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌早餐9.9元起，含芥末熏鸡嫩蛋芝士贝果等",
+      "kind": "food",
+      "quote": "9.9元超值招牌早餐 芥末熏鸡嫩蛋芝士贝果",
+      "url": "https://m.dianping.com/shop/1541281101",
+      "site": "大众点评网"
+    },
+    {
+      "text": "营业中，轨道交通三号线宜山路站旁",
+      "kind": "time",
+      "quote": "营业中 轨道交通三******",
+      "url": "https://m.dianping.com/shop/1541281101",
+      "site": "大众点评网"
+    },
+    {
+      "text": "地址为凯旋路2561-3号，近宜山路站",
+      "kind": "space",
+      "quote": "轨道交通三号线宜山路站凯旋路2561-3号",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-130063265/",
+      "site": "贝瑞咖啡(宜山路店) - Shanghai - Trip.com"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "光启城咖啡",
+      "url": "https://m.dianping.com/shop/1541281101",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "枫林吃喝玩乐地图 | 荣膺上海年度咖啡馆TOP1的小店究竟有何魅力?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMTczODc1Mg==&mid=2656980937&idx=1&sn=e646f9cb1f73f1f04846f7248d09c97d&chksm=8165d789536ee1e854ea101aa616b2593efcf08b9967fb8ff40392e3316c6c8f527671f657f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡文化周咖啡之夜公布“TOP100咖啡店榜单”，你去过几家",
+      "url": "https://finance.sina.cn/2022-08-14/detail-imizirav8075997.d.html?vt=4",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 4,
+      "title": "贝瑞咖啡(宜山路店) - Shanghai - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-130063265/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "贝瑞咖啡这波羊毛必须薅!魔都职场人专属的回血早餐来了!",
+      "url": "https://dy.163.com/article/GM9TITF90545AXH6.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "贝瑞咖啡(人民广场店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/131112224.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 9,
+      "title": "这些跨界咖啡店，又在玩什么新花样！-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/everything-can-be-coffee-and-these-crossborder-coffee-shops-are-playing-new-tricks-695869/",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "8000家咖啡馆创造“全球第一”，上海的咖啡文化为什么吸引人？",
+      "url": "https://www.jfdaily.com/news/detail?id=515465",
+      "site_name": "解放日报"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash,qwen-plus-2025-07-28",
+  "fetchedAt": "2026-09-12T15:27:20Z"
+}

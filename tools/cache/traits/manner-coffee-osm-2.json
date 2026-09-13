@@ -1,0 +1,76 @@
+{
+  "cafeId": "manner-coffee-osm-2",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "901bfb05e122",
+  "raw": {
+    "headline": {
+      "zh": "2㎡站喝平价精品咖啡",
+      "en": "2㎡ standing bar, premium coffee"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "门店最小仅2平方米，为站立窗口式",
+        "en": "Smallest stores are 2㎡ standing windows",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品包括燕麦拿铁和冰甜",
+        "en": "Signature drinks: oat milk latte, bing tian",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "自建5000平米SC认证烘焙工坊",
+        "en": "Own 5000㎡ SC-certified roastery",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "咖啡价格带15–25元",
+        "en": "Coffee priced ¥15–25",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "自带杯减5元，倡导环保",
+        "en": "¥5 off with reusable cup",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1,
+          6,
+          7
+        ],
+        "zh": "站立窗口店，不设座位",
+        "en": "Standing-only, no seating"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          3,
+          5
+        ],
+        "zh": "自烘豆+限定意式饮品",
+        "en": "House-roasted beans, seasonal espressos"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:09Z"
+}

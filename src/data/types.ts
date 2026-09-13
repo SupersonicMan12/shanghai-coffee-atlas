@@ -6,6 +6,8 @@ export type District =
   | 'Putuo'
   | 'Hongkou'
   | 'Pudong'
+  | 'Yangpu'
+  | 'Minhang'
 
 /**
  * The drawing that gets stamped on the map. Each archetype has its own
@@ -89,7 +91,7 @@ export interface Cafe {
 }
 
 /** Where an axis value comes from, in increasing order of authority. */
-export type AxisSource = 'editorial' | 'measured' | 'voted'
+export type AxisSource = 'editorial' | 'measured' | 'observed' | 'voted'
 
 export interface AxisEvidence {
   /** Blended 0..100 value actually used by the compass. */

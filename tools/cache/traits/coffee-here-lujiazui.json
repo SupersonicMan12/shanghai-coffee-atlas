@@ -1,0 +1,64 @@
+{
+ "cafeId": "coffee-here-lujiazui",
+ "model": "qwen-max",
+ "inputDigest": "56e06bb1d36a",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, wide view",
+    "from": "[7], [8]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "提供经典意式咖啡与手冲咖啡",
+    "en": "Serves classic espresso and pour-over coffee",
+    "from": "[1], [4]"
+   },
+   {
+    "kind": "beans",
+    "zh": "使用两台La Marzocco商用意式咖啡机",
+    "en": "Equipped with two La Marzocco machines",
+    "from": "[3]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周五 07:30-17:00",
+    "en": "Open Mon-Fri 07:30-17:00",
+    "from": "[11]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 20,
+    "from": "[9]",
+    "zh": "适合快速办公",
+    "en": "Quick work spot"
+   },
+   "energy": {
+    "value": 60,
+    "from": "[9]",
+    "zh": "早高峰排队，人气旺盛",
+    "en": "Busy in morning rush"
+   },
+   "linger": {
+    "value": 30,
+    "from": "[9]",
+    "zh": "主要为站喝，但有少量座位",
+    "en": "Mainly standing, some seats"
+   },
+   "adventure": {
+    "value": 50,
+    "from": "[4], [6]",
+    "zh": "提供手冲咖啡选择",
+    "en": "Offers pour-over options"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:06Z"
+}

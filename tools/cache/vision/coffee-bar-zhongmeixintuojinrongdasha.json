@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-bar-zhongmeixintuojinrongdasha",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "29b1492810d3",
+  "photos": [
+    "https://aos-comment.amap.com/B0J6J59P3S/comment/783b3410c63943d9a96b5a8f426c5121_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J6J59P3S/comment/E67A2B1C_7D74_48A2_A9E2_4DF689A15766_L0_001_2048_153_1745366769945_91808967.jpg",
+    "https://aos-comment.amap.com/B0J6J59P3S/comment/B45AECD9_4C03_4933_B4BD_293479361766_L0_001_2048_153_1745366769943_39892672.jpg"
+  ],
+  "photoKinds": [
+    "drink",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "白色带棕边陶瓷杯盛热饮，表面有心形拉花",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "圆形木桌中央摆放多个小托盘，含干玫瑰、薰衣草、草药碎与粉状物，多人围坐操作香囊",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "透明塑料杯装冰饮，标签写‘柏源生咖·荔枝白茶’及编号0039",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.97
+    },
+    {
+      "text": "白色小盘盛一块多层蛋糕，夹层淡紫，顶部饰蓝莓与奶油球",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "桌面为深色木质，照片中未见吧台、磨豆机、手冲台或烘焙设备",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "第二张图中可见至少4人手臂与手部，围坐圆桌进行手工活动",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.96
+    },
+    {
+      "text": "第三张图右上角有印卡通人物与食物图案的纸袋，非菜单",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.94
+    },
+    {
+      "text": "三张图均未显示窗户、室外座、书架、植物、宠物或电脑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:43:29Z"
+}

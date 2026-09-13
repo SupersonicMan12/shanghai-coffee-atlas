@@ -1,0 +1,32 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 2,
+      "title": "29 Specialty Coffee Listings in Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/listings/coffee/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "Chic Cafés and Restaurants on Anfu Road, Shanghai - Trip.com",
+      "url": "https://sa.trip.com/moments/detail/shanghai-2-142693553?locale=en-SA",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Events",
+      "url": "https://www.citynewsservice.cn/events?cateId=3",
+      "site_name": "城市资讯服务"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:38Z",
+  "retriedEn": true
+}

@@ -1,0 +1,73 @@
+{
+  "cafeId": "the-press-shenbaoguan",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "f53786ec8d1e",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/15225e4abb4bc0eb0000000741812841?type=pic",
+    "https://aos-comment.amap.com/B0FFGJN8B2/comment/D9B14BB9_73C7_4030_9313_2AC50DE7F2B7_L0_001_2000_150_1759234990586_32860436.jpg",
+    "https://aos-comment.amap.com/B0FFGJN8B2/comment/C3F517B2_DFBE_4B94_863C_84417D8715EB_L0_001_1500_200_1767449706521_87951601.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "food",
+    "menu",
+    "interior",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面位于街角老建筑底层，灰色石材外墙，门头标有'THE PRESS CAFE & RESTAURANT'",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "砖墙招牌写有'館報申 THE SHUN PAO 1872 CHINESE DAILY NEWS'，上方挂串灯",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "室内可见开放式厨房，上方黑板菜单手绘标注'RIBEYE STEAK'、'SALMON FILLET'、'COD FISH'及价格",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "厨房前设4张木质餐桌配深色木椅，每桌摆2-3套餐具，座位数约8-12个",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板为白色浮雕石膏顶，右侧有金属架与立式空调机",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一盘宽面配奶油酱、青豆、白豆、帕玛森芝士碎与黑松露片，旁放咖啡杯（杯身印'THE PRESS'）",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "另一图含绿色蔬菜汤（配薄荷叶）、心形拉花拿铁、芝士蛋糕切片，置于印有'報申'字样的报纸风格垫纸",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街玻璃窗较大，但未见落地窗；街道上有电线杆与斑马线，无室外座位可见",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:05Z"
+}

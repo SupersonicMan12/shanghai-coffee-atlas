@@ -1,0 +1,65 @@
+{
+  "cafeId": "big-sur-coffee-yongjia-rd",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "e3e3d252887e",
+  "photos": [
+    "https://aos-comment.amap.com/B0H1U5WZAQ/comment/9FCBB860_97E0_42D7_8436_830DA86A8945_L0_001_1500_2000_1737270088733_61958984.jpg",
+    "https://store.is.autonavi.com/showpic/6ef11abb103d20520000002856032419?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1772014986064_81327625_1772015154927_70518931.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "菜单显示有厄瓜多尔、巴拿马等产地的单品豆手冲咖啡，价格68-138元。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见BUNN热水系统和吧台操作区，有手冲器具。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口玻璃贴有营业时间：周二至周日8:00-19:00，周一12:00-19:00。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括一杯拉花拿铁（陶瓷杯）和一杯分层冰咖（玻璃杯）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为石质外墙老建筑风格，门框有竖向凹槽装饰。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "透过玻璃门可看到店内有陈列柜，但座位数量和形式无法看清。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内墙面挂有“PANAMA GEISHA”、“ECUADOR ALASKA DEL SUR”产地海报。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:50Z"
+}

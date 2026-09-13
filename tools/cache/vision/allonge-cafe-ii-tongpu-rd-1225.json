@@ -1,0 +1,71 @@
+{
+  "cafeId": "allonge-cafe-ii-tongpu-rd-1225",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3de9887a186f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/728d4fd44c5a5e7403280279f0a9e2c4",
+    "http://store.is.autonavi.com/showpic/5f05e03b8873ed587cd355d40e39bcd2",
+    "http://store.is.autonavi.com/showpic/aaf30cf2332c48318ab617aa2e6707f0"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门口有遮阳棚和玻璃门，临街可见绿树",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有橙色冰箱、咖啡机和手冲设备",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "空间内设有多张折叠桌椅，可容纳数人",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有宠物猫在椅子上休息",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有顾客在使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有书架和植物装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "后方区域可见烘焙设备",
+      "kind": "roastingGear",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": true,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:23:34Z"
+}

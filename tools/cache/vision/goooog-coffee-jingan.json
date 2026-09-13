@@ -1,0 +1,71 @@
+{
+  "cafeId": "goooog-coffee-jingan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9fc69c357b1f",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/23681887e773a5a36229ec7064757662",
+    "https://store.is.autonavi.com/showpic/5071e1b63fda569c0000002464240649?type=pic",
+    "http://store.is.autonavi.com/showpic/8bab8b059f981cdf6d113e23df262004"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内部，空间较宽敞",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，外立面为大面积玻璃窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有少量室外桌椅，可坐人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内可见圣诞树装饰，推测为节日布置",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有吧台区域，但无明显烘焙设备",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "走廊内无明显顾客或工作人员",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺门头标有'GooooG coffee'字样",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:17:11Z"
+}

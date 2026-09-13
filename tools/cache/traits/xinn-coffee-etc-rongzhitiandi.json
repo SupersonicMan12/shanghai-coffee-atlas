@@ -1,0 +1,70 @@
+{
+  "cafeId": "xinn-coffee-etc-rongzhitiandi",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "61d016ce203e",
+  "raw": {
+    "headline": {
+      "zh": "工业风韩系咖啡馆",
+      "en": "Industrial-Korean style café"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "窗外见绿植与格栅墙，不临街",
+        "en": "Greenery and latticed wall outside, not street-facing",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积落地窗，自然采光充足",
+        "en": "Large floor-to-ceiling windows with ample daylight",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内多组多人桌椅，另有室外座位区",
+        "en": "Multiple indoor group tables plus outdoor seating",
+        "from": [
+          1,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "推荐榛果拿铁，口感绵密味道香",
+        "en": "Recommended: hazelnut latte, creamy and aromatic",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:00-18:00营业",
+        "en": "Open daily 09:00–18:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "zh": "座位多且有室内外选择",
+        "en": "Plenty of seating indoors and out"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:42:40Z"
+}

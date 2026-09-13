@@ -1,0 +1,71 @@
+{
+  "cafeId": "midiankafeiguan-pingjiang-rd-115",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "7e38339e9739",
+  "photos": [
+    "https://aos-comment.amap.com/B0L29RRDES/comment/AC92380C_0F10_401B_AC0F_CD641CE5CA5D_L0_001_1500_200_1758534700747_68459323.jpg",
+    "https://store.is.autonavi.com/showpic/38589334e33a85910000003030942432?type=pic",
+    "https://store.is.autonavi.com/showpic/5dd41ecda61e913a0000003378736632?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面为木质外墙，门旁有“米店”二字，门口放有盆栽。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设吧台与多组木桌椅，空间开阔，天花板可见管道结构。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机、磨豆机等专业设备，台面陈列菜单与装饰品。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯垫印有“立夏”“米酒”字样，一杯顶部饰黄花，另一杯配麦穗装饰。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街为大面积玻璃窗，室内采光良好，窗台摆放白色花盆绿植。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无顾客，未见有人使用电脑或携带宠物。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位约6-8组，每组可坐2-4人，属中等规模座位配置。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外为水泥人行道，无室外座位，可见落叶，非庭院或河景店。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T14:02:24Z"
+}

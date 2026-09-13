@@ -1,0 +1,46 @@
+{
+ "cafeId": "kicking-beans-wuding",
+ "model": "qwen-max",
+ "inputDigest": "f77d9f3583bd",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "室内有橙色软垫长凳和小桌，至少2人就座",
+    "en": "Orange-padded bench and small tables for at least 2",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "热泡咖啡92℃浸泡8分钟，豆香浓郁；冷萃冷藏8-10小时",
+    "en": "Hot brew 92°C for 8 min, cold brew 8-10 hrs",
+    "from": 9
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周日 08:00-17:00",
+    "en": "Open Mon-Sun 08:00-17:00",
+    "from": 14
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 60,
+    "from": 3,
+    "zh": "提供室内座位适合久坐",
+    "en": "Indoor seating for longer stays"
+   },
+   "adventure": {
+    "value": 50,
+    "en": "Special brewing methods",
+    "zh": "独特的热泡和冷萃方法",
+    "from": 9
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:18:09Z"
+}

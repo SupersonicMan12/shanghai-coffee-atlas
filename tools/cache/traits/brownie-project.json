@@ -1,0 +1,64 @@
+{
+ "cafeId": "brownie-project",
+ "model": "qwen-max",
+ "inputDigest": "0204db3c8dba",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "space",
+    "zh": "挑高两层空间，裸露混凝土顶与旧木梁",
+    "en": "Two-story space with exposed concrete and old wooden beams",
+    "from": "[1]"
+   },
+   {
+    "kind": "light",
+    "zh": "天花板装轨道射灯，二层平台底部有暖色灯带",
+    "en": "Track lights and warm underglow on the second floor",
+    "from": "[5]"
+   },
+   {
+    "kind": "view",
+    "zh": "二层靠窗处可见窗外绿植与建筑轮廓",
+    "en": "Second-floor windows offer views of greenery and buildings",
+    "from": "[6]"
+   },
+   {
+    "kind": "seating",
+    "zh": "一层设不锈钢吧台，二层有白色桌椅组合",
+    "en": "Stainless steel bar on the first floor, white tables and chairs upstairs",
+    "from": "[2,3]"
+   },
+   {
+    "kind": "story",
+    "zh": "由旧工业厂房改造，复合艺术空间",
+    "en": "Converted from an old factory, a mixed art space",
+    "from": "[8,9]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": "[7]",
+    "zh": "有人用电脑工作",
+    "en": "People work on laptops"
+   },
+   "linger": {
+    "value": 80,
+    "from": "[3,4,5,6]",
+    "zh": "舒适的座位和视野",
+    "en": "Comfortable seating and views"
+   },
+   "adventure": {
+    "value": 60,
+    "from": "[2]",
+    "zh": "提供手冲咖啡",
+    "en": "Offers pour-over coffee"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:16:36Z"
+}

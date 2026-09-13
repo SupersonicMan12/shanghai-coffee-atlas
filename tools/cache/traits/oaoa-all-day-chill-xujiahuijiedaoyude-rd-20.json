@@ -1,0 +1,58 @@
+{
+  "cafeId": "oaoa-all-day-chill-xujiahuijiedaoyude-rd-20",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "f543996c7349",
+  "raw": {
+    "headline": {
+      "zh": "招牌维也纳咖啡貌美好喝",
+      "en": "Known for beautiful, tasty Vienna coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为维也纳咖啡",
+        "en": "Signature drink is Vienna coffee",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "临街整面玻璃窗，采光良好",
+        "en": "Full-height street-facing windows with good light",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内有多张桌椅，可容纳数人",
+        "en": "Multiple tables and chairs for several people",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至24:00",
+        "en": "Open daily until midnight",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "适合安静久坐",
+        "en": "Good for quiet lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:46:17Z"
+}

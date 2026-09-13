@@ -1,0 +1,71 @@
+{
+  "cafeId": "ikea-cafe-yijiajiaju",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "c218de5a5f11",
+  "photos": [
+    "https://aos-comment.amap.com/B0K1O6ERFS/comment/E9940763_E46C_4AB4_808B_923075E1C018_L0_001_1500_200_1764666640790_06909864.jpg",
+    "https://aos-comment.amap.com/B0K1O6ERFS/comment/C76075F1_B600_4F91_99CF_657230A8D0FA_L0_001_1500_200_1764666640790_31391298.jpg",
+    "https://aos-comment.amap.com/B0K1O6ERFS/comment/B751600F_ED11_4E7F_B932_A15004AE9943_L0_001_2000_112_1760274032689_39319035.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "other",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有大片落地窗，采光好，空间开阔",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "座位分木椅和藤编椅，数量多，有绿植",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有人在座位上用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "售卖VINTERSAGA圣诞系列巧克力礼盒",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐盘上有提拉米苏蛋糕和一杯咖啡",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "有“宜家自习室”标识，开放时间10-17点",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有活动中心指引牌",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "货架上陈列着多种包装的巧克力产品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:04:22Z"
+}

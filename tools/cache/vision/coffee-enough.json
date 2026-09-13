@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-enough",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c567865fc657",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFLK0NLX/comment/54700369_618A_4B8E_92D2_A5F2F07B61FF_L0_001_2000_1500_1731172011454_60866951.jpg",
+    "https://aos-comment.amap.com/B0FFLK0NLX/comment/0347686a8ac7be48925e15976c489bf9_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLK0NLX/comment/content_media_external_images_media_7994_1726472850221_64882267.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店门敞开，左侧为木质推拉门，门旁有绿色门牌‘49’（北京西路）",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有3人坐矮水泥台+白色小圆桌，属室外座；右侧可见红砖墙",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见嵌入式混凝土置物架，陈列杯具；右侧有粗混凝土柱，挂钟与干花",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有白色咖啡机（疑似La Marzocco）、手冲壶、玻璃分享壶、滤杯、金属罐装豆子",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面为白色竖条瓷砖，木层板上陈列陶瓷壶、玻璃虹吸壶、滤杯等手冲器具",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "玻璃窗上贴有营业时间：Open 10:00，Close 18:00",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内无可见书架、宠物；未见烘焙机；未见菜单价格或豆子产地文字",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "3位顾客在店外座位低头看手机，无人使用笔记本电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:37:22Z"
+}

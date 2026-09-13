@@ -1,0 +1,98 @@
+{
+  "cafeId": "yingliankafei-lianyang",
+  "query": {
+    "location": "121.564475,31.229359",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:02:21Z",
+  "matchedPoiId": "B0FFIRD2K5",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/129fcf308c0608ecdb04e23ccc916df3"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/09ec55fab5659a07aca56fcb57cbf3a8"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/82c898f3b57d2f101c4a63fc6c303e41"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13120568672;15301991531",
+        "id": "B0FFIRD2K5",
+        "tag": "卡布奇诺",
+        "entr_location": "121.564397,31.229201",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "洋泾",
+        "childtype": [],
+        "atag": "卡布奇诺",
+        "name": "应莲咖啡(联洋店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "34.00",
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.5",
+          "open_time": "08:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621647510",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-10 16:31:35",
+        "website": [],
+        "address": "丁香路1399弄30号1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.564475,31.229359",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

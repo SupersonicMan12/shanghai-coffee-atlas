@@ -1,0 +1,160 @@
+{
+  "cafeId": "xinn-coffee-etc-rongzhitiandi",
+  "query": {
+    "location": "121.511713,31.204288",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:03:21Z",
+  "matchedPoiId": "B0FFM54F3D",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "2",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFHS25PV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0d93128c2e545801c0ee18d35d8f0e4a"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/60c401375bc4a9f976f85e7a28a77803"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFM54F3D/comment/content_media_external_images_media_1000235074_ss_2_1694476444718_c1f79b57.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-68903089",
+        "id": "B0FFM54F3D",
+        "tag": "coffee",
+        "entr_location": "121.511413,31.204304",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "陆家嘴",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "XINN coffee ETC.(融智天地店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "0",
+        "importance": [],
+        "biz_ext": {
+          "cost": "51.00",
+          "opentime2": "周一至周日 09:00-18:00",
+          "rating": "4.6",
+          "open_time": "09:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644012",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 00:07:03",
+        "website": [],
+        "address": "浦明路1999号陆家嘴融智天地",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.511713,31.204292",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "浦东新区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "13817528616",
+        "id": "B0GKKHY6HL",
+        "tag": [],
+        "entr_location": "121.51345318857655,31.203941049658308",
+        "adcode": "310115",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "塘桥",
+        "childtype": [],
+        "atag": [],
+        "name": "UrCove Cafe·创逸空间(陆家嘴店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "169",
+        "importance": [],
+        "biz_ext": {
+          "cost": "59.00",
+          "opentime2": "周一至周日 10:00-18:00",
+          "rating": "4.4",
+          "open_time": "10:00-18:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621644110",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 20:17:07",
+        "website": [],
+        "address": "浦东南路2266号(陆家嘴逸扉酒店内1楼餐厅)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.513420,31.203848",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

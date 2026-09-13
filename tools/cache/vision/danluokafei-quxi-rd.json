@@ -1,0 +1,65 @@
+{
+  "cafeId": "danluokafei-quxi-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "eb071fb01e58",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d3fbba5822321a340000001123046125?type=pic",
+    "http://store.is.autonavi.com/showpic/03b46b2e2b4039b9f616b01a5daf54a8",
+    "http://store.is.autonavi.com/showpic/c0d8b883b3f787f273797ba847b00ba9"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "饮品表面有拉花图案",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺门口有台阶和室外桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有白色折叠桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，有玻璃门和窗户",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺为咖啡馆与酒吧结合形式",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口放置有菜单展示牌",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有楼梯通向入口",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:35Z"
+}

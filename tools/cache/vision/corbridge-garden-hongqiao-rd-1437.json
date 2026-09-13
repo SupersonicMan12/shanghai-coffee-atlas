@@ -1,0 +1,71 @@
+{
+  "cafeId": "corbridge-garden-hongqiao-rd-1437",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "adbe77d81f6d",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/69114763023f8e440000004202736448?type=pic",
+    "https://aos-comment.amap.com/B0JGLUGNSF/comment/31959707_E887_4127_A20D_6BECEB009FCA_L0_001_1500_200_1759357521001_69199547.jpg",
+    "https://aos-comment.amap.com/B0JGLUGNSF/comment/5F7FA71A_3BEE_41D7_A7DB_0D85E2832B6A_L0_001_1500_200_1759570143732_41853102.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "室内为挑高斜顶结构，有天窗与多组吊灯，天花板裸露管道与空调机。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街侧为大面积落地玻璃窗，窗外可见绿植与户外遮阳伞座位。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "座位含木质框架+软垫椅、白色金属椅，桌为浅木圆桌/方桌，约10组以上。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有咖啡机、磨豆机、冷藏展示柜；一人穿围裙在操作，另一人穿MAMMUT T恤站立。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "第一杯饮品为分层冰饮：底层乳白、中层深褐咖啡液、顶层奶泡撒干花碎，用玻璃杯盛装。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "第二杯为热饮，杯身竖条纹玻璃，顶部奶泡撒肉桂粉，饰以西柚干片、肉桂棒与小枝叶。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌上放透明小花瓶插雏菊，旁有折叠口罩与纸吸管包装。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "右侧立牌可见“啡桥 Corbridge”字样，无完整菜单或价格信息可见。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:41:37Z"
+}

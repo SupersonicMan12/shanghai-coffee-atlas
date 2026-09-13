@@ -1,0 +1,77 @@
+{
+  "cafeId": "costa-coffee-shanghaimeiyuehua",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "856dd2b0de20",
+  "raw": {
+    "headline": {
+      "zh": "椰子风味饮品多",
+      "en": "Lots of coconut-flavored drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供生椰乌龙轻乳茶、椰皇三重奏等椰子风味饮品",
+        "en": "Offers coconut-flavored drinks like tropical milk tea and coconut trio",
+        "from": [
+          3,
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门外有红色遮阳伞和露天座位",
+        "en": "Has outdoor seating with red awnings outside",
+        "from": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃幕墙，采光好",
+        "en": "Full-floor glass facade with good natural light",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提拉米苏、巧克力酥卷受欢迎",
+        "en": "Popular treats: tiramisu and chocolate puff pastry",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 08:00-17:00",
+        "en": "Open daily 08:00–17:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 60,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "临街有车流",
+        "en": "Street traffic nearby"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          1,
+          5
+        ],
+        "zh": "有露天座位适合久坐",
+        "en": "Outdoor seats encourage lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:48:52Z"
+}

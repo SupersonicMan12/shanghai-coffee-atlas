@@ -1,0 +1,94 @@
+{
+  "cafeId": "arabica-bund",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "f91f7bf19319",
+  "raw": {
+    "headline": {
+      "zh": "外滩江景站喝店",
+      "en": "Bund skyline stand-up café"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临外滩，可于户外座位观浦东天际线",
+        "en": "Outdoor seating with views of Pudong skyline",
+        "from": [
+          3,
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "以站立吧台为主，少量户外长凳",
+        "en": "Standing bar counter with limited outdoor benches",
+        "from": [
+          7,
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用100%阿拉比卡咖啡豆制作招牌饮品",
+        "en": "Uses 100% Arabica beans in signature drinks",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌为浓缩基底咖啡，含手冲选项",
+        "en": "Signature espresso-based drink with pour-over option",
+        "from": [
+          6,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚间8点，适合日间到访",
+        "en": "Open until 8 PM, ideal for daytime visits",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "可办公，有电源与空间",
+        "en": "Work-friendly with space and outlets"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "外滩人流，略嘈杂",
+        "en": "Bund foot traffic, moderately lively"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "站喝为主，难久坐",
+        "en": "Designed for quick service, not lingering"
+      },
+      "adventure": {
+        "value": 40,
+        "from": [
+          6,
+          11
+        ],
+        "zh": "主打阿拉比卡，手冲较常见",
+        "en": "Arabica-focused with common pour-over"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:40Z"
+}

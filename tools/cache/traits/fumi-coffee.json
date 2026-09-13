@@ -1,0 +1,58 @@
+{
+ "cafeId": "fumi-coffee",
+ "model": "qwen-max",
+ "inputDigest": "f1a7540e7161",
+ "raw": {
+  "headline": {
+   "zh": "品味同一豆子的三种风味",
+   "en": "Taste one bean, three ways"
+  },
+  "traits": [
+   {
+    "kind": "drinks",
+    "zh": "提供自家烘焙的多款咖啡豆",
+    "en": "Serves self-roasted coffee beans",
+    "from": 3
+   },
+   {
+    "kind": "drinks",
+    "zh": "'品味组合'呈现不同冲煮方式",
+    "en": "Testing Combo Set with 3 brews",
+    "from": 4
+   },
+   {
+    "kind": "food",
+    "zh": "伯爵千层蛋糕带有茶香",
+    "en": "Earl Grey mille-feuille with tea aroma",
+    "from": 5
+   },
+   {
+    "kind": "food",
+    "zh": "灰色冰山造型慕斯酸甜可口",
+    "en": "Grey ice mountain mousse, sweet and sour",
+    "from": 6
+   },
+   {
+    "kind": "seating",
+    "zh": "门口有三个座位，队伍移动快",
+    "en": "Three stools at the door, quick queue",
+    "from": 8
+   }
+  ],
+  "axisHints": {
+   "adventure": {
+    "value": 80,
+    "from": 3,
+    "zh": "提供自烘豆和多种冲煮方式",
+    "en": "Self-roasted, diverse brewing methods"
+   },
+   "linger": {
+    "value": 10,
+    "from": 8,
+    "zh": "仅有站位或少量座位",
+    "en": "Limited seating, mostly standing"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:12:11Z"
+}

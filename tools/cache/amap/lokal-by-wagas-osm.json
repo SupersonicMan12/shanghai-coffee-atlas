@@ -1,0 +1,248 @@
+{
+  "cafeId": "lokal-by-wagas-osm",
+  "query": {
+    "location": "121.440619,31.209531",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:08:24Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0I295GV2K",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I3SSY4YH/comment/289a904dde6728646f217302496ef485_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I3SSY4YH/comment/B56C5C27_7EAC_4932_B731_47FD22FD49AF_L0_001_1500_2002_1740232790877_74427338.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I3SSY4YH/comment/ecda159164bfd54d0d77b72361afdb3a_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "18221764462",
+        "id": "B0I3SSY4YH",
+        "tag": "coffee",
+        "entr_location": "121.440820,31.209983",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "BirdieCupCoffee(武康路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "55",
+        "importance": [],
+        "biz_ext": {
+          "cost": "28.00",
+          "opentime2": "周一 09:00-16:30；周二至周三 10:00-18:30；周四至周五 10:00-19:30；周六至周日 08:00-19:30",
+          "rating": "4.5",
+          "open_time": "08:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621635500",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:54:05",
+        "website": [],
+        "address": "武康路105-2号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.440894,31.209970",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0H6D7AFIV",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHB9C6V/comment/21f168a14542b07ed169e3a82a3168fe_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFHB9C6V/comment/97d8a9357962e98c23df9d245bb7283d_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/948727b95555aefcfa9a406a4df2ff43"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-34605708;18717938084",
+        "id": "B0FFHB9C6V",
+        "tag": "提拉米苏,芝士蛋糕",
+        "entr_location": "121.442175,31.208376",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": "320",
+        "atag": "提拉米苏,芝士蛋糕",
+        "name": "鲁马滋咖啡(中南新邨店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_1044753",
+        "distance": "219",
+        "importance": [],
+        "biz_ext": {
+          "cost": "90.00",
+          "opentime2": "周一至周日 11:00-19:30",
+          "rating": "4.6",
+          "open_time": "11:00-19:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634521",
+        "shopinfo": "0",
+        "alias": "RUMORS COFFEE",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 21:36:24",
+        "website": [],
+        "address": "湖南路9号甲(近上海图书馆)",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.442335,31.208216",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G2GZN8EJ/comment/019946D6_B7AD_4A1B_B3B6_04A1B38E4F47_L0_001_1500_200_1750689225384_48269649.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G2GZN8EJ/comment/fd728452b6caba934e551cc9829ef2af_2048_2048_80.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0G2GZN8EJ/comment/content_media_external_file_1000049479_ss__1768521577766_94349276.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "17321478621;17502160929",
+        "id": "B0G2GZN8EJ",
+        "tag": "提拉米苏,coffee",
+        "entr_location": "121.440095,31.207357",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "湖南路",
+        "childtype": [],
+        "atag": "提拉米苏,coffee",
+        "name": "PLUSONE COFFEE(武康路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "246",
+        "importance": [],
+        "biz_ext": {
+          "cost": "49.00",
+          "opentime2": "周一至周日 09:00-20:00",
+          "rating": "4.5",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621634520",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:27:22",
+        "website": [],
+        "address": "武康路286号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.439983,31.207387",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

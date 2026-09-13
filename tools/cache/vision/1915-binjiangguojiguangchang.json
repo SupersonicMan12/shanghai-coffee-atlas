@@ -1,0 +1,59 @@
+{
+  "cafeId": "1915-binjiangguojiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "05660d45a79c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/0a83de9dd9f37f7a0000000734718920?type=pic",
+    "https://aos-comment.amap.com/B0FFHK2ITC/comment/C707803D_90F1_400F_91C7_D3954DD9AAD9_L0_001_2016_151_1748857805842_55889972.jpg",
+    "https://store.is.autonavi.com/showpic/5eb829dc3baff3c20000002566844790?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店内有木质地板和吧台，空间为中等大小",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有电子菜单显示屏",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内摆放多盆绿植，装饰有复古自行车",
+      "kind": "decoration",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一杯装在玻璃杯中的咖啡饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰淇淋类甜品，其中一杯淋有焦糖酱",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，但未见明显窗户或采光方向",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:27:23Z"
+}

@@ -1,0 +1,91 @@
+{
+  "cafeId": "manner-coffee-xuhuibinjiang",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "1b790a63c59c",
+  "raw": {
+    "headline": {
+      "zh": "室外折叠椅+绿植庭院",
+      "en": "Outdoor folding chairs and green courtyard"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店外设数排折叠椅，可坐饮",
+        "en": "Several rows of folding chairs outside for seating",
+        "from": [
+          1,
+          8
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外为绿树成荫的庭院景观",
+        "en": "Green trees visible through window, no street or river view",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "菜单含风味拿铁、SOE等经典与季节款",
+        "en": "Menu features seasonal and classic drinks like flavored lattes and SOE",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用自烘咖啡豆，有5000平烘焙工坊",
+        "en": "Uses in-house roasted beans from a 5000 sqm SC-certified roastery",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 08:30-21:00",
+        "en": "Open daily 08:30–21:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          13
+        ],
+        "zh": "营业时间长，适合办公",
+        "en": "Long hours support work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "室外绿植+折叠椅，氛围中等",
+        "en": "Balanced outdoor vibe with greenery"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          1,
+          8
+        ],
+        "zh": "有坐具但非主打久坐",
+        "en": "Seating available but not designed for long stays"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          11
+        ],
+        "zh": "自烘豆带来风味变化",
+        "en": "In-house roasting adds variety"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:48Z"
+}

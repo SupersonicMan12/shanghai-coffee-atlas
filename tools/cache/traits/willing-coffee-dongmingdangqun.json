@@ -1,0 +1,84 @@
+{
+  "cafeId": "willing-coffee-dongmingdangqun",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "3356d8d997a7",
+  "raw": {
+    "headline": {
+      "zh": "招牌有油柑冰美式",
+      "en": "Known for yugan iced Americano"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含潮汕油柑冰美式、桂花酒酿冰拿铁等",
+        "en": "Signature drinks include yugan iced Americano and osmanthus rice wine latte",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内设吧台与桌椅，可供坐人",
+        "en": "Indoor seating with bar counter and tables",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "可见顾客在店内使用笔记本电脑",
+        "en": "Customers seen working on laptops",
+        "from": [
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "落地窗带来良好自然采光",
+        "en": "Floor-to-ceiling windows provide ample daylight",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为08:30-17:00",
+        "en": "Open daily 08:30–17:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          4,
+          9
+        ],
+        "zh": "有人用电脑办公",
+        "en": "People work on laptops"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4,
+          9
+        ],
+        "zh": "有桌椅且见人久坐",
+        "en": "Seating and laptop use observed"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          10
+        ],
+        "zh": "含油柑、酒酿等特色饮品",
+        "en": "Features yugan and fermented rice drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:39:38Z"
+}

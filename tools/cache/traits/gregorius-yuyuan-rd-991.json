@@ -1,0 +1,70 @@
+{
+ "cafeId": "gregorius-yuyuan-rd-991",
+ "model": "qwen-max",
+ "inputDigest": "7c373c6bbaab",
+ "raw": {
+  "headline": {
+   "zh": "复古风情与个人收藏融合的独立咖啡店",
+   "en": "Vintage vibe with personal collection"
+  },
+  "traits": [
+   {
+    "kind": "story",
+    "zh": "成立于2018年，融合美式复古元素",
+    "en": "Established in 2018, with American vintage elements",
+    "from": 17
+   },
+   {
+    "kind": "beans",
+    "zh": "售卖豆子标明产地、口味、价格及适用方式",
+    "en": "Beans labeled with origin, flavor, price, and use",
+    "from": 10
+   },
+   {
+    "kind": "drinks",
+    "zh": "海妖朗姆dirty含朗姆酒与黑巧，香甜浓郁",
+    "en": "Siren Rum Dirty with rum and dark chocolate, sweet and rich",
+    "from": 11
+   },
+   {
+    "kind": "seating",
+    "zh": "门口台阶设户外座椅，可坐梧桐树下看人来人往",
+    "en": "Outdoor seats on the steps, under sycamore trees",
+    "from": 13
+   },
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，室内明亮通透",
+    "en": "Full street-facing glass, bright and airy inside",
+    "from": 9
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 13,
+    "zh": "有户外座位适合轻度办公",
+    "en": "Light work in outdoor seats"
+   },
+   "energy": {
+    "value": 60,
+    "from": 13,
+    "zh": "户外座位面对街道，有一定热闹感",
+    "en": "Street view adds some liveliness"
+   },
+   "linger": {
+    "value": 70,
+    "from": 12,
+    "zh": "有露天后院，适合久坐",
+    "en": "Open backyard for long stays"
+   },
+   "adventure": {
+    "value": 40,
+    "from": 10,
+    "zh": "提供多种经典和创意饮品",
+    "en": "Classic and creative drinks available"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:24:04Z"
+}

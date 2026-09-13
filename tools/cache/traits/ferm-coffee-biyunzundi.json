@@ -1,0 +1,88 @@
+{
+  "cafeId": "ferm-coffee-biyunzundi",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b58cb2acfbc2",
+  "raw": {
+    "headline": {
+      "zh": "手冲与奶油顶咖啡",
+      "en": "Hand-brew and cream-topped coffee"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供带奶油顶的咖啡饮品",
+        "en": "Serves coffee with cream topping",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲器具和磨豆机",
+        "en": "Equipped with pour-over gear and grinders",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应烤制小点心和面包",
+        "en": "Offers baked pastries and bread",
+        "from": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "店内空间宽敞，有木质装饰",
+        "en": "Spacious interior with wood accents",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00-19:00营业（部分日期至17:00）",
+        "en": "Open daily 08:00–19:00 (some days till 17:00)",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "zh": "有阅读区且环境整洁",
+        "en": "Reading area, tidy space"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "zh": "可堂食，采光好有绿植",
+        "en": "Dine-in, good light, plants"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "有手冲设备和特色奶油顶",
+        "en": "Pour-over setup, cream-topped drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:01Z"
+}

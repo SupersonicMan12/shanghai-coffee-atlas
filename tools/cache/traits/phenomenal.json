@@ -1,0 +1,33 @@
+{
+  "cafeId": "phenomenal",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "35e5e0555b38",
+  "raw": {
+    "headline": {
+      "zh": "菜单比你念得快",
+      "en": "Menu changes faster than you can read"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品季节限定，成分未知",
+        "en": "Seasonal signature drink with unknown ingredients",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "饮品成分神秘且常变",
+        "en": "Unpredictable and ever-changing ingredients"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:14Z"
+}

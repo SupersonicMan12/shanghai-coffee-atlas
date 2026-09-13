@@ -1,0 +1,71 @@
+{
+  "cafeId": "ailaooo-expo",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "bfa3c0fc0391",
+  "photos": [
+    "https://aos-comment.amap.com/B0K19UGSJS/comment/content_media_external_file_1000020697_ss__1762659410748_59204284.jpg",
+    "https://aos-comment.amap.com/B0K19UGSJS/comment/content_media_external_images_media_87165_ss__1738912907960_41492621.jpg",
+    "https://aos-comment.amap.com/B0K19UGSJS/comment/content_media_external_images_media_87164_ss__1738912907958_16708173.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内（世博源），入口上方有发光‘A’标与‘Ailaooo Caffè’字样",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "店内设木质吧台、带玻璃展示柜的冷食台，后方有置物架陈列杯具",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见黑色柱式立柱、浅色墙面配深色护墙板、吊灯为简约圆盘形",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "座位含靠墙木质长凳+小圆桌，及藤编面木椅；桌上放两个带‘A’标黑杯",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "手持黑色塑料杯，杯身印银色‘A’标，配透明盖与吸管",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "吧台前立牌显示‘超级酸奶碗 SUPER YOGURT’及图片，另有一张‘人生如戏 十有八酒’宣传海报",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.97
+    },
+    {
+      "text": "吧台后可见咖啡机、微波炉、制冰机等设备，未见手冲台/虹吸/磨豆机特写",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上贴有‘老博园区公安处’联络电话标牌，右侧蓝色柱体有白蓝圆点装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:38:48Z"
+}

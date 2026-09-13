@@ -1,0 +1,67 @@
+{
+  "cafeId": "radar-sinan",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "94bab184cb2d",
+  "raw": {
+    "headline": {
+      "zh": "11㎡站喝精品咖啡",
+      "en": "11sqm standing bar, competition-grade beans"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "仅11平方米的站立吧台",
+        "en": "Standing-only bar, just 11 square metres",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用竞赛级咖啡豆，如云南孟连卡蒂姆",
+        "en": "Competition-grade beans, e.g. Yunnan Menglian Catimor",
+        "from": [
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌粉波旁手冲售价如连锁拿铁",
+        "en": "Pink Bourbon filter priced like a chain latte",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至16:30，周末至17:00",
+        "en": "Open till 16:30 weekdays, 17:00 weekends",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          5
+        ],
+        "zh": "仅11㎡站立空间",
+        "en": "Standing-only tiny space"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          2,
+          6,
+          7
+        ],
+        "zh": "竞赛豆与稀有品种手冲",
+        "en": "Competition beans & rare varietals"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:35:09Z"
+}

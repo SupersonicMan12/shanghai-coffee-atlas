@@ -1,0 +1,71 @@
+{
+  "cafeId": "coffee-date-suhehui",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8c5b78187ac2",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/d391ad3a06ccbb32e1adb50bd2462a6f",
+    "https://store.is.autonavi.com/showpic/d695de659d33195a0000002546306068?type=pic",
+    "https://store.is.autonavi.com/showpic/08355d21912c26b2449e50e9cc0d2c5d"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺临街，有玻璃门窗和室外座位",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有两把椅子，可作室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台和少量桌椅，空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有植物装饰，环境整洁",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有人在操作，可能为工作人员",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "门头有黑色心形装饰，夜间发光",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店招上写有'COFFEE DATE'字样",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立有发光灯箱，显示店名",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:24:07Z"
+}

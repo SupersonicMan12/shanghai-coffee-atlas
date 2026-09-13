@@ -1,0 +1,64 @@
+{
+ "cafeId": "xingbake-xingfuli",
+ "model": "qwen-max",
+ "inputDigest": "d3ca285d965f",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "约8张棕色皮质单人沙发椅+小圆木桌",
+    "en": "About 8 brown leather single sofas + small wooden tables",
+    "from": 1
+   },
+   {
+    "kind": "view",
+    "zh": "一扇黑框窗，窗外可见绿色灌木丛",
+    "en": "A black-framed window with a view of green shrubs",
+    "from": 6
+   },
+   {
+    "kind": "drinks",
+    "zh": "菜单上有星冰乐、冷萃冰咖啡等分类",
+    "en": "Menu includes Frappuccino, Cold Brew, and more",
+    "from": 4
+   },
+   {
+    "kind": "food",
+    "zh": "玻璃展示柜内有可颂、贝果、蛋糕等食品",
+    "en": "Croissants, bagels, cakes in the display case",
+    "from": 3
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间周一至周日07:00-22:00",
+    "en": "Open Mon-Sun 7:00-22:00",
+    "from": 15
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 50,
+    "from": 1,
+    "zh": "有舒适的单人沙发椅",
+    "en": "Comfortable single sofas"
+   },
+   "linger": {
+    "value": 70,
+    "from": 1,
+    "zh": "舒适的座位适合久坐",
+    "en": "Seats are comfortable for lingering"
+   },
+   "energy": {
+    "value": 50,
+    "from": 6,
+    "zh": "有窗户但非落地窗",
+    "en": "Window but not floor-to-ceiling"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:23:51Z"
+}

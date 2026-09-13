@@ -1,0 +1,65 @@
+{
+  "cafeId": "heigoukafei-xingqibashangwulou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6b2bc0058e73",
+  "photos": [
+    "https://aos-comment.amap.com/B0KDSMPHU2/comment/51B12C2D_B3F0_4CE0_8B16_EFACAED8EA22_L0_001_1126_200_1767328571347_52369094.jpg",
+    "https://store.is.autonavi.com/showpic/1cf7e0aaa361c93b9b4cd70af7f25dc8",
+    "https://store.is.autonavi.com/showpic/e6a1b49e9bc9c3cd0000006085140833?type=pic"
+  ],
+  "photoKinds": [
+    "drink",
+    "storefront",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "饮品为冰咖啡，含冰块和奶层",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为冰茶类饮料，杯中插有干果",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺临街，有木质门和窗户",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有两把椅子，可作室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面有大玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品使用透明玻璃杯盛装，带吸管",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯上有卡通图案，风格轻松",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:18:40Z"
+}

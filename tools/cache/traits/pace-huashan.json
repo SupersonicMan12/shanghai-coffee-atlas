@@ -1,0 +1,28 @@
+{
+ "cafeId": "pace-huashan",
+ "model": "qwen-max",
+ "inputDigest": "dcb1815acd07",
+ "raw": {
+  "headline": {
+   "zh": "跑步路线旁，两分钟内快速服务",
+   "en": "Quick service, ideal for runners"
+  },
+  "traits": [
+   {
+    "kind": "time",
+    "zh": "招牌饮品：跑者浓缩咖啡，两分钟内完成",
+    "en": "Runner's espresso served in under 2 minutes",
+    "from": 2
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 10,
+    "from": 2,
+    "zh": "适合快速消费后离开",
+    "en": "For quick consumption and go"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:21:25Z"
+}

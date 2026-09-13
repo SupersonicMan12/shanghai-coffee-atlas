@@ -1,0 +1,67 @@
+{
+  "cafeId": "nectar-jiangsu-rd",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "ec2253f00aab",
+  "raw": {
+    "headline": {
+      "zh": "招牌果香手冲",
+      "en": "signature fruit-sweet filter"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌Nectar处理法手冲，甜如蜜糖",
+        "en": "signature Nectar-process filter tastes dessert-sweet",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于长宁路Metrotown购物中心内，近中山公园地铁站",
+        "en": "inside Metrotown on Changning Road, near Zhongshan Park metro",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "蛋糕外观精致但不浮夸",
+        "en": "cakes are pretty but not fancy",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "手冲需专注品味",
+        "en": "requires attentive tasting"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "甜味饮品适合久坐",
+        "en": "sweet drinks encourage lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          3,
+          4
+        ],
+        "zh": "果香处理法属实验性工艺",
+        "en": "fruit-sweet processing is experimental"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:23Z"
+}

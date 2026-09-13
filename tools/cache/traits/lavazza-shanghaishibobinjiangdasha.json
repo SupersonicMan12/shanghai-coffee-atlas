@@ -1,0 +1,80 @@
+{
+  "cafeId": "lavazza-shanghaishibobinjiangdasha",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6d6ff2c1b299",
+  "raw": {
+    "headline": {
+      "zh": "上海限定咖啡豆",
+      "en": "Shanghai-exclusive coffee blend"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供上海限定拼配豆，称作'味觉情书'",
+        "en": "Serves Shanghai-exclusive coffee blend, called 'a love letter to the city'",
+        "from": [
+          6
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品含橙力香草籽雪克美式与高蛋白奶",
+        "en": "Features signature drinks like orange-vanilla shake americano and high-protein milk",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "增设舒适靠窗座位，支持慢坐休憩",
+        "en": "Offers comfortable window seats for relaxed lounging",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供烤排骨配蔬菜等餐食",
+        "en": "Serves grilled pork ribs with vegetables",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:00-20:00",
+        "en": "Open daily 07:00–20:00",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 75,
+        "from": [
+          8
+        ],
+        "zh": "有舒适座位可久坐",
+        "en": "Comfortable seats encourage lingering"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          8
+        ],
+        "zh": "兼顾休闲与社交氛围",
+        "en": "Balanced casual energy"
+      },
+      "focus": {
+        "value": 40,
+        "from": [
+          8
+        ],
+        "zh": "有座位但非专注办公环境",
+        "en": "Seated but not focused work space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:28Z"
+}

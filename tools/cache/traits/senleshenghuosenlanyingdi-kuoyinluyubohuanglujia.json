@@ -1,0 +1,53 @@
+{
+  "cafeId": "senleshenghuosenlanyingdi-kuoyinluyubohuanglujia",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "62f40d0ce878",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有多处户外躺椅与座位",
+        "en": "Multiple outdoor loungers and seats available",
+        "from": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "含多个大型帐篷及木质平台",
+        "en": "Features large tents and wooden decks",
+        "from": [
+          1,
+          3,
+          6,
+          8
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-21:00营业",
+        "en": "Open daily 10:00–21:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          3,
+          6,
+          8,
+          9
+        ],
+        "zh": "有躺椅、平台和帐篷可久坐",
+        "en": "Loungers, decks, and tents invite lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:53Z"
+}

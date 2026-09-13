@@ -1,0 +1,47 @@
+{
+  "cafeId": "yingqiaokafei-hepinghuayuan",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "e0ff05ba7377",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/21ce6a674dc8cd8fd03e7b248876fab9",
+    "https://store.is.autonavi.com/showpic/8a9dee8f935963cfe4ffdb30c38393d9",
+    "http://store.is.autonavi.com/showpic/eaec5aef1b0db8cda662e8803e7209aa"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小店，有玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间灯光照明，可见室外座位",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面外有树木和街道景观",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见空调外机等设备安装在店面上方",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:27:09Z"
+}

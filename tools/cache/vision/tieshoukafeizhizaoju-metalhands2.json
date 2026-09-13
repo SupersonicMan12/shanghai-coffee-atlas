@@ -1,0 +1,71 @@
+{
+  "cafeId": "tieshoukafeizhizaoju-metalhands2",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "cdc56cac6b76",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/db4838ccdd54de510000002861734923?type=pic",
+    "https://aos-comment.amap.com/B0FFLH2TVK/comment/aa139f4c04db94534fbbb639e8b13b54_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/a403a572c9d09e220000000671520071?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店外有长凳，多人坐在路边，可见至少8个座位。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街是大玻璃窗，店内可见吧台和咖啡机。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口停放共享单车与电瓶车，街道上有树影。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "杯中拉花为心形图案，应为拿铁类奶咖。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内吧台后方有磨豆机、咖啡机等专业设备。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "有人在店外长凳上坐着，未见使用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树，阳光透过树叶在地面投下阴影。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面位于沿街建筑一层，非商场或庭院内。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:57:42Z"
+}

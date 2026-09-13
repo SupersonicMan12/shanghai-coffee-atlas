@@ -1,0 +1,86 @@
+{
+  "cafeId": "wumingkafeiguan-zhonghegongyu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "12d570248e92",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡配安静街角",
+      "en": "Quiet corner with pour-over coffee"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "室内外均有座位，室外有树荫",
+        "en": "Indoor and outdoor seating, shaded outside",
+        "from": [
+          1,
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内落地窗，自然采光良好",
+        "en": "Floor-to-ceiling windows, good natural light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲台与磨豆机",
+        "en": "Equipped with pour-over station and grinder",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰美式等冰咖啡饮品",
+        "en": "Serves iced Americano and other cold coffee",
+        "from": [
+          7,
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日早7:30开门，周末9点起",
+        "en": "Opens 7:30am weekdays, 9am weekends",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "空间宽敞有人办公点单",
+        "en": "Spacious with people working/ordering"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          2,
+          6,
+          9
+        ],
+        "zh": "多桌椅且有人久坐休息",
+        "en": "Multiple tables, people lingering"
+      },
+      "adventure": {
+        "value": 65,
+        "from": [
+          5
+        ],
+        "zh": "设有手冲台",
+        "en": "Has pour-over setup"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:21Z"
+}

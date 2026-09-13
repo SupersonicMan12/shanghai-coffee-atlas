@@ -1,0 +1,71 @@
+{
+  "cafeId": "totoro-coffee-zhangyang-rd-400",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7721c1c69ce7",
+  "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1772076893872_45566671_1772077236068_19101117.jpg",
+    "https://aos-comment.amap.com/B0K6NN2FNE/comment/887ED888_D8AD_4D46_A2F3_75DC714BEFC6_L0_001_2000_150_1772076893896_15132972.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772076893889_83826586_1772077236070_73185131.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店内有黄色沙发椅和圆形小桌，适合两人坐",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有手冲咖啡、燕麦拿铁、可颂、巧克力面包等选项",
+      "kind": "drinks|food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示价格区间为18-58元，提供茶室套餐",
+      "kind": "drinks|food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有绿植和红色花朵装饰，临街有透明顶棚",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有隔断屏风和挂画，空间布置温馨",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可见云南古树红茶、南非红茶等茶叶来源",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有金色动物摆件陈列在菜单下方",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "玻璃门上贴有红色福字装饰",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:22:56Z"
+}

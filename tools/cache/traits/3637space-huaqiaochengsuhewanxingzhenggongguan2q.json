@@ -1,0 +1,62 @@
+{
+  "cafeId": "3637space-huaqiaochengsuhewanxingzhenggongguan2q",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "ee61d4ab0bcc",
+  "raw": {
+    "headline": {
+      "zh": "深夜营业的特调饮品空间",
+      "en": "Late-night spot for unique drinks"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供高脚杯装特调饮品，配香料或可食用花",
+        "en": "Serves cocktails in stemware with spices or edible flowers",
+        "from": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "非吧台型空间，配有沙发和餐桌餐具",
+        "en": "Non-bar layout with sofas and dining settings",
+        "from": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日17:30至次日2:00营业",
+        "en": "Open daily 17:30–02:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 70,
+        "from": [
+          4,
+          5
+        ],
+        "zh": "有沙发与餐桌适合久坐",
+        "en": "Sofas and tables invite lingering"
+      },
+      "adventure": {
+        "value": 80,
+        "from": [
+          1,
+          2,
+          3
+        ],
+        "zh": "饮品装饰与配料具实验性",
+        "en": "Drinks feature experimental garnishes"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:49Z"
+}

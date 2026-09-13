@@ -1,0 +1,86 @@
+{
+  "cafeId": "xincanzhekafei-xingfuliczuo",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "d02358bb4546",
+  "raw": {
+    "headline": {
+      "zh": "云南豆手冲专研",
+      "en": "specializing in Yunnan beans & hand pour"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "使用小A亲自处理的云南精品咖啡豆",
+        "en": "features Yunnan single-origin beans sourced and processed by owner Xiao A",
+        "from": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供冰滴、冷萃与奶基咖啡组合",
+        "en": "offers ice drip, cold brew, and milk-based coffee blends",
+        "from": [
+          3,
+          4
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "仅设有限木制矮凳，适合站喝",
+        "en": "limited wooden stools only, suited for standing orders",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 10:00-18:00",
+        "en": "open daily 10:00–18:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          7
+        ],
+        "zh": "座位少，不便久坐办公",
+        "en": "few seats, not ideal for work"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          2,
+          6
+        ],
+        "zh": "灯光柔和，无明显喧闹",
+        "en": "soft lighting, no loud noise"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "座位有限，难久坐",
+        "en": "limited seating, not meant to linger"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          3,
+          4,
+          10
+        ],
+        "zh": "多款手冲与特殊萃取方式",
+        "en": "varied brewing methods and specialty pours"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:42:53Z"
+}

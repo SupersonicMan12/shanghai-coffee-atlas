@@ -1,0 +1,53 @@
+{
+  "cafeId": "beanstar-shanghaishengrong-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2c094c5e9cf1",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/e6ebd90e71df4a615425dd3168392970",
+    "https://store.is.autonavi.com/showpic/1bbe9895a0efad7b0000002248800965?type=pic",
+    "https://store.is.autonavi.com/showpic/4bc80f4e5898a4ee0000002248820891?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于室内，有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台式咖啡店，空间较小",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡机、磨豆机等专业设备",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为拿铁类，顶部有奶泡和饼干装饰",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供带盖纸杯装咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "none",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:20:24Z"
+}

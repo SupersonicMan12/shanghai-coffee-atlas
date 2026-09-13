@@ -1,0 +1,71 @@
+{
+  "cafeId": "yibeijiakafei-tongxie-rd",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "840bd741e5e0",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/f6e7861b60e633ce50e9ce1a2facfd22",
+    "https://aos-comment.amap.com/B0HAD7CUN5/comment/471386b5116ae7de5de5c2d074db1654_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HAD7CUN5/comment/3cd415bda7c83104eedc53e32642deaa_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店面位于临街位置，有落地玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间较大，有多张桌椅",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外座位区，摆放桌椅和绿植",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内设有蓝色金属椅子和木质桌子",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示主食加饮品套餐58元",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有汉堡、咖喱饭、三文鱼意面等食物",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有咖啡、奶茶、果汁等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有植物装饰和木制人偶摆设",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:11:35Z"
+}

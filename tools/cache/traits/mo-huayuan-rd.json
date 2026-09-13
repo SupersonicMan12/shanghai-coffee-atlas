@@ -1,0 +1,84 @@
+{
+  "cafeId": "mo-huayuan-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "2e4b47db3b49",
+  "raw": {
+    "headline": {
+      "zh": "宠物友好安静办公咖啡馆",
+      "en": "Pet-friendly, quiet workspace café"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "提供沙发和座椅，舒适可坐",
+        "en": "Comfortable seating with sofas and chairs",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应玫瑰拿铁等特色饮品",
+        "en": "Serves rose latte and other specialties",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "有纽约芝士蛋糕和果酱",
+        "en": "Offers New York cheesecake and jam",
+        "from": [
+          10,
+          14
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日营业至17:30，周末至19:00",
+        "en": "Open till 17:30 weekdays, 19:00 weekends",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "允许宠物进入，店内可见猫",
+        "en": "Pet-friendly; cats present in-store",
+        "from": [
+          7,
+          11,
+          12
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 80,
+        "from": [
+          11
+        ],
+        "zh": "环境安静适合办公",
+        "en": "Quiet for focused work"
+      },
+      "linger": {
+        "value": 85,
+        "from": [
+          2,
+          11
+        ],
+        "zh": "舒适座位且安静宜久坐",
+        "en": "Comfortable and calm to stay"
+      },
+      "energy": {
+        "value": 20,
+        "from": [
+          11
+        ],
+        "zh": "环境安静少喧闹",
+        "en": "Low noise, peaceful vibe"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:56Z"
+}

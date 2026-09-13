@@ -1,0 +1,97 @@
+{
+  "facts": [
+    {
+      "text": "店内氛围带有日式复古+温馨的居家感",
+      "kind": "space",
+      "quote": "店內氛圍帶有日式復古+溫馨的居家感",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-145182585/",
+      "site": "POP 米倉– 超可愛咖啡館｜Trip.com 上海"
+    },
+    {
+      "text": "现磨咖啡：烘焙师精心筛选优质生豆，反复调试拼配比例，测试上百次找最佳烘焙度",
+      "kind": "beans",
+      "quote": "烘焙师会精心筛选优质生豆,反复调试拼配比例,测试上百次找到最佳烘焙度",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTE2ODE4Mg==&mid=2652523167&idx=1&sn=6baa880500e81f1535dffd23050fa071&chksm=bcb364c7fbcb8ef7ab8d95f95b8e2f55830eb0a995545d81aa26ddaf91b1f6b9fc86590dab82&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "招牌舒芙蕾绵密细腻，如嘴巴中融化的棉花糖；搭配芒果百香果佐食解甜",
+      "kind": "food",
+      "quote": "米仓POP的舒芙蕾非常绵密细腻,口感有微微甜,就像是嘴巴中融化的棉花糖一样",
+      "url": "https://jiameng.baidu.com/content/detail/152136687305?from=search",
+      "site": "加盟星"
+    },
+    {
+      "text": "每一款奶咖搭配一个可爱的猫咪咖啡杯挂",
+      "kind": "drinks",
+      "quote": "每一款奶咖都会搭配一个可爱的猫咪咖啡杯挂",
+      "url": "https://jiameng.baidu.com/content/detail/152136687305?from=search",
+      "site": "加盟星"
+    },
+    {
+      "text": "营业时间：9:00 - 21:00",
+      "kind": "time",
+      "quote": "营业时间:9:00 - 21:00",
+      "url": "https://m.thepaper.cn/newsDetail_forward_28801152",
+      "site": "澎湃新闻网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "米仓pop(瑞金一路店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/22577631.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "POP 米倉– 超可愛咖啡館｜Trip.com 上海",
+      "url": "https://tw.trip.com/moments/detail/shanghai-2-145182585/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "和平公园少儿馆里的治愈宝藏地,承包你的甜蜜时光!| 虹口甄选",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTE2ODE4Mg==&mid=2652523167&idx=1&sn=6baa880500e81f1535dffd23050fa071&chksm=bcb364c7fbcb8ef7ab8d95f95b8e2f55830eb0a995545d81aa26ddaf91b1f6b9fc86590dab82&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "“等台风一停,就去吃这上海TOP1”",
+      "url": "https://m.thepaper.cn/newsDetail_forward_28801152",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 5,
+      "title": "开一家米仓pop加盟费多少?大致需要5到10万元",
+      "url": "https://jiameng.baidu.com/content/detail/152136687305?from=search",
+      "site_name": "加盟星"
+    },
+    {
+      "index": 6,
+      "title": "为什么说上海是亚洲咖啡文化的集大成者? ",
+      "url": "https://chihe.sohu.com/a/1072585862_121622982",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "url": "https://new.qq.com/rain/a/20260321A030PJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:46:32Z"
+}

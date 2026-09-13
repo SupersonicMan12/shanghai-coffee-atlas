@@ -1,0 +1,35 @@
+{
+ "cafeId": "cafe-dan-tianzifang",
+ "model": "qwen-max",
+ "inputDigest": "a27c211edcbc",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "seating",
+    "zh": "一二三楼有小木桌，周末一座难求",
+    "en": "Small wooden tables on 2-3 floors; busy on weekends",
+    "from": 1,
+    ": [1, 2] ": 2
+   }
+  ],
+  "axisHints": {
+   "energy": {
+    "value": 50,
+    "from": 2,
+    "zh": "周末繁忙但空间不大",
+    "en": "Busy on weekends, small space"
+   },
+   "linger": {
+    "value": 40,
+    "from": 2,
+    "zh": "座位有限，可能需要等待",
+    "en": "Limited seats, may need to wait"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:11:04Z"
+}

@@ -1,0 +1,71 @@
+{
+  "cafeId": "thru-coffee-shanxinanlu186nongxiaoqu",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "68083a07f964",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/fba928116580507e46cb5eb85feb22a5",
+    "http://store.is.autonavi.com/showpic/148e8b945e0931d2354fc5f8d2c8f6ac",
+    "https://aos-comment.amap.com/B0FFK6VNV9/comment/C39A4915_C16F_4719_B929_049EC8B86952_L0_001_1500_200_1760888626503_74697185.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街小空间，有玻璃门和窗户",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有两把木制矮凳，可作室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡制作设备，包括手冲台和磨豆机",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单板上列有黑咖、拿铁、澳白、摩卡、卡布、冷萃等饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口贴有‘咖啡巡游记’活动海报，含二维码",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有小型黑色圆桌和白色储物箱",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见部分座椅，但具体数量无法判断",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:48Z"
+}

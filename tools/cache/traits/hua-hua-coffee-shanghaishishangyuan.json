@@ -1,0 +1,74 @@
+{
+  "cafeId": "hua-hua-coffee-shanghaishishangyuan",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "9915a39320bd",
+  "raw": {
+    "headline": {
+      "zh": "果香美式惊喜，价格实惠",
+      "en": "Surprising fruity Americano, great value"
+    },
+    "traits": [
+      {
+        "kind": "beans",
+        "zh": "咖啡豆选择丰富",
+        "en": "Wide selection of coffee beans",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "果香美式一入口就让人惊喜",
+        "en": "Fruity Americano delights on first sip",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位数量较少，含卡座和小圆桌",
+        "en": "Limited seating with booths and small round tables",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "周一至五 8:00-18:00；周日 9:30-17:30",
+        "en": "Mon–Fri 8am–6pm; Sun 9:30am–5:30pm",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "室内狭长，有落地窗和室外座位",
+        "en": "Narrow interior with floor-to-ceiling windows and outdoor seats",
+        "from": [
+          2,
+          5,
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          3
+        ],
+        "zh": "座位少，适合短暂停留",
+        "en": "Few seats, brief stay"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "果香美式具特色",
+        "en": "Distinctive fruity Americano"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:13Z"
+}

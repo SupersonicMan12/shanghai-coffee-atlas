@@ -1,0 +1,323 @@
+{
+  "cafeId": "85-c-bakery-cafe-osm-2",
+  "query": {
+    "location": "121.416874,31.170514",
+    "radius": 300,
+    "types": "050500",
+    "sortrule": "distance"
+  },
+  "fetchedAt": "2026-09-12T14:05:36Z",
+  "matchedPoiId": null,
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "4",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B0FFIPZ46K",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/00e72015b69aa094bd7afc842068e04d"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/69b179a7a518882394aaad79cc34bfe6"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54271278",
+        "id": "B0H17K5EJ9",
+        "tag": "柠檬气泡饮,美式,全麦贝果,拿铁,不止拿铁,巴旦木炼乳澳白,鲜萃奶咖,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,农夫卷,巴旦木炼乳拿铁,牛乳,奶咖",
+        "entr_location": "121.417566,31.170738",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "202",
+        "atag": "柠檬气泡饮,美式,全麦贝果,拿铁,不止拿铁,巴旦木炼乳澳白,鲜萃奶咖,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,农夫卷,巴旦木炼乳拿铁,牛乳,奶咖",
+        "name": "Tims咖啡(田林沃尔玛店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "15",
+        "importance": [],
+        "biz_ext": {
+          "cost": "20.00",
+          "opentime2": "周一至周日 07:00-20:30",
+          "rating": "3.9",
+          "open_time": "07:00-20:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630311",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-12 18:55:24",
+        "website": [],
+        "address": "桂林路402号74幢一层F1F0116铺位",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.417033,31.170516",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFH182RD",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/775ff6bd836f447b8d28597eeb4460fb"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/df29e3efe2e2889f16021641afb5bf26"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0JRJBAUW7",
+        "tag": "coffee",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": "coffee",
+        "name": "luckin coffee 瑞幸咖啡(虹梅国际广场店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "130",
+        "importance": [],
+        "biz_ext": {
+          "cost": "15.00",
+          "opentime2": "周一至周日 07:00-22:00",
+          "rating": "3.7",
+          "open_time": "07:00-22:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630310",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 23:02:01",
+        "website": [],
+        "address": "田林路105号虹梅国际广场F1层",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.415692,31.169913",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0FFG4GDV2",
+        "pcode": "310000",
+        "keytag": "饮品",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/e878bdd66d2f66fd3e9322581aec7ae2"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+          }
+        ],
+        "building": [],
+        "typecode": "050501",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "021-54650795",
+        "id": "B0FFGB6J6H",
+        "tag": "拿铁,摩卡星冰乐,焦糖玛奇朵,可可碎片星冰乐,摩卡,热巧克力,太妃榛果拿铁,牛肉,下午茶,单人餐",
+        "entr_location": "121.416327,31.17235",
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "田林",
+        "childtype": "202",
+        "atag": "拿铁,摩卡星冰乐,焦糖玛奇朵,可可碎片星冰乐,摩卡,热巧克力,太妃榛果拿铁,牛肉,下午茶,单人餐",
+        "name": "星巴克(桂林路店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "H51F010012_616229",
+        "distance": "209",
+        "importance": [],
+        "biz_ext": {
+          "cost": "30.00",
+          "opentime2": "周一至周五 07:00-21:30；周六至周日 07:30-18:00",
+          "rating": "4.6",
+          "open_time": "07:00-21:30",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630320",
+        "shopinfo": "1",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 16:58:28",
+        "website": [],
+        "address": "桂林路402号诚达创意产业园1层103室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.416308,31.172332",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": "B0JAKUONGR",
+        "pcode": "310000",
+        "keytag": "咖啡",
+        "type": "餐饮服务;咖啡厅;咖啡厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/1c546385157398558d22694e6f570ff3"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0I137YSET/comment/002716D0_95E9_4C32_9088_EDC33656F7F6_L0_001_1500_200_1765371093110_10430827.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050500",
+        "poiweight": [],
+        "citycode": "021",
+        "adname": "徐汇区",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4000100100",
+        "id": "B0I137YSET",
+        "tag": "陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,杨枝甘露,生椰拿铁",
+        "entr_location": [],
+        "adcode": "310104",
+        "pname": "上海市",
+        "biz_type": "diner",
+        "cityname": "上海市",
+        "postcode": [],
+        "business_area": "漕河泾",
+        "childtype": "202",
+        "atag": "陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,拿铁,美式,小火山黑糖厚乳,杨枝甘露,生椰拿铁",
+        "name": "瑞幸咖啡(鑫耀·光环店)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": "240",
+        "importance": [],
+        "biz_ext": {
+          "cost": "12.00",
+          "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+          "rating": "4.0",
+          "open_time": "09:00-20:00",
+          "meal_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "4621630310",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-09-11 22:23:27",
+        "website": [],
+        "address": "苍梧路10号鑫耀光环live二层L2-K02室",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "121.414442,31.169923",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  }
+}

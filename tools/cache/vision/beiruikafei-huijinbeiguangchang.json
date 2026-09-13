@@ -1,0 +1,65 @@
+{
+  "cafeId": "beiruikafei-huijinbeiguangchang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "56b089094554",
+  "photos": [
+    "https://aos-comment.amap.com/B0LKVC5OEP/comment/content_media_external_file_1000081064_ss__1767354861791_62684076.jpg",
+    "https://aos-comment.amap.com/B0LKVC5OEP/comment/content_media_external_file_1000081066_ss__1767354861811_81243492.jpg",
+    "https://store.is.autonavi.com/showpic/49204f10b04bdb2faf2a244345b8fe46"
+  ],
+  "photoKinds": [
+    "menu",
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店内可见菜单，提供多种咖啡和手作热食",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示小杯咖啡价格12-24元，大杯15-24元",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有货架展示即饮咖啡产品",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面位于商场内，临街玻璃窗可见",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面入口处有清晰的店招和品牌标识",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内空间看起来不大，座位数量未知",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见明显烘焙机、手冲台等专业器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.6
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:24:58Z"
+}

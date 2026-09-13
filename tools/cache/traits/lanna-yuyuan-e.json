@@ -1,0 +1,58 @@
+{
+ "cafeId": "lanna-yuyuan-e",
+ "model": "qwen-max",
+ "inputDigest": "bb0aa6d64933",
+ "raw": {
+  "headline": {
+   "zh": "云南单品咖啡，农场直供",
+   "en": "Yunnan single-origin, farm-sourced"
+  },
+  "traits": [
+   {
+    "kind": "beans",
+    "zh": "使用埃塞俄比亚水洗豆，花香柑橘风味",
+    "en": "Ethiopian washed beans, floral and citrus notes",
+    "from": "[7]"
+   },
+   {
+    "kind": "drinks",
+    "zh": "招牌饮品包括冰柠冷萃、薄荷咖啡和黑拿铁",
+    "en": "Signature drinks: iced lemon cold brew, mint coffee, black latte",
+    "from": "[8]"
+   },
+   {
+    "kind": "seating",
+    "zh": "临街小店，半敞开座位",
+    "en": "Street-side shop with semi-open seating",
+    "from": "[1, 6]"
+   },
+   {
+    "kind": "time",
+    "zh": "营业时间：周一至周日 10:00-19:00",
+    "en": "Open Mon-Sun 10:00-19:00",
+    "from": "[13]"
+   }
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 70,
+    "from": "[9]",
+    "zh": "适合办公，生意旺",
+    "en": "Good for work, busy"
+   },
+   "linger": {
+    "value": 50,
+    "from": "[2, 6]",
+    "zh": "小店内有高脚椅，适合短暂停留",
+    "en": "High stools, short stays"
+   },
+   "adventure": {
+    "value": 60,
+    "from": "[11, 12]",
+    "zh": "普洱高地豆与云南单品咖啡",
+    "en": "Pu'er highland & Yunnan single-origin"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:17:44Z"
+}

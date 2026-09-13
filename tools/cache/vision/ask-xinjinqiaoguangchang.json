@@ -1,0 +1,71 @@
+{
+  "cafeId": "ask-xinjinqiaoguangchang",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "c3855e822b84",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFL6DJKT/comment/4A45BE89_9CC9_4A28_A9D3_7CF50603C3E7_L0_001_1500_200_1744902942055_81596124.jpg",
+    "https://aos-comment.amap.com/B0FFL6DJKT/comment/47E3E3D9_DC00_46B0_B9D9_A80FB3B261B4_L0_001_1996_199_1759020361981_99088846.jpg",
+    "https://store.is.autonavi.com/showpic/9492da550de54f100000003375534886?type=pic"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "吧台后方有不锈钢酒头墙，至少10个黑色手柄啤酒龙头。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "木质吧台面，一只刻有「來」字标志的郁金香形啤酒杯盛深红色浑浊液体，置于印有「問·ASK」的纸巾上。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "背景墙上挂有「來問者7天打卡完成！」等中文宣传贴纸及活动海报。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第二张图中两杯透明塑料杯饮品：一杯浅蓝带白沫，一杯橙黄带气泡。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图桌面为木纹桌，左侧可见笔记本电脑一角与使用者手臂（有纹身）。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图为夜间店面外观，招牌「問·ASK」发光，门头下方贴多张黄色促销贴纸，门口站两人。",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面位于砖墙建筑底层，门为玻璃推拉门，无明显室外座位设施。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "第一张图吧台下方可见倒挂的玻璃杯架，内有多只空酒杯。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "unknown",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:19Z"
+}

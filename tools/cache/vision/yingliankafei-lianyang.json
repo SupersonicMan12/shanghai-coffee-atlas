@@ -1,0 +1,53 @@
+{
+  "cafeId": "yingliankafei-lianyang",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6c4cacad8a1d",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/129fcf308c0608ecdb04e23ccc916df3",
+    "http://store.is.autonavi.com/showpic/09ec55fab5659a07aca56fcb57cbf3a8",
+    "http://store.is.autonavi.com/showpic/82c898f3b57d2f101c4a63fc6c303e41"
+  ],
+  "photoKinds": [
+    "food",
+    "food",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "有橙色慕斯蛋糕，配果酱和奶油装饰",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有巧克力蛋糕，配覆盆子和焦糖酱",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有披萨，配火腿、芝麻菜和马苏里拉奶酪",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌上摆放有鲜花和玻璃杯",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐桌上有沙拉和饮品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:21:35Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "wvolla-brunch-chuangzhitiandichuangzhifang1qubei",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "91dcbf66fb23",
+  "raw": {
+    "headline": {
+      "zh": "全日制brunch+大屏电视",
+      "en": "All-day brunch with big-screen TV"
+    },
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "招牌菜有烟熏三文鱼班尼迪克蛋、阳光早餐拼盘、黑松露虾仁全蛋吐司",
+        "en": "Signature dishes include smoked salmon benedict, sunshine breakfast platter, and black truffle shrimp egg toast",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设有室外座位和室内木质桌椅",
+        "en": "Outdoor seating available; indoor tables are wood with gray chairs",
+        "from": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街落地窗",
+        "en": "Floor-to-ceiling windows facing the street",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 09:30–21:30（部分时段10:30–20:00）",
+        "en": "Open daily 09:30–21:30 (some periods 10:30–20:00)",
+        "from": [
+          13
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "提供宝宝椅和湿纸巾，服务关注带小孩顾客",
+        "en": "Provides baby chairs and wet wipes, attentive to customers with children",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "energy": {
+        "value": 65,
+        "from": [
+          5
+        ],
+        "zh": "店内有大屏幕电视播放画面",
+        "en": "Big-screen TV playing content"
+      },
+      "linger": {
+        "value": 75,
+        "from": [
+          12,
+          13
+        ],
+        "zh": "主打全日制brunch且营业至21:30",
+        "en": "All-day brunch served until 21:30"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:10Z"
+}

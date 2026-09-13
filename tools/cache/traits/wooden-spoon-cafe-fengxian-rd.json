@@ -1,0 +1,72 @@
+{
+  "cafeId": "wooden-spoon-cafe-fengxian-rd",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "4d3ef15e1f7d",
+  "raw": {
+    "headline": {
+      "zh": "站喝咖啡配炸物小食",
+      "en": "Grab coffee and fried bites"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "吧台式小店，无堂食座位",
+        "en": "Counter-only, no seating inside",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "常规美式可选中烘或深烘豆",
+        "en": "Medium or dark roast for standard Americano",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供拉面、炸鱿鱼、炸金针菇等餐食",
+        "en": "Serves ramen, fried squid, enoki mushrooms",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "工作日7:30-19:00，周末9:00-17:30",
+        "en": "Open 7:30–19:00 weekdays, 9:00–17:30 weekends",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "story",
+        "zh": "老板是咖啡资深专家，自研特色饮品",
+        "en": "Owner is a coffee expert who creates signature drinks",
+        "from": [
+          10
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 20,
+        "from": [
+          1
+        ],
+        "zh": "无座位仅吧台",
+        "en": "No seating, takeout style"
+      },
+      "adventure": {
+        "value": 60,
+        "from": [
+          10
+        ],
+        "zh": "老板自研特色饮品",
+        "en": "Owner crafts unique drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:40:44Z"
+}

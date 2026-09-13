@@ -1,0 +1,71 @@
+{
+  "cafeId": "yicui-sichuan-n-rd-2288",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3b221335b32f",
+  "photos": [
+    "https://aos-comment.amap.com/B0L6BPXNRE/comment/content_media_external_file_703912_ss__1766233874743_61413196.jpg",
+    "https://store.is.autonavi.com/showpic/782758bd08a3b97ff8e1a9056115cbd3",
+    "https://store.is.autonavi.com/showpic/7c47197c129bc40cec39e9b78290a0a6"
+  ],
+  "photoKinds": [
+    "storefront",
+    "other",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店铺为黑色镜面玻璃建筑，反射周围树木",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有室外座位区，设在树荫下",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有多张桌椅和遮阳棚",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见竹叶与飞鸟图案装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有顾客坐着，环境明亮",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有大型树木，提供自然遮蔽",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前有户外用餐区，布置整洁",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "部分区域设有白色帐篷式遮阳结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "many",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:24Z"
+}

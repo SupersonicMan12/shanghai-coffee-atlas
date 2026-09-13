@@ -1,0 +1,71 @@
+{
+  "cafeId": "miracle-coffee-shanghaihubindao",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "3a5e650b9877",
+  "photos": [
+    "https://aos-comment.amap.com/B0K2HZHP1C/comment/745F6FEB_8851_45E6_ACD3_D0D3B6CFCEDA_L0_001_1500_200_1756598255595_76889443.jpg",
+    "https://aos-comment.amap.com/B0K2HZHP1C/comment/0517A037_1BA6_4015_B693_D94976FCA674_L0_001_2016_151_1760345242250_67229784.jpg",
+    "https://aos-comment.amap.com/B0K2HZHP1C/comment/D82479D9_D2FC_4F1C_B208_489FC8560627_L0_001_1320_112_1765496527666_43626421.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店内有金属竖条纹吧台，后方可见咖啡机与手冲壶等器具。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "桌上摆放两顶紫色棒球帽，印有'CRA'字样，非店标。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见两款抹茶蛋糕：一层撒椰蓉，另一层饰菠萝块与奶油。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "一杯透明饮品配薄荷叶，一杯紫褐色分层冰饮（带奶盖），杯身印'miracle COFFEE'。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一块提拉米苏，表面可可粉撒出'M'字母，置于蓝色盘中。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "两杯饮品：一杯紫红色分层（疑似莓果+奶），一杯浅绿（疑似抹茶拿铁）。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一块黄蛋糕（多层海绵+奶油），顶部橙色淋面与白线装饰，插蓝色'M'标牌。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
+    },
+    {
+      "text": "两杯饮品：一杯红褐色（疑似草莓/树莓冰茶），一杯紫白渐变（疑似芋泥/蝶豆花拿铁）。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": null,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:45:53Z"
+}

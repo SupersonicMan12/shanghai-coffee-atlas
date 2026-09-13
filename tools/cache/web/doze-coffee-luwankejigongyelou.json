@@ -1,0 +1,91 @@
+{
+  "facts": [
+    {
+      "text": "提供浅烘、中烘、深烘咖啡豆",
+      "kind": "beans",
+      "quote": "咖啡豆的选择很丰富，有浅烘、中烘、深烘好几种",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/doze-coffee-134105409/",
+      "site": "Doze咖啡(上海打浦橋地區)－餐牌、食評及資訊 - Trip.com"
+    },
+    {
+      "text": "招牌饮品是香蕉澳白",
+      "kind": "drinks",
+      "quote": "小编点了一杯香蕉澳白——端上来，奶泡绵密",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247757156&idx=7&sn=2f61118de26af51adee762d497cfe030&chksm=9e7c47c282549d543ee5cd9a62ce66259741c8f7e81349919ffdd7cab74e22fba84527bd51b3&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "店内有宠物友好区域",
+      "kind": "people",
+      "quote": "店里宠物友好，经常能看到有人带着毛孩子进来",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247757156&idx=7&sn=2f61118de26af51adee762d497cfe030&chksm=9e7c47c282549d543ee5cd9a62ce66259741c8f7e81349919ffdd7cab74e22fba84527bd51b3&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "营业时间至下午5点",
+      "kind": "time",
+      "quote": "营业时间:周一至周五 7:30-17:30,周六至周日 9:00-17:30",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247757156&idx=7&sn=2f61118de26af51adee762d497cfe030&chksm=9e7c47c282549d543ee5cd9a62ce66259741c8f7e81349919ffdd7cab74e22fba84527bd51b3&scene=27",
+      "site": "腾讯网"
+    },
+    {
+      "text": "位于瞿溪路691号",
+      "kind": "space",
+      "quote": "24m上海市黄浦区五里桥街道瞿溪路汇典商务楼东北角",
+      "url": "https://m.map.360.cn/m/search/detail/pid=38e070ba71ade574",
+      "site": "360官网"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "【宝藏五里 乐享幸福】春光正好,“泡”在瞿溪路上的这里吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MjE3MzMzNA==&mid=2247757156&idx=7&sn=2f61118de26af51adee762d497cfe030&chksm=9e7c47c282549d543ee5cd9a62ce66259741c8f7e81349919ffdd7cab74e22fba84527bd51b3&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "GO享松江 | 洞泾咖啡合集,这6家宝藏小店,治愈日常所有疲惫!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTA1NDI2Ng==&mid=2651080668&idx=2&sn=9f8df4b9c2b4fbb4f10aa5a2dc39b53c&chksm=bc5c969dab41a9dfdcd19718458f6b5a914ce82ea049526fdbcc8418a752a7e080d2d4664791&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "Coffee Spot | 小小站立式咖啡馆,在角落一坐,进入属于自己都世界上海豆子_风味",
+      "url": "https://www.sohu.com/a/592284973_121124402",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "Doze咖啡(上海打浦橋地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/doze-coffee-134105409/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海的咖啡新店喝不完,真的喝不完……",
+      "url": "https://www.sohu.com/a/999294402_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "全上海最火的咖啡馆,在家也能喝上了!",
+      "url": "https://www.sohu.com/a/1029729889_113612",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "【Doze coffee】地址,电话,路线,周边设施_360地图",
+      "url": "https://m.map.360.cn/m/search/detail/pid=38e070ba71ade574",
+      "site_name": "360官网"
+    },
+    {
+      "index": 8,
+      "title": "叁叁coffee | 人满为患出品不断的咖啡馆,我被咖啡安抚了emo的情绪豆子风味_上海",
+      "url": "http://news.sohu.com/a/521260524_121124402",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus,qwen-turbo,qwen-max",
+  "fetchedAt": "2026-09-12T15:13:39Z"
+}

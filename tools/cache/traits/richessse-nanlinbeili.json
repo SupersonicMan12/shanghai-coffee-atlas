@@ -1,0 +1,74 @@
+{
+  "cafeId": "richessse-nanlinbeili",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ce42c323909a",
+  "raw": {
+    "headline": {
+      "zh": "整面落地窗+专业咖啡设备",
+      "en": "Full street-facing glass + pro espresso setup"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃窗，采光良好，窗外可见绿植",
+        "en": "Full-height street-facing windows with good natural light and visible greenery outside",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "店内设有橙白相间的现代风格座椅",
+        "en": "Modern orange-and-white seating",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "白色吧台配品牌标识，后方墙上有灯带照明",
+        "en": "White bar with brand signage and under-bar LED lighting",
+        "from": [
+          1,
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "吧台上配备咖啡机、磨豆机等专业器具",
+        "en": "Espresso machine and grinder visible on bar",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间为周一至周日 08:00-17:00",
+        "en": "Open daily 8:00–17:00",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          2
+        ],
+        "zh": "有专业咖啡设备但未见办公设施",
+        "en": "Pro gear present, no work setup seen"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          3
+        ],
+        "zh": "设现代座椅，适合久坐",
+        "en": "Designed seating supports longer stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:44:50Z"
+}

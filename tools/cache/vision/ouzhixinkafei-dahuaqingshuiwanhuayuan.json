@@ -1,0 +1,71 @@
+{
+  "cafeId": "ouzhixinkafei-dahuaqingshuiwanhuayuan",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "42fa0629808d",
+  "photos": [
+    "http://store.is.autonavi.com/showpic/d59bf72b777bb5bb8a5912792a31980d",
+    "http://store.is.autonavi.com/showpic/98c8f088ca03087a2e9c3e8adb025040",
+    "http://store.is.autonavi.com/showpic/b81cbc80a892211a4d2cecfea2f15080"
+  ],
+  "photoKinds": [
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "吧台区有虹吸壶、磨豆机等专业器具",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "二楼有开放区域，空间较大",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "多人在座位上使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街大窗采光好，窗外有绿植",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有多盆大型绿植装饰",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "座位形式多样，含沙发和木桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙上挂多幅足球主题旗帜与海报",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.75
+    },
+    {
+      "text": "吧台有充电宝设备供顾客使用",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "many",
+  "laptops": true,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T14:01:52Z"
+}

@@ -1,0 +1,80 @@
+{
+  "cafeId": "central-perk-hongkou",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "9ea768c94fd1",
+  "raw": {
+    "headline": {
+      "zh": "剧中Gunther同款老板",
+      "en": "GUNTHER-like owner on site"
+    },
+    "traits": [
+      {
+        "kind": "people",
+        "zh": "老板气质神似《老友记》Gunther",
+        "en": "Owner resembles Gunther from Friends",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "位于1933创意园区百年老建筑内",
+        "en": "Inside a century-old building at 1933 Creative Park",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为芭乐冰美式",
+        "en": "Signature drink: passionfruit iced americano",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "餐食以《老友记》主角命名",
+        "en": "Meals named after Friends characters",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至21:00，每周一休息",
+        "en": "Closes at 9 PM, closed every Monday",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 60,
+        "from": [
+          6
+        ],
+        "zh": "咖啡品质优于噱头",
+        "en": "Coffee better than gimmick"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          6
+        ],
+        "zh": "非喧闹也非静谧",
+        "en": "Moderate energy level"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          6
+        ],
+        "zh": "适合久坐休闲",
+        "en": "Good for lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:47Z"
+}

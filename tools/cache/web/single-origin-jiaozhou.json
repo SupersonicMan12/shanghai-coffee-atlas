@@ -1,0 +1,40 @@
+{
+  "facts": [
+    {
+      "text": "专注单一产地埃塞俄比亚咖啡豆，自行烘焙",
+      "kind": "beans",
+      "quote": "True to the name, they do single-origin Ethiopian beans, which they roast themse",
+      "url": "https://www.smartshanghai.com/venue/14997/single_origin_roasters_jiaozhou_lu",
+      "site": "Single Origin Roasters (Jiaozhou Lu) Shanghai - SmartShanghai"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "[Hai Lights] A taste of home, a world away - Shanghai Daily",
+      "url": "https://www.citynewsservice.cn/articles/cns/fb/hai-lights-a-taste-of-home-a-world-away-discovering-shanghais-coffee-culture-yn6o7gbn",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Single Origin Roasters (Jiaozhou Lu) Shanghai - SmartShanghai",
+      "url": "https://www.smartshanghai.com/venue/14997/single_origin_roasters_jiaozhou_lu",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "亚洲唯一!这家百年意大利品牌将“家”搬到外滩,意式正统、上海限定这里都有丨文末有福利",
+      "url": "https://www.jfdaily.com/sgh/detail?id=4024829",
+      "site_name": "解放网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:27:44Z",
+  "retriedEn": true
+}

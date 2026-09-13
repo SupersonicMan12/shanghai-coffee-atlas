@@ -1,0 +1,69 @@
+{
+  "cafeId": "kaggia-jiangning-rd-699",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7534e545b05c",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/a486cc68107a0a7b8834d6653a55ca75",
+    "https://store.is.autonavi.com/showpic/65b5c1214e337260c73fcb798cc3fe0c"
+  ],
+  "photoKinds": [
+    "interior",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店铺位于商场内，空间宽敞",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有吧台和展示柜",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有玻璃展示柜陈列商品",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见粉色装饰元素",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺入口处有玻璃门和透明橱窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有圆形镜子和柜台设计",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺内无明显烘焙设备或手冲台",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见明确饮品或食物实物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T15:16:35Z"
+}

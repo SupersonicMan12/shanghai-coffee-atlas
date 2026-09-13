@@ -1,0 +1,81 @@
+{
+  "cafeId": "cafe-monsieur",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "6ef7cc069811",
+  "raw": {
+    "headline": {
+      "zh": "Lujiazui江景咖啡",
+      "en": "Coffee with Lujiazui skyline view"
+    },
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "面向陆家嘴天际线的江边座位",
+        "en": "Waterfront seats facing Lujiazui skyline",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "提供多个优质产区咖啡豆",
+        "en": "Coffee from well-known quality regions",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "供应沙拉、意面和三明治等正餐",
+        "en": "Serves salads, pasta, and sandwiches for lunch/dinner",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐自制饼干",
+        "en": "Homemade cookies recommended",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "价格为平价水平",
+        "en": "Price level: $ (affordable)",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "江景坐久可办公",
+        "en": "Good for working while sitting"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "滨江位置但非喧闹",
+        "en": "Bund-side location, not noisy"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          5
+        ],
+        "zh": "可久坐欣赏江景",
+        "en": "Ideal for lingering by the water"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:43Z"
+}

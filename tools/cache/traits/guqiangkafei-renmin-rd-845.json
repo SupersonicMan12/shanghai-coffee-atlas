@@ -1,0 +1,76 @@
+{
+  "cafeId": "guqiangkafei-renmin-rd-845",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "c572fd8c40a1",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃房，咖啡配精酿",
+      "en": "Streetfront cafe with craft beer"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供咖啡与精酿啤酒",
+        "en": "Serves coffee and craft beer",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备手冲器具与磨豆机",
+        "en": "Has pour-over gear and grinder",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "设少量户外桌椅",
+        "en": "Few outdoor seats available",
+        "from": [
+          6,
+          9
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，内部通透可见",
+        "en": "Full street-facing glass front",
+        "from": [
+          5,
+          10
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日09:30–18:00营业",
+        "en": "Open daily 09:30–18:00",
+        "from": [
+          11
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          3
+        ],
+        "zh": "有手冲设备",
+        "en": "Pour-over setup"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          6,
+          9
+        ],
+        "zh": "有户外座位可坐",
+        "en": "Outdoor seating to stay"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:21Z"
+}

@@ -1,0 +1,75 @@
+{
+  "cafeId": "shitengkafei-renminguangchang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "282f28d7193e",
+  "raw": {
+    "headline": {
+      "zh": "手冲与简餐的临街小馆",
+      "en": "Street-side spot for pour-over and light meals"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供拿铁、冰咖啡和手冲",
+        "en": "Serves lattes, iced coffee, and pour-over",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机与手冲器具",
+        "en": "Has grinders and pour-over equipment",
+        "from": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "推荐单人餐与下午茶",
+        "en": "Offers single-person sets and afternoon tea",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "小型独立临街建筑",
+        "en": "Small standalone street-facing building",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日08:00–17:30营业",
+        "en": "Open daily 08:00–17:30",
+        "from": [
+          6
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1,
+          3
+        ],
+        "zh": "设有手冲设备与器具",
+        "en": "Pour-over setup present"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          5
+        ],
+        "zh": "小型临街店面",
+        "en": "Small street-front space"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:34:43Z"
+}

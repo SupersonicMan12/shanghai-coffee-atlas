@@ -1,0 +1,74 @@
+{
+  "cafeId": "yuenanzhongyuanchuanqikafei-nanfengcheng",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "e10457848a0e",
+  "raw": {
+    "headline": {
+      "zh": "商场里的越南滴漏咖啡",
+      "en": "Vietnamese drip coffee in mall"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "提供越南滴漏咖啡和鸡蛋咖啡",
+        "en": "Serves Vietnamese drip and egg coffee",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至18:30，周末相同",
+        "en": "Open until 18:30, weekends included",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "商场内空间宽敞，有吧台和制作区",
+        "en": "Spacious mall spot with bar and brew area",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机与萃取设备",
+        "en": "Equipped with grinders and espresso machines",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "人均约18元，价格实惠",
+        "en": "Affordable at around ¥18 per person",
+        "from": [
+          8
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          6
+        ],
+        "zh": "空间宽敞采光好，可久坐",
+        "en": "Roomy and bright for lingering"
+      },
+      "adventure": {
+        "value": 70,
+        "from": [
+          7
+        ],
+        "zh": "提供越南特色鸡蛋咖啡",
+        "en": "Features unique egg coffee"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:33:16Z"
+}

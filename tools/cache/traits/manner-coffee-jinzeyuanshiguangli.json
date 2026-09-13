@@ -1,0 +1,92 @@
+{
+  "cafeId": "manner-coffee-jinzeyuanshiguangli",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "3b4e413c5fa0",
+  "raw": {
+    "headline": {
+      "zh": "2㎡小窗店，采光好",
+      "en": "2㎡ window shop with great light"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "独立小屋式结构，面积小于5㎡",
+        "en": "Independent small kiosk under 5㎡",
+        "from": [
+          4,
+          9
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "整面临街玻璃，采光充足",
+        "en": "Full glass front with ample natural light",
+        "from": [
+          5,
+          8
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌含燕麦拿铁、冰甜",
+        "en": "Features signature oat milk latte and ice sweet",
+        "from": [
+          11
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间 07:00-17:00",
+        "en": "Open 07:00–17:00 daily",
+        "from": [
+          12
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门口设木质长椅，可短暂休息",
+        "en": "Wooden bench outside for brief rest",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 20,
+        "from": [
+          4,
+          9
+        ],
+        "zh": "空间小，不适合办公",
+        "en": "Too small for work"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          7
+        ],
+        "zh": "位于商业集中区",
+        "en": "In busy commercial area"
+      },
+      "linger": {
+        "value": 30,
+        "from": [
+          4,
+          9
+        ],
+        "zh": "站喝小店，不宜久坐",
+        "en": "Standing-only spot, not for lingering"
+      },
+      "adventure": {
+        "value": 50,
+        "from": [
+          10
+        ],
+        "zh": "自建烘焙工坊，豆子有特色",
+        "en": "Own roastery, unique beans"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:43:07Z"
+}

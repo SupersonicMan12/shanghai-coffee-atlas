@@ -1,0 +1,47 @@
+{
+  "cafeId": "grandyard-cafe-and-bar-xikang-rd-608",
+  "model": "qwen3-vl-235b-a22b-instruct",
+  "inputDigest": "ca0f9208e51f",
+  "photos": [
+    "https://aos-comment.amap.com/B00156G6DV/comment/f71afe95864db4ce9975b0728e02e54b_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/cb7dfebc8c57f38f387f8e6fe6a579f3",
+    "https://aos-comment.amap.com/B00156G6DV/comment/7d887198237fd8235853ad3642aa9c62_2048_2048_80.jpg"
+  ],
+  "photoKinds": [
+    "food",
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "木盘装炸薯条和切开的鸡肉卷，可见生菜与酱料。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有砖墙、大量酒杯与铜制杯子，上方电视播赛车。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有台阶，招牌显示“GRAND YARD CAFE AND BAR”。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域陈列多排高脚杯、烈酒杯及调酒器皿。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    }
+  ],
+  "seats": "unknown",
+  "laptops": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:59:46Z"
+}

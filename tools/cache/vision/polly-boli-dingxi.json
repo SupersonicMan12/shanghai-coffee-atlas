@@ -1,0 +1,71 @@
+{
+  "cafeId": "polly-boli-dingxi",
+  "model": "qwen3-vl-plus",
+  "inputDigest": "cd33f3996836",
+  "photos": [
+    "https://aos-comment.amap.com/B0KGT17TUC/comment/F7424C17_E5B1_4341_ABC3_88CD8AFDCA93_L0_001_1206_146_1770741192780_40411016.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769337880257_04548527_1769337990119_43341067.jpg",
+    "https://aos-comment.amap.com/B0KGT17TUC/comment/4E51AC25_AB8E_4620_BFAA_E0ECFFC59BDF_L0_001_1500_2000_1728970702865_42501892.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "drink",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "店面为深灰色墙面，黑色门框，橙色霓虹灯框标有POLLY、COFFEE、MUSIC",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.99
+    },
+    {
+      "text": "门旁手写标注营业时间：09:00–24:00",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "门口两侧各有一盆绿植（橡皮树与鸟巢蕨），左侧有金属货架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内可见一盏台灯、楼梯与绿植，未见吧台或专业咖啡设备",
+      "kind": "interior",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品含拉花拿铁（橙色杯）、分层冰咖啡（玻璃杯）、另一杯冰奶咖",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.97
+    },
+    {
+      "text": "食物含杏仁酥皮蛋糕（撒糖粉与杏仁片）、烤吐司配冰淇淋球",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.99
+    },
+    {
+      "text": "餐巾纸印有红色‘LOVE, POLLY.’字样",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.99
+    },
+    {
+      "text": "第二张图中托盘上放两份甜点与两杯咖啡，第三张图桌面为木质圆桌",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "fetchedAt": "2026-09-12T13:40:42Z"
+}

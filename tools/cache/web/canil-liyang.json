@@ -1,0 +1,44 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "Discover Shanghai's cafe scene",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20231229/a97297d0707b4c0d831439979df6f8bb.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 2,
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 3,
+      "title": "Take a Coffee Walk on Shanghai's Middle Huaihai Road",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240419/714ac05e3ef141edb967173742b26fea.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 4,
+      "title": "San Lifang Coffee (Shanghai South Railway Station Branch)",
+      "url": "https://maps.apple.com/place?auid=1118908131692112&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "Explore cafes nestled in Shanghai's parks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20250822/aa8feb5d01684d5f8e684d64c173f4ca.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 6,
+      "title": "Updates",
+      "url": "https://en.shhqcbd.gov.cn/updates_3.html",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:12Z",
+  "retriedEn": true
+}

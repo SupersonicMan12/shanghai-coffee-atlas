@@ -1,0 +1,59 @@
+{
+  "cafeId": "compass-coffee-xiaoqumenkoudiyijia",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f2b4ff28c088",
+  "photos": [
+    "https://aos-comment.amap.com/B0I66DLCEB/headerImg/e86fe82be17a4c82ea85eedee644a53a_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/dca8ecd63e23dbef644057df37924f28",
+    "https://store.is.autonavi.com/showpic/80a6fb3497905f3b0000000863472208?type=pic"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior",
+    "drink"
+  ],
+  "observations": [
+    {
+      "text": "店面有临街玻璃窗，可见店内部分景象",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内为简约风格，有吧台和少量座位",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内可见绿植装饰，营造温馨氛围",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品为分层冷萃咖啡，配有橙片和冰块",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有手冲台等专业咖啡器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见少量木质桌椅和折叠椅作为座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "seats": "few",
+  "laptops": false,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:25:40Z"
+}

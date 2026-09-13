@@ -1,0 +1,30 @@
+{
+  "cafeId": "maikafei-yuyuan1hao",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "01b2be8ff0ce",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "临街整面落地窗，外有树木遮挡",
+        "en": "Full-height street-facing windows with tree cover outside",
+        "from": [
+          1,
+          4,
+          6
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "传统风格建筑，带装饰性边框",
+        "en": "Traditional-style building with ornamental frames",
+        "from": [
+          5
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:34:58Z"
+}

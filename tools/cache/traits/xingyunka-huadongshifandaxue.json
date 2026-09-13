@@ -1,0 +1,72 @@
+{
+  "cafeId": "xingyunka-huadongshifandaxue",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "8efe0c4fd871",
+  "raw": {
+    "headline": {
+      "zh": "站喝小吧台",
+      "en": "Standing bar only"
+    },
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "无座位，仅吧台站立消费",
+        "en": "Standing-only, no seating",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "冰萃咖啡系列为推荐饮品",
+        "en": "Ice-extracted coffees are recommended",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "使用巴西、埃塞俄比亚等地阿拉比卡豆",
+        "en": "Arabica beans from Brazil, Ethiopia, etc.",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至晚上7:30，中午有间歇",
+        "en": "Closes at 7:30 PM, with midday break",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "红豆沙拿铁10元，经典美式6.9元",
+        "en": "Red bean latte 10 yuan, classic americano 6.9 yuan",
+        "from": [
+          2
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 10,
+        "from": [
+          1
+        ],
+        "zh": "无座位，无法久坐",
+        "en": "No seats, can't linger"
+      },
+      "energy": {
+        "value": 40,
+        "from": [
+          7
+        ],
+        "zh": "位于大学城，人流密集",
+        "en": "In university town, high foot traffic"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:45:27Z"
+}

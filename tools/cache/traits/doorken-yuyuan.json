@@ -1,0 +1,54 @@
+{
+ "cafeId": "doorken-yuyuan",
+ "model": "qwen-max",
+ "inputDigest": "8bbf1c06fe4e",
+ "raw": {
+  "headline": {
+   "zh": "寻找门把手，开启独特咖啡体验",
+   "en": "Find the doorknob, start a unique coffee journey"
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "临街大玻璃窗，采光良好视野开阔",
+    "en": "Large street-facing window with great lighting",
+    "from": 5
+   },
+   {
+    "kind": "seating",
+    "zh": "狭长吧台前有木椅，右侧设有一桌两椅",
+    "en": "Narrow bar with stools, one table for two",
+    "from": 2,
+    ":{": -1
+   },
+   "from"
+  ],
+  "axisHints": {
+   "focus": {
+    "value": 40,
+    "from": 2,
+    "zh": "狭长布局，适合轻度工作",
+    "en": "Narrow layout, light work"
+   },
+   "energy": {
+    "value": 30,
+    "from": 2,
+    "],": "室内座位有限，相对安静",
+    "en": "Limited seats, relatively quiet"
+   },
+   "linger": {
+    "value": 60,
+    "from": 2,
+    "],": "有桌椅设置，适合久坐",
+    "en": "Table and chairs, good for lingering"
+   },
+   "adventure": {
+    "value": 70,
+    "from": 8,
+    "],": "招牌饮品独特，鼓励尝试",
+    "en": "Unique signature drink, encourages exploration"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:19:58Z"
+}

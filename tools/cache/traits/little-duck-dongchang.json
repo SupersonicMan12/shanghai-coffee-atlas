@@ -1,0 +1,50 @@
+{
+ "cafeId": "little-duck-dongchang",
+ "model": "qwen-max",
+ "inputDigest": "e4e4798996d4",
+ "raw": {
+  "headline": {
+   "zh": null,
+   "en": null
+  },
+  "traits": [
+   {
+    "kind": "view",
+    "zh": "整面临街玻璃，视野开阔",
+    "en": "Full street-facing glass, wide view",
+    "from": 8
+   },
+   {
+    "kind": "seating",
+    "zh": "室内空间紧凑，室外也有座位",
+    "en": "Compact indoor space, with outdoor seats",
+    "from": 3,
+    ",": 7
+   },
+   {
+    "kind": "time",
+    "zh": "工作日早7:30开始营业",
+    "en": "Opens at 7:30 on weekdays",
+    "from": 4,
+    "],": 11
+   }
+  ],
+  "axisHints": {
+   "linger": {
+    "value": 50,
+    "from": 3,
+    "],": 12,
+    "zh": "有户外座位适合久坐",
+    "en": "Outdoor seating for lingering"
+   },
+   "energy": {
+    "value": 40,
+    "from": 2,
+    "],": 9,
+    "zh": "社区氛围安静",
+    "en": "Quiet community vibe"
+   }
+  }
+ },
+ "fetchedAt": "2026-09-12T14:15:54Z"
+}

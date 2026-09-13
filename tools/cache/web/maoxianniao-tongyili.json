@@ -1,0 +1,44 @@
+{
+  "facts": [],
+  "results": [
+    {
+      "index": 1,
+      "title": "InterContinental Shanghai Wonderland",
+      "url": "https://www.meet-in-shanghai.net/en/hotels/intercontinental-shanghai-wonderland-442418/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 2,
+      "title": "Explorelife Family Club in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9823E228C85&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "Explore Shanghai's pet-friendly cafés",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240223/eb3f68cb36724d068891dccc2989e94c.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "Discover Shanghai's heartfelt cafes that help folks",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240823/f098caef928a48a495162811624512a4.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 5,
+      "title": "Bird(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d15264006-Reviews-Bird-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "The unique flavors, history and stories that make Shanghai coffee special",
+      "url": "http://service.shanghai.gov.cn/sheninfo/specialdetail.aspx?Id=d6a83d99-db4d-4e43-a5b5-01f9cc0abdcb",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-12T16:28:27Z",
+  "retriedEn": true
+}

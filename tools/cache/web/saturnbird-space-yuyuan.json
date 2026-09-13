@@ -1,0 +1,106 @@
+{
+  "facts": [
+    {
+      "text": "26个英文字母对应26种颜色与精品咖啡风味，分单一产地、特别拼配、创新发酵三类",
+      "kind": "beans",
+      "quote": "该系列通过26个英文字母、26种不同颜色来代表对应精品咖啡的多元风味",
+      "url": "https://news.sohu.com/a/831557820_141121",
+      "site": "搜狐网"
+    },
+    {
+      "text": "配置自主研发咖啡试饮设备，按钮对应风味，可现场对比体验如试香",
+      "kind": "beans",
+      "quote": "配置了多台自主研发的咖啡试饮设备,每一台机器上的按钮都对应着一款咖啡风味",
+      "url": "https://news.sohu.com/a/831557820_141121",
+      "site": "搜狐网"
+    },
+    {
+      "text": "三款当季豆子：黑巧拼配、莓果拼配、花魁SOE（单一产地）",
+      "kind": "beans",
+      "quote": "三款当季咖啡豆可选,分别是黑巧拼配、莓果拼配与花魁SOE(单一产地)",
+      "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20210923/293549.html",
+      "site": "上海徐汇政府门户网"
+    },
+    {
+      "text": "26个字母按浅烘、中烘、深烘和创新发酵分四个独立零售区",
+      "kind": "beans",
+      "quote": "26 个字母按照烘焙的浅烘、中烘、深烘和创新发酵被陈列在四个独立的零售区域",
+      "url": "https://m.digitaling.com/articles/1284345.html",
+      "site": "无"
+    },
+    {
+      "text": "提供美式、拿铁、燕麦拿铁与澳白4种基础款，及星球风味、飞行限定特调",
+      "kind": "drinks",
+      "quote": "店里提供美式、拿铁、燕麦拿铁与澳白4种基础款咖啡,特调被分为星球风味与飞行限定两类",
+      "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20210923/293549.html",
+      "site": "上海徐汇政府门户网"
+    },
+    {
+      "text": "特调「膏膏桔」以潮汕老药桔搭配龙眼为灵感",
+      "kind": "drinks",
+      "quote": "店内推出以潮汕老药桔搭配龙眼为灵感打造的特调饮品「膏膏桔」",
+      "url": "https://news.sohu.com/a/831557820_141121",
+      "site": "搜狐网"
+    },
+    {
+      "text": "空间由三顿半、原力飞行、返航计划三板块+流动展览构成",
+      "kind": "space",
+      "quote": "三顿半空间位于上海长宁区愚园路，包含三顿半、原力飞行、返航计划3 个板块和1 个流动的展览",
+      "url": "https://www.foodtalks.cn/flash/19747",
+      "site": "FoodTalks全球食品资讯网"
+    },
+    {
+      "text": "使用返航小罐子、再生咖啡渣、回收老木头作为建筑与家具材料",
+      "kind": "space",
+      "quote": "三种循环材料: 返航回来的小罐子、咖啡渣、以及回收的老木头。一同构成了建筑和家具的重要组成",
+      "url": "https://m.digitaling.com/articles/1284345.html",
+      "site": "无"
+    }
+  ],
+  "results": [
+    {
+      "index": 1,
+      "title": "三顿半空间 WITH SATURNBIRD 探班报告 ",
+      "url": "https://news.sohu.com/a/831557820_141121",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "探访愚园路三顿半空间:三顿半正在从咖啡走向「风味平台」",
+      "url": "https://k.sina.com.cn/article_7600613168_1c508273001901jvs4.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 3,
+      "title": "三顿半上海线下店来了,有安福路限定和周边,空间设计融入街区",
+      "url": "https://www.xuhui.gov.cn/xwzx_bmlf/20210923/293549.html",
+      "site_name": "上海徐汇政府门户网"
+    },
+    {
+      "index": 4,
+      "title": "三顿半首个品牌线下体验空间即将开启试营业 - FoodTalks",
+      "url": "https://www.foodtalks.cn/flash/19747",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 5,
+      "title": "上海必試咖啡店：三頓半Saturnbird - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-139225809/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "探访愚园路三顿半空间：三顿半正在从咖啡走向风味平台 - 新浪财经",
+      "url": "https://finance.sina.com.cn/tech/roll/2024-11-11/doc-incvsqmm7379894.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "在风味与循环中,三顿半的慢慢进化",
+      "url": "https://m.digitaling.com/articles/1284345.html",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus",
+  "fetchedAt": "2026-09-12T13:43:25Z"
+}

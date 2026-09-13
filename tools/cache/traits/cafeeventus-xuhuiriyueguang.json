@@ -1,0 +1,72 @@
+{
+  "cafeId": "cafeeventus-xuhuiriyueguang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "af7ecf26c529",
+  "raw": {
+    "headline": {
+      "zh": "临街整面落地窗咖啡馆",
+      "en": "Cafe with floor-to-ceiling street-facing windows"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "小型独立店，临街玻璃窗",
+        "en": "Small independent cafe with street-facing glass front",
+        "from": [
+          1,
+          6
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "大面积临街玻璃窗，采光良好",
+        "en": "Large street-facing glass windows provide ample natural light",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "门前有三张白色小圆桌，设室外座位",
+        "en": "Three white round tables on the sidewalk for outdoor seating",
+        "from": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "高德推荐菜为coffee",
+        "en": "Coffee is the top recommended item on Gaode",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "zh": "小型临街店，以室外座位为主",
+        "en": "Small street-facing setup, primarily outdoor seating"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2,
+          5
+        ],
+        "zh": "提供三张室外小圆桌",
+        "en": "Offers three sidewalk tables"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:42:02Z"
+}

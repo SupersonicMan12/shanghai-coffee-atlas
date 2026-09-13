@@ -1,0 +1,54 @@
+{
+  "cafeId": "birdie-cup-coffee-xuhuibinjiang",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b456767f9ac8",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "设有室外座位",
+        "en": "Outdoor seating available",
+        "from": [
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日10:00-20:00营业",
+        "en": "Open daily 10:00–20:00",
+        "from": [
+          8
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供点心",
+        "en": "Serves pastries",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "供应咖啡",
+        "en": "Serves coffee",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "linger": {
+        "value": 40,
+        "from": [
+          5,
+          7
+        ],
+        "zh": "有室外座位但为街边店",
+        "en": "Outdoor seats, street-side"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:41:30Z"
+}

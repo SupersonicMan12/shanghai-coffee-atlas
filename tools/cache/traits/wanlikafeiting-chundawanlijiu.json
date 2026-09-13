@@ -1,0 +1,39 @@
+{
+  "cafeId": "wanlikafeiting-chundawanlijiu",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "b1d48cbe62fb",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "food",
+        "zh": "提供烤肉、海鲜、沙拉等多种菜肴",
+        "en": "Serves grilled meat, seafood, and salads",
+        "from": [
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "座位数量较多，设圆形围栏隔断",
+        "en": "Plenty of seats with circular partition dividers",
+        "from": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为06:30至22:00",
+        "en": "Open daily 06:30–22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {}
+  },
+  "fetchedAt": "2026-09-12T15:37:40Z"
+}

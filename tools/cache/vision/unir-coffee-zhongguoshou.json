@@ -1,0 +1,58 @@
+{
+  "cafeId": "unir-coffee-zhongguoshou",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "860c8df1d616",
+  "photos": [
+    "https://store.is.autonavi.com/showpic/30642b9fba84d8e70000003078248036?type=pic",
+    "https://aos-comment.amap.com/B0K12MA5OC/comment/8C21F9AE_D677_49CD_8361_A35F3BB9367A_L0_001_1498_199_1771438385733_18709707.jpg",
+    "https://aos-comment.amap.com/B0K12MA5OC/comment/5A0D3BB7_B386_421E_B0C0_FCF8B357D1D5_L0_001_1500_200_1771438385738_85158925.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "interior"
+  ],
+  "observations": [
+    {
+      "text": "店面有室外座位区，摆放多张藤编椅。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为开放式吧台设计，吧台后有咖啡师工作。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见磨豆机等专业咖啡器具。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "墙面有“LOVE IS LIKE A COFFEE”字样装饰。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有树木遮阳，环境较阴凉。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": true,
+  "fetchedAt": "2026-09-12T15:24:54Z"
+}

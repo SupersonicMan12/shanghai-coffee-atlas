@@ -1,0 +1,66 @@
+{
+  "cafeId": "qiyuedekafeidian-shimener-rd",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "28a258e11736",
+  "raw": {
+    "headline": {
+      "zh": "手冲专区配落地窗",
+      "en": "Hand-brew station with floor-to-ceiling windows"
+    },
+    "traits": [
+      {
+        "kind": "light",
+        "zh": "吧台后有落地窗，采光良好",
+        "en": "Floor-to-ceiling window behind bar provides ample light",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "窗外可见绿植和街道",
+        "en": "View of greenery and street outside",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "配备磨豆机和手冲器具",
+        "en": "Equipped with grinder and pour-over tools",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业至14:30",
+        "en": "Open daily until 14:30",
+        "from": [
+          7
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          2
+        ],
+        "zh": "设有手冲咖啡设备",
+        "en": "Pour-over setup available"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          3,
+          4,
+          5
+        ],
+        "zh": "采光好带街景视野",
+        "en": "Good light and street view"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:35:23Z"
+}

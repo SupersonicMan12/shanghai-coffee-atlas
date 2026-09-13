@@ -1,0 +1,71 @@
+{
+  "cafeId": "yikafei-huangpi-s-rd-373",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "98bafe4463cb",
+  "photos": [
+    "https://aos-comment.amap.com/B0I1L4G399/comment/8A9EDC30_815F_4136_A230_382E77DCC17D_L0_001_1500_200_1769270886082_41986354.jpg",
+    "https://aos-comment.amap.com/B0I1L4G399/comment/1A54D4F6_29F6_4F50_8CCF_5700463FAD70_L0_001_1500_200_1766214406573_24888632.jpg",
+    "https://aos-comment.amap.com/B0I1L4G399/comment/3F4790DE_11AF_4472_8025_8CA676087CF6_L0_001_1502_2000_1732936803498_43990775.jpg"
+  ],
+  "photoKinds": [
+    "storefront",
+    "menu",
+    "food"
+  ],
+  "observations": [
+    {
+      "text": "门店位于黄陂南路373号，临街砖墙建筑",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有咖啡和甜点的促销广告牌",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜中有可颂、贝果、三明治、蛋糕等食物",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有熊猫瓦当套餐、拿铁、抹茶等饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "部分套餐价格为55元、71元、98元、118元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列有瓶装果汁和即饮饮料",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有大型咖啡杯和冰淇淋模型装饰",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃展示柜内有多种糕点和面包",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    }
+  ],
+  "seats": "unknown",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:14:52Z"
+}

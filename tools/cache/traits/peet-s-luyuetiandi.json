@@ -1,0 +1,86 @@
+{
+  "cafeId": "peet-s-luyuetiandi",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "793b37d873dd",
+  "raw": {
+    "headline": {
+      "zh": "临街玻璃+绿植庭院",
+      "en": "Street-facing glass with greenery patio"
+    },
+    "traits": [
+      {
+        "kind": "space",
+        "zh": "设有室外座位区，临街可坐",
+        "en": "Outdoor seating area facing the street",
+        "from": [
+          2,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "玻璃幕墙结构，采光良好",
+        "en": "Glass facade with excellent natural lighting",
+        "from": [
+          4,
+          8
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "只用21天内新鲜烘焙的咖啡豆",
+        "en": "Uses coffee beans roasted within 21 days",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品巨星澳白，33元/杯",
+        "en": "Star drink: Giant Au Lait, 33 RMB",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间周一至周日 07:30-18:00",
+        "en": "Open daily 07:30–18:00",
+        "from": [
+          13
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 40,
+        "from": [
+          13
+        ],
+        "zh": "营业时间较早结束",
+        "en": "Closes early"
+      },
+      "energy": {
+        "value": 60,
+        "from": [
+          5
+        ],
+        "zh": "临街有行人经过",
+        "en": "Street foot traffic"
+      },
+      "linger": {
+        "value": 50,
+        "from": [
+          2,
+          6,
+          7
+        ],
+        "zh": "有室外座位适合久坐",
+        "en": "Outdoor seats encourage lingering"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:44:49Z"
+}

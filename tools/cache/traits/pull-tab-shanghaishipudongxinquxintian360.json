@@ -1,0 +1,66 @@
+{
+  "cafeId": "pull-tab-shanghaishipudongxinquxintian360",
+  "model": "qwen3-max,qwen-plus-latest,qwen-flash,qwen3-235b-a22b-instruct-2507,deepseek-v3.1",
+  "inputDigest": "ec5053547a48",
+  "raw": {
+    "headline": {
+      "zh": "瀑布手打咖啡+实惠套餐",
+      "en": "Hand-beaten coffee with value sets"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌饮品为PT瀑布手打咖啡",
+        "en": "Signature drink is PT hand-beaten coffee",
+        "from": [
+          1
+        ]
+      },
+      {
+        "kind": "food",
+        "zh": "提供咖啡蛋挞作为下午茶选项",
+        "en": "Serves coffee egg tarts for afternoon tea",
+        "from": [
+          5
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "有南洋咖啡kopi-O和老盐话梅冻柠水",
+        "en": "Offers kopi-O and salted plum lemonade",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "price",
+        "zh": "部分饮品叠加折扣后19.9元",
+        "en": "Some drinks from ¥19.9 after discounts",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "每日营业时间为07:00–22:00",
+        "en": "Open daily 07:00–22:00",
+        "from": [
+          9
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 70,
+        "from": [
+          1,
+          3,
+          7
+        ],
+        "zh": "含手打及特色风味饮品",
+        "en": "Features hand-beaten & unique drinks"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T15:38:47Z"
+}

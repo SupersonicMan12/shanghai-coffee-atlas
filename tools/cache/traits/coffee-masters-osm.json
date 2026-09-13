@@ -1,0 +1,46 @@
+{
+  "cafeId": "coffee-masters-osm",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e641a6f31a78",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "view",
+        "zh": "位于滴水湖西岸，视野开阔",
+        "en": "Overlooks Dishui Lake with open views",
+        "from": [
+          2
+        ]
+      },
+      {
+        "kind": "drinks",
+        "zh": "提供意式浓缩、手冲及拉花拿铁",
+        "en": "Serves espresso, pour-over, and latte art",
+        "from": [
+          1
+        ]
+      }
+    ],
+    "axisHints": {
+      "adventure": {
+        "value": 60,
+        "from": [
+          1
+        ],
+        "zh": "提供手冲与品鉴体验",
+        "en": "Offers pour-over and tasting"
+      },
+      "linger": {
+        "value": 70,
+        "from": [
+          1,
+          2
+        ],
+        "zh": "可参与咖啡制作且环境开阔",
+        "en": "Coffee-making activity and lake view"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:41:56Z"
+}

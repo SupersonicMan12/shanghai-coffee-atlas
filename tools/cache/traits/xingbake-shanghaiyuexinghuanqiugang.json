@@ -1,0 +1,74 @@
+{
+  "cafeId": "xingbake-shanghaiyuexinghuanqiugang",
+  "model": "qwen3-max,qwen3-235b-a22b-instruct-2507,qwen-plus-latest,deepseek-v3.1",
+  "inputDigest": "e60b228aab17",
+  "raw": {
+    "headline": null,
+    "traits": [
+      {
+        "kind": "seating",
+        "zh": "店内为桌椅组合，数量适中",
+        "en": "Tables and chairs, moderate quantity",
+        "from": [
+          4
+        ]
+      },
+      {
+        "kind": "people",
+        "zh": "有顾客使用笔记本电脑",
+        "en": "Customers use laptops",
+        "from": [
+          2,
+          7
+        ]
+      },
+      {
+        "kind": "light",
+        "zh": "室内采光良好，无自然光直射",
+        "en": "Well-lit interior, no direct sunlight",
+        "from": [
+          3
+        ]
+      },
+      {
+        "kind": "view",
+        "zh": "整面临街玻璃，橱窗带棕榈叶装饰",
+        "en": "Full street-facing glass with palm decor",
+        "from": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业时间10:00-22:00",
+        "en": "Open 10:00–22:00 daily",
+        "from": [
+          16
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 70,
+        "from": [
+          2,
+          7
+        ],
+        "zh": "可见多人用电脑办公",
+        "en": "Laptop users present"
+      },
+      "linger": {
+        "value": 60,
+        "from": [
+          1,
+          2,
+          4
+        ],
+        "zh": "有桌椅且有人久坐",
+        "en": "Seating for staying"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T14:43:48Z"
+}

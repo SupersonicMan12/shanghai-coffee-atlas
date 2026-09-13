@@ -1,0 +1,71 @@
+{
+  "cafeId": "littlebean-qijian",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "adc3130da363",
+  "photos": [
+    "https://aos-comment.amap.com/B0FFGMLT8M/comment/64817d7a899cf01bb751472f5fa47d0f_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/21c44be6efc043ab2bafd9a7e80568d8",
+    "http://store.is.autonavi.com/showpic/8758cc7fcba1c6f898ccc91b2cdbc82f"
+  ],
+  "photoKinds": [
+    "storefront",
+    "storefront",
+    "storefront"
+  ],
+  "observations": [
+    {
+      "text": "店面有大面积落地玻璃窗",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有指示牌，指向咖啡区域",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台和桌椅，空间较开阔",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有长条形花坛，种植植物",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有白色高脚凳和圆形桌子",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可见室内有遮阳伞和绿植",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "门口有玻璃门，内部光线明亮",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面为灰色地砖，整洁干净",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.8
+    }
+  ],
+  "seats": "some",
+  "laptops": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "fetchedAt": "2026-09-12T15:19:27Z"
+}

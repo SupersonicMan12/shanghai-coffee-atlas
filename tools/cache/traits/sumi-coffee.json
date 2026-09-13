@@ -1,0 +1,86 @@
+{
+  "cafeId": "sumi-coffee",
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "inputDigest": "c0630d51b7ac",
+  "raw": {
+    "headline": {
+      "zh": "手冲咖啡，一杯一做",
+      "en": "Hand drip, one cup at a time"
+    },
+    "traits": [
+      {
+        "kind": "drinks",
+        "zh": "招牌为手冲咖啡，每杯单独冲煮",
+        "en": "Specializes in hand drip, one cup at a time",
+        "from": [
+          9
+        ]
+      },
+      {
+        "kind": "seating",
+        "zh": "室内吧台配高脚凳，外摆6把黑椅4张圆桌",
+        "en": "Counter with high stools, 6 black folding chairs and 4 round tables outside",
+        "from": [
+          1,
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "kind": "time",
+        "zh": "营业至凌晨1点（周五至周六）",
+        "en": "Closes at 1 AM on Fridays and Saturdays",
+        "from": [
+          10
+        ]
+      },
+      {
+        "kind": "space",
+        "zh": "空间紧凑，有吧台、纸灯笼与木质家具",
+        "en": "Compact space with counter, paper lanterns, and wooden furniture",
+        "from": [
+          3,
+          6
+        ]
+      },
+      {
+        "kind": "beans",
+        "zh": "店内可见咖啡机与磨豆机，无烘焙设备",
+        "en": "Coffee machines and grinder visible, no roaster on site",
+        "from": [
+          4
+        ]
+      }
+    ],
+    "axisHints": {
+      "focus": {
+        "value": 30,
+        "from": [
+          8
+        ],
+        "zh": "一人一壶，需耐心等待",
+        "en": "One barista, one kettle, wait required"
+      },
+      "energy": {
+        "value": 50,
+        "from": [
+          8,
+          10
+        ],
+        "zh": "排队等候，略显热闹",
+        "en": "Queue forms, moderately lively"
+      },
+      "linger": {
+        "value": 40,
+        "from": [
+          8,
+          10
+        ],
+        "zh": "手冲需等待，适合短坐",
+        "en": "Requires waiting, not built for long stays"
+      }
+    }
+  },
+  "fetchedAt": "2026-09-12T16:41:14Z"
+}
