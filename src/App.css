@@ -1053,6 +1053,10 @@
   stroke-width: 4px;
 }
 
+.me.me-aside {
+  opacity: 0.55;
+}
+
 .me-pulse {
   transform-origin: 0 0;
   transform-box: fill-box;

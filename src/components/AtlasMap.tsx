@@ -980,16 +980,22 @@ export function AtlasMap({
             {me && (
               <g
                 transform={`translate(${project(me.lng, me.lat).join(',')}) scale(${inv})`}
-                className="me"
+                className={`me${anchor && anchor.kind !== 'me' ? ' me-aside' : ''}`}
                 pointerEvents="none"
               >
-                <circle className="me-pulse" r="18" fill="none" stroke="var(--accent)" strokeWidth="2" />
-                <circle r="30" fill="var(--accent)" fillOpacity="0.14" />
-                <circle r="10" fill="var(--accent)" stroke="var(--paper)" strokeWidth="3" />
-                <circle r="3.2" fill="var(--paper)" />
-                <text y="-24" textAnchor="middle" className="me-label">
-                  {t(UI.youAreHere)}
-                </text>
+                {(!anchor || anchor.kind === 'me') && (
+                  <>
+                    <circle className="me-pulse" r="22" fill="none" stroke="var(--accent)" strokeWidth="2.5" />
+                    <circle r="40" fill="var(--accent)" fillOpacity="0.14" />
+                  </>
+                )}
+                <circle r="12" fill="var(--accent)" stroke="var(--paper)" strokeWidth="3.5" />
+                <circle r="4" fill="var(--paper)" />
+                {(!anchor || anchor.kind === 'me') && (
+                  <text y="-28" textAnchor="middle" className="me-label">
+                    {t(UI.youAreHere)}
+                  </text>
+                )}
               </g>
             )}
           </g>

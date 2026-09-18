@@ -1,4 +1,4 @@
-import type { Axes, Cafe } from '../data/types'
+import type { Axes, Cafe, Tag } from '../data/types'
 import type { Pair } from './i18n'
 import type { Weights } from './match'
 import type { PhaseId } from './palette'
@@ -17,6 +17,10 @@ export interface ScenarioFilter {
   maxPrice?: 1 | 2 | 3
   /** Only cafés the atlas has field-checked (no `source: 'imported'`). */
   curatedOnly?: boolean
+  /** Cafés carrying any of these hard-fact tags are out. */
+  excludeTags?: Tag[]
+  /** The plan needs this many hours of sitting; closing sooner disqualifies. */
+  stayHours?: number
 }
 
 export interface Scenario {
@@ -54,6 +58,7 @@ export const SCENARIOS: Scenario[] = [
     },
     axes: { focus: 90, energy: 25, linger: 85, adventure: 35, spend: 40 },
     weights: w({ focus: 1, energy: 1, linger: 1 }),
+    filter: { excludeTags: ['no-laptops', 'standing-only'], stayHours: 2 },
     phases: ['morning', 'afternoon'],
   },
   {
@@ -65,6 +70,7 @@ export const SCENARIOS: Scenario[] = [
     },
     axes: { focus: 20, energy: 45, linger: 65, adventure: 60, spend: 65 },
     weights: w({ focus: 1, energy: 1, adventure: 1, spend: 1 }),
+    filter: { excludeTags: ['standing-only'], stayHours: 1 },
     phases: ['afternoon', 'dusk'],
   },
   {
@@ -76,6 +82,7 @@ export const SCENARIOS: Scenario[] = [
     },
     axes: { focus: 35, energy: 30, linger: 90, adventure: 45, spend: 45 },
     weights: w({ linger: 1, energy: 1, focus: 0.6 }),
+    filter: { excludeTags: ['standing-only'], stayHours: 2 },
     phases: ['morning', 'afternoon'],
   },
   {
@@ -87,6 +94,7 @@ export const SCENARIOS: Scenario[] = [
     },
     axes: { focus: 40, energy: 35, linger: 55, adventure: 30, spend: 60 },
     weights: w({ focus: 1, energy: 1, spend: 1, linger: 0.5 }),
+    filter: { excludeTags: ['standing-only'], stayHours: 1 },
     phases: ['morning', 'afternoon'],
   },
   {
@@ -151,8 +159,20 @@ export function scenariosForPhase(phase: PhaseId): Scenario[] {
   )
 }
 
-export function passesScenarioFilter(cafe: Cafe, f: ScenarioFilter | undefined): boolean {
+export function passesScenarioFilter(
+  cafe: Cafe,
+  f: ScenarioFilter | undefined,
+  minutesLeft?: number | null,
+): boolean {
   if (!f) return true
+  if (f.excludeTags && f.excludeTags.some((tag) => cafe.tags.includes(tag))) return false
+  if (
+    f.stayHours !== undefined &&
+    minutesLeft !== undefined &&
+    minutesLeft !== null &&
+    minutesLeft < f.stayHours * 60
+  )
+    return false
   if (f.opensBy !== undefined && cafe.opens > f.opensBy) return false
   if (f.openUntil !== undefined) {
     const close = cafe.closes <= cafe.opens ? cafe.closes + 24 : cafe.closes

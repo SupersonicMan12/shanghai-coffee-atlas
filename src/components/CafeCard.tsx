@@ -49,10 +49,7 @@ interface Props {
   onStamp: () => void
   onSave: () => void
   onTaxi: () => void
-  onMoreLikeThis: () => void
-  onShare: () => void
   onShareCard: () => void
-  shared: boolean
 }
 
 function hours(cafe: Cafe) {
@@ -75,10 +72,7 @@ export function CafeCard({
   onStamp,
   onSave,
   onTaxi,
-  onMoreLikeThis,
-  onShare,
   onShareCard,
-  shared,
 }: Props) {
   const open = isOpenAt(cafe, hour, weekday)
   const { mode, t } = useI18n()
@@ -307,19 +301,13 @@ export function CafeCard({
           {t(UI.taxiCard)}
           {mode === 'both' && ' 出租车卡'}
         </button>
-        <button className="act" onClick={onMoreLikeThis}>
-          {t(UI.moreLikeThis)}
-        </button>
-        <button className="act" onClick={onShare}>
-          {shared ? t(UI.linkCopied) : t(UI.share)}
-        </button>
         <button className="act" onClick={onShareCard}>
           {t(UI.shareCard)}
           {mode === 'both' && ' 分享卡片'}
         </button>
       </div>
 
-      <CalibrateWidget cafe={cafe} />
+      {visited && <CalibrateWidget cafe={cafe} />}
 
       {cafe.tags.length > 0 && (
         <div className="card-tags">

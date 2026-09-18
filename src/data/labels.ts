@@ -310,7 +310,7 @@ export const UI = {
   scenarioClear: { en: 'Clear scenario', zh: '取消场景' },
   compassSays: { en: 'Compass says', zh: '罗盘说' },
   pickWord: { en: 'Pick', zh: '首选' },
-  estimateMark: { en: 'est.', zh: '估' },
+  estimateMark: { en: 'unverified', zh: '未核实' },
   estimateTitle: {
     en: 'Estimated — no external source has confirmed this café yet.',
     zh: '估算值——尚无外部来源核实这家店。',

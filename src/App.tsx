@@ -12,8 +12,6 @@ import { LocationPanel, type GeoStatus } from './components/LocationPanel'
 import { ResultsStrip } from './components/ResultsStrip'
 import { SearchBox } from './components/SearchBox'
 import { ListView } from './components/ListView'
-import { Onboarding } from './components/Onboarding'
-import { shouldOnboard } from './lib/onboard'
 import { TaxiCard } from './components/TaxiCard'
 import { ShareCardModal, type PicksShare, type ShareKind } from './components/ShareCard'
 import {
@@ -26,7 +24,15 @@ import {
   type Filters,
   type Ranked,
 } from './lib/match'
-import { anchorFromHash, anchorLabel, anchorPoint, anchorToHash, rankNear, type Anchor } from './lib/near'
+import {
+  anchorFromHash,
+  anchorLabel,
+  anchorPoint,
+  anchorToHash,
+  minutesToClose,
+  rankNear,
+  type Anchor,
+} from './lib/near'
 import { formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { detailFor } from './lib/details'
 import {
@@ -47,6 +53,8 @@ type View = 'map' | 'list'
 type Lang = LangMode
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
+/** A café shutting sooner than this is not a recommendation, even if open. */
+const MIN_MINUTES_LEFT = 30
 
 interface HashState {
   cafe?: string
@@ -148,7 +156,6 @@ export default function App() {
     () => typeof window === 'undefined' || window.innerWidth > 900,
   )
   const [view, setView] = useState<View>(initial.view ?? 'map')
-  const [onboard, setOnboard] = useState(() => shouldOnboard())
 
   const setLang = useCallback((l: Lang) => {
     setLangState(l)
@@ -175,12 +182,18 @@ export default function App() {
   const cafeVotes = useCafeVotes()
   const blended = useMemo(() => blendAllMemo(CAFES, cafeVotes), [cafeVotes])
   // The time bar is a real clock: only cafés open at that hour (weekly hours
-  // where known) are ranked; the rest stay on the map, dimmed.
+  // where known) and not about to shut are ranked; the rest stay on the map,
+  // dimmed.
   const ranked = useMemo(
     () =>
-      rank(CAFES, axes, filters, weights, cafeVotes, (c) =>
-        isOpenAt(c, hour, weekday) && passesScenarioFilter(c, scenario?.filter),
-      ),
+      rank(CAFES, axes, filters, weights, cafeVotes, (c) => {
+        const left = minutesToClose(c, hour, weekday)
+        return (
+          left !== null &&
+          left >= MIN_MINUTES_LEFT &&
+          passesScenarioFilter(c, scenario?.filter, left)
+        )
+      }),
     [axes, filters, weights, cafeVotes, scenario, hour, weekday],
   )
   const closedIds = useMemo(() => {
@@ -781,25 +794,7 @@ export default function App() {
               }
               onSave={() => passport.toggleSaved(selected.id)}
               onTaxi={() => setTaxiFor(selected)}
-              onMoreLikeThis={() => {
-                setAxesNow(selected.axes)
-                setScenarioId(null)
-                setCompassOn(true)
-                setCharacter(
-                  lang === 'zh'
-                    ? `${t(UI.roomsLike)}${selected.nameZh}`
-                    : `${t(UI.roomsLike)} ${selected.name}`,
-                )
-                setPanel('compass')
-              }}
               onShareCard={() => setShareFor({ cafe: selected, kind: 'cafe' })}
-              shared={copied === 'cafe'}
-              onShare={() =>
-                copy(
-                  `${selected.name} ${selected.nameZh} — ${selected.street}, ${selected.district}. ${location.href}`,
-                  'cafe',
-                )
-              }
             />
           )}
 
@@ -822,17 +817,6 @@ export default function App() {
           )}
         </div>
       </main>
-
-      {onboard && (
-        <Onboarding
-          onDone={() => setOnboard(false)}
-          onScenario={(s) => {
-            pickScenario(s)
-            if (mobile) setSheet('half')
-          }}
-          phaseId={phase.id}
-        />
-      )}
 
       {methodOpen && <Methodology onClose={() => setMethodOpen(false)} />}
       {taxiFor && (

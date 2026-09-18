@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { Archetype, Cafe, District } from '../data/types'
+import type { Pair } from './i18n'
 
 export interface Stamp {
   cafeId: string
@@ -81,7 +82,7 @@ export interface Badge {
   id: string
   name: string
   nameZh: string
-  hint: string
+  hint: Pair
   earned: boolean
   progress: number
   target: number
@@ -108,21 +109,36 @@ export function badgesFor(stamps: Stamp[], cafes: Cafe[]): Badge[] {
     id: string,
     name: string,
     nameZh: string,
-    hint: string,
+    hint: Pair,
     progress: number,
     target: number,
   ): Badge => ({ id, name, nameZh, hint, progress: Math.min(progress, target), target, earned: progress >= target })
+  const p = (en: string, zh: string): Pair => ({ en, zh })
 
   return [
-    mk('first', 'First Cup', '第一杯', 'Stamp any café', visited.length, 1),
-    mk('ten', 'Ten Rooms', '十间屋子', 'Ten different cafés', visited.length, 10),
-    mk('concession', 'Plane Tree Walker', '梧桐行者', 'Five cafés in Xuhui', visited.filter((c) => c.district === 'Xuhui').length, 5),
-    mk('crossriver', 'Crossed the River', '过江', 'Anything in Pudong', visited.filter((c) => c.district === 'Pudong').length, 1),
-    mk('districts', 'Seven Districts', '七区', 'One café in every district', districts.size, 7),
-    mk('rooms', 'Every Kind of Room', '各式空间', 'Eight different archetypes', archetypes.size, 8),
-    mk('roaster', 'Smells Like Roasting', '烘豆味', 'Five cafés that roast on site', roasters, 5),
-    mk('standing', 'No Chairs Needed', '不用坐', 'Four standing bars', standing, 4),
-    mk('value', 'Fifteen Kuai Club', '十五块俱乐部', 'Six everyday-price cups', cheap, 6),
-    mk('early', 'Before the Queue', '赶在排队前', 'Three cafés that open by 07:30', early, 3),
+    mk('first', 'First Cup', '第一杯', p('Stamp any café', '打卡任何一家'), visited.length, 1),
+    mk('ten', 'Ten Rooms', '十间屋子', p('Ten different cafés', '打卡 10 家不同的店'), visited.length, 10),
+    mk(
+      'concession',
+      'Plane Tree Walker',
+      '梧桐行者',
+      p('Five cafés in Xuhui', '徐汇区 5 家'),
+      visited.filter((c) => c.district === 'Xuhui').length,
+      5,
+    ),
+    mk(
+      'crossriver',
+      'Crossed the River',
+      '过江',
+      p('Anything in Pudong', '浦东任何一家'),
+      visited.filter((c) => c.district === 'Pudong').length,
+      1,
+    ),
+    mk('districts', 'Seven Districts', '七区', p('One café in every district', '7 个区各打卡 1 家'), districts.size, 7),
+    mk('rooms', 'Every Kind of Room', '各式空间', p('Eight different archetypes', '8 种不同类型的空间'), archetypes.size, 8),
+    mk('roaster', 'Smells Like Roasting', '烘豆味', p('Five cafés that roast on site', '5 家自烘豆的店'), roasters, 5),
+    mk('standing', 'No Chairs Needed', '不用坐', p('Four standing bars', '4 家站喝吧'), standing, 4),
+    mk('value', 'Fifteen Kuai Club', '十五块俱乐部', p('Six everyday-price cups', '6 家平价店'), cheap, 6),
+    mk('early', 'Before the Queue', '赶在排队前', p('Three cafés that open by 07:30', '3 家 7:30 前开门的店'), early, 3),
   ]
 }

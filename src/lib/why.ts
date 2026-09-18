@@ -342,7 +342,7 @@ export function compassSays(input: SaysInput): Pair {
   const forZh = scenario ? scenario.zh : '按你的罗盘'
   const whereEn = anchor ? ` near ${anchor.en}` : ''
   const whereZh = anchor ? ` · ${anchor.zh}附近` : ''
-  const head = pair(`${forEn}${whereEn}, open at ${clock}: `, `${forZh}${whereZh} · ${clock} 营业中：`)
+  const head = pair(`${forEn}${whereEn}, among rooms open at ${clock}: `, `${forZh}${whereZh}，${clock} 开着的店里：`)
 
   if (results.length === 0) {
     return pair(

@@ -102,6 +102,26 @@ REMOVE: dict[str, str] = {
     'kafeiba-zhongshannaner-rd-1500': 'generic name',
     'kafeiting-renhenghebinhuayuan': 'generic name',
     'sunnytimes-longdonggaojialuchukouyuzhonghuanluru': 'generic name',
+    # v5 second sweep (tools/audit_noncafes.py)
+    'pain-chaud': 'Amap 糕饼店; bakery',
+    'la-parisienne-zhangyang': 'Amap 法式菜品餐厅|糕饼店',
+    'jstone-italianbistro-hongmei-rd': 'Italian bistro',
+    'jstone-italianbistro-waitan': 'Italian bistro',
+    'baimakafeiguanhuayuanyangfangcanting-zhangyang-r': '花园洋房餐厅',
+    'mozzarella-e-vino-luokewaitanyuan': 'wine bar / Italian',
+    'mozzarella-e-vino-hengshan-rd': 'wine bar / Italian',
+    'mozzarella-e-vino-xianzhonghuan': 'wine bar / Italian',
+    'mozzarella-e-vino-daxue-rd': 'wine bar / Italian',
+    'winehaus-guangyuanluyutianpinglujiaochakoudong40': '闻好事 winehaus · wine bar',
+    'tap-that-ruijiner-rd': '喝一个精酿 · craft beer',
+    'coffee-cocktail-daning-rd-735': 'Amap 酒吧 first; 鹿鸣 cocktail bar',
+    'basdban-yuyuanlucanting': 'BASDBAN 愚园路餐厅',
+    'maikafei-shijihuiguangchangcanting': "McCafé counter inside McDonald's",
+    'wanlikafeiting-chundawanlijiu': '万丽酒店咖啡厅 · hotel dining',
+    'lintaihongbei-xiuyan-rd-1181': 'Amap 糕饼店; 林太烘焙 bakery',
+    'jp-bakery-guoxia-rd': '集品烘焙 bakery',
+    'w-caf-sh-brunch-bistro-xianzhonghuan': 'brunch & bistro',
+    '146bistro-cafe-yanchang-rd-146': 'bistro first',
 }
 
 
