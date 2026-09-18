@@ -298,7 +298,8 @@ export default function App() {
     }
     if (scenarioId) parts.push(`s=${scenarioId}`)
     if (methodOpen) parts.push('method')
-    if (anchor) parts.push(`at=${anchorToHash(anchor)}`)
+    // Your own position is re-read on load, not carried in the link as a pin.
+    if (anchor && anchor.kind !== 'me') parts.push(`at=${anchorToHash(anchor)}`)
     if (lang !== 'both') parts.push(`lang=${lang}`)
     if (view === 'list') parts.push('view=list')
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
