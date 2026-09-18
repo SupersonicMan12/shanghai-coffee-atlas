@@ -17,7 +17,7 @@ import {
 } from '../data/labels'
 import { useI18n } from '../lib/i18n'
 import { displayNames } from '../lib/names'
-import { detailFor, firmTraits } from '../lib/details'
+import { detailFor, firmTraits, hoursOn } from '../lib/details'
 import type { Why } from '../lib/why'
 import { CalibrateWidget } from './CalibrateWidget'
 import { VerdictBlock } from './Verdict'
@@ -49,14 +49,12 @@ interface Props {
   onStamp: () => void
   onSave: () => void
   onTaxi: () => void
-  onMoreLikeThis: () => void
-  onShare: () => void
   onShareCard: () => void
-  shared: boolean
 }
 
-function hours(cafe: Cafe) {
-  return `${formatHour(cafe.opens)} – ${formatHour(cafe.closes)}`
+function hours(cafe: Cafe, weekday: number) {
+  const today = hoursOn(cafe, weekday)
+  return `${formatHour(today.open)} – ${formatHour(today.close)}`
 }
 
 export function CafeCard({
@@ -75,21 +73,17 @@ export function CafeCard({
   onStamp,
   onSave,
   onTaxi,
-  onMoreLikeThis,
-  onShare,
   onShareCard,
-  shared,
 }: Props) {
-  const open = isOpenAt(cafe, hour)
+  const open = isOpenAt(cafe, hour, weekday)
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
   const names = displayNames(cafe, mode)
   const cafeVotes = useCafeVotes()
   const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
-  const toClose = minutesToClose(cafe, hour)
+  const toClose = minutesToClose(cafe, hour, weekday)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const detail = detailFor(cafe)
-  const curated = cafe.source !== 'imported'
   const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
   const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
@@ -162,13 +156,6 @@ export function CafeCard({
         </ul>
       )}
 
-      {curated && (
-        <>
-          <p className="card-signature">“{cafe.signature}”</p>
-          <p className="card-note">{cafe.note}</p>
-        </>
-      )}
-
       {photos.length > 0 && (
         <div className={`card-photos n${photos.length}`} aria-label={t(UI.photosLabel)}>
           {photos.map((src) => (
@@ -220,7 +207,7 @@ export function CafeCard({
         <div>
           <dt>{t(UI.hoursWord)}</dt>
           <dd>
-            {hours(cafe)}{' '}
+            {hours(cafe, weekday)}{' '}
             <em className={open ? 'open' : 'shut'}>
               {open
                 ? `${t(UI.openAtHour)} ${formatHour(hour)}`
@@ -315,19 +302,13 @@ export function CafeCard({
           {t(UI.taxiCard)}
           {mode === 'both' && ' 出租车卡'}
         </button>
-        <button className="act" onClick={onMoreLikeThis}>
-          {t(UI.moreLikeThis)}
-        </button>
-        <button className="act" onClick={onShare}>
-          {shared ? t(UI.linkCopied) : t(UI.share)}
-        </button>
         <button className="act" onClick={onShareCard}>
           {t(UI.shareCard)}
           {mode === 'both' && ' 分享卡片'}
         </button>
       </div>
 
-      <CalibrateWidget cafe={cafe} />
+      {visited && <CalibrateWidget cafe={cafe} />}
 
       {cafe.tags.length > 0 && (
         <div className="card-tags">

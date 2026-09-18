@@ -15,6 +15,7 @@ interface Props {
   compassOn: boolean
   nearMode: boolean
   hour: number
+  weekday: number
   selectedId: string | null
   onSelect: (id: string) => void
   visited: Set<string>
@@ -36,6 +37,7 @@ export function ListView({
   compassOn,
   nearMode,
   hour,
+  weekday,
   selectedId,
   onSelect,
   visited,
@@ -64,7 +66,7 @@ export function ListView({
       {rows.length === 0 && <div className="strip-empty">{t(UI.stripEmpty)}</div>}
       <ol className="list-rows">
         {rows.map(({ cafe, score, minutes }, i) => {
-          const toClose = minutesToClose(cafe, hour)
+          const toClose = minutesToClose(cafe, hour, weekday)
           const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
           const closeness = minutes !== undefined ? closenessWord(minutes) : null
           const names = displayNames(cafe, mode)

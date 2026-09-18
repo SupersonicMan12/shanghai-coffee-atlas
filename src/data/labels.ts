@@ -80,56 +80,46 @@ export const QUICK_TAGS: Tag[] = [
   'matcha',
 ]
 
-export const ARCHETYPE_LABEL: Record<Archetype, { en: string; zh: string; blurb: string }> = {
+export const ARCHETYPE_LABEL: Record<Archetype, { en: string; zh: string }> = {
   'standing-bar': {
     en: 'Standing bar',
     zh: '站立吧台',
-    blurb: 'Two square metres, no chairs, a queue that moves.',
   },
   'lane-house': {
     en: 'Lane house',
     zh: '老洋房 · 弄堂',
-    blurb: 'Coffee inside a building that was a home first.',
   },
   roastery: {
     en: 'Roastery',
     zh: '自家烘焙',
-    blurb: 'They roast on site and they will tell you about it.',
   },
   garden: {
     en: 'Garden',
     zh: '花园/院子',
-    blurb: 'Outdoor tables, trees, the reason to sit for an hour.',
   },
   laboratory: {
     en: 'Laboratory',
     zh: '实验室',
-    blurb: 'Fermentation, infusions, coffee that argues with you.',
   },
   gallery: {
     en: 'Gallery',
     zh: '画廊咖啡',
-    blurb: 'Art on the walls, and it is actually the point.',
   },
   riverside: {
     en: 'Waterside',
     zh: '临水',
-    blurb: 'The view does half the work.',
   },
   neighborhood: {
     en: 'Neighbourhood',
     zh: '街坊店',
-    blurb: 'Regulars, plants, someone knows your order.',
   },
   bakery: {
     en: 'Bakery',
     zh: '烘焙坊',
-    blurb: 'Come for the pastry, stay because the coffee is good too.',
   },
   'hidden-door': {
     en: 'Hidden door',
     zh: '隐藏入口',
-    blurb: 'Unmarked, upstairs, or behind something else.',
   },
 }
 
@@ -151,19 +141,6 @@ export const ARCHETYPE_ORDER: Archetype[] = [
 /* from src/lib/i18n.tsx so the whole atlas can read in either language.    */
 /* ------------------------------------------------------------------------ */
 
-export const ARCHETYPE_BLURB_ZH: Record<Archetype, string> = {
-  'standing-bar': '两平米，没有椅子，队伍走得很快。',
-  'lane-house': '先是一个家，后来才是咖啡馆。',
-  roastery: '现场烘豆，而且他们很乐意跟你聊。',
-  garden: '室外的桌子、树，和坐一小时的理由。',
-  laboratory: '发酵、浸渍，一杯会跟你争论的咖啡。',
-  gallery: '墙上有作品，而且真的重要。',
-  riverside: '风景包办了一半的体验。',
-  neighborhood: '熟客、绿植，有人记得你的口味。',
-  bakery: '为甜点而来，因为咖啡也好而留下。',
-  'hidden-door': '没有招牌，在楼上，或藏在别的店后面。',
-}
-
 export const AXIS_ENDS_ZH: Record<string, { low: string; high: string }> = {
   focus: { low: '来聊天', high: '来办公' },
   energy: { low: '图书馆般安静', high: '热闹喧腾' },
@@ -172,100 +149,77 @@ export const AXIS_ENDS_ZH: Record<string, { low: string; high: string }> = {
   spend: { low: '日常价位', high: '值得挥霍' },
 }
 
-export const PHASE_LINE_ZH: Record<string, string> = {
-  dawn: '面包师和站立吧台。还没有人说话。',
-  morning: '意式浓缩的高峰。武康路在排队，笔记本占领了桌子。',
-  afternoon: '梧桐树荫，第二杯，漫长的工作时段。',
-  dusk: '交接班。咖啡机关了，尼格罗尼推车出来了。',
-  night: '几乎都打烊了。还开着的那几家，值得跑一趟。',
-}
-
 export const UI = {
   // header
-  whereAmI: { en: 'Where am I?', zh: '我在哪里？' },
-  methodTitle: { en: 'How the compass is drawn', zh: '方法说明' },
-  hourOfDay: { en: 'Hour of the day', zh: '一天中的时刻' },
-  shanghaiNow: { en: 'Shanghai, now', zh: '上海此刻' },
-  now: { en: 'Now', zh: '现在' },
-  searchPlaceholder: { en: 'Find a café by name or street…', zh: '按店名或街道找咖啡馆…' },
-  searchNoResults: { en: 'No café by that name on this sheet.', zh: '图上没有找到这家店。' },
+  methodTitle: { en: 'How this works', zh: '说明' },
+  hourOfDay: { en: 'Time of day', zh: '时间' },
+  shanghaiNow: { en: 'now', zh: '现在' },
+  now: { en: 'Now', zh: '回到现在' },
+  openCount: { en: 'open', zh: '家营业中' },
+  searchPlaceholder: { en: 'Search café name or street', zh: '搜店名或街道' },
+  searchNoResults: { en: 'No café found.', zh: '没有找到这家店。' },
   searchLabel: { en: 'Search cafés', zh: '搜索咖啡馆' },
 
   // tabs & views
   tabCompass: { en: 'Compass', zh: '罗盘' },
-  tabCrawls: { en: 'Crawls', zh: '路线' },
   tabPassport: { en: 'Passport', zh: '护照' },
   viewMap: { en: 'Map', zh: '地图' },
   viewList: { en: 'List', zh: '列表' },
-  compassSetFor: { en: 'Compass set for', zh: '罗盘已设为' },
-  roomsLike: { en: 'rooms like', zh: '像这样的房间：' },
+  compassSetFor: { en: 'Showing', zh: '正在显示' },
+  roomsLike: { en: 'cafés like', zh: '同款：' },
 
   // geolocation notes
-  geoNoShare: { en: 'This browser will not share a location.', zh: '这个浏览器不提供定位。' },
-  geoLooking: { en: 'Looking…', zh: '定位中…' },
+  geoNoShare: { en: 'This browser cannot share your location. Type a station instead.', zh: '浏览器不支持定位，请输入地铁站。' },
+  geoLooking: { en: 'Locating…', zh: '定位中…' },
   geoOutside: {
-    en: 'You are outside the sheet. The atlas only covers central Shanghai.',
-    zh: '你在图纸之外。这份地图只覆盖上海市中心。',
+    en: 'You are outside Shanghai. Type a station instead.',
+    zh: '你不在上海范围内，请输入地铁站。',
   },
   geoRefused: {
-    en: 'Location refused — no problem, the atlas works without it.',
-    zh: '定位被拒绝——没关系，地图照样能用。',
+    en: 'Location blocked. Allow it in the browser, or type a station.',
+    zh: '定位被拒绝。请在浏览器允许定位，或输入地铁站。',
   },
+  locatedHere: { en: 'Using your location', zh: '已定位到你' },
+  youAreHere: { en: 'You are here', zh: '你在这里' },
+  startingFrom: { en: 'From', zh: '起点：' },
+  otherPlace: { en: 'Somewhere else', zh: '换个地点' },
+  stationPlaceholder: { en: 'Type a metro station, e.g. Jing’an Temple', zh: '输入地铁站，如 静安寺' },
+  noStation: { en: 'No station by that name.', zh: '没有这个站。' },
 
   // map chrome
   zoomIn: { en: 'Zoom in', zh: '放大' },
   zoomOut: { en: 'Zoom out', zh: '缩小' },
   wholeSheet: { en: 'Whole sheet', zh: '整张图' },
   attribution: {
-    en: 'Hand-inked from OpenStreetMap geometry (ODbL). Rooms, ratings and opinions are the Atlas’s own.',
-    zh: '基于 OpenStreetMap 几何数据手绘（ODbL）。空间、评分与观点均为地图集自己的判断。',
+    en: 'Map geometry © OpenStreetMap (ODbL). Scores are the Atlas’s own.',
+    zh: '地图几何 © OpenStreetMap（ODbL）。评分为地图集自行判断。',
   },
   yourPin: { en: 'Your pin', zh: '你的图钉' },
-  you: { en: 'You', zh: '你' },
 
   // compass panel
-  sixQuestions: { en: 'Six questions', zh: '六个问题' },
-  quizTitle: { en: 'What kind of drinker are you?', zh: '你是哪种喝咖啡的人？' },
-  quizSub: {
-    en: 'Answer honestly and the atlas repaints itself around you.',
-    zh: '诚实作答，地图会围绕你重新上色。',
-  },
-  theCompass: { en: 'The compass', zh: '咖啡罗盘' },
+  theCompass: { en: 'Fine-tune', zh: '微调' },
   compassNote: {
-    en: 'Five spectrums instead of a search box. Drag them to describe the next hour of your life; every café is scored against where you land.',
-    zh: '用五条光谱代替搜索框。拖动它们，描述你接下来一小时想要的样子；每家咖啡馆都会按你的落点打分。',
+    en: 'Drag a slider; the recommendations update as you go.',
+    zh: '拖动滑杆，推荐会跟着变。',
   },
-  hardLimits: { en: 'Hard limits', zh: '筛选' },
+  hardLimits: { en: 'Filters', zh: '筛选' },
   orLess: { en: 'or less', zh: '以内' },
-  openAt: { en: 'Open at', zh: '营业于' },
-  tenKinds: { en: 'Ten kinds of room', zh: '十种空间' },
-  cafesMatch: { en: 'cafés match', zh: '家咖啡馆符合' },
-  resetEverything: { en: 'Reset everything', zh: '全部重置' },
+  cafesMatch: { en: 'cafés open and matching', zh: '家营业中且符合' },
+  resetEverything: { en: 'Reset', zh: '重置' },
 
-  // near me
-  nearMe: { en: 'Near me', zh: '就在附近' },
-  nearMeNote: {
-    en: 'Anchor the atlas to a point and the ranking weighs walking time against the compass: a great room nearby beats a perfect one across town.',
-    zh: '把地图锚定在一个点上，排序会在步行时间和罗盘之间权衡：近处的好房间胜过城那头的完美房间。',
-  },
+  // location
   useMyLocation: { en: 'Use my location', zh: '用我的位置' },
-  dropPin: { en: 'Drop a pin', zh: '丢个图钉' },
-  openNow: { en: 'Open now', zh: '现在营业' },
-  pinHint: { en: 'Now tap the map where you are standing.', zh: '现在，在地图上点你站的位置。' },
-  orAnchorMetro: { en: 'Or anchor to a metro station', zh: '或按地铁站锚定' },
-  chooseStation: { en: '— choose a station —', zh: '— 选一站 —' },
-  lineWord: { en: 'Line', zh: '线' },
-  anchoredAt: { en: 'Anchored at', zh: '锚定于' },
-  openAtWord: { en: 'open at', zh: '营业于' },
+  dropPin: { en: 'Or tap a spot on the map', zh: '或在地图上点一个位置' },
+  pinHint: { en: 'Tap the map now…', zh: '现在点地图上的位置…' },
   clear: { en: 'Clear', zh: '清除' },
 
   // results strip / list
-  nearestThatFit: { en: 'Nearest that fit', zh: '就在附近' },
+  nearestThatFit: { en: 'Nearest that fit', zh: '按步行距离' },
   closestToCompass: { en: 'Closest to your compass', zh: '最贴近你' },
   everythingOnMap: { en: 'Everything on the map', zh: '全部' },
   stripEmpty: {
-    en: 'Nothing matches those hard limits. Loosen one — the compass is a preference, the filters are a wall.',
-    zh: '没有符合这些硬性条件的店。放宽一条吧——罗盘是偏好，筛选是墙。',
+    en: 'Nothing open matches. Move the time bar or loosen a filter.',
+    zh: '没有营业中且符合的店。拖动时间条，或放宽筛选。',
   },
   closesIn: { en: 'closes in', zh: '还有' },
   minShut: { en: 'min', zh: '分钟打烊' },
@@ -280,7 +234,7 @@ export const UI = {
   seatsWord: { en: 'Seats', zh: '座位' },
   spendWord: { en: 'Spend', zh: '花费' },
   openAtHour: { en: 'open at', zh: '营业于' },
-  shutAtHour: { en: 'shut at', zh: '未营业于' },
+  shutAtHour: { en: 'closed at', zh: '已关门于' },
   seatsNone: { en: 'None — standing', zh: '无座——站立' },
   seatsAbout: { en: 'about', zh: '约' },
   fromYou: { en: 'From you', zh: '距你' },
@@ -300,14 +254,14 @@ export const UI = {
   confidence: { en: 'confidence', zh: '置信度' },
 
   // calibrate widget
-  calibrate: { en: 'Calibrate the compass', zh: '校准罗盘' },
-  recalibrate: { en: 'Recalibrate the compass', zh: '重新校准罗盘' },
-  calibratedByYou: { en: 'calibrated by you', zh: '你已校准' },
-  readingOnFile: { en: 'reading on file', zh: '份读数存档' },
-  readingsOnFile: { en: 'readings on file', zh: '份读数存档' },
+  calibrate: { en: 'Rate this café', zh: '我去过，来打分' },
+  recalibrate: { en: 'Change my rating', zh: '修改我的打分' },
+  calibratedByYou: { en: 'rated by you', zh: '你已打分' },
+  readingOnFile: { en: 'rating so far', zh: '人评过' },
+  readingsOnFile: { en: 'ratings so far', zh: '人评过' },
   calibrateSub: {
-    en: 'Five taps, thirty seconds — you were there, we were guessing.',
-    zh: '五个问题，三十秒——你去过，我们只是猜。',
+    en: 'Been here? Five taps make the ranking more accurate.',
+    zh: '去过这家？点五下，让排序更准。',
   },
   tapAnswerFirst: { en: 'Tap an answer first', zh: '先选一个答案' },
   fileAnswers: { en: 'File', zh: '提交' },
@@ -315,20 +269,10 @@ export const UI = {
   notNow: { en: 'Not now', zh: '下次再说' },
   withdrawVote: { en: 'Withdraw my vote', zh: '撤回我的投票' },
 
-  // quiz modal
-  youAre: { en: 'You are', zh: '你是' },
-  repaintMap: { en: 'Repaint the map for me', zh: '为我重绘地图' },
-  startAgain: { en: 'Start again', zh: '重新开始' },
-  questionWord: { en: 'Question', zh: '第' },
-  ofWord: { en: 'of', zh: '题，共' },
-  questionTail: { en: '', zh: '题' },
-  back: { en: 'Back', zh: '上一题' },
-  skipQuiz: { en: 'Skip the quiz', zh: '跳过测试' },
-
   // passport
   passportNote: {
-    en: 'The passport lives in this browser and nowhere else — no account, no server, no one selling your morning routine. Stamp a café from its card and it inks itself onto the map.',
-    zh: '护照只存在这个浏览器里——没有账号，没有服务器，没有人售卖你的晨间习惯。在店卡上盖章，它就会印到地图上。',
+    en: 'Saved and visited cafés. Stored only in this browser, no account needed.',
+    zh: '你存下和去过的店。只保存在这个浏览器里，无需账号。',
   },
   ofStamped: { en: 'stamped', zh: '家已盖章' },
   ofBadges: { en: 'badges', zh: '枚徽章' },
@@ -338,65 +282,35 @@ export const UI = {
   savedForLater: { en: 'Saved for later', zh: '待去' },
   yourStamps: { en: 'Your stamps', zh: '已打卡' },
   emptyStamps: {
-    en: 'Nothing yet. Pick a café, drink the coffee, then stamp it — the atlas keeps score so you stop going to the same three places.',
-    zh: '还没有记录。挑一家店，喝掉那杯咖啡，然后盖章——地图集帮你记账，免得你总去那三家。',
+    en: 'Nothing yet. Open a café and tap “Stamp as visited”.',
+    zh: '还没有记录。打开一家店，点「盖章打卡」。',
   },
   copyPassport: { en: 'Copy your passport as text', zh: '把护照复制为文字' },
   copied: { en: 'Copied', zh: '已复制' },
 
-  // crawls
-  crawlsNote: {
-    en: 'Seven arguments for walking. Each crawl is a running order, not a shortest path — the point is which room you are in at which hour. Tap one and the atlas inks the route.',
-    zh: '七条值得走的理由。每条路线是一份出场顺序，不是最短路径——重点是几点钟你在哪个房间。点一条，地图就把路线画出来。',
-  },
-  stopsWord: { en: 'stops', zh: '站' },
-  minWalking: { en: 'min walking', zh: '分钟步行' },
-  aboutWord: { en: 'about', zh: '约' },
-  hourShort: { en: 'h', zh: '小时' },
-  startWord: { en: 'start', zh: '开始' },
-  stampedWord: { en: 'stamped', zh: '已盖章' },
-
   // share card modal
   taxiCardImage: { en: 'Taxi card as an image', zh: '出租车卡图片' },
-  inkwellDry: { en: 'The inkwell ran dry — try again.', zh: '墨水用完了——再试一次。' },
-  inking: { en: 'Inking…', zh: '上墨中…' },
+  inkwellDry: { en: 'Could not make the image. Try again.', zh: '生成失败，请重试。' },
+  inking: { en: 'Making image…', zh: '生成中…' },
   longPressSave: { en: 'Long-press the image to save', zh: '长按图片保存到相册' },
   saveImage: { en: 'Save image', zh: '保存图片' },
 
   // onboarding
-  obCompassTitle: { en: 'The compass', zh: '咖啡罗盘' },
-  obCompassBody: {
-    en: 'Five sliders instead of a search box. Drag them to describe the next hour — every café is scored against where you land.',
-    zh: '五条滑杆代替搜索框。拖动它们描述接下来一小时——每家店都按你的落点打分。',
-  },
-  obCalibrateTitle: { en: 'Calibrate it', zh: '校准它' },
-  obCalibrateBody: {
-    en: 'Been somewhere? Open its card and tap “Calibrate the compass” — reader readings sharpen the whole map.',
-    zh: '去过某家店？打开它的卡片，点「校准罗盘」——读者的读数会让整张图更准。',
-  },
-  obNearTitle: { en: 'Near me', zh: '就在附近' },
-  obNearBody: {
-    en: 'Standing on a street? Anchor the atlas to your location, a dropped pin or a metro station and nearby rooms rank first.',
-    zh: '正站在街上？把地图锚定到你的位置、一个图钉或一个地铁站，附近的好店会排在最前。',
-  },
-  obNext: { en: 'Next', zh: '下一步' },
-  obDone: { en: 'Start exploring', zh: '开始探索' },
-  obSkip: { en: 'Skip', zh: '跳过' },
-  obScenarioTitle: { en: 'What is the next hour for?', zh: '下一个小时想怎么过？' },
+  obScenarioTitle: { en: 'What do you need right now?', zh: '你现在想找什么样的咖啡馆？' },
   obScenarioBody: {
-    en: 'Pick one and the compass sets itself — then it tells you where to go, and why.',
-    zh: '选一个，罗盘自己转好——然后告诉你去哪，以及为什么。',
+    en: 'Tap one. You get three recommendations and the reason for each.',
+    zh: '点一个，马上给你三家推荐和理由。',
   },
-  obJustLook: { en: 'Just let me look around', zh: '我先随便看看' },
+  obJustLook: { en: 'Just browse the map', zh: '先看地图' },
 
   // scenarios & verdicts
-  scenariosTitle: { en: 'What is the next hour for?', zh: '下一个小时想怎么过？' },
+  scenariosTitle: { en: 'What do you need?', zh: '你想找什么样的？' },
   scenarioModified: { en: 'tweaked', zh: '已微调' },
   scenarioNowHint: { en: 'suits this hour', zh: '适合此刻' },
   scenarioClear: { en: 'Clear scenario', zh: '取消场景' },
   compassSays: { en: 'Compass says', zh: '罗盘说' },
   pickWord: { en: 'Pick', zh: '首选' },
-  estimateMark: { en: 'est.', zh: '估' },
+  estimateMark: { en: 'unverified', zh: '未核实' },
   estimateTitle: {
     en: 'Estimated — no external source has confirmed this café yet.',
     zh: '估算值——尚无外部来源核实这家店。',
@@ -410,7 +324,6 @@ export const UI = {
   withinWalk: { en: 'within a 20 min walk', zh: '20 分钟步行内' },
   sheetPeek: { en: 'Show the compass', zh: '展开罗盘' },
   sheetHide: { en: 'Hide the compass', zh: '收起罗盘' },
-  keysHint: { en: '1–8 scenario · / search · Esc close', zh: '1–8 场景 · / 搜索 · Esc 关闭' },
 } satisfies Record<string, Pair>
 
 export const VERDICT_ZH: Record<string, string> = {

@@ -13,7 +13,6 @@ export interface Phase {
   /** Inclusive start hour, local Shanghai time. */
   from: number
   to: number
-  line: string
   paper: string
   paperEdge: string
   ink: string
@@ -34,7 +33,6 @@ export const PHASES: Phase[] = [
     labelZh: '破晓',
     from: 5,
     to: 8,
-    line: 'The bakers and the standing bars. Nobody is talking yet.',
     paper: '#f6ece0',
     paperEdge: '#e8d7c4',
     ink: '#4a3b32',
@@ -53,7 +51,6 @@ export const PHASES: Phase[] = [
     labelZh: '上午',
     from: 8,
     to: 12,
-    line: 'Peak espresso. Queues on Wukang Rd, laptops claiming tables.',
     paper: '#faf3e6',
     paperEdge: '#eadfc9',
     ink: '#3f342c',
@@ -72,7 +69,6 @@ export const PHASES: Phase[] = [
     labelZh: '午后',
     from: 12,
     to: 17,
-    line: 'Plane-tree shade, second cups, the long working stretch.',
     paper: '#f7efe1',
     paperEdge: '#e6d8c0',
     ink: '#3b322b',
@@ -91,7 +87,6 @@ export const PHASES: Phase[] = [
     labelZh: '黄昏',
     from: 17,
     to: 20,
-    line: 'The handover. Espresso machines off, negroni carts out.',
     paper: '#f2e0cd',
     paperEdge: '#dcc2a6',
     ink: '#3a2b26',
@@ -110,7 +105,6 @@ export const PHASES: Phase[] = [
     labelZh: '夜里',
     from: 20,
     to: 5,
-    line: 'Almost everything is shut. The few that are not, are worth the trip.',
     paper: '#221e26',
     paperEdge: '#171419',
     ink: '#e8dccd',

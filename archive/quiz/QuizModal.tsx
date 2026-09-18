@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import type { Axes } from '../data/types'
-import { QUIZ, axesFromAnswers, characterFor } from '../lib/quiz'
-import { AXES } from '../lib/match'
-import { UI } from '../data/labels'
-import { useI18n } from '../lib/i18n'
+import type { Axes } from '../../src/data/types'
+import { QUIZ, axesFromAnswers, characterFor } from './quiz'
+import { AXES } from '../../src/lib/match'
+import { UI } from '../../src/data/labels'
+import { useI18n } from '../../src/lib/i18n'
 
 interface Props {
   onClose: () => void

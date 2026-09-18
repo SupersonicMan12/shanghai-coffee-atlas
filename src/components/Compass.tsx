@@ -2,9 +2,6 @@ import { memo, useCallback, useEffect, useRef, useState, type KeyboardEvent } fr
 import type { Axes } from '../data/types'
 import { AXES, type AxisDef, type Filters } from '../lib/match'
 import {
-  ARCHETYPE_BLURB_ZH,
-  ARCHETYPE_LABEL,
-  ARCHETYPE_ORDER,
   AXIS_ENDS_ZH,
   DISTRICTS,
   DISTRICT_ZH,
@@ -13,7 +10,7 @@ import {
   TAG_ZH,
   UI,
 } from '../data/labels'
-import { formatHour, type PhaseId } from '../lib/palette'
+import type { PhaseId } from '../lib/palette'
 import { useI18n } from '../lib/i18n'
 import { SCENARIOS, type Scenario } from '../lib/scenarios'
 
@@ -22,12 +19,10 @@ interface Props {
   onAxes: (a: Axes) => void
   filters: Filters
   onFilters: (f: Filters) => void
-  hour: number
   phaseId: PhaseId
   scenarioId: string | null
   scenarioModified: boolean
   onScenario: (s: Scenario | null) => void
-  onQuiz: () => void
   onReset: () => void
   resultCount: number
   /** Which sections to draw — the mobile sheet reveals them by snap point. */
@@ -250,100 +245,76 @@ const SliderBank = memo(function SliderBank({
   )
 })
 
-/* ── hard limits ────────────────────────────────────────────────────────── */
+/* ── filters ────────────────────────────────────────────────────────────── */
 
-const HardLimits = memo(function HardLimits({
+const activeFilterCount = (f: Filters) =>
+  f.districts.length + f.tags.length + (f.maxPrice !== null ? 1 : 0)
+
+const FilterBank = memo(function FilterBank({
   filters,
   onFilters,
-  hour,
 }: {
   filters: Filters
   onFilters: (f: Filters) => void
-  hour: number
 }) {
-  const { mode, t, sub } = useI18n()
+  const { mode, t } = useI18n()
   const zh = mode === 'zh'
+  const n = activeFilterCount(filters)
+  const [open, setOpen] = useState(n > 0)
   const toggle = <T,>(list: T[], v: T): T[] =>
     list.includes(v) ? list.filter((x) => x !== v) : [...list, v]
   return (
-    <div className="section section-limits">
-      <div className="section-head">
-        <h3>{t(UI.hardLimits)}</h3>
-        {sub(UI.hardLimits) && <span className="zh">{sub(UI.hardLimits)}</span>}
-      </div>
+    <div className={`section section-limits${open ? ' open' : ''}`}>
+      <button className="section-toggle" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+        <span>
+          {t(UI.hardLimits)}
+          {n > 0 && <em className="count">{n}</em>}
+        </span>
+        <span className="chev" aria-hidden>
+          {open ? '−' : '+'}
+        </span>
+      </button>
 
-      <input
-        className="search"
-        type="search"
-        placeholder={t(UI.searchPlaceholder)}
-        value={filters.query}
-        onChange={(e) => onFilters({ ...filters, query: e.target.value })}
-      />
+      {open && (
+        <div className="filter-body">
+          <div className="chips">
+            {DISTRICTS.map((d) => (
+              <button
+                key={d}
+                className={`chip${filters.districts.includes(d) ? ' on' : ''}`}
+                onClick={() => onFilters({ ...filters, districts: toggle(filters.districts, d) })}
+              >
+                {zh ? DISTRICT_ZH[d] : d}
+                {mode === 'both' && <span className="zh"> {DISTRICT_ZH[d]}</span>}
+              </button>
+            ))}
+          </div>
 
-      <div className="chips">
-        {DISTRICTS.map((d) => (
-          <button
-            key={d}
-            className={`chip${filters.districts.includes(d) ? ' on' : ''}`}
-            onClick={() => onFilters({ ...filters, districts: toggle(filters.districts, d) })}
-          >
-            {zh ? DISTRICT_ZH[d] : d}
-            {mode === 'both' && <span className="zh"> {DISTRICT_ZH[d]}</span>}
-          </button>
-        ))}
-      </div>
+          <div className="chips">
+            {QUICK_TAGS.map((tag) => (
+              <button
+                key={tag}
+                className={`chip${filters.tags.includes(tag) ? ' on' : ''}`}
+                onClick={() => onFilters({ ...filters, tags: toggle(filters.tags, tag) })}
+              >
+                {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
+              </button>
+            ))}
+          </div>
 
-      <div className="chips">
-        {QUICK_TAGS.map((tag) => (
-          <button
-            key={tag}
-            className={`chip${filters.tags.includes(tag) ? ' on' : ''}`}
-            onClick={() => onFilters({ ...filters, tags: toggle(filters.tags, tag) })}
-          >
-            {zh ? TAG_ZH[tag] ?? tag : TAG_LABEL[tag] ?? tag}
-          </button>
-        ))}
-      </div>
-
-      <div className="chips">
-        {([1, 2, 3] as const).map((p) => (
-          <button
-            key={p}
-            className={`chip${filters.maxPrice === p ? ' on' : ''}`}
-            onClick={() => onFilters({ ...filters, maxPrice: filters.maxPrice === p ? null : p })}
-          >
-            {zh ? `${'¥'.repeat(p)}${t(UI.orLess)}` : `${'¥'.repeat(p)} ${t(UI.orLess)}`}
-          </button>
-        ))}
-        <button
-          className={`chip${filters.openAt !== null ? ' on' : ''}`}
-          onClick={() => onFilters({ ...filters, openAt: filters.openAt === null ? hour : null })}
-        >
-          {t(UI.openAt)} {formatHour(hour)}
-        </button>
-      </div>
-    </div>
-  )
-})
-
-const Legend = memo(function Legend() {
-  const { mode, t, sub } = useI18n()
-  const zh = mode === 'zh'
-  return (
-    <div className="section">
-      <div className="section-head">
-        <h3>{t(UI.tenKinds)}</h3>
-        {sub(UI.tenKinds) && <span className="zh">{sub(UI.tenKinds)}</span>}
-      </div>
-      <ul className="legend">
-        {ARCHETYPE_ORDER.map((a) => (
-          <li key={a}>
-            <strong>{zh ? ARCHETYPE_LABEL[a].zh : ARCHETYPE_LABEL[a].en}</strong>
-            {mode === 'both' && <span className="zh"> {ARCHETYPE_LABEL[a].zh}</span>}
-            <em>{zh ? ARCHETYPE_BLURB_ZH[a] : ARCHETYPE_LABEL[a].blurb}</em>
-          </li>
-        ))}
-      </ul>
+          <div className="chips">
+            {([1, 2, 3] as const).map((p) => (
+              <button
+                key={p}
+                className={`chip${filters.maxPrice === p ? ' on' : ''}`}
+                onClick={() => onFilters({ ...filters, maxPrice: filters.maxPrice === p ? null : p })}
+              >
+                {zh ? `${'¥'.repeat(p)}${t(UI.orLess)}` : `${'¥'.repeat(p)} ${t(UI.orLess)}`}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 })
@@ -355,12 +326,10 @@ export function Compass({
   onAxes,
   filters,
   onFilters,
-  hour,
   phaseId,
   scenarioId,
   scenarioModified,
   onScenario,
-  onQuiz,
   onReset,
   resultCount,
   reveal = 'full',
@@ -396,22 +365,16 @@ export function Compass({
           </div>
           <p className="section-note">{t(UI.compassNote)}</p>
           <SliderBank axes={axes} onAxes={onAxes} />
-          <button className="quiz-cta small" onClick={onQuiz}>
-            <span className="quiz-cta-kicker">{t(UI.sixQuestions)}</span>
-            <span className="quiz-cta-title">{t(UI.quizTitle)}</span>
-          </button>
         </div>
       )}
 
-      {showLimits && <HardLimits filters={filters} onFilters={onFilters} hour={hour} />}
-      {showLimits && <Legend />}
+      {showLimits && <FilterBank filters={filters} onFilters={onFilters} />}
 
       {showLimits && (
         <div className="panel-foot">
           <span>
             {resultCount} {t(UI.cafesMatch)}
           </span>
-          <span className="keys-hint">{t(UI.keysHint)}</span>
           <button className="link" onClick={onReset}>
             {t(UI.resetEverything)}
           </button>

@@ -2,6 +2,7 @@ import type { Cafe } from '../data/types'
 import { STATION_BY_ID, type MetroStation } from '../data/metro'
 import type { Ranked } from './match'
 import { BBOX, haversine, walkingMinutes } from './projection'
+import { hoursOn } from './details'
 
 /**
  * "Near me" is an anchor, not a mode: a point on the sheet that every ranking
@@ -61,10 +62,11 @@ export function closenessWord(minutes: number): string {
 }
 
 /** Minutes until the café shuts, or null if it is not open at this hour. */
-export function minutesToClose(cafe: Cafe, hour: number): number | null {
-  const close = cafe.closes <= cafe.opens ? cafe.closes + 24 : cafe.closes
-  const h = hour < cafe.opens ? hour + 24 : hour
-  if (h < cafe.opens || h >= close) return null
+export function minutesToClose(cafe: Cafe, hour: number, weekday?: number): number | null {
+  const { open, close: rawClose } = weekday === undefined ? { open: cafe.opens, close: cafe.closes } : hoursOn(cafe, weekday)
+  const close = rawClose <= open ? rawClose + 24 : rawClose
+  const h = hour < open ? hour + 24 : hour
+  if (h < open || h >= close) return null
   return Math.round((close - h) * 60)
 }
 

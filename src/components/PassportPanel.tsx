@@ -68,7 +68,7 @@ export function PassportPanel({
                 {zh ? b.nameZh : b.name}
                 {mode === 'both' && <span className="zh"> {b.nameZh}</span>}
               </span>
-              <span className="badge-hint">{b.hint}</span>
+              <span className="badge-hint">{t(b.hint)}</span>
               <span className="badge-bar">
                 <span style={{ width: `${(b.progress / b.target) * 100}%` }} />
               </span>

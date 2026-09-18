@@ -60,8 +60,8 @@ export function strengthOf(compassOn: boolean, score: number | undefined): numbe
   return Math.round(clamp(((score ?? 50) - 50) / 45, 0, 1) * STRENGTH_STEPS) / STRENGTH_STEPS
 }
 
-export function isQuietPin(k: number, cafe: Cafe, strength: number | null, active: boolean, inCrawl: boolean): boolean {
-  return cafe.source === 'imported' && k < 1.8 && !active && !(strength !== null && strength > 0.82) && !inCrawl
+export function isQuietPin(k: number, cafe: Cafe, strength: number | null, active: boolean): boolean {
+  return cafe.source === 'imported' && k < 1.8 && !active && !(strength !== null && strength > 0.82)
 }
 
 export const QUIET_R = 3.2
@@ -71,8 +71,8 @@ export function basePinRadius(k: number): number {
   return k < 1.3 ? 7 : k < 2.4 ? 7 + ((k - 1.3) / 1.1) * 4 : 11
 }
 
-export function pinRadius(k: number, cafe: Cafe, strength: number | null, active: boolean, inCrawl: boolean): number {
-  if (isQuietPin(k, cafe, strength, active, inCrawl)) return QUIET_R
+export function pinRadius(k: number, cafe: Cafe, strength: number | null, active: boolean): number {
+  if (isQuietPin(k, cafe, strength, active)) return QUIET_R
   return basePinRadius(k) + (strength === null ? 1 : strength * 5)
 }
 
@@ -96,7 +96,7 @@ const NO_DENSITY: Density = { hidden: new Set(), clusters: [] }
 
 /**
  * Grid clustering in paper space. Only quiet pins take part; curated cafés,
- * strong matches, the selection and the crawl never disappear into a blot.
+ * strong matches and the selection never disappear into a blot.
  * Cells are ~44 screen px, so the blots keep a steady rhythm as you zoom out.
  */
 export function clusterQuiet(
@@ -105,7 +105,6 @@ export function clusterQuiet(
   compassOn: boolean,
   scores: Map<string, number>,
   selectedId: string | null,
-  crawlIndex: Map<string, number>,
 ): Density {
   if (k >= CLUSTER_K) return NO_DENSITY
   const cell = 44 / k
@@ -116,8 +115,8 @@ export function clusterQuiet(
     if (cafe.source !== 'imported') continue
     const score = scores.get(cafe.id)
     if (compassOn && score !== undefined && score >= HI_SCORE) continue
-    if (selectedId === cafe.id || crawlIndex.has(cafe.id)) continue
-    if (!isQuietPin(k, cafe, strengthOf(compassOn, score), false, false)) continue
+    if (selectedId === cafe.id) continue
+    if (!isQuietPin(k, cafe, strengthOf(compassOn, score), false)) continue
     const key = `${Math.floor(xs[i] / cell)},${Math.floor(ys[i] / cell)}`
     const list = cells.get(key)
     if (list) list.push(i)
@@ -150,15 +149,14 @@ export interface LabelInput {
   scores: Map<string, number>
   compassOn: boolean
   selectedId: string | null
-  crawlIndex: Map<string, number>
   topIds: string[]
   hidden: Set<string>
   mode: LangMode
 }
 
 /**
- * Which pins get a name. Priority: selection, then the top picks, then the
- * crawl, then strong matches, then curated cafés, then (zoomed in) the rest;
+ * Which pins get a name. Priority: selection, then the top picks, then
+ * strong matches, then curated cafés, then (zoomed in) the rest;
  * a greedy sweep against a 40-unit grid of pin and label boxes. Faded pins
  * (<70 when the compass is on) never get a label unless selected.
  */
@@ -168,7 +166,6 @@ export function labelSet({
   scores,
   compassOn,
   selectedId,
-  crawlIndex,
   topIds,
   hidden,
   mode,
@@ -186,7 +183,6 @@ export function labelSet({
   }
   if (selectedId) add(selectedId, 0, 0)
   topIds.forEach((id, i) => add(id, 1, i))
-  crawlIndex.forEach((order, id) => add(id, 2, order))
   if (compassOn) {
     cafes.forEach((cafe) => {
       const score = scores.get(cafe.id)
@@ -229,15 +225,11 @@ export function labelSet({
   }
   const overlaps = (a: Box, b: Box) => a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y
   const radiusOf = (cafe: Cafe) =>
-    pinRadius(k, cafe, strengthOf(compassOn, scores.get(cafe.id)), selectedId === cafe.id, crawlIndex.has(cafe.id))
+    pinRadius(k, cafe, strengthOf(compassOn, scores.get(cafe.id)), selectedId === cafe.id)
   for (let i = 0; i < cafes.length; i++) {
     const cafe = cafes[i]
     if (hidden.has(cafe.id)) continue
-    if (
-      isQuietPin(k, cafe, strengthOf(compassOn, scores.get(cafe.id)), selectedId === cafe.id, crawlIndex.has(cafe.id))
-    ) {
-      continue
-    }
+    if (isQuietPin(k, cafe, strengthOf(compassOn, scores.get(cafe.id)), selectedId === cafe.id)) continue
     const radius = radiusOf(cafe)
     insert({
       x: xs[i] - radius * paperInv,

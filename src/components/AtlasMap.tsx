@@ -11,11 +11,11 @@ import {
   type PointerEvent as ReactPointerEvent,
   type Ref,
 } from 'react'
-import type { Cafe, Crawl } from '../data/types'
+import type { Cafe } from '../data/types'
 import type { Anchor } from '../lib/near'
 import { LINE_COLOR } from '../data/metro'
-import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project, walkingMinutes, haversine } from '../lib/projection'
-import { blot, numerals, pennant, sketch } from '../lib/hand'
+import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project } from '../lib/projection'
+import { blot, numerals, pennant } from '../lib/hand'
 import { BaseLayers, BaseRaster } from './BaseLayers'
 import { paletteHost, readBasemapColors, sameColors, type BasemapColors } from '../lib/basemapColors'
 import { Glyph } from './Glyphs'
@@ -68,6 +68,8 @@ export interface AtlasHandle {
 interface Props {
   cafes: Cafe[]
   scores: Map<string, number>
+  /** Cafés shut at the selected hour; they leave the sheet (the selected one stays). */
+  closed: Set<string>
   compassOn: boolean
   /** The compass's top picks, in order. Derived from `scores` when absent. */
   topIds?: string[]
@@ -75,8 +77,6 @@ interface Props {
   onSelect: (id: string | null) => void
   visited: Set<string>
   saved: Set<string>
-  crawl: Crawl | null
-  crawlCafes: Cafe[]
   me: { lng: number; lat: number } | null
   anchor: Anchor | null
   pinArm: boolean
@@ -211,14 +211,13 @@ interface Gesture {
 export function AtlasMap({
   cafes,
   scores,
+  closed,
   compassOn,
   topIds,
   selectedId,
   onSelect,
   visited,
   saved,
-  crawl,
-  crawlCafes,
   me,
   anchor,
   pinArm,
@@ -449,7 +448,14 @@ export function AtlasMap({
     () => ({
       focusOn(lng, lat, k = 3.4) {
         const [px, py] = project(lng, lat)
-        flyTo({ k, x: PAPER_WIDTH / 2 - px * k, y: PAPER_HEIGHT / 2 - py * k }, 480, 640)
+        const m = metrics.current
+        // On a phone the bottom sheet covers part of the stage; centre in what is left.
+        const covered = stageRef.current
+          ? parseFloat(getComputedStyle(stageRef.current).getPropertyValue('--sheet-peek')) || 0
+          : 0
+        const cx = (m.w / 2 - m.offX) / m.s0
+        const cy = ((m.h - covered) / 2 - m.offY) / m.s0
+        flyTo({ k, x: cx - px * k, y: cy - py * k }, 480, 640)
       },
       reset() {
         flyTo(wholeSheet(metrics.current), 480, 640)
@@ -739,28 +745,6 @@ export function AtlasMap({
 
   const layout = useMemo(() => layoutFor(cafes), [cafes])
 
-  const route = useMemo(() => {
-    if (!crawl || crawlCafes.length < 2) return null
-    const pts = crawlCafes.map((c) => project(c.lng, c.lat))
-    const legs = crawlCafes.slice(1).map((c, i) => {
-      const prev = crawlCafes[i]
-      const metres = haversine(prev.lng, prev.lat, c.lng, c.lat)
-      const [ax, ay] = pts[i]
-      const [bx, by] = pts[i + 1]
-      return {
-        mins: walkingMinutes(metres),
-        mid: [(ax + bx) / 2, (ay + by) / 2] as [number, number],
-      }
-    })
-    return { d: sketch(pts, { amplitude: 4.5, wavelength: 130 }), pts, legs }
-  }, [crawl, crawlCafes])
-
-  const crawlIndex = useMemo(() => {
-    const m = new Map<string, number>()
-    crawlCafes.forEach((c, i) => m.set(c.id, i + 1))
-    return m
-  }, [crawlCafes])
-
   const kb = bucketK(view.k)
   const inv = 1 / view.k
 
@@ -795,9 +779,18 @@ export function AtlasMap({
   }, [topKey, scores])
 
   const density = useMemo<Density>(
-    () => clusterQuiet(layout, kb, compassOn, scores, selectedId, crawlIndex),
-    [layout, kb, compassOn, scores, selectedId, crawlIndex],
+    () => clusterQuiet(layout, kb, compassOn, scores, selectedId),
+    [layout, kb, compassOn, scores, selectedId],
   )
+
+  const gone = useMemo(() => {
+    if (closed.size === 0) return density.hidden
+    const out = new Set(density.hidden)
+    closed.forEach((id) => {
+      if (id !== selectedId) out.add(id)
+    })
+    return out
+  }, [density.hidden, closed, selectedId])
 
   const labelIds = useMemo(
     () =>
@@ -807,12 +800,11 @@ export function AtlasMap({
         scores,
         compassOn,
         selectedId,
-        crawlIndex,
         topIds: top,
-        hidden: density.hidden,
+        hidden: gone,
         mode,
       }),
-    [layout, kb, scores, compassOn, selectedId, crawlIndex, top, density, mode],
+    [layout, kb, scores, compassOn, selectedId, top, gone, mode],
   )
 
   // Labels that just lost their slot stay mounted for one beat so they can
@@ -858,7 +850,7 @@ export function AtlasMap({
     const m = stageBox
     const names = displayNames(cafe, mode)
     const headline = detailFor(cafe).headline
-    const r = pinRadius(kb, cafe, strengthOf(compassOn, scores.get(cafe.id)), true, crawlIndex.has(cafe.id))
+    const r = pinRadius(kb, cafe, strengthOf(compassOn, scores.get(cafe.id)), true)
     const sx = m.offX + (layout.xs[i] * view.k + view.x) * m.s0
     const sy = m.offY + (layout.ys[i] * view.k + view.y) * m.s0
     const below = sy < 96
@@ -871,7 +863,7 @@ export function AtlasMap({
       line: headline ? t(headline) : cafe.hood,
       isHeadline: Boolean(headline),
     }
-  }, [hovered, stageBox, layout, mode, kb, compassOn, scores, crawlIndex, view, t])
+  }, [hovered, stageBox, layout, mode, kb, compassOn, scores, view, t])
 
   return (
     <div
@@ -922,32 +914,6 @@ export function AtlasMap({
           <g className="viewport">
             <BaseLayers k={kb} raster={rasterReady} />
 
-            {route && (
-              <g className="route">
-                <path d={route.d} fill="none" stroke="var(--accent)" strokeWidth={4.5 * inv} strokeOpacity="0.2" />
-                <path
-                  d={route.d}
-                  fill="none"
-                  stroke="var(--accent)"
-                  strokeWidth={2 * inv}
-                  strokeDasharray={`${1.5 * inv} ${7 * inv}`}
-                  strokeLinecap="round"
-                />
-                {route.legs.map((leg, i) => (
-                  <text
-                    key={i}
-                    x={leg.mid[0]}
-                    y={leg.mid[1]}
-                    className="leg-label"
-                    textAnchor="middle"
-                    fontSize={11 * inv}
-                  >
-                    {leg.mins} min
-                  </text>
-                ))}
-              </g>
-            )}
-
             {anchorPlace && anchor && (
               <g transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`} className="anchor-mark">
                 {anchor.kind === 'metro' ? (
@@ -996,16 +962,6 @@ export function AtlasMap({
               </g>
             )}
 
-            {me && (
-              <g transform={`translate(${project(me.lng, me.lat).join(',')}) scale(${inv})`} className="me">
-                <circle r="22" fill="var(--accent)" fillOpacity="0.18" />
-                <circle r="7" fill="var(--accent)" stroke="var(--paper)" strokeWidth="2.4" />
-                <text y="-16" textAnchor="middle" className="me-label">
-                  {t(UI.you)}
-                </text>
-              </g>
-            )}
-
             <Blots clusters={density.clusters} inv={inv} />
 
             <Pins
@@ -1014,8 +970,6 @@ export function AtlasMap({
               compassOn={compassOn}
               selectedId={selectedId}
               hovered={hovered}
-              crawlOn={Boolean(crawl)}
-              crawlIndex={crawlIndex}
               visited={visited}
               saved={saved}
               k={kb}
@@ -1023,12 +977,34 @@ export function AtlasMap({
               labelIds={labelIds}
               fading={fading}
               topIds={top}
-              hidden={density.hidden}
+              hidden={gone}
               mode={mode}
               onHover={onHover}
               onLeave={onLeave}
               onPick={onPick}
             />
+
+            {me && (
+              <g
+                transform={`translate(${project(me.lng, me.lat).join(',')}) scale(${inv})`}
+                className={`me${anchor && anchor.kind !== 'me' ? ' me-aside' : ''}`}
+                pointerEvents="none"
+              >
+                {(!anchor || anchor.kind === 'me') && (
+                  <>
+                    <circle className="me-pulse" r="22" fill="none" stroke="var(--accent)" strokeWidth="2.5" />
+                    <circle r="40" fill="var(--accent)" fillOpacity="0.14" />
+                  </>
+                )}
+                <circle r="12" fill="var(--accent)" stroke="var(--paper)" strokeWidth="3.5" />
+                <circle r="4" fill="var(--paper)" />
+                {(!anchor || anchor.kind === 'me') && (
+                  <text y="-28" textAnchor="middle" className="me-label">
+                    {t(UI.youAreHere)}
+                  </text>
+                )}
+              </g>
+            )}
           </g>
         </svg>
       </div>
@@ -1093,8 +1069,6 @@ interface PinsProps {
   compassOn: boolean
   selectedId: string | null
   hovered: string | null
-  crawlOn: boolean
-  crawlIndex: Map<string, number>
   visited: Set<string>
   saved: Set<string>
   /** Bucketed committed zoom; the layer never sees mid-gesture values. */
@@ -1120,7 +1094,6 @@ interface PinProps {
   tier: Tier | null
   isSel: boolean
   isHover: boolean
-  crawlNo: number | undefined
   dim: boolean
   visited: boolean
   saved: boolean
@@ -1144,7 +1117,6 @@ const Pin = memo(function Pin({
   tier,
   isSel,
   isHover,
-  crawlNo,
   dim,
   visited,
   saved,
@@ -1157,11 +1129,10 @@ const Pin = memo(function Pin({
   onPick,
 }: PinProps) {
   const active = isSel || isHover
-  const inCrawl = crawlNo !== undefined
-  const quiet = isQuietPin(k, cafe, strength, active, inCrawl)
+  const quiet = isQuietPin(k, cafe, strength, active)
   // Only the inked circles follow the score; glyph, badges and label sit on
   // the zoom-level frame so a slider drag never relayouts their paths.
-  const pinR = pinRadius(k, cafe, strength, active, inCrawl)
+  const pinR = pinRadius(k, cafe, strength, active)
   const frameR = quiet ? QUIET_R : basePinRadius(k) + (strength === null ? 1 : 5)
   const r = pinR * inv
   const f = frameR * inv
@@ -1232,14 +1203,6 @@ const Pin = memo(function Pin({
           />
         </g>
       )}
-      {inCrawl && (
-        <g transform={`translate(${-f * 0.9},${-f * 0.9}) scale(${inv})`}>
-          <circle r="7.5" fill="var(--accent)" />
-          <text className="crawl-num" textAnchor="middle" y="3.4">
-            {crawlNo}
-          </text>
-        </g>
-      )}
       {place !== undefined && (
         <g className="flag" transform={`translate(${f * 0.55},${-f * 0.7}) scale(${inv})`}>
           <path d={PENNANTS[place].mast} fill="none" stroke="var(--ink)" strokeWidth="1.5" strokeLinecap="round" />
@@ -1287,8 +1250,6 @@ const Pins = memo(function Pins({
   compassOn,
   selectedId,
   hovered,
-  crawlOn,
-  crawlIndex,
   visited,
   saved,
   k,
@@ -1310,7 +1271,6 @@ const Pins = memo(function Pins({
         if (hidden.has(cafe.id)) return null
         const score = scores.get(cafe.id)
         const isHover = hovered === cafe.id
-        const crawlNo = crawlIndex.get(cafe.id)
         const label = labelIds.has(cafe.id) || isHover
         return (
           <Pin
@@ -1324,8 +1284,7 @@ const Pins = memo(function Pins({
             tier={tierOf(compassOn, score)}
             isSel={selectedId === cafe.id}
             isHover={isHover}
-            crawlNo={crawlNo}
-            dim={score === undefined || (crawlOn && crawlNo === undefined)}
+            dim={score === undefined}
             visited={visited.has(cafe.id)}
             saved={saved.has(cafe.id)}
             label={label}

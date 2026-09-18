@@ -41,11 +41,9 @@ src/
     Compass.tsx                五轴罗盘控件（核心交互）
     CafeCard.tsx               单店详情卡
     ResultsStrip.tsx           罗盘结果条
-    NearMePanel.tsx            「从这里出发」：定位/落针/地铁站锚点 + 步行时间排序
+    LocationPanel.tsx          起点：默认用定位；备选输入地铁站 / 点地图落针
     ListView.tsx               移动端列表视图
     SearchBox.tsx              搜索
-    QuizModal.tsx              六题测验 → 命名人格 → 拨罗盘
-    CrawlList.tsx              七条步行路线
     PassportPanel.tsx          护照：盖章、徽章、收藏
     CalibrateWidget.tsx        「校准罗盘」投票控件（5 个一键问题）
     Methodology.tsx            「?」方法论页（双语，解释评分公式和证据来源）
@@ -53,11 +51,11 @@ src/
     Onboarding.tsx             首次引导
   data/
     types.ts                   全部类型：District, Archetype, Tag, Axes, Cafe, evidence…
-    cafes.ts                   553 家店（编辑字段 + evidence.amap/dianping 块）
+    cafes.ts                   977 家店（v5 清理餐厅等非咖啡馆后；编辑字段 + evidence 块）
     dianping.json              点评公开信号（评分、人均、评论量级）
     basemap.json               由 build_basemap.py 生成
     metro.ts                   地铁站锚点
-    crawls.ts / labels.ts
+    labels.ts                  全部界面文案（中英对）
   lib/
     scoring.ts                 贝叶斯三层混合评分（见 §5）
     match.ts                   罗盘匹配 Σ wᵢ(1−dᵢ^0.72)
@@ -65,7 +63,8 @@ src/
     votes.ts                   VoteStore 接口 + localStorage 实现
     projection.ts / hand.ts / palette.ts   投影、手绘抖动、五个时段色板
     i18n.ts / names.ts         中英切换、拼音名→中文名
-    quiz.ts / passport.ts / onboard.ts
+    passport.ts / onboard.ts
+archive/                       v5 下线但保留的功能副本（七条路线、六题测验），不参与编译
 tools/
   build_basemap.py             Overpass → tools/raw/*.json → src/data/basemap.json
   amap_discover.py / amap_harvest.py   高德 POI 发现与采集（需 AMAP_WEB_API_KEY 环境变量）
