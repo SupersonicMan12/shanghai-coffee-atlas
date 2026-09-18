@@ -3057,6 +3057,41 @@ button,
   padding: 5px 4px;
 }
 
+/* In the peek strip the location section folds into one row. */
+.sheet .location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 0 0 8px;
+}
+
+.sheet .loc-me {
+  flex: 1 1 auto;
+  width: auto;
+  min-height: 38px;
+  font-size: 13.5px;
+}
+
+.sheet .loc-other {
+  flex: 0 0 auto;
+  width: auto;
+  margin-top: 0;
+  padding: 6px 4px;
+  border-bottom: 0;
+}
+
+.sheet .loc-note,
+.sheet .loc-anchor,
+.sheet .loc-other-body {
+  flex: 1 1 100%;
+  margin-top: 0;
+}
+
+.sheet .loc-other-body {
+  padding-top: 0;
+}
+
 .sheet .scenarios {
   margin: 0 -12px 6px;
   padding: 0 12px;

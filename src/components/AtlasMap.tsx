@@ -448,7 +448,14 @@ export function AtlasMap({
     () => ({
       focusOn(lng, lat, k = 3.4) {
         const [px, py] = project(lng, lat)
-        flyTo({ k, x: PAPER_WIDTH / 2 - px * k, y: PAPER_HEIGHT / 2 - py * k }, 480, 640)
+        const m = metrics.current
+        // On a phone the bottom sheet covers part of the stage; centre in what is left.
+        const covered = stageRef.current
+          ? parseFloat(getComputedStyle(stageRef.current).getPropertyValue('--sheet-peek')) || 0
+          : 0
+        const cx = (m.w / 2 - m.offX) / m.s0
+        const cy = ((m.h - covered) / 2 - m.offY) / m.s0
+        flyTo({ k, x: cx - px * k, y: cy - py * k }, 480, 640)
       },
       reset() {
         flyTo(wholeSheet(metrics.current), 480, 640)

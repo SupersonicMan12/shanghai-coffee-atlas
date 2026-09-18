@@ -17,7 +17,7 @@ import {
 } from '../data/labels'
 import { useI18n } from '../lib/i18n'
 import { displayNames } from '../lib/names'
-import { detailFor, firmTraits } from '../lib/details'
+import { detailFor, firmTraits, hoursOn } from '../lib/details'
 import type { Why } from '../lib/why'
 import { CalibrateWidget } from './CalibrateWidget'
 import { VerdictBlock } from './Verdict'
@@ -52,8 +52,9 @@ interface Props {
   onShareCard: () => void
 }
 
-function hours(cafe: Cafe) {
-  return `${formatHour(cafe.opens)} – ${formatHour(cafe.closes)}`
+function hours(cafe: Cafe, weekday: number) {
+  const today = hoursOn(cafe, weekday)
+  return `${formatHour(today.open)} – ${formatHour(today.close)}`
 }
 
 export function CafeCard({
@@ -206,7 +207,7 @@ export function CafeCard({
         <div>
           <dt>{t(UI.hoursWord)}</dt>
           <dd>
-            {hours(cafe)}{' '}
+            {hours(cafe, weekday)}{' '}
             <em className={open ? 'open' : 'shut'}>
               {open
                 ? `${t(UI.openAtHour)} ${formatHour(hour)}`

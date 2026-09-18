@@ -414,8 +414,10 @@ export default function App() {
     return walkingMinutes(haversine(from.lng, from.lat, selected.lng, selected.lat))
   }, [me, anchor, selected])
 
-  const locate = useCallback(() => {
+  /** `quiet` is the silent attempt on load: a miss leaves the panel untouched. */
+  const locate = useCallback((quiet = false) => {
     if (!navigator.geolocation) {
+      if (quiet) return
       setGeo('failed')
       setGeoNote(UI.geoNoShare)
       return
@@ -427,8 +429,8 @@ export default function App() {
         const { longitude: lng, latitude: lat } = pos.coords
         if (lat < BBOX.south || lat > BBOX.north || lng < BBOX.west || lng > BBOX.east) {
           setMe(null)
-          setGeo('failed')
-          setGeoNote(UI.geoOutside)
+          setGeo(quiet ? 'idle' : 'failed')
+          setGeoNote(quiet ? null : UI.geoOutside)
           return
         }
         setMe({ lng, lat })
@@ -440,8 +442,8 @@ export default function App() {
         if (window.innerWidth <= 900) setSheet((s) => (s === 'hidden' ? s : 'peek'))
       },
       () => {
-        setGeo('failed')
-        setGeoNote(UI.geoRefused)
+        setGeo(quiet ? 'idle' : 'failed')
+        setGeoNote(quiet ? null : UI.geoRefused)
       },
       { timeout: 8000, maximumAge: 60_000 },
     )
@@ -455,7 +457,7 @@ export default function App() {
     navigator.permissions
       .query({ name: 'geolocation' })
       .then((p) => {
-        if (live && p.state === 'granted') locate()
+        if (live && p.state === 'granted') locate(true)
       })
       .catch(() => undefined)
     return () => {
@@ -512,7 +514,7 @@ export default function App() {
       anchor={anchor}
       geo={geo}
       geoNote={geoNote}
-      onLocate={locate}
+      onLocate={() => locate()}
       onAnchor={setAnchorAndFly}
       pinArm={pinArm}
       onPinArm={armPin}
@@ -641,6 +643,7 @@ export default function App() {
                 {railTabs}
                 {panel === 'compass' && (
                   <>
+                    {locationPanel}
                     <ScenarioChips
                       activeId={scenarioId}
                       modified={modified}
@@ -674,7 +677,6 @@ export default function App() {
                 {t(UI.compassSetFor)} <strong>{character}</strong>
               </div>
             )}
-            {panel === 'compass' && locationPanel}
             {panel === 'compass' && (
               <Compass
                 {...compassProps}
