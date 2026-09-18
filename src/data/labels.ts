@@ -214,7 +214,7 @@ export const UI = {
   clear: { en: 'Clear', zh: '清除' },
 
   // results strip / list
-  nearestThatFit: { en: 'Nearest that fit', zh: '就在附近' },
+  nearestThatFit: { en: 'Nearest that fit', zh: '按步行距离' },
   closestToCompass: { en: 'Closest to your compass', zh: '最贴近你' },
   everythingOnMap: { en: 'Everything on the map', zh: '全部' },
   stripEmpty: {

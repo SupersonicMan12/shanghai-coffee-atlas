@@ -183,10 +183,12 @@ export default function App() {
       ),
     [axes, filters, weights, cafeVotes, scenario, hour, weekday],
   )
-  const openCount = useMemo(
-    () => CAFES.reduce((n, c) => n + (isOpenAt(c, hour, weekday) ? 1 : 0), 0),
-    [hour, weekday],
-  )
+  const closedIds = useMemo(() => {
+    const out = new Set<string>()
+    for (const c of CAFES) if (!isOpenAt(c, hour, weekday)) out.add(c.id)
+    return out
+  }, [hour, weekday])
+  const openCount = CAFES.length - closedIds.size
   const nearRanked = useMemo(
     () => (anchor ? rankNear(ranked, anchor) : null),
     [ranked, anchor],
@@ -421,6 +423,8 @@ export default function App() {
         setPinArm(false)
         setGeo('on')
         mapRef.current?.focusOn(lng, lat, 3.6)
+        // On a phone the sheet steps down so the fly-to and the marker are seen.
+        if (window.innerWidth <= 900) setSheet((s) => (s === 'hidden' ? s : 'peek'))
       },
       () => {
         setGeo('failed')
@@ -452,7 +456,13 @@ export default function App() {
     if (a) {
       const p = anchorPoint(a)
       mapRef.current?.focusOn(p.lng, p.lat, 3.6)
+      if (window.innerWidth <= 900) setSheet((s) => (s === 'hidden' ? s : 'peek'))
     }
+  }, [])
+
+  const armPin = useCallback((v: boolean) => {
+    setPinArm(v)
+    if (v && window.innerWidth <= 900) setSheet('peek')
   }, [])
 
   const style = {
@@ -492,7 +502,7 @@ export default function App() {
       onLocate={locate}
       onAnchor={setAnchorAndFly}
       pinArm={pinArm}
-      onPinArm={setPinArm}
+      onPinArm={armPin}
     />
   )
 
@@ -591,10 +601,11 @@ export default function App() {
           <SearchBox cafes={CAFES} onPick={selectCafe} />
           <button
             className="ghost lang-btn"
-            onClick={() => setLang(lang === 'zh' ? 'en' : lang === 'en' ? 'both' : 'zh')}
+            onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
             aria-label="Language / 语言"
+            title={lang === 'zh' ? 'Switch to English' : '切换到中文'}
           >
-            {lang === 'both' ? 'EN/中' : lang === 'en' ? 'EN' : '中'}
+            {lang === 'zh' ? 'EN' : '中'}
           </button>
           <button
             className="ghost method-btn"
@@ -650,6 +661,7 @@ export default function App() {
                 {t(UI.compassSetFor)} <strong>{character}</strong>
               </div>
             )}
+            {panel === 'compass' && locationPanel}
             {panel === 'compass' && (
               <Compass
                 {...compassProps}
@@ -657,7 +669,6 @@ export default function App() {
                 showScenarios={false}
               />
             )}
-            {panel === 'compass' && sheet === 'full' && locationPanel}
             {panel === 'passport' && passportPanel}
           </BottomSheet>
         ) : (
@@ -690,6 +701,7 @@ export default function App() {
             handleRef={mapRef}
             cafes={CAFES}
             scores={mapScores}
+            closed={closedIds}
             compassOn={compassOn}
             topIds={mapTopIds}
             selectedId={selectedId}

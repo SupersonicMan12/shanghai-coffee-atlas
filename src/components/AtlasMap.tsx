@@ -68,6 +68,8 @@ export interface AtlasHandle {
 interface Props {
   cafes: Cafe[]
   scores: Map<string, number>
+  /** Cafés shut at the selected hour; they leave the sheet (the selected one stays). */
+  closed: Set<string>
   compassOn: boolean
   /** The compass's top picks, in order. Derived from `scores` when absent. */
   topIds?: string[]
@@ -209,6 +211,7 @@ interface Gesture {
 export function AtlasMap({
   cafes,
   scores,
+  closed,
   compassOn,
   topIds,
   selectedId,
@@ -773,6 +776,15 @@ export function AtlasMap({
     [layout, kb, compassOn, scores, selectedId],
   )
 
+  const gone = useMemo(() => {
+    if (closed.size === 0) return density.hidden
+    const out = new Set(density.hidden)
+    closed.forEach((id) => {
+      if (id !== selectedId) out.add(id)
+    })
+    return out
+  }, [density.hidden, closed, selectedId])
+
   const labelIds = useMemo(
     () =>
       labelSet({
@@ -782,10 +794,10 @@ export function AtlasMap({
         compassOn,
         selectedId,
         topIds: top,
-        hidden: density.hidden,
+        hidden: gone,
         mode,
       }),
-    [layout, kb, scores, compassOn, selectedId, top, density, mode],
+    [layout, kb, scores, compassOn, selectedId, top, gone, mode],
   )
 
   // Labels that just lost their slot stay mounted for one beat so they can
@@ -958,7 +970,7 @@ export function AtlasMap({
               labelIds={labelIds}
               fading={fading}
               topIds={top}
-              hidden={density.hidden}
+              hidden={gone}
               mode={mode}
               onHover={onHover}
               onLeave={onLeave}

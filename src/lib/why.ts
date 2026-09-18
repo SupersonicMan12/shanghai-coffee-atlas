@@ -369,9 +369,9 @@ export function compassSays(input: SaysInput): Pair {
   const scopeZh = anchor ? `${WALK_LIMIT_MIN} 分钟步行内` : '全城'
   const roomsEn =
     fits === 0
-      ? `no strong match${scopeEn}; closest is`
+      ? `closest match${scopeEn} is`
       : `${fits} good ${fits === 1 ? 'match' : 'matches'}${scopeEn}, best is`
-  const roomsZh = fits === 0 ? `${scopeZh}没有很合适的，最接近的是` : `${scopeZh}有 ${fits} 家合适，首选`
+  const roomsZh = fits === 0 ? `${scopeZh}最接近的是` : `${scopeZh}有 ${fits} 家合适，首选`
   return pair(
     `${head.en}${roomsEn} ${best.cafe.name}${walk}.`,
     `${head.zh}${roomsZh} ${best.cafe.nameZh}${walkZh}。`,
