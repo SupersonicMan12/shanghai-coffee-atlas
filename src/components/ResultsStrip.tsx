@@ -16,6 +16,7 @@ interface Props {
   compassOn: boolean
   nearMode: boolean
   hour: number
+  weekday: number
   selectedId: string | null
   onSelect: (id: string) => void
   visited: Set<string>
@@ -101,6 +102,7 @@ const StripCard = memo(function StripCard({
   minutes,
   rank,
   hour,
+  weekday,
   on,
   stamped,
   compassOn,
@@ -114,6 +116,7 @@ const StripCard = memo(function StripCard({
   minutes?: number
   rank: number
   hour: number
+  weekday: number
   on: boolean
   stamped: boolean
   compassOn: boolean
@@ -124,7 +127,7 @@ const StripCard = memo(function StripCard({
 }) {
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
-  const toClose = minutesToClose(cafe, hour)
+  const toClose = minutesToClose(cafe, hour, weekday)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const names = displayNames(cafe, mode)
   const pick = why !== null
@@ -185,6 +188,7 @@ export function ResultsStrip({
   compassOn,
   nearMode,
   hour,
+  weekday,
   selectedId,
   onSelect,
   visited,
@@ -232,6 +236,7 @@ export function ResultsStrip({
             minutes={minutes}
             rank={i + 1}
             hour={hour}
+            weekday={weekday}
             on={selectedId === cafe.id}
             stamped={visited.has(cafe.id)}
             compassOn={compassOn}

@@ -1,9 +1,10 @@
-import type { Cafe, Crawl } from '../data/types'
-import { CRAWLS } from '../data/crawls'
-import { haversine, walkingMinutes } from '../lib/projection'
-import { formatHour } from '../lib/palette'
-import { UI } from '../data/labels'
-import { useI18n } from '../lib/i18n'
+import type { Cafe } from '../../src/data/types'
+import type { Crawl } from './crawls'
+import { CRAWLS } from './crawls'
+import { haversine, walkingMinutes } from '../../src/lib/projection'
+import { formatHour } from '../../src/lib/palette'
+import { UI } from '../../src/data/labels'
+import { useI18n } from '../../src/lib/i18n'
 
 interface Props {
   cafesById: Map<string, Cafe>

@@ -149,11 +149,26 @@ def cost_to_spend(cost: float) -> int:
     return 95
 
 
+# Amap matched a different business at the same address (tattoo studio, clothes
+# shop). Their photos, hours and dishes describe that business, not the café.
+MISMATCHED = {
+    'stable-m50',   # STABLE TATTOO
+    'sumi-coffee',  # sumi(嘉善路店) · 服装鞋帽皮具店
+}
+
+# Photo kinds (from the vision pass) that show the room or what it serves.
+# 'other' is anything the model could not place; 'logo' and 'menu' are signage.
+PHOTO_KINDS = {'storefront', 'interior', 'seating', 'drink', 'food'}
+
+
 def gather(cafe: dict) -> dict:
-    amap = read_json(AMAP_DETAIL / f"{cafe['id']}.json") or {}
-    dp = read_json(DIANPING / f"{cafe['id']}.json") or {}
-    vis = read_json(VISION / f"{cafe['id']}.json") or {}
-    web = read_json(WEB / f"{cafe['id']}.json") or {}
+    if cafe['id'] in MISMATCHED:
+        amap, dp, vis, web = {}, {}, {}, {}
+    else:
+        amap = read_json(AMAP_DETAIL / f"{cafe['id']}.json") or {}
+        dp = read_json(DIANPING / f"{cafe['id']}.json") or {}
+        vis = read_json(VISION / f"{cafe['id']}.json") or {}
+        web = read_json(WEB / f"{cafe['id']}.json") or {}
     chain = chain_of(cafe['name'], cafe['nameZh'])
     brand = read_json(WEB / f'brand-{chain[0]}.json') if chain else None
     return {'amap': amap, 'dianping': dp, 'vision': vis, 'web': web, 'brand': brand or {}, 'chain': chain}
@@ -261,10 +276,21 @@ def dish_list(amap: dict) -> list[str]:
     return out[:8]
 
 
+def photo_list(amap: dict, vis: dict) -> list[str]:
+    """Amap photos of the matched POI, keeping only those the vision pass
+    classified as the room or what it serves. Unclassified photos are dropped."""
+    kinds = dict(zip(vis.get('photos') or [], vis.get('photoKinds') or []))
+    out = []
+    for p in amap.get('photos') or []:
+        if isinstance(p, str) and kinds.get(p) in PHOTO_KINDS:
+            out.append(p)
+    return out[:4]
+
+
 def deterministic(cafe: dict, src: dict) -> dict:
     amap, dp = src['amap'], src['dianping']
     detail: dict = {
-        'photos': [p for p in amap.get('photos') or [] if isinstance(p, str)][:4],
+        'photos': photo_list(amap, src['vision']),
         'dishes': dish_list(amap),
         'traits': [],
     }

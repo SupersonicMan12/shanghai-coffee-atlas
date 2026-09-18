@@ -1,4 +1,4 @@
-import type { Axes } from '../data/types'
+import type { Axes } from '../../src/data/types'
 
 export interface QuizOption {
   id: string

@@ -1,17 +1,14 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import './App.css'
 import { CAFES } from './data/cafes'
-import { CRAWLS } from './data/crawls'
 import type { Axes, Cafe } from './data/types'
 import { AtlasMap, type AtlasHandle } from './components/AtlasMap'
 import { Compass, ScenarioChips } from './components/Compass'
 import { BottomSheet, type Snap } from './components/BottomSheet'
 import { CafeCard } from './components/CafeCard'
-import { CrawlList } from './components/CrawlList'
 import { PassportPanel } from './components/PassportPanel'
 import { Methodology } from './components/Methodology'
-import { NearMePanel } from './components/NearMePanel'
-import { QuizModal } from './components/QuizModal'
+import { LocationPanel, type GeoStatus } from './components/LocationPanel'
 import { ResultsStrip } from './components/ResultsStrip'
 import { SearchBox } from './components/SearchBox'
 import { ListView } from './components/ListView'
@@ -24,12 +21,13 @@ import {
   EVEN_WEIGHTS,
   NEUTRAL,
   blendAllMemo,
+  isOpenAt,
   rank,
   type Filters,
   type Ranked,
 } from './lib/match'
 import { anchorFromHash, anchorLabel, anchorPoint, anchorToHash, rankNear, type Anchor } from './lib/near'
-import { PHASES, formatHour, phaseForHour, shanghaiHour } from './lib/palette'
+import { formatHour, phaseForHour, shanghaiHour } from './lib/palette'
 import { detailFor } from './lib/details'
 import {
   SCENARIO_BY_ID,
@@ -42,9 +40,9 @@ import { usePassport } from './lib/passport'
 import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
 import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type Pair } from './lib/i18n'
-import { PHASE_LINE_ZH, UI } from './data/labels'
+import { UI } from './data/labels'
 
-type Panel = 'compass' | 'crawls' | 'passport'
+type Panel = 'compass' | 'passport'
 type View = 'map' | 'list'
 type Lang = LangMode
 
@@ -54,7 +52,6 @@ interface HashState {
   cafe?: string
   axes?: Axes
   scenario?: string
-  crawl?: string
   method?: boolean
   anchor?: Anchor
   lang?: Lang
@@ -73,8 +70,6 @@ function readHash(): HashState {
   if (h.get('view') === 'list') out.view = 'list'
   const cafe = h.get('cafe')
   if (cafe && byId.has(cafe)) out.cafe = cafe
-  const crawl = h.get('crawl')
-  if (crawl && CRAWLS.some((c) => c.id === crawl)) out.crawl = crawl
   const at = h.get('at')
   if (at) {
     const anchor = anchorFromHash(at)
@@ -136,10 +131,8 @@ export default function App() {
   useEffect(() => () => cancelAnimationFrame(axesFrame.current), [])
   const [character, setCharacter] = useState<string | null>(null)
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
-  const [panel, setPanel] = useState<Panel>(initial.crawl ? 'crawls' : 'compass')
+  const [panel, setPanel] = useState<Panel>('compass')
   const [selectedId, setSelectedId] = useState<string | null>(initial.cafe ?? null)
-  const [crawlId, setCrawlId] = useState<string | null>(initial.crawl ?? null)
-  const [quizOpen, setQuizOpen] = useState(false)
   const [methodOpen, setMethodOpen] = useState(Boolean(initial.method))
   const [taxiFor, setTaxiFor] = useState<Cafe | null>(null)
   const [shareFor, setShareFor] = useState<{ cafe: Cafe; kind: ShareKind; picks?: PicksShare } | null>(
@@ -150,6 +143,7 @@ export default function App() {
   const [copied, setCopied] = useState<string | null>(null)
   const [me, setMe] = useState<{ lng: number; lat: number } | null>(null)
   const [geoNote, setGeoNote] = useState<Pair | null>(null)
+  const [geo, setGeo] = useState<GeoStatus>('idle')
   const [railOpen, setRailOpen] = useState(
     () => typeof window === 'undefined' || window.innerWidth > 900,
   )
@@ -180,17 +174,18 @@ export default function App() {
 
   const cafeVotes = useCafeVotes()
   const blended = useMemo(() => blendAllMemo(CAFES, cafeVotes), [cafeVotes])
+  // The time bar is a real clock: only cafés open at that hour (weekly hours
+  // where known) are ranked; the rest stay on the map, dimmed.
   const ranked = useMemo(
     () =>
-      rank(
-        CAFES,
-        axes,
-        filters,
-        weights,
-        cafeVotes,
-        scenario?.filter ? (c) => passesScenarioFilter(c, scenario.filter, hour) : undefined,
+      rank(CAFES, axes, filters, weights, cafeVotes, (c) =>
+        isOpenAt(c, hour, weekday) && passesScenarioFilter(c, scenario?.filter),
       ),
-    [axes, filters, weights, cafeVotes, scenario, hour],
+    [axes, filters, weights, cafeVotes, scenario, hour, weekday],
+  )
+  const openCount = useMemo(
+    () => CAFES.reduce((n, c) => n + (isOpenAt(c, hour, weekday) ? 1 : 0), 0),
+    [hour, weekday],
   )
   const nearRanked = useMemo(
     () => (anchor ? rankNear(ranked, anchor) : null),
@@ -229,10 +224,9 @@ export default function App() {
         scenario: scenario?.name ?? null,
         anchor: anchor ? anchorLabel(anchor) : null,
         hour,
-        openNow: filters.openAt !== null,
         results: shownRanked,
       }),
-    [compassOn, scenario, anchor, hour, filters.openAt, shownRanked],
+    [compassOn, scenario, anchor, hour, shownRanked],
   )
 
   const pickScenario = useCallback(
@@ -246,9 +240,8 @@ export default function App() {
       setCompassOn(true)
       setCharacter(null)
       setPanel('compass')
-      if (s.filter?.openNow) setFilters((f) => ({ ...f, openAt: f.openAt ?? hour }))
     },
-    [hour],
+    [],
   )
 
   const topIds = useMemo(
@@ -276,15 +269,6 @@ export default function App() {
     setShareFor({ cafe: top[0].cafe, kind: 'picks', picks })
   }, [shownRanked, scenario, explainFor, axes])
   const selected = selectedId ? byId.get(selectedId) ?? null : null
-  const crawl = crawlId ? CRAWLS.find((c) => c.id === crawlId) ?? null : null
-  const crawlCafes = useMemo(
-    () =>
-      crawl
-        ? crawl.stops.map((s) => byId.get(s.cafeId)).filter((c): c is Cafe => Boolean(c))
-        : [],
-    [crawl],
-  )
-
   const visitedSet = useMemo(
     () => new Set(passport.state.stamps.map((s) => s.cafeId)),
     [passport.state.stamps],
@@ -294,7 +278,6 @@ export default function App() {
   useEffect(() => {
     const parts: string[] = []
     if (selectedId) parts.push(`cafe=${selectedId}`)
-    if (crawlId) parts.push(`crawl=${crawlId}`)
     if (compassOn) {
       parts.push(`a=${axes.focus}-${axes.energy}-${axes.linger}-${axes.adventure}-${axes.spend}`)
     }
@@ -305,7 +288,7 @@ export default function App() {
     if (view === 'list') parts.push('view=list')
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, crawlId, compassOn, axes, scenarioId, methodOpen, anchor, lang, view])
+  }, [selectedId, compassOn, axes, scenarioId, methodOpen, anchor, lang, view])
 
   useEffect(() => {
     if (import.meta.env.PROD && 'serviceWorker' in navigator) {
@@ -325,37 +308,15 @@ export default function App() {
     mapRef.current?.focusOn(cafe.lng, cafe.lat, 3.6)
   }, [])
 
-  const fitRoute = useCallback((stops: Cafe[]) => {
-    if (!stops.length) return
-    const lngs = stops.map((c) => c.lng)
-    const lats = stops.map((c) => c.lat)
-    const lng = (Math.min(...lngs) + Math.max(...lngs)) / 2
-    const lat = (Math.min(...lats) + Math.max(...lats)) / 2
-    const span = Math.max(
-      Math.max(...lngs) - Math.min(...lngs),
-      (Math.max(...lats) - Math.min(...lats)) * 1.17,
-      0.004,
-    )
-    mapRef.current?.focusOn(lng, lat, Math.min(4.5, Math.max(1.6, 0.055 / span)))
-  }, [])
-
   useEffect(() => {
-    const shared = initial.crawl ? CRAWLS.find((c) => c.id === initial.crawl) : null
-    if (shared) {
-      fitRoute(
-        shared.stops.map((s) => byId.get(s.cafeId)).filter((c): c is Cafe => Boolean(c)),
-      )
-      return
-    }
     const cafe = initial.cafe ? byId.get(initial.cafe) : null
     if (cafe) mapRef.current?.focusOn(cafe.lng, cafe.lat, 3.6)
-  }, [initial, fitRoute])
+  }, [initial])
 
   useEffect(() => {
     const onHash = () => {
       const h = readHash()
       setSelectedId(h.cafe ?? null)
-      setCrawlId(h.crawl ?? null)
       setMethodOpen(Boolean(h.method))
       setAnchor(h.anchor ?? null)
       if (h.lang) setLangState(h.lang)
@@ -365,20 +326,12 @@ export default function App() {
         setAxesNow(h.axes)
         setCompassOn(true)
       }
-      const shared = h.crawl ? CRAWLS.find((c) => c.id === h.crawl) : null
-      if (shared) {
-        setPanel('crawls')
-        fitRoute(
-          shared.stops.map((s) => byId.get(s.cafeId)).filter((c): c is Cafe => Boolean(c)),
-        )
-        return
-      }
       const cafe = h.cafe ? byId.get(h.cafe) : null
       if (cafe) mapRef.current?.focusOn(cafe.lng, cafe.lat, 3.6)
     }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
-  }, [fitRoute])
+  }, [])
 
   const selectCafe = useCallback(
     (id: string | null) => {
@@ -446,36 +399,59 @@ export default function App() {
     return walkingMinutes(haversine(from.lng, from.lat, selected.lng, selected.lat))
   }, [me, anchor, selected])
 
-  const locate = () => {
+  const locate = useCallback(() => {
     if (!navigator.geolocation) {
+      setGeo('failed')
       setGeoNote(UI.geoNoShare)
       return
     }
-    setGeoNote(UI.geoLooking)
+    setGeo('looking')
+    setGeoNote(null)
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const { longitude: lng, latitude: lat } = pos.coords
         if (lat < BBOX.south || lat > BBOX.north || lng < BBOX.west || lng > BBOX.east) {
           setMe(null)
+          setGeo('failed')
           setGeoNote(UI.geoOutside)
           return
         }
         setMe({ lng, lat })
         setAnchor({ kind: 'me', lng, lat })
-        setGeoNote(null)
-        mapRef.current?.focusOn(lng, lat, 3.2)
+        setPinArm(false)
+        setGeo('on')
+        mapRef.current?.focusOn(lng, lat, 3.6)
       },
-      () => setGeoNote(UI.geoRefused),
-      { timeout: 8000 },
+      () => {
+        setGeo('failed')
+        setGeoNote(UI.geoRefused)
+      },
+      { timeout: 8000, maximumAge: 60_000 },
     )
-  }
+  }, [])
+
+  // Location is the default starting point: if the browser already allows it,
+  // use it without asking again (a shared link with its own anchor wins).
+  useEffect(() => {
+    if (initial.anchor || !navigator.permissions?.query) return
+    let live = true
+    navigator.permissions
+      .query({ name: 'geolocation' })
+      .then((p) => {
+        if (live && p.state === 'granted') locate()
+      })
+      .catch(() => undefined)
+    return () => {
+      live = false
+    }
+  }, [initial.anchor, locate])
 
   const setAnchorAndFly = useCallback((a: Anchor | null) => {
     setAnchor(a)
     setPinArm(false)
     if (a) {
       const p = anchorPoint(a)
-      mapRef.current?.focusOn(p.lng, p.lat, 3.2)
+      mapRef.current?.focusOn(p.lng, p.lat, 3.6)
     }
   }, [])
 
@@ -502,25 +478,21 @@ export default function App() {
       <button className={panel === 'compass' ? 'on' : ''} onClick={() => setPanel('compass')}>
         {t(UI.tabCompass)}
       </button>
-      <button className={panel === 'crawls' ? 'on' : ''} onClick={() => setPanel('crawls')}>
-        {t(UI.tabCrawls)}
-      </button>
       <button className={panel === 'passport' ? 'on' : ''} onClick={() => setPanel('passport')}>
         {t(UI.tabPassport)}
       </button>
     </nav>
   )
 
-  const nearPanel = (
-    <NearMePanel
+  const locationPanel = (
+    <LocationPanel
       anchor={anchor}
-      onAnchor={setAnchorAndFly}
+      geo={geo}
+      geoNote={geoNote}
       onLocate={locate}
+      onAnchor={setAnchorAndFly}
       pinArm={pinArm}
       onPinArm={setPinArm}
-      openNow={filters.openAt !== null}
-      onOpenNow={() => setFilters({ ...filters, openAt: filters.openAt === null ? hour : null })}
-      hour={hour}
     />
   )
 
@@ -532,19 +504,16 @@ export default function App() {
     },
     filters,
     onFilters: setFilters,
-    hour,
     phaseId: phase.id,
     scenarioId,
     scenarioModified: modified,
     onScenario: pickScenario,
-    onQuiz: () => setQuizOpen(true),
     onReset: () => {
       setAxesNow(NEUTRAL)
       setScenarioId(null)
       setCompassOn(false)
       setCharacter(null)
       setFilters(EMPTY_FILTERS)
-      setCrawlId(null)
       setSelectedId(null)
       setAnchor(null)
       setPinArm(false)
@@ -552,27 +521,6 @@ export default function App() {
     },
     resultCount: ranked.length,
   }
-
-  const crawlPanel = (
-    <CrawlList
-      cafesById={byId}
-      activeId={crawlId}
-      onActivate={(id) => {
-        setCrawlId(id)
-        setSelectedId(null)
-        const route = id ? CRAWLS.find((c) => c.id === id) : null
-        if (!route) {
-          mapRef.current?.reset()
-          return
-        }
-        fitRoute(
-          route.stops.map((s) => byId.get(s.cafeId)).filter((c): c is Cafe => Boolean(c)),
-        )
-      }}
-      onSelectCafe={selectCafe}
-      visited={visitedSet}
-    />
-  )
 
   const passportPanel = (
     <PassportPanel
@@ -616,10 +564,17 @@ export default function App() {
 
         <div className="phase-bar">
           <div className="phase-line">
-            <strong>{phase.label}</strong>
-            <span className="zh">{phase.labelZh}</span>
             <span className="phase-clock">{formatHour(hour)}</span>
-            {hourOverride === null && <span className="phase-live">{t(UI.shanghaiNow)}</span>}
+            {hourOverride === null ? (
+              <span className="phase-live">{t(UI.shanghaiNow)}</span>
+            ) : (
+              <button className="link phase-now" onClick={() => setHourOverride(null)}>
+                {t(UI.now)}
+              </button>
+            )}
+            <span className="phase-open">
+              {openCount} {t(UI.openCount)}
+            </span>
           </div>
           <input
             type="range"
@@ -630,46 +585,27 @@ export default function App() {
             aria-label={t(UI.hourOfDay)}
             onChange={(e) => setHourOverride(Number(e.target.value))}
           />
-          <div className="phase-jumps">
-            {PHASES.map((p) => (
-              <button
-                key={p.id}
-                className={p.id === phase.id ? 'on' : ''}
-                onClick={() => setHourOverride(p.id === 'night' ? 21 : (p.from + p.to) / 2)}
-              >
-                {lang === 'zh' ? p.labelZh : p.label}
-              </button>
-            ))}
-            <button onClick={() => setHourOverride(null)}>{t(UI.now)}</button>
-          </div>
         </div>
 
         <div className="top-right">
           <SearchBox cafes={CAFES} onPick={selectCafe} />
-          <div className="top-right-row">
-            <div className="lang-toggle">
-              {(['both', 'en', 'zh'] as Lang[]).map((l) => (
-                <button key={l} className={lang === l ? 'on' : ''} onClick={() => setLang(l)}>
-                  {l === 'both' ? 'EN / 中' : l === 'en' ? 'EN' : '中文'}
-                </button>
-              ))}
-            </div>
-            <button className="ghost" onClick={locate}>
-              {t(UI.whereAmI)}
-            </button>
-            <button
-              className="ghost method-btn"
-              onClick={() => setMethodOpen(true)}
-              aria-label={t(UI.methodTitle)}
-              title={t(UI.methodTitle)}
-            >
-              ?
-            </button>
-          </div>
+          <button
+            className="ghost lang-btn"
+            onClick={() => setLang(lang === 'zh' ? 'en' : lang === 'en' ? 'both' : 'zh')}
+            aria-label="Language / 语言"
+          >
+            {lang === 'both' ? 'EN/中' : lang === 'en' ? 'EN' : '中'}
+          </button>
+          <button
+            className="ghost method-btn"
+            onClick={() => setMethodOpen(true)}
+            aria-label={t(UI.methodTitle)}
+            title={t(UI.methodTitle)}
+          >
+            ?
+          </button>
         </div>
       </header>
-
-      <p className="phase-mood">{lang === 'zh' ? PHASE_LINE_ZH[phase.id] ?? phase.line : phase.line}</p>
 
       <main className="stage">
         {mobile ? (
@@ -693,6 +629,7 @@ export default function App() {
                       compassOn={compassOn}
                       nearMode={Boolean(anchor)}
                       hour={hour}
+                      weekday={weekday}
                       selectedId={selectedId}
                       onSelect={selectCafe}
                       visited={visitedSet}
@@ -713,7 +650,6 @@ export default function App() {
                 {t(UI.compassSetFor)} <strong>{character}</strong>
               </div>
             )}
-            {geoNote && <div className="geo-note">{t(geoNote)}</div>}
             {panel === 'compass' && (
               <Compass
                 {...compassProps}
@@ -721,8 +657,7 @@ export default function App() {
                 showScenarios={false}
               />
             )}
-            {panel === 'compass' && sheet === 'full' && nearPanel}
-            {panel === 'crawls' && crawlPanel}
+            {panel === 'compass' && sheet === 'full' && locationPanel}
             {panel === 'passport' && passportPanel}
           </BottomSheet>
         ) : (
@@ -734,11 +669,8 @@ export default function App() {
               {t(UI.compassSetFor)} <strong>{character}</strong>
             </div>
           )}
-          {geoNote && <div className="geo-note">{t(geoNote)}</div>}
-
-          {panel === 'compass' && nearPanel}
+          {panel === 'compass' && locationPanel}
           {panel === 'compass' && <Compass {...compassProps} />}
-          {panel === 'crawls' && crawlPanel}
           {panel === 'passport' && passportPanel}
         </aside>
         )}
@@ -764,8 +696,6 @@ export default function App() {
             onSelect={selectCafe}
             visited={visitedSet}
             saved={savedSet}
-            crawl={crawl}
-            crawlCafes={crawlCafes}
             me={me}
             anchor={anchor}
             pinArm={pinArm}
@@ -801,6 +731,7 @@ export default function App() {
               compassOn={compassOn}
               nearMode={Boolean(anchor)}
               hour={hour}
+              weekday={weekday}
               selectedId={selectedId}
               onSelect={selectCafe}
               visited={visitedSet}
@@ -853,7 +784,7 @@ export default function App() {
               shared={copied === 'cafe'}
               onShare={() =>
                 copy(
-                  `${selected.name} ${selected.nameZh} — ${selected.street}, ${selected.district}.${selected.source === 'imported' ? '' : ` ${selected.signature}.`} ${location.href}`,
+                  `${selected.name} ${selected.nameZh} — ${selected.street}, ${selected.district}. ${location.href}`,
                   'cafe',
                 )
               }
@@ -866,6 +797,7 @@ export default function App() {
               compassOn={compassOn}
               nearMode={Boolean(anchor)}
               hour={hour}
+              weekday={weekday}
               selectedId={selectedId}
               onSelect={selectCafe}
               visited={visitedSet}
@@ -890,17 +822,6 @@ export default function App() {
         />
       )}
 
-      {quizOpen && (
-        <QuizModal
-          onClose={() => setQuizOpen(false)}
-          onApply={(a, name) => {
-            setAxesNow(a)
-            setScenarioId(null)
-            setCompassOn(true)
-            setCharacter(name)
-          }}
-        />
-      )}
       {methodOpen && <Methodology onClose={() => setMethodOpen(false)} />}
       {taxiFor && (
         <TaxiCard

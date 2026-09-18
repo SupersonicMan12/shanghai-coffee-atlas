@@ -1,5 +1,6 @@
 import type { Axes, Cafe, Tag } from '../data/types'
 import { blendAll, type BlendedAxes, type CafeVotes } from './scoring'
+import { hoursOn } from './details'
 
 /**
  * The compass. Five axes, each a spectrum rather than a checkbox, because the
@@ -79,7 +80,6 @@ export const EVEN_WEIGHTS: Weights = {
 export interface Filters {
   districts: string[]
   tags: Tag[]
-  openAt: number | null
   maxPrice: 1 | 2 | 3 | null
   query: string
 }
@@ -87,7 +87,6 @@ export interface Filters {
 export const EMPTY_FILTERS: Filters = {
   districts: [],
   tags: [],
-  openAt: null,
   maxPrice: null,
   query: '',
 }
@@ -110,17 +109,18 @@ export function searchHay(cafe: Cafe): string {
   return hay
 }
 
-export function isOpenAt(cafe: Cafe, hour: number): boolean {
-  const close = cafe.closes <= cafe.opens ? cafe.closes + 24 : cafe.closes
-  const h = hour < cafe.opens ? hour + 24 : hour
-  return h >= cafe.opens && h < close
+/** Open at `hour` on `weekday` (0 = Sunday); falls back to the flat hours when no weekday is given. */
+export function isOpenAt(cafe: Cafe, hour: number, weekday?: number): boolean {
+  const { open, close: rawClose } = weekday === undefined ? { open: cafe.opens, close: cafe.closes } : hoursOn(cafe, weekday)
+  const close = rawClose <= open ? rawClose + 24 : rawClose
+  const h = hour < open ? hour + 24 : hour
+  return h >= open && h < close
 }
 
 export function passesFilters(cafe: Cafe, f: Filters): boolean {
   if (f.districts.length && !f.districts.includes(cafe.district)) return false
   if (f.tags.length && !f.tags.every((t) => cafe.tags.includes(t))) return false
   if (f.maxPrice !== null && cafe.price > f.maxPrice) return false
-  if (f.openAt !== null && !isOpenAt(cafe, f.openAt)) return false
   if (f.query.trim()) {
     const q = normalizeQuery(f.query)
     const hay = searchHay(cafe)

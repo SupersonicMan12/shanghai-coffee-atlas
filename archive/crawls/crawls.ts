@@ -1,4 +1,18 @@
-import type { Crawl } from './types'
+export interface CrawlStop {
+  cafeId: string
+  order: string
+}
+
+export interface Crawl {
+  id: string
+  name: string
+  nameZh: string
+  subtitle: string
+  blurb: string
+  /** Best hour of day to start, 24h decimal. */
+  startHour: number
+  stops: CrawlStop[]
+}
 
 /**
  * A crawl is a reason to walk, not a shortest path. Each one is a half-day

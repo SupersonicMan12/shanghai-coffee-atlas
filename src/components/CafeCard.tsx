@@ -80,16 +80,15 @@ export function CafeCard({
   onShareCard,
   shared,
 }: Props) {
-  const open = isOpenAt(cafe, hour)
+  const open = isOpenAt(cafe, hour, weekday)
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
   const names = displayNames(cafe, mode)
   const cafeVotes = useCafeVotes()
   const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
-  const toClose = minutesToClose(cafe, hour)
+  const toClose = minutesToClose(cafe, hour, weekday)
   const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const detail = detailFor(cafe)
-  const curated = cafe.source !== 'imported'
   const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
   const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
@@ -160,13 +159,6 @@ export function CafeCard({
             </li>
           ))}
         </ul>
-      )}
-
-      {curated && (
-        <>
-          <p className="card-signature">“{cafe.signature}”</p>
-          <p className="card-note">{cafe.note}</p>
-        </>
       )}
 
       {photos.length > 0 && (

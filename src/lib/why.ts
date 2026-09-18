@@ -3,7 +3,7 @@ import { ARCHETYPE_LABEL } from '../data/labels'
 import unverified from '../data/unverified.json'
 import type { LangMode, Pair } from './i18n'
 import { hoursOn } from './details'
-import { AXES, isOpenAt, type Weights } from './match'
+import { AXES, type Weights } from './match'
 import { formatHour } from './palette'
 import type { BlendedAxes } from './scoring'
 
@@ -322,7 +322,6 @@ export interface SaysInput {
   scenario: Pair | null
   anchor: Pair | null
   hour: number
-  openNow: boolean
   results: { cafe: Cafe; score: number; minutes?: number }[]
 }
 
@@ -334,8 +333,8 @@ export function compassSays(input: SaysInput): Pair {
   const { compassOn, scenario, anchor, hour, results } = input
   if (!compassOn) {
     return pair(
-      'Tap a scenario or drag a dial — the compass will say where to go.',
-      '点一个场景，或拖一下罗盘，它会告诉你该去哪。',
+      'Pick a scenario above or drag a dial to get recommendations.',
+      '点上面的场景，或拖动滑杆，就会出现推荐。',
     )
   }
   const clock = formatHour(hour)
@@ -343,12 +342,13 @@ export function compassSays(input: SaysInput): Pair {
   const forZh = scenario ? scenario.zh : '按你的罗盘'
   const whereEn = anchor ? ` near ${anchor.en}` : ''
   const whereZh = anchor ? ` · ${anchor.zh}附近` : ''
-  const openEn = input.openNow ? ', open now' : ''
-  const openZh = input.openNow ? ' · 现在营业' : ''
-  const head = pair(`${forEn}${whereEn}${openEn} at ${clock}: `, `${forZh}${whereZh}${openZh} · ${clock}：`)
+  const head = pair(`${forEn}${whereEn}, open at ${clock}: `, `${forZh}${whereZh} · ${clock} 营业中：`)
 
   if (results.length === 0) {
-    return pair(`${head.en}nothing passes your hard limits.`, `${head.zh}没有一家过得了你的硬性条件。`)
+    return pair(
+      `${head.en}nothing is open that also passes your filters. Move the time bar or loosen a filter.`,
+      `${head.zh}没有符合条件且在营业的店。拖动时间条，或放宽筛选。`,
+    )
   }
   const pool = anchor
     ? results.filter((r) => (r.minutes ?? Infinity) <= WALK_LIMIT_MIN)
@@ -369,18 +369,12 @@ export function compassSays(input: SaysInput): Pair {
   const scopeZh = anchor ? `${WALK_LIMIT_MIN} 分钟步行内` : '全城'
   const roomsEn =
     fits === 0
-      ? `no room fits ≥ ${FIT_SCORE}${scopeEn}, closest is ${best.score} at`
-      : `${fits} ${fits === 1 ? 'room fits' : 'rooms fit'} ≥ ${FIT_SCORE}${scopeEn}, best is`
-  const roomsZh =
-    fits === 0
-      ? `${scopeZh}没有 ≥${FIT_SCORE} 的，最接近的 ${best.score} 分是`
-      : `${scopeZh}有 ${fits} 家 ≥${FIT_SCORE}，首选`
-  const shut = !input.openNow && !isOpenAt(best.cafe, hour)
-  const shutEn = shut ? ' (shut at this hour — try Open now)' : ''
-  const shutZh = shut ? '（这个点已关门，可以勾上「现在营业」）' : ''
+      ? `no strong match${scopeEn}; closest is`
+      : `${fits} good ${fits === 1 ? 'match' : 'matches'}${scopeEn}, best is`
+  const roomsZh = fits === 0 ? `${scopeZh}没有很合适的，最接近的是` : `${scopeZh}有 ${fits} 家合适，首选`
   return pair(
-    `${head.en}${roomsEn} ${best.cafe.name}${walk}${shutEn}.`,
-    `${head.zh}${roomsZh} ${best.cafe.nameZh}${walkZh}${shutZh}。`,
+    `${head.en}${roomsEn} ${best.cafe.name}${walk}.`,
+    `${head.zh}${roomsZh} ${best.cafe.nameZh}${walkZh}。`,
   )
 }
 

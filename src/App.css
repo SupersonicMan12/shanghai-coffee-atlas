@@ -92,11 +92,6 @@
   font-size: 13px;
 }
 
-.phase-line strong {
-  font-family: var(--serif);
-  font-size: 15px;
-}
-
 .phase-clock {
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.06em;
@@ -113,35 +108,22 @@
   color: var(--accent);
 }
 
-.phase-jumps {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
-
-.phase-jumps button,
-.lang-toggle button {
-  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
-  background: transparent;
-  border-radius: 999px;
-  padding: 2px 10px;
+.phase-now {
   font-size: 11px;
-  letter-spacing: 0.04em;
-  opacity: 0.72;
+  color: var(--accent);
 }
 
-.phase-jumps button:hover,
-.lang-toggle button:hover {
-  opacity: 1;
-  background: color-mix(in srgb, var(--ink) 7%, transparent);
+.phase-open {
+  margin-left: auto;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
 }
 
-.phase-jumps button.on,
-.lang-toggle button.on {
-  opacity: 1;
-  background: var(--ink);
-  color: var(--paper);
-  border-color: var(--ink);
+.lang-btn {
+  min-width: 44px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .top-right {
@@ -149,11 +131,6 @@
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-}
-
-.lang-toggle {
-  display: flex;
-  gap: 4px;
 }
 
 .ghost {
@@ -166,15 +143,6 @@
 
 .ghost:hover {
   background: color-mix(in srgb, var(--ink) 8%, transparent);
-}
-
-.phase-mood {
-  margin: 0;
-  padding: 6px 22px 10px;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 14px;
-  opacity: 0.72;
 }
 
 /* -------------------------------------------------------------- stage ---- */
@@ -251,8 +219,7 @@
   border-color: var(--ink);
 }
 
-.character-flag,
-.geo-note {
+.character-flag {
   margin-bottom: 10px;
   padding: 7px 11px;
   border-left: 3px solid var(--accent);
@@ -320,53 +287,6 @@
 
 /* ------------------------------------------------------------- compass --- */
 
-.quiz-cta {
-  display: block;
-  width: 100%;
-  text-align: left;
-  border: 1px solid var(--ink);
-  border-radius: 4px;
-  background: color-mix(in srgb, var(--glow) 22%, transparent);
-  padding: 13px 15px;
-  position: relative;
-  overflow: hidden;
-}
-
-.quiz-cta::after {
-  content: '';
-  position: absolute;
-  inset: 3px;
-  border: 1px dashed color-mix(in srgb, var(--ink) 30%, transparent);
-  border-radius: 3px;
-  pointer-events: none;
-}
-
-.quiz-cta:hover {
-  background: color-mix(in srgb, var(--glow) 40%, transparent);
-}
-
-.quiz-cta-kicker {
-  display: block;
-  font-size: 10.5px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  opacity: 0.6;
-}
-
-.quiz-cta-title {
-  display: block;
-  font-family: var(--serif);
-  font-size: 17px;
-  font-weight: 700;
-  margin: 2px 0 4px;
-}
-
-.quiz-cta-sub {
-  display: block;
-  font-size: 12px;
-  opacity: 0.7;
-}
-
 .axis {
   display: block;
   margin-bottom: 12px;
@@ -424,6 +344,184 @@
   margin-bottom: 9px;
 }
 
+/* ---------------------------------------------------- location section --- */
+
+.loc-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  min-height: 44px;
+  border: 1.5px solid var(--accent);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.loc-me.on {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.loc-me.busy {
+  opacity: 0.7;
+}
+
+.loc-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+.loc-me.on .loc-dot {
+  background: var(--paper);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--paper) 35%, transparent);
+}
+
+.loc-note {
+  margin: 8px 0 0;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #a33;
+}
+
+.loc-anchor {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.loc-anchor .link {
+  margin-left: auto;
+}
+
+.loc-anchor-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 1.5px solid var(--paper);
+  box-shadow: 0 0 0 1px var(--ink);
+}
+
+.loc-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  padding: 6px 2px;
+  border: 0;
+  border-bottom: 1px dashed color-mix(in srgb, var(--ink) 25%, transparent);
+  background: none;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.loc-other .chev {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.loc-other-body {
+  padding-top: 10px;
+}
+
+.loc-other-body .search {
+  margin-bottom: 6px;
+}
+
+.loc-hits {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--ink) 16%, transparent);
+  border-radius: 3px;
+  background: var(--paper);
+}
+
+.loc-hits button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 38px;
+  padding: 6px 10px;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
+  background: none;
+  text-align: left;
+  font-size: 13.5px;
+}
+
+.loc-hits li:last-child button {
+  border-bottom: 0;
+}
+
+.loc-hits button:hover {
+  background: color-mix(in srgb, var(--ink) 6%, transparent);
+}
+
+.loc-hits em {
+  margin-left: auto;
+  font-style: normal;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.loc-pin {
+  width: 100%;
+  justify-content: center;
+  min-height: 38px;
+}
+
+/* --------------------------------------------------- collapsible filters -- */
+
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 0;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 16%, transparent);
+  background: none;
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.section-toggle .count {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--paper);
+  font-style: normal;
+  font-size: 11px;
+  font-family: var(--sans, inherit);
+  vertical-align: 2px;
+}
+
+.section-toggle .chev {
+  font-size: 18px;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.section-toggle + .filter-body {
+  padding-top: 10px;
+}
+
 .chip {
   border: 1px solid color-mix(in srgb, var(--ink) 20%, transparent);
   background: transparent;
@@ -449,157 +547,6 @@
 
 .chip.on .zh {
   opacity: 0.85;
-}
-
-.legend {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 7px;
-}
-
-.legend li {
-  font-size: 12px;
-  line-height: 1.4;
-}
-
-.legend strong {
-  font-family: var(--serif);
-}
-
-.legend em {
-  display: block;
-  font-style: normal;
-  opacity: 0.62;
-}
-
-/* -------------------------------------------------------------- crawls --- */
-
-.crawl {
-  border: 1px solid color-mix(in srgb, var(--ink) 16%, transparent);
-  border-radius: 4px;
-  margin-bottom: 9px;
-  overflow: hidden;
-}
-
-.crawl.on {
-  border-color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 7%, transparent);
-}
-
-.crawl-head {
-  display: block;
-  width: 100%;
-  text-align: left;
-  border: 0;
-  background: none;
-  padding: 11px 13px;
-}
-
-.crawl-name {
-  display: block;
-  font-family: var(--serif);
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.crawl-name .zh {
-  font-size: 12px;
-  opacity: 0.55;
-  font-weight: 400;
-}
-
-.crawl-sub {
-  display: block;
-  font-size: 12px;
-  font-style: italic;
-  opacity: 0.72;
-}
-
-.crawl-meta {
-  display: block;
-  font-size: 11px;
-  letter-spacing: 0.03em;
-  opacity: 0.55;
-  margin-top: 3px;
-}
-
-.crawl-body {
-  padding: 0 13px 12px;
-}
-
-.crawl-blurb {
-  margin: 0 0 10px;
-  font-size: 12.5px;
-  line-height: 1.55;
-}
-
-.crawl-stops {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border-left: 1px dashed color-mix(in srgb, var(--ink) 30%, transparent);
-  margin-left: 11px;
-}
-
-.crawl-stops li button {
-  display: flex;
-  gap: 10px;
-  width: 100%;
-  text-align: left;
-  border: 0;
-  background: none;
-  padding: 6px 0 6px 12px;
-  margin-left: -12px;
-}
-
-.crawl-stops li button:hover .cs-name {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.cs-n {
-  flex: 0 0 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: var(--paper);
-  font-size: 11px;
-  display: grid;
-  place-items: center;
-  margin-left: -11px;
-}
-
-.crawl-stops li.stamped .cs-n {
-  background: var(--ink);
-}
-
-.cs-main {
-  display: flex;
-  flex-direction: column;
-}
-
-.cs-name {
-  font-family: var(--serif);
-  font-size: 13.5px;
-}
-
-.cs-name .zh {
-  font-size: 11px;
-  opacity: 0.55;
-}
-
-.cs-order {
-  font-size: 11.5px;
-  font-style: italic;
-  opacity: 0.72;
-}
-
-.cs-where {
-  font-size: 10.5px;
-  letter-spacing: 0.05em;
-  opacity: 0.5;
 }
 
 /* ------------------------------------------------------------ passport --- */
@@ -818,8 +765,7 @@
   text-rendering: geometricPrecision;
 }
 
-.basemap,
-.route {
+.basemap {
   pointer-events: none;
 }
 
@@ -1097,30 +1043,38 @@
   opacity: 0.65;
 }
 
-.crawl-num {
-  font-family: var(--sans);
-  font-size: 9px;
-  font-weight: 700;
-  fill: var(--paper);
-}
-
-.leg-label {
-  font-family: var(--sans);
-  fill: var(--accent);
-  paint-order: stroke;
-  stroke: var(--paper);
-  stroke-width: 3px;
-  stroke-linejoin: round;
-  letter-spacing: 0.05em;
-}
-
 .me-label {
   font-family: var(--serif);
-  font-size: 11px;
+  font-weight: 700;
+  font-size: 13px;
   fill: var(--accent);
   paint-order: stroke;
   stroke: var(--paper);
-  stroke-width: 3px;
+  stroke-width: 4px;
+}
+
+.me-pulse {
+  transform-origin: 0 0;
+  transform-box: fill-box;
+  animation: me-pulse 2.2s ease-out infinite;
+}
+
+@keyframes me-pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .me-pulse {
+    animation: none;
+    opacity: 0.5;
+  }
 }
 
 .map-tools {
@@ -1255,21 +1209,6 @@
   font-size: 10.5px;
   opacity: 0.6;
   margin-left: auto;
-}
-
-.card-signature {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 15px;
-  line-height: 1.4;
-  margin: 14px 0 6px;
-}
-
-.card-note {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.6;
-  opacity: 0.85;
 }
 
 .card-facts {
@@ -1546,144 +1485,6 @@
   }
 }
 
-.quiz {
-  width: min(620px, 100%);
-  max-height: 90vh;
-  overflow-y: auto;
-  background: var(--paper);
-  color: var(--ink);
-  border: 1px solid var(--ink);
-  box-shadow: 10px 12px 0 rgb(0 0 0 / 0.25);
-  padding: 26px 30px 22px;
-}
-
-.quiz-progress {
-  display: flex;
-  gap: 4px;
-  margin-bottom: 14px;
-}
-
-.quiz-progress span {
-  flex: 1;
-  height: 3px;
-  background: color-mix(in srgb, var(--ink) 15%, transparent);
-}
-
-.quiz-progress span.on {
-  background: var(--accent);
-}
-
-.quiz-kicker {
-  font-size: 10.5px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  opacity: 0.6;
-}
-
-.quiz h2 {
-  margin: 6px 0 2px;
-  font-family: var(--serif);
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.quiz-zh {
-  font-size: 14px;
-  opacity: 0.6;
-}
-
-.quiz-line {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.quiz-options {
-  display: grid;
-  gap: 7px;
-  margin: 18px 0 14px;
-}
-
-.quiz-options button {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
-  background: transparent;
-  padding: 10px 14px;
-  font-size: 14.5px;
-  font-family: var(--serif);
-}
-
-.quiz-options button .zh {
-  font-size: 11.5px;
-  opacity: 0.55;
-}
-
-.quiz-options button:hover {
-  background: color-mix(in srgb, var(--glow) 30%, transparent);
-  border-color: var(--ink);
-}
-
-.quiz-options button.on {
-  background: var(--ink);
-  color: var(--paper);
-}
-
-.quiz-actions {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-}
-
-.quiz-actions .primary {
-  border: 1px solid var(--ink);
-  background: var(--ink);
-  color: var(--paper);
-  padding: 8px 18px;
-  font-family: var(--serif);
-  font-size: 14px;
-}
-
-.quiz-axes {
-  display: grid;
-  gap: 7px;
-  margin: 18px 0;
-}
-
-.quiz-axis {
-  display: grid;
-  grid-template-columns: 110px 1fr 34px;
-  align-items: center;
-  gap: 10px;
-  font-size: 12px;
-}
-
-.qa-track {
-  position: relative;
-  height: 4px;
-  border-radius: 3px;
-  background: color-mix(in srgb, var(--ink) 14%, transparent);
-}
-
-.qa-dot {
-  position: absolute;
-  top: -3px;
-  width: 10px;
-  height: 10px;
-  margin-left: -5px;
-  border-radius: 50%;
-  background: var(--accent);
-}
-
-.qa-val {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-  opacity: 0.6;
-}
-
 /* ----------------------------------------------------------- taxi card --- */
 
 .taxi {
@@ -1956,66 +1757,6 @@
 
 /* ---- Near me: anchors, station picker, distance readouts ---- */
 
-.nearme-hint {
-  font-size: 12px;
-  font-style: italic;
-  color: var(--accent);
-  margin: 0 0 9px;
-}
-
-.station-pick {
-  display: block;
-  margin-bottom: 9px;
-}
-
-.station-pick-label {
-  display: block;
-  font-size: 11px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  opacity: 0.65;
-  margin-bottom: 4px;
-}
-
-.station-pick select {
-  width: 100%;
-  border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent);
-  background: color-mix(in srgb, var(--paper-edge) 40%, transparent);
-  border-radius: 3px;
-  padding: 6px 8px;
-  font: inherit;
-  font-size: 12.5px;
-  color: inherit;
-}
-
-.nearme-anchor {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 12px;
-  border: 1px dashed color-mix(in srgb, var(--ink) 30%, transparent);
-  border-radius: 3px;
-  padding: 6px 9px;
-}
-
-.nearme-anchor em {
-  font-style: normal;
-  opacity: 0.7;
-}
-
-.nearme-anchor .link {
-  margin-left: auto;
-}
-
-.nearme-dot {
-  flex: none;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--paper) 80%, transparent);
-}
-
 .sc-dist {
   display: block;
   font-size: 10.5px;
@@ -2249,13 +1990,6 @@
   gap: 6px;
 }
 
-.top-right-row {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 8px;
-}
-
 .searchbox {
   position: relative;
   width: min(300px, 100%);
@@ -2452,23 +2186,6 @@
   padding: 16px 18px 14px;
 }
 
-.ob-dots {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 8px;
-}
-
-.ob-dots span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 1px solid var(--ink);
-}
-
-.ob-dots span.on {
-  background: var(--ink);
-}
-
 .onboard h3 {
   margin: 0 0 4px;
   font-family: var(--serif);
@@ -2529,13 +2246,6 @@
     width: 100%;
   }
 
-  .top-right-row {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .phase-jumps button,
-  .lang-toggle button,
   .ghost,
   .chip {
     min-height: 36px;
@@ -2594,9 +2304,6 @@
     font-size: 17px;
   }
 
-  .phase-jumps {
-    gap: 3px;
-  }
 }
 
 /* ================================================================ v4 ==== */
@@ -2732,22 +2439,6 @@ button,
 .axis.gliding .axis-value {
   color: var(--accent);
   opacity: 1;
-}
-
-.quiz-cta.small {
-  padding: 9px 13px;
-  margin-top: 4px;
-}
-
-.quiz-cta.small .quiz-cta-title {
-  font-size: 14.5px;
-  margin: 1px 0 0;
-}
-
-.keys-hint {
-  font-size: 10.5px;
-  opacity: 0.55;
-  letter-spacing: 0.02em;
 }
 
 /* ----------------------------------------------------------- verdict ---- */
@@ -3446,22 +3137,6 @@ button,
     height: 30px;
   }
 
-  .phase-jumps {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-    margin: 0 -14px;
-    padding: 0 14px;
-  }
-
-  .phase-jumps::-webkit-scrollbar {
-    display: none;
-  }
-
-  .phase-jumps button {
-    flex: 0 0 auto;
-  }
-
   .top-right {
     flex-direction: row;
     align-items: center;
@@ -3472,23 +3147,6 @@ button,
     flex: 1 1 auto;
     width: auto;
     min-width: 0;
-  }
-
-  .top-right-row {
-    flex: 0 0 auto;
-    flex-wrap: nowrap;
-  }
-
-  .top-right-row .ghost:not(.method-btn) {
-    display: none;
-  }
-
-  .phase-mood {
-    padding: 4px 14px 6px;
-    font-size: 12.5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .stage .rail {
