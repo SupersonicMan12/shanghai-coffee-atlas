@@ -210,7 +210,7 @@ export const UI = {
   // location
   useMyLocation: { en: 'Use my location', zh: '用我的位置' },
   dropPin: { en: 'Pick on map', zh: '在地图上选点' },
-  pinHint: { en: 'Tap the map…', zh: '点地图任何位置…' },
+  pinHint: { en: 'Tap the map…', zh: '去点地图…' },
   metroStation: { en: 'Metro station', zh: '找地铁站' },
   pinBanner: { en: 'Tap anywhere on the map to start from there', zh: '点地图任何位置，从那里出发' },
   cancel: { en: 'Cancel', zh: '取消' },
