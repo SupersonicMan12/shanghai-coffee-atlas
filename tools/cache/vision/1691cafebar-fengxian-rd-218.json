@@ -1,7 +1,7 @@
 {
   "cafeId": "1691cafebar-fengxian-rd-218",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "8859c261a977",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7ce7d61b6130",
   "photos": [
     "https://aos-comment.amap.com/B0ID6XDAIY/comment/content_media_external_file_4779_1763717054567_00998895.jpg",
     "https://aos-comment.amap.com/B0ID6XDAIY/comment/449CC7C9_975B_46B1_ACDB_D0C68730C7EE_L0_001_1440_108_1764126403197_28669819.jpg",
@@ -14,58 +14,59 @@
   ],
   "observations": [
     {
-      "text": "室外有高脚桌椅，室内可见书架和架子鼓，空间复合型",
+      "text": "店面为临街老建筑改造，外有木质露台及3张高脚椅+1张吧台椅",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "室内整面墙是书架，摆满书籍，有音乐设备",
-      "kind": "story",
+      "text": "室内为大空间，满墙书架背景，配鼓组、Marshall音箱等乐器设备",
+      "kind": "space",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "桌上放一杯奶咖，用深色陶瓷杯盛装",
+      "text": "室内可见1套蓝色Tama架子鼓及多个功放机，无明显手冲/磨豆等咖啡器具",
+      "kind": "sound",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品为一杯带奶泡的深色热饮（疑似拿铁或dirty），置于红格桌布上",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "临街是落地玻璃门，采光好，可看到户外木平台",
+      "text": "室外露台地面为木板，玻璃门通向室内，门框为深绿色",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "室外平台有绿植、高脚凳，非纯室内空间",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内地板为木质人字拼，搭配地毯和绿植",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "未见烘焙机或手冲台等专业咖啡器具",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "未见顾客或工作人员在使用电脑",
+      "text": "室内无顾客，无人使用电脑，未见烘焙机/手冲台等专业咖啡设备",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "店招含“1691”圆形绿标，内部书架上方悬挂同款绿标，与外部一致",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "large",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:07:52Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:14Z"
 }

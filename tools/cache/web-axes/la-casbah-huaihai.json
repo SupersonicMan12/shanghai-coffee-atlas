@@ -1,0 +1,50 @@
+{
+  "answers": {
+    "price": {
+      "value": 49.5,
+      "quote": "价格：49.5元",
+      "url": "https://map.baidu.com/place/shanghai_2467_11113/1/115_8",
+      "site": "百度"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海徐汇区丁香花园好吃的咖啡店 - 百度地图",
+      "url": "https://map.baidu.com/place/shanghai_2467_11113/1/115_8",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "La Casbah卡西巴咖啡(淮海店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15487921.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 3,
+      "title": "La Casbah卡西巴咖啡（淮海店） (上海衡山路地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/la-casbah-30983630/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "La casbah coffee 咖啡店-图片-上海-第17页-大众点评网",
+      "url": "http://www.dianping.com/shop/504277/photos?pg=17",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "La Casbah卡西巴咖啡(淮海店)",
+      "url": "https://www.dianping.com/shop/504277/photos/album?pg=1",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:03:06Z"
+}

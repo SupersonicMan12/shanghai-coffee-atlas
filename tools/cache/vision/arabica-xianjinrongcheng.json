@@ -1,71 +1,93 @@
 {
   "cafeId": "arabica-xianjinrongcheng",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "908efad1aa58",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ab8f9dbc23e4",
   "photos": [
-    "https://aos-comment.amap.com/B0JD5ODTJD/comment/E07B59EA_5DE9_46B1_8ABA_E51EEF1456A1_L0_001_1511_201_1771753672596_09315587.jpg",
-    "https://aos-comment.amap.com/comment/content_service__1772194793468_85442967_1772194950672_71061326.jpg",
-    "https://aos-comment.amap.com/B0JD5ODTJD/comment/4c5bb56204422af5e294e65b8b597245_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/content_media_external_images_media_214897_ss__1733881754524_75049013.jpg",
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/4c5bb56204422af5e294e65b8b597245_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/content_media_external_images_media_214899_ss__1733881754525_67531333.jpg",
+    "https://aos-comment.amap.com/B0JD5ODTJD/comment/E07B59EA_5DE9_46B1_8ABA_E51EEF1456A1_L0_001_1511_201_1771753672596_09315587.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "menu",
-    "drink"
+    "interior",
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有吧台座和高脚凳，空间不大，适合短暂停留。",
+      "text": "店内有吧台座位，顾客在使用笔记本电脑。",
       "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街砖墙结构，有大面积玻璃门窗。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示有手冲咖啡、单品豆（埃塞俄比亚、肯尼亚）及价格。",
+      "kind": "specialtyMenu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "临街是黑色金属框大玻璃窗，采光好，可看到外面树木。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单显示有埃塞俄比亚孔加、罕贝拉等单一产地豆可选。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单列有燕麦奶选项，价格与常规牛奶一致。",
+      "text": "饮品菜单包含美式、拿铁、燕麦奶选项，价格从26元起。",
       "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物展示柜中有可颂、巧克力杏仁可颂、培根蛋丹麦等，标价19-28元。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "两杯拉花咖啡（心形与叶子图案）与一个可颂面包摆放在白色桌面上。",
+      "kind": "drink",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有人坐在吧台旁，桌上放着笔记本电脑。",
-      "kind": "people",
-      "photo": 1,
+      "text": "店内可见白色吧台、高脚凳和落地窗，自然采光良好。",
+      "kind": "light",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "饮品杯中有心形拉花，旁边配有可颂面包。",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单上标有“SEE THE WORLD THROUGH COFFEE”字样。",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外为灰色砖墙结构，门口无室外座位。",
-      "kind": "space",
+      "text": "菜单上列出咖啡豆产地如埃塞俄比亚、肯尼亚，并标注处理法。",
+      "kind": "beans",
       "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
   "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:17Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    26.0,
+    32.0,
+    36.0,
+    42.0,
+    46.0,
+    50.0,
+    19.0,
+    22.0,
+    24.0,
+    160.0,
+    288.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:03Z"
 }

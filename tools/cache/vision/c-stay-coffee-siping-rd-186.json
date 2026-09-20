@@ -1,63 +1,52 @@
 {
   "cafeId": "c-stay-coffee-siping-rd-186",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "bcf6ea730a60",
+  "inputDigest": "decc4175e5f3",
   "photos": [
     "https://store.is.autonavi.com/showpic/11bfa53a3b41ac3002c97c80a7d1e877",
     "https://store.is.autonavi.com/showpic/5949ccfd600d6a1757fd44350c3ecc7e"
   ],
   "photoKinds": [
     "storefront",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺临街，有大面积玻璃门窗",
+      "text": "店面有玻璃门和大窗户，临街采光好",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台和少量桌椅",
+      "text": "店内可见吧台和几张桌椅",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "门口摆放花篮，疑似新开业",
+      "text": "门口摆放着开业花篮",
       "kind": "story",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店内有手冲咖啡设备",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.6
-    },
-    {
-      "text": "店内可见绿色瓷砖墙面",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有悬挂菜单展示饮品",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.6
-    },
-    {
-      "text": "门口有红色装饰和开业标识",
-      "kind": "story",
+      "text": "店内有盆栽植物装饰",
+      "kind": "decor",
       "photo": 2,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:13:04Z"
+  "brewBar": false,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:44:32Z"
 }

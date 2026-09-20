@@ -1,7 +1,7 @@
 {
   "cafeId": "peet-s-sanlinyinxianghui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d9273dbe3a0f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3ac9e2055421",
   "photos": [
     "https://store.is.autonavi.com/showpic/b82600564cbcf0f27556da2405ba7736",
     "https://aos-comment.amap.com/B0KDT9JKBM/comment/175746894977_1757468955765_87571547.jpg",
@@ -9,58 +9,71 @@
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "food",
-    "other"
+    "food"
   ],
   "observations": [
     {
-      "text": "有室外座位和遮阳伞",
+      "text": "店外有庭院式座位，带遮阳伞和绿植。",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "临街玻璃窗，采光良好",
+      "text": "室内有木质托盘、咖啡杯和甜点。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有冰抹茶和拿铁两种饮品。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有一块栗子蛋糕。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有大面积落地窗，采光好。",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见绿植装饰，环境较自然",
+      "text": "照片中未见有人使用电脑。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内座位区有绿植装饰。",
       "kind": "view",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "提供抹茶冷饮、拿铁和蛋糕",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "咖啡杯上有拉花图案",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品摆放在木质托盘上",
-      "kind": "other",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有室内座位区，摆放桌椅",
-      "kind": "seating",
+      "text": "照片中可见有客人在用餐。",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:08Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:00Z"
 }

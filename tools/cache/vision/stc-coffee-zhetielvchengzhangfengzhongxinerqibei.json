@@ -1,7 +1,7 @@
 {
   "cafeId": "stc-coffee-zhetielvchengzhangfengzhongxinerqibei",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c531e93b4b1d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "742fc2201c56",
   "photos": [
     "https://store.is.autonavi.com/showpic/319c9034a5af73e196797197bbc9541b",
     "https://store.is.autonavi.com/showpic/a8c68bf4661811b1211de2fde1a129c2",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "空间宽敞，有大面积落地窗",
+      "text": "大空间，有吧台和多张桌椅，落地窗采光好。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后可见咖啡机和磨豆机等设备",
-      "kind": "roastingGear",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "设有多个圆形桌椅组合，座位数量较多",
+      "text": "吧台后方有手冲台、磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "有多张高脚凳和低矮的桌椅，座位数量较多。",
       "kind": "seating",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内有绿植装饰，环境明亮",
+      "text": "室内有大型绿植，地面为深色反光瓷砖。",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 0.85
     },
     {
-      "text": "地面为反光材质，空间现代感强",
-      "kind": "space",
-      "photo": 3,
+      "text": "透过落地窗可见外部高楼，无河或街道景观。",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "吧台区域有遮阳棚结构，上方悬挂标识牌",
-      "kind": "space",
+      "text": "照片中未见有人在用电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有菜单板，但价格和文字看不清。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "未见明确的饮品或食物陈列。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.7
-    },
-    {
-      "text": "无明显室外座位",
-      "kind": "outdoor",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "未见有人使用电脑",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
+  "room": "large",
   "seats": "many",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:23Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:48Z"
 }

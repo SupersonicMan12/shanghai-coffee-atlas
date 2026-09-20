@@ -1,65 +1,65 @@
 {
   "cafeId": "maison-margiela-shangjiazhongxin",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d6a59ef10635",
+  "inputDigest": "63037465e30b",
   "photos": [
-    "https://store.is.autonavi.com/showpic/a4f06a39ee542405c43a1e4d2f722f7e",
     "https://aos-comment.amap.com/B0JU2UFGD9/comment/2026-03-11-14-09-54%2B781C366C-12F2-4689-BD7E-CED1EC2DBEE_1773209398661_94415853.jpg",
-    "http://store.is.autonavi.com/showpic/4a34cc5d7102895daf876dcfeac2ccf8"
+    "http://store.is.autonavi.com/showpic/4a34cc5d7102895daf876dcfeac2ccf8",
+    "https://store.is.autonavi.com/showpic/a4f06a39ee542405c43a1e4d2f722f7e"
   ],
   "photoKinds": [
-    "storefront",
     "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，入口为玻璃门",
+      "text": "店面为玻璃幕墙，可见内部陈列",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "店铺外设有白色座椅和圆形小桌",
-      "kind": "seating",
+      "text": "室外有白色长方形花箱，印有'Maison Margiela PARIS'字样",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外有多个标有品牌名的白色花箱",
-      "kind": "seating",
+      "text": "室内地面为光亮的米色大理石材质",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店铺拥有大面积落地玻璃窗",
-      "kind": "bigWindows",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内设有多组简约风格的桌椅",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
     },
     {
-      "text": "店外设有遮阳伞和可调节灯",
+      "text": "店面有大面积落地窗，采光良好",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见陈列服装的衣架和展示柜",
-      "kind": "interior",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外地面为六边形地砖铺成",
-      "kind": "space",
-      "photo": 2,
+      "text": "室外区域设有桌椅，可作户外座位",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:01Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:44:23Z"
 }

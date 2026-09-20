@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "金谊广场...设有约700个停车位...涵盖零售、餐饮、影院、儿童娱乐等多元业态",
+      "url": "https://baike.baidu.com/item/金谊广场/9847068",
+      "site": "百度百科"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "金谊广场...日均营业时间为10:00-22:00...2024年完成B1层‘心谊如意街’主题改造",
+      "url": "https://baike.baidu.com/item/金谊广场/9847068",
+      "site": "百度百科"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "金谊广场...设有约700个停车位...涵盖零售、餐饮、影院、儿童娱乐等多元业态",
+      "url": "https://baike.baidu.com/item/金谊广场/9847068",
+      "site": "百度百科"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "麦咖啡的现磨咖啡采用优选拼配豆...覆盖全国约7000家麦当劳餐厅",
+      "url": "https://www.mcdonalds.com.cn/index/mcd/mcdonalds-china/业务平台?loader_name=forest&need_sec_link=1&sec_link_scene=im&theme=light&use_xbridge3=true",
+      "site": "麦当劳官网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "金谊广场",
+      "url": "https://baike.baidu.com/item/金谊广场/9847068",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "McCafé 麦咖啡",
+      "url": "https://www.digitaling.com/company/34082",
+      "site_name": "数英网"
+    },
+    {
+      "index": 3,
+      "title": "丽都商圈消费月 | 咖啡轻食,悠享时光",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NTg0MTg2NA==&mid=2247722396&idx=4&sn=1ba548402f1d62383c589ca6fef2d17a&chksm=e858f659dce807010c81534d1892562ea975314302c13d7e33d7c3f1810db7d9b481b3c78410&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "我在徐汇喝咖啡 | 从武康路到徐汇滨江,一条街区的兴衰就像一个人的成长",
+      "url": "https://www.jfdaily.com.cn/news/detail?id=744108",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "业务平台",
+      "url": "https://www.mcdonalds.com.cn/index/mcd/mcdonalds-china/业务平台?loader_name=forest&need_sec_link=1&sec_link_scene=im&theme=light&use_xbridge3=true",
+      "site_name": "麦当劳官网"
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "麦咖啡三年投资25亿,布局超过4000家,全新品牌升级,1000万杯拿铁免费品尝",
+      "url": "https://www.mcdonalds.com.cn/news/2020-McCafe-relaunch",
+      "site_name": "麦当劳官网"
+    },
+    {
+      "index": 8,
+      "title": "上海超级咖啡街区来了,在前滩!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30652252",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 9,
+      "title": "咖啡脑袋集合!6家神仙空间,氛围感拉满 ",
+      "url": "https://www.bjft.gov.cn/ftq/xwdt/jcdt/bmdt/202605/t20260530_214683.shtml",
+      "site_name": "北京市丰台区人民政府"
+    },
+    {
+      "index": 10,
+      "title": "麦当劳麦乐送餐厅信息公示",
+      "url": "https://www.mcdonalds.com.cn/index/quality/publicinfo/deliveryinfo?page=24&word=������������������&page=392",
+      "site_name": "麦当劳官网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:28:37Z"
+}

@@ -1,71 +1,83 @@
 {
   "cafeId": "benshikafei-luoke-waitanyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "78190c23ac73",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2530f3aab6e0",
   "photos": [
-    "http://store.is.autonavi.com/showpic/eeea9ca40ae14a7186a8005e3bfa8562",
     "https://aos-comment.amap.com/comment/content_service__1768964276860_99017644_1768964533948_45480192.jpg",
-    "https://aos-comment.amap.com/B0KRRDVKAG/comment/ADEC79C9_8F53_47A5_A231_9C7638D3AFD7_L0_001_1500_200_1768964276850_59925114.jpg"
+    "https://aos-comment.amap.com/comment/content_service__1768964276892_57635723_1768964533954_36851997.jpg",
+    "https://aos-comment.amap.com/B0KRRDVKAG/comment/ADEC79C9_8F53_47A5_A231_9C7638D3AFD7_L0_001_1500_200_1768964276850_59925114.jpg",
+    "http://store.is.autonavi.com/showpic/eeea9ca40ae14a7186a8005e3bfa8562"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面外墙为米色石材，入口左侧有深色金属铭牌，刻有‘本事’二字",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "临街为大面积黑色边框玻璃门/窗，反射可见对面建筑与绿植",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口台阶旁摆放一排5盆小型绿植（灰陶盆）",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内木纹桌面，一杯拉花心形的奶咖（白瓷杯），配一朵花形浅黄糕点（方碟）",
-      "kind": "drinks",
+      "text": "菜单显示198rmb，含单品咖啡与燕窝绿豆糕等甜品",
+      "kind": "menuPrices",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "一杯手冲咖啡盛于大号酒杯状玻璃杯，内含一朵浮花与冰球；旁有两层小圆糕点（扇形碟）",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图中可见一只戴两枚银戒的手正触碰小碟，无电脑、书架、宠物或烘焙设备",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "未见菜单、价格、豆子产地标识、磨豆机、手冲台、虹吸壶等专业器具",
+      "text": "菜单列有哥伦比亚、巴拿马、埃塞俄比亚等产地咖啡豆",
       "kind": "beans",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "照片中仅显示局部桌面与饮品，无法判断整体空间大小、座位数量及布局",
-      "kind": "space",
+      "text": "饮品为冷萃/滤杯/水洗等精品处理法，非连锁标准款",
+      "kind": "specialtyMenu",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上摆有带心形拉花的奶咖与黄色雕花甜点（疑似月饼造型）",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "另一杯饮品为高脚杯盛装深色冷萃，内含冰球与小花装饰",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "甜点为双层圆形小蛋糕，置于花瓣形小碟上",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店名“本事”出现在门头与菜单右下角，地址虎丘路28号",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内为木质桌面，无明显吧台或专业器具可见",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:34Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    198.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:27Z"
 }

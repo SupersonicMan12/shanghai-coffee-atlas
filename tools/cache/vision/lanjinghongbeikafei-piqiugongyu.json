@@ -1,71 +1,86 @@
 {
   "cafeId": "lanjinghongbeikafei-piqiugongyu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cd5439eece12",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5ceae9616958",
   "photos": [
     "https://aos-comment.amap.com/B0FFGLJ13V/comment/content_media_external_file_129267_ss__1751211752105_99434811.jpg",
     "https://store.is.autonavi.com/showpic/64b7fbbd6a5a6e190000002546784913?type=pic",
     "https://store.is.autonavi.com/showpic/9f3ad7cd910943f90000000851922512?type=pic"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
+    "interior",
+    "drink",
     "menu"
   ],
   "observations": [
     {
-      "text": "店内有吧台和少量座位",
+      "text": "店内有吧台，顾客可站喝",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "菜单上有美式、拿铁、dirty等饮品",
+      "text": "菜单上列有多种咖啡及价格",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "提供燕麦奶选项",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有生椰拿铁、黑糖拿铁等特色咖啡",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "价格在24-28元之间",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店临街，有绿植装饰",
+      "text": "店外有绿植和悬挂的鹿角蕨",
       "kind": "view",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口悬挂鹿角蕨植物装饰",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店内有高脚凳，座位数量不多",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
     },
     {
-      "text": "饮品杯为一次性纸杯，印有'BLUE'字样",
+      "text": "菜单上有手冲、单品咖啡选项",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见“Dirty”等特调咖啡",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.7
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有电子点单设备",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见烘焙机或手冲台等专业器具",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "few",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:06Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    15.0,
+    16.0,
+    20.0,
+    25.0,
+    26.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:53Z"
 }

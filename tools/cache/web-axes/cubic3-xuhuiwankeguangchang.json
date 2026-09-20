@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "一杯咖啡,撑起年轻人的“第二办公桌”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "没有刻意喧闹的背景音乐,没有夸张的网红装修",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "让这里像一个被城市特意留出来的缓冲区",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "CUBIC 3 三立方咖啡(永康路店) Dirty 專門店",
+      "url": "https://www.amap.com/place/B0LUF51YXH",
+      "site": "高德地图"
+    },
+    "price": {
+      "value": 14.0,
+      "quote": "¥14/人",
+      "url": "http://m.dianping.com/shop/925254837?msource=applemaps",
+      "site": "【CUBIC3三立方咖啡(徐汇万科店)】电话_地址_价格_营业时间_上海 ..."
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "CUBIC3三立方咖啡(海汇街店)",
+      "url": "https://m.dianping.com/shop/1013772313853027",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "CBD「春日打卡指南」:承包你的假期治愈时光～",
+      "url": "https://qingdao.news.163.com/26/0403/17/KPK04FRI04379D5K.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "(文末福利)被曝光了!很多人都把时间“交”给这儿了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "iziRetail品牌沙龙:成立4年后,主打低价精品咖啡的「CUBIC3三立方」凭借非标店吸引更多咖啡爱好者关注 ",
+      "url": "https://www.sohu.com/a/964426154_121119292",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "CUBIC3 San Lifang Coffee (Xuhui Vanke Plaza Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9893D61554C&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "url": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "CUBIC 3 三立方咖啡(永康路店)",
+      "url": "https://www.amap.com/place/B0LUF51YXH",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 8,
+      "title": "【CUBIC3三立方咖啡(徐汇万科店)】电话_地址_价格_营业时间_上海 ...",
+      "url": "http://m.dianping.com/shop/925254837?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:48Z"
+}

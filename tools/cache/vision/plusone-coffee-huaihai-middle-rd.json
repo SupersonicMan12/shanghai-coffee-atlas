@@ -1,59 +1,78 @@
 {
   "cafeId": "plusone-coffee-huaihai-middle-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8f12abf0ee68",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "df9ac8fec814",
   "photos": [
     "https://aos-comment.amap.com/B0JRXL9NB1/comment/EFF25945_2E5A_44E8_BA0A_FF5E28846A05_L0_001_1512_2016_1735815259051_92036561.jpg",
     "https://store.is.autonavi.com/showpic/8fec747f52225aabe1a37f64a59760c3",
     "https://store.is.autonavi.com/showpic/9c784bcb0a496e150000002991014156?type=pic"
   ],
   "photoKinds": [
-    "interior",
+    "storefront",
     "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内有圣诞装饰，氛围节日感强",
+      "text": "店面临街，有大面积玻璃窗，可看到内部吧台与装饰。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内空间为工业风，裸露混凝土柱和砖墙，搭配金属与玻璃材质。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方可见咖啡机等设备",
-      "kind": "beans",
       "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内有临街玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台前有长条形座位，配白色坐垫",
+      "text": "吧台后方可见咖啡机、磨豆机等专业设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有长条金属座椅，配有白色坐垫，可供休息。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见绿植点缀，环境有自然元素",
-      "kind": "space",
+      "text": "店内有悬挂灯具与绿植装饰，环境整洁明亮。",
+      "kind": "light",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "text": "天花板为工业风裸露结构，有金属质感",
+      "text": "照片中可见一名员工在吧台操作，无顾客在座。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有透明玻璃隔断，将吧台与座位区分开。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前玻璃上有节日装饰（雪松枝与彩球），非日常常态。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "some",
+  "room": "medium",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:36Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:25Z"
 }

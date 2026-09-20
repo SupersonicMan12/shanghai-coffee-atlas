@@ -1,7 +1,7 @@
 {
   "cafeId": "qilikafei-guanglingsiluyuguanglingyilujiaochakou",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a5fedcfc8b2b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "fb72970f0a5d",
   "photos": [
     "https://store.is.autonavi.com/showpic/08bb263332ae06730000002470862976",
     "https://store.is.autonavi.com/showpic/45918210bae953e40000002470924010",
@@ -9,63 +9,64 @@
   ],
   "photoKinds": [
     "drink",
-    "interior",
-    "other"
+    "people",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "饮品为冰咖啡，分层明显，顶部有冰块和薄荷叶",
+      "text": "玻璃门上贴有儿童手绘涂鸦，含‘DRINK COFFEE’‘opening’‘café’字样及咖啡杯、西瓜等图案",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "一杯分层饮品：底层黄色液体（似芒果/橙汁），上层深褐色（冰美式或冷萃），杯口有薄荷叶装饰",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有落地窗，窗外可见街道与绿树",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "玻璃门上有手绘图案，包括咖啡杯、咖啡豆等元素",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有桌椅，座位数量较少",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店员在门口操作，可见室内工作台区域",
+      "text": "店内有人正站在窗边写字，穿灰T+白裙+米色帽，背对镜头，窗外可见绿树与街道车流",
       "kind": "people",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "临街玻璃门为黑色框架推拉门，门内可见吧台及部分桌椅布局，无明显落地窗采光设计",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门外街道可见绿树、停放轿车及粉色广告牌，未见室外座位区",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见木质桌面、高脚椅及普通圆桌，未见大量座位，目测≤10座",
+      "kind": "seating",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有电视屏幕显示内容，可能用于播放信息或广告",
-      "kind": "interior",
+      "text": "照片中未见电脑、烘焙机、手冲台等设备，也未见书架/植物/宠物",
+      "kind": "beans",
       "photo": 3,
-      "confidence": 0.6
-    },
-    {
-      "text": "透过窗户可见室外街道及车辆，环境安静",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内装饰风格偏向手绘艺术，有童趣感",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.7
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:28Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:29Z"
 }

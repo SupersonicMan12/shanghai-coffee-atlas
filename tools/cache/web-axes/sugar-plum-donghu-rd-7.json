@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "Sugar Plum Coffee&Brunch(咖啡东湖路店) 营业中",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "Sugar Plum Coffee&Brunch(咖啡东湖路店) ★ ★ ★ ★ ★ 4.1 ¥63/人 音乐学院/五官科医院 咖啡",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "Sugar Plum Coffee&Brunch(咖啡东湖路店) 营业中 APP内查看商户信息 东湖路5号 到店",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "梅子气泡美式 麻婆通心粉意面 烤燕麦坚果酸奶碗 威士忌酸咖啡 恶意拖欠工资 蘑菇菠菜温泉蛋吐司 卡布奇诺 香烤鸡翅 橙香美式咖啡 冰美式 油泼辣子意面配温泉蛋 ",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 63.0,
+      "quote": "Sugar Plum Coffee&Brunch(咖啡东湖路店) ★ ★ ★ ★ ★ 4.1 ¥63/人",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "音乐学院/五官科医院咖啡",
+      "url": "https://m.dianping.com/shop/717937065",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "Sugar Plum Coffee Shop",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g32243-d2169745-Reviews-Sugar_Plum_Coffee_Shop-Concord_California.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 3,
+      "title": "長沙五一廣場Sugar Plum打卡治癒咖啡館攻略 - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/changsha-148-144096926/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "魔都上半年新开咖啡店,这14家赢了",
+      "url": "https://www.163.com/dy/article/J6ONQUG405228TQ0.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "一线走访:上海1万家咖啡馆,全球第一!带你走进网红咖啡馆",
+      "url": "https://baijiahao.baidu.com/s?id=1865567087515004066",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:20Z"
+}

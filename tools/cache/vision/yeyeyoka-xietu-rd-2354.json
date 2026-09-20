@@ -1,7 +1,7 @@
 {
   "cafeId": "yeyeyoka-xietu-rd-2354",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f098befd379d",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "8790929ad62d",
   "photos": [
     "https://aos-comment.amap.com/B0I35ALGYL/comment/file_media_Photo_13315_IMG_1762482645_11087_IMG_20251107_102905_jpg_ss__1764572760519_80486601.jpg",
     "https://aos-comment.amap.com/B0I35ALGYL/comment/file_media_Photo_13316_IMG_1762482785_11088_IMG_20251107_103125_jpg_ss__1764572760540_91003614.jpg",
@@ -14,46 +14,68 @@
   ],
   "observations": [
     {
-      "text": "店面有室外座位区，设有透明防雨罩。",
+      "text": "店外有带透明顶棚的室外座位区，配有折叠椅和小桌。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示今日有黄油可颂、叉烧包等食品。",
+      "text": "今日菜单显示黄油可颂4.5元、叉烧包¥3、mini拿破仑¥9.9、比利时黑巧¥28、原味巴斯克¥28。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "室内可见一台红色磨豆机和咖啡制作设备。",
-      "kind": "beans",
+      "text": "店内吧台可见红色意式咖啡机、磨豆机、手冲器具及多层置物架，设备齐全。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内空间为小型店铺类型，以吧台式操作区为主。",
+      "text": "店门口玻璃门内可见顾客坐着，店内空间紧凑，临街有落地窗。",
       "kind": "space",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店面临街，有大面积玻璃窗，但窗外可见建筑而非景观。",
-      "kind": "view",
+      "text": "店外设有遮阳篷和透明雨棚，适合户外用餐。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台区域有多个插座和监控摄像头，墙面挂有分类指南。",
+      "kind": "sockets",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板上列出的甜点价格为4.5元至28元不等。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内左侧墙边放置共享充电宝设备。",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.7
-    },
-    {
-      "text": "室内光线主要来自人工照明，无明显自然光。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": true,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:07Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:13Z"
 }

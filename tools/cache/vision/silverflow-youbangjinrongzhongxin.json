@@ -1,7 +1,7 @@
 {
   "cafeId": "silverflow-youbangjinrongzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d0b60f62e8a8",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f924d912a55d",
   "photos": [
     "https://aos-comment.amap.com/B0KRM53UYV/comment/a0aba06222aed54463e07dc5dd7d07bc_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KRM53UYV/comment/ba442120e4fea685014ba7ad47882412_2048_2048_80.jpg",
@@ -14,46 +14,59 @@
   ],
   "observations": [
     {
-      "text": "店内有咖啡饮品，包括拿铁类饮品",
+      "text": "店面为商场内档口，有电子菜单屏和收银台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "两杯外带咖啡，杯身印有 'SILVERFLOW COFFEE' 字样",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店名为Silverflow Coffee，位于商场内",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示有玫瑰生酪拿铁等饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见吧台区域，有电子菜单屏和咖啡制作设备",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供贝果产品",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品杯上有品牌标识，为一次性纸杯",
+      "text": "一杯热饮表面有拉花奶泡，另一杯冰饮盖子已打开",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单屏显示‘玫瑰生酪拿铁’等特调饮品名称",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "柜台后方可见工作人员，但未见明显手冲/磨豆机等专业设备",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中无顾客，店内无人使用电脑或用餐",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招含英文名 'SILVERFLOW Coffee' 及中文 '银流咖啡 & 贝果'",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "mall",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:04Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:18Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "hlab-coffee-oujiuxiaoqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1f95b9f460ed",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "08e1cbd2c21d",
   "photos": [
     "https://aos-comment.amap.com/B0I6H5WJEX/comment/f37c10086b494b11bc07a39c5f45013b_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I6H5WJEX/comment/ae9af506a3d51ca14338bfd5c4445144_2048_2048_80.jpg",
@@ -14,58 +14,66 @@
   ],
   "observations": [
     {
-      "text": "菜单上有美式、拿铁、澳白、卡布奇诺等经典咖啡",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "有特调拿铁如柠檬拿铁、桂花酒酿拿铁、麦乳精拿铁",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "提供文豪系列饮品，包括文豪美式、文豪拿铁、文豪奶茶、文豪馥茶",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "经典咖啡价格在15至25元之间",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "特调拿铁价格为28至33元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见复古收音机和装饰瓶，店内有文化风格布置",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有标价38.8元的文豪系列饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品杯上印有‘欧阳04’字样",
+      "text": "纸杯印有'欧阳boy'字样，为该店品牌名",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示'文豪系列'价格均为¥38.8，含文豪美式/拿铁/奶茶/馥茶",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单'经典咖啡'栏中'欧阳拿铁（鲜奶）'标价¥23",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单'特调拿铁'含柠檬拿铁¥28、桂花酒酿拿铁¥33等",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单可见'特调美式'含柠檬美式，未标价但属特调类",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景瓶身贴有'文豪奶茶''文豪咖啡'标签，与菜单系列对应",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌面摆放复古HARWA收音机、黑色陶罐、猫形摆件，无明显烘焙/冲煮设备",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:19Z"
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    15.0,
+    18.0,
+    23.0,
+    25.0,
+    28.0,
+    33.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:26Z"
 }

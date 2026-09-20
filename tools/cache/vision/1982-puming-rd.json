@@ -1,7 +1,7 @@
 {
   "cafeId": "1982-puming-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3dfc71ea3336",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "827a64f1c2b4",
   "photos": [
     "https://store.is.autonavi.com/showpic/6c6cc29a37d03faa27b46f3e986ffb45",
     "https://store.is.autonavi.com/showpic/29e45d3e10408b4971b029be690a9cba",
@@ -9,57 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店面位于临街商铺，有遮阳棚和绿植装饰",
-      "kind": "space",
+      "text": "店面入口处有户外座位，由深色长条花坛围合。",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "门前有绿化带和灌木丛，环境整洁",
+      "text": "店面临街，前方有绿化带和停放的汽车。",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺门口可见台阶和入口，无明显室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "建筑为现代玻璃幕墙结构，采光良好",
+      "text": "店面为玻璃幕墙结构，采光好。",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门前停放车辆，街道环境清晰可见",
-      "kind": "view",
-      "photo": 2,
+      "text": "店外有一只白色小狗在地面上。",
+      "kind": "people",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店招为粉色底板，显示品牌名称CHLITINA",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "照片中未见任何客人或工作人员。",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "门前地面有小猫出现，可能允许宠物进入或附近常有动物",
-      "kind": "people",
+      "text": "店内无明显手冲台、虹吸壶等专业咖啡器具。",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见电脑、插座或书架。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见任何饮品或食物。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "none",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:20Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:17Z"
 }

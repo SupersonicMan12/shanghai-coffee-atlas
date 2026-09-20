@@ -1,7 +1,7 @@
 {
   "cafeId": "peet-s-donghulushouzuo",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "c0ad53b80687",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f6bb48a77325",
   "photos": [
     "https://aos-comment.amap.com/B0FFIXRG6K/comment/content_media_external_file_1000027585_ss__1754537811099_74774538.jpg",
     "https://aos-comment.amap.com/B0FFIXRG6K/comment/0f7a394c087672cf1c15333d1ab709fb_2048_2048_80.jpg",
@@ -10,50 +10,63 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "food"
   ],
   "observations": [
     {
-      "text": "临街有户外座位区，配遮阳伞和绿植。",
-      "kind": "seating",
+      "text": "店面临街，有户外座位区，配有遮阳伞和黑色金属桌椅。",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店外停放多辆共享单车与电瓶车，街道旁有大树。",
+      "text": "户外座位区沿街设置，有绿植隔断，上方有树木遮荫。",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台区域及部分顾客就坐。",
-      "kind": "space",
+      "text": "店外人行道停放多辆电动车和共享单车，街道为城市道路。",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "一杯拉花为心形的热拿铁。",
+      "text": "饮品为拿铁，拉花呈心形，盛于白色陶瓷杯中，置于木质托盘上。",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "一杯加了冰淇淋球的特调饮品，插有“阿芙佳朵特调”标牌。",
-      "kind": "drinks",
+      "text": "食物为特调咖啡甜品，含冰淇淋、焦糖酱和果干，插有标牌注明“阿芙佳朵特调”、“限时品尝”。",
+      "kind": "food",
       "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面二层有大面积黑色窗框玻璃窗，一层为开放式临街设计。",
+      "kind": "bigWindows",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "户外座位区有大型落地窗，采光良好。",
-      "kind": "light",
+      "text": "户外座位区可见数名顾客就坐，店内亦有人活动。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:55Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:32Z"
 }

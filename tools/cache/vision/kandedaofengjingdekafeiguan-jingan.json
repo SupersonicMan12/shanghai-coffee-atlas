@@ -1,65 +1,80 @@
 {
   "cafeId": "kandedaofengjingdekafeiguan-jingan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e20fa0c2f668",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "dc54b5b0dffa",
   "photos": [
-    "https://store.is.autonavi.com/showpic/ed0080a7b0f856ec0000002586538789?type=pic",
-    "https://aos-comment.amap.com/B0FFGFYYZ0/comment/CD78C12A_6744_4F4F_B895_EFBDACA65EF2_L0_001_1504_2006_1735725566124_61732282.jpg",
-    "https://aos-comment.amap.com/B0FFGFYYZ0/comment/801524DF_018D_45BD_8308_AECAC5DED233_L0_001_1500_2000_1735725566122_28391101.jpg"
+    "https://aos-comment.amap.com/B0FFGFYYZ0/comment/A8C3A8B2_69DB_4996_9C35_E867AC173944_L0_001_1500_2000_1735725566124_01344105.jpg",
+    "https://store.is.autonavi.com/showpic/c53c11c22cb3eeee0000002238998550?type=pic",
+    "https://aos-comment.amap.com/comment/content_service_cf818e60907235405b33a2dab664671a_1768641519663_04886426.jpg",
+    "https://store.is.autonavi.com/showpic/ed0080a7b0f856ec0000002586538789?type=pic"
   ],
   "photoKinds": [
     "drink",
-    "interior",
+    "drink",
+    "drink",
     "drink"
   ],
   "observations": [
     {
-      "text": "临窗座位可俯瞰城市与金色塔楼景观",
+      "text": "窗外可见金色多层佛塔及现代高楼，为城市天际线景观",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有红色花瓶装饰的大型绿植",
-      "kind": "interior",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "饮品含拉花咖啡与粉色奶盖，杯身印“上海”",
+      "text": "饮品杯身印有“上上签”字样，拉花为红色汉字“吉”",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "窗外可见金色宝塔式建筑与现代高楼",
+      "text": "咖啡杯中拉花为松树图案，旁边小杯内盛粉色奶盖状物",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张图中两杯特调饮品置于窗边桌，背景为模糊佛塔建筑群",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图中手持纸杯，背景为同一座金色佛塔，表明该视角来自室内靠窗位置",
       "kind": "view",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "室内设木质桌椅与红色卡座",
+      "text": "第四张图中白色圆桌配藤编椅，属户外/露台座位区",
       "kind": "seating",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "所有照片均显示大落地窗或玻璃幕墙，采光充足，无遮挡视野",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "饮品为带树形拉花的咖啡和粉色奶盖饮料",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "第一张图为室内木质桌面，白瓷杯+碟，搭配心形甜点碗，非公共区域展示",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "桌面有白色陶瓷甜品碗与锥形器皿",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:00Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:55Z"
 }

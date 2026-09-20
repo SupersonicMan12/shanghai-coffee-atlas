@@ -1,7 +1,7 @@
 {
   "cafeId": "caffe-bene-hongquan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ef3532e7d0aa",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2ccf4e8c3762",
   "photos": [
     "https://aos-comment.amap.com/B0FFF2TQRP/comment/D8CE5BBB_90B3_448E_B92E_3907BFF11095_L0_001_1496_199_1771502887209_96038688.jpg",
     "https://aos-comment.amap.com/B0FFF2TQRP/comment/3667C696_660F_4CE8_B562_19D4B1A9DD6E_L0_001_1496_199_1771502887206_98478818.jpg",
@@ -9,51 +9,70 @@
   ],
   "photoKinds": [
     "drink",
-    "drink",
+    "food",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内有咖啡拉花饮品",
+      "text": "店内有木质桌椅和红色、绿色的软包座椅。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品杯和杯碟上印有 'Caffe Bene' 字样。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供冰沙类甜品，顶部有冰淇淋球",
+      "text": "展示柜里有一杯分层的刨冰，顶部有球形甜点。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内有木质桌椅和彩色软垫座椅",
-      "kind": "seating",
+      "text": "咖啡杯中的拉花图案像一只鸟。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙壁有大幅田园风光壁画。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "墙面绘有田园风景壁画",
-      "kind": "interior",
+      "text": "室内有盆栽植物，地面是木质地板。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内摆放绿色植物",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "照片中没有看到任何人在使用电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "座位数量适中，适合小型聚会或个人使用",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "没有看到专业咖啡烘焙或冲煮设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:18Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:54Z"
 }

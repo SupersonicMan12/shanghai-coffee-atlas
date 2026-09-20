@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "no",
+      "quote": "在这里可以说是上海最安静的咖啡店之一,没有外界的喧嚣与吵闹",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "在这里可以说是上海最安静的咖啡店之一,没有外界的喧嚣与吵闹",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "准备好至少10分钟的时间,来一场咖啡之旅吧!",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "可以喝到法兰绒手冲的咖啡馆",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 60.0,
+      "quote": "推荐单品:西达摩水洗 价格:60元",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海最卷的一杯，想喝请等10分钟！ - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30385565",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 2,
+      "title": "上海最卷的一杯,想喝请等10分钟!",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "看上海三家网红咖啡馆的税务合规账本",
+      "url": "https://shanghai.chinatax.gov.cn/xwdt/swxw/202609/t481496.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 4,
+      "title": "【悉达多咖啡工作室】电话_地址_价格_营业时间_肇嘉浜路/中山医院 ...",
+      "url": "http://m.dianping.com/shop/1142339501?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "url": "https://new.qq.com/rain/a/20260530A043OJ00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "上海有几千家咖啡馆,这是我们今年最爱50佳|企鹅吃喝指南 2023版 ",
+      "url": "https://chihe.sohu.com/a/756859410_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 8,
+      "title": "上海有9000家咖啡馆,这是我们最爱的20家|2025年度榜单 ",
+      "url": "https://www.sohu.com/a/984538328_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 9,
+      "title": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "url": "https://news.qq.com/rain/a/20250705A03OSL00",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:24Z"
+}

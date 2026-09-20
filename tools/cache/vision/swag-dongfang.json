@@ -1,7 +1,7 @@
 {
   "cafeId": "swag-dongfang",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "c5408e4f2a4e",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "96691f7cd015",
   "photos": [
     "https://store.is.autonavi.com/showpic/f2ba88986cf2b8b4a9381a0b4cddd0ef"
   ],
@@ -10,40 +10,35 @@
   ],
   "observations": [
     {
-      "text": "夜间拍摄，店招有发光‘SWAG’字样及圆形霓虹灯牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "地面立有发光字牌‘Happy Planet’及小型菜单板",
-      "kind": "space",
+      "text": "夜间店外有发光招牌和菜单板",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "入口处可见一盏照明灯与两个立式标牌（内容模糊）",
+      "text": "招牌显示“SWAG”和“Happy Planet”字样",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "前景为低矮灌木丛，未见室外座位或桌椅",
-      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "无窗户、吧台、座位、人、饮品、食物或器具可见",
-      "kind": "seating",
+      "text": "店面入口处有灯光照明",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": null,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:52Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:31Z"
 }

@@ -1,65 +1,78 @@
 {
   "cafeId": "cafe-hoooliday-qiantantaiguli",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "43c843cf7c05",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a4e24566e8ef",
   "photos": [
     "https://aos-comment.amap.com/B0L2UREYRK/comment/content_media_external_file_141538_ss__1767608184050_07158115.jpg",
     "https://store.is.autonavi.com/showpic/5f4e7ee72811f6c1824f75971b25ee7d",
     "https://aos-comment.amap.com/B0L2UREYRK/comment/7F327019_76BF_4FA0_A800_1D2EC81B75ED_L0_001_1500_200_1761800278753_52322662.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "有冰咖啡和拉花拿铁两种饮品",
+      "text": "店内有多个木质框架、软包坐垫的椅子和大理石桌面。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中可见两杯咖啡，一杯是冰咖啡，另一杯是带有心形拉花的热拿铁。",
       "kind": "drinks",
+      "photo": 0,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有几张带金属支架的圆形小桌椅，可提供室外座位。",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外设有露天座位区",
-      "kind": "seating",
-      "photo": 2,
+      "text": "店面入口处有大面积玻璃门和窗户，室内光线明亮。",
+      "kind": "bigWindows",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有多张桌椅，空间较宽敞",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有木质椅子和大理石桌面",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面为临街玻璃门设计，采光良好",
+      "text": "店内地面铺有深色花纹地砖，环境整洁。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "门口有立牌提示，可能涉及防疫或营业信息",
-      "kind": "other",
+      "text": "照片中未见有人使用笔记本电脑或在工作。",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店内可见多组圆形小桌和配套椅子",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店内无明显烘焙机或手冲吧台等专业设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见菜单，无法判断价格或豆子产地。",
+      "kind": "menuPrices",
+      "photo": 0,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:44Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:44Z"
 }

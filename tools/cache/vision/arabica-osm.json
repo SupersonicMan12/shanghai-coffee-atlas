@@ -1,7 +1,7 @@
 {
   "cafeId": "arabica-osm",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "53117257c7be",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "cb618a1b7335",
   "photos": [
     "https://aos-comment.amap.com/B0HULD4IJI/comment/68d1f2cdb087bcab35e1df3b3fa2ef4b_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0HULD4IJI/comment/9c07fd9db8ef1ef5061e7f84de71672e_2048_2048_80.jpg",
@@ -10,50 +10,79 @@
   "photoKinds": [
     "interior",
     "drink",
-    "menu"
+    "menu",
+    "other"
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡设备和磨豆机",
-      "kind": "roastingGear",
+      "text": "吧台后有手冲设备和磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上列出多种单品咖啡，标明了产地和价格。",
+      "kind": "specialtyMenu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "展示三种咖啡豆，包含阿拉比卡拼配",
+      "text": "菜单上有手冲咖啡的选项和对应价格。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台区域有三袋咖啡豆和两个装满豆子的罐子。",
       "kind": "beans",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示咖啡豆产地信息及烘焙度",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有圆形沙发座椅和小圆桌，适合休闲坐",
+      "text": "店内有环形沙发座位区，提供多个小圆桌。",
       "kind": "seating",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供纸杯装咖啡，带盖设计",
-      "kind": "drinks",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有绿植装饰",
-      "kind": "story",
+      "text": "店内有绿植装饰，环境明亮。",
+      "kind": "plants",
       "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上的咖啡价格在28元到64元之间。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有看到客人在使用电脑。",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:18:11Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0,
+    60.0,
+    64.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:44Z"
 }

@@ -1,71 +1,79 @@
 {
   "cafeId": "yangjingjiyikafeiguan-yangjingjiedaojuye-rd-717",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "99f0a4887735",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "330fa038c11f",
   "photos": [
-    "https://store.is.autonavi.com/showpic/1ca7eaa4d51fe52d9b1bee567f057fae",
     "http://store.is.autonavi.com/showpic/8cc9f4bb413ad6f41298e63f81a45b4b",
+    "https://store.is.autonavi.com/showpic/1ca7eaa4d51fe52d9b1bee567f057fae",
+    "http://store.is.autonavi.com/showpic/29c13865b7013c47db39da186f193672",
     "https://store.is.autonavi.com/showpic/fe5513142d4051872ff9c011d5ecdf6c"
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "interior"
+    "storefront",
+    "other"
   ],
   "observations": [
     {
-      "text": "店内空间宽敞，位于商场内",
+      "text": "店内为商场内档口，有吧台和收银区",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "设有吧台和展示柜，提供饮品和食品",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有几张桌椅供顾客使用",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见有人在店内用餐",
+      "text": "吧台后有工作人员在操作",
       "kind": "people",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有绿植装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "墙上挂有宣传海报和照片墙",
-      "kind": "story",
       "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "天花板悬挂灯饰，照明充足",
-      "kind": "light",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "展示柜中有包装食品和饮品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "吧台前有木质柜台，下方有灯带照明",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "有靠墙的卡座沙发和独立桌椅",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "有客人坐在桌边，但未见有人用电脑",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙面有绿色主题装饰和照片墙",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "无明显烘焙机或手冲台等专业器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见书架、植物或宠物",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:35Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:37Z"
 }

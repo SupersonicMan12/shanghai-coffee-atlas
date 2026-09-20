@@ -1,71 +1,85 @@
 {
   "cafeId": "plusone-julululanding",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "33a808aa9449",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "35f653d0b01c",
   "photos": [
     "https://store.is.autonavi.com/showpic/c513b7c30b8813680000000730330888?type=pic",
-    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic",
-    "https://aos-comment.amap.com/comment/content_service__1771043586120_52512449_1771043667163_64090812.jpg"
+    "https://store.is.autonavi.com/showpic/449347edbd6783750000002513602250?type=pic",
+    "https://store.is.autonavi.com/showpic/44929d84586bbb1f0000003171980254?type=pic",
+    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic"
   ],
   "photoKinds": [
-    "drink",
+    "food",
     "storefront",
-    "food"
+    "menu",
+    "exterior"
   ],
   "observations": [
     {
-      "text": "有室外座位区，多人在户外桌椅上就坐。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品包括带奶油和碎屑的热饮，以及一杯拉花咖啡。",
+      "text": "木质托盘上放有咖啡杯与小蛋糕，杯沿插红色装饰物",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "食物有顶部覆盖奶油的芝士蛋糕和栗子千层蛋糕。",
+      "text": "菜单显示“Dirty 黄油牛乳 42”、“Flat White 澳白 38”等意式咖啡项",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单甜品区列有“Handmade Tiramisu 纯手工提拉米苏 78”、“Lava Cheese Cake 熔岩奶酪 58”等",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店外有大棵绿树，遮挡部分阳光，环境较荫凉。",
-      "kind": "view",
+      "text": "店外立牌写有“咖啡 plusone”，门口停一辆折叠自行车，挂红色灯笼与粉黛乱子草",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "室内座位可见，有人在用手机或电脑。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "建筑为多层老式风格，二楼有阳台座位。",
+      "text": "外景照片显示店铺为老洋房改造，二层露台+一层临街座位，绿树遮挡部分视线",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "饮品杯具造型可爱，有笑脸和栗子装饰。",
-      "kind": "drinks",
+      "text": "外景可见约10人坐在台阶及户外桌椅上，有人低头看手机，未见明显用电脑者",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中“Coffee Beans 可选咖啡豆”栏明确列出“埃塞三拼韩国冠军拼配”、“云南酒香S.O.E单品豆”等产地/品种",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "桌上放有小梳子，可能为顾客提供便利服务。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.6
+      "text": "菜单咖啡价目清晰：Espresso 28、Americano 32、Latte 38、Dirty 42、Flat White 38",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "many",
-  "laptops": true,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:37Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    38.0,
+    42.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:59Z"
 }

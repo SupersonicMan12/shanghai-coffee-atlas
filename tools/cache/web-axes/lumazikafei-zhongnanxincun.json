@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "提供在线菜单,有wifi",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "推开厚重的木门，爵士乐流淌",
+      "url": "https://wenhui.whb.cn/third/jinri/202110/07/427493.html",
+      "site": "文汇网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "提供下午茶,提供早餐",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "主营单品手冲咖啡。咖啡豆由店长亲自烘焙",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    },
+    "price": {
+      "value": 66.0,
+      "quote": "人均价格:66",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "鲁马滋（湖南路店）_百度百科",
+      "url": "https://baike.baidu.com/item/%E9%B2%81%E9%A9%AC%E6%BB%8B%EF%BC%88%E6%B9%96%E5%8D%97%E8%B7%AF%E5%BA%97%EF%BC%89/14234542",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "鲁马滋(湖南路店)",
+      "url": "https://baike.baidu.com/item/鲁马滋（湖南路店）/14234542",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "photelegraph上传的图片",
+      "url": "https://www.dianping.com/photos/872919791/tag",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "summercoolest上传的图片",
+      "url": "https://www.dianping.com/photos/1753286237/tag",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "家·春 节 不 打 烊 咖 啡 店 清 单",
+      "url": "https://www.163.com/dy/article/IQMB1VA00522A0I7.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "上海鲁马滋自家烘焙咖啡店/ 空间里| 谷德设计网",
+      "url": "https://www.gooood.cn/rumors-cafe-shanghai-by-studio-ku-kan-nai.htm",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海|10家小众咖啡馆推荐 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1247276831",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "鲁马滋咖啡主理人家铭和中山：能够拥有属于自己的空间来感受生活",
+      "url": "https://wenhui.whb.cn/third/jinri/202110/07/427493.html",
+      "site_name": "文汇网"
+    },
+    {
+      "index": 9,
+      "title": "【咖啡】99% 的上海妹纸都去过的10家咖啡馆 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNjA2MDgyNw==&mid=400764320&idx=1&sn=89a9011a7d2469208a1117efe17a41e2&chksm=0530e1d4324768c2b3dc1f9a25157c154ff7c6ede8966374dfad63d5e7dc63a55dbd48cf5bcd&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:23Z"
+}

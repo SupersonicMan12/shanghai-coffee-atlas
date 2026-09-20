@@ -1,7 +1,7 @@
 {
   "cafeId": "peet-s-weijingyinxiangcheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d99559c0b8bf",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c3c154209d5a",
   "photos": [
     "http://store.is.autonavi.com/showpic/4234e9058e2417dd5591bae22ad33f41",
     "https://store.is.autonavi.com/showpic/662f32a90b3d9236a1f4bfef0303d898",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店外有露天座位区，配备桌椅和遮阳伞",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有吧台和多张圆形餐桌，座椅为编织风格",
+      "text": "室内有吧台和多张桌椅，座位数量较多",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内可见咖啡烘焙机和手冲设备",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内空间宽敞，布局明亮整洁",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "墙面有‘ROASTED BY HAND BATCH BY BATCH’字样",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有落地窗，采光良好",
+      "text": "室内光线明亮，有多个吊灯照明",
       "kind": "light",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店内设有多个座位区域，适合多人同时使用",
-      "kind": "seating",
+      "text": "吧台后方有专业咖啡设备，包括磨豆机和咖啡机",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门店位于商场内，入口处有玻璃门和品牌标识",
-      "kind": "space",
+      "text": "店内墙面有“ROASTED BY HAND”字样，表明是手冲/单品咖啡",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有几张桌椅和遮阳伞，提供室外座位",
+      "kind": "outdoor",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗，采光好",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见顾客，店内人员为店员",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未看到有人在使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "many",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:18:59Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:35Z"
 }

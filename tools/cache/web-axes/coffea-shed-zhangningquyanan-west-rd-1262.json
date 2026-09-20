@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "位于3号楼的coffeaSHED,是一家咖啡店,也是一家杂货店",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNDM2MjIwMQ==&mid=2247676200&idx=8&sn=7ae6e2a5e90a8bc18db99eb34e8ffba5&chksm=97e7b47dc3c0fcf0fc0a8a0ebab7e4bb7ebdde5cfa6bbc59557999ba92632e56cfbef48c63cf&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "coffea SHED是一个开放式的多元文化空间,贩卖咖啡、生活用品、植物蔬菜、小众器皿和服装等,很有生活的气息",
+      "url": "https://chihe.sohu.com/a/695724449_409158",
+      "site": "搜狐网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店内提供两种拼配豆,云南拼配和世界拼配",
+      "url": "https://chihe.sohu.com/a/695724449_409158",
+      "site": "搜狐网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "coffeaSHED咖啡大棚",
+      "url": "https://baike.baidu.com/item/coffeaSHED咖啡大棚/68253957",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "“大棚”下的日常：coffea SHED上生新所店/ 小大建筑设计事务所 - 有方",
+      "url": "https://www.archiposition.com/items/20240416094354",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "coffea SHED上生新所店/ 小大建筑 - ArchDaily",
+      "url": "https://www.archdaily.com/zh/1015452/coffea-shedshang-sheng-xin-suo-dian-xiao-da-jian-zhu",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "coffea SHED (衡山路地區, 上海) – 菜單、評論及資訊 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-141042050",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "coffea SHED上生新所店，上海/ 小大建筑设计事务所 - gooood",
+      "url": "https://www.gooood.cn/coffea-shed-columbia-circle-store-by-kooo-architects.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "coffea SHED (上海衡山路地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-141042050/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "公共空间|上生·新所主题装置上新 这座“都市森林”好逛度UP ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIwNDM2MjIwMQ==&mid=2247676200&idx=8&sn=7ae6e2a5e90a8bc18db99eb34e8ffba5&chksm=97e7b47dc3c0fcf0fc0a8a0ebab7e4bb7ebdde5cfa6bbc59557999ba92632e56cfbef48c63cf&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "https://new.qq.com/rain/a/20250805A04HHX00",
+      "url": "https://new.qq.com/rain/a/20250805A04HHX00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "上海闲人指南 | 除了City Walk,周末还有哪些事值得做? ",
+      "url": "https://chihe.sohu.com/a/695724449_409158",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:05:04Z"
+}

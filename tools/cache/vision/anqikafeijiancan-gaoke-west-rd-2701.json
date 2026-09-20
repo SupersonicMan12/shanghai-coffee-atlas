@@ -1,7 +1,7 @@
 {
   "cafeId": "anqikafeijiancan-gaoke-west-rd-2701",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "51f26c447b42",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "81ea91b280ec",
   "photos": [
     "http://store.is.autonavi.com/showpic/05de921817e7636d5c814512f73a25b9",
     "https://aos-comment.amap.com/B0J6YRD2W7/comment/81C59774_27C9_413F_BE6D_14CA90AC8FE6_L0_001_1502_200_1764226617663_89491881.jpg",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "food"
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有玻璃门和大面积玻璃窗",
-      "kind": "space",
+      "text": "店面为临街玻璃门，有木质平台和灰色地砖人行道。",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店外有木质平台和人行道，适合行人经过",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内陈列多种三明治和面包类食品",
+      "text": "店内展示柜里陈列着多种包装好的三明治和面包。",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "三明治包装上有标签，部分为火腿、蛋类等常见配料",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店门口有人进出，显示正常营业中",
+      "text": "照片中未见顾客在店内座位区就坐，也未见工作人员操作设备。",
       "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺招牌显示为‘安琪咖啡简餐’，提供咖啡与简餐服务",
+      "text": "店面外有行人经过，但店门口无人停留。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺入口处设有透明塑料帘，地面为木纹地板。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为独立单体建筑，非商场内或老洋房。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店前设有菜单展示牌，但内容不可辨识",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "未见电脑、插座、书架、植物或宠物等设施。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "店面采用现代风格设计，有金属框架和木饰面",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "未见烘焙机、手冲台、虹吸壶等专业咖啡器具。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "some",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:20Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:01Z"
 }

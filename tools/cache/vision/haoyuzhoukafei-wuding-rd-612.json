@@ -1,71 +1,84 @@
 {
   "cafeId": "haoyuzhoukafei-wuding-rd-612",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3157c48dcd86",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "14e09ae048a5",
   "photos": [
-    "https://aos-comment.amap.com/B0J27A8FS7/comment/191baeb1819cf9faa71c2314547183b4_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0J27A8FS7/comment/34F23868_59D7_4DD0_8368_5FA632152FB2_L0_001_1502_200_1771917735587_07529717.jpg",
-    "https://aos-comment.amap.com/B0J27A8FS7/comment/1354321E_DC33_426C_A0DB_D9773FBC3761_L0_001_1500_200_1771917735592_73824437.jpg"
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/6031D9EF_868F_4391_B906_4CF2BA1EEEF5_L0_001_1500_200_1767804232308_07070097.jpg",
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/3022660554a3d8ec4cb8bfac4f5d3ce6_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/CDE2E133_20E9_4504_B3B1_4288FD7E8358_L0_001_1500_2000_1737543510033_04769795.jpg",
+    "https://aos-comment.amap.com/B0J27A8FS7/comment/191baeb1819cf9faa71c2314547183b4_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有吧台和少量座位",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "座位为可移动的箱式座椅，数量较少",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见手冲咖啡设备及磨豆机等专业器具",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有顾客在使用座位",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口设有临街玻璃门，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "墙上贴有品牌宣传海报，无明显菜单或价格信息",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品为拿铁拉花，盛于深色陶瓷杯中",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外有绿植，室内有风扇和木质天花板",
+      "text": "店门口招牌显示 'NO.23 UNIVERSE COFFEE'，门牌号武定路618号（612为入口编号）",
       "kind": "story",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "店面为临街小铺，入口处设黑色折叠椅，A字牌写'OPEN'，门前有黑色地砖台阶",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内地面为黑白格子瓷砖，吧台为原木材质，后方可见咖啡机及操作区",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见约4名顾客，其中2人坐在吧台前，1人背对镜头坐于矮桌旁，无明显用电脑者",
+      "kind": "crowd",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单标签显示‘抹茶巧克力’‘碧根果巧克力美式曲奇’等，价格21-22元/个，含Oreo、提拉米苏等口味",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品为深色杯装拿铁，奶泡拉花呈叶形；食物为绿色抹茶点心，切开后可见内馅",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单标价21RMB/EA或22RMB/EA，未见手冲/单品豆产地信息",
+      "kind": "specialtyMenu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外无遮挡，临街，门口立有带箭头指示的营业时间海报",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:17:01Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    21.0,
+    22.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:44Z"
 }

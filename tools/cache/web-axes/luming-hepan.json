@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "店面大，位置比较多，环境特别好，闹中取静，离火车站3-5分钟路程，有充电插头",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "店面大，位置比较多，环境特别好，闹中取静，离火车站3-5分钟路程，有充电插头",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "店面大，位置比较多，环境特别好，闹中取静，离火车站3-5分钟路程，有充电插头",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店面大，位置比较多，环境特别好，闹中取静，离火车站3-5分钟路程，有充电插头",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评"
+    },
+    "price": {
+      "value": 17.0,
+      "quote": "禄鸣·河畔咖啡(上海火车站店) 4.3. ¥17/人",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海静安苏河1號酒店 ",
+      "url": "https://hotel.elong.com/90958437",
+      "site_name": "艺龙旅行网"
+    },
+    {
+      "index": 2,
+      "title": "苏河一号",
+      "url": "https://shanghai.anjuke.com/community/view/1083864",
+      "site_name": "安居客"
+    },
+    {
+      "index": 3,
+      "title": "Luming Riverside Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97BD5D94086&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "上海火车站/客运汽车总站咖啡团购- 禄鸣 - 大众点评",
+      "url": "http://m.dianping.com/shop/1698172728?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "luckincoffee瑞幸咖啡(base城市社区苏河店) - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-121669121/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海市静安区恒丰路638号苏河1号华森钻石商务广场 - 百度地图",
+      "url": "https://map.baidu.com/mobile/webapp/place/detail/foo=bar&qt=ninf&wd=%E6%99%AF%E7%82%B9&c=131&searchFlag=sort&center_rank=1&nb_x=13520804.86&nb_y=3643397.03&da_src=unifynearbyclick&uid=bd4a2610811c6d1ceb1e97d5&industry=&qid=&pos=&da_ref=&da_qrtp=&da_adquery=&da_adtitle=%E8%8B%8F%E6%B2%B31%E5%8F%B7%E5%8D%8E%E6%A3%AE%E9%92%BB%E7%9F%B3%E5%95%86%E5%8A%A1%E5%B9%BF%E5%9C%BA-A%E5%BA%A7&da_adindus=%E6%88%BF%E5%9C%B0%E4%BA%A7;%E5%86%99%E5%AD%97%E6%A5%BC&detail_from=list&vt=map",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "在上海国际咖啡文化节 品味一杯“有温度”的咖啡 ",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260504/9db583c38a4a4837afe7dc3fa29ee7ba.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 9,
+      "title": "东莞首个「巧咖市集」!顶流咖啡和巧克力都来了!",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33341411",
+      "site_name": "澎湃新闻网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:36:28Z"
+}

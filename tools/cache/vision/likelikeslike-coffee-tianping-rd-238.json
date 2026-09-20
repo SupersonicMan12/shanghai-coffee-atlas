@@ -1,71 +1,83 @@
 {
   "cafeId": "likelikeslike-coffee-tianping-rd-238",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "dc54ade4a997",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "10b48f4414c0",
   "photos": [
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/D90F613D_F75E_4610_970E_AFFD160D2D82_L0_001_1500_200_1764050276268_16977471.jpg",
     "https://aos-comment.amap.com/B0J63S5LYT/comment/0c95755723094e5ecc0457cb7dc02949_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0J63S5LYT/comment/b4bc4faab2cea3242751f0406d25b8fc_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0J63S5LYT/comment/99cf70ee2f701b7dca8b80dfc0ee3a35_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/12EFE563_A9EF_49C4_B6DD_E7BE8601A294_L0_001_1536_204_1765703564804_76970065.jpg",
+    "https://aos-comment.amap.com/B0J63S5LYT/comment/b4bc4faab2cea3242751f0406d25b8fc_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "food"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "室外有石板座和小圆桌，室内有长条沙发座",
+      "text": "店内有吧台座位，配有黑色高脚凳。",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "吧台后方墙上有手冲咖啡豆产地及价格",
-      "kind": "beans",
+      "text": "店内设有手冲区，可见多个手冲壶和磨豆机。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上列出Espresso、Flat white、Latte等饮品及价格，手冲按产地分南美、亚太、非洲，价格35-55元。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有露天座位区，配有圆形石质坐垫和金色小桌。",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "吧台陈列多个虹吸壶和磨豆机",
+      "text": "店内墙上有大型儿童肖像画，装饰有垂吊绿植。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品杯中拉花为叶子图案，杯具为深色粗陶风格。",
       "kind": "drinks",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "玻璃柜内有可颂、贝果等烘焙品",
-      "kind": "food",
+      "text": "桌上摆放松果、干叶与书籍《世界尽头的咖啡馆》，营造秋日阅读氛围。",
+      "kind": "story",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "店内有人坐在沙发上，其中一人在看手机",
+      "text": "店内可见笔记本电脑放置在吧台上，可能用于工作或点单。",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台前有黑色高脚凳，台面放着笔记本电脑",
-      "kind": "laptops",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "入口处有垂挂绿植和白色花藤装饰",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单显示美式23元、拿铁28元",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": true,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:38Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:14Z"
 }

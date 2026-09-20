@@ -1,7 +1,7 @@
 {
   "cafeId": "hefa-coffee-jingansi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1568b17dfd61",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0d30094d78f5",
   "photos": [
     "https://aos-comment.amap.com/B0FFK8YRKN/comment/8ffaaa7d2ecbbc20355264081db02f8a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFK8YRKN/comment/D853680C_5079_4EB0_BC51_AC53639D8A85_L0_001_2016_151_1756045969408_93580603.jpg",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "店面位于街边，临街有遮阳棚",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内空间狭长，吧台式布局",
+      "text": "店内为吧台式空间，无固定座位。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "菜单显示美式、拿铁、卡布奇诺等饮品及价格",
+      "text": "菜单显示有美式、拿铁、卡布奇诺等常规咖啡饮品。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡机、磨豆机等专业设备",
-      "kind": "roastingGear",
+      "text": "菜单上可见价格，美式15元，其他均为20元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机和磨豆机等专业设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植装饰，空间紧凑。",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有绿植装饰",
+      "text": "照片中有一名店员在吧台工作。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有顾客在吧台点单",
-      "kind": "people",
+      "text": "店面临街，有玻璃门窗，可看到室外。",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店员在操作区工作",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "墙上挂有时钟和菜单板",
-      "kind": "space",
-      "photo": 3,
+      "text": "室内有长条形灯管照明，光线明亮。",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "bar",
+  "seats": "none",
+  "crowd": "some",
   "laptops": false,
-  "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:17:39Z"
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    15.0,
+    20.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:56Z"
 }

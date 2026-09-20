@@ -1,7 +1,7 @@
 {
   "cafeId": "algebraist-shanghaizhongxintaifuguangchang",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e3d2d6dafd2e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "01567fb9748f",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
     "http://store.is.autonavi.com/showpic/3d377da172475f15d2f902da152d939a",
@@ -9,51 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "吧台式布局，后方货架陈列多包咖啡豆。",
+      "text": "店面位于商场内，临街玻璃门，门头有 'algebraist COFFEE' 字样",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "吧台前有高脚凳，座位数量级为few。",
-      "kind": "seating",
+      "text": "吧台侧面有发光汉字 '代数学家'",
+      "kind": "branding",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内有专业咖啡机、磨豆机等器具。",
+      "text": "吧台后方货架陈列多袋咖啡豆，袋身红白配色，顶部有照明灯带",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店外有落地玻璃窗，可看见街道。",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口立牌展示饮品图，含拿铁与冰饮。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台侧面有发光字“代数学家”。",
-      "kind": "space",
+      "text": "吧台上有两台磨豆机（带透明豆仓）、一台意式咖啡机、水处理设备及纸杯架",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前有3张高脚凳，无其他座位区可见；照片中无人在场",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外地面为灰白条纹地砖，无室外座位；门面海报显示手握拿铁与冰饮",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内天花板为木质板，有嵌入式线性灯带与黄色通风口；未见植物/书架/宠物",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台上菜单牌可见，但价格数字模糊不清，无法确认单价",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.6
     }
   ],
+  "room": "mall",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:57:47Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:28Z"
 }

@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "寵物友善有停車位提供充電服務禁菸餐廳",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136430871/",
+      "site": "藍提咖啡Bluety coffee（航天大廈店） - 上海餐廳 - Trip.com"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "早晨店里还没什么人，环境清清爽爽的挺好",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95751EB2535&address=222%2C+Caoxi+Road+No.103+Lanti+Coffee%2C+Xuhui%2C+Shanghai+China&coordinate=31.171056%2C121.434598&name=Bluety+Coffee+Lanti+Coffee+%28Hangtian+Mansion+Branch%29&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "早晨店里还没什么人，环境清清爽爽的挺好",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95751EB2535&address=222%2C+Caoxi+Road+No.103+Lanti+Coffee%2C+Xuhui%2C+Shanghai+China&coordinate=31.171056%2C121.434598&name=Bluety+Coffee+Lanti+Coffee+%28Hangtian+Mansion+Branch%29&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "点了两杯拿铁，小姐姐动作挺快的",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95751EB2535&address=222%2C+Caoxi+Road+No.103+Lanti+Coffee%2C+Xuhui%2C+Shanghai+China&coordinate=31.171056%2C121.434598&name=Bluety+Coffee+Lanti+Coffee+%28Hangtian+Mansion+Branch%29&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 25.0,
+      "quote": "¥25/人",
+      "url": "http://m.dianping.com/shop/571721784?msource=applemaps",
+      "site": "【蓝提咖啡Bluety coffee(航天大厦店)】电话_地址 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "藍提咖啡Bluety coffee（航天大廈店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-136430871/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "藍提咖啡Bluety coffee（航天大廈店） - 上海餐廳 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136430871/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "【蓝提咖啡Bluety coffee(航天大厦店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/571721784?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "Lanti Coffee Bluety Coffee (Hangtian Mansion Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F95751EB2535&address=222%2C+Caoxi+Road+No.103+Lanti+Coffee%2C+Xuhui%2C+Shanghai+China&coordinate=31.171056%2C121.434598&name=Bluety+Coffee+Lanti+Coffee+%28Hangtian+Mansion+Branch%29&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "蓝瓶咖啡",
+      "url": "https://baike.baidu.com/item/蓝瓶咖啡/60211715",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "上海美食节 | Blue Bottle蓝瓶咖啡上海首店开业,春日暖暖,一起出门喝杯咖啡吧!",
+      "url": "https://www.meet-in-shanghai.net/cn/guide/shanghai-food-festival--blue-bottle-coffee-opens-its-first-store-in-shanghai-lets-go-out-for-a-cup-of-coffee-in-the-warm-spring-752384/",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 7,
+      "title": "为蓝瓶咖啡排队8小时，我们想说点大实话 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/14152",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 8,
+      "title": "BLUE BOTTLE COFFEE",
+      "url": "https://www.dianping.com/shop/CreT13ONzrziiBGj",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:58Z"
+}

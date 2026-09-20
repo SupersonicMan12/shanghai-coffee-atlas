@@ -1,7 +1,7 @@
 {
   "cafeId": "one-step-coffee-lingtanzhuti",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a4a75c5aeb86",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "02d5e0313e71",
   "photos": [
     "https://store.is.autonavi.com/showpic/11d68e365dd24a43c3718ff5ee5cb09f",
     "https://aos-comment.amap.com/B0J217IWL7/comment/f5d1e820b06a12b0c081c80e0d369ee7_2048_2048_80.jpg",
@@ -14,46 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面入口为八边形玻璃门，可见室内有绿植。",
+      "text": "咖啡馆有大面积玻璃门，可通向室外木质平台区域",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内光线明亮，有木质地板和多盆大型绿植。",
-      "kind": "light",
+      "text": "室外座位区有木质地板和绿植，空间开阔",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区摆放有桌椅，至少可见2人就座",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "可见至少一个座位，为木桌椅。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "提供肉桂卷等烘焙食品。",
+      "text": "照片中出现肉桂卷，呈螺旋状，表面焦糖色",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "提供带有拉花图案的咖啡饮品。",
+      "text": "一杯拿铁咖啡，拉花为心形图案，奶泡细腻",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外座位区有多盆大型绿植，环境自然",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有大型绿植作为装饰。",
-      "kind": "space",
+      "text": "一人坐在室外座位上，背对镜头，未见使用电脑",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
+    },
+    {
+      "text": "室内与室外通过大玻璃门连接，采光良好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "courtyard",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:31Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:32Z"
 }

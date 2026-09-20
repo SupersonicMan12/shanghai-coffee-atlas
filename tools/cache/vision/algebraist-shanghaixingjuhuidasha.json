@@ -1,7 +1,7 @@
 {
   "cafeId": "algebraist-shanghaixingjuhuidasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3f801541fd0f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d4d9a0ef7e79",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/1dd842989020e7ba40f291a617928b6c",
@@ -9,56 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，临街玻璃门设计",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有落地窗，采光良好",
+      "text": "店面为玻璃幕墙，可看到室内有桌椅和顾客",
       "kind": "light",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口台阶前有户外座位",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见部分座位，数量较少",
-      "kind": "seating",
-      "photo": 2,
+      "text": "店内有吧台，但未见专业冲煮设备",
+      "kind": "brewBar",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门口有宣传立牌，显示饮品信息",
+      "text": "店内有顾客在用餐，环境有人气",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有立式广告牌，展示饮品图片",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店名标识为‘代数学家咖啡’和‘algebraist’",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内有木质装饰墙，装修风格现代简约",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.8
     },
     {
-      "text": "门上有红色三角形与方形组合标志",
-      "kind": "story",
+      "text": "透过玻璃可见室内有书架或陈列架",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "店内有顾客坐在吧台边，非全坐区",
+      "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见一人坐着，疑似顾客",
-      "kind": "people",
-      "photo": 1,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:15Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:46Z"
 }

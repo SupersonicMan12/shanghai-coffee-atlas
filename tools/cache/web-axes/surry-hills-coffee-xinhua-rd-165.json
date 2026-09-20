@@ -1,0 +1,38 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "Surry Hills Coffee 是一處充滿活力的避風港",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144363480?locale=zh-MY",
+      "site": "Surry Hills Coffee 的咖啡氛圍｜Trip.com 上海"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "是一家专注可持续生活方式的精品咖啡馆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NzYzNDM0Ng==&mid=2247759150&idx=2&sn=97c785e3b7179ccffc7053a18a031de6&chksm=eaf9bb3e5d751e1b5949093b842e518979dedd6218a4d9e94b03be2232ede03d9ad30977899a&scene=27",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "有精品咖啡、有新潮服饰,新华青春经济含“潮”量UP! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NzYzNDM0Ng==&mid=2247759150&idx=2&sn=97c785e3b7179ccffc7053a18a031de6&chksm=eaf9bb3e5d751e1b5949093b842e518979dedd6218a4d9e94b03be2232ede03d9ad30977899a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "Surry Hills Coffee 的咖啡氛圍｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144363480?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "#澳式美味# 这五家悉尼咖啡店,既好吃又好... 来自澳大利亚旅游局 - 微博",
+      "url": "https://weibo.com/1874205745/Qb2zaA11q",
+      "site_name": "微博平台"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:05:33Z"
+}

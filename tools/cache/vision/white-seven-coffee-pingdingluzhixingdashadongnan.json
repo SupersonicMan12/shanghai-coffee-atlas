@@ -1,7 +1,7 @@
 {
   "cafeId": "white-seven-coffee-pingdingluzhixingdashadongnan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c192ec3b4332",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d553227a2724",
   "photos": [
     "https://store.is.autonavi.com/showpic/421b971a6309d36bf75def3f17ee800e",
     "https://store.is.autonavi.com/showpic/242723ea00f2542256f6e5549a359f71",
@@ -14,28 +14,47 @@
   ],
   "observations": [
     {
-      "text": "夜间室外有绿化带和小径，可见施工建筑。",
+      "text": "照片显示的是夜间户外绿化区域，有树木、草坪和灯光照明",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "第二张照片显示庭院内有树木和地灯照明。",
+      "text": "背景可见在建建筑与塔吊，施工围挡环绕绿地",
       "kind": "view",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "第三张照片中可见一棵支撑的树和灌木丛。",
+      "text": "绿地中有树干被灯光照亮的树木，地面有地灯",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "小路旁有新栽树木及灌木丛，部分植物用支架固定",
       "kind": "view",
       "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "远处可见施工中的多层建筑，外立面未完工",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": "none",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:37Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:40Z"
 }

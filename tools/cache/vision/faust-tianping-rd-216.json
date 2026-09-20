@@ -1,71 +1,80 @@
 {
   "cafeId": "faust-tianping-rd-216",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "69def7d0d2a4",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "4caed118d13f",
   "photos": [
-    "https://aos-comment.amap.com/B0IRXA2D14/comment/5B46D65D_4C74_4ED4_87B3_AFB12F76F568_L0_001_1500_200_1765174818394_53659653.jpg",
-    "https://aos-comment.amap.com/B0IRXA2D14/comment/6e513af848abd7ce131e3a6ec9c58062_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0IRXA2D14/comment/58767AEB_E89B_484D_9826_8677465013F3_L0_001_1500_200_1764993345985_16525557.jpg"
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/58767AEB_E89B_484D_9826_8677465013F3_L0_001_1500_200_1764993345985_16525557.jpg",
+    "http://store.is.autonavi.com/showpic/dceed7944b3282b3e94ed47c99188e6c",
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/c05fe639eab3e71d0c2418a343e0b92e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0IRXA2D14/comment/5B46D65D_4C74_4ED4_87B3_AFB12F76F568_L0_001_1500_200_1765174818394_53659653.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "storefront",
-    "drink"
+    "interior",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "吧台窗口服务，内部空间小，仅见1名店员操作咖啡机。",
+      "text": "店内有金属桌椅和木质小凳，空间布局紧凑，座位数量有限。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有带顶棚的窗口式吧台，可直接点单制作饮品。",
       "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "咖啡杯上有拉花，搭配金叉和纸巾，提供可颂类面包。",
+      "kind": "drinks|food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台内有咖啡机、磨豆机和手冲器具，设备齐全。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "吧台外摆放小型圣诞树和花束，有节日装饰。",
-      "kind": "story",
-      "photo": 1,
+      "text": "店内可见烘焙机、磨豆机等专业咖啡设备，以及装饰性植物和小型圣诞树。",
+      "kind": "brewBar|people",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "门口A字牌菜单显示特调咖啡与蛋糕，价格32-48元。",
-      "kind": "menu",
+      "text": "店内摆放有红色玫瑰花和木质小桌，环境布置简约文艺。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口为灰色墙面，配有发光招牌和长条木凳，临街设窗。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台前设两个圆形软垫高脚凳，为室外座位。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "一杯热拿铁拉花呈心形，配一块芝士蛋糕。",
-      "kind": "drinks",
+      "text": "餐盘上印有英文诗句和品牌名，纸杯印有品牌标识。",
+      "kind": "story",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.6
     },
     {
-      "text": "店内未见书架或宠物，也无顾客使用电脑。",
+      "text": "店内有顾客就坐，背景中可见叠放的椅子和部分家具。",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "临街玻璃窗，采光好，可看到街道人行道。",
-      "kind": "light",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:31Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:01Z"
 }

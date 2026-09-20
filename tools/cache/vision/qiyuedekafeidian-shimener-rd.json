@@ -1,55 +1,50 @@
 {
   "cafeId": "qiyuedekafeidian-shimener-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3677236401b2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8bd1de6d4b52",
   "photos": [
     "http://store.is.autonavi.com/showpic/1012fd1186d87a00e82cf71ac21928b4"
   ],
   "photoKinds": [
-    "interior"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备",
+      "text": "吧台后方可见白色磨豆机与手冲设备，含叠放纸杯及透明杯",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台为木质结构，正面有“咖啡”书法字样及“coffee”小标",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见磨豆机和手冲器具",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方有落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "窗外可见绿植和街道",
+      "text": "吧台前无座位，仅见操作区；背景窗户外可见绿植与砖墙建筑",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "吧台为木质结构，设计简洁",
-      "kind": "space",
+      "text": "窗外可见灰色砖墙与绿色灌木，无明显街道/河/天台等景致",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "墙上挂有宣传牌，显示活动信息",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:08Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:38Z"
 }

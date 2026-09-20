@@ -1,65 +1,80 @@
 {
   "cafeId": "tequila-espresso-jiashan-rd-55",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "aff71547f420",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9a423349f4e4",
   "photos": [
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/63BDCBEC_E8A9_4F44_96E5_D82A65BF5322_L0_001_1290_145_1768821850240_78485117.jpg",
     "https://aos-comment.amap.com/B0FFJD4OC0/comment/93522C22_9E07_407B_973F_6B5EA585D6BE_L0_001_1263_154_1768821812268_52309918.jpg",
-    "https://aos-comment.amap.com/B0FFJD4OC0/comment/BB1EA383_1523_4422_9542_8C044805DD92_L0_001_1500_200_1772150772249_96983286.jpg",
-    "https://aos-comment.amap.com/B0FFJD4OC0/comment/63BDCBEC_E8A9_4F44_96E5_D82A65BF5322_L0_001_1290_145_1768821850240_78485117.jpg"
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/B7F847AE_DD56_4776_90C4_70EC0B50C7C0_L0_001_1536_2048_1743339685907_45852917.jpg",
+    "https://aos-comment.amap.com/B0FFJD4OC0/comment/BB1EA383_1523_4422_9542_8C044805DD92_L0_001_1500_200_1772150772249_96983286.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "门口有两把LEVI'S折叠椅和一把木椅，可户外坐。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内吧台区有至少两台磨豆机和一台热水机。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "玻璃门贴有营业时间：工作日8:00-17:30，周末9:00-17:30。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "一杯浓缩咖啡盛在白色小杯中，表面有厚油脂。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店门是透明玻璃，可看见内部有顾客和桌椅。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "室内吧台上方挂有黑白插画和酒瓶，有工业风吊灯。",
+      "text": "店面为临街小铺，有玻璃门和窗户，门口放有两把折叠椅。",
       "kind": "space",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见两台磨豆机、热水机及咖啡器具，属于精品咖啡操作台。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯冰咖啡饮品，杯身贴有Tequila espresso标签，内含奶咖分层。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯热咖啡在白色瓷杯中，表面有油脂，配有碟子和金属勺。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有室外座位，有两把蓝色折叠椅和一张小桌。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙上挂有插画，下方置物架摆放瓶罐与咖啡设备。",
+      "kind": "story",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "门口左侧有一个金属桶，右侧窗台放着洗手液瓶。",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店门口张贴营业时间：周一至周五8:00-5:30，周末9:00-5:30。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有工作人员在操作咖啡设备，背对镜头。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:05:26Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:39Z"
 }

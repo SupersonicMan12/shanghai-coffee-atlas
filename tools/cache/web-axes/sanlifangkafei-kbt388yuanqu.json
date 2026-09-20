@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "一杯咖啡,撑起年轻人的“第二办公桌”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "最先感受到的不是咖啡香,而是一种安静。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "让这里像一个被城市特意留出来的缓冲区。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "品牌推出“原价10元、自带杯5元”定价策略...",
+      "url": "https://baike.baidu.com/item/三立方/66219230",
+      "site": "百度百科"
+    },
+    "price": {
+      "value": 10.0,
+      "quote": "品牌推出“原价10元、自带杯5元”定价策略...",
+      "url": "https://baike.baidu.com/item/三立方/66219230",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "CUBIC3三立方咖啡(飞洲国际店)",
+      "url": "https://m.dianping.com/shop/941279461",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "CUBIC3三立方咖啡(光启城店)",
+      "url": "https://m.dianping.com/shop/1046494281",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "CUBIC3三立方咖啡(海汇街店)",
+      "url": "https://m.dianping.com/shop/1013772313853027",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "(文末福利)被曝光了!很多人都把时间“交”给这儿了!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NTg0OTE5Mg==&mid=2652117508&idx=1&sn=67c12d321d8cd3f8baeb640980da15dc&chksm=8a8ec9209f6b048b7af0c99600f17f60fe75a9c3016a296235293fa1b0c5e4c7f6ddeab5a5d1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "三立方愚园路店，上海/ 具场| 谷德设计网",
+      "url": "https://www.gooood.cn/cubic-3-yuyuan-road-by-juchang.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "San Lifang Coffee (KBT388 Industrial Park Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118949926251574&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "url": "https://you.ctrip.com/food/shanghai2/132084090.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 8,
+      "title": "三立方",
+      "url": "https://baike.baidu.com/item/三立方/66219230",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:18:38Z"
+}

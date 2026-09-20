@@ -1,7 +1,7 @@
 {
   "cafeId": "bluebottlecoffee-shangshengxinsuo",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "34f749484426",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "86ae0bc1d920",
   "photos": [
     "https://aos-comment.amap.com/B0KG9R62W6/comment/43bebd91f2e78f13525786ec0a51c1ac_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KG9R62W6/comment/0BC156BB_E298_4D5E_A9F1_B8DC0D7C588E_L0_001_1500_199_1758100121806_79707505.jpg",
@@ -14,58 +14,53 @@
   ],
   "observations": [
     {
-      "text": "室内为挑高三角形屋顶结构，白色条状吊顶嵌入筒灯",
+      "text": "店内空间宽敞，有长条形吧台",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "吧台后方墙面挂有三块菜单板，含中英文饮品名与价格标签",
-      "kind": "menu",
+      "text": "吧台后方可见咖啡制作设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台区域可见至少两台黑色意式咖啡机、手冲壶架及磨豆机",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "中央长桌为浅色瓷砖台面，嵌入不锈钢展示槽，陈列蓝瓶包装商品",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "入口玻璃门贴有营业时间：周一至五 9AM–6PM，周六至日 9AM–8PM",
-      "kind": "time",
+      "text": "入口处有大面积玻璃窗",
+      "kind": "bigWindows",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "外墙为竖向条纹金属板，挂有方形蓝瓶标志灯箱与复古壁灯",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
+      "text": "吧台上摆放着鲜花和商品",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.85
     },
     {
-      "text": "第三张图左上角挂一米色帆布小包，印蓝瓶标志；右下角纸杯印蓝瓶标志，配白色杯盖",
+      "text": "展示区有笔记本、手机袋等周边商品",
       "kind": "other",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.8
     },
     {
-      "text": "第三张图中展示区有笔记本、杯垫等商品，价签标78元、198元等",
-      "kind": "food",
+      "text": "可见一杯外带咖啡杯",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
+  "room": "large",
   "seats": "some",
-  "laptops": true,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:41:56Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:51Z"
 }

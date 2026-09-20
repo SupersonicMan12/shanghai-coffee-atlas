@@ -1,65 +1,88 @@
 {
   "cafeId": "big-sur-coffee-yongjia-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e3e3d252887e",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "61971cae905f",
   "photos": [
-    "https://aos-comment.amap.com/B0H1U5WZAQ/comment/9FCBB860_97E0_42D7_8436_830DA86A8945_L0_001_1500_2000_1737270088733_61958984.jpg",
     "https://store.is.autonavi.com/showpic/6ef11abb103d20520000002856032419?type=pic",
+    "https://aos-comment.amap.com/B0H1U5WZAQ/comment/9FCBB860_97E0_42D7_8436_830DA86A8945_L0_001_1500_2000_1737270088733_61958984.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1772014986036_43756954_1772015154922_61594235.jpg",
     "https://aos-comment.amap.com/comment/content_service__1772014986064_81327625_1772015154927_70518931.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
     "menu"
   ],
   "observations": [
     {
-      "text": "菜单显示有厄瓜多尔、巴拿马等产地的单品豆手冲咖啡，价格68-138元。",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "店内有吧台区，可见手冲器具、磨豆机和BUNN热水系统。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店内可见BUNN热水系统和吧台操作区，有手冲器具。",
-      "kind": "drinks",
+      "text": "菜单显示2024产季单品豆手冲咖啡，产地包括巴拿马、哥伦比亚、埃塞俄比亚等。",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上明确标价：美式28元、奶咖32元，单品手冲68-138元。",
+      "kind": "menuPrices",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质小圆桌配圆形软垫凳，以及靠墙长椅座位。",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口玻璃贴有营业时间：周二至周日8:00-19:00，周一12:00-19:00。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品包括一杯拉花拿铁（陶瓷杯）和一杯分层冰咖（玻璃杯）。",
-      "kind": "drinks",
+      "text": "店门口为临街玻璃门，可看到永嘉路街道及对面建筑。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店面为石质外墙老建筑风格，门框有竖向凹槽装饰。",
+      "text": "饮品包括拉花拿铁、冰滴（或冷萃）与冰水，水杯印有店名。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面贴白色瓷砖，地面为灰色方砖，风格现代简约。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "透过玻璃门可看到店内有陈列柜，但座位数量和形式无法看清。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内墙面挂有“PANAMA GEISHA”、“ECUADOR ALASKA DEL SUR”产地海报。",
-      "kind": "story",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店铺位于永嘉路277号，营业时间为周二至周日08:00-19:00，周一12:00-19:00。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:50Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    68.0,
+    78.0,
+    88.0,
+    98.0,
+    138.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:32Z"
 }

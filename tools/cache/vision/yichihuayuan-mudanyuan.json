@@ -1,7 +1,7 @@
 {
   "cafeId": "yichihuayuan-mudanyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "dfb52aa2cdde",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d7e9ababf51c",
   "photos": [
     "https://aos-comment.amap.com/B0JADSE94B/comment/ed6cc7fb6bcb05912c271200b4205c1a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0JADSE94B/comment/4394380b73140355ea648ca34d1abfba_2048_2048_80.jpg",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店内有咖啡烘焙机和磨豆机等专业设备",
-      "kind": "drinks",
+      "text": "店内有吧台，后方有磨豆机和咖啡机。",
+      "kind": "beans",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有木质结构和绿植，环境自然",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有迎宾立牌，标明店名为‘一尺花园’",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为热饮，杯中含苹果片、肉桂棒和香料",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有吧台和展示柜，陈列饮品和瓶装饮料",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有两名工作人员在操作，一人穿围裙",
+      "text": "店内有两位店员在吧台工作。",
       "kind": "people",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "店门为木质推拉门，带玻璃窗，采光良好",
+      "text": "室内有木质结构和大窗户，采光好。",
       "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "有一杯带肉桂棒和苹果片的热饮。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有绿植，店内有大型盆栽植物。",
+      "kind": "plants",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有圆形木桌和椅子，座位数量未知。",
+      "kind": "seating",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有圆形木桌和椅子，提供座位",
-      "kind": "seating",
+      "text": "照片拍摄于白天，窗外有绿树。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台旁有冷藏柜，里面放着瓶装饮料。",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "some",
-  "laptops": null,
-  "outdoor": false,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:21:38Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:26Z"
 }

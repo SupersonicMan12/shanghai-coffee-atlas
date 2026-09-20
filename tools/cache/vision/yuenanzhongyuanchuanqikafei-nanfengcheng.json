@@ -1,71 +1,72 @@
 {
   "cafeId": "yuenanzhongyuanchuanqikafei-nanfengcheng",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "bfaddf22920f",
+  "inputDigest": "76506066158c",
   "photos": [
     "https://store.is.autonavi.com/showpic/a716db236a6552163718f2266bc9a1ec",
     "https://store.is.autonavi.com/showpic/75b1222380ad57317f502ce40667057b",
     "https://store.is.autonavi.com/showpic/a94cd9d31292844dfabfa79eb6de15a5"
   ],
   "photoKinds": [
-    "storefront",
+    "interior",
     "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，空间宽敞明亮",
+      "text": "店内为商场内档口，空间中等",
       "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内设有吧台和饮品制作区",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "有吧台和少量座位，约5-8个",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
     },
     {
-      "text": "可见咖啡制作设备如磨豆机、萃取机等",
-      "kind": "roastingGear",
+      "text": "天花板有黑色金属横梁结构",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台后方可见咖啡机等设备",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "有纸质菜单展示在电子屏上",
+      "text": "墙上挂有电子菜单显示屏",
       "kind": "menu",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "陈列架上摆放着咖啡豆包装产品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有工作人员在操作台后工作",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "柜台前放置多个纸袋，用于打包饮品或商品",
-      "kind": "drinks",
+      "text": "吧台前摆放着一排打包纸袋",
+      "kind": "other",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店内地面为光滑木质地板，采光良好",
+      "text": "店内光线明亮，无明显窗户采光",
       "kind": "light",
       "photo": 3,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:13:04Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:44:30Z"
 }

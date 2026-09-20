@@ -1,7 +1,7 @@
 {
   "cafeId": "g-wine-coffee-beijing-west-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0c2af67a110a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "652b2adf29f7",
   "photos": [
     "https://aos-comment.amap.com/B0G064N6QW/comment/6f54a756556c50b9cf5e0322d22561e1_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0G064N6QW/comment/75cede7d51e02b2653d82200e2ecaf65_2048_2048_80.jpg",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店铺临街，有室外座位区",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "夜间灯光照明充足，吸引人流聚集",
+      "text": "店面临街，门牌号761，有发光屋檐轮廓灯和‘G+’招牌",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "店前有大树遮蔽，环境自然",
+      "text": "白天可见吧台区设3张高脚凳，2人坐在吧台外侧高脚凳上",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "夜间照片显示店前人多，树下聚集约15人，含坐椅与站立者",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店门口有大型悬铃木遮挡部分视野，树干粗壮，枝叶茂密",
       "kind": "view",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "白天可见吧台和少量高脚凳",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "夜间有多人聚集在店外，社交氛围活跃",
-      "kind": "people",
+      "text": "店内可见酒架陈列瓶装酒，吧台后方有酒瓶与杯具，无明显咖啡设备",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内可见酒架与饮品陈列，提供咖啡和酒类",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺位于北京西路761号，门牌清晰可见",
-      "kind": "space",
+      "text": "白天照片中吧台内未见磨豆机/手冲台等专业咖啡器具",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "白天有人在吧台前就座，使用高脚凳",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "室内灯光偏暖黄，透过玻璃窗可见内部货架与酒瓶，无落地窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜间照片中左侧有人骑摩托车停靠，右侧有折叠椅与小桌，非固定座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "busy",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:08Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:33Z"
 }

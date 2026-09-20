@@ -99,6 +99,9 @@ export interface AxisEvidence {
   /** 0..1 — how much evidence sits behind the value. Rendered as ink density. */
   confidence: number
   sources: AxisSource[]
+  /** The checkable reason behind the evidence term, when there is one. */
+  because?: string
+  becauseZh?: string
 }
 
 /** Structured signals harvested from Amap (高德) POI data. */
@@ -166,12 +169,18 @@ export interface Trait {
   source?: string
 }
 
-/** A structured nudge for one compass axis, with the reason in plain words. */
+/**
+ * Evidence for one compass axis, derived deterministically from what was
+ * seen (photos), read (quoted public pages) or listed (Amap / Dianping
+ * fields). `because` is the reason a reader can check; `sources` says
+ * which kind of evidence it rests on. Absent = nothing measurable spoke.
+ */
 export interface AxisHint {
   value: number
   confidence: number
   because: string
   becauseZh: string
+  sources?: TraitEvidence[]
 }
 
 /**
@@ -190,5 +199,23 @@ export interface CafeDetail {
   /** One line that says why this room and not the next one. */
   headline?: { en: string; zh: string }
   axisHints?: Partial<Record<keyof Axes, AxisHint>>
+  /** Fresh Amap POI fields from the last detail refresh (id, 人均, rating). */
+  amap?: AmapSignals
+  /** What the photo pass could see of the room, when it could see anything. */
+  seen?: SeenRoom
+  /** Amap lists the place as paused or under renovation; treated as closed. */
+  status?: 'suspended' | 'renovating'
+}
+
+/** Structured readings from the photo pass — only fields the model could confirm. */
+export interface SeenRoom {
+  room?: 'bar' | 'small' | 'medium' | 'large' | 'courtyard' | 'mall'
+  seats?: 'none' | 'few' | 'some' | 'many'
+  crowd?: 'empty' | 'some' | 'busy'
+  laptops?: boolean
+  sockets?: boolean
+  outdoor?: boolean
+  roastingGear?: boolean
+  brewBar?: boolean
 }
 

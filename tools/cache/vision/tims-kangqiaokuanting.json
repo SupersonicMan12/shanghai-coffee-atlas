@@ -1,7 +1,7 @@
 {
   "cafeId": "tims-kangqiaokuanting",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "20b1239d64cb",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1cce7d23612c",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
     "http://store.is.autonavi.com/showpic/95673e3416d0eb8e4820daefc1ecc130",
@@ -14,52 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店内有贝果售卖",
+      "text": "店内有玻璃罩展示柜，陈列着贝果和甜甜圈等食物。",
       "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内为开放式吧台设计，有透明玻璃罩覆盖。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供美式咖啡和肉桂提子贝果套餐",
+      "text": "照片中未见顾客或工作人员，店内无人。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内背景有电子菜单屏幕，显示饮品和甜点图片。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见电脑、插座、书架、植物或宠物。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "产品图中展示了冰饮和贝果，属于套餐组合。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "套餐价格为19.9元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品可选N种，食品可选N种",
-      "kind": "drinks",
+      "text": "产品图中冰饮杯身印有Tims标志，与Logo一致。",
+      "kind": "drink",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "展示柜内陈列多种贝果",
-      "kind": "food",
+      "text": "室内光线明亮，但未见落地窗或自然采光来源。",
+      "kind": "light",
       "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有玻璃展示柜",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见饮料制作设备",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.6
     }
   ],
-  "seats": "unknown",
+  "room": "bar",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:25Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:20Z"
 }

@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "免費Wi-Fi提供充電服務",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136053430/",
+      "site": "Oaks 19 (靜安寺/南京西路, 上海) – 菜單、評論及資訊 - Trip.com"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "在安静秩序与活力自由并存的后街小巷",
+      "url": "https://baijiahao.baidu.com/s?id=1842873064679817357",
+      "site": "百度"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "让人在享受咖啡的同时,也能感受到一份难得的惬意与舒适",
+      "url": "https://baijiahao.baidu.com/s?id=1842873064679817357",
+      "site": "百度"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "推出了Espresso系列、特色饮品、单一产地可可以及其他系列",
+      "url": "https://baijiahao.baidu.com/s?id=1842873064679817357",
+      "site": "百度"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "https://new.qq.com/rain/a/20250810A04SI900",
+      "url": "https://new.qq.com/rain/a/20250810A04SI900",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "那些在南西后街“野蛮”生长的独立咖啡馆~",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405210732106219558",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 3,
+      "title": "Oaks 19 (靜安寺/南京西路, 上海) – 菜單、評論及資訊 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-136053430/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "南阳路上的Oaks 19:融合历史与现代的咖啡体验",
+      "url": "https://baijiahao.baidu.com/s?id=1842873064679817357",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "每走30米就能遇到一家! 那些在南西后街“野蛮”生长的独立咖啡馆丨走进南西故事 ",
+      "url": "https://travel.sohu.com/a/922688613_121117454",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 6,
+      "title": "颇具人气的小众品牌咖啡门店Oaks 19 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/613320810",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "静安街头的“法式浪漫”,南阳路新添一咖啡店Oaks饮品_店铺",
+      "url": "https://www.sohu.com/a/605284311_120044982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "静安街头的“法式浪漫”,南阳路新添一咖啡店 ",
+      "url": "https://travel.sohu.com/a/605284311_120044982",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:09:55Z"
+}

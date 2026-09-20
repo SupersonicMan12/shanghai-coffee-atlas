@@ -1,59 +1,79 @@
 {
   "cafeId": "moodrive-cafe-yaotiluyupingjiaqiaolujiaochakoudo",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9f24c7f69eb6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f3c537284155",
   "photos": [
     "https://store.is.autonavi.com/showpic/d1717e9cf819ff950000000647342047?type=pic",
-    "https://store.is.autonavi.com/showpic/d01455394f281cbd2c8f961498ba0823",
-    "https://aos-comment.amap.com/B0K2LZO0SD/comment/EC1899FA_75C8_4ED6_A721_A49297376D89_L0_001_1500_200_1758717433321_15950262.jpg"
+    "https://store.is.autonavi.com/showpic/7e965665594ba86d267d940069664cdd",
+    "https://aos-comment.amap.com/B0K2LZO0SD/comment/EC1899FA_75C8_4ED6_A721_A49297376D89_L0_001_1500_200_1758717433321_15950262.jpg",
+    "https://store.is.autonavi.com/showpic/d01455394f281cbd2c8f961498ba0823"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
+    "interior",
     "drink"
   ],
   "observations": [
     {
-      "text": "饮品表面有复杂拉花图案",
-      "kind": "drinks",
+      "text": "店内为小档口式店面，有玻璃窗和门，空间紧凑。",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "咖啡馆为临街小型独立店铺",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口设有玻璃窗和出餐口",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见橙色自动售货机",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品盛于不规则透明玻璃杯中",
+      "text": "照片中可见一个透明玻璃杯装的冰咖啡，顶部有奶泡。",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有金属台面，背景可见人影和椅子，但座位区不清晰。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有一个白色A字牌，上面写着'OPENING SOON'。",
+      "kind": "story",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "饮品为冰萃咖啡类，分层明显",
-      "kind": "drinks",
+      "text": "从外部看，店铺临街，有落地玻璃窗。",
+      "kind": "bigWindows",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见明显专业咖啡器具（如手冲台、磨豆机）。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中未见客人在使用笔记本电脑。",
+      "kind": "laptops",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "照片中未见插座、植物、书架或宠物等细节。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.6
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
+  "room": "bar",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:58Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:58Z"
 }

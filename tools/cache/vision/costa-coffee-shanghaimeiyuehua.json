@@ -1,7 +1,7 @@
 {
   "cafeId": "costa-coffee-shanghaimeiyuehua",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "57bc69c624d6",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "23b57884c266",
   "photos": [
     "https://store.is.autonavi.com/showpic/745609ab95fc6348cc5a8fa970ff29db",
     "http://store.is.autonavi.com/showpic/7bc76c8a0583f6e2e7b60ba495d5b1ec",
@@ -14,34 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店外有红色遮阳伞和露天座位。",
+      "text": "店面位于临街商铺，有玻璃门和落地窗，可见内部部分区域。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有带红色遮阳伞的室外座位区，有顾客在使用。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "临街玻璃幕墙，采光好，可见街道与车辆。",
-      "kind": "light",
+      "text": "店外街道有车辆停放，可见城市道路环境。",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "饮品含生椰乌龙轻乳茶、椰皇三重奏等椰子风味。",
+      "text": "照片展示两款饮品：生椰乌龙轻乳茶和椰皇三重奏。",
       "kind": "drinks",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "另一款饮品为顶部带有奶油和坚果碎的咖啡类饮品。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "有带奶油顶的热饮，杯身透明带把手。",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "店面旁有其他餐饮店铺（康帝三黄），共用建筑结构。",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:48Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:48Z"
 }

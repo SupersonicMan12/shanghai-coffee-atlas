@@ -1,7 +1,7 @@
 {
   "cafeId": "willing-coffee-dongmingdangqun",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8a9348551066",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "18871308a427",
   "photos": [
     "https://store.is.autonavi.com/showpic/eaeb0fa3910880a90000003145164467",
     "https://store.is.autonavi.com/showpic/584f3bbebcc22d660000003145184003",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门窗",
+      "text": "室内有吧台，顾客可坐于吧台前",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "店内有落地窗，采光良好",
+      "text": "店内有多个悬挂式灯具和墙面置物架",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有吧台和桌椅，可坐人",
-      "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "有人在店内使用笔记本电脑",
+      "text": "吧台后方可见一台咖啡机",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一名男性顾客坐在桌前使用笔记本电脑",
       "kind": "people",
       "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有一盆绿植和一个大水桶",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有金属栏杆，为临街店铺",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有植物装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "墙上挂有菜单板，显示饮品价格",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见咖啡机等设备",
+      "text": "窗户上贴有“趁热拿铁”字样",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.9
     },
     {
-      "text": "店外有金属栏杆和台阶",
-      "kind": "space",
+      "text": "门牌号为东明路2616号",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:11Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:13Z"
 }

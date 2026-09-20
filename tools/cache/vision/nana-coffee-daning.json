@@ -1,65 +1,80 @@
 {
   "cafeId": "nana-coffee-daning",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e8a6b77c836e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c501f2b56dd2",
   "photos": [
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/e29eb2baef540571f0dccf4f90a8b362_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFLHEJ4L/comment/2e551f3e64adf487abc08c5df103f5ae_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/9295a16c2ad90edb4e68570b01d6a00e_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/e29eb2baef540571f0dccf4f90a8b362_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/e499fa449fbc3dcd5f1465b757c7860a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLHEJ4L/comment/9295a16c2ad90edb4e68570b01d6a00e_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "drink"
+    "interior",
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店面外有木制“营业中”招牌，窗台摆多盆小植物和装饰品。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "窗玻璃手写营业时间8:00-17:00，周二休息，美式3元、拿铁2元。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外可见一张木桌，桌上放一杯咖啡，有室外座位。",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内窗边有人坐着，背对镜头，疑似在操作或休息。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为玻璃杯装的拿铁，表面有叶子形拉花。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口左侧放一把木椅，右侧窗下有白色塑料水槽。",
+      "text": "店面绿色外墙，门牌号177-2，临街小铺面",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "窗上挂红色串珠灯笼装饰，窗内贴有雪花和鱼形贴纸。",
-      "kind": "story",
+      "text": "窗上贴有营业时间8:00-5:00及周二休店标识",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗内可见窗台摆放多盆小盆栽，含多肉植物",
+      "kind": "plants",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "玻璃窗上手写价格：美式3元、拿铁（奶咖）2元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内前景可见一杯拉花咖啡（叶形），杯底为深色液体",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上放有一块芝士蛋糕切块，置于带红点绿边的盘子上",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "门口立木板写有“营业中”三字，斜靠墙边",
+      "kind": "sign",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外木桌上放一白瓷杯（带红花），内有深色饮品，配木质杯垫",
+      "kind": "outdoor",
+      "photo": 4,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:13Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:13Z"
 }

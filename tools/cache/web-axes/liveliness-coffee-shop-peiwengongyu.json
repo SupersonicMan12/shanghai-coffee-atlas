@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "窗外车水马龙与室内慢节奏形成戏剧性对冲",
+      "url": "https://www.sohu.com/a/900962571_121123854",
+      "site": "搜狐网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "静享属于自己的慢时光",
+      "url": "https://www.163.com/dy/article/HLJH6FCV05228HQE.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "老板坚持只用肯尼亚豆子,做传统意式咖啡售卖",
+      "url": "https://www.dianping.com/discovery/909550853",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 32.0,
+      "quote": "价格:32",
+      "url": "https://www.zhihu.com/question/544282981/answer/1965480556415394424",
+      "site": "知乎"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "在上海最可愛的咖啡館享用一杯咖啡 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-148050870?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "上海有哪些值得探店的咖啡馆?",
+      "url": "https://www.zhihu.com/question/544282981/answer/1965480556415394424",
+      "site_name": "知乎"
+    },
+    {
+      "index": 3,
+      "title": "开进百年建筑,11家新店拿捏咖啡脑袋,美到离谱!",
+      "url": "https://www.163.com/dy/article/HLJH6FCV05228HQE.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "禧興Liveliness coffee shop (上海淮海路/新天地地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-135610037/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "寻味黄浦 | 节后回血指南!快收下这份黄浦咖啡店打卡清单 ",
+      "url": "https://www.sohu.com/a/900962571_121123854",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 6,
+      "title": "咖啡奇妙物语vol.04 | 那些独“1”无二的咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/909550853",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "禧兴Liveliness coffee shop - 营业时间_淮海路咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/1613301456?msource=applemaps",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:07:38Z"
+}

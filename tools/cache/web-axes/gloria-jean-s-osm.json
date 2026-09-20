@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "提供免费WiFi",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "店内设有沙发座位",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "主要供应白巧克力摩卡等饮品",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    },
+    "price": {
+      "value": 32.0,
+      "quote": "人均消费约32元",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Gloria Jean's Coffees(无限度店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（无限度店）/15267510",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "Gloria Jean's Coffees(无限度店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d4449782-Reviews-Gloria_Jean_s_Coffees_Wu_XianDu-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 3,
+      "title": "Gloria Jean's Coffees(联合广场店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（联合广场店）/14226572",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "Gloria Jean's Coffees(陆家嘴保利广场店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（陆家嘴保利广场店）/14324130",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "Gloria Jean's Coffees(月星环球港店)",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees（月星环球港店）/14304606",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "Gloria Jean's Coffees（陆家嘴保利广场店） - 百度百科",
+      "url": "https://baike.baidu.com/item/Gloria%20Jean's%20Coffees%EF%BC%88%E9%99%86%E5%AE%B6%E5%98%B4%E4%BF%9D%E5%88%A9%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89/14324130",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "Gloria Jean's Coffees(浦东南路店)(上海市) - 餐厅/美食点评- Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4808336-Reviews-Gloria_Jean_s_Coffees_PuDong_South_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "高乐雅",
+      "url": "https://baike.baidu.com/item/高乐雅/22401033",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 9,
+      "title": "Gloria Jean's Coffees(无限度店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449782-Reviews-Gloria_Jean_s_Coffees_Wu_XianDu-Shanghai.html",
+      "site_name": "Tripadvisor"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:28:48Z"
+}

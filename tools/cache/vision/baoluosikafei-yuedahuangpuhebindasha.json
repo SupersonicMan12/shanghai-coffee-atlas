@@ -1,69 +1,46 @@
 {
   "cafeId": "baoluosikafei-yuedahuangpuhebindasha",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "ace16b9644ec",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "324ff2a9d3de",
   "photos": [
     "http://store.is.autonavi.com/showpic/b58d529309b0f0532dc173db774a3d49",
     "http://store.is.autonavi.com/showpic/a39daf23d6f7d4a48bee7c0d2f3f3178"
   ],
   "photoKinds": [
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店招为红色‘宝罗思 咖啡’，临街玻璃门，门前有绿色遮阳伞与矮灌木丛。",
-      "kind": "space",
+      "text": "照片1显示店名为'宝罗思咖啡'，临街玻璃门面，门前有绿色遮阳伞及灌木丛",
+      "kind": "storefront",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "第二张图中店门口设户外桌椅：1张黑桌、2把红椅、1把黑椅，旁有树与路灯。",
+      "text": "照片2显示店门口有户外座位区，摆放3张桌椅（含1把红色塑料椅），地面为铺装石板，左侧有带三灯头的路灯",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "第二张图店面为深灰外墙+大面积临街玻璃窗，可见室内部分陈设。",
-      "kind": "bigWindows",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "第一张图背景有木质围栏、落地扇、半透明棚顶结构，但非店内区域。",
-      "kind": "view",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "两张图均未见吧台、磨豆机、手冲架、虹吸壶等专业咖啡器具。",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "无任何饮品、食物、菜单、书架、植物装饰或宠物出现在画面中。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "第二张图中户外座位区无人，室内未见顾客或工作人员身影。",
-      "kind": "people",
+      "text": "照片2中店门上方有红色品牌标识，门内可见玻璃隔断与部分室内结构，但未见吧台/器具/菜单/饮品/食物",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "第一张图前景为两层修剪整齐的绿篱，后方为建筑底层商铺立面。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.85
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:20Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:14Z"
 }

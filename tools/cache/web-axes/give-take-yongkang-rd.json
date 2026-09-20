@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "走在熙熙攘攘的街道上,不用刻意去找门店,放眼过去排队人最多的地方就是了。",
+      "url": "http://www.sohu.com/a/436389213_120044982",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "short",
+      "quote": "沒有門面,不設堂食",
+      "url": "https://www.dianping.com/discovery/706665399",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "产品线划分清晰,分为果咖、奶咖、美式三大类",
+      "url": "https://www.163.com/dy/article/G9PTGDPF05228TQ0.html",
+      "site": "163网易免费邮"
+    },
+    "price": {
+      "value": 20.0,
+      "quote": "统统售价20元",
+      "url": "https://www.163.com/dy/article/G9PTGDPF05228TQ0.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "熊爪咖啡",
+      "url": "https://baike.baidu.com/item/熊爪咖啡/56857450",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "在上海国际咖啡文化节 品味一杯“有温度”的咖啡 ",
+      "url": "https://www.shanghai.gov.cn/nw4411/20260504/9db583c38a4a4837afe7dc3fa29ee7ba.html",
+      "site_name": "“上海”门户网"
+    },
+    {
+      "index": 3,
+      "title": "600米、15+咖啡馆,魔都时髦小马路的天花板!",
+      "url": "https://www.163.com/dy/article/G9PTGDPF05228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "来一杯美容养颜的熊爪咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/988463989",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "熊掌给你递咖啡,小编在永康路被撩到_饮品",
+      "url": "http://www.sohu.com/a/436389213_120044982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "老外驚了!上海這條100多米的小馬路上,竟有18家咖啡店。",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/the-foreigner-was-shocked-on-this-small-road-of-more-than-100-meters-in-shanghai-there-are-18-coffee-shops-460293/",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海探店|熊爪咖啡🐻一直被模仿,从未被超越 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/706665399",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "开业一年后熊爪咖啡终于“破墙”了 - FoodTalks",
+      "url": "https://www.foodtalks.cn/news/7995",
+      "site_name": "FoodTalks全球食品资讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:14Z"
+}

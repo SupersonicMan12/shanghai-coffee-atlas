@@ -914,8 +914,34 @@ export function AtlasMap({
           <g className="viewport">
             <BaseLayers k={kb} raster={rasterReady} />
 
+            <Blots clusters={density.clusters} inv={inv} />
+
+            <Pins
+              layout={layout}
+              scores={scores}
+              compassOn={compassOn}
+              selectedId={selectedId}
+              hovered={hovered}
+              visited={visited}
+              saved={saved}
+              k={kb}
+              inv={inv}
+              labelIds={labelIds}
+              fading={fading}
+              topIds={top}
+              hidden={gone}
+              mode={mode}
+              onHover={onHover}
+              onLeave={onLeave}
+              onPick={onPick}
+            />
+
             {anchorPlace && anchor && (
-              <g transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`} className="anchor-mark">
+              <g
+                transform={`translate(${anchorPlace.x},${anchorPlace.y}) scale(${inv})`}
+                className="anchor-mark"
+                pointerEvents="none"
+              >
                 {anchor.kind === 'metro' ? (
                   <>
                     <circle r="26" fill="url(#halo)" />
@@ -945,44 +971,23 @@ export function AtlasMap({
                   </>
                 ) : (
                   <>
-                    <circle r="24" fill="url(#halo)" />
+                    <circle className="me-pulse" r="22" fill="none" stroke="var(--accent)" strokeWidth="2.5" />
+                    <circle r="40" fill="var(--accent)" fillOpacity="0.14" />
                     <path
-                      d="M0 2 C-7 -6 -6 -14 0 -14 C6 -14 7 -6 0 2 Z"
+                      d="M0 4 C-11 -9 -9.5 -22 0 -22 C9.5 -22 11 -9 0 4 Z"
                       fill="var(--accent)"
-                      stroke="var(--ink)"
-                      strokeWidth="1.2"
+                      stroke="var(--paper)"
+                      strokeWidth="2.5"
                     />
-                    <circle cy="-9" r="2.6" fill="var(--paper)" />
-                    <ellipse cy="3.4" rx="5" ry="1.4" fill="var(--ink)" fillOpacity="0.25" />
-                    <text y="-20" textAnchor="middle" className="anchor-label">
+                    <circle cy="-14" r="4" fill="var(--paper)" />
+                    <ellipse cy="6" rx="7" ry="2" fill="var(--ink)" fillOpacity="0.25" />
+                    <text y="-30" textAnchor="middle" className="me-label">
                       {t(UI.yourPin)}
                     </text>
                   </>
                 )}
               </g>
             )}
-
-            <Blots clusters={density.clusters} inv={inv} />
-
-            <Pins
-              layout={layout}
-              scores={scores}
-              compassOn={compassOn}
-              selectedId={selectedId}
-              hovered={hovered}
-              visited={visited}
-              saved={saved}
-              k={kb}
-              inv={inv}
-              labelIds={labelIds}
-              fading={fading}
-              topIds={top}
-              hidden={gone}
-              mode={mode}
-              onHover={onHover}
-              onLeave={onLeave}
-              onPick={onPick}
-            />
 
             {me && (
               <g

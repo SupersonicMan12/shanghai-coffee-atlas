@@ -1,7 +1,7 @@
 {
   "cafeId": "paikafei-longyang-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3047ad5b9b9b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "91eaaf1d4d59",
   "photos": [
     "http://store.is.autonavi.com/showpic/42993d56c25bc8a98475bbbd7f90ca63"
   ],
@@ -10,28 +10,35 @@
   ],
   "observations": [
     {
-      "text": "照片显示高楼与绿植，无店铺可见",
+      "text": "照片中未显示咖啡馆内部或店面",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "背景为高层玻璃幕墙建筑",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有树木和灌木丛，环境绿化较好",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "背景为玻璃幕墙高层建筑",
+      "text": "前景有茂密的绿植和树木",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": false,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:46Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:32Z"
 }

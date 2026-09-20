@@ -1,7 +1,7 @@
 {
   "cafeId": "aokka-coffee-daningguojishangyeguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3828c33f5ee6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "30c27be1b819",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1769230557578_31574551_1769230572232_57596926.jpg",
     "https://aos-comment.amap.com/comment/content_service__1769230557606_90118043_1769230572233_67618034.jpg"
@@ -12,58 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于商场外街，临街有户外座位区",
+      "text": "店面临街，有绿色门头与椭圆窗，外摆区设绿椅与绿色收纳箱",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店外设有圆形金属座椅和绿植装饰",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有吧台和高脚凳，可坐四人左右",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "窗外可见店内操作台和咖啡设备",
+      "text": "室外有环形金属长凳+大型盆栽，地面为砖铺，无遮挡临街视野",
       "kind": "view",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内窗上贴有‘Rawmance’及释义，可见吧台后有咖啡机、杯具陈列架",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗下设4张高脚凳，凳面为浅色木纹，靠墙处有绿植与黄色收纳箱",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗内可见一人站立操作台，未见明显笔记本电脑或多人办公",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗下左侧贴有WiFi、CAMPING、餐具等图标，暗示提供充电/户外服务",
+      "kind": "sockets",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有咖啡机等专业器具",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "门口立牌展示饮品，包括燕麦拿铁等",
+      "text": "右侧窗边立有‘买8送1’促销牌，展示两款饮品图示，但无价格数字",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店外有植物装饰，环境整洁",
-      "kind": "story",
+      "text": "店名‘AOKKA’与‘COFFEE COFFEE COFFEE’圆形灯箱清晰可见，无菜单价格显示",
+      "kind": "menuPrices",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": true,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:16:21Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:05Z"
 }

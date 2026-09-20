@@ -1,7 +1,7 @@
 {
   "cafeId": "meiyoukafeiguan-shanghaimingzhuchuangyichanyeyua",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6eec35ef9262",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7f266eb8ac7d",
   "photos": [
     "http://store.is.autonavi.com/showpic/beb6e5d72dd3ea4ed62b2bcb614255a1",
     "http://store.is.autonavi.com/showpic/48f2c3c4c43be705d0ae8397d8bc661b",
@@ -14,52 +14,41 @@
   ],
   "observations": [
     {
-      "text": "店铺为复古火车造型，位于绿树环绕的户外区域",
+      "text": "店体为复古火车车厢造型，带红白条纹遮阳棚，临街设玻璃橱窗",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外停放多辆共享单车，前景有绿色车罩覆盖的车辆",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺外有自行车停放，靠近人行道",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见陈列柜，展示小型模型与摄影器材",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店前设有遮阳棚，有粉色布帘覆盖部分区域",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺周围有树木和灌木，环境绿化良好",
+      "text": "背景可见高大浓密绿树，无明显街道或河景，属园区内环境",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "text": "店铺外观为木质结构，带有金属顶棚",
-      "kind": "space",
+      "text": "店内橱窗可见陈列架与玻璃柜，未见咖啡机/磨豆机等设备",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见相机镜头与微型人物模型摆放",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:18Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:22Z"
 }

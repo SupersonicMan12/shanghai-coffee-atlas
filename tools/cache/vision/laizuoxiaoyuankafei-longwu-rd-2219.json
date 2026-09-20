@@ -1,7 +1,7 @@
 {
   "cafeId": "laizuoxiaoyuankafei-longwu-rd-2219",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6c4f7d467035",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e5768adeb0a8",
   "photos": [
     "https://store.is.autonavi.com/showpic/c846def490d6ad950000002631624399?type=pic",
     "https://store.is.autonavi.com/showpic/26e555f02e9a67490000002631482844?type=pic",
@@ -10,50 +10,69 @@
   "photoKinds": [
     "interior",
     "other",
-    "other"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "室内有吧台和多张木质椅子",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "大面积落地窗，采光良好，可见室外绿植",
-      "kind": "light|view",
+      "text": "室内有吧台，吧台后可见手冲器具和磨豆机等设备。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外庭院区有绿色椅子和小石桌",
+      "text": "室外庭院区域设有绿色椅子和木质小桌，地面铺碎石，有水景和植物。",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "室外庭院有树木、草地和小溪景观",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "入口处有指示牌，显示营业时间为周二至周日10:00-20:00",
+      "text": "店外立牌显示营业时间为周二至周日10:00-20:00，周一店休。",
       "kind": "time",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内悬挂着咖啡豆形状的装饰灯",
-      "kind": "space",
+      "text": "室内有大面积落地窗，窗外可见绿树，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区有树木、灌木和小型水景，环境自然。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有圆形金属桌和木质靠背椅，座位数量较少。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "店外指示牌指向咖啡馆入口，路径两侧有树木和绿植。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方悬挂多个编织灯饰，造型独特，但非功能性信息。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
+  "room": "courtyard",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:49Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:07Z"
 }

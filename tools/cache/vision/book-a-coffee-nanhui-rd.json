@@ -1,71 +1,82 @@
 {
   "cafeId": "book-a-coffee-nanhui-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ee1fba76c7bd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f3408e3e872a",
   "photos": [
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/AADD3F8A_050B_45C9_977E_5A2277CD6758_L0_001_1512_2016_1744384453281_77053488.jpg",
     "https://aos-comment.amap.com/B0KR15OY0Y/comment/b66a2131e0fbf5e82a7ccd962b7ff31a_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0KR15OY0Y/comment/4784EFE6_785A_48B3_B228_D58041B60B71_L0_001_1500_200_1744999114634_09519577.jpg",
-    "https://aos-comment.amap.com/B0KR15OY0Y/comment/D1496340_0C23_47D3_B4CB_C6B2C9849224_L0_001_1512_2016_1744384453289_31002393.jpg"
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/9EDCEC5B_3815_4FD4_BB61_F432E23E23FF_L0_001_1512_2016_1744384453279_04539349.jpg",
+    "https://aos-comment.amap.com/B0KR15OY0Y/comment/4784EFE6_785A_48B3_B228_D58041B60B71_L0_001_1500_200_1744999114634_09519577.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店门口有禁止停车锥桶，临街，上方有密集电线。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内有落地玻璃窗，窗外可见树干和绿植。",
-      "kind": "light",
+      "text": "店面为临街独立小铺，门头标有'Book a Coffee 书洞'，地址南汇路38号",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "桌上放着一本赫尔曼·黑塞的《克林索尔的最后夏天》。",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品为一杯拉花拿铁和一杯加冰的琥珀色饮料。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有藤编椅子、猫形抱枕，靠窗有小桌椅。",
+      "text": "室内靠窗区域可见木质椅子+猫形抱枕，窗外有蓝色圆形户外桌椅及绿植",
       "kind": "seating",
-      "photo": 2,
-      "confidence": 0.85
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "窗边货架陈列咖啡豆袋和印有猫图案的抱枕。",
-      "kind": "interior",
+      "text": "桌上摆放一杯冰咖啡特调（琥珀色、大冰块）与一杯拉花心形的热奶咖，旁有《克林索尔的最后夏天》一书",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单牌显示特调名'光合作用'，配料含瑰夏浓缩、凤梨、焦糖柠檬、乳酸奶香，售价¥58",
+      "kind": "menu",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内无可见烘焙机或手冲台等专业咖啡器具。",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店内无明显烘焙机/手冲台等专业器具，吧台后方仅见酒瓶与纸巾架",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "照片中未见顾客使用笔记本电脑。",
+      "text": "照片中未见顾客，也无电脑或笔记本使用者",
       "kind": "laptops",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外人行道停有一辆红色电动车，门口设黄黑禁停锥桶，临街玻璃窗可见内部陈设",
+      "kind": "outdoor",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内窗框为浅黄/米白金属框架，窗内可见室外树干与蓝色座椅，采光良好",
+      "kind": "light",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:05Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:25Z"
 }

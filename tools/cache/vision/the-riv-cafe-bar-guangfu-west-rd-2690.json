@@ -1,65 +1,78 @@
 {
   "cafeId": "the-riv-cafe-bar-guangfu-west-rd-2690",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "626a00ad02c8",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b022de7d2ebf",
   "photos": [
     "https://store.is.autonavi.com/showpic/acf39250c03a408cad99150c0f08759a",
-    "https://store.is.autonavi.com/showpic/202fb337434c70190000002850108011?type=pic",
-    "https://store.is.autonavi.com/showpic/d3d69cecc703c7c40000002850064619?type=pic"
+    "https://store.is.autonavi.com/showpic/eac54932678c0af20000002850104129?type=pic",
+    "https://store.is.autonavi.com/showpic/d3d69cecc703c7c40000002850064619?type=pic",
+    "https://store.is.autonavi.com/showpic/202fb337434c70190000002850108011?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内空间宽敞，有多张餐桌和椅子",
+      "text": "室内空间大，有高挑的工业风天花板和裸露管道。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有大量绿植装饰，环境自然",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "设有落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "座位数量较多，适合多人用餐",
-      "kind": "seating",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "天花板裸露管道，工业风装修风格",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有多个窗户，视野通透",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "桌上有盐胡椒瓶，提供基本调味品",
+      "text": "吧台区域有玻璃冷藏柜，内有水果和瓶装饮料。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机、磨豆机等专业设备。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有多张木质桌子和棕色皮质/藤编椅子。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大量绿植，分布在角落和窗边。",
+      "kind": "plants",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "入口处有玻璃门，门外可见泳池或水景。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "多张桌面上放有盐和胡椒研磨瓶。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中无人在用电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
+  "room": "large",
   "seats": "many",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:57Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:15Z"
 }

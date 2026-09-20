@@ -1,72 +1,84 @@
 {
   "cafeId": "aftertaste-qiantangongyuanxiangw3-102",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "88ed818a2acf",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6fbabef3b790",
   "photos": [
-    "https://store.is.autonavi.com/showpic/765a229af3aded930000002582616116?type=pic",
     "https://aos-comment.amap.com/B0K3H7688O/comment/B9C8FD50_85F4_46C1_AD1C_45A395F74E23_L0_001_1500_200_1763117692985_09222584.jpg",
+    "https://store.is.autonavi.com/showpic/765a229af3aded930000002582616116?type=pic",
+    "https://aos-comment.amap.com/B0K3H7688O/comment/content_media_external_file_1000117594_ss__1765704642392_78536044.jpg",
     "https://aos-comment.amap.com/B0K3H7688O/comment/E0DD20B2_7653_455A_8D81_CD8BB412E87A_L0_001_1500_200_1768963036591_28862534.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "menu",
-    "other"
+    "menu"
   ],
   "observations": [
     {
-      "text": "门店位于前滩公园巷W3-102，临街有独立入口",
-      "kind": "space",
+      "text": "店内提供手冲咖啡和拿铁，有拉花。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上列出了咖啡豆的产地、处理法和风味描述。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上有单品咖啡的价格，如268元、288元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内为深色木质桌面和背景墙，装修风格简约。",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供手冲咖啡与拿铁，杯具为陶瓷材质",
-      "kind": "drinks",
+      "text": "店外招牌和墙面有品牌名 'aftertaste'。",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "饮品使用巴拿马火山豆，产地信息标注清晰",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "照片中未见其他顾客或工作人员。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.7
     },
     {
-      "text": "菜单标明风味含石榴、荔枝、李子等，处理法为日晒、厌氧日晒、蜜处理",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供冰萃咖啡，透明塑料杯装，带吸管",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店外立面为深色水泥质感，设计简约现代",
-      "kind": "space",
+      "text": "店内有手冲咖啡的专业器具（虹吸壶/滤杯）。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内可见木质托盘和深色背景布，装修风格偏极简",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品标签注明季节拼配及海拔信息（1500-1900 masl）",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "菜单上显示了来自巴拿马的咖啡豆信息。",
+      "kind": "beans",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:48Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    268.0,
+    288.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:43Z"
 }

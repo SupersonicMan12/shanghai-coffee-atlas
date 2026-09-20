@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-corner-lianyuan-rd-465",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6476353bdc43",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0c19588d4cce",
   "photos": [
     "https://store.is.autonavi.com/showpic/8e6636a714736c3294e0bcd9ac793ce7"
   ],
@@ -10,46 +10,53 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和红色背景墙",
-      "kind": "space",
+      "text": "店面为临街玻璃门，门上贴有红色咖啡杯图案",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门上贴有‘LOT ONE’字样和一张小纸条",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门上贴有‘LOT ONE’字样及咖啡杯图案",
-      "kind": "space",
+      "text": "店门口左侧有木质长凳，可作为座位",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口无室外座位",
-      "kind": "outdoor",
+      "text": "门上贴有‘扫码出单’的提示纸条",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见双开玻璃门，门上有金属把手",
-      "kind": "space",
+      "text": "店内未见明显烘焙机或手冲台等专业设备",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
-      "text": "门上方标有‘COFFEE CORNER’店名",
-      "kind": "space",
+      "text": "照片中未见客人，也未见有人使用电脑",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "左侧墙面有绿色门牌号‘4’",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:16Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:58Z"
 }

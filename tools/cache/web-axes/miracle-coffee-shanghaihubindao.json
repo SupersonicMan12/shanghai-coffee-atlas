@@ -1,0 +1,62 @@
+{
+  "answers": {
+    "brew": {
+      "answer": "yes",
+      "quote": "手冲新豆上架! 埃塞俄比亚 Alo主站",
+      "url": "https://weibo.com/7254525117/PETd08JZn",
+      "site": "微博平台"
+    },
+    "price": {
+      "value": 45.0,
+      "quote": "Miracle Coffee(上海湖滨道店) ★ ★ ★ ★ ★ 4.3 ¥45/人",
+      "url": "https://m.dianping.com/shop/570636349",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "新天地/马当路咖啡",
+      "url": "https://m.dianping.com/shop/570636349",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "魔都冬日第一波新店,开我心趴上了!",
+      "url": "https://www.163.com/dy/article/JIL8IT8L05228HQE.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "手冲新豆上架! 埃塞俄比亚 Alo主站 ... 来自MiracleCoffee - 微博",
+      "url": "https://weibo.com/7254525117/PETd08JZn",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 4,
+      "title": "林俊杰三年前新加坡 F1 活动咖啡制作|林俊杰|miracle coffee|新加坡_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5342340656399195.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "营业时间_新天地/马当路咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/570636349?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "抢疯了!各地门店大排长龙,排号炒到400元一个!网友:怎么又火了?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzM2NTMwMQ==&mid=2652105720&idx=1&sn=541123eeea63a5d2204143dfdaea2e5c&chksm=bc20f2a8720e89fe62ba23b520974966e2a634aed9dc6af37bcd8d3ee7eac647daa063db57fb&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "咖啡调调",
+      "url": "https://baike.baidu.com/item/咖啡调调/67408153",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:09:16Z"
+}

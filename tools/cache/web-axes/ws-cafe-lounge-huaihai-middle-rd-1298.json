@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "可以刷卡,无线上网,有露天位,有下午茶",
+      "url": "https://m.sh.bendibao.com/wangdian/dian/4035835.shtm",
+      "site": "本地宝"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "夜晚的菜单和傍晚的还不一样饮品小酒是",
+      "url": "https://new.qq.com/omn/20211119/20211119A01HM400.html",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "以后下午茶还是可以来n刷的",
+      "url": "https://www.dianping.com/discovery/763604391",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "源自澳洲拥有十多年烘焙经验的Chef Robin专业烘焙咖啡豆",
+      "url": "https://www.sohu.com/a/202649152_578711",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 242.0,
+      "quote": "人均：242",
+      "url": "https://m.weibo.cn/status/4712225711588521",
+      "site": "微博"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "WS Café & Lounge|日常探店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/711687521",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "https://new.qq.com/omn/20211119/20211119A01HM400.html",
+      "url": "https://new.qq.com/omn/20211119/20211119A01HM400.html",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "上海探店|暖冬里的壁炉🔥氛围感拉满💯 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/763604391",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "微博",
+      "url": "https://m.weibo.cn/status/4712225711588521",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "W+S CAFE by NAPOLEON",
+      "url": "https://m.sh.bendibao.com/wangdian/dian/4035835.shtm",
+      "site_name": "本地宝"
+    },
+    {
+      "index": 6,
+      "title": "WS咖啡館｜Trip.com 上海",
+      "url": "https://sg.trip.com/moments/detail/shanghai-2-13137719?locale=zh-SG",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "WS Cafe & Lounge (上海淮海路/新天地地區)－餐牌、食評及資訊",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/ws-cafe-lounge-15776054",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "淮海中路沿线上的咖啡馆:新店、网红店、隐世小店都在这里了-上",
+      "url": "https://www.sohu.com/a/202649152_578711",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 9,
+      "title": "上海探店|温暖的壁炉🔥WS cafe",
+      "url": "https://m.dianping.com/discovery/952713119",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:40Z"
+}

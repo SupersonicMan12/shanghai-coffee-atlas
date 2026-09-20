@@ -1,7 +1,7 @@
 {
   "cafeId": "xiaozhukafeiwu-wankejinseyazhu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "772c84d5cebd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8b5e2c732624",
   "photos": [
     "http://store.is.autonavi.com/showpic/3136691e337feb432b2becfa51cd11eb"
   ],
@@ -10,46 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街商铺，有遮阳雨棚",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门前有停车位，车辆停靠在路边",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺为一层临街门面，无明显庭院或天台",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见玻璃门窗，采光良好",
+      "text": "店面临街，有玻璃门窗",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "门口区域未见室外座位",
+      "text": "店外停有多辆汽车",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有遮阳棚，空间为小店铺类型",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明显室外座位",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "建筑为现代红砖结构，临街有树木",
-      "kind": "view",
+      "text": "未见烘焙机、手冲台等专业设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见书架、植物、宠物等装饰",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "未见有人在用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:20Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:20Z"
 }

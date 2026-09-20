@@ -1,65 +1,79 @@
 {
   "cafeId": "lili-time-qiantantaiguli",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0a11b99c76ee",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d7503a6a9f74",
   "photos": [
     "https://aos-comment.amap.com/B0H2TZOY4G/comment/fe7581a0669c93f36921be020fb91339_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H2TZOY4G/comment/45fcc71c4510f1c1eb9882fd1322048e_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H2TZOY4G/comment/CA22D176_BDBD_4A87_90B4_CEBC4B78E6CC_L0_001_1500_200_1754042048707_20193194.jpg"
   ],
   "photoKinds": [
+    "interior",
     "drink",
     "food",
     "other"
   ],
   "observations": [
     {
-      "text": "有拉花咖啡和分层饮品",
+      "text": "有手冲壶和玻璃壶，是手冲吧台。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中可见两杯咖啡：一杯拿铁拉花，一杯dirty。",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "提供蛋糕类甜点，含杏仁片装饰",
+      "text": "照片中可见两块蛋糕：一块巧克力味，一块杏仁味。",
       "kind": "food",
-      "photo": 3,
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内有木制桌面和植物装饰，环境舒适。",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有手冲咖啡器具，可见滤杯与玻璃壶",
-      "kind": "beans",
+      "text": "店内有其他顾客在消费，非空无一人。",
+      "kind": "people",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "桌上有植物装饰，环境注重细节",
-      "kind": "interior",
-      "photo": 3,
+      "text": "座位为圆桌，数量级至少有几张。",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "饮品搭配绿叶点缀，呈现精致摆盘",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "店内光线明亮，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "有顾客在场，使用手机或饮品",
-      "kind": "people",
+      "text": "未见电脑、插座、烘焙机或书架等物品。",
+      "kind": "other",
       "photo": 3,
       "confidence": 0.7
-    },
-    {
-      "text": "桌面为木质，空间风格简约自然",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.75
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:22:00Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:58Z"
 }

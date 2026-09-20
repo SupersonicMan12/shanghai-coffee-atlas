@@ -1,7 +1,7 @@
 {
   "cafeId": "goat-is-dancing-cafe-guangyuan-rd-194",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "973218565832",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f909c8944de1",
   "photos": [
     "http://store.is.autonavi.com/showpic/d0b3692ef73438bf0576e9540c747beb",
     "http://store.is.autonavi.com/showpic/8d9050fb6e5d669d97e9618511ce1330",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面临街，有玻璃门窗",
+      "text": "店面为临街玻璃门面，有大玻璃窗，可看到内部部分陈设。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口停有电动车和摩托车",
+      "text": "店门口停放一辆踏板摩托车和一辆折叠电动车。",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见植物和陈列品",
-      "kind": "view",
+      "text": "玻璃窗内可见书架、植物和一些装饰品，店内空间较窄。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店招显示COFFEESTAND字样",
-      "kind": "space",
+      "text": "橱窗内贴有红色促销海报，写有“6.5折”字样。",
+      "kind": "specialtyMenu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "玻璃门上贴有红色告示",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店面招牌为“COFFEESTAND”，无其他明确饮品或食物名称。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
     },
     {
-      "text": "店铺位于街角，邻近美容店",
-      "kind": "space",
+      "text": "店铺位于街道转角处，旁边有另一家名为“JOIE beaute”的店铺。",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内可见手冲设备和咖啡器具",
-      "kind": "drinks",
+      "text": "店内未见烘焙机、手冲台或磨豆机等专业咖啡器具。",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "橱窗内展示有饮品杯和包装袋",
-      "kind": "drinks",
+      "text": "照片中未见有人在店内或室外使用电脑。",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:28Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:02Z"
 }

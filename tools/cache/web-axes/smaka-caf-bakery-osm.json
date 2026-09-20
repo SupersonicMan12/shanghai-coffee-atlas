@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "这是一间安静的小咖啡馆，楼上有座位",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d18429214-Reviews-SMAKA_Cafe_Bakery-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "适合朦朦胧胧的清晨和适合悠闲放空的午后",
+      "url": "https://www.dianping.com/discovery/726736160",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 52.0,
+      "quote": "静安寺商圈 咖啡 静安寺商圈咖啡回头客榜 ·第2名 营业中 愚园路76****** 商户优惠",
+      "url": "https://m.dianping.com/shop/112172741",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "SMAKA（愚園路店） (上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/smaka-56548158/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "静安寺商圈咖啡",
+      "url": "https://m.dianping.com/shop/112172741",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "SMAKA (Yuyuan Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F926884D264B&address=Yuyuan+Road+769+%28Jiangsu+Road+Subway+Station+Entrance+%26+Exit+3+Pedestrian+90+Meters%29%2C+Changning%2C+Shanghai+China&coordinate=31.22021%2C121.43415&name=SMAKA+Cafe+%26+bakery&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "躲进SMAKA",
+      "url": "https://www.meipian.cn/5198yebz",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 5,
+      "title": "这份上海“肉桂卷地图”,太卷了",
+      "url": "https://m.thepaper.cn/newsDetail_forward_20642038",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "魔都探店 2️⃣| 🍰SMAKA (愚园路店) - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/726736160",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "SMAKA Cafe & Bakery(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d18429214-Reviews-SMAKA_Cafe_Bakery-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "虹桥花市新开|独属上海的高颜值隐藏咖啡馆",
+      "url": "https://weibo.com/2186460095/RhJNVtNDU",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 9,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:05:48Z"
+}

@@ -1,7 +1,7 @@
 {
   "cafeId": "gaga-shanghaizhenruhuanyuchengmax",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4ad7878edb04",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ee9bbc3c8e36",
   "photos": [
     "https://aos-comment.amap.com/B0L2Z53XOE/comment/content_media_external_file_17081_ss__1767417168368_98689102.jpg",
     "https://aos-comment.amap.com/comment/content_service__1771434282449_94569701_1771434293349_87623583.jpg",
@@ -9,57 +9,71 @@
   ],
   "photoKinds": [
     "storefront",
-    "food",
-    "drink"
+    "interior",
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有咖啡机等专业设备",
-      "kind": "roastingGear",
+      "text": "店内有吧台，吧台上放着咖啡机和杯具。",
+      "kind": "space",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有操作人员，现场有人在用餐。",
+      "kind": "people",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供绿色蔬果汁饮品",
+      "text": "食物包括一碗混合米饭和一块牛排，以及一锅炖肉。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "有一瓶绿色的果汁，瓶身印有gaga标志。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "餐品包括牛肉炖菜和混合米饭",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "餐桌上有植物装饰",
-      "kind": "story",
-      "photo": 2,
+      "text": "店内使用木质墙面和绿色饰面，装修风格现代。",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "可扫码自提无需排队",
-      "kind": "story",
+      "text": "室内光线充足，但未见明显窗户或自然光来源。",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
-      "text": "用餐区有人使用手机",
+      "text": "桌上有手机，但未见有人在用电脑。",
       "kind": "people",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "食物盛放在陶制容器中",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "吧台区域可见一台意式咖啡机，无其他专业冲煮设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.85
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:55Z"
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:29Z"
 }

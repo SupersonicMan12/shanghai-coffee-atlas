@@ -1,51 +1,79 @@
 {
   "cafeId": "give-take-wanxiangcheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a7085c181fc0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3669d73d9aeb",
   "photos": [
     "https://store.is.autonavi.com/showpic/89937ff894d1c6517699a61bd7d1a38c",
     "https://aos-comment.amap.com/B0HKMK5O6Q/comment/c3bbb728be2d83e9c395d4f77836862c_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "interior",
-    "other"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有咖啡制作设备和收银台",
+      "text": "店内为商场内档口，有大理石吧台",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有数台黄色的自动咖啡机",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供自带杯减5元优惠",
-      "kind": "drinks",
+      "text": "菜单上显示饮品价格为28元和35元",
+      "kind": "menuPrices",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有扫码领取优惠券的二维码",
+      "text": "吧台上放有‘自带杯减5元券’的提示",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "text": "可见磨豆机和咖啡机等专业器具",
-      "kind": "roastingGear",
+      "text": "吧台前立有一块写有'give & take'的白色牌子",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "饮品名为‘熊咖经典 CLASSIC’",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "照片中未见任何顾客或工作人员",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见任何座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见电脑、插座、植物、宠物等物品",
+      "kind": "other",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:18:18Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:54Z"
 }

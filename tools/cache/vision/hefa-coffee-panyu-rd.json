@@ -1,7 +1,7 @@
 {
   "cafeId": "hefa-coffee-panyu-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4cb3b0196ad8",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "630e6d431bd7",
   "photos": [
     "https://store.is.autonavi.com/showpic/183346426d9bb7420000002349970425?type=pic",
     "https://store.is.autonavi.com/showpic/ee01fafd806cef270000005603926757?type=pic",
@@ -9,50 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "other"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，临街玻璃窗。",
+      "text": "店面临街，有大玻璃窗和开放式入口，可看到内部吧台区域。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "店内可见吧台和少量座位。",
-      "kind": "seating",
+      "text": "店外人行道有台阶，一对男女坐在台阶上休息，旁边停放电动车。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见白色冰箱、置物架及部分操作台，空间较紧凑。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "大面积临街玻璃窗，采光良好。",
-      "kind": "light",
+      "text": "店门口有树木，临街位置，右侧邻近茶百道门店。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外台阶可坐人，属于室外座位区。",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见明显手冲台、虹吸壶或烘焙机等专业器具。",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "室外台阶上有两人坐着休息。",
-      "kind": "people",
+      "text": "透过玻璃窗可见店内有商品陈列，但无清晰菜单或饮品展示。",
+      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
-      "text": "门口停放一辆电动车。",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "旁边有另一家茶饮店（茶百道）。",
-      "kind": "other",
-      "photo": 2,
+      "text": "店内未见有人使用笔记本电脑或插座。",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:56Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:50Z"
 }

@@ -1,71 +1,84 @@
 {
   "cafeId": "add-one-yincheng-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4eb1bbca1171",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "52c9a26ce691",
   "photos": [
     "https://aos-comment.amap.com/B0J2XZUNU8/comment/9773DC03_FB5F_457B_9EDA_D74DE63D253E_L0_001_2000_150_1751007950652_49744556.jpg",
     "https://aos-comment.amap.com/B0J2XZUNU8/comment/content_media_external_images_media_96967_ss__1742560751576_28457885.jpg",
     "https://aos-comment.amap.com/B0J2XZUNU8/comment/6C9426DE_F855_467A_AEAA_EB695331F835_L0_001_2000_150_1751007950651_83377029.jpg"
   ],
   "photoKinds": [
-    "food",
     "storefront",
+    "food",
     "menu"
   ],
   "observations": [
     {
-      "text": "店内有可颂、火腿芝士可颂、提拉米苏等烘焙食品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上有美式、拿铁、Dirty、抹茶冰椰椰等饮品",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供烤芝士牛肉卷、提子肉桂卷、蜜豆松子恰巴塔等食物",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "部分饮品价格在20-36元之间，蛋糕类价格为10-32元",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店位于商场内，玻璃门入口，内部可见桌椅和顾客",
+      "text": "店内有玻璃门和吧台，是商场内的店铺。",
       "kind": "space",
-      "photo": 2,
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有顾客坐在桌边，可见3-4人。",
+      "kind": "people",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有咖啡机、手冲设备等专业器具",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "展示柜里有可颂、贝果、三明治和蛋糕等食物。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "菜单包含夏季水果系列饮品如菠萝气泡水、油柑气泡美式",
+      "text": "菜单上显示有dirty、拿铁、美式、手冲咖啡等饮品。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有少量座位，可见两人在用餐",
-      "kind": "seating",
+      "text": "菜单上有手冲咖啡（POUR OVER）分类，包含埃塞俄比亚、红布林等产地信息。",
+      "kind": "specialtyMenu",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示手冲咖啡价格为36元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示提拉米苏、巴斯克芝士蛋糕等甜点价格为32元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示阿华田巧克力司康价格为10元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:14Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    10.0,
+    16.0,
+    28.0,
+    32.0,
+    36.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:54Z"
 }

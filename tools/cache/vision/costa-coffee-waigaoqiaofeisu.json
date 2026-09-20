@@ -1,7 +1,7 @@
 {
   "cafeId": "costa-coffee-waigaoqiaofeisu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8899418af817",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2cbfe637adf4",
   "photos": [
     "https://store.is.autonavi.com/showpic/fc06d77079c6a74f47a24de081ee5de1",
     "http://store.is.autonavi.com/showpic/b8fcaad7d21e1c166590850745d4cd16",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面位于临街建筑底层，有玻璃门和窗户",
-      "kind": "space",
+      "text": "店面为临街店铺，有大玻璃窗",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有吧台和高脚凳，适合短暂停留",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有靠墙卡座和小桌，可容纳多人就坐",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡制作区域，有专业设备",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有冷藏展示柜，陈列饮品和食品",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有木质墙面装饰和现代灯具，风格现代",
+      "text": "室内空间中等，有吧台和多排座位",
       "kind": "space",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后有咖啡机和磨豆机等设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有靠墙长椅和独立餐桌",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人在使用电脑",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店外有电动车停放，门口有人经过",
+      "text": "照片中可见一人在店外行走",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
+      "text": "室内有木质墙面和吊灯装饰",
+      "kind": "sound",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有展示柜陈列商品",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
-  "outdoor": false,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:35Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:27Z"
 }

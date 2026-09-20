@@ -1,71 +1,85 @@
 {
   "cafeId": "brick-lane-wunan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "c568d5e50d94",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e6f7a6850dcf",
   "photos": [
-    "https://store.is.autonavi.com/showpic/4a40392621b88464950fde86e638de42",
     "https://store.is.autonavi.com/showpic/682e9d97e56918730000003212650071?type=pic",
+    "https://store.is.autonavi.com/showpic/4a40392621b88464950fde86e638de42",
+    "https://aos-comment.amap.com/B0G0CUXNTM/comment/46cfa90fb1f4844d2ed9fa6ac19fccfc_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/3e1592e88068e02a0000001712870663?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "临街落地玻璃窗，可看到马路和对面建筑。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "店内有吧台座位，配有黑色高脚凳，数量约3-4个。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "吧台式座位，配三张高脚凳，空间紧凑。",
-      "kind": "seating",
+      "text": "店外临街，门口停放自行车和电动车，有树木遮荫。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地玻璃窗，可看到街道和对面车辆。",
+      "kind": "bigWindows",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板上可见饮品名称与价格，如‘法滋法滋42’、‘臭豆腐55’、‘小沉38’等。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "吧台后有两台意式咖啡机和磨豆机。",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品为分层咖啡，顶部是烤棉花糖。",
+      "text": "饮品为分层的维也纳咖啡，顶部有焦糖化奶泡，盛于玻璃杯中。",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "天花板有裸露木梁，地面是水泥地。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外人行道停有自行车和电动车，无室外座。",
-      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "墙上贴有手绘风格的咖啡介绍卡片。",
+      "text": "吧台后方可见多台专业咖啡机、磨豆机及金属器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面挂有黑胶唱片装饰，包括Massive Attack、The Libertines等。",
       "kind": "story",
-      "photo": 2,
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内无人，未见顾客使用电脑。",
-      "kind": "people",
-      "photo": 3,
+      "text": "店内天花板为裸露木梁结构，地面为水泥地，整体工业风装修。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:00Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    38.0,
+    42.0,
+    48.0,
+    55.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:51Z"
 }

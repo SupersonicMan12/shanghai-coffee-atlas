@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "这里可以说是上海最安静的咖啡店之一",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "来这里的客人大多是熟客和手冲咖啡爱好者，大家围桌而坐",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "田咖啡也位于老洋房内...推荐单品:霁云绿顶瑰夏",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 68.0,
+      "quote": "推荐单品:霁云绿顶瑰夏 价格:68元",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site": "搜狐"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海最卷的一杯，想喝请等10分钟！ - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30385565",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 2,
+      "title": "上海最卷的一杯,想喝请等10分钟!",
+      "url": "https://www.sohu.com/a/870417490_391486",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "上海最值得去的18间精品咖啡馆",
+      "url": "https://www.gafei.com/kafeibiji-53307",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "漕河泾/田林咖啡",
+      "url": "https://m.dianping.com/shop/130311729",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "咖啡地图|上海咖啡馆——咖啡之外的可能",
+      "url": "https://www.sohu.com/a/130041120_408952",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "上海市10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 7,
+      "title": "藏在咖啡馆里的上海历史--文史 - 中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2022/0329/c404063-32386419.html",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡文化周咖啡之夜公布“TOP100咖啡店榜单”,你去过几家",
+      "url": "http://finance.sina.com.cn/jjxw/2022-08-14/doc-imizirav8075997.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "浦东新区咖啡厅“好评TOP 10”排行榜出炉,上榜名单新鲜一览 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MzQwODE2MQ==&mid=2652603911&idx=1&sn=dbe39f11c99a3d6f00e99f936ca06cdb&chksm=bc9e88f287ad8c6b88b4d61513f2112354614725e4fcb68c4bc5e5606ea4611dae21de98761a&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:39Z"
+}

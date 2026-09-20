@@ -1,7 +1,7 @@
 {
   "cafeId": "plusone-coffee-wukang-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "eef5a9ce4242",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "16c84443114d",
   "photos": [
     "https://aos-comment.amap.com/B0G2GZN8EJ/comment/019946D6_B7AD_4A1B_B3B6_04A1B38E4F47_L0_001_1500_200_1750689225384_48269649.jpg",
     "https://aos-comment.amap.com/B0G2GZN8EJ/comment/fd728452b6caba934e551cc9829ef2af_2048_2048_80.jpg",
@@ -9,52 +9,58 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "drink",
     "food"
   ],
   "observations": [
     {
-      "text": "店面为砖墙结构，有黄色招牌和遮阳棚",
+      "text": "店面位于砖墙建筑内，有黄色遮阳棚和玻璃门，门口有菜单立牌。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内为白色圆形桌子，木质托盘，光线明亮",
-      "kind": "space",
-      "photo": 2,
+      "text": "店内可见顾客在桌边就坐，空间为小面积室内，非大空间或庭院。",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "可见两款冰咖啡饮品，配有吸管",
+      "text": "桌上摆放两杯冰饮，配有黄白条纹吸管，其中一杯标签显示‘PINEAPPLE’。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "食物包括冰淇淋、糖葫芦和香蕉杯",
+      "text": "饮品旁有手冲壶和玻璃杯，暗示提供手冲咖啡服务。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示三种食物：糖葫芦冰淇淋、香蕉蛋糕杯、另一款甜品。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有顾客在座位上，但数量不多",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "门口摆放着写有饮品信息的黑板菜单",
-      "kind": "menu",
+      "text": "门口菜单板上写有‘深海的大菠萝’等饮品名，但未见价格。",
+      "kind": "specialtyMenu",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:39Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:32Z"
 }

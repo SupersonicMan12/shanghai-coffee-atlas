@@ -1,71 +1,74 @@
 {
   "cafeId": "dugout-coffee-fuzhouluyuzhongshandongyilujiaocha",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "bcfc4a7cafc4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5be529a616fd",
   "photos": [
+    "https://aos-comment.amap.com/B0HDLMVTDX/comment/8c7217f3a2ccc5c7dbb48ebb880f6558_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/0fd9216bbc83165fbf6f88db412c704c",
-    "http://store.is.autonavi.com/showpic/f8df0f1698f84ec57daca7c1f3c4cb48",
-    "https://aos-comment.amap.com/B0HDLMVTDX/comment/8c7217f3a2ccc5c7dbb48ebb880f6558_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/comment/content_service_86838870fb95d090594b936a2ad57811_1767770286947_35648695.jpg",
+    "http://store.is.autonavi.com/showpic/f8df0f1698f84ec57daca7c1f3c4cb48"
   ],
   "photoKinds": [
+    "food",
     "storefront",
-    "interior",
-    "food"
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为临街单层建筑，外墙为浅色石砌，设两个拱形窗/门洞",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外有白色金属框架桌椅，至少4张桌，位于台阶上方石基平台",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内可见三盏黑色吊灯、白色砖墙、带内嵌灯槽的异形壁龛置物架",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台区域有两台意式咖啡机、磨豆机、手冲壶架及透明收纳盒",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "桌上有一盘厚松饼夹培根、顶煎蛋，淋酱汁；一盘宽面配刺山柑、芝麻菜、帕玛森碎",
+      "text": "照片1显示高松饼配煎蛋、培根，淋酱汁；照片3显示班尼迪克蛋、意面、炸鸡块。",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "临街玻璃窗通透，可见室外街道与行道树，采光充足",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "遮阳篷印有店名及‘全天早午餐’中文字样",
-      "kind": "story",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "照片3中可见一人穿黄衣坐于桌旁，手部入镜，未见电脑",
-      "kind": "people",
+      "text": "照片3中出现粉色拉花拿铁、抹茶拿铁（杯壁有绿色奶盖残留），纸杯印有Dugout Coffee字样。",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 1.0
+    },
+    {
+      "text": "店面招牌写有'Dugout coffee & Brunch'，临街设户外桌椅，无遮挡玻璃窗可见街道。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内吧台区可见三台磨豆机+咖啡机组合，挂吊灯，墙面有发光异形置物格，无烘焙机。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内为木质桌面+白色椅子，座位数约6-8张，属小店规模；照片3可见多人同桌用餐，非空座。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片3桌面可见两杯饮品+主食，未见电脑，无人在用笔记本。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片4吧台前无顾客，仅设备可见；照片3有顾客用餐，但无法确认是否有人使用电脑或插座。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:00Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:51Z"
 }

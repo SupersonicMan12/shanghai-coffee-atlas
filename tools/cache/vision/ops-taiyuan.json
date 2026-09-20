@@ -1,71 +1,70 @@
 {
   "cafeId": "ops-taiyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "6415b93c0c0c",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "0d4bd270aa82",
   "photos": [
-    "https://store.is.autonavi.com/showpic/46cd24af0f4c64a10000003593544204?type=pic",
     "https://aos-comment.amap.com/B0FFI8BKU8/comment/E0FA2EE2_73C5_42DE_A585_F2EE50EF21CE_L0_001_1512_201_1769324601259_16965735.jpg",
-    "https://store.is.autonavi.com/showpic/8ea03c6699d3c4000000001181124576?type=pic"
+    "https://aos-comment.amap.com/B0FFI8BKU8/comment/20260319-10d77bc423ec4d3f83f71ef8-5LcSmZOk7gk6qTJhtSKf37.jpg",
+    "https://store.is.autonavi.com/showpic/8ea03c6699d3c4000000001181124576?type=pic",
+    "https://store.is.autonavi.com/showpic/46cd24af0f4c64a10000003593544204?type=pic"
   ],
   "photoKinds": [
-    "menu",
+    "interior",
     "drink",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "菜单为透明夹板装订，顶部印有12个月份，手写划掉‘July Aug’",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "菜单列5款饮品：Useless Magic、The Leapt、The Infusion（ABV 1.2%）、Ruby Diamond、Punch，价格50或55元",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "饮品配料含埃塞/肯尼亚水洗/日晒咖啡、网纹蜜瓜、百香果、柠檬叶、伯爵茶、雪莉酒、金酒、燕麦奶等",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "第二张图中两杯饮品插有卡片：'Wampee'（2024 SUMMER）与'Winnie The Pooh'（2024 SPRING）",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "第三张图中吧台摆放两杯饮品，标签为'Spring Shower'与'Another Paw Paw'，含埃塞Wuri-Washed-Heirloom豆",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "第三张图背景可见不锈钢操作台、金属滤网架、白色布巾及模糊的磨豆机轮廓",
+      "text": "店内为金属台面吧台式布局，无明显座位区",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "第一张图背景为临街人行道与绿树，门为深灰色格栅门，疑似老洋房入口",
-      "kind": "view",
+      "text": "饮品多为外带杯装，可见两款冰饮和一款奶泡特饮",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "所有饮品杯身印有手写体'o.p.s.'标识，使用透明塑料杯与纸质托盘",
+      "text": "菜单为挂夹式纸质，列出多款特色饮品及其成分",
+      "kind": "menu",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见咖啡豆产地信息（如埃塞俄比亚、肯尼亚）",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "部分饮品有季节限定名称（如'Spring Shower'）",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.99
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景中可见少量绿植装饰",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "bar",
+  "seats": "none",
+  "crowd": null,
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:36:49Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    50.0,
+    55.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:36:09Z"
 }

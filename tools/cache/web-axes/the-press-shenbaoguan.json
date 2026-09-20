@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "宠物友善有停车位儿童餐椅免费Wi-Fi",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/the-press-20493001/",
+      "site": "THE PRESS（申報館店） (人民廣場地區, 上海) – 菜單、評論及資訊"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "用餐时间背景音乐也是播放的剧里歌曲",
+      "url": "https://m.dianping.com/discovery/862878124",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "待在里面一整天都不愿意出来",
+      "url": "https://www.jiemian.com/article/3008629.html",
+      "site": "界面新闻"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "选了澳白和拿铁,都是35元",
+      "url": "https://zhuanlan.zhihu.com/p/31335829",
+      "site": "知乎"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "来黄浦,喝冬季的第一杯热咖啡!",
+      "url": "https://www.163.com/dy/article/HMELECKP0514IGIT.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 2,
+      "title": "寻味黄浦 | 开工大吉!黄浦工作日午餐寻味攻略来啦~ ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODYyMDgwNg==&mid=2650951668&idx=1&sn=1e8df46a27161ea1cfc8134088496b6b&chksm=8536ca9b4ddaa93d7a289ca4a867227588c33be40ab1456cf7d9b682776385c811747ab7ac0a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "THE PRESS（申報館店） (人民廣場地區, 上海) – 菜單、評論及資訊",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/the-press-20493001/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡寻味记:不去网红店数人头,这里才有老上海的味道|界面新闻",
+      "url": "https://www.jiemian.com/article/3008629.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 5,
+      "title": "申报馆咖啡(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d8151953-Reviews-The_Press-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "The Press咖啡馆 | 申报馆旧址,老上海的纸醉金迷",
+      "url": "https://zhuanlan.zhihu.com/p/31335829",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "魔都探店 百年历史申报馆里咖啡下午茶 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/862878124",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "魔都新晋网红咖啡店,这25家超会玩!_咖啡馆",
+      "url": "https://www.sohu.com/a/407552464_188703",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:32Z"
+}

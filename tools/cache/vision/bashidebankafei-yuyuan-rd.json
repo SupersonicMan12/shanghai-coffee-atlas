@@ -1,65 +1,80 @@
 {
   "cafeId": "bashidebankafei-yuyuan-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "65373c5c69b2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "30659298b846",
   "photos": [
     "https://aos-comment.amap.com/B0K04UGN7F/comment/E4AED585_D369_4A3D_BFFE_39950BD59053_L0_001_1500_200_1757634274000_50298585.jpg",
     "https://store.is.autonavi.com/showpic/744fc9ac00fa20fd0000003723248548?type=pic",
+    "https://aos-comment.amap.com/B0K04UGN7F/comment/content_media_external_file_1000009011_ss__1760345168801_78236884.jpg",
     "https://aos-comment.amap.com/B0K04UGN7F/comment/891B656F_835C_49DE_BC87_DF92FE70A091_L0_001_1500_200_1765374185911_67721379.jpg"
   ],
   "photoKinds": [
+    "food",
     "drink",
     "food",
     "interior"
   ],
   "observations": [
     {
-      "text": "金属吧台配工业风天花板，地面是水磨石。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "吧台区域可见两台La Marzocco意式咖啡机，配有堆叠纸杯及磨豆机",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "吧台后有La Marzocco咖啡机和堆叠的纸杯。",
+      "text": "桌上出现可颂、分层巧克力蛋糕、冰饮与热饮，其中可颂表面有深色酱料",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品为玻璃杯装的分层奶咖（疑似dirty）及透明杯装黄色特调（含植物装饰）",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内地面为水磨石材质，吧台为金属一体式结构，柱体为混凝土纹理",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见顾客，仅背景模糊处有1人轮廓，座位区空置无电脑使用者",
+      "kind": "crowd",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "桌上放着一杯拿铁、一个巧克力可颂和一罐泡菜。",
+      "text": "左侧窗边可见一束插花，窗外为红砖墙建筑，非落地窗但有明显采光",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "托盘垫纸印有“BAS d BAN”字样，与店名一致，确认为该店出品",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "窗边座位，窗外可见红砖墙建筑。",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "室内有浅色塑料椅，座位数量级为some。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台下放着一个Marshall音箱和宠物碗。",
-      "kind": "story",
+      "text": "第三张图显示切块蛋糕内含黄/白/棕三色夹心，为分层慕斯或芝士类甜点",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品包括一杯加了香草的黄色果汁。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:57:59Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:46Z"
 }

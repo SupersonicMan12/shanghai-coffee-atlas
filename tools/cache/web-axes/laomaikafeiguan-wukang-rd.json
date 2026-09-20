@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "可以低头工作也可以抬头看窗外的风景",
+      "url": "https://www.dianping.com/review/970657571",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "感觉瞬间从喧闹繁华中逃脱,进入一个静谧低调世界",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "闲暇时来这里坐一会,慢品一杯咖啡",
+      "url": "https://www.meipian.cn/3yz5yodg",
+      "site": "美篇网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "我们点了手磨清咖啡和老麦拿铁",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site": "知乎"
+    },
+    "price": {
+      "value": 60.0,
+      "quote": "老麦咖啡馆·thecottagebar(武康大楼店) ¥60/人",
+      "url": "https://www.dianping.com/review/970657571",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "老麦咖啡馆·TheCottageBar(武康大楼店) - 携程",
+      "url": "https://you.ctrip.com/food/2/21177180.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡探店——老麦咖啡馆",
+      "url": "https://zhuanlan.zhihu.com/p/604147587",
+      "site_name": "知乎"
+    },
+    {
+      "index": 3,
+      "title": "南瓜、辣椒、洋葱都能当杯子?闵行这对闺蜜开的村咖,许多人跨越半个上海来打卡",
+      "url": "https://www.163.com/dy/article/L62N1AHB05568W0A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 4,
+      "title": "【老麦】咖啡馆",
+      "url": "https://www.meipian.cn/3yz5yodg",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 5,
+      "title": "上海必打卡-武康大楼边 有故事的老麦咖啡馆",
+      "url": "https://www.dianping.com/discovery/967797725",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "复古法式风情的旧日咖啡馆最近上海天气非-大众点评",
+      "url": "https://www.dianping.com/review/970657571",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "老麦咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E8%80%81%E9%BA%A6%E5%92%96%E5%95%A1%E9%A6%86/761264",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "上海探店|美式氛围感的网红鼻祖咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/774585618",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "老麦咖啡馆",
+      "url": "https://baike.baidu.com/item/老麦咖啡馆/761264",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:22Z"
+}

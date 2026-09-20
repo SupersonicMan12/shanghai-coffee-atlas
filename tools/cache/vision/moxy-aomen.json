@@ -1,7 +1,7 @@
 {
   "cafeId": "moxy-aomen",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "88952bd1ec7c",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ec1e416a470a",
   "photos": [
     "https://store.is.autonavi.com/showpic/03e34cd9d1c589fa0000001727128646?type=pic",
     "https://store.is.autonavi.com/showpic/869d822c285524520000001727170047?type=pic",
@@ -9,63 +9,45 @@
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "interior"
+    "food"
   ],
   "observations": [
     {
-      "text": "木质长吧台式自助餐台，背景为白色瓷砖墙",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "吧台上摆放紫色电吉他装饰、黄色摇滚手势玩偶及三款沙拉酱（油醋汁、沙拉汁、芝麻汁）",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "可见四碗自助沙拉配料：黄瓜片、胡萝卜片、红腰豆、玉米粒；另有一大黑碗混合生菜",
+      "text": "自助沙拉区，有黄瓜、胡萝卜等配菜",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "吧台后方有两瓶带木塞的调料瓶（疑似胡椒与香料）",
-      "kind": "food",
-      "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "沙拉区设标牌‘沙拉吧 Salad Bar’，酱料标牌含中英文名称（如Vinaigrette）",
-      "kind": "menu",
+      "text": "三个装有酱汁的玻璃罐，配有金属勺子",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.97
+      "confidence": 0.9
     },
     {
-      "text": "无咖啡机、磨豆机、手冲架、虹吸壶等咖啡制作设备可见",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "未见任何顾客、座位或电脑使用场景",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "墙面为光面白色矩形瓷砖，无窗、无植物、无书架、无宠物",
+      "text": "粉色电吉他造型装饰品，带有摇滚手势",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.9
+    },
+    {
+      "text": "白色瓷砖墙面，木质桌面",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:18Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:59Z"
 }

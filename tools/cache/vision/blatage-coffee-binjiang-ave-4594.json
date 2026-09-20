@@ -1,71 +1,82 @@
 {
   "cafeId": "blatage-coffee-binjiang-ave-4594",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ad98d2a91ba7",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7f0f4de0d828",
   "photos": [
     "https://store.is.autonavi.com/showpic/c510d3b8b330a1c40000003216254716?type=pic",
     "http://store.is.autonavi.com/showpic/0eb9cfb5f52e3eb689ab4efe39665d3d",
     "https://store.is.autonavi.com/showpic/da164779b85fd1bb0000003216254715?type=pic"
   ],
   "photoKinds": [
-    "storefront",
     "interior",
     "menu"
   ],
   "observations": [
     {
-      "text": "菜单有咖啡与非咖啡饮品，如蜂蜜椰奶、熔岩巧克力，价格25-38元。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "吧台区域有手冲设备和磨豆机",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "吧台后有专业咖啡机、磨豆机等设备，可见手冲器具。",
-      "kind": "people",
+      "text": "菜单上有单品咖啡豆和手冲产品",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有落地窗，窗外可见绿树，采光良好。",
+      "text": "菜单上显示咖啡价格为25元至38元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地窗，采光好",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "售卖挂耳包和咖啡豆，有Sidamo Blend、Punch Blend等单品。",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "墙面菜单显示咖啡可选B33%至B120%，有黑参参、黑伍壹等名称。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内空间为吧台式，未见明显座位区。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "无顾客在场，未见有人使用电脑。",
-      "kind": "people",
+      "text": "吧台后方墙上挂有菜单板",
+      "kind": "menu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店外无露天座位，仅室内空间。",
-      "kind": "outdoor",
+      "text": "菜单上列出多种非咖啡饮品",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见顾客或工作人员",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无明显座位或桌椅",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "none",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:00:58Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    25.0,
+    30.0,
+    35.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:53Z"
 }

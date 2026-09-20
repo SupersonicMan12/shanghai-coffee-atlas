@@ -1,7 +1,7 @@
 {
   "cafeId": "silverflow-jiangninglujiedaoxikang-rd-850",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "78ea25adc48d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2775eb483700",
   "photos": [
     "https://aos-comment.amap.com/B0KA17R9G0/comment/content_media_external_file_1000016344_ss__1758189790249_44142085.jpg",
     "https://aos-comment.amap.com/B0KA17R9G0/comment/content_media_external_file_1000016346_ss__1758189790250_95342233.jpg",
@@ -9,57 +9,74 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有吧台和顾客点单，空间为小型咖啡店",
+      "text": "店内有吧台，顾客在吧台前点单。",
       "kind": "space",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "门口有红色波点贝果造型雕塑",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "照片中可见两位顾客在吧台前，店内无其他客人。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "菜单显示提供贝果、汉堡、早餐与午餐组合",
+      "text": "菜单上显示贝果和早餐、午餐品类，价格为18元起。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内可见烘焙设备与手冲器具",
-      "kind": "roastingGear",
+      "text": "菜单上显示咖啡价格为18元、19元、28元等。",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有两位顾客正在点单",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店门口上方有绿植覆盖",
-      "kind": "view",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内设有展示柜陈列商品",
-      "kind": "space",
+      "text": "店外有大型红色蘑菇状雕塑，门口有绿植。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有白色包装的面包陈列在货架上。",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店内有手冲咖啡设备和磨豆机。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有明亮的照明，光线充足。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "bar",
+  "seats": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:17:37Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    18.0,
+    19.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:59Z"
 }

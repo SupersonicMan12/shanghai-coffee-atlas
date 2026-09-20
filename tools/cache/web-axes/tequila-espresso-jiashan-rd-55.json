@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "免費Wi-Fi提供裝置充電",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/tequila-espresso-62101817/",
+      "site": "Tequila Espresso (上海衡山路地區)－餐牌、食評及資訊 - Trip.com"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "Tequila Espresso是最想推荐给大家的。在嘉善路有这样一家小店...",
+      "url": "http://www.sohu.com/a/532897894_121328131",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "目前关闭|今日08:00开始营业",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/tequila-espresso-62101817",
+      "site": "TequilaEspresso（嘉善路店） (衡山路地區, 上海) – 菜單、評論及資訊"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "他们家的酒香咖啡豆久负盛名,咖啡具有很香的酒香风味",
+      "url": "http://www.sohu.com/a/532897894_121328131",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 30.0,
+      "quote": "｜人均｜30元/人",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site": "界面新闻"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Tequila Espresso(嘉善路店)",
+      "url": "https://m.dianping.com/shop/110532490",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "Tequila Espresso (上海衡山路地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/tequila-espresso-62101817/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡馆地图：网红店那么多，究竟哪些值得去？ - 界面新闻",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 5,
+      "title": "TequilaEspresso（嘉善路店） (衡山路地區, 上海) – 菜單、評論及資訊",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/tequila-espresso-62101817",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "15家复工咖啡合集,缓解你的假期后遗症!",
+      "url": "https://www.163.com/dy/article/GVJPA0GC05228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "Skr！這7家位於法租界的咖啡館，感受上海的小資文化！",
+      "url": "https://www.hlhbsc.org/news_detail.aspx?news=77",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡探店| Tequila Espresso 来杯意式 - DealMoon",
+      "url": "https://www.dealmoon.com/post/1005914",
+      "site_name": "北美省钱快报"
+    },
+    {
+      "index": 9,
+      "title": "“喝咖啡”上热搜!上海最有情调的高颜值咖啡馆,你去过几个?武康巧克力_一家",
+      "url": "http://www.sohu.com/a/532897894_121328131",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 10,
+      "title": "武康路三大巨头咖啡☕馆,好喝就要一饮而尽 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/818991625",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:21Z"
+}

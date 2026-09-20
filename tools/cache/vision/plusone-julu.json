@@ -1,71 +1,84 @@
 {
   "cafeId": "plusone-julu",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "33a808aa9449",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "35f653d0b01c",
   "photos": [
     "https://store.is.autonavi.com/showpic/c513b7c30b8813680000000730330888?type=pic",
-    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic",
-    "https://aos-comment.amap.com/comment/content_service__1771043586120_52512449_1771043667163_64090812.jpg"
+    "https://store.is.autonavi.com/showpic/449347edbd6783750000002513602250?type=pic",
+    "https://store.is.autonavi.com/showpic/44929d84586bbb1f0000003171980254?type=pic",
+    "https://store.is.autonavi.com/showpic/9e4b164ec8ce22590000003134736985?type=pic"
   ],
   "photoKinds": [
-    "interior",
+    "drink",
+    "food",
+    "menu",
     "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "木质托盘上有一杯拉花咖啡（表面有红果装饰）和一小块奶油蛋糕",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外有临街座位，多人坐在木椅小桌旁，上方有遮阳伞与绿树",
-      "kind": "outdoor",
+      "text": "室外有粉色观赏草和红色灯笼装饰",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "店面招牌为黄色'XCAFE'字样，建筑为两层老式水泥外墙结构",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 0.97
+      "text": "店内有临街玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.85
     },
     {
-      "text": "室内桌上放有'PLUSONE'卡片，一杯带笑脸造型杯身与栗子脚的饮品配巧克力脆片",
-      "kind": "drink",
+      "text": "菜单上有多种咖啡和甜品选项",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "另一杯饮品顶部有冰淇淋球、金箔与红色心形装饰，用竹签固定",
-      "kind": "drink",
+      "text": "提供澳白、卡布奇诺等常见咖啡",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.85
     },
     {
-      "text": "切开的蛋糕铺满巧克力脆片，顶部有一颗完整栗子，盘边有红色心形装饰",
+      "text": "有提拉米苏、芝士蛋糕等甜品",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.96
+      "confidence": 0.85
     },
     {
-      "text": "托盘下垫有红色纸片，印有'PLUSONE / drip coffee'字样",
-      "kind": "branding",
-      "photo": 1,
-      "confidence": 0.94
+      "text": "店内设有户外座位区，有遮阳伞",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "照片1中咖啡杯沿有溢出液体痕迹，托盘上有金属勺",
-      "kind": "interior",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "照片中未见烘焙机或专业手冲设备",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "菜单上可见部分价格，如澳白38元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:03Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:36:34Z"
 }

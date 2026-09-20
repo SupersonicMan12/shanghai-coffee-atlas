@@ -1,64 +1,80 @@
 {
   "cafeId": "xixiankafei-wujiaochangjiedaoguoquan-rd-525",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2829f1df9118",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "49d734f816e0",
   "photos": [
     "http://store.is.autonavi.com/showpic/e03377ec4fb7151450922e31c2cc198b",
-    "http://store.is.autonavi.com/showpic/115d0fe62576d3c17f0217fb8fad5bf6",
-    "http://store.is.autonavi.com/showpic/a814fce5daaa97f8f25f1e2424312e8c"
+    "http://store.is.autonavi.com/showpic/e637d479f687af2acc76a36e94c19a30",
+    "https://aos-comment.amap.com/B0FFIGBV5H/comment/content_media_external_images_media_212749_ss_3_1668518334208_4acef7d8.jpg",
+    "http://store.is.autonavi.com/showpic/115d0fe62576d3c17f0217fb8fad5bf6"
   ],
   "photoKinds": [
+    "food",
+    "food",
     "food",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内有水果展示台，摆放多种新鲜水果。",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台后方有货架，陈列咖啡豆、杯子等物品。",
+      "text": "店内有木质吧台和置物架，摆放饮品、植物和水果篮。",
       "kind": "space",
-      "photo": 3,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内可见绿植装饰，环境较为温馨。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "吧台区域设有玻璃杯架和搅拌机等设备。",
-      "kind": "space",
-      "photo": 3,
+      "text": "墙上挂有两块黑板菜单，但内容模糊无法辨认价格或豆子产地。",
+      "kind": "menu",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "店内光线充足，天花板有射灯照明。",
-      "kind": "light",
+      "text": "照片中可见三道食物：冰淇淋甜点、披萨、奶油意面。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "披萨上配有鸡肉、青红椒、黑橄榄和芝士。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "奶油意面含虾仁、火腿、西兰花和通心粉，撒有黑胡椒和香草。",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "食物照片显示冰淇淋搭配巧克力酱和樱桃。",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "店内设有木质桌面和椅子，可见部分座位区域。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "店内空间为小型店铺布局，座位数量未知。",
-      "kind": "seating",
-      "photo": 2,
+      "text": "吧台后方有咖啡机、磨豆机等设备，以及多个玻璃瓶装饮品。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.7
+    },
+    {
+      "text": "店内放置多盆绿植和水果展示篮，包含西瓜、橙子、苹果等。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:58Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:08Z"
 }

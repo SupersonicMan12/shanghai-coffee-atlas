@@ -1,71 +1,80 @@
 {
   "cafeId": "doze-coffee-luwankejigongyelou",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "82efdf67ea26",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7d52dd29390d",
   "photos": [
-    "https://aos-comment.amap.com/B0G27UEJQM/comment/content_media_external_file_1000030748_ss__1765087897043_66332214.jpg",
     "https://aos-comment.amap.com/B0G27UEJQM/comment/content_media_external_file_1000030745_ss__1765087897043_89189945.jpg",
+    "https://aos-comment.amap.com/B0G27UEJQM/comment/content_media_external_file_1000030748_ss__1765087897043_66332214.jpg",
+    "https://aos-comment.amap.com/B0G27UEJQM/comment/53F4F951_18DA_476E_9694_D90B7EDA0E9E_L0_001_1500_200_1763274693069_99377696.jpg",
     "https://aos-comment.amap.com/B0G27UEJQM/comment/136143D3_E31E_4906_8855_2541C81E1633_L0_001_1500_200_1763274693066_59131656.jpg"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺临街，有落地玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外设有折叠椅和小桌，提供室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见两台Fiorenzato磨豆机",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台区域有咖啡杯堆叠、收银设备和招财猫摆件",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为手冲咖啡，使用玻璃壶和陶瓷杯呈现",
-      "kind": "drinks",
+      "text": "店招显示‘Doze coffee’及‘咖啡’，门牌号瞿溪路691号",
+      "kind": "story",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外人行道设2把折叠椅+小桌，为室外座位区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前有2台Fiorenzato品牌磨豆机，装满咖啡豆",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "透明杯装冰美式，杯身贴有Doze coffee贴纸，置于木桌",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内吧台可见手冲玻璃壶、滤杯等器具，含木质盖子",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口红塑料椅约4张，属临街外摆区域",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台台面有招财猫、乐高小人偶等装饰物",
+      "kind": "decor",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "门口放置红色塑料凳，供顾客使用",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有木质吧台和黑色瓷砖墙面",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有树木遮荫，阳光透过树叶投射在招牌上",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "照片中未见顾客或工作人员，无电脑使用迹象",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:14:39Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:51Z"
 }

@@ -1,60 +1,79 @@
 {
   "cafeId": "cafe-bar-xibutongyili",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "40cd35b7f2d6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4225d42ff9a2",
   "photos": [
     "https://aos-comment.amap.com/B0K0CZDXUG/comment/6FFC86E4_D699_49F2_B704_F2B5D8F2F6B8_L0_001_1500_200_1763430724716_05386565.jpg",
     "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14292_ss__1761124545634_25899686.jpg",
     "https://aos-comment.amap.com/B0K0CZDXUG/comment/content_media_external_file_14296_ss__1761124545629_08913347.jpg"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
+    "interior",
     "drink",
     "food"
   ],
   "observations": [
     {
-      "text": "店内有木质桌椅和靠垫，适合休闲坐席",
+      "text": "室内有灰色软包沙发和靠枕，提供座位。",
       "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有一杯冰饮，内有冰块、绿色叶子和深色果肉/花瓣。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外有红色木椅，位于临街位置",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供透明杯装饮品，含冰块与绿叶装饰",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "有切片千层蛋糕，呈多层结构，顶部为粉红色",
+      "text": "有一块多层千层蛋糕，顶层为粉色，底层为紫色。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店面为砖墙结构，带玻璃门，门口设红色座椅",
-      "kind": "space",
+      "text": "店外有一把红色大椅子，椅背有枫叶图案。",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "text": "饮品杯上有“CAFE & BAR”字样，推测为该店出品",
-      "kind": "drinks",
+      "text": "店内吧台区域可见玻璃杯架，可能用于饮品服务。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "店面为独立建筑，外墙为灰色砖墙。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见明显专业咖啡器具（如手冲台、虹吸壶）。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.6
+    },
+    {
+      "text": "照片中未见客人在使用电脑。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:55Z"
 }

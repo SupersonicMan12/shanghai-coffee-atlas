@@ -1,7 +1,7 @@
 {
   "cafeId": "zhengnengkafeiting-haiyang-rd-681",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b90e129f78cb",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1d48376e6cc4",
   "photos": [
     "http://store.is.autonavi.com/showpic/ffdb0c4113013f838a08a156bd3868a3"
   ],
@@ -10,40 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于商场内，入口为玻璃门",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有落地玻璃窗，采光良好",
+      "text": "店面有大面积玻璃门和窗，采光好",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口可见室内桌椅，座位数量有限",
+      "text": "店内可见多张桌椅，座位数量级为一些",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有紫色气球装饰",
-      "kind": "story",
+      "text": "店外无室外座位，地面为方格地砖",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店内可见红色宣传海报",
-      "kind": "story",
+      "text": "店内未见烘焙机、手冲台等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无人，门口摆放紫色装饰物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口贴有绿色宣传单，内容不清",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.6
+    },
+    {
+      "text": "店铺位于建筑底层，临街",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有红色显示屏，显示文字信息",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:33Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:37Z"
 }

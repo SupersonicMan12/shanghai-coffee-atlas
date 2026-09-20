@@ -1,65 +1,86 @@
 {
   "cafeId": "mandaokafei-kangdegongyu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9ff9088e1f9e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e1fc56192cc5",
   "photos": [
-    "http://store.is.autonavi.com/showpic/7337a7d8ed2365a14f296ffcef5a9cb1",
     "http://store.is.autonavi.com/showpic/3c1004aa053e099f3e19bb581157a9a9",
+    "http://store.is.autonavi.com/showpic/7337a7d8ed2365a14f296ffcef5a9cb1",
+    "http://store.is.autonavi.com/showpic/10af97e2731593e42c283ab9f7bd5f24",
     "http://store.is.autonavi.com/showpic/f40410a65ff739206284c778dceae888"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "food",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "店面有玻璃门和落地窗，临街可见",
+      "text": "门口有玻璃门和会员充值海报，是餐饮店入口。",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有红色皮质沙发卡座，桌椅为木质。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有餐桌和椅子，可容纳少量顾客",
-      "kind": "seating",
-      "photo": 1,
+      "text": "室内有大窗户，采光好，能看到室外。",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "提供米饭套餐类食物，含炒菜、蔬菜、汤",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为咖啡，盛在白色杯碟中",
-      "kind": "drinks",
+      "text": "菜单上有咖啡价格，如35元、45元等。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口有会员充值活动海报，显示充值金额与优惠",
-      "kind": "menu",
-      "photo": 1,
+      "text": "菜单上列有“手冲咖啡”、“意式浓缩”等品类。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "室内有植物装饰，环境整洁",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "桌上有一杯热饮，表面有金黄色奶泡。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店内设有吧台区域，可见饮料展示柜",
-      "kind": "space",
+      "text": "桌上有一盘炒饭配白米饭，旁边有青菜。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有其他顾客，但未见有人使用电脑或专业烘焙器具。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:20Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0,
+    45.0,
+    68.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:11Z"
 }

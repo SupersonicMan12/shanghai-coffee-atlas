@@ -1,71 +1,77 @@
 {
   "cafeId": "lavazza-shanghaihaike",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c75ae40e639a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4b90341dc561",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/21132d8c3ea91d000000002332460467?type=pic",
     "https://store.is.autonavi.com/showpic/40f0f22b3e68eca60000002332484193?type=pic"
   ],
   "photoKinds": [
-    "logo",
-    "interior",
-    "storefront"
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有吧台和高脚凳座位",
-      "kind": "seating",
+      "text": "室内为大空间，有吧台和多张高脚桌椅。",
+      "kind": "space",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外有木质平台和多组桌椅，可坐人。",
+      "kind": "seating",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有落地窗，采光良好",
+      "text": "室内有落地玻璃窗，采光好，能看到外面的树和街道。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店外设有露天座位区",
-      "kind": "outdoor",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡机等设备",
-      "kind": "roastingGear",
+      "text": "照片里有两位顾客在店内坐着，一人看手机，一人在工作区。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室内空间宽敞，地面为大理石材质",
-      "kind": "space",
+      "text": "室内吧台旁有专业咖啡机。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店外有遮阳伞和桌椅，适合户外休息",
-      "kind": "outdoor",
+      "text": "室外座位区有一把蓝白条纹遮阳伞。",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有顾客正在使用座位",
-      "kind": "people",
+      "text": "店外海报上有“买一送一”促销信息。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有悬挂式鸟笼造型吊灯。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.7
-    },
-    {
-      "text": "店门口可见宣传海报，但内容不清晰",
-      "kind": "other",
-      "photo": 3,
-      "confidence": 0.6
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:49Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:40Z"
 }

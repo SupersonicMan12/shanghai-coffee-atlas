@@ -1,7 +1,7 @@
 {
   "cafeId": "goooog-coffee-jingan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9fc69c357b1f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2df282d38e32",
   "photos": [
     "http://store.is.autonavi.com/showpic/23681887e773a5a36229ec7064757662",
     "https://store.is.autonavi.com/showpic/5071e1b63fda569c0000002464240649?type=pic",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "other"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内部，空间较宽敞",
+      "text": "室内空间为多层挑高走廊，地面光亮。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有落地玻璃窗，采光良好",
+      "text": "店铺临街，有大玻璃窗，采光好。",
       "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店铺临街，外立面为大面积玻璃窗",
-      "kind": "bigWindows",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有少量室外桌椅，可坐人",
+      "text": "店内可见桌椅，但照片中无顾客。",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "室内可见圣诞树装饰，推测为节日布置",
+      "text": "店外有少量落叶，街道环境清晰。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见圣诞树装饰，氛围温馨。",
       "kind": "story",
-      "photo": 1,
-      "confidence": 0.7
+      "photo": 2,
+      "confidence": 0.85
     },
     {
-      "text": "店内有吧台区域，但无明显烘焙设备",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "走廊内无明显顾客或工作人员",
-      "kind": "people",
-      "photo": 3,
+      "text": "店内有木质门和吧台，装修现代。",
+      "kind": "beans",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店铺门头标有'GooooG coffee'字样",
-      "kind": "storefront",
+      "text": "照片中未见烘焙机、手冲台等专业设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见电脑或插座。",
+      "kind": "laptops",
       "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "large",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:17:11Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:06Z"
 }

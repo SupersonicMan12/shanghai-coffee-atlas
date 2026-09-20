@@ -1,7 +1,7 @@
 {
   "cafeId": "wumingkafeiguan-zhonghegongyu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8aff4698c7c0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "bae9eb44ba7b",
   "photos": [
     "https://aos-comment.amap.com/B0JALPX7YT/comment/194c8571c401a56e1ec4913a16d1212f_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0JALPX7YT/comment/bbe65ec6c67a26ea4722a1f86a322047_2048_2048_80.jpg",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "有室外座位，临街玻璃窗，可坐人",
+      "text": "饮品杯身贴有“無名 coffee”标签，内含冰咖啡，配黑色吸管。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面为临街玻璃门面，招牌“無名 coffee”悬于门楣上方，门前设户外折叠椅与小桌，树干遮挡部分视线。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内空间开阔，地面为光洁大理石/瓷砖，设吧台、多组桌椅，可见2人站立于吧台前，1人坐于右侧桌前。",
+      "kind": "interior",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内墙面为浅色大块面板，挂有《星月夜》等大幅画作，左侧置有绿植盆栽及木质置物架。",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外座位区有4把折叠椅+2张小桌，其中1人正低头阅读，未见使用电子设备。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内空间宽敞，有多张桌椅",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有大树遮阴，环境安静",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见咖啡制作设备，包括手冲台和磨豆机",
-      "kind": "drinks",
+      "text": "店内吧台后方可见咖啡机、磨豆机等设备轮廓，但无明确手冲/虹吸/烘豆机细节。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.7
     },
     {
-      "text": "有顾客在店外座位休息，店内有人在点单",
-      "kind": "people",
+      "text": "玻璃门上贴有菜单海报，标题“常来打咖 咖啡自由”，列有“花15元起”、“中焙/深烘”等字样，价格区间可见。",
+      "kind": "menuPrices",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "饮品为冰咖啡，杯中有冰块",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "照片中无人在使用笔记本电脑，仅见1人阅读纸质书。",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.9
-    },
-    {
-      "text": "店内墙面挂有艺术画作，有绿植装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:01Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    15.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:19Z"
 }

@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "在这里不需要摆出迎合这个空间的姿态,你可以完全放松自己。",
+      "url": "https://www.sohu.com/a/514201960_391486",
+      "site": "搜狐"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "店铺本身不招摇,但依然很热闹。",
+      "url": "https://www.sohu.com/a/514201960_391486",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "我很喜欢二楼靠窗的这个榻榻米",
+      "url": "https://www.dianping.com/discovery/734577767",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "「澳白」和「拿铁咖啡」的坚果香气浓郁,奶泡绵密",
+      "url": "https://www.dianping.com/discovery/735749436",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 20.0,
+      "quote": "拿铁十分浓郁,只要20块",
+      "url": "https://www.sohu.com/a/514201960_391486",
+      "site": "搜狐"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "探店日常 | Gout is Dancing cafe - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/734577767",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "菜单/人均消费/电话/地址/菜系/点评/营业时间_餐厅介绍_哪个菜好吃 ...",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/25059051.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 3,
+      "title": "魔都新晋阁楼咖啡店,度过温馨治愈秋末🍂 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/726749175",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "LOOK | 社区咖啡指南 · 暖冬里的咖啡屋GoatDancing_客人",
+      "url": "https://www.sohu.com/a/514201960_391486",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "上海☕️|咖啡店里有只羊在跳舞 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/735749436",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "微博",
+      "url": "https://m.weibo.cn/status/Reh7OmZdB?utm_source=sitemap&jumpfrom=weibocom",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海Silence胡公寓(广元路分店)",
+      "url": "https://hotels.ctrip.com/hotels/60815906.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 8,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 9,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 10,
+      "title": "GO享松江 | 上海之夏 藏在松江各个园区里的宝藏店铺,你打卡过了吗? ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTA1NDI2Ng==&mid=2650936474&idx=1&sn=b52c7809ceaf399a0f0a969410eed7e7&chksm=bcfb5ac5100cd21a79d50d681f8faf08c7e1366332a04b891d59fe686719d0d5cec5b9b4ce7d&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:09Z"
+}

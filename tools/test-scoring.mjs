@@ -20,12 +20,11 @@ const {
   blendAxis,
   blendCafe,
   blendAll,
-  buildContext,
-  percentile,
-  structuredSignals,
+  hintSources,
   parseCountText,
   dianpingTrust,
   SHRINK_K,
+  W_EVIDENCE,
 } = await import(path.join(dist, 'scoring.mjs'))
 
 const cafe = (over = {}) => ({
@@ -57,18 +56,54 @@ const test = (name, fn) => {
   console.log(`ok ${n} - ${name}`)
 }
 
-test('editorial only: value = E, confidence ~0.35, single source', () => {
+test('editorial only: value = E, confidence ~0.35, single source, no reason', () => {
   const ev = blendAxis(60, undefined, undefined)
   assert.equal(ev.value, 60)
   assert.equal(ev.confidence, 0.35)
   assert.deepEqual(ev.sources, ['editorial'])
+  assert.equal(ev.because, undefined)
 })
 
-test('editorial + structured follows the formula, confidence 0.7', () => {
-  const ev = blendAxis(60, 90, undefined)
-  assert.equal(ev.value, Math.round((1 * 60 + 2 * 90) / 3))
-  assert.equal(ev.confidence, 0.7)
-  assert.deepEqual(ev.sources, ['editorial', 'measured'])
+const hint = (over = {}) => ({
+  value: 100,
+  confidence: 0.5,
+  because: 'people working on laptops in the photos',
+  becauseZh: '照片里有人在用电脑办公',
+  sources: ['photo'],
+  ...over,
+})
+
+test('an evidence hint follows the formula and carries its reason', () => {
+  const ev = blendAxis(60, hint(), undefined)
+  // c_h=0.5: (60 + 3·0.5·100)/(1 + 3·0.5)
+  assert.equal(ev.value, Math.round((60 + W_EVIDENCE * 0.5 * 100) / (1 + W_EVIDENCE * 0.5)))
+  assert.equal(ev.because, 'people working on laptops in the photos')
+  assert.equal(ev.becauseZh, '照片里有人在用电脑办公')
+  assert.deepEqual(ev.sources, ['editorial', 'observed'])
+})
+
+test('hint confidence scales both the pull and the ink', () => {
+  const weak = blendAxis(50, hint({ confidence: 0.2 }), undefined)
+  const firm = blendAxis(50, hint({ confidence: 0.9 }), undefined)
+  assert.ok(weak.value > 50 && weak.value < firm.value)
+  assert.ok(firm.confidence > weak.confidence && weak.confidence > 0.35)
+  // confidence = 0.35 + 0.65·c_h
+  assert.equal(firm.confidence, Math.round((0.35 + 0.65 * 0.9) * 100) / 100)
+})
+
+test('a zero-confidence hint is ignored entirely', () => {
+  const ev = blendAxis(60, hint({ confidence: 0 }), undefined)
+  assert.equal(ev.value, 60)
+  assert.deepEqual(ev.sources, ['editorial'])
+  assert.equal(ev.because, undefined)
+})
+
+test('listed prices are measured, photos and pages observed', () => {
+  assert.deepEqual(hintSources(hint({ sources: ['amap'] })), ['measured'])
+  assert.deepEqual(hintSources(hint({ sources: ['dianping', 'web'] })), ['measured', 'observed'])
+  assert.deepEqual(hintSources(hint({ sources: undefined })), ['observed'])
+  const ev = blendAxis(40, hint({ sources: ['amap', 'photo'] }), undefined)
+  assert.deepEqual(ev.sources, ['editorial', 'measured', 'observed'])
 })
 
 test('votes are shrunk: one vote moves less than five consistent ones', () => {
@@ -81,7 +116,7 @@ test('votes are shrunk: one vote moves less than five consistent ones', () => {
 })
 
 test('confidence is asymptotic to 1 with many votes', () => {
-  const lots = blendAxis(50, 60, { mean: 55, count: 500 })
+  const lots = blendAxis(50, hint({ sources: ['amap'] }), { mean: 55, count: 500 })
   assert.ok(lots.confidence > 0.99 && lots.confidence <= 1)
   assert.deepEqual(lots.sources, ['editorial', 'measured', 'voted'])
 })
@@ -90,58 +125,29 @@ test('shrinkage constant k is 5', () => {
   assert.equal(SHRINK_K, 5)
 })
 
-test('percentile ranks with ties split', () => {
-  assert.equal(percentile([10, 20, 30, 40], 25), 0.5)
-  assert.equal(percentile([10, 20, 20, 40], 20), 0.5)
-  assert.equal(percentile([], 20), 0.5)
-})
-
-test('standing bar caps the linger signal at 25', () => {
-  const s = structuredSignals(
-    cafe({ archetype: 'standing-bar', seats: 6, tags: ['standing-only'] }),
-    { costsSorted: [] },
+test('no evidence → the prior stands: archetype, seats, tags and hours move nothing', () => {
+  const plain = blendCafe(cafe())
+  const dressed = blendCafe(
+    cafe({
+      archetype: 'standing-bar',
+      seats: 0,
+      tags: ['standing-only', 'laptop-welcome', 'own-roast', 'late'],
+      opens: 7,
+      closes: 23,
+    }),
   )
-  assert.ok(s.linger <= 25)
-})
-
-test('adventure/focus/spend signals are omitted without evidence', () => {
-  const s = structuredSignals(cafe(), { costsSorted: [] })
-  assert.equal(s.adventure, undefined)
-  assert.equal(s.focus, undefined)
-  assert.equal(s.spend, undefined)
-  assert.ok(typeof s.linger === 'number' && typeof s.energy === 'number')
-})
-
-test('spend maps Amap cost through dataset quantiles', () => {
-  const cafes = [30, 40, 50, 60, 100].map((cost, i) =>
-    cafe({ id: `c${i}`, evidence: { amap: { id: `a${i}`, cost, fetchedAt: 't' } } }),
-  )
-  const ctx = buildContext(cafes)
-  const cheap = structuredSignals(cafes[0], ctx)
-  const dear = structuredSignals(cafes[4], ctx)
-  assert.ok(cheap.spend < 50 && dear.spend > 50)
+  for (const k of ['focus', 'energy', 'linger', 'adventure', 'spend']) {
+    assert.equal(dressed[k].value, plain[k].value)
+    assert.deepEqual(dressed[k].sources, ['editorial'])
+  }
 })
 
 test('blendCafe uses a published AxisEvidence as the prior, keeping its confidence', () => {
   const published = { value: 77, confidence: 0.9, sources: ['editorial', 'measured'] }
   const c = cafe({ evidence: { axes: { focus: published } } })
-  const out = blendCafe(c, { costsSorted: [] })
+  const out = blendCafe(c)
   assert.equal(out.focus.value, 77)
   assert.equal(out.focus.confidence, 0.9)
-})
-
-test('an observed hint pulls the axis by its confidence and is listed as a source', () => {
-  const weak = blendAxis(50, undefined, undefined, 0, {
-    value: 100, confidence: 0.2, because: '', becauseZh: '',
-  })
-  const firm = blendAxis(50, undefined, undefined, 0, {
-    value: 100, confidence: 0.9, because: '', becauseZh: '',
-  })
-  assert.ok(weak.value > 50 && weak.value < firm.value)
-  // c_h=0.9: (50 + 2.5·0.9·100)/(1 + 2.5·0.9)
-  assert.equal(firm.value, Math.round((50 + 225) / 3.25))
-  assert.ok(firm.confidence > weak.confidence && weak.confidence > 0.35)
-  assert.deepEqual(firm.sources, ['editorial', 'observed'])
 })
 
 test('blendAll is memoized on the cafes array identity', () => {
@@ -180,70 +186,18 @@ test('dianpingTrust grows with rating and review volume', () => {
   )
 })
 
-test('dianping trust deepens confidence without moving the value', () => {
-  const plain = blendAxis(60, 80, undefined)
-  const trusted = blendAxis(60, 80, undefined, 0.8)
+test('dianping trust deepens confidence without moving the value or adding a source', () => {
+  const plain = blendAxis(60, hint({ sources: ['amap'] }), undefined, 0.35, 0)
+  const trusted = blendAxis(60, hint({ sources: ['amap'] }), undefined, 0.35, 0.8)
   assert.equal(trusted.value, plain.value)
   assert.ok(trusted.confidence > plain.confidence)
   assert.ok(trusted.confidence <= 1)
   assert.deepEqual(trusted.sources, plain.sources)
-})
-
-test('dianping avgPrice feeds the spend signal through quantiles', () => {
-  const dp = (price) => ({
-    shopId: 's',
-    avgPrice: price,
-    fetchedAt: 't',
-  })
-  const cafes = [30, 40, 50, 60, 100].map((price, i) =>
-    cafe({ id: `c${i}`, evidence: { dianping: dp(price) } }),
-  )
-  const ctx = buildContext(cafes)
-  assert.equal(ctx.dpPricesSorted.length, 5)
-  const cheap = structuredSignals(cafes[0], ctx)
-  const dear = structuredSignals(cafes[4], ctx)
-  assert.ok(cheap.spend < 50 && dear.spend > 50)
-})
-
-test('amap and dianping spend estimates average when both speak', () => {
-  const mk = (i, cost, price) =>
-    cafe({
-      id: `c${i}`,
-      evidence: {
-        amap: { id: `a${i}`, cost, fetchedAt: 't' },
-        dianping: { shopId: `s${i}`, avgPrice: price, fetchedAt: 't' },
-      },
-    })
-  // Amap says cheapest, Dianping says dearest — the estimate lands between.
-  const cafes = [
-    mk(0, 30, 100),
-    mk(1, 40, 60),
-    mk(2, 50, 50),
-    mk(3, 60, 40),
-    mk(4, 100, 30),
-  ]
-  const ctx = buildContext(cafes)
-  const s = structuredSignals(cafes[0], ctx)
-  assert.ok(s.spend > 10 && s.spend < 90)
-})
-
-test('a popular well-rated room gets a mild energy nudge', () => {
+  // a popular room is not thereby a lively one
   const hot = cafe({
-    evidence: {
-      dianping: {
-        shopId: 's',
-        rating: 4.8,
-        reviewCountText: '4万+',
-        fetchedAt: 't',
-      },
-    },
+    evidence: { dianping: { shopId: 's', rating: 4.8, reviewCountText: '4万+', fetchedAt: 't' } },
   })
-  const quiet = cafe()
-  const ctx = { costsSorted: [], dpPricesSorted: [] }
-  const sHot = structuredSignals(hot, ctx)
-  const sQuiet = structuredSignals(quiet, ctx)
-  assert.ok(sHot.energy > sQuiet.energy)
-  assert.ok(sHot.energy - sQuiet.energy <= 8)
+  assert.equal(blendCafe(hot).energy.value, blendCafe(cafe()).energy.value)
 })
 
 console.log(`\n${n} tests passed`)

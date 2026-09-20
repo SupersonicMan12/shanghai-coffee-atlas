@@ -1,7 +1,7 @@
 {
   "cafeId": "sugar-plum-donghu-rd-7",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e22a4ba76e45",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ddb5feb53c76",
   "photos": [
     "https://store.is.autonavi.com/showpic/83c5117b41b3b9250000004945662914?type=pic",
     "https://store.is.autonavi.com/showpic/eaf78d5347fa2b3e0000002093276091?type=pic",
@@ -9,50 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面临街，有大玻璃窗和敞开的门。",
+      "text": "临街白色墙面，有大玻璃窗和入口，门牌号5，店内可见吧台与酒架。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内可见吧台和几把高脚椅。",
-      "kind": "seating",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "大玻璃窗采光良好，能看到店内部分陈设。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "一棵大树位于店面前，遮挡部分视线。",
+      "text": "店前有一棵大树，树干粗壮，枝叶茂盛，遮挡部分店面。",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "店内有吧台，后方货架上摆放着瓶装饮品。",
-      "kind": "space",
+      "text": "店面设有玻璃窗和可开启的折叠门，室内灯光温暖，可见木质吧台。",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "门口停放着一辆摩托车和一辆自行车。",
-      "kind": "view",
+      "text": "傍晚时分，店外有人在安装灯箱，门口停放电动车和自行车。",
+      "kind": "people",
       "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "透过窗户可见店内有桌椅，但无顾客就座，整体空间紧凑。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内吧台后方有货架陈列瓶装饮品，疑似酒水或饮料。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招标示提供咖啡、早午餐、葡萄酒及鸡尾酒服务。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店前地面设黑色铁链围栏，用于分隔人行道与店面区域。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:15Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:35Z"
 }

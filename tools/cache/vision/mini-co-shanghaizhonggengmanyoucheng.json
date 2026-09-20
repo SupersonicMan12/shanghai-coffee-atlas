@@ -1,7 +1,7 @@
 {
   "cafeId": "mini-co-shanghaizhonggengmanyoucheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4919449b1683",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4440cd389292",
   "photos": [
     "https://aos-comment.amap.com/B0L67RO1DY/comment/content_media_external_file_1014650467_ss__1766254802138_43706392.jpg",
     "https://aos-comment.amap.com/B0L67RO1DY/comment/content_media_external_file_1000008871_ss__1747631569726_17955926.jpg",
@@ -9,63 +9,71 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "menu"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，为小型咖啡吧台店",
+      "text": "店面位于商场内，为一个独立的档口。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "有电子菜单屏展示饮品选项",
+      "text": "店门口有多个A字形立牌，用于宣传新品和促销活动。",
       "kind": "menu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见员工在操作台后工作",
+      "text": "店内有工作人员在吧台后工作。",
       "kind": "people",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有顾客在看手机，可能正在点单或等待。",
+      "kind": "people",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门口有立式广告牌展示新品及价格",
+      "text": "店内有电子菜单屏，显示着饮品图片和名称。",
       "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地玻璃窗，可以看到外面的建筑。",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "展示柜中有饮品图片，包括桃味、黄杏等口味",
+      "text": "菜单上可见“桃好自己”、“黄杏熟了”等饮品名称。",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "店内无明显座位区域",
-      "kind": "seating",
+      "text": "菜单上可见“新朋友喝加购5.9元”的价格信息。",
+      "kind": "menuPrices",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见咖啡机和制饮设备",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:58Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    5.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:37Z"
 }

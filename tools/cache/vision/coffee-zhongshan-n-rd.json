@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-zhongshan-n-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "f7c79fd1a24e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2dbfcf09b9d2",
   "photos": [
     "https://aos-comment.amap.com/B0JAJS25L8/comment/260270F0_80B4_4CAF_91CC_E6C05784B789_L0_001_1500_200_1763194007088_92732247.jpg",
     "https://store.is.autonavi.com/showpic/19d7f04a9968d50d0000004101820513?type=pic",
@@ -9,63 +9,81 @@
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
     "menu"
   ],
   "observations": [
     {
-      "text": "菜单显示有哥伦比亚瑰夏、肯尼亚日晒等精品豆，手冲单杯68-88元。",
+      "text": "菜单包含手冲咖啡和精品SOE选项",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供哥伦比亚瑰夏单品咖啡，附带产地信息卡",
       "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品含美式、拿铁、Dirty、可可Dirty，价格26-38元；季节特调42元。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图展示一杯冰滴咖啡和一杯带拉花的热饮，配豆卡写“哥伦比亚瑰夏”。",
-      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店面外有大量蓝白色仿真花装饰，上方窗户为木质格子窗。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上可见“精品SOE”、“又山精品手冲”分类，提供多种处理法与产地选项。",
-      "kind": "beans",
+      "text": "店内有手冲台，可见磨豆机和专业咖啡设备",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内吧台区域可见部分咖啡机与器具，但未见烘焙机或虹吸壶。",
-      "kind": "roastingGear",
+      "text": "饮品包括dirty、燕麦拿铁等意式咖啡",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店外有树荫遮挡，从照片看是临街店铺，无室外座位。",
-      "kind": "view",
-      "photo": 1,
+      "text": "菜单上可见多种咖啡价格，如32元、35元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内为小空间，有吧台和少量座位",
+      "kind": "space",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "菜单右下角有手绘猫头鹰图案，但未见真实宠物或书架。",
-      "kind": "story",
+      "text": "店内有大落地窗，采光良好",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内无明显植物或书架装饰",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.7
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:38Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    26.0,
+    32.0,
+    35.0,
+    42.0,
+    46.0,
+    48.0,
+    68.0,
+    86.0,
+    88.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:17Z"
 }

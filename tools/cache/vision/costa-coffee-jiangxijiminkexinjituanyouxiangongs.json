@@ -1,7 +1,7 @@
 {
   "cafeId": "costa-coffee-jiangxijiminkexinjituanyouxiangongs",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8b8c97c18702",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "42f9471089f6",
   "photos": [
     "http://store.is.autonavi.com/showpic/bb7e181d6b9a8b86422e26ef4763ca13",
     "http://store.is.autonavi.com/showpic/12e48bcccd30869b5021f9e080d43f87"
@@ -12,52 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和点单区，为标准咖啡馆布局",
-      "kind": "space",
+      "text": "店内有吧台和多张桌椅，座位数量级为中等",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "室内有落地窗，采光良好",
+      "text": "店面临街，有大面积落地窗，采光好",
       "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "窗外可见街道、树木和停放车辆",
+      "text": "窗外可见道路、车辆和绿化树木",
       "kind": "view",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有绿植装饰",
+      "kind": "other",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内设有桌椅，约有6-8个座位",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有冷藏柜，陈列饮品和食品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单板上展示饮品图片及名称",
+      "text": "吧台后方有电子菜单屏，显示饮品图片",
       "kind": "menu",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "吧台后方可见咖啡机等设备",
-      "kind": "roastingGear",
+      "text": "吧台后有冷藏展示柜，内有瓶装饮料",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见有人在用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见烘焙机或手冲台等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:32Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:22Z"
 }

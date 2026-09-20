@@ -1,7 +1,7 @@
 {
   "cafeId": "muwu-coffee-sanqianggongyecheng2menpang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8cc755bb0741",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e0c50ac63831",
   "photos": [
     "https://store.is.autonavi.com/showpic/818259e2104dc8d4fd49187533e5ad2c",
     "https://store.is.autonavi.com/showpic/e3b8bbbaf9bf73e1e1f1fb4307a1f9b5",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "other",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "咖啡馆位于工业城入口旁，有独立门头",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "设有室外木质平台和桌椅",
+      "text": "店外有木质平台和室外座位",
       "kind": "seating",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外区域有大树遮荫",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店前有广告牌和指示牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口可见绿植和小型花坛",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺临街，可看到外部道路与车辆",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有落地玻璃窗，室内可见部分陈设",
+      "text": "店面临街，有落地玻璃窗",
       "kind": "light",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有一棵大树，树下有植物和COFFEE灯牌",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见咖啡机等设备",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "店外设有咖啡字样的灯箱装饰",
-      "kind": "space",
+      "text": "照片中没有看到人在使用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有看到客人",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有长条形花坛，种植了绿植",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.8
+    },
+    {
+      "text": "未在照片中看到菜单或饮品食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:01Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:52Z"
 }

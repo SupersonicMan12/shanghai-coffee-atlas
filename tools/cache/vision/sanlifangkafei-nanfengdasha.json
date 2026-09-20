@@ -1,7 +1,7 @@
 {
   "cafeId": "sanlifangkafei-nanfengdasha",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "158c4a4d04ad",
+  "inputDigest": "05b25d28e4be",
   "photos": [
     "https://aos-comment.amap.com/B0L0A1CEW1/comment/233793B1_A215_437B_91C3_43CE58EA9FEC_L0_001_1500_200_1766600106717_65322265.jpg",
     "https://aos-comment.amap.com/B0L0A1CEW1/comment/35335A25_2021_4CE3_9437_0D80A267CF29_L0_001_1500_200_1770353872345_84944355.jpg",
@@ -9,51 +9,51 @@
   ],
   "photoKinds": [
     "drink",
-    "interior",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有临街落地窗，采光良好",
-      "kind": "light",
+      "text": "店内有圣诞节日装饰（红色丝带、星星图案）",
+      "kind": "decor",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内设有木质桌椅，座位数量较少",
+      "text": "可见多张圆形和方形木质桌子及配套椅子",
       "kind": "seating",
       "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "临街大玻璃窗，可看到室外街道和建筑",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见饮品为冰咖啡，杯中含冰块",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "另一款饮品为分层冰咖啡，底部有奶或糖浆",
+      "text": "饮品为冰咖啡，其中一杯有分层效果",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有红色节日装饰，玻璃上有彩绘图案",
-      "kind": "story",
+      "text": "窗户旁摆放着小型绿植盆栽",
+      "kind": "decor",
       "photo": 2,
       "confidence": 0.8
-    },
-    {
-      "text": "店内摆放小型绿植，增添自然感",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:05Z"
 }

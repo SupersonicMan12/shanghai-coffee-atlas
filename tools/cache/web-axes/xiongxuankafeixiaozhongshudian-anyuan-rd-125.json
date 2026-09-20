@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "书店的环境很好，除了书籍还有一些文创小物",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C7E625DF9&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在外面走累了，想找家咖啡店歇歇脚",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C7E625DF9&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 30.0,
+      "quote": "一杯咖啡+甜品，价格30",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C7E625DF9&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海的书店,又上新了",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32514892",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "超过90个咖啡品牌、1300余家门店参与 68家书店今年首度加入 “一杯咖啡的温暖”氤氲上海街头",
+      "url": "https://news.cjn.cn/zjjjdpd/yw_20048/202609/t5335195.htm",
+      "site_name": "长江网"
+    },
+    {
+      "index": 3,
+      "title": "Xiongxuan Coffee & Xiaozhong Bookstore - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F98C7E625DF9&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "上海超可愛的熊主題咖啡廳| 13DE MARZO CAFE - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-143391649?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "《魔都雨季City Walk图鉴》",
+      "url": "http://news.cafa.edu.cn/MobileNews/independenWeixinContent?contentId=225460829",
+      "site_name": "无"
+    },
+    {
+      "index": 6,
+      "title": "品味上海咖啡香",
+      "url": "https://m.gmw.cn/toutiao/2025-06/09/content_1304054829.htm",
+      "site_name": "光明网"
+    },
+    {
+      "index": 7,
+      "title": "从喝咖啡到品咖啡,上海的书店里,咖啡也“卷”起来了",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=910734",
+      "site_name": "解放网"
+    },
+    {
+      "index": 8,
+      "title": "上海首家熊爪咖啡“种子店”开业盲人双胞胎担任店长和咖啡师",
+      "url": "https://www.ciie.org/zbh/bqxwbd/20220718/33166.html",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "我在虹口喝咖啡 | 诺亚方舟、朝花夕拾、隐秘战线…从历史中穿越而来",
+      "url": "https://www.jfdaily.com.cn/wx/detail.do?id=742793",
+      "site_name": "无"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:10:28Z"
+}

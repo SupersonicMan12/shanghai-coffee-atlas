@@ -1,71 +1,72 @@
 {
   "cafeId": "mono-coffee-sichuan-n-rd-989",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d1afef473263",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0d6672779888",
   "photos": [
     "https://store.is.autonavi.com/showpic/a9aeacb22adf55860000004836692608?type=pic",
     "https://aos-comment.amap.com/B0M6FL06EF/comment/614B8162_90FF_479A_B5D1_60EB5A2BF780_L0_001_1500_200_1771947159328_54668671.jpg",
     "https://aos-comment.amap.com/B0M6FL06EF/comment/file_media_Photo_20679_IMG_1770865228_17677_IMG_20260212_105848_jpg_ss__1770867836758_58756936.jpg"
   ],
   "photoKinds": [
-    "drink",
+    "interior",
     "storefront",
     "menu"
   ],
   "observations": [
     {
-      "text": "菜单上有维也纳咖啡、拿铁、美式、手冲等饮品",
+      "text": "桌面摆放两杯水、一杯灰黑分层奶盖咖啡、一杯浓缩，均印有MONO字样",
       "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "提供黑、白、灰三种维也纳咖啡，价格38至48元",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "墙面金属牌标有'MONO SHANGHAI COFFEE ROASTERS'及上海外滩建筑线稿",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "有华夫饼搭配咖啡的套餐，价格88元",
+      "text": "菜单显示Vienna Coffee系列含Black/White/Grey三款，价格38-48元；手冲咖啡48-68元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单列出'Grey Vienna with Waffle'套餐88元，含华夫饼",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供冷萃咖啡，价格28至38元",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示使用BB、瑰夏、单豆等咖啡豆",
+      "text": "菜单中出现'Geisha Blend'、'Mono Blend'等豆子名称，标注为Washed Natural",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品包括脏咖、拿铁、浓缩等常见类型",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "有一款名为‘灰色维也纳’的咖啡，搭配华夫售卖",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店名MONO位于四川北路989号，为上海咖啡烘焙商",
-      "kind": "story",
-      "photo": 2,
       "confidence": 0.95
+    },
+    {
+      "text": "桌面摆设两个带红绒球的石狮子小雕像，中间立有MONO品牌卡牌",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:34Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    33.0,
+    38.0,
+    48.0,
+    68.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:40Z"
 }

@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "也可以带着电脑在玻璃桌上工作",
+      "url": "https://www.sohu.com/a/585020077_409750",
+      "site": "搜狐网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "没有过多网红拗造型的打扰,喝杯咖啡聊聊天,然后离开,很chill",
+      "url": "https://www.dianping.com/discovery/1182686518",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "座位不多但每个不一样,让客人自由选择喜欢的位置和椅子坐下",
+      "url": "https://www.sohu.com/a/585020077_409750",
+      "site": "搜狐网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "点了一杯「拿铁」,味道正常,属于日常咖啡来一杯那种",
+      "url": "https://www.dianping.com/discovery/1182686518",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 31.0,
+      "quote": "SUNSET COFFEE. ¥31/人",
+      "url": "https://www.dianping.com/discovery/897509754",
+      "site": "上海｜你会不会突然出现在街角的咖啡店- 大众点评吃喝玩乐精选"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海｜你会不会突然出现在街角的咖啡店- 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/897509754",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "延庆路上这家咖啡+集合店🍡,真的有点意思~ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1182686518",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 4,
+      "title": "上海的極簡咖啡館Before sunset coffee - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-142097650?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "这里,引领上海与成都的松弛",
+      "url": "https://www.thepaper.cn/newsDetail_forward_19918484",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "这家新店,引领上海与成都的松弛 ",
+      "url": "https://www.sohu.com/a/585020077_409750",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "上海咖啡馆突破1万家，全球第一！一杯咖啡里到底有什么？ - 解放日报",
+      "url": "https://www.shobserver.cn/news/detail?id=1111820",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "神仙打架,咖啡市这名字可不是白叫的",
+      "url": "https://dy.163.com/article/K64I2UG00518D3OU.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:36Z"
+}

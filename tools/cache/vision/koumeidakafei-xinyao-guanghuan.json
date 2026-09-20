@@ -1,72 +1,85 @@
 {
   "cafeId": "koumeidakafei-xinyao-guanghuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "146f18d51b81",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a2ad5a4703bc",
   "photos": [
     "https://aos-comment.amap.com/B0L35UEARU/comment/E16D9108_2F32_45D8_8618_656951A83B54_L0_001_1500_200_1761053971429_33480808.jpg",
-    "https://store.is.autonavi.com/showpic/2d6cfc5ac1406bea0000002438790387?type=pic",
-    "https://aos-comment.amap.com/B0L35UEARU/comment/content_media_external_images_media_4830_ss__1770341167426_43333935.jpg"
+    "https://store.is.autonavi.com/showpic/ec67aa9a3a4290860000002438766856?type=pic",
+    "https://aos-comment.amap.com/B0L35UEARU/comment/content_media_external_images_media_4830_ss__1770341167426_43333935.jpg",
+    "https://store.is.autonavi.com/showpic/2d6cfc5ac1406bea0000002438790387?type=pic"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
+    "interior",
     "food",
-    "food"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有临街窗户，采光良好",
-      "kind": "light",
+      "text": "店内有临街大窗，窗外可见绿植。",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供奶油泡芙和炸猪排三明治",
+      "text": "菜单显示‘冰与火’甜点售价45元，‘焦糖冰与火’售价45元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌上摆放着奶油顶配樱桃的千层酥类甜点（冰与火）。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有咖啡杯和配套碟子，杯身印有品牌图案",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "菜单上可见多种饮品及价格，如牛奶28元、柠檬茶28元、冰美式28元等。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店面为砖墙结构，门口有遮阳棚",
+      "text": "提供炸鸡排三明治，搭配咖啡杯装饮品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位为靠窗木桌，配有编号6的桌牌和呼叫铃。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上标有早餐时段至上午11:00，提供A/B/C三种经典早餐组合。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外观为砖墙结构，临街设有玻璃门和橱窗。",
       "kind": "space",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.9
-    },
-    {
-      "text": "门口可见促销牌，标价39元",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "餐桌上摆放着纸巾和菜单",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "室内座位靠窗，编号为6号桌",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "食物摆盘整洁，含奶油、樱桃装饰",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:20Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    32.0,
+    35.0,
+    45.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:29Z"
 }

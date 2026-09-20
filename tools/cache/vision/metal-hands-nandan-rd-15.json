@@ -1,71 +1,90 @@
 {
   "cafeId": "metal-hands-nandan-rd-15",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "2e9bd0e06436",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "8dee20b1203a",
   "photos": [
     "https://aos-comment.amap.com/B0H1ULZ4YM/comment/73E226FA_0732_4044_B3DA_177527799D91_L0_001_1134_201_1761988649150_28590454.jpg",
-    "https://aos-comment.amap.com/B0H1ULZ4YM/comment/62322d7983fc199f1b3c09dcb7b22948_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0H1ULZ4YM/comment/f6ee64059a7b31b8668dd25a46e52968_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0H1ULZ4YM/comment/f6ee64059a7b31b8668dd25a46e52968_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1ULZ4YM/comment/ce0f4f32fd1b37a3bad0b6f34359769a_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1ULZ4YM/comment/62322d7983fc199f1b3c09dcb7b22948_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "drink",
-    "interior",
-    "menu"
+    "menu",
+    "drink",
+    "interior"
   ],
   "observations": [
     {
-      "text": "菜单显示有单品咖啡，如巴拿马翡翠庄园瑰夏，售价75元起。",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "店内有木质桌椅和悬挂绿植，地面为灰白碎石拼花瓷砖。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "店内空间不大，有吧台和少量木质桌椅，地面是碎石拼花瓷砖。",
-      "kind": "space",
+      "text": "菜单显示有手冲单品咖啡、SOE、特调饮品及甜点，标注产地如巴拿马、哥伦比亚等。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上可见经典咖啡价格：美式28元，拿铁30元，卡布奇诺30元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括抹茶厚乳（42元）、燕麦芝士巴斯克（48元）等限定或特色款。",
+      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "杯中拉花为天鹅图案，盛在带绿条纹的白瓷杯碟里。",
-      "kind": "drinks",
+      "text": "一杯拉花为天鹅造型的拿铁，盛于带绿色条纹的陶瓷杯中。",
+      "kind": "drink",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内有多盆大型绿植，包括悬挂和落地的，天花板为木质。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有顾客在用笔记本电脑，坐在靠窗位置。",
-      "kind": "laptops",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单上有“无咖啡因抹茶厚乳”，价格42元。",
-      "kind": "drinks",
+      "text": "另一杯饮品顶部为煎蛋造型拉花，置于玻璃杯内，放在金属托盘上。",
+      "kind": "drink",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "菜单显示甜品有“燕麦芝士巴斯克”，价格48元。",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "后方有大片玻璃门，可看到室外建筑，采光良好。",
+      "text": "店内有落地窗，窗外可见城市建筑，采光良好。",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有数位顾客在座位上，其中一人在使用笔记本电脑。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
   "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:26Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    30.0,
+    32.0,
+    35.0,
+    42.0,
+    48.0,
+    50.0,
+    65.0,
+    75.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:48Z"
 }

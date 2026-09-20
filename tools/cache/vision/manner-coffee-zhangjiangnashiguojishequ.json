@@ -1,51 +1,77 @@
 {
   "cafeId": "manner-coffee-zhangjiangnashiguojishequ",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d4be1b7bbe86",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c146f2233649",
   "photos": [
     "http://store.is.autonavi.com/showpic/86212c549ead29d791653490638bd893",
     "https://aos-comment.amap.com/B0JAH5HTG1/comment/d6f7b8a0836d94f678a3e8d5ced99765_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和大面积玻璃窗",
-      "kind": "space",
+      "text": "店内有吧台和高脚凳，可坐人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有落地玻璃窗，采光好",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台和高脚凳",
-      "kind": "seating",
+      "text": "店内可见一台磨豆机和咖啡机",
+      "kind": "brewBar",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中有一杯拿铁，拉花为心形",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有A字牌，可能是菜单或宣传品",
+      "kind": "menu",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "饮品为拿铁，奶泡上有心形拉花",
-      "kind": "drinks",
+      "text": "店内地面为灰色，墙面为白色，装修现代",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内无人，环境安静",
+      "kind": "crowd",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内地面为灰色地砖，空间较简洁",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "门口有立式广告牌，显示促销信息",
+      "text": "未见书架、植物、宠物等装饰物",
       "kind": "other",
-      "photo": 1,
-      "confidence": 0.7
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:55Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:46Z"
 }

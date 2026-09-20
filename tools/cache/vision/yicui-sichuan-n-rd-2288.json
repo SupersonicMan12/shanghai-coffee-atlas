@@ -1,7 +1,7 @@
 {
   "cafeId": "yicui-sichuan-n-rd-2288",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3b221335b32f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ebce0bf11784",
   "photos": [
     "https://aos-comment.amap.com/B0L6BPXNRE/comment/content_media_external_file_703912_ss__1766233874743_61413196.jpg",
     "https://store.is.autonavi.com/showpic/782758bd08a3b97ff8e1a9056115cbd3",
@@ -9,63 +9,58 @@
   ],
   "photoKinds": [
     "storefront",
-    "other",
+    "interior",
     "other"
   ],
   "observations": [
     {
-      "text": "店铺为黑色镜面玻璃建筑，反射周围树木",
+      "text": "店面为玻璃幕墙立方体，反射树木，底层有落地玻璃窗",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有室外座位区，设在树荫下",
-      "kind": "seating",
+      "text": "室内可见木质吧台及墙面装饰画，含飞鸟与竹叶图案",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外有多个遮阳棚，摆放藤编椅与木桌，树荫下设座",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "室外区域有多张桌椅和遮阳棚",
-      "kind": "seating",
+      "text": "照片中可见约8-10名顾客在室内外就坐，无明显忙碌或空闲状态",
+      "kind": "crowd",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见竹叶与飞鸟图案装饰",
-      "kind": "space",
+      "text": "室内有顾客坐在吧台前，未见有人使用笔记本电脑",
+      "kind": "laptops",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "室内有顾客坐着，环境明亮",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有大型树木，提供自然遮蔽",
-      "kind": "view",
+      "text": "室外座位区地面铺设地砖，无插座可见",
+      "kind": "sockets",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店前有户外用餐区，布置整洁",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "部分区域设有白色帐篷式遮阳结构",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
-  "seats": "many",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:32Z"
 }

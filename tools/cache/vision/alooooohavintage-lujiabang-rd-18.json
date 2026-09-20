@@ -1,7 +1,7 @@
 {
   "cafeId": "alooooohavintage-lujiabang-rd-18",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "d5856ff99b8f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9a13142243f7",
   "photos": [
     "https://aos-comment.amap.com/B0FFIK5US9/comment/20fe192ebd10a0947edf1dbc7f94ee35_2048_2048_80.jpg",
     "https://aos-comment.amap.com/comment/content_service__1770128289020_19969173_1770128480424_85527107.jpg",
@@ -9,63 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店名标为 'ALOOOOOHA VINTAGE'，非咖啡馆，主营中古包与服饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "第一张图：临街玻璃橱窗，上方有大量紫粉色人造花与深红布艺装饰",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图：夜间外立面为灰色水泥墙，门头金属字 'ALOOOOOHA'，带格栅玻璃门",
+      "text": "店面位于陆家浜路18号，临街玻璃门，门牌号清晰可见",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "第三张图：室内为环形货架陈列中古包，地面为水泥地，无桌椅或吧台",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "第三张图：可见3位顾客背对镜头站立浏览商品，无座位区域",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.96
-    },
-    {
-      "text": "店内未见咖啡机、磨豆机、手冲台、饮品杯、食物或菜单",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "地址牌显示门牌号为 '18'（陆家浜路18号）",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "第三张图右侧有装饰性小推车，挂红球、珠串与复古肖像画框",
+      "text": "店内为Vintage服装与包袋店，非咖啡馆；橱窗与货架陈列大量手袋及复古服饰",
       "kind": "story",
       "photo": 3,
-      "confidence": 0.94
+      "confidence": 1.0
+    },
+    {
+      "text": "店内有顾客正在浏览商品，两人站在货架前，未见使用电脑或办公行为",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无咖啡设备、无饮品/食物、无菜单、无烘焙机/手冲台等咖啡相关器具",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店铺为商场内档口或独立商铺，顶部可见木质横梁与轨道灯，属室内商业空间",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "橱窗上方标有“ALOOOOOHA VINTAGE”字样，与外部门头一致，确认为同一店铺",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内地面为水泥地，无吧台或座位区，未见任何可坐区域或桌椅",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "外立面为现代简约风格，玻璃门带金属格栅，夜间照明充足，但无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "some",
   "laptops": false,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:11Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:10Z"
 }

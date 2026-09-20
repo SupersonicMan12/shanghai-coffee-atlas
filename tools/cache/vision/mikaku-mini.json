@@ -1,71 +1,80 @@
 {
   "cafeId": "mikaku-mini",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "2922322dbf67",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "aecc8cce5d4c",
   "photos": [
-    "https://aos-comment.amap.com/B0FFKTTCYV/comment/6adedcb834c7276e1fece794e9c72e63_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/f64b988e12fddaa50000002479776940?type=pic",
-    "https://aos-comment.amap.com/B0FFKTTCYV/comment/882c73b93cbf4eca147adf9ec384d181_2048_2048_80.jpg"
+    "https://store.is.autonavi.com/showpic/9b4d63b2f05e21fd0000000727526324?type=pic",
+    "https://aos-comment.amap.com/B0FFKTTCYV/comment/882c73b93cbf4eca147adf9ec384d181_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFKTTCYV/comment/6adedcb834c7276e1fece794e9c72e63_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "food",
-    "drink"
+    "storefront",
+    "drink",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门+大面积落地窗，灰色外墙，门牌号20",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外人行道摆放5把折叠椅+2张小桌，属室外座",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内可见多人围坐小桌，有折叠椅与矮凳，空间紧凑",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图中食物为厚松饼夹奶油、无花果、冰淇淋，配一杯顶部有奶油与橙皮碎的饮品",
-      "kind": "food",
+      "text": "云南北路20号临街店铺，门牌号清晰可见",
+      "kind": "location",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "第三张图为巧克力奶昔，含奥利奥饼干、巧克力碎、巧克力酱，插黑白条纹吸管",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "店内玻璃上贴有‘Thank You’重复胶带及手写‘Camping Club’字样",
+      "text": "店面为老式砖石结构建筑，临街玻璃窗宽大",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.97
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "未见吧台、磨豆机、手冲架、虹吸壶等专业咖啡器具",
-      "kind": "beans",
+      "text": "室外摆放约6把折叠椅，无遮阳棚，属露天座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内透过玻璃可见多人就坐，右侧区域有“Camping Club”字样",
+      "kind": "crowd",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "食物为松饼夹奶油与无花果，配冰淇淋及大量鲜奶油",
+      "kind": "food",
       "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品为巧克力奶昔类，顶部有奥利奥饼干、可可粉与焦糖酱",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "杯身贴有“MIKAKU”标签，背景墙印有同名字样",
+      "kind": "brand",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内靠窗处有顾客用餐，未见明显电脑或办公设备",
+      "kind": "laptops",
+      "photo": 4,
       "confidence": 0.9
-    },
-    {
-      "text": "照片中无人使用笔记本电脑",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:26Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:18Z"
 }

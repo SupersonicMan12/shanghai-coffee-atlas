@@ -1,53 +1,78 @@
 {
   "cafeId": "morii-chen-cafe-longteng-ave-1230",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e9d5c9dfc610",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "08b8db507cb6",
   "photos": [
     "https://store.is.autonavi.com/showpic/18de655f1527c05fc9bb95c24b532b0f",
     "https://aos-comment.amap.com/B0L6B7SKPX/comment/6EB6BDB3_B5B6_428F_BF7C_FDACFA9E9E2D_L0_001_1500_200_1767671149971_92239081.jpg",
     "https://aos-comment.amap.com/B0L6B7SKPX/comment/9A96281A_8A44_4162_B6E8_48AF050882DE_L0_001_1500_200_1767671149970_39775955.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "drink",
     "other"
   ],
   "observations": [
     {
-      "text": "室内空间宽敞，地面为几何图案木地板",
+      "text": "室内空间宽敞，地面为深色几何拼花木地板，有多个座位区。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见圆形黄色桌子和软垫凳子",
+      "text": "店内有圆形亮黄色咖啡桌和软垫凳，搭配绿植装饰。",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "有带轮子的白色服务车，摆放粉色绣球花",
-      "kind": "other",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "服务车内有大玻璃罐装饮品和杯子",
+      "text": "店中设有一个带轮子的移动饮品车，配有粉色绣球花和柠檬水容器。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "室内有绿植装饰，环境明亮",
+      "text": "店内可见大型玻璃门窗，采光良好，背景有室外绿植。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.8
+    },
+    {
+      "text": "店面招牌为黑色镜面材质，显示“MORII CHEN SHANGHAI”字样。",
+      "kind": "storefront",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内摆放有高脚桌、盆栽植物及展示柜，环境整洁现代。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "移动饮品车旁配有四个圆柱形矮凳，围以蓝色金属环。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见烘焙机、手冲台或磨豆机等专业咖啡器具。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:51Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:10Z"
 }

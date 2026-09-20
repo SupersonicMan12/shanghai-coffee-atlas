@@ -1,7 +1,7 @@
 {
   "cafeId": "miiix-coffee-caohejing",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "911484d764e3",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f523847e6f6f",
   "photos": [
     "https://store.is.autonavi.com/showpic/f797aa76a28176dc4ddf3a96897d89de"
   ],
@@ -10,58 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和透明窗",
+      "text": "店面入口处有玻璃门和吧台",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡机、磨豆机等专业设备",
-      "kind": "drinks",
+      "text": "店内可见一台咖啡机和磨豆机",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口有双层玻璃门，门内有吧台区域",
-      "kind": "space",
+      "text": "门口贴有菜单，但价格和文字看不清",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外无室外座位，室内未见明显座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "临街玻璃门，采光来自外部自然光",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见工作人员在操作咖啡设备",
+      "text": "店内有一人，疑似店员在操作设备",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "门口右侧贴有促销海报，内容为饮品活动",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.6
-    },
-    {
-      "text": "店内地面为浅色地砖，墙面为白色",
-      "kind": "space",
+      "text": "墙面为红砖与白色涂料，装修风格简约",
+      "kind": "decor",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店外左侧墙上有编号1065的门牌",
-      "kind": "space",
+      "text": "门口地面堆放纸箱，可能是库存或包装物",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有纸箱堆放，可能为物料暂存",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "none",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:18:53Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:32Z"
 }

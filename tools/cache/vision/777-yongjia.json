@@ -1,71 +1,67 @@
 {
   "cafeId": "777-yongjia",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "3ae5de05b02c",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3fbf01b5208b",
   "photos": [
-    "https://aos-comment.amap.com/B0JDDMYCXI/comment/a3687890be6a2ae4ce01414a552ae8b8_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0JDDMYCXI/comment/1c2cd569303a23d8490491a3b6240d1d_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0JDDMYCXI/comment/b90ec18d800380def5e993fcc1beec87_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0JDDMYCXI/comment/3e1242f3e940246eec0098ef3fdd2207_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/a638621007237d55638d979e51e4ee0e",
+    "http://store.is.autonavi.com/showpic/60b82e561a13530dfb94a1eb40ab6d0f",
+    "https://aos-comment.amap.com/B0JDDMYCXI/comment/a3687890be6a2ae4ce01414a552ae8b8_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面为蓝色木板外墙，门旁有红色蝴蝶结与圣诞花环装饰。",
+      "text": "店面为蓝色木质结构，门口有圣诞装饰",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店门口停放多辆电动车，地面铺满落叶，临街无室外座位区。",
+      "text": "室外停放多辆电动车，地面有落叶",
+      "kind": "outdoor",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内桌上有陶瓷壶和两杯饮品，其中一杯有水果片",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一杯饮品为分层效果，顶部有碎屑",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见砖墙和木质门，装修风格偏工业风",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外有一棵树，临街设置",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见裸露红砖墙与部分剥落灰泥墙，风格为工业复古风。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "吧台区域有木质小桌、折叠椅、塑料储物箱及绿植，座位极少（≤3个）。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "咖啡豆罐标签清晰显示产地：埃塞俄比亚Gujji Dorothy、洪都拉斯Sherry Mocha等。",
-      "kind": "beans",
       "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "杯身有手绘简笔画（人物、哆啦A梦），杯托为黑色硅胶圈，非一次性杯托。",
-      "kind": "drink",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "墙上贴有‘公路浪人’海报，含‘Free Spirits’‘Riding’等英文词，无价格信息。",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.94
-    },
-    {
-      "text": "第一张图中可见木质门上贴有促销海报，标有‘9元’字样及饮品图示。",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.92
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:40:50Z"
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:40:34Z"
 }

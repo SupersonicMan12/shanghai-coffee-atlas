@@ -1,7 +1,7 @@
 {
   "cafeId": "taipingyangkafei-eryi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "322a32419d45",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2abcf49d12ae",
   "photos": [
     "https://store.is.autonavi.com/showpic/5ce0cb73f3344a1cc4ddefae1136c9cc",
     "http://store.is.autonavi.com/showpic/7383cd7fda8bf76264eb12d4e68c4f4e"
@@ -12,46 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于街边，有遮阳棚和绿植围挡",
+      "text": "店面为临街店铺，有吧台和少量座位",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿色灌木丛和树木",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台和少量桌椅",
+      "text": "店内有吧台、桌椅，可见3-4个座位",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口立牌展示三明治和饮品",
-      "kind": "food",
+      "text": "照片中无人在店内外",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外有树木和围栏，环境绿化较好",
+      "text": "店外有木质栅栏",
       "kind": "view",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台后方有玻璃窗，可看到内部操作区",
+      "kind": "light",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有菜单板展示食物图片",
+      "text": "门口立有宣传海报，但内容模糊不清",
       "kind": "menu",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店铺招牌显示为太平洋咖啡",
-      "kind": "space",
+      "text": "照片未显示任何饮品或食物",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:09Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:37Z"
 }

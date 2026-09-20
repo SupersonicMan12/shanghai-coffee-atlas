@@ -1,71 +1,62 @@
 {
   "cafeId": "guyizhuangyuanshouchongkafei-hongqiaoxincheng",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6cfd2704a168",
+  "inputDigest": "bedf142d9a78",
   "photos": [
-    "https://store.is.autonavi.com/showpic/c617f48beb2e8c59c5cd52971641229d",
     "http://store.is.autonavi.com/showpic/dff6840c352dbea30ef6e92c7a616cb1",
-    "http://store.is.autonavi.com/showpic/b1465fa0f225acd63f9866810ea36e4f"
+    "http://store.is.autonavi.com/showpic/248ffa10bcbd8e1bd702488383842148",
+    "http://store.is.autonavi.com/showpic/f538f706d7009b6c952905224c90e21d",
+    "https://store.is.autonavi.com/showpic/c617f48beb2e8c59c5cd52971641229d"
   ],
   "photoKinds": [
-    "storefront",
     "food",
-    "interior"
+    "drink",
+    "interior",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面位于红砖建筑内，门牌号1032",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有手冲咖啡器具和磨豆机",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有拱形门洞和木质天花板，风格为复古自然风",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "有植物装饰，环境绿意盎然",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供芝士蛋糕类甜点，表面撒有紫色粉末",
-      "kind": "food",
+      "text": "店内有手冲咖啡制作过程",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "门口挂有红色春联和横幅，可能为中式传统装饰",
-      "kind": "story",
+      "text": "提供芝士蛋糕等甜点",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.9
     },
     {
-      "text": "店内可见茶壶、滤杯等手冲设备",
-      "kind": "drinks",
+      "text": "门口为红砖墙，有黑色玻璃门",
+      "kind": "storefront",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有绿植装饰",
+      "kind": "interior",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见木质勺子舀取咖啡豆",
+      "kind": "beans",
       "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:12:00Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:24Z"
 }

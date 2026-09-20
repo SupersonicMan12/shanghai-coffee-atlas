@@ -1,71 +1,87 @@
 {
   "cafeId": "creeper-luwan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "463396b17245",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "541a72277d03",
   "photos": [
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76192_ss__1754275445324_95959956.jpg",
     "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76176_ss__1754275445375_99511294.jpg",
-    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/file_media_Photo_11975_IMG_1760927713_10006_IMG_20251020_103333_jpg_ss__1762140833656_72594693.jpg",
-    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76190_ss__1754275445328_40431126.jpg"
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/content_media_external_file_76179_ss__1754275445361_50342033.jpg",
+    "https://aos-comment.amap.com/B0LRU5CZQ9/comment/file_media_Photo_11975_IMG_1760927713_10006_IMG_20251020_103333_jpg_ss__1762140833656_72594693.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
+    "menu",
     "interior"
   ],
   "observations": [
     {
-      "text": "店门为黑色双开玻璃门，上方有黄色霓虹‘Creeper Coffee’字样",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "门口两侧各有一束开业花篮（麦穗+红金包装），含招财猫装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内为狭长布局，左侧浅木纹墙，右侧吧台区，地面为白色大理石瓷砖",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "可见2把黑色椅子+1张小圆桌，位于入口左侧，属少量座位",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "吧台后有FAEMA牌商用意式咖啡机、磨豆机、叠放的印有‘Creeper’纸杯",
+      "text": "店内有磨豆机等专业咖啡器具",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "吧台前立牌展示饮品图，含‘脏脏拿铁’‘燕麦拿铁’等，标价22–25元",
+      "text": "菜单上有冰滴冷萃咖啡，20元",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.85
     },
     {
-      "text": "吧台挂有透明亚克力板‘Creeper Coffee’发光招牌，背景为浅木饰面",
-      "kind": "space",
+      "text": "菜单显示有贝果等食物，12-18元",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.97
+      "confidence": 0.8
     },
     {
-      "text": "玻璃门反射可见街景：绿树、黄色出租车、电动车，属临街店铺",
+      "text": "店面为临街玻璃门，门外有花篮",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间较大，地面光亮，有吧台",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "靠窗位置有少量黑色椅子座位",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可见街道和树木",
       "kind": "view",
       "photo": 2,
-      "confidence": 0.96
+      "confidence": 0.85
+    },
+    {
+      "text": "店内光线明亮，有天花板射灯",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:41:23Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    12.0,
+    16.0,
+    18.0,
+    20.0,
+    25.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:07Z"
 }

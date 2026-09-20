@@ -1,7 +1,7 @@
 {
   "cafeId": "mr-bond-coffee-shenwang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "64a2676faf35",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f0ede0dfac9d",
   "photos": [
     "https://aos-comment.amap.com/B0KRSCGCGU/comment/51055f1a1d2407d79226805cca1f2571_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KRSCGCGU/comment/content_media_external_file_1000039107_ss__1745111744836_59197475.jpg",
@@ -14,52 +14,47 @@
   ],
   "observations": [
     {
-      "text": "店面临街，有玻璃门窗",
+      "text": "店面为临街玻璃门面，门口有红色花篮装饰，推测为新开业或庆典状态。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口摆放开业花篮",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见吐司丁和熏鸡肉三明治",
+      "text": "店内可见透明塑料盒装的熏鸡肉三明治，售价24元/个。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "吐司丁售价15元/杯，熏鸡肉三明治售价24元/个",
+      "text": "店内可见透明杯装的吐司丁，售价15元/杯。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "提供冰咖啡和三角形烘焙食品",
-      "kind": "drinks",
+      "text": "顾客手持可颂面包和一杯冰咖啡，咖啡杯内有分层，底部呈粉红色。",
+      "kind": "drink|food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "text": "店内有透明塑料包装的食品展示",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外地面铺绿色地毯",
-      "kind": "space",
+      "text": "店外地面铺设绿色地毯，门前有玻璃门窗，反射出对面建筑。",
+      "kind": "space|view",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:22Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:38Z"
 }

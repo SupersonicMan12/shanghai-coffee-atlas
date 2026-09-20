@@ -1,52 +1,78 @@
 {
   "cafeId": "grid-coffee-huanmaoiapm",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fc3937086d45",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "593c3df11960",
   "photos": [
     "https://store.is.autonavi.com/showpic/71ab32b569c43860dfbc54c638336fe3",
     "https://store.is.autonavi.com/showpic/cff76de00393fd980000001444238503?type=pic",
     "https://store.is.autonavi.com/showpic/27e630b17af368aa0000001444228605?type=pic"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有吧台和多张桌椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "临街玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见咖啡制作设备（磨豆机等）",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内有绿植装饰",
+      "text": "店内有吧台和多组桌椅，空间较开阔，属中等以上规模。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口有户外遮阳伞和植物",
+      "text": "店外有玻璃门和遮阳伞，门口种植绿植，设有室外座位区域。",
       "kind": "outdoor",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机、手冲设备及展示柜，具备精品咖啡制作条件。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多人正在吧台点单或等待，顾客数量较多。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有落地窗，采光良好，可看到外部街道景象。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有多个座位区，包括靠窗桌椅和卡座，座位数量较多。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台后方有菜单板，显示饮品分类，但具体价格和产地信息无法辨认。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有大型绿植装饰，环境布置自然，非纯工业风。",
+      "kind": "story",
+      "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:26:12Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:10Z"
 }

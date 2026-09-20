@@ -1,59 +1,85 @@
 {
   "cafeId": "tangduokafei-caoyangyingcheng",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "28f05cde9d80",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "da4f45ced893",
   "photos": [
-    "http://store.is.autonavi.com/showpic/00b49e163a4ca96d08b33108530ea5f1",
     "http://store.is.autonavi.com/showpic/b4f9f5d6089b9664a2bb318e28ebc800",
-    "http://store.is.autonavi.com/showpic/eb766d9172d89b0a682c959bd1df8434"
+    "http://store.is.autonavi.com/showpic/9c3005fefa463c22afdb6763d41595bd",
+    "http://store.is.autonavi.com/showpic/829b10282ab5ee8f417ef893e851998c",
+    "http://store.is.autonavi.com/showpic/00b49e163a4ca96d08b33108530ea5f1"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
     "drink",
-    "drink"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "吧台前有两把高脚椅，无其他座位可见。",
+      "text": "店内有吧台和两张高脚凳，座位不多。",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "吧台后方陈列多台咖啡机与磨豆机。",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "饮品含珍珠奶茶、分层拿铁、抹茶拉花。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "四杯不同拉花的咖啡，含抹茶与巧克力风味。",
-      "kind": "drinks",
+      "text": "菜单上显示有单品咖啡、手冲、意式咖啡等分类。",
+      "kind": "specialtyMenu",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "墙面有绿色植物墙装饰，非纯白墙。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "菜单上列出的咖啡价格为36元、38元、48元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店内无顾客，未见有人使用电脑。",
-      "kind": "people",
-      "photo": 1,
+      "text": "菜单上标明了咖啡豆来自哥伦比亚、巴西、埃塞俄比亚等地。",
+      "kind": "beans",
+      "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中可见两杯饮品，一杯是分层的dirty，另一杯是带珍珠和奶油的奶茶。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中可见几块饼干类食物。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面临街，有玻璃门和窗户，能看到室内。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植，但未见室外座位。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": false,
+  "crowd": null,
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:38Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    36.0,
+    38.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:31Z"
 }

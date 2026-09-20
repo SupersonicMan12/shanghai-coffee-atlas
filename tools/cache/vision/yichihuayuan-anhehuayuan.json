@@ -1,7 +1,7 @@
 {
   "cafeId": "yichihuayuan-anhehuayuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "704cfc4b7e59",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b2fdd8a57d63",
   "photos": [
     "https://aos-comment.amap.com/B0H035SCCA/comment/57244b8fed27345d4ae210304eeb2952_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/5afd094e08ab1b460000002410748261?type=pic",
@@ -10,62 +10,64 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店外有庭院，种有松树、橄榄树、蕨类等植物，地面铺落叶。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "建筑为黑白木构架风格外墙，带多格黑框窗，非商场内或老洋房典型结构。",
+      "text": "店面有室外庭院式座位区",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "入口处立黑色招牌，写有“一尺花园 咖啡 遇见美好”及“WELCOME”。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内为木质桌椅，背景可见临街大玻璃窗与绿植，采光良好。",
-      "kind": "light",
+      "text": "室内有木质桌面和绿植装饰",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "桌上有一杯热拿铁（心形拉花）、一杯冰美式/冰拿铁、一篮炸薯条配小碟番茄酱。",
+      "text": "可见一杯拿铁咖啡和一杯冰咖啡",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "另一桌有热拿铁（星形巧克力拉花）、分层咖啡饮品、一块白蛋糕配干果碎。",
+      "text": "提供炸薯角配番茄酱",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供一块带有蔓越莓碎的芝士蛋糕",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "未见手冲台、虹吸壶、磨豆机、烘焙机等专业咖啡设备。",
-      "kind": "beans",
+      "text": "店内光线明亮，有大窗户",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "text": "照片中无人使用电脑；背景有人就坐但面部模糊，无法确认行为。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "照片中未见烘焙机或专业手冲设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:42:32Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:45Z"
 }

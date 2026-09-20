@@ -1,0 +1,68 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "有人一手大部头书籍、一手笔记本,完全沉浸其中。",
+      "url": "https://baijiahao.baidu.com/s?id=1863224778606605975",
+      "site": "百度"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "书咖虽然有些嘈杂,但能读到更多闲书和新书",
+      "url": "https://baijiahao.baidu.com/s?id=1863224778606605975",
+      "site": "百度"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "读者们习惯把他们称为“书咖”。",
+      "url": "https://baijiahao.baidu.com/s?id=1863224778606605975",
+      "site": "百度"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "coffee and ice cream in the cafe.",
+      "url": "https://www.smartshanghai.com/venue/1941/Garden_Books_shanghai",
+      "site": "Garden Books (Changle Lu) Shanghai - Cafes, Book Shops, Xuhui"
+    },
+    "price": {
+      "value": 30.0,
+      "quote": "一杯咖啡30多块钱不便宜",
+      "url": "https://baijiahao.baidu.com/s?id=1863224778606605975",
+      "site": "百度"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海卖外文图书或杂志的书店有哪些?在哪里?",
+      "url": "https://www.zhihu.com/question/19550963/answer/12365016",
+      "site_name": "知乎"
+    },
+    {
+      "index": 2,
+      "title": "Garden Books (Changle Lu) Shanghai - Cafes, Book Shops, Xuhui",
+      "url": "https://www.smartshanghai.com/venue/1941/Garden_Books_shanghai",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "世界读书日③|一杯咖啡“换”一段阅读时光,在“书咖”获得身心双重滋养",
+      "url": "https://baijiahao.baidu.com/s?id=1863224778606605975",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "Recommended bookstore cafes in Shanghai (I)",
+      "url": "https://english.shanghai.gov.cn/en-Cafes/20240125/e7dfe2c0e5c344b3bfd54701a25a4d62.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 5,
+      "title": "Garden Books - Shanghai - Trip.com",
+      "url": "https://www.trip.com/moments/detail/shanghai-2-14726450/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:27Z"
+}

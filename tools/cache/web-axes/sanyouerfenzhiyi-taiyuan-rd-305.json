@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "目前營業|09:00-18:00 . 󱨱+8617621318646. 󱀬. 太原路305弄1號.",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-140612362/",
+      "site": "3½三又二分之一（太原路305弄店） - Trip.com"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "极简的装饰，不简单的咖啡-",
+      "url": "https://zhuanlan.zhihu.com/p/693353832",
+      "site": "知乎"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "空间名称：“3½三又二分之一”咖啡店 · 空间类型：餐饮空间、咖啡店、街边咖啡店",
+      "url": "https://www.sohodd.com/archives/197449",
+      "site": "上海·“3½三又二分之一”咖啡店设计/ SomeThoughts Studio"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "新店取名3½,在意式咖啡的竞赛中...新店的名字藏着他们想带来“比好更好一点的咖啡品质”的小巧思。",
+      "url": "https://www.163.com/dy/article/IRB3R1OK05228TQ0.html",
+      "site": "网易"
+    },
+    "price": {
+      "value": 69.0,
+      "quote": "¥69/人 肇嘉浜路/中山医院 咖啡",
+      "url": "https://m.dianping.com/shop/1866324226",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "肇嘉浜路/中山医院咖啡",
+      "url": "https://m.dianping.com/shop/1866324226",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "魔都开年复工咖啡榜,40家必喝",
+      "url": "https://www.163.com/dy/article/IRB3R1OK05228TQ0.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 3,
+      "title": "在全世界咖啡馆最多的地方喝咖啡是什么神仙体验啊！ - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/693353832",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "3½三又二分之一（太原路305弄店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-140612362/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "在全世界咖啡馆最多的地方喝咖啡是什么神仙体验啊!_饮品甜点_什么值得买",
+      "url": "https://post.smzdm.com/p/a2xekvd7/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 6,
+      "title": "上海·“3½三又二分之一”咖啡店设计/ SomeThoughts Studio",
+      "url": "https://www.sohodd.com/archives/197449",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "上海徐汇区丁香花园好吃的咖啡店 - 百度地图",
+      "url": "https://map.baidu.com/place/shanghai_2467_11113/1/115_8",
+      "site_name": "百度"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:19Z"
+}

@@ -1,71 +1,79 @@
 {
   "cafeId": "komeda-s-coffee-jinyan-rd-155",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "1bc43315a88f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a733298d60f9",
   "photos": [
-    "https://aos-comment.amap.com/B0LD0HEE2X/comment/DCD65629_07B0_436F_885F_FD70E609DA3E_L0_001_1502_200_1757237791284_83932016.jpg",
     "https://aos-comment.amap.com/B0LD0HEE2X/comment/FC2D078F_0C6B_4033_9788_B844035A0ECC_L0_001_1500_200_1768490767761_49331925.jpg",
-    "https://aos-comment.amap.com/B0LD0HEE2X/comment/content_media_external_file_47538_ss__1759558674125_09055436.jpg"
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/content_media_external_file_48116_ss__1759558674125_58874613.jpg",
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/2560982C_1A90_4011_B406_1E19EB3C2A08_L0_001_1536_204_1761642958321_29956749.jpg",
+    "https://aos-comment.amap.com/B0LD0HEE2X/comment/DCD65629_07B0_436F_885F_FD70E609DA3E_L0_001_1502_200_1757237791284_83932016.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
-    "other"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "门口立牌显示鲜切吐司，厚切21.8元，薄切19.8元。",
-      "kind": "food",
-      "photo": 1,
+      "text": "室内有红色绒布卡座，座位数量较多",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "玻璃门贴有营业时间：08:00-19:00。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.98
+      "text": "店内有大落地窗，窗外可见绿树",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店内可见两杯咖啡，一杯加奶油，一杯为奶咖。",
+      "text": "照片中展示了两杯饮品，一杯是咖啡，一杯是顶部有奶油的饮料",
       "kind": "drinks",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "收银台前篮子里放着哆啦A梦玩偶和多个手办。",
-      "kind": "other",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "店门口有告示牌，显示营业时间为8:00-19:00",
+      "kind": "time",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "菜单上画有咖啡、吐司、松饼等食物的插图。",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "店面入口两侧有壁灯，门前是砖墙和黄色墙面。",
+      "text": "店铺为独立店面，临街，入口处有玻璃门",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内天花板悬挂彩色玻璃吊灯，装修风格复古",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "门口地面湿滑，可能刚下过雨，有绿植枝叶。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.85
+      "text": "店内未见明显烘焙机、手冲台等专业设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
     },
     {
-      "text": "店内桌椅为深色木质，照片中未见顾客或电脑。",
-      "kind": "seating",
+      "text": "照片中无人在使用电脑",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.75
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "medium",
+  "seats": "many",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:00:43Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:09Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "73coffee-jiankangzhigu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "00d5f649fff6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "aa0ba769ff87",
   "photos": [
     "https://store.is.autonavi.com/showpic/f178f87c01b50f7016b5960e76cfae07",
     "http://store.is.autonavi.com/showpic/0a380396cdbf096900c3b7425c6e8f68",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和大窗户",
-      "kind": "space",
+      "text": "店内有专业咖啡机和磨豆机等设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有几张桌椅，可坐室外",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台区域，配备专业咖啡机",
+      "text": "室内有吧台，顾客可站喝",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见一台意式咖啡机，品牌为Victoria Arduino",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "店内有落地窗，采光好",
+      "kind": "light",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有拉花拿铁饮品，杯中呈现叶子图案",
+      "text": "照片中有人手持一杯拿铁，有拉花",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外设有几张桌椅，可供室外使用",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
+      "text": "店内无明显书架、植物或宠物",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室内空间较窄，属于小型咖啡馆类型",
-      "kind": "space",
+      "text": "照片中未见有人在用电脑",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "店外可见部分街道环境，无明显遮挡",
-      "kind": "view",
-      "photo": 1,
+      "text": "照片中未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 3,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:17:10Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:02Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "yangguangkefou-chunjiangjinlunanqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "140330abf109",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "080820e95f75",
   "photos": [
     "http://store.is.autonavi.com/showpic/3dfbd5754e57fde12f792e14f8b1da6a",
     "http://store.is.autonavi.com/showpic/89a92fa2abb40e97b5d69ad8599a9e30",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有台阶通向入口",
+      "text": "店面为临街小空间，有玻璃门和大窗户",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口摆放多盆绿植，环境整洁",
+      "text": "门口台阶旁摆放着多盆绿植",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店前有电动车停放，街道宽敞",
+      "text": "店外停放着多辆电动车和自行车",
       "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台后方可见一台咖啡机",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见顾客在店内就座",
+      "kind": "crowd",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店铺为砖墙结构，有玻璃门窗",
+      "text": "门口有阶梯通往二楼，楼梯旁是玻璃门",
       "kind": "space",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见陈列柜和饮品展示区",
-      "kind": "space",
+      "text": "店内有多个菜单板挂在墙上",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店门口有遮阳棚和悬挂菜单牌",
-      "kind": "space",
+      "text": "透过玻璃门可看到店内有桌椅",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有行人经过，有人在店门口停留",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "门前地面铺设地砖，有树荫覆盖",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.75
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:15Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:54Z"
 }

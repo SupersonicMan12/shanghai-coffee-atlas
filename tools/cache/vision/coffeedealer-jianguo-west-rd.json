@@ -1,7 +1,7 @@
 {
   "cafeId": "coffeedealer-jianguo-west-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "6cafd2441d5b",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "acd6f69e8584",
   "photos": [
     "https://store.is.autonavi.com/showpic/550743876a1d541ea5d595372d4b5b41",
     "https://store.is.autonavi.com/showpic/d719b62fbfea19b20000000898848985?type=pic",
@@ -10,56 +10,71 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内可见咖啡机与磨豆机等专业器具",
-      "kind": "drinks",
+      "text": "店面为临街玻璃窗设计，门上有圆形金属把手。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供女巫瑰夏拿铁，粉重12g，售价540元/150g",
+      "text": "饮品为玻璃杯盛装的拿铁，拉花呈心形图案。",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单卡片显示饮品名称、粉重、液重、乳品成分及风味描述。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯手冲咖啡与一杯拿铁并列摆放，均配有详细参数卡片。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "手冲咖啡菜单标注粉水比1:16.25，风味为柑橘、蜂蜜、白花。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "拿铁饮品价格为¥90/150g，使用冰博克和鲜牛奶。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款拿铁饮品价格为¥540/150g，风味含热带水果、巧克力饼干、椰子脆片。",
+      "kind": "menuPrices",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供TOH水洗冠军手冲与拿铁，均售90元/150g",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "女巫瑰夏风味含热带水果、巧克力饼干",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "TOH水洗冠军手冲风味为柑橘、蜂蜜、白花",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "TOH水洗冠军拿铁风味为焦糖饼乾、伯爵奶茶",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街有大玻璃窗，可看到店内设备",
-      "kind": "light",
+      "text": "店内可见专业咖啡器具，如磨豆机、手冲设备等。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T14:02:11Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    90.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:03Z"
 }

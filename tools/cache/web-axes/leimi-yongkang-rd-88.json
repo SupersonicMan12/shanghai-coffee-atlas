@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "与街对面人满为患的网红店比,这显得格外安静舒适",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "与街对面人满为患的网红店比,这显得格外安静舒适",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "与街对面人满为患的网红店比,这显得格外安静舒适",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "顶顶好喝的爷叔手冲",
+      "url": "https://you.ctrip.com/food/2/22602630.html",
+      "site": "携程旅行网"
+    },
+    "price": {
+      "value": 62.0,
+      "quote": "人均约62元",
+      "url": "https://k.sina.com.cn/article_7879995995_1d5af325b06801pi4y.html",
+      "site": "新浪网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "推荐一些上海的网红甜品店",
+      "url": "https://k.sina.com.cn/article_7879995995_1d5af325b06801pi4y.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "音乐学院/五官科医院咖啡",
+      "url": "https://m.dianping.com/shop/9639034",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "雷米 - 携程",
+      "url": "https://you.ctrip.com/food/2/22602630.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "在上海City Walk之永康路雷米咖啡馆20240315 - 美篇",
+      "url": "https://www.meipian.cn/51vg8jfq",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "老外驚了!上海這條100多米的小馬路上,竟有18家咖啡店。",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/the-foreigner-was-shocked-on-this-small-road-of-more-than-100-meters-in-shanghai-there-are-18-coffee-shops-460293/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "雷米咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/947395910",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "走进神秘的雷米洋行大楼",
+      "url": "https://www.thepaper.cn/newsDetail_forward_14628461",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 8,
+      "title": "Le modèle coffee·模型咖啡·茶饮·甜品",
+      "url": "https://map.360.cn/site/detail/525515598b92b4b3",
+      "site_name": "无"
+    },
+    {
+      "index": 9,
+      "title": "豆奶咖啡- 雷米-菜 - 大众点评",
+      "url": "https://www.dianping.com/shop/H5GE1Aeiq1ZMmriT/photos/tag-%E8%8F%9C-%E8%B1%86%E5%A5%B6%E5%92%96%E5%95%A1",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:16Z"
+}

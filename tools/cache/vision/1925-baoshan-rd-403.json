@@ -1,71 +1,88 @@
 {
   "cafeId": "1925-baoshan-rd-403",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "8d6ea11c2426",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ac1a15148ec4",
   "photos": [
     "https://store.is.autonavi.com/showpic/86d46f6ac3a016470000003181458410?type=pic",
-    "https://store.is.autonavi.com/showpic/c027eaebefad4ee40000003181460295?type=pic",
-    "https://store.is.autonavi.com/showpic/22255c459a131c450000003182598876?type=pic"
+    "https://store.is.autonavi.com/showpic/d2c86001e377d8310000005963214778?type=pic",
+    "https://store.is.autonavi.com/showpic/79eb25cb1744478d0000003181428815?type=pic",
+    "https://store.is.autonavi.com/showpic/c027eaebefad4ee40000003181460295?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "menu",
-    "interior"
+    "interior",
+    "storefront",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外有2把折叠椅和1张小桌，属室外座。",
-      "kind": "seating",
+      "text": "店面为红砖老洋房改造，临街双开木门，门楣有'1925·益杯咖啡'金色字样",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "二楼阳台挂红色横幅，写“好喝的咖啡里面请”。",
-      "kind": "story",
+      "text": "门口设室外座：2把橙白折叠椅+1张小圆桌，位于人行道上，有黄黑路缘石",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单可见“1925限定”款如工焙拿铁、宝山里弄米道。",
-      "kind": "drinks",
+      "text": "室内空间中等大小，地面灰砖，可见1根白色竖条纹柱、1盏波浪形黄色落地灯、木质吧台及桌椅",
+      "kind": "space",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "吧台后墙菜单列意式咖啡、风味拿铁、牛乳鲜茶等品类。",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有货架陈列咖啡豆、挂耳包、杯子、明信片等商品。",
-      "kind": "other",
+      "text": "入口处地垫印'我美式！'，门外立架海报显示'美式 10元'、'拿铁 15元'，与菜单价格一致",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "门头有大红蝴蝶结装饰，门口地面为红色步道。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "菜单纸卷上清晰列有'意式咖啡 ¥15'、'美式 ¥15'、'拿铁 ¥18'、'摩卡 ¥23'、'dirty ¥26'等价目",
+      "kind": "menuPrices",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "左侧有棵大树，树干粗壮，枝叶稀疏，临街可见。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "吧台后置有两台白色饮品机、瓶装糖浆，未见手冲/虹吸/磨豆机等专业萃取设备",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "室内未见顾客或工作人员，无电脑使用迹象。",
-      "kind": "people",
+      "text": "菜单含'1925限定'特调，如'工坊拿铁 ¥19.25'、'宝山里弄米道 ¥20.25'、'桃侬欢喜 ¥28'等创意款",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无顾客，空镜；未见任何人使用电脑或手机办公",
+      "kind": "crowd",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:24Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    15.0,
+    18.0,
+    23.0,
+    26.0,
+    28.0,
+    19.25,
+    20.25
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:24Z"
 }

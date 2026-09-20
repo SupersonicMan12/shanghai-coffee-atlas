@@ -1,45 +1,76 @@
 {
   "cafeId": "bluety-coffee-hangtiandasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "af940932c466",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "beb776c9aa9a",
   "photos": [
     "http://store.is.autonavi.com/showpic/f5dbfbbe3af394e1ae02828e6e6c4091",
     "http://store.is.autonavi.com/showpic/ca5ca73272482dfb5704803de678d5a8"
   ],
   "photoKinds": [
     "storefront",
-    "other"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门，可见内部有座位区。",
+      "text": "店面临街，有大面积玻璃门窗，可看到店内部分区域",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内光线明亮，透过玻璃可见桌椅。",
-      "kind": "light",
+      "text": "店内可见桌椅，有顾客在坐，座位数量级为少量至中等",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "门外停放多辆电动车，表明附近有停车区域。",
-      "kind": "view",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内可见吧台结构，但具体设备不清晰。",
-      "kind": "space",
+      "text": "店外停放多辆电动车，门口无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有植物装饰，环境明亮，有吊灯照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吧台区域及操作人员，但未见烘焙机或手冲台",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "照片中未见菜单、饮品或食物实物，也未见价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客坐着，其中一人似在使用电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店铺位于建筑底层，旁边有“航天大厦东门入口”标识",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:09Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:53Z"
 }

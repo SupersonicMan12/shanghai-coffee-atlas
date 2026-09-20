@@ -1,7 +1,7 @@
 {
   "cafeId": "j-meet-binjiang-ave-2727",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "4713b17f5ed9",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ebdcc0d84d81",
   "photos": [
     "https://store.is.autonavi.com/showpic/b59206e53ef8a6ee0000002876822524?type=pic",
     "https://aos-comment.amap.com/B0JAKSGXFJ/comment/80D7FA94_9C01_4C59_8506_6C8811BC9E82_L0_001_2000_150_1766814177527_39678667.jpg",
@@ -9,63 +9,71 @@
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
     "food"
   ],
   "observations": [
     {
-      "text": "店外有绿植和几张桌椅，可室外坐。",
+      "text": "店外有户外座位，被绿植环绕。",
       "kind": "seating",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台，可看到咖啡师在工作。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台和高脚凳，可见酒杯架。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "两杯拉花咖啡，一杯是龙形，一杯是凤凰形。",
+      "text": "室内有两杯拉花咖啡，图案为飞马和龙。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "一杯dirty咖啡配一块芝士蛋糕。",
+      "text": "桌上有一杯dirty咖啡和一块芝士蛋糕。",
       "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内光线明亮，有大落地窗。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有大理石桌面，装修风格现代。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见电脑、书架或宠物。",
+      "kind": "people",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内有大理石纹桌面，光线从侧窗照入。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口招牌写有“日咖夜酒”，提供简餐甜点。",
-      "kind": "story",
+      "text": "未见烘焙机、手冲台等专业器具。",
+      "kind": "beans",
       "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店员在整理户外座位，店内未见顾客。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内可见陈列柜和多张桌椅，空间不小。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.75
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:00:57Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:37Z"
 }

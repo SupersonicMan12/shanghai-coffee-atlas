@@ -1,7 +1,7 @@
 {
   "cafeId": "xingrenkafei-dagu-rd-379",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "12e4c1894fe0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7eb37f8dfef9",
   "photos": [
     "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_images_media_1000006854_ss__1751358842611_57971209.jpg",
     "https://aos-comment.amap.com/B0K3UYKWAQ/comment/content_media_external_file_144877_ss__1751193314172_13642456.jpg",
@@ -14,58 +14,74 @@
   ],
   "observations": [
     {
-      "text": "饮品菜单显示有芭乐美式、菠萝冷萃等特调饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "部分饮品价格为8.8元至25元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见植物装饰，环境有绿植",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品杯身贴纸显示‘幸福益站12周年’字样",
+      "text": "杯套显示‘幸福益站12周年’，印有‘与时代共赴温暖’及卡通形象，为纪念款。",
       "kind": "story",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "饮品颜色为橙黄色和深红色，含冰块",
+      "text": "菜单显示特调‘芭乐美式 ¥20’‘芭乐气泡冰茶 ¥22’‘苹果树下 ¥22’‘菠萝冷萃 ¥25’，含咖啡/无咖啡因标注。",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "菜单展示柜内有烘焙设备和罐装商品",
+      "text": "菜单中‘云涧初雪’等饮品标价8.8元/杯，‘佛手金芒’等9.9元/杯，均为非咖啡类饮品。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见玻璃展示柜，内有罐装饮品与包装食品（如‘酪’字产品），未见烘焙机或手冲台。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店内有玻璃窗，可看到室外绿化",
+      "text": "第二张图菜单左上角有‘幸福益站 | 幸仁咖啡’标识，店名可确认为‘幸仁咖啡’。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图手持饮品杯身有上海地标（东方明珠、上海中心）插画，说明店铺位于上海城区。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "第一张图饮品为浅黄色液体，第三张图为深褐色液体，推测为不同特调（如芭乐美式 vs 苹果树下）。",
+      "kind": "drinks",
+      "photo": [
+        1,
+        3
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图背景可见大型绿植盆栽及玻璃门，门外有绿化带，属室内靠窗/庭院区域。",
       "kind": "light",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品杯带吸管和透明盖，为标准塑料杯",
-      "kind": "drinks",
-      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:54Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    20.0,
+    22.0,
+    25.0,
+    8.8,
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:15Z"
 }

@@ -1,59 +1,84 @@
 {
   "cafeId": "drops-huashan-rd-376",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "84d2e1bf1a95",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a1f44cb95fed",
   "photos": [
-    "https://aos-comment.amap.com/B0FFM9K9L8/comment/7f51ae685464922c3805cbf09e60733d_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFM9K9L8/comment/content_media_external_file_100012799_1769914140565_62023589.jpg",
-    "https://store.is.autonavi.com/showpic/0af08e39d658a894ee5d7254173c2c72"
+    "https://aos-comment.amap.com/B0FFM9K9L8/comment/5e4b533519005f67b7f8402ec7ed5ed4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFM9K9L8/comment/894DE7E3_A7FD_4608_98E1_2963E1BB05D0_L0_001_1334_200_1765354420751_58588717.jpg",
+    "https://store.is.autonavi.com/showpic/f1bc6398d1e2ac440000002569410426?type=pic",
+    "https://aos-comment.amap.com/B0FFM9K9L8/comment/7f51ae685464922c3805cbf09e60733d_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "food",
+    "storefront",
+    "interior",
     "drink",
-    "storefront"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "有抹茶千层蛋糕，表面撒抹茶粉",
-      "kind": "food",
+      "text": "店内有吧台，可提供咖啡和甜点。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中未见明显座位或顾客。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供拉花咖啡，杯中是拿铁艺术",
+      "text": "菜单上有手冲咖啡、单品豆等精品咖啡选项。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示了“Dirty”、“Flat White”等特调饮品名称。",
       "kind": "drinks",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口有玻璃门和台阶，内有沙发座",
-      "kind": "space",
+      "text": "菜单上可见“抹茶千层蛋糕”这道食物。",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "室内桌为水磨石台面，有木质椅子",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "菜单上清晰标示了部分饮品价格，如32元、38元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店外是街道，无户外座位",
+      "text": "店面临街，有玻璃窗，窗边有圣诞装饰。",
       "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "桌上有印品牌名的纸巾，未见菜单",
-      "kind": "menu",
+      "text": "店外有木质长凳，但无户外座位。",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
-  "outdoor": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:44Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    32.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:03Z"
 }

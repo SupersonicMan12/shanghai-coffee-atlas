@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "M+谊园有接近1500名白领在这里工作,不少人是Wynyard的常客。",
+      "url": "https://www.163.com/dy/article/JIFT8C4A055040N3.html",
+      "site": "163网易免费邮"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "Wynyard店面小,却有一种小而美、小而精、小而暖的感觉",
+      "url": "https://www.163.com/dy/article/JIFT8C4A055040N3.html",
+      "site": "163网易免费邮"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "带着自家的爱宠,来这家Wynyard喝喝咖啡、晒晒太阳、看看养眼的花草树木,身与心都会温暖惬意起来。",
+      "url": "https://www.163.com/dy/article/JIFT8C4A055040N3.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店里售卖的几款经典咖啡,分别是焦糖玛奇朵、卡布奇诺、澳白、dirty、拿铁。...推出当季特调,如新会陈皮美式、柚子美式、椰青美式等。",
+      "url": "https://www.163.com/dy/article/JIFT8C4A055040N3.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "冬意渐浓,来这些温暖的咖啡店坐坐~",
+      "url": "http://k.sina.com.cn/article_1702872420_657fc56400102glra.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "冬意渐浓,来这些温暖的咖啡店坐坐~",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405238828029313534",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 3,
+      "title": "冬意渐浓,去这家“小而暖”的咖啡店坐坐吧",
+      "url": "https://www.163.com/dy/article/JIFT8C4A055040N3.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "冬意渐浓,去这家“小而暖”的咖啡店坐坐吧(文末有福利)_腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20241203A02BLI00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 5,
+      "title": "冬意渐浓,去这家“小而暖”的咖啡店坐坐吧(文末有福利)",
+      "url": "https://www.163.com/dy/article/JIFOMS2305149R72.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "冬意渐浓,来这些温暖的咖啡店坐坐~",
+      "url": "https://k.sina.com.cn/article_1702872420_657fc564001022vuy.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "共话丨上海村咖:一杯乡村咖啡里的“慢生意”",
+      "url": "https://www.163.com/dy/article/L6ACDGAS05568W0A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡馆 |人生忽如寄,莫负咖啡、好天气",
+      "url": "https://www.163.com/dy/article/G4VLK2A10525EFU5.html",
+      "site_name": "163网易免费邮"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:03Z"
+}

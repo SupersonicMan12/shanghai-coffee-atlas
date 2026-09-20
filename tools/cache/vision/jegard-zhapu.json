@@ -1,71 +1,65 @@
 {
   "cafeId": "jegard-zhapu",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "58d977102b56",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "2bf6c8bd647e",
   "photos": [
-    "https://store.is.autonavi.com/showpic/0daef2f2abfd30300000002456416180?type=pic",
     "https://store.is.autonavi.com/showpic/1b189ed0293615cc0000003425650262?type=pic",
-    "https://store.is.autonavi.com/showpic/2e8c93c61fa1fe8f0000003074328370?type=pic"
+    "https://store.is.autonavi.com/showpic/263fe23116709d540000005954636133?type=pic",
+    "https://store.is.autonavi.com/showpic/a993e5ea7dd09d170000002456364512?type=pic",
+    "https://store.is.autonavi.com/showpic/0daef2f2abfd30300000002456416180?type=pic"
   ],
   "photoKinds": [
-    "drink",
     "interior",
-    "drink"
+    "storefront",
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "杯底印有 'JEGARD SPECIALTY COFFEE' 黑色字样",
+      "text": "店内有手冲咖啡台和专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冰滴咖啡等 Specialty Coffee",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "吧台后方可见手冲装置（滤杯+铜制分享壶）及银色法压壶",
-      "kind": "drinks",
+      "text": "菜单上列出单品咖啡及其产地",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上可见价格，如32元、36元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面位于乍浦路430-1号",
+      "kind": "story",
       "photo": 2,
       "confidence": 0.95
-    },
-    {
-      "text": "桌上有一杯冰咖啡（玻璃杯+冰块）与一只浅色陶瓷小杯",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "第二张图中木桌上有木质圆托盘，背景为深色吧台与水槽",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "第三张图为一杯分层饮品：底层乳白、中层深褐、上层金黄奶泡",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "可见木质椅背（竖条状），桌面为原木色，环境为室内",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "纸巾印有 'JEGARD SPECIALTY COFFEE' 字样",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "吧台面为黑色防滑垫，后方有不锈钢咖啡机部分机身",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:51Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    32.0,
+    36.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:27Z"
 }

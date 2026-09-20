@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "店内环境舒适，光线明亮，还提供免费Wi-Fi",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-149926012/",
+      "site": "橙橙咖啡·精釀MORNING CC（安化路店） - Trip.com"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "这家店已冲上大众点评上海区域咖啡热门榜第1名",
+      "url": "https://www.foodtalks.cn/news/61625",
+      "site": "FoodTalks全球食品资讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "很适合办公或看书",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-149926012/",
+      "site": "橙橙咖啡·精釀MORNING CC（安化路店） - Trip.com"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "冷萃咖啡 · 上传图片 · 全部图片» · 环境(640)» · 菜(619)» · 澳白(11) · 拿铁咖啡(5) · 燕麦奶拿铁(3 培根鸡蛋",
+      "url": "https://www.dianping.com/shop/k65tmTjMOsGDKbWP/photos/tag-%E8%8F%9C-%E5%86%B7%E8%90%83%E5%92%96%E5%95%A1",
+      "site": "冷萃咖啡- 精酿MORNING CC(安化路店)-菜 - 大众点评"
+    },
+    "price": {
+      "value": 38.0,
+      "quote": "燕麦奶拿铁(3 培根鸡蛋",
+      "url": "https://www.dianping.com/shop/k65tmTjMOsGDKbWP/photos/tag-%E8%8F%9C-%E5%86%B7%E8%90%83%E5%92%96%E5%95%A1",
+      "site": "冷萃咖啡- 精酿MORNING CC(安化路店)-菜 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "橙橙咖啡·精釀MORNING CC（安化路店） - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-149926012/",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "橙橙咖啡·精釀MORNING CC（安化路店） - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/restaurant-149926012/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "橙橙咖啡·精酿MORNING CC(安化路店)-图片-上海-第18页 - 大众点评",
+      "url": "https://www.dianping.com/shop/k65tmTjMOsGDKbWP/photos?pg=18",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "冷萃咖啡- 精酿MORNING CC(安化路店)-菜 - 大众点评",
+      "url": "https://www.dianping.com/shop/k65tmTjMOsGDKbWP/photos/tag-%E8%8F%9C-%E5%86%B7%E8%90%83%E5%92%96%E5%95%A1",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡排队王！这杯“手搓橙皮”，凭什么让人等145分钟？",
+      "url": "https://www.foodtalks.cn/news/61625",
+      "site_name": "FoodTalks全球食品资讯网"
+    },
+    {
+      "index": 6,
+      "title": "安化路492号德必易园创意园C座2楼",
+      "url": "https://sh.city8.com/gouwuguangchang/1030291_HSVO_address.html",
+      "site_name": "城市吧街景"
+    },
+    {
+      "index": 7,
+      "title": "鲜橙片入杯！瑞幸橙C美式饮品矩阵再扩容 - 中国经营报",
+      "url": "http://www.cb.com.cn/index/show/gd/cv/cv1362554181498",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "永丰咖啡地图已升级!点击解锁更多宝藏店铺→",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4OTQyMzEwNg==&mid=2650970449&idx=1&sn=1ad4666f24cce65c5e440a0f558bdfec&chksm=8a3744b862a8d3ee9c3d47e286814a3c2afe54c13ceeff294d9d0964fa073223d25cd0d26f91&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "上海探店录",
+      "url": "https://weibo.com/u/6193357891",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 10,
+      "title": "The Oranges - 上海市静安区- 餐饮服务;咖啡厅 - 高德地图",
+      "url": "https://www.amap.com/place/B0FFKHMUVL",
+      "site_name": "高德地图"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:36:41Z"
+}

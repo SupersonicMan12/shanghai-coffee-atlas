@@ -1,71 +1,80 @@
 {
   "cafeId": "yichihuayuan-luxungongyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "2886755e02b1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9b1f5e44228e",
   "photos": [
+    "https://store.is.autonavi.com/showpic/3ad5325e812bfbec0000001362604946?type=pic",
     "https://store.is.autonavi.com/showpic/1798a9a4ab8c14880000002097598686?type=pic",
-    "https://aos-comment.amap.com/comment/content_service__1771141634435_65482525_1771141676733_19968263.jpg",
-    "https://store.is.autonavi.com/showpic/2728bd1903e6e1ca0000004206998993?type=pic"
+    "https://store.is.autonavi.com/showpic/f0bae87d18e8f4c40000001071550638?type=pic",
+    "https://aos-comment.amap.com/comment/content_service__1771141634435_65482525_1771141676733_19968263.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "storefront",
+    "food",
     "storefront"
   ],
   "observations": [
     {
-      "text": "临水单层建筑，白墙黑边，一侧为大面积玻璃幕墙与开放式吧台入口",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "店门口立有黑底白字A型牌，写有‘一尺花园 咖啡 遇见美好’及英文‘one step garden’",
+      "kind": "sign",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店前设两块黑色A字立牌，印有‘一尺花园 咖啡 遇见美好’及‘one step garden’字样",
-      "kind": "story",
+      "text": "店内可见多人聚集在吧台前，部分人背对镜头站立或就坐，无明显使用笔记本电脑者",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯身印有‘One Step’字样，内含橙色冰饮配果片，为特调类非咖啡饮品",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 1.0
     },
     {
-      "text": "右侧临水，水面平静，对岸有树木、步道与户外桌椅区（第二张图可见）",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见多人站立排队或等候，吧台区域有绿植与金属支架设备（疑似手冲架）",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "入口处左侧有轮椅停放，地面为石砖铺装，店旁有粗大树干（悬铃木）",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "第三张图中店内可见圆形贴纸标示‘one step garden’，吧台内有暖光照明与操作台",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "无明确饮品、食物、菜单价格、豆子产地或烘焙机/磨豆机等专业设备可见",
+      "text": "两杯黑陶瓷杯装咖啡，一杯拉花为心叶形，一杯为星形+可可粉装饰，属精品手作咖啡",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "三张图均未见有人使用笔记本电脑",
-      "kind": "laptops",
-      "photo": 1,
+      "text": "木制圆盘托盘上放着切好分块的玛格丽特披萨，配料为番茄块与罗勒叶",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面临水而建，玻璃窗正对湖面，可见远处树木、塔状建筑及岸边休憩人群",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店体为白色墙体+深色屋檐，临水侧设开放式遮阳棚，入口处有黑色铁链围栏",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.95
+    },
+    {
+      "text": "室内背景可见木质椅背，但未见完整座位区布局，无法判断总数；室外可见沿水岸设置桌椅",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:18Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:04Z"
 }

@@ -1,0 +1,83 @@
+{
+  "cafeId": "in-dough-we-trust",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cfe3c3a22fee",
+  "photos": [
+    "https://aos-comment.amap.com/B0LA61B0YE/comment/BD6795F0_AC5A_46D9_8FFA_5B0B35721DDD_L0_001_1636_200_1770274071805_27487366.jpg",
+    "https://aos-comment.amap.com/B0LA61B0YE/comment/content_media_external_file_120013_ss__1763250366150_34301328.jpg",
+    "https://aos-comment.amap.com/B0LA61B0YE/comment/content_media_external_file_119999_ss__1763250366142_56882353.jpg",
+    "https://aos-comment.amap.com/B0LA61B0YE/comment/A56FD11E_89C3_4B72_A50E_CEB5EECC4252_L0_001_1500_200_1760768487289_75961064.jpg"
+  ],
+  "photoKinds": [
+    "interior",
+    "food",
+    "menu"
+  ],
+  "observations": [
+    {
+      "text": "店内为木质地板和桌椅，装修风格偏复古工业风",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有 shelves 展示餐具和杯子",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "玻璃展示柜内陈列多种糕点和燕麦片",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见纽约曲奇、无花果磅蛋糕等甜点",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括热巧克力、奶茶和柠檬茶",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "座位数量约 6-8 张，以木制桌椅为主",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单价格清晰可见，如纽约曲奇 ¥18",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线主要来自顶部吊灯，自然光较少",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    }
+  ],
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    13.0,
+    15.0,
+    18.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:40:58Z"
+}

@@ -1,71 +1,83 @@
 {
   "cafeId": "fumi-coffee-shankangli",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "fda3c7b56f9c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "38f53b59b3d9",
   "photos": [
-    "https://aos-comment.amap.com/B0G064KS1X/comment/6ccab703cd5adca0e7cf57ffae8bb08a_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0G064KS1X/comment/e757f386a524fd7c3e2f9dd60c6d885c_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0G064KS1X/comment/d66e62dae15430e7123a6fde6b330219_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0G064KS1X/comment/36d64c0c464de998b469dc72d21fddc4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064KS1X/comment/ef99d6ff33be6ba357ebea4853aa74cf_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064KS1X/comment/6ebe40aa7ddbc1c9d35b6a431b979b81_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064KS1X/comment/6ccab703cd5adca0e7cf57ffae8bb08a_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "drink",
+    "menu",
     "interior",
-    "storefront",
-    "interior"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "吧台后有三台大型磨豆机，品牌为Mazzer。",
-      "kind": "beans",
+      "text": "吧台后方可见多台蓝色纸杯堆叠及磨豆机，表明有现煮咖啡服务",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上明确列出青柠气泡冷萃26元、青提冷萃26元、鸳鸯拿铁28元、桃子冷萃28元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前有木质条板桌，照片3中饮品置于其上，显示为室内桌位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内天花板为裸露木梁结构，墙面装饰有大小不一的圆形镜面与木盘",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片1中深蓝纸杯印有'fu mi'及'SARISTAS & ROASTERS'字样，确认品牌标识",
+      "kind": "brand",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片3中透明杯装有分层奶咖饮品，插吸管，为冷饮形态",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "店面外墙白色，门牌号13，门口有户外桌椅和盆栽植物。",
-      "kind": "space",
-      "photo": 2,
+      "text": "吧台区域未见顾客，照片4中仅见工作人员手部操作收银设备，无其他客人",
+      "kind": "crowd",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "室内吧台为木质，墙面装饰多个圆形镜子与木板。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": "0.85"
-    },
-    {
-      "text": "吧台前无顾客座位，仅见工作人员操作区。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外立牌显示营业时间为周一至周日8:00-18:00。",
-      "kind": "time",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内天花板为木质条板结构，装有轨道射灯。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "室外可见绿树，店铺位于临街位置。",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台上摆放多款瓶装咖啡豆产品供零售。",
+      "text": "照片4中吧台上方陈列多款包装咖啡豆，但无法看清产地或名称",
       "kind": "beans",
-      "photo": 1,
-      "confidence": 0.75
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": true,
-  "bigWindows": true,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:22Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    26.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:28Z"
 }

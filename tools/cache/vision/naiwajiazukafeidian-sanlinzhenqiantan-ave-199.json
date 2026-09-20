@@ -1,71 +1,86 @@
 {
   "cafeId": "naiwajiazukafeidian-sanlinzhenqiantan-ave-199",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9c1d749194c1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9c0927a8ef4d",
   "photos": [
-    "https://store.is.autonavi.com/showpic/50abf5e74f4883e00000004731086989?type=pic",
-    "https://aos-comment.amap.com/B0KAS9Q39H/comment/89CDC9E5_0875_47EA_BB5F_CEEF09420FCE_L0_001_1290_94_1767662695015_11184595.jpg",
-    "https://store.is.autonavi.com/showpic/50eb8bf7af4898910000004731116396?type=pic"
+    "https://aos-comment.amap.com/B0KAS9Q39H/comment/D57CE0B7_AF95_4D22_A035_06DE77CB8B81_L0_001_1500_200_1758780809264_54726726.jpg",
+    "https://store.is.autonavi.com/showpic/ad8f2185b23c20260000004731136074?type=pic",
+    "https://store.is.autonavi.com/showpic/6d5a2d6c684e0da00000002426568164?type=pic",
+    "https://store.is.autonavi.com/showpic/50abf5e74f4883e00000004731086989?type=pic"
   ],
   "photoKinds": [
     "interior",
+    "drink",
     "menu",
     "other"
   ],
   "observations": [
     {
-      "text": "店内位于商场内，有大面积落地窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "店内有大型卡通公仔装饰在吧台",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "吧台区域有咖啡机和饮品制作设备",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示有美式、拿铁等饮品选项",
+      "text": "菜单上有咖啡和茶饮，价格在18-26元",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单上可见部分饮品价格，如23元、25元等",
+      "text": "饮品杯身有'NEVER MIND CAFE'字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上可见'美式''拿铁'等常见品类",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "店内设有商品展示架，售卖周边产品",
-      "kind": "food",
-      "photo": 1,
+      "text": "店内有售卖周边商品的货架",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方有咖啡机和点单屏幕",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见有人使用电脑",
+      "kind": "laptops",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "有大型卡通形象装饰物置于吧台前",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内光线充足，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外可见城市建筑与绿植景观",
+      "text": "店外是现代化建筑和树木",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "mall",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:22:03Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    18.0,
+    20.0,
+    22.0,
+    23.0,
+    26.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:59Z"
 }

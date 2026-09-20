@@ -1,71 +1,79 @@
 {
   "cafeId": "t-one-south-bund",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "25d7444b261f",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "76ba87b7d93b",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1773016915892_74672421_1773016969141_18965664.jpg",
-    "https://aos-comment.amap.com/comment/content_service__1773016915900_69540558_1773016969142_32180914.jpg",
-    "http://store.is.autonavi.com/showpic/54ab1a212a786c613cb9283fb9c64ff6"
+    "http://store.is.autonavi.com/showpic/54ab1a212a786c613cb9283fb9c64ff6",
+    "https://aos-comment.amap.com/comment/content_service__1773016915908_21073819_1773016969143_40150428.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1773016915900_69540558_1773016969142_32180914.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店招为浅蓝底白字“T-ONE”，下方有“咖啡店”及“COFFEE”字样。",
+      "text": "店面为小型店铺，有室外座位区",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "入口外设绿色木质平台，有竹椅、桌、人造花装饰，可见至少4个座位。",
-      "kind": "seating",
-      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "临街玻璃门+木条板墙，门旁挂红色春联与“福”字，无落地窗。",
+      "text": "室外座位约4-6个，有绿色围栏和花卉装饰",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃窗，可见街道和树木",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "二楼窗户晾晒衣物，可见两组电话号码（63785567、63785750）贴于窗上。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "绿色平台栏杆缠黄色灯带，有人戴黑帽坐竹椅低头看手机/相机。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "第三张图显示店前铺砖地面，停一辆盖车衣的车，远处有棕榈树与遮阳伞下顾客。",
-      "kind": "view",
+      "text": "室内墙面为木质板条，布置有红色对联",
+      "kind": "decor",
       "photo": 3,
-      "confidence": 0.96
+      "confidence": 0.85
     },
     {
-      "text": "木条墙上挂立体木字“T ONE”，非“T-ONE”连写；左侧另挂圆形发光招牌“T-ONE coffee”。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.98
+      "text": "室外座位区有紫色和白色花卉装饰",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
     },
     {
-      "text": "未见烘焙机、手冲台、磨豆机、书架、宠物；未见饮品、食物、菜单或价格。",
-      "kind": "roastingGear",
+      "text": "照片中未见烘焙机或专业手冲设备",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
+    },
+    {
+      "text": "未见菜单上的价格或豆子产地信息",
+      "kind": "specialtyMenu",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外座位上有一名顾客正在休息",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:41:18Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:02Z"
 }

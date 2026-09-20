@@ -1,72 +1,61 @@
 {
   "cafeId": "yuenanzhongyuanchuanqikafei-zhangningdarongcheng",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8f0823de7054",
+  "inputDigest": "9437c0af9707",
   "photos": [
     "https://store.is.autonavi.com/showpic/f4b8aa0bd2b05bcad265e682266b9f5b",
     "https://store.is.autonavi.com/showpic/4a4fb6a5a15153c9af750e50ee754f40",
     "https://store.is.autonavi.com/showpic/178dbd000c817932b815e993e28619f4"
   ],
   "photoKinds": [
-    "storefront",
     "interior",
+    "drink",
     "food",
     "menu"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，空间宽敞",
+      "text": "店内有木质货架和吊灯，空间为商场内档口",
       "kind": "space",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有木质桌椅和吧台座位",
+      "text": "可见吧台式座位约4-6个",
       "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有咖啡制作设备和展示架",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "菜单上可见越南风味牛肉粉和冰咖啡",
+      "text": "菜单上有越南河粉和冰咖啡图片",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "有饮品广告牌展示冰咖啡和果汁",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内陈列多种包装咖啡产品",
-      "kind": "drinks",
+      "text": "照片中未见明显专业烘焙或冲煮设备",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有悬挂式竹编灯罩装饰",
-      "kind": "light",
-      "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "店招显示为‘越南中原传奇咖啡’",
-      "kind": "story",
+      "text": "店内光线明亮，无明显窗户采光",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:34Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:36Z"
 }

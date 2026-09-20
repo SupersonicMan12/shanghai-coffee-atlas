@@ -1,0 +1,68 @@
+{
+  "answers": {
+    "stay": {
+      "answer": "short",
+      "quote": "咖啡店里面的区域不足十平方米",
+      "url": "https://www.sohu.com/a/282807684_99896501",
+      "site": "搜狐网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "RAC Coffee",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d13236001-Reviews-RAC_Coffee-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 2,
+      "title": "RAC Bar 上海 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-141915790?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "咖啡清单 | 这些不让人坐的店 ",
+      "url": "https://www.sohu.com/a/282807684_99896501",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "Pick Up! Shanghai 漫游指南",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309404824523966120304",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 5,
+      "title": "RAC Coffee(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d13236001-Reviews-RAC_Coffee-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 6,
+      "title": "家·春 节 不 打 烊 咖 啡 店 清 单",
+      "url": "https://www.163.com/dy/article/IQMB1VA00522A0I7.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "RACBAR",
+      "url": "https://www.amap.com/place/B0FFI9QGYS",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 8,
+      "title": "魔都咖店|保安亭里的网红咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/831314673",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "会玩|不到 900 米长的安福路,每天都有新鲜事发生 ",
+      "url": "https://travel.sohu.com/a/503227059_409750",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:34:00Z"
+}

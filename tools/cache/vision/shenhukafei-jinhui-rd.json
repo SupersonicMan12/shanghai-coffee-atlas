@@ -1,72 +1,82 @@
 {
   "cafeId": "shenhukafei-jinhui-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "aa38ac994274",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d6b2294a2cf1",
   "photos": [
     "https://aos-comment.amap.com/B0FFKYM9HZ/comment/content_media_external_images_media_135643_ss_2_1687250262301_3bb642c8.jpg",
     "https://aos-comment.amap.com/B0FFKYM9HZ/comment/content_media_external_images_media_8173_ss__1770605749573_19496209.jpg",
     "https://aos-comment.amap.com/B0FFKYM9HZ/comment/3B31308F_9C10_4A7E_B77D_5ECDFFF174CB_L0_001_1440_1687_1727261040337_08094701.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "menu",
-    "food"
+    "interior",
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "有拉花拿铁和巧克力蛋糕",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "店内有吧台，顾客可站喝或坐。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口有室外座位和盆栽植物。",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单上有意式浓缩、手冲咖啡选项",
-      "kind": "drinks",
+      "text": "室内有手冲咖啡菜单，提供单品咖啡。",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "提供多种咖啡豆，包括限定款和季节款",
+      "text": "能看到多款咖啡豆包装袋，标明产地和烘焙商。",
       "kind": "beans",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门店临街，有玻璃幕墙和室外绿植",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外设有种植箱，摆放绿植",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有展示咖啡豆包装的木柜",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单显示有常规咖啡和特色饮品",
-      "kind": "menu",
+      "text": "菜单上显示美式、拿铁等意式咖啡，价格为28元。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "蛋糕上有焦糖香蕉和奶油装饰",
+      "text": "照片中有一杯拉花拿铁和一块巧克力蛋糕。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "店内有玻璃窗，采光好，临街。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质格子墙和绿植装饰。",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": null,
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:37Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:10Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "cushion-coffee-xintiandidongtaili",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9fdd92cd597a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "34a8cd6618db",
   "photos": [
     "https://store.is.autonavi.com/showpic/1c036e6395f54f0b0000006147094342?type=pic",
     "https://aos-comment.amap.com/B0M6VPHP7F/comment/content_media_external_file_380327_ss__1770366194356_57362272.jpg",
@@ -14,58 +14,60 @@
   ],
   "observations": [
     {
-      "text": "店内有咖啡制作设备，包括磨豆机和咖啡机",
-      "kind": "drinks",
+      "text": "吧台后有两台磨豆机及咖啡机，为专业出品设备",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单显示提供意式咖啡、维也纳奶盖咖啡、无咖啡因饮品及烘焙系列",
-      "kind": "drinks|food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品价格范围为10至24元",
+      "text": "菜单显示“无咖啡因”系列含巧克力拿铁、抹茶拿铁等饮品",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "可见的饮品包括拿铁、美式、抹茶拿铁、气泡美式等",
-      "kind": "drinks",
+      "text": "菜单上“意式咖啡”列明拿铁19元、花生拿铁21元、澳白15元等价格",
+      "kind": "menuPrices",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内空间为吧台式布局，面积中等",
+      "text": "菜单“烘焙系列”列有双重视巧克力黄油曲奇等4款甜点，标价12元",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内空间为木饰面吧台+操作区，无明显顾客座位，属吧台站喝型",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "吧台后方有工作人员操作，环境整洁",
-      "kind": "people",
+      "text": "照片中吧台后仅见1名工作人员，未见顾客，现场空置",
+      "kind": "crowd",
       "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "提供燕麦拿铁、冰摇黄杏气泡茶等特定饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单中标注部分饮品仅限制作冷饮",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:15:56Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    15.0,
+    19.0,
+    21.0,
+    22.0,
+    23.0,
+    24.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:00Z"
 }

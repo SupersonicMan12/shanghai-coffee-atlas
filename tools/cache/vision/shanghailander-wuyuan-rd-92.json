@@ -1,71 +1,83 @@
 {
   "cafeId": "shanghailander-wuyuan-rd-92",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "78168663939f",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "c17ff25e0a65",
   "photos": [
-    "https://aos-comment.amap.com/B0FFMALVHA/comment/b488c965455ec7c141b4fa5041a103eb_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFMALVHA/comment/C3F03641_1FF6_4D88_8E39_DCE06F2F6376_L0_001_1502_2002_1727958626898_00330373.jpg",
-    "https://aos-comment.amap.com/B0FFMALVHA/comment/c255c5c3f97a0cda260cfac4d3b990c4_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFMALVHA/comment/3b53e95983ead7635b03f1e587c952d1_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFMALVHA/comment/fa0ffaded27b02bbe5dfc935fa3d337f_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/e69fd88225b36b040000003442294876?type=pic",
+    "https://aos-comment.amap.com/B0FFMALVHA/comment/b488c965455ec7c141b4fa5041a103eb_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "food",
     "storefront",
-    "interior",
+    "menu",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店内有木质吧台和货架，陈列面包，后方有咖啡机。",
-      "kind": "seating",
+      "text": "店内有顾客在座位上用餐，可见至少4人。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有大玻璃窗和门，可看到内部空间。",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口可见数张桌椅，顾客在室内就坐，空间不宽敞。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外临街，有行人、电瓶车经过，非安静区域。",
-      "kind": "view",
+      "text": "菜单展示夏日冰饮，包括菠萝泡泡、黄瓜香梨汁、杏子冰茶，价格分别为32元、28元、32元。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "菜单屏显示COFFEE、JUICE&TEA、SPECIAL分类及价格。",
-      "kind": "menu",
-      "photo": 2,
+      "text": "食物照片中可见可颂、肉桂卷、巧克力饼干、芝士司康等烘焙食品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品照片中可见一杯拉花咖啡，图案为叶子形状。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有红色地垫，门前停放自行车，街道可见。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质长椅和金属框架椅子，座位形式为固定式与折叠椅混合。",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "店内墙上挂有小型画框，门口贴有卡通主题海报。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.75
-    },
-    {
-      "text": "门口地面铺红黄两色地垫，有自行车停靠。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店门口上方有“AREA 31”和“上海”路牌标识。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外无专用露天座位区，仅人行道边停放车辆。",
-      "kind": "outdoor",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "店面为临街小店铺，入口处空间狭窄，店内可见墙上挂画。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:41Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    32.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:39Z"
 }

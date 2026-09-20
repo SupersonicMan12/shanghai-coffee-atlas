@@ -1,7 +1,7 @@
 {
   "cafeId": "b3coffee-zhangjiangzhangtai",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cd8456b3a21f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "393222fb70ab",
   "photos": [
     "https://aos-comment.amap.com/B0LGXH91C5/comment/20260307-ca7a712d8afe2d2246c625e9-1DNUPKaOeKw5wBxUgvbQ5i.jpg",
     "https://aos-comment.amap.com/B0LGXH91C5/comment/20260307-ca7a712d8afe2d2246c625e9-3eXoQfEwcg47mkAk0QE1b0.jpg",
@@ -14,58 +14,67 @@
   ],
   "observations": [
     {
-      "text": "有室外座位和遮阳伞",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内有吧台和咖啡制作设备",
+      "text": "店内有吧台，后方有咖啡机和冷藏柜",
       "kind": "space",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "可见磨豆机、咖啡机等专业器具",
-      "kind": "roastingGear",
-      "photo": 2,
+      "text": "店外有几张桌椅和遮阳伞，可坐人",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单上显示饮品价格为168元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有员工在操作咖啡设备",
+      "text": "室内有两名员工在工作，一名顾客坐在室外",
       "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "展示柜中有冰镇饮品或甜品",
-      "kind": "food",
+      "text": "室内光线明亮，天花板有长条形灯带",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中有一杯冰咖啡饮品，上层是奶泡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有货架，陈列着包装好的咖啡豆或咖啡产品",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店外有绿植装饰，临街玻璃门",
-      "kind": "light",
+      "text": "店面为临街玻璃门，有红色拱形雨棚",
+      "kind": "bigWindows",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "饮品杯内为分层饮料，含奶与咖啡",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "菜单上有价格信息，如'168元'的月卡",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:22:40Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    168.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:44Z"
 }

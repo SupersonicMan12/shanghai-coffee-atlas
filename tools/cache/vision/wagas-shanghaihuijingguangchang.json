@@ -1,7 +1,7 @@
 {
   "cafeId": "wagas-shanghaihuijingguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4db33ecb8f32",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "14fd65367a63",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st0ed721ae-d440-407f-8484-d4d61aeefc19&user=search&operate=original",
     "https://aos-comment.amap.com/B0FFJH7BU0/comment/4fd48aab86c55b1364a4a1df7efab551_2048_2048_80.jpg",
@@ -9,45 +9,51 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "food"
   ],
   "observations": [
     {
-      "text": "店面为绿色木质外墙，有玻璃门窗",
+      "text": "店面为临街玻璃门，有‘sandwich salad pasta coffee cake’等字样",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "入口处玻璃门上可见菜单内容（三明治、沙拉等）",
-      "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内可见木质桌面和椅子，座位数量中等",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内光线明亮，有窗户但未见明显采光方向",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "一张食物照片展示了一份鸡肉沙拉配鹰嘴豆和牛油果",
+      "text": "食物碗内含烤鸡胸、牛油果、鹰嘴豆、芒果和酱料",
       "kind": "food",
       "photo": 3,
       "confidence": 0.95
+    },
+    {
+      "text": "营业时间为每日7:00am-10:00pm",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面门口玻璃上有‘FRESH JUICE’字样",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见部分桌椅和顾客脚部，空间为中等规模",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:10Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:58Z"
 }

@@ -1,59 +1,84 @@
 {
   "cafeId": "1915-binjiangguojiguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "05660d45a79c",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "64c2c7a6f708",
   "photos": [
     "https://store.is.autonavi.com/showpic/0a83de9dd9f37f7a0000000734718920?type=pic",
-    "https://aos-comment.amap.com/B0FFHK2ITC/comment/C707803D_90F1_400F_91C7_D3954DD9AAD9_L0_001_2016_151_1748857805842_55889972.jpg",
-    "https://store.is.autonavi.com/showpic/5eb829dc3baff3c20000002566844790?type=pic"
+    "https://store.is.autonavi.com/showpic/5eb829dc3baff3c20000002566844790?type=pic",
+    "http://aos-cdn-image.amap.com/sns/ugccomment/f478013c-b901-49ec-bf67-9f81348dc108.jpg",
+    "https://aos-comment.amap.com/B0FFHK2ITC/comment/C707803D_90F1_400F_91C7_D3954DD9AAD9_L0_001_2016_151_1748857805842_55889972.jpg"
   ],
   "photoKinds": [
-    "interior",
+    "drink",
+    "drink",
     "food",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有木质地板和吧台，空间为中等大小",
+      "text": "店内有复古自行车装饰，吧台后方有手冲器具和磨豆机。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间中等，木质地板，有绿植点缀，吧台前摆放自行车。",
       "kind": "space",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "吧台后方有电子菜单显示屏",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内摆放多盆绿植，装饰有复古自行车",
-      "kind": "decoration",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见一杯装在玻璃杯中的咖啡饮品",
+      "text": "饮品包括冰咖啡配冰淇淋、焦糖拿铁、拉花咖啡。",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括巧克力蛋糕、红丝绒蛋糕、冰淇淋甜品。",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供冰淇淋类甜品，其中一杯淋有焦糖酱",
-      "kind": "food",
-      "photo": 1,
+      "text": "菜单屏幕显示“怡和1915”字样，列有饮品名称与价格。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可见部分饮品价格，如35元、42元、58元等。",
+      "kind": "menuPrices",
+      "photo": 4,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有植物装饰，吧台后方有置物架和玻璃器皿。",
+      "kind": "story",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内光线明亮，但未见明显窗户或采光方向",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "甜品盛于玻璃杯中，有焦糖酱淋面，质地绵密。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:23Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    35.0,
+    42.0,
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:14Z"
 }

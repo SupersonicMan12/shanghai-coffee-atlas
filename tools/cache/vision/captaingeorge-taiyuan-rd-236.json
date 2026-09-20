@@ -1,71 +1,85 @@
 {
   "cafeId": "captaingeorge-taiyuan-rd-236",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "1ebd6929b667",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "6c6e8df82643",
   "photos": [
-    "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_file_1000021396_ss__1763255553663_47697733.jpg",
     "https://store.is.autonavi.com/showpic/fbb81d53eb3705770000002737688128?type=pic",
+    "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_file_1000021396_ss__1763255553663_47697733.jpg",
+    "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_images_media_53868_ss__1730275926170_79511784.jpg",
     "https://aos-comment.amap.com/B0K2PHJJ0X/comment/content_media_external_file_100000074_1762786747715_72125151.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
+    "storefront",
+    "menu",
     "storefront"
   ],
   "observations": [
     {
-      "text": "门口有木制折叠桌和长凳，提供室外座位。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内桌上摆有美式、拉花咖啡和一杯奶咖。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示豆子产地为肯尼亚奇安加SOE。",
+      "text": "店内提供手冲咖啡，菜单列有埃塞俄比亚、巴拿马、肯尼亚等产地豆子。",
       "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括美式、拉花拿铁、奶盖类饮料，搭配水和纸巾。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有木质门和石墙，标示营业时间为10:00-19:00，宠物友好。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有木质长凳，摆放手冲器具与杯具，可做室外座位。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上可见手冲单品价格，如45元、50元、55元等。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名为Captain George Flavor Museum Coffee Roaster，位于临街建筑内。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为老式石砌建筑，带有复古木门和玻璃窗，外观整洁。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店门玻璃标有营业时间周一至周日10-19点。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外长凳上放着手冲器具，可见咖啡制作设备。",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口立牌写明“宠物友好”，允许带宠物入内。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "建筑外墙为石材，门框与窗框为深色木制。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街大窗无遮挡，阳光可直射室内及门廊。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店外设置木质小桌和托盘，用于展示或放置物品。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T14:04:46Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    45.0,
+    50.0,
+    55.0,
+    60.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:38Z"
 }

@@ -1,71 +1,81 @@
 {
   "cafeId": "ushinecoffee-yongjia-rd-671",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b044d7bc874e",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "eb0b4180d70e",
   "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1773017451950_88534902_1773017453877_58350645.jpg",
     "https://aos-comment.amap.com/comment/content_service__1773017451945_68876851_1773017453875_40354998.jpg",
-    "https://store.is.autonavi.com/showpic/70b8f9d222745e46bf76933d68cc96a2",
-    "https://aos-comment.amap.com/B0JGA7E8BR/comment/4809a59f920fee8b41fe681716021dd5_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0JGA7E8BR/comment/FED5DA1C_C39E_4E27_A470_D86A6AD32BB7_L0_001_825_116_1773017451950_24489851.jpg",
+    "https://store.is.autonavi.com/showpic/70b8f9d222745e46bf76933d68cc96a2"
   ],
   "photoKinds": [
     "storefront",
     "interior",
+    "menu",
+    "drink",
     "other"
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡设备和虹吸壶",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见专业咖啡器具如磨豆机、电热水壶",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面为临街砖墙结构，有大玻璃窗",
-      "kind": "space",
+      "text": "店外有木质树桩桌，摆放手冲咖啡器具与南瓜灯装饰，地面散落落叶。",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台和操作区，空间较紧凑",
-      "kind": "space",
+      "text": "菜单卡片显示多款手冲豆子产地，包括巴拿马、埃塞俄比亚、哥伦比亚、萨尔瓦多等。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单卡片上标注了豆子处理法（如日晒、浅烘）及风味描述（如花香、果汁酸甜感）。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见手冲台、磨豆机等专业器具，操作区域整洁有序。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃窗设计，可从外部看到内部吧台与设备。",
+      "kind": "bigWindows",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "窗户上贴有'coffee'字样，显示为咖啡馆",
-      "kind": "space",
+      "text": "店招显示“Ushine Coffee 酉光咖啡工坊”，门口有绿植装饰。",
+      "kind": "storefront",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质置物架，摆放杯具和器皿",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有绿植装饰，窗边放置盆栽",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店名标识为'酉光咖啡工坊 / Ushine Coffee'",
-      "kind": "story",
+      "text": "饮品展示包含两个玻璃壶装深色液体（应为手冲咖啡）、陶瓷杯和陶碗，置于木托盘上。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "店内透过玻璃窗可见吧台、置物架及部分咖啡设备，空间紧凑。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:33Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:54Z"
 }

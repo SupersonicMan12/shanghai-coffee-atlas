@@ -1,71 +1,82 @@
 {
   "cafeId": "kenyuekafeizhijiangdian-zhijiang-west-rd-398",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7dcdc904497b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "51f14cf2d22f",
   "photos": [
+    "https://aos-comment.amap.com/B0KKVYV7IC/comment/%5B2025-02-27-14-16-19%5D73B76553-1C6F-44AF-9E74-756376E6FE1_1740636982867_58864498.jpg",
     "https://aos-comment.amap.com/B0KKVYV7IC/comment/%5B2025-02-27-14-16-07%5D155C11A0-CEB0-4B42-AB4B-A6C12791BA3_1740636982866_82193718.jpg",
-    "https://aos-comment.amap.com/B0KKVYV7IC/comment/D3A826B1_A208_4453_950B_970A98781F6A_L0_001_1500_2000_1740636982867_46919762.jpg",
-    "https://aos-comment.amap.com/B0KKVYV7IC/comment/%5B2025-02-27-14-16-19%5D73B76553-1C6F-44AF-9E74-756376E6FE1_1740636982867_58864498.jpg"
+    "https://aos-comment.amap.com/B0KKVYV7IC/comment/D3A826B1_A208_4453_950B_970A98781F6A_L0_001_1500_2000_1740636982867_46919762.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "other",
+    "interior",
     "food"
   ],
   "observations": [
     {
-      "text": "店面临街，有玻璃窗和蓝色门",
+      "text": "店内有玻璃展示柜，摆放着蛋挞等烘焙食品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有电子菜单屏幕，显示饮品和价格信息。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见一台百事可乐的饮料机。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有吧台和收银设备，是典型的咖啡店布局。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有蛋挞售卖，陈列在展示柜中",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "蛋挞标价为9元、17元、49元",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有顾客正在消费",
+      "text": "透过玻璃窗可以看到店内有顾客在座位上。",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有落地窗，可看到街道外景",
-      "kind": "light",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "有宣传海报显示‘粉桃浓浓抹茶拿铁’饮品",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见百事可乐饮料机",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口有纸袋，印有品牌标识",
-      "kind": "other",
+      "text": "店面有大面积落地玻璃窗，采光良好。",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "从窗外视角看，店外无室外座位。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内未见手冲台、虹吸壶或专业磨豆机等器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:31Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9,
+    17.0,
+    49.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:29Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "mr-bond-coffee-189nonggouwuzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4d567ef165db",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a20c89fdb6d5",
   "photos": [
     "https://store.is.autonavi.com/showpic/2a35ea1a3baa0d9a0000000669690094?type=pic",
     "https://store.is.autonavi.com/showpic/5bd8b5536ea9d81f0000000669672519?type=pic",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，临街玻璃门设计",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有落地窗，采光良好",
+      "text": "店门口有玻璃门，店内有玻璃砖墙",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口可见一位顾客正在点单",
-      "kind": "people",
+      "text": "店内有一个吧台，一名顾客正在吧台前点单",
+      "kind": "space",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内设有吧台和少量桌椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单显示有限时特惠套餐，价格58元",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见陈列的咖啡豆包装盒",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有展示柜，陈列糕点类食品",
+      "text": "店内有烘焙架，架子上有面包",
       "kind": "food",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有座位区，一名顾客坐在靠窗的座位上",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片拍摄于白天，光线充足",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单板在吧台后方，上面有饮品图片和文字",
+      "kind": "menu",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门店外侧为玻璃幕墙结构，反射城市建筑",
-      "kind": "view",
+      "text": "店内无明显专业咖啡设备（如手冲台、虹吸壶）",
+      "kind": "brewBar",
       "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "没有看到有人在使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:05Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:25Z"
 }

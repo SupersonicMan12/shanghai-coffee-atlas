@@ -1,59 +1,80 @@
 {
   "cafeId": "compass-coffee-xiaoqumenkoudiyijia",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f2b4ff28c088",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a1fc578317f8",
   "photos": [
+    "https://store.is.autonavi.com/showpic/80a6fb3497905f3b0000000863472208?type=pic",
     "https://aos-comment.amap.com/B0I66DLCEB/headerImg/e86fe82be17a4c82ea85eedee644a53a_2048_2048_80.jpg",
-    "http://store.is.autonavi.com/showpic/dca8ecd63e23dbef644057df37924f28",
-    "https://store.is.autonavi.com/showpic/80a6fb3497905f3b0000000863472208?type=pic"
+    "https://aos-comment.amap.com/B0I66DLCEB/comment/EC62F67F_31C1_4824_86E0_6864FAFF21A3_L0_001_1500_200_1754203816751_21091129.jpg",
+    "http://store.is.autonavi.com/showpic/dca8ecd63e23dbef644057df37924f28"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "店面有临街玻璃窗，可见店内部分景象",
+      "text": "店内有吧台和少量座位，空间紧凑，适合小坐。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "临街玻璃门面，有落地窗，采光良好。",
       "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括冰咖啡（含橙片装饰）和拿铁（拉花），以及深色热饮。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内为简约风格，有吧台和少量座位",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内可见绿植装饰，营造温馨氛围",
-      "kind": "decor",
-      "photo": 2,
+      "text": "吧台后可见手冲设备、磨豆机及陈列架，具备精品咖啡制作条件。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "饮品为分层冷萃咖啡，配有橙片和冰块",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内有手冲台等专业咖啡器具",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见少量木质桌椅和折叠椅作为座位",
-      "kind": "seating",
-      "photo": 2,
+      "text": "店内有绿植点缀，环境整洁简约。",
+      "kind": "story",
+      "photo": 4,
       "confidence": 0.7
+    },
+    {
+      "text": "照片中可见一人在店内使用手机，未见用电脑者。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身贴有“Compass Coffee”标签，表明品牌身份。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外台阶前有绿色招牌，标示店名。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:25:40Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:52Z"
 }

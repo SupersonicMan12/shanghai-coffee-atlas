@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "适合休息喝咖啡，做一些工作或午餐！免费WiFi！",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "适合休息喝咖啡，做一些工作或午餐！",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site": "Tripadvisor"
+    },
+    "price": {
+      "value": 40.0,
+      "quote": "人均消费约40元",
+      "url": "https://baike.baidu.com/item/Jamaica%20Blue东海广场店/14269928",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Jamaicablue Coffeeshop",
+      "url": "https://baike.baidu.com/item/Jamaicablue%20Coffeeshop/14289771",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "西餐咖啡馆厨工",
+      "url": "https://www.zhipin.com/job_detail/063913bf5b55d2421HJ42ti6FVVS.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 3,
+      "title": "Jamaica Blue（中山广场店）_百度百科",
+      "url": "https://baike.baidu.com/item/Jamaica%20Blue%EF%BC%88%E4%B8%AD%E5%B1%B1%E5%B9%BF%E5%9C%BA%E5%BA%97%EF%BC%89/14204185",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "Jamaica Blue东海广场店",
+      "url": "https://baike.baidu.com/item/Jamaica%20Blue东海广场店/14269928",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "Jamaicablue Coffeeshop(嘉铭中心店)",
+      "url": "https://baike.baidu.com/item/Jamaicablue%20Coffeeshop（嘉铭中心店）/14301880",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "Jamaicablue Coffeeshop(新城国际店)",
+      "url": "https://baike.baidu.com/item/Jamaicablue%20Coffeeshop（新城国际店）/14230387",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "Jamaica Blue(企业天地店)",
+      "url": "https://baike.baidu.com/item/Jamaica%20Blue（企业天地店）/14265830",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 8,
+      "title": "Jamaica Blue(九江路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d3391182-Reviews-Jamaica_Blue_Jiujiang_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 9,
+      "title": "Jamaica Blue(乌鲁木齐中路店)(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4449826-Reviews-Jamaica_Blue_WuLuMuQi_Middle_Road-Shanghai.html",
+      "site_name": "Tripadvisor"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:23Z"
+}

@@ -1,71 +1,91 @@
 {
   "cafeId": "aloha-coffee-xiangyang-s-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "4b7ac7af4edf",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "2fbd918d9ca5",
   "photos": [
-    "https://aos-comment.amap.com/B0I0VRBZDA/comment/content_media_external_images_media_36455_ss__1726153495732_30825039.jpg",
     "https://aos-comment.amap.com/comment/content_service__1771392228472_49787618_1771392258002_69074873.jpg",
-    "https://store.is.autonavi.com/showpic/d70855fabae715ce0000003073908837?type=pic"
+    "https://aos-comment.amap.com/B0I0VRBZDA/comment/%5B2026-01-26-16-21-51%5D40DB53D0-63DB-4FAC-8F95-007128802C7_1769415721237_00038795.jpg",
+    "https://aos-comment.amap.com/B0I0VRBZDA/comment/A1280A66_9134_48EB_B673_F0417DF4D2A2_L0_001_1500_200_1762502196440_41541804.jpg",
+    "https://aos-comment.amap.com/B0I0VRBZDA/comment/content_media_external_images_media_36455_ss__1726153495732_30825039.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
-    "interior"
+    "food",
+    "menu",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "吧台前有顾客点单，店内空间小，座位少",
-      "kind": "space",
-      "photo": 1,
+      "text": "店内有吧台，顾客在点单，店员在操作咖啡机。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "临街大玻璃窗，采光好，可见树影",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "菜单上有单品咖啡如埃塞俄比亚西达摩、哥伦比亚瑰夏，并标注产地和价格。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "店外有大树，街道景致清晰",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台区有La Marzocco咖啡机和Mazzer磨豆机",
+      "text": "饮品包括抹茶拿铁、dirty、美式、拿铁等，价格20-38元不等。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "菜单显示“新店开业”，日期为9.12-9.22",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "饮品含抹茶类（顶花）、拿铁、冰美式",
-      "kind": "drinks",
+      "text": "有特色饮品“NOT A CUP NOODLES”，杯顶有面条装饰。",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台上方陈列多个咖啡比赛获奖证书",
-      "kind": "story",
-      "photo": 3,
+      "text": "饮品摆盘精致，含抹茶类饮品（配雏菊）、拉花咖啡、冰滴咖啡。",
+      "kind": "drink",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "无室外座位，无人使用电脑",
-      "kind": "seating",
-      "photo": 1,
+      "text": "店面临街，有大玻璃窗，可见内部吧台与顾客。",
+      "kind": "bigWindows",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有电动车停放，门口有绿色塑料筐，环境为城市街道。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上列出咖啡组合套餐，包含黑咖啡+牛奶咖啡+特调果汁或酒类。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:41Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    28.0,
+    30.0,
+    38.0,
+    49.0,
+    58.0,
+    92.0,
+    98.0,
+    108.0,
+    109.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:26Z"
 }

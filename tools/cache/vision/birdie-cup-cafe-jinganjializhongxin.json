@@ -1,65 +1,84 @@
 {
   "cafeId": "birdie-cup-cafe-jinganjializhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d8d5f12425e3",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1c3aca2f6282",
   "photos": [
-    "https://aos-comment.amap.com/B0I39ZY11Q/comment/eccf5f4c0ad1d5438a1b3b4b10c5a545_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I39ZY11Q/comment/content_media_external_file_9502_ss__1763884603955_20152864.jpg",
-    "https://aos-comment.amap.com/B0I39ZY11Q/comment/content_media_external_file_60190_1771456819152_97909404.jpg"
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/content_media_external_file_60190_1771456819158_81316406.jpg",
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/dda26759bf043ea2ea50a100ae26988b_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I39ZY11Q/comment/eccf5f4c0ad1d5438a1b3b4b10c5a545_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "food"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃结构，有室外座位区",
-      "kind": "space",
-      "photo": 1,
+      "text": "店内有两台磨豆机，品牌为Fiorenzato。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上明确列出单品咖啡（SOE）和产地信息。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有植物装饰和现代风格座椅",
+      "text": "菜单上显示非咖啡饮品，如柠檬红茶和薄荷牛乳茶。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上清晰标示了部分饮品价格，如28元、26元、24元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有少量座位，但无遮阳设施。",
       "kind": "seating",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "饮品杯上有小鸟图案标识",
-      "kind": "drinks",
+      "text": "店面为临街玻璃幕墙结构，可看到内部操作区。",
+      "kind": "bigWindows",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供带有红色粉末和棉花糖的冷饮",
-      "kind": "drinks",
+      "text": "照片中未见明显顾客或工作人员在使用电脑。",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "提供顶部有薄荷叶的冰咖啡饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供拿铁拉花咖啡与华夫饼配甜点",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有木质桌面和餐盘餐具",
-      "kind": "interior",
-      "photo": 3,
+      "text": "照片中未见书架、宠物或植物装饰。",
+      "kind": "other",
+      "photo": 4,
       "confidence": 0.7
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:43Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    26.0,
+    24.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:11Z"
 }

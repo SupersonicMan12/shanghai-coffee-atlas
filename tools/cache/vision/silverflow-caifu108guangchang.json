@@ -1,55 +1,75 @@
 {
   "cafeId": "silverflow-caifu108guangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "016e4565d364",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d431b8f34c1b",
   "photos": [
     "https://store.is.autonavi.com/showpic/258b481ba25397d38d5892cb23be1521"
   ],
   "photoKinds": [
-    "interior"
+    "interior",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店内有几张桌椅，座位数量较少",
+      "text": "店位于商场内，为一个独立档口",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有4张小方桌和8把椅子",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "空间为商场内小型咖啡店，面积不大",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后可见手冲设备和磨豆机",
+      "text": "吧台后有红色货架，摆放着瓶罐",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "text": "墙上标有“贝果”字样，可能提供贝果",
-      "kind": "food",
+      "text": "吧台前有白色布罩覆盖的设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店内有植物装饰，摆放于地面",
-      "kind": "story",
+      "text": "店内有绿植装饰，靠近入口处有玩偶摆件",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "未见明显烘焙机或手冲台等专业器具",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见有人在使用电脑",
+      "kind": "laptops",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "柜台上方有红色标识，可能是品牌或菜单提示",
-      "kind": "story",
+      "text": "未见插座、户外座位及明确饮品食物名称",
+      "kind": "sockets",
       "photo": 1,
       "confidence": 0.6
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:19:04Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:44Z"
 }

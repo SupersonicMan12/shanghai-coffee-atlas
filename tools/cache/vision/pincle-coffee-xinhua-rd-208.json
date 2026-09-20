@@ -1,71 +1,64 @@
 {
   "cafeId": "pincle-coffee-xinhua-rd-208",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "a84fb0b51fb6",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "eabe7c79c989",
   "photos": [
-    "https://store.is.autonavi.com/showpic/5c6a483e0dc87ea40000002307288135?type=pic",
+    "https://store.is.autonavi.com/showpic/f3288d70de8ee8190000002368220863?type=pic",
     "https://store.is.autonavi.com/showpic/91a82eb0433e656b0000002435914720?type=pic",
-    "https://store.is.autonavi.com/showpic/bc6b7dd1aed343d70000002934582070?type=pic"
+    "https://store.is.autonavi.com/showpic/e35ead96abede3cd0000002368220862?type=pic",
+    "https://store.is.autonavi.com/showpic/5c6a483e0dc87ea40000002307288135?type=pic"
   ],
   "photoKinds": [
     "drink",
     "storefront",
-    "storefront"
+    "menu"
   ],
   "observations": [
     {
-      "text": "玻璃杯装拿铁，表面有心形与叶形拉花图案",
+      "text": "店内有手冲菜单，提供多种特调咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见饮品包括燕麦拿铁等拉花咖啡",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "杯垫为黄色圆形，印有黑色'PINCLE'字样",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店面外墙为浅灰混凝土板拼接，黑色金属框架窗与门",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "店外立牌写'PREMIUM COFFEE SINCE 2018 PINCLE Founded by WCRC CHAMPION'",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "临街设长条窗，窗下有矮台面，可作吧台座；另有一张小木桌配凳",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "入口上方与墙面嵌入式灯箱均标'PINCLE'，夜间亮起",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "透过窗户可见室内有木质墙面、风扇、蓝色金属架及咖啡设备轮廓",
-      "kind": "space",
-      "photo": 3,
       "confidence": 0.85
     },
     {
-      "text": "店外人行道铺灰色地砖，上方有茂密悬铃木枝叶覆盖",
+      "text": "店面为现代简约风格，临街玻璃窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上标有具体价格，如RMB 28、RMB 38",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有绿树，临街位置",
       "kind": "view",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": null,
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:42:24Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:38Z"
 }

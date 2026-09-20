@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "提供免费Wi-Fi和停车便利，适合带电脑办公",
+      "url": "https://maps.apple.com/place?auid=1118906085398082&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 18.0,
+      "quote": "人均消费约¥18",
+      "url": "http://m.dianping.com/shop/1026206317472402?msource=applemaps",
+      "site": "【SilverFlow银流咖啡(财富108广场店)】电话_地址 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "SilverFlow Yinliu Coffee (Fortune 108 Guangchang Branch)",
+      "url": "https://maps.apple.com/place?auid=1118906085398082&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "【SilverFlow银流咖啡(财富108广场店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/1026206317472402?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "财富108广场_百度百科",
+      "url": "https://baike.baidu.com/item/%E8%B4%A2%E5%AF%8C108%E5%B9%BF%E5%9C%BA/2060214",
+      "site_name": "百度"
+    },
+    {
+      "index": 4,
+      "title": "SilverFlow银流咖啡(新天地店)",
+      "url": "https://www.dianping.com/shop/1358935413/photos",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "魔都圣诞咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1885181105",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "对话银流咖啡许兰月:一杯咖啡让商圈边角料逆袭为黄金点位 ",
+      "url": "https://caifuhao.eastmoney.com/news/20250628111239867568560",
+      "site_name": "东方财富网"
+    },
+    {
+      "index": 7,
+      "title": "对话银流咖啡许兰月:一杯咖啡让商圈边角料逆袭为黄金点位 ",
+      "url": "https://www.sohu.com/a/908748737_121002798",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 8,
+      "title": "SilverFlow銀流咖啡（長寧國際店） (上海徐家匯地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-141102824/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "“咖啡+贝果”,单店外卖月销1万单?",
+      "url": "https://m.jiemian.com/article/10381550.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 10,
+      "title": "【长宁咖啡馆】“银流咖啡”:一家主打咖啡+贝果套餐的快销式咖啡店 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODA2NzgyNQ==&mid=2653163294&idx=2&sn=e78caa6d1796f8fae99b2bd26f9b22bd&chksm=bc60f4a5de0da01003935188eaff04d09d00e7815d34fd938871c5b581cdea777bc78db80566&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:15:53Z"
+}

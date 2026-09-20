@@ -1,7 +1,7 @@
 {
   "cafeId": "x-verge-duolun-rd-52",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fe7f0b97c5c6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "483549a3e679",
   "photos": [
     "https://aos-comment.amap.com/B0J2KA3WZ9/comment/124725ff84893843d2d478b20b99c12d_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J2KA3WZ9/comment/d69595a9e70f6bfccfdddeb235aa86a2_2048_2048_80.jpg",
@@ -14,58 +14,70 @@
   ],
   "observations": [
     {
-      "text": "饮品为肉桂摩卡，杯中放有肉桂棒",
+      "text": "饮品杯沿架着两根肉桂棒，杯面拉花为‘X’形图案并撒有可可粉。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "咖啡馆位于砖墙建筑内，入口有玻璃门和拱形门框",
+      "text": "店面玻璃门上贴有‘X-Verge Coffee’及营业时间‘Mon-Sun 10:00am-6:00pm’。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示‘Classic Coffee’中‘美式’28元、‘拿铁’30元、‘澳白’30元；‘Flavored Coffee’中‘茶色碧玺’38元、‘帕帕拉恰’42元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面玻璃门内可见磨砂玻璃砖墙与石质方块坐凳，无明显吧台或手冲设备。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示经典咖啡价格为28-30元，特色饮品价格为38-50元",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供燕麦奶选项，加3元可更换",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "有冷热饮品选项，部分饮品仅提供冷饮",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单包含肉桂摩卡、茉莉桂花拿铁等风味咖啡",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺营业时间为每日10:00至18:00",
-      "kind": "time",
+      "text": "店内未见顾客，无电脑使用者，无烘焙机/虹吸/多台磨豆机等专业器具。",
+      "kind": "people",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "临街落地玻璃门，外有黑色双头复古路灯，门牌号‘1444211’。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中‘加3元换燕麦奶，5元换冰博客’说明提供植物奶选项。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店门口有复古路灯，门前无室外座位",
-      "kind": "outdoor",
-      "photo": 2,
+      "text": "菜单‘Spieccally Prepared Drinks’列有‘石库门’‘滨江绿地’等特调名，但未标价格细节。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:37Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    30.0,
+    38.0,
+    42.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:45Z"
 }

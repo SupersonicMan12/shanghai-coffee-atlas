@@ -1,7 +1,7 @@
 {
   "cafeId": "danluokafei-quxi-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "eb071fb01e58",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "88add09aa1ea",
   "photos": [
     "https://store.is.autonavi.com/showpic/d3fbba5822321a340000001123046125?type=pic",
     "http://store.is.autonavi.com/showpic/03b46b2e2b4039b9f616b01a5daf54a8",
@@ -14,52 +14,53 @@
   ],
   "observations": [
     {
-      "text": "饮品表面有拉花图案",
+      "text": "黑色杯中盛有拉花咖啡，图案为三叶草形奶泡纹路",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店铺门口有台阶和室外桌椅",
-      "kind": "seating",
+      "text": "店门口台阶通向玻璃门入口，右侧设白色折叠桌椅户外区",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店外设有白色折叠桌椅",
-      "kind": "seating",
+      "text": "店招含“Danro”及“丹罗咖啡”字样，下方标有“COFFEE & BAR”",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "入口旁立式菜单牌展示食物图片，可见面包类食品（如可颂/贝果）",
+      "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店铺临街，有玻璃门和窗户",
-      "kind": "light",
+      "text": "室外区域摆放约4张白色折叠桌椅，无顾客就坐，地面为木质平台与石材台阶",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内透过玻璃门可见深色吧台及部分内部陈设，未见明显专业冲煮设备或烘焙机",
+      "kind": "interior",
       "photo": 2,
       "confidence": 0.8
-    },
-    {
-      "text": "店铺为咖啡馆与酒吧结合形式",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口放置有菜单展示牌",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店外有楼梯通向入口",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:35Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:47Z"
 }

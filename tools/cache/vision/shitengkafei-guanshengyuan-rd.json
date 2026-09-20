@@ -1,7 +1,7 @@
 {
   "cafeId": "shitengkafei-guanshengyuan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "89906aab7ae9",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "62c3b1b0baf5",
   "photos": [
     "https://aos-comment.amap.com/B0JD513F3E/comment/content_media_external_images_media_8002_1726474431380_85204255.jpg",
     "http://store.is.autonavi.com/showpic/ab0869e642f755bc37fdbe2870ffa427",
@@ -14,46 +14,72 @@
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃窗，可见内部部分陈设",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示有美式、拿铁、Dirty等咖啡饮品",
+      "text": "菜单显示有美式、拿铁、Dirty、澳白等咖啡，价格20-38元。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "菜单价格区间约¥20-¥48",
+      "text": "菜单提供特调饮品如酱油拿铁、芝麻拿铁、日式咖喱拿铁等。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单有手冲选项，单品豆可选，价格35-38元。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品照片展示一杯冰咖啡和一杯带奶泡的热饮，置于金属托盘上。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为临街玻璃窗设计，可见店内部分陈设与植物。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有白色墙面，印有“stay young live simple”字样。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单提供抹茶牛奶、巧克力牛奶、杨梅气泡果汁等其他饮品。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供冰咖啡和拿铁等多种选择",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面临街，有玻璃窗采光",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "菜单上有'石藤选豆'选项，可选烘焙程度",
+      "text": "菜单支持选择咖啡豆：石藤特选豆（+3元）或石藤酒鬼豆（+5元）。",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:57Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    28.0,
+    30.0,
+    32.0,
+    38.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:22Z"
 }

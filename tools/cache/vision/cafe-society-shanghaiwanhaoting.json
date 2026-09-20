@@ -1,47 +1,76 @@
 {
   "cafeId": "cafe-society-shanghaiwanhaoting",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "75ae84b18446",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d56ef13c935e",
   "photos": [
-    "http://store.is.autonavi.com/showpic/1d3bb65089d132888f2ed07d0d261715",
     "https://aos-comment.amap.com/B0H16CZO71/comment/0c866e2991c92f48b401e592614001a1_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/1d3bb65089d132888f2ed07d0d261715",
+    "https://aos-comment.amap.com/B0H16CZO71/comment/3a645c050886b1bb89ca503e6bd538ad_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H16CZO71/comment/content_media_external_file_100007133_1766328157124_95624125.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "food",
     "drink"
   ],
   "observations": [
     {
-      "text": "门口有台阶和盆栽，门头标“咖啡会社”",
-      "kind": "space",
+      "text": "菜单显示经典咖啡饮品，如美式、拿铁、卡布奇诺，价格23-36元。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单提供手冲咖啡选项，包括水洗/日晒埃塞耶加雪菲和黄金曼特宁，价格48-58元。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "面包展示柜中有多种独立包装的烘焙食品，包括三角形面包和卷类点心。",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "陈列柜内有紫薯卷、三角包等面包",
-      "kind": "food",
+      "text": "冷藏柜陈列多种瓶装饮料，包括Bundaberg果味气泡水、Vedett啤酒等。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街建筑，有玻璃门和黑色招牌，门前有盆栽绿植。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "冷藏柜有Bundaberg气泡饮、Vedett啤酒",
+      "text": "菜单标注可选Oatly燕麦奶，加价5元。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "货架上有“COFFEE ROASTERS”字样咖啡豆袋",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:11Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    23.0,
+    25.0,
+    30.0,
+    33.0,
+    36.0,
+    48.0,
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:07Z"
 }

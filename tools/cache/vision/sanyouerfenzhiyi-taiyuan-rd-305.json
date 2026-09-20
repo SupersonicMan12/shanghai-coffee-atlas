@@ -1,71 +1,85 @@
 {
   "cafeId": "sanyouerfenzhiyi-taiyuan-rd-305",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "f430d9e664d0",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "818589b0c541",
   "photos": [
-    "https://store.is.autonavi.com/showpic/adffe90141cf273c0000002367904584?type=pic",
     "https://aos-comment.amap.com/B0JR461DID/comment/content_media_external_file_8926_1766281132084_90753513.jpg",
-    "https://aos-comment.amap.com/B0JR461DID/comment/768338f5-c6e1-4a72-8806-79ae00a7e0db.png"
+    "https://aos-comment.amap.com/B0JR461DID/comment/E763369F_BE8C_49F6_8318_9B5FD76E343C_L0_001_1500_2000_1735378422251_94643023.jpg",
+    "https://aos-comment.amap.com/B0JR461DID/comment/768338f5-c6e1-4a72-8806-79ae00a7e0db.png",
+    "https://store.is.autonavi.com/showpic/adffe90141cf273c0000002367904584?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "drink"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "门口有“3½”门牌号，入口窄小，室内灯光暖黄。",
+      "text": "店面门牌号为3½，入口有条形地垫，内部灯光温暖。",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "饮品含“三十与贝”（水洗埃塞、干贝）和“树枝与绿实”（氮气黑咖啡、凤梨）。",
+      "text": "店内饮品包括特调咖啡，如“三十与贝”、“树枝与绿实”，含酒精成分（ABV 2.7%-4.5%）。",
       "kind": "drinks",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供抹茶饮品，配料含贵州抹茶、燕麦奶、牛奶、柚子油，配小点心。",
+      "text": "菜单显示特调饮品价格为55-75元，包含咖啡、威士忌、金酒等成分。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供抹茶类饮品，配有小碗点心，饮品描述含“抹茶、米酒、黑麦奶”等成分。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内桌为木质，饮品置于木托盘上，环境简洁。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "饮品旁附纸质说明卡，列有原料、风味描述及酒精度（ABV 2.7%、4.5%）。",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "入口处地面有条纹台阶，门外人行道铺石子，散落几片落叶。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品搭配玉米片蘸酱或咸味饼干，非传统咖啡馆甜点。",
+      "text": "饮品搭配小吃，如玉米片配青酱、酥脆饼干，摆盘精致。",
       "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "无可见座位数量、电脑使用、烘焙设备或大型窗户。",
-      "kind": "seating",
+      "text": "菜单上可见“埃塞俄比亚”、“哥伦比亚”等咖啡豆产地信息。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品单上有“SIGNATURE”特调系列，含Espresso、Whisky、Gin等成分。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内桌面为木质，背景墙为黄色，环境简洁现代。",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.85
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:30Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    55.0,
+    60.0,
+    75.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:33Z"
 }

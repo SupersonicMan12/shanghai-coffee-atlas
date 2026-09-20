@@ -1,7 +1,7 @@
 {
   "cafeId": "lianyizhankafeiguan-xiuwen-rd-118",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7de33e7edeec",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "229be0497c45",
   "photos": [
     "https://store.is.autonavi.com/showpic/df1a4eaee21fa2a37d0208dd4e71d258",
     "https://store.is.autonavi.com/showpic/b3b14e6d3c2ec71835897a16af0717fc",
@@ -14,58 +14,71 @@
   ],
   "observations": [
     {
-      "text": "菜单显示美式咖啡20元，拿铁25元",
+      "text": "菜单显示有手冲咖啡，价格25元",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供手冲咖啡（基础款）40元",
+      "text": "菜单显示有燕麦拿铁，价格28元",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有红茶、茉莉花茶、桂花乌龙等茶饮",
+      "text": "菜单显示有美式、拿铁等基础咖啡，价格20-25元",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内设有吧台和几张木质桌椅",
+      "text": "室内有吧台，吧台后方有操作区和一台白色机器",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有约4张木质桌椅，座位数少于6个",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有工作人员在操作台后工作",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店面有大面积玻璃窗，为临街店铺",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店外有露天座位区，顾客在户外休息",
+      "text": "店外有露天座位，顾客在户外区域就坐",
       "kind": "outdoor",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店铺位于临街位置，门前有树木和绿植",
-      "kind": "view",
+      "text": "照片中看到有人在店内及店外，非空无一人",
+      "kind": "people",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见磨豆机和手冲设备",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:19:15Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    23.0,
+    25.0,
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:53Z"
 }

@@ -1,65 +1,81 @@
 {
   "cafeId": "plusone-xian",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6002c22c6d15",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "81ca19720a42",
   "photos": [
-    "https://aos-comment.amap.com/B0L2TO44Z8/comment/content_media_external_file_1000062494_ss__1771674071907_47105994.jpg",
-    "https://store.is.autonavi.com/showpic/186567b69fd32a45472491a4d3e9c3a1",
-    "https://store.is.autonavi.com/showpic/26a40f2049c424df0000002799440348?type=pic"
+    "https://store.is.autonavi.com/showpic/d764890d921d97c90000002425658242?type=pic",
+    "https://aos-comment.amap.com/B0L2TO44Z8/comment/content_media_external_file_100009469_1764395118865_58770485.jpg",
+    "https://aos-comment.amap.com/B0L2TO44Z8/comment/C44DC9E5_BF79_43C5_8441_EC23F6974C60_L0_001_1504_200_1770539758645_07132473.jpg",
+    "https://aos-comment.amap.com/B0L2TO44Z8/comment/content_media_external_file_1000062494_ss__1771674071907_47105994.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
     "drink",
-    "storefront"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有白色吧台，摆放饮品菜单和咖啡机。",
-      "kind": "space",
+      "text": "店面外墙由绿色六边形模块构成，临街有玻璃门，门前有草坪。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有吧台和圆形花艺台，落地窗可见室外绿植和街道，采光良好。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡磨豆机、手冲器具及菜单展示架，具备精品咖啡制作条件。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有“桂花米酿”、“辣椒波旁”等特调饮品名称，显示有创意特调。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品包括拉花拿铁、冰滴/Dirty类分层咖啡，食物为一层奶油蛋糕，顶部有碎饼干和一颗坚果。",
+      "kind": "drinks|food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见大型天鹅装饰的改装保时捷车。",
-      "kind": "decor",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面外墙有蜂窝状绿色装饰，入口处有卡通人物贴纸。",
-      "kind": "storefront",
+      "text": "透明杯装饮品呈现分层效果，底部白色乳状，上层咖啡色，表面有油脂纹路。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "临街大玻璃窗，采光良好，可见室外绿植。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "右侧有顾客坐在椅子上，但座位数量不多。",
+      "text": "店内设有木质座椅，有顾客在座位上，空间布局开放，非纯吧台站喝。",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "吧台上可见挂耳咖啡包装和菜单，但具体饮品名称不清晰。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.6
-    },
-    {
-      "text": "店内有悬挂绿植，营造自然氛围。",
-      "kind": "decor",
-      "photo": 1,
+      "text": "菜单卡片上写有“Bourbon”字样，可能指咖啡豆产地或特调名称。",
+      "kind": "beans|drinks",
+      "photo": 3,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": false,
-  "outdoor": false,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:31Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:41Z"
 }

@@ -583,7 +583,9 @@ export default function App() {
             </svg>
           </span>
           <span className="brand-words">
-            <strong>The Shanghai Coffee Atlas</strong>
+            <strong>
+              <span className="brand-long">The Shanghai </span>Coffee Atlas
+            </strong>
             <em className="zh">上海咖啡地图集</em>
           </span>
         </div>
@@ -752,6 +754,15 @@ export default function App() {
           </div>
 
           <div className="attribution">{t(UI.attribution)}</div>
+
+          {pinArm && (
+            <div className="pin-banner" role="status">
+              <span>{t(UI.pinBanner)}</span>
+              <button className="link" onClick={() => armPin(false)}>
+                {t(UI.cancel)}
+              </button>
+            </div>
+          )}
 
           {view === 'list' && (
             <ListView

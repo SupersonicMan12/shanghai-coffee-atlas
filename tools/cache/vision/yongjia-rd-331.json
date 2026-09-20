@@ -1,7 +1,7 @@
 {
   "cafeId": "yongjia-rd-331",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "923087038f6f",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "bfda99bd0efb",
   "photos": [
     "https://aos-comment.amap.com/B0FFKQQYGG/comment/1c0c5362a4ca49c6616b5445ded69314_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFKQQYGG/comment/60c40747dccc2b7f064ff105a18b13de_2048_2048_80.jpg",
@@ -14,40 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店内为木质桌椅，座位约8-10个",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有大面积窗户，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "食物为法式吐司，配草莓和奶油",
+      "text": "食物为法式吐司，配草莓、奶油和糖粉，盘中插有写有“面包咖啡好天气”的小牌。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "菜单上有桂花拿铁、黄油啤酒拿铁等饮品",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "店内空间狭长，木质桌椅排列整齐，靠墙有卡座和抱枕，整体座位约8-12个。",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "墙面有猫咪主题的装饰和菜单信息",
+      "text": "菜单板上可见白玉桂花拿铁、黄油啤酒拿铁、苹果肉桂拿铁等特调饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有两扇木框窗户，一侧挂有白色窗帘，另一侧可望见街景与树木。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙面贴有“小狗中介所”海报及店铺信息，含其他分店地址。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内铺设浅色木地板，天花板装有轨道射灯，墙上挂有空调。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧墙边有楼梯通往二层，楼梯旁有灭火器。",
       "kind": "space",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "卡座区域设有插座，可供充电使用。",
+      "kind": "sockets",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": true,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:17Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:50Z"
 }

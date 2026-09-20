@@ -1,7 +1,7 @@
 {
   "cafeId": "yibeikafei-jiangning",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f8db4f2fd1af",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8a263869aaed",
   "photos": [
     "https://store.is.autonavi.com/showpic/0b74058edba288e29d465b398fbeb049",
     "https://store.is.autonavi.com/showpic/a1946fd6cfddf16dd9de723b5ddfc534",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "店铺为小型独立咖啡亭，临街设置",
+      "text": "白色集装箱改造店面，带绿白条纹遮阳棚，临街设置室外座位区",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有两把折叠椅和一个储物箱作为室外座位",
+      "text": "店前设2把折叠椅+1个堆叠塑料箱作临时桌，地面为木纹地板与人造草坪拼接",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店前有绿植装饰，环境整洁",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "设有玻璃窗，可见内部操作台和咖啡设备",
+      "text": "正面大玻璃窗，透过窗户可见内部吧台及操作区域，无明显遮挡",
       "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见手冲咖啡器具和磨豆机",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口立牌展示菜单，含饮品价格信息",
+      "text": "右侧玻璃门上贴有中文菜单（含“推荐”字样）及二维码，可辨识部分饮品名与价格",
       "kind": "menu",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.95
     },
     {
-      "text": "店铺位于城市街道旁，背景有高层建筑",
+      "text": "店内吧台后方可见咖啡机、磨豆机等设备，但未见手冲台/虹吸/烘焙机等特制器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "门口立式菜单板显示饮品名称与价格，如“美式 28”“燕麦拿铁 35”，价格清晰可读",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外摆放大型绿植盆栽及花束，沿墙设长条木凳，无顾客在场，画面中无人使用电脑",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "背景可见高层现代建筑，无河/树/天台等显著景观，属城市街边环境",
       "kind": "view",
       "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "室外有遮阳棚，提供遮蔽空间",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:19Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:02Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "lumazikafei-zhongnanxincun",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "5852813da11a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ce319a8afaa9",
   "photos": [
     "https://aos-comment.amap.com/B0FFHB9C6V/comment/21f168a14542b07ed169e3a82a3168fe_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFHB9C6V/comment/97d8a9357962e98c23df9d245bb7283d_2048_2048_80.jpg",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "临街有长条窗台座位，室内有吧台和高脚凳。",
+      "text": "临街咖啡馆，有外摆吧台座位，可直接看到店内空间。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质吧台和高脚凳，后方有格子货架陈列器具。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内设多层木质书架，摆放杯具与书籍。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "室外人行道上有数位顾客站立或行走。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有人坐在窗边座位阅读，未见电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面位于两棵大树之间，街道对面无高楼。",
+      "text": "店外有大棵梧桐树，遮挡部分店面，形成绿荫环境。",
       "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门牌号为湖南路9号甲，可确认具体位置。",
-      "kind": "time",
+      "text": "店内可见吊灯、深色木饰面与橙色墙面，风格偏复古工业风。",
+      "kind": "style",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.8
     },
     {
-      "text": "店内吧台后方可见置物架，未见明显烘焙机。",
-      "kind": "beans",
+      "text": "有顾客在吧台内就坐，一人在阅读，另一人在柜台前站立。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为两层老式建筑，临街开窗，无明显庭院或天台。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台区域有多个玻璃杯具、金属壶等冲煮器具。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.8
+    },
+    {
+      "text": "店外人行道上有数名行人经过，店内有顾客在场。",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:44Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:14Z"
 }

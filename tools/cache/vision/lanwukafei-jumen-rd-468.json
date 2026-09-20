@@ -1,71 +1,80 @@
 {
   "cafeId": "lanwukafei-jumen-rd-468",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "3fc340d07fa6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0a9fb5db60ab",
   "photos": [
-    "https://store.is.autonavi.com/showpic/d25ae7a297d9db9b0000002993744151?type=pic",
     "https://store.is.autonavi.com/showpic/1dc0675066dba4fd0000002341830031?type=pic",
-    "https://store.is.autonavi.com/showpic/3b620b01bc6518e60000002341810221?type=pic"
+    "https://store.is.autonavi.com/showpic/406a40d7177c76540000002993742252?type=pic",
+    "https://aos-comment.amap.com/B0GKGRABSU/comment/9da42e01a522e0b42effbd194c4de2db_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/d25ae7a297d9db9b0000002993744151?type=pic"
   ],
   "photoKinds": [
-    "interior",
     "drink",
+    "storefront",
+    "food",
     "interior"
   ],
   "observations": [
     {
-      "text": "吧台式小店，木质吧台配5个高脚凳，后方为红砖墙与黑板菜单。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台后有2台意式咖啡机、2台磨豆机，可见专业咖啡制作设备。",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "黑板菜单清晰显示‘椰子绿了 ¥38’‘茯苓无语 ¥34’‘Dirty专区’等饮品及价格。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "左侧为蓝色门框的临街玻璃门/窗，透光良好，可见街景与停放摩托车。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品为拉花拿铁，表面有银杏叶造型（一橙一绿）及干桂花碎，盛于带彩绘的瓷碗。",
-      "kind": "drink",
+      "text": "门口蓝色门框，玻璃门贴有红色'馬到運開'春联，门内可见吧台与咖啡机设备",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "吧台旁木架陈列多张黑胶唱片封面，墙上挂有中式风格画作。",
-      "kind": "story",
+      "text": "室内为长条形吧台，后方红砖墙配黑板菜单，吧台前有4张高脚凳及1张木制高脚凳",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后有磨豆机、手冲壶、双头意式机等精品咖啡器具，未见烘豆机",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品：两杯带雕花的琥珀色特调酒/茶，杯中有冰球、樱桃、迷迭香；另一杯为银杏叶拉花的奶咖（无糖浆圈），撒有干花碎",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "黑板写有‘每月活动’：如‘每日9:30前任意拿铁24元’‘周三老钱系列第二杯半价’等。",
-      "kind": "menu",
+      "text": "食物：圣诞老人与小熊造型马卡龙，夹心为绿色/棕色奶油，非普通甜点",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.96
+      "confidence": 1.0
     },
     {
-      "text": "照片1与3中各有一名店员背对镜头操作咖啡机，未见顾客或电脑。",
+      "text": "店内仅1名店员在吧台后操作，无顾客就坐，未见有人使用电脑",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.92
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗外可见绿色圣诞树剪纸，窗下设木质折叠座，门外台阶有两块可折叠木板凳",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "黑板菜单上可见'今日特调'、'手冲'等字样，但价格与豆子产地无法辨识",
+      "kind": "menu",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:51Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:33Z"
 }

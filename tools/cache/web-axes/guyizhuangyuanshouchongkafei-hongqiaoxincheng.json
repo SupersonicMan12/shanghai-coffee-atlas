@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "工作日去的时候会看到办公族带着电脑来这里工作",
+      "url": "https://m.thepaper.cn/newsDetail_forward_31819361",
+      "site": "澎湃新闻网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "这里真的好安静, 就是有种让人沉下心来的氛围",
+      "url": "https://www.dianping.com/discovery/1351641988",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "总有一两个雨天或者寒冷的周末 想一个人坐坐发发呆,看看书",
+      "url": "https://www.dianping.com/discovery/1351641988",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "手冲咖啡散发着淡淡的香气,我们挑选了一款「埃塞俄比亚」的豆子",
+      "url": "https://m.thepaper.cn/newsDetail_forward_31819361",
+      "site": "澎湃新闻网"
+    },
+    "price": {
+      "value": 68.0,
+      "quote": "LOOK点单推荐:手冲咖啡 ( 68元)",
+      "url": "https://m.thepaper.cn/newsDetail_forward_31819361",
+      "site": "澎湃新闻网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "降温的上海,去古北喝这一杯",
+      "url": "https://m.thepaper.cn/newsDetail_forward_31819361",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 2,
+      "title": "上海适合i人待一下午的咖啡馆☕ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1351641988",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "古一庄园·手冲咖啡-商户官方图片-上海美食-大众点评网",
+      "url": "http://www.dianping.com/shop/iPR20ZudfqWJETTl/officialphotos",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "【古一庄园·手冲咖啡】地址,电话,路线,周边设施_360地图",
+      "url": "https://m.map.360.cn/?new=1&src=pc_shenbian&pid=b4baa1166c3d1d61",
+      "site_name": "360官网"
+    },
+    {
+      "index": 5,
+      "title": "古一庄园·手冲咖啡 - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-84141458/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 8,
+      "title": "满满惊喜,不离日常|我的上海咖啡清单(9家),喝完后想听你的",
+      "url": "https://www.163.com/dy/article/KU3JO8JO0521G5OJ.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 9,
+      "title": "上海咖啡，大陆第一 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/458228227",
+      "site_name": "知乎"
+    },
+    {
+      "index": 10,
+      "title": "cclab coffee&records - 携程",
+      "url": "https://you.ctrip.com/food/2/122676875.html",
+      "site_name": "携程旅行网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:04:44Z"
+}

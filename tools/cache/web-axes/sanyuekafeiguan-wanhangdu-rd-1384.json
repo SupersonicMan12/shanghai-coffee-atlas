@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "推开门,像是走进了王家卫的电影世界,昏黄灯光下",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site": "搜狐网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在这样温柔的三月,暖洋洋的窝在沙发里发个呆吧",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site": "搜狐网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "曼特宁手冲 提拉米苏",
+      "url": "https://www.163.com/dy/article/G0MR3DO90514C79Q.html",
+      "site": "163网易免费邮"
+    },
+    "price": {
+      "value": 63.0,
+      "quote": "¥63/人",
+      "url": "https://m.dianping.com/shop/2933842",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "中山公园/江苏路咖啡",
+      "url": "https://m.dianping.com/shop/2933842",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "三月咖啡馆 - 百度百科",
+      "url": "https://baike.baidu.com/item/%E4%B8%89%E6%9C%88%E5%92%96%E5%95%A1%E9%A6%86/14266552",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "魔都必打卡的5家文艺咖啡馆,美到每个角落都想拍照",
+      "url": "https://www.sohu.com/a/277675217_100100984",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "上海20年老牌咖啡馆☕华政学子秘密花园㊙️",
+      "url": "https://m.dianping.com/discovery/770295863",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "喜欢复古咖啡店的,存好这8家店!_上海_古董_咖啡馆",
+      "url": "http://mt.sohu.com/a/766913019_121124458",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 6,
+      "title": "苏河旁的百年老建筑里,竟然藏着这样一家咖啡馆……",
+      "url": "https://www.163.com/dy/article/G0MR3DO90514C79Q.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "三月咖啡馆(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d4865575-Reviews-SanYue_Cafe-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡店",
+      "url": "https://www.thepaper.cn/tag/2220249",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 9,
+      "title": "三月咖啡館(上海中山公園商業區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/simba-coffee-11150919/",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "澎湃新闻 | 上海咖啡志",
+      "url": "https://m.thepaper.cn/newsDetail_forward_103188",
+      "site_name": "澎湃新闻网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:05:44Z"
+}

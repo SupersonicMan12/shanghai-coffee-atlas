@@ -1,71 +1,87 @@
 {
   "cafeId": "daxiaolekafeishangdian-shanxinanlu488nongxiaoqu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "26b44ed0ea9b",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "065dd9d02bf3",
   "photos": [
-    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/content_media_external_file_1000136148_ss__1762564325607_38760962.jpg",
     "https://aos-comment.amap.com/B0KA1ZPTNT/comment/839ae42cc37401b795c98caf18625606_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/content_media_external_file_1000136148_ss__1762564325607_38760962.jpg",
+    "https://aos-comment.amap.com/B0KA1ZPTNT/comment/F32D6806_F07C_4E6E_AAE2_0A29E82E9CB1_L0_001_1500_200_1761954282444_19204051.jpg",
     "https://aos-comment.amap.com/B0KA1ZPTNT/comment/29262bc78ef82ddf66ba1e6994303175_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
+    "storefront",
+    "menu",
     "interior"
   ],
   "observations": [
     {
-      "text": "店外有1把中古椅和3个木凳，可坐4人左右。",
-      "kind": "seating",
-      "photo": 1,
+      "text": "店内有木质吧台和深色砖墙，天花板为木梁结构。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "室内吧台后有La Marzocco咖啡机和磨豆机。",
+      "text": "菜单显示咖啡价格多为35元，有美式、拿铁、卡布奇诺等选项。",
       "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内天花板为白色，有深色木梁结构。",
-      "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有砖墙、木质吧台和吊灯，装修偏复古。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "门口玻璃窗上贴有营业时间09:00-17:00。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内可见一张木桌和椅子，空间不大。",
+      "text": "店外设有木质椅子和小凳子作为室外座位。",
       "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "一杯拿铁拉花清晰，盛在白色陶瓷杯中。",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台前贴纸提示“桌椅多为中古，请勿拖拽”。",
-      "kind": "story",
+      "text": "店门为临街玻璃落地窗，有白色纱帘，可见室内陈设。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域可见手冲壶、磨豆机、意式咖啡机等专业器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上列有单品咖啡信息，如“巴之光 Light Of Brazil”及烘焙度、产地等。",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯拉花咖啡被手持展示，拉花为叶子图案。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立有木质招牌，写有“大小乐 咖啡商店”，营业时间为09:00-17:00。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:58Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    30.0,
+    35.0,
+    38.0,
+    40.0,
+    50.0,
+    55.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:52Z"
 }

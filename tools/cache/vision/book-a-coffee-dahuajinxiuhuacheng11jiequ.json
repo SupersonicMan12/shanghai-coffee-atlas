@@ -1,71 +1,80 @@
 {
   "cafeId": "book-a-coffee-dahuajinxiuhuacheng11jiequ",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cd81ae3a7888",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "485da58df011",
   "photos": [
+    "https://store.is.autonavi.com/showpic/6b406bbb9941c4bf0000001147728149?type=pic",
     "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598685_ss__1743634806278_52048658.jpg",
-    "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598673_ss__1743634806372_11052854.jpg",
-    "https://aos-comment.amap.com/B0JR47HLR9/comment/C569D6D6_B57F_4AE0_945A_4495A2F38A25_L0_001_1500_200_1767602077485_94002968.jpg"
+    "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_1000030719_ss__1743667280754_15111286.jpg",
+    "https://aos-comment.amap.com/B0JR47HLR9/comment/content_media_external_images_media_598673_ss__1743634806372_11052854.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外有遮阳伞和户外桌椅，提供室外座位",
-      "kind": "seating",
+      "text": "店内有手冲台和多台磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中可见抹茶拿铁、草莓甜品等饮品。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内设有木质展示架，陈列咖啡豆、杯子和周边商品",
-      "kind": "interior",
-      "photo": 2,
+      "text": "货架上陈列着埃塞俄比亚、厄瓜多尔等地的单品咖啡豆。",
+      "kind": "beans",
+      "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "吧台区域可见手冲器具和冰块，提供奶洗咖啡",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "店外有黄色桌子和遮阳伞，提供室外座位。",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有绿植装饰，环境整洁明亮",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店内为浅色木质装修，有绿植点缀。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "门口有玻璃推拉门，室内采光良好",
-      "kind": "light",
-      "photo": 1,
+      "text": "店门口有一名女性顾客在看手机。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多个置物架和展示柜，用于售卖商品。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "店内可见咖啡豆包装袋，标注产地信息",
-      "kind": "beans",
+      "text": "店面临街，有大面积玻璃门窗。",
+      "kind": "bigWindows",
       "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店员在门口使用手机，店内空间较小",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有挂墙式置物架，摆放咖啡杯和植物",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:20:37Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:16Z"
 }

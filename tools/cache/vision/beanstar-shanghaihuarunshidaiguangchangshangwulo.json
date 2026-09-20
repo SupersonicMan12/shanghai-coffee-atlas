@@ -1,7 +1,7 @@
 {
   "cafeId": "beanstar-shanghaihuarunshidaiguangchangshangwulo",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5d0ad38ba078",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "88ed51bb7fed",
   "photos": [
     "https://aos-comment.amap.com/B0L1A7JHE3/comment/13F0C21C_B82C_43E8_A7B6_93F4E06128EF_L0_001_2000_150_1765972552176_89842042.jpg",
     "https://store.is.autonavi.com/showpic/f4347aed34438decb871b2ab39561784",
@@ -10,62 +10,70 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，为小型咖啡吧台形式",
+      "text": "店内有吧台，顾客在吧台前点单。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "有落地窗，自然采光良好",
-      "kind": "light",
+      "text": "吧台后方有一台咖啡机和一台磨豆机。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见磨豆机、咖啡机等专业设备",
-      "kind": "drinks",
+      "text": "照片中未见顾客在座位上就坐。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面位于商场内，背景是玻璃幕墙和建筑。",
+      "kind": "bigWindows",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "展示屏上有冲绳焦糖拿铁推荐",
-      "kind": "drinks",
+      "text": "店内有圣诞主题的装饰物和立牌。",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内布置有圣诞主题装饰",
+      "text": "一张纸袋上印有'黑!! 是,星,朋友!'字样。",
       "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供限定饮品杯套与贴纸赠品",
-      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "有纸质菜单和宣传单页展示",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "一个饮品杯上有心形图案和卡通人物。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
     },
     {
-      "text": "店内无明显座位区域",
-      "kind": "seating",
+      "text": "菜单上显示了'人气星品推荐'和'Okinawa Caramello Latte'等信息。",
+      "kind": "specialtyMenu",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
-  "seats": "none",
-  "laptops": false,
+  "room": "mall",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:22:48Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:53Z"
 }

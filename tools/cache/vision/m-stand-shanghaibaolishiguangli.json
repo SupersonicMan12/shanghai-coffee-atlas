@@ -1,71 +1,84 @@
 {
   "cafeId": "m-stand-shanghaibaolishiguangli",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "41fcbb5019c4",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "1049575de7d3",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=stb6b82a8d-61ac-47d1-a418-17128adfa160&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/5b9837ffe08790e01ef149536d665cec",
     "https://aos-comment.amap.com/B0K2SCA3N1/comment/2E63B079_C9AE_41E7_B047_43B44F749816_L0_001_2000_150_1764909571623_95418911.jpg"
   ],
   "photoKinds": [
+    "logo",
     "storefront",
-    "interior",
-    "menu"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店外有黑色长条形户外桌椅，至少可坐4人。",
+      "text": "店面位于商场外，有大面积落地窗和室外座位区",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外设有多个黑色圆形桌椅，中间种植绿树",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内吧台陈列咖啡豆研磨机、联名杯具和手机支架。",
-      "kind": "drinks",
+      "text": "店内吧台可见磨豆机、收银设备及多种周边商品展示",
+      "kind": "beans",
       "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "菜单牌显示会员充值200元赠咖啡，联名套餐价46/68元。",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见顾客在用餐，背景有开放式厨房或操作区。",
-      "kind": "people",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店外种植两棵小树，置于黑色花盆中，位于户外座位旁。",
-      "kind": "view",
-      "photo": 2,
+      "text": "菜单牌显示会员充值200元赠杯、冰淇淋不锈钢杯套餐等促销信息",
+      "kind": "menuPrices",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "吧台后墙为深灰色面板，无书架或宠物，未见烘焙机。",
+      "text": "室内吧台区域有木质台面和灰色金属墙面",
       "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内无明显电脑使用者，未见手冲台或虹吸壶等器具。",
+      "text": "店外有顾客在活动，室内可见工作人员",
       "kind": "people",
-      "photo": 3,
-      "confidence": 0.75
+      "photo": 2,
+      "confidence": 0.7
     },
     {
-      "text": "落地玻璃窗通透，反射城市建筑，采光良好。",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "菜单上标有“GOT EGGS? M HERE!”联名套餐，价格46元/68元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内陈列有粉色、黄色、绿色等多种颜色的杯子和手机壳等周边产品",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:20Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    200.0,
+    46.0,
+    68.0,
+    108.0,
+    88.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:39Z"
 }

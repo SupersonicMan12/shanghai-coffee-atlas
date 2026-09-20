@@ -1,58 +1,78 @@
 {
   "cafeId": "ps-cafe-ganghuihenglongguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "04ab30808e64",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "cc8d9d97f348",
   "photos": [
     "https://store.is.autonavi.com/showpic/6194e46f12e95ca70000003410800859?type=pic",
     "https://aos-comment.amap.com/B0G3UO3SL6/comment/20260317-51ee4e460216d0323d159f34-46N4Zj9F3Zx8ZXRWvCzoPS.jpg",
     "https://store.is.autonavi.com/showpic/8ae1a4ae4f925a1c0000003410812752?type=pic"
   ],
   "photoKinds": [
-    "interior",
-    "food"
+    "food",
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内设有开放式吧台，吧台后有工作人员。",
+      "text": "店内有吧台和用餐区，顾客在桌边就餐。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台上方有 'PS.Cafe' 和 'Desserts' 标牌。",
-      "kind": "space",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "顾客区可见多张大理石桌面的桌子和黑色椅子。",
+      "text": "店内有大理石桌面和黑色皮质座椅，空间整洁明亮。",
       "kind": "seating",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "食物包括意面配大虾和奶酪，以及蘑菇披萨。",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内有绿植作为装饰。",
-      "kind": "space",
-      "photo": 1,
+      "text": "吧台后方可见饮料制作区，有酒水陈列架和操作设备。",
+      "kind": "people",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "天花板为白色条板，配有吊扇。",
-      "kind": "space",
+      "text": "照片中出现两道食物：一份意面配虾和香草，一份蘑菇披萨。",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.9
+    },
+    {
+      "text": "披萨上撒有帕玛森芝士和罗勒叶，边缘酥脆。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吊扇和悬挂灯具，天花板为白色条板设计。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "餐桌上有菜单，但价格和具体饮品/食物名称无法辨认。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有绿色植物装饰，环境舒适。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:05Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:54Z"
 }

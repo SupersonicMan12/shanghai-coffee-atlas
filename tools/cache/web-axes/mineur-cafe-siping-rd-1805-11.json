@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "Free Wi-Fi. Parking. Delivery.",
+      "url": "https://maps.apple.com/place?auid=1118898076406588&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 18.0,
+      "quote": "¥18/人.",
+      "url": "http://m.dianping.com/shop/1024917582093024?msource=applemaps",
+      "site": "【Mineur Cafe矿煮(四平路店)】电话_地址 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "【Mineur Cafe矿煮(四平路店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/1024917582093024?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "Mineur Cafe Kuangzhu Coffee in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118898076406588&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "Manner coffee",
+      "url": "https://baike.baidu.com/item/Manner%20coffee/57462907",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 4,
+      "title": "一家擁有百萬美元美景的咖啡館☕️  ｜Trip.com 上海",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-143564836?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "玫瑰咖啡厅(茂名南路店)",
+      "url": "https://baike.baidu.com/item/玫瑰咖啡厅（茂名南路店）/14219648",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "悄悄火起来的徐汇3座新商场,本地人先逛为敬→",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3Njk0OTQyNw==&mid=2247667966&idx=2&sn=3f8c67324d25bcba165d1219df9b9dc3&chksm=eae93d4b6acdef4bc071e56a1a88a7aaf01f2ce99d305b2ae090b4ddf893d84179d749967d1a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "Maan coffee(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d3763095-Reviews-Maan_coffee-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 9,
+      "title": "上海真的不缺有意思的地方!这届年轻人爱上弄堂咖啡馆→",
+      "url": "https://www.shyouth.net/web/1/shouye/qingchunshanghai/info-909dea062e4501e3b39bd0220a6352d9.html",
+      "site_name": "上海共青团工作门户网站"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:41Z"
+}

@@ -1,7 +1,7 @@
 {
   "cafeId": "lemon-louis-panyu-rd",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "87d8998ed91e",
+  "inputDigest": "e35e941f51db",
   "photos": [
     "https://aos-comment.amap.com/B0G33SX8VL/comment/dad50e7b2b75c0c67e2de820685ea55f_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0G33SX8VL/comment/369bb3b337e4b13628b9591c010e7fda_2048_2048_80.jpg",
@@ -14,58 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和大面积玻璃窗",
+      "text": "店内有木质货架，陈列酒水与咖啡豆盒",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见两台白色磨豆机",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口玻璃门上列出多个奢侈品牌名称",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有咖啡机、磨豆机等专业器具",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方陈列多种酒类和茶品",
-      "kind": "drinks",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "菜单显示古早、玛奇朵、拿铁等饮品选项",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "有手冲咖啡设备和虹吸壶",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品杯上印有品牌标识",
+      "text": "手持饮品为冰咖啡，杯身印有店标",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店门口有咖啡指示箭头，指向店内咖啡区",
+      "text": "店内有绿植点缀，环境偏现代简约风格",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室内灯光温暖，货架照明充足",
+      "text": "透过玻璃可见室外树木，采光良好",
       "kind": "light",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": null,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:12:34Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:30Z"
 }

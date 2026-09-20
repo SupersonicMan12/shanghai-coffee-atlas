@@ -1,65 +1,66 @@
 {
   "cafeId": "m-stand-shanghaidaningyinyueguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5bc3b6d1fda0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3e25b8a81207",
   "photos": [
-    "https://store.is.autonavi.com/showpic/1224af99aa0265620000001521526301?type=pic",
     "https://aos-comment.amap.com/B0H30ACGDE/comment/content_media_external_file_1000317040_ss__1758356871249_84689661.jpg",
-    "https://store.is.autonavi.com/showpic/7317c304636ea2990000001521500500?type=pic"
+    "https://store.is.autonavi.com/showpic/7317c304636ea2990000001521500500?type=pic",
+    "https://store.is.autonavi.com/showpic/1224af99aa0265620000001521526301?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "other"
   ],
   "observations": [
     {
-      "text": "门店位于商场外，有玻璃门和落地窗",
+      "text": "店面为临街玻璃门面，有户外座位区及收拢的遮阳伞",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "店外设有桌椅和遮阳伞，可坐室外",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有顾客在室外座位区使用手机",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见饮品为冰咖啡，杯身有水珠",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "另一款饮品为热饮，装在黑色纸杯中",
-      "kind": "drinks",
+      "text": "店内可见玻璃窗反射外部建筑与行人，无明显落地窗直面街道",
+      "kind": "light",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外立牌显示有5折体验券活动",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "户外立式广告牌显示‘超浓泰茶系列’并列有饮品图示",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "室外区域有绿植装饰",
-      "kind": "view",
-      "photo": 1,
+      "text": "手持黑色纸杯印有'M Stand'标志，杯身有水珠，内装深色液体（疑似冰饮）",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "一人坐在户外桌旁，手持手机，未见使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "背景中可见银色笔记本电脑键盘，有人手握杯具，但未见其在操作电脑",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:46Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:48Z"
 }

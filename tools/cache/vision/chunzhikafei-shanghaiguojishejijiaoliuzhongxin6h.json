@@ -1,51 +1,70 @@
 {
   "cafeId": "chunzhikafei-shanghaiguojishejijiaoliuzhongxin6h",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fdfeda323706",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "7c97f94973ec",
   "photos": [
     "http://store.is.autonavi.com/showpic/47f2efd637acae63d8b4f46b725b5093",
     "http://store.is.autonavi.com/showpic/d20d29a2e5602cae3c5b4ff8161353ee"
   ],
   "photoKinds": [
     "storefront",
-    "other"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，临街玻璃窗。",
+      "text": "店面位于临街商铺，有木质招牌和藤蔓装饰",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "透过玻璃窗可见店内有桌椅。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "室外停放着多辆共享单车。",
-      "kind": "view",
+      "text": "门前有木栅栏围挡，外侧停放多辆共享单车",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店面外墙有绿色植物攀爬。",
+      "text": "店招显示名称为‘Murphy’s Forest | 淳质咖啡’",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一角度照片中可见店铺在街角，对面是居民楼",
       "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口设有玻璃门和大面积玻璃窗，采光良好",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "另一张照片显示街道视角，可见对面建筑和招牌。",
+      "text": "门前区域无明显室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "街道视角可见相邻店铺招牌，如‘味油泡鲜’等",
       "kind": "view",
       "photo": 2,
       "confidence": 0.7
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:25Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:00Z"
 }

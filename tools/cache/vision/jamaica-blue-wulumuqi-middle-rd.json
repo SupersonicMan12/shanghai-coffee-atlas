@@ -1,71 +1,82 @@
 {
   "cafeId": "jamaica-blue-wulumuqi-middle-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "35f5246f86e8",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "48317287a427",
   "photos": [
-    "https://aos-comment.amap.com/B00155DZ6E/comment/5156A106_D393_44E3_B0B9_7BE5DEEC479B_L0_001_1080_144_1762323731263_96563713.jpg",
+    "http://store.is.autonavi.com/showpic/c59513471d447f59628c53cea54b8e85",
+    "http://store.is.autonavi.com/showpic/f57cef3636e1af3e09fb0a4c1f65757b",
     "https://store.is.autonavi.com/showpic/895226c591223aa10000002242608348?type=pic",
-    "https://aos-comment.amap.com/B00155DZ6E/comment/5172AD25_51A8_4028_BAD5_7F7B5D5B9127_L0_001_2000_150_1762323731265_07900405.jpg"
+    "https://aos-comment.amap.com/B00155DZ6E/comment/5156A106_D393_44E3_B0B9_7BE5DEEC479B_L0_001_1080_144_1762323731263_96563713.jpg"
   ],
   "photoKinds": [
-    "storefront",
+    "logo",
+    "menu",
     "food",
-    "interior"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店外有几张藤编椅和桌子，可室外用餐。",
+      "text": "店面位于乌鲁木齐中路82号，临街有大玻璃窗和室外座位。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外设有藤编椅和方形桌，有顾客正在使用。",
       "kind": "seating",
-      "photo": 1,
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台、酒架及部分室内座位，空间为中等规模。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内吧台后方货架陈列大量酒瓶，非纯咖啡馆。",
-      "kind": "drinks",
+      "text": "菜单板显示早餐套餐749元，午餐单人餐69元，有热红酒和果汁售卖。",
+      "kind": "menuPrices",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物照片展示有水果坚果松饼、冰淇淋、烤三明治和沙拉。",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "菜单板显示午餐69元、早餐套餐49元等价格。",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "食物照片中有淋巧克力酱配莓果的松饼和三明治。",
+      "text": "宣传图显示提供每日现制早餐，如香蕉燕麦粥。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内吧台区域有员工操作设备，可见磨豆机等器具。",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "店面正门上方有绿植装饰，临街玻璃窗通透。",
-      "kind": "light",
+      "text": "店招显示“Jamaica Blue fine coffees”，品牌定位为精品咖啡。",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有玻璃展示柜，陈列可颂等烘焙点心。",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内座位未见有人使用笔记本电脑。",
-      "kind": "laptops",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "窗外有绿植装饰，店内可见植物与吊灯，风格偏向温馨自然。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.85
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:31Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    69.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:03Z"
 }

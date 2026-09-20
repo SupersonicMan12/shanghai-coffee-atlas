@@ -1,47 +1,78 @@
 {
   "cafeId": "ruixingkafei-zhongzhandasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "147a511dc356",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b980f3f0b828",
   "photos": [
     "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
     "http://store.is.autonavi.com/showpic/8b13c4f6abd52b9b36c0ac1f8ffdc367",
     "http://store.is.autonavi.com/showpic/df29e3efe2e2889f16021641afb5bf26"
   ],
   "photoKinds": [
-    "logo",
+    "drink",
     "drink",
     "drink"
   ],
   "observations": [
     {
-      "text": "饮品顶部有奶油和焦糖酱装饰",
+      "text": "照片中出现一杯顶部有焦糖酱的白色奶盖饮品",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "饮品为拿铁，表面有拉花图案",
+      "text": "照片中出现一杯带有心形拉花的拿铁咖啡",
       "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中出现一杯燕麦拿铁，顶部有奶油和焦糖酱",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中出现散落的深烘焙咖啡豆",
+      "kind": "beans",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "杯中饮品呈浅棕色，搭配牛奶",
-      "kind": "drinks",
+      "text": "照片背景为深色台面，未见明显窗户或室外景物",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "咖啡豆散落在饮品周围",
-      "kind": "beans",
-      "photo": 3,
+      "text": "照片中未见任何座位、顾客或工作人员",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见任何电脑、插座或专业咖啡设备",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见书架、植物或宠物等装饰物",
+      "kind": "sound",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:58Z"
+  "room": null,
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:41Z"
 }

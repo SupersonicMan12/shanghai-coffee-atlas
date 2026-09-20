@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "把咖啡厅与办公联系起来其实并不需要绕太多弯。",
+      "url": "https://m.sohu.com/n/381851501/",
+      "site": "搜狐网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "第一次去不得入,店铺没开门不怪他们怪自己。",
+      "url": "https://www.dianping.com/discovery/918398378",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "目测门面朝南的方向,那么建议大家上午来光线会更好",
+      "url": "https://www.dianping.com/discovery/918398378",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "澳白 蘑菇鸡肉烩饭",
+      "url": "https://m.dianping.com/shop/1942887226",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 43.0,
+      "quote": "¥43/人",
+      "url": "https://m.dianping.com/shop/1942887226",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "平凉路/东外滩咖啡",
+      "url": "https://m.dianping.com/shop/1942887226",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "魔都冬日晒太阳喝咖啡的好计划 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/918398378",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "惠普“热商计划”M1218nfs带您体验最“酷省”的头脑风暴",
+      "url": "https://m.sohu.com/n/381851501/",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "上海市10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "南瓜、辣椒、洋葱都能当杯子?闵行这对闺蜜开的村咖,许多人跨越半个上海来打卡",
+      "url": "https://www.163.com/dy/article/L62N1AHB05568W0A.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "能存活三年的，都是精品| 收好这12 家独立咖啡馆，且喝且珍惜- 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/101466650",
+      "site_name": "知乎"
+    },
+    {
+      "index": 7,
+      "title": "上海有9000家咖啡馆，这是我们最爱的20家｜2025年度榜单 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "QQ"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:30Z"
+}

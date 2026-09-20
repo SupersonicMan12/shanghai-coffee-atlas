@@ -1,7 +1,7 @@
 {
   "cafeId": "yibeijiakafei-tongxie-rd",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "840bd741e5e0",
+  "inputDigest": "61b5d8c5dd0b",
   "photos": [
     "http://store.is.autonavi.com/showpic/f6e7861b60e633ce50e9ce1a2facfd22",
     "https://aos-comment.amap.com/B0HAD7CUN5/comment/471386b5116ae7de5de5c2d074db1654_2048_2048_80.jpg",
@@ -14,58 +14,67 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有落地玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内空间较大，有多张桌椅",
-      "kind": "space",
+      "text": "店内座位约10-15个，多为蓝色金属椅。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有室外座位区，摆放桌椅和绿植",
+      "text": "入口处有室外桌椅，临街。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内设有蓝色金属椅子和木质桌子",
-      "kind": "seating",
+      "text": "天花板外露管道，悬挂多盏玻璃灯泡。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示主食加饮品套餐58元",
-      "kind": "food",
+      "text": "菜单上有“超值套餐”58元，含主食和饮品。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "菜单上有汉堡、咖喱饭、三文鱼意面等食物",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上有咖啡、奶茶、果汁等饮品",
+      "text": "菜单上可见咖啡、奶茶等饮品图片。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "店内有植物装饰和木制人偶摆设",
-      "kind": "story",
-      "photo": 2,
+      "text": "菜单上可见汉堡、炒饭等食物图片。",
+      "kind": "food",
+      "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店内有木制人体模型和绿植装饰。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片拍摄于白天。",
+      "kind": "time",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "many",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:35Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:33Z"
 }

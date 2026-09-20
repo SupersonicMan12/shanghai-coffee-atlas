@@ -1,59 +1,88 @@
 {
   "cafeId": "blue-bottle-coffee-jinganjializhongxin",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "428f1ee02ccc",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "48bee231e5e3",
   "photos": [
     "https://aos-comment.amap.com/B0IGNCA2RB/comment/15c27a17adbd0f1a142dd024348d8912_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0IGNCA2RB/comment/40a36595b019be63acb54f31668387d8_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0IGNCA2RB/comment/0e0c05c0303ff352e6f55fbbb226c007_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "interior",
     "food",
-    "menu",
-    "food"
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "菜单木板显示有单品咖啡、冷萃、乌龙抹茶等，价格24-48元。",
-      "kind": "menu",
+      "text": "菜单上列出单品咖啡（Single Origin）和手冲（Drip Coffee）",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "食物含抹茶酱华夫饼、水波蛋吐司配沙拉、拿铁与抹茶拿铁。",
+      "text": "菜单显示饮品价格在24元至48元之间",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质托盘、餐盘和刀叉，提供西式餐点",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "另一份餐点为撒糖粉华夫饼配奶油和果酱，搭配两杯热饮和一杯冰饮。",
+      "text": "食物包括华夫饼、吐司配水波蛋和沙拉",
       "kind": "food",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内桌椅为木质托盘+金属桌面，座位形式为室内桌座。",
-      "kind": "seating",
+      "text": "饮品包括抹茶拿铁和美式/意式浓缩等咖啡",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "墙面为深灰色砖墙，装修风格偏工业风，无可见植物或书架。",
-      "kind": "space",
-      "photo": 3,
+      "text": "照片中未见明显烘焙机或手冲台等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "照片中未见任何人，也无电脑、宠物、烘焙机或手冲台等器具。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "店内为室内环境，有木制桌面和砖墙背景",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见有人在使用电脑",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:20Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    35.0,
+    38.0,
+    40.0,
+    42.0,
+    46.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:13Z"
 }

@@ -1,59 +1,80 @@
 {
   "cafeId": "coleadffee-wuxing-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cdc8c7ed076c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d00b7bc4eee7",
   "photos": [
-    "https://aos-comment.amap.com/B0FFHJX3D4/comment/e6daf5067fec3e000deaacf90d906201_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/3989259dadf660038092201c4d0bd9c1",
     "http://store.is.autonavi.com/showpic/69ac9cd04e039e380a14209831ca7159",
-    "http://store.is.autonavi.com/showpic/3989259dadf660038092201c4d0bd9c1"
+    "https://aos-comment.amap.com/B0FFHJX3D4/comment/d6f84aa3e04de51569874a941fa1b02f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFHJX3D4/comment/e6daf5067fec3e000deaacf90d906201_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "food",
+    "drink",
     "interior",
-    "storefront",
-    "food"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡器具",
-      "kind": "drinks",
+      "text": "室内有深色皮质沙发卡座，空间为中等大小。",
+      "kind": "space",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片显示了手冲咖啡用的玻璃滤杯和玻璃壶，有手冲吧台。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "有草莓挞出售",
+      "text": "食物是草莓挞，饮品是带有拉花的拿铁咖啡。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "食物是草莓挞，饮品是带有拉花的拿铁咖啡。",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面位于临街位置",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有黑色皮质沙发座椅",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有玻璃咖啡壶和滤杯组合",
-      "kind": "drinks",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外是临街的商业建筑，无室外座位。",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店门口为玻璃门，可进入",
-      "kind": "space",
-      "photo": 2,
+      "text": "室内光线较暗，主要靠人工照明。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内未见明显书架、植物或宠物。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中无人使用电脑，也未见插座。",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:30Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:20Z"
 }

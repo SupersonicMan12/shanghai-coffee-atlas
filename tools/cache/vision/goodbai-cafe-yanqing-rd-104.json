@@ -1,65 +1,83 @@
 {
   "cafeId": "goodbai-cafe-yanqing-rd-104",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "0647a4d00763",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "b18ebdc61c24",
   "photos": [
-    "https://aos-comment.amap.com/B0KD1HIOF9/comment/BDC19810_0311_4575_86BD_BF0BFA66A223_L0_001_1650_200_1767240368774_47957651.jpg",
     "https://aos-comment.amap.com/comment/content_service__1773195273040_90984987_1773195279988_85460518.jpg",
+    "https://aos-comment.amap.com/B0KD1HIOF9/comment/BDC19810_0311_4575_86BD_BF0BFA66A223_L0_001_1650_200_1767240368774_47957651.jpg",
+    "https://store.is.autonavi.com/showpic/60166019bb4a87380000002995224415?type=pic",
     "https://store.is.autonavi.com/showpic/97d0c327f55f56490000002995250308?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "drink",
-    "drink"
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "门口有木质门框和金色合页，墙面为白色粗糙质感。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有大理石台面，背景可见蜡烛与节日装饰。",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "饮品杯身印有“GOODBAI CAFÉ”字样，一杯顶部有绿色植物装饰。",
-      "kind": "drinks",
+      "text": "菜单显示有四款特调咖啡，包括洛洛莓、希达香橙、谷神的假期（冷/热），价格均为48元。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "一杯饮品配小饼干和棉花糖，另一杯装在带表情的玻璃瓶中。",
-      "kind": "food",
-      "photo": 2,
+      "text": "饮品有分层设计，顶部为奶泡或奶油，装饰有小草、肉桂粉、饼干等，呈现精致摆盘。",
+      "kind": "drinks",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内可见白色蜡烛、红色丝带和金色球形装饰，有节日布置。",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店内摆放有圣诞装饰，如松枝、红色丝带、金色球形挂饰，营造节日氛围。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "墙上挂有松枝与松果装饰，下方有小型锥形绿植。",
-      "kind": "interior",
+      "text": "饮品搭配小碗装饼干和棉花糖，提供完整甜点组合。",
+      "kind": "food",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外墙为浅色粗糙质感，门口有木质门框和金色铰链，招牌为金属立体字。",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "饮品杯内分层明显，顶部有奶泡或奶油，撒有可可粉或抹茶粉。",
-      "kind": "drinks",
+      "text": "菜单展示在木框玻璃柜内，背景为软木板，配有金色鸟形装饰物。",
+      "kind": "menu",
       "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印有“GOODBAI CAFE”字样，表明品牌统一性。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌面为白色大理石纹理，台面整洁，摆放有饮品和小食托盘。",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:47Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:19Z"
 }

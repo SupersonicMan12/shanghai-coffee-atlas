@@ -1,7 +1,7 @@
 {
   "cafeId": "beiruikafei-wu-middle-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c1ebfbc23139",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "aabc315a4759",
   "photos": [
     "https://aos-comment.amap.com/B0G2NX7BWT/comment/content_media_external_file_1000095198_ss__1772447561203_64445465.jpg",
     "https://store.is.autonavi.com/showpic/23c986a87eecabbe0000000728316721?type=pic",
@@ -14,52 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店内陈列多种咖啡豆，包括危地马拉、苏门答腊等产地",
+      "text": "店内有多个座位区，看起来是中等大小的室内空间。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中未见明显窗户或室外景观。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质货架展示咖啡豆和杯子商品。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "展示架上有多款不同产地的单品咖啡豆，如危地马拉、苏门答腊。",
       "kind": "beans",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有伯爵脏小贝DIRTY饮品展示",
+      "text": "照片中未见烘焙机、手冲台等专业咖啡制作设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "图片3展示了一款名为“伯爵脏小贝DIRTY”的饮品。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店门口摆放新年装饰，含红色礼盒和花艺",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内设有木质展示架，陈列咖啡杯具和咖啡豆包装",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见部分咖啡豆价格标签，如88元",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有玻璃隔断与竖条形装饰，空间现代简洁",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "展示区有多个不同款式的咖啡杯，包括保温杯和陶瓷杯",
-      "kind": "drinks",
+      "text": "照片中未见有人在使用笔记本电脑。",
+      "kind": "laptops",
       "photo": 2,
       "confidence": 0.8
+    },
+    {
+      "text": "照片中未见任何食物，如面包或糕点。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "medium",
+  "seats": "some",
+  "crowd": null,
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:14Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:48Z"
 }

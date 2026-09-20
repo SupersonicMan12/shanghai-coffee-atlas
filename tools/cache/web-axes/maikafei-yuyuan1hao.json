@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "特色服务:...有wifi,提供在线菜单...",
+      "url": "https://baike.baidu.com/item/麦当劳（豫园店）/14314353",
+      "site": "百度百科"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "下午路过进来坐了会儿...一坐下去就不想起来",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121657965/",
+      "site": "麥咖啡（豫園二店） (上海豫園地區)－餐牌、食評及資訊 - Trip.com"
+    },
+    "price": {
+      "value": 27.0,
+      "quote": "人均价格:27",
+      "url": "https://baike.baidu.com/item/麦当劳（豫园店）/14314353",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "McCafe (Yuyuan Garden No.1) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118810198812117&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 2,
+      "title": "麦当劳(豫园店)",
+      "url": "https://baike.baidu.com/item/麦当劳（豫园店）/14314353",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "麥咖啡（豫園二店） (上海豫園地區)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121657965/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "上海咖啡馆地图：网红店那么多，究竟哪些值得去？ - 界面新闻",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 5,
+      "title": "【McCafé 麦咖啡(豫园二店)】地址,电话,路线,周边设施 - 360地图",
+      "url": "https://m.map.360.cn/m/search/detail/pid=2f777ca66b7adada",
+      "site_name": "360官网"
+    },
+    {
+      "index": 6,
+      "title": "老麦咖啡馆 - 上海本地宝",
+      "url": "https://m.sh.bendibao.com/tour/146821_5.html",
+      "site_name": "本地宝"
+    },
+    {
+      "index": 7,
+      "title": "秋季限定|麦咖啡拿铁季-桂花拿铁 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/698470073",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "上海独立咖啡馆图鉴|每一家都藏着独特的生活美学",
+      "url": "https://zhuanlan.zhihu.com/p/62719170",
+      "site_name": "知乎"
+    },
+    {
+      "index": 9,
+      "title": "在黄浦偶遇“荷兰弟”的一天~(打卡点汇总版)",
+      "url": "https://sina.cn/news/detail/5324176608987397.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 10,
+      "title": "把年味带回家!光明食品集团邀您共享新春好礼 ",
+      "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260210/96aec53f8b5642a88f82bdd9137e0f23.html",
+      "site_name": "“上海”门户网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:32Z"
+}

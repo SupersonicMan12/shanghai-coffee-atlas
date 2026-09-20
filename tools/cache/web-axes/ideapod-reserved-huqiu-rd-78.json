@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "提供一個移動辦公的咖啡館",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144090227/",
+      "site": "ideaPod，完美的移動辦公地。｜Trip.com 上海"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "融合了自习室、阅览室、小型的演讲厅",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33328215",
+      "site": "澎湃新闻网"
+    },
+    "price": {
+      "value": 43.0,
+      "quote": "¥43/人",
+      "url": "http://m.dianping.com/shop/641412733?msource=applemaps",
+      "site": "【ideaPod reserved工作咖啡(洛克外滩源店)】电话_地址 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "提问，上海夏天去哪里避暑？ - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33328215",
+      "site_name": "澎湃新闻"
+    },
+    {
+      "index": 2,
+      "title": "ideaPod，完美的移動辦公地。｜Trip.com 上海",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144090227/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "013 在上海最贵的地方做“工作咖啡”第三空间，星巴克与自习…",
+      "url": "https://podcasts.apple.com/tr/podcast/013-%E5%9C%A8%E4%B8%8A%E6%B5%B7%E6%9C%80%E8%B4%B5%E7%9A%84%E5%9C%B0%E6%96%B9%E5%81%9A-%E5%B7%A5%E4%BD%9C%E5%92%96%E5%95%A1-%E7%AC%AC%E4%B8%89%E7%A9%BA%E9%97%B4-%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%8E%E8%87%AA%E4%B9%A0%E5%AE%A4%E4%B9%8B%E9%97%B4%E7%9A%84%E6%96%B0%E5%93%81%E7%B1%BB%E6%9C%BA%E4%BC%9A-%E5%AF%B9%E8%AF%9D-ideapod-%E8%81%94%E5%90%88%E5%88%9B%E5%A7%8B%E4%BA%BA/id1828096354?i=1000734072387&l=tr",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "外滩商圈咖啡",
+      "url": "https://m.dianping.com/shop/665895750",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "아이디어팟 리저브드_업무와 공부하기에 좋은 카페 - 중국 상하이",
+      "url": "https://korean.shanghai.gov.cn/ko-WorkingorStudyingCafe/20241205/41eb8e88204640648bc7e577bf23eb69.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "【ideaPod reserved工作咖啡(洛克外滩源店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/641412733?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "提问,上海夏天去哪里避暑?",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33328215",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 8,
+      "title": "咖啡厅 - SOHO设计区",
+      "url": "https://www.sohodd.com/archives/category/cafe",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "理想国书店,上海又多了一处文艺乌托邦",
+      "url": "https://post.m.smzdm.com/zz/p/awd7wvxk/",
+      "site_name": "什么值得买"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:50Z"
+}

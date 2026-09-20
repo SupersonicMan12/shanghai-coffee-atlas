@@ -1,69 +1,76 @@
 {
   "cafeId": "yefenglingkafeiting-xindouhuayuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c96f1c85b21d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2fd5de19c13d",
   "photos": [
     "https://store.is.autonavi.com/showpic/ed810bbc046395eaa161d16e2f501574",
     "http://store.is.autonavi.com/showpic/8219613c138973102daf87eedff5462c"
   ],
   "photoKinds": [
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于临街一楼，有玻璃窗和门",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面有遮挡帘，未见内部座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有车辆停放，街道可见",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺招牌为RED LIPS BAR，非夜风铃咖啡厅",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺外有消防栓和电动车",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺门前有台阶和砖砌矮墙",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "无室外座位",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "窗户上有贴纸装饰，但无明显采光信息",
+      "text": "店面为临街商铺，有大面积玻璃窗",
       "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口有台阶和红砖矮墙",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺门头有‘RED LIPS BAR’字样，旁边有嘉士伯圆形灯箱",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见一张长条桌和几把椅子",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显专业咖啡器具（如手冲台、磨豆机）",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "店内未见书架、植物或宠物",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.6
+    },
+    {
+      "text": "照片中无人在店内消费",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "none",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:30Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:35Z"
 }

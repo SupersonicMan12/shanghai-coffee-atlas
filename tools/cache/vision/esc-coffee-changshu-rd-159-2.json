@@ -1,71 +1,80 @@
 {
   "cafeId": "esc-coffee-changshu-rd-159-2",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "62ed286c48fa",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e69c6c43fe98",
   "photos": [
-    "https://aos-comment.amap.com/B0L0LZ9CBP/comment/content_media_external_file_109800_ss__1765770026759_66073045.jpg",
     "https://store.is.autonavi.com/showpic/f0e06157aaa934aa0000000757972286?type=pic",
+    "https://aos-comment.amap.com/B0L0LZ9CBP/comment/content_media_external_file_109800_ss__1765770026759_66073045.jpg",
+    "https://aos-comment.amap.com/B0L0LZ9CBP/comment/content_media_external_file_109812_ss__1765770026700_13358651.jpg",
     "https://aos-comment.amap.com/B0L0LZ9CBP/comment/2434818C_D753_404A_8B07_C6EF5EED5FB0_L0_001_1500_200_1765760760606_59846771.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外有木凳和折叠椅，可坐4-6人。",
+      "text": "店外有木质高脚凳和折叠桌，可作室外座位。",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见Sanremo咖啡机，有专业设备。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单卡显示豆子产地为洪都拉斯与埃塞俄比亚。",
-      "kind": "beans",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "室外座位在阳光下，临街玻璃门通透。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内吧台上方有木质吊顶和长条灯管。",
+      "text": "店内有吧台区域，摆放着菜单和咖啡机，空间为小店类型。",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.75
+      "confidence": 0.9
     },
     {
-      "text": "一杯拿铁有拉花，另一杯是分层的冰咖。",
+      "text": "饮品杯旁有卡片标注豆子产地：洪都拉斯、埃塞俄比亚，处理法为水洗/日晒。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有手冲咖啡选项，并标注了产地与处理法，属精品咖啡菜单。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中可见两杯饮品：一杯拉花拿铁，一杯冰饮（可能为dirty或冷萃）。",
       "kind": "drinks",
-      "photo": 2,
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有专业意式咖啡机（SANREMO品牌），表明具备制作意式咖啡的能力。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见“Honduras Massagual”、“Ethiopia Yirgacheffe”等单品豆信息。",
+      "kind": "beans",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门口有圣诞装饰小矮人，节日氛围。",
-      "kind": "story",
-      "photo": 1,
+      "text": "店外临街，玻璃门透明，门口有圣诞装饰，但无明显落地窗或庭院。",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.7
-    },
-    {
-      "text": "店内有人在操作，但未见顾客用电脑。",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.6
     }
   ],
-  "seats": "some",
-  "laptops": false,
+  "room": "small",
+  "seats": "few",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:44Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:10Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "lagom-cafe-bar-jinganxingzuo",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "512e1c3a1245",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ecfb36695ee6",
   "photos": [
     "https://aos-comment.amap.com/B0JRM9LJAJ/comment/427587B3_76C0_430C_B8BF_7DDAE317C61D_L0_001_2016_1512_1745576710443_25580972.jpg",
     "https://aos-comment.amap.com/B0JRM9LJAJ/comment/E3663E7D_1A35_4631_997D_A8E6DBC14CDE_L0_001_1642_200_1747972281054_81404518.jpg",
@@ -10,62 +10,69 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "drink"
   ],
   "observations": [
     {
-      "text": "有室外露台座位，背景可见城市高楼和中式屋顶。",
-      "kind": "view",
+      "text": "天台户外区有米色遮阳棚，印有'LAGOM'字样，配收拢的遮阳伞和白色栅栏",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "室内空间大，设长吧台与多张餐桌，座位数量多。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "室内为工业风吧台+高脚椅+方桌组合，吧台后方酒架陈列多款威士忌、白兰地等烈酒",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "吧台后方货架陈列大量威士忌及烈酒瓶。",
+      "text": "吧台后酒架上可见白州、山崎、Dalmore、Hennessy XO、Remy Martin V.S.O.P.等品牌",
       "kind": "drinks",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前设约8个高脚吧台椅，用餐区有4张长方形木桌，每桌配4把靠背椅，共约20个座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内无客人，吧台后仅见1名工作人员低头操作，整体空置",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "天花板悬挂多组裸露灯泡，吧台上方有投影幕布显示视频平台界面",
+      "kind": "light",
+      "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "室内有投影屏幕，可播放影视内容。",
-      "kind": "story",
+      "text": "吧台后方未见手冲/虹吸/磨豆机等专业咖啡器具，也无烘焙机或豆子展示",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "天花板悬挂多串裸露灯泡，工业风装修。",
-      "kind": "space",
+      "text": "照片中未见任何饮品、食物、菜单纸张或价格标签，无法确认是否有特调/单品/餐食",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "室外露台有白色围栏、遮阳伞和绿植。",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台区域有咖啡机等专业设备。",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内光线充足，自然光来自侧窗。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.75
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "many",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T13:58:09Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:55Z"
 }

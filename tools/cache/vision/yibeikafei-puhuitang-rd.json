@@ -1,7 +1,7 @@
 {
   "cafeId": "yibeikafei-puhuitang-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5346e9acc432",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a5154c80d4aa",
   "photos": [
     "https://aos-comment.amap.com/B0JR363LAH/comment/1FAF9FC6_820B_4522_862F_5C839D22F96D_L0_001_1284_92_1768376072318_45790671.jpg",
     "https://store.is.autonavi.com/showpic/092b077455576e9e0000004955522607?type=pic",
@@ -9,39 +9,46 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
+    "other",
     "drink"
   ],
   "observations": [
     {
-      "text": "店面有大面积玻璃窗，可见街道和车辆",
-      "kind": "space|light|view",
+      "text": "店面临街，有大面积玻璃窗和室外绿植装饰",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "室内展示咖啡拉花比赛冠军奖牌",
+      "text": "店外有立体字招牌“益杯咖啡 COFEEF”，字体为蓝底白字",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内展示有咖啡师证书和奖牌，包括OATLY第二届无声咖啡拉花挑战赛冠军",
       "kind": "story",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见一杯带有叶子图案拉花的咖啡",
+      "text": "照片中展示一杯带有叶子图案拉花的拿铁咖啡",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "店外摆放有绿植，环境有绿化",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:08Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:12Z"
 }

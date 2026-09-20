@@ -1,7 +1,7 @@
 {
   "cafeId": "peet-s-jiangwanli",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "db541b146146",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "6fb37ece4d54",
   "photos": [
     "https://store.is.autonavi.com/showpic/27fd1f31bf10ed65e7a1674d1bf6cf1c",
     "https://store.is.autonavi.com/showpic/d25202071dd20d040000002307136106?type=pic",
@@ -14,46 +14,59 @@
   ],
   "observations": [
     {
-      "text": "店面有室外座位区，摆放着桌椅和遮阳伞",
+      "text": "店面临街，有大面积玻璃窗和室外座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外设有遮阳伞和金属桌椅，有顾客在使用",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外区域有大型盆栽植物装饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "可见大面积玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 1,
+      "text": "店内有木质圆桌和椅子，摆放着一块巧克力蛋糕",
+      "kind": "interior",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内为木质桌面，环境整洁",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供拉花拿铁饮品，表面有网格状焦糖装饰",
+      "text": "饮品为带焦糖网格拉花的拿铁类咖啡，盛于白瓷杯中",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "提供巧克力蛋糕，配有奶油和樱桃",
+      "text": "食物为切片巧克力蛋糕，夹层含奶油与巧克力酱，顶部有奶油和樱桃装饰",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植装饰，树冠伸入画面，提供自然遮荫",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内座位区域地面为浅色地砖，背景可见其他桌椅",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:16Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:48Z"
 }

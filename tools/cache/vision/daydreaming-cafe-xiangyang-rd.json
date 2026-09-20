@@ -1,59 +1,85 @@
 {
   "cafeId": "daydreaming-cafe-xiangyang-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "18a2cb863882",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "b54b662f3936",
   "photos": [
-    "https://aos-comment.amap.com/B0KA3RKQM7/comment/content_media_external_file_71284_ss__1752459558625_57744813.jpg",
     "https://store.is.autonavi.com/showpic/f39e1a11d7a669bf0000000961732538?type=pic",
-    "https://aos-comment.amap.com/B0KA3RKQM7/comment/4FCFD032_E177_49BD_8BBF_34814A1904BA_L0_001_1500_200_1758087716611_24306192.jpg"
+    "https://aos-comment.amap.com/B0KA3RKQM7/comment/4FCFD032_E177_49BD_8BBF_34814A1904BA_L0_001_1500_200_1758087716611_24306192.jpg",
+    "https://aos-comment.amap.com/B0KA3RKQM7/comment/E1EBA61C_983E_4AFA_BE81_6E44C9116673_L0_001_1500_200_1766197024922_20778616.jpg",
+    "https://aos-comment.amap.com/B0KA3RKQM7/comment/content_media_external_file_71284_ss__1752459558625_57744813.jpg"
   ],
   "photoKinds": [
     "storefront",
     "food",
-    "food"
+    "food",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "临街玻璃窗，店内可见2人坐吧台，有黑色椅子。",
-      "kind": "seating",
-      "photo": 1,
+      "text": "店面位于襄阳南路342号，临街有大玻璃窗和黑色门框。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有顾客在座位上用餐，其中一人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "展示柜内有可颂、杏仁瑞士卷等面包，标价¥18-¥78。",
+      "text": "展示柜中有多种烘焙食品，包括可颂、杏仁瑞士卷、朗姆提子面包卷等。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单标价显示：杏仁瑞士卷¥20，朗姆提子面包卷¥18，威士忌香草包¥78/包，黑樱桃SOE¥78/包。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "提供水果燕麦碗，配有橙子、草莓、蓝莓、南瓜籽和酸奶。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "餐盘里是水果燕麦片配奶油，有橙子草莓蓝莓。",
+      "text": "提供法式可丽露（canelé），外皮焦糖色，内里湿润。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "门口台阶旁放着扫帚，街道边有行道树。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内有落地窗，光线充足，能看到室内吊灯。",
+      "text": "店内有落地窗，采光良好，可见街道和树木。",
       "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店门上方标牌显示地址为襄阳南路342号。",
-      "kind": "story",
-      "photo": 1,
+      "text": "店外无室外座位，仅临街玻璃窗和门口区域。",
+      "kind": "outdoor",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:57Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    18.0,
+    20.0,
+    78.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:59Z"
 }

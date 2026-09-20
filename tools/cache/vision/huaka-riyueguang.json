@@ -1,7 +1,7 @@
 {
   "cafeId": "huaka-riyueguang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "62953899c659",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "4cb3565ee51f",
   "photos": [
     "https://aos-comment.amap.com/B0G3A5DHFO/comment/4D61E3A4_818B_4EE6_9DE2_A149C1DB216E_L0_001_1500_2000_1730565869168_60385815.jpg",
     "https://aos-comment.amap.com/B0G3A5DHFO/comment/E87D10D4_CE22_496A_814A_B98FF899C53D_L0_001_1500_2000_1730565869170_58770345.jpg",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "店内有楼梯和木质置物架，空间为两层结构",
+      "text": "店内有木质楼梯和多层置物架，摆放绿植与装饰品，空间为两层结构。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台后有手冲器具、磨豆机和咖啡豆罐，具备专业咖啡制作设备",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "展示柜中有多种蛋糕，包括彩虹千层、巧克力蛋糕等",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有多处绿植装饰，包括多肉植物和盆栽",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街玻璃窗可见外部街道和车辆，采光良好",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "墙上挂有电子菜单屏，显示咖啡、茶饮及价格",
+      "text": "吧台后方有电子菜单屏，显示咖啡、茶、气泡水等分类及价格。",
       "kind": "menu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有红色卡通猴子雕塑摆件，位于角落",
-      "kind": "story",
-      "photo": 1,
+      "text": "展示柜内陈列多种蛋糕切片，包括彩虹千层、巧克力蛋糕等。",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域设有金属置物架，放置咖啡豆罐、手冲器具、磨豆机等专业设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口临街玻璃窗旁设有多层木架，摆放各类盆栽植物，包括仙人掌、绿萝等。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见手冲咖啡（FILTER COFFEE）和意式咖啡（ESPRESSO COFFEE）选项，标注有价格。",
+      "kind": "specialtyMenu",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "地面为浅色木纹地板，墙面为大理石纹理",
+      "text": "店内地面为浅色木纹地板，墙面为白色或浅灰大理石纹理，风格现代简约。",
       "kind": "space",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一楼入口处有大型红色卡通猴子摆件，旁边墙上有咖啡拉花和时钟主题的装饰画。",
+      "kind": "story",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "medium",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:32Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:15Z"
 }

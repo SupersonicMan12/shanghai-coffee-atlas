@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "no",
+      "quote": "没有电源。",
+      "url": "https://www.dianping.com/discovery/900299265",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "顾客不是很多,相对安静点",
+      "url": "https://www.meipian.cn/50wa90w9",
+      "site": "美篇网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "每个人都能找到心仪的位置,而不是将就坐坐。",
+      "url": "https://www.meipian.cn/50wa90w9",
+      "site": "美篇网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "点了桂花酒酿拿铁",
+      "url": "https://www.dianping.com/discovery/900299265",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 45.0,
+      "quote": "桂花酒酿拿铁,45一杯",
+      "url": "https://www.dianping.com/discovery/900299265",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "老白渡滨江绿地、声音咖啡馆下午茶。(2024.02.14)。",
+      "url": "https://www.meipian.cn/50wa90w9",
+      "site_name": "美篇网"
+    },
+    {
+      "index": 2,
+      "title": "好chill~在黄浦江边喝着咖啡吹江风 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTkxMDk4NA==&mid=2652347473&idx=2&sn=d8713a80ae14dcfdb480a56906e384a2&chksm=bc664c7cec10440b27215f08c7dccb4925cc1bdb2afdbde513f18a8ed7ea1713a1e2c2966b21&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "每天寻找一个自习地03|在江边听留声机的下午 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/900299265",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "“去陆家嘴滨江逛逛吧,真的很好吃”",
+      "url": "http://finance.sina.com.cn/jjxw/2023-09-24/doc-imznuuwm0163601.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "假期,“啡”得来龙华“咖”一下",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NTIwODA1OA==&mid=2650083143&idx=1&sn=5e9df7ef3b6f68be2215ef6a9366a6d0&chksm=bf6565d7ef3591d21cc94848716edfdc8687404dc6ddf53811da8c58cf8e9675885171874037&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "Sound Cafe",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g298085-d15125203-Reviews-Sound_Cafe-Da_Nang.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 7,
+      "title": "上海过年不打烊咖啡指南 ",
+      "url": "https://news.sohu.com/a/854533845_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 8,
+      "title": "Soundview Cafe",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g60878-d3336018-Reviews-Soundview_Cafe-Seattle_Washington.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 9,
+      "title": "魔都江景日落餐厅TOP20,人均100",
+      "url": "https://www.163.com/dy/article/J1RO5FK005228TQ0.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:29:09Z"
+}

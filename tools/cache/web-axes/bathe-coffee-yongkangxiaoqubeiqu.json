@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "在店里喜欢的是:酒香可以名状的初酿、窗口边趴着的小兔酱",
+      "url": "https://www.163.com/dy/article/GJKE2IQA0532UF4C.html",
+      "site": "163网易免费邮"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "来的时候是工作日的下午,居然人还不少",
+      "url": "https://www.163.com/dy/article/GJKE2IQA0532UF4C.html",
+      "site": "163网易免费邮"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在这里喜欢的是:酒香可以名状的初酿、窗口边趴着的小兔酱",
+      "url": "https://www.163.com/dy/article/GJKE2IQA0532UF4C.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "作为BATHE COFFEE的招牌,不仅含有鲜榨橙汁,还加入了调酒成分",
+      "url": "https://www.zhihu.com/question/505808901/answer/2270621747",
+      "site": "知乎"
+    },
+    "price": {
+      "value": 55.0,
+      "quote": "BATHE COFFEE(永康路店) ★ ★ ★ ★ ★ 4.6 ¥55/人",
+      "url": "https://m.dianping.com/shop/130828231",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "音乐学院/五官科医院咖啡",
+      "url": "https://m.dianping.com/shop/130828231",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "BATHE COFFEE（永康路店） (衡山路地區, 上海) – 菜單 - Trip.com",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/bathe-coffee-71540046",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "人不如故,咖啡馆不如新 | 上海7家新咖啡馆探店报告",
+      "url": "https://www.163.com/dy/article/GJKE2IQA0532UF4C.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "BATHE COFFEE（永康路店） (上海衡山路地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/bathe-coffee-71540046",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "在国内有哪些值得打卡的独立咖啡馆?",
+      "url": "https://www.zhihu.com/question/505808901/answer/2270621747",
+      "site_name": "知乎"
+    },
+    {
+      "index": 6,
+      "title": "🥂咖啡控私藏的徐家汇区3小资咖啡店🎉上海",
+      "url": "https://m.dianping.com/discovery/1471748695",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "活动|千言万语,一杯咖啡世界城市_品牌",
+      "url": "https://chihe.sohu.com/a/676631331_233245",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:02Z"
+}

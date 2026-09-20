@@ -1,6 +1,6 @@
 import type { Axes, Cafe, Tag } from '../data/types'
 import { blendAll, type BlendedAxes, type CafeVotes } from './scoring'
-import { hoursOn } from './details'
+import { detailFor, hoursOn } from './details'
 
 /**
  * The compass. Five axes, each a spectrum rather than a checkbox, because the
@@ -111,6 +111,7 @@ export function searchHay(cafe: Cafe): string {
 
 /** Open at `hour` on `weekday` (0 = Sunday); falls back to the flat hours when no weekday is given. */
 export function isOpenAt(cafe: Cafe, hour: number, weekday?: number): boolean {
+  if (detailFor(cafe).status) return false
   const { open, close: rawClose } = weekday === undefined ? { open: cafe.opens, close: cafe.closes } : hoursOn(cafe, weekday)
   const close = rawClose <= open ? rawClose + 24 : rawClose
   const h = hour < open ? hour + 24 : hour

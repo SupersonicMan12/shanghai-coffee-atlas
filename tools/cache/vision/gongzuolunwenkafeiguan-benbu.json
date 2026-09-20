@@ -1,65 +1,80 @@
 {
   "cafeId": "gongzuolunwenkafeiguan-benbu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "dba34d1ce304",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "7ae38e7e96a1",
   "photos": [
-    "https://store.is.autonavi.com/showpic/41b3fad0600a2b420000002300738749?type=pic",
-    "https://store.is.autonavi.com/showpic/364a91fd6bd55769942f27737eeb39d2",
-    "https://aos-comment.amap.com/B0FFGYVQJK/comment/4523320535ab6a4f545f96f94fb698e5_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFGYVQJK/comment/3462EAEC_BCFC_46E2_A1AE_3AEBA5D90501_L0_001_1500_200_1768479613898_36243882.jpg",
+    "https://store.is.autonavi.com/showpic/1c46b6d11be35ef00000002300770470?type=pic",
+    "https://aos-comment.amap.com/B0FFGYVQJK/comment/4523320535ab6a4f545f96f94fb698e5_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/41b3fad0600a2b420000002300738749?type=pic"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
+    "interior",
+    "drink",
     "other"
   ],
   "observations": [
     {
-      "text": "店内有沙发卡座和桌椅，座位数量中等。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "一名顾客在使用笔记本电脑。",
+      "text": "店内有顾客在使用笔记本电脑，空间适合办公。",
       "kind": "people",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "入口处有蓝底白字招牌，写有“WORKING PAPER CAFÉ & BAKERY LAB”。",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 1.0
-    },
-    {
-      "text": "墙上有艺术画作展示，包括人物肖像和抽象作品。",
+      "text": "店内设有书架和艺术画作展示墙，风格偏向文艺与艺术展览。",
       "kind": "story",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内有大型金属雕塑装饰品。",
+      "text": "店内有金属气球狗雕塑，为室内装饰之一。",
       "kind": "story",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有书架，摆放着书籍和杂志。",
-      "kind": "space",
+      "text": "咖啡杯上印有'BRITISH LIBRARY'字样，非店家品牌标识。",
+      "kind": "drinks",
       "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺临街，玻璃门面透光，可看到店内部分座位。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有木质桌椅及卡座，座位数量中等。",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "门口摆放着多盆绿植。",
-      "kind": "space",
-      "photo": 2,
+      "text": "墙上挂有多幅艺术复刻画，含文字说明与二维码，类似小型展览。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台区域可见手冲设备与磨豆机，具备精品咖啡制作能力。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": true,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:50Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:46Z"
 }

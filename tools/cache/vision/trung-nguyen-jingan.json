@@ -1,7 +1,7 @@
 {
   "cafeId": "trung-nguyen-jingan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "177539d07414",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "ba9cf775aee2",
   "photos": [
     "https://store.is.autonavi.com/showpic/e52e973d6efec03d0000002382026845?type=pic",
     "https://store.is.autonavi.com/showpic/7f01f2a7da43c9930000002382058342?type=pic",
@@ -14,58 +14,59 @@
   ],
   "observations": [
     {
-      "text": "店外有2组白色桌椅+遮阳伞的室外座位，地面为弧形铺砖广场",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店面为弧形玻璃幕墙，入口上方标有'TRUNG NGUYEN LEGEND'及圆形标志钟表",
-      "kind": "storefront",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内为落地玻璃窗环绕的环形空间，设黑色方桌与藤编靠背椅，约10–12张桌",
+      "text": "店面为现代风格，有大面积玻璃窗",
       "kind": "space",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内可见咖啡服务台（含纸杯架、糖包等），无手冲台、虹吸壶或磨豆机",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "一杯拿铁盛于竖条纹玻璃杯中，奶泡呈心形拉花，旁配小木碗白糕点",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "店外立牌展示饮品图（红/橙色杯装饮料）与食物图（碗装餐食），文字模糊不可辨价格或豆种",
-      "kind": "menu",
+      "text": "室外有几张白色桌椅和遮阳伞",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "室内有1人戴口罩坐窗边桌，低头看手机；无电脑可见",
-      "kind": "people",
+      "text": "室内有多张深色桌椅，排列整齐",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "窗外可见绿树、居民楼与街道，非河景或天台视野",
+      "text": "室内采光良好，有大型落地窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见室外绿树和街道景观",
       "kind": "view",
       "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中出现一杯带有拉花的拿铁咖啡",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.95
+    },
+    {
+      "text": "室内有悬挂式纸灯笼状吊灯",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:46Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:33Z"
 }

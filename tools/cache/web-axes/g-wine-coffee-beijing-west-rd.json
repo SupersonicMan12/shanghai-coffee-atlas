@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "木制的装修,看起来简约干净",
+      "url": "https://m.dianping.com/discovery/686226781",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "闲坐在店里和路边露营椅上的人群与疾驰而过的车流之间形成鲜明对比",
+      "url": "https://new.qq.com/rain/a/20250810A04SI900",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "咖啡包含了意式咖啡和手冲",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "https://new.qq.com/rain/a/20250810A04SI900",
+      "url": "https://new.qq.com/rain/a/20250810A04SI900",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "100家魔都咖啡馆|早“咖”晚“酒”的G+﻿Wine - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/686226781",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "那些在南西后街“野蛮”生长的独立咖啡馆~",
+      "url": "https://weibo.com/ttarticle/p/show?id=2309405210732106219558",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 4,
+      "title": "魔都“日咖夜酒”指南来了!除了星巴克酒坊、Seesaw小酒馆,这些小众咖啡店夜晚会“变身”",
+      "url": "https://www.163.com/dy/article/GJI93HV90514A42S.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 5,
+      "title": "每走30米就能遇到一家! 那些在南西后街“野蛮”生长的独立咖啡馆丨走进南西故事街区店铺_奉贤",
+      "url": "https://www.sohu.com/a/922688613_121117454",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "Gefii民宿(北京西路分店)",
+      "url": "https://hotels.ctrip.com/hotels/97962684.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 7,
+      "title": "虹桥花市新开|独属上海的高颜值隐藏咖啡馆",
+      "url": "https://weibo.com/2186460095/RhJNVtNDU",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 8,
+      "title": "Cafe di wine (武康大楼店) - 上海市徐汇区- 餐饮服务;咖啡厅 - 高德地图",
+      "url": "https://www.amap.com/place/B0KGH54XVJ",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 9,
+      "title": "G+Wine Coffee (Beijing West Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F930FC86DDE8&_provider=57879",
+      "site_name": "Apple (中国)"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:09:52Z"
+}

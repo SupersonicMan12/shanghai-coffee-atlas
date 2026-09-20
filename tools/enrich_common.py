@@ -28,6 +28,7 @@ AMAP_DETAIL = CACHE / 'amap-detail'
 DIANPING = CACHE / 'dianping'
 VISION = CACHE / 'vision'
 WEB = CACHE / 'web'
+WEB_AXES = CACHE / 'web-axes'
 TRAITS = CACHE / 'traits'
 DETAILS_JSON = ROOT / 'src' / 'data' / 'details.json'
 
@@ -214,6 +215,10 @@ def dashscope_search(model: str, prompt: str, *, strategy: str = 'max', retries:
                 out = r.json()['output']
                 text = out['choices'][0]['message']['content']
                 results = (out.get('search_info') or {}).get('search_results') or []
+                if not results and len(models) > 1 and m != models[-1]:
+                    # models that ignore the search plugin answer from memory; try the next
+                    last = RuntimeError(f'{m}: no search results')
+                    break
                 return text, results
             except Exception as exc:  # noqa: BLE001
                 last = exc

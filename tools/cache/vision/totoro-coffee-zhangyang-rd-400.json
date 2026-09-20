@@ -1,71 +1,84 @@
 {
   "cafeId": "totoro-coffee-zhangyang-rd-400",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7721c1c69ce7",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "22dd1c2a94bd",
   "photos": [
+    "http://store.is.autonavi.com/showpic/62ba36a56882ba8f0a6e4bf82dd20fd7",
     "https://aos-comment.amap.com/comment/content_service__1772076893872_45566671_1772077236068_19101117.jpg",
     "https://aos-comment.amap.com/B0K6NN2FNE/comment/887ED888_D8AD_4D46_A2F3_75DC714BEFC6_L0_001_2000_150_1772076893896_15132972.jpg",
     "https://aos-comment.amap.com/comment/content_service__1772076893889_83826586_1772077236070_73185131.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
     "menu",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内有黄色沙发椅和圆形小桌，适合两人坐",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上有手冲咖啡、燕麦拿铁、可颂、巧克力面包等选项",
-      "kind": "drinks|food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示价格区间为18-58元，提供茶室套餐",
-      "kind": "drinks|food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有绿植和红色花朵装饰，临街有透明顶棚",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有隔断屏风和挂画，空间布置温馨",
+      "text": "店内有吧台和高脚凳座位，空间为中等大小。",
       "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上有手冲咖啡选项，包含肯尼亚、耶加雪菲等产地信息。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见美式、拿铁、dirty等经典咖啡品类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见面包、三明治等食物品类。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见热饮、冷饮、茶等饮品品类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有落地窗，采光良好。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上清晰可见部分饮品价格，如20元、22元、28元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见烘焙机或专业手冲设备。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.8
-    },
-    {
-      "text": "菜单上可见云南古树红茶、南非红茶等茶叶来源",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有金色动物摆件陈列在菜单下方",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "玻璃门上贴有红色福字装饰",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.6
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": true,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:56Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    22.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:11Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "lindiankafei-pujian-rd-620",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f7559d95dbc1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "335c1e5d302c",
   "photos": [
     "http://store.is.autonavi.com/showpic/ec0e13943e27f02c31b0c8cfa3f01393",
     "http://store.is.autonavi.com/showpic/7b77472f5132eb94e45611b8e29b46e6",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店面临街，有大面积玻璃窗",
+      "text": "店面为独立小单体，有大面积玻璃窗",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口有多个大型盆栽植物",
+      "text": "店外摆放了大量盆栽植物，形成绿植景观",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "入口处有石板铺成的步行道，通向店内",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外设有遮阳棚和桌椅",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "入口处可见室内部分区域，有桌椅布置",
+      "text": "店外设有带桌椅的户外座位区",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店前地面铺设石板路径",
-      "kind": "space",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "右侧邻近店铺为台球厅",
-      "kind": "view",
-      "photo": 3,
+      "text": "室内可见吧台和部分座位，但无清晰人影",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店门口放置黑板菜单牌",
+      "text": "店外有立式菜单牌，但字迹不清",
       "kind": "menu",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店内可见绿植装饰",
+      "text": "店内可见绿色植物装饰，风格清新",
       "kind": "view",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中未见明显专业咖啡烘焙或冲煮设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:31Z"
 }

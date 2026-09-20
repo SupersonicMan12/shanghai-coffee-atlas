@@ -1,59 +1,80 @@
 {
   "cafeId": "tiankafeishanghaigongzuoshi-hunanlujiedaoxinle-r",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "32f0d4cc85d1",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ca2dd5b46ec9",
   "photos": [
     "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165823_17115034.jpg",
-    "https://store.is.autonavi.com/showpic/a4f614ae2ecd0b0b2500adcfdd29eba4",
-    "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165822_15137391.jpg"
+    "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165823_11175938.jpg",
+    "https://aos-comment.amap.com/B0K2DLEQXR/comment/content_media_external_images_media_7975_1726416165822_78636972.jpg",
+    "https://store.is.autonavi.com/showpic/a4f614ae2ecd0b0b2500adcfdd29eba4"
   ],
   "photoKinds": [
     "interior",
     "drink",
-    "other"
+    "drink",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡台和器具",
-      "kind": "beans",
+      "text": "店内有手冲咖啡器具，包括Kalita滤杯、玻璃分享壶和金属手冲壶。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "木质桌面，摆放着玻璃壶和陶瓷杯",
+      "text": "木质桌面，搭配陶制咖啡杯与玻璃分享壶，呈现日式或极简风格。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "透过窗户可见室外绿树",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内有大扇黑色窗框的窗户",
+      "text": "店内空间有大窗户和门通向室外，采光良好，可见外部街道与树木。",
       "kind": "light",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "悬挂着黄色纸灯笼，光线柔和",
-      "kind": "light",
+      "text": "照片中出现咖啡豆卡片，标有'田咖啡'及'A walk in the clouds'，显示为特定产地/批次咖啡。",
+      "kind": "beans",
       "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "室内有悬挂式纸灯笼灯饰，空间布局简洁，配有低矮桌椅。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "桌上放置有小碗和装饰品",
-      "kind": "space",
+      "text": "手冲过程使用电子秤，表明注重冲煮精度。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "桌上摆放手冲咖啡成品，深褐色液体，盛于玻璃壶与陶杯中。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有座位区，可见小木凳与长桌，适合坐饮。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:46Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:56Z"
 }

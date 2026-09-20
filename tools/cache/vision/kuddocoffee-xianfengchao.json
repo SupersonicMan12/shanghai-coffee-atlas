@@ -1,7 +1,7 @@
 {
   "cafeId": "kuddocoffee-xianfengchao",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d65531da9826",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "c3de863c74af",
   "photos": [
     "https://store.is.autonavi.com/showpic/11f0a0ba9e1efb430000002366932167?type=pic",
     "https://store.is.autonavi.com/showpic/c34f05448f5bd95e5c115d18a563edb7",
@@ -9,44 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "other"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "室外有数张绿色桌椅和白色遮阳伞",
+      "text": "有室外座位区，配有绿色金属桌椅和白色遮阳伞。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店面临街，有大面积玻璃窗",
-      "kind": "light",
+      "text": "室外座位区周围种植了多种绿植，包括盆栽和小型树木。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为临街玻璃窗设计，可看到店内部分陈设。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外区域有大型白色遮阳伞，伞面印有品牌标识。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有长条木凳和多组小圆桌，适合休闲停留。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外区域种植了多种绿植",
-      "kind": "space",
+      "text": "背景可见现代建筑和斜坡式结构，环境开放，非封闭商场内。",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.85
     },
     {
-      "text": "可见部分室内陈设，风格简约",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面招牌为 'KUDDO COFFEE'，发光字体",
-      "kind": "space",
+      "text": "窗户上贴有“COFFEE, DAILY, FRIENDS IN A CUP”等文字标语。",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "室内可见陈列架与部分商品，但无明显烘焙设备或手冲台。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "courtyard",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:33Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:32Z"
 }

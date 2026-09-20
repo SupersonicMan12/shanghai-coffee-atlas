@@ -1,69 +1,64 @@
 {
   "cafeId": "kaggia-jiangning-rd-699",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7534e545b05c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "58519bd0ebb5",
   "photos": [
     "https://store.is.autonavi.com/showpic/a486cc68107a0a7b8834d6653a55ca75",
     "https://store.is.autonavi.com/showpic/65b5c1214e337260c73fcb798cc3fe0c"
   ],
   "photoKinds": [
-    "interior",
-    "storefront"
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，空间宽敞",
+      "text": "店铺位于商场内部，地面反光可见镜面效果",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内设有吧台和展示柜",
+      "text": "店内有吧台+玻璃展示柜，后方操作区可见置物架与设备",
       "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店招含“kaggia 咖家”字样，墙上有“Colorful Life. Happy Paws.”标语及猫爪/狗爪图案",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "未见明显烘焙机、手冲台或虹吸壶等专业器具",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有玻璃展示柜陈列商品",
-      "kind": "space",
+      "text": "无明显书架、植物或宠物出现",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店内可见粉色装饰元素",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店铺入口处有玻璃门和透明橱窗",
-      "kind": "bigWindows",
+      "text": "照片中无人使用电脑，也未见插座",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有圆形镜子和柜台设计",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺内无明显烘焙设备或手冲台",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "未见明确饮品或食物实物",
-      "kind": "drinks",
-      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "mall",
+  "seats": "none",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:35Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:28Z"
 }

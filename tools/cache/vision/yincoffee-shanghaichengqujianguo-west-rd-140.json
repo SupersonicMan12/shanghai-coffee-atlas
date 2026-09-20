@@ -1,72 +1,79 @@
 {
   "cafeId": "yincoffee-shanghaichengqujianguo-west-rd-140",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6b94e853ddfd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2bec2a1f18a9",
   "photos": [
     "https://aos-comment.amap.com/B0JGDHKG0P/comment/6aac5cbe60a9b87cf1313fcae8a9c32f_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0JGDHKG0P/comment/1bd6cdcc5e2edc6744b3e3c3f7079791_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/5f528fd87582f6d41bb99edb6b16bc93"
   ],
   "photoKinds": [
-    "drink",
-    "food",
+    "storefront",
     "interior",
-    "storefront"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "有冰咖啡和可颂供应",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有热拿铁和可颂供应",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有三张椅子和一张小圆桌",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街玻璃门，门口有人站立",
-      "kind": "view",
+      "text": "店面临街，门牌号140，玻璃门/窗，门口有花篮与促销海报",
+      "kind": "storefront",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有大窗户，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有绿植装饰",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺位于街边，门口有花艺装饰",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内墙面为红砖与水泥墙结合",
+      "text": "室内为小空间，靠红砖墙与灰墙布局，有三把藤编靠背木椅+小圆桌",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见落地窗，窗外有绿树，采光良好，窗边有高盆栽植物",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上摆有冰咖啡（分层，含冰块）与热拿铁（拉花心形），配可颂面包",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯垫印有“COFFEEYIN”字样，说明为该店自有品牌",
+      "kind": "brand",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内未见电脑使用者，仅照片3中一人背对镜头站立，无其他顾客",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片3中室外地面铺砖，门口放两把白色折叠椅，无遮阳棚或户外座位区",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内未见烘焙机、手冲台、磨豆机等专业设备，也无书架/宠物",
+      "kind": "equipment",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": true,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:11Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:08Z"
 }

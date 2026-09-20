@@ -1,7 +1,7 @@
 {
   "cafeId": "mr-bond-coffee-lvdiwaitanzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0abfbf1ee0e1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a9af6929a7cd",
   "photos": [
     "https://aos-comment.amap.com/B0KKBX0FYW/comment/24A4E186_D0B9_4BE7_B19F_3D3B70B010A0_L0_001_1500_200_1758203442855_44833607.jpg",
     "https://aos-comment.amap.com/B0KKBX0FYW/comment/content_media_external_file_1000013899_ss__1753761142480_36312826.jpg",
@@ -9,64 +9,68 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "drink",
-    "food"
+    "food",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，空间为标准商业铺位",
+      "text": "店面为商场内档口，绿色主调，吧台后有店员，地面反光可见店铺倒影",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有烘焙食品展示柜，陈列多种面包和糕点",
+      "text": "玻璃展示柜陈列多款现烤面包、可颂、酥皮点心及小蛋糕，标价清晰可见",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "可见现烤面包，包括可颂、贝果、吐司等",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有饮品杯，显示为外带纸杯，带盖",
+      "text": "纸杯为绿色外杯+白色盖，印有Mr.Bond标志，杯身无其他文字或图案",
       "kind": "drink",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示“限时特惠套餐”与“烘焙系列买二送一”，下午4点起生效",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "展示柜上方电子屏列出美式15元、拿铁19元、香草拿铁27元等价格",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "货架上陈列毛绒玩偶及袋装商品，背景墙为青绿色，无明显窗户或自然光入口",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示有美式、拿铁、卡布奇诺等咖啡选项",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "烘焙区每日现烤，非冷冻食品",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有促销活动：下午4点起买二送一",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有植物装饰，环境整洁",
-      "kind": "space",
+      "text": "吧台区域未见专业咖啡设备（如磨豆机/手冲台/虹吸），仅可见基础饮品制作台",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:27Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    15.0,
+    19.0,
+    27.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:42Z"
 }

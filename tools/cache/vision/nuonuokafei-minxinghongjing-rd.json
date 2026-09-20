@@ -1,7 +1,7 @@
 {
   "cafeId": "nuonuokafei-minxinghongjing-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e940c453e547",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2a3767cfe868",
   "photos": [
     "https://store.is.autonavi.com/showpic/66fecad334064a646a317f601049fca6"
   ],
@@ -10,40 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街商铺，门头为木质装饰",
-      "kind": "space",
+      "text": "店面临街，有玻璃门窗",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有行人和电动车经过",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺前有行人和电动车经过，街道较窄",
-      "kind": "view",
+      "text": "店门口有红色横幅，但文字不清",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口可见玻璃门和透明橱窗，采光良好",
-      "kind": "light",
+      "text": "店门口停放一辆自行车，有人在骑",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店外有骑车人经过，无明显室外座位",
+      "text": "店内可见桌椅，有顾客坐着",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内未见明显咖啡制作设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外无室外座位",
       "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺招牌显示“台湾菜”字样，非咖啡馆标识",
-      "kind": "story",
+      "text": "店门上方有“台湾菜”字样，非咖啡馆招牌",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:25Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:07Z"
 }

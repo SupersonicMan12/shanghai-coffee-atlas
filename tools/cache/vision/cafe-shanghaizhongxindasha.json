@@ -1,65 +1,79 @@
 {
   "cafeId": "cafe-shanghaizhongxindasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a7d5e9b6289c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "308e582c313c",
   "photos": [
     "https://store.is.autonavi.com/showpic/efa83ae7ba0d66920000004869526312?type=pic",
-    "https://store.is.autonavi.com/showpic/9c256c0763a46ebb0000002470290544?type=pic",
-    "https://store.is.autonavi.com/showpic/cb74aa1ed25e4a8e0000002470288499?type=pic"
+    "https://store.is.autonavi.com/showpic/e513761a9da6761a0000002470244990?type=pic",
+    "https://store.is.autonavi.com/showpic/96fd5b04a4abb90f0000002470264810?type=pic",
+    "https://store.is.autonavi.com/showpic/9c256c0763a46ebb0000002470290544?type=pic"
   ],
   "photoKinds": [
     "food",
-    "food",
-    "food"
+    "interior",
+    "menu"
   ],
   "observations": [
     {
-      "text": "提供精致甜点，包括马卡龙、慕斯、小蛋糕等",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有造型独特的绿色动物形状甜点",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "甜点摆放在金色边框的镜面托盘上",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见多款创意甜点，如夹心三明治蛋糕和果冻杯",
-      "kind": "food",
+      "text": "室内空间高，有落地窗，可俯瞰城市景观。",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "甜点上有“上海之巅看世界”字样标识",
+      "text": "提供双人份下午茶甜点拼盘，包含马卡龙、蛋糕等。",
       "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "部分甜点装饰有花瓣和巧克力片",
+      "text": "菜单显示有迷你火腿芝士三明治、牛油果大虾等咸点和甜点。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "蛋糕层次分明，顶部有橙色果胶和奶油装饰",
-      "kind": "food",
+      "text": "餐厅内有白色桌布的餐桌和黑色椅子，座位较多。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上列出的饮品是下午茶套餐的一部分，未见独立咖啡菜单。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中无人在使用电脑，无明显电子设备。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无烘焙机或手冲台等专业咖啡制作设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上未显示价格信息。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:33Z"
+  "room": "large",
+  "seats": "many",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:17Z"
 }

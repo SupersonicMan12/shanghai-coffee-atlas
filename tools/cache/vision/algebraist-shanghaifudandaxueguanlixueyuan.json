@@ -1,7 +1,7 @@
 {
   "cafeId": "algebraist-shanghaifudandaxueguanlixueyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1726f4a7fff8",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "302631194f5d",
   "photos": [
     "https://store.is.autonavi.com/showpic/452d003c7ce063f4a7db07e8552acdef",
     "https://store.is.autonavi.com/showpic/45e08dd0ec90ddf80000002579242610?type=pic",
@@ -10,62 +10,69 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为木质结构，临街设有室外座位区",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室外座位约4-6个，配有藤编椅和小圆桌",
+      "text": "店外有木质平台和藤编椅，设有多组户外座位。",
       "kind": "seating",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内空间宽敞，有木质隔断和绿植装饰",
+      "text": "室内空间开阔，地面为深色水泥地，设有长条形绿植花槽隔断。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外座位区可见一把收起的白色遮阳伞",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内可见一名员工和一名顾客",
+      "text": "店内有顾客坐着，一人背对镜头使用笔记本电脑。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室外菜单牌展示芒果饮品广告",
-      "kind": "drinks",
+      "text": "室外座位区可见临街玻璃幕墙，背景为城市建筑与绿树。",
+      "kind": "view",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "室内地面为灰色地砖，墙面以浅色为主",
+      "text": "店门口立牌展示青芒&黄芒饮品，配图有芒果杯饮及水果。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外木质平台上设有遮阳伞（收起状态）和圆形小桌。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内区域有木质结构的吧台或服务台，上方有红色几何标识。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店面入口处有玻璃门，可看到内部陈设",
-      "kind": "light",
+      "text": "店外有大型白色花箱，内种绿色植物，花箱印有品牌名。",
+      "kind": "plants",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:32Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:16Z"
 }

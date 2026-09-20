@@ -1,7 +1,7 @@
 {
   "cafeId": "grid-coffee-ruihongtaiyanggong",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "86f17d5decbd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0f1017e4a143",
   "photos": [
     "https://store.is.autonavi.com/showpic/03127d6cd1cf1a4b0000002737576252?type=pic",
     "https://aos-comment.amap.com/B0LAOXSXUQ/comment/file_media_Photo_9836_IMG_1769160207_9771_IMG_20260123_172147_jpg_ss__1769160134376_40670816.jpg",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店外有遮阳伞和户外桌椅",
-      "kind": "seating",
+      "text": "白天室外有3把米色遮阳伞及配套桌椅，属户外座位区",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有落地玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有木质墙面和绿植装饰",
+      "text": "玻璃门内可见木质墙面、吊灯及多组沙发卡座与单人椅，空间开阔",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店内设有沙发和靠背椅座位",
-      "kind": "seating",
+      "text": "室内地面为高光大理石，入口处有绿植遮挡部分视线",
+      "kind": "light",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "有人在店内使用手机",
+      "text": "照片2中可见2名顾客坐在靠窗卡座，其中1人低头看手机，未见使用电脑",
       "kind": "people",
-      "photo": 3,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店铺位于商场内，入口处有玻璃门",
-      "kind": "space",
-      "photo": 1,
+      "text": "玻璃幕墙通透，可看到店内陈设及室外绿植，属临街落地窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片3中顾客坐于靠墙长椅，面前小圆桌上放有绿色纸杯（无明显文字）",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有绿植环绕",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店内未见烘焙机、手冲台、虹吸壶或磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店内有吊灯照明，环境明亮",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "照片3中前景植物枝叶遮挡部分视野，但入口处可见室外绿树与庭院",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:31Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:36Z"
 }

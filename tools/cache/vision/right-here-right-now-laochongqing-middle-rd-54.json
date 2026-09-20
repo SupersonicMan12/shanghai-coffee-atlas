@@ -1,71 +1,80 @@
 {
   "cafeId": "right-here-right-now-laochongqing-middle-rd-54",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "aae7fdf35618",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "93398c90dbe8",
   "photos": [
-    "https://store.is.autonavi.com/showpic/f5d55cd6dc1288590000000721410774?type=pic",
-    "https://aos-comment.amap.com/B0H1TCKSKM/comment/content_media_external_images_media_8029_1726481036655_59715931.jpg",
-    "https://aos-comment.amap.com/B0H1TCKSKM/comment/content_media_external_images_media_8029_1726481036654_30925128.jpg"
+    "https://aos-comment.amap.com/B0H1TCKSKM/comment/content_media_external_images_media_8029_1726481036655_13551457.jpg",
+    "https://store.is.autonavi.com/showpic/cfbd18fb8c5187f10000000721406930?type=pic",
+    "https://aos-comment.amap.com/B0H1TCKSKM/comment/342f2f97-0a9e-4d50-a47b-14f9e8a8e54c.png",
+    "https://store.is.autonavi.com/showpic/f5d55cd6dc1288590000000721410774?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "店面为临街小门面，入口旁有手写招牌‘RIGHT HERE RIGHT NOW 来喝来闹’",
-      "kind": "space",
+      "text": "门旁立牌写有‘来喝 来闹’及‘Right Here Right Now’，确认店名与英文标语",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "室内为紧凑吧台式布局，吧台前可见木质桌椅，背景墙为灰色，置物架靠墙安装",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "店内可见手冲吧台，含虹吸壶、磨豆机、玻璃分享壶等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "墙上木架陈列多款咖啡豆包装，含FRIEDHATS、ROSE、F.K.E.FEAA、Karocoto等品牌及产地（如KENYA、COLOMBIA）",
+      "text": "桌上摆放FRIEDHATS哥伦比亚La Maria Gesha Honey咖啡豆瓶，标签清晰可读",
       "kind": "beans",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "吧台区域有手冲壶、Hario滤杯、电子秤、磨豆机（白色Ditting）、意式咖啡机（ditting品牌标识）",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "窗内可见‘咖啡手冲’书法装裱画、书本堆叠、绿植与一盆紫花（疑似蝴蝶兰）",
-      "kind": "view",
       "photo": 1,
-      "confidence": 0.96
+      "confidence": 1.0
     },
     {
-      "text": "左侧玻璃门内可见1张圆木桌配2把木椅，地面为深色木地板",
+      "text": "另一张图显示Ethiopia Chilaka Mini咖啡豆包装，标注酵母水洗处理法",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见木质桌椅组合，含藤编/竹制椅子与圆形矮凳，座位数约4-6张",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.94
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "吧台前桌面放置1个带红花图案的陶瓷滤杯座、1个Hario玻璃分享壶、1个黄色标签咖啡瓶",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.93
+      "text": "门面为临街玻璃门，透过玻璃可见店内陈设，无室外座位区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "未见任何人、电脑、食物、菜单价格或烘焙机；无室外座位可见",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "店内无明显电脑使用者，未见客人在场，照片中无人",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗框内可见书架陈列书籍，窗边有绿植与紫白花束，环境有植物点缀",
+      "kind": "plants",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:40Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:59Z"
 }

@@ -1,71 +1,67 @@
 {
   "cafeId": "snh48-jiaxing-rd-267",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "df9d275acf0f",
+  "inputDigest": "6e1f88fd2f12",
   "photos": [
     "http://store.is.autonavi.com/showpic/0d074834548866ff1e91a72c2ecb758e",
+    "http://store.is.autonavi.com/showpic/3a5d82ac4aaadee770b8d37b4703632d",
     "http://store.is.autonavi.com/showpic/af2715ed6e66e3fd169f53f9afafbad3",
     "http://store.is.autonavi.com/showpic/60f6c2887aced6f327c95731c2ab6e00"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于临街建筑底层，有明显招牌和入口",
+      "text": "剧院式座位，约20-30个，临街",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有舞台，前方设有小圆桌",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面为多层建筑，临街有室外区域",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口有多人聚集，显示人气较高",
+      "text": "傍晚时分，街道上有行人",
       "kind": "people",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "夜间灯光亮起，招牌可见，表明营业至晚间",
-      "kind": "time",
-      "photo": 3,
+      "text": "室内光线较暗，舞台灯光突出",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "建筑为多层结构，店面在一层，上方有窗户",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门前有车辆停靠，行人往来频繁",
+      "text": "门口聚集多人，似乎在排队",
       "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺标有“CAFE&SHOP”字样，确认为咖啡与零售结合空间",
-      "kind": "space",
-      "photo": 2,
+      "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "街道两侧有电线杆和路灯，环境为城市商业街区",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店招显示“THEATER SNH48”，暗示可能与演出相关联",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "large",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": false,
-  "bigWindows": true,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:12Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:44:36Z"
 }

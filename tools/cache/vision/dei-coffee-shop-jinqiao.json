@@ -1,71 +1,83 @@
 {
   "cafeId": "dei-coffee-shop-jinqiao",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2355022741c5",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6332e4f48baf",
   "photos": [
-    "https://store.is.autonavi.com/showpic/4090eb090278008b866a6e69c2002ad7",
-    "https://aos-comment.amap.com/B0LDKSMQND/comment/3270C10F_4483_4A78_858E_552C7417D764_L0_001_2000_1500_1757227984099_20936208.jpg",
-    "https://aos-comment.amap.com/B0LDKSMQND/comment/20260316-44bf88b809f57606fc1fc386-1TlXG0qN1Zu8lcYUCAnJk2.jpg"
+    "https://aos-comment.amap.com/B0LDKSMQND/comment/20260316-44bf88b809f57606fc1fc386-7FWj5eX7C4BARhrhnbOmKE.jpg",
+    "https://store.is.autonavi.com/showpic/96b2e7cb7a08c8cd0000003369198388?type=pic",
+    "https://aos-comment.amap.com/B0LDKSMQND/comment/6241F7CE_B93C_4119_B372_E33F4433668B_L0_001_1500_2000_1757227984099_74575693.jpg",
+    "https://store.is.autonavi.com/showpic/4090eb090278008b866a6e69c2002ad7"
   ],
   "photoKinds": [
     "storefront",
     "interior",
+    "drink",
+    "menu",
     "other"
   ],
   "observations": [
     {
-      "text": "店面为临街小空间，入口有木门和玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "吧台前有专业磨豆机和咖啡豆包装袋。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "店内有手冲咖啡器具、磨豆机和电热水壶等设备",
+      "text": "店内有手冲咖啡用的玻璃杯和深色咖啡液。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台区域有员工在操作，可见咖啡制作流程",
-      "kind": "people",
-      "photo": 3,
+      "text": "菜单上写有单品咖啡的产地、风味和处理法信息。",
+      "kind": "specialtyMenu",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内设有木质高脚凳，提供少量座位",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台后方有落地窗，可看到街道和树木",
+      "text": "店外是临街街道，透过大窗户能看到外面的树和店铺。",
       "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "墙面为水泥质感，搭配木质置物架，风格简约工业",
+      "text": "店内空间小，以吧台为主，没有看到固定座位。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 0.85
     },
     {
-      "text": "店内有多个手冲滤杯、玻璃壶和咖啡杯具",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口有一只狗，店内有人活动",
-      "kind": "people",
-      "photo": 1,
+      "text": "照片中未见顾客或店员在使用电脑。",
+      "kind": "laptops",
+      "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "门口有一只猫，店内可能有宠物。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上显示咖啡价格为每100克的价格。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "none",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:19:58Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    100.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:41Z"
 }

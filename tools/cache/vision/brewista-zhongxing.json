@@ -1,7 +1,7 @@
 {
   "cafeId": "brewista-zhongxing",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "64235a537bdf",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "8d586692d1da",
   "photos": [
     "https://aos-comment.amap.com/B0IKUS0SIJ/comment/7156e25a43b788f5038790d86af5b8fd_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0IKUS0SIJ/comment/10a1455f1e75671b6a0feac37a3034f3_2048_2048_80.jpg",
@@ -14,58 +14,59 @@
   ],
   "observations": [
     {
-      "text": "临街玻璃幕墙店面，门头有发光‘B+café’标识及方形logo",
-      "kind": "space",
+      "text": "店内有顾客就座，数量约2-3人",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "店内可见至少2张小圆桌+4把椅子，1人背对镜头坐于窗边",
-      "kind": "seating",
-      "photo": 1,
+      "text": "可见手冲台和多台专业磨豆机",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "玻璃门右侧立A字牌，印有‘鲨鱼喊你来玩咖啡’等宣传语",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内吧台后墙为灰色，金色‘brewista’字样，下方是几何图案瓷砖",
+      "text": "吧台后方墙面有金色“brewista”字样",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "吧台可见白色电动磨豆机、手冲壶、小型冷藏柜（标Häagen-Dasz）、电子秤等器具",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.97
+      "text": "店内临街有大面积玻璃窗",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "吧台前桌上放有两份印刷品：含‘精品咖啡’‘10元’字样及二维码支付牌",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "特写图中为Comandante手动磨豆机，蓝绿色机身，透明底座含少量咖啡粉",
+      "text": "可见蓝色手动磨豆机一台",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "窗外反射可见城市街道、车辆与现代建筑，非河景/庭院",
-      "kind": "view",
+      "text": "店内座位以吧台前的高脚椅为主",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "门外立有A字形广告牌",
+      "kind": "other",
       "photo": 1,
-      "confidence": 0.94
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:36Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:18Z"
 }

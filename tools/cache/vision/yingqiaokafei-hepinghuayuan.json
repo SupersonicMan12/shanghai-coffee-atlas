@@ -1,7 +1,7 @@
 {
   "cafeId": "yingqiaokafei-hepinghuayuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e0ff05ba7377",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "7773f58e399d",
   "photos": [
     "https://store.is.autonavi.com/showpic/21ce6a674dc8cd8fd03e7b248876fab9",
     "https://store.is.autonavi.com/showpic/8a9dee8f935963cfe4ffdb30c38393d9",
@@ -14,34 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店面为临街小店，有玻璃窗",
+      "text": "店面位于临街商铺，有玻璃门窗和外摆区域。",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "夜间灯光照明，可见室外座位",
-      "kind": "light",
+      "text": "店门口有黑色金属围栏和电动车停放，可见街道与树木。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "白天照片显示店铺为一层临街铺面，上方为居民楼。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "夜晚照片中店铺亮灯，门口有顾客活动，可见室内有人。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店面外有树木和街道景观",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "店铺招牌为“樱乔咖啡”，附带“商务套餐”竖牌。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "可见空调外机等设备安装在店面上方",
-      "kind": "space",
+      "text": "店前有蓝色广告牌，标有“Jinsha.锦厦房产”，非咖啡馆自身信息。",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:09Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:27Z"
 }

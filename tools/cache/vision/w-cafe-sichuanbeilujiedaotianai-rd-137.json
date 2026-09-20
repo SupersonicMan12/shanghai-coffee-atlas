@@ -1,65 +1,83 @@
 {
   "cafeId": "w-cafe-sichuanbeilujiedaotianai-rd-137",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4fdbf1dd4759",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "68453f0ca627",
   "photos": [
-    "https://aos-comment.amap.com/B0FFI0LMKN/comment/8e081967a530f22a07dc9ff562817152_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFI0LMKN/comment/1c0078663a78e07d4db7fc8b44bf9676_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFI0LMKN/comment/content_media_external_file_1000008109_ss__1764491280738_81390524.jpg"
+    "https://aos-comment.amap.com/B0FFI0LMKN/comment/c8e315a830220a6789a5a17e31bd7896_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFI0LMKN/comment/0ab1a7a1a7312368a3e57b327d5a9a42_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFI0LMKN/comment/content_media_external_file_1000078437_ss__1754492985956_39615116.jpg",
+    "https://aos-comment.amap.com/B0FFI0LMKN/comment/8e081967a530f22a07dc9ff562817152_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "food",
     "storefront",
-    "storefront",
+    "menu",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，门口有行人经过",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外摆放鲜花和小型商品展示架",
+      "text": "三块蓝莓奶油蛋糕切片，每块顶部有动漫人物糖牌装饰",
       "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 0,
+      "confidence": 1.0
     },
     {
-      "text": "营业时间为10:30至21:30",
+      "text": "店门口立着一只戴帽子的大型白色泰迪熊玩偶",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "门旁招牌显示店名为W CAFE 小巷花植 Tiám floral，营业时间10:30~21:30",
       "kind": "time",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "门口有大型白色玩偶和红色邮筒装饰",
-      "kind": "story",
+      "text": "菜单手写列有柚子气泡水（¥33）、茉莉美式（¥28）、蜜桔茉莉美式（¥28）",
+      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "店面为黄色与红色拼接设计，有玻璃窗",
-      "kind": "space",
+      "text": "菜单上标注“蔡徐坤 menu”，非咖啡专业术语，可能为临时手写标题",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见部分内部陈设，但无明显座位区域",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "橱窗内可见盆栽植物，墙外展示架放有包装好的花束",
+      "kind": "plants",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "门前有电动车停放，街道环境较安静",
-      "kind": "view",
+      "text": "店招与橱窗均含“小巷花植”字样，暗示店内兼营花艺业务",
+      "kind": "story",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
+    },
+    {
+      "text": "门口标示“二樓有座”，表明二楼有座位区",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:05Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    33.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:03Z"
 }

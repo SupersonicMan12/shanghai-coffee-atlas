@@ -1,7 +1,7 @@
 {
   "cafeId": "shitengkafei-renminguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "610591768afb",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a132f7cfe0ac",
   "photos": [
     "https://store.is.autonavi.com/showpic/b9458cf2fd6bc5430000000656724927?type=pic",
     "http://store.is.autonavi.com/showpic/9ae6a3915f38737c9fb08c143af26e05",
@@ -14,46 +14,47 @@
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡设备",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供拿铁、冰咖啡等饮品",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见磨豆机和咖啡器具",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有植物装饰",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店面为小型独立建筑，临街",
+      "text": "外墙砖墙结构，角部有 'coffee.' 字样及 '石藤 口九口非' 牌子",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "店外墙面有英文标识 'coffee.'",
-      "kind": "storefront",
-      "photo": 1,
+      "text": "室内可见白色手冲壶正向滤杯注水，下方玻璃壶接萃取液，为手冲咖啡制作过程",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.98
+    },
+    {
+      "text": "桌上三杯饮品：两杯纸杯热饮（一杯拉花、一杯奶泡）、一杯塑料杯冰饮；纸杯印有'石藤'字样",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "纸杯上可见'石藤'品牌名，冰饮杯身印有'石藤 口九口非'，表明为该店出品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "背景墙面为白色方格瓷砖，吧台为浅色大理石/石质台面",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
-  "outdoor": false,
-  "bigWindows": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:15:17Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:17Z"
 }

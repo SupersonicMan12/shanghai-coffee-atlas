@@ -1,72 +1,78 @@
 {
   "cafeId": "baoluokafei-hongxingmeikailongquanqiujiaju1haodi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "28612b55be33",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "eae7c3cd94f6",
   "photos": [
     "http://store.is.autonavi.com/showpic/bec667ae5bf83db41bd80609de006c12",
     "https://store.is.autonavi.com/showpic/8fbe74973e02cf570000002244174075?type=pic",
     "https://store.is.autonavi.com/showpic/be040a7c97c85fef0000002095676598?type=pic"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店内有吧台和餐桌，空间为中等大小",
+      "text": "店内为玻璃幕墙，临街，可看到内部座位和顾客。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台和展示柜，摆放着橙子等水果。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口有菜单黑板，展示春季新品",
-      "kind": "menu",
+      "text": "室内有顾客在用餐，可见约3-4个座位。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有顾客正在用餐",
-      "kind": "people",
+      "text": "菜单黑板上有手写菜品，包括春笋、炒肉丝、油焖笋等。",
+      "kind": "food",
       "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有植物装饰，如门口的竹子和吧台的绿植。",
+      "kind": "decor",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店外有玻璃门和落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见水果展示柜，陈列橙子等水果",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口摆放植物装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "夜间店面有灯光照明，招牌清晰可见",
+      "text": "照片拍摄于夜晚，店外灯光亮起，招牌发光。",
       "kind": "time",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内设有桌椅，可容纳数人同时用餐",
-      "kind": "seating",
-      "photo": 2,
+      "text": "店内未见烘焙机或专业手冲设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无室外座位，全部座位在室内。",
+      "kind": "outdoor",
+      "photo": 1,
       "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:10Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:39Z"
 }

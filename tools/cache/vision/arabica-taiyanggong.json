@@ -1,7 +1,7 @@
 {
   "cafeId": "arabica-taiyanggong",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "f58727b64a2c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "63b7ddfa2384",
   "photos": [
     "https://aos-comment.amap.com/B0H3RNG5A5/comment/c3240325b98e68207c9349b62954ca56_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H3RNG5A5/comment/a71cdd5a5775ee187dfa15f5f80d6ad7_2048_2048_80.jpg",
@@ -10,62 +10,45 @@
   "photoKinds": [
     "drink",
     "interior",
-    "interior"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "纸杯印有黑色%标志，杯中为带心形拉花的奶咖",
+      "text": "纸杯印有%标志，杯中为拉花拿铁，可见心形与叶形图案。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "背景货架陈列多袋印%和‘ARABICA BLEND’字样的咖啡生豆麻袋",
+      "text": "杯盖为白色塑料盖，杯身印%标志，背景玻璃墙内有发光%标志。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方货架陈列多袋咖啡豆，袋上印%及'ARABICA BLEND'字样，中间悬挂发光%标志。",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "吧台区域有两台白色标%的磨豆机与一台标‘% ARABICA’的意式咖啡机",
-      "kind": "space",
+      "text": "吧台前摆放两台磨豆机、一台意式咖啡机，机器上印%和% ARABICA字样。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "第二张图中纸杯带白色平盖，置于白色台面，后方有发光%灯牌与玻璃隔断",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图可见金属框架+木质层架结构，顶部有线性LED灯管照明",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "第三张图吧台上方悬挂发光%符号灯饰，下方叠放多只同款纸杯",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "第一张图桌面为浅色带斑点材质，杯底有阴影，无其他座位或人可见",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "三张图均未出现书架、植物、宠物、菜单价格、食物或使用电脑的人",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:04Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:29Z"
 }

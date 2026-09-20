@@ -1,7 +1,7 @@
 {
   "cafeId": "we-lucky-coffee-yuxiu-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "091a8e74473d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "81cf42a5ea97",
   "photos": [
     "https://store.is.autonavi.com/showpic/96fbcbdb26b563b6cb0f93c4ea7e481c",
     "http://store.is.autonavi.com/showpic/5d6998be5a1c30e1cf62203df42ffa8d",
@@ -13,46 +13,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，入口有玻璃门和落地窗",
+      "text": "店面位于商场内，有大型落地玻璃窗",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内为长条形空间，座位数量较多",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有多个红色花篮装饰，靠近入口处",
-      "kind": "seating",
-      "photo": 3,
+      "text": "店外有开业花篮，表明是新开业或近期开业",
+      "kind": "story",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内可见桌椅，座位数量较多",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店内可见吧台和咖啡机，有专业烘焙器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.85
     },
     {
-      "text": "店内有明亮的顶灯照明，采光良好",
+      "text": "室内灯光明亮，但未见明显自然光",
       "kind": "light",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口上方有绿色招牌，标有WE LUCKY COFFEE",
-      "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
-      "text": "店内可见部分商品陈列区，疑似零售区域",
-      "kind": "space",
-      "photo": 3,
+      "text": "店内有橙色、蓝色的椅子，座位形式多样",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见有人在使用电脑",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "照片中无人，无法判断客流情况",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "mall",
+  "seats": "many",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:22Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:19Z"
 }

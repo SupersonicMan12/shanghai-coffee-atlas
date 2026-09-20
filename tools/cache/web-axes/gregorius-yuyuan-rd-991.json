@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "工作日的下午,店内都座无虚席。",
+      "url": "https://www.sohu.com/a/477993571_391486",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "工作日的下午,店内都座无虚席。",
+      "url": "https://www.sohu.com/a/477993571_391486",
+      "site": "搜狐"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店里还卖豆子与周边，标明产地/口味/适用方式",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 38.0,
+      "quote": "海妖朗姆dirty·38rmb",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "推荐一些上海值得去的咖啡馆,从江景到弄堂氛围感拉满",
+      "url": "https://www.sohu.com/a/1064778882_120487684",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 2,
+      "title": "航迹·上海|愚园路最好看的咖啡店与最好喝的dirty - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/902812998",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "探店| 上海那些让人惊叹的小众咖啡店，你去过哪几家？ - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/65568512",
+      "site_name": "知乎"
+    },
+    {
+      "index": 4,
+      "title": "咖啡文化节 | 在愚园路的宝藏咖啡馆里点一杯秋日的咖啡 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzY5MTQyOQ==&mid=2247560592&idx=1&sn=7ff7616297579a2de4a0f097e3e9a155&chksm=e819fa5adf6e734c974e1092a9361afd139c10f68c5ac1a58f5fc2a9435fb252750db04ace7f&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "Gregorius-的微博_新浪新闻",
+      "url": "https://www.sina.cn/media/6567247939",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 6,
+      "title": "犯春困的日子,喝杯提神咖啡!跟着长宁特色咖啡馆地图去打卡! ",
+      "url": "https://travel.sohu.com/a/460624650_101437",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "航迹(上海市) - 餐厅/美食点评 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurant_Review-g308272-d15239626-Reviews-Gregorius-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "“再说一遍!卖吃的!不卖老板!”_Vol",
+      "url": "https://www.sohu.com/a/477993571_391486",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:05:38Z"
+}

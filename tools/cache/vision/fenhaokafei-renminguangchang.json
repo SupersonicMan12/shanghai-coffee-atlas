@@ -1,7 +1,7 @@
 {
   "cafeId": "fenhaokafei-renminguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "641af9ecfb92",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "cf4f60ea44f0",
   "photos": [
     "https://store.is.autonavi.com/showpic/f71df9c45affd6550000003119104584?type=pic",
     "https://aos-comment.amap.com/B0I3VOEJP3/comment/file_media_Photo_14274_IMG_1763627069_11926_IMG_20251120_162249_jpg_ss__1764215280744_88430616.jpg",
@@ -10,57 +10,72 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "drink",
-    "menu"
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，门口有透明帘子和花卉装饰",
+      "text": "店面为临街小店，门框两侧有粉色花艺装饰，入口挂透明塑料门帘",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内设有吧台，有手冲咖啡器具和虹吸壶",
-      "kind": "space",
+      "text": "店内吧台上方可见红色天花板与悬挂橙色装饰物，吧台前有木质手冲架及玻璃壶具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上清晰显示“绿豆冰拿铁 ¥25”“Dirty三重奏 ¥28”“海盐荔枝黄杏冰滴 ¥25”等饮品及价格",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯套印有分号标志与“KEEP GOING”字样，杯身外侧为深色液体，配吸管",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外木桌旁摆放一杯饮品，背景可见绿植与街道，无明显遮挡",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中出现“Black Sesame Latte”“Banana Latte”等英文品名，部分标注“NEW”",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单上可见绿豆冰拿铁、海盐荔枝黄杏冰滴等饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "部分饮品价格标注为25元",
-      "kind": "drinks",
+      "text": "吧台下方陈列多袋咖啡豆包装，部分可见“Costa Rica”字样",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品杯套印有‘KEEP GOING’字样，杯中含吸管",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内天花板为红色，有悬挂装饰物",
-      "kind": "space",
+      "text": "照片中未见顾客、电脑使用者或烘焙设备，也未见书架/植物/宠物",
+      "kind": "people",
       "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店外有绿植和木质栏杆，饮品置于户外木桌上",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:15:31Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    25.0,
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:56Z"
 }

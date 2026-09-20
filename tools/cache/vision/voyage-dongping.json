@@ -1,71 +1,74 @@
 {
   "cafeId": "voyage-dongping",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "ea805919a1aa",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "04e49ba8a7c6",
   "photos": [
-    "https://aos-comment.amap.com/B0GUA79TX0/comment/0399b1e165f9b2d12e7ce8d84bf0f80a_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/f9adab1d9982a5880000002485902349?type=pic",
+    "https://aos-comment.amap.com/B0GUA79TX0/comment/0399b1e165f9b2d12e7ce8d84bf0f80a_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/9dcbfdc1866678eb0000002125708273?type=pic",
     "https://aos-comment.amap.com/B0GUA79TX0/comment/ADD9CD4A_0B4A_40E1_9EFF_88AECB709BE7_L0_001_1126_200_1742560263969_44841744.jpg"
   ],
   "photoKinds": [
-    "storefront",
+    "interior",
     "drink",
-    "other"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面外墙为水泥质感，木质屋檐，临街玻璃门，墙上有蓝色'VOYAGE COFFEE'字样",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "店内有手冲咖啡制作器具",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店外有3个黑色高脚吧台凳，1个灰色BRUTE垃圾桶，左侧为竹篱笆围挡",
+      "text": "菜单上有手冲咖啡选项及价格",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供冷萃咖啡饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有几张高脚凳作为座位",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见一台Tiamo虹吸式咖啡壶（双头），含冰球顶瓶、玻璃滤杯与金属支架",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品卡标注‘零号 ZERO’，描述含‘香料 黑巧 烟熏’，并说明为深烘咖啡",
-      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.8
     },
     {
-      "text": "桌上有一杯透明玻璃杯装的黑咖啡，表面有细密泡沫",
-      "kind": "drinks",
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "bigWindows",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.8
     },
     {
-      "text": "店内背景可见蓝色公示牌，含‘便民饮食’字样及临时备案信息",
+      "text": "室内墙面为灰色水泥质感",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街玻璃门反射出‘VOYAGE COFFEE’倒影，门框为银色金属窄边框",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外人行道旁有落叶乔木，远处可见蓝底白图机动车道指示牌",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:41:00Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0,
+    38.0,
+    40.0,
+    42.0,
+    45.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:40:48Z"
 }

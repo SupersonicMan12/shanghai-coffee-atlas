@@ -1,7 +1,7 @@
 {
   "cafeId": "cafe-adagio-wuyuehuashenghuoguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "59af807b710d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "bd171f223615",
   "photos": [
     "https://store.is.autonavi.com/showpic/306846f56ffe7998297d86999ae29438"
   ],
@@ -10,40 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街商铺，有玻璃门和大面积窗户",
-      "kind": "space",
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺招牌为'MAY FLOWER'及中文'五月花生活'",
-      "kind": "space",
+      "text": "门头为MAY FLOWER，非CAFE ADAGIO",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口无室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见明显吧台或专业咖啡器具",
+      "kind": "beans",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口有台阶和种植箱，无室外座位",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "透过玻璃可见店内有货架和商品陈列",
-      "kind": "interior",
+      "text": "店内未见书架、植物或宠物",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "建筑为现代风格，外立面为石材与玻璃组合",
-      "kind": "space",
+      "text": "未见有人在用电脑",
+      "kind": "laptops",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见饮品或食物实物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:26Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:23Z"
 }

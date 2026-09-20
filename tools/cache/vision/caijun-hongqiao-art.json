@@ -1,71 +1,61 @@
 {
   "cafeId": "caijun-hongqiao-art",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "79ec985b5d5f",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1eff20b8ffcf",
   "photos": [
     "http://store.is.autonavi.com/showpic/6d21ce30938f3c8d5639c66e99e561a0",
-    "https://aos-comment.amap.com/B0H2TKOGU3/comment/229B0DAF_BEA1_4283_81BF_B52D01980671_L0_001_1500_2000_1743489392207_63981347.jpg",
-    "https://store.is.autonavi.com/showpic/beb43ca8af625ef72b28febc5820a83d"
+    "http://store.is.autonavi.com/showpic/745b3b36de96203849f800a8b05d83d3",
+    "https://store.is.autonavi.com/showpic/beb43ca8af625ef72b28febc5820a83d",
+    "https://aos-comment.amap.com/B0H2TKOGU3/comment/229B0DAF_BEA1_4283_81BF_B52D01980671_L0_001_1500_2000_1743489392207_63981347.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店招为'TALENT COFFEE'，位于砖墙建筑外立面，入口旁有大型横向玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "临街玻璃窗内可见圣诞装饰（圣诞树、圣诞老人玩偶）、吧台及数把高脚凳",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内靠窗设长吧台，配黑色高脚凳；门外地面摆放彩色塑料椅与小圆桌",
+      "text": "店内有彩色桌椅和吧台座位",
       "kind": "seating",
       "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图显示店外有金属桩+链条围出的室外座位区，含至少4张桌椅",
-      "kind": "outdoor",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "第二张图为玻璃展柜内部：陈列画作、保温杯（TIGER品牌）、扑克牌、红色礼盒、购物袋等商品",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "第一张图中店内可见部分蓝色桌椅、黑板菜单（字迹不清）、门口立式人形模特",
-      "kind": "space",
+      "text": "临街大玻璃窗，可见室外街道",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "无可见咖啡制作设备（如磨豆机、手冲架、虹吸壶、烘焙机）",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "未见任何人使用笔记本电脑；第二张图反射中有人持手机拍摄",
-      "kind": "people",
-      "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "店内有圣诞装饰，氛围节日感",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见多张菜单板，但内容不清",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有艺术画作和装饰品",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.6
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": false,
-  "outdoor": true,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:59Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:39Z"
 }

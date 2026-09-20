@@ -1,18 +1,25 @@
 {
   "cafeId": "we-lucky-coffee-yangpuzhengtong-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "eedf500815c5",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "1815823a0820",
   "photos": [
     "https://store.is.autonavi.com/showpic/96fbcbdb26b563b6cb0f93c4ea7e481c"
   ],
   "photoKinds": [
-    "interior"
+    "logo"
   ],
   "observations": [],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:37Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:32Z"
 }

@@ -1,54 +1,63 @@
 {
   "cafeId": "cos-guoshun-east-rd-800",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1c3362b81962",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "cd5e9ca313d0",
   "photos": [
     "https://aos-comment.amap.com/B0FFLH35CR/comment/content_media_external_file_1000016310_ss__1771066812725_37737603.jpg",
     "https://store.is.autonavi.com/showpic/7ab1ee162034665b5700b98ff425b857",
     "https://store.is.autonavi.com/showpic/0a9a5b4ff469cbb3b9fd84da14646588"
   ],
   "photoKinds": [
-    "interior",
-    "drink",
     "food",
-    "menu"
+    "menu",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有木质桌面和椅子，环境偏小",
-      "kind": "space",
+      "text": "盘子上用酱料画有动漫人物和“2.14”、“生日快乐”字样，食物为蛋包饭配沙拉。",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为分层冰咖啡，配有橙色吸管",
-      "kind": "drinks",
-      "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "食物为蛋包饭，配沙拉，盘子上有卡通图案",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单为立式展示，可见部分价格信息",
+      "text": "菜单立牌显示饮品价格，如奶茶类30元、咖啡类40元等，含部分饮品名称。",
       "kind": "menu",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "店内光线充足，但未见明显大窗户",
-      "kind": "light",
-      "photo": 1,
+      "text": "饮品为冰咖啡类，杯中含冰块和奶层，插有橙色弯曲吸管。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见木质桌面和多张桌椅，背景有其他顾客就座。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.75
+    },
+    {
+      "text": "空间内有木质桌椅和靠背椅，座位数量级为中等规模。",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:31Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    30.0,
+    40.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:20Z"
 }

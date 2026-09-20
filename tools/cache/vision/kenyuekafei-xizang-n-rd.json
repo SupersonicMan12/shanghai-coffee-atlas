@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafei-xizang-n-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "31f4d67b3640",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b015c9b7e329",
   "photos": [
     "https://store.is.autonavi.com/showpic/9467f4c94cd0af18bfd90e05ce03fd3a"
   ],
@@ -10,46 +10,41 @@
   ],
   "observations": [
     {
-      "text": "店铺位于街角，临街有大面积玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见至少两人就座",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有落地窗，采光良好",
+      "text": "临街转角店，玻璃门+大面落地窗，可见店内有人坐着",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店外无室外座位",
-      "kind": "outdoor",
+      "text": "店内可见至少2人就坐，其中1人背对镜头坐在靠窗位置",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见明显吧台或专业咖啡设备（如磨豆机、手冲台），无烘焙机",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有桌椅，座位数量较少",
+      "text": "未见电脑、书架、植物、宠物；无室外座位",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见店内有人使用笔记本电脑",
-      "kind": "laptops",
-      "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.95
     }
   ],
-  "seats": "few",
-  "laptops": true,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:07Z"
 }

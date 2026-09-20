@@ -1,71 +1,71 @@
 {
   "cafeId": "page-coffee",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "64bd8abfed0c",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3949e85cf831",
   "photos": [
-    "https://aos-comment.amap.com/B0KU4DPHDN/comment/content_media_external_file_4989_1769416559646_32862565.jpg",
     "https://aos-comment.amap.com/B0KU4DPHDN/comment/7E8FB96C_2827_4911_8BE1_8A7D418FC5FF_L0_001_1126_200_1751801784425_89718339.jpg",
+    "https://aos-comment.amap.com/B0KU4DPHDN/comment/content_media_external_file_4989_1769416559646_32862565.jpg",
+    "https://store.is.autonavi.com/showpic/cf251a4f67666a950000002599666415?type=pic",
     "https://store.is.autonavi.com/showpic/69d92001d4dd6df90000002599718149?type=pic"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
-    "drink"
+    "storefront",
+    "menu",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门+木框，上方有黄色金属檐板，右侧墙标'page'绿旗logo。",
+      "text": "店面为临街玻璃门，可见内部陈设",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外人行道停一辆黑色自行车，前方有白色金属护栏与黄色路缘石。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见一人在吧台后操作，吧台为浅色木质，右侧有白色电风扇。",
-      "kind": "people",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "第一杯饮品为分层饮料：下层红褐色液体，上层厚乳白泡沫，顶饰一朵干黄花。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "手持卡片印有‘花园’二字及彩色油画纹理，非菜单，未见价格或豆子信息。",
-      "kind": "menu",
-      "photo": 2,
+      "text": "店内有木质桌椅，采光良好",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "第二杯为深琥珀色冰咖啡，含大块冰块，盛于无柄透明玻璃杯中。",
+      "text": "菜单上有手冲咖啡选项及产地信息",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "店内地面为浅色瓷砖，桌为原木色圆桌；窗外可见街道黄线与模糊行人。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "二楼窗台有绿植、水壶等杂物，装有两台外挂空调机（锈蚀）。",
-      "kind": "view",
+      "text": "提供多种冷热饮品，含特色调饮",
+      "kind": "drinks",
       "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单价格区间约33-200元",
+      "kind": "menuPrices",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:20Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    33.0,
+    200.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:01Z"
 }

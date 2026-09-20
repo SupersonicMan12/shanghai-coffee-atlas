@@ -1,71 +1,85 @@
 {
   "cafeId": "cafe-di-wine-wukangdalou",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "3ed682c988dd",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "340059323ccb",
   "photos": [
+    "https://aos-comment.amap.com/B0KGH54XVJ/comment/content_media_external_images_media_100000116_1754984758152_77282518.jpg",
     "https://aos-comment.amap.com/B0KGH54XVJ/comment/2743C93E_DF11_4F80_960E_CBEC2B3D33C1_L0_001_1051_788_1736059790478_79901593.jpg",
-    "https://store.is.autonavi.com/showpic/28cb0ba05fe3e80e0000002352174139?type=pic",
-    "http://store.is.autonavi.com/showpic/8ac5e1a5d57b5447e67d6418351323ef"
+    "http://store.is.autonavi.com/showpic/de18295f3c3daf982580bbfb8cc96153",
+    "https://store.is.autonavi.com/showpic/28cb0ba05fe3e80e0000002352174139?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外有立式黑板菜单，写有‘红酒’和‘轻食’字样。",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有靠墙长条沙发座与木质桌椅，座位数量约十组内。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内陈列多排酒瓶，含货架与金属架展示，非咖啡专用器具。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台前摆放玻璃瓶插花，含紫色与白色花朵，无饮品或食物。",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "入口处有大型绿植与垂直玫瑰花墙装饰，属人造景观。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内天花板可见轨道射灯与空调管道，工业风装修。",
+      "text": "店内有吧台区、卡座和独立桌椅，空间中等，非纯吧台或极小空间。",
       "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐厅内有大型绿植、酒架、粉色羽毛吊饰，风格偏向休闲西餐与葡萄酒主题。",
+      "kind": "style",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有花墙装饰和迎宾黑板，店名Cafe di wine明确标示，临街玻璃门可入内。",
+      "kind": "storefront",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示咖啡、红酒、意面、主食等品类，有“POWER DRINK”、“PASTA/PIZZA”分类。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括番茄马苏里拉沙拉、炸物拼盘、生菜卷配火腿，搭配红酒与水杯。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见饮品价格如38元、58元，主食价格如78元、98元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有电视屏幕播放影像，背景墙有酒瓶陈列架。",
+      "kind": "interior",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "未见任何顾客或员工，无笔记本电脑使用迹象。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "未见磨豆机、手冲台或虹吸壶等专业咖啡设备。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "餐桌旁配有餐具、蜡烛、鲜花，用餐环境布置精致。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:27Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    38.0,
+    58.0,
+    78.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:51Z"
 }

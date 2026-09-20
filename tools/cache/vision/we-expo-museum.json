@@ -1,71 +1,68 @@
 {
   "cafeId": "we-expo-museum",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "18293fc76334",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "66493f5203b7",
   "photos": [
-    "https://aos-comment.amap.com/B0KALXJROB/comment/content_media_external_file_1000032219_ss__1770455934047_08955553.jpg",
     "https://aos-comment.amap.com/B0KALXJROB/comment/content_media_external_file_1000032218_ss__1770455934048_95532516.jpg",
-    "https://aos-comment.amap.com/B0KALXJROB/comment/content_media_external_file_1000032211_ss__1770455934049_41079232.jpg"
+    "https://aos-comment.amap.com/B0KALXJROB/comment/content_media_external_file_1000032211_ss__1770455934049_41079232.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1771833208890_00056817_1771833348686_53052413.jpg",
+    "https://aos-comment.amap.com/B0KALXJROB/comment/content_media_external_file_1000032219_ss__1770455934047_08955553.jpg"
   ],
   "photoKinds": [
     "interior",
     "drink",
-    "food"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "室内为挑高大空间，裸露金属吊顶与工业风吊灯，地面为水泥自流平。",
+      "text": "店内为大空间，有多种桌椅组合",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "靠窗设多组木质长桌+深色塑料椅，另有混凝土方块座配小圆桌。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "多扇大型落地窗，采光良好",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "大面积落地窗横向排列，窗外可见黄浦江、对岸建筑群与吊车。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "窗边有柠檬树盆栽，树上挂有真实柠檬；前景纸袋印有‘SECADO EN: CAMAS AFRICANAS’等西班牙语。",
-      "kind": "story",
+      "text": "饮品为外带纸杯装，有肉桂粉和柠檬片装饰",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "饮品杯身标‘ROMA 罗马’及‘雷霆统治，苹果肉桂蜂蜜 热饮’，顶部撒粉+干橙片装饰。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "菜单封面为‘罗马 罗马’展，日期2025.11.11–2026.05.05，地址‘蒙自路818号 世博会博物馆’。",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "甜点为罗马斗兽场造型蛋糕，置于绿叶紫花装饰的浅盘中，旁有毛绒熊玩偶。",
+      "text": "食物包括造型蛋糕（如罗马斗兽场）、甜点和小饼干",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "三张照片均无人在座，未见电脑、烘焙机、手冲台、磨豆机或书架。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "菜单为长条形，印有“ROMA”字样及展览信息",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见绿植作为室内装饰",
+      "kind": "decor",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "large",
   "seats": "many",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:43Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:17Z"
 }

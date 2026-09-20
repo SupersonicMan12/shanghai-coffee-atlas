@@ -1,59 +1,78 @@
 {
   "cafeId": "vuoiuna-caffe-kaideshangpuzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a63d124c4cce",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9ded2ea6b211",
   "photos": [
+    "https://store.is.autonavi.com/showpic/a1978ae73378c1160000002434732610?type=pic",
     "https://store.is.autonavi.com/showpic/a4d1223afc714ad70000002434766271?type=pic",
-    "https://store.is.autonavi.com/showpic/5e13cffc311b54d20000002434712995?type=pic",
-    "https://store.is.autonavi.com/showpic/a1978ae73378c1160000002434732610?type=pic"
+    "https://store.is.autonavi.com/showpic/5e13cffc311b54d20000002434712995?type=pic"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有约4-6个高脚吧台座位",
+      "text": "饮品杯身印有“Vuoiuna Caffe”字样，杯内为浅黄色奶咖类饮品，含冰块。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店门口设有吧台和金色金属高脚凳，凳子坐垫颜色各异，数量约4-5个。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "座位为金色金属框架配彩色坐垫的高脚椅",
-      "kind": "seating",
-      "photo": 2,
+      "text": "店内吧台后方可见堆叠的橙色纸杯、黑色包装袋及白色设备，属小型操作空间。",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "可见一杯印有店名的冰咖啡饮品",
+      "text": "店外有立式广告牌，展示“Butter Milk 黄油牛乳”饮品宣传图。",
       "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店内空间为小型店铺，以吧台位为主",
+      "text": "吧台区域墙面为水泥质感，搭配木质台面与金属桌椅，风格现代简约。",
       "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内无明显烘焙机、手冲台或磨豆机等专业咖啡器具。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "墙面有大型饮品宣传海报",
-      "kind": "other",
+      "text": "店招显示营业时间为工作日19:30，周末16:00，非24小时经营。",
+      "kind": "time",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "收银台区域可见橙色杯子和打包袋",
-      "kind": "other",
-      "photo": 3,
-      "confidence": 0.75
+      "text": "吧台前放置牛奶品牌展示牌，标注使用“超级奶 Super 15.0”等高品质牛奶。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:25Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:00Z"
 }

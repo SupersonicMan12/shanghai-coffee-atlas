@@ -1,71 +1,73 @@
 {
   "cafeId": "nodcafe-m50",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "0f3e2402a7ad",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cf71a1c86d8a",
   "photos": [
-    "https://store.is.autonavi.com/showpic/70b1bc030094945cecdd74e8c4324983",
     "https://store.is.autonavi.com/showpic/50b3141ea05a11350000002602550296?type=pic",
-    "https://aos-comment.amap.com/B0J6PC5VXT/comment/CC43CA20_9F17_4661_A2FD_DA845AD92763_L0_001_1179_117_1757158576845_29942354.jpg"
+    "https://aos-comment.amap.com/B0J6PC5VXT/comment/CC43CA20_9F17_4661_A2FD_DA845AD92763_L0_001_1179_117_1757158576845_29942354.jpg",
+    "https://aos-comment.amap.com/B0J6PC5VXT/comment/3576a14cd4ae0cf15a0be39859474dfe_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/70b1bc030094945cecdd74e8c4324983"
   ],
   "photoKinds": [
-    "storefront",
     "interior",
-    "drink"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "店门口挂有手写体'Nod Café'招牌及'Open 正在营业'木牌",
+      "text": "店内有吧台，一名店员正在操作咖啡机",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.95
     },
     {
-      "text": "入口为黑色框格玻璃推拉门，门外左侧有绿色矮凳与折叠椅各1把",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内为高视角俯拍，吧台区紧凑，地面灰白棋盘格瓷砖，无独立座位区",
+      "text": "地面为灰白格子瓷砖，空间内摆放大量绿植",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一台绿色复古冰箱和一个双层置物架",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "一张照片展示了一杯冰咖啡饮品",
+      "kind": "drinks",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "吧台可见意式咖啡机、磨豆机、手冲壶架、双头压粉器等专业设备",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "吧台旁有浅绿复古冰箱、木质置物架、多盆绿植（含龟背竹、蔓绿绒）",
+      "text": "店内有书架，摆放着多本书籍和艺术画作",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "第三张图为一杯冰饮：分层明显，下层乳白、中层浅棕、上层深棕，含冰块，置于木桌",
-      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "店内无人使用电脑；仅1名穿花衬衫戴帽者在操作咖啡机",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "透过玻璃门可见室外有金属网格围栏与部分绿植，未见河/街景明确细节",
+      "text": "入口处有玻璃门，门外可见部分街道和建筑",
       "kind": "view",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线充足，主要来自大面积窗户",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": false,
-  "outdoor": true,
+  "room": "bar",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T13:39:00Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:36Z"
 }

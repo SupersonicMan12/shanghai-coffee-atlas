@@ -1,60 +1,80 @@
 {
   "cafeId": "cafe-de-jardin-pingliang-rd-627",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5876c3ca7395",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "63d6f19fc7f4",
   "photos": [
-    "https://store.is.autonavi.com/showpic/ea3b015546c431540000002255858444?type=pic",
     "https://aos-comment.amap.com/B0FFM558PN/comment/25BAC8B6_6C8B_4175_8A40_9447FCB33560_L0_001_1536_204_1765077309146_26602146.jpg",
+    "https://store.is.autonavi.com/showpic/ea3b015546c431540000002255858444?type=pic",
+    "https://aos-comment.amap.com/B0FFM558PN/comment/content_media_external_images_media_1000031456_ss__1742390303305_46167948.jpg",
     "https://store.is.autonavi.com/showpic/061831f849e74a5d0000003917560834?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink",
-    "food"
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "店面为灰色外墙，有拱形门窗",
+      "text": "店内有木质地板、皮质座椅和白色桌布，空间呈中等大小。",
       "kind": "space",
-      "photo": 1,
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内墙面挂有多幅装饰画和镜子，有复古风格装饰品。",
+      "kind": "style",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为深色拱形门窗，门上贴有OPEN标识，地址为平凉路627号。",
+      "kind": "storefront",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "室内有蓝白花纹餐具和鲜花装饰",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供迷你披萨、甜点和多种饮品",
+      "text": "桌上摆放有披萨、抹茶蛋糕、巧克力蛋糕配冰淇淋、柠檬饮品等食物与饮品。",
       "kind": "food",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口悬挂花环，门上标有营业时间",
-      "kind": "space",
+      "text": "食物摆盘使用蓝白花纹陶瓷盘，餐具包括叉子、心形勺和普通勺。",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "text": "室内可见绿植，采光良好",
+      "text": "店内设有大窗户，窗外可见绿植，采光良好。",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "提供柠檬水、抹茶甜品等",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "照片中未见有人在使用笔记本电脑或手机办公。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见大型盆栽植物，增添自然氛围。",
+      "kind": "plants",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:22Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:05Z"
 }

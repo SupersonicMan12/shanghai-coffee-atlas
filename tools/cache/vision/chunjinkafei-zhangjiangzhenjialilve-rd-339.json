@@ -1,65 +1,79 @@
 {
   "cafeId": "chunjinkafei-zhangjiangzhenjialilve-rd-339",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6a2aac287601",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "92bab231f12b",
   "photos": [
     "http://store.is.autonavi.com/showpic/eb12e0b185c2dfb980ae84d892678815",
-    "https://aos-comment.amap.com/B0GDXHQXQZ/headerImg/a51765c231443828faa11f9b0fb1db95_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/32c173d4814dfcce3829bffed861824a"
+    "http://store.is.autonavi.com/showpic/5b215a805eb6390a3c2cf0de4e61a067",
+    "https://store.is.autonavi.com/showpic/32c173d4814dfcce3829bffed861824a",
+    "https://aos-comment.amap.com/B0GDXHQXQZ/headerImg/a51765c231443828faa11f9b0fb1db95_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "other",
-    "storefront"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于临街建筑一层，有台阶通向入口",
+      "text": "店面为临街玻璃门，有台阶上行，外部有植物装饰。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店前有玻璃围挡和绿植装饰",
-      "kind": "space",
-      "photo": 1,
+      "text": "夜间照片显示店外停放一辆蓝色跑车，店内灯光明亮。",
+      "kind": "time",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "夜间拍摄，门口有发光招牌和植物",
-      "kind": "time",
-      "photo": 2,
-      "confidence": 0.95
+      "text": "白天照片中，店面有大块落地玻璃窗，可看到室内部分区域。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "门前有玫瑰花丛，叶片带水珠",
+      "text": "夜间照片前景有带水珠的绿植和玫瑰花，环境有绿化。",
       "kind": "view",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "店铺外立面为大面积玻璃窗，临街可见",
-      "kind": "bigWindows",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "照片未见明显吧台、手冲设备或烘焙机等专业器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.7
     },
     {
-      "text": "门前有停车场，停有车辆",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "照片未见客人或工作人员，无法判断是否有人在用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
     },
     {
-      "text": "店名显示为‘淳尽咖啡’，英文为‘ASTOR CAFE & BAR’",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "照片未见室外座位区。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片未见菜单或价格信息。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:31Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:21Z"
 }

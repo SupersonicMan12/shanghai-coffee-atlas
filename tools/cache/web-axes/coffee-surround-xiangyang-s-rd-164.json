@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "咖啡厅不大,但客人很多,有不少是熟客",
+      "url": "https://www.dianping.com/discovery/950839287",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "咖啡厅不大,但客人很多,有不少是熟客",
+      "url": "https://www.dianping.com/discovery/950839287",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在店里左等右等,终于等来了布布。",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "核桃杏仁Dirty...柑橘冷萃...使用新鲜柠檬、橙子熬制的伯爵茶",
+      "url": "http://www.sohu.com/a/466242173_529040",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 42.0,
+      "quote": "核桃杏仁Dirty 价格:42元 柑橘冷萃 价格:42元",
+      "url": "http://www.sohu.com/a/466242173_529040",
+      "site": "搜狐"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海咖啡探店| 每一口咖啡都是开心限定款 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/666018933",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "coffee surround - Shanghai Restaurants - Trip.com",
+      "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-122765546/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海新晋咖啡馆16家,永远年轻永远标新立异_价格",
+      "url": "http://www.sohu.com/a/466242173_529040",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "Coffee | 新年第一波上海探店,陕西南路商圈的新店们,你们好呀!_杰尼",
+      "url": "https://www.sohu.com/a/451848150_783141",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 5,
+      "title": "你好,可爱的小BuBu,我来看你啦 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/950839287",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "不止于咖啡,揭开上海咖啡馆“万店密码”",
+      "url": "https://www.cnr.cn/shanghai/shtt/20260522/t20260522_527630497.shtml",
+      "site_name": "央广网"
+    },
+    {
+      "index": 7,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "年终总结:2021年喝了这17家上海咖啡馆,有惊喜也有雷 ",
+      "url": "https://www.douban.com/note/822965140/",
+      "site_name": "豆瓣网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:06Z"
+}

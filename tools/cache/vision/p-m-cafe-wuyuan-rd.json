@@ -1,71 +1,93 @@
 {
   "cafeId": "p-m-cafe-wuyuan-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "614f87d8c3c3",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "c9c0ff81c62f",
   "photos": [
-    "https://aos-comment.amap.com/B0K30DJNAU/comment/8F8FF99D_3E24_484C_955C_654F3127FA13_L0_001_1502_200_1760148359601_61916525.jpg",
     "https://aos-comment.amap.com/B0K30DJNAU/comment/C2C848BC_37F1_442A_B11D_74B881B515B7_L0_001_2000_150_1760148359600_45429678.jpg",
+    "https://aos-comment.amap.com/B0K30DJNAU/comment/8F8FF99D_3E24_484C_955C_654F3127FA13_L0_001_1502_200_1760148359601_61916525.jpg",
+    "https://store.is.autonavi.com/showpic/1d378b2cc620af1c0000003774920856?type=pic",
     "https://aos-comment.amap.com/B0K30DJNAU/comment/589FCAA8_722F_4D23_B727_02F71A251E68_L0_001_1512_2016_1734236787819_69272892.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "food",
+    "interior",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "店内是狭长通道式布局，两侧设座位，空间紧凑。",
+      "text": "店内空间狭长，有吧台和木质桌椅，座位数量有限。",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台区有咖啡机和手冲器具，墙上挂有推荐饮品牌。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "提供烧焦芝士蛋糕、荔枝风味冰茶和拿铁。",
-      "kind": "food",
-      "photo": 2,
+      "text": "菜单上可见手冲咖啡、SOE、特调咖啡等选项，标注产地与价格。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "有小块方形甜点配陶瓷杯咖啡，用日式小碟盛放。",
-      "kind": "food",
+      "text": "菜单显示咖啡价格区间为22-68元，甜品32-48元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括拿铁、美式、Dirty、气泡水等，食物有巴斯克芝士蛋糕、司康、布丁。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内座位以木质桌椅为主，数量不多，未见多人聚集。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "入口处玻璃门挂有OPEN标牌，无室外座位。",
-      "kind": "outdoor",
+      "text": "提供巴斯克芝士蛋糕、荔枝、冰茶、拉花咖啡等食物与饮品。",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有顾客就坐，但无人使用笔记本电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.75
+      "text": "店内设有手冲台与磨豆机，陈列多种咖啡豆样品。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "墙面和家具多为浅色木纹材质，装修风格简约。",
+      "text": "照片中可见顾客在店内就座，但未见有人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内装修以木质为主，搭配灰色墙面，风格简约现代。",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:48Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    22.0,
+    25.0,
+    28.0,
+    29.0,
+    32.0,
+    35.0,
+    36.0,
+    38.0,
+    46.0,
+    48.0,
+    65.0,
+    68.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:28Z"
 }

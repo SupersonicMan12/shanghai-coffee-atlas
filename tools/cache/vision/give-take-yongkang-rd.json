@@ -1,65 +1,86 @@
 {
   "cafeId": "give-take-yongkang-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "8eae6ba58428",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "5082c08f1a83",
   "photos": [
     "https://store.is.autonavi.com/showpic/f1fe6619b6e5f2300000002345702853?type=pic",
+    "https://store.is.autonavi.com/showpic/8ebc1234d50604640000005666402481?type=pic",
     "https://aos-comment.amap.com/B0G0DCBM76/comment/b64ab897bcd2be57bc4f6c23586d6f98_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/1e7317eb85a9f8990000002355532606?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "drink",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店外有几张折叠椅和小桌，供顾客在人行道上使用。",
+      "text": "店位于永康路，临街有户外座位，街道旁有绿植和花箱。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有黑色折叠椅和小桌，供顾客使用。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店门口立着一张海报，宣传蜂蜜卡美罗拿铁饮品。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室外座位区旁有花箱和悬挂绿植，街道上有行人与车辆。",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "一杯冰美式放在一本打开的书上，旁边有水杯和纸片。",
+      "text": "菜单上可见蜂蜜卡美罗拿铁、燕麦拿铁、深烘培美式等饮品，价格从15元到26元不等。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店门为灰色金属质感，门上挂有路牌和店名标识。",
-      "kind": "space",
+      "text": "有户外座位区，摆放了折叠椅和小桌，适合休闲饮用。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品海报宣传蜂蜜卡美罗拿铁，配有烤榛果和焦糖色装饰。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "透过玻璃门可见店内有顾客背影，但内部空间细节不清。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "街道两旁有店铺、空调外机和悬挂花盆，环境较生活化。",
-      "kind": "view",
+      "text": "一张玻璃杯装的冰咖啡放在旧书上，旁边有设计图纸，环境文艺。",
+      "kind": "drink",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店面为灰色水泥墙，门口挂有“熊爪咖啡 give & take”招牌，地址在永康路。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单包含风味拿铁、玛奇朵、果咖特调等系列，提供冷热选项。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "some",
-  "laptops": false,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:05:15Z"
+  "bigWindows": false,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    15.0,
+    19.0,
+    22.0,
+    24.0,
+    26.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:06Z"
 }

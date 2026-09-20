@@ -1,71 +1,80 @@
 {
   "cafeId": "xuyukafei-zhongxingzhangdaoyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3b037f8ae0d6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "77ee04b595e7",
   "photos": [
-    "http://store.is.autonavi.com/showpic/781946bb8bcb677f2d4ca7dcfb8c45be",
     "http://store.is.autonavi.com/showpic/b75d1e2d8625b3beb428edb8c1a5adb4",
+    "http://store.is.autonavi.com/showpic/781946bb8bcb677f2d4ca7dcfb8c45be",
+    "http://store.is.autonavi.com/showpic/4105ac48f0c69223973810e6a51f301a",
     "http://store.is.autonavi.com/showpic/ed52d7128c895d7ab2a68fbf640c2a13"
   ],
   "photoKinds": [
+    "interior",
     "drink",
-    "drink",
-    "interior"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "有三杯拉花咖啡，包括心形和网格图案",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "室内有书架，摆放着多本书籍。",
+      "kind": "beans",
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "咖啡杯配碟，有黄色、红色等鲜艳颜色",
+      "text": "照片中出现三杯咖啡饮品，包括拉花和dirty风格。",
       "kind": "drinks",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "桌上摆放紫色花卉装饰",
-      "kind": "story",
-      "photo": 1,
+      "text": "照片中有一杯带有奶泡和撒粉的咖啡。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中出现一个装有干花的玻璃瓶。",
+      "kind": "beans",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有书架，书籍数量较多",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有沙发椅和小桌，适合阅读或休息",
+      "text": "室内有多个座位，包括沙发和椅子。",
       "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 4,
+      "confidence": 0.85
     },
     {
-      "text": "墙上挂有画作和照片，有装饰性文字标语",
-      "kind": "story",
-      "photo": 3,
+      "text": "照片中出现一个白色陶瓷杯，内有咖啡。",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "有小型陶瓷杯装咖啡，杯身绘有人物图案",
+      "text": "照片中有一个带图案的黄色小杯子，内有咖啡。",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 0.8
     },
     {
-      "text": "桌面散落咖啡豆，用于装饰",
-      "kind": "story",
-      "photo": 2,
+      "text": "照片中出现一个白色条纹杯，内有咖啡。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": null,
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:07Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:47Z"
 }

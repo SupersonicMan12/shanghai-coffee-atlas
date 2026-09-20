@@ -1,71 +1,74 @@
 {
   "cafeId": "sanyuekafeiguan-wanhangdu-rd-1384",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "814a220c9356",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "f9dbecd6f2f1",
   "photos": [
-    "https://store.is.autonavi.com/showpic/70b43160907faa1c0000003599006480?type=pic",
     "https://aos-comment.amap.com/B00155LQS8/comment/20260311-40d99571f269a6ba36a36a46-8EgBtOgWqypAEPJGjf9gBy.jpg",
+    "https://store.is.autonavi.com/showpic/70b43160907faa1c0000003599006480?type=pic",
+    "http://store.is.autonavi.com/showpic/df44a37991231f882ff759c807344211",
     "https://aos-comment.amap.com/B00155LQS8/comment/content_media_external_images_media_8018_1743312907536_47950389.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "interior",
-    "food"
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面为绿色木质门头，门牌号203，招牌写‘三月咖啡馆’及‘SIMBA II’",
+      "text": "店内有木质桌椅和复古灯具，氛围温馨",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "门口左侧有浅绿复古冰箱，右侧立白瓷鹿头雕塑，门前黑板写‘门外橘猫不是三月的’",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见红色春联、暖光台灯、老式收音机与打字机等摆件，无明显吧台或专业咖啡设备",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图中手握白瓷杯，杯内为带叶形拉花的热奶咖，旁有‘叁月 Since 2002’盖罐与手写菜单",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "第三张图桌面有两杯拉花热奶咖、一杯冰美式、一块红丝绒蛋糕、一块抹茶千层蛋糕",
-      "kind": "food",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "手写菜单可见‘意式浓缩 Espresso’‘美式咖啡 Americano’‘卡布奇诺 Cappuccino’‘拿铁’‘摩卡’等，标价‘生椰 58’",
+      "text": "可见两杯拉花咖啡、一块红丝绒蛋糕和一杯冰美式",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有Espresso、American等英文饮品名",
       "kind": "menu",
       "photo": 2,
-      "confidence": 0.92
+      "confidence": 0.8
     },
     {
-      "text": "桌为木纹桌面，嵌有金属压印文字（如‘after’‘quality’），无电脑、无烘焙机/手冲台/虹吸壶",
+      "text": "门口摆放着绿色冰箱和白色鹿头装饰",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有书架和植物，环境舒适",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.96
+      "confidence": 0.7
     },
     {
-      "text": "第一张图玻璃门内可见室内灯光较暗，地面为深色木地板，未见窗或采光细节",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "天花板为白色横梁结构，有吊扇和吊灯",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "座位数量约10-15个，以木质桌椅为主",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": false,
-  "outdoor": null,
-  "bigWindows": false,
+  "crowd": null,
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:42:44Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:59Z"
 }

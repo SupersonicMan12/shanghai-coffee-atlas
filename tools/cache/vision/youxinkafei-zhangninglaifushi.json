@@ -1,71 +1,66 @@
 {
   "cafeId": "youxinkafei-zhangninglaifushi",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0cb4219388cc",
+  "inputDigest": "368f44363356",
   "photos": [
     "http://store.is.autonavi.com/showpic/36ccc1aca50b80f2651b78785a424676",
     "http://store.is.autonavi.com/showpic/9cd749268053dc12e096a716c9c60d3f",
     "https://aos-comment.amap.com/B0FFKV4OBX/comment/content_media_external_file_1000043814_ss__1757591678149_82479947.jpg"
   ],
   "photoKinds": [
-    "logo",
-    "food",
-    "storefront"
+    "storefront",
+    "interior",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有可颂和果酱出售",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于商场内，有吧台和少量座位",
+      "text": "店内为商场内档口，有吧台和座位区",
       "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有落地玻璃窗，采光良好",
-      "kind": "light",
+      "text": "可见约5-8个座位，多为单人桌",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内设有扫码下单提示牌",
-      "kind": "story",
+      "text": "店内有电子菜单屏显示饮品信息",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "可见咖啡机、展示柜及烘焙食品",
-      "kind": "drinks",
+      "text": "一张照片展示了一个可颂面包",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，但无明显大窗户",
+      "kind": "light",
       "photo": 3,
       "confidence": 0.7
     },
     {
-      "text": "提供轻食、茶歇、礼品等产品",
+      "text": "吧台后方可见陈列的糕点",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有电子屏幕显示饮品促销信息",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有工作人员在岗",
-      "kind": "people",
       "photo": 3,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "mall",
+  "seats": "some",
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:53Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:44:05Z"
 }

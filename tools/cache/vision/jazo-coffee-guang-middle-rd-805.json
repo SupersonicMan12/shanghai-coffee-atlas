@@ -1,7 +1,7 @@
 {
   "cafeId": "jazo-coffee-guang-middle-rd-805",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a367a786f7d2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "726cff83e29c",
   "photos": [
     "https://aos-comment.amap.com/B0KADYSK1I/comment/8bd7e4cd19f99b7537165a0ffbff964d_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KADYSK1I/comment/5a31aeb01c8e1579f125da3728dab099_2048_2048_80.jpg",
@@ -14,58 +14,70 @@
   ],
   "observations": [
     {
-      "text": "店外有桌椅，可坐户外",
-      "kind": "seating",
+      "text": "店招显示‘JAZO coffee’，地址为广中路805号，临街玻璃门面",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "售卖贝果、可颂、司康等烘焙食品",
+      "text": "室外有2把绿色折叠椅+1张小桌+1张长凳，地面为砖铺，属室外座位区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "面包架上可见‘碱水红豆’‘碱水可颂’‘芝芝贝果’‘提子丹麦卷’等明确品类及价格（¥12-¥20）",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "提供埃塞俄比亚、肯尼亚产地咖啡豆",
+      "text": "咖啡豆标签显示产地与处理法：埃塞俄比亚丹琪（Washed）、肯尼亚Ruiru 11（Washed），均为单品豆",
       "kind": "beans",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单卡标注‘Light Roast’‘Washed’‘1600-1800m’等专业术语，属精品咖啡定位",
+      "kind": "specialtyMenu",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "有水洗处理法浅度烘焙咖啡豆",
-      "kind": "beans",
+      "text": "店内无明显烘焙机/手冲台/磨豆机等设备，仅展示包装豆与面包",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "展示咖啡豆风味如柚子、蔓越莓、西梅",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "有明确价格标签的面包，如芝芝贝果16元",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面临街，有玻璃门和窗户",
-      "kind": "bigWindows",
+      "text": "照片中未见顾客、无人使用电脑、无插座可见",
+      "kind": "crowd",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见金属置物架陈列面包",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "玻璃门内可见‘JAZO space’字样，门上贴营业时间（周一至周五7:30-18:00）",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:41Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    12.0,
+    16.0,
+    18.0,
+    20.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:45Z"
 }

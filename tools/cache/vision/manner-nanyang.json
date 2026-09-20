@@ -1,7 +1,7 @@
 {
   "cafeId": "manner-nanyang",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "624a82782852",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "84959adf09e6",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1769052263715_10594955_1769052315265_15273421.jpg",
     "https://aos-comment.amap.com/B0FFHIGY5F/comment/D3E96872_F199_482C_86C1_4E63DD9AE472_L0_001_1500_200_1761803775183_10482226.jpg",
@@ -14,58 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店面为临街单层小店，门面窄，有蓝色遮阳棚与绿色铁栅门。",
+      "text": "店面为小型街边店，有蓝色遮阳篷",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内可见黑色磨豆机、意式咖啡机、叠放纸杯与两台平板点单设备。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "吧台为金属台面，墙面贴白色小方格瓷砖，上方挂食品安全信息公示栏。",
+      "text": "室内为狭长吧台式空间，设备齐全",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外停放多辆电动车与自行车，无室外座位区域可见。",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "手持杯身印MANNER三角标，杯盖为带红色心形凸起的透明塑料盖。",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "门旁贴有红色酒类广告海报，右侧墙贴菜单与二维码，地址牌显示‘205 南阳路’。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台前立牌写‘南阳路 扫码点单’及英文‘MAKE COFFEE PART OF YOUR LIFE’。",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内未见座位、书架、植物、宠物或使用电脑的人。",
-      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "可见咖啡研磨机和意式咖啡机等专业器具",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持一杯带心形盖的外带咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外停放着电动车和自行车",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内墙面为白色瓷砖，光线明亮",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": false,
-  "outdoor": false,
-  "bigWindows": false,
+  "crowd": null,
+  "laptops": null,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:16Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:36:47Z"
 }

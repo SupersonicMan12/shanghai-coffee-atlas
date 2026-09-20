@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "这里的人流相对较少,闹中取静。",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site": "无"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "看着小哥有条不紊的冲泡咖啡也是一种享受。",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site": "无"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "这里主打手冲清咖,可以根据自己的喜好挑选豆子。",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site": "无"
+    },
+    "price": {
+      "value": 100.0,
+      "quote": "人均消费：100元左右／人",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/horiguchi-coffee-45539936/",
+      "site": "HORIGUCHI COFFEE堀口咖啡(外灘核心區, 上海) – 菜單、評論及資訊"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "堀口咖啡",
+      "url": "https://baike.baidu.com/item/堀口咖啡/68416905",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "HORIGUCHI COFFEE堀口咖啡(洛克·外滩源店)",
+      "url": "https://m.dianping.com/shop/97772606",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "“日本精品咖啡之父”来了！海外首店就在外滩！",
+      "url": "http://static.zhoudaosh.com/files/975375EA765601E4F60C6502626B96BC46DFFD9277C2DB33704A34C9DBA116B5/825755abd7a8edc87f798b866422f039c1c9e9ad.html",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "☕️上海探店|大隐隐于市日式手冲·堀口咖啡🤎 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/922745021",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "HORIGUCHI COFFEE堀口咖啡(外灘核心區, 上海) – 菜單、評論及資訊",
+      "url": "https://tw.trip.com/restaurant/china/shanghai/detail/horiguchi-coffee-45539936/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "100家魔都咖啡馆|因戏爆红的日式精品咖啡店:堀口咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/696546348",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "Horiguchi Coffee堀口咖啡|“日本精品咖啡之父”将中国第一家也是唯 ",
+      "url": "https://k.sina.cn/article_1832696867_p6d3cbc2302700ajrh.html?from=news",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡饕餮杂谈-2021年4月下篇：值得一去的景点咖啡店",
+      "url": "https://zhuanlan.zhihu.com/p/368673538",
+      "site_name": "知乎"
+    },
+    {
+      "index": 9,
+      "title": "HORIGUCHI COFFEE (Le Bund, Shanghai) - Avis sur le restaurant ...",
+      "url": "https://fr.trip.com/restaurant/china/shanghai/detail/horiguchi-coffee-45539936/",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "也曾是“三十而已”的取景地呢～  HORIGUCHI的咖啡豆一共有九款，以 ...",
+      "url": "https://www.sina.cn/news/detail/5073380174204038.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:53Z"
+}

@@ -1,7 +1,7 @@
 {
   "cafeId": "pull-tab-shanghaishiminxingwenyizhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "757645b32a33",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "875e79d1a496",
   "photos": [
     "https://store.is.autonavi.com/showpic/2260d7daf4e1fc180000002886736834?type=pic",
     "https://aos-comment.amap.com/B0L3MDJV6S/comment/ED1B7336_E80D_4BD8_B5A6_A7813DE68415_L0_001_1500_200_1766196129367_37313783.jpg",
@@ -9,57 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有大面积玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店外有几张桌椅，是户外座位区。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店外设有桌椅，提供室外座位",
-      "kind": "seating",
+      "text": "店面有大面积玻璃窗，能看到内部部分陈设。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "室外有红色警示牌，提示小心玻璃。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外座位数量较少，约4-6个",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺门口有菜单立牌，展示饮品图片",
+      "text": "门口立着一个A字形菜单架，上面有饮品图片。",
       "kind": "menu",
       "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "玻璃门上有“小心玻璃”提示标识",
-      "kind": "space",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见部分桌椅，空间较窄",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "照片中没有看到有人在用电脑。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.8
     },
     {
-      "text": "门店为现代风格建筑，无明显老式或庭院特征",
-      "kind": "space",
+      "text": "店内未见明显烘焙机或手冲台等专业咖啡设备。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "照片里没有看到任何客人或工作人员。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见书架和植物装饰。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:00Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:39Z"
 }

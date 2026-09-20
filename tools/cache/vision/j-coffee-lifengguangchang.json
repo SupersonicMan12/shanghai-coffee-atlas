@@ -1,7 +1,7 @@
 {
   "cafeId": "j-coffee-lifengguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d9df88cbf6c0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "00d7053e451f",
   "photos": [
     "http://store.is.autonavi.com/showpic/ab72974debd38dda79f82e16fe0d2d1d",
     "https://aos-comment.amap.com/B0J0D1S3U5/comment/16241567bf10216da42cbb455c16547a_2048_2048_80.jpg",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
     "interior"
   ],
   "observations": [
     {
-      "text": "店外有木质平台和多把户外椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内设有吧台和高脚凳",
+      "text": "室内有吧台和高脚凳，可坐吧台位喝咖啡。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "有手冲咖啡器具和磨豆机",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "吧台后方有手冲架、磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有长条木制卡座和小桌",
+      "text": "店内有靠墙长椅和小方桌，可坐客位。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有大面积落地窗，采光良好",
+      "text": "店外有木质平台和多张椅子，是室外座位区。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有大落地窗，采光好，能看到外面的绿植。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台后方可见咖啡制作设备",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内摆放绿植，环境整洁",
-      "kind": "story",
-      "photo": 2,
+      "text": "店内有绿植点缀，环境整洁。",
+      "kind": "view",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "室内空间宽敞，布局现代简约",
-      "kind": "space",
+      "text": "照片里有店员在操作设备，没有顾客在用电脑。",
+      "kind": "people",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上未看清价格或具体豆子产地信息。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:18:51Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:27Z"
 }

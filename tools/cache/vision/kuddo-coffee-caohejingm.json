@@ -1,58 +1,80 @@
 {
   "cafeId": "kuddo-coffee-caohejingm",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0da901e84f2c",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9355e8164007",
   "photos": [
-    "https://store.is.autonavi.com/showpic/26221b3408abc1860000003562578572?type=pic",
+    "https://store.is.autonavi.com/showpic/9f372f5164735a310000006795372312?type=pic",
     "https://store.is.autonavi.com/showpic/ca5adfaa0d94748651c0acc09bd70b34",
-    "https://store.is.autonavi.com/showpic/7111298ee11d46c81a990ff98670ca1b"
+    "https://store.is.autonavi.com/showpic/d11a000be27084b80000006795358869?type=pic",
+    "https://store.is.autonavi.com/showpic/26221b3408abc1860000003562578572?type=pic"
   ],
   "photoKinds": [
-    "interior",
-    "storefront"
+    "menu",
+    "storefront",
+    "drink",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内空间较大，有吧台和多组桌椅",
+      "text": "店内空间较大，有吧台和多组桌椅，顾客在用餐。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "临街大落地窗，采光良好",
+      "text": "店外临街，有大面积玻璃窗和落地窗，采光良好。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见多名顾客在店内活动",
+      "text": "展示柜内有巧克力可颂、咖啡海盐包、巴斯克蛋糕等烘焙食品，标价16-32元。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包括小青柑汤力美式（罐装）和冰饮（杯装），均印有KUDDO COFFEE品牌。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡制作区，有咖啡机和操作台，但无手冲或虹吸器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有数名顾客，部分携带儿童，整体人流适中。",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "吧台区域可见咖啡制作设备",
-      "kind": "beans",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "店内座位数量较多，约10-15个",
-      "kind": "seating",
+      "text": "菜单上显示黄油可颂华夫、泰式热狗、芝士鸡肉贝果等食物，价格16-25元。",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店面为现代风格，装修简洁",
+      "text": "店内设有排队栏杆和点单区，墙面写有标语“WE DON'T MAKE COFFEE, WE MAKE VALUE”。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.75
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
-  "seats": "some",
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:45Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:03Z"
 }

@@ -1,71 +1,80 @@
 {
   "cafeId": "nao-cafe-huaihai-middle-rd-700",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "c4a27822076c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "bc054f4d1e3e",
   "photos": [
-    "https://aos-comment.amap.com/B0J64A7CRC/comment/9488a09068fc7a4b144af82fd67087ad_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J64A7CRC/comment/b45f472118f2f8c8597b28817c88c688_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J64A7CRC/comment/9488a09068fc7a4b144af82fd67087ad_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0J64A7CRC/comment/9EB8FA92_0B79_45D1_90BF_43AAF3E3A870_L0_001_2000_2000_1727419281330_77583032.jpg",
     "https://aos-comment.amap.com/B0J64A7CRC/comment/7e6158adcb3198531e035bea734bdc01_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
     "food"
   ],
   "observations": [
     {
-      "text": "店面为街角玻璃幕墙结构，一层有大面积临街落地窗",
+      "text": "店面为临街现代建筑，底层大面积落地玻璃窗，可见室内座位区",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店内可见4人就坐于木质扶手椅+小圆桌组合，座位数至少4个",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "招牌显示'Mountain Living'与'NAO! CAFE'，入口处有同款发光字",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "饮品：一杯抹茶拿铁（撒干花瓣）、一杯橙色系拉花咖啡（心形图案）",
-      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "食物：两块蛋糕分别盛于金属托盘，一块顶部有葡萄与蓝莓，另一块表面焦糖色",
-      "kind": "food",
+      "text": "店内有约8-10张方桌配木质椅子，地面为水磨石，靠墙有长条卡座及三角形软包靠背",
+      "kind": "seating",
       "photo": 3,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "室内背景墙有红/灰/白拼色，可见绿植、吊灯及部分英文城市名列表（如SINGAPORE, SHANGHAI）",
-      "kind": "interior",
-      "photo": 1,
+      "text": "照片中未见任何人使用电脑，也未见明显插座（仅在背景墙处有电源口但未确认是否在座位旁）",
+      "kind": "laptops",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "无可见电脑、烘焙机、手冲台、虹吸壶或磨豆机等专业设备",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "饮品：一杯抹茶拿铁（绿汤+拉花+干花瓣）、一杯橙棕色咖啡（拉花似叶/心形）",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "未见室外座位区域；店外为水泥地面，无遮阳棚或桌椅",
-      "kind": "outdoor",
+      "text": "食物：两块蛋糕切片，一块顶部有蓝莓与白色球状物，另一块为焦糖色芝士蛋糕",
+      "kind": "food",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外无座位区；玻璃窗内侧可见外部停放的汽车，表明临街且有车流",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机、手冲台或磨豆机等专业器具；吧台区域被遮挡，无法确认设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无书架、植物或宠物；仅在第一张特写图中背景模糊可见一盆绿植",
+      "kind": "plants",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:28Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:50Z"
 }

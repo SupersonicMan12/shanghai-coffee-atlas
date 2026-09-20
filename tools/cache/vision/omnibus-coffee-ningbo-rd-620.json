@@ -1,71 +1,87 @@
 {
   "cafeId": "omnibus-coffee-ningbo-rd-620",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "d21e6df27733",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "954e649fcf29",
   "photos": [
-    "https://store.is.autonavi.com/showpic/7ecb90c004916dbf0000002445570625?type=pic",
     "https://aos-comment.amap.com/B0K2HSJF8N/comment/2BB026FA_6C45_4C8C_BB24_72922D766167_L0_001_1080_1440_1737730935098_68486403.jpg",
+    "https://store.is.autonavi.com/showpic/7ecb90c004916dbf0000002445570625?type=pic",
+    "https://aos-comment.amap.com/B0K2HSJF8N/comment/content_media_external_file_1000083609_ss__1768786738765_19451236.jpg",
     "https://aos-comment.amap.com/B0K2HSJF8N/comment/A13AE8FF_703C_4CB5_BAB1_3179F3A1145F_L0_001_1080_1440_1737730935098_52807791.jpg"
   ],
   "photoKinds": [
+    "interior",
     "storefront",
-    "drink",
-    "interior"
+    "menu",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店门口有红白条纹柱、绿植、彩色编织椅及木箱小桌，设室外座位。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店招为电影板样式，写有‘正在营业’及营业时间：周一至五9:30–18:00，周六日10:00–19:00。",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室外木箱桌上放一杯冰拿铁（带吸管）与一黑色杯，旁有卡片。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内木质托盘上并列两杯：一杯心形拉花拿铁，一杯黑咖啡（无奶）。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "托盘插卡标明豆子为埃塞俄比亚Muntasha，产区Arbegona，出品方WHITE NOISE，处理方式96小时厌氧日晒。",
+      "text": "店内有木质托盘+双杯品鉴装，标注埃塞俄比亚Muntasha豆子信息",
       "kind": "beans",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "门口挂‘正在营业’招牌，营业时间周一至周五9:00-18:00，周六日10:00-19:00",
+      "kind": "time",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "第三张图中同款托盘置于小木桌，背景有彩色醒狮玩偶与棕白格纹坐垫，座位为靠墙软垫长凳。",
-      "kind": "seating",
+      "text": "菜单板清晰列出单品咖啡价格（40-130元）、出品方式（手冲/意式/美式/拿铁）及温度选项",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "第一张图左侧可见纸箱堆叠、黄色电线及部分施工围挡，非完整商业街面。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "菜单含具体产地与处理法：如哥伦比亚、埃塞俄比亚、巴拿马等，部分标注品种与风味描述",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "木箱侧面印有‘FM Grinder - Yoda100’字样及搬运标识，箱体为带金属包角的运输箱。",
-      "kind": "roastingGear",
-      "photo": 1,
+      "text": "室外设彩色编织椅+木箱改造小桌，木箱印有FM Grinder字样，表明有磨豆机设备",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内托盘上两杯饮品：一杯拉花奶咖、一杯深色浓缩（带旋涡），配银杯水杯",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中可见‘Single Origin Coffee’标价40/50/80/100/130元，特调38元，无明确烘焙日期或批次",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见棕色白条纹针织坐垫、狮头玩偶靠枕，植物有琴叶榕等绿植",
+      "kind": "decor",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:30Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    40.0,
+    50.0,
+    80.0,
+    100.0,
+    130.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:24Z"
 }

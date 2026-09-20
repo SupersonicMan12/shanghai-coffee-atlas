@@ -1,7 +1,7 @@
 {
   "cafeId": "holy-bagel-hongmei-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "79996931ecf1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "dbe81ed0e097",
   "photos": [
     "https://store.is.autonavi.com/showpic/77d391df70f32a6d5e06267685d4bd51",
     "https://store.is.autonavi.com/showpic/133a3569355fd9b60000000722462886?type=pic",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "food",
-    "drink"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有临街玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店外设有露天座位区",
+      "text": "店外有室外座位，顾客在户外用餐",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供贝果三明治，内含鸡肉、黄瓜、豆芽等",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.95
+      "text": "店内有吧台和玻璃展示柜，可见面包陈列",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "提供抹茶饮料和咖啡饮品",
+      "text": "照片中展示了贝果三明治和两种饮品",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为一杯抹茶饮料和一杯咖啡",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "食物包装盒为环保材质，印有品牌信息",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见顾客在用餐，空间为小型店铺",
-      "kind": "space",
+      "text": "室内有暖色灯光照明，采光良好",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "室外桌椅布置于人行道旁，适合户外用餐",
-      "kind": "outdoor",
-      "photo": 2,
+      "text": "店内有数名顾客正在消费",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，有大面积落地窗",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "未见手冲台、虹吸壶或磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:46Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:24Z"
 }

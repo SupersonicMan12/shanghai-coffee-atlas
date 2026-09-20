@@ -1,59 +1,83 @@
 {
   "cafeId": "sim-pur-jiashan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "34d2a058de4a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "24850d38f354",
   "photos": [
-    "https://store.is.autonavi.com/showpic/6ac03816dc6d4d0c0000002340456028?type=pic",
     "https://aos-comment.amap.com/B0IR7H9P2C/comment/content_media_external_file_1000294652_ss__1754411448595_82444702.jpg",
-    "https://store.is.autonavi.com/showpic/81c9c192c39c49a60000002340450215?type=pic"
+    "https://store.is.autonavi.com/showpic/81c9c192c39c49a60000002340450215?type=pic",
+    "http://store.is.autonavi.com/showpic/b5cc6396e0c8d10fa3c1b223082a415e",
+    "https://store.is.autonavi.com/showpic/6ac03816dc6d4d0c0000002340456028?type=pic"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
-    "menu"
+    "menu",
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面位于嘉善路177号，临街玻璃门面",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见一名顾客坐在吧台前使用电脑",
+      "text": "店内有顾客坐着，店员在吧台操作，可见菜单和饮品展示",
       "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外临街，有玻璃门窗，可看到店内情况",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有饮品名称和价格，如25元、21元等",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "一杯冰咖啡饮品，杯身有“SIM PUR”字样，带吸管",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单上有饮品价格，如20元、25元等",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "一杯冰咖啡放置在吧台上",
+      "text": "另一杯深色冰饮，置于柜台前，背景为菜单屏",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有绿植装饰，墙边摆放着盆栽",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店面门牌显示“SIM PUR 咖啡艺术家”，地址为嘉善路177号",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店面有临街大玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.85
+      "text": "店内有吧台和座位，一名顾客正坐在椅子上使用手机",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见磨豆机、咖啡机等设备，吧台区域有专业器具",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": true,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:17Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    25.0,
+    21.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:34Z"
 }

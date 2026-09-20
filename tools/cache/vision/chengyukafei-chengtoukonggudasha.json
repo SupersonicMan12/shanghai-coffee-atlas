@@ -1,55 +1,63 @@
 {
   "cafeId": "chengyukafei-chengtoukonggudasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "50d98bde7921",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ceec39444418",
   "photos": [
     "http://store.is.autonavi.com/showpic/66cc811468eaaa12eb9a404aa9305783"
   ],
   "photoKinds": [
-    "storefront"
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，入口宽敞",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有吧台和桌椅座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有绿植装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "有顾客在店内活动",
+      "text": "店内可见1名穿围裙工作人员在吧台后操作，吧台前有2张高脚凳",
       "kind": "people",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台为白色长条形，后方有绿植与置物架，未见明显烘焙机或手冲设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外为商场公共走廊，地面反光，无室外座位",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内靠窗区域有4张浅色沙发+小桌，共约6人就坐（含1位顾客背对镜头）",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "左侧墙边立有A字牌菜单，但内容模糊无法辨识价格或品名",
+      "kind": "menu",
+      "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店门口有立式菜单牌",
-      "kind": "menu",
+      "text": "窗户为落地玻璃，窗外可见树木与建筑轮廓，无明显街道或河景",
+      "kind": "bigWindows",
       "photo": 1,
-      "confidence": 0.6
+      "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:00Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:10Z"
 }

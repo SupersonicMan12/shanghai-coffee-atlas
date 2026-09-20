@@ -1,71 +1,88 @@
 {
   "cafeId": "bagels-schmears-ruijinshequnanmenpang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ecdd80d652dc",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "21eaac17d0da",
   "photos": [
     "https://aos-comment.amap.com/B0JDYH2617/comment/0ec142bb0ae7b42e4ce471281839c3e4_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/8dfb040579d67f88e8f67aaff1b9702e",
     "https://aos-comment.amap.com/B0JDYH2617/comment/cdc49e681561329b9879b27acb7fe54d_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "food",
     "storefront",
-    "menu"
+    "menu",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内提供贝果、司康、手撕面包等烘焙食品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示有贝果、三明治、咖啡和果汁等选项",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见价格信息，如司康12-14元，手撕面包35元",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺为临街小店，门口有玻璃门和窗户",
+      "text": "店面为临街深蓝色门头，玻璃门内可见木质桌椅及店内空间，无室外座位",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见桌椅，座位数量有限",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单上标注营业时间：早餐7:00-11:00，午餐11:00-17:00，晚餐17:00-21:00",
-      "kind": "time",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供多种奶酪涂抹酱，如希腊酸奶椰香、抹茶奶酪等",
+      "text": "菜单显示贝果与奶油涂抹酱（Schmears）为主打，含New York Classic、Hell's Kitchen等组合款",
       "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "有苹果汁、黑咖啡、鲜萃咖啡等饮品选项",
+      "text": "菜单上明确标价：早餐套餐38元起，午餐三明治60元，晚餐拼盘155元，咖啡类10-25元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中出现“Bagels Selection”与“Schmears Selection”，含Chocolate、Cinnamon Raisin/肉桂葡萄干等贝果口味",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中列有“Coffee & Beverages”含Black/Black with Milk/Espresso/Cappuccino/Mocha等，价格10-25元",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
+    },
+    {
+      "text": "照片1展示陈列柜内多款司康（Scone），如Raspberry Blueberry Scone ¥14、Matcha Scone ¥12，品牌为DRUNK BAKER",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片1中可见山核桃肉桂手撕面包¥35/块（7×12cm），标注“新！”；辣条¥14，香肠小卷¥14等烘焙品",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中“Breakfast Wraps Combo”与“Lunch Sandwiches Combo”均注明温度（Hot/Cold）与口味（Tangy/Heavy）",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:53Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    10.0,
+    15.0,
+    25.0,
+    35.0,
+    38.0,
+    40.0,
+    55.0,
+    60.0,
+    155.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:23Z"
 }

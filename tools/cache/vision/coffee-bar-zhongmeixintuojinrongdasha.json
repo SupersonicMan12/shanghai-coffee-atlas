@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-bar-zhongmeixintuojinrongdasha",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "29b1492810d3",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6f3506bc810c",
   "photos": [
     "https://aos-comment.amap.com/B0J6J59P3S/comment/783b3410c63943d9a96b5a8f426c5121_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J6J59P3S/comment/E67A2B1C_7D74_48A2_A9E2_4DF689A15766_L0_001_2048_153_1745366769945_91808967.jpg",
@@ -9,63 +9,70 @@
   ],
   "photoKinds": [
     "drink",
-    "interior",
-    "food"
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "白色带棕边陶瓷杯盛热饮，表面有心形拉花",
+      "text": "第一张：热饮杯中拉花为心形，杯沿有棕色釉边，置于带棕线白瓷碟上",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "圆形木桌中央摆放多个小托盘，含干玫瑰、薰衣草、草药碎与粉状物，多人围坐操作香囊",
-      "kind": "interior",
+      "text": "第二张：圆桌上有三盘干花/草药（含玫瑰、薰衣草）、一盘紫粉色粉末、多色刺绣小袋及流苏，多人围坐操作",
+      "kind": "people",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "透明塑料杯装冰饮，标签写‘柏源生咖·荔枝白茶’及编号0039",
+      "text": "第三张：外带杯标有“柏源生咖·荔枝白茶”字样，配蓝莓巧克力蛋糕切块，旁有卡通包装盒",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "白色小盘盛一块多层蛋糕，夹层淡紫，顶部饰蓝莓与奶油球",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "桌面为深色木质，照片中未见吧台、磨豆机、手冲台或烘焙设备",
-      "kind": "space",
+      "text": "第二张：桌面为深色拼接木纹转盘，无明显窗户或落地窗，室内光线均匀",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "第二张图中可见至少4人手臂与手部，围坐圆桌进行手工活动",
+      "text": "第二张：多人参与手工活动，未见电脑、烘焙机或专业咖啡器具",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.96
+      "confidence": 0.9
     },
     {
-      "text": "第三张图右上角有印卡通人物与食物图案的纸袋，非菜单",
-      "kind": "other",
+      "text": "第三张：桌面为木质，可见塑料叉与打包杯盖，无插座或电源口露出",
+      "kind": "seating",
       "photo": 3,
-      "confidence": 0.94
+      "confidence": 0.8
     },
     {
-      "text": "三张图均未显示窗户、室外座、书架、植物、宠物或电脑",
-      "kind": "space",
+      "text": "第一张与第三张：饮品杯具为陶瓷/塑料杯，非吧台手冲场景",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.7
+    },
+    {
+      "text": "第二张：桌上摆设含香包、干花等文创物料，非标准菜单展示区",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:29Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:16Z"
 }

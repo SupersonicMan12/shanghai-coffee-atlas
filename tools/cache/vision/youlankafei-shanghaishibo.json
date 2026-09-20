@@ -1,71 +1,79 @@
 {
   "cafeId": "youlankafei-shanghaishibo",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "76e1e34a2939",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0250259e7bee",
   "photos": [
-    "http://store.is.autonavi.com/showpic/fc06bd3e1cfddef83dc9b4cc4ac10958",
     "http://store.is.autonavi.com/showpic/420a40f2349c723f78b8655a1bf2b433",
+    "https://aos-comment.amap.com/B0FFIIPUBN/comment/89d7cf53fef8888d6881bb8aea652069_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/fc06bd3e1cfddef83dc9b4cc4ac10958",
     "https://aos-comment.amap.com/B0FFIIPUBN/comment/a62f677f9cbb18684e59f9b4dc1f44f3_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "interior",
     "food",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "有深色沙发和木质茶几，座位为卡座式，数量级为some。",
+      "text": "店内有深色沙发和木质茶几，为两人座布局。",
       "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有多个层架展示陶罐、编织篮等装饰物，材质为木与陶。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "照片中可见一锅酸菜鱼，配筷子与小碗，为店内供应食物。",
-      "kind": "food",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "有大型落地窗，挂浅色窗帘，采光良好，窗外可见街道。",
-      "kind": "light",
-      "photo": 1,
+      "text": "照片中未见任何顾客或工作人员。",
+      "kind": "crowd",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "室内摆放多盆绿植，包括小型喷泉景观，营造自然氛围。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "室内有木质货架、盆栽植物和装饰性水景。",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "桌上有咖啡杯，但无手冲台或磨豆机等专业器具可见。",
-      "kind": "drinks",
+      "text": "食物包括麻辣鱼、炒面、煎蛋和汤面，无咖啡饮品。",
+      "kind": "food",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有带射灯的壁挂式木制置物架，陈列着器皿。",
+      "kind": "decor",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见电脑、插座、专业咖啡器具或菜单。",
+      "kind": "equipment",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "天花板悬挂几何造型吊灯，墙面有内嵌射灯照明。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.75
+      "text": "照片中未见落地窗或大窗户，采光来自顶部灯光。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.7
     },
     {
-      "text": "未见有人在使用电脑或办公设备。",
-      "kind": "people",
+      "text": "照片中未见室外景观或庭院，环境为纯室内。",
+      "kind": "view",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:00:29Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:35Z"
 }

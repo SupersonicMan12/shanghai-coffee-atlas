@@ -1,7 +1,7 @@
 {
   "cafeId": "xingyunka-huadongshifandaxue",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "414f7007d926",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b423d0ccf94f",
   "photos": [
     "https://store.is.autonavi.com/showpic/6f1b99bcca6dd5ec0000002159730419?type=pic",
     "https://aos-comment.amap.com/B0LDSC1JQM/comment/content_media_external_file_100147612_1764835586295_38352311.jpg",
@@ -9,63 +9,72 @@
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "吧台式小店，无顾客座位区",
+      "text": "店内为标准奶茶店吧台，无座位区",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "菜单屏显示红豆沙拿铁10元、经典美式6.9元",
+      "text": "有员工在操作饮品制作设备",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示咖啡价格为6.9元和10.9元",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "员工在操作咖啡机与搅拌机，无手冲或虹吸器具",
-      "kind": "people",
-      "photo": 2,
+      "text": "菜单上可见'红豆沙拿铁'、'椰椰拿铁'等饮品",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "店内无可见书架、植物或宠物",
-      "kind": "story",
+      "text": "收银台旁有电子菜单屏，显示商品信息",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "无落地窗，采光来自顶部射灯",
-      "kind": "light",
+      "text": "墙面广告宣传全球门店突破1000家",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有现磨咖啡机和搅拌机等制饮设备",
+      "kind": "beans",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "无室外座位",
-      "kind": "outdoor",
+      "text": "未见烘焙机、手冲台或虹吸壶等专业器具",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "无顾客使用电脑",
-      "kind": "laptops",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "无烘焙机",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:57Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    6.9,
+    10.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:50Z"
 }

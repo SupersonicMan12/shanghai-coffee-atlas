@@ -1,7 +1,7 @@
 {
   "cafeId": "kicking-beans-wuding",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "22d08c12b271",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "7c1d066236b4",
   "photos": [
     "https://aos-comment.amap.com/B0HDPZIDHT/comment/172bf900bd1f457df24faa5878685bf6_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/2eef0d640e167856678b319fa408cf77",
@@ -9,63 +9,57 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为临街小型咖啡店，设外摆窗口与玻璃门入口",
+      "text": "店面外墙有大型彩色花卉壁画",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见两台白色商用磨豆机（带透明豆仓）置于操作台",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内右侧有橙色软垫长凳+小桌组合，至少2人就座",
-      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "墙面与顶棚绘有蓝绿色植物主题手绘壁画，覆盖大部分可见立面",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图门口两侧各有一组开业花篮，一人站在门内",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图可见门牌号‘727’及空调外机、监控摄像头",
+      "text": "店内可见书架和绿植",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.8
     },
     {
-      "text": "第一张图外摆桌上放一玻璃瓶插黄白花束，下方为灰色储物箱",
-      "kind": "space",
+      "text": "吧台外侧有红色小桌和白色储物箱",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有顾客就坐，约2-3人",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "无落地窗；临街为可上翻开启的金属框服务窗口+单开玻璃门",
+      "text": "透过窗户可见磨豆机等咖啡制作设备",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": true,
-  "bigWindows": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:31Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:06Z"
 }

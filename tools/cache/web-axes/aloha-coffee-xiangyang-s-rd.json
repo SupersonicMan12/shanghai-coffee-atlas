@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "聚集着形形色色的咖啡店,存在着熙熙攘攘的人群",
+      "url": "https://www.gooood.cn/aloha-coffeexiangyang-south-road-by-atelier-in.htm",
+      "site": "谷德网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "Half Past Sober,是一款可以喝的提拉米苏...Plum Slash,也相当不错",
+      "url": "https://m.dianping.com/discovery/766835162",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 50.0,
+      "quote": "人均¥50咖啡店",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/131111808.html",
+      "site": "携程旅行网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "ALOHA COFFEE(襄阳南路店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/131111808.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "ALOHA COFFEE(襄阳南路店),上海 / 知一设计研究室",
+      "url": "https://www.gooood.cn/aloha-coffeexiangyang-south-road-by-atelier-in.htm",
+      "site_name": "谷德网"
+    },
+    {
+      "index": 3,
+      "title": "上海过年不打烊咖啡指南 ",
+      "url": "https://news.sohu.com/a/854533845_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡- 【ALOHA COFFEE(襄阳南路店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/913682919?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "Aloha咖啡，上海/ 知一设计研究室| 谷德设计网- gooood",
+      "url": "https://www.gooood.cn/aloha-cafe-by-atelier-in.htm",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "Aloha咖啡· 上海| 知一设计研究室 - 灵感实验室",
+      "url": "https://lingganlb.com/index/index/detail.html?code=A8071213480797680634",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "🧡魔都咖啡 | ALOHA 今日份的咖啡自由 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/766835162",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "Vol.1 ALOHA COFFEE：撑过疫情的网红咖啡店，现在怎么样了",
+      "url": "https://www.xiaoyuzhoufm.com/episode/63f632d33d5f8130bcd7fded",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:00Z"
+}

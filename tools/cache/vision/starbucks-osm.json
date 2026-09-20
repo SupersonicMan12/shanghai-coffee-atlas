@@ -1,7 +1,7 @@
 {
   "cafeId": "starbucks-osm",
-  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
-  "inputDigest": "997b83f40f87",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "14101b5a77e5",
   "photos": [
     "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4",
     "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c",
@@ -14,34 +14,65 @@
   ],
   "observations": [
     {
-      "text": "第一张图：白色陶瓷杯，杯身有星巴克浮雕Logo，盛装焦糖玛奇朵类饮品，顶部奶泡覆焦糖网格，焦糖液沿杯壁滴落。",
+      "text": "照片中展示了三款不同的咖啡饮品",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 1.0
+      "confidence": 0.9
     },
     {
-      "text": "第二张图：透明玻璃杯盛装香草拿铁，奶泡表面有心形拉花，杯旁放置一捆香草荚。",
+      "text": "其中一款是顶部有焦糖格纹的拿铁",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一款是顶部有心形拉花的燕麦拿铁",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 1.0
+      "confidence": 0.9
     },
     {
-      "text": "第三张图：透明玻璃杯盛装焦糖风味分层饮品（如焦糖海盐拿铁），顶部奶泡覆焦糖网格，杯身无Logo。",
+      "text": "第三款是带有焦糖格纹和分层效果的拿铁",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 1.0
+      "confidence": 0.9
     },
     {
-      "text": "三张图均为静物拍摄，未见任何人物、电脑、吧台、座位或店内环境，无法判断空间类型、座位数、采光、室外座等信息。",
-      "kind": "other",
+      "text": "所有饮品均盛放在白色陶瓷杯中",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.8
+    },
+    {
+      "text": "背景为深色，可能是黑色或深灰色桌面",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "第一张图的背景是木质桌面，光线从一侧照射",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "第二张图旁边放着一捆香草荚，可能与饮品风味相关",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T16:40:36Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:14Z"
 }

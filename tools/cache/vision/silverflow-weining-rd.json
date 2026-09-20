@@ -1,7 +1,7 @@
 {
   "cafeId": "silverflow-weining-rd",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "171acdca83c9",
+  "inputDigest": "d644589b565c",
   "photos": [
     "https://store.is.autonavi.com/showpic/7d1f563c40125f8a0000001595746395",
     "https://store.is.autonavi.com/showpic/508a1764d852738a0000001595736509"
@@ -12,52 +12,51 @@
   ],
   "observations": [
     {
-      "text": "店内有圆形木桌和白色椅子，座位数量较少",
+      "text": "店面入口处有粉色花朵装饰",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质圆桌和白色椅子",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见菜单上标有A套餐169元、B套餐119元、C套餐122元",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示提供贝果、美式咖啡、拿铁等饮品和食物",
-      "kind": "food",
+      "text": "菜单上可见贝果套餐价格",
+      "kind": "menuPrices",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内设有服务窗口，墙面为粉色方块装饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有绿植装饰，环境整洁",
+      "text": "店内墙面有砖纹和绿植装饰",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "营业时间为5:00-19:00",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡机等设备，具备制作饮品的条件",
-      "kind": "drinks",
+      "text": "店内光线明亮，有窗户",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:13Z"
+  "bigWindows": null,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    69.0,
+    79.0,
+    129.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:37Z"
 }

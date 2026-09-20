@@ -1,15 +1,9 @@
 {
   "cafeId": "akimbo-lab",
-  "matched": true,
-  "amapId": "B0FFJSBAZI",
+  "matched": false,
   "photos": [],
-  "opentime2": null,
-  "open_time": null,
-  "rating": null,
-  "cost": null,
-  "tag": null,
-  "type": null,
-  "address": null,
-  "business_area": null,
-  "name": null
+  "fetchedAt": "2026-09-20T02:00:39Z",
+  "rejected": [
+    "B0FFJSBAZI"
+  ]
 }

@@ -1,71 +1,88 @@
 {
   "cafeId": "always-coffee-roaster-jiujiang-rd-501",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "15e74950a4d4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "258940306880",
   "photos": [
-    "https://store.is.autonavi.com/showpic/1146bfbdb8d228ab0000002878392115?type=pic",
     "https://store.is.autonavi.com/showpic/705406914ee142d00000002878452283?type=pic",
+    "https://store.is.autonavi.com/showpic/1146bfbdb8d228ab0000002878392115?type=pic",
+    "https://aos-comment.amap.com/B0L6K9D71B/comment/content_media_external_images_media_78727_ss__1736313812026_14350082.jpg",
     "https://aos-comment.amap.com/B0L6K9D71B/comment/20260321-70fc04754855cc121d0745bd-8JcZj9hAkgA8kGqi5ZQeC8.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
+    "storefront",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "店面为临街单层铺面，白色外墙，玻璃门+两侧玻璃窗，门楣标有'Always Coffee Roaster'",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "入口有三级石阶，门前人行道铺砖，左侧墙挂小画框菜单，右侧为旧水泥墙面",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见木质横梁天花板、吧台区域及后方操作区；第二张图中吧台后有磨豆机轮廓",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "第一张饮品图含三杯：粉色杯冰美式（标签'Dirty Black'）、白杯拉花拿铁（'Pecole'）、高脚杯分层饮品（'Amber Teardrop'）",
+      "text": "三杯饮品摆放在木质托盘上，含拉花、奶盖及深色分层特调",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "第二张饮品图含两杯橙红色冰饮，一杯高脚杯、一杯矮杯，均含大冰球；木托盘刻有'Always'",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "菜单卡片显示饮品名如'Dirty Black'、'Pecole'、'Amber Teardrop'，并列配料如'小红莓/精品巧克力'、'榛果牛奶巧克力'",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "玻璃门内贴有促销海报：'樱花麻瓜的晨间魔法药水 7折'，配咖啡与橙片图",
-      "kind": "menu",
       "photo": 1,
-      "confidence": 0.96
+      "confidence": 1.0
     },
     {
-      "text": "第三张图背景可见手绘风格陶瓷壶、玻璃器皿架，无明显书架、植物或宠物",
-      "kind": "interior",
+      "text": "店面为临街玻璃门面，门上贴有'COFFEE ROASTER'及手冲豆子信息",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示'POUR OVER (H/C)'分类，列有印尼、埃塞、尼加拉瓜等产地及处理法与价格",
+      "kind": "menu",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单中手冲咖啡价格从¥45至¥98，含具体产区与处理法（如埃塞ALO Chilaka G1-Washed ¥55）",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见两杯冰饮（橙红色分层），置于刻有'Always'字样的木板上",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外人行道有黄色路缘石，门前台阶共三级，无室外座位",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台后方可见手冲壶与带图案的陶瓷水壶，未见明显专业烘焙机或多台磨豆机",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中无人使用电脑，也未见明显书架/植物/宠物",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T13:45:00Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    45.0,
+    55.0,
+    58.0,
+    60.0,
+    80.0,
+    85.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:44Z"
 }

@@ -1,71 +1,83 @@
 {
   "cafeId": "dehomecoffee-jiaozhou-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "a791cb9a1d44",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "21dc16274fe7",
   "photos": [
+    "https://aos-comment.amap.com/B0I04AK10L/comment/7ec4edc0f50c017107d9a7f18ea800fd_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/5bcb0defc6bb01b90000001583120551?type=pic",
-    "https://store.is.autonavi.com/showpic/0dd6b73aa3c99d630000003368290164?type=pic",
-    "https://aos-comment.amap.com/B0I04AK10L/comment/7ec4edc0f50c017107d9a7f18ea800fd_2048_2048_80.jpg"
+    "https://store.is.autonavi.com/showpic/75e576521de8c0800000003368264609?type=pic",
+    "https://store.is.autonavi.com/showpic/0dd6b73aa3c99d630000003368290164?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "menu"
   ],
   "observations": [
     {
-      "text": "入口处有绿色瓷砖墙和混凝土柱，空间不大。",
+      "text": "店内有吧台，空间为小店铺类型。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内角落有木质墙面、绿植和圆形装饰画。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "窗台有蕨类植物，窗外可见树和建筑。",
-      "kind": "view",
-      "photo": 2,
+      "text": "菜单上列有单品咖啡豆及价格。",
+      "kind": "beans",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口停着一辆黄色共享单车，街道铺砖。",
-      "kind": "view",
-      "photo": 1,
+      "text": "室内有绿色植物和黑色皮质坐凳。",
+      "kind": "plants",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "室内有黑色皮质坐垫和矮凳，座位不多。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "窗户边有座位，窗外可见树木。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "墙上挂四月日历，无顾客或电脑使用场景。",
-      "kind": "people",
+      "text": "店外有自行车停放。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "无可见咖啡机、磨豆机或手冲台等专业设备。",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "菜单显示单品咖啡价格在60-75元/250g。",
+      "kind": "price",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "无菜单、饮品或食物的清晰特写，无法识别。",
-      "kind": "menu",
+      "text": "菜单上有“日晒 Natural”、“双重厌氧 Anaerobic Fermentation”等处理方式。",
+      "kind": "specialtyMenu",
       "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见有人使用电脑。",
+      "kind": "laptops",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:50Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    60.0,
+    68.0,
+    75.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:49Z"
 }

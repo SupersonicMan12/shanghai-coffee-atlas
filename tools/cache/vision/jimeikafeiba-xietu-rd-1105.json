@@ -1,52 +1,78 @@
 {
   "cafeId": "jimeikafeiba-xietu-rd-1105",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9b0482abe42a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d3422e6cba85",
   "photos": [
-    "https://store.is.autonavi.com/showpic/fe37adba8561c5dd06a822ef087207fe",
     "https://store.is.autonavi.com/showpic/531b6cb02ceea6d5807b35b9063fa43d",
+    "https://store.is.autonavi.com/showpic/fe37adba8561c5dd06a822ef087207fe",
     "https://aos-comment.amap.com/B0LBCUBDUZ/comment/202509_04-16354_1756974952956_34836122.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面有室外遮阳伞，推测有室外座位",
-      "kind": "seating",
+      "text": "店面有户外遮阳伞和绿植，设有室外座位区。",
+      "kind": "outdoor",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内吧台配有专业咖啡机、磨豆机和手冲设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台区域有木质台面和悬挂式纸灯笼灯饰。",
+      "kind": "space",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "室内吧台区域可见咖啡机和磨豆机",
-      "kind": "beans",
-      "photo": 2,
+      "text": "吧台前有玻璃杯、水槽、二维码支付牌及禁烟标识。",
+      "kind": "space",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内有大型落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
+      "text": "店内可见落地窗，窗外有街景和绿植。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有灰色挡墙，上方种植高草类植物，形成景观带。",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台旁摆放着鲜花和金属桶",
-      "kind": "decor",
-      "photo": 2,
+      "text": "菜单牌显示特调饮品名称，如Margarita、Gin & Tonic等。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.7
     },
     {
-      "text": "吧台上可见多个空玻璃杯和水槽",
+      "text": "店招显示“亚朵酒店”，咖啡吧位于酒店底层临街位置。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:25:22Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:09Z"
 }

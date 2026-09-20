@@ -1,71 +1,80 @@
 {
   "cafeId": "xiongxuankafeixiaozhongshudian-anyuan-rd-125",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e77cc039a028",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "96fdce4ac031",
   "photos": [
     "https://aos-comment.amap.com/B0L0PZ04JD/comment/content_media_external_file_192914_ss__1768395346968_60661514.jpg",
+    "https://aos-comment.amap.com/B0L0PZ04JD/comment/file_media_Photo_46422_IMG_1767767133_45780_IMG_20260107_142353_jpg_ss__1769232654234_56851336.jpg",
     "https://aos-comment.amap.com/B0L0PZ04JD/comment/content_media_external_file_192910_ss__1768395346955_54394919.jpg",
     "https://aos-comment.amap.com/B0L0PZ04JD/comment/file_media_Photo_46446_IMG_1767767756_45804_IMG_20260107_143416_jpg_ss__1769232653989_41814769.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "interior",
-    "interior"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有木质书架，摆满书籍，空间像书店与咖啡馆结合。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店面为临街独栋，深色木板+砖墙立面，玻璃门与橱窗可见内部书架",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "临街大玻璃窗，窗外可见马路和人行横道。",
+      "text": "室内有高大木质书架，陈列大量书籍，背景可见打开的书本",
+      "kind": "bookshelf",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上摆放一杯冰咖啡（透明杯+紫色杯套）与一块多层巧克力蛋糕",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "另一视角显示同一款冰咖啡与同款蛋糕置于木质窗台桌，窗外可见斑马线与交通灯",
       "kind": "view",
-      "photo": 2,
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图中出现带盖热饮杯（白杯+黑logo）与同款蛋糕，坐席为黑黄棋盘格软垫长椅",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "第四张图背景可见两组棋盘格软垫座椅，无客人，座位数量约4-6个",
+      "kind": "seats",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "有黑色圆桌和带棋盘格坐垫的卡座座位。",
-      "kind": "seating",
+      "text": "窗边悬挂绿色针织圣诞花环，含小雪人装饰，表明季节性布置",
+      "kind": "decoration",
       "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "饮品为冰咖啡，装在透明塑料杯中，配吸管。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "食物是多层巧克力蛋糕，切片放在白瓷盘上。",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "窗边挂有手工编织圣诞花环装饰。",
-      "kind": "story",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室内光线明亮，主要来自自然采光。",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "未见任何人使用电脑或专业咖啡器具。",
-      "kind": "people",
+      "text": "店内未见手冲/虹吸/磨豆机等专业设备，也未见烘焙机或豆子展示",
+      "kind": "equipment",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:10Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:03Z"
 }

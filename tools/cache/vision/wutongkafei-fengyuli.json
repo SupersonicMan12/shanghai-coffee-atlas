@@ -1,71 +1,84 @@
 {
   "cafeId": "wutongkafei-fengyuli",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "f3d271f9e110",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1c12cda816c7",
   "photos": [
-    "https://store.is.autonavi.com/showpic/20abb2af8097325ee21736fac9a15544",
     "https://aos-comment.amap.com/B0I2YDTSY5/comment/4DCD6197_4F52_4EBA_91FB_FBEDDA4E0A32_L0_001_1500_2000_1741349755124_86984444.jpg",
-    "https://aos-comment.amap.com/B0I2YDTSY5/comment/c4d018990f9432cea43aba5fcaddbbc4_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0I2YDTSY5/comment/c4d018990f9432cea43aba5fcaddbbc4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0I2YDTSY5/comment/0ed257d9aa9a15b46fb75807c94a4d1b_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/20abb2af8097325ee21736fac9a15544"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "menu"
+    "menu",
+    "other"
   ],
   "observations": [
     {
-      "text": "店面为临街单层小店，入口左侧有木质楼梯通向上层",
+      "text": "店面为临街小铺，有玻璃窗和可开启的吧台窗口，门外放有4张折叠椅",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台前设4把橙色折叠椅，为室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台为木纹饰面，正面有白色立体'W'标志，上方为可升降玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单显示店名为'WUTONG BAR'，地址：上海市黄浦区淡水路198号",
-      "kind": "story",
-      "photo": 3,
+      "photo": 4,
       "confidence": 1.0
     },
     {
-      "text": "菜单列有饮品如'青鸟（青梅）'¥58、'医保卡'¥38、'沉鱼（山楂）'¥48等，含价格与中英文名",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "照片2中两杯饮品：一杯带泡沫与玫瑰花瓣，一杯含青梅与大冰块；背景立牌写'WUTONG BAR'",
+      "text": "两张照片显示室外桌上有两杯特调饮品，一杯高杯带泡沫与绿植装饰，一杯矮杯含大冰块及花瓣",
       "kind": "drinks",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单为绿色纸质，印有“WUTONG BAR”及营业时间：周日-周四18:00~1:00，周五-周六18:00~1:30",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上可见咖啡/酒类价格，如“Sun Coffee Night Wine ¥28”，“古令四美 ¥48”，“红葡萄酒 ¥48”",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内照片显示吧台前有金属底座灯柱、两杯不同风格特调（一有奶盖配玫瑰瓣，一有青提），背景为玻璃窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见任何人使用电脑、烘焙机、手冲台或虹吸壶等专业器具",
+      "kind": "beans",
+      "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "照片3桌上放两杯饮品：一杯琥珀色带大冰块与干花，一杯高身杯含泡沫与绿叶装饰",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "营业时间：周日-周四18:00~1:00，周五-周六18:00~1:30",
-      "kind": "time",
+      "text": "室外照片拍摄于傍晚至夜间，街道旁有行道树，远处可见店铺招牌及停放自行车",
+      "kind": "view",
       "photo": 3,
       "confidence": 1.0
+    },
+    {
+      "text": "店内无明显书架、植物或宠物；未见食物实物，仅饮品出现",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:58Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:13Z"
 }

@@ -1,71 +1,80 @@
 {
   "cafeId": "ferm-coffee-biyunzundi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2b8a8898ff5c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "efada73d2798",
   "photos": [
     "https://aos-comment.amap.com/B0JRBU5LGH/comment/241ddb2e381a38fe30ef6d7632488c25_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/48dedc123dd307e20000004363568741?type=pic",
-    "https://store.is.autonavi.com/showpic/3652b4eec149856c0000004363592149?type=pic"
+    "https://store.is.autonavi.com/showpic/b71ede835191c442d2e0d0fc3bbf60fb",
+    "https://aos-comment.amap.com/B0JRBU5LGH/comment/2e7e80d5a95684c70af7e71c0d2573f2_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/48dedc123dd307e20000004363568741?type=pic"
   ],
   "photoKinds": [
+    "storefront",
+    "interior",
     "drink",
-    "food",
-    "interior"
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备，包括手冲器具和磨豆机",
+      "text": "室内空间宽敞，有吧台和高脚桌椅。",
       "kind": "space",
-      "photo": 3,
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中可见四块烤鸡翅和一杯带奶油的咖啡。",
+      "kind": "food",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有手冲台、磨豆机等专业咖啡设备。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "提供抹茶拿铁和拿铁，拉花为心形图案",
+      "text": "饮品杯上装饰有藏红花丝。",
       "kind": "drinks",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供带奶油顶的咖啡饮品和烤制小点心",
-      "kind": "food",
+      "text": "店内有书架和绿植。",
+      "kind": "decor",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中看到两位顾客在座位上。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内光线明亮，有大窗户或玻璃幕墙。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外是铺地砖的广场，夜晚有灯光。",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内空间宽敞，有木质装饰和落地窗，采光良好",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见店内有展示柜陈列面包类食品",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有绿植点缀，环境整洁",
-      "kind": "space",
-      "photo": 3,
       "confidence": 0.7
-    },
-    {
-      "text": "有菜单板和书籍展示，可能提供阅读区域",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.6
-    },
-    {
-      "text": "桌上有饮品和食物，显示可堂食",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
+  "room": "large",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:20:00Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:45Z"
 }

@@ -1,58 +1,80 @@
 {
   "cafeId": "nowwa-shanghaizhongyuandasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7f70a0fd3faa",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "55e51d6b2e19",
   "photos": [
     "https://img.alicdn.com/imgextra/i2/O1CN01Fxw5041JPfV8LHt4Z_!!6000000001021-49-tps-1080-546.webp",
     "https://aos-comment.amap.com/B0KAJZUXHX/comment/content_media_external_file_1000229390_ss__1745635720733_49934235.jpg",
     "https://aos-comment.amap.com/B0KAJZUXHX/comment/content_media_external_file_1000229400_ss__1745635720748_20289033.jpg"
   ],
   "photoKinds": [
+    "logo",
     "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面入口有台阶，玻璃门临街",
+      "text": "店面有玻璃门和台阶，门口上方有橙色马形标志。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内为开放式座位区，采光良好",
-      "kind": "light",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内有多张圆形木桌和橙色座椅",
+      "text": "室内有木质桌椅，座位数量中等，部分空置。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "透过窗户可见室外庭院和绿树",
+      "text": "店内设有大面积落地窗，窗外可见绿树和传统瓦片墙。",
       "kind": "view",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "店内有顾客就座，有人在看手机",
+      "text": "室外有遮阳伞和座椅，顾客在户外座位区就坐。",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有两位顾客，其中一人使用笔记本电脑。",
       "kind": "people",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门口玻璃上标有营业时间（周一至周日7:00-22:00）",
+      "text": "营业时间为周一至周日早上7点至晚上10点。",
       "kind": "time",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "店外右侧立牌显示饮品促销价9.9元起。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内地面为水磨石材质，家具以浅木色为主。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:31Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:27Z"
 }

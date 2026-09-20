@@ -1,71 +1,79 @@
 {
   "cafeId": "jen-s-coffee-hongquan-rd-888",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6d73bd981b9a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8de97343dfcf",
   "photos": [
-    "https://aos-comment.amap.com/B0FFLKL8KE/comment/db0edfa620c1eeb7e20b63368042826e_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFLKL8KE/comment/20260316-0b31be6815e740a9388ab88a-7rd5YRucV3v70ytRaJuNIr.jpg",
+    "https://aos-comment.amap.com/B0FFLKL8KE/comment/db0edfa620c1eeb7e20b63368042826e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFLKL8KE/comment/20260316-0b31be6815e740a9388ab88a-81icmJAW0a47BmyJBJwVi7.jpg",
     "https://aos-comment.amap.com/B0FFLKL8KE/comment/20260316-0b31be6815e740a9388ab88a-4hSdsjiyWfj8dA9uL68wf0.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "咖啡馆位于商场一层，临街有玻璃门和落地窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有木质桌椅和水泥柱，空间宽敞",
+      "text": "室内空间宽敞，有高挑的工业风天花板和混凝土柱。",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "提供拿铁类饮品，拉花为心形图案",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有绿植装饰，环境整洁",
-      "kind": "decor",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有多个座位区域，适合多人同时使用",
+      "text": "店内有多张圆形木质桌椅，座位数量较多。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口设有遮阳棚和户外座椅区",
-      "kind": "outdoor",
-      "photo": 1,
+      "text": "照片中可见多名顾客在店内就坐，非空无一人。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有咖啡机等设备，但未见手冲台或虹吸壶等专业器具。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "店内可见吧台区域，但未见烘焙设备",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "饮品为拿铁类，奶泡上有心形拉花图案。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "饮品杯具包括玻璃杯和陶瓷杯，搭配托盘服务",
-      "kind": "drinks",
+      "text": "店面临街，有大面积玻璃窗，采光良好。",
+      "kind": "bigWindows",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "店外有带绿植的长条花坛，地面为铺装路面。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见有人使用笔记本电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "large",
   "seats": "many",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:18:29Z"
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:03Z"
 }

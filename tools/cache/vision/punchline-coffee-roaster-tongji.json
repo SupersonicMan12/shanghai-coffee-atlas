@@ -1,59 +1,80 @@
 {
   "cafeId": "punchline-coffee-roaster-tongji",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "154422c12f69",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ffdcf87b3e92",
   "photos": [
-    "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4705_IMG_1770971019_4914_IMG_20260213_162157_9a9cad5a-9991-4d65-b79b-7d737e458617_jpe_1770970959620_12331408.jpg",
     "https://store.is.autonavi.com/showpic/725467e8b53a9d400000003813390678?type=pic",
+    "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4705_IMG_1770971019_4914_IMG_20260213_162157_9a9cad5a-9991-4d65-b79b-7d737e458617_jpe_1770970959620_12331408.jpg",
+    "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4704_IMG_1770970988_4913_IMG_20260213_162124_361a8190-22a7-45b7-a274-127846a98ac5_jpe_1770970959622_89017788.jpg",
     "https://aos-comment.amap.com/B0GUU50SF6/comment/file_media_Photo_4701_IMG_1770970988_4910_IMG_20260213_162123_ed1a8794-c909-4592-8cbc-7169cc9c6d50_jpe_1770970959631_84965427.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，临街玻璃门敞开",
-      "kind": "space",
+      "text": "店内有Rancilio意式咖啡机，下方摆放多个卡通小摆件。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯冰饮分层明显，上层深色咖啡，下层浅色液体，顶部有柠檬片装饰。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "室内可见一台Rancilio品牌咖啡机",
-      "kind": "beans",
+      "text": "菜单显示特调饮品包含桂花酿、山楂汁、奶油和桃喜浓缩咖啡等成分。",
+      "kind": "specialtyMenu",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "吧台前摆放着多个卡通玩偶",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
+      "text": "店外有A字形立牌，标明营业时间为9:00-16:00。",
+      "kind": "time",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "一杯分层冰咖啡，顶部有柠檬片",
-      "kind": "drinks",
+      "text": "店铺为临街玻璃门面，门前有台阶，无室外座位。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外地面有落叶，显示秋季",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "店内吧台区域可见，空间紧凑，未见明显座位区。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.85
     },
     {
-      "text": "店内光线明亮，但未见大面积窗户",
-      "kind": "light",
+      "text": "手持饮品杯，杯盖上有“SPECIAL DRINKS”及“福州路17号”字样。",
+      "kind": "menu",
       "photo": 3,
-      "confidence": 0.75
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有置物架，陈列瓶装物与奖状，背景墙有“Quality”字样。",
+      "kind": "interior",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:09Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:27Z"
 }

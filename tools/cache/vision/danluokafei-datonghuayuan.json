@@ -1,7 +1,7 @@
 {
   "cafeId": "danluokafei-datonghuayuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9e9c17dbec70",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1e4517d6a6d8",
   "photos": [
     "https://aos-comment.amap.com/B0JR7LFLUU/comment/20260323-80fd8e4284a3d06229c3b0a4-6RlQaTlAKf06gEPHIZsCTI.jpg",
     "https://store.is.autonavi.com/showpic/c2d9da6f8d24288b0000001891706547?type=pic",
@@ -10,50 +10,69 @@
   "photoKinds": [
     "drink",
     "storefront",
-    "other"
+    "interior"
   ],
   "observations": [
     {
-      "text": "咖啡拉花为马图案，配中文字符",
+      "text": "两张咖啡拉花为马形图案，左侧杯面有“財”字，右侧有“發”字",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店铺位于临街位置，有户外桌椅",
-      "kind": "space",
+      "text": "店面招牌含“Danro”与“丹罗咖啡”，圆形黄底黑字标识悬挂在建筑外立面及集装箱侧门",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店铺使用集装箱改造，入口开放",
-      "kind": "space",
+      "text": "集装箱改造门店，门内可见木质地板与黑色竖条纹墙面，门口贴有卡通马与宇航员贴纸",
+      "kind": "interior",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "主店门口有户外桌椅，停有灰色别克商务车与蓝色SUV，人行道铺砖，绿植环绕",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见一人坐于白色桌旁，但未见其是否使用电脑或手机",
+      "kind": "people",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室外有绿植和停车区域",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "照片中未见烘焙机、手冲台、虹吸壶、磨豆机等专业设备；无书架、植物、宠物",
+      "kind": "equipment",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "店内可见部分座位和室内空间",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "未见菜单或价格信息，无清晰可读的饮品/食物名称或定价",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "店门口有落地灯和小型绿化带",
-      "kind": "view",
+      "text": "主店入口处立有小标牌，内容模糊无法辨识具体文字",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:18Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:25Z"
 }

@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "店面干净整洁，座位舒适，很适合办公小憩",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97714B1AD0C&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "轻柔的爵士乐、沙沙的翻书声和咖啡机的嗡鸣，交织成令人心安的白噪音",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "有人对着屏幕调试代码，有人围坐着讨论实验数据",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "AIYO咖啡出品稳定，豆子香气足，美式清爽回甘，拿铁奶泡绵密不腻口",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97714B1AD0C&_provider=57879",
+      "site": "Apple (中国)"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "张江咖啡地图|程序员的灵感燃料,创业者的能量补给站 ",
+      "url": "https://m.sohu.com/a/922363832_121912641",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "AiYO Coffee (Juli Road Shop) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97714B1AD0C&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 3,
+      "title": "张江,不能没有咖啡",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MDkxMDkzNw==&mid=2732315769&idx=1&sn=77a65ea880d3d2c9ad0d85cbe0a2f126&chksm=b901ded0a7e4aee4bdeac5f14f7c871c762e10fd043bf78cfb85f1307b2b5ae98ecd539d5250&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "张江不能没有咖啡",
+      "url": "http://finance.sina.com.cn/roll/2025-08-09/doc-infkixvc2826476.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "【AiYO COFFEE(高科中路店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/741034627?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "艾優咖啡｜Trip.com 日惹村",
+      "url": "https://hk.trip.com/moments/detail/jogyakarta-1498353-136129779/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "和平家园",
+      "url": "https://hs.fang.anjuke.com/loupan/424656/fujin-0106.html",
+      "site_name": "无"
+    },
+    {
+      "index": 9,
+      "title": "探店特辑丨翠湖角落的宝藏店,把特调咖啡做成香水 ",
+      "url": "https://chihe.sohu.com/a/1075183389_121124630",
+      "site_name": "搜狐网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:28:58Z"
+}

@@ -1,7 +1,7 @@
 {
   "cafeId": "youxinkafei-yunjishangpu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1aeb19abf161",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "3af8cc3114e3",
   "photos": [
     "https://store.is.autonavi.com/showpic/f52c3d69ad2c9b39534f057312d53413",
     "https://store.is.autonavi.com/showpic/5cd34a6a4a0e76350000002991968460?type=pic",
@@ -14,46 +14,67 @@
   ],
   "observations": [
     {
-      "text": "店内为开放式布局，有吧台和沙发区",
+      "text": "店内空间宽敞，有吧台和弧形沙发区，属于大空间类型。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "可见多个高脚凳和弧形沙发座位",
+      "text": "大面积落地窗，采光充足，可看到室外绿化和建筑。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "设有弧形沙发座、高脚凳及独立座椅，座位数量较多。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "大面积落地窗，采光良好",
-      "kind": "light",
+      "text": "电子屏显示“能量套餐16元起”，含饮品与贝果等食物。",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "悬挂电子屏展示饮品和套餐信息",
-      "kind": "drinks",
+      "text": "可见陈列架上摆放多款糕点，包括带紫色装饰的甜品。",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "吧台上摆放多盆绿植",
-      "kind": "decor",
+      "text": "吧台后方有咖啡机及操作设备，但未见烘焙机或手冲台。",
+      "kind": "brewBar",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "可见菜单板和促销信息牌",
-      "kind": "menu",
+      "text": "店内无人使用电脑，也未见插座。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧有木质展示架，摆放绿植和商品，环境整洁现代。",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.75
+      "confidence": 0.8
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:23Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    16.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:05Z"
 }

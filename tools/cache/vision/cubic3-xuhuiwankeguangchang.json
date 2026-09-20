@@ -1,7 +1,7 @@
 {
   "cafeId": "cubic3-xuhuiwankeguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4cde763c3464",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f3b5a7aebb0e",
   "photos": [
     "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png",
     "https://aos-comment.amap.com/B0KUAUCWGC/comment/30FB905C_6E0E_4853_A189_D74EBE4621F7_L0_001_1502_200_1760232154770_35897235.jpg",
@@ -10,44 +10,73 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内为小型咖啡店，空间紧凑",
+      "text": "店内为吧台式小店，无明显座位区。",
       "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "吧台后方有咖啡机等专业器具",
-      "kind": "beans",
+      "text": "菜单显示黑咖啡类10元，白咖啡类15元。",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "墙上挂有彩色饮品图案装饰",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "手持一杯冰咖啡，杯身有店标",
+      "text": "饮品杯内为冰美式或冷萃类深色咖啡，含冰块。",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有咖啡机、磨豆机等专业设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外临街，玻璃门面，可看到街道和树木。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店面临街，有玻璃门窗",
-      "kind": "light",
-      "photo": 1,
+      "text": "店内右侧墙上有木质菜单板，列有黑咖啡、白咖啡、拿铁等选项。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方挂有七种颜色的杯子造型装饰，均标有数字3。",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店门口有透明玻璃门，门旁有消防器材。",
+      "kind": "storefront",
+      "photo": 2,
       "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:56Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    10.0,
+    15.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:31Z"
 }

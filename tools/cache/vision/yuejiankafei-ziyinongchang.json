@@ -1,58 +1,80 @@
 {
   "cafeId": "yuejiankafei-ziyinongchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f435ecb995ce",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "4bc8158024d7",
   "photos": [
-    "https://store.is.autonavi.com/showpic/afdc9bcb1b84934b14563b86f467f734",
+    "https://store.is.autonavi.com/showpic/991a5d4738b17a300000002350100135?type=pic",
     "https://store.is.autonavi.com/showpic/202e0135154e66f5af596a4320d802b4",
-    "https://store.is.autonavi.com/showpic/991a5d4738b17a300000002350100135?type=pic"
+    "https://store.is.autonavi.com/showpic/ceb77fd31ca277af0000002528576128?type=pic",
+    "https://store.is.autonavi.com/showpic/afdc9bcb1b84934b14563b86f467f734"
   ],
   "photoKinds": [
     "storefront",
-    "interior"
+    "storefront",
+    "storefront",
+    "other"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门，有双开玻璃门",
+      "text": "店面位于密云路460号，门牌清晰可见。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店铺为临街独立小空间，入口有台阶和扶手，无明显室外座位。",
       "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口左侧有木质菜单板，摆放绿植",
-      "kind": "space",
-      "photo": 3,
+      "text": "门口立有黑板菜单，显示咖啡、拼豆工坊等选项，含“FREE自取”字样。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "玻璃门上贴有“WELCOME”字样及店内装饰图案。",
+      "kind": "light",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "室内可见吧台和部分座位",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "菜单板上可见 '拼豆工坊' 等字样",
-      "kind": "drinks",
+      "text": "墙面为浅色横向条纹，窗户为黑色边框，窗内可见绿植。",
+      "kind": "light",
       "photo": 3,
-      "confidence": 0.6
+      "confidence": 0.85
     },
     {
-      "text": "店面位于居民楼旁，临街可见建筑",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "入口处有 'WELCOME' 手写字样",
+      "text": "店招为“月见咖啡”，附有英文“GUAGUAQ HEIMEILIUQ”，标识清晰。",
       "kind": "story",
-      "photo": 3,
-      "confidence": 0.5
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口放置木质置物架，摆放绿植，地面有蓝色地垫。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "照片中未见店内客人或工作人员，也未见电脑、插座、烘焙机等设备。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:59Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:09Z"
 }

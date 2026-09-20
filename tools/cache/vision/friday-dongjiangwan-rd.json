@@ -1,7 +1,7 @@
 {
   "cafeId": "friday-dongjiangwan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2df50619aaaa",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8e7e62c408ad",
   "photos": [
     "http://store.is.autonavi.com/showpic/0104e2e329804e70a316fbcf42b36242",
     "https://aos-comment.amap.com/B0FFF9ZUL0/comment/6CC31A78_CEB5_4555_B19E_D77841D2D617_L0_001_1126_200_1769492091941_77726125.jpg",
@@ -14,58 +14,56 @@
   ],
   "observations": [
     {
-      "text": "店内有猫，玻璃上贴有文明看猫提示",
-      "kind": "story",
+      "text": "临街玻璃门，门内可见猫爬架与一只趴着的虎斑猫",
+      "kind": "pet",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "黑板菜单显示营业时间13:00-20:00，美式16元、拿铁18元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内有木质多层猫爬架，底层铺有木纹垫子，猫在垫上休息",
+      "kind": "pet",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外立式黑板写有'不用云南豆！鲜奶只用明治'等字样",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "咖啡营业时间为13:00-20:00",
-      "kind": "time",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "美式咖啡16元，拿铁18元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "使用鲜奶，不用云南豆",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有木质猫爬架和猫窝",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面为临街玻璃门，可看到内部陈设",
-      "kind": "light",
+      "text": "透过玻璃可见店内陈设含挂画、小桌椅及置物架，无明显吧台或专业咖啡设备",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "店门口有黑板菜单，标明饮品价格",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于东江湾路170号，招牌为“Friday 星期五”",
-      "kind": "storefront",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店面为临街单层小商铺，门面窄，橱窗宽大，无室外座位",
+      "kind": "space|outdoor",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:54Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    16.0,
+    18.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:52Z"
 }

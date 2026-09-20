@@ -1,7 +1,7 @@
 {
   "cafeId": "yuenanzhongyuanchuanqikafei-hongkoulongzhimeng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8f14993a0804",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "66a348b5979c",
   "photos": [
     "https://aos-comment.amap.com/B0K3M7TQXB/comment/content_media_external_file_1000037787_ss__1767530384227_04167995.jpg",
     "https://aos-comment.amap.com/B0K3M7TQXB/comment/EAC4EA0A_447D_47DD_9075_A7C49EFE4439_L0_001_2000_150_1768643030545_83056684.jpg",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，为独立咖啡店铺",
+      "text": "商场内档口式店面，无室外座位，地面为几何拼花瓷砖",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店内设有吧台和饮品制作区，配备磨豆机、咖啡机等专业设备",
-      "kind": "drinks",
+      "text": "吧台后方可见多台磨豆机、意式咖啡机及手冲设备",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "可见多种包装咖啡豆及零售商品陈列于货架与展示柜中",
+      "text": "吧台前无座位，仅靠墙设少量木制长凳（约2-3人位）",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "左侧立式展架陈列包装咖啡豆/粉，部分袋身印有‘TRUNG NGUYÊN LEGEND’",
       "kind": "beans",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "菜单板展示双人下午茶套餐，价格为168元",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口摆放有植物装饰和袋装咖啡豆展示",
-      "kind": "story",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内空间整洁，地面为几何图案瓷砖，天花板有裸露管道",
-      "kind": "space",
+      "text": "菜单板显示‘双人下午茶套餐 ¥68’、‘单杯¥49’等价格",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台正面标有‘CÀ PHÊ NĂNG LƯỢNG – CÀ PHÊ ĐỔI ĐỜI’及‘越南中原传奇咖啡’",
+      "kind": "story",
       "photo": 3,
-      "confidence": 0.75
+      "confidence": 1.0
     },
     {
-      "text": "墙上可见越南语品牌标语，强调品牌理念",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有员工在吧台后工作，但未见顾客使用电脑或用餐",
+      "text": "店内无人使用电脑，仅见1名员工在吧台后操作设备",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "右侧墙面贴有‘Am thanh cao quý nhất là sự tĩnh lặng’标语",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
     }
   ],
-  "seats": "none",
+  "room": "mall",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:14:09Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    49.0,
+    68.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:06Z"
 }
