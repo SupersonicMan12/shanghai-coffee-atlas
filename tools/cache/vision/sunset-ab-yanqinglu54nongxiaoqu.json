@@ -1,71 +1,82 @@
 {
   "cafeId": "sunset-ab-yanqinglu54nongxiaoqu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "7586b625cc3c",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "cdae3c3756a7",
   "photos": [
+    "https://aos-comment.amap.com/B0I13SRPG4/comment/6111e00102006cf222347112f2edbd85_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I13SRPG4/comment/D35A54E0_A141_4B24_876A_24FAB868DCE3_L0_001_1440_1719_1727339603752_38551335.jpg",
-    "https://aos-comment.amap.com/B0I13SRPG4/comment/24adbb2ba7196a251128debdb427411c_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0I13SRPG4/comment/0653A855_9A7E_476D_8537_EB1F1FE8FA29_L0_001_1440_1716_1727339603751_14786967.jpg"
+    "https://store.is.autonavi.com/showpic/9cb2c108166f16250000002563440784?type=pic",
+    "https://aos-comment.amap.com/B0I13SRPG4/comment/24adbb2ba7196a251128debdb427411c_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
-    "menu"
+    "drink",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店外有绿植和一个橙色立牌，旁边是人行道和行道树。",
+      "text": "店内有手冲设备、磨豆机和咖啡机等专业器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外临街，有绿植和橙色招牌，街道上有树木和停放的电动车。",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后有专业咖啡机、磨豆机和手冲器具。",
-      "kind": "beans",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "玻璃柜上手写菜单有紫米包、红豆包等食物，标价15元。",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "菜单上可见“ETHIOPIA YIRGACHEFFE”、“GUATEMALA ATITLAN”等产地名称。",
+      "kind": "specialtyMenu",
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "墙上海报显示有“盖碗茶”、“SUNSET SET”等饮品选项。",
+      "text": "三杯饮品中包含冰美式、冷萃及奶咖类，其中一杯为玻璃杯装并带迷迭香装饰。",
       "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口放着一张小桌子和一把椅子，为室外座位。",
-      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内吧台前有花瓶插着粉色兰花和绿色花烛。",
+      "text": "店内吧台后方摆放有鲜花（白花与绿叶植物），环境整洁。",
       "kind": "other",
-      "photo": 2,
-      "confidence": 0.7
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "菜单可见“提子丹麦”、“肉桂卷”等烘焙品，标价18元。",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "墙上海报提及“COCONUT WITH JASMINE”，为一款饮品。",
+      "text": "饮品杯身印有“sunset”字样，部分饮品使用透明玻璃杯盛装。",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口放置有橙色立牌和小桌，无室外座位。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单标价“20”，但未明确标注货币单位或是否为咖啡价格。",
+      "kind": "menuPrices",
+      "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
-  "outdoor": true,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:13Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:48Z"
 }

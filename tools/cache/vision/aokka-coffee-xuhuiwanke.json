@@ -1,59 +1,83 @@
 {
   "cafeId": "aokka-coffee-xuhuiwanke",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "769cebd822ea",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "5c070ec3c4be",
   "photos": [
-    "https://aos-comment.amap.com/B0KUYLRJ77/comment/36875f74fe5c9bd7ea3d5fe47e9504f2_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0KUYLRJ77/comment/d6d296fb4cdfced264cffc4e6aba3de3_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0KUYLRJ77/comment/content_media_external_images_media_100001523_1728403769235_51166426.jpg"
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/content_media_external_images_media_100001523_1728403769235_51166426.jpg",
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/202601_06-16401_1767688829431_87531123.jpg",
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/202601_06-16401_1767688829433_24684827.jpg",
+    "https://aos-comment.amap.com/B0KUYLRJ77/comment/36875f74fe5c9bd7ea3d5fe47e9504f2_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
-    "drink"
+    "menu",
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，临街玻璃窗",
-      "kind": "space",
-      "photo": 1,
+      "text": "店外有绿色折叠椅和塑料箱改造的花槽，提供室外座位。",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "室外有几张绿色椅子和小凳子",
-      "kind": "seating",
+      "text": "店外摆放着两块促销立牌，显示指定咖啡加9.9元、买2送1等优惠活动。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见磨豆机和咖啡制作设备，有工作人员在操作。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有遮阳伞和木质平台，适合户外休憩。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上标有“NO.001 / TODAY'S THEME IS NICE DAY”，并附有日文及英文短句。",
+      "kind": "menu",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有吧台和靠窗座位，采光好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见磨豆机等专业咖啡器具",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "窗外有绿树，室内有盆栽植物",
-      "kind": "view",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品为带吸管的纸杯装",
+      "text": "饮品杯上有“Coffee For Rawman”字样，搭配绿色叶片装饰。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有竹子盆栽，营造自然氛围。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中可见顾客坐在店外椅子上休息，有人在店内消费。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:25:10Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:26Z"
 }

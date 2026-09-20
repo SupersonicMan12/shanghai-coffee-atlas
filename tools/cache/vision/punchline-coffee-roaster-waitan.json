@@ -1,7 +1,7 @@
 {
   "cafeId": "punchline-coffee-roaster-waitan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e3b11617ab52",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5ab5c34fd91d",
   "photos": [
     "https://aos-comment.amap.com/B0I62AFP14/comment/4fbd5226e185cd32ff8ac1f32b68761c_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I62AFP14/comment/05d72ba345a0471a391d083eb4d23565_2048_2048_80.jpg",
@@ -15,58 +15,67 @@
   ],
   "observations": [
     {
-      "text": "有咖啡饮品和甜点，包括拉花拿铁、浓缩咖啡和柠檬茶类饮品",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "提供芝士蛋糕类甜点，摆盘精致",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品杯具为玻璃材质，搭配木质托盘和小食碟",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内环境为木质墙面，氛围温馨",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有纸质菜单或收据显示店名为Punchline Coffee&Roaster（外滩店）",
-      "kind": "menu",
+      "text": "第二张图收据显示店名为Punchline Coffee&Roaster（外滩店）",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "有特调饮品，含花瓣和柠檬片装饰，可能是非传统咖啡饮品",
+      "text": "第三张图前景为一杯加干花与梨片的特调饮品，后方有dirty和拉花拿铁",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "桌面上有书籍或资料，可能为阅读区或学习空间",
+      "text": "第一张图展示木质托盘、两杯咖啡（一杯拉花、一杯冰滴）、两块芝士蛋糕及小饼干",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张图收据显示单价32元，单号2110916334845050030042，时间16:33:48",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "第二张图桌上有打开的英文教材/试卷类纸张，旁边放一只白色无线耳机",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "饮品价格为32元，收银员信息可见",
-      "kind": "menu",
+      "text": "三张图桌面均为金属或深色木纹，第二、三张图为吧台式高脚桌，无明显隔断",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "第二张图背景可见金属质感立柱与网格状椅背，暗示店内为现代简约工业风",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "第三张图杯底垫圈印有“THE SIGNAL IS THE SUN”字样，非菜单/包装印刷品",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:45Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    32.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:45Z"
 }

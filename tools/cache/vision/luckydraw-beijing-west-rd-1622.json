@@ -1,59 +1,80 @@
 {
   "cafeId": "luckydraw-beijing-west-rd-1622",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ffed785b2579",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "20ab7c90b29b",
   "photos": [
-    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/file_media_Photo_16868_IMG_1767062909_14014_IMG_20251230_104649_jpg_ss__1767074502845_99305338.jpg",
     "https://aos-comment.amap.com/B0H3ZOGSU2/comment/52dcb9c999fa20d1bdf55a1be793ece4_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/file_media_Photo_16868_IMG_1767062909_14014_IMG_20251230_104649_jpg_ss__1767074502845_99305338.jpg",
+    "https://aos-comment.amap.com/B0H3ZOGSU2/comment/e7159543e9ac3798e7049cc6342f9db1_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H3ZOGSU2/comment/0948538c9859cc05c9846f845e6a768b_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "food",
+    "storefront",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "临街玻璃门面，店外有行道树和马路景观。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供带拉花的咖啡，如拿铁或澳白。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "食物是含蛋、蔬菜和芝麻的煎饼类小吃。",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有吧台式座位，空间紧凑。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "咖啡杯旁配有玻璃水杯，服务细节到位。",
-      "kind": "drinks",
+      "text": "店内吧台前有木质菜单架，摆着印有'Lucky Draw'的纸质菜单",
+      "kind": "menu",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店面位于街道边，非商场或庭院内。",
-      "kind": "space",
+      "text": "菜单显示'非洲产区'、'美洲产区'、'亚洲产区'等分类及产地信息",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上可见单品咖啡价格：¥35/40、¥40/45、¥50/55等（如'巴拿马 90+苏青山谷' ¥35/40）",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上有一杯拉花为叶形的咖啡（陶瓷杯），旁边是吃剩的卷饼类食物，内含蛋、黑芝麻、葱花",
+      "kind": "drinks|food",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "另一张图显示一杯拉花为心形的咖啡与一杯清水同置木桌，杯子为深色粗陶釉边",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外临街，有高大悬铃木遮挡部分门面，门前停一辆白色电动车，人行道黄线清晰",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面招牌为深蓝底白字'Lucky D...'，右侧可见中文'有容乃大'，位于老式建筑一层",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
-  "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:09Z"
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    35.0,
+    40.0,
+    45.0,
+    50.0,
+    55.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:55Z"
 }

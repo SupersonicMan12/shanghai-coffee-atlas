@@ -1,65 +1,89 @@
 {
   "cafeId": "leimi-yongkang-rd-88",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "fd48e8a3792c",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a60263324bbc",
   "photos": [
-    "https://store.is.autonavi.com/showpic/1921a1c3d05c3bd40000002363104587?type=pic",
     "https://aos-comment.amap.com/B00156O26N/comment/content_media_external_images_media_1000039931_ss__1748673879787_90747413.jpg",
+    "https://store.is.autonavi.com/showpic/1921a1c3d05c3bd40000002363104587?type=pic",
+    "https://aos-comment.amap.com/B00156O26N/comment/03244c52667f8f58139a43a90b77744e_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B00156O26N/comment/5a134c99e27e45132533e79b1b3abbb3_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
+    "drink",
     "food",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "临街老洋房建筑，二层有拱形窗，一楼是深色木门面。",
+      "text": "店面为两层老式建筑，临街有玻璃窗和木质门面，门口有行人等候。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内桌上有咖啡杯、奶油蛋糕和奶盅，铺花纹桌垫。",
-      "kind": "food",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "桌上摆玻璃茶壶和两个白瓷杯，盛浅色茶汤。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店外人行道上站着几位顾客，似在等位或闲聊。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店面正对马路，有斑马线和交通灯，街道开阔。",
-      "kind": "view",
+      "text": "室内桌铺有花纹桌布，摆放有带花卉图案的陶瓷杯碟、小奶壶和甜点盘。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "一楼窗户为多格玻璃窗，非落地窗，采光一般。",
-      "kind": "light",
+      "text": "菜单显示咖啡种类包括法式香草、手冲、摩卡、美式等，价格在30-68元之间。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品包含黑咖啡（带泡沫）和茶饮（玻璃壶+白瓷杯），搭配小奶壶。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为一块多层奶油蛋糕，顶部有焦糖酱装饰，置于金属雕花盘中。",
+      "kind": "food",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见多人在门口聚集，部分人手持手机拍照或交谈。",
+      "kind": "people",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "未见吧台、烘焙机或手冲设备，无书架与绿植。",
-      "kind": "space",
-      "photo": 2,
+      "text": "茶饮使用玻璃茶壶与两个方形白瓷杯，放置于绿色花纹桌布上。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单列有牙买加蓝山咖啡（¥98/杯）、经典摩卡（¥68/杯）等特色咖啡。",
+      "kind": "specialtyMenu",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:05:18Z"
+  "bigWindows": true,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    30.0,
+    40.0,
+    50.0,
+    58.0,
+    65.0,
+    68.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:20Z"
 }

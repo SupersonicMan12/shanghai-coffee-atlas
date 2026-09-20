@@ -1,53 +1,80 @@
 {
   "cafeId": "lixiaojiemaokafeiguan-wujiaochang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "503b08563663",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "dfcb91a213c6",
   "photos": [
+    "http://store.is.autonavi.com/showpic/c22cb01d4b6976e507a75121b881bebf",
     "http://store.is.autonavi.com/showpic/f8489ac564b68cfc1dd933b522e24e9a",
-    "https://aos-comment.amap.com/B0FFHD45IJ/comment/content_media_external_file_1000034792_ss__1769157383512_17656833.jpg",
-    "http://store.is.autonavi.com/showpic/fc2bf4cca4c36cede2b638e42edccf37"
+    "http://store.is.autonavi.com/showpic/fc2bf4cca4c36cede2b638e42edccf37",
+    "https://aos-comment.amap.com/B0FFHD45IJ/comment/content_media_external_file_1000034792_ss__1769157383512_17656833.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "food"
+    "food",
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃窗，可见内部陈设。",
+      "text": "店内有木质地板，空间较开阔，可见多张白色桌椅。",
       "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多只猫活动，包括一只被手指触碰的金渐层猫。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物包括华夫饼配冰淇淋、草莓、香蕉和蓝莓。",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内有猫咪活动，至少两只可见。",
-      "kind": "animals",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供三明治类食物，切块摆放。",
+      "text": "食物还包括三角形三明治，内含生菜、火腿和蛋黄酱。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内光线明亮，地面为木质地板。",
-      "kind": "light",
+      "text": "店面临街，有玻璃门和大面积玻璃窗，外设木质围栏和桌椅。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有猫爬架等宠物相关设施。",
-      "kind": "animals",
+      "text": "店外有露天座位区，摆放着木制桌椅。",
+      "kind": "outdoor",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内可见至少两只猫，一只躺卧，一只站立。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在用餐，背景中可见人脚和桌椅。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:36Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:33Z"
 }

@@ -1,59 +1,84 @@
 {
   "cafeId": "d-march-zakka-coffee-sanyuekafei",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "efc5881d3c8b",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "338c3e2c3232",
   "photos": [
     "https://aos-comment.amap.com/B0I36R9JN4/comment/content_media_external_file_99730_ss__1762319010792_91992694.jpg",
     "http://store.is.autonavi.com/showpic/15339fd90ab12688ce6f33871b6278db",
     "https://aos-comment.amap.com/B0I36R9JN4/comment/content_media_external_file_99745_ss__1762319010783_69160717.jpg"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
-    "drink"
+    "interior",
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有冷藏展示柜，陈列甜点与饮料",
+      "text": "店内有玻璃展示柜，陈列蛋糕、饼干和瓶装饮料。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "可见Bundaberg碳酸饮料和可口可乐",
-      "kind": "drinks",
+      "text": "菜单上可见饮品价格：28元、32元、36元。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "展示柜内有低卡燕麦慕斯（38元）、提拉米苏千层（28元）、黄油可颂（19元）、香肠酥（29元）等食物。",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "外部门面有Zakka&Coffee招牌",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "咖啡杯上有狮子造型拉花，置于木质桌面。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "门口停放多辆共享单车",
-      "kind": "view",
+      "text": "店外有共享单车停放，门口为临街玻璃门面。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "一杯咖啡有熊形拉花图案",
-      "kind": "drink",
-      "photo": 3,
+      "text": "展示柜后方可见咖啡制作设备及酒瓶陈列架。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内柜台上方悬挂三张纸质菜单，展示甜品与价格。",
+      "kind": "menu",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台及后方酒架",
-      "kind": "space",
+      "text": "展示柜下方有Bundaberg果味汽水和可口可乐罐装饮料。",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:29Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    32.0,
+    36.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:24Z"
 }

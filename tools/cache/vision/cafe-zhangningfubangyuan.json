@@ -1,7 +1,7 @@
 {
   "cafeId": "cafe-zhangningfubangyuan",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "17587570dac2",
+  "inputDigest": "1ac1fa463993",
   "photos": [
     "https://aos-comment.amap.com/B0J01M1Y70/headerImg/adb24a275b177644563ece215e0faded_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/2f566597248e834e0000002259404300?type=pic",
@@ -9,64 +9,58 @@
   ],
   "photoKinds": [
     "storefront",
-    "food",
-    "food",
-    "other"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "有室外座位区，地面铺碎石，设石板小径和坐凳",
-      "kind": "seating",
+      "text": "店面为混凝土外墙，有木质窗框和门。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店外有绿植和竹编灯饰，营造日式庭院氛围",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供焦糖布丁类甜点，搭配草莓与奶油",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "有饮品为浅色冷饮，杯中含草莓，配金属搅拌棒",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供高脚杯装的草莓奶油塔类甜点",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内靠窗位置有木质桌面，窗外可见绿植和台阶",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "咖啡拉花呈叶子形状，盛于陶瓷杯中",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面为混凝土与木结构结合，有玻璃门窗",
+      "text": "室外庭院铺满碎石，摆放着藤编灯笼和装饰品。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "室内可见木质托盘上的咖啡和甜点。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗边摆放着草莓布丁、奶昔和多层甜品。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "窗户为木质框架，采光良好。",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外庭院中有绿植和石头小径。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:11Z"
 }

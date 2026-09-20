@@ -1,63 +1,76 @@
 {
   "cafeId": "ershiyikafei-qilianshan-rd-111",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "de54885803ea",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "569225e6c00f",
   "photos": [
     "https://store.is.autonavi.com/showpic/403497b4cd91793731c917bf1ee12dc7",
     "https://store.is.autonavi.com/showpic/27c924e48ec8b5bd595f68cd0486394d"
   ],
   "photoKinds": [
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺为临街独立建筑，有落地玻璃窗",
+      "text": "店面为独立单层建筑，有大玻璃窗和门",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内可见吧台区域和照明设备",
-      "kind": "interior",
+      "text": "白天照片中店内无客人，傍晚照片中有少量顾客",
+      "kind": "crowd",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店前有铺装人行道和绿化带",
+      "text": "傍晚时分室内灯光亮起，透过玻璃可见内部座位",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有铺设地砖的步行区，临街无室外座位",
       "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店铺外立面为浅色墙面与黑色门框组合",
-      "kind": "space",
-      "photo": 1,
+      "text": "从玻璃窗可看到店内有桌椅，但数量无法确定",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "傍晚时分拍摄，室内灯光已开启",
-      "kind": "time",
+      "text": "店内未见烘焙机、手冲台等专业咖啡设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见书架、植物或宠物",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见有人在使用电脑",
+      "kind": "laptops",
       "photo": 2,
       "confidence": 0.9
-    },
-    {
-      "text": "门口无明显室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "建筑二层有栏杆围合的平台",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:37Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:02Z"
 }

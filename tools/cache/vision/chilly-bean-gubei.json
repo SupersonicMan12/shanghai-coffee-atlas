@@ -1,7 +1,7 @@
 {
   "cafeId": "chilly-bean-gubei",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "621f6cf92dbb",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "770a628e07b7",
   "photos": [
     "https://aos-comment.amap.com/B0K3VCR9ZT/comment/5733EDD2_7C42_45C8_90D4_530ECED48C5B_L0_001_1126_2000_1739800791423_65130753.jpg",
     "http://store.is.autonavi.com/showpic/40667f69a319f3be071b7745173ddf2e",
@@ -9,63 +9,46 @@
   ],
   "photoKinds": [
     "drink",
-    "storefront",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "白色陶瓷杯盛咖啡，表面有心形拉花，杯口有棕边与蓝细线。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店招为‘COFFEE’大字，下方有‘CAFÉ DO BRASIL’字样及绿叶图案，材质似麻布拼贴。",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内木质吧台面，置有灰色毛毡卡通造型纸巾盒、肯尼亚咖啡豆袋、书架（含《真需求》等书）。",
+      "text": "店内有木质书架，摆放着书籍和玩偶。",
       "kind": "interior",
       "photo": 3,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "墙上软木板挂有红色‘福’字剪纸、日历卡片、钥匙与小装饰物。",
+      "text": "吧台上有一个卡通造型的纸巾盒。",
       "kind": "interior",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "吧台下方木架上放有棕色毛绒玩偶、相框、书籍及小摆件。",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.96
-    },
-    {
-      "text": "入口处挂有白底黑字‘chilly’标牌，配简笔手绘图案。",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 0.94
-    },
-    {
-      "text": "店内可见悬挂式球形吊灯，光线明亮，未见落地窗或临街大玻璃。",
-      "kind": "light",
       "photo": 3,
       "confidence": 0.85
     },
     {
-      "text": "照片中未出现座位、电脑、烘焙机、手冲台、虹吸壶、磨豆机或室外区域。",
-      "kind": "seating",
+      "text": "一杯咖啡上有心形拉花。",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.95
+    },
+    {
+      "text": "店外招牌显示“COFFEE”及“CAFE DO BRASIL”字样。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:57Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:32Z"
 }

@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "整个新店铺的座位分布也很广,店内、店外都有位置",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site": "搜狐网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "音乐学院/五官科医院咖啡热门榜 ·第1名",
+      "url": "https://m.dianping.com/shop/1014623349783437",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "这里还是宠物友好店铺,可以和宠物一起来坐坐",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site": "搜狐网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "咖啡与牛奶打底,覆上绵密的奶油顶。最点睛的一步,是店员现场现搓、现削新鲜橙皮",
+      "url": "https://new.qq.com/rain/a/20260228A01LD400",
+      "site": "腾讯网"
+    },
+    "price": {
+      "value": 48.0,
+      "quote": "单杯定价48元",
+      "url": "https://new.qq.com/rain/a/20260228A01LD400",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "音乐学院/五官科医院咖啡",
+      "url": "https://m.dianping.com/shop/1014623349783437",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海人,不要错过这杯 ",
+      "url": "https://news.sohu.com/a/1005939503_391486",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 3,
+      "title": "https://new.qq.com/rain/a/20260228A01LD400",
+      "url": "https://new.qq.com/rain/a/20260228A01LD400",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "咖啡探店打卡_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5310574657274982.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 5,
+      "title": "去了Honky Tonk Coffee — 上海目前最熱門的咖啡館之一。 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-144185379?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "虹桥花市新开|独属上海的高颜值隐藏咖啡馆",
+      "url": "https://weibo.com/2186460095/RhJNVtNDU",
+      "site_name": "微博平台"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:13Z"
+}

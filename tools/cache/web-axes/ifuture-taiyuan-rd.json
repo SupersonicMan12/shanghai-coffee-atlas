@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "科学咖内有很多照片墙...二楼,还有一个150平方米的科学沙龙空间,主要用于科学交流、科普宣传",
+      "url": "https://www.163.com/dy/article/ITNGMHLJ05149R72.html",
+      "site": "163网易免费邮"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "这场致敬科学与艺术的年末跨界之约,让科研工作者们感触颇深...轻松的氛围更能激发创意",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653612781&idx=3&sn=5ce040cd15a72e8f3d477d029a04b171&chksm=bc25b9f4bb366c680d042dfb4cf8c10e0b564b020e96d25107df23a1b6c1278280c80aea0eb9&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "二楼,还有一个150平方米的科学沙龙空间...每周五,这里会举行学术沙龙和科学壁报评比活动",
+      "url": "https://www.163.com/dy/article/ITNGMHLJ05149R72.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "品的是有科学味道的咖啡...吧台里,用来放啤酒和饮料的冰箱是实验室专用冰箱",
+      "url": "https://www.163.com/dy/article/ITNGMHLJ05149R72.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "汇探店|这家宝藏咖啡店,生长着科学的种子",
+      "url": "https://www.163.com/dy/article/ITNGMHLJ05149R72.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 2,
+      "title": "千杯咖啡伴千朵花，万分关怀暖万个她！ - 搜狐",
+      "url": "https://www.sohu.com/a/763041771_790178",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "青年科学家的浪漫,藏在徐汇这场音乐会里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653612781&idx=3&sn=5ce040cd15a72e8f3d477d029a04b171&chksm=bc25b9f4bb366c680d042dfb4cf8c10e0b564b020e96d25107df23a1b6c1278280c80aea0eb9&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "千杯咖啡伴千朵花,万分关怀暖万个她! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjA2MzgxNQ==&mid=2650555977&idx=2&sn=71756d93ec7792d028c3bb5cf86dd5fc&chksm=87839ee1b0f417f76d96f0e9c353a5dd9e409455d4615905ba5e1093578575d6d94fa60ba1da&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "青年科学家的浪漫,藏在徐汇这场音乐会里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjA2MzgxNQ==&mid=2650707444&idx=3&sn=82968d07820acfb60854b26d0e4a5f4d&chksm=861d9ae78a5b9ec4b1349457d93fceda121b2e63e8664ebab06fde6df8e4a1b4d43b21cd57dd&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "这家宝藏咖啡店,生长着科学的种子活动中国_生物",
+      "url": "https://www.sohu.com/a/765811137_120044982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "【iFuture科学咖(建国西路365弄小区店)】地址,电话,路线,周边设施",
+      "url": "https://m.map.360.cn/m/search/detail/pid=5c8c19cbca795573",
+      "site_name": "360官网"
+    },
+    {
+      "index": 8,
+      "title": "解锁梧桐区科创“隐藏地图”!徐汇这场五四青年活动,好玩又好学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653642998&idx=2&sn=0f175a7e3d7a68133ae34ea0c08bb325&chksm=bccbf174f2c9e622545490b52b8e62b2d7f40c8de68d7db1b78e9f9ad0208158c1a449beca98&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "喝咖啡遇见科学家!中科院也有咖啡馆啦! - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/927387518",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:13Z"
+}

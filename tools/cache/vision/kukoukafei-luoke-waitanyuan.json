@@ -1,71 +1,78 @@
 {
   "cafeId": "kukoukafei-luoke-waitanyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "30b76f46f01e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1a43d2d4c4cf",
   "photos": [
     "http://store.is.autonavi.com/showpic/1cd7d65163241ad9c1a874879c644e54",
     "https://aos-comment.amap.com/B0FFIB7X9Y/comment/51ed2852dea193295c5e005d5f8f7d44_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/61477b30cef2f7c3a8e122e3d7010354"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "interior",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "吧台后方有黑色背板，印白色'HORIGUCHI COFFEE'标志及双H图形",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "店招为'HORIGUCHI COFFEE'，门面有砖墙与深色木框大窗",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "吧台为深色石材台面+红棕色木柜体，上方有开放式木质置物架，陈列杯碟",
+      "text": "室内吧台后方有双层置物架陈列杯具，上方悬挂品牌灯箱",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "室内可见4张木质方桌配深绿皮质高脚椅，另有一张吧台高脚凳",
+      "text": "吧台前有4张深绿色皮质高脚凳，呈阶梯式排列，无其他座位可见",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "第二张图中吧台左侧有玻璃冷藏展示柜，内放数款糕点（如可颂、巧克力蛋糕）",
+      "text": "吧台右侧靠窗区域有2名工作人员正在操作，窗外可见绿树与遮阳伞",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台左侧玻璃柜内陈列数款包装饮品及甜点，标签可辨识部分文字",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "第二张图吧台上有手冲咖啡器具（滤杯、分享壶）、磨豆机、多瓶糖浆/调味液",
-      "kind": "beans",
+      "text": "吧台上可见多台磨豆机、手冲设备及瓶装糖浆，未见大型烘豆机",
+      "kind": "brewBar",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "第二张图右侧为大面积木框格子窗，窗外可见绿树与户外遮阳伞",
-      "kind": "view",
+      "text": "照片中无人使用笔记本电脑，也未见插座或电源口",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图为临街砖墙店面，黑底白字招牌'HORIGUCHI COFFEE'，门口有紫色遮阳伞",
-      "kind": "storefront",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "第三张图门口立牌标价'28'（单位不明），行人经过，未见室外座位",
-      "kind": "price",
-      "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "室外有紫色遮阳伞，但无明确户外座位；店内仅1名顾客（远处窗边）",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "some",
-  "laptops": null,
-  "outdoor": null,
+  "room": "small",
+  "seats": "few",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:41Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:36Z"
 }

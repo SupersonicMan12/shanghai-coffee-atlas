@@ -1,59 +1,89 @@
 {
   "cafeId": "gregorius-shade-anfu-rd-53",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "8b82dd8388d2",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "876693352f01",
   "photos": [
-    "https://aos-comment.amap.com/B0I61590O5/comment/47A0386B_4249_4F03_A170_11C1B24B1C87_L0_001_1500_200_1757583886367_19016853.jpg",
     "https://aos-comment.amap.com/B0I61590O5/comment/20260315-7e1a64ec6432ec4bbcb1a48e-1N7M3CiJoi27pDe0V1u9uz.jpg",
+    "https://aos-comment.amap.com/B0I61590O5/comment/47A0386B_4249_4F03_A170_11C1B24B1C87_L0_001_1500_200_1757583886367_19016853.jpg",
+    "https://aos-comment.amap.com/B0I61590O5/comment/content_media_external_file_1000090037_ss__1759550987875_00587435.jpg",
     "https://store.is.autonavi.com/showpic/e202c35e18f75d9e0000003363984269?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "drink",
-    "food"
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "临街玻璃门，有树荫，门口停一辆折叠自行车。",
+      "text": "店面位于临街位置，有木质门框和玻璃窗，门前有树木遮荫。",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有客人坐着，桌上放着一杯冰美式和一块巴斯克蛋糕。",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有客人坐着，桌上放着一杯冰美式和一块巴斯克蛋糕。",
+      "text": "菜单显示饮品包括黑咖啡、手冲、dirty特调等，价格在25-55元之间。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上提供芝士蛋糕、胡萝卜蛋糕等甜点，单价38元。",
       "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内饮品包括冰美式、热拿铁、水，食物为一块芝士蛋糕。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内提供两种咖啡豆：Boater Blend（浅烘）和Fedora Blend（深烘）。",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内摆放有复古风格的台灯和装饰盒，杯具为白色陶瓷带鸟类图案。",
+      "kind": "style",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口停放一辆折叠自行车，门牌号为53号。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台陈列咖啡豆包装袋，可见“Boater Blend”和“Fedora Blend”。",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内桌面上放两杯热咖啡，杯子为带图案的白色马克杯。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面是浅色外墙，木制门框，旁边有一扇粉色门。",
-      "kind": "space",
-      "photo": 1,
+      "text": "照片中可见室内有客人，但未见有人使用电脑或插座。",
+      "kind": "people",
+      "photo": 2,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:50Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    25.0,
+    33.0,
+    45.0,
+    55.0,
+    38.0,
+    48.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:23Z"
 }

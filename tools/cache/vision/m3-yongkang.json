@@ -1,71 +1,83 @@
 {
   "cafeId": "m3-yongkang",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "448c86cc76fc",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "cdc940cba5c1",
   "photos": [
-    "https://aos-comment.amap.com/B0LUF51YXH/comment/331AF5C4_1F04_49F1_916E_57EA83B5D689_L0_001_1440_192_1754118125283_90747673.jpg",
-    "https://aos-comment.amap.com/B0LUF51YXH/comment/5F575FBC_98D4_4DAC_B094_085026E63374_L0_001_2000_133_1759827447207_00120084.jpg",
-    "https://aos-comment.amap.com/comment/20260318-8558c9addc994ecb1ffa76da-4vmBTnIQ8hs6I4g22hmjxc.jpg"
+    "https://aos-comment.amap.com/comment/20260318-8558c9addc994ecb1ffa76da-4vmBTnIQ8hs6I4g22hmjxc.jpg",
+    "https://aos-comment.amap.com/B0LUF51YXH/comment/%5B2025-12-01-23-45-25%5DFACBB866-2B72-4288-9259-AE7161CE22E_1764603926650_49172558.jpg",
+    "https://aos-comment.amap.com/B0LUF51YXH/comment/C9DACE41_A96A_4E37_A3B8_77979916BF6B_L0_001_1500_200_1764468368665_53508894.jpg",
+    "https://aos-comment.amap.com/B0LUF51YXH/comment/331AF5C4_1F04_49F1_916E_57EA83B5D689_L0_001_1440_192_1754118125283_90747673.jpg"
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "food"
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "木质吧台与置物架，墙面为米白色竖条瓷砖，空间紧凑",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "墙上两层木架陈列大量玻璃罐（带金属盖）与金属饼干盒，盒身印'THE COOKIES YOUR COFFEE DESERVES'",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "吧台后方有两台黑色商用磨豆机（带透明豆仓）、一台意式咖啡机、手冲壶、水槽及小型冰箱",
+      "text": "店内有木质货架陈列咖啡豆",
       "kind": "beans",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "展示柜内有三类三明治：热辣培根墨西哥椒圈三明治（¥16）、翠花碳烤肠（¥16）、厚切培根南瓜坚果燕麦面包（¥18）",
+      "text": "吧台后方有两台磨豆机",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜内有多种贝果三明治",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "菜单牌显示豆子信息：MAHLKÖNIG CUBIC 3，附中英文说明；另有一张'COFFEE FREE'贴纸贴于冰箱",
-      "kind": "beans",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "未见座位区域，照片中无顾客或工作人员使用电脑",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "菜单上有 'Dirty Coffee' 及价格 26 元",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "临街玻璃橱窗可见店员身影，但未显示窗外街景细节",
-      "kind": "view",
+      "text": "饮品装在印有 'DIRTY COFFEE' 字样的玻璃罐中",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "无烘焙机、虹吸壶、手冲台等设备可见；未见书架、植物或宠物",
+      "text": "菜单上标有 'Butter Cookies' 及价格 40 元",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内空间为小型吧台店，以木质和金属为主装修风格",
       "kind": "space",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见顾客，店内似乎无人",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.98
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
-  "outdoor": null,
+  "room": "bar",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:36:46Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    26.0,
+    40.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:36:01Z"
 }

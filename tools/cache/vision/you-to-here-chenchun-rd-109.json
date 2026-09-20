@@ -1,65 +1,88 @@
 {
   "cafeId": "you-to-here-chenchun-rd-109",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "eafad269a6b1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5ca773cebdf9",
   "photos": [
-    "https://store.is.autonavi.com/showpic/40ac4aa29cf816e57afbfe5ff9faea14",
     "https://aos-comment.amap.com/B0K0VHFI8Q/comment/content_media_external_file_19599_1769356895687_94849399.jpg",
-    "https://aos-comment.amap.com/B0K0VHFI8Q/comment/content_media_external_file_19599_1769356895685_71871509.jpg"
+    "https://store.is.autonavi.com/showpic/fa8bdc57c12212690000002594474609?type=pic",
+    "https://aos-comment.amap.com/B0K0VHFI8Q/comment/content_media_external_file_19599_1769356895685_71871509.jpg",
+    "https://store.is.autonavi.com/showpic/40ac4aa29cf816e57afbfe5ff9faea14"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
+    "drink",
     "food",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面临街，有大面积玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有手冲咖啡选项，菜单上列有花魁、耶加雪菲等单品。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店内可见橙色墙面和白色桌椅",
-      "kind": "interior",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供咖啡饮品，杯中为奶泡顶的热饮",
+      "text": "菜单上有冰饮和软饮，包括椰青冷萃、话梅拿铁等。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供巧克力奶油蛋糕，搭配焦糖酱和装饰花",
-      "kind": "food",
+      "text": "菜单显示咖啡价格在28元至42元之间。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台区域，背景可见磨豆机、电磁炉等设备。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "餐盘旁配Biscoff饼干",
+      "text": "饮品搭配了Biscoff饼干和装饰性小花。",
       "kind": "food",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "饮品盛于蓝色杯子，置于金属托盘上",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "店面为临街玻璃门面，有大面积落地窗。",
+      "kind": "bigWindows",
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "店外设有蓝色遮阳棚",
-      "kind": "outdoor",
+      "text": "室内有桌椅，但照片中未见客人。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "店外街道清晰可见。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
-  "outdoor": true,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:22Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    35.0,
+    36.0,
+    38.0,
+    42.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:05Z"
 }

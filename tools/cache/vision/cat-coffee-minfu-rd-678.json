@@ -1,7 +1,7 @@
 {
   "cafeId": "cat-coffee-minfu-rd-678",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1bc9f88dd1f6",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9f49d8d42668",
   "photos": [
     "https://store.is.autonavi.com/showpic/39b4a2619d15a11357abca7f4d0e6707",
     "https://store.is.autonavi.com/showpic/03b4fa925a498254265f55a36b076b0d",
@@ -9,44 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior"
+    "interior",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门，可见内部有座位区。",
+      "text": "店面为临街玻璃门，有落地窗，可看到店内部分空间。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内光线明亮，透过玻璃可见多排桌椅。",
-      "kind": "light",
+      "text": "店内可见木质桌椅和吧台区域，空间呈中等规模。",
+      "kind": "space",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "text": "店内座位数量较多，排列整齐。",
+      "text": "店外有玻璃门和透明落地窗，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口设有户外桌椅，提供室外座位。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "玻璃门外右侧放置一把白色椅子。",
+      "text": "室内可见多张木质桌椅，座位数量级为‘some’。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "店面外墙为金属穿孔板设计，下方有绿色装饰墙。",
-      "kind": "space",
+      "text": "店招显示‘月出猫猫 CAT & COFFEE’，为咖啡馆品牌。",
+      "kind": "story",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吊灯、吧台及部分设备轮廓，但无明确烘焙机或手冲台。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.6
+    },
+    {
+      "text": "照片中未见有人使用电脑或插座。",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.9
     }
   ],
-  "seats": "many",
-  "laptops": null,
-  "outdoor": false,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:09Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:38Z"
 }

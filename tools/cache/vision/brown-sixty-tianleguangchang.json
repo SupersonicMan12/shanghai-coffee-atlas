@@ -1,7 +1,7 @@
 {
   "cafeId": "brown-sixty-tianleguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "19a1f6ebd240",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "20b96a9203df",
   "photos": [
     "http://store.is.autonavi.com/showpic/53f8689b18061a132c3ce7ba77c8a5ee",
     "https://aos-comment.amap.com/B0FFGSTWG1/comment/099eea6dce601660aa6a4c8d91517183_2048_2048_80.jpg",
@@ -9,63 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "food",
+    "interior",
     "food"
   ],
   "observations": [
     {
-      "text": "店门口有玻璃门和红色遮阳棚，临街可见行人进出",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内陈列多种糕点，包括巧克力蛋糕、水果塔、热十字面包等",
+      "text": "店内有多个冷藏展示柜，陈列着多种面包和甜点。",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "部分甜点装在独立小盒中，摆放整齐",
+      "text": "店内有多个冷藏展示柜，陈列着多种面包和甜点。",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "展示柜内有标签标价，部分价格为60元",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有顾客正在选购商品",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺外侧有红色遮阳伞和石质花坛",
-      "kind": "outdoor",
+      "text": "店外有红色遮阳伞，可提供室外座位。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "玻璃橱窗内可见店内灯光与装饰植物",
+      "text": "店面为临街店铺，门口有玻璃门和大落地窗。",
       "kind": "light",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见多名顾客在柜台前或室内活动。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有大型冷藏展示柜，内有面包、蛋糕和水果挞等食品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多个装在透明容器里的小份甜点。",
+      "kind": "food",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有冷藏展示柜，用于陈列烘焙食品",
-      "kind": "space",
+      "text": "店内有多个装在透明容器里的小份甜点。",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:51Z"
 }

@@ -1,59 +1,80 @@
 {
   "cafeId": "bathe-coffee-yongkangxiaoqubeiqu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "d2186bb5e025",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "0226dfacd304",
   "photos": [
-    "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B0FFKNXGPD/comment/807CD6AC_2F9D_4690_9AF5_E0427F44FF40_L0_001_IMG_4344.JPG",
     "https://aos-comment.amap.com/B0FFKNXGPD/comment/CD006DC9_DE57_403D_82AB_518BCB948DD6_L0_001_1500_2000_1741099325614_16238065.jpg",
+    "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B0FFKNXGPD/comment/807CD6AC_2F9D_4690_9AF5_E0427F44FF40_L0_001_IMG_4344.JPG",
+    "https://aos-comment.amap.com/B0FFKNXGPD/comment/A352F420_F2BB_46A2_8D61_BBF98BA653B8_L0_001_1512_2016_1741099325614_23395644.jpg",
     "https://aos-comment.amap.com/B0FFKNXGPD/comment/796B5232_E7B2_47D7_B259_1F8EE1919351_L0_001_2000_1500__1677299994412_f6f3c359.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
+    "interior",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "店面有拱形门和大面积玻璃窗，可看见店内绿色瓷砖吧台。",
+      "text": "店面位于临街位置，有玻璃窗和拱形门，可看到店内部分座位。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见多人就坐，空间不大但非纯吧台式，有座位区。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品包含浓缩、拉花拿铁、含酒特调及抹茶类，形式多样。",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单卡显示“梅梅细雨”含话梅糖浆，“橙醉”含威士忌与橙皮。",
+      "text": "菜单上可见特调饮品名称如‘梅梅细雨’、‘橙醉’及成分描述。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品包括拉花拿铁、浓缩咖啡、酒咖（带吐司片）及抹茶类饮品。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "照片中无人使用电脑，也未见烘焙机或手冲器具。",
+      "text": "菜单展示板上有多个饮品图片与中英文名称，含‘First Meal of the Day’等选项。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有绿色瓷砖墙面，吧台区域有木质纹理装饰。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见顾客在座位上，有人员活动迹象。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店外是街道，无室外座位，临街玻璃窗采光良好。",
-      "kind": "light",
-      "photo": 1,
+      "text": "饮品票卡显示‘BATHE 漂票’字样，为特调饮品专属标签。",
+      "kind": "drinks",
+      "photo": 4,
       "confidence": 0.9
+    },
+    {
+      "text": "店内有植物装饰，吧台后方陈列瓶罐与小盆栽。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:04:41Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:25Z"
 }

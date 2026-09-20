@@ -1,7 +1,7 @@
 {
   "cafeId": "nowwa-shanghailvzhoukangcheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "14b3f21f5fe6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "785809143018",
   "photos": [
     "https://store.is.autonavi.com/showpic/ce8c8816f4f204d33a7c0b3c8c268579",
     "https://store.is.autonavi.com/showpic/6419afa6d95a8f7f8a6780719f9e9d0e",
@@ -9,51 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于1388号建筑入口旁，临街玻璃门设计",
+      "text": "店面入口处有玻璃门和旋转门，可见内部空间。",
       "kind": "space",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口有鲜花装饰，可能为新开业或庆祝活动",
+      "text": "店门口有花篮和红色装饰物，像是开业或庆祝活动。",
       "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺招牌显示品牌名称为NOWWA COFFEE和FLARE STAR",
-      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店面位于带有拱形结构的建筑底层，外部空间开阔",
+      "text": "店铺位于一栋建筑的底层，有独立入口和台阶。",
       "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "从店内透过玻璃门看到内部有桌椅和灯光。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店铺临街，门前是人行道和路面。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "入口处设有旋转门，建筑风格现代",
-      "kind": "space",
-      "photo": 3,
+      "text": "店内有绿植和盆栽作为装饰。",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "招牌上显示“FLARE STAR 灵星体育”，可能为联营或共用空间。",
+      "kind": "story",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口贴有“五店同庆”告示，表明可能是连锁门店开业活动",
-      "kind": "story",
+      "text": "照片中未见明显烘焙设备或手冲台等专业器具。",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:03Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:55Z"
 }

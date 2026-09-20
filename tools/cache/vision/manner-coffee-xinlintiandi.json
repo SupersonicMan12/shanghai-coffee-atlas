@@ -1,7 +1,7 @@
 {
   "cafeId": "manner-coffee-xinlintiandi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0df4d55e7c5f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3a1291c90908",
   "photos": [
     "https://aos-comment.amap.com/B0JR9RKQWG/comment/%5B2026-01-08-20-46-43%5D0B4790C0-8D42-4E73-ACC7-189F161F5C6_1767876403964_92110071.jpg",
     "https://aos-comment.amap.com/B0JR9RKQWG/comment/6b2380d4b0819b1972276bdfb267041e_2048_2048_80.jpg",
@@ -9,51 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "drink",
+    "interior",
     "drink"
   ],
   "observations": [
     {
-      "text": "门店位于商场内，为小型吧台式咖啡店",
+      "text": "店内为金属材质的吧台，无座位区",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后有咖啡机和磨豆机等设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见咖啡机、磨豆机等专业器具",
-      "kind": "roastingGear",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供热饮和冰饮，杯中为美式咖啡",
+      "text": "照片中展示了两种饮品：一杯热饮和一杯冰咖啡",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有冷萃咖啡饮品出售",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有收银与制作区域，无明显座位区",
-      "kind": "seating",
+      "text": "店门口有A字形立牌，可能用于宣传",
+      "kind": "other",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "吧台后方有工作人员在操作",
-      "kind": "people",
+      "text": "店内未见明显书架、植物或宠物",
+      "kind": "other",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "店内有顾客在点单，但无人在用电脑",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "背景可见其他店铺，应为商场内档口",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，顶部有长条灯管照明",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:47Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:17Z"
 }

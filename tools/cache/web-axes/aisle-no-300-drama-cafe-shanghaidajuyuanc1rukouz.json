@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "整个咖啡店就像一个狭长的过道",
+      "url": "https://www.dianping.com/discovery/1506359009",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "我可以在这里放空一整个下午",
+      "url": "https://www.dianping.com/discovery/1506359009",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 80.0,
+      "quote": "均价80一杯的上海咖啡天花板",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-127571011/",
+      "site": "上海劇院咖啡店Drama Cafe - Trip.com"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Aisle No·300 Drama Cafe",
+      "url": "https://map.baidu.com/place/a03384c266b8a2b5f50e77b5",
+      "site_name": "百度"
+    },
+    {
+      "index": 2,
+      "title": "寻味黄浦 | 在黄浦,解锁咖啡馆的多元体验 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODYyMDgwNg==&mid=2650953458&idx=1&sn=62056551bb57aac9e0ab62ebddaeee7a&chksm=85fd13182a66ff5d393313f0e903e98e45f19d4171c475b0f08f420ca6f190aa2c9f85ae19df&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "寻味黄浦 | 在黄浦,解锁咖啡馆的多元体验",
+      "url": "https://www.sohu.com/a/862868054_121123854",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 4,
+      "title": "上海大剧院咖啡馆|也太有感觉啦 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1434972482",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海大剧院里居然藏着一家戏剧主题咖啡店☕ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1506359009",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "Aisle No.300-Drama Cafe in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F97CEE186140&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 7,
+      "title": "【Aisle No.300 Drama Cafe】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/1139015919?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海劇院咖啡店Drama Cafe - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-127571011/",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:07:55Z"
+}

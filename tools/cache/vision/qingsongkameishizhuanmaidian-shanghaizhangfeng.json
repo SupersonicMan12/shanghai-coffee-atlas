@@ -1,59 +1,79 @@
 {
   "cafeId": "qingsongkameishizhuanmaidian-shanghaizhangfeng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e85c0241ce01",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "768d50b65a78",
   "photos": [
+    "https://aos-comment.amap.com/B0LGSL915L/comment/4C8E7083_B463_4362_BB91_10FFDB3D7415_L0_001_1500_200_1766482438809_48907149.jpg",
+    "https://aos-comment.amap.com/B0LGSL915L/comment/990B1A15_1250_41C9_9F0D_BF669D94FAFF_L0_001_1500_200_1766482438789_35917507.jpg",
     "https://aos-comment.amap.com/B0LGSL915L/comment/77BAA408_F468_40D1_86A8_6D2FD7CE4528_L0_001_1500_200_1767024743822_77414244.jpg",
-    "https://aos-comment.amap.com/B0LGSL915L/comment/AD2FDC44_51E5_40AD_93D5_B5640F174F21_L0_001_1500_200_1767024743820_80031442.jpg",
-    "https://aos-comment.amap.com/B0LGSL915L/comment/990B1A15_1250_41C9_9F0D_BF669D94FAFF_L0_001_1500_200_1766482438789_35917507.jpg"
+    "https://aos-comment.amap.com/B0LGSL915L/comment/AD2FDC44_51E5_40AD_93D5_B5640F174F21_L0_001_1500_200_1767024743820_80031442.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
-    "other"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，为小型咖啡吧台店",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有多个磨豆机，表明是现磨咖啡店。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店内有磨豆机、咖啡机等专业设备",
-      "kind": "drinks",
+      "text": "吧台后方有手冲设备和咖啡机，可制作手冲和意式咖啡。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见手冲器具与滤杯，支持手冲咖啡制作",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台后方有员工在操作，店内有人工作",
+      "text": "照片中未见任何顾客在座位上，店内无人。",
       "kind": "people",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "柜台上有扫码点单二维码，支持自助下单",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店铺位于商场内，为一个独立的档口店面。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "货架上堆放大量纸杯和包装材料，准备充分",
-      "kind": "drinks",
+      "text": "吧台前无座位，只有服务区域。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中未见书架、植物或宠物等装饰物。",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "饮品杯身有“旅行”、“环游世界”字样，可能有相关主题特调。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上的价格和豆子产地信息看不清。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
+  "room": "mall",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:23:21Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:47Z"
 }

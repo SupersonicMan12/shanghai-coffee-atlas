@@ -1,7 +1,7 @@
 {
   "cafeId": "eazy-bean-lantianluyuhongfenglujiaochakouxinan40",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "01654df1edb4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5c584ed71e3e",
   "photos": [
     "https://aos-comment.amap.com/B0I07YLIWP/comment/17DAA13C_26B2_4DB6_A5D3_3D8BF86694F8_L0_001_1280_1707_1727162661416_62321607.jpg",
     "https://aos-comment.amap.com/B0I07YLIWP/comment/C851870D_F399_498A_8513_01214545FF38_L0_001_1280_1707_1727162661416_56173466.jpg",
@@ -10,56 +10,70 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "food"
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为老式砖墙建筑，外立面覆盖绿植",
-      "kind": "space",
-      "photo": 1,
+      "text": "店内有临街窗户，窗外是街道和树木",
+      "kind": "view",
+      "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "临街窗户可见街道与车辆，采光良好",
-      "kind": "view",
-      "photo": 3,
+      "text": "饮品包括冰咖啡和透明玻璃杯装的咖啡",
+      "kind": "drinks",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供冰咖啡和玻璃杯装饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "售卖粉色奶油贝果，表面撒有巧克力碎",
+      "text": "食物是粉色涂抹酱的贝果，盛在格纹纸篮里",
       "kind": "food",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "窗台摆放饮品与食物，适合临窗用餐",
+      "text": "店内有吧台式座位，可坐窗边",
       "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面为砖墙结构，爬满藤蔓植物",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有顾客正在用餐，但无人使用电脑",
+      "kind": "people",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店门口有台阶，入口位于红砖柱旁",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内有透明玻璃窗，可看到外部街道景象",
-      "kind": "view",
+      "text": "店内无可见的专业烘焙或冲煮设备",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "菜单上有二维码点单，未见价格信息",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:00Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:40Z"
 }

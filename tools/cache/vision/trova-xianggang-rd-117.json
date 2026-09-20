@@ -1,72 +1,73 @@
 {
   "cafeId": "trova-xianggang-rd-117",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9394da917b8a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "136d0de1a0ff",
   "photos": [
     "https://store.is.autonavi.com/showpic/9743d295fb0f44f80000002310970536?type=pic",
     "https://store.is.autonavi.com/showpic/ea9e725366cdb22a0000005624810212?type=pic",
     "https://aos-comment.amap.com/B0H07H68N3/comment/content_media_external_file_192862_ss__1758205709913_64100057.jpg"
   ],
   "photoKinds": [
+    "interior",
     "storefront",
-    "drink",
     "food",
-    "other"
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面临街，有大面积玻璃门窗",
-      "kind": "space",
+      "text": "店面为临街玻璃门面，门楣有'trova'标识，门牌号117，外挂白色串灯",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见桌椅，有顾客在坐",
-      "kind": "seating",
+      "text": "室内可见一人坐于靠窗桌旁，未见使用电脑，无明显烘焙机或手冲台",
+      "kind": "people",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "有可降解吸管和塑料杯盖的饮品",
+      "text": "托盘上放有两杯印'trova'字样的冰咖啡及一块黑白大理石纹蛋糕",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供巧克力可颂和黑白条纹蛋糕",
+      "text": "托盘上有一杯冰咖啡与一个巧克力淋面可颂，背景为灰色纹理墙",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "饮品杯上有trova字样",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "室外有灰色圆桌，摆放托盘与食物",
+      "text": "店内可见落地玻璃窗，室外有户外座位（照片2中门口摆放A字牌），地面为灰白方格地砖",
       "kind": "outdoor",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "桌上放置运动相机和三脚架",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店门口地面为棋盘格瓷砖",
-      "kind": "space",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印有'seek and find'字样，托盘垫纸有网格线与'trova'品牌名",
+      "kind": "branding",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片1中桌面有小型三脚架与运动相机，暗示可能用于拍摄/直播，非日常用餐场景",
+      "kind": "equipment",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:44Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:44Z"
 }

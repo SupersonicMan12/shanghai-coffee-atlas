@@ -1,7 +1,7 @@
 {
   "cafeId": "thru-coffee-shanxinanlu186nongxiaoqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "68083a07f964",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "88d83a8e92b7",
   "photos": [
     "http://store.is.autonavi.com/showpic/fba928116580507e46cb5eb85feb22a5",
     "http://store.is.autonavi.com/showpic/148e8b945e0931d2354fc5f8d2c8f6ac",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面为临街小空间，有玻璃门和窗户",
+      "text": "店面为临街小型咖啡店，有玻璃门和展示窗，内部可见操作台。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "门口有两把木制矮凳，可作室外座位",
+      "text": "店外右侧有菜单板，列出黑咖、拿铁、澳白、摩卡、卡布、冷萃等饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机、磨豆机等设备，操作台区域明亮。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口摆放两个木质小凳子，可作室外座位使用。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡制作设备，包括手冲台和磨豆机",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单板上列有黑咖、拿铁、澳白、摩卡、卡布、冷萃等饮品",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店门口贴有‘咖啡巡游记’活动海报，含二维码",
+      "text": "玻璃门上贴有“咖啡巡游记”活动海报及二维码，窗户贴有蛇年主题装饰。",
       "kind": "story",
       "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外左侧有蓝色广告牌，右侧有空调外机和白色塑料箱。",
+      "kind": "other",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
+      "text": "店内无明显可见的书架、植物或宠物。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见顾客或工作人员，店内无人使用电脑。",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外有小型黑色圆桌和白色储物箱",
-      "kind": "outdoor",
-      "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "店内可见部分座椅，但具体数量无法判断",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:48Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:50Z"
 }

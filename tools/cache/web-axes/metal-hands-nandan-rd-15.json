@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "太空舱里喝咖啡☕️荷包蛋也太可爱啦🍳",
+      "url": "https://www.163.com/dy/article/GMCOLOP20522BCM2.html",
+      "site": "163网易免费邮"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "太空舱内的位置是网红打卡C位,暖黄色的灯光超有氛围,即便是工作日也坐满了人",
+      "url": "https://www.dianping.com/discovery/715287895",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "需要消费入座哦",
+      "url": "https://www.dianping.com/discovery/715287895",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "咖啡依旧是他们的王牌:招牌Dirty入口冲击力超强;荷包蛋拿铁颜值与口味兼具",
+      "url": "https://www.163.com/dy/article/GMCOLOP20522BCM2.html",
+      "site": "163网易免费邮"
+    },
+    "price": {
+      "value": 42.0,
+      "quote": "人均:42",
+      "url": "https://www.dianping.com/discovery/715287895",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "清河坊/河坊街咖啡",
+      "url": "https://m.dianping.com/shop/1388284174",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "续命帖!17家咖啡新店叫醒你",
+      "url": "https://www.163.com/dy/article/GLSAQV3805228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "铁手咖啡制造局(metalhands2店)",
+      "url": "https://map.360.cn/site/detail/08362daf746e9656",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "Metal hands铁手咖啡- 上海市徐汇区 - 高德地图",
+      "url": "https://www.amap.com/place/B0H1ULZ4YM",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 5,
+      "title": "【打卡】开启唤醒CHILL一秋!!!魔都版“早C晚A”指南已上线!",
+      "url": "https://www.163.com/dy/article/GMCOLOP20522BCM2.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 6,
+      "title": "魔都新店|太空舱里喝咖啡☕️荷包蛋也太可爱啦🍳 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/715287895",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "上海·Metal Hands铁手咖啡制造局/ DAGA - 【SOHO设计区】",
+      "url": "https://www.sohodd.com/archives/158892",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海新店|太空舱的咖啡店也太好看了吧～ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/703518450",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 9,
+      "title": "铁手咖啡制造局",
+      "url": "https://baike.baidu.com/item/铁手咖啡制造局/67534017",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:49Z"
+}

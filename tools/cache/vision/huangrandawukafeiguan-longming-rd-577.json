@@ -1,65 +1,80 @@
 {
   "cafeId": "huangrandawukafeiguan-longming-rd-577",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a85d1fc25248",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3476819749a8",
   "photos": [
     "http://store.is.autonavi.com/showpic/5ee0d1870632db1a8a0e5d892903679f",
     "https://store.is.autonavi.com/showpic/58abc5ca68c478cd0000002877652973?type=pic",
+    "http://store.is.autonavi.com/showpic/81eb819b4421e604f58c4906ead913fe",
     "http://store.is.autonavi.com/showpic/2a34b402f3aaaf9da1b8c1192c8bfda9"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "interior"
+    "interior",
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "咖啡表面有拉花图案",
+      "text": "室内有大玻璃窗，能看到室外街道和树木。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有白色椅子和桌子，座位数量至少为3-4组。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中看到一杯拿铁咖啡，表面有拉花。",
       "kind": "drinks",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中看到一份奶油蘑菇意面。",
+      "kind": "food",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门店位于临街位置，有玻璃门和落地窗",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口有菜单展示牌",
-      "kind": "menu",
-      "photo": 2,
+      "text": "店内有一只毛绒小羊玩偶摆件。",
+      "kind": "decor",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内可见桌椅，有少量座位",
-      "kind": "seating",
-      "photo": 3,
+      "text": "门口立着一块写有菜单的黑板，但字迹模糊不清。",
+      "kind": "menu",
+      "photo": 4,
       "confidence": 0.7
     },
     {
-      "text": "窗户上贴有新年装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店内有吧台区域，可见一个金属滤网和部分设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.6
     },
     {
-      "text": "店外有台阶和绿化带",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺招牌显示为‘恍然大悟’咖啡馆",
-      "kind": "storefront",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "店内没有看到电脑、插座或烘焙机等专业设备。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": true,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:47Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:22Z"
 }

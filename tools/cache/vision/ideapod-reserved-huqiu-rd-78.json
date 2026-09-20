@@ -1,7 +1,7 @@
 {
   "cafeId": "ideapod-reserved-huqiu-rd-78",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "a9af72ce4610",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6f86da3f2bc9",
   "photos": [
     "https://aos-comment.amap.com/B0J3KCQALK/comment/623C0B93_71F0_425F_97DC_D0FE65522E46_L0_001_1500_2000_1749275881395_55496127.jpg",
     "https://store.is.autonavi.com/showpic/a692fb458af3058b0000003198012807?type=pic",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "白色阶梯式座位区，配木质矮桌与浅色坐垫，共约6–8个座位可见",
+      "text": "阶梯式座位区，共约5-6级台阶，每级设坐垫与小木桌，材质为原木与混凝土",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "墙面贴有12张拍立得风格照片，含饮品图（dirty、燕麦拿铁、心形拉花）及座位场景",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "菜单板写明「不开启闪光灯」「消费入座不占座」等提示，未列具体价格",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "入口处有接待台，后方临街大窗，可见外部建筑拱形窗结构",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有大型绿植（发财树）、黑色人形雕塑、藤编篮、草编坐墩",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "照片1中台阶上放有黑白摄影画框、木块置物台与小盆绿植，无专业咖啡设备可见",
+      "text": "墙面贴有带图示的分区说明，标注‘丛林心流舱’‘图书馆专注’‘蘑菇半席区’等区域名及人数限制",
       "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方可见落地窗，窗外为街道建筑，室内光线来自顶部射灯与吊灯",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台旁立有一尊黑色抽象人形雕塑，墙上有文字‘我允许一切如其所是’",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中可见3名顾客，均坐于阶梯区或靠窗位，其中1人正使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "阶梯座位旁可见电源插座，位于坐垫下方墙体处",
+      "kind": "sockets",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "照片3中两人坐在靠窗桌旁，其中一人面前有笔记本电脑（屏幕模糊但形态可辨）",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.85
+      "text": "菜单板上清晰显示‘脏脏咖啡 | 拾香Dirty’‘冬日必点 | 红苹果肉桂拿铁’等品名",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "墙面为米白涂料+网格金属板，地面为浅灰微水泥，无明显烘焙或手冲设备",
-      "kind": "space",
+      "text": "菜单板底部有‘扫码开通无感积分’二维码及‘为了更好的体验，希望您’提示语",
+      "kind": "specialtyMenu",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
-  "seats": "some",
+  "room": "medium",
+  "seats": "many",
+  "crowd": "some",
   "laptops": true,
+  "sockets": true,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:40Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:36Z"
 }

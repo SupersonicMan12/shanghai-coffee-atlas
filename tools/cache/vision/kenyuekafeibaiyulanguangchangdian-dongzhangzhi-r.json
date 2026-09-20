@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafeibaiyulanguangchangdian-dongzhangzhi-r",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4ccf5b29bcd0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2570a67f16db",
   "photos": [
     "https://store.is.autonavi.com/showpic/fd80cb43122e50ea692acc2711b28d46"
   ],
@@ -10,40 +10,35 @@
   ],
   "observations": [
     {
-      "text": "肯悦咖啡位于商场内，邻近KFC",
+      "text": "肯悦咖啡店门面位于KFC隔壁，为商场内临街店铺",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店铺为玻璃门面，可见内部部分区域",
-      "kind": "space",
+      "text": "蓝色玻璃门框，门内可见一人坐在靠墙位置",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "门口有立式促销牌，展示优惠信息",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有蓝色门框，与KFC相邻",
-      "kind": "space",
+      "text": "门口立式招牌显示‘肯悦咖啡’及‘热饮’字样，未见价格或饮品名",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "地面为灰色石材铺装，空间较开阔",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:03Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:13Z"
 }

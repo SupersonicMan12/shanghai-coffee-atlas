@@ -1,53 +1,78 @@
 {
   "cafeId": "jaycafe-zhenliugongyu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ff79931d6eb9",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0cf8c4878fda",
   "photos": [
-    "https://store.is.autonavi.com/showpic/d15650397bd6e512ffb331a03f98999c",
     "https://aos-comment.amap.com/B0GRGCR4LH/comment/CFB34C1F_50F6_4E86_B62D_5B19B7CE3B2F_L0_001_1500_200_1760747773033_31397054.jpg",
+    "https://store.is.autonavi.com/showpic/d15650397bd6e512ffb331a03f98999c",
     "https://store.is.autonavi.com/showpic/51de196c249d344c0000003561390739?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "other"
   ],
   "observations": [
     {
-      "text": "临街玻璃门，店内可见吧台与高脚凳，空间紧凑。",
-      "kind": "space",
+      "text": "店内有吧台和高脚凳，可坐客。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品是冰咖啡，装在带猫图案的透明杯里。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台座位和靠墙的高脚凳，无普通桌椅。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "一杯冰拿铁或类似奶咖，杯身有猫图案。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "另一杯冷饮，杯身印有JAY CAFE字样和咖啡杯图标。",
+      "text": "另一杯饮品装在印有店名的塑料杯里，有吸管。",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面临街，门口有遮阳棚。",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店面位于街道旁，门口有黄色路缘石，无室外座。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店内可见手冲设备，可能是手冲台。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "照片中没有看到客人或工作人员。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，但无明显大窗户。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.6
+    },
+    {
+      "text": "室内装修为浅色系，有木质地板。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "bar",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:53Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:09Z"
 }

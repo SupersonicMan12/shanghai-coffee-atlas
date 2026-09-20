@@ -1,7 +1,7 @@
 {
   "cafeId": "algebraist-shanghaizhangjiangkexuezhimen",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fcc07a6cbf02",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2e80475bc7cd",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st00367dc4-3900-48fc-9ca4-f5748f1167bb&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/69fdf3ec14b3ab738758fadb52f9cbd6",
@@ -13,52 +13,65 @@
   ],
   "observations": [
     {
-      "text": "店内有咖啡制作设备，包括磨豆机和手冲台",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "空间为小型吧台式咖啡店，无明显座位区",
+      "text": "店面为商场内的小型独立档口",
       "kind": "space",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "有手冲台和磨豆机等专业咖啡制作设备",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "临街玻璃窗，采光良好，可见外部街道和树木",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有工作人员在操作咖啡设备",
+      "text": "店员在吧台后工作，店内有顾客",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台后方有展示架，陈列饮品包装或产品",
-      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店铺位于商场或办公楼内，周围有现代建筑",
+      "text": "有大面积玻璃窗，采光良好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗外可见城市高楼，无明显自然景观",
       "kind": "view",
-      "photo": 1,
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "吧台前有座位，但照片中未见坐人",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "右侧墙边有置物架，上面放着瓶罐",
+      "kind": "other",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有烘焙机或类似专业咖啡设备",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "店内有绿植点缀",
+      "kind": "other",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
-  "seats": "none",
-  "laptops": false,
+  "room": "bar",
+  "seats": "few",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:23Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:13Z"
 }

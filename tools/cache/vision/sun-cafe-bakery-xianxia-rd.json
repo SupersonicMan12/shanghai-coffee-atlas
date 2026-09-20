@@ -1,7 +1,7 @@
 {
   "cafeId": "sun-cafe-bakery-xianxia-rd",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "35034908d9d1",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "b4633d8b6e95",
   "photos": [
     "http://store.is.autonavi.com/showpic/17bcb3206e2bf12961ee2481b04d7508",
     "http://store.is.autonavi.com/showpic/ddd75d167cdb3331b18e1287c7cc349f",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "food"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店门口有木质台阶与围栏，招牌为'Sun Cafe & Bakery'，旁立红色招牌写'太阳咖啡面包'及电话",
+      "text": "店面入口有木质台阶和栏杆",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "室内为深色木饰面墙面与地板，吊灯为藤编球形，座位含卡座与木桌椅",
+      "text": "室内为长条形空间，两侧有座位区",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "可见约6–8组桌椅（含卡座），部分坐人；右侧靠窗有单人桌，左侧卡座可坐2–3人",
-      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "临街玻璃幕墙在店左侧，入口处无落地窗；室内右侧有窗户透入自然光",
+      "text": "左侧为沙发卡座，右侧为桌椅区",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "天花板悬挂多个圆形吊灯",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "食品展示柜中陈列多款面包/糕点（方形托盘装，含可颂状、长条形等），未见明确品名标签",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "背景墙有黄色菜单板，含世界地图图案与图标，文字模糊不可辨识",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内未见手冲台、虹吸壶、磨豆机或烘焙机等专业咖啡设备",
-      "kind": "beans",
+      "text": "店内可见绿植装饰",
+      "kind": "decor",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.8
     },
     {
-      "text": "至少2位顾客在用餐/工作：右后方一人用笔记本电脑，左前方一人戴口罩坐卡座",
-      "kind": "people",
+      "text": "照片中未见烘焙机或专业咖啡器具",
+      "kind": "equipment",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客就坐，但人数不多",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "未在照片中看到菜单或饮品食物的特写",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": true,
-  "outdoor": null,
-  "bigWindows": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:41:42Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:33Z"
 }

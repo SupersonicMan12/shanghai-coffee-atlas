@@ -1,7 +1,7 @@
 {
   "cafeId": "xierkafei-xitiyuhui-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "09b42cef3b68",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ef7f7d907b19",
   "photos": [
     "http://store.is.autonavi.com/showpic/556117a20d8cf86dd4aaf2988e7e6a33",
     "http://store.is.autonavi.com/showpic/6bf0107f74d77b1da84ffa9b04942752"
@@ -12,46 +12,35 @@
   ],
   "observations": [
     {
-      "text": "店面为临街小店铺，有玻璃门和窗户",
-      "kind": "space",
+      "text": "店门口有‘Pizza Sandwich Pasta Salad’招牌，非纯咖啡馆",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "临街店铺，玻璃门+窗，门前停一辆摩托车，无室外座位",
+      "kind": "space|outdoor|view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口有摩托车停放，街道环境可见",
-      "kind": "view",
+      "text": "店招含‘Ciao CAFE’与卡通头像，未见专业咖啡器具或手冲台",
+      "kind": "brewBar|beans",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店招显示提供披萨、三明治、意大利面、沙拉",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店名标识为‘Ciao CAFE’及‘西尔咖啡’",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于街边，门前有栏杆和自行车停放",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "相邻店铺为牛肉面馆和烧烤店，属普通街边餐饮区",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.85
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:20Z"
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:26Z"
 }

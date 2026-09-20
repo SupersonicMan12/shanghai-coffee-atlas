@@ -1,71 +1,74 @@
 {
   "cafeId": "aisle-no-300-drama-cafe-shanghaidajuyuanc1rukouz",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cc851a08bdee",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3d6c82feaaa4",
   "photos": [
+    "https://aos-comment.amap.com/B0K60H1UF4/comment/177053737382_1770537375834_49325557.jpg",
     "https://aos-comment.amap.com/B0K60H1UF4/comment/177053736752_1770537375832_69958624.jpg",
-    "https://aos-comment.amap.com/comment/content_service__1769439381610_87893781_1769439454249_83750001.jpg",
-    "https://aos-comment.amap.com/comment/content_service__1769439381601_43552846_1769439454248_15221514.jpg"
+    "https://aos-comment.amap.com/B0K60H1UF4/comment/%5B2025-02-12-17-12-30%5DB21C32E7-6555-4F5B-B5D5-A8B1FAA1C84_1739351564855_03932435.jpg",
+    "https://aos-comment.amap.com/comment/content_service__1769439381610_87893781_1769439454249_83750001.jpg"
   ],
   "photoKinds": [
+    "food",
     "storefront",
     "interior",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有编号座椅，类似影院排布",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内有大型绿植和天窗采光",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为分层彩色饮料，含冰块和果粒",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "入口处玻璃上有白色线条人脸图案",
-      "kind": "story",
+      "text": "切片芝士蛋糕，顶部呈焦糖色，底层为酥脆饼底",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "空间呈斜顶结构，有金属与木质元素",
-      "kind": "space",
+      "text": "店名标牌显示 'aisle no.300' 和 'Drama Cafe'，位于灰色石材外墙",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有圆形小桌和高脚椅组合",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见室内部分区域有透明屋顶或天窗",
+      "text": "室内设斜顶天窗，可见窗外高层建筑，采光来自倾斜玻璃顶",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "桌上放有多条彩色编织手链",
-      "kind": "other",
+      "text": "靠窗区域排列多排带编号的灰色软座（8、10、12、14等），每座配小圆桌",
+      "kind": "seating",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "另一角落有编号座椅（18、20、22）及圆形木桌，旁有大型绿植盆栽",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "座位区无顾客，现场空置，未见电脑使用者或插座",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中未见吧台、烘焙机、手冲设备或菜单价格信息",
+      "kind": "unknown",
+      "photo": 1,
+      "confidence": 0.95
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "medium",
+  "seats": "many",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:13Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:16Z"
 }

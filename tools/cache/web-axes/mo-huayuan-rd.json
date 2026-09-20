@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "想在咖啡馆自习、办公，那这家店应该是个好选择",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230810/19ea018c-e077-402c-b64e-24e3a4829ff9.html",
+      "site": "中国政府网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "如果你喜欢安静的氛围",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230810/19ea018c-e077-402c-b64e-24e3a4829ff9.html",
+      "site": "中国政府网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "如果你喜欢安静的氛围，想在咖啡馆自习、办公",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230810/19ea018c-e077-402c-b64e-24e3a4829ff9.html",
+      "site": "中国政府网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "开启一场瑰夏壕饮杯测会",
+      "url": "https://www.sohu.com/a/271874616_318481",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 50.0,
+      "quote": "人均消费:50元左右",
+      "url": "https://www.dianping.com/discovery/895964908",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "https://you.ctrip.com/food/shanghai2/16999566-dianping.html",
+      "url": "https://you.ctrip.com/food/shanghai2/16999566-dianping.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "角落咖啡 | 虹口之光 森系风的荒漠花园 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/895964908",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "上海|隐匿在老虹口的花园咖啡馆🌳出片即杂志🌸 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/739787009",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "虹口人喜爱的咖啡店有哪些？他们推荐→ | 发现好物事-上海市虹口区 ...",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230810/19ea018c-e077-402c-b64e-24e3a4829ff9.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 5,
+      "title": "MO+Huangmo Garden Branch (Huayuan Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F92683C38A04&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "全部都是瑰夏？一场很壕很硬核的杯测会邀请你来 - 搜狐",
+      "url": "https://www.sohu.com/a/271874616_318481",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "MO+(星月花园店)",
+      "url": "https://m.dianping.com/shop/1042458312",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "MO+荒漠花园店 - 途牛",
+      "url": "https://m-p.tuniu.com/restaurant/8260580/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "【MO+森系咖啡馆(荒漠花园店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/92700826?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 10,
+      "title": "MO+森系咖啡馆(荒漠花园店)-图片-上海-第20页 - 大众点评",
+      "url": "https://www.dianping.com/shop/92700826/photos?pg=20",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:06:40Z"
+}

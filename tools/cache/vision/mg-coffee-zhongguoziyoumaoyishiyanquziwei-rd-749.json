@@ -1,7 +1,7 @@
 {
   "cafeId": "mg-coffee-zhongguoziyoumaoyishiyanquziwei-rd-749",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fe599745d676",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "080c6a397155",
   "photos": [
     "http://store.is.autonavi.com/showpic/725496164e08e1e90af6a4c9c6e5acca",
     "http://store.is.autonavi.com/showpic/f67a39a38cc9bc18b34e0446c6adfb83",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于临街铺面，有遮阳棚和绿植装饰",
+      "text": "入口处有玻璃门，门内可见吧台和几把高脚凳",
       "kind": "space",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有遮阳棚，地面铺地砖，门口摆放盆栽植物",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "入口处有玻璃门，门旁有植物和招牌",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "室内有几张高脚凳围绕吧台，空间不大",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.85
     },
     {
-      "text": "店内可见吧台和少量桌椅，空间较小",
-      "kind": "space",
+      "text": "店内吧台后方有黑色的置物架，上面放着杯子和物品",
+      "kind": "beans",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口放置有欢迎牌和促销信息",
-      "kind": "other",
+      "text": "店外立式招牌上有‘咖啡’字样",
+      "kind": "drinks",
       "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "店内有咖啡制作设备，包括磨豆机和手冲台",
-      "kind": "drinks",
+      "text": "店内天花板有轨道射灯，照明充足",
+      "kind": "light",
       "photo": 3,
-      "confidence": 0.6
+      "confidence": 0.7
     },
     {
-      "text": "店外有电动车停放，环境为商业街区",
+      "text": "店外停放一辆电动车，旁边有广告牌",
       "kind": "view",
       "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "店内有绿植装饰，环境整洁",
-      "kind": "other",
+      "text": "店内吧台后方有货架，但看不清具体商品",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.6
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
-  "outdoor": false,
-  "bigWindows": true,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:22:44Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:46Z"
 }

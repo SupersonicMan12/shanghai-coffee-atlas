@@ -1,71 +1,79 @@
 {
   "cafeId": "ouzhixinkafei-dahuaqingshuiwanhuayuan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "42fa0629808d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "60b7230f5304",
   "photos": [
-    "http://store.is.autonavi.com/showpic/d59bf72b777bb5bb8a5912792a31980d",
-    "http://store.is.autonavi.com/showpic/98c8f088ca03087a2e9c3e8adb025040",
-    "http://store.is.autonavi.com/showpic/b81cbc80a892211a4d2cecfea2f15080"
+    "http://store.is.autonavi.com/showpic/019adb0d0a9e00684000163fab529ed7",
+    "https://store.is.autonavi.com/showpic/8f8b0dbe7f4b98ad3afa9c1d05e99b1e",
+    "http://store.is.autonavi.com/showpic/b81cbc80a892211a4d2cecfea2f15080",
+    "http://store.is.autonavi.com/showpic/d59bf72b777bb5bb8a5912792a31980d"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "interior",
-    "interior"
+    "drink"
   ],
   "observations": [
     {
-      "text": "吧台区有虹吸壶、磨豆机等专业器具",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "二楼有开放区域，空间较大",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "多人在座位上使用笔记本电脑",
-      "kind": "laptops",
+      "text": "店内有吧台和高脚凳座位",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "临街大窗采光好，窗外有绿植",
+      "text": "吧台后有手冲设备和磨豆机",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上有虹吸壶等咖啡制作器具",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有绿植和悬挂的海报装饰",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在座位上休息",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有临街的玻璃窗",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片拍摄于白天，室内采光良好",
       "kind": "light",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "店内有多盆大型绿植装饰",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "座位形式多样，含沙发和木桌椅",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "墙上挂多幅足球主题旗帜与海报",
-      "kind": "story",
+      "text": "照片中未见明显电脑或插座",
+      "kind": "laptops",
       "photo": 3,
-      "confidence": 0.75
-    },
-    {
-      "text": "吧台有充电宝设备供顾客使用",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ],
-  "seats": "many",
-  "laptops": true,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:52Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:41Z"
 }

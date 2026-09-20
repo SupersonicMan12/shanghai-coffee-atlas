@@ -1,67 +1,79 @@
 {
   "cafeId": "miiix-coffee-zhongyiyaodaxue",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4067b6716e8c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6f9558768d4d",
   "photos": [
     "https://store.is.autonavi.com/showpic/a78642bc658956428a7f6a65f579a0e5"
   ],
   "photoKinds": [
-    "interior"
+    "interior",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有吧台和操作区，空间为小店类型",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有大窗户，采光良好，窗外可见绿树",
+      "text": "室内有吧台，后方是玻璃窗，能看到外面的树",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "窗户外有茂密的树木，视野为自然景观",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台上摆放有咖啡杯、纸袋和植物",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见菜单板，展示饮品种类和图片",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有手冲设备和磨豆机等咖啡制作器具",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内未见明显座位区域",
+      "text": "吧台前有几排座位，数量级为少量",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "未见烘焙机或大型设备",
-      "kind": "roastingGear",
+      "text": "菜单上显示了多种饮品，包括手冲咖啡和拿铁",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上有价格，如28元、32元、35元",
+      "kind": "menuPrices",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "菜单上列出了咖啡豆产地，如埃塞俄比亚、巴拿马",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有绿植，摆放在吧台附近",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见明显烘焙机或专业手冲设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "未见有人在使用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "none",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:22:50Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:50Z"
 }

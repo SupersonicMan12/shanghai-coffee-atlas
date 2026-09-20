@@ -1,0 +1,68 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "低调到开着车按照门牌号找都差点错过",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F993026DAC69&_provider=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 36.0,
+      "quote": "DEI COFFEE SHOP(金桥店) ★ ★ ★ ★ ★ 4.7 ¥36/人",
+      "url": "https://m.dianping.com/shop/782996183",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "金桥商圈咖啡",
+      "url": "https://m.dianping.com/shop/782996183",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "【DEI COFFEE SHOP(金桥店)】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/782996183?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "DEI Coffee SHOP (Jinqiao Branch) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F993026DAC69&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "闵行私藏咖啡地图奉上!都是宝藏店铺,等你来打卡 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NDE5MjU2NQ==&mid=2656024969&idx=2&sn=eba59bc2337b9406f6ecca5cb1d82365&chksm=bcc333bc46e96096005a74fce52735192d3a1b0da887a0f955fdc7902d37f56e5f13167249b3&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "上海超级咖啡街区来了,在前滩!",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30652252",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "Costa Coffee(华美达店)",
+      "url": "https://www.tripadvisor.cn/Restaurant_Review-g308272-d4805481-Reviews-Costa_Coffee_Hua_MeiDa-Shanghai.html",
+      "site_name": "Tripadvisor猫途鹰"
+    },
+    {
+      "index": 7,
+      "title": "MANNER COFFEE",
+      "url": "https://www.wearemanner.com/",
+      "site_name": "上海茵赫实业有限公司"
+    },
+    {
+      "index": 8,
+      "title": "GO享松江 | 上海之夏 口感与颜值并存,这些藏在松江大学城里的文艺咖啡店! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5OTA1NDI2Ng==&mid=2650943645&idx=1&sn=d6c8bd5574a84cfb6bac7ba581e08376&chksm=bcfc7ba08993bb2da454eb96dc99f323fd293808b2d639ce3d2db05f09b801c282cf59c32a51&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:17:10Z"
+}

@@ -1,71 +1,87 @@
 {
   "cafeId": "wuyukafeidian-yunnan-n-rd-18",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "5dbffb331508",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6c1022db5309",
   "photos": [
+    "https://aos-comment.amap.com/B0JABZUXUY/comment/556e2a3b1685e1bd3afcf1862d25afec_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0JABZUXUY/comment/content_media_external_images_media_378_ss__1738719976470_23883346.jpg",
-    "https://aos-comment.amap.com/B0JABZUXUY/comment/90d7e17e4299702e15a325b9decaf05b_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/939bc06ab52851140000003303754847?type=pic"
+    "https://aos-comment.amap.com/B0JABZUXUY/comment/e06cf0d4bf3c5a794c5cf9243f1aff79_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JABZUXUY/comment/90d7e17e4299702e15a325b9decaf05b_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店招为黄色底黑字‘雾雨 咖啡店 KIRISAME COFFEE’，门框黑色，临街玻璃窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "橱窗内陈列多层木质货架，摆放玩偶、动漫周边及‘RHODES ISLAND’标牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "门口贴红色春联与‘与友共迎春’横批，营业时间标为8:30–17:30",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内墙面为亮黄色，吧台为浅木色，左侧有带手写价目表的玻璃冷柜",
-      "kind": "space",
+      "text": "店面招牌显示‘雾雨咖啡店 KIRISAME COFFEE’，地址云南北路18号",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "吧台上可见黑色意式咖啡机、电热水壶、绿色章鱼玩偶；墙上贴多张动漫海报",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.96
+      "text": "店内墙面为黄色，吧台区可见黑色磨豆机、手冲壶、电水壶等设备",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "菜单板显示‘经典意式 ESPRESSO’‘美式 AMERICANO’‘拿铁 LATTE’及价格¥25起",
-      "kind": "menu",
+      "text": "菜单显示‘特别强力拼配’‘传统意式拼配’‘美式/拿铁’等分类，价格清晰标注如28/31、22/25、20/23/23元",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "吧台上方悬挂女巫帽+蕾丝裙装饰物，后方货架陈列酒瓶、CD、动漫画册与手办",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.94
-    },
-    {
-      "text": "冷柜白板手写豆子信息：P 20g(M) 1.7#、OMA 20g② 1.6#、NVE I 20g③ 2.1#",
+      "text": "菜单列出多款单品豆产地：中国台湾、哥伦比亚、哥斯达黎加等，处理法含日晒、水洗、蜜处理",
       "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯身贴纸与菜单均印有‘キリサメ 雾雨 COFFEE’字样，杯中为分层冰饮（疑似冰dirty）",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "橱窗内陈列多个毛绒玩偶，门上贴有春节对联及营业时间8:30-17:30",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.92
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无顾客，未见有人使用电脑或插座",
+      "kind": "laptops",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外门口放一把折叠椅，无室外座位；玻璃门/窗可见内部陈设但不透外部街景",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
-  "outdoor": true,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:35Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    31.0,
+    22.0,
+    25.0,
+    20.0,
+    23.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:28Z"
 }

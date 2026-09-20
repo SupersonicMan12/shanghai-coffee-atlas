@@ -1,71 +1,85 @@
 {
   "cafeId": "radar-coffee-si-s-rd",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "2709d61ab3a5",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b52723263d89",
   "photos": [
-    "https://aos-comment.amap.com/B0H1RXFOLX/comment/content_media_external_file_100004227_1766656886672_60865416.jpg",
     "https://aos-comment.amap.com/B0H1RXFOLX/comment/48C1C478_CC8A_4C44_B331_2CFB0BCB15CD_L0_001_1500_200_1751786471095_98732675.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/content_media_external_file_100004227_1766656886672_60865416.jpg",
+    "https://aos-comment.amap.com/B0H1RXFOLX/comment/5455B034_A736_46A0_869C_083E5BE4FCC3_L0_001_1440_1621_1727338257850_99933954.jpg",
     "https://aos-comment.amap.com/B0H1RXFOLX/comment/3c5400d6d7b21d0c04410f169a5de101_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "drink",
+    "storefront",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "店招为黑色横条结构，印有RADAR COFFEE及美式20、拿铁24、澳白24价格",
+      "text": "店招显示为 'RADAR COFFEE'，临街木格栅门头，玻璃门上印有 'COFFEE' 字样",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单板手写标注 'City Roast Original Blend'、'西山拼配' 及对应价格（浓缩/美式30元，Dirty 40元）",
       "kind": "menu",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "门头下方有金属圆孔穿孔板，上方可见裸露白色电线与金属支架",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见木质窗框玻璃门，门上贴有白色'COFFEE'字样",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "一杯热拿铁盛于带黑线白瓷杯，拉花为双心图案，置于木托盘",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "一杯冰咖啡盛于双层玻璃杯，旁插卡片标有'云南孟连 YUNNAN MENGLIAN'豆名",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "另一杯热拿铁盛于浅青色竖纹陶瓷杯，拉花为单心图案，置于木桌",
-      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "背景可见木质矮凳/脚凳与深色软垫座椅，地面为浅色地砖",
+      "text": "店内提供冰滴/冷萃类饮品（玻璃杯带冰块），以及热拿铁（拉花心形）",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品卡标注 '云南孟连' 单品豆，产地、处理法、烘焙度信息清晰可见",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "门头价目表列有 Americano 20元、Coffee latte 24元、Flat white 24元",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中可见一杯热拿铁（心形拉花）、一杯冰咖啡及单品豆卡片，置于木质托盘上",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内有木质圆桌，背景可见顾客就坐，但未见明显电脑使用或烘焙机等设备",
       "kind": "seating",
-      "photo": 2,
-      "confidence": 0.85
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "未见烘焙机、手冲台、虹吸壶、磨豆机等专业器具",
-      "kind": "roastingGear",
+      "text": "门口玻璃门可透视内部，无室外座位，门头下方为密集马赛克装饰，非落地窗",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": true,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:33Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    24.0,
+    30.0,
+    40.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:59Z"
 }

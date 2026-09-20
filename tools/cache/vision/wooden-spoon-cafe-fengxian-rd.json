@@ -1,59 +1,81 @@
 {
   "cafeId": "wooden-spoon-cafe-fengxian-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "4899104721ba",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "95563c833114",
   "photos": [
+    "https://aos-comment.amap.com/B0HKDDY64Q/comment/content_media_external_file_42483_ss__1773577662522_90078946.jpg",
     "https://aos-comment.amap.com/B0HKDDY64Q/comment/9298ffc082c782ca469ef009705f4285_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/6f688e16b63c448b0000003090182970?type=pic",
-    "https://aos-comment.amap.com/B0HKDDY64Q/comment/content_media_external_file_42483_ss__1773577662522_90078946.jpg"
+    "https://store.is.autonavi.com/showpic/e520f205956604e70000001744436368?type=pic",
+    "https://store.is.autonavi.com/showpic/6f688e16b63c448b0000003090182970?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "food"
+    "drink",
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "吧台式小店，无堂食座位，仅一人操作区",
-      "kind": "space",
+      "text": "店内有吧台，可现场制作饮品。",
+      "kind": "brewBar",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见磨豆机和咖啡豆罐，为精品咖啡馆。",
+      "kind": "beans",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内有咖啡磨豆机和贴纸装饰",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供拉面、炸鱿鱼、炸金针菇等餐食",
+      "text": "有热汤面和炸物等食物，非纯咖啡馆。",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "门口有树，临街玻璃窗可见内部",
-      "kind": "view",
-      "photo": 1,
+      "text": "室内有书架和植物装饰。",
+      "kind": "decor",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "菜单上有燕麦风味饮品宣传",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "吧台旁放有一盆绿植",
+      "text": "店内有顾客在点单或等待。",
       "kind": "people",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "有带饼干的创意饮品，如dirty类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有树，临街，门牌号为94。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有高脚凳式座位，但数量不清。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "none",
+  "room": "bar",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:14Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:57Z"
 }

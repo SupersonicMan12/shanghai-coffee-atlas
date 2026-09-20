@@ -1,7 +1,7 @@
 {
   "cafeId": "aokka-coffee-longhua",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4027da87f6dc",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "51aea305f217",
   "photos": [
     "https://store.is.autonavi.com/showpic/f5ce664003fcab640000002778662213?type=pic",
     "https://store.is.autonavi.com/showpic/7177036ee981a513e9637ca6da07d75c",
@@ -10,56 +10,71 @@
   "photoKinds": [
     "drink",
     "storefront",
-    "interior"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为现代风格，有大面积玻璃窗",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "室外有黑色遮阳伞和桌椅",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内可见吧台和多张高脚凳",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为红枣龙眼拿铁，少冰",
+      "text": "饮品为红枣龙眼拿铁，少冰，售价28元。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内有绿植装饰，环境整洁",
+      "text": "店面临街，有大面积玻璃门窗和绿色遮阳棚。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "室外地面有斑马纹图案装饰",
-      "kind": "space",
+      "text": "店外设有木质平台与桌椅，为室外座位区。",
+      "kind": "seating",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "拍摄时间为下午3点46分",
-      "kind": "time",
+      "text": "店内可见吧台区域及部分座位，有顾客在内。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面有斑马纹装饰，周围有绿化植物。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "饮品杯贴显示店名为AOKKA COFFEE（上海龙华店）。",
+      "kind": "drinks",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店铺位于现代建筑底层，临街，有落地窗。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有黑色遮阳伞和户外桌椅，适合坐饮。",
+      "kind": "seating",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:24Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:14Z"
 }

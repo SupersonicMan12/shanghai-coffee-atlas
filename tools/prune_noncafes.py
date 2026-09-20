@@ -122,6 +122,14 @@ REMOVE: dict[str, str] = {
     'jp-bakery-guoxia-rd': '集品烘焙 bakery',
     'w-caf-sh-brunch-bistro-xianzhonghuan': 'brunch & bistro',
     '146bistro-cafe-yanchang-rd-146': 'bistro first',
+    # v5.1: two atlas records resolved to the same Amap POI; the imported copy goes
+    'plusone-julululanding': 'duplicate of plusone-julu',
+    'radar-coffee-si-s-rd': 'duplicate of radar-sinan',
+    'kukoukafei-luoke-waitanyuan': 'duplicate of horiguchi-yuanmingyuan',
+    'smaka-caf-bakery-osm': 'duplicate of smaka',
+    'blacksheep-espresso-jianguo-middle-rd': 'duplicate of blacksheep-jianguo',
+    'cafe-del-volcan-yongkang-rd-80': 'duplicate of del-volcan-yongkang',
+    'cafe-bar-xibutongyili': 'duplicate of maoxianniao-tongyili',
 }
 
 

@@ -1,60 +1,78 @@
 {
   "cafeId": "aokka-coffee-jiangwanlimeet678",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0109d78a7bcb",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f9d781eb9e67",
   "photos": [
     "https://aos-comment.amap.com/B0J3X77BBO/comment/08b87f817ec8364aebbfd89ac6318ed8_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J3X77BBO/comment/ded007c7fd1376c05f123fc5a205cda2_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J3X77BBO/comment/288660008121f7ab6d2454210290b830_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "interior",
-    "storefront",
     "drink",
+    "storefront",
     "menu"
   ],
   "observations": [
     {
-      "text": "店内有多个绿色户外风格座椅，数量约8-10个",
+      "text": "饮品为分层冷萃，上层绿色抹茶或类似物，下层深色咖啡。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有大面积玻璃幕墙和落地窗，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有多个绿色户外座椅，可坐人，属于室外座位区。",
       "kind": "seating",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单卡片显示单品豆产地为危地马拉圣费尔萨自然日晒瑰夏。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内展示墙上有“5800平方咖啡梦工厂”字样及烘焙机照片。",
+      "kind": "story",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室外区域设有绿色折叠椅和小桌，可容纳多人",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "可见一杯分层的冰咖啡饮品，上层为浅绿色，下层为棕色",
-      "kind": "drinks",
+      "text": "菜单卡片标注了“COLD BREW SIGNATURE”、“ALCOHOL SIGNATURE”等特调系列。",
+      "kind": "specialtyMenu",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单展示 Guatemala Santa Felisa 咖啡豆信息",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内摆放多张咖啡主题宣传海报",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店面为现代玻璃幕墙结构，临街可见",
-      "kind": "light",
+      "text": "店外可见一人坐在户外椅上使用手机，另一人坐在店内。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
+    },
+    {
+      "text": "菜单卡片上出现“GUATEMALA SANTA FELSA NATURAL GEISHA #2722”等具体豆子信息。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
     }
   ],
+  "room": "large",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:07Z"
+  "roastingGear": true,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:33Z"
 }

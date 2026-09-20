@@ -1,7 +1,7 @@
 {
   "cafeId": "xukafei-laohumin-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b7c4b28ec367",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "400c1f3384a9",
   "photos": [
     "https://store.is.autonavi.com/showpic/58815aa20b84bded0000003191672749?type=pic",
     "https://store.is.autonavi.com/showpic/7e8ea0ce56fcbf8e0000003185022797?type=pic",
@@ -9,52 +9,74 @@
   ],
   "photoKinds": [
     "interior",
-    "drink",
-    "food",
-    "menu"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有手冲台和磨豆机等专业器具",
-      "kind": "beans",
+      "text": "店内有手冲台、虹吸壶、多台磨豆机等精品咖啡器具。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "菜单上可见咖啡和茶的价格，如32元、38元",
-      "kind": "menu",
-      "photo": 3,
+      "text": "菜单上可见拿铁32元、美式28元、三明治38元/套等价格。",
+      "kind": "menuPrices",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供奶泡丰富的拿铁和芝士蛋糕",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内空间紧凑，以吧台为主",
+      "text": "吧台区域有不锈钢操作台、水槽及各类咖啡制作设备。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 0.95
     },
     {
-      "text": "墙面有黑板和白板用于书写菜单",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "饮品为带厚奶泡的冰咖啡，搭配两块三角形芝士蛋糕。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "可见落地窗，采光良好",
-      "kind": "light",
+      "text": "墙上黑板与白板写有饮品、食物名称及价格。",
+      "kind": "specialtyMenu",
       "photo": 2,
-      "confidence": 0.75
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有咖啡机、磨豆机、手冲壶等专业设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "照片中未见客人或工作人员，座位情况不可见。",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方墙面贴有白色瓷砖，有悬挂厨具和置物架。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": false,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:03Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:43Z"
 }

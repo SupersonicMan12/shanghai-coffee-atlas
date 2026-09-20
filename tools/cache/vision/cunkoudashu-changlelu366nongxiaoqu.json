@@ -1,7 +1,7 @@
 {
   "cafeId": "cunkoudashu-changlelu366nongxiaoqu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "944caed3e251",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c65b11e29b0b",
   "photos": [
     "https://aos-comment.amap.com/B0HGJOKB7G/comment/167d9e271c3d4b9b424c8efae0eeff16_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/41b4e28fad7a45240000003140334684?type=pic",
@@ -10,56 +10,69 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面是临街小铺，门口有自行车，上方晾晒衣物，街道电线密集。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "饮品“草莓奶昔”含大冰块与香草叶，“黄色水果”为橙色饮料配巧克力棒。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品“十六浦”为拿铁配肉桂棒与苹果干，“百乐门”为分层冷饮配方块冰。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单卡片显示豆子产地为埃塞俄比亚耶加雪菲、坦桑尼亚可可等。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内吧台后方可见不锈钢设备，但无明确烘焙机或手冲台。",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店门为深棕色木门，入口处有台阶，空间看起来紧凑。",
+      "text": "店面为老洋房改造，临街玻璃门面，门牌号366号，外挂‘村口大树’招牌",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "照片中未见顾客或工作人员，也未见有人使用电脑。",
-      "kind": "people",
+      "text": "店内吧台可见，木质台面，后方有不锈钢设备区，未见明显烘焙机或大型手冲台",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "菜单卡片上清晰列出特调编号（01、08）、名称及产地豆信息（如埃塞俄比亚水洗耶加雪菲）",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "特调饮品含草莓奶昔、黄色水果等，搭配香草/肉桂/苹果片等装饰物",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台处陈列两款饮品：肉桂/可可（含肉桂棒与苹果片）、椰子/斑斓/朗姆（分层冰饮）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单卡显示‘十六浦’‘百乐门’等命名，属特调系列，非标准咖啡品类",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无顾客，无人使用电脑，未见插座或宠物，无室外座位",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外人行道停一辆深绿色复古自行车，地面为砖铺，黄色路缘石",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": true,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:57:02Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:09Z"
 }

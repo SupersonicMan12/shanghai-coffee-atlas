@@ -1,71 +1,60 @@
 {
   "cafeId": "kristime-lujiazui",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "f15ec0a90d85",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3aff3c9e591b",
   "photos": [
+    "https://aos-comment.amap.com/B0J0SA9UO8/comment/9E44287B_E3FB_46D8_BF88_7B71382F8A27_L0_001_1500_2000_1734580536881_76262877.jpg",
     "https://aos-comment.amap.com/B0J0SA9UO8/comment/content_media_external_images_media_1000032238_ss__1744800782435_52732183.jpg",
-    "https://aos-comment.amap.com/B0J0SA9UO8/comment/51FF83E2_5861_4A1D_B0FD_E9E729A35E5D_L0_001_1500_2000_1734580536881_40634416.jpg",
-    "https://aos-comment.amap.com/B0J0SA9UO8/comment/9E44287B_E3FB_46D8_BF88_7B71382F8A27_L0_001_1500_2000_1734580536881_76262877.jpg"
+    "https://aos-comment.amap.com/B0J0SA9UO8/comment/content_media_external_images_media_1000032241_ss__1744800782434_22582083.jpg",
+    "https://aos-comment.amap.com/B0J0SA9UO8/comment/51FF83E2_5861_4A1D_B0FD_E9E729A35E5D_L0_001_1500_2000_1734580536881_40634416.jpg"
   ],
   "photoKinds": [
-    "storefront",
-    "storefront",
+    "interior",
     "food"
   ],
   "observations": [
     {
-      "text": "店面位于商场内，柜台为白色木纹板，上方招牌写‘咖啡·蛋糕·下午茶’",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "第二张图显示完整店名‘KRIS TIME 咖啡·蛋糕’及‘KRISTIME COFFEE’标识，有FAEMA咖啡机",
+      "text": "店内有冷藏展示柜和吧台",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "柜台后方有玻璃隔断厨房，可见工作人员戴口罩与围裙操作",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图中透明盒装含：红色蛋糕卷、黄色百香果慕斯、蓝莓奶油蛋糕、三明治",
+      "text": "手持甜品盒内含蛋糕卷、慕斯等",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "柜台摆放黄色美团取餐柜、二维码收款牌、菜单立牌及宣传单页",
-      "kind": "space",
       "photo": 1,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "可见商用咖啡机（FAEMA品牌）、磨豆机、不锈钢冰箱与冷藏展示柜",
+      "text": "吧台上可见FAEMA品牌咖啡机",
       "kind": "beans",
-      "photo": 2,
-      "confidence": 0.97
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "墙上挂有营业执照与食品经营许可证，右侧货架堆放纸箱与包装材料",
+      "text": "店内空间为小型店铺类型",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "无可见座位区域；两张 storefront 照均未拍到顾客座席或桌椅",
+      "text": "未见明显座位区或顾客",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.99
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "none",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:57Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:35Z"
 }

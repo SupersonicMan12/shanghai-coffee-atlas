@@ -1,65 +1,77 @@
 {
   "cafeId": "xingbake-qiantantaiguli",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "353ce5a033f6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5d3c09a5b86c",
   "photos": [
     "http://store.is.autonavi.com/showpic/ec3440dbf3d8f9de23da5c7a0cf58ad7",
     "https://aos-comment.amap.com/B0H2HAGP58/comment/361E59F7_9AEC_4252_B817_28DB3233F7FD_L0_001_1536_204_1770837001534_38512539.jpg",
     "https://aos-comment.amap.com/B0H2HAGP58/comment/9058FE18_4CCB_4085_AA6B_34811BCD53C5_L0_001_1500_200_1769598355603_94112855.jpg"
   ],
   "photoKinds": [
-    "logo",
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "该店位于商场内，有玻璃幕墙和台阶入口",
+      "text": "店面为独立建筑，有室外台阶和广场",
       "kind": "space",
-      "photo": 3,
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外立式电子屏显示“全球首家星巴克向绿工坊”",
+      "kind": "story",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门店标有‘全球首家星巴克向绿工坊’字样",
-      "kind": "story",
+      "text": "店面有大面积玻璃幕墙，采光好",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门店外设有电子导视牌，宣传环保主题",
-      "kind": "story",
-      "photo": 2,
+      "text": "店门口有绿植装饰，环境绿化好",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "建筑为现代风格，大面积玻璃窗设计",
-      "kind": "bigWindows",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店外部有台阶和户外区域，可作室外座位使用",
-      "kind": "outdoor",
-      "photo": 3,
+      "text": "店内可见吧台区域，但无明显专业器具",
+      "kind": "beans",
+      "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "门店外观呈圆柱形结构，位于开放广场中",
-      "kind": "space",
-      "photo": 3,
+      "text": "照片中未见顾客在使用电脑",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门店招牌显示‘STARBUCKS GREENER STORE LAB’",
-      "kind": "story",
-      "photo": 2,
+      "text": "照片中未见明确的座位区或户外座",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见饮品、食物或菜单",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "bar",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:11Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:06Z"
 }

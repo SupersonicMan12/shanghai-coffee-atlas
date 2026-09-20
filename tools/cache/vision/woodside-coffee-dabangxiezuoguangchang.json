@@ -1,7 +1,7 @@
 {
   "cafeId": "woodside-coffee-dabangxiezuoguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "37941ede4b2d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "47e62e3d2c17",
   "photos": [
     "https://store.is.autonavi.com/showpic/7c1ce4da1651cb3723534f34670172df"
   ],
@@ -10,46 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备",
-      "kind": "space",
+      "text": "吧台后有手冲设备和磨豆机",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "可见手冲台和磨豆机等专业器具",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "窗外可见城市街道与建筑",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台前无明显座位区域",
+      "text": "吧台前无座位，为站喝区",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台上有鲜花装饰",
+      "text": "店内为玻璃幕墙，可见外部街道和建筑",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有植物装饰，未见宠物",
+      "kind": "plants",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上摆放着花束和纸袋，无明显食物",
       "kind": "food",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "未见客人使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机等烘豆设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:17:30Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:33Z"
 }

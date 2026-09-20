@@ -30,6 +30,8 @@ from enrich_common import AMAP_DETAIL, cafes, now_iso, read_json, write_json  # 
 
 API = 'https://restapi.amap.com/v3/place'
 DELAY = 0.36
+# --refresh only re-fetches records older than this (ISO date); bump per recrawl
+REFRESH_BEFORE = '2026-09-19'
 QUOTA_INFOCODES = {'10003', '10014', '10044'}
 AROUND_M = 200
 TEXT_MAX_M = 400
@@ -113,11 +115,11 @@ def metres(lng1: float, lat1: float, lng2: float, lat2: float) -> float:
     return 2 * r * math.asin(math.sqrt(a))
 
 
-def find_poi(cafe: dict) -> dict | None:
+def find_poi(cafe: dict, rejected: set[str]) -> dict | None:
     glng, glat = wgs84_to_gcj02(cafe['lng'], cafe['lat'])
     around = get('around', {'location': f'{glng:.6f},{glat:.6f}', 'radius': str(AROUND_M),
                             'types': '050500', 'sortrule': 'distance', 'offset': '25', 'page': '1'})
-    poi = next((p for p in around.get('pois') or [] if similar(cafe, p)), None)
+    poi = next((p for p in around.get('pois') or [] if p.get('id') not in rejected and similar(cafe, p)), None)
     if poi is not None:
         return poi
     time.sleep(DELAY)
@@ -125,7 +127,7 @@ def find_poi(cafe: dict) -> dict | None:
         text = get('text', {'keywords': keyword, 'city': '上海', 'citylimit': 'true', 'offset': '20', 'page': '1'})
         for p in text.get('pois') or []:
             loc = str(p.get('location') or '')
-            if ',' not in loc or not is_cafe_poi(p) or not similar(cafe, p):
+            if p.get('id') in rejected or ',' not in loc or not is_cafe_poi(p) or not similar(cafe, p):
                 continue
             plng, plat = (float(x) for x in loc.split(','))
             if metres(glng, glat, plng, plat) <= TEXT_MAX_M:
@@ -139,6 +141,8 @@ def main() -> None:
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--refresh-unmatched', action='store_true',
                     help='retry cafés whose cache says matched=false')
+    ap.add_argument('--refresh', action='store_true',
+                    help='re-fetch every matched café by its Amap id; photos seen before are kept')
     args = ap.parse_args()
     if not os.environ.get('AMAP_WEB_API_KEY'):
         raise SystemExit('AMAP_WEB_API_KEY is required')
@@ -146,20 +150,37 @@ def main() -> None:
     for cafe in cafes():
         path = AMAP_DETAIL / f"{cafe['id']}.json"
         cached = read_json(path)
-        if cached is not None and not (args.refresh_unmatched and not cached.get('matched')):
+        stale = cached is not None and (
+            (args.refresh_unmatched and not cached.get('matched'))
+            or (args.refresh and cached.get('matched') and cached.get('amapId')
+                and cached.get('fetchedAt', '') < REFRESH_BEFORE))
+        if cached is not None and not stale:
             continue
         if args.limit and done >= args.limit:
             break
         try:
-            if cafe['amapId']:
-                rec = record(cafe, get('detail', {'id': cafe['amapId']}), True, cafe['amapId'])
-            else:
-                poi = find_poi(cafe)
+            rejected = set((cached or {}).get('rejected') or [])
+            known_id = cafe['amapId'] or ((cached or {}).get('amapId') if stale else None)
+            rec = None
+            if known_id and known_id not in rejected:
+                rec = record(cafe, get('detail', {'id': known_id}), True, known_id)
+                if not rec.get('name'):
+                    # the POI is gone from Amap: forget it and search afresh
+                    rejected.add(known_id)
+                    rec = None
+                    time.sleep(DELAY)
+                elif cached:
+                    old = [p for p in cached.get('photos') or [] if p not in rec['photos']]
+                    rec['photos'] = (rec['photos'] + old)[:6]
+            if rec is None:
+                poi = find_poi(cafe, rejected)
                 if poi is None:
                     rec = {'cafeId': cafe['id'], 'matched': False, 'photos': [], 'fetchedAt': now_iso()}
                 else:
                     time.sleep(DELAY)
                     rec = record(cafe, get('detail', {'id': poi['id']}), True, poi['id'])
+            if rejected:
+                rec['rejected'] = sorted(rejected)
             write_json(path, rec)
             done += 1
             matched += int(bool(rec.get('matched')))

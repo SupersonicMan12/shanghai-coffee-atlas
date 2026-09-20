@@ -1,71 +1,80 @@
 {
   "cafeId": "dongjingkafei-wuyuan-rd-86",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "bcf952a670ce",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "fa4607505af8",
   "photos": [
-    "https://store.is.autonavi.com/showpic/2ddccda110150b280000002993686569?type=pic",
-    "https://store.is.autonavi.com/showpic/ed8b22f1ea4323620000001197018523?type=pic",
-    "https://store.is.autonavi.com/showpic/b30a503887f965fd9f58f782cc113726"
+    "https://store.is.autonavi.com/showpic/b30a503887f965fd9f58f782cc113726",
+    "https://store.is.autonavi.com/showpic/9ac5797e1ddf0c8c0000002985732695?type=pic",
+    "https://store.is.autonavi.com/showpic/6fc6c719b64d12140000001197044127?type=pic",
+    "https://store.is.autonavi.com/showpic/2ddccda110150b280000002993686569?type=pic"
   ],
   "photoKinds": [
+    "drink",
+    "other",
     "storefront",
-    "interior",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "吧台前有高脚凳，店内空间不大，属小型咖啡馆。",
+      "text": "店面位于临街老建筑底层，有玻璃橱窗和户外座位区。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方陈列两台磨豆机和一台咖啡机，设备专业。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上可见“自带杯减3元”及“骑行到店减3元”优惠。",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口招牌显示提供自行车租赁服务。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内悬挂三盏自行车轮造型吊灯，风格独特。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "照片中未见顾客使用笔记本电脑。",
-      "kind": "laptops",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "第三张图为饮品特写，拉花为漩涡状，非特定图案。",
-      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有粉色广告牌，宣传Maison Perrier气泡水合作款。",
+      "text": "店外摆放多辆折叠自行车，提供自行车租赁服务。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见吧台区域，有顾客在座，环境为小空间布局。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "饮品照片展示一杯拉花咖啡，杯中可见奶泡图案。",
       "kind": "drinks",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立柱上有“动径 COFFEE BICYCLE RENTAL”标识。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有宣传海报，推广Maison Perrier气泡水及特调饮品。",
+      "kind": "drinks",
+      "photo": 4,
       "confidence": 0.8
+    },
+    {
+      "text": "店外展示多种Maison Perrier气泡水口味，包括柠檬、青柠、荔枝等。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客就坐，但未见使用电脑或插座。",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:25Z"
+  "bigWindows": true,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:57Z"
 }

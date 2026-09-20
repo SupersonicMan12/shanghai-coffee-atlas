@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "免费Wi-Fi沙发位",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15495877.html",
+      "site": "携程旅行网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "特色及氛围. 露台",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "内里像文青书房一般别有洞天",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "提供手冲、冰滴、意式等几款基本却专业的咖啡",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site": "新浪网"
+    },
+    "price": {
+      "value": 74.0,
+      "quote": "¥74/人",
+      "url": "http://m.dianping.com/shop/58255788?msource=applemaps",
+      "site": "【宝罗思咖啡酒吧(新闸路店)】电话_地址_价格_营业时间 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "宝罗思咖啡(悦达黄浦河滨大厦店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/15495877.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "【宝罗思咖啡酒吧】地址,电话,路线,周边,在哪,怎样 - 百度",
+      "url": "https://j.map.baidu.com/dd/cEPf",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "【宝罗思咖啡酒吧(新闸路店)】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/58255788?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "寶羅思咖啡酒吧（新閘路店） (上海人民廣場地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30991587",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 7,
+      "title": "我在徐汇喝咖啡 | 从武康路到徐汇滨江,一条街区的兴衰就像一个人的成长",
+      "url": "https://www.jfdaily.com.cn/news/detail?id=744108",
+      "site_name": "无"
+    },
+    {
+      "index": 8,
+      "title": "上海如何成为名副其实的咖啡之城？这个原创新展作答 - 上观新闻",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1009345",
+      "site_name": "解放日报"
+    },
+    {
+      "index": 9,
+      "title": "光启城店",
+      "url": "https://baike.baidu.com/item/光启城店/14304300",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 10,
+      "title": "品味上海咖啡香 ",
+      "url": "https://m.gmw.cn/2025-06/09/content_1304054829.htm",
+      "site_name": "光明网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:37Z"
+}

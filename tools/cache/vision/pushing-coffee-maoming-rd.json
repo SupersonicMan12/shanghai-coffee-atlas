@@ -1,7 +1,7 @@
 {
   "cafeId": "pushing-coffee-maoming-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "de98eb24495b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "938736cfa782",
   "photos": [
     "https://store.is.autonavi.com/showpic/de07fd4af82bca63887194fea8e2610c",
     "http://store.is.autonavi.com/showpic/7bf53c9e97ba3cb7108b1f143958e70b",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街老建筑底层，门头标有'PUSHING COFFEE'",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有两辆共享单车停放",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺入口为玻璃双开门，门内可见楼梯通向二楼",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有一只狗坐在窗台边",
+      "text": "店面为临街小铺，门牌号茂名南路137号，店招写PUSHING COFFEE",
       "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "店门口上方悬挂圣诞老人装饰物",
+      "text": "门口停有两辆共享单车，人行道有黄色路缘石和井盖",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店门口上方悬垂一个红色圣诞老人充气玩偶，非固定装饰",
       "kind": "story",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内有顾客正在点单或取餐",
+      "text": "店内可见一只黄狗坐于窗台，背对镜头，戴项圈与牵引绳",
+      "kind": "pets",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "一人正俯身在吧台内操作，吧台外侧贴有“汪汪汪”标识及二维码",
       "kind": "people",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 1.0
     },
     {
-      "text": "店内设有服务窗口，可看到菜单板和饮品制作区域",
+      "text": "店内有楼梯通往二层，玻璃门敞开，无明显座位区，空间紧凑",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店铺编号为137，位于茂名南路",
-      "kind": "space",
-      "photo": 1,
+      "text": "吧台区域未见手冲台/虹吸/磨豆机等专业器具，仅见瓶装水与菜单板",
+      "kind": "brewBar",
+      "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "菜单板上文字模糊无法辨识价格或豆子产地，无清晰饮品/食物图示",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "none",
-  "laptops": null,
-  "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:00Z"
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:11Z"
 }

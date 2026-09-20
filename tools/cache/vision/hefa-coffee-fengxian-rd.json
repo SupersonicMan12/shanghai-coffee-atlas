@@ -1,7 +1,7 @@
 {
   "cafeId": "hefa-coffee-fengxian-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cd2640fb54a1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9aeaa4eb2f27",
   "photos": [
     "https://aos-comment.amap.com/B0K1DSFG92/comment/content_media_external_images_media_60689_ss__1732157549019_45483468.jpg",
     "https://aos-comment.amap.com/B0K1DSFG92/comment/content_media_external_images_media_60678_ss__1732157549018_47619107.jpg",
@@ -10,62 +10,72 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "临街小店，有室外座位区",
-      "kind": "space",
+      "text": "店面临街，有大树遮挡，户外设2张小桌椅，1人坐着",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "有室外座位，可坐一人",
+      "text": "吧台后方可见2台磨豆机、意式咖啡机、手冲器具（虹吸/滤杯）",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前无座位，仅靠窗处有1张折叠椅供顾客坐，属吧台站喝型",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有手冲咖啡器具和磨豆机",
+      "text": "柜台上方置物架有玻璃杯、编织篮、手冲壶；下方有Monin糖浆、明治牛奶、堆叠纸杯",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单牌显示‘全麦谷物贝果’及价格‘¥28’，另含‘脏脏拿铁’等特调字样",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内墙面为白瓷砖+木搁板，灯具为白色吊灯配红电线，整体为简约工业风",
+      "kind": "light",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "吧台后有咖啡机、虹吸壶等专业设备",
-      "kind": "drinks",
+      "text": "吧台后方人员正在操作咖啡机，未见其他顾客，店内空闲",
+      "kind": "crowd",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见明治牛乳、MONIN糖浆等原料",
+      "text": "柜台上放有带盖塑料杯装的黄色饮品（疑似燕麦/果汁类），非标准咖啡杯",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
-    },
-    {
-      "text": "有贝果、全麦谷物贝果等食物出售",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外有树遮挡，阳光充足",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有植物装饰，环境整洁",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.7
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:17:01Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:46Z"
 }

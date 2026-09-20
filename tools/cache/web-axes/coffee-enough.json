@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "适合带电脑办公，有插座和稳定的Wi-Fi",
+      "url": "https://weibo.com/u/6193357891",
+      "site": "微博平台"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "店内氛围安静，适合专注工作或阅读",
+      "url": "https://www.163.com/dy/article/FDK2AC2J0524BGJU.html?referFrom=",
+      "site": "163网易免费邮"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "座位舒适，适合长时间停留和深度交流",
+      "url": "https://www.thepaper.cn/newsDetail_forward_7150994",
+      "site": "澎湃新闻网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "提供多种手冲单品咖啡及特调饮品",
+      "url": "http://www.dianping.com/shop/1588422253/photos",
+      "site": "coffee enough 咖啡足矣-图片-上海-大众点评网"
+    },
+    "price": {
+      "value": 46.0,
+      "quote": "人均消费约46元，价格亲民",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-enough-90681530/",
+      "site": "coffee enough 咖啡足矣(上海靜安寺/南京西路) - Trip.com"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海探店录",
+      "url": "https://weibo.com/u/6193357891",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 2,
+      "title": "我想在上海,做一个咖啡精",
+      "url": "https://www.163.com/dy/article/FDK2AC2J0524BGJU.html?referFrom=",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 3,
+      "title": "4月新咖啡店速递:荷包蛋配咖啡",
+      "url": "https://www.thepaper.cn/newsDetail_forward_7150994",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 4,
+      "title": "coffee enough 咖啡足矣-图片-上海-大众点评网",
+      "url": "http://www.dianping.com/shop/1588422253/photos",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "coffee enough 咖啡足矣(上海靜安寺/南京西路) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/coffee-enough-90681530/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "上海这些本土咖啡馆为什么能让人咖啡足矣",
+      "url": "https://www.sohu.com/a/960846485_121622982",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "上海这些宝藏咖啡馆,让你想把所有杯子‘喝’一遍_器具",
+      "url": "http://www.sohu.com/a/393696114_318481",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:35:00Z"
+}

@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "无论是从里面看外面喧嚣还是从",
+      "url": "https://www.sina.cn/news/detail/5023381886080231.html",
+      "site": "新浪网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "简约日式风格设计的咖啡店,店里家具都是中古",
+      "url": "https://www.dianping.com/discovery/1489282951",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "咖啡可选四款豆子",
+      "url": "https://www.dianping.com/discovery/1489282951",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "别人家的咖啡馆[超话]# 大小乐咖啡商店   永嘉路52号大大小小都是 ...",
+      "url": "https://www.sina.cn/news/detail/5023381886080231.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "上海探店,永嘉路咖啡,窗边看人来人往",
+      "url": "https://baijiahao.baidu.com/s?id=1864840773638580127",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "在上海 | 永嘉路上的大小乐☕️☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1489282951",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "上海：喝杯咖啡也能做公益徐汇街巷飘起慈善暖意",
+      "url": "https://www.scf.org.cn/csjjh/n3421/n3424/n3876/u1ai319947.html",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "小每咖啡(永嘉路店)",
+      "url": "https://gs.ctrip.com/html5/you/foods/fooddetail/2/122784814.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 6,
+      "title": "魔都上半年新开咖啡店,这14家赢了",
+      "url": "https://www.163.com/dy/article/J6ONQUG405228TQ0.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 7,
+      "title": "最爱的16家之外，还有这些优秀咖啡馆我们不愿割舍…… - QQ",
+      "url": "https://news.qq.com/rain/a/20250329A04AOL00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 8,
+      "title": "上海成为全球咖啡馆最多的城市,当地时髦达人们最喜欢去这30家你去过吗?_咖啡_什么值得买",
+      "url": "https://post.smzdm.com/p/apx29xox/",
+      "site_name": "什么值得买"
+    },
+    {
+      "index": 9,
+      "title": "星巴克(金汇店)",
+      "url": "https://baike.baidu.com/item/星巴克（金汇店）/14267477",
+      "site_name": "百度百科"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:09Z"
+}

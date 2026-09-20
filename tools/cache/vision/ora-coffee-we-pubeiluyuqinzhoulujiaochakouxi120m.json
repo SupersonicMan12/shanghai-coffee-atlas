@@ -1,7 +1,7 @@
 {
   "cafeId": "ora-coffee-we-pubeiluyuqinzhoulujiaochakouxi120m",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "447acf091889",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "dcdece7f281d",
   "photos": [
     "https://aos-comment.amap.com/B0L11XNLV3/comment/48421404_666B_4DE0_B6BE_ACC422031F63_L0_001_1501_200_1769752857354_76048043.jpg",
     "https://store.is.autonavi.com/showpic/57529029e469ca700000003385356130?type=pic",
@@ -10,44 +10,69 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "interior"
+    "other"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，临街玻璃窗。",
+      "text": "店面为临街玻璃门面，有大面积落地窗，可看到店内吧台和部分陈列。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见木质柜台和少量座位。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "大落地窗提供采光，可见室外街道。",
-      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "饮品包括抹茶拿铁等冷饮。",
+      "text": "店内可见木质吧台、置物架及咖啡制作设备，空间布局紧凑。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中出现抹茶类饮品，杯内有分层，顶部撒有抹茶粉。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有书架和植物装饰。",
-      "kind": "interior",
+      "text": "另一张照片显示两杯咖啡，一杯为纸杯，另一杯为透明杯带顶盖，顶部有焦糖或肉桂粉装饰。",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显座位区，仅见吧台，未见顾客就座或使用电脑。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面有落叶，室内桌面旁放有翻开的书本，环境安静。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店招与杯身印有“Ora Coffee”字样，宣传语提及28天新鲜烘焙。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见货架陈列包装好的咖啡豆或相关商品。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:05Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:42Z"
 }

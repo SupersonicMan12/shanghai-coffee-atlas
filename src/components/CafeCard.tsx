@@ -81,9 +81,9 @@ export function CafeCard({
   const names = displayNames(cafe, mode)
   const cafeVotes = useCafeVotes()
   const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
-  const toClose = minutesToClose(cafe, hour, weekday)
-  const closingSoon = toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const detail = detailFor(cafe)
+  const toClose = minutesToClose(cafe, hour, weekday)
+  const closingSoon = !detail.status && toClose !== null && toClose <= CLOSING_SOON_MINUTES
   const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
   const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
@@ -207,12 +207,20 @@ export function CafeCard({
         <div>
           <dt>{t(UI.hoursWord)}</dt>
           <dd>
-            {hours(cafe, weekday)}{' '}
-            <em className={open ? 'open' : 'shut'}>
-              {open
-                ? `${t(UI.openAtHour)} ${formatHour(hour)}`
-                : `${t(UI.shutAtHour)} ${formatHour(hour)}`}
-            </em>
+            {detail.status ? (
+              <em className="shut">
+                {t(detail.status === 'suspended' ? UI.statusSuspended : UI.statusRenovating)}
+              </em>
+            ) : (
+              <>
+                {hours(cafe, weekday)}{' '}
+                <em className={open ? 'open' : 'shut'}>
+                  {open
+                    ? `${t(UI.openAtHour)} ${formatHour(hour)}`
+                    : `${t(UI.shutAtHour)} ${formatHour(hour)}`}
+                </em>
+              </>
+            )}
             {closingSoon && (
               <em className="closing-soon">
                 {zh ? `还有 ${toClose} 分钟打烊` : `closes in ${toClose} min`}
@@ -254,13 +262,14 @@ export function CafeCard({
           const v = ev?.value ?? cafe.axes[a.key]
           const conf = ev?.confidence ?? 0.35
           const w = want[a.key]
+          const why = ev ? (zh ? ev.becauseZh : ev.because) : undefined
           const title = ev
             ? `${Math.round(conf * 100)}% ${zh ? UI.confidence.zh : UI.confidence.en} · ${ev.sources
                 .map((s) => (mode === 'both' ? SOURCE_WORD[s].both : SOURCE_WORD[s][mode]))
-                .join(' + ')}`
+                .join(' + ')}${why ? ` · ${why}` : ''}`
             : undefined
           return (
-            <div key={a.key} className="card-axis" title={title}>
+            <div key={a.key} className={`card-axis${why ? ' has-why' : ''}`} title={title}>
               <span className="ca-name">{zh ? a.labelZh : a.label}</span>
               <span className="ca-track">
                 <span
@@ -280,6 +289,7 @@ export function CafeCard({
                       : a.low
                     : '—'}
               </span>
+              {why && <span className="ca-why">{why}</span>}
             </div>
           )
         })}

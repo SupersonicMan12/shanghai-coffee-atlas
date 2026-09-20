@@ -26,6 +26,8 @@ from enrich_common import (AMAP_DETAIL, VISION, cafes, dashscope_chat, digest, n
                            parse_json_object, read_json, write_json)
 
 MAX_PHOTOS = 4
+# bump when the structured fields change so every café is looked at again
+PROMPT_VERSION = 2
 
 PROMPT = """这些是上海咖啡馆「{name_zh} / {name}」（{street_zh}）在高德地图上的照片，可能是店面、室内、饮品、食物或菜单。
 请只记录照片里**能确定看到**、且对「要不要去这家店」有帮助的事实。不要推测看不见的东西，不要形容词堆砌；不要描述店招、logo、纸杯/纸袋印字、墙面颜色这类对选店无用的细节。
@@ -38,13 +40,48 @@ PROMPT = """这些是上海咖啡馆「{name_zh} / {name}」（{street_zh}）在
   "observations": [
     {{"text": "一句中文事实（≤30字）", "kind": "space|light|view|seating|sound|beans|drinks|food|people|time|story", "photo": 1, "confidence": 0.9}}
   ],
+  "room": "bar|small|medium|large|courtyard|mall|unknown",   // 吧台站喝 / 小店(≤约15座) / 中等 / 大空间 / 院子或大面积室外 / 商场内档口
   "seats": "none|few|some|many|unknown",
-  "laptops": true/false/null,
+  "crowd": "empty|some|busy|unknown",   // 照片里客人多少（仅按看到的人）
+  "laptops": true/false/null,           // 看到有人在用电脑
+  "sockets": true/false/null,           // 看到座位旁有插座
   "outdoor": true/false/null,
   "bigWindows": true/false/null,
-  "roastingGear": true/false/null
+  "roastingGear": true/false/null,      // 烘豆机
+  "brewBar": true/false/null,           // 手冲台/虹吸/多台磨豆机等精品器具
+  "specialtyMenu": true/false/null,     // 菜单上看得清手冲/单品/SOE/产地/特调
+  "menuPrices": [28, 35]                // 菜单上看得清的咖啡单价（元），没有就 []
 }}
-observations 最多 8 条，按信息价值排序；不确定的用低 confidence 或不写。"""
+结构字段只填能从照片确认的；看不出就填 unknown / null / []，不要猜。observations 最多 8 条，按信息价值排序；不确定的用低 confidence 或不写。"""
+
+ENUMS = {
+    'room': {'bar', 'small', 'medium', 'large', 'courtyard', 'mall'},
+    'seats': {'none', 'few', 'some', 'many'},
+    'crowd': {'empty', 'some', 'busy'},
+}
+FLAGS = ('laptops', 'sockets', 'outdoor', 'bigWindows', 'roastingGear', 'brewBar', 'specialtyMenu')
+
+
+def enum(obj: dict, key: str) -> str | None:
+    v = obj.get(key)
+    return v if isinstance(v, str) and v in ENUMS[key] else None
+
+
+def flag(obj: dict, key: str) -> bool | None:
+    v = obj.get(key)
+    return v if isinstance(v, bool) else None
+
+
+def prices(obj: dict) -> list[float]:
+    out = []
+    for p in obj.get('menuPrices') or []:
+        try:
+            v = float(p)
+        except (TypeError, ValueError):
+            continue
+        if 5 <= v <= 300:
+            out.append(v)
+    return out[:12]
 
 
 def look(cafe: dict, photos: list[str], key: str, model: str) -> int:
@@ -65,11 +102,12 @@ def look(cafe: dict, photos: list[str], key: str, model: str) -> int:
         'photos': photos,
         'photoKinds': obj.get('photoKinds') or [],
         'observations': obs[:8],
-        'seats': obj.get('seats'),
-        'laptops': obj.get('laptops'),
-        'outdoor': obj.get('outdoor'),
-        'bigWindows': obj.get('bigWindows'),
-        'roastingGear': obj.get('roastingGear'),
+        'room': enum(obj, 'room'),
+        'seats': enum(obj, 'seats'),
+        'crowd': enum(obj, 'crowd'),
+        **{k: flag(obj, k) for k in FLAGS},
+        'menuPrices': prices(obj),
+        'promptVersion': PROMPT_VERSION,
         'fetchedAt': now_iso(),
     })
     print(f"{cafe['id']}: {len(obs)} observations", flush=True)
@@ -90,7 +128,7 @@ def main() -> None:
         if not photos:
             nophoto += 1
             continue
-        key = digest(photos)
+        key = digest([PROMPT_VERSION, photos])
         cached = read_json(VISION / f"{cafe['id']}.json")
         if cached and cached.get('inputDigest') == key:
             skipped += 1

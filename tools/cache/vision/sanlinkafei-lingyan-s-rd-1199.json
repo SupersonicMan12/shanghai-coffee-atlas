@@ -1,7 +1,7 @@
 {
   "cafeId": "sanlinkafei-lingyan-s-rd-1199",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "bc645dbb325b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "eafa3e7b0536",
   "photos": [
     "http://store.is.autonavi.com/showpic/e5fa65b32382a077ab88b758bdd7f27f",
     "http://store.is.autonavi.com/showpic/fbae49ee7e5b765fa75766f9da0356b4",
@@ -9,57 +9,51 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店铺位于临街商铺，有玻璃门和窗户",
-      "kind": "space",
+      "text": "店面为临街商铺，有大玻璃窗",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口有红色灯笼装饰",
+      "text": "入口处有红色立柱，标示'请上二楼'",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "入口处有‘请上二楼’提示",
-      "kind": "space",
+      "text": "店内可见顾客在消费，非空无一人",
+      "kind": "people",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店铺招牌为‘三林咖啡’，有中英文标识",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺与vivo、中国移动共用一层门面",
-      "kind": "space",
+      "text": "门头下方有vivo和中国移动的蓝色招牌",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "建筑上方有电线交错",
+      "text": "店铺位于多层建筑底层，有二层楼",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店门口有石球路障",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.85
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:12Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:10Z"
 }

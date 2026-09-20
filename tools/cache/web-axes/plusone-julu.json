@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "秉持着“喝咖啡,也要懂咖啡”的Plusone",
+      "url": "https://www.163.com/dy/article/I15GLMR305228TQ0.html",
+      "site": "163网易免费邮"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "这家店人超級多,尤其是在週末",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-145307871?locale=zh-MY",
+      "site": "上海鉅鹿路最愜意的咖啡館 - Trip.com"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "别有洞天的开阔空间以木质屋顶、地板和砖墙组成",
+      "url": "https://www.163.com/dy/article/I15GLMR305228TQ0.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "仅有一款季节特调。去繁为简,回归咖啡本身",
+      "url": "https://www.163.com/dy/article/I15GLMR305228TQ0.html",
+      "site": "163网易免费邮"
+    },
+    "price": {
+      "value": 59.0,
+      "quote": "¥59/人",
+      "url": "http://m.dianping.com/shop/848997167?msource=applemaps",
+      "site": "【Plusone 咖啡(巨鹿路Landing店)】电话_地址 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "我的咖啡品鉴日记",
+      "url": "https://m.dianping.com/discovery/2441373093",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海探店|PLUSONE咖啡3.0 又一叙利亚风力作☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/974005594",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "上海鉅鹿路最愜意的咖啡館 - Trip.com",
+      "url": "https://my.trip.com/moments/detail/shanghai-2-145307871?locale=zh-MY",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "【Plusone 咖啡(巨鹿路Landing店)】电话_地址 - 大众点评",
+      "url": "http://m.dianping.com/shop/848997167?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海美食清单 | 春天当然要来巨鹿路喝咖啡呀 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1470641950",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "从武康路到巨鹿路,这家咖啡店又火了!",
+      "url": "https://www.163.com/dy/article/I15GLMR305228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 7,
+      "title": "咖啡清单|巨长富:传说中的十步一家咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2099937188",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 8,
+      "title": "Plusone咖啡（鉅鹿路Landing店） - 上海 - 永安旅遊",
+      "url": "https://www.wingontravel.com/discovery/restaurant-136413409",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:34:39Z"
+}

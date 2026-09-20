@@ -1,7 +1,7 @@
 {
   "cafeId": "cooler-daduhe-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "568483fd9b3b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3ed3cde4a520",
   "photos": [
     "https://store.is.autonavi.com/showpic/f8ce33fae6f3f067113a004647f7e860",
     "https://aos-comment.amap.com/B0JATHSR1W/headerImg/e0f52f8a5ff08366f2be56a91f8fbf75_2048_2048_80.jpg",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "other",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面位于大渡河路1617号，临街拱形玻璃门入口",
+      "text": "店门口有木质多层花架，摆放着多盆多肉植物。",
+      "kind": "plants",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内吧台前摆放着几盆较大的多肉植物。",
+      "kind": "plants",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有金属货架，上面陈列着多瓶洋酒和调酒用具。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持的杯中是冰咖啡，可见冰块和咖啡液分层。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面入口为玻璃门，门上方有 'Cooler' 店招。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店外有木质花架，摆放多肉植物",
+      "text": "店外地面铺有灰色地砖，旁边有一棵棕榈树。",
       "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内吧台区域有绿植装饰和酒瓶陈列",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为冰咖啡，杯中有冰块和奶泡",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室内有多个陶制花盆种植多肉植物",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见酒类饮品货架，含多种瓶装酒",
-      "kind": "drinks",
+      "text": "店内吧台区域有绿植装饰墙，墙面为深色纹理。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店外有行人经过，环境为城市街道",
+      "text": "照片中未见顾客或工作人员，无明显座位区。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.7
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:57Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:28Z"
 }

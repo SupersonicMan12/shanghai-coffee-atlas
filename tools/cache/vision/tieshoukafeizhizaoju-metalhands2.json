@@ -1,71 +1,80 @@
 {
   "cafeId": "tieshoukafeizhizaoju-metalhands2",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "cdc56cac6b76",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "48c5a33e6867",
   "photos": [
-    "https://store.is.autonavi.com/showpic/db4838ccdd54de510000002861734923?type=pic",
     "https://aos-comment.amap.com/B0FFLH2TVK/comment/aa139f4c04db94534fbbb639e8b13b54_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/a403a572c9d09e220000000671520071?type=pic"
+    "https://aos-comment.amap.com/B0FFLH2TVK/comment/D413F93A_03E3_46CC_907B_FA84F6CC70A0_L0_001_1500_200_1755830249198_87816437.jpg",
+    "https://aos-comment.amap.com/B0FFLH2TVK/comment/d68927a253c89433e6a8e9777daf529d_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/db4838ccdd54de510000002861734923?type=pic"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店外有长凳，多人坐在路边，可见至少8个座位。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街是大玻璃窗，店内可见吧台和咖啡机。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口停放共享单车与电瓶车，街道上有树影。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "杯中拉花为心形图案，应为拿铁类奶咖。",
-      "kind": "drinks",
+      "text": "店招显示‘铁手咖啡制造局’及英文‘METAL HANDS’，门柱刻有相同名称",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "店内吧台后方有磨豆机、咖啡机等专业设备。",
-      "kind": "beans",
+      "text": "临街外摆区有约8人坐着，含电动车与自行车停放，属室外座",
+      "kind": "outdoor",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见约6张小圆桌+折叠椅+1张缝纫机改造桌+1把深色皮椅，座位数约8-10个",
+      "kind": "seating",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "有人在店外长凳上坐着，未见使用电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有树，阳光透过树叶在地面投下阴影。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面位于沿街建筑一层，非商场或庭院内。",
+      "text": "入口处为大落地玻璃窗，室内可见木质横梁天花板、白底花砖地面",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "照片1中两杯拉花咖啡（心形/叶形），杯碟为陶釉渐变色，无其他饮品或食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内未见明显烘焙机、手冲台或虹吸壶等专业器具，吧台区域被遮挡不可见",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内墙边有绿植（琴叶榕）、悬挂藤蔓、墙面壁灯，无书架或宠物",
+      "kind": "plants",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片4中可见多人在店外长凳上坐，无明显电脑使用者；室内仅一人背对镜头，无法确认是否用电脑",
+      "kind": "laptops",
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:57:42Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:20Z"
 }

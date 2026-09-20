@@ -1,7 +1,7 @@
 {
   "cafeId": "hetajiaogepengyougoukamaoka-aiqinhai",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "06781afc1362",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "fe75d8ffdf24",
   "photos": [
     "http://store.is.autonavi.com/showpic/723721c9e478949729b8712a71b5edaa",
     "http://store.is.autonavi.com/showpic/4d99b6ad7f6db726e5051df439dd4541",
@@ -9,63 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，临街玻璃门设计",
+      "text": "店面位于商场内，有玻璃门和落地窗",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店外设有木质桌椅，提供室外座位",
+      "text": "店外摆放了多组桌椅，可坐人",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见宠物狗，为狗咖猫咖类型",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有宠物宣传海报，展示多只狗",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺入口为双开玻璃门，可透视内部",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内可见木质桌椅与绿植装饰",
-      "kind": "seating",
+      "text": "室内有木质桌椅，空间明亮",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店铺外立面为弧形设计，贴有大量动物照片",
-      "kind": "space",
+      "text": "店内有绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外广告海报上有狗的图案",
+      "kind": "story",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口张贴有开业活动信息",
-      "kind": "story",
+      "text": "照片中没有看到人在用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有看到烘焙机或手冲台等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有显示菜单或价格",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:25Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:57Z"
 }

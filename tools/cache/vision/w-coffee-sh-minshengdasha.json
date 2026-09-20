@@ -1,7 +1,7 @@
 {
   "cafeId": "w-coffee-sh-minshengdasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "46da30cae09a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "860ce67b8ac5",
   "photos": [
     "http://store.is.autonavi.com/showpic/ae750a53bc867d04fe5be5d866626b94",
     "http://store.is.autonavi.com/showpic/328d34ebc22d16f835f0d44aea547a3a"
@@ -12,52 +12,68 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和玻璃展示柜",
-      "kind": "space",
+      "text": "吧台后有咖啡机和磨豆机等设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "可见落地窗，采光良好",
-      "kind": "light",
+      "text": "吧台前有玻璃展示柜，内有食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台对面有座位区，可见几把椅子",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有大型落地窗，窗外是高楼",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "展示柜内无食物陈列",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台后有咖啡机和磨豆机等设备",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "菜单上显示了手冲、意式等分类",
+      "kind": "specialtyMenu",
+      "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "菜单板显示饮品种类和价格",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "菜单上可见价格，如38元、42元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店内空间较小，为小型咖啡馆",
-      "kind": "space",
+      "text": "室内光线明亮，天花板有长条灯带",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "无明显座位区域，未见顾客使用",
-      "kind": "seating",
+      "text": "照片中无人在使用电脑",
+      "kind": "laptops",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     }
   ],
-  "seats": "none",
+  "room": "bar",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:20:18Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    38.0,
+    42.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:03Z"
 }

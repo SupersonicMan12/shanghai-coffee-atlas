@@ -1,7 +1,7 @@
 {
   "cafeId": "ws-cafe-lounge-huaihai-middle-rd-1298",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ab266fb8590f",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "172a08d02b6a",
   "photos": [
     "https://aos-comment.amap.com/B0FFFZK032/comment/F0C3D1A5_B7A5_49F6_86BA_EF210BF8B79F_L0_001_1512_2016_1727284840097_06658374.jpg",
     "https://aos-comment.amap.com/comment/content_service__1772636663921_79277617_1772636720749_02945967.jpg",
@@ -14,28 +14,35 @@
   ],
   "observations": [
     {
-      "text": "草莓千层酥，有奶油和糖粉装饰",
+      "text": "草莓奶油千层酥，顶部有新鲜草莓片和糖粉，侧面挤有奶油球。",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店面在临街多层建筑一层，有黑色遮阳篷",
+      "text": "店面为多层建筑，底层三扇黑色遮阳篷上印有'WS SPACE 無集。'字样。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "木板上摆着切片牛排，配三小碗酱料",
+      "text": "牛排切片摆放在木板上，配菜包括蘑菇、土豆泥和酱汁。",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": null,
+  "seats": null,
+  "crowd": null,
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:09Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:55Z"
 }

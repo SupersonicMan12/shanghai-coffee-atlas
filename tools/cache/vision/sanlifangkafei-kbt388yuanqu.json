@@ -1,7 +1,7 @@
 {
   "cafeId": "sanlifangkafei-kbt388yuanqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0b295022909d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e18fe7b003b6",
   "photos": [
     "https://store.is.autonavi.com/showpic/736365d07493f55a5befcafbdb42188c"
   ],
@@ -10,52 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店铺为独立小型建筑，位于园区旁",
+      "text": "店面为独立小建筑，外立面为白色瓷砖和深色玻璃",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有室外座位区，设遮阳伞和桌椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "入口为玻璃门，两侧有大面积玻璃窗",
+      "text": "有大面积落地窗，临街采光良好",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门前地面为黑白格纹铺装，有绿植带",
+      "text": "店前有黑白格地砖，设有一张长椅和户外遮阳伞",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外可见绿植和草坪，背景是高大的办公楼",
       "kind": "view",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "建筑外立面为白色瓷砖与深色框架组合",
-      "kind": "space",
+      "text": "店内门口处有一人，未见明显使用电脑或烘焙设备",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "无可见烘焙设备或手冲台",
-      "kind": "roastingGear",
+      "text": "无明显手冲台、虹吸壶或磨豆机等专业器具",
+      "kind": "brewBar",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
-      "text": "无明显顾客或工作人员在场",
-      "kind": "people",
+      "text": "未见明确饮品或食物陈列，菜单信息不可见",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "店外座位区有桌椅，可坐人，但无人使用",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:21:13Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:05Z"
 }

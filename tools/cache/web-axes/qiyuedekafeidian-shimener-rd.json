@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "布置得很温馨，相比市区网红咖啡馆来说这里没有那么多‘社交属性’",
+      "url": "https://www.dianping.com/discovery/1252150336",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "short",
+      "quote": "如果家或办公室在附近，一定每天都要去喝一杯，难怪从我坐下来以后发现店里外卖订单没有停过，生意很好",
+      "url": "https://www.dianping.com/discovery/1252150336",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "一豆三喝包含一杯气泡美式，一杯拿铁，一杯特调",
+      "url": "https://www.dianping.com/discovery/1252150336",
+      "site": "大众点评网"
+    },
+    "price": {
+      "value": 45.0,
+      "quote": "一豆三喝包含一杯气泡美式，一杯拿铁，一杯特调，难以置信这样的出品居然只要45元",
+      "url": "https://www.dianping.com/discovery/1252150336",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "https://new.qq.com/rain/a/20251231A01H5G00",
+      "url": "https://new.qq.com/rain/a/20251231A01H5G00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "魔都新店,浦东大道温馨社区咖啡馆七月 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1252150336",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "夏日遛弯不重样!盘点上海10个高颜值咖啡打卡点,第一个就在→",
+      "url": "https://mp.weixin.qq.com/s?__biz=Nzg1MzAxMTgx&mid=2655340391&idx=2&sn=9e6bdafb426a9e5fb2efca21265e3656&chksm=1c807e708f09d3df7acc7908aa84d512bf655a6e1f8f95072ee61926cf3b1d43b93c5cd61cb1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "上海闲人指南 | 除了City Walk,周末还有哪些事值得做? ",
+      "url": "https://chihe.sohu.com/a/695724449_409158",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡馆数量达7857家，位列全球第一 - 黄浦区人民政府",
+      "url": "https://www.shhuangpu.gov.cn/xw/001009/20220801/ae32c03e-ab9a-4278-be1a-1ed143d39a4b.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 6,
+      "title": "玫瑰咖啡厅(茂名南路店)",
+      "url": "https://baike.baidu.com/item/玫瑰咖啡厅（茂名南路店）/14219648",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 7,
+      "title": "七宝老街藏着一栋温暖“小白楼”,在这里邂逅人间善意",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5MzIzODQzMg==&mid=2650768776&idx=1&sn=563eeb46aff1f2be781a011110868639&chksm=8929729e5c5e1b6bdbfa3ae293f91d40d091d6cf6d204ba5b651a24831d68cfc53c823ff4036&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:10:13Z"
+}

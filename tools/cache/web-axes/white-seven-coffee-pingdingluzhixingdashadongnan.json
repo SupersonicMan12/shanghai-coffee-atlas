@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "可以舒适地泡上一个下午。",
+      "url": "https://www.dianping.com/discovery/778125876",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "工作日人不多",
+      "url": "https://www.dianping.com/discovery/1206843421",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "可以舒适地泡上一个下午。",
+      "url": "https://www.dianping.com/discovery/778125876",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "它的招牌白七咖啡极具内涵。气泡丰富的干姜水,加入浓缩咖啡液",
+      "url": "http://www.sohu.com/a/664923154_100186869",
+      "site": "搜狐"
+    },
+    "price": {
+      "value": 41.0,
+      "quote": "¥41/人",
+      "url": "http://m.dianping.com/shop/506968887?msource=applemaps",
+      "site": "【白七咖啡WHITE SEVEN COFFEE】电话_地址_价格 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海探店|有趣!咖啡和肥皂会擦出什么火花?",
+      "url": "https://m.dianping.com/discovery/691555760",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "100家魔都咖啡馆|白七咖啡馆,带块香皂美美走吧 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/724735083",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "【白七咖啡WHITE SEVEN COFFEE】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/506968887?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "白七咖啡|周末溜娃好去处 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/778125876",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "杨浦滨江|皂梦空间,浮生若梦,怀旧又酷炫 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1206843421",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "【信息分享】上海能看到绝美景观的10家咖啡馆,每一家都爱了 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUxNDczMjQwMQ==&mid=2247570818&idx=5&sn=3c6c7da3e81e5d16363f061cd95ee509&chksm=f942ed9cce35648ac7aec49ca3ece89b8b66486dcfe92ac9757d5a2003e0403f5a869d0253f6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "带着“肥皂泡”的咖啡,只在杨浦滨江咖啡馆工业_气息",
+      "url": "http://www.sohu.com/a/664923154_100186869",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "上海咖啡志 |百年皂厂变身白七咖啡厅,给城市留下温暖记忆",
+      "url": "https://www.thepaper.cn/newsDetail_forward_11064049",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 9,
+      "title": "很多人觉得这是这里最出片的地方,无奈我拍照水平有限 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/785776447",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 10,
+      "title": "上海咖啡志",
+      "url": "https://k.sina.com.cn/article_5044281310_12ca99fde02001hpuf.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:33:15Z"
+}

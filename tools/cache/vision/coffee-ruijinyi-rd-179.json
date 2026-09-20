@@ -1,71 +1,82 @@
 {
   "cafeId": "coffee-ruijinyi-rd-179",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "148723ee820d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "39e14f82a218",
   "photos": [
+    "https://aos-comment.amap.com/B0G31C017M/comment/E59D46C6_E967_4DE8_9D0C_CE125A9EE416_L0_001_1500_200_1770378475766_24057004.jpg",
     "https://aos-comment.amap.com/B0G31C017M/comment/20260323-80fd8e4284a3d06229c3b0a4-4r5assZZdax8NS2Qxs4lLQ.jpg",
-    "https://store.is.autonavi.com/showpic/33433b041bd1ec4a0000001639762574?type=pic",
-    "https://aos-comment.amap.com/B0G31C017M/comment/E59D46C6_E967_4DE8_9D0C_CE125A9EE416_L0_001_1500_200_1770378475766_24057004.jpg"
+    "https://aos-comment.amap.com/B0G31C017M/comment/D3B33FDC_BE58_4548_9B04_4B0DDE3D9692_L0_001_1500_200_1769187656133_02383454.jpg",
+    "https://store.is.autonavi.com/showpic/33433b041bd1ec4a0000001639762574?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
+    "menu",
     "food"
   ],
   "observations": [
     {
-      "text": "店面临街，木质窗框与玻璃门，门上贴有'Merry Christmas'与手写春联",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外设木长凳配3个圆形坐垫，旁有卡通立牌与红蝴蝶结装饰",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见木质吧台、玻璃展示柜、白色小方砖墙、米色布帘遮窗",
-      "kind": "space",
+      "text": "临街小店，门面有木框玻璃窗与木门，门外设长凳+坐垫，无遮挡户外座位",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "展示柜内有贝果（原味、全麦）、司康、磅蛋糕、布朗尼等，每件标价木牌",
+      "text": "店内吧台前有双层玻璃展示柜，陈列贝果、司康、小蛋糕等烘焙品，每件附手写价签",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台后方有磨豆机（带红色'福'字贴纸）、咖啡机、菜单立牌与QR码",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "窗边挂手写卡片'纯手工·低糖·低脂·口感扎实'，柜顶摆4个卡通小玩偶",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.94
-    },
-    {
-      "text": "店招为黑底圆标'叁叁'与右侧'叁叁咖啡'字样，墙面为水泥+红砖拼接",
-      "kind": "space",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "室内无可见顾客或电脑使用者，未见手冲/虹吸/烘焙设备",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.98
+      "text": "菜单显示“Dirty”“燕麦拿铁”“抹茶”等饮品名及价格，其中Dirty标价35元；手冲豆子产地含埃塞俄比亚、哥伦比亚",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后可见大型磨豆机（带红“福”字装饰）、咖啡机、叠放纸杯，未见烘豆机或虹吸装置",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "大落地窗采光良好，窗外可见居民楼与无叶树枝，窗内挂布帘，窗台有绿植与干花",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上“Double 船长”“Dirty”等特调标注了风味描述，如“焦巧/曲奇/可可”，部分单品注明“SOE”",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "展示柜顶部摆放三只卡通企鹅摆件，吧台旁有青蛙玩偶，整体风格偏日系/童趣",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见顾客，也未见有人使用笔记本电脑，店内空置状态",
+      "kind": "crowd",
+      "photo": 4,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:10Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:33Z"
 }

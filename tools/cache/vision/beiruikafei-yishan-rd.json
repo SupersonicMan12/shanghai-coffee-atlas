@@ -1,52 +1,80 @@
 {
   "cafeId": "beiruikafei-yishan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0ceffff2ef93",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "54d2513ca3c7",
   "photos": [
-    "https://aos-comment.amap.com/B0HUXNK60V/comment/176395428656_1763954288085_24407991.jpg",
+    "http://store.is.autonavi.com/showpic/ffa7f872dfae770824891ee8d3030cba",
     "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf",
-    "http://store.is.autonavi.com/showpic/ffa7f872dfae770824891ee8d3030cba"
+    "http://store.is.autonavi.com/showpic/b6ec1a7413e9ca97d039673e73c6cb1f",
+    "https://aos-comment.amap.com/B0HUXNK60V/comment/176395428656_1763954288085_24407991.jpg"
   ],
   "photoKinds": [
+    "drink",
+    "drink",
     "storefront",
-    "drink"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门，可见内部有座位",
-      "kind": "space",
+      "text": "饮品有绿色的‘大眼怪贝瑞冰’，顶部有奶油和眼球装饰。",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有顾客就座，但具体数量不清",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "落地玻璃窗提供采光，街道景观可见",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "展示饮品包括伯爵脏小贝DIRTY和大眼怪贝瑞冰",
+      "text": "饮品有‘伯爵脏小贝DIRTY’，为分层咖啡饮料。",
       "kind": "drinks",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面位于临街位置，门头为灰色波纹板，有玻璃门和窗户。",
+      "kind": "space",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "门口立牌广告显示冰点果咖等饮品",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "店内可见木质桌椅，有顾客在座，环境明亮。",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.8
+    },
+    {
+      "text": "门口贴有‘告别排队 码上点单’二维码海报。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有电动车停放，可见街道及对面店铺（德克士、dicos）。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门店地址牌显示凯旋路2561号。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内玻璃门贴有冰点果咖宣传图，展示多款饮品。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.85
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:59Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:28Z"
 }

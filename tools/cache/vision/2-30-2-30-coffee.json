@@ -1,71 +1,78 @@
 {
   "cafeId": "2-30-2-30-coffee",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6ed71b912053",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5bf5bcf624f8",
   "photos": [
     "https://aos-comment.amap.com/B0HULH5L1W/comment/57111C94_B1D3_4F12_B289_9F54AC4F3BD2_L0_001_1500_2000_1742630294031_42957424.jpg",
     "http://store.is.autonavi.com/showpic/cde1185dc583d19baf2bb09fc476b818",
     "https://store.is.autonavi.com/showpic/7f7e6d879e78549d83b018fdf233b9fa"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
-    "storefront"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有吧台和少量座位，空间较小",
+      "text": "室内为大理石地面，空间开阔，有玻璃门和高窗。",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见吧台和后厨区域，有专业咖啡设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有顾客在排队或等待，非空无一人。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "咖啡馆临街，有落地玻璃窗",
+      "text": "门口贴有饮品海报，显示有多种特调饮料。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面临街，有落地玻璃门窗，采光良好。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口可见饮品菜单，包含多种冷热饮",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有烘焙机和手冲设备",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有植物装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.6
-    },
-    {
-      "text": "店内有顾客在排队点单",
-      "kind": "people",
+      "text": "室内有木质圆桌和椅子，座位数量有限。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店外有行人经过，位于街道旁",
+      "text": "店外街道上有人行走，为城市街道环境。",
       "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "纸杯内为浅色饮品，可能是拿铁或美式",
-      "kind": "drinks",
+      "text": "店内有绿植点缀，环境整洁。",
+      "kind": "plants",
       "photo": 1,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:17:26Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:21Z"
 }

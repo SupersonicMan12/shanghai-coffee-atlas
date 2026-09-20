@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "或者坐下来晒晒太阳,品尝香浓咖啡,携一本好书,享受阅读的乐趣。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247994961&idx=1&sn=f5939675e656d945c636c2fcfeeaa15c&chksm=ea9d566adb4ae5b14109433bb614e583bb826eca85f124837b03b08885a0302045916f89c42a&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "店外摆着折叠椅、露营桌等装备,透着随性松弛的氛围。",
+      "url": "https://www.shpt.gov.cn/bm-ms/20251028/964658.html",
+      "site": "上海普陀"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在平日或周末,你可以与朋友一同漫步,畅谈,分享故事;或者坐下来晒晒太阳,品尝香浓咖啡,携一本好书,享受阅读的乐趣。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247994961&idx=1&sn=f5939675e656d945c636c2fcfeeaa15c&chksm=ea9d566adb4ae5b14109433bb614e583bb826eca85f124837b03b08885a0302045916f89c42a&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "这里的特调咖啡和咖啡豆都非常出色,让你感受到别样的美好时光。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247994961&idx=1&sn=f5939675e656d945c636c2fcfeeaa15c&chksm=ea9d566adb4ae5b14109433bb614e583bb826eca85f124837b03b08885a0302045916f89c42a&scene=27",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "普陀这些家门口的咖啡店,你都喝过了吗?快来投票选出最爱的那一家吧!",
+      "url": "https://www.163.com/dy/article/JSKKJIUS055040N3.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 2,
+      "title": "周末放松想“微度假”?不如试试长风这条咖啡微旅行线路 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3ODI5NDgzMg==&mid=2247994961&idx=1&sn=f5939675e656d945c636c2fcfeeaa15c&chksm=ea9d566adb4ae5b14109433bb614e583bb826eca85f124837b03b08885a0302045916f89c42a&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "藏不住啦!普陀这几家苏州河边的店承包你的松弛感!",
+      "url": "https://www.shpt.gov.cn/bm-ms/20251028/964658.html",
+      "site_name": "上海普陀"
+    },
+    {
+      "index": 4,
+      "title": "藏不住啦！普陀这几家苏州河边的店承包你的松弛感！ - 上海市人民政府",
+      "url": "https://www.shanghai.gov.cn/nw17239/20251029/b9a3582c4bd44be189d590110979defc.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 5,
+      "title": "普陀这个青少年创新实验室入选市级名单",
+      "url": "https://www.163.com/dy/article/JGHU6URV055040N3.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 6,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "不用远走!五一泡在虹口咖啡里,5家氛围感小店解锁假期正确打开方式",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260506/61a1c893-24d6-465e-9c6b-c37e287b84c1.html",
+      "site_name": "上海市虹口区人民政府"
+    },
+    {
+      "index": 8,
+      "title": "️ 這家上海咖啡館,在你啜飲第一口之前,就會成為你的心頭好 - Trip.com",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-153034828/",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "上海成为全球咖啡馆最多的城市咖啡文化日趋精品、个性化",
+      "url": "https://sh.cctv.com/2021/04/08/ARTIzZfqbVL5qcRmINpPeGXm210408.shtml",
+      "site_name": "央视网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:29:31Z"
+}

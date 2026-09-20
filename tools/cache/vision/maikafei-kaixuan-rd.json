@@ -1,7 +1,7 @@
 {
   "cafeId": "maikafei-kaixuan-rd",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "bcf81c2ed8e0",
+  "inputDigest": "b69149822f72",
   "photos": [
     "https://aos-comment.amap.com/B0K6GSZQE1/comment/2025-12-25-11-32-56%2B5A6F072D-EE1D-4670-A42E-6DAE5404281_1766633602301_10014456.jpg"
   ],
@@ -10,40 +10,41 @@
   ],
   "observations": [
     {
-      "text": "店内有卡通人物雕塑装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "空间为室内吧台区域，有木质台面",
+      "text": "店内有一个大型卡通人物雕塑",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见黄色座椅，座位数量有限",
+      "text": "天花板上有'McCafé'发光店招",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见木质桌台和黄色凳子",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "天花板有悬挂式灯饰和嵌入式照明",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有人在店内活动",
+      "text": "左侧有顾客坐在桌边",
       "kind": "people",
       "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:43Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:55Z"
 }

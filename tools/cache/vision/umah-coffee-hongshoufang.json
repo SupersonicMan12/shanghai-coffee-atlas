@@ -1,71 +1,87 @@
 {
   "cafeId": "umah-coffee-hongshoufang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e4b313f1a749",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a0784d4033c8",
   "photos": [
     "https://aos-comment.amap.com/B0KGJH0VKC/comment/74732613b01e0ac1fc3a5b042b9eb987_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KGJH0VKC/comment/e61a160bd9fdb263c37f15517d53501a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KGJH0VKC/comment/menu/6854af14c65cfd43ee70ceeab832724d_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "food",
     "storefront",
+    "interior",
+    "food",
     "menu"
   ],
   "observations": [
     {
-      "text": "店内有原味巴斯克芝士蛋糕和三种司康",
+      "text": "店内有手冲台和磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上明确列出单品咖啡的产地，如埃塞俄比亚、肯尼亚。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "食物区展示着司康和巴斯克蛋糕。",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单上有美式、拿铁、dirty、卡布奇诺等咖啡选项",
-      "kind": "drinks",
+      "text": "菜单上有清晰的价格标签，如美式18元、拿铁22元。",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "咖啡豆产地包括埃塞俄比亚、肯尼亚、格拉纳达等",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有手冲咖啡（Pour Over）选项",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口设有折叠椅和小桌，提供室外座位",
+      "text": "店面入口处有折叠椅和小桌，提供室外座位。",
       "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店面为临街木结构门面，入口处有玻璃门",
-      "kind": "space",
+      "text": "店外有落地玻璃窗，室内光线充足。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中店内没有顾客，只有店员在工作。",
+      "kind": "crowd",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见店内有磨豆机和咖啡制作设备",
-      "kind": "roastingGear",
+      "text": "店内空间为小型吧台式，适合站喝或短暂停留。",
+      "kind": "room",
       "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "司康价格为12元或15元，巴斯克芝士蛋糕36元",
-      "kind": "food",
-      "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:19Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    18.0,
+    22.0,
+    25.0,
+    28.0,
+    32.0,
+    38.0,
+    40.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:32Z"
 }

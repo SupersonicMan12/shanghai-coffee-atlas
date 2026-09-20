@@ -1,71 +1,85 @@
 {
   "cafeId": "aokka-coffee-qiantangongyuanxiang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fa2c1e6dbd0f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a6b73aa5f5ca",
   "photos": [
-    "https://aos-comment.amap.com/B0K2798U17/comment/content_media_external_file_1000078022_ss__1769501030567_10197083.jpg",
     "https://aos-comment.amap.com/B0K2798U17/comment/D2C84981_61B3_4735_AD74_8B79AE8FE0CE_L0_001_1206_139_1770828325821_26204357.jpg",
+    "https://aos-comment.amap.com/B0K2798U17/comment/35A550BB_A4CE_4761_9ED6_BE8D5531CD7E_L0_001_1500_2000_1728213474830_20528453.jpg",
+    "https://aos-comment.amap.com/B0K2798U17/comment/content_media_external_file_1000078022_ss__1769501030567_10197083.jpg",
     "https://store.is.autonavi.com/showpic/755e4a1b793395480000003025252011?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "food",
-    "menu"
+    "drink",
+    "menu",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店外有米乳红枣拿铁和红枣龙眼拿铁的促销广告",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有吧台，可提供咖啡和烘焙食品。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "展示柜中有可颂、芝士球和法式开心果厚塔等烘焙食品",
-      "kind": "food",
+      "text": "店外有户外座位，配有绿色遮阳伞。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单显示有手冲咖啡、美式、拿铁等饮品，价格在22-48元之间",
+      "text": "店内有手冲咖啡和单品咖啡菜单，列有产地和价格。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物陈列柜里有可颂、碱水球和蛋挞等糕点。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品菜单上显示有米乳红枣拿铁和红枣龙眼拿铁。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内设有木质菜单墙，陈列多种咖啡选项及产地信息",
-      "kind": "menu",
-      "photo": 3,
+      "text": "菜单上可见咖啡价格，如¥28, ¥30, ¥32。",
+      "kind": "menuPrices",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店外有透明遮阳棚和绿色植物装饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "柜台后可见电子支付设备和点单屏幕",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "面包柜内陈列整齐，使用木质托盘和标价牌",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有落地窗，采光良好，窗外可见街道环境",
+      "text": "店内有大落地窗，采光良好。",
       "kind": "light",
-      "photo": 3,
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见明显烘焙机或专业手冲器具。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.7
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:46Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    30.0,
+    32.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:44Z"
 }

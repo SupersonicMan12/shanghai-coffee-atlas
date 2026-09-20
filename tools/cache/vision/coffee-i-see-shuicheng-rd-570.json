@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-i-see-shuicheng-rd-570",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e05b87943566",
+  "inputDigest": "9571ae052660",
   "photos": [
     "https://store.is.autonavi.com/showpic/66c70914352b1a740000002120392895?type=pic",
     "https://aos-comment.amap.com/B0L667M443/comment/content_media_external_images_media_92400_ss__1741251140153_88209967.jpg",
@@ -14,52 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店面临街，有玻璃门和窗户，采光良好",
+      "text": "店面为小型街边店，有临街吧台位",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口有室外座位，配备木凳和折叠椅",
+      "text": "吧台外有3张木制高脚凳和1张折叠椅",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡豆罐和花艺装饰，环境整洁",
-      "kind": "interior",
+      "text": "店内可见玻璃豆桶，但无明显专业烘焙或手冲设备",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品为拿铁类，表面撒有坚果碎",
+      "text": "一张木桌上摆放着一杯撒有碎屑的拿铁/卡布奇诺",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有三人正在交谈，其中一人手持饮品",
-      "kind": "people",
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有咖啡机和磨豆机等专业设备",
-      "kind": "roastingGear",
+      "text": "店内角落有盆栽装饰，包括兰花和柑橘类植物",
+      "kind": "plants",
       "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "室内有木质吧台和蓝色软包墙面",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.85
     }
   ],
+  "room": "bar",
   "seats": "few",
+  "crowd": "some",
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:12:12Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:37Z"
 }

@@ -1,71 +1,83 @@
 {
   "cafeId": "shanghaipaikafei-huashan-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "315c616fd8c4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0687df91490e",
   "photos": [
-    "https://aos-comment.amap.com/B0I2JA1LPV/comment/859F772D_0C15_4F76_9499_6361569A1B06_L0_001_960_128_1765378192198_50542537.jpg",
     "https://aos-comment.amap.com/B0I2JA1LPV/comment/content_media_external_file_100000293_1767684403054_32097695.jpg",
+    "https://aos-comment.amap.com/B0I2JA1LPV/comment/859F772D_0C15_4F76_9499_6361569A1B06_L0_001_960_128_1765378192198_50542537.jpg",
+    "https://aos-comment.amap.com/B0I2JA1LPV/comment/content_media_external_file_128424_ss__1773531541575_04186145.jpg",
     "https://aos-comment.amap.com/B0I2JA1LPV/comment/content_media_external_file_128432_ss__1773531541564_46711393.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "menu"
+    "menu",
+    "other"
   ],
   "observations": [
     {
-      "text": "店外有木制藤编椅，可坐于街边。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见多组桌椅，空间不拥挤。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "临街为大玻璃门，采光好。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "一杯拿铁拉花为老虎图案。",
-      "kind": "drinks",
+      "text": "店面为红砖外墙老建筑，临街双开玻璃门，门上有‘拉’字标识",
+      "kind": "space",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "菜单上列有美式、卡布奇诺等基础款。",
-      "kind": "menu",
+      "text": "店内可见黑白六边形地砖、木质椅子与圆桌，空间为中等大小（约15-25座）",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有藤编椅及小圆桌，门前人行道铺装石板，有树影遮挡，属临街外摆区",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单牌显示‘上海麦乳精黄油拿铁’售价36元（热/冷），标注‘限时上新’",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上放有印‘上海牌咖啡’的纸质宣传单，内文含‘1935年创立’‘用上海生活哲学诠释全球精品标准’",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品杯为蓝绿色/青瓷色带竖纹陶瓷杯，其中一杯拉花为虎形图案，另一杯为深色黑咖啡（无奶泡）",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见银色手冲壶、纸盒包装牛奶、吧台后置物架，但未见磨豆机/虹吸/烘豆机等设备",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有绿色台灯和植物装饰。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.75
-    },
-    {
-      "text": "门口贴有“禁止宠物入内”标识。",
-      "kind": "story",
-      "photo": 1,
+      "text": "照片中无人在使用笔记本电脑，也未见明显烘焙机或大型设备",
+      "kind": "laptops",
+      "photo": 4,
       "confidence": 0.9
-    },
-    {
-      "text": "店内有人坐着，但未见使用电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:48Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    36.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:03Z"
 }

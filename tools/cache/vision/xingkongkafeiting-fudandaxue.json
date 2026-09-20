@@ -1,52 +1,71 @@
 {
   "cafeId": "xingkongkafeiting-fudandaxue",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7f71d803eee9",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e3b5824c6a4d",
   "photos": [
-    "https://aos-comment.amap.com/B00155HCYW/comment/3cea6685b27753ea512f5fd6201be1a9_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B00155HCYW/comment/10668fb511269281645d4275baec2085_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B00155HCYW/comment/content_media_external_file_65368_ss__1760276583112_84071926.jpg"
+    "https://aos-comment.amap.com/B00155HCYW/comment/content_media_external_file_65368_ss__1760276583112_84071926.jpg",
+    "https://aos-comment.amap.com/B00155HCYW/comment/content_media_external_images_media_28544_ss__1733537305141_42804022.jpg",
+    "http://store.is.autonavi.com/showpic/ef303d4efa9871b0a7810a9352050762",
+    "https://aos-comment.amap.com/B00155HCYW/comment/3cea6685b27753ea512f5fd6201be1a9_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "interior",
-    "food"
+    "drink",
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "店内为多层开放式空间，有二楼座位区",
+      "text": "店内有木质墙面和现代简约装修，空间明亮开阔。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "可见多张桌椅，座位数量较多",
+      "text": "可见吧台区域后方有顾客在座位上，部分区域有蓝色座椅和隔断。",
       "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "大面积玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "一楼吧台区域有人活动，可能有饮品制作",
-      "kind": "people",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "一幅食物插画，展示类似蛋包饭的菜品",
-      "kind": "food",
-      "photo": 3,
+      "text": "饮品为美式咖啡，大杯冰饮，单价22元，总价25元。",
+      "kind": "drinks",
+      "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "收银小票显示店名为星空咖吧，位于复旦大学光华楼15楼。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物为一碗带煎蛋的盖饭，配有西兰花和肉片，上方写有‘好吃’二字。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "第三张图为一杯拉花咖啡，但无法确认是否为该店出品。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.5
     }
   ],
-  "seats": "many",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:56Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    22.0,
+    25.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:03Z"
 }

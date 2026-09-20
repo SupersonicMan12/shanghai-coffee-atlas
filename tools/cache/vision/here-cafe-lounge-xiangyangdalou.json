@@ -1,7 +1,7 @@
 {
   "cafeId": "here-cafe-lounge-xiangyangdalou",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "03da6c0138a7",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "8a5481ed7e82",
   "photos": [
     "https://store.is.autonavi.com/showpic/2303d05af7455bcdcefcbf07e8fbfd2b",
     "https://store.is.autonavi.com/showpic/f0d394cd5718c0b876146c125156e4ea",
@@ -14,58 +14,67 @@
   ],
   "observations": [
     {
-      "text": "店外放3张红色塑料凳，无固定室外座",
+      "text": "店面临街，有玻璃门窗，可看到店内部分陈设。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有红色塑料高脚凳和木质小桌，可作室外座位。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "临街大玻璃窗，室内灯光亮，可见内部陈设",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单板写有“Lunch Set”及价格35元",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "夜间照片显示门口堆人造雪，有圣诞装饰",
-      "kind": "story",
+      "text": "夜晚照片显示门口堆有积雪，门上挂有圣诞装饰。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "手持两杯饮品，一杯黄色、一杯粉红色",
+      "text": "店外立有黑板菜单，写有Lunch Set及价格35元。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见两杯饮品，一杯黄色、一杯红色，均带吸管。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台式座位，空间较紧凑",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "门口有行人与电瓶车经过，临街位置",
-      "kind": "view",
+      "text": "店门口有行人经过，一辆电动车停在旁。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "未见咖啡机或手冲等专业器具",
-      "kind": "roastingGear",
-      "photo": 1,
+      "text": "夜间照片中店内亮灯，有人影在窗内活动。",
+      "kind": "people",
+      "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "店面为小型临街店铺，外墙有木质饰面。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:57Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:25Z"
 }

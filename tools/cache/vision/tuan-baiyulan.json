@@ -1,7 +1,7 @@
 {
   "cafeId": "tuan-baiyulan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "1a055517cbf8",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5ae685483c7a",
   "photos": [
     "https://store.is.autonavi.com/showpic/70dfb1bdabfe3eee4665d4e4c60ee99c",
     "https://aos-comment.amap.com/B0KRLC7RH5/comment/FFAAEFCE_A402_4176_8871_2EA3B3DC8176_L0_001_1500_200_1766056103342_86331521.jpg",
@@ -9,63 +9,58 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior",
+    "food"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内（LG2层），临通道，无独立门面",
-      "kind": "space",
-      "photo": 1,
+      "text": "店内有多个玻璃展示柜陈列糕点",
+      "kind": "food",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "展示柜为长条形玻璃柜台，分三段，陈列可颂、贝果、小蛋糕等烘焙品",
-      "kind": "food",
+      "text": "菜单屏幕显示饮品和甜品图片",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺为商场内档口，空间中等",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "背景墙有3块电子屏，显示饮品与甜点图（含抹茶蛋糕、马卡龙、巧克力蛋糕）",
-      "kind": "menu",
-      "photo": 2,
+      "text": "地面为灰色几何图案瓷砖",
+      "kind": "room",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见明显座位区",
+      "kind": "seating",
+      "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "柜台后方可见咖啡机、磨豆机轮廓及部分操作台设备",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "地面为灰白几何拼接瓷砖，天花板装射灯与筒灯，无自然采光窗",
+      "text": "天花板有轨道射灯照明",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "柜台下方为深色木纹饰面，上方招牌为白色发光字“tuan bakery+café”",
-      "kind": "space",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "第二张图中柜台上方挂有圣诞树与圣诞帽装饰物",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "三张图均未见顾客座位、桌椅或电脑使用场景",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "none",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:07Z"
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:46Z"
 }

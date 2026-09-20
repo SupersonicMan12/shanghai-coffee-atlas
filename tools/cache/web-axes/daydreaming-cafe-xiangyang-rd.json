@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "不少从事创作、设计之类职业的年轻人,带着一台笔记本电脑,来到店里,一边喝咖啡一边工作,可以从上午坐到下午。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653324548&idx=1&sn=85f829c8cca6add30bc44527dbaf5e30&chksm=bcc0844bfbf9f2b09e909ab04fbfd1897e5698aed0577e5d89d993e69b2695cee2673166171c&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "希望给顾客的感受是“日常”和“亲切”...可以找到许多温暖的小细节",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653324548&idx=1&sn=85f829c8cca6add30bc44527dbaf5e30&chksm=bcc0844bfbf9f2b09e909ab04fbfd1897e5698aed0577e5d89d993e69b2695cee2673166171c&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "带着一台笔记本电脑,来到店里,一边喝咖啡一边工作,可以从上午坐到下午。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653324548&idx=1&sn=85f829c8cca6add30bc44527dbaf5e30&chksm=bcc0844bfbf9f2b09e909ab04fbfd1897e5698aed0577e5d89d993e69b2695cee2673166171c&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "这杯特调名为奈斯,冷萃咖啡中加入了荔枝汁、玫瑰酱和金酒",
+      "url": "https://www.163.com/dy/article/J3M4Q0BE05228TQ0.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "今夏特调咖啡,这10杯封神了",
+      "url": "https://www.163.com/dy/article/J3M4Q0BE05228TQ0.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 2,
+      "title": "汇探店 | 在这家咖啡店,让心灵小憩一下",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1ODczMw==&mid=2653324548&idx=1&sn=85f829c8cca6add30bc44527dbaf5e30&chksm=bcc0844bfbf9f2b09e909ab04fbfd1897e5698aed0577e5d89d993e69b2695cee2673166171c&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "汇探店 | 在这家咖啡店,让心灵小憩一下",
+      "url": "https://www.163.com/dy/article/IT0FHIVV05149R72.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "解锁“环球新食界”,在顶流商圈遍尝环球风味",
+      "url": "https://wap.51ldb.com/shsldb/zdxw/content/85bd58ee-22fa-4520-902d-bf9f944a803d.html",
+      "site_name": "劳动报"
+    },
+    {
+      "index": 5,
+      "title": "追风听雨上传的图片",
+      "url": "https://www.dianping.com/photos/2863260927/tag",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "上海稳居全国咖啡消费榜首沪上咖啡客正从商圈走进社区咖啡馆 - 荆楚网",
+      "url": "http://m.cnhubei.com/content/2023-03/26/content_15622132.html",
+      "site_name": "荆楚网-湖北日报网"
+    },
+    {
+      "index": 7,
+      "title": "上海稳居全国咖啡消费榜首 沪上咖啡客正从商圈走进社区咖啡馆",
+      "url": "https://www.cnr.cn/ent/canyin/zixun/20230327/t20230327_526196919.shtml",
+      "site_name": "央广网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:10Z"
+}

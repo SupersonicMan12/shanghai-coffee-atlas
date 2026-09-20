@@ -156,7 +156,7 @@ export const UI = {
   shanghaiNow: { en: 'now', zh: '现在' },
   now: { en: 'Now', zh: '回到现在' },
   openCount: { en: 'open', zh: '家营业中' },
-  searchPlaceholder: { en: 'Search café name or street', zh: '搜店名或街道' },
+  searchPlaceholder: { en: 'Search cafés', zh: '搜店名' },
   searchNoResults: { en: 'No café found.', zh: '没有找到这家店。' },
   searchLabel: { en: 'Search cafés', zh: '搜索咖啡馆' },
 
@@ -209,8 +209,11 @@ export const UI = {
 
   // location
   useMyLocation: { en: 'Use my location', zh: '用我的位置' },
-  dropPin: { en: 'Or tap a spot on the map', zh: '或在地图上点一个位置' },
-  pinHint: { en: 'Tap the map now…', zh: '现在点地图上的位置…' },
+  dropPin: { en: 'Pick on map', zh: '在地图上选点' },
+  pinHint: { en: 'Tap the map…', zh: '去点地图…' },
+  metroStation: { en: 'Metro station', zh: '找地铁站' },
+  pinBanner: { en: 'Tap anywhere on the map to start from there', zh: '点地图任何位置，从那里出发' },
+  cancel: { en: 'Cancel', zh: '取消' },
   clear: { en: 'Clear', zh: '清除' },
 
   // results strip / list
@@ -235,6 +238,8 @@ export const UI = {
   spendWord: { en: 'Spend', zh: '花费' },
   openAtHour: { en: 'open at', zh: '营业于' },
   shutAtHour: { en: 'closed at', zh: '已关门于' },
+  statusSuspended: { en: 'Amap lists it as temporarily closed', zh: '高德标注：暂停营业' },
+  statusRenovating: { en: 'Amap lists it as under renovation', zh: '高德标注：装修中' },
   seatsNone: { en: 'None — standing', zh: '无座——站立' },
   seatsAbout: { en: 'about', zh: '约' },
   fromYou: { en: 'From you', zh: '距你' },

@@ -1,7 +1,7 @@
 {
   "cafeId": "gentlemaker-cafe-huashan-rd-748",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "b7bde42db168",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "642127628b11",
   "photos": [
     "https://aos-comment.amap.com/B0FFMFL06G/comment/E9914C63_DD40_46FC_8B0D_496164D7478C_L0_001_1206_153_1758588207372_30909102.jpg",
     "https://aos-comment.amap.com/B0FFMFL06G/comment/22164b6ca88ad5a881699d008040ac59_2048_2048_80.jpg",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "drink",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "门口有小型绿植，店门敞开，可见内部吧台与货架。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内展示多种手冲咖啡器具，包括滤杯、分享壶、滤纸架。",
-      "kind": "drinks",
+      "text": "店内有手冲咖啡器具，包括滤杯、分享壶和滤纸架。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "饮品含热红酒（配橙片肉桂）、冰饮（带花形冰块）及奶盖类饮品。",
+      "text": "可见手冲咖啡的制作台，为吧台式布局。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有木质置物架，摆放着书籍或杂志。",
+      "kind": "bookshelf",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "桌上摆有节日装饰，包括小圣诞树和松果。",
+      "kind": "decoration",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中展示了三款饮品：一杯热红酒、一杯分层鸡尾酒和一杯奶盖饮品。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内有木质置物架陈列书籍或卡片，背景墙为浅色纹理墙面。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
+      "text": "店面临街，门口有开放式玻璃门，可看到内部吧台。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "店外是铺砖人行道，无室外座位，临街玻璃门采光良好。",
-      "kind": "light",
+      "text": "店外人行道旁有一盆绿植。",
+      "kind": "plant",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内未见顾客或工作人员，无笔记本电脑使用迹象。",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "照片中未出现烘焙机或磨豆机等大型专业设备。",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "照片中未见顾客或工作人员，店内无明显座位区。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "bar",
+  "seats": null,
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:56Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:03Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "m-stand-senlanhuayuancheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e5d0939ec806",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4d18640e8453",
   "photos": [
     "https://store.is.autonavi.com/showpic/44b0df44b1bd2f073112d4d4bb3ad852"
   ],
@@ -10,46 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店面为玻璃门，临街可见树木",
+      "text": "玻璃门和落地窗，能看到室内部分座位",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有绿植，门口有盆栽",
       "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "入口为双开玻璃门，有木质把手",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门上方有M Stand招牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见部分座位和桌椅",
-      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "透过玻璃门可见室内有人活动",
-      "kind": "people",
+      "text": "店内可见吧台区域，有橙色立柱",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃看到室内有桌椅，但数量不清",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
+      "text": "玻璃上有倒影，显示外面有树木和遮阳伞",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "店内未见明显烘焙机或手冲设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "无客人在使用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "无法看清菜单、饮品或食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.5
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:50Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:40Z"
 }

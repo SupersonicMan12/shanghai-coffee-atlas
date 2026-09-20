@@ -1,7 +1,7 @@
 {
   "cafeId": "onirii-coffee-nomi-bar-changle-rd-366",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "df82b930b99f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b249717a0f84",
   "photos": [
     "https://aos-comment.amap.com/B0HRVRZELA/comment/3fcfad8ffc08dfdc591d9345b5c865bb_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0HRVRZELA/comment/a1d892a5c2caaf0ee65eaab0b8430aba_2048_2048_80.jpg",
@@ -10,62 +10,73 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "storefront"
+    "menu"
   ],
   "observations": [
     {
-      "text": "吧台后有咖啡师，可见多台磨豆机与手冲器具。",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.95
+      "text": "店面临街，蓝砖柱+落地玻璃窗，门外有两把绿色小凳",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "吧台前陈列8袋不同产地的咖啡豆，标签清晰。",
+      "text": "店内吧台后方有三台磨豆机、手冲滤杯+电子秤、虹吸壶等设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前陈列8袋咖啡豆，标签显示产地如埃塞俄比亚、哥伦比亚、巴拿马等",
       "kind": "beans",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "临街为大面积玻璃门，室内采光好，可见绿植。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "菜单上可见'Americano 35'、'Latte 38'、'Tall 46'等价格及'Espresso'/'Filter'分类",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店外有两把绿色小凳子，属室外座。",
-      "kind": "seating",
+      "text": "室内可见一位店员在吧台操作，无顾客就坐，未见有人用电脑",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "玻璃门内侧贴有'coffee sake more'字样，窗面反射街道树木与白色汽车",
+      "kind": "view",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "店内空间狭长，以吧台为主，座位数量少。",
+      "text": "店面为单层临街小店，内部空间紧凑，以吧台为中心，无独立座位区",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "菜单上可辨识“Americano”、“Latte”等品名及价格。",
-      "kind": "menu",
+      "text": "照片中未见烘焙机、书架、植物（除右下角盆栽外）、宠物或食物",
+      "kind": "other",
       "photo": 2,
-      "confidence": 0.75
-    },
-    {
-      "text": "店内有顾客在座位上，但未见使用笔记本电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "左侧墙面为蓝色砖墙装饰，非普通涂料。",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:57:38Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    35.0,
+    38.0,
+    46.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:10Z"
 }

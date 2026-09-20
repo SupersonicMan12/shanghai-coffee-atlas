@@ -1,59 +1,80 @@
 {
   "cafeId": "xidaduokafeigongzuoshi-jianguo-west-rd-395",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "dce8802188b0",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9aa2676b3b6c",
   "photos": [
     "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48708_ss__1742346295932_71064215.jpg",
-    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48704_ss__1742346295920_95094715.jpg",
-    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48717_ss__1742346295932_06457003.jpg"
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/5f2851e71f0ce005ec714cf26639ba36_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/f97eb8729de0c1eadb5e36f8c7dd02b9_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0KA9SN68X/comment/content_media_external_images_media_48704_ss__1742346295920_95094715.jpg"
   ],
   "photoKinds": [
-    "other",
-    "interior",
-    "interior"
+    "drink",
+    "drink",
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "有三组KONO滤杯叠放，用于手冲咖啡制作。",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "有手冲咖啡器具，包括多个KONO滤杯叠放进行萃取。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "咖啡豆包装显示产地为哥伦比亚Huila和爪哇。",
+      "text": "展示了一款名为‘WHITE LOTUS’的咖啡豆，产地为哥伦比亚Huila，处理法为水洗。",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡豆风味描述为花香、青柠克菲尔、白巧克力。",
       "kind": "beans",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "墙上挂有梵高《卧室》复制品画作。",
-      "kind": "story",
+      "text": "照片中出现一杯黑咖啡，由手握白色陶瓷杯呈现。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "另一杯饮品为浅琥珀色茶饮或冷萃咖啡，置于带碟的陶瓷杯中。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内有大型绿植叶片，空间有装饰性植物。",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "背景有带玻璃门的深色展示柜，内有物品陈列。",
-      "kind": "space",
-      "photo": 2,
+      "text": "背景可见深色木质柜体和百叶窗，室内光线柔和。",
+      "kind": "light",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "吧台区域可见电子秤、量杯等专业冲煮器具。",
-      "kind": "drinks",
+      "text": "吧台区域摆放有咖啡器具、量杯、磨豆器及包装袋，表明具备专业手冲能力。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "桌面上有书籍和杯子，暗示空间适合阅读或安静饮用。",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:04Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:03Z"
 }

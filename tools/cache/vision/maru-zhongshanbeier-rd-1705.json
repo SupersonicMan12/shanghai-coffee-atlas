@@ -1,7 +1,7 @@
 {
   "cafeId": "maru-zhongshanbeier-rd-1705",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1a02747bd03c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "88f280adac48",
   "photos": [
     "https://aos-comment.amap.com/B0L3CUJHHM/comment/EE335D9D_6ED6_4A7C_BDDA_36053C1E168E_L0_001_1500_200_1765974650675_57738697.jpg",
     "https://aos-comment.amap.com/B0L3CUJHHM/comment/62B4BCA0_7A3F_4D0A_8301_F746BB27FF35_L0_001_1500_200_1765974650681_13147911.jpg",
@@ -10,56 +10,63 @@
   "photoKinds": [
     "drink",
     "interior",
-    "drink"
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有木质椅子和格子桌布的餐桌",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见饮品为冰咖啡，装在高玻璃杯中",
+      "text": "高脚玻璃杯盛冰美式，配黑色吸管，置于红白格纹桌布与软木杯垫上。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "另一款饮品为拉花咖啡，盛于红色陶瓷杯中",
+      "text": "藤编屏风上装饰螺旋形绿植圣诞树，挂有彩色球饰与两个柿子。",
+      "kind": "decor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "橙红色花边陶瓷杯盛拿铁，奶泡拉花为心形，置于同色系杯托上。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内设有装饰性屏风，上有圣诞树图案",
-      "kind": "interior",
+      "text": "室内可见木质扇形靠背椅，背景窗户外有树木，窗台挂绿色花环与粉色花卉贴纸。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "左侧座位区有大型圣诞老人玩偶坐于椅上，旁有带花纹桌布的圆桌。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内摆放有圣诞老人装饰物，节日氛围浓厚",
-      "kind": "interior",
+      "text": "天花板为黑白条纹木板结构，两侧墙挂复古吊灯，地面为浅色水磨石。",
+      "kind": "space",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "桌子上有杯垫，使用软木材质",
-      "kind": "interior",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "无明显吧台/手冲设备/烘焙机等专业器具；未见有人用电脑或插座。",
+      "kind": "equipment",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:48Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:50Z"
 }

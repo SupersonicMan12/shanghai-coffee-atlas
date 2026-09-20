@@ -1,71 +1,83 @@
 {
   "cafeId": "tribeca-ruijinerlujiedaonanchang-rd-98-1",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "10a2b9da90b0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e4b0baa54aa4",
   "photos": [
     "https://aos-comment.amap.com/B0K09DYRRM/comment/1B2215ED_70F4_466E_8379_77F0B07C3A1E_L0_001_1500_200_1760464984888_31878835.jpg",
+    "https://store.is.autonavi.com/showpic/074958fb270345870000003246284906?type=pic",
     "https://aos-comment.amap.com/B0K09DYRRM/comment/A9A00AF1_95A6_4F21_8759_7DF4B443D299_L0_001_1500_200_1757330409246_06065176.jpg",
     "https://aos-comment.amap.com/B0K09DYRRM/comment/20260221-b23d56e6f1e0c04df3312bc9-42m9GuXVPGt5Y0PEqSBeDX.jpg"
   ],
   "photoKinds": [
     "food",
+    "menu",
     "drink",
     "interior"
   ],
   "observations": [
     {
-      "text": "木质桌面上摆放海鲜烩饭、披萨、沙拉及两杯饮品，餐具为手绘花纹瓷盘。",
+      "text": "菜单显示特调鸡尾酒，如Whisky Sour、Blood Sand、Matcha Alexander，价格118-128元",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方酒架有“THE TUXEDO”标识，陈列多款烈酒及高脚杯",
+      "kind": "interior",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "两杯特调饮品置于吧台，一杯配瓜片，一杯配黄瓜片，杯垫印“BAR NO.3”",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "食物包括海鲜烩饭、披萨、沙拉，盛器为带花纹的陶瓷盘/碗",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "一杯含薄荷与草莓的气泡水，另一杯为透明玻璃杯盛装的无色液体（可能为白葡萄酒或水）。",
-      "kind": "drink",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图中两杯鸡尾酒：一杯乳白色带青瓜片，一杯浅黄带大冰块与青瓜片；旁有小碗烤花生。",
-      "kind": "drink",
+      "text": "室内为深色木质吧台+酒架，无明显窗户或自然光，属室内吧台空间",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "第三张图为吧台背景墙，马赛克瓷砖上印有'THE TU→EDO'字样，两侧陈列多款烈酒瓶与玻璃杯。",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "吧台下方置物架有蓝色高脚杯、郁金香杯等不同形制玻璃杯，未见咖啡专用器具。",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "餐巾纸上印有'BAR NO.3'字样，出现在第二张图的两杯饮品下方。",
-      "kind": "drink",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "第一张图中食物含橙红色烩饭（配蛤蜊、扇贝、番茄）、火腿芝麻菜披萨、混合蔬菜沙拉（含牛油果、甜菜根、橄榄）。",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "三张图均未出现咖啡机、磨豆机、手冲壶、虹吸壶、书架、植物、宠物或电脑使用者。",
+      "text": "未见顾客，无人在使用电脑，无烘焙机/手冲台等咖啡设备",
       "kind": "people",
-      "photo": 1,
-      "confidence": 0.99
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单页码为11，含中英双语，但未见咖啡相关项目（如SOE/产地）",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前座位不可见，仅从视角判断为吧台位，无法确认总座位数",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "bar",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": null,
-  "bigWindows": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:43Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    118.0,
+    128.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:10Z"
 }

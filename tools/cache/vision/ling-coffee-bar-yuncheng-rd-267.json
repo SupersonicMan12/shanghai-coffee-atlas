@@ -1,7 +1,7 @@
 {
   "cafeId": "ling-coffee-bar-yuncheng-rd-267",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4836c212f9d6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "db4bfe83ccdb",
   "photos": [
     "https://store.is.autonavi.com/showpic/a82e3e42c8de8c30e694a50bb0e94e08",
     "https://store.is.autonavi.com/showpic/2fd13041870d57ad0000002347438492?type=pic",
@@ -9,65 +9,72 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
+    "interior",
     "drink",
     "food",
     "menu"
   ],
   "observations": [
     {
-      "text": "店铺临街，有大面积玻璃窗和可开启的门窗",
+      "text": "店面为临街玻璃门面，有折叠门和木质台阶式户外坐席区",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店外设有少量木质桌椅，提供室外座位",
+      "text": "室内可见吧台、货架陈列商品、冷藏柜及后方置物架，无明显烘焙机或手冲台",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外摆放木椅、小圆桌及折叠桌，共约3-4个座位位点，地面为水泥/石砖",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见吧台区域及陈列柜，有饮品制作设备",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为手冲咖啡，使用蓝釉陶碗盛装，配枫叶装饰",
+      "text": "饮品为蓝釉碗装咖啡，表面有枫叶与桂花装饰；食物为草莓酸奶碗",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "菜单显示咖啡豆产地为印尼林东（Indonesia Lintong）",
+      "text": "菜单纸显示单品豆为印尼林东（Mandheling），处理法为湿刨法，烘焙度中度浅焙",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "桌上有一份草莓奶油甜点",
-      "kind": "food",
+      "text": "菜单上标注“焦糖甜感”“浓郁醇厚”“低酸”，未见价格数字",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有木质结构和植物装饰，风格偏自然温馨",
-      "kind": "space",
+      "text": "店内未见有人使用电脑，也无明显插座位置可见",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "门店位于街道旁，门口有台阶和盆栽",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "临街落地窗，室内采光良好，窗外可见树木与街道车辆",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:48Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:45Z"
 }

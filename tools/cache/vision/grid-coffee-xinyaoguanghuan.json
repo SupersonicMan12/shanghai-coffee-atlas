@@ -1,7 +1,7 @@
 {
   "cafeId": "grid-coffee-xinyaoguanghuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0013573fda44",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "c44b80ebccff",
   "photos": [
     "https://store.is.autonavi.com/showpic/92322e2bd5cedc646931345117a49c1e",
     "https://store.is.autonavi.com/showpic/842c134a36bf5aed0000001442314412?type=pic",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
+    "interior",
     "storefront"
   ],
   "observations": [
     {
-      "text": "门店位于商场内，临街玻璃门设计",
+      "text": "店面临街，有大面积玻璃门窗，可看到内部座位区。",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内设有数张圆桌和高脚椅，座位数量约10个左右。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有户外座椅区，配有遮阳伞，位于人行道旁。",
+      "kind": "outdoor",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有桌椅座位，数量级为少量",
-      "kind": "seating",
+      "text": "透过玻璃可见店内有顾客就座，但未见使用电脑。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店铺外侧有落地窗，采光良好",
+      "text": "店内入口处立有宣传牌，展示饮品图片，文字为“明星单品 一齐登场”。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见悬挂球形吊灯，墙面为木质饰面，整体风格现代简约。",
+      "kind": "style",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有落地窗，朝向街道，采光良好。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口设有宣传立牌，展示饮品信息",
+      "text": "店外立有广告牌，展示三款饮品，其中一款为分层饮品（类似dirty）。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见店外有遮阳伞和户外座椅",
-      "kind": "outdoor",
-      "photo": 1,
       "confidence": 0.8
-    },
-    {
-      "text": "店内可见悬挂灯饰与木质墙面装饰",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有顾客正在使用电脑",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.6
     }
   ],
-  "seats": "few",
-  "laptops": true,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:15Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:29Z"
 }

@@ -1,53 +1,66 @@
 {
   "cafeId": "kiosk-coffee-taiyuan-rd-283-1",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "1dd3394bc0dd",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "241fa43d5ce2",
   "photos": [
-    "https://store.is.autonavi.com/showpic/4b56fe6cdaab930d0000003304236603?type=pic",
-    "https://aos-comment.amap.com/B0LA9L0A88/comment/content_media_external_file_112096_ss__1745810987153_78312754.jpg",
-    "https://store.is.autonavi.com/showpic/d3fe6e53773fe64f0000002848090990?type=pic"
+    "https://store.is.autonavi.com/showpic/87c6efc7f647c0ef0000003141882010?type=pic",
+    "https://store.is.autonavi.com/showpic/d3fe6e53773fe64f0000002848090990?type=pic",
+    "https://aos-comment.amap.com/B0LA9L0A88/comment/2025-10-10-10-24-11%2BF27081B0-9B31-4029-A4E2-C3534007C1F_1760063056200_44415161.jpg",
+    "https://store.is.autonavi.com/showpic/4b56fe6cdaab930d0000003304236603?type=pic"
   ],
   "photoKinds": [
     "drink",
+    "menu",
     "drink",
-    "menu"
+    "drink"
   ],
   "observations": [
     {
-      "text": "菜单显示有泰浓Dirty、报纸、青梅龙井美式等特调，价格25-38元。",
+      "text": "菜单显示泰浓Dirty、报纸、青梅龙井美式、苹果气泡美式四种饮品及价格。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "店外立牌菜单，可确认饮品名称与价格，无座位或空间信息。",
-      "kind": "menu",
+      "text": "菜单上泰浓Dirty售价28元，报纸售价38元，青梅龙井美式售价25元，苹果气泡美式售价28元。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯咖啡表面有奶泡和黑色颗粒，盛于带黑边玻璃杯中。",
+      "kind": "drink",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持一杯深色玻璃杯装的冰咖啡，杯壁有冷凝水，背景为临街窗户。",
+      "kind": "drink",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "手持一个印有'KIOSK'字样的红色纸杯，配有黑色防漏盖。",
+      "kind": "drink",
       "photo": 3,
       "confidence": 0.9
-    },
-    {
-      "text": "第一张图手持玻璃杯，背景为临街玻璃窗，窗外是庭院和植物。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "第二张图塑料杯放于室外小圆桌，背景为街道与树影，确认有室外座。",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "透过玻璃窗可见后方有多个盆栽植物，但无法判断室内空间大小。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": null,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:17Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    25.0,
+    28.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:16Z"
 }

@@ -1,71 +1,88 @@
 {
   "cafeId": "hana-coffee-changshouyuan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "377b0b9624f6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b3ea652658ab",
   "photos": [
+    "https://aos-comment.amap.com/B0FFLQ9MEM/comment/f839d4af4ae7ecdc5210bba01c86064f_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFLQ9MEM/comment/content_media_external_images_media_425395_ss__1742453141562_95254636.jpg",
-    "https://store.is.autonavi.com/showpic/2b81416e1545e7910000002484160409?type=pic",
-    "https://aos-comment.amap.com/B0FFLQ9MEM/comment/f839d4af4ae7ecdc5210bba01c86064f_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFLQ9MEM/comment/menu/2f280dcf900627f8d68f33430b54c9c8_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/2b81416e1545e7910000002484160409?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "drink"
+    "drink",
+    "menu",
+    "other"
   ],
   "observations": [
     {
-      "text": "门口有紫色坐垫台阶和折叠椅，室外可坐。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台窗口可见磨豆机、咖啡机等专业设备。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单板显示有Dirty、手冲咖啡等选项及价格。",
+      "text": "店门口有紫色立式菜单，列有咖啡和饮品价格",
       "kind": "menu",
-      "photo": 1,
-      "confidence": 0.85
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "店内空间小，门敞开后可见内部桌椅。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街大玻璃窗，采光好，可看到街道反射。",
-      "kind": "light",
-      "photo": 1,
+      "text": "店内可见手冲咖啡器具和磨豆机",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "一杯拿铁拉花清晰，杯身印“紫气东来”。",
-      "kind": "drink",
+      "text": "菜单上有手冲咖啡（Pour over）选项，价格30-40元",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口右侧墙贴有向日葵图案装饰画。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "菜单上列出“Dirty”等特调饮品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
     },
     {
-      "text": "店外有人坐着喝咖啡，非空置状态。",
-      "kind": "people",
-      "photo": 1,
+      "text": "店外有紫色软垫座位，可坐人",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.8
+    },
+    {
+      "text": "店门口有人坐着喝咖啡，店外有顾客",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃门面，采光好",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺门牌号为长寿路467号",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:37Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    18.0,
+    22.0,
+    25.0,
+    26.0,
+    30.0,
+    35.0,
+    30.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:24Z"
 }

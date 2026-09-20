@@ -1,65 +1,87 @@
 {
   "cafeId": "coffeegroupies-kangding-rd-723",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "761f086a5566",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a4a6e4dae845",
   "photos": [
-    "https://aos-comment.amap.com/B001574W3D/comment/05698b0a4dd217b8734af347141efeb2_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/comment/content_service__1771912257076_07007884_1771912259683_97583376.jpg",
-    "https://store.is.autonavi.com/showpic/48c8f4566fbc6c700000002265730689?type=pic"
+    "https://aos-comment.amap.com/B001574W3D/comment/e59e3accfab5c025ec0369e37099ec0e_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/1351524725a5dd0eb831b3e10c24c932",
+    "https://store.is.autonavi.com/showpic/f9d59c52c47f62820000002265810271?type=pic",
+    "https://aos-comment.amap.com/B001574W3D/comment/05698b0a4dd217b8734af347141efeb2_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "interior",
-    "other"
+    "drink"
   ],
   "observations": [
     {
-      "text": "吧台后有手冲架、虹吸壶、磨豆机等专业器具",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "菜单上列有SOE单一产地豆和Espresso Blend拼配豆。",
+      "kind": "beans",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "玻璃柜里放着标价15元的糕点",
-      "kind": "food",
-      "photo": 1,
+      "text": "菜单上有特调咖啡，如黑芝麻米香拿铁、茉莉冰椰拿铁。",
+      "kind": "drinks",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质桌椅，座位数量级为some",
-      "kind": "seating",
+      "text": "菜单上可见多种咖啡价格，如美式26元，拿铁29元。",
+      "kind": "drinks",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有玻璃展示柜，里面放着食物。",
+      "kind": "food",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有仙人掌等绿植装饰。",
+      "kind": "plants",
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "吧台上方货架陈列多个带标签的咖啡豆罐",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "桌上有一杯带拉花的咖啡和一个玩偶",
-      "kind": "drink",
-      "photo": 2,
+      "text": "照片中未见客人或店员，店内无人。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "室内有仙人掌和挂画装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "店内有吧台，可作为站喝区。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
     },
     {
-      "text": "墙面为水泥质感，搭配木架与金属管",
-      "kind": "space",
-      "photo": 3,
+      "text": "照片中未见电脑或插座。",
+      "kind": "laptops",
+      "photo": 4,
       "confidence": 0.8
     }
   ],
-  "seats": "some",
-  "laptops": false,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:36Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    26.0,
+    29.0,
+    30.0,
+    28.0,
+    25.0,
+    20.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:43Z"
 }

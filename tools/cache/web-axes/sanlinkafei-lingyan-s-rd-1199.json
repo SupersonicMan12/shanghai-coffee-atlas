@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "咖啡馆也在扮演着更多的公共角色:这里长期向所有人免费开放卫生间",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NjYzMzQ0Nw==&mid=2651043925&idx=3&sn=f719758f358da2b166b8e7f1cddae801&chksm=855abf37d96f262e795dee01c932b7125baffc9d444f2f1214947a46c010fc7cde1cf96d1601&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "无论邻里街坊碰上什么事,她都尽力帮忙解决",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NjYzMzQ0Nw==&mid=2651043925&idx=3&sn=f719758f358da2b166b8e7f1cddae801&chksm=855abf37d96f262e795dee01c932b7125baffc9d444f2f1214947a46c010fc7cde1cf96d1601&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "还将一楼走道入口的空间由原本的荒废水池改造成了爱心座椅,方便路人休憩及工人吃饭",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NjYzMzQ0Nw==&mid=2651043925&idx=3&sn=f719758f358da2b166b8e7f1cddae801&chksm=855abf37d96f262e795dee01c932b7125baffc9d444f2f1214947a46c010fc7cde1cf96d1601&scene=27",
+      "site": "腾讯网"
+    },
+    "brew": {
+      "answer": "no",
+      "quote": "灵岩咖啡馆(原三林咖啡)",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NjYzMzQ0Nw==&mid=2651043925&idx=3&sn=f719758f358da2b166b8e7f1cddae801&chksm=855abf37d96f262e795dee01c932b7125baffc9d444f2f1214947a46c010fc7cde1cf96d1601&scene=27",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "【东明艺术+】《是熟客,也是朋友》:一家咖啡馆的十年“熟客志”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3NjYzMzQ0Nw==&mid=2651043925&idx=3&sn=f719758f358da2b166b8e7f1cddae801&chksm=855abf37d96f262e795dee01c932b7125baffc9d444f2f1214947a46c010fc7cde1cf96d1601&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 2,
+      "title": "上海市浦东新区三林镇艾普咖啡馆",
+      "url": "https://www.zhipin.com/companys/ac578ae77c4f5e381nZ52dy1EQ~~.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 3,
+      "title": "luckin coffee瑞幸咖啡(新达汇·三林店)",
+      "url": "https://map.360.cn/site/detail/709bc17f8987dd02",
+      "site_name": "无"
+    },
+    {
+      "index": 4,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "解码上海咖啡三层地图:从极致风味到市井烟火的全景指南",
+      "url": "https://baijiahao.baidu.com/s?id=1859876349887095218",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "上海精品咖啡馆的独特魅力:Fetchin Coffee的体验",
+      "url": "https://baijiahao.baidu.com/s?id=1846801607719322222",
+      "site_name": "百度"
+    },
+    {
+      "index": 8,
+      "title": "【上海特调咖啡探店Vlog】连喝三家冠军店是啥体验。",
+      "url": "https://www.bilibili.com/video/BV1ySVpzsEGD/",
+      "site_name": "哔哩哔哩"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:28:37Z"
+}

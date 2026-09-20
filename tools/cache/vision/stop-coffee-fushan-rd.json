@@ -1,53 +1,87 @@
 {
   "cafeId": "stop-coffee-fushan-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "82823a2e365b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b59ffd4814cb",
   "photos": [
-    "https://store.is.autonavi.com/showpic/76f9c0e2731b2d77aea2f7965078bcee",
-    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/bbe6de6c1824a21aad03f93af3431fbf_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/content_media_external_images_media_100010462_1734148438402_46615297.jpg"
+    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/content_media_external_images_media_100010462_1734148438402_46615297.jpg",
+    "https://aos-comment.amap.com/B0FFJ1XC1L/comment/EE7F9139_6A8A_404A_894D_7112C4398E17_L0_001_1179_139_1764661394780_34108347.jpg",
+    "https://store.is.autonavi.com/showpic/aaca80277042c6b80000003042018285?type=pic",
+    "https://store.is.autonavi.com/showpic/76f9c0e2731b2d77aea2f7965078bcee"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "other",
-    "drink"
+    "menu",
+    "interior"
   ],
   "observations": [
     {
-      "text": "吧台式小店，门口有2张折叠椅，店内可见少量桌椅。",
+      "text": "店内有吧台，顾客在吧台前点单。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街玻璃门，采光好，门外是街道和树木。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "一杯拉花咖啡，图案为圣诞老人脸。",
-      "kind": "drinks",
-      "photo": 3,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "店内有顾客站着喝咖啡，未见人用电脑。",
+      "text": "菜单上有手冲咖啡和单品豆（SOE）选项。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示意式咖啡、特调、瓶装饮料等品类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上可见埃塞俄比亚、古吉、罕贝拉等地的咖啡豆。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "菜单上咖啡价格从15元到35元不等。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有一只狗坐在门口。",
       "kind": "people",
-      "photo": 1,
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有落地玻璃窗，能看到外面的绿树。",
+      "kind": "view",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "吧台后有货架和操作设备，但无明显烘焙机或手冲台。",
-      "kind": "roastingGear",
-      "photo": 1,
+      "text": "店内有户外桌椅，但未见有人使用。",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
+  "room": "bar",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:25Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    15.0,
+    16.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:07Z"
 }

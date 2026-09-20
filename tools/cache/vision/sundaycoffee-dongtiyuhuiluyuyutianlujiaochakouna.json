@@ -1,7 +1,7 @@
 {
   "cafeId": "sundaycoffee-dongtiyuhuiluyuyutianlujiaochakouna",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "af5e886f3db4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5560f547b2d6",
   "photos": [
     "https://store.is.autonavi.com/showpic/60c82aa969c290190000003000848831?type=pic",
     "https://store.is.autonavi.com/showpic/1101d4caeb351a950000002616520692?type=pic",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和大窗户",
-      "kind": "space",
+      "text": "店门口有木制长凳，室外可坐，共3组，沿街排布",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店外设有木质长椅供休息",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "门面玻璃上贴有'休息/泡茶/喝咖啡'及'无线上网WiFi'标识",
+      "kind": "wifi",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店内可见咖啡机、磨豆机等专业设备",
-      "kind": "roastingGear",
+      "text": "店内吧台后方可见意式咖啡机、磨豆机及刀具架，属标准商用设备",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有展示柜陈列糕点，包括可颂和贝果类面包",
+      "text": "吧台前展示柜内陈列可颂、汉堡等烘焙食品，右侧冷柜有面包",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 1.0
     },
     {
-      "text": "店内挂有饮品宣传牌，可见‘榛果拿铁’‘燕麦拿铁’等选项",
+      "text": "天花板悬挂多款饮品宣传牌，含'椰子拿铁''榛果拿铁'等特调名称",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内有工作人员正在制作饮品",
-      "kind": "people",
+      "text": "吧台下方玻璃柜内摆放地球仪、玩偶等物品，非商品陈列",
+      "kind": "decor",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店门口有标识显示为社区服务站点，兼营咖啡",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "店内仅见1名工作人员在操作，未见顾客，无电脑使用者",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "店内空间较小，为典型街边小店布局",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "门面墙贴有'党群服务站'红牌及'虹口区新时代文明实践特色站'标牌",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:14:21Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:28Z"
 }

@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "特色服务:有下午茶,提供在线菜单,有wifi。",
+      "url": "https://baike.baidu.com/item/Coffee%20Groupies/14327729",
+      "site": "百度百科"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "我每天中午吃完饭后都会习惯走到这裡喝杯咖啡,很多客人也是",
+      "url": "https://www.douban.com/note/424054108",
+      "site": "豆瓣网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "點上一杯✓招牌dirty 一口就懂老客們為什麼這麼偏愛了!",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144825255/",
+      "site": "上海開了十幾年的咖啡店！品控超穩的！"
+    },
+    "price": {
+      "value": 30.0,
+      "quote": "人均价格:30",
+      "url": "https://baike.baidu.com/item/Coffee%20Groupies/14327729",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Coffee Groupies",
+      "url": "https://baike.baidu.com/item/Coffee%20Groupies/14327729",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "上海開了十幾年的咖啡店！品控超穩的！",
+      "url": "https://hk.trip.com/moments/detail/shanghai-2-144825255/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "做与众不同的饮品店 去探索风味的更多可能 ",
+      "url": "https://www.sohu.com/a/515102337_121124450",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 4,
+      "title": "康定路",
+      "url": "https://baike.baidu.com/item/康定路/2572990",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 5,
+      "title": "一间小小咖啡店,以及她活下来的故事",
+      "url": "https://www.douban.com/note/424054108",
+      "site_name": "豆瓣网"
+    },
+    {
+      "index": 6,
+      "title": "推荐一些上海值得去的咖啡馆,从江景到弄堂氛围感拉满",
+      "url": "https://www.sohu.com/a/1064778882_120487684",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "全静安的咖啡爱好者都在这里了吧……_咖啡馆_豆子_上海",
+      "url": "https://www.sohu.com/a/1006904495_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 8,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00?adChannelId=sh",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 9,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 10,
+      "title": "上海咖啡馆突破1万家，全球第一！一杯咖啡里到底有什么？ - 解放日报",
+      "url": "https://www.shobserver.cn/news/detail?id=1111820",
+      "site_name": ""
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:13:32Z"
+}

@@ -1,71 +1,80 @@
 {
   "cafeId": "geographer-guling-rd",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "773d218039eb",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "444889e759e2",
   "photos": [
-    "https://store.is.autonavi.com/showpic/c052484e7e751e620000002355862459?type=pic",
+    "https://store.is.autonavi.com/showpic/712d4a968734ac340000002355872262?type=pic",
     "https://store.is.autonavi.com/showpic/878ce73d5ba39725e9c85822bfab5aef",
-    "https://aos-comment.amap.com/B0LGD7J4DJ/comment/ACA70E1E_8D08_4980_8C98_74DCC588A7C5_L0_001_2000_150_1744883137687_49560064.jpg"
+    "https://store.is.autonavi.com/showpic/29c0598c9721d9e00000000989498817",
+    "https://store.is.autonavi.com/showpic/c052484e7e751e620000002355862459?type=pic"
   ],
   "photoKinds": [
+    "menu",
     "storefront",
-    "storefront",
+    "drink",
     "storefront"
   ],
   "observations": [
     {
-      "text": "临街玻璃幕墙店面，入口为双开玻璃门，上方有‘Geographer 地|理|学|家’招牌",
-      "kind": "space",
+      "text": "手持卡片显示特调名‘地球融化燕麦拿铁’，配图地球熔化，标注‘#植物颠篮 × Geographer’",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "左侧玻璃贴有‘G酉’立方体商标及动漫立牌；室内可见桌椅、吧台轮廓与吊灯",
-      "kind": "interior",
+      "text": "卡片注明使用‘植物奶’，生产过程低碳环保，标语‘THERE IS NO PLANET B’",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店外设红白条纹遮阳伞与多组黑色金属桌椅，属室外座位区",
+      "text": "店招为‘Geographer 地理学家’，玻璃门上贴有‘C酒’标志及动漫立牌",
+      "kind": "storefront",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "户外设红白条纹遮阳伞与黑色桌椅，可见多张圆桌和椅子，属室外座位区",
       "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 1.0
     },
     {
-      "text": "傍晚时分拍摄，店内招牌亮起白光，窗内挂串灯，反射可见对面建筑与树木",
+      "text": "店内可见玻璃门/窗，反射街景，无明显落地窗或大面采光特征，窗体为常规商用玻璃",
       "kind": "light",
-      "photo": 3,
-      "confidence": 0.97
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "玻璃门右侧立A字牌，印有‘花式喝茶 TEA’字样及饮品图示（非咖啡）",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "第三张图中右侧室外座有顾客就坐，但无法辨识是否使用电脑",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "未见磨豆机、手冲台、虹吸壶或烘焙机等专业咖啡设备",
-      "kind": "roastingGear",
+      "text": "室内未见烘焙机、手冲台、虹吸壶等专业器具，仅见普通咖啡杯具",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "无清晰可读菜单、价格、豆子产地或具体饮品/食物名称（如dirty、可颂）",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "照片中未见顾客，无电脑使用者，无人在场，场景空置",
+      "kind": "crowd",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品含燕麦拿铁（带蓝色球形冰/奶盖）、柠檬茶（Dilmah茶包），未见其他食物",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:45:24Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:18Z"
 }

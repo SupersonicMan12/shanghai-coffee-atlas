@@ -1,71 +1,78 @@
 {
   "cafeId": "renmaikafei-jiaozhou-rd-695",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7e736dbe6c24",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e887d57d9912",
   "photos": [
     "http://store.is.autonavi.com/showpic/1d9423df1f4d3320e4d3a6fd230b0e5a",
-    "http://store.is.autonavi.com/showpic/69a246538acc42e79c248bb4b58a985d",
-    "http://store.is.autonavi.com/showpic/be4f30d3a1f5987eac32be77ce21e64b"
+    "https://store.is.autonavi.com/showpic/ec3923c24a61eca13f65bc1684144443",
+    "http://store.is.autonavi.com/showpic/be4f30d3a1f5987eac32be77ce21e64b",
+    "http://store.is.autonavi.com/showpic/69a246538acc42e79c248bb4b58a985d"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "店铺位于街角，临街有玻璃窗",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有台阶和金属门框装饰",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有绿植和遮阳伞",
-      "kind": "outdoor",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门前停有电动车，有人经过",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "建筑为老式洋房风格，有阳台和雕花",
+      "text": "店面为临街店铺，有台阶和玻璃门",
       "kind": "space",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有金属花架和绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口立有菜单牌，但内容不清",
+      "kind": "menu",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店面有落地窗，可见内部灯光",
+      "text": "店内有大面积玻璃窗，可看到内部有桌椅",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店招上有咖啡杯图案和中英文名称",
-      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门前有立牌展示信息",
-      "kind": "other",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "照片中未见室外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见客人或工作人员在使用电脑",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见烘焙机、手冲台等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见书架、宠物或明确的饮品食物",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": true,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:35Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:56Z"
 }

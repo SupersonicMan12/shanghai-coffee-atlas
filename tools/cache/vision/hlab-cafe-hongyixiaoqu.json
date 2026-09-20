@@ -1,7 +1,7 @@
 {
   "cafeId": "hlab-cafe-hongyixiaoqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4f97ad91a514",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "73fd6c7191e8",
   "photos": [
     "http://store.is.autonavi.com/showpic/7908757efc4678a48ea6b563a4b2507d",
     "http://store.is.autonavi.com/showpic/96393891813f0f9d336b08e8db1594e8"
@@ -12,52 +12,53 @@
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有玻璃窗展示内部",
+      "text": "临街小店，店面宽约3米，玻璃窗展示店内吧台及陈列品",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "门口有雪人装饰物，可能为冬季或节庆布置",
-      "kind": "story",
+      "text": "橱窗内可见多台咖啡机及置物架，但未见清晰手冲/虹吸/磨豆机等专业器具",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店铺前有树木和灌木，街道两侧为居民楼",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺入口处可见室内灯光，内部有陈列柜",
-      "kind": "light",
+      "text": "店门口人行道上立有白色卡通鸭子雕塑，无室外座位",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店面为小型独立门店，无明显庭院或大空间",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺门头标有“欧邑小站·虹仪”及英文名称",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见部分货架与商品陈列，但无明确饮品或食物展示",
-      "kind": "food",
+      "text": "橱窗内陈列瓶装饮品或酒类，未见明确可辨的咖啡/茶饮实物",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "左侧邻店为“欧米油咖”，右侧为其他商铺，街道两侧有高大悬铃木",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中无顾客或工作人员，店内无人使用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:15Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:23Z"
 }

@@ -1,65 +1,94 @@
 {
   "cafeId": "moofin-jiangning-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "d276befc954f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4c91b4d02222",
   "photos": [
-    "https://store.is.autonavi.com/showpic/33c9fcc8522bb6920000000959710116?type=pic",
     "https://aos-comment.amap.com/B0J6U7LR6I/comment/content_media_external_file_8964_ss__1758456213219_74404831.jpg",
+    "https://store.is.autonavi.com/showpic/33c9fcc8522bb6920000000959710116?type=pic",
+    "https://aos-comment.amap.com/B0J6U7LR6I/comment/content_media_external_images_media_1000056183_ss__1768057509673_16158875.jpg",
     "https://aos-comment.amap.com/B0J6U7LR6I/comment/BDF4D571_3E09_4A39_A4CC_6E147DA47D5D_L0_001_2000_150_1765329163497_87404195.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "menu",
     "food",
     "drink"
   ],
   "observations": [
     {
-      "text": "店外有绿植围栏和立式菜单牌，显示有鱼蛋三明治。",
-      "kind": "view",
+      "text": "店招显示为‘摩芬宜 moofin BAKERY & COFFEE’，临街玻璃门面",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单显示英式麦芬类早餐，如‘Egg & Chicken 25 CNY’、‘Egg & Shrimp 35 CNY’等，含价格",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "餐盘上出现‘法式松露白火腿’（Egg & Ham）实物，配纸袋印‘GOOD MOOD FOOD’",
+      "kind": "food",
       "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "另一份餐盘上有可颂类甜点（表面撒粉、顶部奶油），配拉花拿铁",
+      "kind": "food",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品包括纯黑咖啡（杯沿有咖啡渍）、拉花拿铁，未见dirty/燕麦等具体品类名",
+      "kind": "drinks",
+      "photo": [
+        1,
+        4
+      ],
       "confidence": 0.9
     },
     {
-      "text": "店内有木质圆桌和金属托盘，桌上放着可颂与拉花咖啡。",
-      "kind": "seating",
+      "text": "吧台前有立式收银机及二维码支付设备，无可见专业烘焙/冲煮器具",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "食物含贝果三明治、可颂，饮品为浓缩与带拉花的奶咖。",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "门口玻璃门通透，室内可见部分桌椅，采光应较好。",
-      "kind": "light",
-      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内桌子是实木材质，环境简洁，无明显多人聚集。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.75
-    },
-    {
-      "text": "未见烘焙机、手冲台或磨豆机等专业设备。",
-      "kind": "roastingGear",
-      "photo": 3,
+      "text": "店内可见木质圆桌与椅子，无明显插座或电脑使用者，座位数量目测约6-8个",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "无顾客在用电脑，也未见书架或宠物。",
-      "kind": "people",
-      "photo": 3,
+      "text": "室外有绿植围挡，但无户外座位；店内光线来自自然光+顶灯，未见落地窗",
+      "kind": "light",
+      "photo": [
+        2,
+        4
+      ],
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:24Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    25.0,
+    30.0,
+    35.0,
+    38.0,
+    50.0,
+    58.0,
+    68.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:35Z"
 }

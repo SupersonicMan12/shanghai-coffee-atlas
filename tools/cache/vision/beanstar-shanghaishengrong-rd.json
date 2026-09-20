@@ -1,7 +1,7 @@
 {
   "cafeId": "beanstar-shanghaishengrong-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2c094c5e9cf1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e523de751be2",
   "photos": [
     "https://store.is.autonavi.com/showpic/e6ebd90e71df4a615425dd3168392970",
     "https://store.is.autonavi.com/showpic/1bbe9895a0efad7b0000002248800965?type=pic",
@@ -10,44 +10,69 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "food"
   ],
   "observations": [
     {
-      "text": "店铺位于室内，有落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台式咖啡店，空间较小",
+      "text": "店内有吧台，可现场点单",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "可见咖啡机、磨豆机等专业设备",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为拿铁类，顶部有奶泡和饼干装饰",
+      "text": "饮品表面有奶泡和一片面包干",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供带盖纸杯装咖啡",
+      "text": "饮品装在带盖的纸杯里",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "店外是玻璃幕墙，室内采光好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见座位、书架或植物",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见有人在用电脑",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:13Z"
 }

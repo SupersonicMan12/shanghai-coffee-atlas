@@ -1,71 +1,79 @@
 {
   "cafeId": "xinn-coffee-etc-rongzhitiandi",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "736a6bd6848a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5a6573772a53",
   "photos": [
+    "https://aos-comment.amap.com/B0FFM54F3D/comment/acf60c75c762a73f3ac2f8e166f9673e_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0FFM54F3D/comment/75c5385cfd4e46e3df33a7ba1da2aad0_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/0d93128c2e545801c0ee18d35d8f0e4a",
-    "http://store.is.autonavi.com/showpic/60c401375bc4a9f976f85e7a28a77803",
-    "https://aos-comment.amap.com/B0FFM54F3D/comment/content_media_external_images_media_1000235074_ss_2_1694476444718_c1f79b57.jpg"
+    "http://store.is.autonavi.com/showpic/60c401375bc4a9f976f85e7a28a77803"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "室内空间大，有长条木制吊顶和多组桌椅",
+      "text": "店面为独立小建筑，有玻璃外墙和透明顶盖。",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "大面积落地玻璃窗，采光好",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "窗外可见绿植和格栅墙，非临街",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "座位为多人桌椅组合，数量较多",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "桌上放着一杯冰咖啡和一杯水",
-      "kind": "drinks",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "有人在店内就坐，未见使用电脑",
-      "kind": "people",
-      "photo": 3,
+      "text": "室内有玻璃幕墙，能看到外面的绿植和建筑。",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有数张桌椅，可容纳多人就座。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见有人在使用电脑或插座。",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "入口处有室外座位区",
-      "kind": "outdoor",
+      "text": "饮品杯为带盖塑料杯，有吸管孔。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "一杯是深色液体，另一杯是浅棕色带奶泡的饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "一杯饮品表面有撒粉，可能是可可粉或肉桂粉。",
+      "kind": "drinks",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "无可见烘焙机或手冲台等专业设备",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "店内无明显烘焙机或手冲吧台等专业设备。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "many",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:00:31Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:23Z"
 }

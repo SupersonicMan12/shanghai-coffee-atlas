@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "春节里去的人很多，需要排队等一会",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwNTEwMzc2Mg==&mid=2650232675&idx=1&sn=90b3e124e3fe43ae1e1c6b45eb0a812b&chksm=83223e9eb455b788525db520fed43f3a34407bb410249e929766a211d754dac335cde4fbe40f&scene=27",
+      "site": "腾讯网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "孩子13岁了，可以自己去撸，不用我陪",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=5dc3bb64e98603fe15a1906f&third_party=zr",
+      "site": "百度地图"
+    },
+    "price": {
+      "value": 87.0,
+      "quote": "¥87/人",
+      "url": "http://m.dianping.com/shop/1929727392?msource=applemaps",
+      "site": "【和它·交个朋友·狗咖猫咖(爱琴海店)】电话_地址_价格 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "和它交个朋友狗咖猫咖萌宠体验",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=5dc3bb64e98603fe15a1906f&third_party=zr",
+      "site_name": "百度地图"
+    },
+    {
+      "index": 2,
+      "title": "和它·交個朋友·狗咖貓咖（愛琴海店） (上海虹橋地區)－餐牌 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-121704041/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "和它交个朋友·猫狗双全咖啡馆·狗咖 - 360地图",
+      "url": "https://m.map.360.cn/m/search/detail/pid=1410716a31b7920c",
+      "site_name": "360官网"
+    },
+    {
+      "index": 4,
+      "title": "和它.交个朋友狗咖猫咖(爱琴海店) - 上海市闵行区 - 高德地图",
+      "url": "https://www.amap.com/place/B0G04L84QD",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 5,
+      "title": "和它·交个朋友·狗咖猫咖(爱琴海店)",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-121704041/",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "闵行咖啡厅“好评TOP 10”排行榜出炉,上榜名单新鲜一览",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwNTEwMzc2Mg==&mid=2650232675&idx=1&sn=90b3e124e3fe43ae1e1c6b45eb0a812b&chksm=83223e9eb455b788525db520fed43f3a34407bb410249e929766a211d754dac335cde4fbe40f&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 7,
+      "title": "【和它·交个朋友·狗咖猫咖(爱琴海店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1929727392?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "上海闵行吴中路1588号爱琴海购物公园1层tims咖啡 - 百度地图",
+      "url": "https://map.baidu.com/mobile/webapp/search/search/qt=s&wd=%E4%B8%8A%E6%B5%B7%E9%97%B5%E8%A1%8C%E5%90%B4%E4%B8%AD%E8%B7%AF1588%E5%8F%B7%E7%88%B1%E7%90%B4%E6%B5%B7%E8%B4%AD%E7%89%A9%E5%85%AC%E5%9B%AD1%E5%B1%82Tims%E5%92%96%E5%95%A1/",
+      "site_name": "百度"
+    },
+    {
+      "index": 9,
+      "title": "上海市(闵行区) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn15622029-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 10,
+      "title": "上海虹桥中心爱琴海亚朵S酒店 - 携程",
+      "url": "https://m.ctrip.com/html5/hotel/hoteldetail/64242569.html",
+      "site_name": "携程旅行网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:14:59Z"
+}

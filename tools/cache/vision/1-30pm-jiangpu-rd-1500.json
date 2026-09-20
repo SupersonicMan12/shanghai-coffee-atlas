@@ -1,7 +1,7 @@
 {
   "cafeId": "1-30pm-jiangpu-rd-1500",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5069ddd9a940",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "27c0731c8249",
   "photos": [
     "https://aos-comment.amap.com/B0JATCTVUT/comment/0647f7afee5cea310319730c8ddfd5f3_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0JATCTVUT/comment/menu/67f46c21a10763039f7939a200638c70_2048_2048_80.jpg",
@@ -9,44 +9,68 @@
   ],
   "photoKinds": [
     "drink",
-    "menu"
+    "menu",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内提供冰美式等经典咖啡饮品",
+      "text": "菜单显示经典咖啡、特调咖啡及无咖啡因饮品，含美式、拿铁、厚椰拿铁等",
       "kind": "drinks",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "菜单显示有燕麦奶、茉香拿铁等选项",
+      "text": "菜单上可见特调咖啡如‘今日开心’、‘一颗椰子糖’，价格28元",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "菜单价格区间约18-28元",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见一杯冰咖啡和一杯热咖啡",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上有埃塞俄比亚日晒G1等级豆子信息",
+      "text": "菜单提供可选豆种：一点苦深烘拼配（巴西半日晒·云南水洗）和一点酸中烘花魁SOE（埃塞俄比亚日晒G1等级）",
       "kind": "beans",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上明确标价，如美式20元、拿铁22元、厚椰拿铁24元、鲜萃红茶18元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品杯内为冰咖啡，上层有琥珀色冰块，下层为乳白色液体，疑似dirty或冰拿铁",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.85
+    },
+    {
+      "text": "另一款饮品为热饮，表面有奶泡拉花，杯身印有“1:30 PM”标识",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:21Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    22.0,
+    24.0,
+    26.0,
+    28.0,
+    18.0,
+    22.0,
+    24.0,
+    25.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:55Z"
 }

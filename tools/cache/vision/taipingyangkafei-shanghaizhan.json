@@ -1,59 +1,80 @@
 {
   "cafeId": "taipingyangkafei-shanghaizhan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "5952d351e20d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "bb2f98f8ec2f",
   "photos": [
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/d332184beaaf3eb3e99993aca6dee77c_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFLNLWJW/comment/content_media_external_file_367964_ss__1768873885822_92710632.jpg",
-    "https://aos-comment.amap.com/B0FFLNLWJW/comment/e4a1930cec694a5abe0be7dc82f21c26_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFLNLWJW/comment/d332184beaaf3eb3e99993aca6dee77c_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/content_media_external_file_1000109360_ss__1771674212113_56152788.jpg",
+    "https://aos-comment.amap.com/B0FFLNLWJW/comment/e4a1930cec694a5abe0be7dc82f21c26_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "food",
-    "drink"
+    "interior",
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有多个桌椅座位，顾客正在用餐。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口是商场/车站大厅的公共区域，地面光洁。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "冷藏柜内有三明治、瓶装水和果汁等即食食品。",
+      "text": "店内有玻璃展示柜，陈列面包和饮品。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "冷藏柜上层陈列OATLY燕麦奶和Perrier气泡水。",
+      "text": "店内有冷藏柜，陈列三明治、瓶装水和果汁。",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "透过玻璃窗可见店内有顾客坐着，部分在看手机。",
+      "text": "店内有顾客在喝咖啡，座位区有人就坐。",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "右侧展示柜陈列有蛋糕或甜点类食品。",
+      "text": "店铺为商场内的档口，有大面积玻璃窗。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有多个座位，但未见客人使用电脑。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "透过玻璃窗可见室外建筑，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "展示柜内有可颂、吐司、蛋糕等烘焙食品。",
       "kind": "food",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上无法看清具体价格或豆子产地信息。",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:26Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:29Z"
 }

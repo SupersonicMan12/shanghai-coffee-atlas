@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "有音乐、书籍、文创作伴",
+      "url": "https://news.qq.com/rain/a/20251004A03KFD00",
+      "site": "QQ"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "今后这里还将持续举办各类国际文化交流、市民文化体验活动",
+      "url": "https://news.qq.com/rain/a/20251004A03KFD00",
+      "site": "QQ"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "这家店的咖啡种类比较繁多",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/12780105.html",
+      "site": "携程旅行网"
+    },
+    "price": {
+      "value": 35.0,
+      "quote": "人均消费: 35 元",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/12780105.html",
+      "site": "携程旅行网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海白马咖啡馆",
+      "url": "https://baike.baidu.com/item/上海白马咖啡馆/66723483",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "白马咖啡馆地址/电话/营业时间-上海市文旅推广网",
+      "url": "https://www.meet-in-shanghai.net/cn/food/hakuba-cafe-892822/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "https://you.ctrip.com/food/ctripyouyoustar2/12780105.html",
+      "url": "https://you.ctrip.com/food/ctripyouyoustar2/12780105.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "有故事的白马咖啡馆重新开放 进一步活化历史记忆 打造多元文化交融的城市会客厅 ",
+      "url": "https://www.shio.gov.cn/TrueCMS/shxwbgs/ywts/content/8f19b086-50fd-4576-9ef7-fe79b4671ccf.html",
+      "site_name": "上海市人民政府新闻办公室官网"
+    },
+    {
+      "index": 5,
+      "title": "有故事的白马咖啡馆重新开放",
+      "url": "https://baijiahao.baidu.com/s?id=1842201630910257943",
+      "site_name": "百度"
+    },
+    {
+      "index": 6,
+      "title": "当博物馆遇见咖啡馆,有艺术也有美味!上海Caf_地址",
+      "url": "https://www.sohu.com/a/652372029_121124743",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "重新开业!可能是上海最有故事的咖啡馆",
+      "url": "https://news.qq.com/rain/a/20251004A03KFD00",
+      "site_name": "QQ"
+    },
+    {
+      "index": 8,
+      "title": "重新开业!可能是上海最有故事的咖啡馆",
+      "url": "https://www.shobserver.com/wx/detail.do?id=992014",
+      "site_name": "上观新闻"
+    },
+    {
+      "index": 9,
+      "title": "海派风情(51)白马咖啡馆",
+      "url": "https://www.meipian.cn/5hempjdv",
+      "site_name": "美篇网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:07:04Z"
+}

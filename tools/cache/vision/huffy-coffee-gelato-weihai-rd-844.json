@@ -1,47 +1,83 @@
 {
   "cafeId": "huffy-coffee-gelato-weihai-rd-844",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "3919432b403e",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "86b508aedcbf",
   "photos": [
     "https://store.is.autonavi.com/showpic/bdae3ee7627055b50000003087276491?type=pic",
-    "https://aos-comment.amap.com/B0KK5MFOJ4/comment/file_media_Photo_44542_IMG_1764044290_44047_IMG_20251125_121630_jpg_ss__1765433846925_16571393.jpg",
-    "https://aos-comment.amap.com/B0KK5MFOJ4/comment/file_media_Photo_44543_IMG_1764044306_44048_IMG_20251125_121646_jpg_ss__1765433846821_18550723.jpg"
+    "https://store.is.autonavi.com/showpic/a8a230eed556537002bb9ebba0cd839f",
+    "https://store.is.autonavi.com/showpic/8cbb237fc033a7f60000003087284209?type=pic",
+    "https://aos-comment.amap.com/B0KK5MFOJ4/comment/file_media_Photo_44542_IMG_1764044290_44047_IMG_20251125_121630_jpg_ss__1765433846925_16571393.jpg"
   ],
   "photoKinds": [
+    "storefront",
+    "interior",
     "food",
-    "food",
-    "food"
+    "menu"
   ],
   "observations": [
     {
-      "text": "杯内有抹茶、浅粉色和米白色三种gelato。",
-      "kind": "food",
+      "text": "店内有木质桌椅和吧台，空间为小型店",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "杯内有深绿色、浅绿色和棕色三种gelato，放两把勺。",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.95
+      "text": "菜单上显示有gelato和咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "杯内有抹茶、浅绿和棕色gelato，手拿杯，指甲有红色美甲。",
+      "text": "菜单上有多种口味的gelato可供选择",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "背景有木质小圆桌和长凳，空间不大。",
-      "kind": "space",
+      "text": "店内有顾客正在消费，但未见多人",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上显示有40元、48元等价格",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有玻璃窗可看到内部",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线充足，阳光从窗户照入",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见电脑、烘焙机或专业咖啡器具",
+      "kind": "beans",
       "photo": 1,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:08Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    40.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:51Z"
 }

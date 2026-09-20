@@ -1,65 +1,80 @@
 {
   "cafeId": "miiix-coffee-dabaishu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1522034c071a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e4dc389f88bf",
   "photos": [
     "https://store.is.autonavi.com/showpic/9e17c252a10b58b00000000722634506?type=pic",
     "https://store.is.autonavi.com/showpic/e16af99aac7a2c240000004307898415?type=pic",
     "https://store.is.autonavi.com/showpic/2a301217979a13f50000004307886737?type=pic"
   ],
   "photoKinds": [
-    "drink",
+    "storefront",
     "storefront",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店门口有圣诞装饰，可见节日氛围",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店临街，有玻璃窗和门",
+      "text": "店门牌号为838，临街小店面，窗上贴有圣诞装饰及'202'字样",
       "kind": "view",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店外立式A字牌显示双杯冷萃套餐19.9元，含小黄油冷萃与咸奶油冷萃两款饮品",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内窗边可见咖啡机、叠放纸杯及操作台，但未见手冲/虹吸/磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外有立式广告牌，显示双杯冷萃套餐19.9元",
-      "kind": "menu",
+      "text": "店外停放一辆电动滑板车，门口无室外座位，地面为砖石人行道",
+      "kind": "outdoor",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见咖啡制作设备和堆叠的纸杯",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "窗内可见一人手持手机拍摄，未见他人在场，无电脑使用者",
+      "kind": "people",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店门口停有一辆电动滑板车",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "店面招牌下方窗户为玻璃窗，可透视内部设备布局，非落地窗",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "手持一杯Miiix coffee纸杯饮品",
+      "text": "店内窗下有白色冰柱造型装饰，窗内可见部分货架与杯具，无书架或植物",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "纸杯印有'Miiix coffee'字样，与店招一致，确认为该店出品",
       "kind": "drink",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于曲阳路838-7号，为独立临街小店",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:28Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    19.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:25Z"
 }

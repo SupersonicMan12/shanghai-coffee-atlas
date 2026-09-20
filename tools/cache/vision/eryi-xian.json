@@ -1,71 +1,80 @@
 {
   "cafeId": "eryi-xian",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "53b4ca4231bc",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "73df52625b22",
   "photos": [
     "https://aos-comment.amap.com/B0KAAU9WUN/comment/1feedback_sendimag_1750666642408_54658427.jpg",
-    "https://store.is.autonavi.com/showpic/080a65df76f687f90000004303226562?type=pic",
-    "https://store.is.autonavi.com/showpic/4eaa77ebd02b4a2cea744efa99826062"
+    "https://store.is.autonavi.com/showpic/4eaa77ebd02b4a2cea744efa99826062",
+    "http://store.is.autonavi.com/showpic/e06e52a5716ae564157140ccb74c755a",
+    "https://store.is.autonavi.com/showpic/080a65df76f687f90000004303226562?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "other"
+    "storefront",
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为玻璃幕墙，可见内部陈列",
+      "text": "店内有长木桌、沙发区、书架和多辆自行车，空间开阔。",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "室内有长木桌和多把椅子，可容纳多人",
-      "kind": "seating",
-      "photo": 2,
+      "text": "临街玻璃幕墙，落地窗设计，采光良好。",
+      "kind": "light",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内天花板有轨道灯和纸灯笼，书架靠墙",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "室外有木质长凳和盆栽树，设遮阳伞",
+      "text": "室外设有木质长凳、遮阳伞和盆栽，提供户外座位。",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店内可见多辆自行车陈列",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "室外地面为灰白相间地砖，部分湿滑",
-      "kind": "space",
+      "text": "店外地面铺有灰色地砖，周围停放自行车，环境整洁。",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.75
-    },
-    {
-      "text": "室内光线明亮，有大型纸灯笼照明",
-      "kind": "light",
-      "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "室外停放多辆自行车，靠近建筑",
-      "kind": "view",
+      "text": "室内有高大书架，摆放大量书籍，适合阅读或工作。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见多辆自行车陈列，与品牌“BICYCLE LIFESTYLE”相符。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有宠物狗停车标识的木质箱体，允许宠物进入。",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
+    },
+    {
+      "text": "店外设有多个折叠椅和小桌，供顾客使用。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.85
     }
   ],
+  "room": "large",
   "seats": "many",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:52Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:14Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "starbucks-osm-2",
-  "model": "qwen3-vl-flash,qwen-vl-plus-latest,qwen-vl-max-latest,qwen-vl-plus",
-  "inputDigest": "8ea72cc37b9f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f7c90252d5a1",
   "photos": [
     "https://aos-comment.amap.com/B0I1N7BOA2/comment/8D754C60_B1E9_4BA2_89AF_FE61A4500384_L0_001_2000_1500_1732757946731_83593117.jpg",
     "http://store.is.autonavi.com/showpic/213df0fa5bded3e6a5335d57a0221153",
@@ -9,63 +9,75 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "food"
+    "interior",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店门玻璃贴有'在线点到店取 NOW'及星巴克APP二维码，说明支持线上下单自提",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 1.0
-    },
-    {
-      "text": "门口双开门配木质长拉手，门上挂圣诞花环，显示为临街独立店面",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 1.0
-    },
-    {
-      "text": "橱窗内陈列多款烘焙食品：可颂、贝果、千层蛋糕、TOSTADA三明治、牛乳布丁等",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 1.0
-    },
-    {
-      "text": "橱窗标签可见具体商品名与价格，如'黑椒藤汁脆肠法棍 23'、'TOSTADA 32'、'SANDWICH 36'",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 1.0
-    },
-    {
-      "text": "透过玻璃可见店内设木质桌椅，靠窗位置有顾客就坐，但未见明显使用笔记本电脑者",
+      "text": "店内有多个座位，包括靠窗和靠内的木质桌椅。",
       "kind": "seating",
-      "photo": 2,
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口玻璃门上贴有“在线点到店取”的标识。",
+      "kind": "people",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店面为临街单层建筑，外立面有金属条纹装饰，入口处设无障碍坡道与台阶",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 1.0
+      "text": "展示柜里有可颂、贝果、三明治、蛋糕等食物。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.98
     },
     {
-      "text": "玻璃门/窗反射出街道、车辆、电线杆与远处楼房，表明位于城市街道旁，非封闭商场内",
+      "text": "展示柜里的食物价格标签清晰可见，如26元、28元、35元。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面是临街的，有大面积落地玻璃窗，采光好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有带电源插座的座位。",
+      "kind": "sockets",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可以看到外面的街道和停放的车辆。",
       "kind": "view",
       "photo": 1,
-      "confidence": 1.0
+      "confidence": 0.9
     },
     {
-      "text": "未见吧台后方烘焙机、手冲台、磨豆机等专业设备，仅展示成品食品",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 1.0
+      "text": "店内没有看到手冲台、虹吸壶或磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": null,
   "laptops": false,
+  "sockets": true,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T16:40:43Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    26.0,
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:10Z"
 }

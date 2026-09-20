@@ -1,59 +1,78 @@
 {
   "cafeId": "nth-coffee-n-hanguo-st",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0000a7d0f96f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d5113b31bc91",
   "photos": [
     "https://aos-comment.amap.com/B0KBHDI1HD/comment/60FDB303_B177_4175_B2B3_79DFDE44D249_L0_001_1500_200_1766655606779_58333053.jpg",
     "https://store.is.autonavi.com/showpic/355529d33eb4ef9f0000002882504358?type=pic",
     "http://store.is.autonavi.com/showpic/d01bdfb366c5058caf83fbc4230d27fe"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "other"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "饮品顶部有奶油和肉桂粉，其中一杯加了椒盐卷饼装饰",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有临街玻璃窗，可见室外街道与车辆",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺位于沿街商铺一层，门前有停车区域",
+      "text": "室内有吧台，顾客在吧台前座位区就座。",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有手冲咖啡器具，包括玻璃壶和滤杯。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有手冲咖啡壶和小杯浓缩咖啡，显示提供手冲或意式萃取",
+      "text": "饮品为冰咖啡，顶部有奶油和装饰物。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 0,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品为热咖啡，顶部有奶泡和撒粉。",
+      "kind": "drinks",
+      "photo": 0,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外停放着一辆SUV汽车，街道旁有其他店铺。",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有红色灯笼悬挂，表明是临街店铺。",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店外设有桌椅，供顾客在室外就座",
-      "kind": "seating",
-      "photo": 2,
+      "text": "照片中未见明显植物或书架等装饰。",
+      "kind": "decor",
+      "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店面为现代风格，黑色招牌，门头清晰标示店名",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "照片中未见有人在使用电脑。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:30Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:04Z"
 }

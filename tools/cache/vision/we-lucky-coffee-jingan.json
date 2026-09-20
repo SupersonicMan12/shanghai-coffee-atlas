@@ -1,7 +1,7 @@
 {
   "cafeId": "we-lucky-coffee-jingan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "b7b389f9ffae",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9d93bd911a10",
   "photos": [
     "https://store.is.autonavi.com/showpic/1b26a77886a4d5e03768fc79e1bf52b1",
     "https://store.is.autonavi.com/showpic/96fbcbdb26b563b6cb0f93c4ea7e481c",
@@ -9,39 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "other",
+    "logo",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店外有3个室外座位，配遮阳伞和桌椅",
+      "text": "店面招牌为绿色，标有'WE LUCKY COFFEE'及中文'小幸运咖啡'，门头下方有'Coffee'字样",
+      "kind": "storefront",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "临街玻璃门，店内可见橙色吧台及红色'hello'标识，门上贴有'Coffee'字样",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "门前摆放大型花束（橙色/白色），左侧有收拢的深绿色遮阳伞及户外桌椅",
+      "kind": "outdoor",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店门口立有招聘海报，可见'招聘店长/咖啡师/甜品师'及联系电话，无其他人员活动",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街边建筑底层，外立面为米黄色石材，窗户带几何镂空装饰，非落地窗",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见部分货架与陈列架，但未见清晰烘焙机、手冲台或磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外仅见2-3张金属桌椅，无明显多人使用痕迹；室内未见客人，无电脑使用者",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "临街玻璃门，店内可见吧台和少量座位",
-      "kind": "space",
+      "text": "照片中未见饮品、食物、菜单或价格信息，亦无书架/植物/宠物等细节",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有开业花篮，可能刚开业",
-      "kind": "time",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "招牌下方挂招聘横幅，招咖啡师",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:22Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:20Z"
 }

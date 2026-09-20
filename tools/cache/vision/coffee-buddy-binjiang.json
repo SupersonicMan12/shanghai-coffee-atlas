@@ -1,65 +1,80 @@
 {
   "cafeId": "coffee-buddy-binjiang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3bb4dd3a9004",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "bcb5b6b56524",
   "photos": [
+    "https://aos-comment.amap.com/B0L2PLQQB9/comment/2025-10-19-09-11-46%2BAFB9552E-8210-4ADC-B77C-E0453C02688_1760836311949_32909711.jpg",
     "https://store.is.autonavi.com/showpic/10dc28c69b722af831cde251d1c6da5b",
     "https://store.is.autonavi.com/showpic/f8d442dcb34205120000001022094529?type=pic",
     "https://store.is.autonavi.com/showpic/c991868ca78097620000001022062882?type=pic"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "storefront",
+    "menu",
     "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于商城路365号，临街玻璃门入口",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有吧台和咖啡机，可见专业设备。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "店内有吧台和高脚凳，适合站立或短坐",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡机、磨豆机等专业设备",
+      "text": "门口立着手写菜单，写着“ONE LATTE”和“best shot”。",
       "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "玻璃门上有手绘风格的咖啡主题装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店门口有黄色自动售货机和蓝色电动车",
-      "kind": "outdoor",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内有菜单板，但价格和豆子产地不可辨识",
+      "text": "透过玻璃窗看到店内有高脚凳和吧台座位。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "店面为临街玻璃门面，采光好。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外有蓝色电动车停放，临街。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内墙上贴有菜单板，但价格看不清。",
       "kind": "menu",
-      "photo": 3,
+      "photo": 4,
       "confidence": 0.7
     },
     {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店内没有看到明显书架、植物或宠物。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.6
+    },
+    {
+      "text": "照片中未见有人在使用电脑。",
+      "kind": "laptops",
+      "photo": 4,
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:19:33Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:19Z"
 }

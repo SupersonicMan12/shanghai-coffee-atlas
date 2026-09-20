@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "忙碌都市人可以享受茶与咖啡，感受片刻的宁静",
+      "url": "https://www.163.com/dy/article/JTGACVDH0514A3B5.html",
+      "site": "网易"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在自然风光中，忙碌都市人可以享受茶与咖啡，感受片刻的宁静",
+      "url": "https://www.163.com/dy/article/JTGACVDH0514A3B5.html",
+      "site": "网易"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "对每一杯茶与咖啡的精心雕琢，传递匠心与温度",
+      "url": "https://www.163.com/dy/article/JTGACVDH0514A3B5.html",
+      "site": "网易"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "在鲁迅公园里,“艺”起喝一杯 | 虹口甄选",
+      "url": "https://www.163.com/dy/article/JTGACVDH0514A3B5.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 2,
+      "title": "在鲁迅公园里,“艺”起喝一杯 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NDM0NTExMQ==&mid=2654916403&idx=3&sn=ed473085c2ebf9244e636483ce5012b7&chksm=8516cca82d55e49187b43ff47611bc404f08870d1b216faf8fdff0bf83328e5599a1d553fff6&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "在鲁迅公园里,“艺”起喝一杯 | 虹口甄选 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTE2ODE4Mg==&mid=2652422513&idx=1&sn=96822ba1de886961e30701f68c27d58b&chksm=bceacbc45299625a405b6ce2bb1045412ea0ca59b44825dce7d846ff4128a5a417acff76c013&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "我就问,这5家咖啡馆,还有对手吗?",
+      "url": "https://www.jfdaily.com.cn/sgh/detail?id=1732918",
+      "site_name": "无"
+    },
+    {
+      "index": 5,
+      "title": "微信公众平台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTkxMDk4NA==&mid=2652564400&idx=1&sn=3cda86c8f60fa7d015e032722c447811&chksm=bc846e87d8c45bc2cd962da1b440651e2663613ecb772686da932743460db4a7994506d0f4fe&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 6,
+      "title": "大众点评网",
+      "url": "https://www.dianping.com/search/keyword/1/80_龙湖天街/r13",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "读懂上海，可以从一杯咖啡开始 - 知乎专栏",
+      "url": "https://zhuanlan.zhihu.com/p/61313136",
+      "site_name": "知乎"
+    },
+    {
+      "index": 8,
+      "title": "咖啡與近代上海｜Airiti Library 華藝線上圖書館",
+      "url": "https://www.airitilibrary.com/Publication/Index/U0021-1610201315234738",
+      "site_name": ""
+    },
+    {
+      "index": 9,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 10,
+      "title": "上海如何成为名副其实的咖啡之城？这个原创新展作答 - 上观新闻",
+      "url": "https://www.jfdaily.com/wx/detail.do?id=1009345",
+      "site_name": "解放日报"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:07:00Z"
+}

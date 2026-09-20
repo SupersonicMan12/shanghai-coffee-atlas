@@ -1,7 +1,7 @@
 {
   "cafeId": "big-sur-coffee-mengzi-rd",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "00ecca2be72d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "38df4d055c21",
   "photos": [
     "https://store.is.autonavi.com/showpic/0767ff8e7ea93a4e0000000735632598?type=pic",
     "https://aos-comment.amap.com/B0FFH3RX03/comment/20260312-57abed94aa6f466d55573a9d-5ZTAN8UfDOy9TwCymsRRsr.jpg",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店面为临街单层铺面，外墙米色，招牌为黑色立体字‘BIG SUR COFFEE’",
+      "text": "店面临街，玻璃门面，外有树遮挡，可见内部吧台与高脚凳",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "入口为整面黑色边框玻璃门+橱窗，可见室内吧台与高脚凳",
-      "kind": "bigWindows",
-      "photo": 1,
-      "confidence": 0.98
+      "text": "室内为吧台式布局，白色瓷砖+木纹墙，吧台后方有收银机、磨豆机（ditting品牌）及菜单架",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "室内吧台前有3个木质高脚凳，吧台面为木纹+白色小方砖拼接",
+      "text": "吧台前有1个高脚凳，店内可见1名顾客坐于吧台后使用笔记本电脑",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "吧台后墙为浅木纹板，挂有电视屏、黑色帆布袋及菜单架",
-      "kind": "space",
+      "text": "店内无明显烘焙设备或手冲吧台，未见虹吸/滤杯等专业器具",
+      "kind": "brewBar",
       "photo": 2,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "可见一台黑色咖啡机（带‘ditting’标识），吧台上有手冲滤杯支架与豆袋陈列",
+      "text": "电视屏幕显示“秘鲁 黄花庄园 泉水冷发酵”字样，属单品咖啡介绍",
       "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "手持一杯冰饮，杯身印有熊形Logo和“BIG SUR COFFEE”，内含分层红褐色液体，疑似特调或冷萃",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内光线来自顶部射灯与自然光，无明显窗户直射，窗景不可见",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "手持饮品为透明塑料杯装冰饮，杯身印黑熊logo及‘BIG SUR COFFEE’字样",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外左侧立牌显示‘Hair 侬好’营业时间10:00–20:00，地址为蒙自路220号（非丽园路）",
-      "kind": "time",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "室内右侧有悬挂鹿角蕨绿植，吧台角落放绿色小盆栽",
-      "kind": "space",
+      "text": "吧台上方挂有黑色帆布袋，右侧台面放蓝色购物袋，未见书架或宠物",
+      "kind": "other",
       "photo": 2,
-      "confidence": 0.96
+      "confidence": 0.8
     }
   ],
+  "room": "bar",
   "seats": "few",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:44:46Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:25Z"
 }

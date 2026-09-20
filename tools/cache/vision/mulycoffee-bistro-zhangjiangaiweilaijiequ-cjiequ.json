@@ -1,71 +1,79 @@
 {
   "cafeId": "mulycoffee-bistro-zhangjiangaiweilaijiequ-cjiequ",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "523951e0259a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "23ac1c9db79f",
   "photos": [
+    "https://aos-comment.amap.com/comment/content_service__1773679493948_51045737_1773679644248_80528766.jpg",
     "https://store.is.autonavi.com/showpic/a9d897d668efb1560000002332498231?type=pic",
-    "https://aos-comment.amap.com/B0H31SW3OX/comment/9cfb1ae287de4d259096f870be90156d_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0H31SW3OX/comment/4b07b5207a4aa947fe805068ec92a4f4_2048_2048_80.jpg"
+    "http://store.is.autonavi.com/showpic/b0c492b92ab157cb2bcd2b7a5dc38770",
+    "https://aos-comment.amap.com/B0H31SW3OX/comment/9cfb1ae287de4d259096f870be90156d_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面位于临街玻璃幕墙建筑内，有落地窗",
+      "text": "店内为大空间，有吧台和多张桌椅。",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外有大面积玻璃窗，可看到内部情况。",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内设有吧台和高脚凳，提供坐席",
+      "text": "室内有吧台和高脚凳，顾客可坐吧台喝咖啡。",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台后方有专业咖啡机和磨豆机等设备。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方的货架上陈列着多种瓶装酒类。",
+      "kind": "drinks",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有多个座位区，至少可容纳数十人。",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.8
     },
     {
-      "text": "室内空间宽敞，有多个座位区和桌椅",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方陈列多种酒类和饮品瓶装",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见咖啡制作设备，包括手冲器具和磨豆机",
-      "kind": "roastingGear",
+      "text": "照片中可见数名顾客在店内就座。",
+      "kind": "crowd",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有顾客使用笔记本电脑",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店外有绿化带和花坛，无室外座位",
-      "kind": "outdoor",
+      "text": "杯中是拿铁拉花，图案为心形。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "店内灯光以暖黄为主，天花板有金属装饰",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
     }
   ],
-  "seats": "some",
-  "laptops": true,
-  "outdoor": false,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:21:02Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:54Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "menggongfangkafeiba-hongkou",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "25ac6c8cc91a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8d9b02e5a3f6",
   "photos": [
     "https://store.is.autonavi.com/showpic/b805e4e33b5b6b9c5e9cf5b391e82e03",
     "https://aos-comment.amap.com/B0JRKPPOMZ/comment/content_media_external_file_5444_1756208391344_66834508.jpg"
@@ -12,46 +12,35 @@
   ],
   "observations": [
     {
-      "text": "店面临街，有大面积玻璃窗",
+      "text": "店面临街，有大面积玻璃窗和拱形门头，左侧可见红色车尾。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见玻璃窗内有吊灯及桌椅，但未见明显吧台或专业咖啡设备。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口有绿植和红色车辆",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见桌椅，座位数量有限",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "有一碗蘸料，含蒜末、葱花和油",
+      "text": "桌上小碗盛有蒜末、葱花与油，配一双筷子，为中式蘸料样式。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "筷子放在碗上，置于台面",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "台面为灰色带斑点材质，下方有塑料膜覆盖",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:52Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:55Z"
 }

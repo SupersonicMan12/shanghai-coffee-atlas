@@ -1,7 +1,7 @@
 {
   "cafeId": "paul-house-xinjiangwan-zhongkaichengshizhiguang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f695759fec3a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "693c02bb3059",
   "photos": [
     "http://store.is.autonavi.com/showpic/8a4d68cdcfb3425c9640baad198466e2"
   ],
@@ -10,40 +10,53 @@
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，门面有玻璃窗",
+      "text": "店面位于石砌建筑底层，临街有玻璃门入口。",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门上方有木质招牌，标示‘Paul House’及‘Wine · Coffee · Tea · Studio’。",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门口上方有酒瓶陈列，暗示提供酒类饮品",
+      "text": "入口为木质边框玻璃门，门上贴有绿色门牌号‘22’。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门口右侧可见蓝色玻璃门，可能为另一入口或相邻店铺。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门前地面为浅色石板铺就，无明显室外座位。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门楣上方陈列数瓶酒类，推测提供酒饮服务。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "门牌号为272，位于街角位置",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门外地面为石板铺设，无明显室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "临街玻璃窗，可见店内部分区域",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.85
     }
   ],
-  "seats": "none",
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:15Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:45Z"
 }

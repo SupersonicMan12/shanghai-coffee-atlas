@@ -1,59 +1,78 @@
 {
   "cafeId": "cubic3-luyuetiandi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "57caacfe2fb3",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "806efcb52d98",
   "photos": [
     "https://store.is.autonavi.com/showpic/7d9222d3875ce7340000000967558974?type=pic",
     "https://store.is.autonavi.com/showpic/fcfc28ac6df6b767146f21a9cc1afe0c",
     "https://store.is.autonavi.com/showpic/44d1ef2fbb3dffdd9741aebfddcff8a0"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有吧台和操作区，配备电子菜单屏",
+      "text": "店内为商场内档口，有吧台和点单区",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上方有电子菜单显示屏",
+      "kind": "menu",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "可见咖啡杯和玻璃杯，提供外带和堂食杯具",
+      "text": "吧台后方可见咖啡机等设备",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "货架上陈列着不同尺寸的带盖纸杯",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门店位于商场内，入口处有金属卷帘门",
-      "kind": "space",
-      "photo": 2,
+      "text": "吧台前有透明玻璃杯和蓝色吸管",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "操作台上有磨豆机等设备，具备专业咖啡制作条件",
-      "kind": "roastingGear",
+      "text": "照片中未见顾客或工作人员",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内光线明亮，天花板有条形灯带",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域有水槽和洗杯区",
+      "kind": "beans",
       "photo": 3,
       "confidence": 0.7
-    },
-    {
-      "text": "店门口上方有悬挂标识，显示为商场餐饮区域",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "展示的饮品杯有不同尺寸，适合多种容量需求",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:20:37Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:27Z"
 }

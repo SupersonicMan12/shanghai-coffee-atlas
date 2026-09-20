@@ -1,7 +1,7 @@
 {
   "cafeId": "cubic3-qibaobaolong",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6cf07867ccfa",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "aab3ecbb3de8",
   "photos": [
     "https://store.is.autonavi.com/showpic/613c747d872664910000002739386156?type=pic",
     "https://store.is.autonavi.com/showpic/f10e357cbb428c89597e22a4bd4a0b40",
@@ -14,58 +14,69 @@
   ],
   "observations": [
     {
-      "text": "饮品为冰咖啡，含冰块和深色液体",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店位于商场内，有玻璃门和落地窗",
-      "kind": "space",
+      "text": "店内有落地玻璃窗，可看到内部陈设。",
+      "kind": "light",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上有冰美式、拿铁、dirty等经典咖啡品类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上列出桃子冰美、橙子冰美等果味咖啡。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有几张圆形桌椅，座位数量较少",
+      "text": "菜单上显示桃子冰茶、薄荷冰茶等非咖啡饮品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上部分饮品标有优惠价9.9元。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上的价格显示为10元起或15元起。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和几张小圆桌及椅子。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "菜单显示有美式、拿铁、脏咖啡等经典咖啡选项",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供果味冰美系列，包括桃子、橙子、葡萄等口味",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "非咖啡饮品包括桃子冰茶和薄荷冰茶",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "部分饮品限时优惠价为9.9元",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见吧台区域，有设备但未明确显示烘焙机或手冲台",
-      "kind": "space",
+      "text": "照片中未见明显烘焙机或手冲设备。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:39Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9,
+    10.0,
+    15.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:14Z"
 }

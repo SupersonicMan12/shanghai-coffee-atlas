@@ -1,7 +1,7 @@
 {
   "cafeId": "beiruikafei-1788guangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d4fd5dd6df93",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d13e034db566",
   "photos": [
     "https://store.is.autonavi.com/showpic/471ca44e8aabb0f7e853c943b08dcfb6",
     "https://aos-comment.amap.com/B0J2H1L99O/comment/content_media_external_images_media_1000014991_ss__1732510395245_15440415.jpg",
@@ -14,52 +14,50 @@
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，有落地玻璃窗",
+      "text": "店面位于商场内，玻璃门面，透过玻璃可见内部有顾客就坐",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有顾客在用餐，座位为桌椅形式",
-      "kind": "seating",
+      "text": "店内可见至少3名顾客在座位上，其中1人背对镜头，未见使用电脑",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "展示柜中有贝果三明治、三明治等食物",
+      "text": "展示柜中陈列3款食物：火腿蛋奶酪三明治（¥12）、每日充能坚果奶酪贝果（¥15）、芥末熏鸡嫩蛋芝士贝果（¥15）",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "贝果三明治标价15元，三明治标价12元",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为伯爵脏小贝DIRTY，杯中可见分层液体",
+      "text": "饮品为‘伯爵脏小贝DIRTY’，杯底有白色奶层，顶部深色咖啡液呈滴落状，配勺装咖啡粉与印有品牌名的杯垫",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店门口摆放花卉装饰，无室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见烘焙设备和操作台",
-      "kind": "roastingGear",
+      "text": "食物标签明确标价，三明治¥12、贝果¥15，价格清晰可读",
+      "kind": "menuPrices",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 1.0
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:16:16Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    12.0,
+    15.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:46Z"
 }

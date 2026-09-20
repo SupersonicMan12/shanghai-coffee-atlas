@@ -1,7 +1,7 @@
 {
   "cafeId": "action-8-xisuzhou-rd-1807",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f7012cb0ae02",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "319d7ac07c69",
   "photos": [
     "https://store.is.autonavi.com/showpic/e2a8c0930a812b6ab8ac7808625d0022",
     "https://store.is.autonavi.com/showpic/0a645b5eaf4d811b66daa95c7fad6581"
@@ -12,52 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和落地窗",
-      "kind": "space",
+      "text": "店面为临街玻璃门，可看到内部吧台和座位",
+      "kind": "view",
       "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有吧台和高脚凳，可见多张座位",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内可见吧台区域及咖啡制作设备",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有至少两名顾客或工作人员在场",
+      "text": "店内有人在吧台工作，后方有酒水货架",
       "kind": "people",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有吧台和高脚凳，可见多张座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口有椅子和箱子，可能用于室外座位",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "门口有折叠椅和储物箱，可能用于临时放置物品",
-      "kind": "outdoor",
+      "text": "室内灯光温暖，透过玻璃门可见内部布局",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.6
+      "confidence": 0.9
     },
     {
-      "text": "店内灯光温暖，整体照明充足",
-      "kind": "light",
+      "text": "店内无明显烘焙机或手冲设备",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "可见手冲台与磨豆机等咖啡器具",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店名招牌为红色霓虹灯，夜间可见",
-      "kind": "space",
+      "text": "照片中未见清晰菜单、饮品或食物",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:21Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:52Z"
 }

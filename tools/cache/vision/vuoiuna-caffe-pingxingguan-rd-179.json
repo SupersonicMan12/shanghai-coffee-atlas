@@ -1,65 +1,54 @@
 {
   "cafeId": "vuoiuna-caffe-pingxingguan-rd-179",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "9b5b600c1ccf",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "408b3232c64a",
   "photos": [
     "https://aos-comment.amap.com/B0K37AQVVV/comment/content_media_external_images_media_58589_ss__1732014222742_87783999.jpg",
     "https://store.is.autonavi.com/showpic/1e90b9cf1ebe9c070000000973108512?type=pic",
     "https://store.is.autonavi.com/showpic/2df6426e97b4f4080000000973062743?type=pic"
   ],
   "photoKinds": [
-    "other",
     "storefront",
+    "interior",
     "other"
   ],
   "observations": [
     {
-      "text": "店面为临街小咖啡馆，有外摆吧台和两个高脚凳",
-      "kind": "space",
+      "text": "店面为临街小铺，红色招牌写Vuoiuna Caffe，门上贴有NO COFFEE NO LIFE标语",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "门口玻璃上写有'NO COFFEE NO LIFE'字样",
-      "kind": "story",
+      "text": "店门口设两个高脚凳，无遮阳棚覆盖的室外座位，地面为沥青路",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见木质吧台及窗框，玻璃门内侧有手绘咖啡杯图案与文字",
+      "kind": "interior",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见手冲器具和磨豆机等专业设备",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外设有两个高脚凳作为室外座位",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于街道旁，门面朝向马路",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内展示有多个保温杯，印有品牌名称",
+      "text": "手持米色保温杯印Vuoiuna Caffe彩色Logo，背景橙色杯同品牌，暗示周边商品销售",
       "kind": "other",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有黄色快递柜，显示为城市普通街区环境",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.7
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:34Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:14Z"
 }

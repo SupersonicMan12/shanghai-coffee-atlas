@@ -1,7 +1,7 @@
 {
   "cafeId": "ruixingkafei-fudankejiyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "918323e8e6b4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ee8c30d60749",
   "photos": [
     "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original",
     "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5",
@@ -9,63 +9,39 @@
   ],
   "photoKinds": [
     "drink",
-    "drink",
-    "other"
+    "drink"
   ],
   "observations": [
     {
-      "text": "饮品顶部有奶油和巧克力酱",
+      "text": "照片中出现两杯饮品，一杯为冰饮带奶油和焦糖酱，另一杯为热饮带奶油",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "饮品杯身印有鹿头标志",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为分层咖啡，含奶泡和焦糖",
+      "text": "第二张照片中饮品旁有桂花干，表明可能提供桂花风味产品",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品旁边有小杯浓缩咖啡",
-      "kind": "drinks",
-      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品杯底可见咖啡豆颗粒",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品周围散落咖啡豆",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品置于浅色木质桌面",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "饮品置于深色背景上",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "照片未显示店面、座位、窗户或任何环境细节",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:12Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:03Z"
 }

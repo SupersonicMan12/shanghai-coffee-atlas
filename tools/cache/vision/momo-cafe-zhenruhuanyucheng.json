@@ -1,59 +1,80 @@
 {
   "cafeId": "momo-cafe-zhenruhuanyucheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "505eeed3bb3f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "800851e34234",
   "photos": [
-    "https://store.is.autonavi.com/showpic/4f72577dfc3ca4000000003202826607?type=pic",
-    "https://store.is.autonavi.com/showpic/3cbfeffa30c45c210000003202824747?type=pic",
-    "https://store.is.autonavi.com/showpic/9bc7ac7ac13b2c180000003386914634?type=pic"
+    "https://store.is.autonavi.com/showpic/9bc7ac7ac13b2c180000003386914634?type=pic",
+    "https://store.is.autonavi.com/showpic/55e16418dac088ed0000003202836533?type=pic",
+    "https://store.is.autonavi.com/showpic/e8ae853cb7df19280000003386920535?type=pic",
+    "https://store.is.autonavi.com/showpic/4f72577dfc3ca4000000003202826607?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内设有开放式厨房，可见烹饪设备",
+      "text": "室内空间大，有螺旋楼梯和高挑空顶，装修现代工业风。",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "餐厅内有多张黑色桌椅，座位数量较多。",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台区域有餐具和餐盘摆放，准备供顾客使用",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店内有开放式厨房，可见烤炉等烹饪设备。",
+      "kind": "specialtyMenu",
+      "photo": 4,
+      "confidence": 0.85
     },
     {
-      "text": "厨房内可见烤箱、锅具等专业厨具",
+      "text": "菜单立牌上展示了多款食物，包括三明治、汤咖喱和牛排。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店招显示为'MOMO CAFÉ'，带有卡通猫头标志",
-      "kind": "space",
-      "photo": 2,
+      "text": "店内光线充足，有大面积落地窗，可看到室外建筑。",
+      "kind": "light",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内空间为现代工业风设计，以金属与砖墙为主",
-      "kind": "space",
+      "text": "照片中可见多名顾客和店员在店内活动。",
+      "kind": "people",
       "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单立牌上有“好搭子”、“GOAL”等宣传语，无清晰价格。",
+      "kind": "menu",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "可见工作人员在厨房操作区域活动",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "未见手冲台、虹吸壶或磨豆机等专业咖啡器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.85
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:02Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:36Z"
 }

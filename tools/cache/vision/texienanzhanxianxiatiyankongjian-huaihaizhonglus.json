@@ -1,71 +1,80 @@
 {
   "cafeId": "texienanzhanxianxiatiyankongjian-huaihaizhonglus",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "7a3a2cb33570",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e0ef0a10206c",
   "photos": [
-    "https://aos-comment.amap.com/B0LAM5C7YI/comment/6394CEBE_FECA_45FF_9A39_4067E1A1EA66_L0_001_1500_200_1769667351416_71802116.jpg",
-    "https://aos-comment.amap.com/B0LAM5C7YI/comment/29D09AD6_2322_403A_9AEB_9462BC6ECE50_L0_001_1500_200_1747201838381_20692018.jpg",
-    "https://aos-comment.amap.com/B0LAM5C7YI/comment/E6918828_EDE9_4D86_B206_71AA941EFA8E_L0_001_1500_200_1758096394335_98095462.jpg"
+    "https://aos-comment.amap.com/B0LAM5C7YI/comment/E6918828_EDE9_4D86_B206_71AA941EFA8E_L0_001_1500_200_1758096394335_98095462.jpg",
+    "https://aos-comment.amap.com/B0LAM5C7YI/comment/4BCBE2B6_3B6C_42E2_A971_4340C73D5F31_L0_001_2000_150_1758080384250_34855501.jpg",
+    "https://aos-comment.amap.com/B0LAM5C7YI/comment/content_media_external_file_1000025932_ss__1759308717708_52661727.jpg",
+    "https://aos-comment.amap.com/B0LAM5C7YI/comment/6394CEBE_FECA_45FF_9A39_4067E1A1EA66_L0_001_1500_200_1769667351416_71802116.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink"
+    "drink",
+    "other"
   ],
   "observations": [
     {
-      "text": "入口为老式黑漆木门，墙面贴有多块指向不同门牌的指示牌。",
+      "text": "店内有长木桌，摆放多套咖啡杯具与菜单，用于品鉴或课程",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "饮品盛于手工粗陶杯中，置于刻有“特写南站”的木质托盘上",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "室内有长木桌配藤编椅，靠墙设置货架陈列咖啡豆包装盒。",
+      "text": "店内设有吧台区域，陈列咖啡豆包装盒及手冲器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口为老式建筑入口，门牌标示“特写南站”，需至巷底右边上3楼",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内座位为藤编靠背木椅，搭配长桌，空间布局整洁有序",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "大拱形窗采光良好，窗外可见绿树，室内摆放高大盆栽。",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "一杯黑咖啡盛于带斑点的粗陶杯中，置于刻有店名的木托盘上。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内无顾客，也未见有人使用笔记本电脑。",
+      "text": "长桌上可见笔记本电脑，可能用于培训或工作",
       "kind": "people",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "货架上陈列多款咖啡豆，包装盒上有“特写南站”字样。",
-      "kind": "beans",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "未在照片中看到烘焙机、手冲台或磨豆机等专业设备。",
-      "kind": "roastingGear",
+      "text": "长桌两侧每席均配有咖啡杯、玻璃水杯和小卡片说明",
+      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外有灌木丛和停放的汽车，但无设置户外座位区。",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "木质托盘上刻有“特写南站”字样，与店面名称一致",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.95
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": true,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:05:32Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:51Z"
 }

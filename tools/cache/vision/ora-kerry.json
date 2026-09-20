@@ -1,71 +1,68 @@
 {
   "cafeId": "ora-kerry",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "96305220f4ec",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a6ec6d2a92cd",
   "photos": [
+    "https://store.is.autonavi.com/showpic/6ef92b852b090eb90000003080176019?type=pic",
     "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16264_IMG_1766025678_13452_IMG_20251218_103938_jpg_ss__1766404924574_02585596.jpg",
-    "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16267_IMG_1766025818_13455_IMG_20251218_104158_jpg_ss__1766404924544_51755604.jpg",
-    "https://store.is.autonavi.com/showpic/6fc0fec468adcb210000002560140420?type=pic"
+    "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16273_IMG_1766026028_13459_IMG_20251218_104528_jpg_ss__1766404924488_32086525.jpg",
+    "https://aos-comment.amap.com/B0LKDDN45D/comment/file_media_Photo_16267_IMG_1766025818_13455_IMG_20251218_104158_jpg_ss__1766404924544_51755604.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
     "interior",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外设1张户外桌、4把绿色金属椅、1把黄色塑料椅及遮阳伞",
+      "text": "店内有吧台和多张绿色椅子",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店面为临街玻璃门+大面积落地窗，可见室内吧台与操作区",
-      "kind": "bigWindows",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内吧台后方有全自动咖啡机、手冲壶、磨豆机、电子秤等器具",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "墙上屏幕显示Ora Coffee品牌图与4种咖啡粉特写，含‘燕麦拿铁’字样",
-      "kind": "drinks",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "饮品杯身印‘Ora Coffee’；一杯为奶盖+橙色粉（标签名‘即如雪非雪杏花雨’），另一杯为冰美式类深色饮料（标签名‘红宝石·瑰夏’）",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "左侧墙挂板列有烘焙日期：2025-12-8、2025-12-1、2025-12-2、2025-12-1",
-      "kind": "time",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "店外立牌写‘扫码下单’，入口处有‘自然好豆，自然好喝’标语",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.97
-    },
-    {
-      "text": "店内一名员工背对镜头在吧台操作，穿黑色上衣+围裙",
+      "text": "可见咖啡师在吧台后工作",
       "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供手冲/单品咖啡（Ruby Gesha）",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单显示烘焙日期至2025年12月",
+      "kind": "time",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "提供冰咖啡和拿铁等饮品",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃窗，有室外座位",
+      "kind": "bigWindows",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
+  "room": "medium",
+  "seats": "some",
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:38Z"
+  "roastingGear": null,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:19Z"
 }

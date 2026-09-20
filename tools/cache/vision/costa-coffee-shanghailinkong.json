@@ -1,7 +1,7 @@
 {
   "cafeId": "costa-coffee-shanghailinkong",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7cd7ab3156a7",
+  "inputDigest": "e866eef7e75f",
   "photos": [
     "http://store.is.autonavi.com/showpic/7bc76c8a0583f6e2e7b60ba495d5b1ec",
     "http://store.is.autonavi.com/showpic/0ed043843c82a1d8bd44e1dfac9ca0d8",
@@ -14,34 +14,35 @@
   ],
   "observations": [
     {
-      "text": "有生椰乌龙轻乳茶饮品",
+      "text": "展示多款椰子风味饮品，含生椰乌龙茶等",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "有椰皇三重奏饮品",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有带奶油顶的热饮",
+      "text": "一款饮品顶部有奶油和坚果碎装饰",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有冰咖啡类饮品",
+      "text": "一款冰饮内含冰块和分层奶泡",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:32Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:00Z"
 }

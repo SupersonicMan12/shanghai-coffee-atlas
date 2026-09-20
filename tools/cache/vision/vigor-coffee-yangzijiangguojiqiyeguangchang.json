@@ -1,7 +1,7 @@
 {
   "cafeId": "vigor-coffee-yangzijiangguojiqiyeguangchang",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "553d4b4b2738",
+  "inputDigest": "9ee2904f605a",
   "photos": [
     "https://store.is.autonavi.com/showpic/64dfc1806285ff64ba2e621ce8f24ec2",
     "https://store.is.autonavi.com/showpic/ccb15b0e010e1eb165d20e801ebf5952",
@@ -14,58 +14,59 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备",
+      "text": "店内有白色吧台，后方可见咖啡机。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "可见咖啡机、磨豆机等专业器具",
-      "kind": "roastingGear",
+      "text": "吧台旁摆放着绿植。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有四人座圆桌和椅子",
+      "text": "店内设有圆形餐桌和黑色椅子。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有绿植装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "空间为现代简约风格",
+      "text": "天花板上有'VIGOR COFFEE'的发光招牌。",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有展示柜陈列食物",
-      "kind": "food",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.95
     },
     {
-      "text": "店内有落地窗，采光良好",
+      "text": "临街大玻璃窗，采光良好。",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "有菜单板挂在墙上",
+      "text": "菜单板挂在墙上，但内容看不清。",
       "kind": "menu",
       "photo": 2,
-      "confidence": 0.6
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台上放置了三脚架设备。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:11:52Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:04Z"
 }

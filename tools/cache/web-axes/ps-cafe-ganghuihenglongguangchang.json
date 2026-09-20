@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "选择了可以俯瞰商场全景的室外座位",
+      "url": "https://www.dianping.com/discovery/987453017",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "在高峰时间等位数小时成为常态",
+      "url": "https://www.sohu.com/a/367716730_100246910",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "整个餐厅被绿植包围环绕🍃情调满满",
+      "url": "https://www.dianping.com/discovery/955188616",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店里除了常规的咖啡、创意性的酒咖以外,还会不定期备一些微批次的咖啡手冲豆",
+      "url": "https://www.163.com/dy/article/FABNOU6B0542AWGX.html",
+      "site": "163网易免费邮"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "在徐汇一定要来的～新加坡露台花园咖啡 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1320466035",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "打卡高颜值网红餐厅👉🏻PS.Cafe - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/987453017",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "魔都人的身体里,有一半是咖啡啊!",
+      "url": "https://www.163.com/dy/article/FABNOU6B0542AWGX.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "森林系咖啡馆🌲🌲🌲🍃🍃🍃 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/955188616",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "福布斯生活 | 新加坡咖啡文化的先驱PS.Cafe落地上海港汇_品牌",
+      "url": "https://www.sohu.com/a/367716730_100246910",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "福布斯生活| 新加坡咖啡文化的先驱PS.Cafe落地上海港汇",
+      "url": "https://www.forbeschina.com/entrepreneur/46713",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "名字叫咖啡,确是充满英伦风的西餐馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1363266613",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:52Z"
+}

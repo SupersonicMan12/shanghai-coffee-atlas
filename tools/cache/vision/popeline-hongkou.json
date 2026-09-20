@@ -1,71 +1,56 @@
 {
   "cafeId": "popeline-hongkou",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "da4cd254f721",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "76a658234f61",
   "photos": [
-    "https://aos-comment.amap.com/default_poi/comment/7CF3CC17_9F74_4DD3_AB2C_B32CC179D320_L0_001_1500_200_1767850737634_69680167.jpg",
-    "https://aos-comment.amap.com/B0LA97VMV7/comment/55379ECC_EE7C_4114_BAE4_9AD98D1CAE93_L0_001_1500_200_1767879409775_12958335.jpg",
-    "https://aos-comment.amap.com/B0LA97VMV7/comment/content_media_external_file_100029207_1767604504941_60740935.jpg"
+    "https://aos-comment.amap.com/B0LA97VMV7/comment/content_media_external_file_100029207_1767604504939_45771153.jpg",
+    "https://aos-comment.amap.com/B0LA97VMV7/comment/01B440DD_75CA_40C9_AC1E_A9A9D1893558_L0_001_3024_403_1767752556514_32164129.jpg",
+    "https://aos-comment.amap.com/B0LA97VMV7/comment/D8977F4A_19AE_4B6A_983B_60701CFAC16D_L0_001_1280_170_1768200873663_60865993.jpg",
+    "https://aos-comment.amap.com/default_poi/comment/7CF3CC17_9F74_4DD3_AB2C_B32CC179D320_L0_001_1500_200_1767850737634_69680167.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "interior",
-    "interior",
-    "interior"
+    "food",
+    "drink"
   ],
   "observations": [
     {
-      "text": "墙面为浅灰绿色肌理涂料，有‘Popeline’背光立体字招牌",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第一张图中甜品为长方形千层酥底蛋糕，顶部挤有杏仁奶油与碎坚果，撒糖粉",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "第二张图同款甜品，背景招牌虚化，无其他环境细节",
-      "kind": "food",
+      "text": "店外有白色桌椅和遮阳伞，可见室外座位。",
+      "kind": "seating",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "第三张图为圆形咖啡主题甜点：巧克力脆壳底、奶油顶、可可粉、巧克力豆及巧克力蕾丝装饰",
-      "kind": "food",
+      "text": "店内有木质桌面和绿植，环境偏温馨。",
+      "kind": "interior",
       "photo": 3,
-      "confidence": 0.98
+      "confidence": 0.8
     },
     {
-      "text": "每份甜点插有白色圆形标签，印有‘Popeline Pâtisserie & Café’字样",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "甜点置于带黑斑的白色陶瓷盘上，盘下垫白色纸托",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第三张图背景可见金属叉与刀具部分，暗示为餐桌场景",
-      "kind": "space",
+      "text": "提供咖啡和多种甜点，如塔状甜品和千层蛋糕。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "三张图均未显示座位、吧台、窗户、人、设备或菜单文字",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
+      "text": "店内有大面积玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "medium",
+  "seats": "some",
+  "crowd": null,
   "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:42Z"
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:25Z"
 }

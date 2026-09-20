@@ -1,71 +1,68 @@
 {
   "cafeId": "arabica-bund",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "b0c3daaea26b",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "5d32b7aed20c",
   "photos": [
-    "https://store.is.autonavi.com/showpic/0140c33f92841f55a061d7196d599131",
+    "https://aos-comment.amap.com/B0FFJ5N0Q3/comment/5ee48fa918cbb374f80188f8f9b3cb16_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFJ5N0Q3/comment/9105148b-fdb2-4f03-aec6-242eca191605.png",
-    "https://store.is.autonavi.com/showpic/428c405d2e04d0d40000003170754125?type=pic"
+    "https://aos-comment.amap.com/B0FFJ5N0Q3/comment/content_media_external_file_1000073096_ss__1760539842174_27839082.jpg",
+    "https://store.is.autonavi.com/showpic/0140c33f92841f55a061d7196d599131"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "storefront",
-    "interior"
+    "menu"
   ],
   "observations": [
     {
-      "text": "临街石库门风格建筑，入口有三级台阶，外摆4张桌+8条长凳（部分占用人行道）",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店招为粉色旗帜，印有'% ARABICA'及地球图案；玻璃门内可见大型金色'%'标志",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内吧台前立柱为裸露混凝土，吧台面板为白色竖条纹饰面，底部为浅木色",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "吧台后方可见白色咖啡机，机身印'% ARABICA'字样；上方置物架放多排纸杯与玻璃滤杯",
-      "kind": "beans",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "室外座位区设于人行道旁，含白色金属桌、木质长凳；照片1中2人就坐，照片2无人",
+      "text": "外摆区有木质长凳和白色桌子",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.92
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "临街为大面积落地玻璃窗，无窗帘；从室内照片可见窗外有绿树与街道",
-      "kind": "bigWindows",
+      "text": "店面为临街玻璃窗，可见内部",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有清晰的咖啡豆价格和产地信息",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "照片1中左侧顾客桌上放笔记本电脑，右侧顾客未用电脑；照片2无人在座",
-      "kind": "laptops",
-      "photo": 1,
+      "text": "店内可见顾客在座位上",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "外墙挂有‘优秀历史建筑’铭牌（中英文），位于建筑左下角立柱处",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.98
+      "text": "照片中未见烘焙机或专业手冲设备",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": true,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:37:37Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    140.0,
+    252.0,
+    150.0,
+    270.0,
+    160.0,
+    288.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:19Z"
 }

@@ -1,59 +1,84 @@
 {
   "cafeId": "deck-coffee-taproom-jingansi",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "15dff2f1b019",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b10dad24cb62",
   "photos": [
     "https://store.is.autonavi.com/showpic/ca75b9c32a0814470000003121126894?type=pic",
-    "https://store.is.autonavi.com/showpic/3d114daf59f438060000003121142716?type=pic",
-    "https://store.is.autonavi.com/showpic/383870a964ee15cd0000003068374618?type=pic"
+    "https://aos-comment.amap.com/B0LA2ULFXJ/comment/content_media_external_file_100004123_1751960490867_46048617.jpg",
+    "https://aos-comment.amap.com/B0L1RHB6U8/comment/content_media_external_images_media_1000077836_ss__1768060162668_73563955.jpg",
+    "https://store.is.autonavi.com/showpic/3d114daf59f438060000003121142716?type=pic"
   ],
   "photoKinds": [
     "food",
-    "food",
-    "drink"
+    "interior",
+    "menu",
+    "food"
   ],
   "observations": [
     {
-      "text": "有木质砧板装的烤肋排、鸡翅等西式餐点。",
+      "text": "大理石桌面配木质餐板，摆有烤肋排、拼盘肉食及面包培根类早餐",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "饮品为粉色冰饮，杯身有品牌标识。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方有多层酒架，陈列大量瓶装酒。",
+      "text": "中央长桌带内置火炉，周围围坐多人，地面为水磨石，天花板有金属横梁与吊灯",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "桌面上是带纹理的大理石或人造石材质。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "餐点旁配有小金属量杯装的蘸料或香料。",
-      "kind": "food",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内灯光偏暗，以暖色和蓝色氛围灯为主。",
-      "kind": "light",
+      "text": "吧台后方可见咖啡机设备，背景墙为红色艺术装置，无明显烘焙机或虹吸器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "啤酒菜单显示三款精酿：Wild West（Cloud 9 Hazy IPA）、DAO BREW（Tengyun Witbier）、Pushers（Peachy Oolong Fizz），标注ABV/IBU及价格",
+      "kind": "menuPrices",
       "photo": 3,
-      "confidence": 0.75
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单上清晰列有“¥48/330ml ¥58/473ml”等价格，含“无醇”选项",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "烤肋排配小铜杯装橙色粉末蘸料，木板上印有“BEER DECK”字样”，同款杯垫出现在另一张图中",
+      "kind": "food",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内有数名顾客就坐，其中两人正对坐交谈，未见有人使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "餐桌中央嵌入圆形火炉，上方悬挂纸灯笼式吊灯，空间纵深大，非封闭小店",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:11Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    45.0,
+    48.0,
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:36Z"
 }

@@ -1,71 +1,80 @@
 {
   "cafeId": "yolo-sense-coffee-nanyang-rd-36",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ce533bce0f43",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "60c2bb5d3b6d",
   "photos": [
+    "https://aos-comment.amap.com/B0FFLNMRX3/comment/04273FDD_5337_41CE_9A94_283E37F3EFB5_L0_001_1500_200_1773983149931_75041976.jpg",
     "http://store.is.autonavi.com/showpic/4559c9b1f79cda1987cda20e9a969873",
-    "https://aos-comment.amap.com/B0FFLNMRX3/comment/7BFE2971_8FE1_4687_85FF_EEA82CEB1C43_L0_001_1500_2000_1731310511180_59784451.jpg",
-    "https://aos-comment.amap.com/B0FFLNMRX3/comment/04273FDD_5337_41CE_9A94_283E37F3EFB5_L0_001_1500_200_1773983149931_75041976.jpg"
+    "https://aos-comment.amap.com/B0FFLNMRX3/comment/117B2345_3C68_477B_9825_BD2BA7DAEEFE_L0_001_1500_2000_1731310511181_20243346.jpg",
+    "https://aos-comment.amap.com/B0FFLNMRX3/comment/7BFE2971_8FE1_4687_85FF_EEA82CEB1C43_L0_001_1500_2000_1731310511180_59784451.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "interior",
-    "drink"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "咖啡馆位于南阳路36号，临街有拱形门入口",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店门口招牌显示 YOLO COFFEE，门牌号36，临街小店面",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "店内有木质桌椅，座位数量较少",
+      "text": "店内可见吧台+高脚凳区，后方有两把黑色高脚椅，座位数约4-6个",
       "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内墙上挂有SCA和CQI认证证书",
-      "kind": "story",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "展示有Yolo Sense Coffee Roasters的咖啡豆包装袋",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供挂耳咖啡产品，包装上写有‘Drip Coffee’",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "杯中拉花为中文‘人’字与植物图案",
+      "text": "饮品杯身贴纸印有 'YOLO Coffee Sense' 及 'you only live once' 字样",
       "kind": "drinks",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "杯中为分层咖啡（底层深色+顶层奶泡），疑似冰拿铁或冷萃分层饮",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "桌上摆放芝麻饼类食物，表面撒黑芝麻，非面包/糕点类",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙上陈列三张认证证书：SCA、CQI Q Arabica Grader 等，显示专业资质",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "货架上展示两袋标有 'YOLO Sense Coffee Roasters' 的咖啡豆及滴滤包",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "货架上有酒瓶、Marshall音箱、蜡笔小新玩偶，无明显烘焙机/手冲台",
+      "kind": "other",
+      "photo": 4,
       "confidence": 0.9
-    },
-    {
-      "text": "店内有木制置物架，陈列酒瓶、音箱和装饰品",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内光线来自室内壁灯，采光一般",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:12Z"
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:46Z"
 }

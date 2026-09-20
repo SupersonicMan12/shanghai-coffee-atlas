@@ -1,59 +1,78 @@
 {
   "cafeId": "coffeespot-beijingxilu838nong2haoxiaoqu",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ff9af9cec4d2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "edfd3f42fd36",
   "photos": [
-    "https://aos-comment.amap.com/B0H1TSH2GW/comment/79A139B3_115C_4EEC_92ED_59DDA477D299_L0_001_1080_144_1762006155267_57770902.jpg",
     "https://aos-comment.amap.com/B0H1TSH2GW/comment/1cd45ec9d9cb4e09c0bf6b4cd90eb128_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1TSH2GW/comment/79A139B3_115C_4EEC_92ED_59DDA477D299_L0_001_1080_144_1762006155267_57770902.jpg",
     "https://aos-comment.amap.com/B0H1TSH2GW/comment/6f852a9b292c1c50d7b9144dd0ce4e72_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有金属手推车和置物架，可见部分操作台。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "店名‘Coffee Spot’以浮雕字母印在室外白墙上，门为玻璃推拉门。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "提供埃塞俄比亚Sidamo Yaye豆的意式和奶咖。",
+      "text": "室外木质条板桌，可见3个杯具+1纸杯摆于托盘上，含手冲黑咖啡、拉花拿铁、木杯冰饮及清水。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "拉花杯下方卡片标明豆子为埃塞俄比亚Sidamo Yaye，轻烘焙，自然处理法，配奶温度45-50°C。",
       "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "特调‘Ocean spray’配方含发酵酒、干无花果叶、橙花、椰奶，卡片形状为高脚杯轮廓。",
+      "kind": "specialtyMenu",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内透过玻璃门可见金属置物架、消毒液瓶、小吉他装饰，未见明显烘焙机或手冲台。",
+      "kind": "interior",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "一杯拉花奶咖配卡片，标注了豆种、处理法和风味。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "室外桌面为浅色木板拼接，地面为水泥地，有落叶与碎石，非铺装广场。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "室外木桌上有三杯饮品，含冰饮和黑咖。",
-      "kind": "drinks",
+      "text": "照片中无人使用电脑，仅远处门内隐约见一人背影，无法判断是否坐客。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店门为玻璃门，室内灯光明亮，但无窗外街景。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有员工在操作，顾客身影模糊可见。",
-      "kind": "people",
-      "photo": 1,
+      "text": "门框上方可见电源插座面板，但座位旁未见明确插座。",
+      "kind": "sockets",
+      "photo": 2,
       "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:04Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:27Z"
 }

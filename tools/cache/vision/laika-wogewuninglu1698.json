@@ -1,13 +1,14 @@
 {
   "cafeId": "laika-wogewuninglu1698",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f41d43423b36",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0023b4170407",
   "photos": [
     "https://store.is.autonavi.com/showpic/4355a64b335e66150848f2366c5d1eee"
   ],
   "photoKinds": [
     "interior",
-    "food"
+    "food",
+    "menu"
   ],
   "observations": [
     {
@@ -17,34 +18,59 @@
       "confidence": 0.95
     },
     {
-      "text": "可见临街玻璃窗，采光良好",
+      "text": "左侧有大面积玻璃窗，可看到室外街道和绿化",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显座位区，未见顾客或工作人员",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "右侧货架上有价格标签，但看不清具体数值",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见手冲台、磨豆机等专业咖啡设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见电脑、插座、书架、植物或宠物",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，采光来自左侧大玻璃窗",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内设有展示柜，摆放即食类食品",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口外为街道和绿化带",
-      "kind": "view",
+      "text": "照片中未出现饮品或明确的菜单内容",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.8
-    },
-    {
-      "text": "空间为小型零售型店铺，无明显座位区",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
     }
   ],
+  "room": "small",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:58Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:22Z"
 }

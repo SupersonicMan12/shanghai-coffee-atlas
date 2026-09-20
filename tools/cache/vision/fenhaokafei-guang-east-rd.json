@@ -1,66 +1,82 @@
 {
   "cafeId": "fenhaokafei-guang-east-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b362c15a128d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ef915a4a30cb",
   "photos": [
     "https://aos-comment.amap.com/B0H1T7KE66/comment/ffddcac19db3b5379a62a8d0ae692996_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0H1T7KE66/comment/1eec961ad1b732bc3bd0016f48eec351_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0H1T7KE66/comment/898934a0d43d0274e4b7c22cd383ee25_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/898934a0d43d0274e4b7c22cd383ee25_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/714752d8d98e703f8bb20666e884b127_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H1T7KE66/comment/1eec961ad1b732bc3bd0016f48eec351_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
-    "drink",
-    "other"
+    "menu",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面位于街角，临街有玻璃门和落地窗",
-      "kind": "space",
+      "text": "店招显示‘分号咖啡’及英文‘SEMICOLOM COFFEE’，门面为临街玻璃门，有台阶入口",
+      "kind": "storefront",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有木质长椅和圆形小桌，座位数量较少",
-      "kind": "seating",
+      "text": "室内吧台后方有三台标有‘Victoria Arduino’的黑色磨豆机",
+      "kind": "beans",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见一人在使用电脑",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "菜单白板手写列有‘山茱萸拿铁’‘橘皮拿铁’‘椰香燕麦拿铁’等特调，价格25元",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "饮品为冰咖啡，杯身印有品牌标识",
+      "text": "菜单白板上可见‘冰博克 Dirty’标价25元，与手持饮品杯印字‘NARROW GATE COFFEE SHOP’一致",
       "kind": "drinks",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内设木质长条卡座+圆形坐垫，配白色小圆桌，座位数约4-6个可见区域",
+      "kind": "seating",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "门口立牌显示‘周年庆6’，暗示开业或活动期间",
+      "kind": "time",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有白色砖墙装饰，整体风格简约",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店外有空调外机，门口放置宣传立牌",
-      "kind": "space",
+      "text": "透过玻璃门可见室外街道、停放车辆，无遮挡，属临街店铺",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店内有大窗户，采光良好",
-      "kind": "light",
-      "photo": 2,
+      "text": "吧台前顾客背影可见，未见明显使用笔记本电脑者",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": true,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:30Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    25.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:53Z"
 }

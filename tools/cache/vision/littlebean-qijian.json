@@ -1,7 +1,7 @@
 {
   "cafeId": "littlebean-qijian",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "adc3130da363",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f436b31f4870",
   "photos": [
     "https://aos-comment.amap.com/B0FFGMLT8M/comment/64817d7a899cf01bb751472f5fa47d0f_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/21c44be6efc043ab2bafd9a7e80568d8",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面有大面积落地玻璃窗",
-      "kind": "bigWindows",
+      "text": "店面为玻璃幕墙，能看到室内有吧台和高脚凳。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店外设有指示牌，指向咖啡区域",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见吧台和桌椅，空间较开阔",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店外有长条形花坛，种植植物",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有白色高脚凳和圆形桌子",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "透过玻璃可见室内有遮阳伞和绿植",
+      "text": "室外有长条形水泥花坛和黑色A字立牌。",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.75
+      "confidence": 0.9
     },
     {
-      "text": "门口有玻璃门，内部光线明亮",
-      "kind": "light",
-      "photo": 2,
+      "text": "室内可见多张白色圆桌和高脚凳，座位数量较多。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃窗看到室内有顾客就坐，非空置状态。",
+      "kind": "crowd",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店外地面为灰色地砖，整洁干净",
-      "kind": "outdoor",
+      "text": "室内有白色遮阳伞和浅色家具，空间采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见手冲台、虹吸壶等专业咖啡器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见电脑、书架或宠物。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店外地面湿滑，可能刚下过雨。",
+      "kind": "time",
       "photo": 3,
       "confidence": 0.8
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "medium",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:12Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "silverflow-guoquan-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d28001064fd8",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "0c3884692d80",
   "photos": [
     "https://store.is.autonavi.com/showpic/05cc076f3be693c10000002354018766?type=pic",
     "https://store.is.autonavi.com/showpic/666508534f99c93d95e9bee6f51d3cfa",
@@ -9,44 +9,58 @@
   ],
   "photoKinds": [
     "interior",
+    "storefront",
     "drink"
   ],
   "observations": [
     {
-      "text": "店内有金属吧台和网格状滴水盘",
-      "kind": "space",
+      "text": "咖啡机正在萃取浓缩咖啡，流入金属小杯中。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "可见一台专业咖啡机正在萃取浓缩咖啡",
-      "kind": "beans",
-      "photo": 1,
+      "text": "店面位于商场内，为临街开放式档口，有吧台和少量座位。",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "提供多杯装冰咖啡饮品",
+      "text": "店内有金属网格滴水盘、手柄式咖啡机，为标准意式咖啡操作区。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见三杯冰咖啡饮品，装在透明塑料杯中，内含冰块。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内设有木质柜台和少量桌椅",
-      "kind": "seating",
+      "text": "店招显示“银流咖啡&贝果”，表明提供贝果类食物。",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店铺位于商场内，环境整洁明亮",
-      "kind": "space",
+      "text": "吧台前放置有A字形菜单架，但内容不可辨识。",
+      "kind": "menu",
       "photo": 2,
-      "confidence": 0.85
+      "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "few",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:59Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:56Z"
 }

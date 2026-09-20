@@ -1,51 +1,58 @@
 {
   "cafeId": "mangguokafeiwu-shuangyangbeiluyuguoshundonglujia",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4ce38af64186",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "1c2c55938174",
   "photos": [
     "https://store.is.autonavi.com/showpic/1457105f4f1827600000003762590126?type=pic",
     "https://store.is.autonavi.com/showpic/5d41930bf5cebc740000003089800539?type=pic"
   ],
   "photoKinds": [
     "drink",
-    "interior"
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有木质桌椅，空间看起来中等大小",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见多盏轨道射灯和暖色调吊灯照明",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为冰咖啡，带有奶泡层",
+      "text": "手持一杯冰咖啡，杯身贴有绿色圆形标签，印有“MONGO CAFÉ”和“你有无限可能”字样。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "背景中有绿植点缀，环境偏休闲",
+      "text": "另一张照片中，同一款饮品顶部有厚层奶泡或奶油，呈现Dirty风格。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "第一张照片背景可见室内与室外区域，有桌椅、植物和暖色灯光，环境明亮。",
       "kind": "space",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "第二张照片背景为室内木质桌面，可见键盘等办公设备，暗示店内可工作。",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "可见部分桌面和椅子，但座位数量不明确",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "两张照片均显示饮品为透明塑料杯配黑色吸管，无其他食物或菜单信息。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
-  "outdoor": null,
-  "bigWindows": null,
+  "crowd": "empty",
+  "laptops": true,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:30Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:23Z"
 }

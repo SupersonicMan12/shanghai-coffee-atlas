@@ -1,7 +1,7 @@
 {
   "cafeId": "lavazza-shanghaishangpuhui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ee66486228a5",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d70f484202c5",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/3fe3bf29e85a8c66634b0b435772627c",
@@ -13,40 +13,61 @@
   ],
   "observations": [
     {
-      "text": "店内为现代简约风格，以白色和棕色为主。",
+      "text": "店面位于商场内，入口为玻璃门，上方有LAVAZZA品牌标识和Nike标志。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台区域可见专业咖啡机和点餐显示屏。",
-      "kind": "beans",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "入口处有玻璃门和立式菜单牌。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
+      "text": "店内吧台区域配备专业咖啡机、磨豆机和饮品制作设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店内光线明亮，天花板有嵌入式照明。",
-      "kind": "light",
+      "text": "吧台后方墙面有金色LAVAZZA品牌标识及‘TORINO, ITALIA, 1895’字样。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有电子显示屏，显示订单状态如‘准备中’‘请取餐’。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前放置有促销立牌，显示‘59元3杯任选’优惠信息。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有两块立式菜单牌，展示饮品与食物图片。",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "室外可见人行道和绿化带。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.75
+      "text": "店内可见部分座位区域，但具体数量和形式不清晰。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:15Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    59.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:44Z"
 }

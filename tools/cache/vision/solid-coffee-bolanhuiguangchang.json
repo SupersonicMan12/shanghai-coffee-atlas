@@ -1,72 +1,83 @@
 {
   "cafeId": "solid-coffee-bolanhuiguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5371d04a5912",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2af01e99a4e9",
   "photos": [
-    "https://store.is.autonavi.com/showpic/e95332f04e07f8476c8836c5302fd57a",
     "https://aos-comment.amap.com/B0G07H4EGB/comment/72816bc4689d2723dc92fa1ac41a4e6d_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0G07H4EGB/comment/69463fea15807f6c57f0eb30cb8a2b56_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0G07H4EGB/comment/B7AEE486_0DCA_489E_B9B9_23C5D27E45DB_L0_001_1126_200_1748357627793_98817237.jpg",
+    "https://aos-comment.amap.com/B0G07H4EGB/comment/dd5aa1ac7831c79e19a1582091bd41e6_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/e95332f04e07f8476c8836c5302fd57a"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
     "interior",
+    "drink",
     "menu"
   ],
   "observations": [
     {
-      "text": "店内有木质桌椅和少量座位",
+      "text": "店面位于商场内，有明确的楼层指引",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内为小空间，有约3-4个座位",
       "kind": "seating",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中可见2位顾客在室内就座",
+      "kind": "people",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上显示了多种面包和三明治",
+      "kind": "food",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上部分食品标价18元/个或18元/2个",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
       "text": "店内有绿植装饰",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见菜单展示热红酒美式、酒花与肉桂等饮品",
-      "kind": "drinks",
+      "kind": "decor",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内有顾客在坐着喝咖啡",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店面为临街玻璃门设计，采光良好",
+      "text": "店面有大面积玻璃窗，采光好",
       "kind": "light",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店外有树木和街道，环境安静",
+      "text": "店外是街道，有停放的汽车",
       "kind": "view",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.8
-    },
-    {
-      "text": "店门口有植物摆放，入口处较开阔",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见店内有吧台区域和操作设备",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "few",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:57Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    15.0,
+    18.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:38Z"
 }

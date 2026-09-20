@@ -1,59 +1,78 @@
 {
   "cafeId": "kudikafei-guowangzhinengdashaczuo",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c8c812a78d07",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b3dc202173d4",
   "photos": [
     "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
     "https://aos-comment.amap.com/B0LRRYJHGV/comment/ABC1B080_3EF2_47DD_A70D_748EE6A87646_L0_001_1500_200_1769618737468_19423516.jpg",
     "https://store.is.autonavi.com/showpic/a9c279023c763b98d4f6a04d985c1ef2"
   ],
   "photoKinds": [
-    "logo",
-    "menu",
-    "storefront"
+    "storefront",
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店位于商场内，为小型咖啡吧台形式",
+      "text": "店铺位于商场内，为一个独立的档口式店面。",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "有宣传咸法酪拿铁和咸法酪牛乳茶",
-      "kind": "drinks",
+      "text": "店内设有吧台和收银区，但未见座位。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内设有立式广告牌展示新品",
+      "text": "广告牌上展示了咸法酪香草拿铁、咸法酪香草牛乳茶等饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上可见“法国设计师灵感系列”字样，表明有特色产品。",
+      "kind": "specialtyMenu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内未见烘焙机、手冲台或虹吸壶等专业咖啡设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立式广告牌上印有“新年第一杯咸法酪”的宣传语。",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "从照片中未见任何客人或员工在场。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见书架、植物或宠物。",
       "kind": "other",
       "photo": 2,
       "confidence": 0.8
-    },
-    {
-      "text": "可见咖啡杯上有品牌标志",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店门口放置了菜单展示牌",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内无明显座位区域",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:38Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:23Z"
 }

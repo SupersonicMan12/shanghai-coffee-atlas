@@ -1,71 +1,78 @@
 {
   "cafeId": "coffee-brunch-longhua-east-rd-868",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "786125a4b2e7",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9b35d016375c",
   "photos": [
     "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13720_IMG_1762915225_11422_IMG_20251112_103845_jpg_ss__1764145962436_35701744.jpg",
     "https://aos-comment.amap.com/B0L3HU7VUT/comment/file_media_Photo_13716_IMG_1762914978_11418_IMG_20251112_103438_jpg_ss__1764145962433_03287619.jpg",
     "https://store.is.autonavi.com/showpic/5fd3be143fd1cec67920cc26cbb923fe"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "storefront"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "饮品为冰咖啡，含冰块和泡沫",
+      "text": "店面临街，玻璃门面，外摆3张折叠椅+1张小桌，有A字牌展示饮品",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见深色木质桌椅，靠窗位置有顾客就坐，未见明显电脑或书架",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃窗为落地窗，室内灯光暖黄，透过玻璃可见内部布局与陈设",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "杯中为冰咖啡，分层明显，上层有奶泡/油脂纹路，含数块大冰块",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店铺位于临街位置，有落地玻璃窗",
+      "text": "店招含“第八日 / COFFEE·BRUNCH”，右侧相邻为“Grande CVP”医美机构",
       "kind": "space",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中无烘焙机、手冲台等专业器具，无书架/植物/宠物",
+      "kind": "roastingGear",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店外设有少量室外座位",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内可见桌椅，空间适中",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "夜间灯光亮起，室内照明充足",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口放置菜单立牌，展示饮品图片",
-      "kind": "menu",
+      "text": "A字牌菜单上显示饮品图，但价格与豆子信息无法辨识",
+      "kind": "menuPrices",
       "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "白天自然光透过玻璃照入店内",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺与相邻商铺共用建筑结构",
-      "kind": "space",
-      "photo": 2,
+      "text": "夜间拍摄，室内灯亮，室外地面有反光，无明显人流，店内人数约1-2人",
+      "kind": "crowd",
+      "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:34Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:46Z"
 }

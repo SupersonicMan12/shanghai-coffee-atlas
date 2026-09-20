@@ -1,71 +1,80 @@
 {
   "cafeId": "lb-coffee-qijian",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "661169f477f0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "676396e0fa9c",
   "photos": [
-    "http://store.is.autonavi.com/showpic/d6776c0d0609009b2d10246a61819b7e",
     "https://aos-comment.amap.com/B0FFLJ89MJ/comment/F5C8A7F7_9B44_48EA_92C2_BE9470E2B9CC_L0_001_1500_2000_1733412962214_10735618.jpg",
-    "https://aos-comment.amap.com/B0FFLJ89MJ/comment/38E18071_DB43_4FF0_9442_E41D888B39A6_L0_001_1179_1179_1731645863558_54535344.jpg"
+    "https://aos-comment.amap.com/B0FFLJ89MJ/comment/6C3EA5E3_5898_46D3_9845_9D78EBF3E8C5_L0_001_2000_150_1759296879858_99679695.jpg",
+    "https://aos-comment.amap.com/B0FFLJ89MJ/comment/793DF428_0024_4B42_8D0E_B4A51590A43F_L0_001_1512_2016_1733412962213_20609991.jpg",
+    "http://store.is.autonavi.com/showpic/d6776c0d0609009b2d10246a61819b7e"
   ],
   "photoKinds": [
     "interior",
     "drink",
-    "interior"
+    "food",
+    "other"
   ],
   "observations": [
     {
-      "text": "吧台长且有多个高脚凳，空间开阔。",
+      "text": "店内有吧台和高脚凳，空间开阔。",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台后方有手冲咖啡机和磨豆机等器具。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "落地窗外是茂密的绿树，采光好。",
-      "kind": "light",
-      "photo": 1,
+      "text": "有大面积落地窗，窗外是绿树和街道景观。",
+      "kind": "view",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "吧台后方可见咖啡机和磨豆机。",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "吧台前有至少4个木质高脚凳。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有木纹人字拼地板和裸露管道。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "桌上放着两个带盖纸杯和一块蛋糕。",
+      "text": "照片中出现热饮、冷饮和可颂等食物。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台区域有员工在操作设备。",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "照片中出现热饮、冷饮和巧克力蛋糕等食物。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "天花板上悬挂着绿色藤蔓植物。",
-      "kind": "space",
+      "text": "照片中出现热饮、冷饮和巧克力蛋糕等食物。",
+      "kind": "food",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，主要来自自然采光。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中有人在用餐，但未见有人用电脑。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "large",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T14:01:09Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:09Z"
 }

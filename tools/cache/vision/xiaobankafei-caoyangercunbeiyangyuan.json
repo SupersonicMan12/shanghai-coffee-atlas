@@ -1,7 +1,7 @@
 {
   "cafeId": "xiaobankafei-caoyangercunbeiyangyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "861c0a8e1c03",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c3ad7f113c2d",
   "photos": [
     "https://aos-comment.amap.com/B0I01PQWUA/comment/6f1fe92ac9c9750866f142914279d80a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I01PQWUA/comment/b834decdd9c33c29ab9f31489dbb7bfa_2048_2048_80.jpg",
@@ -14,52 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于居民楼底层，有绿植环绕",
+      "text": "店面为临街小店，有玻璃窗和室外绿植。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有吧台，可见一个带木制托盘的窗口。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店外有仙人掌和盆栽植物",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为冰咖啡，杯身贴有标签",
-      "kind": "drinks",
+      "text": "照片中未见其他顾客或店员。",
+      "kind": "crowd",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡豆包装袋，品牌为BEAT TAKESHI",
+      "text": "店内有一杯燕麦拿铁类饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见两袋标有“BEAT TAKE SHI”的咖啡豆。",
       "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内墙面为浅色纹理墙，地面为深色光滑材质。",
+      "kind": "light",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "饮品放置在木质桌面上，环境简洁",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "有植物装饰，包括仙人掌和盆栽。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.85
     },
     {
-      "text": "店面有玻璃门窗，采光良好",
-      "kind": "light",
-      "photo": 2,
+      "text": "照片中未见手冲台、虹吸壶等专业器具。",
+      "kind": "brewBar",
+      "photo": 3,
       "confidence": 0.7
-    },
-    {
-      "text": "店门口悬挂中国国旗",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:03Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:36Z"
 }

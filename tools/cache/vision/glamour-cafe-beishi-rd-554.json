@@ -1,7 +1,7 @@
 {
   "cafeId": "glamour-cafe-beishi-rd-554",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "04a03b0bba5d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c10463b73e95",
   "photos": [
     "https://store.is.autonavi.com/showpic/b114bfe5c2b1dfd4664227cc1c93fbf1",
     "https://store.is.autonavi.com/showpic/25bf45d6bad38f25798e396615ce8072"
@@ -12,46 +12,47 @@
   ],
   "observations": [
     {
-      "text": "店面临街，有玻璃门和窗户",
+      "text": "店面为临街玻璃门，有吧台和三张高脚凳",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口有三张高脚凳靠吧台",
+      "text": "店内可见吧台和几张桌椅",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "text": "店内可见吧台区域和部分内部空间",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有电动车停放",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于街道旁，有树木和人行道",
+      "text": "店外人行道上有两辆电动车停放",
       "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口立有招聘广告牌",
+      "text": "门口立着一个带咖啡杯图案的宣传牌",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内灯光亮着，但未见明显顾客或工作人员",
       "kind": "people",
       "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:57Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:29Z"
 }

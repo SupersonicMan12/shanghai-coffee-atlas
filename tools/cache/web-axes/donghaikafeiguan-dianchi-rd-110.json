@@ -1,0 +1,92 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "店内顾客坐满一大半，大部分是上海阿姨叔叔们为主",
+      "url": "https://www.sohu.com/a/392256073_795849",
+      "site": "搜狐"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "爷叔阿姨们在这里畅谈，吃着曾经年轻时候吃到的味道",
+      "url": "https://www.sohu.com/a/392256073_795849",
+      "site": "搜狐"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "招牌手冲咖啡值得一试，依旧保留着用虹吸壶手工现煮咖啡的传统",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site": "百度百科"
+    },
+    "price": {
+      "value": 28.0,
+      "quote": "柠檬攀价格：28元/块",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32928545",
+      "site": "澎湃新闻网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "东海咖啡馆",
+      "url": "https://m.dianping.com/shop/129000761",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "东海咖啡馆",
+      "url": "https://baike.baidu.com/item/东海咖啡馆/67217652",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "有多少人现在最想做的事是出门喝杯咖啡?",
+      "url": "https://www.163.com/dy/article/H3N4PN050522DVT9.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 4,
+      "title": "消失12年 上海人排队等待回归的东海咖啡",
+      "url": "https://weibo.com/2/detail/5344152603595872",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 5,
+      "title": "上海第1家柠檬",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32928545",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 6,
+      "title": "【东海咖啡馆】地址详情,位置示意图,地图位置,交通指引,周边酒店-上海餐饮美食-上海地图",
+      "url": "https://sh.city8.com/cater/8dald17959gcbd9382",
+      "site_name": ""
+    },
+    {
+      "index": 7,
+      "title": "属于阿姨爷叔们的青春回忆录!「东海咖啡馆」,你觉得米道哪能?_上海",
+      "url": "https://www.sohu.com/a/392256073_795849",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 8,
+      "title": "跟着Fu大爷喝咖啡!东海咖啡馆我们来啦!",
+      "url": "https://weibo.com/2557155457/QiXbka6NP",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 9,
+      "title": "宝藏探店项目又回来了!东海咖啡馆了解一下→",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODI0OTI0OA==&mid=2654730623&idx=2&sn=cb7a46209d2c14b1957cc85d73bad8ba&chksm=bc1a393baf45f4174490004221cd469018769fd400ec33b4e5c97e1a1a0a0337f9f4b7d2cb7c&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 10,
+      "title": "咖啡探店Vlog |老上海咖啡什么味?去东海咖啡馆品一品_阿姨",
+      "url": "http://www.sohu.com/a/460663398_260616",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:08:48Z"
+}

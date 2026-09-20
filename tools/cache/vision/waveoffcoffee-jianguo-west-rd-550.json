@@ -1,47 +1,83 @@
 {
   "cafeId": "waveoffcoffee-jianguo-west-rd-550",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "992e0122bba1",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "cf86986ffe48",
   "photos": [
-    "https://aos-comment.amap.com/B0LRUMBJBK/comment/ce1044aa725dbf2f9b4fc0519f2659ec_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/5d5fcea3d03fea630000000681318831?type=pic",
-    "https://aos-comment.amap.com/B0LRUMBJBK/comment/E993F916_6424_4E42_A5F5_9C2A03499948_L0_001_1500_200_1764059716528_56120753.jpg"
+    "https://store.is.autonavi.com/showpic/441de42978e74c3d6748264e0f7c11e3",
+    "https://store.is.autonavi.com/showpic/7085af1032da9f820000005519740162?type=pic",
+    "https://aos-comment.amap.com/B0LRUMBJBK/comment/ce1044aa725dbf2f9b4fc0519f2659ec_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "storefront",
     "storefront",
     "storefront",
     "storefront"
   ],
   "observations": [
     {
-      "text": "店外摆放多个A字板菜单，宣传蒜香蛋挞和艾许黄油产品。",
-      "kind": "food",
+      "text": "店面位于红砖墙柱上，有白色立体字招牌“推浪 WAVEOFF coffee”，临街玻璃门可见室内部分区域。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有木质菜单架，展示饮品与食物图片及价格。",
+      "kind": "menu",
       "photo": 3,
       "confidence": 0.95
     },
     {
-      "text": "店门口地面堆放多个灰色混凝土路障造型的装饰物。",
-      "kind": "space",
+      "text": "菜单显示饮品包括蛋挞拿铁（¥40）、咖啡拿铁（¥40）、风味拿铁（¥40）、酸奶拿铁（¥36）。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "入口处可见玻璃门内有桌椅，为临街店铺。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "菜单展示食物包括100%全麦面包、可颂、贝果等，部分标价¥28-¥38。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店面外墙为红砖，二楼有监控摄像头和射灯。",
-      "kind": "space",
+      "text": "店外有木质地板和户外座位区，摆放桌椅，可见大型黑色吊灯。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "透过玻璃门可见店内有顾客就座，环境明亮，有悬挂灯具。",
+      "kind": "people",
       "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店外菜单架旁有宣传牌，写有“特别好吃 蒜香蛋挞”字样。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口上方装有监控摄像头和射灯，墙面为红砖材质。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:35Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    36.0,
+    40.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:45Z"
 }

@@ -1,71 +1,85 @@
 {
   "cafeId": "umah-huaihai-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b9bf0eb075e8",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "cef098468f3d",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1769656328440_86423999_1769656338462_15022914.jpg",
     "https://aos-comment.amap.com/B0I19GOFFW/comment/c0aea2b83bc7b9c5492d29fcd4b1490a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0I19GOFFW/comment/content_media_external_file_1000042272_ss__1756018581595_93032766.jpg"
   ],
   "photoKinds": [
-    "drink",
+    "interior",
     "storefront",
     "menu"
   ],
   "observations": [
     {
-      "text": "有黑咖啡和抹茶饮品",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店面门牌号240南昌路，临街玻璃门，入口处有黑色门框和地垫",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "菜单上有手冲咖啡选项，产地包括埃塞俄比亚、哥伦比亚等",
-      "kind": "beans",
+      "text": "店内可见木质OSB板墙面及台阶式座位区，配圆形坐垫，约5-6个坐垫",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方可见咖啡机、置物架及部分设备，但无清晰烘豆机/手冲台特写",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单板为软木板，贴有多个咖啡卡片，可辨识产地如Ethiopia、Colombia、Kenya等，价格标示清晰（¥38–¥48）",
+      "kind": "specialtyMenu",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供多种咖啡选择，包括黑咖啡、奶咖、手冲、冷萃等",
+      "text": "菜单中明确出现‘Dirty’‘Matcha Latte’‘Black Coffee’‘White Coffee’等饮品名",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有蛋糕类甜点，如巧克力蛋糕、芝士蛋糕等",
+      "text": "菜单右侧有‘Cake’分类，列有‘Berry Yogurt Cheesecake’‘Chestnut Mousse’等甜点名",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店内有吧台和座位区，空间较小",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有临街玻璃窗，可见室内部分区域",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有顾客在坐，环境安静",
+      "text": "店内有1人坐在靠窗位置，背对镜头，未见使用电脑；另1人在吧台后操作",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.6
+      "confidence": 0.9
     },
     {
-      "text": "菜单上标有价格，部分饮品38元起",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "室内照明为暖色灯带+顶灯，自然光从临街玻璃进入，无明显遮挡",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:06Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0,
+    38.0,
+    40.0,
+    42.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:09Z"
 }

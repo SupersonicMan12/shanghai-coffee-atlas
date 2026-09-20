@@ -1,0 +1,86 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "适合久坐的咖啡店",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "平日这里安静，总有学习读书的人",
+      "url": "https://www.163.com/dy/article/HMELECKP0514IGIT.html",
+      "site": "网易"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "是个适合久坐的咖啡店",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "意式咖啡用的是哥斯达黎加的深烘豆",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    },
+    "price": {
+      "value": 73.0,
+      "quote": "人均消费: 73 元",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site": "携程旅行网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "CAFE CHEZ W一木家(香山路店)",
+      "url": "https://m.dianping.com/shop/97191293",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "咖啡厅- Cafe Chez W一木家- 上海市黄浦区 - 高德地图",
+      "url": "https://www.amap.com/place/B0FFIKC046",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 3,
+      "title": "CAFE CHEZ W一木家(香山路店) - 携程",
+      "url": "https://you.ctrip.com/food/2/18658643.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 4,
+      "title": "来黄浦,喝冬季的第一杯热咖啡!",
+      "url": "https://www.163.com/dy/article/HMELECKP0514IGIT.html",
+      "site_name": "网易"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡探店|一木家•阴雨天也很迷人的咖啡馆 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/719948766",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "Cafe Chez W 一木家| 在这里度过我一下午的温暖咖啡时光 - 搜狐",
+      "url": "https://www.sohu.com/a/246288425_100007851",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 7,
+      "title": "CAFE CHEZ W一木家(香山路店) (上海淮海路/新天地地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-42054642/",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "url": "https://you.ctrip.com/food/shanghai2/18658643.html",
+      "site_name": "携程旅行网"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:34:31Z"
+}

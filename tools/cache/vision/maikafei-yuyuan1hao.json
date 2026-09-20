@@ -1,7 +1,7 @@
 {
   "cafeId": "maikafei-yuyuan1hao",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "318c3c2a5222",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e1d21351754b",
   "photos": [
     "https://store.is.autonavi.com/showpic/12546f9b430838dd1c6ded93423be348"
   ],
@@ -10,40 +10,29 @@
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有玻璃门和橱窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面为麦当劳品牌，招牌上有麦咖啡标识",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口可见部分室内空间，有顾客在店内",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有树木遮挡，环境靠近自然植被",
+      "text": "店铺位于丽水路88号，临街，上方有麦当劳招牌及两幅大型海报",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 1.0
     },
     {
-      "text": "建筑外观为传统风格，有装饰性边框",
+      "text": "店面为沿街小商铺，门头含'McDonald's'与'麦当劳'标识，下方为'Maikafe'入口",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
-  "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:36Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:10Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "hefa-coffee-changle-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "254c8b4eed33",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3ca93de070c1",
   "photos": [
     "https://store.is.autonavi.com/showpic/a6196d056202bf4697cdf73832282b2a"
   ],
@@ -10,46 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有玻璃门和入口",
-      "kind": "space",
+      "text": "店面临街，有玻璃门窗",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "门口有绿植装饰，地面铺有绿色垫子",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外人行道上有电动车和自行车停放",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "可见几位行人经过店铺门口",
+      "text": "店门口有行人经过",
       "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有浅色瓷砖墙面和柜台",
+      "text": "店外停放着电动车和自行车",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有绿植装饰",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见吧台区域",
       "kind": "space",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "门口右侧有黄色灯带照明",
-      "kind": "light",
+      "text": "未见明显座位或室外座",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "未见电脑、烘焙机或专业冲煮设备",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见菜单或饮品食物",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:44Z"
+  "room": "small",
+  "seats": "none",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:04Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "kanescoffee-hongshen-rd-3998",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "cb4b7eb9b50b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "575f99ed0570",
   "photos": [
     "https://store.is.autonavi.com/showpic/8a9afde969d2cf530000000951034456?type=pic",
     "https://store.is.autonavi.com/showpic/590c3b00323754d00000000951018614?type=pic",
@@ -14,58 +14,68 @@
   ],
   "observations": [
     {
-      "text": "有黑芝麻奶丝绒、花生奶丝绒、草莓奶丝绒三种面包",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有圣诞树，装饰节日气氛浓厚",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "黑芝麻奶丝绒售价18元，花生奶丝绒售价18元，草莓奶丝绒售价19元",
+      "text": "展示柜内陈列着黑芝麻、花生、草莓口味的奶油面包",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.98
     },
     {
-      "text": "店铺外有绿色座椅和遮阳棚，设有室外座位",
-      "kind": "outdoor",
+      "text": "店外有绿色金属桌椅，可坐户外座位",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质桌椅，空间整洁，设有一棵装饰圣诞树",
+      "text": "室内有木制方桌和椅子，至少可坐4人",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有柜台和展示柜，背景可见烘焙设备",
+      "text": "店内有玻璃柜台，用于展示食物",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺临街，有大面积玻璃窗和透明顶棚",
-      "kind": "bigWindows",
-      "photo": 2,
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台区域，陈列菜单和食品展示柜",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店面为临街店铺，有大面积落地窗",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店外招牌标明提供奶油面包、可颂、蛋糕",
-      "kind": "food",
-      "photo": 2,
+      "text": "菜单上显示奶油面包价格为18元或19元",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.98
+    },
+    {
+      "text": "照片中未见任何顾客或工作人员",
+      "kind": "crowd",
+      "photo": 3,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    18.0,
+    19.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:04:02Z"
 }

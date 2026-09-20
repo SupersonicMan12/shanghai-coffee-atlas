@@ -1,71 +1,71 @@
 {
   "cafeId": "surry-hills-coffee-xinhua-rd-165",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "82caba010269",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "da8737aae047",
   "photos": [
+    "https://aos-comment.amap.com/B0KKSDHR2U/comment/DCA54989_6777_444E_8C9F_C1EECB3B0505_L0_001_1080_192_1759829430974_32955138.jpg",
     "https://aos-comment.amap.com/B0KKSDHR2U/comment/3146E68C_E5EE_4415_920C_C3D7884C1FB9_L0_001_1512_2016_1740323466174_67043711.jpg",
     "https://aos-comment.amap.com/B0KKSDHR2U/comment/94234742_5F3E_4180_A199_2F7CEFBABB5E_L0_001_1512_2016_1740323466177_08365975.jpg",
     "https://aos-comment.amap.com/B0KKSDHR2U/comment/content_media_external_file_1000005032_ss__1767064860702_14497506.jpg"
   ],
   "photoKinds": [
-    "storefront",
+    "interior",
+    "drink",
     "menu",
-    "interior"
+    "other"
   ],
   "observations": [
     {
-      "text": "木质相框内有「SURRY HILLS COFFEE」微型店面模型，带遮阳棚与蕨类装饰",
-      "kind": "storefront",
+      "text": "店内有木质托盘和陶瓷杯具",
+      "kind": "space",
       "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "菜单纸张显示「Espresso」「Flat White」「Dirty」「Latte」「Piccolo」等饮品及价格（如30/32元）",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "菜单上可见豆子产地：Guatemala Acatenango、肯尼亚、埃塞俄比亚、中国台湾等",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "店内有水泥柱、藤蔓植物、陶盆多肉与《KOJI Vol.4》杂志陈列于金属台面",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "模型窗户内挂有小型圣诞花环（红丝带+绿色松枝）",
-      "kind": "storefront",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "咖啡豆包装袋印有「Anthractite Coffee Roasters」及韩文，含「프릴초싱글오리진 스페셜」字样",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.96
-    },
-    {
-      "text": "背景可见临街玻璃窗与绿色窗框，室内有置物架与部分操作区",
-      "kind": "light",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "照片中未见座位、吧台、烘焙机、手冲台或顾客使用电脑",
-      "kind": "seating",
+      "text": "菜单上有手冲咖啡选项",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "菜单上可见Espresso和Flat White价格",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内有绿植装饰，环境偏文艺",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.7
+    },
+    {
+      "text": "可见“KOJI Vol.4”书籍",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.6
+    },
+    {
+      "text": "照片中未见明显电脑使用者",
+      "kind": "people",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
-  "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:42:32Z"
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    32.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:43Z"
 }

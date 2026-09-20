@@ -1,59 +1,80 @@
 {
   "cafeId": "silverflow-qiantan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "992f120a696b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c268a85a661d",
   "photos": [
     "https://aos-comment.amap.com/B0JK6Z3BJK/comment/content_media_external_images_media_59733_1738846079764_56984115.jpg",
     "http://store.is.autonavi.com/showpic/286e9137d0bed7753c24bc1c5b79fe9b",
     "https://aos-comment.amap.com/B0JK6Z3BJK/comment/content_media_external_images_media_59733_1738846079764_01864576.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
+    "drink",
     "other"
   ],
   "observations": [
     {
-      "text": "门店位于临街位置，有落地玻璃窗",
+      "text": "店面为临街独立小空间，有大玻璃窗。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店外有促销广告牌，显示咖啡加贝果三明治套餐价格为19.9元",
+      "text": "店外立式菜单牌显示咖啡+贝果套餐19.9元。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见饮品杯身印有品牌名称，为冷饮杯",
-      "kind": "drinks",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "饮品为奶咖类，颜色呈浅米色",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.7
+      "text": "店内可见橙色吧台和柜台，无明显座位区。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.85
     },
     {
-      "text": "门店旁边有便利店，属商业区环境",
-      "kind": "view",
+      "text": "照片中未见顾客或工作人员。",
+      "kind": "people",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯身印有品牌名，但无具体品名。",
+      "kind": "drinks",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "纸袋上有红色绑带，印有品牌名",
-      "kind": "other",
+      "text": "包装袋上有品牌名，但无具体品名。",
+      "kind": "food",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
+    },
+    {
+      "text": "室内光线充足，有自然光从玻璃门照入。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业器具。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "bar",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:08Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    19.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:05Z"
 }

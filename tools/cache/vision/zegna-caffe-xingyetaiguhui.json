@@ -1,7 +1,7 @@
 {
   "cafeId": "zegna-caffe-xingyetaiguhui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "69c4029bab44",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "76c4ac9f893d",
   "photos": [
     "https://store.is.autonavi.com/showpic/4c72b3112902f14c0000003306614666",
     "https://store.is.autonavi.com/showpic/adf6c104d72f94be0000005058900098?type=pic",
@@ -15,52 +15,65 @@
   ],
   "observations": [
     {
-      "text": "店内有绿植装饰，环境自然",
-      "kind": "view",
+      "text": "室内空间，有吧台和座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "大玻璃窗，采光好",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "有蓝色圆形桌和橙色椅子，座位布置现代",
+      "text": "有绿色植物，环境有绿植装饰",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "有蓝绿色圆形桌子和橙色椅子",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见咖啡拉花艺术，饮品精致",
+      "text": "有咖啡杯，拉花为叶子图案",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供蛋糕类甜点，搭配咖啡",
+      "text": "有蛋糕，是切块的糕点",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店门口有木质格栅隔断，设计感强",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "有水杯，盛有清水",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "室内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "空间为商场内独立区域，非临街开放",
-      "kind": "space",
+      "text": "店内无明显烘焙或手冲设备",
+      "kind": "beans",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:08Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:00Z"
 }

@@ -1,54 +1,78 @@
 {
   "cafeId": "beanstar-shanghailigongdaxuekejiyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "12fba9b4a59a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "645f80958beb",
   "photos": [
     "https://store.is.autonavi.com/showpic/ae8fcd612674fcb6a49e873cbfb49bd1",
     "https://store.is.autonavi.com/showpic/74ff681c0f3eab47439ffe12bf6ef7c5",
     "https://store.is.autonavi.com/showpic/b9904b191f89b0c018e59568a5e4411e"
   ],
   "photoKinds": [
-    "storefront",
+    "menu",
     "interior",
-    "drink",
-    "menu"
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面位于上海理工大学科技园内，入口为玻璃门。",
-      "kind": "space",
-      "photo": 3,
+      "text": "菜单展示雪砖拿铁系列，包括路易波士、宇治抹茶和墨尔本香草口味。",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店内可见咖啡制作设备，如磨豆机。",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单上展示有雪砖拿铁系列饮品。",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有吧台和少量桌椅。",
-      "kind": "seating",
+      "text": "店内有吧台区域，可见咖啡机和玻璃杯具，属于小型咖啡店空间。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "店面临街，有大面积玻璃窗。",
-      "kind": "light",
+      "text": "店面为临街玻璃门面，有透明玻璃窗，可从外部看到内部操作区。",
+      "kind": "bigWindows",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有少量桌椅，座位数量较少，适合小规模顾客同时使用。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显烘焙设备或手冲器具，未见磨豆机、虹吸壶等专业设备。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上未标注价格，仅列出饮品名称及英文翻译。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "门店位于上海理工大学附近，门头标有校名，属校园周边店铺。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内未见有人使用笔记本电脑，也无明显插座露出。",
+      "kind": "laptops",
       "photo": 2,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:27Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:15Z"
 }

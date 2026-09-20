@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafeixinyijiedian-yishan-rd-700",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d8e6d74c453d",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "566d872a8f3a",
   "photos": [
     "https://aos-comment.amap.com/B0M6DZ5V2S/comment/content_media_external_file_1000004906_ss__1772578572098_47382889.jpg",
     "https://store.is.autonavi.com/showpic/8f0e718d28567bfa0000000981068462?type=pic",
@@ -14,52 +14,67 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门窗",
+      "text": "店面为临街玻璃门面，有蓝色边框玻璃门和大面积落地窗。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见少量桌椅，座位数量较少",
+      "text": "店内可见数张棕色皮质座椅与小桌，座位数量约5-8个。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "门口有落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
+      "text": "店外无室外座位，地面为灰色石砖铺就。",
+      "kind": "outdoor",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "墙上贴有促销海报，标示饮品9.9元起",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡制作区域及菜单展示",
+      "text": "店内有黄色警示锥，提示地面湿滑。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "无明显室外座位",
-      "kind": "outdoor",
+      "text": "右侧海报显示‘天天9.9元起’促销信息，包含多种饮品图片。",
+      "kind": "menuPrices",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "未见烘焙机、手冲台等专业器具",
-      "kind": "roastingGear",
+      "text": "店内可见吧台区域及电子屏幕，但未见烘焙机或手冲设备。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "店内无人在用电脑，也未见明显插座。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "透过玻璃可见店内灯光温暖，采光主要来自室内照明。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:17Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:29Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "lotus-club-lujiazui",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "31890651f004",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "07cd600ca040",
   "photos": [
     "https://store.is.autonavi.com/showpic/ef65cc025e8bbdce94f3e70eb88a7e87"
   ],
@@ -10,58 +10,41 @@
   ],
   "observations": [
     {
-      "text": "店面为弧形玻璃幕墙结构，外立面黑色顶棚带黄色Lotus标志",
+      "text": "店面为玻璃幕墙，外有黄色轿车停放",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "临街大面积落地玻璃窗，可见室内陈列与一辆黄色跑车",
-      "kind": "light",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店门口有黄黑相间警示柱，地面为铺砖人行道，无室外座位",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见大型电子屏播放广告，内容含‘此生必驾一次莲花’字样",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "透过玻璃可见店内有数人站立或行走，未见明确吧台或座位区",
+      "text": "门口有数人走动，但店内情况不明",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "text": "建筑位于城市高楼群中，背景为现代玻璃幕墙办公楼",
+      "text": "店面临街，可见街道和行人",
       "kind": "view",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "未见手冲台、磨豆机、虹吸壶、烘焙机等专业咖啡设备",
-      "kind": "roastingGear",
+      "text": "玻璃幕墙上显示大型电子广告屏",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "未见书架、植物、宠物、菜单、饮品或食物实物",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": null,
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:27Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:12Z"
 }

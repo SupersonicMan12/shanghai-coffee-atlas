@@ -1,7 +1,7 @@
 {
   "cafeId": "mini-co-shanghaikejijingcheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "178aaa5c4b73",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1813ecb6224f",
   "photos": [
     "https://store.is.autonavi.com/showpic/bea90ae2497061b3b0e55864f52bd20a"
   ],
@@ -10,46 +10,53 @@
   ],
   "observations": [
     {
-      "text": "店内为小型吧台式空间",
+      "text": "吧台呈弧形，台面为金属材质，后方有纸箱堆叠",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台正面刻有 'Cup of Surprises' 字样",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台后有咖啡设备和纸箱",
-      "kind": "drinks",
+      "text": "吧台上方悬挂双环形吊灯，背景墙为黑色长条面板",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "可见磨豆机和咖啡机等专业器具",
-      "kind": "roastingGear",
+      "text": "吧台后方可见多台打印机/办公设备，无明显咖啡制作设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前地面铺红色地毯，右侧放有黑色背包",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "吧台前无明显座位区域",
-      "kind": "seating",
+      "text": "未见顾客或工作人员，场景空置",
+      "kind": "crowd",
       "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内灯光照明，无自然采光可见",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台上方标有MINI-CO小咖咖啡字样",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
+  "room": "bar",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:15:27Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:56Z"
 }

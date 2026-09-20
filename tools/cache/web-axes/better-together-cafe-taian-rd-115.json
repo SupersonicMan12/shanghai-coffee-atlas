@@ -1,0 +1,62 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "充电插头: 有 📶Wi-Fi: 有",
+      "url": "https://www.dianping.com/discovery/875341239",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "在春暖花开或者秋風習習的季節，坐在室外喝杯咖啡",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30976246/",
+      "site": "一期一會咖啡館·Encounter Cafe (上海衡山路地區) - Trip.com"
+    },
+    "price": {
+      "value": 60.0,
+      "quote": "¥60/人",
+      "url": "http://m.dianping.com/shop/27249137?msource=applemaps",
+      "site": "一期一会·Better Together Coffee - 上海影城/新华路咖啡团购 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "泰安路老洋房咖啡馆_新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5311538850434665.html",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 2,
+      "title": "推荐一些上海值得去的咖啡馆,从江景到弄堂氛围感拉满",
+      "url": "https://www.sohu.com/a/1064778882_120487684",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 3,
+      "title": "一期一會咖啡館·Encounter Cafe (上海衡山路地區) - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/restaurant-30976246/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "一期一会·Better Together Coffee - 上海影城/新华路咖啡团购 - 大众点评",
+      "url": "http://m.dianping.com/shop/27249137?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡店学习6️⃣| 法式花园💐好浪漫🌹 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/875341239",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 6,
+      "title": "繁华中一处静诣之地,只为挥发咖啡醇美的香味——Ether·Hu专访",
+      "url": "https://www.sohu.com/a/241685919_100199942",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:04:59Z"
+}

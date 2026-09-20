@@ -1,71 +1,81 @@
 {
   "cafeId": "gentlemaker-hongshoufang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a8907aa69ec1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "19e3361eab09",
   "photos": [
     "https://aos-comment.amap.com/B0J2GUHSOT/comment/9df116b03d7a24ef1ad32aa94dbc8969_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/e3248099b61619428e312b453f7d4808",
     "https://store.is.autonavi.com/showpic/4d2b0ab11892fc340000003939534876?type=pic"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
+    "interior",
+    "drink",
     "menu"
   ],
   "observations": [
     {
-      "text": "菜单显示咖啡豆产地包括埃塞俄比亚、肯尼亚、哥伦比亚",
-      "kind": "beans",
-      "photo": 3,
+      "text": "室内有圣诞树、松果等节日装饰",
+      "kind": "story",
+      "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "提供桃子、樱桃、紫罗兰、奇异果风味的咖啡",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "咖啡豆处理法包括水洗、日晒、冷发酵水洗",
+      "text": "菜单上显示咖啡豆产地为埃塞俄比亚、肯尼亚等地",
       "kind": "beans",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "有热饮和特调饮品，如含肉桂橙片的热饮和分层鸡尾酒式饮品",
+      "text": "菜单上手冲咖啡价格为48元",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内饮品包含热红酒和分层鸡尾酒",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门店位于临街建筑，有玻璃门和橱窗",
-      "kind": "space",
+      "text": "室内有吧台，可看到部分操作区",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见明显烘焙机或磨豆机",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "店面临街，有大玻璃窗，采光好",
+      "kind": "bigWindows",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店铺外观为两层楼老式建筑，带红色遮阳篷",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外可见行人经过，街道上有车辆停放",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品价格标注为48元，部分豆子标价70元",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "照片中未见客人在用电脑",
+      "kind": "laptops",
+      "photo": 1,
       "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:04Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:17Z"
 }

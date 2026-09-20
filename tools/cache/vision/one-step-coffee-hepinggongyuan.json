@@ -1,7 +1,7 @@
 {
   "cafeId": "one-step-coffee-hepinggongyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "d31a76ba1a37",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4bd787acff70",
   "photos": [
     "https://aos-comment.amap.com/B0J29C695P/comment/10876b7d764c63bd731fc4f052551229_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J29C695P/comment/448279b4d57fd37796ed89424b500142_2048_2048_80.jpg",
@@ -9,63 +9,73 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
+    "food",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面为白墙黑瓦中式风格，门头标有“One Step Coffee”",
-      "kind": "space",
+      "text": "店外为白墙黑瓦中式风格建筑，有六角窗与拱形门洞，临公园绿植",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 1.0
     },
     {
-      "text": "入口为拱形玻璃门，左侧有六边形黑框窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内设不锈钢长吧台，陈列多种可颂、贝果等面包，每款配手写价签",
+      "text": "吧台陈列多款烘焙品，含可颂、肉桂卷、贝果等，标价28–35元",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.97
+      "confidence": 1.0
     },
     {
-      "text": "吧台上方悬挂白布帘，印有“一尺之间”“面包”“咖啡”“日常”字样及简笔画",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台后方可见大窗户，窗外有绿树、木栈道与水体（疑似公园河道）",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.92
-    },
-    {
-      "text": "室内有藤编屏风、原木桌椅、大型绿植（含仙人掌）、书架，地面为灰色瓷砖",
+      "text": "吧台上方挂布帘写有“一尺之间”“面包”“咖啡”字样，下方为不锈钢台面+灰色石英石延伸台",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.96
-    },
-    {
-      "text": "未见烘焙机、手冲台、虹吸壶或磨豆机等专业咖啡设备",
-      "kind": "roastingGear",
       "photo": 2,
-      "confidence": 0.94
+      "confidence": 1.0
     },
     {
-      "text": "照片中无人在座，未见有人使用电脑",
-      "kind": "people",
+      "text": "店内设藤编屏风分隔区，木质桌椅，多盆大型绿植（含仙人掌），书架可见书籍",
+      "kind": "decor",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 1.0
+    },
+    {
+      "text": "后厨区域可见双水槽、金属操作台及悬挂的厨具，无明显专业咖啡设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内座位约6–8个（含藤椅+木椅），未见顾客，无电脑使用者",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "大窗户正对户外木栈道与树木，自然光充足，窗外可见河道或水景",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "玻璃门/窗上贴有“请勿外带饮料”标识，入口处地面有木质踏步",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:10Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:37Z"
 }

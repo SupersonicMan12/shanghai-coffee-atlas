@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "quiet",
+      "quote": "这家园区非常安静",
+      "url": "https://www.dianping.com/discovery/1884411740",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "推荐美式咖啡、重瓣玫瑰拿铁等",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site": "Apple (中国)"
+    },
+    "price": {
+      "value": 12.0,
+      "quote": "美式咖啡 ¥12",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site": "Apple (中国)"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "【miiix coffee(上浦路店)】电话_地址_价格_营业时间_三林地区咖啡 ...",
+      "url": "http://m.dianping.com/shop/1017668394645774?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 2,
+      "title": "又打卡一家 藏在网红园区里的可爱咖啡店 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/1884411740",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 3,
+      "title": "Miiix Coffee (Shangpu Road Shop) in Shanghai China - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118813596617400&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 4,
+      "title": "miiix COFFEE(新天地店) - 上海市黄浦区- 餐饮服务;咖啡厅 - 高德地图",
+      "url": "https://www.amap.com/place/B0LD25PK83",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 5,
+      "title": "Miiix Coffee (Bei'ai Road Branch) - Apple Maps",
+      "url": "https://maps.apple.com/place?place-id=H2710I3F9966EEF3B9B&_provider=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 6,
+      "title": "旅超| 普陀、嘉定专场来啦!承包你的元旦嗨游",
+      "url": "https://www.meet-in-shanghai.net/cn/news/travel-super--putuo-and-jiading-special-sessions-are-coming-contract-your-new-years-day-hi-tour-272938",
+      "site_name": "上海市文旅推广网"
+    },
+    {
+      "index": 7,
+      "title": "上海市(Huaihai Road) 10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-zfn20933812-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 8,
+      "title": "【福利】全静安的咖啡爱好者都在这里了吧……",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzgzMTkxNA==&mid=2653780242&idx=2&sn=d729a079b49cce8427ff107a59395d44&chksm=bcc0df5e9ec3db314ac5edcacad44765a23020b824c829432bb6a8b417f73182efc42bb08ae0&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:18:10Z"
+}

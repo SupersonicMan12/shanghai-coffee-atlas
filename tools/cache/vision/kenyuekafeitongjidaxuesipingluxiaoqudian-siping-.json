@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafeitongjidaxuesipingluxiaoqudian-siping-",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b1932c7c3665",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a116b88e917e",
   "photos": [
     "https://store.is.autonavi.com/showpic/d7c9b38862e28569d40862785ff496e4",
     "https://store.is.autonavi.com/showpic/553675c4a59abd0a31822616cb8cfad5",
@@ -9,44 +9,61 @@
   ],
   "photoKinds": [
     "drink",
-    "storefront"
+    "storefront",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面为小型独立店铺，临街玻璃窗。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "两张饮品照片显示有冰咖啡和拿铁类饮品。",
+      "text": "两杯带有粉色蝴蝶结图案的透明杯装咖啡，杯中为分层饮品，上层有奶泡或奶油状物。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外有遮阳伞，可能提供室外座位。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内可见白色桌椅，数量约3-4套。",
-      "kind": "seating",
+      "text": "店门口设有玻璃门和透明橱窗，可见店内部分陈设及宣传海报。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店面临街，有大面积玻璃窗。",
-      "kind": "bigWindows",
+      "text": "店外摆放有金属桌椅，设有遮阳伞，属于室外座位区。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "一张纸质咖啡杯，配有黑色盖子和布质杯套，杯身印有黑色蝴蝶结图案。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示“肯悦咖啡 KCOFFEE 同学店”，位于街边建筑一层，临街玻璃面大。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外宣传架上有饮品促销信息，标价9.9元和9元。",
+      "kind": "menuPrices",
       "photo": 2,
       "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:05Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [
+    9.0,
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:19Z"
 }

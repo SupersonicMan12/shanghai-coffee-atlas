@@ -1,7 +1,7 @@
 {
   "cafeId": "4-2-lianhuapaochedasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "728e7fc5406a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "c447e0a71c32",
   "photos": [
     "http://store.is.autonavi.com/showpic/89fba4167a0f266b69b1f0d03df92d34",
     "http://store.is.autonavi.com/showpic/bd6890158ad319b71d5de704b2e57d64",
@@ -14,52 +14,65 @@
   ],
   "observations": [
     {
-      "text": "临街玻璃幕墙，有落地窗",
-      "kind": "light",
+      "text": "室内有吧台，吧台前有座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台上有两杯鸡尾酒",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面是临街玻璃幕墙，能看到室外街道",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台区域，摆放调酒器具",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见两款鸡尾酒饮品",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内灯光偏暖，氛围较暗",
+      "text": "店内灯光明亮，环境较暗",
       "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口悬挂电子招牌，显示店名",
-      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内空间为现代风格，以玻璃和金属为主",
-      "kind": "space",
-      "photo": 1,
+      "text": "室内有悬挂的吊灯",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "吧台后方有酒瓶陈列",
-      "kind": "space",
+      "text": "照片中未见客人或工作人员",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有书架和绿植",
+      "kind": "decor",
       "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "没有看到烘焙机、手冲台等专业咖啡器具",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "bar",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:09Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:52Z"
 }

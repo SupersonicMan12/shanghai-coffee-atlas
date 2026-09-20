@@ -1,7 +1,7 @@
 {
   "cafeId": "pull-tab-shanghaiyangpuqujingyu-east-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "37c6dd3892ce",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "3582945bcb97",
   "photos": [
     "https://store.is.autonavi.com/showpic/11008db048553aa43bacec7643e559fd",
     "https://store.is.autonavi.com/showpic/fb2acc40fefed2de0000002745586342?type=pic",
@@ -9,44 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
+    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面临街，有大面积玻璃窗",
-      "kind": "space|light|view",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内为开放式空间，有吧台和座位区",
+      "text": "店面位于临街商铺，有大面积玻璃窗，可看到店内部分区域。",
       "kind": "space",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内可见多名顾客在座位上",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "室内空间为中等大小，设有吧台和多组桌椅，顾客正在消费。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店内有立式咖啡制作设备",
-      "kind": "beans",
-      "photo": 2,
+      "text": "店内有圆形吧台、弧形展示架和座椅，布局现代简洁。",
+      "kind": "seating",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "室外停放多辆共享单车",
-      "kind": "other",
+      "text": "店门口有红色对联装饰，门内可见咖啡制作设备。",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内可见数名顾客，其中一人在吧台前走动，另一人坐在桌旁。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外停放多辆蓝色共享单车，门前为铺砖人行道。",
+      "kind": "view",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内右侧有橙色弧形墙面陈列架，摆放饮品或商品。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "店面招牌为“Pull-Tab 拉环咖啡”，旁边是绿色“皮具洗衣”店铺。",
+      "kind": "space",
+      "photo": 2,
       "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
-  "outdoor": true,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:33Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:34Z"
 }

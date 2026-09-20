@@ -1,11 +1,12 @@
 {
   "cafeId": "kiwi-coffee-jingfanggongyu3haoloulianbobeiluyilo",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "82461e7f4158",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "555cbcb977d7",
   "photos": [
+    "https://store.is.autonavi.com/showpic/9afb143952ccf5e40000002824472088?type=pic",
     "https://store.is.autonavi.com/showpic/e89eae3fafbca9c90000003532220680?type=pic",
-    "https://store.is.autonavi.com/showpic/88a34e0eb1f13b5d0000003532222585?type=pic",
-    "https://store.is.autonavi.com/showpic/9afb143952ccf5e40000002824472088?type=pic"
+    "https://store.is.autonavi.com/showpic/803760cc604d0f550000003532226471?type=pic",
+    "https://store.is.autonavi.com/showpic/88a34e0eb1f13b5d0000003532222585?type=pic"
   ],
   "photoKinds": [
     "storefront",
@@ -15,58 +16,65 @@
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门面，有落地窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内有多个盆栽植物，包括绿植和开花植物。",
+      "kind": "plants",
+      "photo": 4,
+      "confidence": 0.95
     },
     {
-      "text": "店内有绿植和木质桌椅，环境自然",
-      "kind": "space",
+      "text": "店外有玻璃门和落地窗，可看到室内。",
+      "kind": "bigWindows",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有木质展示架，上面放着菜单卡片。",
+      "kind": "menu",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "菜单展示饮品种类，包含拿铁、美式等",
+      "text": "照片中出现的饮品是带有拉花的拿铁咖啡。",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "饮品为拉花拿铁，杯中可见心形图案",
+      "text": "照片中出现的饮品是带有拉花的拿铁咖啡。",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店门口摆放盆栽植物，有室外绿植装饰",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内地面是深色瓷砖，墙面为浅色。",
+      "kind": "light",
+      "photo": 4,
+      "confidence": 0.85
     },
     {
-      "text": "店内有大型木质展示台，用于陈列菜单",
-      "kind": "space",
-      "photo": 2,
+      "text": "店内有高脚凳、小方桌等座位形式。",
+      "kind": "seating",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "室内地面为深色瓷砖，墙面简洁",
-      "kind": "space",
-      "photo": 2,
+      "text": "店内有吧台或服务台区域，但未见专业冲煮设备。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.7
-    },
-    {
-      "text": "店外可见城市建筑倒影，位于城市街区",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:48Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:33Z"
 }

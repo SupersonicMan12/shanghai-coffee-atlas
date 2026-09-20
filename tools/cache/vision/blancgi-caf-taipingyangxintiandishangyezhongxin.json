@@ -1,7 +1,7 @@
 {
   "cafeId": "blancgi-caf-taipingyangxintiandishangyezhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1fb5e3723c24",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a408f22436ad",
   "photos": [
     "https://store.is.autonavi.com/showpic/d061629abd0581c7ca9cc45cb540f0e0",
     "https://store.is.autonavi.com/showpic/40f1049f364eb34bbb4ed25d6094be84",
@@ -10,62 +10,69 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "drink"
   ],
   "observations": [
     {
-      "text": "有室外座位和遮阳伞",
-      "kind": "seating",
+      "text": "店外有2张米色遮阳伞及4张户外桌椅，临街玻璃门面",
+      "kind": "outdoor",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "室内有咖啡机和磨豆机等专业设备",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台区域有多种瓶装饮料和咖啡器具",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "摆放有鲜花和瓶装饮品，环境整洁",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见手冲咖啡用具和咖啡豆包装袋",
+      "text": "吧台后方陈列多排橙色瓶装饮料，背景有木质货架陈列袋装咖啡豆",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 1.0
     },
     {
-      "text": "设有室内吧台和操作区",
-      "kind": "space",
+      "text": "吧台前可见一台黑色手冲磨豆机（带透明料斗），旁边有滤杯、分享壶等手冲器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台台面上摆放一盆紫花蝴蝶兰，前方有数瓶Limmerberg特调果汁及Perrier气泡水",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有多个桌椅组合，适合多人使用",
-      "kind": "seating",
+      "text": "吧台后方有大型意式咖啡机（带红色品牌标识），上方置放多叠纸杯与白色陶瓷杯",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内空间为开放式吧台+少量座位，未见明显顾客，无电脑使用者",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面入口处为玻璃推拉门，室内采光来自大面积落地窗及顶部照明",
+      "kind": "bigWindows",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见烘焙机、书架、宠物、食物实物或菜单价格明细",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:15:52Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:53Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "as-garden-cafe-lujiazuifucheng-rd-199",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "1e53df0f9afc",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7905afa24f97",
   "photos": [
     "https://store.is.autonavi.com/showpic/13aedb45ddcd152aa0b1f335710fa289",
     "https://aos-comment.amap.com/B0KUD5F8IV/comment/D7B1BB00_19B4_48BA_A686_EEE7AC545EA6_L0_001_2000_133_1759133087032_97982866.jpg",
@@ -10,62 +10,70 @@
   "photoKinds": [
     "storefront",
     "food",
-    "food"
+    "drink",
+    "interior"
   ],
   "observations": [
     {
-      "text": "有室外庭院座位，木桌椅，背景是绿植墙和树木。",
-      "kind": "space",
+      "text": "有户外庭院座位，周围是绿植和树木。",
+      "kind": "view",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "桌上摆着班尼迪克蛋、咖啡拉花、马苏里拉奶酪沙拉。",
+      "text": "看到两份班尼迪克蛋（Eggs Benedict）。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "饮品有带拉花的咖啡和一杯黄色果汁，配薄荷叶。",
+      "text": "看到一份卡布奇诺，拉花为叶子图案。",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "看到一份卡布奇诺，拉花为叶子图案。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内空间有木质桌椅和藤编座椅，光线充足。",
+      "kind": "light",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "室外座位区有遮阳伞，桌上有小花瓶插鲜花。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.85
-    },
-    {
-      "text": "入口处有高大绿篱，后方是白色建筑，背景是高层住宅楼。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "庭院地面为木质地板，摆放多组桌椅，空间开阔。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "未见有人在店内使用电脑或工作。",
+      "text": "照片中未见有人使用电脑。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "未见任何烘焙机、手冲台或磨豆机等专业设备。",
-      "kind": "roastingGear",
+      "text": "未见烘焙机、手冲台等专业咖啡设备。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
+    },
+    {
+      "text": "菜单上未看清价格或豆子产地信息。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "courtyard",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:00Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:20Z"
 }

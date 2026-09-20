@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafei-xinqihuicamplus",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6a9c54040ef9",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f01acf3f064f",
   "photos": [
     "https://store.is.autonavi.com/showpic/9a602e9173949286c0940f500d7f5863"
   ],
@@ -10,40 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有玻璃门和窗户",
-      "kind": "space",
+      "text": "店面临街，有大面积玻璃窗",
+      "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "门前有树木遮挡，环境绿化较好",
+      "text": "门前有树，街道旁可见车辆",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有黑色SUV和橙色车停放",
       "kind": "view",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店面为现代风格建筑，外立面简洁",
+      "text": "店内可见吧台区域，有玻璃门进入",
       "kind": "space",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "门口可见停放车辆，临近道路",
-      "kind": "view",
+      "text": "未见明显户外座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.75
+    },
+    {
+      "text": "未见明显人影或顾客",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店招显示“肯悦咖啡”字样",
-      "kind": "space",
+      "text": "未见书架、植物、宠物等装饰物",
+      "kind": "decor",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
+  "room": "small",
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:39Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:32Z"
 }

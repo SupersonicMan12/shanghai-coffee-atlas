@@ -1,71 +1,77 @@
 {
   "cafeId": "touchcoffee-bar-donglan-rd-258-41",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a64a73c60ced",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "896fff46dce3",
   "photos": [
     "http://store.is.autonavi.com/showpic/d7504ad7a4ac179f53d933e6e6485ed4",
     "http://store.is.autonavi.com/showpic/8f748c8fbc495db43f87370674861f38",
     "http://store.is.autonavi.com/showpic/fedbcf477c337e17bbc0eda1eeab490a"
   ],
   "photoKinds": [
-    "drink",
-    "drink",
+    "interior",
     "drink"
   ],
   "observations": [
     {
-      "text": "饮品有草莓、蓝莓、薄荷叶装饰",
-      "kind": "drinks",
+      "text": "室内有吧台式座位，可坐人",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供多种颜色的鸡尾酒类饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有带火焰的短饮，配电子蜡烛照明",
+      "text": "饮品有特调类，如带火焰的酒饮和加薄荷的鸡尾酒",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "饮品盛装在透明塑料杯中，杯身印有图案",
+      "text": "饮品有特调类，如加柠檬片、肉桂棒、水果的饮料",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "饮品中有柠檬片、肉桂棒和冰块",
-      "kind": "drinks",
+      "text": "室内有绿植装饰，氛围感强",
+      "kind": "decor",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品摆放在金属托盘上",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室内环境有绿植装饰",
-      "kind": "interior",
+      "text": "照片中未见烘焙机或手冲台等专业咖啡设备",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "部分饮品用蝴蝶形装饰物点缀",
-      "kind": "drinks",
+      "text": "照片中无人在使用电脑",
+      "kind": "laptops",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线较暗，靠蜡烛照明，氛围偏夜店",
+      "kind": "light",
+      "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "照片中未见菜单或价格信息",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:18:11Z"
+  "room": "bar",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:41Z"
 }

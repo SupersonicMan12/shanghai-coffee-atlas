@@ -1,59 +1,80 @@
 {
   "cafeId": "shanghaipaikafeishanghailaozihao-228jiefang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a9d914de8365",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "4bac9d395bab",
   "photos": [
     "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006676_ss__1763101994078_14593166.jpg",
     "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000006704_ss__1763101994037_76572083.jpg",
+    "https://aos-comment.amap.com/B0JK1UH8B3/comment/content_media_external_file_1000241746_ss__1749108349267_06997077.jpg",
     "http://store.is.autonavi.com/showpic/9128b0aa0619880c69ddaafbecfdbcf7"
   ],
   "photoKinds": [
     "storefront",
     "storefront",
-    "interior"
+    "other",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为老式建筑风格，有木质栅栏和绿植。",
+      "text": "店面为灰墙老式建筑，有木质门窗和红色招牌，外观复古。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "入口处有红色招牌，显示“COFFEE 上咖咖啡”字样。",
-      "kind": "space",
-      "photo": 2,
+      "text": "店门口有木制栅栏围起的绿化带，旁边有大树，环境较安静。",
+      "kind": "view",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内可见临街玻璃窗，采光良好。",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.85
+      "text": "招牌显示“上海牌咖啡，SINCE 1935”，为上海老字号品牌。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "店内有顾客就座，但无法看清具体人数。",
-      "kind": "seating",
-      "photo": 3,
+      "text": "另一处店面有红色遮阳篷，临街玻璃门，店内可见吧台与吊灯。",
+      "kind": "space",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有工作人员在操作，顾客坐在临街座位上。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.7
     },
     {
-      "text": "店内可见悬挂的灯具和绿植装饰。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.75
+      "text": "照片中未见明显烘焙机、手冲台或磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "室外有一棵大树，提供部分遮荫。",
-      "kind": "view",
-      "photo": 1,
+      "text": "店内有落地窗和玻璃门，采光良好，可看到街道景象。",
+      "kind": "light",
+      "photo": 4,
       "confidence": 0.8
+    },
+    {
+      "text": "店外人行道旁有婴儿车停放，表明可能允许携带儿童进入。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.6
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:34Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:39Z"
 }

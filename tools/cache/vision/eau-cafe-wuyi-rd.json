@@ -1,7 +1,7 @@
 {
   "cafeId": "eau-cafe-wuyi-rd",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6b3e735e34f1",
+  "inputDigest": "b92a4f253f3a",
   "photos": [
     "https://aos-comment.amap.com/B0J19ZZE27/comment/5fc096c19915daf5c4b21ef7e1c43cd8_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0J19ZZE27/comment/9fa37d98bb262625c516843897e0e224_2048_2048_80.jpg",
@@ -14,58 +14,53 @@
   ],
   "observations": [
     {
-      "text": "有抹茶口味的甜品，搭配冰淇淋和红豆",
+      "text": "店内有临街玻璃窗，可见室外台阶",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "提供抹茶冰淇淋等甜品",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单上有浓缩、美式、拿铁等咖啡选项",
+      "text": "菜单上有燕麦奶拿铁、茉莉绿茶等饮品",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供燕麦奶选项，价格标注清晰",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有西瓜乐园、橙香茉莉等特调饮品",
-      "kind": "drinks",
+      "text": "菜单价格清晰，咖啡22-38元，茶饮28-35元",
+      "kind": "price",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有工作人员在操作台后工作",
+      "text": "店内可见笔记本电脑，可能有顾客使用",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店铺位于B107号，为小型独立门店",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有桌椅，空间较小，适合少量人就座",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "菜单上标注了咖啡风味描述如柑橘花香",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": true,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:19Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    22.0,
+    28.0,
+    32.0,
+    35.0,
+    38.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:55Z"
 }

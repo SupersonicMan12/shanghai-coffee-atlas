@@ -1,7 +1,7 @@
 {
   "cafeId": "beanstar-shanghaixuhuixianzhitaxitalou",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1246d0cb0972",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e7f2e8ff1e2d",
   "photos": [
     "http://store.is.autonavi.com/showpic/e3e5f2316c154ba06708a96ad72a2ce9",
     "https://aos-comment.amap.com/B0KG6MNLIX/comment/30481112_8643_480B_99F4_9E6440C1C6B0_L0_001_1206_147_1767014857787_74877904.jpg",
@@ -9,45 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "drink"
+    "other",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店面为小型柜台式，位于室内空间",
+      "text": "店面位于室内大空间，吧台独立设置，无明显座位区。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡机等专业器具",
-      "kind": "beans",
+      "text": "吧台后方可见咖啡机、磨豆机等专业设备。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "展示区有带盖马克杯和纸袋等商品",
-      "kind": "drinks",
+      "text": "店内展示有BeanStar品牌杯具、纸袋及包装盒，为商品零售区。",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "环境整洁，以白色为主色调",
+      "text": "空间宽敞，地面光滑，墙面为浅色面板，整体风格现代简约。",
       "kind": "space",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "text": "店内光线充足，但无明显窗户采光",
+      "text": "吧台前方无顾客或座位，空间空旷。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见烘焙机、手冲台、虹吸壶等设备。",
+      "kind": "roastingGear",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见菜单、饮品或食物实物，无法确认具体产品或价格。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "无可见窗户或自然采光来源，顶部为人工照明。",
       "kind": "light",
       "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:25:29Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:20Z"
 }

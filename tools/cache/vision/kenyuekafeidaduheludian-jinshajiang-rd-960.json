@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafeidaduheludian-jinshajiang-rd-960",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3b72d24365aa",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "53f2db096d51",
   "photos": [
     "https://aos-comment.amap.com/B0LBYULVV5/comment/content_media_external_file_142007_ss__1761265069739_72517039.jpg",
     "https://store.is.autonavi.com/showpic/14381b040a4ac3373526335fb7da4510",
@@ -15,52 +15,65 @@
   ],
   "observations": [
     {
-      "text": "店内有红色座椅和木质桌椅，空间适中",
-      "kind": "space",
+      "text": "室内有橙色和红色的座位，数量级为一些。",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "可见一杯KCOFFEE咖啡和一份芝鸡（轻盈版）早餐",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供芝鸡（轻盈版）早餐，包装上有明确标识",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面位于临街位置，玻璃门面，外部人行道开阔",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有自然光照射，采光良好",
+      "text": "店内光线充足，有明显的阳光从窗户照入。",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店外无室外座位",
-      "kind": "outdoor",
+      "text": "店外是铺着地砖的广场，远处有建筑工地脚手架。",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内设有吧台区域，背景可见饮料展示架",
+      "text": "照片中有一杯咖啡和一个芝士鸡排汉堡（轻盈版）。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面为玻璃门面，有大面积玻璃窗。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有顾客在用餐，但人数不多。",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有吧台式服务台，背景可见饮料机等设备。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.85
+    },
+    {
+      "text": "未见烘焙机、手冲台或磨豆机等专业器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:23:15Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:42Z"
 }

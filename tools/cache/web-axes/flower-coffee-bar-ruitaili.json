@@ -1,0 +1,62 @@
+{
+  "answers": {
+    "noise": {
+      "answer": "lively",
+      "quote": "从下午2点多聊到晚上7点",
+      "url": "https://www.dianping.com/discovery/987407176",
+      "site": "大众点评网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "从下午2点多聊到晚上7点",
+      "url": "https://www.dianping.com/discovery/987407176",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "桂花拿铁未入口就能闻到浓郁的桂花香气",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUzNDAyMDY0OQ==&mid=2247764976&idx=1&sn=404123d16311482f84404565b85f858d&chksm=fbfd52944b5e1ef9e22a57a073b2614a862197e06905052d31044abb8c59099923d04b07fb7e&scene=27",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "汭REi·FLOWER COFFEE BAR - 携程",
+      "url": "https://you.ctrip.com/food/2/131111400.html",
+      "site_name": "携程旅行网"
+    },
+    {
+      "index": 2,
+      "title": "【汭REi·FLOWER COFFEE BAR】地址,电话,路线,周边,在哪,怎样 - 百度",
+      "url": "https://j.map.baidu.com/02/gwZg",
+      "site_name": "百度"
+    },
+    {
+      "index": 3,
+      "title": "北外滩再添新店!来滨江体验“咖啡与茶”新风尚 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NzI0NjIxNg==&mid=2651126926&idx=2&sn=d024c32b85068faa5c76b113a9709eee&chksm=8b5391e9bc2418ffed78dd23679911818aae0eb7ca017272cccfe31f8c5df2d85b7940f182ef&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "上海版塞纳河畔|苏州河边的户外咖啡☕️ - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/987407176",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "北外滩这几家宝藏下午茶,进去就不想出来了~",
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20240504/52a80fc2-1d09-4ef7-8554-33dc526c8579.html",
+      "site_name": "上海市虹口区人民政府"
+    },
+    {
+      "index": 6,
+      "title": "北苏州路宝藏店,不允许你们还没收藏! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUzNDAyMDY0OQ==&mid=2247764976&idx=1&sn=404123d16311482f84404565b85f858d&chksm=fbfd52944b5e1ef9e22a57a073b2614a862197e06905052d31044abb8c59099923d04b07fb7e&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:07:00Z"
+}

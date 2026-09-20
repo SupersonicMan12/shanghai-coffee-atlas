@@ -1,7 +1,7 @@
 {
   "cafeId": "bird-water-tower-m50",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "8ae2850810d6",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "3eb948220038",
   "photos": [
     "https://store.is.autonavi.com/showpic/32ea8769b26175e70000003006146248?type=pic",
     "http://store.is.autonavi.com/showpic/f5b364c9a9461f4ba8f31c64cd63e46f",
@@ -9,63 +9,46 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "other"
   ],
   "observations": [
     {
-      "text": "外墙为混凝土结构，标有‘BW BIRD WATER TOWER 珀德空间’金属字牌",
-      "kind": "space",
+      "text": "外墙有大型灰色毛绒熊装饰",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "建筑顶部平台放置一只灰色毛绒狗玩偶，下方有破损蝶翼装饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "入口为石阶通道，两侧墙面覆绿植，上方有金属架与‘BWT CAFÉ’字样",
+      "text": "入口处有爬满藤蔓的墙壁和楼梯",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 0.9
     },
     {
-      "text": "室内陈列架上摆放手绘狗头陶瓷杯、印狗图案帆布袋及‘Doggy HANDMADE mug’手写标牌",
-      "kind": "interior",
+      "text": "室内展示手工艺品和周边商品",
+      "kind": "space",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.8
     },
     {
-      "text": "可见商品标签：‘DODGGY BLANKET ¥108’、‘DOGYY GIFT BOX ¥66’",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "墙上贴有‘BIRD WATER TOWER NEST FOR ALL’等图文介绍及咖啡机操作照片",
+      "text": "墙面有手绘图案和文字说明",
       "kind": "story",
       "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "未见吧台、座位、窗户、烘焙机、磨豆机、手冲设备或饮品实物",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "第三张图右后方镜中反射出一人持手机自拍，无电脑或用餐者",
-      "kind": "people",
-      "photo": 3,
-      "confidence": 0.9
+      "confidence": 0.7
     }
   ],
-  "seats": "unknown",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:39:01Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:38:39Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "plan-b-xiangyang-n-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "2354d0a110a2",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "22ab332bd5af",
   "photos": [
     "https://aos-comment.amap.com/B0GRDSEWJA/comment/2026-03-02-12-57-31%2BECB032B8-D3D4-423F-93D7-939E92D4547_1772427459255_95605203.jpg",
     "https://store.is.autonavi.com/showpic/b04755e925a9c6e60000003050492225?type=pic",
@@ -9,51 +9,74 @@
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "drink"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店外台阶有座位，一人坐着休息。",
+      "text": "店面临街，有黑色遮阳棚和台阶式室外座位区。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外有石阶座位，一人坐着休息，旁边有加热灯。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "临街大玻璃窗，室内可见吧台和高脚凳。",
-      "kind": "light",
+      "text": "菜单展示特调咖啡，含抹茶拿铁、燕麦拿铁等饮品。",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单板显示特调咖啡，价格35元起。",
-      "kind": "menu",
-      "photo": 1,
+      "text": "店内可见吧台区域，有高脚凳和白色瓷砖墙面。",
+      "kind": "interior",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "店内有白色瓷砖墙、绿植和红色灯笼装饰。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "饮品杯上印有PLAN B字样，杯内为橙黄色液体，可能是特调或果茶。",
+      "kind": "drink",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "一杯饮品杯身有拉花图案。",
-      "kind": "drinks",
+      "text": "手握一杯带有拉花的咖啡，杯身贴有PLAN B标签。",
+      "kind": "drink",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "一杯橙色饮品旁放着椰子片零食包。",
-      "kind": "drinks",
+      "text": "店内设有圆形编织托盘和椰子片包装零食，摆放在窗边台面。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "室内有落地玻璃门，光线明亮，可看到内部吧台与座椅。",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": false,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:29Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    28.0,
+    35.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:16:35Z"
 }

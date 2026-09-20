@@ -1,7 +1,7 @@
 {
   "cafeId": "tims-jinqiaoriyueguangzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "752e4b85e8fd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "83b3fe6ea28e",
   "photos": [
     "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original",
     "https://store.is.autonavi.com/showpic/1f868ac2d8f5630ede5e4f055dd05a26",
@@ -13,52 +13,65 @@
   ],
   "observations": [
     {
-      "text": "位于商场内的咖啡店，空间宽敞",
+      "text": "店面位于商场内，为标准档口店型。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 1,
+      "confidence": 0.95
     },
     {
-      "text": "店内设有吧台和少量桌椅",
+      "text": "店内有约6-8个座位，均为固定桌椅。",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见烘焙机等设备，有专业咖啡制作区域",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有顾客正在消费",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店铺招牌显示为Tims Coffee House",
-      "kind": "story",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内设有电子菜单显示屏",
-      "kind": "menu",
+      "text": "吧台后方可见咖啡机和磨豆机等设备。",
+      "kind": "beans",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "可见可颂、贝果等烘焙食品展示",
-      "kind": "food",
+      "text": "照片中无顾客在使用电脑。",
+      "kind": "laptops",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "室内光线明亮，无明显自然采光。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无人，环境空旷。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口有工作人员在梯子上作业。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见书架、植物或宠物。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "mall",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:21:22Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:17Z"
 }

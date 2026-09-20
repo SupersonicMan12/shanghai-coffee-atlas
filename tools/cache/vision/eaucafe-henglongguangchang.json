@@ -1,7 +1,7 @@
 {
   "cafeId": "eaucafe-henglongguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ed510bf289a6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "1f72e1228fcc",
   "photos": [
     "https://store.is.autonavi.com/showpic/7dd1b40b160a184d0000001829236552?type=pic",
     "https://store.is.autonavi.com/showpic/02f71135de6364630a96cc530876aa0a",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店内有双色越莓咸麦果巧巴，售价32元",
+      "text": "银盘盛放双碗蔓越莓咸麦果白巧包，标价¥32",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有AOP黄油麦芽可颂，售价20元",
+      "text": "AOP黄油麦芽可颂¥20，樱花卡仕达贝壳¥22，均陈列于玻璃柜内",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "有樱花卡仕达贝克，售价22元",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有木质桌椅和长条沙发座",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内空间宽敞，位于商场内",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有小型圆形木桌和配套椅子",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "墙上有带灯光的木质置物架",
-      "kind": "interior",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店门口可见“EAU”标识",
+      "text": "店招为蓝色“EAU”字母，位于商场走廊内，入口有深色木格栅门",
       "kind": "storefront",
       "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室内设靠墙长条格纹软座，配三张圆形小桌及三把木椅，共6个座位",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无明显专业咖啡器具（如磨豆机、手冲台），未见烘焙机",
+      "kind": "brewBar",
+      "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中无人使用电脑，也无客人在场，场景空置",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面位于商场内部，地面为光洁瓷砖，无室外座位或落地窗可见",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "空间为中等大小（medium），非吧台站喝，非大空间，非小店（>15座）",
+      "kind": "room",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:05Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:26Z"
 }

@@ -1,59 +1,79 @@
 {
   "cafeId": "ferns-cafe-tianyaoqiaolu1121nongxiaoqu",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f975e65a7780",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "b413a0684744",
   "photos": [
-    "http://store.is.autonavi.com/showpic/880581be67b7a9d8eb74beca8e592f93",
     "https://aos-comment.amap.com/B0JR4RB7OV/comment/content_media_external_file_1000151979_ss__1768020362698_17227845.jpg",
+    "http://store.is.autonavi.com/showpic/880581be67b7a9d8eb74beca8e592f93",
     "https://aos-comment.amap.com/B0JR4RB7OV/comment/content_media_external_file_1000151889_ss__1768020363277_93907447.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
-    "food"
+    "other"
   ],
   "observations": [
     {
-      "text": "店面有临街玻璃窗，可见内部吧台。",
+      "text": "店面为临街小咖啡馆，有玻璃门和绿色瓷砖吧台，门外设两把折叠椅和一个储物箱。",
       "kind": "space",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内有木质桌面、展示架及宣传立牌，可见格力高扁桃仁饮品与Pocky联名活动。",
+      "kind": "interior",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外摆放两张折叠椅和一个储物箱。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "提供以扁桃仁奶为基底的饮品，如“扁桃仁效果”系列，并有Pocky巧克力棒作为搭配或赠品。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "店内可见咖啡制作设备，如磨豆机。",
-      "kind": "beans",
+      "text": "店内有纸质菜单或宣传单，但价格和具体饮品名称无法辨识。",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "饮品包括杯装拿铁和瓶装植物蛋白饮料。",
-      "kind": "drinks",
+      "text": "店外设有两个可折叠座椅，适合少量顾客在室外停留。",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "食物有巧克力棒（Pocky）和瓶装饮料。",
-      "kind": "food",
-      "photo": 3,
+      "text": "店内可见操作台、置物架及部分咖啡制作设备轮廓，但无明确烘焙机或手冲台。",
+      "kind": "brewBar",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有绿植装饰，环境偏简约风格。",
-      "kind": "space",
+      "text": "一张照片中展示一杯印有“FERNS CAFE”的纸杯咖啡，配有品牌贴纸。",
+      "kind": "drink",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "另一张照片中展示陶瓷杯装咖啡，配有一根Pocky巧克力棒，旁边有扁桃仁奶盒和Pocky包装盒。",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 0.95
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:26:03Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:34Z"
 }

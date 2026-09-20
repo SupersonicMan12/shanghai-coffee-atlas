@@ -1,7 +1,7 @@
 {
   "cafeId": "huoshankafei-jingzuanbohua",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b5ed29dde697",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9658d5b42c2f",
   "photos": [
     "http://store.is.autonavi.com/showpic/55a878b23d6dd39911cc252c7f52c78b",
     "https://aos-comment.amap.com/B0KBY76A13/comment/C6DC67FF_313D_4D39_A09A_5DF3ABB70504_L0_001_1500_200_1764236653289_02007892.jpg",
@@ -9,57 +9,47 @@
   ],
   "photoKinds": [
     "storefront",
+    "interior",
     "drink",
     "other"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和窗户",
+      "text": "店面临街，玻璃门+大面积落地窗，门头有'VOLCANO COFFEE 火山咖啡'字样",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内可见吧台和部分桌椅",
+      "text": "室内可见吧台、后方置物架及部分设备轮廓，未见明显烘焙机或手冲台",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有冰咖啡饮品，装在带竖纹的玻璃杯中",
-      "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "饮品放置在印有店名的纸巾上",
+      "text": "冰咖啡盛于竖纹玻璃杯，置于印有店名的纸巾上，杯壁凝露明显",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "门口有遮阳伞，可能设有室外座位",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店铺外侧有树木，街道环境清晰可见",
+      "text": "室外停有车辆，门前有行道树，透过车窗可见店招，表明为沿街商铺",
       "kind": "view",
       "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有灯光照明，内部空间较明亮",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.7
+      "confidence": 1.0
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:53Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:50Z"
 }

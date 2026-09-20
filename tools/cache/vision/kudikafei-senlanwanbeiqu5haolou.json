@@ -1,57 +1,57 @@
 {
   "cafeId": "kudikafei-senlanwanbeiqu5haolou",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7022fbc81cea",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "aceff9d4d387",
   "photos": [
     "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original",
     "https://store.is.autonavi.com/showpic/4d8ea47bc32f12640000002462020237?type=pic"
   ],
   "photoKinds": [
-    "other",
     "interior"
   ],
   "observations": [
     {
-      "text": "室内有楼梯，灯光照明",
+      "text": "室内有楼梯，地面铺着施工保护膜",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "地面铺有保护膜，装修中",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "天花板为木质条形结构",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见窗户，自然采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "楼梯下方有嵌入式灯带",
+      "text": "楼梯踏板下方有灯带照明",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "墙面为浅色与深木色搭配",
-      "kind": "space",
+      "text": "楼梯旁是深色木饰面墙体",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.85
+    },
+    {
+      "text": "天花板为木质条板吊顶",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "远处窗户可见室外绿树和建筑",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:44Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:37Z"
 }

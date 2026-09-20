@@ -1,7 +1,7 @@
 {
   "cafeId": "peet-s-luyuetiandi",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "da53a6c5cbbd",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "abb1bb8b05e1",
   "photos": [
     "https://store.is.autonavi.com/showpic/f8f8ebb6a2f71b990000000735472283?type=pic",
     "https://store.is.autonavi.com/showpic/6244c1d4065d6a5287a4f28a4da90a59",
@@ -10,56 +10,69 @@
   "photoKinds": [
     "drink",
     "storefront",
-    "storefront"
+    "other"
   ],
   "observations": [
     {
-      "text": "饮品表面有拉花图案",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店位于商场外街角位置",
+      "text": "店内有吧台，顾客在吧台前的座位区就座。",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "门店设有室外座位区",
+      "text": "室外有遮阳伞和桌椅，提供户外座位。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门店外有绿植装饰",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门店为玻璃幕墙结构，采光良好",
+      "text": "店面临街，有大面积落地玻璃窗。",
       "kind": "light",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门店临街，有行人经过",
+      "text": "照片中可见至少三名顾客在店内外就座。",
       "kind": "people",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "门店入口处有遮阳伞和桌椅",
-      "kind": "seating",
-      "photo": 2,
+      "text": "饮品为拿铁，表面有心形拉花图案。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店铺位于现代建筑底层，周围有绿植装饰。",
+      "kind": "view",
+      "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "室内光线明亮，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业咖啡制作设备。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.7
     }
   ],
+  "room": "bar",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:05Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:59Z"
 }

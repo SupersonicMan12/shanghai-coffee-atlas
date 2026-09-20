@@ -1,64 +1,85 @@
 {
   "cafeId": "cafe-lumiere-zhongnanxincun",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3490fcf5b2a9",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "9c7befc8d3b3",
   "photos": [
-    "http://store.is.autonavi.com/showpic/64046b74d2483ca5ccba02dadafd276c",
-    "https://aos-comment.amap.com/B0GUOC68JP/comment/05110c117f39ecbcba12780a008e3183_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0GUOC68JP/comment/5268f4b1998aaa4c7a9f1f86d5849ddb_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0GUOC68JP/comment/ec4310b67bb643322cb26fb366951df7_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/1fa46471a27b7ffe8ea9026b12aa3b26",
+    "https://aos-comment.amap.com/B0GUOC68JP/comment/adcbc3db8fff3ed928cdf60a0cba1f51_2048_2048_80.jpg",
+    "http://store.is.autonavi.com/showpic/64046b74d2483ca5ccba02dadafd276c"
   ],
   "photoKinds": [
-    "storefront",
+    "drink",
+    "menu",
+    "drink",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面临街，有大树遮阴",
-      "kind": "view",
-      "photo": 3,
+      "text": "饮品为拉花心形图案的拿铁类咖啡，盛于透明玻璃杯中。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单显示有手冲、单品、SOE、冷萃等精品咖啡选项，以及豆子产地信息。",
+      "kind": "specialtyMenu",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内为小型店铺，空间紧凑",
+      "text": "菜单上可见部分咖啡价格：38元、40元、42元、48元等。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内吧台区域有手冲器具、磨豆机及多个玻璃壶，具备精品咖啡制作条件。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内空间为小面积独立店铺，吧台与操作区清晰可见，无大量座位。",
       "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台后方有陈列架，摆放咖啡器具和包装袋",
-      "kind": "beans",
-      "photo": 2,
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "店内有木质小桌和桶状座椅",
+      "text": "桌面为原木材质，呈现自然木纹，风格简约质朴。",
       "kind": "seating",
-      "photo": 2,
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名“珈琲光景”以木质牌匾形式悬挂在吧台上方。",
+      "kind": "story",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "可见绿植点缀，环境有自然感",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.75
-    },
-    {
-      "text": "门口停放多辆电动车和自行车",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有暖色灯光照明",
-      "kind": "light",
-      "photo": 2,
+      "text": "店内摆放绿植，营造自然氛围。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": true,
-  "bigWindows": true,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:25:37Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    38.0,
+    40.0,
+    42.0,
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:48Z"
 }

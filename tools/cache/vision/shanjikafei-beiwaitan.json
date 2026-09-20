@@ -1,7 +1,7 @@
 {
   "cafeId": "shanjikafei-beiwaitan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7fa082b1dc9b",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "149f37ae9053",
   "photos": [
     "https://store.is.autonavi.com/showpic/1f9ecd582ddfe01e0000003175238352?type=pic",
     "https://aos-comment.amap.com/B0L3ZZ0VO1/comment/9810A19C_CF68_43F9_BFB2_F5F0FDE8883E_L0_001_2000_112_1760163489423_06505684.jpg",
@@ -14,46 +14,59 @@
   ],
   "observations": [
     {
-      "text": "饮品为埃塞俄比亚日晒处理的浅烘咖啡豆",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "豆子产地为西达摩班莎ALO村，海拔2200米",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "咖啡风味描述为花香、荔枝、草莓、哈密瓜、甘蔗",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供联名款饮品，杯身印有‘帝国密码’与‘山己咖啡’字样",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "使用环保吸管，材质标注为PLA",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品杯为透明塑料杯，带封口盖和纸套",
+      "text": "饮品杯身印有'山己咖啡'及'SHANJI COFFEE'，为透明塑料杯装冰咖啡。",
       "kind": "drinks",
       "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单板显示'日晒小甜豆'等单品豆信息，含产地埃塞俄比亚、庄园主TaMiru Tadesse TeseMa、豆种74158、海拔2200M、等级GI。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单板显示'酒红酒 SOE'，产地云南那姆庄园，处理方式日晒厌氧，海拔1200-1360m，风味芒果、黑莓、菠萝汁。",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "另一杯黑色纸杯印有'帝国密码 × 山己咖啡'联名标识，配红色心形盖钮与竹制搅拌棒。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内可见金属桌面，背景椅子印有'山己咖啡'字样，无明显烘焙机或手冲台等专业器具。",
+      "kind": "space",
+      "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中未见顾客，无人在使用电脑，无插座可见。",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单板上未显示价格，仅列产地/处理/风味/海拔等信息。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:32Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:43Z"
 }

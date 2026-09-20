@@ -1,18 +1,79 @@
 {
   "cafeId": "doushanshankafei-bohua-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "aa23e0c68e2f",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "6afb021f0770",
   "photos": [
     "https://store.is.autonavi.com/showpic/7d11a4e2deaf4645b1020739b0af42df",
     "https://store.is.autonavi.com/showpic/6c0c4666692d5699bd468c347e29e641",
     "https://store.is.autonavi.com/showpic/baeea80b20ed73d90bc18224fab14c7b"
   ],
-  "photoKinds": [],
-  "observations": [],
-  "seats": null,
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:21Z"
+  "photoKinds": [
+    "storefront",
+    "other"
+  ],
+  "observations": [
+    {
+      "text": "店面为临街玻璃门，有吧台和两个黑色折叠椅",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见咖啡机和磨豆机等专业设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "门口立着宣传海报，显示开业促销活动",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外有两把黑色椅子，无其他座位",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人在店内消费，但有人在操作设备",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于街道旁，旁边有洗车店和黄色招牌",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口贴有价格信息，如759元、198元",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内有木质墙面和悬挂式灯具",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    }
+  ],
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    198.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:01Z"
 }

@@ -1,59 +1,66 @@
 {
   "cafeId": "rgb-coffee-bar-xuhong-middle-rd-20-2",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "63d98fc974c0",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "948ec7af8c5c",
   "photos": [
     "https://aos-comment.amap.com/B0J22DXCHT/headerImg/8d6a5058f9f03a8e30e67e60103cdb54_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/d41f4b788d6785c7f08f51b201fb1bfa",
     "https://aos-comment.amap.com/B0J22DXCHT/headerImg/bc4f37e8a17bb2b2c9c06c94e6fae33d_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "drink",
+    "storefront",
     "interior",
-    "storefront"
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有黑色沙发和金属高脚桌",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为深色液体，配肉桂棒和迷迭香",
+      "text": "两杯深色饮品，内含肉桂棒、苹果片和迷迭香装饰，置于金属托盘上。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店面临街，有开放式窗口",
-      "kind": "space",
+      "text": "店内有黑色桌椅、金属框架座椅和大型绿植，墙面挂有三幅画作。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街玻璃窗设计，内部可见操作台和工作人员。",
+      "kind": "bigWindows",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内有绿植和抽象画装饰",
-      "kind": "interior",
+      "text": "室内空间整洁，有不锈钢桌面和圆形高脚凳，环境现代简约。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.85
     },
     {
-      "text": "地面为红砖铺设的室外区域",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "饮品盛于带冰霜效果的玻璃杯中，配有黑色皮质杯垫。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
     },
     {
-      "text": "店内光线明亮，有窗户采光",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
+      "text": "店外为铺砖人行道，门牌号为20，无室外座位。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": true,
-  "bigWindows": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:54Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:20:17Z"
 }

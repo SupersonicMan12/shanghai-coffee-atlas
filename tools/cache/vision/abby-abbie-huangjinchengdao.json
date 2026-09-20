@@ -1,7 +1,7 @@
 {
   "cafeId": "abby-abbie-huangjinchengdao",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "5f89edeb081b",
+  "inputDigest": "e2255f4a6e64",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service_4549ad3f0641f27635cc1b67edd018e7_1767560131846_56404226.jpg",
     "https://aos-comment.amap.com/comment/content_service_f50dd8166cb829f44fb30d2fff362283_1767560131850_32341486.jpg",
@@ -10,63 +10,58 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "food",
-    "drink"
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店内有橙色墙面和悬挂绿植装饰",
-      "kind": "interior",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "柜台后有员工在工作，使用笔记本电脑",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "展示柜中有多种蛋糕和甜点",
-      "kind": "food",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "有金属锅装的拉面，配煎蛋、香菜和火腿",
-      "kind": "food",
+      "text": "店内有橙色货架和黑色吧台，空间中等。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "桌上有一杯莫吉托类饮品，含冰块、青柠和薄荷",
-      "kind": "drink",
-      "photo": 3,
+      "text": "可见多个座位，但具体数量不确定。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "有两人在吧台后工作，其中一人使用笔记本电脑。",
+      "kind": "people",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "桌上有切片蛋糕，夹层为黄色蛋糕体与奶油",
+      "text": "饮品为盛在金属锅中的拉面，配有煎蛋和香菜。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质桌椅和遮阳伞，设有室外座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "另一饮品为加冰薄荷的透明饮料，配有青柠片。",
+      "kind": "drink",
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "店外有黄色树叶，可能为秋季拍摄",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "店内有绿植装饰，营造自然氛围。",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "some",
   "laptops": true,
-  "outdoor": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:54Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:55Z"
 }

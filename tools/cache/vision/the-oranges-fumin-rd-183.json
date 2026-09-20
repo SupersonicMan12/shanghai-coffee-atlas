@@ -1,65 +1,80 @@
 {
   "cafeId": "the-oranges-fumin-rd-183",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "b0486195bfc4",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a4e24c42d473",
   "photos": [
-    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_images_media_5833_1743635135465_34345326.jpg",
     "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_images_media_1000227723_ss__1727877756438_88875939.jpg",
-    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_file_1000029844_ss__1758203431774_22659562.jpg"
+    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_file_1000029844_ss__1758203431774_22659562.jpg",
+    "https://store.is.autonavi.com/showpic/193fd804941fdcaa0000000721684151?type=pic",
+    "https://aos-comment.amap.com/B0FFKHMUVL/comment/content_media_external_images_media_5833_1743635135465_34345326.jpg"
   ],
   "photoKinds": [
     "storefront",
+    "drink",
     "food",
-    "drink"
+    "interior"
   ],
   "observations": [
     {
-      "text": "临街有长条吧台座位，至少可坐4人。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有大玻璃窗，采光好，可见内部灯光和顾客。",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "吧台外侧是街道，有人坐在窗边，无室外座。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "桌上有一杯拉花拿铁、一杯冰咖啡和一份焦糖布丁。",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为冷饮，杯身凝结水珠，适合夏天。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内空间不大，吧台后方可见操作区和货架。",
+      "text": "店面临街，玻璃门/窗可透视内部，有吧台与高脚凳座位",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "店内有顾客在交谈，未见有人使用电脑。",
-      "kind": "people",
+      "text": "店内可见2名顾客坐在靠窗长吧台前，其中1人背对镜头",
+      "kind": "crowd",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台前设3个高脚凳，靠窗处有1张长桌+2个高脚凳，共约5个座位",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内无明显烘焙机或手冲台等专业器具，未见豆子/菜单特写",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品：冰美式（分层）、热拿铁（心形拉花）、外带杯装冰咖啡",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 1.0
+    },
+    {
+      "text": "食物：焦糖布丁配鲜奶油与薄荷叶，盛于白釉陶盘中",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "无客人使用笔记本电脑，仅见普通交谈",
+      "kind": "laptops",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外无座位，室内为木质桌面+木制高脚凳+吧台组合",
+      "kind": "outdoor",
+      "photo": 4,
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:47Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:09Z"
 }

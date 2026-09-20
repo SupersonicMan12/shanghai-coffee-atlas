@@ -1,7 +1,7 @@
 {
   "cafeId": "dou-coffee-roasters-shenchengli",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "d1027ac8b6a4",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "ff396b78f2db",
   "photos": [
     "https://store.is.autonavi.com/showpic/f955810786581b8d0000002388402218?type=pic",
     "https://aos-comment.amap.com/B0IB1UFJVN/comment/BD27CA0A_C03E_42AB_8792_37693A895F87_L0_001_1500_2000_1750205652980_99155804.jpg",
@@ -10,62 +10,69 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "interior"
+    "other"
   ],
   "observations": [
     {
-      "text": "门口有石狮子和盆栽，台阶上放着绿植和小花。",
-      "kind": "view",
+      "text": "店面为临街小门面，有红色帷幔装饰，门口摆放绿植和石狮子。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台后方是木质柜台，上方挂红色帷幕和迪厅球。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内墙面为裸露石墙，置物架上陈列手冲滤杯和杯子。",
-      "kind": "space",
+      "text": "店内可见手冲器具、滤杯、陶瓷杯具及磨豆机等精品咖啡设备。",
+      "kind": "brewBar",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台上有一台黑色磨豆机，品牌为DOU COFFEE ROASTERS。",
-      "kind": "roastingGear",
+      "text": "吧台上有黑色手动磨豆机，机身贴有“DOU COFFEE ROASTERS”标识。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "架子上有一个灰色毛绒咖啡杯玩偶，旁边有玻璃器皿。",
+      "text": "店内墙面为裸露水泥质感，置物架上陈列多种手冲器具与杯子。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口台阶处摆放多盆绿植，包括蕨类和开花植物。",
       "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外立牌显示地址为嘉善路121号，无室外座位。",
-      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "吧台旁可见Brewista电水壶和手冲壶，用于制作饮品。",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.85
+      "text": "店门口立有木质招牌，标示地址为嘉善路121号。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     },
     {
-      "text": "店内未见顾客或工作人员，也无人使用电脑。",
-      "kind": "people",
+      "text": "店内可见木质吧台，后方有咖啡机和菜单展示牌。",
+      "kind": "space",
       "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "照片中未见明显座位区域或顾客在场。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
+  "room": "small",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T14:09:03Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:22:00Z"
 }

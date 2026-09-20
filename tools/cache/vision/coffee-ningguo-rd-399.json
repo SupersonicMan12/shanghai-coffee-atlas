@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-ningguo-rd-399",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "3b497908cf03",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "114326a7ae99",
   "photos": [
     "http://store.is.autonavi.com/showpic/cff447fc0c8a7b152527cf4f2713f89e"
   ],
@@ -10,28 +10,47 @@
   ],
   "observations": [
     {
-      "text": "店面入口处放置一架梯子",
+      "text": "店面为临街玻璃门面，有大面积落地窗",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "临街玻璃窗，右侧挂有秋季主题装饰条幅",
-      "kind": "light",
+      "text": "店内可见吧台区域和部分座位",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "透过玻璃可见店内有桌椅和顾客",
-      "kind": "seating",
+      "text": "门口放置一个A字梯，可能正在装修或维护",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃门内贴有深色菜单，但内容模糊无法辨认",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "右侧玻璃上贴有橙色与米色竖幅宣传纸，文字不可读",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:38Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:25:46Z"
 }

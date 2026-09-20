@@ -1,65 +1,76 @@
 {
   "cafeId": "geographer-ruihongtiandiyueliangwan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d935983c598a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "70dc0a375ab9",
   "photos": [
-    "https://store.is.autonavi.com/showpic/f2075b6e3237add00000000742552647?type=pic",
+    "https://aos-comment.amap.com/B0H391UAKQ/comment/f92385166ae821df29dd2632fc4f5a38_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H391UAKQ/comment/0787a229e1b0e975ede44ce794ba46a3_2048_2048_80.jpg",
-    "https://store.is.autonavi.com/showpic/47fc5262f08661d80000002766932479?type=pic"
+    "https://aos-comment.amap.com/B0H391UAKQ/comment/33e00682dad7e9bad586a06304beb6d7_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/f2075b6e3237add00000000742552647?type=pic"
   ],
   "photoKinds": [
     "storefront",
     "drink",
-    "food"
+    "food",
+    "interior"
   ],
   "observations": [
     {
-      "text": "店内有咖啡饮品和甜点，包括dirty咖啡和地球造型甜品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供抹茶蛋糕和红色气泡饮料",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品搭配饼干，使用透明托盘盛放",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有绿植装饰，环境布置自然清新",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "桌面为浅色圆形，摆放植物与饮品",
+      "text": "店面门头为白色不规则岩洞造型，临街玻璃窗贴有大型植物剪影，门牌号218",
       "kind": "space",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "入口处立有两块A型展架：一块写‘春日唤醒计划’买饮赠杯/贴纸，另一块推DIY手冲/拉花体验98元起",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "饮品‘Dirty’双拼（两杯+两根杏仁脆条）摆盘于透明托盘，杯身印有‘DIRTY AND MORE’及制作说明",
+      "kind": "drinks",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "甜点设计创意，包含地球模型造型",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品杯具为陶瓷材质，带有拉花",
+      "text": "特调‘时来运转’冰咖啡（分层橙色+深色），杯身贴有中文标签，配冰块与果干装饰",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "室内可见蓝底地球仪、《国家地理》杂志、带波浪纹的靠枕，窗边有绿植，采光来自大窗",
+      "kind": "light",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙面有‘Geographer 地理学家咖啡’发光字标，下方有大型纸花与真实花卉组合装饰",
+      "kind": "decor",
+      "photo": 4,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见任何人，无电脑使用者，无烘焙机/磨豆机等设备，无书架或宠物",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:27Z"
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:33Z"
 }

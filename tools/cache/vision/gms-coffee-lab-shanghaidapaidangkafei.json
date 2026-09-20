@@ -1,7 +1,7 @@
 {
   "cafeId": "gms-coffee-lab-shanghaidapaidangkafei",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "a2768bf2752a",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9f72adaf20af",
   "photos": [
     "https://store.is.autonavi.com/showpic/6e95b5ec2e703a6824f1454adba67b09",
     "https://aos-comment.amap.com/B0K0NC95NA/comment/B42C7AF4_EBDE_4ADB_850A_B412B4BD98D5_L0_001_1500_200_1753799496564_87956111.jpg",
@@ -14,46 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店门口有木质招牌，标有GMS coffee lab",
+      "text": "店招为木质牌匾，刻有GMS coffee lab字样，挂于红砖墙外侧",
       "kind": "storefront",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "木托盘上摆放两杯咖啡：一杯残余浓缩、一杯拉花拿铁，配豆子信息卡",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "豆子信息卡显示咖啡名为YKM Alaka，产地埃塞俄比亚，海拔2100-2300m",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "墙上挂满各色包装袋咖啡豆，用彩色夹子固定，可见'Panama'等字样",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见任何人，无电脑使用者，无烘焙机或手冲台等专业器具",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店面临街，外景可见行道树与公交车，玻璃门可反射街景",
+      "kind": "view",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "提供埃塞俄比亚YKM Alaka咖啡豆的饮品",
-      "kind": "beans",
+      "text": "店内仅展示咖啡豆与饮品，未见食物、书架、植物或宠物",
+      "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "饮品包含拉花拿铁和浓缩咖啡",
-      "kind": "drinks",
+      "text": "菜单/卡片上无价格信息，仅标注产地与风味描述，未见特调/手冲/SOE等分类",
+      "kind": "specialtyMenu",
       "photo": 2,
       "confidence": 0.9
-    },
-    {
-      "text": "店内墙上挂有多款咖啡豆包装袋",
-      "kind": "menu",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "咖啡豆产地标注为埃塞俄比亚，海拔2100-2300米",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品搭配卡片说明风味：金桔、芒果、菠萝蜜、锡兰红茶",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:57Z"
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:41Z"
 }

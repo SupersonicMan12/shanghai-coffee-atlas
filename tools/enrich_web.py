@@ -16,8 +16,14 @@ Resumable: tools/cache/web/<cafe-id>.json and tools/cache/web/brand-<key>.json.
 time with an English query (SmartShanghai / Time Out / That's cover many of
 the curated independents that Chinese search buries under bean articles).
 
+`--axes` runs the compass pass instead: one search per independent café
+(chain branches are skipped — brand-level search only surfaces marketing copy)
+that answers five fixed questions — laptops, noise, staying, brew
+programme, 人均 — each only with a quoted snippet, into tools/cache/web-axes/.
+build_details.py turns those into per-axis evidence with the quote as reason.
+
 Usage:
-    DASHSCOPE_API_KEY=... python3 tools/enrich_web.py [--limit N] [--model qwen-plus] [--brands-only] [--retry-empty]
+    DASHSCOPE_API_KEY=... python3 tools/enrich_web.py [--limit N] [--model qwen-plus] [--brands-only] [--retry-empty] [--axes]
 """
 
 from __future__ import annotations
@@ -29,7 +35,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from enrich_common import (CHAINS, WEB, cafes, chain_of, dashscope_search, now_iso,  # noqa: E402
+from enrich_common import (CHAINS, WEB, WEB_AXES, cafes, chain_of, dashscope_search, now_iso,  # noqa: E402
                            parse_json_object, read_json, write_json)
 
 PROMPT = """请联网搜索上海咖啡馆「{query}」，只根据检索到的公开网页标题和摘要，列出这家店**与众不同、对选店有用**的具体特点。
@@ -52,6 +58,98 @@ title or snippet). Skip vague praise ("great vibe", "good coffee") and anything 
 result is about this Shanghai café and not a namesake elsewhere. Return an empty array if nothing qualifies.
 Output JSON, with text in Simplified Chinese:
 {{"facts":[{{"text":"中文事实 ≤40字","kind":"space|light|view|seating|sound|beans|drinks|food|people|time|story","ref":1,"quote":"..."}}]}}"""
+
+AXES_PROMPT = """请联网搜索上海咖啡馆「{query}」（地址：{address}），只根据检索到的公开网页标题和摘要，回答下面 5 个问题。
+每个问题只有在某条搜索结果的标题或摘要里**明确写到**时才回答，并给出 ref（该结果编号，整数）和 quote（原文片段 ≤40 字）；写不到就填 null。不要根据店名、品牌印象或常识推断；同名店请确认是上海这家。只采用描述门店实际体验的内容（探店、点评、媒体报道），不采用品牌宣传稿、促销新闻、招聘或加盟信息。
+1. laptop：适合带电脑办公吗？（有插座/Wi-Fi/很多人办公 → "yes"；明确不欢迎电脑/不能办公/座位极少 → "no"）
+2. noise：安静还是热闹？（"quiet" / "lively"）
+3. stay：适合久坐还是以外带、站喝为主？（"long" / "short"）
+4. brew：有手冲/单品/自烘/SOE/特调等精品咖啡内容吗？（"yes"；明确只有基础款/以奶咖外卖为主 → "no"）
+5. price：人均或一杯的价格（数字，元）
+输出 JSON：
+{{"laptop": {{"answer": "yes|no", "ref": 1, "quote": "..."}} | null,
+ "noise": {{"answer": "quiet|lively", "ref": 1, "quote": "..."}} | null,
+ "stay": {{"answer": "long|short", "ref": 1, "quote": "..."}} | null,
+ "brew": {{"answer": "yes|no", "ref": 1, "quote": "..."}} | null,
+ "price": {{"value": 38, "ref": 1, "quote": "..."}} | null}}"""
+
+AXES_ANSWERS = {
+    'laptop': {'yes', 'no'},
+    'noise': {'quiet', 'lively'},
+    'stay': {'long', 'short'},
+    'brew': {'yes', 'no'},
+}
+
+
+def _result_for(ref, results: list[dict]) -> dict | None:
+    by_index = {r.get('index'): r for r in results}
+    if isinstance(ref, int):
+        return by_index.get(ref)
+    if isinstance(ref, str):
+        m = re.search(r'\d+', ref)
+        if m and int(m.group()) in by_index:
+            return by_index[int(m.group())]
+    return None
+
+
+def clean_axes(obj: dict, results: list[dict]) -> dict:
+    """Keep only answers that name a real result and quote it; the rest is absence."""
+    out: dict = {}
+    for q, allowed in AXES_ANSWERS.items():
+        a = obj.get(q)
+        if not isinstance(a, dict):
+            continue
+        hit = _result_for(a.get('ref'), results)
+        quote = str(a.get('quote') or '').strip()
+        answer = str(a.get('answer') or '').strip().lower()
+        if hit and hit.get('url') and quote and answer in allowed:
+            out[q] = {'answer': answer, 'quote': quote[:80], 'url': hit['url'],
+                      'site': hit.get('site_name') or hit.get('title')}
+    p = obj.get('price')
+    if isinstance(p, dict):
+        hit = _result_for(p.get('ref'), results)
+        quote = str(p.get('quote') or '').strip()
+        try:
+            value = float(p.get('value'))
+        except (TypeError, ValueError):
+            value = 0
+        if hit and hit.get('url') and quote and 5 <= value <= 400 and re.search(r'\d', quote):
+            out['price'] = {'value': value, 'quote': quote[:80], 'url': hit['url'],
+                            'site': hit.get('site_name') or hit.get('title')}
+    return out
+
+
+def run_axes(path: Path, prompt: str, model: str) -> int:
+    try:
+        text, results = dashscope_search(model, prompt)
+    except Exception as exc:  # noqa: BLE001 — resumable
+        print(f'{path.stem}: {exc}', file=sys.stderr)
+        return -1
+    answers = clean_axes(parse_json_object(text), results)
+    write_json(path, {'answers': answers,
+                      'results': [{k: r.get(k) for k in ('index', 'title', 'url', 'site_name')} for r in results],
+                      'model': model, 'fetchedAt': now_iso()})
+    print(f'{path.stem}: {len(answers)} answers', flush=True)
+    return len(answers)
+
+
+def main_axes(args) -> None:
+    jobs: list[tuple[Path, str]] = []
+    for cafe in cafes():
+        if chain_of(cafe['name'], cafe['nameZh']):
+            continue
+        path = WEB_AXES / f"{cafe['id']}.json"
+        if read_json(path) is not None:
+            continue
+        zh = cafe['nameZh'] if cafe['nameZh'] and cafe['nameZh'] != cafe['name'] else ''
+        query = ' '.join(x for x in (cafe['nameZh'] or cafe['name'], cafe['name'] if zh else '', '咖啡') if x)
+        jobs.append((path, AXES_PROMPT.format(query=query, address=cafe['streetZh'] or cafe['street'])))
+    if args.limit:
+        jobs = jobs[:args.limit]
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        results = list(pool.map(lambda j: run_axes(j[0], j[1], args.model), jobs))
+    done = sum(1 for r in results if r >= 0)
+    print(f'web-axes done={done} failed={len(results) - done} answered={sum(1 for r in results if r > 0)}')
 
 
 def clean_facts(obj: dict, results: list[dict]) -> list[dict]:
@@ -107,7 +205,12 @@ def main() -> None:
     ap.add_argument('--workers', type=int, default=4)
     ap.add_argument('--retry-empty', action='store_true',
                     help='editorial cafés with a cached empty result: search again with an English query')
+    ap.add_argument('--axes', action='store_true',
+                    help='compass pass: five quoted yes/no answers per café into tools/cache/web-axes/')
     args = ap.parse_args()
+    if args.axes:
+        main_axes(args)
+        return
     jobs: list[tuple[Path, str]] = []
     if args.retry_empty:
         for cafe in cafes():

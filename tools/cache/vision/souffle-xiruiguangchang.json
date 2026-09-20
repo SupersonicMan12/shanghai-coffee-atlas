@@ -1,71 +1,71 @@
 {
   "cafeId": "souffle-xiruiguangchang",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "c9256c904334",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "a5a4a04add7b",
   "photos": [
+    "https://store.is.autonavi.com/showpic/a99920fcc3418b190000006090162564?type=pic",
     "http://store.is.autonavi.com/showpic/dd9be4aea4f1a9c5f3220d43576435ad",
-    "https://aos-comment.amap.com/B0HAZZ555E/comment/384a668ba0b3f4f88ff3bd2fdf6e2b3a_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0HAZZ555E/comment/content_media_external_file_1000077453_ss__1767114457595_69570353.jpg"
+    "https://aos-comment.amap.com/B0HAZZ555E/comment/menu/4a6f83f31247b609e18166c7eca76c11_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0HAZZ555E/comment/384a668ba0b3f4f88ff3bd2fdf6e2b3a_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "food",
-    "drink"
+    "storefront",
+    "menu",
+    "food"
   ],
   "observations": [
     {
-      "text": "店面招牌为‘芙蕾哥哥 souffle’，绿色格子门，外墙浅灰，两侧有窗台盆栽",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "门口右侧有红色遮阳篷，下方可见绿植，疑似设室外座区域",
-      "kind": "outdoor",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内桌面为木质，摆放 Soufflé 蛋糕（杯装、顶部撒糖粉）、小碗冰淇淋、勺子",
+      "text": "店内提供舒芙蕾甜点，配香草冰淇淋。",
       "kind": "food",
-      "photo": 2,
-      "confidence": 0.99
-    },
-    {
-      "text": "同一桌有抹茶布丁（绿色、焦糖淋面）、两杯饮品：一杯分层冰拿铁、一杯深色冷饮",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "Soufflé 盛于蓝白手绘陶瓷杯中，杯身有星空/海浪图案；布丁盛于白底绿蓝边瓷盘",
-      "kind": "food",
-      "photo": 2,
+      "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "窗户为临街玻璃窗，窗台可放小型盆栽，未见落地窗或大采光面",
-      "kind": "light",
-      "photo": 1,
+      "text": "菜单上有多种舒芙蕾口味及价格，如招牌78元/份。",
+      "kind": "menu",
+      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "照片中未出现吧台、烘焙机、手冲设备、书架、宠物或使用电脑的人",
-      "kind": "people",
+      "text": "店面有绿色玻璃门和红色遮阳篷。",
+      "kind": "storefront",
       "photo": 2,
-      "confidence": 0.99
+      "confidence": 0.9
     },
     {
-      "text": "无菜单入镜，未见价格、豆子产地或饮品名称文字",
-      "kind": "menu",
+      "text": "菜单上可见饮品如意式浓缩、卡布奇诺等。",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.99
+      "confidence": 0.85
+    },
+    {
+      "text": "座位区为木质桌面，摆放木质托盘。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": false,
-  "outdoor": true,
-  "bigWindows": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": null,
+  "laptops": null,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:42:52Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    24.0,
+    28.0,
+    30.0,
+    32.0,
+    36.0,
+    38.0,
+    78.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:42:16Z"
 }

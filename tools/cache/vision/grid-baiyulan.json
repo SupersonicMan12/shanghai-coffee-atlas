@@ -1,71 +1,54 @@
 {
   "cafeId": "grid-baiyulan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "888bb17d4200",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "9f67aa2cfdfe",
   "photos": [
     "https://aos-comment.amap.com/B0LK5OUE2M/comment/content_media_external_file_1000035792_ss__1769419396983_84706679.jpg",
     "https://store.is.autonavi.com/showpic/ec7594d6b989def10f45218a40cc83c1",
     "https://aos-comment.amap.com/B0LK5OUE2M/comment/content_media_external_file_1000069991_ss__1768444180498_45396764.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "绿色竖条纹外墙，白色立体‘GridCoffee’字样及方框logo",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "手持绿色杯套纸杯，印有白色方框logo与‘GridCoffee’字样",
-      "kind": "drink",
-      "photo": 1,
-      "confidence": 0.99
-    },
-    {
-      "text": "店面为玻璃门+玻璃橱窗，上方绿色灯箱标‘GridCoffee’及方框logo",
-      "kind": "storefront",
+      "text": "店内有临街玻璃窗，可见外部街道",
+      "kind": "view",
       "photo": 2,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见一人在吧台后操作，吧台为浅色台面",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内桌面上放同款纸杯，杯身侧印‘Single Origin Coffee’字样",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.97
-    },
-    {
-      "text": "桌旁有平板电脑（带保护壳），屏幕亮起，未见键盘或外接设备",
-      "kind": "laptops",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "背景可见木质椅背与金属椅腿的椅子，非靠墙固定式",
+      "text": "店内有桌椅，提供座位",
       "kind": "seating",
       "photo": 3,
-      "confidence": 0.92
+      "confidence": 0.8
     },
     {
-      "text": "店内无可见烘焙机、手冲台、虹吸壶或磨豆机等专业器具",
-      "kind": "roastingGear",
+      "text": "照片中有人在店内使用笔记本电脑",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 0.7
+    },
+    {
+      "text": "店内有大面积玻璃窗，采光良好",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:06Z"
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:39Z"
 }

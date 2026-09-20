@@ -1,7 +1,7 @@
 {
   "cafeId": "izumo-coffee-bar-yuyuan-east-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f200e73576b6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "03aaff8cffd1",
   "photos": [
     "http://store.is.autonavi.com/showpic/ce7d288a2de77196c8d3a6d29cbc4e90",
     "https://aos-comment.amap.com/B0FFL0X7VV/comment/f3fcc2489a2464ac9b2daa4aa67b5bf6_2048_2048_80.jpg",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "other",
-    "interior"
+    "interior",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面位于临街位置，有玻璃门和窗户",
+      "text": "店内有吧台和高脚桌椅，空间为小型咖啡馆。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有吧台和高脚凳，适合站立或短暂停留",
+      "text": "店门口有两张高脚桌和四把凳子，室内有几张桌子，座位数约6-8个。",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "室内墙面为木质装饰，挂有照片和菜单",
-      "kind": "space",
+      "text": "店面临街，有大面积玻璃窗，采光良好。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "墙上挂有菜单，显示有美式、拿铁等饮品。",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内悬挂黑色围裙，印有IZUMO字样",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "墙上贴有多张食物照片，显示提供甜点类食品",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "可见菜单牌，但价格与豆子产地无法辨认",
-      "kind": "menu",
+      "text": "菜单上可见“拿铁”、“美式”、“手冲”等字样，但价格和豆子产地看不清。",
+      "kind": "specialtyMenu",
       "photo": 3,
       "confidence": 0.7
     },
     {
-      "text": "广告牌上展示IZUMO咖啡杯图案，可能为品牌联名产品",
-      "kind": "drinks",
-      "photo": 2,
+      "text": "墙上有照片、帽子、围裙等装饰物，风格偏复古工业。",
+      "kind": "story",
+      "photo": 3,
       "confidence": 0.8
+    },
+    {
+      "text": "店内无人，没有看到客人或工作人员在用电脑。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "未见烘焙机、手冲台等专业咖啡设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:17:48Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:03:18Z"
 }

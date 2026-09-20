@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "店內共兩層，空間很寬敞，座椅眾多",
+      "url": "https://new.qq.com/rain/a/20230429A013T700",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "空气里永远浮着一层烘豆子的焦香,混着隐约的奶泡声——这大概是上海的背景音了",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site": "百度"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "有適合一人發呆、兩人談情的小露臺，也有適合五六好友小聚的半獨立空間",
+      "url": "https://gafei.com/views-120010",
+      "site": "咖啡网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "店铺以意式咖啡为主打产品,也有手冲咖啡系列",
+      "url": "https://new.qq.com/rain/a/20230429A013T700",
+      "site": "腾讯网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "静安寺商圈咖啡",
+      "url": "https://m.dianping.com/shop/96616094",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "上海咖啡饕餮杂谈-2020年7月上篇",
+      "url": "https://zhuanlan.zhihu.com/p/156486351",
+      "site_name": "知乎"
+    },
+    {
+      "index": 3,
+      "title": "南昌有条路,又好逛又治愈,还藏着一排神仙咖啡店!",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAxMzkzOTM4Mg==&mid=2247883256&idx=1&sn=2bf8d9327d25edbfb2a253dabb174573&chksm=9ac6116307652b01d9e764bba96f9097c1cc4a0a90760f44848fa83ea30dcd2856d7877b934f&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "在上海,如果你问...",
+      "url": "https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_3733176159911290755",
+      "site_name": "百度"
+    },
+    {
+      "index": 5,
+      "title": "上海哪家咖啡館最美上海最美花園洋房咖啡廳Drops Coffee Studi",
+      "url": "https://gafei.com/views-120010",
+      "site_name": "咖啡网"
+    },
+    {
+      "index": 6,
+      "title": "Drops|秋日里的第一杯高质量咖啡🌵 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/689076527",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 7,
+      "title": "https://new.qq.com/rain/a/20230429A013T700",
+      "url": "https://new.qq.com/rain/a/20230429A013T700",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:13Z"
+}

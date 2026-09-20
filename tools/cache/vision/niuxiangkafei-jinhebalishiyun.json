@@ -1,71 +1,92 @@
 {
   "cafeId": "niuxiangkafei-jinhebalishiyun",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "b82dfdce93f1",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "8a415f75def7",
   "photos": [
-    "https://aos-comment.amap.com/B0J0B7OWRO/comment/F155D30B_47E8_4EF6_8C6C_90FC64AC868D_L0_001_1500_200_1768147885543_65761681.jpg",
-    "https://aos-comment.amap.com/B0J0B7OWRO/comment/bc17bf4b2d65612e26cb8dae01089337_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0J0B7OWRO/comment/3DE863CA_16C0_4960_B149_6F18FE6A67D9_L0_001_1500_200_1768736935839_89993308.jpg"
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/6038626B_DBD7_4B10_90F8_58EE81549937_L0_001_1500_200_1768736936018_48914859.jpg",
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/file_media_Photo_22239_IMG_1772953992_19032_IMG_20260308_151132_jpg_ss__1773377661830_88708866.jpg",
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/file_media_Photo_22240_IMG_1772953997_19033_IMG_20260308_151137_jpg_ss__1773377661837_83372655.jpg",
+    "https://aos-comment.amap.com/B0J0B7OWRO/comment/F155D30B_47E8_4EF6_8C6C_90FC64AC868D_L0_001_1500_200_1768147885543_65761681.jpg"
   ],
   "photoKinds": [
-    "interior",
-    "interior",
+    "drink",
+    "menu",
+    "menu",
     "other"
   ],
   "observations": [
     {
-      "text": "吧台区有La Marzocco咖啡机和磨豆机，是专业手冲/意式店",
-      "kind": "people",
+      "text": "一杯拉花为心形图案的咖啡，杯旁有泰国SOE咖啡豆信息卡。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "货架上陈列多种挂耳咖啡包，标有‘SOFT FOCUS 纽巷咖啡’品牌及不同风味名称。",
+      "kind": "beans",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "货架陈列多款手冲滤杯、分享壶、量杯，设备齐全",
-      "kind": "drinks",
+      "text": "展示架上有多个咖啡豆包装袋，标注产地如‘巴拿马’、‘斯里兰卡’等，并附有价格标签。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "货架上摆放手冲器具，包括V60、Kalita、金属滤杯、分享壶等，显示提供手冲服务。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "挂耳咖啡有12包组95元、18包组135元、3个月包月488元等套餐价格。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "咖啡豆包装标有具体产地如‘泰国De Hmong Bio Nan’、‘巴拿马火山’等。",
+      "kind": "beans",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "菜单上有“和歌山”等单品豆名，提供产地信息",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "菜单上可见‘火花’、‘小糖人’、‘发发发’等单品咖啡名称及对应价格。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "墙上挂有“六步溪”、“大烟枪”等咖啡豆袋，可零售",
+      "text": "部分咖啡豆包装注明‘SOE’（单一产地）和处理法，如水洗、日晒。",
       "kind": "beans",
       "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有绿植、小木桌、相框装饰，空间紧凑但整洁",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "照片中未见顾客或工作人员，无法判断是否适合工作",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "可见一杯带拉花的拿铁和一杯黑咖啡，提供基础饮品",
-      "kind": "drinks",
-      "photo": 2,
       "confidence": 0.9
-    },
-    {
-      "text": "无室外座位，未见窗户或自然采光来源",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": false,
-  "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:02:29Z"
+  "room": null,
+  "seats": null,
+  "crowd": "empty",
+  "laptops": null,
+  "sockets": null,
+  "outdoor": null,
+  "bigWindows": null,
+  "roastingGear": null,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    95.0,
+    135.0,
+    71.0,
+    73.0,
+    77.0,
+    80.0,
+    96.0,
+    128.0,
+    132.0,
+    145.0,
+    148.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:15:32Z"
 }

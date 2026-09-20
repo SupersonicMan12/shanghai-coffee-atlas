@@ -1,7 +1,7 @@
 {
   "cafeId": "shudaixiongkafeiguan-huaihaihuayuan",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "41bc1649b4e0",
+  "inputDigest": "7e644029f977",
   "photos": [
     "http://store.is.autonavi.com/showpic/de0a1759298601c26f0d88dace1cb018",
     "https://store.is.autonavi.com/showpic/96fc6cfa0b471a26a34b0543bbfa804f",
@@ -9,63 +9,57 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有台阶和室外座位",
+      "text": "店面有室外台阶和座椅",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质桌椅和吧台式座位",
+      "text": "室内有木质圆桌和高脚凳",
       "kind": "seating",
-      "photo": 3,
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内空间较宽敞，有书架和装饰墙",
+      "text": "室内墙壁有置物架和装饰画",
       "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口有玻璃门和窗户，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有吊扇和灯光照明设施",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外有绿植装饰",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "夜间灯光亮起，招牌清晰可见",
-      "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.8
     },
     {
-      "text": "店内有顾客在活动",
-      "kind": "people",
+      "text": "室内天花板有吊扇和射灯",
+      "kind": "space",
       "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "室外有绿色植物",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "夜间照片中可见城市建筑灯光",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
+  "room": "medium",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:12:46Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:43:43Z"
 }

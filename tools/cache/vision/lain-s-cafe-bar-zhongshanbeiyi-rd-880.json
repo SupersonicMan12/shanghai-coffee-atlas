@@ -1,59 +1,62 @@
 {
   "cafeId": "lain-s-cafe-bar-zhongshanbeiyi-rd-880",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "26961356e656",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "35fb23ffc2c2",
   "photos": [
     "https://aos-comment.amap.com/B0H2LY4H3Y/comment/content_media_external_images_media_1000028347_ss__1750316194180_75461566.jpg",
-    "https://aos-comment.amap.com/B0H2LY4H3Y/comment/content_media_external_file_92083_ss__1767421765400_52534743.jpg",
-    "https://aos-comment.amap.com/B0H2LY4H3Y/comment/content_media_external_file_2859_1762499885617_69715894.jpg"
+    "https://aos-comment.amap.com/B0H2LY4H3Y/comment/content_media_external_file_2859_1762499885617_69715894.jpg",
+    "http://store.is.autonavi.com/showpic/a6a545058495a28e9e12fc09fb9b098c",
+    "https://aos-comment.amap.com/B0H2LY4H3Y/comment/content_media_external_file_92083_ss__1767421765400_52534743.jpg"
   ],
   "photoKinds": [
     "drink",
-    "other",
-    "drink"
+    "drink",
+    "storefront",
+    "interior"
   ],
   "observations": [
     {
-      "text": "饮品有柠檬片和冰块，底部有红色沉淀",
+      "text": "高脚杯装分层饮品，底部红色、中层黄色、上层淡黄带冰块与柠檬片",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "窗边有花瓶插着单支浅色花朵，窗外可见水面和树木",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "咖啡拉花为心形图案，杯具带有植物纹饰",
+      "text": "两杯拉花咖啡，均为心形图案，杯身有绿色叶状纹样，配斑点陶瓷碟",
       "kind": "drinks",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店面为单层建筑，红瓦屋顶，拱形玻璃门入口，门口立有黑板菜单架",
+      "kind": "storefront",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "有落地窗，窗外是水景与绿植",
-      "kind": "bigWindows",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "室内靠窗桌位，窗外可见池塘、睡莲、垂柳及对岸绿植，有明显倒影",
+      "kind": "view",
+      "photo": 4,
+      "confidence": 1.0
     },
     {
-      "text": "桌上放有手提包和书籍，环境安静适合阅读",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为冷饮，含冰块和柠檬片，颜色分层",
-      "kind": "drinks",
-      "photo": 1,
+      "text": "窗边桌上放有小玻璃瓶插一朵粉紫色球形花，旁有手提包和黑色盒装物品",
+      "kind": "decor",
+      "photo": 4,
       "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
-  "outdoor": false,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:17Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:24Z"
 }

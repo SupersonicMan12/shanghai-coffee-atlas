@@ -1,0 +1,68 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "座椅下居然有齐平的插座",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site": "大众点评网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "工作日傍晚路过陕西北路,终于拔草了这家惦记好久的Page Coffee!",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34095709",
+      "site": "澎湃新闻网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "适合一人发呆或二三好友小聚",
+      "url": "https://www.dianping.com/discovery/691361106",
+      "site": "大众点评网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "尝试了特调【沙丘】,老板说这是他们的创意款",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site": "2026 推介12 間上海文藝Café！從夢幻芭蕾風、極簡現代風到美式 ..."
+    },
+    "price": {
+      "value": 36.0,
+      "quote": "36块钱算是良心价格的特调了",
+      "url": "http://www.sohu.com/a/647294933_121123882",
+      "site": "搜狐"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "南京西路商圈宝藏咖啡店!这抹绿让我推门而入 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/2460701182",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "家里有咖啡机了,为什么大家还往她店里跑?",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34095709",
+      "site_name": "澎湃新闻网"
+    },
+    {
+      "index": 3,
+      "title": "#上海探店/红砖墙战后风新店page coffee🧱 - 大众点评吃喝玩乐精选",
+      "url": "https://www.dianping.com/discovery/691361106",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "2026 推介12 間上海文藝Café！從夢幻芭蕾風、極簡現代風到美式 ...",
+      "url": "https://www.voguehk.com/zh/article/art-lifestyle/shanghai-cafe/",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "《2023上海咖啡必喝地图》来了,整整50家!地址新店_风味",
+      "url": "http://www.sohu.com/a/647294933_121123882",
+      "site_name": "搜狐"
+    }
+  ],
+  "model": "qwen-plus-latest,qwen3-max,qwen-flash",
+  "fetchedAt": "2026-09-20T01:35:03Z"
+}

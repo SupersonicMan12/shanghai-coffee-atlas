@@ -1,71 +1,79 @@
 {
   "cafeId": "komma-coffee-xianjiansuhewan",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "ed9ce3031a46",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7fabab95e508",
   "photos": [
-    "https://aos-comment.amap.com/B0LASH1PI4/comment/content_media_external_file_198955_ss__1770472469627_69706718.jpg",
+    "https://aos-comment.amap.com/B0LASH1PI4/comment/content_media_external_file_198978_ss__1770472469622_44694265.jpg",
     "https://store.is.autonavi.com/showpic/6eef19cac8a3f0150000003064126166?type=pic",
-    "https://store.is.autonavi.com/showpic/cff2db85ac89374f0000000976828222?type=pic"
+    "https://store.is.autonavi.com/showpic/fd5c2b87e75d58640000003064128101?type=pic",
+    "https://aos-comment.amap.com/B0LASH1PI4/comment/content_media_external_file_198955_ss__1770472469627_69706718.jpg"
   ],
   "photoKinds": [
-    "interior",
     "storefront",
-    "other"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "吧台区有高脚凳，后方是操作台和咖啡机、磨豆机。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室外有遮阳伞、折叠椅和小桌，供人露天坐。",
+      "text": "有室外座位，配有遮阳伞和折叠椅。",
       "kind": "seating",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有吧台和高脚凳，吧台后方有咖啡机、磨豆机等设备。",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台旁的玻璃柜里陈列着可乐、雪碧等瓶装饮料。",
+      "kind": "drinks",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "吧台不锈钢台面放着一篮柠檬和叠放的玻璃杯。",
-      "kind": "drinks",
+      "text": "室内有长条形卡座和木质小桌，卡座为软包设计。",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "室内天花板为木质格栅，装有环形灯带和射灯。",
-      "kind": "space",
-      "photo": 1,
+      "text": "照片中未见有人在使用电脑。",
+      "kind": "laptops",
+      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店内可见手冲架、虹吸壶等专业咖啡器具。",
-      "kind": "beans",
-      "photo": 1,
+      "text": "室内有大型绿植，天花板为木质格栅结构。",
+      "kind": "light",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "门口立牌写有“精酿啤酒 咖啡 鸡尾酒”，营业时间10-24点。",
-      "kind": "time",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "冷藏柜里陈列着可口可乐、朝日啤酒等瓶罐饮料。",
+      "text": "有一杯带柠檬片的气泡饮料，放在木托盘上。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "楼梯旁有大型绿植，吧台后方货架也摆有小盆栽。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
+      "text": "店面临街，有大面积落地玻璃门和窗户。",
+      "kind": "bigWindows",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:59:23Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:02:21Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "yikafei-huangpi-s-rd-373",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "98bafe4463cb",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "92271bb47898",
   "photos": [
     "https://aos-comment.amap.com/B0I1L4G399/comment/8A9EDC30_815F_4136_A230_382E77DCC17D_L0_001_1500_200_1769270886082_41986354.jpg",
     "https://aos-comment.amap.com/B0I1L4G399/comment/1A54D4F6_29F6_4F50_8CCF_5700463FAD70_L0_001_1500_200_1766214406573_24888632.jpg",
@@ -14,58 +14,70 @@
   ],
   "observations": [
     {
-      "text": "门店位于黄陂南路373号，临街砖墙建筑",
-      "kind": "space",
+      "text": "店址为黄陂南路373号，老式砖墙建筑，门楣有‘一咖啡’牌匾",
+      "kind": "story",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "门口有咖啡和甜点的促销广告牌",
+      "text": "室外立式菜单牌展示三款套餐：‘青春无悔’98元、‘相遇一咖啡’118元、‘熊猫瓦当’55元（7折）",
       "kind": "menu",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "展示柜中有可颂、贝果、三明治、蛋糕等食物",
+      "text": "玻璃柜内陈列多款甜点与面包，可见牛乳蛋糕（¥35）、生巧布朗尼（¥35）、可颂（¥18）、贝果（¥28）、米兰诺贝果（¥18）等",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单显示有熊猫瓦当套餐、拿铁、抹茶等饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "部分套餐价格为55元、71元、98元、118元",
-      "kind": "menu",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内陈列有瓶装果汁和即饮饮料",
+      "text": "柜内有瓶装果汁，标签显示‘鲜榨果汁 ¥21’",
       "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "店外设有大型咖啡杯和冰淇淋模型装饰",
+      "text": "门口设巨型红色咖啡杯雕塑及冰淇淋模型作为装饰",
       "kind": "other",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "玻璃展示柜内有多种糕点和面包",
+      "text": "橱窗内可见熊猫造型甜点、小熊造型甜点等特色糕点",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "室外菜单牌上标注地址‘上海市黄浦区黄陂南路373号’",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "玻璃柜中陈列饮品含‘树德里马克杯’（¥71）及‘熊猫瓦当套餐’含熊猫造型奶盖茶与甜点",
+      "kind": "menu",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:52Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    55.0,
+    71.0,
+    98.0,
+    118.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:15Z"
 }

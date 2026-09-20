@@ -1,7 +1,7 @@
 {
   "cafeId": "yichihuayuan-qiantanxiuxiangongyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "61c549c0cc95",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "3379524e7932",
   "photos": [
     "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000064345_ss__1760593518556_18068067.jpg",
     "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000069788_ss__1751928900857_07301069.jpg",
@@ -14,52 +14,65 @@
   ],
   "observations": [
     {
-      "text": "有室外座位和遮阳伞",
+      "text": "室内有圆形木质桌和配套座椅",
       "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "室内有木质桌椅和绿植",
+      "text": "室外庭院有黑色金属桌椅和遮阳伞",
       "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有大型绿植，窗外可见树木",
+      "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内有落地窗，采光良好",
+      "text": "室内空间有落地窗，采光好",
       "kind": "light",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外区域有阶梯和绿化带",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内设有圆形木桌和灰色软垫座椅",
-      "kind": "seating",
+      "text": "照片中未见顾客或工作人员",
+      "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室外座位区靠近玻璃围栏，视野开阔",
-      "kind": "view",
-      "photo": 3,
+      "text": "室内座位旁有台灯，未见插座",
+      "kind": "seating",
+      "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "入口处立有黑色迎宾牌，写有店名和欢迎语",
-      "kind": "storefront",
+      "text": "室外庭院地面为灰色地砖，有种植池",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招显示名称为“一尺花园咖啡”",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.9
     }
   ],
+  "room": "courtyard",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:33Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:28Z"
 }

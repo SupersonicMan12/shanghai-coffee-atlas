@@ -1,7 +1,7 @@
 {
   "cafeId": "jianqikafei-shanghaiyinzuoqiyezhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "332b924967ab",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b91ebd176ddd",
   "photos": [
     "http://store.is.autonavi.com/showpic/45d3d5c1c5175fe4e5513a8df0574d34"
   ],
@@ -10,58 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备",
-      "kind": "space",
+      "text": "吧台后有磨豆机和咖啡机",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前有2个高脚凳",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见磨豆机、手冲器具等专业咖啡设备",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "墙上挂有中文书法装饰",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "空间为小型室内店铺，无明显室外座位",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内未见顾客或工作人员使用电脑",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "无明显落地窗或大窗户，采光来自顶部灯光",
+      "text": "店内无明显窗户，采光来自顶部灯光",
       "kind": "light",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "text": "未见烘焙机或虹吸壶等大型设备",
-      "kind": "roastingGear",
+      "text": "墙上挂有手写风格的中文装饰字画",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "吧台区域可见一个白色立式冰箱",
+      "kind": "equipment",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中无人在使用电脑",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "未见明确饮品或食物实物展示",
-      "kind": "drinks",
+      "text": "店外未见明显街道或景观",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.6
+    },
+    {
+      "text": "菜单上价格模糊，无法看清具体数值",
+      "kind": "menuPrices",
       "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:23:28Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:56Z"
 }

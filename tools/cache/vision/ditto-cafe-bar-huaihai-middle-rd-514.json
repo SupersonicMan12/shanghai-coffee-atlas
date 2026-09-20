@@ -1,7 +1,7 @@
 {
   "cafeId": "ditto-cafe-bar-huaihai-middle-rd-514",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f1fc6d2ba098",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7674781f72ec",
   "photos": [
     "https://store.is.autonavi.com/showpic/d9ea2ebdb98359280000001831826740?type=pic",
     "https://store.is.autonavi.com/showpic/e785786209cb459927ec4dcbee2246d1",
@@ -14,52 +14,35 @@
   ],
   "observations": [
     {
-      "text": "有抹茶蛋糕、芝士蛋糕和咖啡拉花饮品",
+      "text": "室外桌有咖啡拉花、抹茶/芝士小方块甜点，餐垫印有'TOMORROW IS ALWAYS FRESH'。",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供冰咖啡饮品，含冰块和奶层",
-      "kind": "drinks",
+      "text": "店招为'DITTO 咖啡 Cafe Bar'，门牌号514，临街玻璃门，店内可见吧台与红色霓虹灯。",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "手持一杯冰美式，杯中有奶白色纹路，冰块清晰，背景为深色吧台面。",
+      "kind": "drink",
       "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺临街，门口可见街道和行人",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有吧台和桌椅，空间较小",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "有木质桌椅和红色装饰灯光",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "窗边座位可看到街道景象",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "有手冲或虹吸设备的可能，但未明确显示",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.5
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:59Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:56:37Z"
 }

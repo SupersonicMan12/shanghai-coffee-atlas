@@ -1,7 +1,7 @@
 {
   "cafeId": "qiaokafei-xian",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "e9125938efe3",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "7f7cbd053678",
   "photos": [
     "https://img.alicdn.com/imgextra/i1/2210396860787/O1CN010ENf501HgUMCLT8XF_!!2210396860787-2-koubei.png",
     "https://aos-comment.amap.com/B0H64MHI12/comment/316f202b809965df7a04ad85b7bb55e6_2048_2048_80.jpg",
@@ -14,46 +14,65 @@
   ],
   "observations": [
     {
-      "text": "一杯抹茶拿铁，拉花为心形。",
+      "text": "饮品为抹茶拿铁，表面有心形拉花。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "店外有木质平台和长凳，临河有行道树。",
-      "kind": "view",
+      "text": "店面位于临街位置，外立面为大面积玻璃窗，配有木质平台和台阶。",
+      "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内空间大，有吧台、多张木桌椅和藤编隔断。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设玻璃展示柜，陈列糕点与瓶装饮品。",
-      "kind": "food",
+      "text": "室内空间中等，有多个木质桌椅，座位数量约10-15个。",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.85
     },
     {
-      "text": "天花板悬挂绿植，自然光充足，采光好。",
+      "text": "店内有落地窗，采光良好，窗外可见绿树和开阔空间。",
       "kind": "light",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有展示柜，陈列面包、糕点等食物。",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "天花板悬挂绿色植物装饰，墙面采用编织材料隔断。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "可见一位顾客在柜台后操作设备，疑似咖啡师。",
-      "kind": "people",
+      "text": "店内有吧台区域，可见咖啡机及操作人员，但无明显手冲或烘焙设备。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.75
+      "confidence": 0.7
+    },
+    {
+      "text": "店外设有木质平台，可作为室外座位区，地面湿润，可能刚下过雨或清洁过。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "many",
+  "room": "medium",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:21Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:45Z"
 }

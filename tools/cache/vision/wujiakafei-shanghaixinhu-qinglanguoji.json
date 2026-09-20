@@ -1,7 +1,7 @@
 {
   "cafeId": "wujiakafei-shanghaixinhu-qinglanguoji",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "62da726c1534",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "e58e6cd653ec",
   "photos": [
     "https://aos-comment.amap.com/B0G2MBTZCX/comment/content_media_external_file_100005391_1759447914767_26500306.jpg",
     "http://store.is.autonavi.com/showpic/b0c7bab79cf2f52b8c56fd57508461a6",
@@ -14,52 +14,68 @@
   ],
   "observations": [
     {
-      "text": "吧台式小店，无堂食座位，仅设收银与展示柜。",
+      "text": "室内为吧台式布局，后方有操作区及设备，无明显顾客",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "有抹茶饮品与冰咖啡，杯身带品牌标识。",
-      "kind": "drinks",
-      "photo": 3,
+      "text": "店外正门玻璃门+落地窗，门前有台阶与绿植，可见室外树木",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "吧台前有木质柜台，左侧木板上印有'Slayer STEAM'字样，右侧为浅木色柜体",
+      "kind": "space",
+      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内可见烘焙展示柜，陈列糕点。",
+      "text": "两杯饮品：左侧为抹茶（绿色液体），右侧为冰美式（分层咖啡液+奶泡）",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台内侧可见一台咖啡机、一台磨豆机及收银屏，未见手冲/虹吸等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.85
+    },
+    {
+      "text": "店内无顾客，仅一名穿黑衣戴帽员工在吧台后操作，未见电脑或插座",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "玻璃展示柜内陈列糕点，标签显示价格如¥22、¥25等，可确认有烘焙食品",
       "kind": "food",
       "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "店外为临街玻璃门面，门前有台阶与绿植。",
-      "kind": "view",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "天花板用木条装饰，搭配几何吊灯。",
-      "kind": "space",
+      "text": "菜单纸张贴于吧台，字迹模糊无法辨识具体项目或价格",
+      "kind": "menuPrices",
       "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台后方有员工操作，未见顾客或电脑。",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "墙面挂有红色菱形装饰，疑似节庆布置。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.75
+      "confidence": 0.6
     }
   ],
+  "room": "bar",
   "seats": "none",
+  "crowd": "empty",
   "laptops": false,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:58:25Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [
+    22.0,
+    25.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:22Z"
 }

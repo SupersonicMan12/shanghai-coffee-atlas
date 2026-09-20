@@ -1,0 +1,44 @@
+{
+  "answers": {
+    "price": {
+      "value": 38.0,
+      "quote": "｜人均｜38元/人",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site": "界面新闻"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "Cafe di wine (武康大楼店) - 上海市徐汇区- 餐饮服务;咖啡厅 - 高德地图",
+      "url": "https://www.amap.com/place/B0KGH54XVJ",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 2,
+      "title": "意大利菜- 【Cafe di wine(吴兴大楼小区店)】电话_地址_价格 - 大众点评",
+      "url": "http://m.dianping.com/shop/1498218818?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "上海咖啡馆地图：网红店那么多，究竟哪些值得去？ - 界面新闻",
+      "url": "https://www.jiemian.com/article/2339621.html",
+      "site_name": "界面新闻"
+    },
+    {
+      "index": 4,
+      "title": "Cafe di Wine (Wukang Building Shop) - Apple Maps",
+      "url": "https://maps.apple.com/place?auid=1118762671705471&lsp=57879",
+      "site_name": "Apple (中国)"
+    },
+    {
+      "index": 5,
+      "title": "一杯咖啡“长在农场里”!这家宝藏村咖,喝一口都是丰收的味道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NjY3MDQxNQ==&mid=2651927408&idx=1&sn=4850aacb4d25d6fee243f38df24f6255&chksm=85a8789f2bacbbdc72c888a46a93c4448da32bb816b96993101ca55adedbddce0d606e8cfb0f&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:06Z"
+}

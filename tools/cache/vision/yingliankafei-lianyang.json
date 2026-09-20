@@ -1,7 +1,7 @@
 {
   "cafeId": "yingliankafei-lianyang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6c4cacad8a1d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a5b33342e3da",
   "photos": [
     "http://store.is.autonavi.com/showpic/129fcf308c0608ecdb04e23ccc916df3",
     "http://store.is.autonavi.com/showpic/09ec55fab5659a07aca56fcb57cbf3a8",
@@ -9,45 +9,69 @@
   ],
   "photoKinds": [
     "food",
-    "food",
-    "food"
+    "interior"
   ],
   "observations": [
     {
-      "text": "有橙色慕斯蛋糕，配果酱和奶油装饰",
+      "text": "照片中展示了两块甜点，一块是芒果蛋糕，一块是巧克力蛋糕。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "有巧克力蛋糕，配覆盆子和焦糖酱",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有披萨，配火腿、芝麻菜和马苏里拉奶酪",
+      "text": "照片中有一张圆形餐桌，桌上摆放着披萨和沙拉等食物。",
       "kind": "food",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "餐桌上摆放有鲜花和玻璃杯",
-      "kind": "seating",
+      "text": "室内环境有深色桌面和餐椅，背景中可见一个花瓶和插花。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "餐桌上有沙拉和饮品",
-      "kind": "food",
+      "text": "照片中没有看到吧台、手冲设备或烘焙机等专业咖啡器具。",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有看到电脑、插座或书架等细节。",
+      "kind": "laptops",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未显示店外景观、窗户或室外座位。",
+      "kind": "view",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未显示菜单、价格或咖啡豆产地信息。",
+      "kind": "menuPrices",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见其他顾客，无法判断店内是否有人。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.6
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
-  "outdoor": null,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:35Z"
+  "crowd": null,
+  "laptops": false,
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:32Z"
 }

@@ -1,0 +1,74 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "配备无烟区和无线网络",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "适宜商务宴请、家庭聚会、朋友聚餐等多种消费场景",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    },
+    "price": {
+      "value": 17.0,
+      "quote": "人均价格:17",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site": "百度百科"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "SUN Cafe&Bakery(荣华东道店)",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（荣华东道店）/14269515",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 2,
+      "title": "SUN Cafe&Bakery(虹井路店)",
+      "url": "https://baike.baidu.com/item/SUN%20Cafe%26Bakery（虹井路店）/14226046",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 3,
+      "title": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "url": "https://news.qq.com/rain/a/20260408A06EJF00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 4,
+      "title": "上海市10 大咖啡馆 - Tripadvisor",
+      "url": "https://cn.tripadvisor.com/Restaurants-g308272-c8-Shanghai.html",
+      "site_name": "Tripadvisor"
+    },
+    {
+      "index": 5,
+      "title": "上海的咖啡风情,不只是小资情调,还有巷弄的惊艳",
+      "url": "https://www.sohu.com/a/255006196_100275332",
+      "site_name": "搜狐"
+    },
+    {
+      "index": 6,
+      "title": "“一起咖啡吧”荣誉榜单评选全网启动，黄浦19家咖啡店等你来打卡",
+      "url": "https://www.shhuangpu.gov.cn/fw/003001/20230402/77a5ab5a-0815-4812-8585-27db646d110e.html",
+      "site_name": "中国政府网"
+    },
+    {
+      "index": 7,
+      "title": "三好坞咖啡馆 | 张生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTMzOTg4Mw==&mid=2651036412&idx=1&sn=1f8be2002705ac0737f85b743bac7e77&chksm=bc004bab98289b9ae0a94b931cea485da8e08f3618900ad06a823424d3975e5180aff6d59112&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "上海限时停留一个月:JM Cafe把“北京味道打包”给你!(文末福利)",
+      "url": "https://www.163.com/dy/article/L6Q43TPI0521G5OJ.html",
+      "site_name": "网易"
+    }
+  ],
+  "model": "qwen-plus-2025-07-28,qwen-plus-2025-04-28",
+  "fetchedAt": "2026-09-20T02:04:49Z"
+}

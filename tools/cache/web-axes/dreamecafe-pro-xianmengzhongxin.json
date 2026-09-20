@@ -1,0 +1,98 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "在二楼观景平台,伴着江风,品味咖啡,别提多惬意。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTc3NDU5Mw==&mid=2653603832&idx=5&sn=c5d5ec72ba8066df8eef3def2b606654&chksm=bcc34ad8b6fcf551b14a3aa71713fff5577f5e9ef0493989455c050c12b412bf082d057cedf1&scene=27",
+      "site": "腾讯网"
+    },
+    "noise": {
+      "answer": "quiet",
+      "quote": "这里的一切为城市喧嚣提供了一片宁静之地",
+      "url": "https://www.163.com/dy/article/JD5UCJ2405129QAF.html",
+      "site": "163网易免费邮"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "让每位顾客步入其中时,即能沉浸在艺术与自然的交汇场景之中",
+      "url": "https://www.163.com/dy/article/JD5UCJ2405129QAF.html",
+      "site": "163网易免费邮"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "意式、手冲、特调三大系列将通过精心调制的饮品与顾客对话",
+      "url": "https://www.163.com/dy/article/JD5UCJ2405129QAF.html",
+      "site": "163网易免费邮"
+    },
+    "price": {
+      "value": 27.0,
+      "quote": "主打精品咖啡与烘焙产品,人均消费27元。",
+      "url": "https://news.sohu.com/a/905736591_250147",
+      "site": "搜狐网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "追觅旗下咖啡品牌DM CAFE多店调整，疯狂跨界跑不动了？ - 虎嗅网",
+      "url": "https://www.huxiu.com/article/4889517.html",
+      "site_name": "虎嗅网"
+    },
+    {
+      "index": 2,
+      "title": "春和景明,就该去一家水岸咖啡馆! ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MTc3NDU5Mw==&mid=2653603832&idx=5&sn=c5d5ec72ba8066df8eef3def2b606654&chksm=bcc34ad8b6fcf551b14a3aa71713fff5577f5e9ef0493989455c050c12b412bf082d057cedf1&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "西岸!这家咖啡店空间美学拉满! - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/1822660281",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 4,
+      "title": "黄浦江畔,DREAME CAFE追觅咖啡全球首店亮相",
+      "url": "https://www.163.com/dy/article/JD5UCJ2405129QAF.html",
+      "site_name": "163网易免费邮"
+    },
+    {
+      "index": 5,
+      "title": "DREAME CAFE 追觅咖啡PRO系列全球首店亮相上海西岸梦中心",
+      "url": "https://www.sh.chinanews.com.cn/chanjing/2024-09-29/128876.shtml",
+      "site_name": "中国新闻网"
+    },
+    {
+      "index": 6,
+      "title": "开奶茶店、咖啡店、火锅店,家电巨头 “不务正业”? ",
+      "url": "https://news.sohu.com/a/905736591_250147",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 7,
+      "title": "追觅咖啡多家门店停业，有消费者次卡还没用完 - DoNews",
+      "url": "https://www.donews.com/news/detail/1/6688044.html",
+      "site_name": ""
+    },
+    {
+      "index": 8,
+      "title": "呼吸机、扫地机、奢侈品⋯⋯ 跨界咖啡店开成“百货商场” - 新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2025-02-26/doc-inemvhcf8774927.shtml",
+      "site_name": "新浪网"
+    },
+    {
+      "index": 9,
+      "title": "黄浦江畔，DREAME CAFE追觅咖啡全球首店亮相 - 奥一网",
+      "url": "https://m.mp.oeeee.com/a/BAAFRD0000202409281004684.html",
+      "site_name": "奥一网"
+    },
+    {
+      "index": 10,
+      "title": "DREAME CAFE亮相上海西岸梦中心 - 大众点评吃喝玩乐精选",
+      "url": "https://m.dianping.com/discovery/1763126926",
+      "site_name": "大众点评网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:31:08Z"
+}

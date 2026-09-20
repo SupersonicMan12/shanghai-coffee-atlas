@@ -1,59 +1,78 @@
 {
   "cafeId": "lingyankafeiguan-lingyan-s-rd-1199",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "18fc501de760",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "b3af8c7c120d",
   "photos": [
     "https://aos-comment.amap.com/B0KD0UWEYU/comment/bc3c73d382a478bbe0393e9c8d6cf136_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0KD0UWEYU/comment/37a771d1d56c0da39be51c68e6428863_2048_2048_80.jpg",
     "https://store.is.autonavi.com/showpic/59a256214e06b1e71030bae7e2fab21f"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "storefront"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "饮品为橙黄色，含冰块和百香果籽",
+      "text": "店内有吧台，顾客在吧台前喝饮料。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品杯中可见百香果和冰块。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "咖啡馆位于二层，楼下有手机店和银楼",
-      "kind": "space",
+      "text": "店内有多个座位，至少可容纳十人以上。",
+      "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店面入口处有花篮装饰，显示新开业或庆祝活动",
-      "kind": "story",
-      "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店铺外立面为米黄色，临街且有玻璃窗",
-      "kind": "space",
+      "text": "店铺临街，有大面积玻璃窗。",
+      "kind": "bigWindows",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口可见内部灯光，空间较明亮",
-      "kind": "light",
-      "photo": 3,
+      "text": "照片中未见有人在用电脑。",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内无明显烘焙机或手冲设备。",
+      "kind": "brewBar",
+      "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "店内有红色靠垫座椅，座位数量有限",
-      "kind": "seating",
+      "text": "入口处摆放着开业花篮。",
+      "kind": "story",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有彩色玻璃砖墙装饰。",
+      "kind": "light",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.8
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "medium",
+  "seats": "many",
+  "crowd": null,
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:22:11Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:08:11Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "ora-coffee-shanghaibohuiguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c3af4f6e5eab",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8f6c5468dd85",
   "photos": [
     "https://store.is.autonavi.com/showpic/6c2438a8824479f90000002872306539?type=pic",
     "https://store.is.autonavi.com/showpic/e4230f81f5d191470000002872316337?type=pic",
@@ -10,62 +10,69 @@
   "photoKinds": [
     "storefront",
     "storefront",
-    "storefront"
+    "sign"
   ],
   "observations": [
     {
-      "text": "店铺位于临街玻璃幕墙建筑内，有落地窗",
+      "text": "店面为临街玻璃门+高窗，右侧设外摆服务窗口，可见店内吧台与咖啡机",
       "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "室外有4把米色折叠椅+2张金属圆桌，伞下区域可坐4人，属小规模外摆",
+      "kind": "seating",
       "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "店门口玻璃门贴有“拉”字标识及卡通贴纸，门把手印“Ora Coffee”，双开门设计",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "服务窗口内可见一名穿围裙员工正低头操作设备，窗口上方陈列多盒包装豆品",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "窗内吧台区域可见一台黑色意式咖啡机（非手冲/虹吸），无明显烘豆机或手冲台",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "设有室外座位区，配备遮阳伞和金属桌椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "室外区域有四把折叠椅和两组小圆桌",
-      "kind": "seating",
+      "text": "店外立牌写有“Ora Coffee 无菌粉萃 味味自成”，未见清晰价格或产地信息",
+      "kind": "menu",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内可见工作人员在操作台工作",
-      "kind": "people",
+      "text": "玻璃门与高窗反射出街道、树木与建筑，表明临街且采光良好，无遮挡",
+      "kind": "light",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店门口有透明玻璃门，可看到内部部分空间",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见咖啡豆包装陈列架",
-      "kind": "beans",
+      "text": "照片中未见顾客使用电脑、书架、植物、宠物或明确食物饮品实物",
+      "kind": "other",
       "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "有外摆服务窗口，可直接对外点单",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店招为黑色底金色字，悬挂在建筑外侧",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:47Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:56Z"
 }

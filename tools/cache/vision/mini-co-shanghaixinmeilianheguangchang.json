@@ -1,7 +1,7 @@
 {
   "cafeId": "mini-co-shanghaixinmeilianheguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "840e931e8f71",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f52e51abcb7e",
   "photos": [
     "https://store.is.autonavi.com/showpic/eaa75abcc59043d10000000670266878?type=pic",
     "https://store.is.autonavi.com/showpic/350a9ad408abcb000000003075710155?type=pic",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "门店位于商场外街，有室外座位区",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内有圆形吧台，周围环绕着座位。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "设有遮阳伞和户外桌椅，适合室外停留",
+      "text": "室外有带遮阳伞的座位和长椅。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内空间呈圆形布局，中央为环形座位区",
-      "kind": "space",
+      "text": "店内有电子菜单屏，显示饮品信息。",
+      "kind": "menu",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有吧台和咖啡制作设备，可见磨豆机与萃取装置",
-      "kind": "roastingGear",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内有少量座椅，约6-8个座位",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有落地玻璃窗，采光良好",
+      "text": "店内天花板有环形灯箱，显示店名。",
       "kind": "light",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "店外有绿植装饰和长椅，环境整洁",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有电子菜单屏显示饮品选项",
-      "kind": "drinks",
+      "text": "室内吧台后方有磨豆机等咖啡制作设备。",
+      "kind": "brewBar",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中没有看到有人在用电脑。",
+      "kind": "laptops",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面临街，有大面积玻璃窗。",
+      "kind": "bigWindows",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室内地面铺有红色地毯，空间布局现代。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.85
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:22:50Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:09Z"
 }

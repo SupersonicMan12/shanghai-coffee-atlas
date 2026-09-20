@@ -1,7 +1,7 @@
 {
   "cafeId": "vuoiuna-ruijin-s-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "fe9e4c82dda4",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d5e9326e9522",
   "photos": [
     "https://store.is.autonavi.com/showpic/bd84881bdbf7b6aeb0e2ba9cdc9f3226",
     "https://store.is.autonavi.com/showpic/e0090aafb872d447dc09581d6a669d4c"
@@ -12,46 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店面为临街玻璃门，可见内部吧台。",
+      "text": "店面为临街玻璃幕墙结构，有大面积落地窗。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "室内有白色吧台，后方可见咖啡制作设备。",
+      "text": "店内可见操作台、冷藏柜和咖啡制作设备，空间紧凑。",
       "kind": "space",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "吧台旁放置有灭火器。",
-      "kind": "space",
+      "text": "店外无明显座位，未见室外座区域。",
+      "kind": "outdoor",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内未见顾客或工作人员在场，环境空置。",
+      "kind": "people",
       "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "可见一台磨豆机和咖啡机等基础设备，无手冲台或虹吸壶。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "玻璃门内侧贴有饮品宣传图，展示一杯冰饮，杯身印有品牌名。",
+      "kind": "drinks",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "透过玻璃可见街道和停放的摩托车。",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内光线明亮，但未见明显窗户采光。",
+      "text": "店内操作区上方有粉色灯光照明，背景可见货架与储物柜。",
       "kind": "light",
       "photo": 2,
       "confidence": 0.85
     },
     {
-      "text": "吧台上放置有菜单或宣传单。",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "店门口地面为浅色瓷砖，入口处设有金属门框与玻璃门。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "none",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:24Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:13Z"
 }

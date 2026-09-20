@@ -1,7 +1,7 @@
 {
   "cafeId": "823coffee-hongqizhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c670083759a3",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "80d4624a9310",
   "photos": [
     "http://store.is.autonavi.com/showpic/79b4f36f8100f32f22c228102e7433f7",
     "http://store.is.autonavi.com/showpic/6651a6460f253829ddf385314dc37b4c"
@@ -12,52 +12,65 @@
   ],
   "observations": [
     {
-      "text": "店内有咖啡烘焙机和磨豆机",
-      "kind": "roastingGear",
+      "text": "店内有三台磨豆机，吧台为开放式。",
+      "kind": "brewBar",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有吧台和少量座位",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内设有黑色椅子和白色小圆桌",
+      "text": "店内有一张高脚桌和两把椅子，靠墙有两张小圆桌和两把椅子。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口有立式宣传牌，展示饮品图片",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内墙面有'NO COFFEE NO LIFE'标语",
-      "kind": "story",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门为玻璃推拉门，临街可见",
+      "text": "店门为玻璃门，临街，可看到室内情况。",
       "kind": "bigWindows",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有电视屏幕播放内容",
-      "kind": "people",
+      "text": "店内墙上挂有电视屏幕，播放内容。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内墙面有 'NO COFFEE NO LIFE' 字样。",
+      "kind": "other",
       "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "照片中未见有人使用电脑。",
+      "kind": "laptops",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无明显书架、植物或宠物。",
+      "kind": "other",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见任何饮品或食物实物。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:23:54Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:24Z"
 }

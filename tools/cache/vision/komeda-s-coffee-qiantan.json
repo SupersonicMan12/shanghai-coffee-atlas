@@ -1,71 +1,80 @@
 {
   "cafeId": "komeda-s-coffee-qiantan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "f1124aecd997",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "149054e8866d",
   "photos": [
-    "https://store.is.autonavi.com/showpic/975a2071471dafcb6de8565078b768c3",
     "https://aos-comment.amap.com/B0GK07CGVK/comment/a39f5c78aa815ef8750b8a857652feb6_2048_2048_80.jpg",
+    "https://store.is.autonavi.com/showpic/975a2071471dafcb6de8565078b768c3",
+    "https://aos-comment.amap.com/B0GK07CGVK/comment/d174eb30b8d05c653c524f743ea7b39a_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0GK07CGVK/comment/84bba6d6043b92273479b487564a1f01_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
-    "food",
-    "drink"
+    "interior",
+    "drink",
+    "food"
   ],
   "observations": [
     {
-      "text": "店面位于街边，有玻璃门和砖墙装饰",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有木质桌椅，空间宽敞",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供咖啡与吐司套餐，含黄油和红豆酱",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为黑咖啡，配小杯牛奶和勺子",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "另一款饮品为拿铁，标注为Caffe Latte",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有顾客就座，环境安静舒适",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "有落地窗，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "桌上摆放食物和饮品，可见用餐场景",
+      "text": "室内有多个带红色软包的木质隔间卡座",
       "kind": "seating",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内光线明亮，有吊灯和天花板射灯照明",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "有落地玻璃门和窗户，可以看到店外街道",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中有一杯咖啡和一份吐司面包",
+      "kind": "food",
+      "photo": 0,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中有一杯黑咖啡，旁边有小奶罐",
+      "kind": "drinks",
+      "photo": 0,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内没有看到烘焙机或手冲台等专业咖啡设备",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中未见有人使用笔记本电脑",
+      "kind": "laptops",
+      "photo": 2,
       "confidence": 0.8
+    },
+    {
+      "text": "照片中未见书架、植物或宠物",
+      "kind": "beans",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
-  "seats": "some",
-  "laptops": null,
+  "room": "large",
+  "seats": "many",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:21:58Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:07:51Z"
 }

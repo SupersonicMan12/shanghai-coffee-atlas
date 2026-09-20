@@ -1,7 +1,7 @@
 {
   "cafeId": "mini-co-shanghaixuhuiguojichuanmeigang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "1edbff388e1e",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "a065734ff63c",
   "photos": [
     "https://store.is.autonavi.com/showpic/69b435cc6f63d8330000003049992134?type=pic",
     "https://aos-comment.amap.com/B0LUZ7T2SS/comment/content_media_external_file_224138_ss__1757913392734_53277126.jpg",
@@ -9,57 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "other"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为小型店铺，有室外座位区",
-      "kind": "space",
+      "text": "店外设有白色桌椅，提供室外座位。",
+      "kind": "seating",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "室外设有约6-8张白色桌椅",
+      "text": "店外有折叠遮阳伞，但未展开使用。",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内可见吧台式布局，但具体设备不清晰",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街玻璃窗，采光良好",
+      "text": "玻璃门和大面积玻璃墙，采光良好，可见店内部分区域。",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "一名顾客坐在室外座位上看手机",
+      "text": "店外摆放有宣传立牌，展示饮品促销信息。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.85
+    },
+    {
+      "text": "有顾客坐在室外座位上，其中一人正在看手机。",
       "kind": "people",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口摆放着饮品促销立牌",
+      "text": "店外右侧有大型饮品海报，展示冰饮产品。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.85
     },
     {
-      "text": "地面为灰白相间的方格地砖",
+      "text": "店门口左侧有“CUP OF SURPRISES”字样广告贴纸。",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店外地面为灰色地砖铺就，整洁有序。",
       "kind": "space",
       "photo": 1,
       "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:33Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:37Z"
 }

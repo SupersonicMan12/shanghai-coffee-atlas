@@ -1,0 +1,50 @@
+{
+  "answers": {
+    "brew": {
+      "answer": "yes",
+      "quote": "每周都会更换全新的豆子...作为一家实力过硬的自烘焙品牌",
+      "url": "https://news.sohu.com/a/877121125_113612",
+      "site": "搜狐网"
+    },
+    "price": {
+      "value": 55.0,
+      "quote": "店里盛惠55元",
+      "url": "https://news.sohu.com/a/877121125_113612",
+      "site": "搜狐网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "上海有几千家咖啡馆,我们最爱这16佳|企鹅吃喝指南 ",
+      "url": "https://news.sohu.com/a/877121125_113612",
+      "site_name": "搜狐网"
+    },
+    {
+      "index": 2,
+      "title": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "url": "https://news.qq.com/rain/a/20260206A02VCO00",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 3,
+      "title": "老外驚了!上海這條100多米的小馬路上,竟有18家咖啡店。",
+      "url": "https://www.meet-in-shanghai.net/tc/guide/the-foreigner-was-shocked-on-this-small-road-of-more-than-100-meters-in-shanghai-there-are-18-coffee-shops-460293/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "黄浦新玩法 | 于百年巷弄与洋房窗口,解锁黄浦高颜值店铺打卡之旅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODYyMDgwNg==&mid=2650975434&idx=1&sn=36c4e1f919492ed11d7c0f9b51ebdedd&chksm=85a9bb0fe7b3e4e3674af455aeda4ed3f33b5b81cc6fb291938b00dc64ec7bc9732650881a7d&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 5,
+      "title": "沪上隐秘幽静的11家咖啡馆咖啡也是一级棒 - 新浪上海",
+      "url": "http://sh.sina.cn/news/sh/2016-02-11/detail-ifxnqriy3221631.d.html",
+      "site_name": "新浪网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:30:16Z"
+}

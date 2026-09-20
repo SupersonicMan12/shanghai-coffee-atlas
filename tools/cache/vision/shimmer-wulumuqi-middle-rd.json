@@ -1,41 +1,73 @@
 {
   "cafeId": "shimmer-wulumuqi-middle-rd",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "132a80c4b3e7",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "d103e94cfecc",
   "photos": [
     "https://aos-comment.amap.com/B0HRPM4M1M/comment/64c55918-304f-4b8a-9b83-6f41c9171b3c.png",
     "http://store.is.autonavi.com/showpic/2ddad3c7be8fe20a37b4a750c1ae4240",
+    "https://store.is.autonavi.com/showpic/458379cce532d2340000000863616007?type=pic",
     "https://aos-comment.amap.com/B0HRPM4M1M/comment/5e17fd9d-6c49-41c1-b785-797389aa38f8.png"
   ],
   "photoKinds": [
     "drink",
     "storefront",
+    "menu",
     "drink"
   ],
   "observations": [
     {
-      "text": "四款不同杯型与装饰的特调饮品，含大冰块、橙皮、奶盖等元素。",
+      "text": "菜单上列出多款特调饮品，含价格与酒精度，如提拉米苏98元、普洱提尼88元。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "四张饮品照片展示不同杯型与装饰，包括冰块、橙皮、黑莓等元素。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.95
     },
     {
-      "text": "临街店面，门口有电动车和消防栓，非商场内店铺。",
+      "text": "店面位于临街位置，有玻璃门和橱窗，门口停放电动车。",
       "kind": "view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "一杯深色特调，配大冰块与橙皮装饰，置于木桌。",
+      "text": "其中一款饮品为深红色液体配大冰块与橙色圆形装饰物，置于木质桌面上。",
       "kind": "drinks",
-      "photo": 3,
+      "photo": 4,
       "confidence": 0.95
+    },
+    {
+      "text": "菜单显示饮品含Gin、Moutai、Buffalo milk等原料，部分标注ABV酒精度。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见木质桌面及白色杯垫，环境简洁。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:08:35Z"
+  "bigWindows": true,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [
+    55.0,
+    58.0,
+    88.0,
+    98.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:38Z"
 }

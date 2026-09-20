@@ -1,7 +1,7 @@
 {
   "cafeId": "freedomcoffee-benxi-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6b9eb57b7733",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "5baafa28d59a",
   "photos": [
     "https://store.is.autonavi.com/showpic/1bc40ea550604cd70000001744414640?type=pic",
     "https://store.is.autonavi.com/showpic/8151761c76972028bbf562a0d5a78825",
@@ -9,50 +9,70 @@
   ],
   "photoKinds": [
     "storefront",
+    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店面入口处有蓝色遮阳篷和石墙装饰",
+      "text": "店面入口处有木质门和石墙，门口放置有宣传立牌。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内为现代简约风格，墙面有艺术画作",
-      "kind": "space",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "设有灰色沙发卡座和圆形小桌",
+      "text": "室内有灰色沙发卡座、圆形小桌和单人椅，适合2-4人围坐。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "门口立有咖啡主题的宣传广告牌",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "店内摆放有绿植，环境整洁",
-      "kind": "space",
+      "text": "店内墙面挂有多幅装饰画，角落有大型绿植。",
+      "kind": "story",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "营业时间为上午10点至晚上10点",
-      "kind": "other",
+      "text": "店外设有蓝色遮阳棚，招牌显示“Freedom COFFEE”及营业时间。",
+      "kind": "time",
       "photo": 1,
       "confidence": 0.9
+    },
+    {
+      "text": "门口立牌宣传咖啡，配有咖啡杯与咖啡豆图片，标示“咖啡店→”方向。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内地面为浅色水磨石材质，天花板为深色，搭配轨道射灯。",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内无可见客人或工作人员，座位空置。",
+      "kind": "crowd",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面外墙为仿石砖结构，窗户装有蓝色遮光板。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "some",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:03Z"
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:14Z"
 }

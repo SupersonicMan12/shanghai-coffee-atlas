@@ -1,7 +1,7 @@
 {
   "cafeId": "kenyuekafeianshandian-kongjiang-rd-2056",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c62fb42f9f6a",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "1868d67f498c",
   "photos": [
     "https://aos-comment.amap.com/B0K3H920PS/comment/B827B085_D120_47ED_86DB_93F33B220BCB_L0_001_1500_2000_1742882834957_55618468.jpg",
     "https://aos-comment.amap.com/B0K3H920PS/comment/220CBDE4_C0FA_4E08_96E6_5690F08CA978_L0_001_2000_1500_1742882834957_09399195.jpg",
@@ -14,46 +14,67 @@
   ],
   "observations": [
     {
-      "text": "店内有顾客就座，可见多人座位区。",
-      "kind": "seating",
+      "text": "店内有顾客坐着，部分人使用手机，座位为橙色软垫长椅。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "桌面为黑白几何图案，配有纸质餐巾。",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "外部门面有小型售货车和盆栽装饰。",
-      "kind": "space",
+      "text": "店外设有带遮阳棚的移动售货车和盆栽绿植，门口有台阶。",
+      "kind": "outdoor",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "室内可见木质柜台和绿植。",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "提供多种带不同颜色蝴蝶结图案的纸杯饮品。",
+      "text": "店内吧台展示多杯不同颜色纸杯饮品，配有自助点餐二维码。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "柜台前有手机扫码点餐提示牌。",
-      "kind": "people",
+      "text": "饮品杯内含冰块与深色液体，为冰咖啡类饮品。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内地面铺有黑白图案桌布，桌上有纸巾垫和二维码卡片。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店门口可见宣传海报，内容包括“春日大咖系列”及价格信息如9.9元、30天等。",
+      "kind": "menuPrices",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内吧台区域有木质饰面，背景墙为浅木纹板。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "店外有自动售货机和红色装饰物，位于商场或商业体入口处。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "some",
   "laptops": false,
-  "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:27:07Z"
+  "sockets": null,
+  "outdoor": true,
+  "bigWindows": true,
+  "roastingGear": null,
+  "brewBar": null,
+  "specialtyMenu": false,
+  "menuPrices": [
+    9.9
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:24:21Z"
 }

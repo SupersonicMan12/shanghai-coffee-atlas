@@ -1,71 +1,79 @@
 {
   "cafeId": "the-second-coffee-brewers-yunling-east-rd-599",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c969b83b2698",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "cf796b48816f",
   "photos": [
+    "https://store.is.autonavi.com/showpic/3837bc49fed650080000001147654010?type=pic",
     "https://aos-comment.amap.com/B0FFHFDE70/comment/content_media_external_file_5374_1763596488533_03264806.jpg",
-    "http://store.is.autonavi.com/showpic/1a48f9ed366227fc674a8556aab1e8bb",
-    "https://aos-comment.amap.com/B0FFHFDE70/comment/c0636b1133a945fc3fc4da8a11393308_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0FFHFDE70/comment/content_media_external_file_5374_1763596488524_86498656.jpg",
+    "http://store.is.autonavi.com/showpic/1a48f9ed366227fc674a8556aab1e8bb"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店内有吧台和咖啡制作设备",
-      "kind": "space",
+      "text": "店内有吧台和咖啡机等专业设备",
+      "kind": "brewBar",
+      "photo": 4,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内有木质桌面和大窗户，采光好",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "窗外可见城市街道、树木和建筑",
+      "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "可见手冲器具和磨豆机等专业设备",
+      "text": "店外有带遮阳伞的室外座位",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内有手冲设备，可能是精品咖啡馆",
+      "kind": "beans",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "照片中有一杯冰咖啡饮品",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店外设有黄色遮阳伞和桌椅",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街玻璃窗，采光良好",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有面包展示柜，可见可颂类烘焙食品",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内空间较小，为小店类型",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有红色边框玻璃门，临街位置",
-      "kind": "space",
+      "text": "照片中有一杯热饮在窗边",
+      "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内有木质货架和置物架，陈列物品",
-      "kind": "space",
+      "text": "店内有少量顾客在用电脑",
+      "kind": "people",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": true,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:23:51Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:22Z"
 }

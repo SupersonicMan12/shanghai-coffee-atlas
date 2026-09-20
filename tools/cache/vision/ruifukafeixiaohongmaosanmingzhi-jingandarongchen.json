@@ -1,7 +1,7 @@
 {
   "cafeId": "ruifukafeixiaohongmaosanmingzhi-jingandarongchen",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d05a7c06b8de",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "2db92fad240d",
   "photos": [
     "https://store.is.autonavi.com/showpic/5749a68e4732918d0000002350214492?type=pic",
     "https://aos-comment.amap.com/B0M6FUZR8U/comment/20260306-e7bbaf707db3ffb1bba05c67-AYqmAZvmS688yV6f0oIHmT.jpg",
@@ -14,40 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店名是睿福咖啡小红帽三明治，位于商场内",
-      "kind": "space",
+      "text": "店面位于商场内部，外立面为网格发光招牌，含‘Refugio EATERY’与‘小红帽 CAPPUCETTO ROSSO’字样",
+      "kind": "storefront",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供三明治，内含鸡肉、羽衣甘蓝和芝士",
+      "text": "店内提供三明治，夹有撕碎肉、羽衣甘蓝叶及黄色酱料，面包为厚切欧包样式",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "提供波浪薯条，配番茄酱和芝士碎",
+      "text": "搭配波纹薯条，撒有帕玛森芝士碎，配一小杯红色蘸酱（疑似番茄酱）",
       "kind": "food",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "餐盘为白底绿边陶瓷盘，食物置于印有‘Refugio’字样的包装纸上",
+      "kind": "food",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店面有大面积玻璃窗，临街可见",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.8
+      "text": "照片中未见顾客、电脑、插座或专业咖啡设备，仅显示已出品食物",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店内有白色盘子盛放食物，桌面为石纹材质",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.7
+      "text": "门头下方可见玻璃门及部分室内结构，但无法判断整体空间大小或座位布局",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "mall",
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": true,
+  "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:16:44Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:00:52Z"
 }

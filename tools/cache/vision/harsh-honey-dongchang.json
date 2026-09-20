@@ -1,71 +1,61 @@
 {
   "cafeId": "harsh-honey-dongchang",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "86d77e959121",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "1cc5b2f4c783",
   "photos": [
-    "https://store.is.autonavi.com/showpic/44c9234d90ebf0210000003430882125?type=pic",
-    "https://aos-comment.amap.com/B0G064N5WH/comment/fa13d8d493aa3605ab2a912994789ade_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0G064N5WH/comment/d6f0f274-67be-49fe-a1e9-7ff98e7a3373.png"
+    "https://store.is.autonavi.com/showpic/8c17d9a85dd25ab00000002122290346?type=pic",
+    "https://aos-comment.amap.com/B0G064N5WH/comment/b15da3cf2aa8c8a566c6c80adeabdc9f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0G064N5WH/comment/28f1079a-a573-482d-9a22-5298948900a3.png",
+    "https://store.is.autonavi.com/showpic/44c9234d90ebf0210000003430882125?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "drink",
-    "interior"
+    "interior",
+    "drink"
   ],
   "observations": [
     {
-      "text": "店面临街，有黄蓝条纹遮阳棚，门前设3把折叠椅供室外座",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店招为'HARSH HONEY Coffee Shop'，白色底板配简约H形标志",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "室内吧台为浅黄色台面，右侧置有Brewista电热水壶、手冲壶、磨豆机、电磁炉与锅具",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台后方木架上陈列多袋咖啡豆（可见'Felix'品牌），无烘焙机",
-      "kind": "beans",
-      "photo": 3,
+      "text": "店面有黄蓝条纹遮阳棚，临街",
+      "kind": "storefront",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "照片2中展示带手绘'HARSH HONEY'字样的白色纸杯，无饮品内容物可见",
+      "text": "室外有几张折叠椅供顾客就坐",
+      "kind": "seating",
+      "photo": 4,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见木质托盘和咖啡杯",
+      "kind": "interior",
+      "photo": 2,
+      "confidence": 0.7
+    },
+    {
+      "text": "提供拉花拿铁和手冲咖啡",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.98
+      "confidence": 0.8
     },
     {
-      "text": "店内墙面挂满小照片与装饰物，有绿植、招财猫、铃铛等摆件",
-      "kind": "story",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "临街玻璃窗通透，可看清店内吧台与顾客，但非落地窗",
-      "kind": "bigWindows",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "照片1中3人坐室外折叠椅，无人使用笔记本电脑",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.95
+      "text": "菜单卡显示埃塞俄比亚单品咖啡",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 0.7
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
+  "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:38:23Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:37:59Z"
 }

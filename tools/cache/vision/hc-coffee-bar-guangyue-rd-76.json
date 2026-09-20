@@ -1,7 +1,7 @@
 {
   "cafeId": "hc-coffee-bar-guangyue-rd-76",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e2f322bd85fc",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "a57520263eae",
   "photos": [
     "https://store.is.autonavi.com/showpic/eedc515f9867577d84c9c31d19662eea",
     "https://aos-comment.amap.com/B0K2LZIHQK/comment/content_media_external_images_media_75143_ss__1735288103706_78800107.jpg",
@@ -15,52 +15,53 @@
   ],
   "observations": [
     {
-      "text": "店面位于临街玻璃幕墙建筑内，有落地窗",
-      "kind": "space",
+      "text": "外景为临街玻璃幕墙，夜间可见霓虹灯与城市夜景",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内有紫色灯光装饰，氛围偏现代夜店风格",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "饮品为绿色和粉红色鸡尾酒，顶部有泡沫和可食用花装饰",
+      "text": "室内有高脚杯盛装的绿色分层特调酒（顶部白沫+黄紫花饰）与粉色杯身特调酒",
       "kind": "drinks",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "提供玉米片和螺旋状水果作为配食",
+      "text": "桌上配两小碟：米色薄脆片、黄瓜螺旋卷（插签）",
       "kind": "food",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "窗边悬挂白色装饰枝条+金色球形挂饰，背景可见蓝色霓虹环形标志",
+      "kind": "light",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "窗外可见城市夜景与装饰灯串，可能在较高楼层",
-      "kind": "view",
+      "text": "室内为深色木纹桌面，无明显吧台或座位区布局，未见人员活动",
+      "kind": "seating",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "饮品杯型精致，摆盘讲究，适合拍照",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "室内空间较暗，以灯光营造氛围",
-      "kind": "light",
+      "text": "未见烘焙机、手冲台、磨豆机等专业器具；无书架/植物/宠物",
+      "kind": "equipment",
       "photo": 2,
-      "confidence": 0.7
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:13:39Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:54:43Z"
 }

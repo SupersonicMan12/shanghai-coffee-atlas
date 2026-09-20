@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "靠墙的一排桌子下安置了5-6个挂钩,可以挂各式通勤包。",
+      "url": "https://m.douban.com/group/topic/256600803/",
+      "site": "豆瓣网"
+    },
+    "noise": {
+      "answer": "lively",
+      "quote": "加班的男青年进门和咖啡师熟络的攀谈了几句...一对情侣买了两杯花式...",
+      "url": "https://m.douban.com/group/topic/256600803/",
+      "site": "豆瓣网"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "买了杯「拿铁」坐在店里喝...",
+      "url": "https://m.douban.com/group/topic/256600803/",
+      "site": "豆瓣网"
+    },
+    "brew": {
+      "answer": "yes",
+      "quote": "露天座位即磨咖啡手沖咖啡咖啡豆有售。",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/stop-coffee-52379632/",
+      "site": "stop coffee (上海陸家嘴)－餐牌、食評及資訊 - Trip.com"
+    },
+    "price": {
+      "value": 26.0,
+      "quote": "¥26/人",
+      "url": "https://m.dianping.com/shop/102384368",
+      "site": "大众点评网"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "世纪大道咖啡",
+      "url": "https://m.dianping.com/shop/102384368",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 2,
+      "title": "「什么是咖啡师」Stop Coffee2026年咖啡师岗位职责-BOSS直聘",
+      "url": "https://www.zhipin.com/job_detail/d0f877b38474ad571XN-0tu1FVBQ.html",
+      "site_name": "Boss直聘"
+    },
+    {
+      "index": 3,
+      "title": "stop coffee (上海陸家嘴)－餐牌、食評及資訊 - Trip.com",
+      "url": "https://hk.trip.com/restaurant/china/shanghai/detail/stop-coffee-52379632/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "江南大道沿线咖啡",
+      "url": "https://m.dianping.com/shop/1661410420",
+      "site_name": "大众点评网"
+    },
+    {
+      "index": 5,
+      "title": "上海咖啡馆突破1万家，全球第一！一杯咖啡里到底有什么？ - 解放日报",
+      "url": "https://www.shobserver.cn/news/detail?id=1111820",
+      "site_name": ""
+    },
+    {
+      "index": 6,
+      "title": "浦东:STOP Coffee“咖啡馆,城市人的精神充电站” ",
+      "url": "https://m.douban.com/group/topic/256600803/",
+      "site_name": "豆瓣网"
+    },
+    {
+      "index": 7,
+      "title": "家·春 节 不 打 烊 咖 啡 店 清 单",
+      "url": "https://www.163.com/dy/article/IQMB1VA00522A0I7.html",
+      "site_name": "163网易免费邮"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:29:11Z"
+}

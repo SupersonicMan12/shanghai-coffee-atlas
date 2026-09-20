@@ -1,71 +1,80 @@
 {
   "cafeId": "baimakafeiguan-zhangyang-rd-67",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "b35b10401bc0",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "8f4f92e51e23",
   "photos": [
-    "https://store.is.autonavi.com/showpic/e441379d27f7d4290000000946770808?type=pic",
     "https://store.is.autonavi.com/showpic/218dfff8a45468030000000946794683?type=pic",
+    "https://store.is.autonavi.com/showpic/e441379d27f7d4290000000946770808?type=pic",
+    "https://store.is.autonavi.com/showpic/26d0c3373d29dc550000002337616008?type=pic",
     "https://aos-comment.amap.com/comment/content_service__1769863450607_53699768_1769863458778_72879609.jpg"
   ],
   "photoKinds": [
-    "storefront",
     "food",
+    "storefront",
+    "interior",
     "food"
   ],
   "observations": [
     {
-      "text": "店面为三层砖石结构老洋房，门前有庭院与花坛，挂红色装饰物。",
+      "text": "外景显示为老洋房建筑，门牌号长阳路67号，有户外座位区",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "入口前设户外座位区，可见木质长椅、藤编椅及收拢的遮阳伞，属室外座。",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "招牌标有'WHITE HORSE CAFE 白马咖啡馆 SINCE 1939'及马头标志。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 1.0
-    },
-    {
-      "text": "第一张图左侧立牌含中文活动信息，提及'白马咖啡馆·地中海餐厅'等字样。",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "第二张图为切片牛排配西兰花、小番茄与酱汁，盛于蓝白几何纹长盘。",
-      "kind": "food",
       "photo": 2,
       "confidence": 1.0
     },
     {
-      "text": "第三张图为三角形芝士蛋糕，饰覆盆子两颗与薄荷叶，置于浅色釉面盘。",
-      "kind": "food",
+      "text": "室内为木质地板+心形木椅+深色卡座，空间中等大小，可见4-6张桌椅",
+      "kind": "seating",
       "photo": 3,
       "confidence": 1.0
     },
     {
-      "text": "室内桌面为木质，餐具含金属小杯（盛酱汁）、陶瓷盘，未见咖啡器具。",
-      "kind": "interior",
-      "photo": 2,
-      "confidence": 0.85
+      "text": "主菜为切片牛排配西兰花、小番茄，配金属小杯酱汁；甜点为芝士蛋糕配覆盆子与薄荷叶",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 1.0
     },
     {
-      "text": "庭院中有落叶乔木、灌木与花坛，树干缠绕红白绿三色织物装饰。",
-      "kind": "view",
+      "text": "室内可见一盆大型绿植，墙上挂有《星月夜》复制品，书架上陈列书籍及打印设备",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店招标示‘WHITE HORSE CAFE 马咖啡馆 SINCE 1939’，非现代简约风格",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "照片中未见任何顾客，无人在使用电脑或插座，无烘焙机/手冲台等专业器具",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "餐盘为米色带黄边陶盘，牛排盘为蓝白几何纹长椭圆盘，餐具与器皿风格统一",
+      "kind": "tableware",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "室外花箱内有紫、红、橙色花卉，树木无叶，推测为秋冬季节",
+      "kind": "view",
+      "photo": 2,
       "confidence": 0.9
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
   "outdoor": true,
-  "bigWindows": null,
+  "bigWindows": false,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:43:35Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:42Z"
 }

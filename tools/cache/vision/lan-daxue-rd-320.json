@@ -1,59 +1,78 @@
 {
   "cafeId": "lan-daxue-rd-320",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "e2dc070e40e7",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e006d0517978",
   "photos": [
     "https://aos-comment.amap.com/B0K0NDCED4/comment/content_media_external_file_1000000708_ss__1745288878271_75054603.jpg",
     "https://store.is.autonavi.com/showpic/17aa3bf53ddde13a0000002712656619?type=pic",
     "https://aos-comment.amap.com/B0K0NDCED4/comment/63305CCE_E9E1_4A20_9BBA_818823596A84_L0_001_1620_200_1761666245544_01454968.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
-    "interior"
+    "drink",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面由白色集装箱改造而成，位于大学路",
+      "text": "店面由白色集装箱改造，有二层玻璃露台和临街玻璃窗。",
       "kind": "space",
       "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "室内有临街玻璃窗，可见外部建筑",
-      "kind": "light",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "提供奶咖、黑咖及柠檬水三种饮品",
-      "kind": "drinks",
-      "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "奶咖有叶子形状的拉花，黑咖为冰滴咖啡",
+      "text": "室外有白色花盆种植的绿植，遮挡部分座位区域。",
+      "kind": "outdoor",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "饮品组合包含奶咖（拉花）、冰黑咖、柠檬水三杯，置于金属托盘上。",
       "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单卡注明奶咖使用卡士有机鲜牛奶，黑咖口感清爽，风味多彩。",
+      "kind": "specialtyMenu",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有少量桌椅，但座位数量不明确",
+      "text": "饮品组合名为COMBO，含三种饮品，附带饮用建议说明。",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外设有白色遮阳伞和折叠椅，为户外座位区。",
+      "kind": "seating",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内可见多把椅子和桌子，透过玻璃窗可看到内部座位布局。",
       "kind": "seating",
       "photo": 2,
       "confidence": 0.7
     },
     {
-      "text": "室外有绿植盆栽，但无明显室外座位",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.6
+      "text": "菜单卡上写明“只做自烘SOE精品咖啡豆”，表明使用单一产地精品豆。",
+      "kind": "beans",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": false,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:27:00Z"
+  "brewBar": null,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:29Z"
 }

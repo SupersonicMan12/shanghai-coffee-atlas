@@ -1,7 +1,7 @@
 {
   "cafeId": "plusone-coffee-anfu-rd-156",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "a7970d0fd93f",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "f0be1f9b07a6",
   "photos": [
     "https://aos-comment.amap.com/B0IR1RWDF8/comment/D9D7ACFC_D2E1_46A9_8C16_0EC8CA5352C0_L0_001_1500_200_1764307551099_36167934.jpg",
     "https://aos-comment.amap.com/B0IR1RWDF8/comment/DB846239_74ED_4C7B_9C9E_D67E25884B0B_L0_001_1500_2000__1661508233694_aa02c76a.jpg",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店外有三把印字折叠椅和一个箱子，旁有圣诞树。",
+      "text": "店外设有带草坪的户外座位区，配有折叠椅和保温箱。",
+      "kind": "seating",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "室内吧台区域有高脚凳，吧台后方可见磨豆机和咖啡器具。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口有三把印有“PLUSONE”的黑色折叠椅，旁边有圣诞树装饰。",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室内吧台前设三个高脚凳，吧台后有咖啡机。",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "室外铺人造草坪，摆多把红架白座折叠椅和箱子。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有大型绿植从天花板垂下，吧台旁放花瓶。",
+      "text": "店内有绿植从天花板垂下，吧台旁摆放鲜花花束。",
       "kind": "view",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店外广告牌显示“宇宙拿铁”、“桂花米酿”等饮品名。",
+      "text": "店外立牌展示饮品：宇宙拿铁、桂花米酿小丸子、椰青菠萝、手冲咖啡等。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "店外广告牌列出手冲咖啡豆产地如哥伦比亚、埃塞俄比亚。",
-      "kind": "beans",
+      "text": "店外宣传牌显示“海底的大菠萝”、“元气满满气泡冷萃”等特调饮品。",
+      "kind": "drinks",
       "photo": 3,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店外可见街道、行人与停放的自行车、电动车。",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店门牌号为安福路156号，位于临街建筑底层。",
+      "text": "店址为安福路156号，门头标有“PLUSONE”圆形招牌。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
+    },
+    {
+      "text": "室内空间有大面积玻璃顶和木质结构，采光良好。",
+      "kind": "light",
+      "photo": 2,
+      "confidence": 0.85
     }
   ],
+  "room": "medium",
   "seats": "some",
-  "laptops": false,
+  "crowd": "some",
+  "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:03:51Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:19:27Z"
 }

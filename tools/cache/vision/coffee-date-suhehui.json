@@ -1,7 +1,7 @@
 {
   "cafeId": "coffee-date-suhehui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "8c5b78187ac2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4eb962e745bf",
   "photos": [
     "https://store.is.autonavi.com/showpic/d391ad3a06ccbb32e1adb50bd2462a6f",
     "https://store.is.autonavi.com/showpic/d695de659d33195a0000002546306068?type=pic",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "storefront"
+    "interior"
   ],
   "observations": [
     {
-      "text": "店铺临街，有玻璃门窗和室外座位",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门口有两把椅子，可作室外座位",
+      "text": "店门口有两把椅子，店内有沙发座位",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "店内可见吧台和少量桌椅，空间较小",
-      "kind": "space",
+      "text": "店面为临街店铺，玻璃门和窗户可见",
+      "kind": "bigWindows",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 0.95
     },
     {
-      "text": "店外有植物装饰，环境整洁",
-      "kind": "view",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有人在操作，可能为工作人员",
+      "text": "店内有吧台，吧台后有人在工作",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.6
-    },
-    {
-      "text": "门头有黑色心形装饰，夜间发光",
-      "kind": "light",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "店招上写有'COFFEE DATE'字样",
-      "kind": "story",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "门口立有发光灯箱，显示店名",
-      "kind": "light",
-      "photo": 3,
+      "text": "店内有书架，墙上挂有画作",
+      "kind": "decor",
+      "photo": 1,
       "confidence": 0.8
+    },
+    {
+      "text": "室内灯光温暖，环境看起来较安静",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "店内有植物，空间不大",
+      "kind": "decor",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "夜间照片显示店内亮灯，可看到内部布局",
+      "kind": "time",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外立着一个写有'COFFEE DATE'的灯箱招牌",
+      "kind": "signage",
+      "photo": 3,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:07Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:42Z"
 }

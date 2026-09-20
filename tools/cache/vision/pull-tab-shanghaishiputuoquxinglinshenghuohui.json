@@ -1,65 +1,77 @@
 {
   "cafeId": "pull-tab-shanghaishiputuoquxinglinshenghuohui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "053f2d005e50",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f2078f4759f2",
   "photos": [
     "https://store.is.autonavi.com/showpic/e97f5ba4191a0df00000000972298938?type=pic",
     "https://store.is.autonavi.com/showpic/ba765f5d09f088f56988e90cefaf9765",
     "https://aos-comment.amap.com/B0L1D5TKBB/comment/content_media_external_file_112798_ss__1767889747380_39843989.jpg"
   ],
   "photoKinds": [
-    "interior",
-    "interior",
+    "storefront",
     "interior"
   ],
   "observations": [
     {
-      "text": "店内有圆形吧台和多个座位区",
+      "text": "店位于商场内，为独立档口式店面。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "设有木质桌椅，数量约十余个",
+      "text": "店内有约8-10个吧台高桌和配套椅子。",
       "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内可见咖啡机、磨豆机等专业设备",
-      "kind": "drinks",
+      "text": "吧台后方有咖啡机、磨豆机等设备。",
+      "kind": "brewBar",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "墙面装饰有冲浪板和植物",
-      "kind": "story",
+      "text": "店内有大型盆栽植物。",
+      "kind": "plants",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店内有工作人员在操作饮品制作",
+      "text": "照片中可见3位顾客在吧台前，1位工作人员在操作。",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "店内地面为深色瓷砖，墙面为浅色纹理材质",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "吧台前有卡通猫摆件",
-      "kind": "story",
+      "text": "墙面挂有冲泡用的挂耳咖啡包装袋。",
+      "kind": "drinks",
       "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台前有一个招财猫摆件。",
+      "kind": "other",
+      "photo": 1,
+      "confidence": 0.7
+    },
+    {
+      "text": "座位区墙边立着两块印有品牌名的冲浪板装饰物。",
+      "kind": "other",
+      "photo": 3,
       "confidence": 0.7
     }
   ],
+  "room": "mall",
   "seats": "some",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:24:02Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:35Z"
 }

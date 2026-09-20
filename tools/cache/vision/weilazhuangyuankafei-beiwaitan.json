@@ -1,7 +1,7 @@
 {
   "cafeId": "weilazhuangyuankafei-beiwaitan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "0b8335739373",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "166c79ec2147",
   "photos": [
     "https://store.is.autonavi.com/showpic/2addee81c1b350937eb1f5b7d24ae989",
     "https://store.is.autonavi.com/showpic/b1e5efdfc45d8a7a0000002996464464?type=pic",
@@ -14,58 +14,65 @@
   ],
   "observations": [
     {
-      "text": "店铺位于户外，有遮阳棚和装饰花拱门",
+      "text": "蓝色集装箱改造店面，临街玻璃门，门口有大型花艺拱门和红色木马装饰",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "设有室外座位区，配备两把折叠椅",
+      "text": "右侧紧邻橙色餐车‘花嘴厨房’，共用户外共享空间，地面铺设地砖",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店前设3把折叠椅+小桌的室外座位区，无遮挡，面向街道",
       "kind": "seating",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店铺外侧有绿植和红色木马装饰",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
+      "text": "纸杯印有‘PT BIMA TIKHE BERKAT’及中文‘维拉庄园’，为外带杯",
+      "kind": "drink",
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "夜间可手持饮品在附近滨江区域饮用",
+      "text": "背景可见上海陆家嘴夜景（东方明珠塔等），拍摄地点在滨水步道",
       "kind": "view",
       "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内未见明显烘焙机/手冲台/磨豆机等专业设备，仅见基础操作台",
+      "kind": "brewBar",
+      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店门口有促销告示牌，展示食物图片",
-      "kind": "food",
+      "text": "照片中无人使用电脑，也未见书架/宠物/植物盆栽入镜",
+      "kind": "people",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单牌可见但文字模糊，无法辨识价格或豆子产地信息",
+      "kind": "menuPrices",
       "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "店铺临街，背景可见树木和现代建筑",
-      "kind": "view",
-      "photo": 2,
       "confidence": 0.8
-    },
-    {
-      "text": "店内可见咖啡制作设备及操作台",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "夜间拍摄，背景为城市灯光与江景",
-      "kind": "view",
-      "photo": 3,
-      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:14:16Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:55:20Z"
 }

@@ -1,59 +1,66 @@
 {
   "cafeId": "cubic-3-zhongyidasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "6358a1cfdf29",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "0bf8c0c83c4e",
   "photos": [
     "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png",
     "https://aos-comment.amap.com/B0IR05TYCX/comment/70959495d57938d10a207157badf82c9_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0IR05TYCX/comment/5cb91e4b8aff8b7b717d74e4885978b6_2048_2048_80.jpg"
   ],
   "photoKinds": [
-    "other",
+    "storefront",
     "interior",
     "drink"
   ],
   "observations": [
     {
-      "text": "店内有磨豆机和咖啡萃取设备",
+      "text": "吧台后方有三台磨豆机，其中两台装满咖啡豆，一台为Anfim品牌",
       "kind": "beans",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "可见冰美式饮品",
+      "text": "吧台前方陈列多款杯具，含带 Cork 底座的金属杯及印有(m)³标志的纸杯",
       "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "有两杯装在纸杯中的冷萃或冰美式咖啡",
+      "text": "吧台上放有一杯冰美式，杯套印有(m)³ COFFEE字样，背景可见标有CUBIC 3的展示盒",
       "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
+      "photo": 3,
+      "confidence": 1.0
     },
     {
-      "text": "吧台区域有多个咖啡器具，包括磨豆机和手冲杯",
+      "text": "店招与杯套均出现(m)³ COFFEE标识，外景为深色竖条纹墙面",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台后方设备标签显示“云南·普洱”“延长时间SOE”等产地与处理法信息",
       "kind": "beans",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "使用透明塑料杯和带盖设计盛装饮品",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店名标识为(m)³ COFFEE，品牌名为三立方",
-      "kind": "story",
-      "photo": 1,
+      "photo": 3,
       "confidence": 0.9
+    },
+    {
+      "text": "照片中未见顾客或工作人员，无电脑使用、无烘焙机、无书架/植物/宠物",
+      "kind": "people",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
+  "room": "bar",
+  "seats": "none",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": true,
   "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:51Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:01:34Z"
 }

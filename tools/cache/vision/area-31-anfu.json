@@ -1,71 +1,74 @@
 {
   "cafeId": "area-31-anfu",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "2209c473705a",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6ed8c2251633",
   "photos": [
+    "https://aos-comment.amap.com/B0FFK4HLAA/comment/5ad5f0495268848eb7a25aa36169d117_2048_2048_80.jpg",
     "http://store.is.autonavi.com/showpic/d23a7efca272b1e172158df6667782ca",
-    "https://aos-comment.amap.com/B0FFK4HLAA/comment/0385c8c546f46064fb3886029c60a6ad_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0FFK4HLAA/comment/5ad5f0495268848eb7a25aa36169d117_2048_2048_80.jpg"
+    "https://store.is.autonavi.com/showpic/4eed25cd779316880000002419222947?type=pic",
+    "https://aos-comment.amap.com/B0FFK4HLAA/comment/0385c8c546f46064fb3886029c60a6ad_2048_2048_80.jpg"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
     "interior",
-    "drink"
+    "other"
   ],
   "observations": [
     {
-      "text": "店外有两组水泥长凳，地面为浅色瓷砖，临街无遮挡",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "门头标有'31区'与'AREA 31'，左侧立牌写'AREA 31 COFFEE 上海'",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.98
-    },
-    {
-      "text": "店内可见一台白色定制咖啡机，机身印'AREA31'，配三组杠杆式冲煮头",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.97
-    },
-    {
-      "text": "咖啡机左侧有一台黑色锥形磨豆机",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "手持一杯纸杯拿铁，杯身黑底白标含'X'形logo，奶泡有心形拉花",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.99
-    },
-    {
-      "text": "饮品后方有插花（黄、蓝、紫花为主），置于桌面，非悬挂或大型绿植",
-      "kind": "view",
-      "photo": 3,
+      "text": "店内有专业咖啡机和操作台",
+      "kind": "beans",
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店面入口为整面玻璃推拉门，室内墙面为浅灰纹理涂料",
-      "kind": "bigWindows",
+      "text": "提供拿铁艺术拉花饮品",
+      "kind": "drinks",
       "photo": 1,
-      "confidence": 0.92
+      "confidence": 0.9
     },
     {
-      "text": "第二张图中吧台后有一名女性工作人员，正操作咖啡机",
-      "kind": "people",
+      "text": "提供玻璃杯装浓缩咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "提供带盖外带杯装咖啡",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.85
+    },
+    {
+      "text": "店外有两张长条凳供顾客休息",
+      "kind": "seating",
       "photo": 2,
-      "confidence": 0.94
+      "confidence": 0.9
+    },
+    {
+      "text": "店内可见木质桌面和简约风格",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "门口招牌显示“AREA 31 COFFEE”",
+      "kind": "storefront",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": true,
-  "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T13:40:58Z"
+  "sockets": null,
+  "outdoor": false,
+  "bigWindows": null,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:40:35Z"
 }

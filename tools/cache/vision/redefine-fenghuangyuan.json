@@ -1,7 +1,7 @@
 {
   "cafeId": "redefine-fenghuangyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "105ed5f540f0",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "bc0d77f444bc",
   "photos": [
     "http://store.is.autonavi.com/showpic/776e15a9f67e4b8caf2bf7f5d49fe6b8"
   ],
@@ -10,52 +10,65 @@
   ],
   "observations": [
     {
-      "text": "店内有吧台和高脚凳",
+      "text": "店内有吧台和高脚凳，适合站立或短坐饮用咖啡",
       "kind": "seating",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "空间为室内小店类型，面积较小",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "地面铺有几何图案地砖",
+      "text": "吧台后方可见植物装饰，环境整洁现代",
       "kind": "space",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "吧台后方可见植物和饮品陈列",
+      "text": "地面为几何图案地砖，墙面为水泥质感，风格简约工业风",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台前有黑色皮质长凳，配有金属支架",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上方有嵌入式筒灯照明，采光来自顶部灯光",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "吧台区域未见烘焙机、手冲台或磨豆机等专业器具",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上摆放多瓶饮料及绿植，但无明确饮品或食物名称",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.7
     },
     {
-      "text": "吧台区域有黑色背包放置",
+      "text": "店内无明显顾客或工作人员，照片中无人",
       "kind": "people",
       "photo": 1,
-      "confidence": 0.6
-    },
-    {
-      "text": "店内有金属框架高脚椅",
-      "kind": "seating",
-      "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "左侧有长凳式座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
-  "laptops": null,
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:23Z"
+  "bigWindows": false,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:14:39Z"
 }

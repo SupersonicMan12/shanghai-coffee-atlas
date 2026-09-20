@@ -1,0 +1,80 @@
+{
+  "answers": {
+    "laptop": {
+      "answer": "yes",
+      "quote": "Wi-Fi 免费",
+      "url": "https://th.trip.com/restaurant/china/shanghai/detail/restaurant-31023262/",
+      "site": "李小姐的猫咖啡馆(五角场店) - Trip.com"
+    },
+    "stay": {
+      "answer": "long",
+      "quote": "椅子高对于儿童Wi-Fi 免费景观好",
+      "url": "https://th.trip.com/restaurant/china/shanghai/detail/restaurant-31023262/",
+      "site": "李小姐的猫咖啡馆(五角场店) - Trip.com"
+    },
+    "price": {
+      "value": 62.0,
+      "quote": "¥62/人",
+      "url": "http://m.dianping.com/shop/69482323?msource=applemaps",
+      "site": "【李小姐の猫咖啡馆(五角场店)】电话_地址_价格_营业时间 - 大众点评"
+    }
+  },
+  "results": [
+    {
+      "index": 1,
+      "title": "李小姐の猫咖啡馆(五角场店) - 上海市杨浦区- 餐饮服务 - 高德地图",
+      "url": "https://www.amap.com/place/B0FFHD45IJ",
+      "site_name": "高德地图"
+    },
+    {
+      "index": 2,
+      "title": "李小姐的猫咖啡馆(五角场店) - Trip.com",
+      "url": "https://th.trip.com/restaurant/china/shanghai/detail/restaurant-31023262/",
+      "site_name": ""
+    },
+    {
+      "index": 3,
+      "title": "李小姐的猫咖啡馆(五角场店) - Shanghai - Trip.com",
+      "url": "https://www.trip.com/restaurant/china/shanghai/detail/restaurant-31023262/",
+      "site_name": ""
+    },
+    {
+      "index": 4,
+      "title": "【李小姐の猫咖啡馆(五角场店)】电话_地址_价格_营业时间 - 大众点评",
+      "url": "http://m.dianping.com/shop/69482323?msource=applemaps",
+      "site_name": ""
+    },
+    {
+      "index": 5,
+      "title": "猫小院猫主题咖啡西餐",
+      "url": "https://baike.baidu.com/item/猫小院猫主题咖啡西餐/14336217",
+      "site_name": "百度百科"
+    },
+    {
+      "index": 6,
+      "title": "猫咪咖啡馆_百度百科",
+      "url": "https://baike.baidu.com/item/%E7%8C%AB%E5%92%AA%E5%92%96%E5%95%A1%E9%A6%86/2536682",
+      "site_name": "百度"
+    },
+    {
+      "index": 7,
+      "title": "寻味黄浦 | 在黄浦,解锁咖啡馆的多元体验 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3ODYyMDgwNg==&mid=2650953458&idx=1&sn=62056551bb57aac9e0ab62ebddaeee7a&chksm=85fd13182a66ff5d393313f0e903e98e45f19d4171c475b0f08f420ca6f190aa2c9f85ae19df&scene=27",
+      "site_name": "腾讯网"
+    },
+    {
+      "index": 8,
+      "title": "天津咖啡馆在五大道上的两家咖啡馆离民... 来自醒了去比利时 - 微博",
+      "url": "https://weibo.com/1709651982/RhTAbhgcr",
+      "site_name": "微博平台"
+    },
+    {
+      "index": 9,
+      "title": "文传生活观|氤氲咖啡香:在休憩中舒展灵魂 ",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA5NzM4OTEzMQ==&mid=2649623897&idx=2&sn=e55901dd0b3e80bf01c5875fb9f4dca2&chksm=89e018c8ee97d2b60273e3f228868b04d14f72dbf516a784551cafa11ab45e64ab6ff19ed509&scene=27",
+      "site_name": "腾讯网"
+    }
+  ],
+  "model": "qwen-plus-2025-09-11,qwen-plus-2025-12-01,qwen-plus-2025-01-25,qwen-flash-2025-07-28,qwen3-max-2025-09-23",
+  "fetchedAt": "2026-09-20T02:32:35Z"
+}

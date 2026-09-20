@@ -1,7 +1,7 @@
 {
   "cafeId": "horiguchi-coffee-henglongguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "2eb4a4dfa326",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "d5b56ad8132a",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1770540531297_84652394_1770540552385_11258445.jpg",
     "https://aos-comment.amap.com/B0K371QAZB/comment/content_media_external_images_media_1000007575_ss__1736650135073_61516753.jpg",
@@ -10,56 +10,71 @@
   "photoKinds": [
     "storefront",
     "interior",
-    "other"
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内有手冲咖啡器具和三种不同风味的咖啡豆展示",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "吧台配备专业意式咖啡机和磨豆机等设备",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内设有多个座位，顾客正在用餐",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店门口有上海限定咖啡豆促销信息，价格为288元/200克",
-      "kind": "drinks",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺位于商场内，玻璃门设计，内部空间明亮整洁",
+      "text": "店面位于商场内，门牌号319C，临街玻璃门",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内有手冲咖啡滤杯和玻璃壶，用于制作手冲咖啡",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见工作人员在吧台操作，环境安静有序",
-      "kind": "people",
+      "text": "店内可见3名顾客，其中2人对坐就座，1人在吧台后工作",
+      "kind": "crowd",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
+    },
+    {
+      "text": "吧台区有1台标有'Spirit'的意式咖啡机、1台磨豆机及手冲器具",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "手冲展示架上有3个带'H'标志的滤杯、3个玻璃分享壶，前方菜单卡显示1-9号手冲豆编号与风味描述",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单卡上可见'上海限定 SHANGHAI BLEND'字样及包装袋图案，标注价格¥280/200g",
+      "kind": "beans",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单卡显示手冲豆编号1-9，含'花香''果香''红酒''巧克力''柑橘'等风味词及日文描述",
+      "kind": "specialtyMenu",
+      "photo": 2,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内座位为绿色软包椅+小圆桌，靠窗区域可见至少4张桌椅",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "未见任何人使用笔记本电脑，无插座可见",
+      "kind": "laptops",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
+  "room": "mall",
   "seats": "some",
-  "laptops": null,
+  "crowd": "some",
+  "laptops": false,
+  "sockets": false,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:16:11Z"
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    280.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:59:37Z"
 }

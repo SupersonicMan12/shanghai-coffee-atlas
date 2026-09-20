@@ -1,7 +1,7 @@
 {
   "cafeId": "beanstar-shanghailingkongsoho",
   "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d9551868f596",
+  "inputDigest": "362174678672",
   "photos": [
     "https://store.is.autonavi.com/showpic/df849134c70914177fdd76d5fd45bfc3",
     "https://aos-comment.amap.com/B0KK15UDPK/comment/7A028642_2E30_425E_BAD6_1561DB842B7D_L0_001_1080_145_1745373477138_86893098.jpg",
@@ -10,56 +10,51 @@
   "photoKinds": [
     "storefront",
     "drink",
-    "interior"
+    "food"
   ],
   "observations": [
     {
-      "text": "门店位于商场内，入口有花篮装饰",
+      "text": "店面入口处摆放多束开业花篮",
       "kind": "space",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "店内陈列宇治抹茶拿铁饮品广告",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "展示有咖啡豆包装袋和苏打汽水",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "有顾客在店门口停留",
-      "kind": "people",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "店外设有宣传展架",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "杯装饮品为BeanStar品牌",
+      "text": "饮品杯上印有'BeanStar COFFEE'标志",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内有电视屏幕播放产品宣传",
-      "kind": "interior",
+      "text": "展示柜中陈列宇治抹茶拿铁及相关产品",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店内设有货架，陈列袋装咖啡豆等商品",
+      "kind": "space",
+      "photo": 3,
+      "confidence": 0.8
+    },
+    {
+      "text": "可见Uji Matcha Latte的宣传画面",
+      "kind": "drinks",
       "photo": 3,
       "confidence": 0.8
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "none",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:11:21Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:41:32Z"
 }

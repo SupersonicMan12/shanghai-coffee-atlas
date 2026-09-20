@@ -1,7 +1,7 @@
 {
   "cafeId": "0566-pudongjialicheng",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "4b1106339eff",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "f05fdd23f90c",
   "photos": [
     "https://aos-comment.amap.com/B0LRZC33L8/comment/20260211-a1fafd5658143f4be33a1e7a-2nVv7ziTWBvAAnvrQ4HTTv.jpg",
     "https://aos-comment.amap.com/B0LRZC33L8/comment/content_media_external_file_518938_ss__1768647635634_03789763.jpg",
@@ -9,64 +9,73 @@
   ],
   "photoKinds": [
     "interior",
-    "food",
     "drink",
+    "food",
     "menu"
   ],
   "observations": [
     {
-      "text": "有巧克力蛋糕、抹茶柚子生芝士和冲绳盐灸太妃等甜点",
+      "text": "店内有玻璃展示柜，陈列着多款盒装甜点。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "提供带有枫叶装饰的黄色糕点和绿色果冻类甜品",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "有深色杯装饮品和玻璃杯装撒有干花的奶昔类饮品",
+      "text": "饮品包括拿铁、特调和手冲咖啡，使用不同器皿盛放。",
       "kind": "drinks",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "甜点陈列在木质盒中，标价48元",
-      "kind": "food",
+      "text": "菜单上显示了“日本抹茶柚子生芝士”等甜点名称和48元的价格。",
+      "kind": "menu",
       "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "桌上摆放有金色花纹茶杯与配套碟子，盛装深色饮品",
-      "kind": "drink",
-      "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "甜点区可见标签显示“日本抹茶柚子生芝士”和“冲绳盐灸太妃”",
+      "text": "甜点用木质小盒包装，部分装饰有枫叶或雏菊。",
       "kind": "food",
       "photo": 2,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "桌上有菜单纸张，印有“0566”字样",
-      "kind": "menu",
+      "text": "店内有手冲咖啡的器具和流程图示。",
+      "kind": "brewBar",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内使用木质托盘和金属餐具，风格偏日式精致",
-      "kind": "interior",
+      "text": "桌椅为圆形，桌面为浅色，环境看起来整洁。",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中未见其他顾客或工作人员。",
+      "kind": "people",
       "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "室内光线充足，但无法判断是否有自然采光。",
+      "kind": "light",
+      "photo": 1,
+      "confidence": 0.6
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
   "laptops": null,
-  "outdoor": null,
+  "sockets": null,
+  "outdoor": false,
   "bigWindows": null,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:19:54Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    48.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:26Z"
 }

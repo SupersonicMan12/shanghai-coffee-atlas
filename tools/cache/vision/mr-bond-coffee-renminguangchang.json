@@ -1,7 +1,7 @@
 {
   "cafeId": "mr-bond-coffee-renminguangchang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "686593f6182d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "621cad1ba7bf",
   "photos": [
     "https://store.is.autonavi.com/showpic/184e50ea4b6db3ef0000003116098706?type=pic",
     "https://store.is.autonavi.com/showpic/8c0f436096adc4b4a02848cac86c0380",
@@ -9,57 +9,61 @@
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "menu"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店铺位于商场内，为小型咖啡店",
+      "text": "店面为商场内档口，玻璃砖吧台，无室外座位",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 1.0
     },
     {
-      "text": "店内有可颂和面包售卖",
+      "text": "吧台后可见多台咖啡机及磨豆机等设备",
+      "kind": "brewBar",
+      "photo": 1,
+      "confidence": 1.0
+    },
+    {
+      "text": "橱窗陈列可颂、贝果等烘焙食品，前方立牌显示‘超值套餐19.8’",
       "kind": "food",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "菜单显示超值套餐价格为19.8元",
-      "kind": "menu",
-      "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "柜台后可见烘焙设备及陈列架",
-      "kind": "roastingGear",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店内有绿植装饰",
-      "kind": "story",
+      "text": "菜单板上可见‘58元’‘19.8’等价格，但无具体饮品名或豆子产地信息",
+      "kind": "menuPrices",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "无明显座位区域",
-      "kind": "seating",
+      "text": "店内无人，无顾客使用电脑，无插座可见",
+      "kind": "laptops",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "店内设有展示柜陈列食品",
-      "kind": "food",
+      "text": "店门口有绿植盆栽，无书架/宠物",
+      "kind": "plants",
       "photo": 1,
-      "confidence": 0.85
+      "confidence": 1.0
     }
   ],
+  "room": "mall",
   "seats": "none",
+  "crowd": "empty",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:17Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    19.8,
+    58.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:16Z"
 }

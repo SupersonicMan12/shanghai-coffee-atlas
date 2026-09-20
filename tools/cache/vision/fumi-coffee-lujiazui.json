@@ -1,7 +1,7 @@
 {
   "cafeId": "fumi-coffee-lujiazui",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "ab0cbfb2d99d",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "45a22f8136db",
   "photos": [
     "https://aos-comment.amap.com/comment/content_service__1772848976824_97221015_1772849098559_39746055.jpg",
     "https://aos-comment.amap.com/comment/content_service__1772848976815_24096392_1772849098558_74002968.jpg",
@@ -9,63 +9,71 @@
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "interior"
+    "drink",
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店内空间宽敞，地面为反光石材材质",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店内有吧台，吧台后有咖啡机和磨豆机。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.95
     },
     {
-      "text": "有吧台和少量座位，适合短暂停留",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.8
-    },
-    {
-      "text": "临街落地窗，采光良好",
+      "text": "室内空间大，地面反光，采光好。",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "可见咖啡机、磨豆机等专业设备",
-      "kind": "roastingGear",
+      "text": "有靠窗的座位区，窗外是高楼和城市景观。",
+      "kind": "view",
       "photo": 1,
-      "confidence": 0.7
+      "confidence": 0.9
     },
     {
-      "text": "吧台上放置纸杯、吸管和杯盖，提供外带服务",
+      "text": "有多个座位，照片里可见3位顾客在用餐或看手机。",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "吧台上放着纸杯、吸管、纸巾和收据。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "使用纸质吸管，注重环保细节",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
+      "text": "菜单立牌上展示了多款饮品图片。",
+      "kind": "menu",
+      "photo": 1,
+      "confidence": 0.8
     },
     {
-      "text": "有顾客在座位上使用手机，环境安静",
+      "text": "有顾客在用手机，未见有人使用笔记本电脑。",
       "kind": "people",
       "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店内有绿植装饰，增添自然氛围",
-      "kind": "story",
+      "text": "吧台旁的展示柜里有面包或糕点。",
+      "kind": "food",
       "photo": 1,
       "confidence": 0.7
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "large",
+  "seats": "some",
+  "crowd": "some",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": true,
-  "fetchedAt": "2026-09-12T15:19:44Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:05:23Z"
 }

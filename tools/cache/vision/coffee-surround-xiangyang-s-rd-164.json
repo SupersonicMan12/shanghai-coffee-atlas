@@ -1,66 +1,89 @@
 {
   "cafeId": "coffee-surround-xiangyang-s-rd-164",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "63acc1200cd0",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "5d8fed6e07e1",
   "photos": [
+    "https://aos-comment.amap.com/B0H62HY125/comment/db20c1f0d543b9fcf40c637b4dc1ba37_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H62HY125/comment/2026-01-23-14-24-33%2BF2FDA61D-09A7-456F-8A2A-30C87F82520_1769149487208_27255299.jpg",
-    "https://aos-comment.amap.com/B0H62HY125/comment/2f4275b45214d39b11e07672897b02dc_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0H62HY125/comment/db20c1f0d543b9fcf40c637b4dc1ba37_2048_2048_80.jpg"
+    "https://aos-comment.amap.com/B0H62HY125/comment/2b55eab644ef4f850feb318c07f24b04_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0H62HY125/comment/2f4275b45214d39b11e07672897b02dc_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
     "drink",
-    "food"
+    "food",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面临街，有木质框架玻璃门和窗",
+      "text": "店面临街，有玻璃门和大窗户，门口设石质矮凳作为室外座位。",
       "kind": "space",
-      "photo": 1,
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "室外有四张石质长凳配软垫座位",
-      "kind": "seating",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "菜单显示有手冲单品咖啡、冷萃、创意特调等，标注产地如埃塞俄比亚、肯尼亚、哥伦比亚等。",
+      "kind": "specialtyMenu",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "室内可见木质吧台和陈列架",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.9
+      "text": "饮品菜单上可见核桃杏仁Dirty售价39元，燕麦拿铁42元，美式20元等价格。",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 0.95
     },
     {
-      "text": "供应贝果、司康等烘焙食品",
+      "text": "店内展示柜中有贝果、司康等烘焙食品，标价18元。",
       "kind": "food",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "提供核桃杏仁Dirty咖啡饮品",
-      "kind": "drinks",
-      "photo": 3,
+      "photo": 4,
       "confidence": 0.95
     },
     {
-      "text": "店内有绿植装饰，环境偏简约风格",
-      "kind": "space",
+      "text": "一杯核桃杏仁Dirty咖啡，搭配说明卡，杯中可见浓缩与奶层分层。",
+      "kind": "drinks",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店外设有水泥材质的矮凳，可作室外座位使用。",
+      "kind": "seating",
       "photo": 2,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内吧台区域可见手冲器具及磨豆机，有专业精品咖啡制作设备。",
+      "kind": "brewBar",
+      "photo": 4,
       "confidence": 0.85
     },
     {
-      "text": "窗户为临街玻璃，采光良好",
-      "kind": "light",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "室内有白色花束装饰，吧台摆放木质小狗摆件和兔子玩偶。",
+      "kind": "story",
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "some",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:15Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    20.0,
+    25.0,
+    28.0,
+    30.0,
+    38.0,
+    39.0,
+    42.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:21:39Z"
 }

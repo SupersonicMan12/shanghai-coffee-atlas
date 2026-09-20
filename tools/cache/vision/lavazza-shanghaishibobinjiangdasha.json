@@ -1,7 +1,7 @@
 {
   "cafeId": "lavazza-shanghaishibobinjiangdasha",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "030a44f0d4c1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "4032e6a886da",
   "photos": [
     "http://store.is.autonavi.com/showpic/953af7615a07d5eac4760fd25873bc02",
     "http://store.is.autonavi.com/query_pic?id=st8d3fef1a-b2ef-4def-ac6f-e1c1009e7b8b&user=search&operate=original",
@@ -9,39 +9,39 @@
   ],
   "photoKinds": [
     "other",
-    "other",
-    "food"
+    "other"
   ],
   "observations": [
     {
-      "text": "照片中展示了一道烤排骨配蔬菜的菜品",
-      "kind": "food",
-      "photo": 3,
-      "confidence": 0.95
-    },
-    {
-      "text": "品牌标识显示为LAVAZZA，意大利咖啡品牌",
-      "kind": "brand",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "品牌宣传语提到‘不只是一杯espresso’",
+      "text": "图片为拉瓦萨品牌Logo及宣传语，无店面、室内、饮品或食物实拍",
       "kind": "story",
       "photo": 1,
-      "confidence": 0.8
+      "confidence": 1.0
     },
     {
-      "text": "品牌标识下方标注‘ITALY'S FAVOURITE COFFEE’",
-      "kind": "brand",
+      "text": "图片为拉瓦萨品牌Logo及宣传语，无店面、室内、饮品或食物实拍",
+      "kind": "story",
       "photo": 2,
-      "confidence": 0.9
+      "confidence": 1.0
+    },
+    {
+      "text": "第三张图显示一盘烤肋排配西兰花和小番茄，非咖啡馆实拍场景",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 1.0
     }
   ],
-  "seats": "unknown",
+  "room": null,
+  "seats": null,
+  "crowd": null,
   "laptops": null,
+  "sockets": null,
   "outdoor": null,
   "bigWindows": null,
   "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:16Z"
+  "brewBar": null,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:57:29Z"
 }

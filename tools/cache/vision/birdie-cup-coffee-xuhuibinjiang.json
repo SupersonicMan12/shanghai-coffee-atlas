@@ -1,59 +1,66 @@
 {
   "cafeId": "birdie-cup-coffee-xuhuibinjiang",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "d38f370a4fb7",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "608e0c01c56c",
   "photos": [
     "https://store.is.autonavi.com/showpic/71e87c6412ce18e195e7c5940c287feb",
-    "https://store.is.autonavi.com/showpic/f078d1926f30f06d0000002489836581?type=pic",
-    "https://store.is.autonavi.com/showpic/b4a6fd47e900250d0000002475060197?type=pic"
+    "https://store.is.autonavi.com/showpic/b4a6fd47e900250d0000002475060197?type=pic",
+    "https://store.is.autonavi.com/showpic/f078d1926f30f06d0000002489836581?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "interior",
-    "other"
+    "storefront",
+    "storefront"
   ],
   "observations": [
     {
-      "text": "店面为白色方格纹理外观，有黑色遮阳篷",
+      "text": "店铺为白色方格软包外观的独立小屋，有玻璃服务窗口。",
       "kind": "space",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 2,
+      "confidence": 0.9
     },
     {
-      "text": "店内可见一名戴口罩的店员在服务窗口后",
+      "text": "服务窗口内可见咖啡机、磨豆机等设备，员工正在操作。",
       "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "服务窗口内可见咖啡制作设备",
-      "kind": "beans",
-      "photo": 2,
-      "confidence": 0.85
-    },
-    {
-      "text": "窗外可见绿色植物和湿漉漉的地面",
-      "kind": "view",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "店面位于室外，地面为砖石铺就",
-      "kind": "space",
+      "text": "店外有遮阳棚和黑色雨棚，地面湿滑，环境有绿植和树木。",
+      "kind": "view",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "店铺外墙覆盖白色防尘布，印有“COMING SOON”字样，表明刚开业或装修中。",
+      "kind": "story",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "透过窗户可见店内部分陈设，但细节不清",
-      "kind": "space",
+      "text": "服务窗口前放置有“宠物友好”标识牌，支持带宠物入内。",
+      "kind": "people",
       "photo": 3,
-      "confidence": 0.7
+      "confidence": 0.9
+    },
+    {
+      "text": "店铺位于户外铺砖区域，旁边有草地和树木，非商场或室内空间。",
+      "kind": "space",
+      "photo": 2,
+      "confidence": 0.9
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:49Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:05Z"
 }

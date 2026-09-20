@@ -1,71 +1,82 @@
 {
   "cafeId": "hualunzukafei-haitangyuan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "7fcd2a389a3c",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "7ccf601d9058",
   "photos": [
-    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/822924f50a6e253a5e9fa7b8c730bdad_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/503a8874b1f5f2ffc6da60395cb67729_2048_2048_80.jpg",
-    "https://aos-comment.amap.com/comment/20260320-4def17bca7e2a981d1a22d61-1JHXGzxBt499EenOQ0ZHSr.jpg"
+    "https://aos-comment.amap.com/comment/20260320-4def17bca7e2a981d1a22d61-1JHXGzxBt499EenOQ0ZHSr.jpg",
+    "https://store.is.autonavi.com/showpic/67cd519b1447206450a0d25602f10f3d",
+    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/953846e7a3e987bb6b8772a74026a53f_2048_2048_80.jpg",
+    "https://aos-comment.amap.com/B0JD5L4GEQ/comment/822924f50a6e253a5e9fa7b8c730bdad_2048_2048_80.jpg"
   ],
   "photoKinds": [
     "storefront",
     "interior",
+    "menu",
     "food"
   ],
   "observations": [
     {
-      "text": "店面为临街小咖啡店，有开放式窗口",
+      "text": "店内有黄色的咖啡机，是专业咖啡设备。",
+      "kind": "brewBar",
+      "photo": 3,
+      "confidence": 0.95
+    },
+    {
+      "text": "菜单上显示有美式、拿铁、dirty等经典咖啡品类。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "菜单上有燕麦拿铁、焦糖拿铁等饮品，价格24元起。",
+      "kind": "drinks",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "食物展示区有贝果和可颂类面包。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店面为临街小店，设有服务窗口，顾客在窗口点单。",
       "kind": "space",
-      "photo": 1,
+      "photo": 4,
       "confidence": 0.9
     },
     {
-      "text": "店内可见黄色意式咖啡机和磨豆机",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单显示美式、拿铁、dirty等饮品，价格16-24元",
-      "kind": "menu",
-      "photo": 2,
+      "text": "店外有顾客排队，店内有人在操作咖啡机。",
+      "kind": "people",
+      "photo": 4,
       "confidence": 0.8
     },
     {
-      "text": "有贝果、可颂、面包棒、抹茶甜品等食物出售",
-      "kind": "food",
+      "text": "菜单上部分饮品价格为28元，如金柚美式。",
+      "kind": "menuPrices",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "柜台外挂有二维码支付标识",
-      "kind": "drinks",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内工作人员正在操作咖啡设备",
-      "kind": "people",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "顾客在窗口前排队点单",
-      "kind": "people",
+      "text": "照片中未见座位或户外桌椅。",
+      "kind": "seating",
       "photo": 1,
-      "confidence": 0.7
-    },
-    {
-      "text": "展示区使用纸板托盘陈列食品",
-      "kind": "food",
-      "photo": 3,
       "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "none",
+  "crowd": "some",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T15:23:45Z"
+  "brewBar": true,
+  "specialtyMenu": false,
+  "menuPrices": [
+    28.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:10:15Z"
 }

@@ -1,7 +1,7 @@
 {
   "cafeId": "mancat-coffee-shanghainanzhan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "06a80832673d",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "57a6e4a8b3a1",
   "photos": [
     "https://store.is.autonavi.com/showpic/8c3d8f002f43f92eaeff318b208aeb3c",
     "https://store.is.autonavi.com/showpic/06497b85a31e2cf8178bad2d3575002d",
@@ -14,40 +14,53 @@
   ],
   "observations": [
     {
-      "text": "店面玻璃窗上贴有卡通猫图案",
+      "text": "店面临街，有大面积玻璃门窗，可看到店内部分区域。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见陈列柜，内有饮品和糕点",
-      "kind": "space",
-      "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "展示柜中可见多种口味的甜品和饮品",
+      "text": "展示柜内陈列有多种面包、蛋糕、饮品和水果。",
       "kind": "food",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "一张照片特写了一块多层蛋糕，配有水果装饰",
+      "text": "展示柜中可见多款杯装饮品，包括带吸管的果茶或奶昔类饮品。",
+      "kind": "drinks",
+      "photo": 2,
+      "confidence": 0.8
+    },
+    {
+      "text": "照片中有切片千层蛋糕，夹层为黄色果酱或奶油，配以草莓、猕猴桃等水果。",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "店内光线明亮，但未见明显窗户或采光方向",
-      "kind": "light",
-      "photo": 2,
+      "text": "店内可见柜台后方有人在操作，但无顾客在座位区。",
+      "kind": "people",
+      "photo": 1,
       "confidence": 0.7
+    },
+    {
+      "text": "展示柜上方有透明玻璃罩，内有多个玻璃容器，疑似用于存放糖浆或配料。",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.6
     }
   ],
-  "seats": "unknown",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:24:59Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:17:35Z"
 }

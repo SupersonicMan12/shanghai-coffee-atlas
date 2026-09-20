@@ -1,7 +1,7 @@
 {
   "cafeId": "sorrydog-guangfu-west-rd-165",
-  "model": "qwen3-vl-235b-a22b-instruct",
-  "inputDigest": "0d2caf41aac6",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "5912d4904f41",
   "photos": [
     "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_1000038662_ss__1759290419101_21372773.jpg",
     "https://aos-comment.amap.com/B0J0JSGYFV/comment/content_media_external_file_100003866_1759290506183_85061277.jpg",
@@ -9,63 +9,69 @@
   ],
   "photoKinds": [
     "interior",
-    "interior",
-    "interior"
+    "other"
   ],
   "observations": [
     {
-      "text": "有阶梯式座位区和多个白色圆桌，空间开阔。",
+      "text": "空间为高挑的室内，有阶梯式座位区",
+      "kind": "space",
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "可见多组白色小圆桌和台阶式座位",
       "kind": "seating",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "text": "墙上挂有展览海报，显示为“pidan Gallery”场地。",
-      "kind": "story",
-      "photo": 1,
-      "confidence": 0.85
-    },
-    {
-      "text": "右侧是大面积落地玻璃窗，窗外可见绿树。",
+      "text": "右侧有大面积落地玻璃窗，能看到室外绿树",
       "kind": "light",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "阶梯上摆放卡通立牌，有真实猫咪在台阶上。",
+      "text": "吧台区域有工作人员在工作",
       "kind": "people",
       "photo": 2,
-      "confidence": 0.8
+      "confidence": 0.9
     },
     {
-      "text": "吧台后有工作人员，顾客在点单区排队。",
-      "kind": "people",
+      "text": "现场有猫在台阶上休息",
+      "kind": "story",
       "photo": 2,
       "confidence": 0.8
     },
     {
-      "text": "阶梯平台上有木质猫窝，内有猫砂盆或休息区。",
-      "kind": "seating",
-      "photo": 3,
-      "confidence": 0.8
-    },
-    {
-      "text": "天花板裸露管道与轨道灯，装修风格现代工业风。",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.75
-    },
-    {
-      "text": "室内有多处绿植点缀，分布在阶梯与角落。",
+      "text": "现场有多盆绿植作为装饰",
       "kind": "story",
       "photo": 1,
+      "confidence": 0.8
+    },
+    {
+      "text": "墙上挂有艺术展海报，非咖啡主题",
+      "kind": "story",
+      "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "未见手冲台、虹吸壶等专业咖啡器具",
+      "kind": "brewBar",
+      "photo": 2,
+      "confidence": 0.8
     }
   ],
-  "seats": "many",
+  "room": "large",
+  "seats": "some",
+  "crowd": "some",
   "laptops": false,
+  "sockets": null,
   "outdoor": false,
   "bigWindows": true,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T14:01:39Z"
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:09:28Z"
 }

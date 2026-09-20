@@ -1,65 +1,65 @@
 {
   "cafeId": "kenyuekafei-chengshanluditiezhan",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "b73c3a821bb1",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "ddef111d0c7f",
   "photos": [
-    "https://store.is.autonavi.com/showpic/a41ae26adf4912c0b5bcadad767a5f76",
     "https://store.is.autonavi.com/showpic/b58753d65099aafd0000001894104570?type=pic",
+    "https://store.is.autonavi.com/showpic/a41ae26adf4912c0b5bcadad767a5f76",
     "https://store.is.autonavi.com/showpic/0c442fd47120200f0000003087174566?type=pic"
   ],
   "photoKinds": [
     "storefront",
-    "storefront",
-    "other"
+    "food"
   ],
   "observations": [
     {
-      "text": "店铺位于临街位置，有大面积玻璃门窗",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内可见桌椅，座位数量有限",
-      "kind": "seating",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "门口停放电动车，街道旁有自行车",
-      "kind": "outdoor",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "店铺与肯德基共用门头，属同一建筑",
-      "kind": "space",
-      "photo": 1,
-      "confidence": 0.9
-    },
-    {
-      "text": "店内有菜单展示，可见汉堡、饮品等食品广告",
-      "kind": "food",
-      "photo": 2,
-      "confidence": 0.7
-    },
-    {
-      "text": "店铺为小型咖啡馆，空间不大",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
-    },
-    {
-      "text": "店内有落地窗，采光良好",
+      "text": "店面临街，有大面积玻璃窗和玻璃门",
       "kind": "light",
-      "photo": 2,
-      "confidence": 0.8
+      "photo": 1,
+      "confidence": 0.95
+    },
+    {
+      "text": "店内可见多张桌椅，可容纳数位顾客",
+      "kind": "seating",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "照片中无人在店内消费或工作",
+      "kind": "crowd",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外停放着电动车和自行车",
+      "kind": "view",
+      "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店门口的纸袋上印有 KFC 标志",
+      "kind": "food",
+      "photo": 3,
+      "confidence": 0.9
+    },
+    {
+      "text": "店名包含“肯悦咖啡”和“KCOFFEE”，是肯德基旗下品牌",
+      "kind": "story",
+      "photo": 1,
+      "confidence": 0.9
     }
   ],
-  "seats": "few",
-  "laptops": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": true,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:20:41Z"
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:06:28Z"
 }

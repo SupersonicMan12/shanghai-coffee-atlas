@@ -1,65 +1,68 @@
 {
   "cafeId": "shifenzhiyikafeishangdian-jiujiang-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "293e98384ec2",
+  "model": "qwen3-vl-flash,qwen3-vl-30b-a3b-instruct",
+  "inputDigest": "9cf9516b04dd",
   "photos": [
     "https://aos-comment.amap.com/B0H39YR24D/comment/08a1e6fdb949df570c57188170eba269_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H39YR24D/comment/292a617c5e6b68bdcddc4b937b2e7cfc_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0H39YR24D/comment/2D01127F_11D5_4479_A72A_92394A1342A4_L0_001_1500_2000_1741163057626_68793452.jpg"
   ],
   "photoKinds": [
-    "drink",
     "storefront",
+    "interior",
     "menu"
   ],
   "observations": [
     {
-      "text": "提供哥伦比亚蒙特布兰科紫卡杜拉发酵水洗咖啡豆",
-      "kind": "beans",
-      "photo": 1,
-      "confidence": 0.9
+      "text": "店招黑底白字'COFFEE'，门牌号九江路501号（照片中可见'50 九江'）",
+      "kind": "story",
+      "photo": 2,
+      "confidence": 1.0
     },
     {
-      "text": "有三种不同风味的咖啡样品供试饮",
+      "text": "店内吧台区域有木质托盘、三杯手冲咖啡液及单品豆介绍卡，卡上写哥伦比亚紫卡杜拉-金桔发酵水洗",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
-      "text": "门店位于九江路501号，临街玻璃门面",
-      "kind": "space",
+      "text": "菜单显示'HOUSE BLEND 2.0'，配方含巴布亚新几内亚、云南普洱全红果等，风味为烤榛子/雪茄/奶油/柑橘",
+      "kind": "menu",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "菜单标注熟豆价¥138/500g，属精品咖啡定价区间",
+      "kind": "menuPrices",
+      "photo": 3,
+      "confidence": 1.0
+    },
+    {
+      "text": "店内临街玻璃门，门内可见货架陈列商品，无明显室外座位或户外景致",
+      "kind": "space|light|view",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "店内展示House Blend 2.0意式拼配豆，含巴布亚新几内亚、中国云南等产地豆子",
-      "kind": "beans",
-      "photo": 3,
+      "text": "店内未见明显烘焙机/虹吸/多台磨豆机等专业器具，仅展示手冲杯具与品鉴卡",
+      "kind": "brewBar",
+      "photo": 1,
       "confidence": 0.9
-    },
-    {
-      "text": "House Blend 2.0售价138元/500克",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "菜单标注风味为烤榛子、雪茄、奶油、柑橘",
-      "kind": "drinks",
-      "photo": 3,
-      "confidence": 0.9
-    },
-    {
-      "text": "门店招牌为黑色底白字COFFEE，木质双开门",
-      "kind": "space",
-      "photo": 2,
-      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
-  "outdoor": null,
+  "room": "small",
+  "seats": "some",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": false,
+  "outdoor": false,
   "bigWindows": true,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:15:39Z"
+  "roastingGear": false,
+  "brewBar": true,
+  "specialtyMenu": true,
+  "menuPrices": [
+    138.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:58:01Z"
 }

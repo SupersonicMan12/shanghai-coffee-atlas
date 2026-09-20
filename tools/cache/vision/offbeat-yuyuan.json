@@ -1,71 +1,79 @@
 {
   "cafeId": "offbeat-yuyuan",
-  "model": "qwen3-vl-plus",
-  "inputDigest": "41d8b027f2b8",
+  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
+  "inputDigest": "6c5fa6f5fe38",
   "photos": [
+    "https://aos-comment.amap.com/B0LDJ1R2P9/comment/4AD5BA3C_7FA3_416C_8F05_F9B89F181988_L0_001_1536_204_1759979034495_45968756.jpg",
+    "https://store.is.autonavi.com/showpic/16428e25965abf7b50c6343a38043f46",
     "https://aos-comment.amap.com/B0LDJ1R2P9/comment/68226491_7D9F_4003_965D_E348ECEA64CC_L0_001_1500_200_1759421987086_60270388.jpg",
-    "https://store.is.autonavi.com/showpic/6445db4ec0a4c28e0000003195062631?type=pic",
-    "https://aos-comment.amap.com/B0LDJ1R2P9/comment/4AD5BA3C_7FA3_416C_8F05_F9B89F181988_L0_001_1536_204_1759979034495_45968756.jpg"
+    "https://store.is.autonavi.com/showpic/6445db4ec0a4c28e0000003195062631?type=pic"
   ],
   "photoKinds": [
+    "drink",
     "storefront",
-    "storefront",
-    "drink"
+    "other",
+    "menu"
   ],
   "observations": [
     {
-      "text": "店面为临街小窗口式吧台，嵌入深色砖墙与木框结构中",
+      "text": "店内有木质柜台和托盘，摆放饮品。",
       "kind": "space",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "店外招牌显示“無问咖啡 / OFFBEAT Coffee”。",
+      "kind": "storefront",
+      "photo": 2,
       "confidence": 0.95
     },
     {
-      "text": "窗口右侧挂有菜单，可见‘無问咖啡’店名及‘CLASSIC 经典咖啡’等分类",
+      "text": "门口可见菜单，部分咖啡价格如SOE系列26-32元。",
       "kind": "menu",
-      "photo": 1,
-      "confidence": 0.95
+      "photo": 4,
+      "confidence": 0.9
     },
     {
-      "text": "菜单列有美式/SOE、拿铁/SOE、澳白/SOE、Dirty/茉莉花Dirty，价格26–36元",
+      "text": "室外有绿植和一盆紫白相间的菊花。",
+      "kind": "outdoor",
+      "photo": 4,
+      "confidence": 0.85
+    },
+    {
+      "text": "一杯深色冰饮置于木质托盘上，饰有绿叶。",
       "kind": "drinks",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "一朵粉玫瑰插在木块+试管组合的简易花器中，固定于窗框旁",
-      "kind": "other",
-      "photo": 1,
-      "confidence": 0.98
+      "text": "店内有一粉色玫瑰花作为装饰。",
+      "kind": "decor",
+      "photo": 3,
+      "confidence": 0.8
     },
     {
-      "text": "室外地面放一白色桶装混色菊花（粉、白、紫），紧邻墙面",
-      "kind": "other",
-      "photo": 2,
-      "confidence": 0.95
-    },
-    {
-      "text": "店内可见一人穿黑衣站在吧台后，低头看手机，无顾客在座",
+      "text": "一名男性员工在店内柜台后看手机。",
       "kind": "people",
-      "photo": 2,
-      "confidence": 0.9
-    },
-    {
-      "text": "饮品为深褐色冰饮，盛于带纹理玻璃杯，饰以绿叶与花瓣，置于木托盘上",
-      "kind": "drink",
-      "photo": 3,
-      "confidence": 0.98
-    },
-    {
-      "text": "背景可见木质置物架与青瓷天鹅摆件，未见烘焙机、手冲台或磨豆机",
-      "kind": "space",
-      "photo": 3,
-      "confidence": 0.9
+      "photo": 4,
+      "confidence": 0.8
     }
   ],
-  "seats": "none",
+  "room": "small",
+  "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
+  "bigWindows": null,
   "roastingGear": false,
-  "fetchedAt": "2026-09-12T13:40:18Z"
+  "brewBar": false,
+  "specialtyMenu": true,
+  "menuPrices": [
+    26.0,
+    28.0,
+    29.0,
+    32.0
+  ],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T01:39:53Z"
 }

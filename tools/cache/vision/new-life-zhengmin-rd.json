@@ -1,53 +1,66 @@
 {
   "cafeId": "new-life-zhengmin-rd",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "05c35bc38870",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "bc63b9af302f",
   "photos": [
     "https://aos-comment.amap.com/B0FFICHZQH/comment/82e88ba4c593b7126abcbe4456e3e1de_2048_2048_80.jpg",
     "https://aos-comment.amap.com/B0FFICHZQH/comment/4879F3ED_8E69_424B_89AD_4A9094A618E8_L0_001_1500_200_1761540307730_34237976.jpg",
     "https://store.is.autonavi.com/showpic/a8d2aca9fe7261e76f7c3d57964c18e6"
   ],
   "photoKinds": [
-    "food",
+    "storefront",
     "drink",
-    "storefront"
+    "food"
   ],
   "observations": [
     {
-      "text": "店面为小型街边店，有室外桌椅",
-      "kind": "space",
+      "text": "店外有临街玻璃窗和折叠桌椅，可坐少量顾客。",
+      "kind": "seating",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "饮品为拿铁，有精美拉花",
+      "text": "饮品为带有拉花的咖啡，盛于白色杯中，置于木质杯垫上。",
       "kind": "drinks",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "食物为一块多层蛋糕，顶部有绿色奶油和装饰",
+      "text": "食物为一块切片蛋糕，顶部有绿色奶油和小植物装饰。",
       "kind": "food",
       "photo": 1,
       "confidence": 0.9
     },
     {
-      "text": "室外有两张黑色小桌椅",
-      "kind": "seating",
+      "text": "店面为临街小型咖啡馆，门口设简易吧台和户外座位。",
+      "kind": "space",
       "photo": 3,
       "confidence": 0.8
     },
     {
-      "text": "店面临街，有玻璃窗但未见明显采光",
-      "kind": "light",
+      "text": "店内可见部分操作台，但无明显烘焙机或手冲器具。",
+      "kind": "brewBar",
       "photo": 3,
       "confidence": 0.7
+    },
+    {
+      "text": "蛋糕盘为带图案的陶瓷盘，配有金属小勺。",
+      "kind": "food",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
+  "room": "small",
   "seats": "few",
+  "crowd": "empty",
   "laptops": null,
+  "sockets": null,
   "outdoor": true,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:26:52Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": null,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:23:57Z"
 }

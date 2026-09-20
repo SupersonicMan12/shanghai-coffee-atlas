@@ -1,7 +1,7 @@
 {
   "cafeId": "bluebottlecoffee-xianmengzhongxin",
-  "model": "qwen3-vl-plus,qwen-vl-max,qwen-vl-plus",
-  "inputDigest": "c25825a86480",
+  "model": "qwen3-vl-32b-instruct,qwen3-vl-8b-instruct",
+  "inputDigest": "e6bde46bfc65",
   "photos": [
     "https://store.is.autonavi.com/showpic/862457ad5bc4d5b40000003145662439?type=pic",
     "https://aos-comment.amap.com/B0K1GHU4P8/comment/4e73e2b53453460efa83696e7cd3fa8c_2048_2048_80.jpg",
@@ -15,46 +15,65 @@
   ],
   "observations": [
     {
-      "text": "店面为小型独立店，有吧台式窗口",
+      "text": "店面为临街小铺，有玻璃砖墙和灰色吧台，无明显室内座位。",
       "kind": "space",
       "photo": 1,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "text": "室内采用木质货架展示商品",
+      "text": "店内有木质货架陈列咖啡豆、保温杯、手冲器具等商品。",
       "kind": "interior",
       "photo": 2,
       "confidence": 0.9
     },
     {
-      "text": "可见抹茶拿铁和焦糖玛奇朵两款饮品",
+      "text": "饮品包括抹茶拿铁（拉花心形）和另一款拉花咖啡，表面撒有碎屑。",
       "kind": "drinks",
       "photo": 3,
       "confidence": 0.9
     },
     {
-      "text": "提供一块巧克力蛋糕类甜点",
+      "text": "食物为一块巧克力淋面蛋糕，夹层可见奶油与海绵体。",
       "kind": "food",
       "photo": 3,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "text": "店内有陈列商品的木质货架",
-      "kind": "interior",
-      "photo": 2,
+      "text": "店外有黄色卡通狗雕塑和“来杯咖啡？”立牌，无室外座位。",
+      "kind": "outdoor",
+      "photo": 1,
       "confidence": 0.8
     },
     {
-      "text": "店面外有黄色卡通熊雕塑",
-      "kind": "other",
+      "text": "吧台后方可见玻璃砖墙，柜台内有收银设备和展示柜，但无烘焙机或手冲台。",
+      "kind": "brewBar",
       "photo": 1,
+      "confidence": 0.9
+    },
+    {
+      "text": "货架上陈列多款咖啡豆包装袋，标签清晰，产地信息不可辨识。",
+      "kind": "beans",
+      "photo": 2,
       "confidence": 0.7
+    },
+    {
+      "text": "照片中未见客人使用电脑或插座，也无明显书架、宠物或植物装饰。",
+      "kind": "people",
+      "photo": 1,
+      "confidence": 0.8
     }
   ],
-  "seats": "unknown",
-  "laptops": null,
+  "room": "small",
+  "seats": "none",
+  "crowd": "empty",
+  "laptops": false,
+  "sockets": null,
   "outdoor": false,
-  "bigWindows": false,
-  "roastingGear": null,
-  "fetchedAt": "2026-09-12T15:25:24Z"
+  "bigWindows": true,
+  "roastingGear": false,
+  "brewBar": false,
+  "specialtyMenu": false,
+  "menuPrices": [],
+  "promptVersion": 2,
+  "fetchedAt": "2026-09-20T02:18:25Z"
 }
