@@ -139,12 +139,25 @@ def norm_kind(k: str | None) -> str:
 MISMATCHED = {
     'stable-m50',   # STABLE TATTOO
     'sumi-coffee',  # sumi(嘉善路店) · 服装鞋帽皮具店
-    'rac-anfu',     # RACBAR · the bar next door, not the café
 }
 
-# Photo kinds (from the vision pass) that show the room or what it serves.
-# 'other' is anything the model could not place; 'logo' and 'menu' are signage.
-PHOTO_KINDS = {'storefront', 'interior', 'seating', 'drink', 'food'}
+# Photo kinds (from the vision pass) in the order a first-time visitor wants
+# them: the street view of the shop, then the room, then what it serves, then
+# the menu. 'other' (logos, cups, unrelated objects) is never shown.
+PHOTO_ORDER = ['storefront', 'interior', 'seating', 'drink', 'food', 'menu']
+PHOTO_KINDS = set(PHOTO_ORDER)
+MAX_PHOTOS = 6
+
+
+def signage_mismatch(cafe: dict, vis: dict) -> bool:
+    """The vision pass read a shop name off the photos that is not this café."""
+    if vis.get('sameShop') is not False:
+        return False
+    sign = str(vis.get('signName') or '').lower()
+    ours = ' '.join((cafe['name'], cafe['nameZh'] or '')).lower()
+    # the model sometimes says 'different' for a brand's own romanisation; trust it only
+    # when the sign shares no 3-char run with either of our names
+    return not any(sign[i:i + 3] in ours for i in range(max(0, len(sign) - 2))) if len(sign) >= 3 else True
 
 
 def gather(cafe: dict) -> dict:
@@ -158,6 +171,9 @@ def gather(cafe: dict) -> dict:
         axes = read_json(WEB_AXES / f"{cafe['id']}.json") or {}
     if not amap.get('matched'):
         amap = {}
+    if amap and signage_mismatch(cafe, vis):
+        print(f"{cafe['id']}: photos show '{vis.get('signName')}', not this café — Amap record dropped", file=sys.stderr)
+        amap, vis = {}, {}
     chain = chain_of(cafe['name'], cafe['nameZh'])
     brand = read_json(WEB / f'brand-{chain[0]}.json') if chain else None
     return {'amap': amap, 'dianping': dp, 'vision': vis, 'web': web, 'webAxes': axes,
@@ -266,24 +282,28 @@ def dish_list(amap: dict) -> list[str]:
     return out[:8]
 
 
-def photo_list(amap: dict, vis: dict) -> list[str]:
-    """Amap photos of the matched POI, keeping only those the vision pass
-    classified as the room or what it serves. Unclassified photos are dropped."""
+def photo_list(amap: dict, vis: dict) -> tuple[list[str], list[str]]:
+    """Amap photos of the matched POI that the vision pass could place
+    (storefront / interior / drink / food / menu), storefront first. Photos the
+    pass never saw or could not place are dropped. Returns (urls, kinds)."""
     kinds = dict(zip(vis.get('photos') or [], vis.get('photoKinds') or []))
-    out = []
-    for p in amap.get('photos') or []:
-        if isinstance(p, str) and kinds.get(p) in PHOTO_KINDS:
-            out.append(p)
-    return out[:4]
+    keep = [(PHOTO_ORDER.index(kinds[p]), i, p) for i, p in enumerate(amap.get('photos') or [])
+            if isinstance(p, str) and kinds.get(p) in PHOTO_KINDS]
+    keep.sort()
+    urls = [p for _, _, p in keep][:MAX_PHOTOS]
+    return urls, [kinds[p] for p in urls]
 
 
 def deterministic(cafe: dict, src: dict) -> dict:
     amap, dp = src['amap'], src['dianping']
+    photos, kinds = photo_list(amap, src['vision'])
     detail: dict = {
-        'photos': photo_list(amap, src['vision']),
+        'photos': photos,
         'dishes': dish_list(amap),
         'traits': [],
     }
+    if photos:
+        detail['photoKinds'] = kinds
     amap_name = str(amap.get('name') or '')
     status = ('suspended' if re.search(r'暂停营业|停业|歇业', amap_name)
               else 'renovating' if '装修' in amap_name else None)

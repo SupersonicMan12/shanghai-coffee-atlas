@@ -7,8 +7,11 @@ fetched by id; the rest are matched by name — first a 200 m around-search,
 then a city text search kept only within 400 m. Café coordinates are WGS-84 and
 Amap speaks GCJ-02, so both searches convert first.
 
+tools/amap_aliases.json pins cafés whose Amap listing carries a different name
+(RAC → RACBAR, Rumors → 鲁马滋); each entry was checked against the address by hand.
+
 Usage:
-    AMAP_WEB_API_KEY=... python3 tools/enrich_amap_detail.py [--limit N] [--refresh-unmatched]
+    AMAP_WEB_API_KEY=... python3 tools/enrich_amap_detail.py [--limit N] [--refresh-unmatched] [--retry-rejected]
 """
 
 from __future__ import annotations
@@ -29,6 +32,7 @@ from amap_harvest import wgs84_to_gcj02  # noqa: E402
 from enrich_common import AMAP_DETAIL, cafes, now_iso, read_json, write_json  # noqa: E402
 
 API = 'https://restapi.amap.com/v3/place'
+ALIASES = Path(__file__).resolve().parent / 'amap_aliases.json'
 DELAY = 0.36
 # --refresh only re-fetches records older than this (ISO date); bump per recrawl
 REFRESH_BEFORE = '2026-09-19'
@@ -50,6 +54,9 @@ def get(path: str, params: dict[str, str]) -> dict:
     data = r.json()
     if data.get('infocode') in QUOTA_INFOCODES:
         raise SystemExit(f'Amap quota exhausted ({data.get("infocode")} {data.get("info")}); rerun later')
+    if data.get('infocode') != '10000':
+        # rate limit (10021), key errors etc.: never mistake these for an empty result
+        raise RuntimeError(f'Amap {data.get("infocode")} {data.get("info")}')
     return data
 
 
@@ -99,6 +106,9 @@ def similar(cafe: dict, poi: dict) -> bool:
             return True
         if substantive(t) and substantive(cand) and (t in cand or cand in t):
             return True
+        # 'rac' → 'racbar', 'egg' → 'eggcafe': a short latin name the listing extends
+        if len(t) >= 3 and t.isascii() and cand.startswith(t) and len(cand) <= len(t) + 4:
+            return True
         if difflib.SequenceMatcher(None, cand, t).ratio() >= 0.75:
             return True
     return False
@@ -143,15 +153,24 @@ def main() -> None:
                     help='retry cafés whose cache says matched=false')
     ap.add_argument('--refresh', action='store_true',
                     help='re-fetch every matched café by its Amap id; photos seen before are kept')
+    ap.add_argument('--retry-rejected', action='store_true',
+                    help='forget ids rejected earlier (a rate-limited detail call used to look like a vanished POI)')
+    ap.add_argument('--only', nargs='*', default=[], help='café ids to (re)fetch regardless of cache')
     args = ap.parse_args()
     if not os.environ.get('AMAP_WEB_API_KEY'):
         raise SystemExit('AMAP_WEB_API_KEY is required')
+    aliases: dict[str, dict] = read_json(ALIASES) or {}
+    only = set(args.only)
     done = matched = 0
     for cafe in cafes():
         path = AMAP_DETAIL / f"{cafe['id']}.json"
         cached = read_json(path)
+        alias = aliases.get(cafe['id']) or {}
         stale = cached is not None and (
-            (args.refresh_unmatched and not cached.get('matched'))
+            cafe['id'] in only
+            or (alias.get('amapId') and cached.get('amapId') != alias['amapId'])
+            or (args.retry_rejected and cached.get('rejected') and not cached.get('matched'))
+            or (args.refresh_unmatched and not cached.get('matched'))
             or (args.refresh and cached.get('matched') and cached.get('amapId')
                 and cached.get('fetchedAt', '') < REFRESH_BEFORE))
         if cached is not None and not stale:
@@ -159,8 +178,8 @@ def main() -> None:
         if args.limit and done >= args.limit:
             break
         try:
-            rejected = set((cached or {}).get('rejected') or [])
-            known_id = cafe['amapId'] or ((cached or {}).get('amapId') if stale else None)
+            rejected = set() if args.retry_rejected else set((cached or {}).get('rejected') or [])
+            known_id = alias.get('amapId') or cafe['amapId'] or ((cached or {}).get('amapId') if stale else None)
             rec = None
             if known_id and known_id not in rejected:
                 rec = record(cafe, get('detail', {'id': known_id}), True, known_id)
