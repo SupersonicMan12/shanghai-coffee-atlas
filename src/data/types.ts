@@ -188,8 +188,10 @@ export interface AxisHint {
  * evidenced traits). Absent = nothing beyond the editorial record.
  */
 export interface CafeDetail {
-  /** Amap photo URLs, up to 4. */
+  /** Amap photo URLs of the matched listing, up to 6, storefront first. */
   photos: string[]
+  /** What each photo shows, parallel to `photos`. */
+  photoKinds?: PhotoKind[]
   /** Amap recommended items (Chinese), as listed. */
   dishes: string[]
   /** Weekly hours when known; day 0 = Sunday. */
@@ -206,6 +208,8 @@ export interface CafeDetail {
   /** Amap lists the place as paused or under renovation; treated as closed. */
   status?: 'suspended' | 'renovating'
 }
+
+export type PhotoKind = 'storefront' | 'interior' | 'seating' | 'drink' | 'food' | 'menu'
 
 /** Structured readings from the photo pass — only fields the model could confirm. */
 export interface SeenRoom {

@@ -1113,9 +1113,13 @@
 }
 
 .me-pulse {
-  transform-origin: 0 0;
   transform-box: fill-box;
+  transform-origin: 50% 50%;
   animation: me-pulse 2.2s ease-out infinite;
+}
+
+.me-pulse.second {
+  animation-delay: 1.1s;
 }
 
 @keyframes me-pulse {
@@ -2954,33 +2958,45 @@ button,
 }
 
 .card-photos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  margin: 14px 0 4px;
-}
-
-.card-photos.n1 {
-  grid-template-columns: 1fr;
-}
-
-.card-photos.n3 .card-photo:first-child {
-  grid-column: 1 / -1;
+  margin: 12px 0 4px;
 }
 
 .card-photo {
   position: relative;
   margin: 0;
-  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: color-mix(in srgb, var(--ink) 8%, transparent);
   border: 1px solid var(--ink);
   border-radius: 2px 3px 2px 4px;
   box-shadow: 2px 3px 0 color-mix(in srgb, var(--ink) 14%, transparent);
-  transform: rotate(-0.4deg);
 }
 
-.card-photo:nth-child(even) {
+.card-photo.hero {
+  aspect-ratio: 16 / 10;
+  transform: rotate(-0.3deg);
+}
+
+.photo-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px 2px 6px;
+  scroll-snap-type: x proximity;
+}
+
+.photo-row::-webkit-scrollbar {
+  display: none;
+}
+
+.card-photo.thumb {
+  flex: 0 0 31%;
+  aspect-ratio: 4 / 3;
+  scroll-snap-align: start;
+}
+
+.card-photo.thumb:nth-child(even) {
   transform: rotate(0.5deg);
 }
 
@@ -2992,12 +3008,262 @@ button,
   pointer-events: none;
 }
 
+.photo-btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
 .card-photo img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   filter: saturate(0.88) contrast(1.02);
+}
+
+.photo-kind {
+  position: absolute;
+  left: 6px;
+  bottom: 6px;
+  padding: 1px 6px;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--paper);
+  background: color-mix(in srgb, var(--ink) 72%, transparent);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.photo-source {
+  margin-top: 4px;
+  font-size: 10.5px;
+  opacity: 0.5;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--ink) 90%, transparent);
+  cursor: zoom-out;
+}
+
+.lightbox img {
+  max-width: min(96vw, 1200px);
+  max-height: 86vh;
+  object-fit: contain;
+  cursor: default;
+  box-shadow: 0 12px 40px rgb(0 0 0 / 0.5);
+}
+
+.lb-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  text-align: center;
+  color: var(--paper);
+  font-size: 13px;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.lb-nav,
+.lb-close {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--paper) 14%, transparent);
+  color: var(--paper);
+  font-size: 30px;
+  line-height: 44px;
+  cursor: pointer;
+}
+
+.lb-nav.prev {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lb-nav.next {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lb-close {
+  top: max(10px, env(safe-area-inset-top));
+  right: 10px;
+  font-size: 26px;
+}
+
+.card-nophoto {
+  margin: 10px 0 2px;
+  padding: 8px 10px;
+  font-size: 12px;
+  opacity: 0.7;
+  border: 1px dashed color-mix(in srgb, var(--ink) 40%, transparent);
+  border-radius: 3px;
+}
+
+/* ------------------------------------------------------ visitor notes ---- */
+
+.card-notes {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 18%, transparent);
+}
+
+.card-notes .section-label {
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.notes-empty,
+.notes-hint,
+.notes-rule,
+.notes-flash {
+  margin: 6px 0;
+  font-size: 12px;
+  opacity: 0.7;
+  line-height: 1.45;
+}
+
+.notes-flash {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.notes-list {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.note {
+  padding: 8px 10px;
+  border-left: 2px solid color-mix(in srgb, var(--ink) 35%, transparent);
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}
+
+.note.mine {
+  border-left-color: var(--accent);
+}
+
+.note.pending {
+  opacity: 0.8;
+}
+
+.note-text {
+  margin: 0 0 4px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.note-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 11px;
+  opacity: 0.65;
+}
+
+.note-pending {
+  padding: 0 5px;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+}
+
+.notes-write,
+.notes-send,
+.notes-cancel {
+  border: 1px solid var(--ink);
+  background: transparent;
+  border-radius: 3px;
+  padding: 7px 13px;
+  font-size: 12.5px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.notes-write:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.notes-send {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.notes-send:disabled,
+.notes-cancel:disabled {
+  opacity: 0.5;
+}
+
+.notes-form {
+  display: grid;
+  gap: 8px;
+}
+
+.notes-text,
+.notes-name input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+.notes-text {
+  resize: vertical;
+  min-height: 72px;
+}
+
+.notes-row {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.notes-name {
+  flex: 1;
+  display: grid;
+  gap: 3px;
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.notes-count {
+  font-size: 11px;
+  opacity: 0.55;
+  padding-bottom: 9px;
+}
+
+.notes-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
 }
 
 .card-dishes {
