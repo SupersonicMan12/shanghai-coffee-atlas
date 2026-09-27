@@ -93,7 +93,9 @@ export function CafeNotes({ cafeId }: Props) {
       )}
 
       {flash === 'queued' && <p className="notes-flash">{t(UI.notesFailed)}</p>}
-      {flash !== 'queued' && state === 'offline' && <p className="notes-flash">{t(UI.notesLocalOnly)}</p>}
+      {flash !== 'queued' && state === 'offline' && visible.some((n) => n.mine && n.queued) && (
+        <p className="notes-flash">{t(UI.notesLocalOnly)}</p>
+      )}
 
       {!writing ? (
         <button
