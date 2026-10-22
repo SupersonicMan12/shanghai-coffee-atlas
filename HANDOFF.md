@@ -180,8 +180,9 @@ w_e=1  w_h=3  w_u=3  k=5
 - [ ] 在移动设备上检查 12 M 像素栅格画布上限的实际表现；目前尚未做移动设备验证。
 
 **数据**
-- [ ] v7 band 的 503 家目前 **0 家有已发布照片**，也没有 traits/headlines；DashScope 额度补足后，应按 band ids 运行 `enrich_vision.py`、`enrich_web.py` 并重建 `details.json`。这三支脚本目前都没有 `--only` 参数；先补 band-id 范围过滤，再避免全量重跑。核心区仍有部分店没有通过照片身份审计的照片；可等高德日配额（0 点重置）后跑 `python3 tools/enrich_amap_detail.py --retry-rejected` / `--only <id>`。别名表 `tools/amap_aliases.json`（`rac-anfu`、`rumors-roastery` 两条仍待权威地址核实）。
-- [ ] 审核 `tools/.audit-band.txt` 中的 band 非咖啡馆候选；人工确认前不要加入 `prune_noncafes.REMOVE`。
+- [ ] 约 215 家仍无照片：高德库里找不到、或照片身份审计不过。可等高德日配额（0 点重置）后跑 `python3 tools/enrich_amap_detail.py --retry-rejected` / `--only <id>`，再 `build_details.py`。别名表 `tools/amap_aliases.json`（`rac-anfu`、`rumors-roastery` 两条仍待权威地址核实）。
+- [ ] Qwen-VL 照片角色只跑了有免费额度的部分；百炼充值后 `python3 tools/enrich_vision.py` 会只补漏（`PROMPT_VERSION` 变更才全量）。
+- [ ] v7 band 的 503 家目前 **0 家有已发布照片**，也没有 traits/headlines；DashScope 额度补足后，应按 band ids 运行 `enrich_vision.py`、`enrich_web.py` 并重建 `details.json`。这三支脚本目前都没有 `--only` 参数；先补 band-id 范围过滤，再避免全量重跑。
 - [ ] 点评匹配缓存有限；候选 id 靠搜索引擎发现，可再扩一轮，遵守 §6。
 - [ ] 座位数只有部分店有真实数据，其他不要编造。
 - [ ] 导入连锁店（星巴克/Costa/Tim Hortons 等）只有通用占位招牌语，不要当作店铺独有信息展示。
