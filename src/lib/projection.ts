@@ -8,6 +8,12 @@ export interface BBox {
 }
 
 export const BBOX = basemap.bbox as BBox
+export const OUTER_RING_BBOX: BBox = {
+  south: 31.1203,
+  west: 121.3427,
+  north: 31.3789,
+  east: 121.6434,
+}
 
 /**
  * The atlas is a picture, so it gets a fixed "paper" size in SVG units and the
@@ -15,11 +21,14 @@ export const BBOX = basemap.bbox as BBox
  * an equirectangular projection scaled by cos(lat) is visually exact here and
  * keeps the maths readable.
  */
-export const PAPER_WIDTH = 1600
+export const OLD_SHEET_LON_SPAN = 0.285
 const MID_LAT = (BBOX.north + BBOX.south) / 2
-const LON_SPAN = BBOX.east - BBOX.west
+export const LON_SPAN = BBOX.east - BBOX.west
 const LAT_SPAN = BBOX.north - BBOX.south
 const COS_MID = Math.cos((MID_LAT * Math.PI) / 180)
+
+// Keep paper units per longitude degree unchanged as the sheet grows.
+export const PAPER_WIDTH = Math.round(1600 * LON_SPAN / OLD_SHEET_LON_SPAN)
 
 export const PAPER_HEIGHT = Math.round(
   (PAPER_WIDTH * LAT_SPAN) / (LON_SPAN * COS_MID),

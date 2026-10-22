@@ -8,6 +8,10 @@ export type District =
   | 'Pudong'
   | 'Yangpu'
   | 'Minhang'
+  | 'Baoshan'
+  | 'Jiading'
+  | 'Qingpu'
+  | 'Songjiang'
 
 /**
  * The drawing that gets stamped on the map. Each archetype has its own
@@ -222,4 +226,3 @@ export interface SeenRoom {
   roastingGear?: boolean
   brewBar?: boolean
 }
-
