@@ -53,11 +53,11 @@ src/
     Verdict.tsx / BottomSheet.tsx  判词 / 移动端底部抽屉
   data/
     types.ts                   全部类型：District, Archetype, Tag, Axes, Cafe, evidence…
-    cafes.ts                   951 家店（v5/v5.1 清理餐厅等非咖啡馆后；编辑字段 + evidence 块）
+    cafes.ts                   1,454 家店（951 家 core + 503 家 v7 外环 band；编辑字段 + evidence 块）
     details.json               由 tools/build_details.py 生成：照片(含 photoKinds 角色)、菜品、周营业时间、实证特征、判词、axisHints。**不要手改**
     dianping.json              点评公开信号（评分、人均、评论量级）
-    basemap.json               由 build_basemap.py 生成
-    metro.ts                   地铁站锚点
+    basemap.json               v7 全图幅底图，由本地 Geofabrik PBF 生成
+    metro.ts                   354 个地铁站锚点
     labels.ts                  全部界面文案（中英对）
   lib/
     scoring.ts                 贝叶斯三层混合评分（见 §5）
@@ -71,18 +71,20 @@ src/
     passport.ts                护照：盖章、收藏、留言计数、徽章
 archive/                       v5 下线但保留的功能副本（七条路线、六题测验），不参与编译
 tools/
-  build_basemap.py             Overpass → tools/raw/*.json → src/data/basemap.json
+  build_basemap.py             Overpass 或 PBF → src/data/basemap.json
+  osm_from_pbf.py              Geofabrik PBF → tools/raw/pbf-*（需 pyosmium）
+  ring.py                      S20 环线几何缓存与环内/外距离判断
   amap_discover.py / amap_harvest.py   高德 POI 发现与采集（需 AMAP_WEB_API_KEY 环境变量）
   apply_signals.py             把 tools/cache/amap 合并进 cafes.ts 的 evidence.amap
   dianping_harvest.py          点评 applemaps 渠道采集 → src/data/dianping.json
-  expand_atlas.py              OSM 扩充店铺
+  expand_atlas.py              core 重建或只追加 v7 band 的导入器
   enrich_amap_detail.py        高德详情（照片/菜品/周营业时间/人均）→ tools/cache/amap-detail，支持 --only / --retry-rejected 断点续传
   enrich_vision.py             Qwen-VL 读照片：结构化事实 + 照片角色（门脸/室内/饮品/餐食/菜单），需 DASHSCOPE_API_KEY
   enrich_web.py                公开网页原句（带出处）
   axis_evidence.py             证据→五轴读数（纯确定性，见 §5）
   audit_photos.py              离线照片身份审计：店名/分店/距离/店型不符即屏蔽
   build_details.py             汇总以上缓存 → src/data/details.json（`--no-model` 纯离线重建）
-  cache/{amap,dianping,osm}    已提交的采集缓存（可复现、可断点续传）
+  cache/{amap,dianping,osm}    已提交的采集缓存（可复现、可断点续传；PBF 本体不提交）
   test-scoring.mjs             评分函数断言测试
 docs/
   PLAN.md                      v2 扩展计划（数据来源、评分模型、功能）
@@ -102,12 +104,14 @@ npm run build      # tsc -b && vite build → dist/
 node tools/test-scoring.mjs
 ```
 
-Node 20.19+ 或 22 推荐（CI 用 22）。Python 3.10+ 只在跑数据脚本时需要，无第三方依赖之外的要求（见各脚本头部）。
+Node 20.19+ 或 22 推荐（CI 用 22）。Python 3.10+ 只在跑数据脚本时需要；PBF 重建还需 `pip install --user osmium`（可选安装 `osmium-tool` 检查 PBF）。
 
 数据脚本：
 
 ```bash
-python3 tools/build_basemap.py                       # 重新生成底图（联网 Overpass）
+python3 tools/osm_from_pbf.py --scope full
+python3 tools/build_basemap.py --source pbf --scope full
+python3 tools/build_metro.py --source pbf --scope full
 AMAP_WEB_API_KEY=xxx python3 tools/amap_harvest.py   # 高德采集，写入 tools/cache/amap
 python3 tools/apply_signals.py                       # 离线合并到 cafes.ts
 python3 tools/dianping_harvest.py                    # 点评公开信号，≥2.5s/请求，带缓存
@@ -150,6 +154,21 @@ w_e=1  w_h=3  w_u=3  k=5
 6. v5（PR #12）：只留罗盘 + 护照；起点默认定位；时间条真正让闭店消失；清掉 95 家餐厅/非咖啡馆；错配照片屏蔽；顶栏缩小；引导文案去艺术化。路线/测验副本在 `archive/`。
 7. v5.1（PR #13）：图钉成为位置栏第一排；五轴评分改为纯证据驱动（§5）；全部 951 家重抓；装修中/暂停营业店全时段闭店。
 8. v6：照片角色（门脸→室内→饮品/餐食→菜单）+ 灯箱 + 离线身份审计；访客留言（§11）接入卡片/地图/护照；定位光晕居中；评分向两极拉开（同向证据才推）；高德/视觉脚本可断点续传。
+9. v7（PR #15）：在 951 家 core 之后追加 **503 家**、位于 S20 外最多 10 km 的咖啡馆；band 按区为 Baoshan 90、Jiading 61、Minhang 165、Pudong 107、Qingpu 25、Songjiang 49、Yangpu 6，总数 **1,454 家**。
+   - `tools/ring.py` 缓存 S20 几何并提供外环距离判断。Overpass 用 `ref~"S20"` 正则匹配；OSM 的 `ref` 可能是组合值 `G1503;S20`，因此不能用精确字符串相等。
+   - `tools/amap_discover.py --band-only` 扫描新的 `x*.json` band 网格：231 个 x-grid 单元、258 次 API 调用、2,110 个 POI。
+   - `tools/expand_atlas.py` 默认只写 `BAND_MARKER = '// ── Imported coverage · beyond 外环'` 后的追加段；已有 core 段作为去重基线。`--rebuild-core` 会复活 `prune_noncafes.py` 删除的记录，之后必须重新运行 prune。band 选择也遵守 `prune_noncafes.REMOVE`，不补回腾出的名额；重复导入 byte-idempotent。
+   - Hood 会先去掉开头的 上海/上海市，再按最长后缀映射：国际中央商务区/中央商务区/商务区 → Business District；工业园区/工业区/开发区/园区 → Industrial Park；新城 → New Town；镇/街道/商圈删除。剩余中文核心转为首字母大写拼音并在地名内部无空格拼接；归一化到同一地点的商圈会合并。
+   - 全幅底图和 354 个地铁站锚点改由 Geofabrik 上海 PBF 构建：Overpass 无法稳定提供更宽图幅，旧的不完整 Overpass `.tiles` 缓存已由 `.gitignore` 忽略。PBF 下载到 `tools/cache/osm/shanghai-latest.osm.pbf`（规则 `tools/cache/osm/*.osm.pbf`，本体不提交）；运行 `pip install --user osmium` 后：
+     ```bash
+     curl -C - -L --retry 5 https://download.geofabrik.de/asia/china/shanghai-latest.osm.pbf -o tools/cache/osm/shanghai-latest.osm.pbf
+     pip install --user osmium
+     python3 tools/osm_from_pbf.py --scope full
+     python3 tools/build_basemap.py --source pbf --scope full
+     python3 tools/build_metro.py --source pbf --scope full
+     ```
+     `osmium-tool` 可选，检查命令为 `osmium fileinfo -e tools/cache/osm/shanghai-latest.osm.pbf`。PBF 转换输出隔离在 `tools/raw/pbf-*`，不要和 Overpass 缓存混用。
+   - 前端保持纸面单位/度数恒定，首屏按 `OUTER_RING_BBOX` 取景；水彩栅格画布限制为 12,000,000 像素，缩放后由矢量道路接管。
 
 ## 8. 已知问题 / 待办（建议顺序）
 
@@ -158,10 +177,11 @@ w_e=1  w_h=3  w_u=3  k=5
 - [ ] hover 预览小卡（桌面）。
 - [ ] 键盘快捷键（+/− 缩放、Esc 关卡片、方向键切结果）。
 - [ ] 中文模式下部分编辑笔记仍是英文；`names.ts` 的拼音→中文映射可继续补。
+- [ ] 在移动设备上检查 12 M 像素栅格画布上限的实际表现；目前尚未做移动设备验证。
 
 **数据**
-- [ ] 约 215 家仍无照片：高德库里找不到、或照片身份审计不过。可等高德日配额（0 点重置）后跑 `python3 tools/enrich_amap_detail.py --retry-rejected` / `--only <id>`，再 `build_details.py`。别名表 `tools/amap_aliases.json`（`rac-anfu`、`rumors-roastery` 两条仍待权威地址核实）。
-- [ ] Qwen-VL 照片角色只跑了有免费额度的部分；百炼充值后 `python3 tools/enrich_vision.py` 会只补漏（`PROMPT_VERSION` 变更才全量）。
+- [ ] v7 band 的 503 家目前 **0 家有已发布照片**，也没有 traits/headlines；DashScope 额度补足后，应按 band ids 运行 `enrich_vision.py`、`enrich_web.py` 并重建 `details.json`。这三支脚本目前都没有 `--only` 参数；先补 band-id 范围过滤，再避免全量重跑。核心区仍有部分店没有通过照片身份审计的照片；可等高德日配额（0 点重置）后跑 `python3 tools/enrich_amap_detail.py --retry-rejected` / `--only <id>`。别名表 `tools/amap_aliases.json`（`rac-anfu`、`rumors-roastery` 两条仍待权威地址核实）。
+- [ ] 审核 `tools/.audit-band.txt` 中的 band 非咖啡馆候选；人工确认前不要加入 `prune_noncafes.REMOVE`。
 - [ ] 点评匹配缓存有限；候选 id 靠搜索引擎发现，可再扩一轮，遵守 §6。
 - [ ] 座位数只有部分店有真实数据，其他不要编造。
 - [ ] 导入连锁店（星巴克/Costa/Tim Hortons 等）只有通用占位招牌语，不要当作店铺独有信息展示。
