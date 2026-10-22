@@ -155,7 +155,8 @@ def main() -> None:
                     help='re-fetch every matched café by its Amap id; photos seen before are kept')
     ap.add_argument('--retry-rejected', action='store_true',
                     help='forget ids rejected earlier (a rate-limited detail call used to look like a vanished POI)')
-    ap.add_argument('--only', nargs='*', default=[], help='café ids to (re)fetch regardless of cache')
+    ap.add_argument('--only', nargs='*', default=[],
+                    help='restrict processing to these café ids; cached entries are skipped')
     args = ap.parse_args()
     if not os.environ.get('AMAP_WEB_API_KEY'):
         raise SystemExit('AMAP_WEB_API_KEY is required')
@@ -163,12 +164,13 @@ def main() -> None:
     only = set(args.only)
     done = matched = 0
     for cafe in cafes():
+        if only and cafe['id'] not in only:
+            continue
         path = AMAP_DETAIL / f"{cafe['id']}.json"
         cached = read_json(path)
         alias = aliases.get(cafe['id']) or {}
         stale = cached is not None and (
-            cafe['id'] in only
-            or (alias.get('amapId') and cached.get('amapId') != alias['amapId'])
+            (alias.get('amapId') and cached.get('amapId') != alias['amapId'])
             or (args.retry_rejected and cached.get('rejected') and not cached.get('matched'))
             or (args.refresh_unmatched and not cached.get('matched'))
             or (args.refresh and cached.get('matched') and cached.get('amapId')

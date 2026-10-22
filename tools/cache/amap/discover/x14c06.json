@@ -1,0 +1,234 @@
+{
+ "cell": "x14c06",
+ "bbox": {
+  "w": 121.4,
+  "s": 31.365555631578946,
+  "e": 121.43,
+  "n": 31.390000105263155
+ },
+ "declaredCount": 3,
+ "fetchedAt": "2026-10-22T07:44:44Z",
+ "pois": [
+  {
+   "parent": [],
+   "pcode": "310000",
+   "keytag": "奶茶/茶饮",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0KUV9FDOZ/comment/4E7047CC_5793_4F22_A14F_B6051CB9A52A_L0_001_1500_200_1764250723726_20974186.jpg"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "4000100100",
+   "id": "B0KUV9FDOZ",
+   "tag": "coffee,果茶,生椰拿铁,牛肉,杨枝甘露,美式咖啡",
+   "entr_location": "121.409428,31.371484",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "顾村",
+   "childtype": [],
+   "atag": "coffee,果茶,生椰拿铁,牛肉,杨枝甘露,美式咖啡",
+   "name": "luckin coffee 瑞幸咖啡(保集e智谷店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "13.00",
+    "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+    "rating": "4.3",
+    "open_time": "09:00-20:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721034212",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-17 06:24:39",
+   "website": [],
+   "address": "富联二路177弄保集e智谷一层大堂",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.409365,31.371112",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGLDLAB",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0L3R7NYQH/comment/8C76610F_6847_46D9_92A1_46F04827611A_L0_001_1064_143_1771671435760_95387409.jpg"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/17cec021b33357784a6d96b0f6f9df33"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "16621588384",
+   "id": "B0L3R7NYQH",
+   "tag": "生椰拿铁,杨枝甘露,热饮",
+   "entr_location": "121.428627,31.366927",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "杨行",
+   "childtype": "320",
+   "atag": "生椰拿铁,杨枝甘露,热饮",
+   "name": "库迪咖啡(宝山红林路店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "9.00",
+    "opentime2": "周一至周日 07:00-20:00",
+    "rating": "4.1",
+    "open_time": "07:00-20:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721034400",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-20 12:15:31",
+   "website": [],
+   "address": "红林路78号(宝安公路地铁站3号口步行420米)",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.428766,31.366679",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGLDLAB",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0K3YS0MWA/comment/897524F5_7BCE_4D94_8D4E_5C6B6FC746EE_L0_001_1500_200_1771671141476_48802276.jpg"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0K3YS0MWA/comment/content_media_external_file_100001796_1766442808487_94825796.jpg"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": [],
+   "id": "B0K3YS0MWA",
+   "tag": "coffee",
+   "entr_location": [],
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "杨行",
+   "childtype": "320",
+   "atag": "coffee",
+   "name": "luckin coffee 瑞幸咖啡(飘鹰锦和花园店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "10.00",
+    "opentime2": "周一至周日 07:00-21:30",
+    "rating": "4.0",
+    "open_time": "07:00-21:30",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721034401",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-15 21:45:28",
+   "website": [],
+   "address": "红林路58弄1-16号飘鹰锦和花园东区",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.429254,31.366942",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

@@ -23,6 +23,7 @@ Usage:
 
 from __future__ import annotations
 
+import argparse
 import json
 import math
 import re
@@ -66,6 +67,15 @@ def load(name: str) -> list[dict]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source', choices=('overpass', 'pbf'), default='overpass')
+    parser.add_argument('--scope', choices=('old', 'full'), default='full')
+    parser.add_argument('--output', type=Path, default=METRO_TS)
+    args = parser.parse_args()
+    global OSM
+    if args.source == 'pbf':
+        OSM = ROOT / 'tools' / 'raw' / f'pbf-{args.scope}' / 'osm'
+
     ts = METRO_TS.read_text(encoding='utf-8')
     have_zh = set(re.findall(r"nameZh: '((?:[^'\\]|\\.)*)'", ts))
     have_id = set(re.findall(r"id: '([^']+)'", ts))
@@ -126,6 +136,9 @@ def main() -> int:
         added.append(s)
 
     if not added:
+        if args.output != METRO_TS:
+            args.output.parent.mkdir(parents=True, exist_ok=True)
+            args.output.write_text(ts, encoding='utf-8')
         print('metro.ts already has every station on the sheet')
         return 0
 
@@ -139,7 +152,8 @@ def main() -> int:
 
     end = ts.index('\n]\n', ts.index('export const METRO_STATIONS'))
     ts = ts[:end] + '\n' + '\n'.join(block) + ts[end:]
-    METRO_TS.write_text(ts, encoding='utf-8')
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(ts, encoding='utf-8')
     print(f'appended {len(added)} stations to metro.ts')
     for s in added:
         print(f"  {s['nameZh']} ({s['name']}) lines {s['lines']}")
