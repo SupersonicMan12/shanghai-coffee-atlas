@@ -130,20 +130,72 @@ REMOVE: dict[str, str] = {
     'blacksheep-espresso-jianguo-middle-rd': 'duplicate of blacksheep-jianguo',
     'cafe-del-volcan-yongkang-rd-80': 'duplicate of del-volcan-yongkang',
     'cafe-bar-xibutongyili': 'duplicate of maoxianniao-tongyili',
+    # v7 band (beyond 外环)
+    'duzheshudian-meilanhu': '读者书店 · bookshop POI',
+    'xiaohongmaocantingdayinshuju-yangguangdadaoyuluo': '小红帽餐厅大隐书局 · restaurant / bookshop',
+    'xiongmaoxishicanting-zhihuiwan': '熊猫西式餐厅 · western restaurant',
+    'coffee-brunch-wusongkou-rd-58': '漾应食堂 · canteen / brunch restaurant',
+    'coffee-brunch-zhongshengshijieshangcheng': '漾应食堂 · canteen / brunch restaurant',
+    'f-m-wuyuelinglongguangchang': '花艺咖啡酒吧 · florist bar, not coffee-led',
+    'huxiaohongmao-baoshanbinguan': '沪小红帽 · 宾馆 hotel dining',
+    'heyitianxiakafeiqipai-songlan-rd-258': '咖啡棋牌 · mahjong parlour',
+    'jinshuilougeqipai-dongjiexiuxianguangchang': '棋牌 · mahjong parlour',
+    'mandaokafeiqipaizhongxican-jiuting': '咖啡棋牌中西餐 · mahjong parlour / restaurant',
+    'yinuokafeiqipai-xinqiao': '咖啡棋牌 · mahjong parlour',
+    'xinyikafeiqipai-tongrunjiazhou': '咖啡棋牌 · mahjong parlour',
+    'z-y-cityhuayuancheng': '酒吧 · bar',
+    'lvtuminyaoyinyuejiuguan-baoxiang-rd-158': '民谣音乐酒馆 · music bar',
+    'kafeiyujianmeijia-lvdi-xuhuietiandi': '咖啡遇见美甲 · nail salon',
+    'puxiugongguanqihaocanting-chenxinggongluyupuxiul': '柒号餐厅 · restaurant',
+    'yitingkafeitingzizhucanting-pujianghuangguanjiar': '颐庭自助餐厅 · hotel buffet',
+    'dormito-cafe-mantianxingshenghuoguangchang': '云南咖啡餐厅 · Amap 火锅店 restaurant',
+    'uncle-bean-pizza-coffee-shuiqing-rd': 'pizza&coffee · pizzeria',
+    'welucky-chuanshabailianlvdi': '咖啡鲜果奶茶 · fruit-tea shop',
+    'angelina-brunch-bistro-shengxia-rd-736': 'brunch & bistro · restaurant',
+    'cafe-restaurant-wandaguangchangshanghaizhoupu': 'Cafe&Restaurant · restaurant',
+    'medici-bistro-jinghengdayeguangchang': '美第奇意式屋 · Amap 意式餐厅',
+    'jiadingkaiyuejiudiankafeiting-jiading': '嘉定凯悦酒店咖啡厅 · hotel dining',
+    'zhonghangpoyuejiudianyuntingkafeiting-hongqiaoji': '中航泊悦酒店云庭咖啡厅 · hotel dining',
+    'l-or-coffee-shanghaihongqiaojinchenhuangguanjiar': '雅逸大堂吧 · hotel lobby bar',
+    'deqiuhuayuanjiudianmantuokafeiting-xinzhuanggong': '得丘花园酒店曼陀咖啡厅 · hotel dining',
+    'shanghaihongqiaoweijingjiudianyipaikafei-xumindo': '虹桥维景酒店逸派咖啡 · hotel dining',
+    'the-botanic-xinhongqiaozhongxin': '舍丽雅酒店大堂吧 · hotel lobby bar',
+    'goodness-plant-shensong-rd-1288': '绿洲小素 · vegetarian restaurant',
 }
 
 
 def main() -> None:
     source = CAFES_TS.read_text(encoding='utf-8')
+    band_marker = '// ── Imported coverage · beyond 外环'
+    band_dropped: set[str] = set()
+    band_marker_at = source.find(band_marker)
+    if band_marker_at != -1:
+        before_band, band_source = source[:band_marker_at], source[band_marker_at:]
+        for cid in REMOVE:
+            pattern = re.compile(
+                rf"^    \{{\n      id: '{re.escape(cid)}',.*?^    \}} as Cafe,\n",
+                re.MULTILINE | re.DOTALL,
+            )
+            band_source, count = pattern.subn('', band_source, count=1)
+            if count:
+                band_dropped.add(cid)
+        source = before_band + band_source
+
     head, *chunks = source.split('\n  {\n    id: ')
     kept, dropped = [], []
+    dropped_ids = set(band_dropped)
     for chunk in chunks:
         m = re.match(r"'([^']+)',\n", chunk)
         cid = m.group(1) if m else ''
-        (dropped if cid in REMOVE else kept).append(chunk)
-    missing = sorted(set(REMOVE) - {re.match(r"'([^']+)',", c).group(1) for c in dropped})
+        if cid in REMOVE:
+            dropped.append(chunk)
+            dropped_ids.add(cid)
+        else:
+            kept.append(chunk)
+    missing = sorted(set(REMOVE) - dropped_ids)
     CAFES_TS.write_text('\n  {\n    id: '.join([head, *kept]), encoding='utf-8')
-    print(f'cafes.ts: kept {len(kept)}, dropped {len(dropped)}; not found: {missing}')
+    print(f'cafes.ts: kept {len(kept)}, dropped {len(dropped) + len(band_dropped)} '
+          f'(band {len(band_dropped)}); not found: {missing}')
 
     ids = {re.match(r"'([^']+)',", c).group(1) for c in kept}
     unv = ROOT / 'src' / 'data' / 'unverified.json'

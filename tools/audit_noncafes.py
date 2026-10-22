@@ -5,11 +5,12 @@ Read-only: prints candidates for human review before adding ids to
 prune_noncafes.REMOVE.
 
 Usage:
-    python3 tools/audit_noncafes.py
+    python3 tools/audit_noncafes.py [--band] [--output PATH]
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -36,14 +37,29 @@ TYPE_BAD = re.compile(
     r'住宿服务|购物服务|生活服务|体育休闲|风景名胜|商务住宅|科教文化|医疗保健'
 )
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--band', action='store_true', help='audit only the beyond-ring section')
+parser.add_argument('--output', type=Path, help='write the report to a file instead of stdout')
+args = parser.parse_args()
+
 src = CAFES_TS.read_text(encoding='utf-8')
 rec_re = re.compile(
     r"\{\s*id:\s*'([^']+)',\s*name:\s*'((?:[^'\\]|\\.)*)',\s*nameZh:\s*'((?:[^'\\]|\\.)*)'",
     re.S,
 )
+band_ids: set[str] = set()
+if args.band:
+    marker = '// ── Imported coverage · beyond 外环'
+    marker_at = src.find(marker)
+    if marker_at == -1:
+        raise SystemExit(f'band marker not found: {marker}')
+    band_ids = {m.group(1) for m in rec_re.finditer(src[marker_at:])}
+
 rows = []
 for m in rec_re.finditer(src):
     cid, name, name_zh = m.group(1), m.group(2), m.group(3)
+    if args.band and cid not in band_ids:
+        continue
     detail_path = DETAIL_DIR / f'{cid}.json'
     amap_type = amap_name = ''
     if detail_path.exists():
@@ -55,8 +71,29 @@ for m in rec_re.finditer(src):
     name_hit = NAME_WORDS.search(hay)
     type_hit = bool(amap_type) and not TYPE_OK.search(amap_type) and TYPE_BAD.search(amap_type)
     if name_hit or type_hit:
-        rows.append((cid, name, name_zh, amap_name, amap_type, name_hit.group(0) if name_hit else ''))
+        reason = []
+        if name_hit:
+            reason.append(f'name keyword: {name_hit.group(0)}')
+        if type_hit:
+            reason.append(f'non-café Amap type: {amap_type}')
+        if not amap_type:
+            reason.append('Amap type unavailable')
+        rows.append((cid, name, name_zh, amap_name, amap_type or 'not fetched',
+                     '; '.join(reason)))
 
-print(f'{len(rows)} candidates')
-for r in rows:
-    print(' | '.join(r))
+lines = [f'{len(rows)} candidates']
+if args.band:
+    lines.append('id | name | Amap type | reason')
+    lines.extend(
+        f'{cid} | {name} / {name_zh} | {amap_type} | {reason}'
+        for cid, name, name_zh, _amap_name, amap_type, reason in rows
+    )
+else:
+    lines.extend(' | '.join(row) for row in rows)
+report = '\n'.join(lines) + '\n'
+if args.output:
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(report, encoding='utf-8')
+    print(f'wrote {args.output} ({len(rows)} candidates)')
+else:
+    print(report, end='')

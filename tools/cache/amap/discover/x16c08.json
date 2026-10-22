@@ -1,0 +1,163 @@
+{
+ "cell": "x16c08",
+ "bbox": {
+  "w": 121.46000000000001,
+  "s": 31.414444578947368,
+  "e": 121.49000000000001,
+  "n": 31.438889052631577
+ },
+ "declaredCount": 2,
+ "fetchedAt": "2026-10-22T07:45:38Z",
+ "pois": [
+  {
+   "parent": [],
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0LBCHDD4T/comment/content_media_external_file_25807_ss__1759830702304_15181232.jpg"
+    },
+    {
+     "title": [],
+     "url": "https://aos-comment.amap.com/B0LBCHDD4T/comment/content_media_external_file_1000200700_ss__1771727250473_71781858.jpg"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/a4221970e95528e50000003073894231?type=pic"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "19921803152",
+   "id": "B0LBCHDD4T",
+   "tag": [],
+   "entr_location": "121.487541,31.413917",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": [],
+   "childtype": [],
+   "atag": [],
+   "name": "一尺花园(定海神针店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "69.00",
+    "opentime2": "周一至周日 10:00-20:00",
+    "rating": "4.8",
+    "open_time": "10:00-20:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721039822",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-18 01:39:45",
+   "website": [],
+   "address": "云海路59号15-18层",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.487344,31.414457",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFKATUTP",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/9a777441a1265c390000004100340001?type=pic"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/5290d6efdebfc54aadb53283abe72400"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/578589e4cf4172210000004100338022?type=pic"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": [],
+   "id": "B0MAOLIYYC",
+   "tag": "生椰拿铁",
+   "entr_location": [],
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": [],
+   "childtype": "320",
+   "atag": "生椰拿铁",
+   "name": "挪瓦咖啡宝山长滩店(上海长滩店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "14.00",
+    "opentime2": "周一至周日 07:30-21:00",
+    "rating": "3.9",
+    "open_time": "07:30-21:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721039822",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-17 01:50:36",
+   "website": [],
+   "address": "采江路78号挪瓦咖啡",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.483857,31.414989",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

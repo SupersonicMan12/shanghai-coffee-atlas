@@ -14,7 +14,15 @@ import {
 import type { Cafe } from '../data/types'
 import type { Anchor } from '../lib/near'
 import { LINE_COLOR } from '../data/metro'
-import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project } from '../lib/projection'
+import {
+  BBOX,
+  LON_SPAN,
+  OLD_SHEET_LON_SPAN,
+  OUTER_RING_BBOX,
+  PAPER_HEIGHT,
+  PAPER_WIDTH,
+  project,
+} from '../lib/projection'
 import { blot, numerals, pennant } from '../lib/hand'
 import { BaseLayers, BaseRaster } from './BaseLayers'
 import { paletteHost, readBasemapColors, sameColors, type BasemapColors } from '../lib/basemapColors'
@@ -47,7 +55,7 @@ export interface View {
   k: number
 }
 
-const MIN_K = 0.85
+const MIN_K = 0.85 * OLD_SHEET_LON_SPAN / LON_SPAN
 const MAX_K = 7
 
 /** Pointer travel (CSS px) before a press stops being a tap and becomes a drag. */
@@ -119,10 +127,17 @@ function measure(el: HTMLElement): Metrics {
   }
 }
 
-/** The view that shows the whole sheet, centred, with a hair of margin. */
-function wholeSheet(m: Metrics): View {
-  const k = Math.max(MIN_K, (Math.min(m.w / PAPER_WIDTH, m.h / PAPER_HEIGHT) / m.s0) * 0.98)
-  return { k, x: (PAPER_WIDTH * (1 - k)) / 2, y: (PAPER_HEIGHT * (1 - k)) / 2 }
+/** Frame the Outer Ring so the expanded sheet stays a discoverable zoom-out. */
+function outerRingFrame(m: Metrics): View {
+  const [left, top] = project(OUTER_RING_BBOX.west, OUTER_RING_BBOX.north)
+  const [right, bottom] = project(OUTER_RING_BBOX.east, OUTER_RING_BBOX.south)
+  const k = Math.max(
+    MIN_K,
+    (Math.min(m.w / (right - left), m.h / (bottom - top)) / m.s0) * 0.98,
+  )
+  const cx = (left + right) / 2
+  const cy = (top + bottom) / 2
+  return { k, x: PAPER_WIDTH / 2 - cx * k, y: PAPER_HEIGHT / 2 - cy * k }
 }
 
 /** The part of user space (paper at k=1) currently on screen. */
@@ -265,6 +280,7 @@ export function AtlasMap({
   const onSelectRef = useRef(onSelect)
   /** Stage geometry mirrored into state for the few things React lays out (the tooltip). */
   const [stageBox, setStageBox] = useState<Metrics | null>(null)
+  const initialFrame = useRef(false)
 
   useEffect(() => {
     onSelectRef.current = onSelect
@@ -461,7 +477,7 @@ export function AtlasMap({
         flyTo({ k, x: cx - px * k, y: cy - py * k }, 480, 640)
       },
       reset() {
-        flyTo(wholeSheet(metrics.current), 480, 640)
+        flyTo(outerRingFrame(metrics.current), 480, 640)
       },
       zoomBy(factor) {
         const v = cur.current
@@ -481,6 +497,11 @@ export function AtlasMap({
     apply(cur.current)
     const ro = new ResizeObserver(() => {
       metrics.current = measure(stage)
+      if (!initialFrame.current) {
+        cur.current = outerRingFrame(metrics.current)
+        initialFrame.current = true
+        setView(cur.current)
+      }
       setStageBox(metrics.current)
       apply(cur.current)
       if (!gesture.current) schedule()

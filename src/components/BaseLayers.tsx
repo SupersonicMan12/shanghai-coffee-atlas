@@ -174,8 +174,17 @@ function washMarkup(c: BasemapColors, withFilters: boolean): string {
   )
 }
 
-const WASH_SCALE = 1.5
-const INK_SCALE = 2
+const MAX_CANVAS_PIXELS = 12_000_000
+const MAX_CANVAS_SCALE = Math.sqrt(MAX_CANVAS_PIXELS / (PAPER_WIDTH * PAPER_HEIGHT))
+const canvasScale = (preferred: number) => {
+  let scale = Math.min(preferred, MAX_CANVAS_SCALE)
+  while (Math.round(PAPER_WIDTH * scale) * Math.round(PAPER_HEIGHT * scale) > MAX_CANVAS_PIXELS) {
+    scale -= 0.000001
+  }
+  return scale
+}
+const WASH_SCALE = canvasScale(1.5)
+const INK_SCALE = canvasScale(2)
 
 interface Rasters {
   /** The watercolour alone: paper, water, parks, trees, grain. */

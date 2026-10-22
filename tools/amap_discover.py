@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 import sys
 import time
@@ -30,6 +31,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+from ring import km_outside_ring
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = ROOT / 'tools' / 'cache' / 'amap' / 'discover'
@@ -47,9 +49,14 @@ COLS, ROWS = 10, 9          # coarse grid ≈ 1.4 km × 1.4 km cells
 # that skip everything the inner sweep already covers.
 OUTER_BBOX = (121.340, 31.121111, 121.625, 31.328889)  # W, S, E, N
 OUTER_COLS, OUTER_ROWS = 19, 17
+# Beyond-sheet sweep: cells are exactly 2×2 outer-grid cells and aligned to it.
+BAND_BBOX = (121.22, 31.023333, 121.79, 31.487778)  # W, S, E, N
+BAND_COLS = BAND_ROWS = 19
 SPLIT_THRESHOLD = 80        # subdivide when a cell claims more than this
 MAX_PAGES = 4               # 25 per page → up to 100 POIs per leaf cell
 MAX_DEPTH = 3
+MAX_DEPTH_BAND = 4
+API_CALLS = 0
 
 
 class QuotaExhausted(Exception):
@@ -58,9 +65,11 @@ class QuotaExhausted(Exception):
 
 def fetch_cell(key: str, w: float, s: float, e: float, n: float) -> tuple[int, list[dict]]:
     """Return (declared_count, pois) for one rectangle, paging as needed."""
+    global API_CALLS
     pois: list[dict] = []
     count = 0
     for page in range(1, MAX_PAGES + 1):
+        API_CALLS += 1
         resp = requests.get(API_URL, params={
             'key': key,
             'polygon': f'{w:.6f},{n:.6f}|{e:.6f},{s:.6f}',
@@ -85,7 +94,7 @@ def fetch_cell(key: str, w: float, s: float, e: float, n: float) -> tuple[int, l
 
 
 def sweep(key: str, cell_id: str, w: float, s: float, e: float, n: float,
-          depth: int, budget: list[int]) -> None:
+          depth: int, budget: list[int], max_depth: int = MAX_DEPTH) -> None:
     out = CACHE_DIR / f'{cell_id}.json'
     if out.exists():
         return
@@ -93,13 +102,13 @@ def sweep(key: str, cell_id: str, w: float, s: float, e: float, n: float,
         return
     budget[0] -= 1
     count, pois = fetch_cell(key, w, s, e, n)
-    if count > SPLIT_THRESHOLD and depth < MAX_DEPTH:
+    if count > SPLIT_THRESHOLD and depth < max_depth:
         mx, my = (w + e) / 2, (s + n) / 2
         for suffix, box in (
             ('a', (w, s, mx, my)), ('b', (mx, s, e, my)),
             ('c', (w, my, mx, n)), ('d', (mx, my, e, n)),
         ):
-            sweep(key, f'{cell_id}{suffix}', *box, depth + 1, budget)
+            sweep(key, f'{cell_id}{suffix}', *box, depth + 1, budget, max_depth)
         return
     out.write_text(json.dumps({
         'cell': cell_id,
@@ -114,6 +123,7 @@ def sweep(key: str, cell_id: str, w: float, s: float, e: float, n: float,
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--limit', type=int, default=0, help='max cell fetches this run (0 = unlimited)')
+    ap.add_argument('--band-only', action='store_true', help='sweep only the new x* grid')
     args = ap.parse_args()
 
     key = os.environ.get('AMAP_WEB_API_KEY')
@@ -122,33 +132,61 @@ def main() -> int:
         return 1
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    w0, s0, e0, n0 = BBOX
-    dx, dy = (e0 - w0) / COLS, (n0 - s0) / ROWS
     budget = [args.limit if args.limit else 10 ** 9]
+    quota_code = None
+    band_roots = 0
     try:
-        for j in range(ROWS):
-            for i in range(COLS):
-                sweep(key, f'r{j:02d}c{i:02d}',
-                      w0 + i * dx, s0 + j * dy, w0 + (i + 1) * dx, s0 + (j + 1) * dy,
-                      0, budget)
+        if not args.band_only:
+            w0, s0, e0, n0 = BBOX
+            dx, dy = (e0 - w0) / COLS, (n0 - s0) / ROWS
+            for j in range(ROWS):
+                for i in range(COLS):
+                    sweep(key, f'r{j:02d}c{i:02d}',
+                          w0 + i * dx, s0 + j * dy, w0 + (i + 1) * dx, s0 + (j + 1) * dy,
+                          0, budget)
+            ow, os_, oe, on = OUTER_BBOX
+            odx, ody = (oe - ow) / OUTER_COLS, (on - os_) / OUTER_ROWS
+            for j in range(OUTER_ROWS):
+                for i in range(OUTER_COLS):
+                    w, s = ow + i * odx, os_ + j * ody
+                    e, n = w + odx, s + ody
+                    cx, cy = (w + e) / 2, (s + n) / 2
+                    if w0 < cx < e0 and s0 < cy < n0:
+                        continue  # already swept by the inner grid
+                    sweep(key, f'o{j:02d}c{i:02d}', w, s, e, n, 0, budget)
+        bw, bs, be, bn = BAND_BBOX
+        bdx, bdy = (be - bw) / BAND_COLS, (bn - bs) / BAND_ROWS
         ow, os_, oe, on = OUTER_BBOX
-        odx, ody = (oe - ow) / OUTER_COLS, (on - os_) / OUTER_ROWS
-        for j in range(OUTER_ROWS):
-            for i in range(OUTER_COLS):
-                w, s = ow + i * odx, os_ + j * ody
-                e, n = w + odx, s + ody
+        for j in range(BAND_ROWS):
+            for i in range(BAND_COLS):
+                w, s = bw + i * bdx, bs + j * bdy
+                e, n = w + bdx, s + bdy
+                if w >= ow and s >= os_ and e <= oe and n <= on:
+                    continue
                 cx, cy = (w + e) / 2, (s + n) / 2
-                if w0 < cx < e0 and s0 < cy < n0:
-                    continue  # already swept by the inner grid
-                sweep(key, f'o{j:02d}c{i:02d}', w, s, e, n, 0, budget)
+                half_diagonal_km = math.hypot(
+                    bdx * math.cos(math.radians(31.25)) * 111.32 / 2,
+                    bdy * 111.32 / 2)
+                if km_outside_ring(cy, cx) - half_diagonal_km > 10:
+                    continue
+                band_roots += 1
+                sweep(key, f'x{j:02d}c{i:02d}', w, s, e, n, 0, budget, MAX_DEPTH_BAND)
     except QuotaExhausted as exc:
+        quota_code = str(exc)
         print(f'quota exhausted (infocode {exc}), stopping — rerun later to resume')
-        return 0
     except RuntimeError as exc:
         print(f'stopping: {exc}', file=sys.stderr)
         return 1
     done = len(list(CACHE_DIR.glob('*.json')))
-    print(f'sweep complete: {done} leaf cells cached')
+    band_files = list(CACHE_DIR.glob('x*.json'))
+    band_pois = sum(len(json.loads(f.read_text(encoding='utf-8')).get('pois', []))
+                    for f in band_files)
+    print(f'x grid roots considered: {band_roots}; cached leaf cells: {len(band_files)}; '
+          f'cached POIs: {band_pois}; API calls this run: {API_CALLS}')
+    if quota_code:
+        print(f'x grid stopped at quota infocode {quota_code}; caches are resumable')
+    else:
+        print(f'sweep complete: {done} leaf cells cached')
     return 0
 
 
