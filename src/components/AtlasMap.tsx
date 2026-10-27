@@ -1,4 +1,5 @@
 import {
+  type CSSProperties,
   memo,
   useCallback,
   useEffect,
@@ -24,6 +25,7 @@ import {
   project,
 } from '../lib/projection'
 import { blot, numerals, pennant } from '../lib/hand'
+import { Streets, type Window as StreetWindow } from './Streets'
 import { BaseLayers, BaseRaster } from './BaseLayers'
 import { paletteHost, readBasemapColors, sameColors, type BasemapColors } from '../lib/basemapColors'
 import { Glyph } from './Glyphs'
@@ -61,7 +63,8 @@ export interface View {
  */
 const SHEET_SCALE = LON_SPAN / OLD_SHEET_LON_SPAN
 const MIN_K = 0.85
-const MAX_K = 7 * SHEET_SCALE
+/** Up to about 2 m per CSS px: close enough to read a block's doorways. */
+const MAX_K = 12 * SHEET_SCALE
 
 /** Pointer travel (CSS px) before a press stops being a tap and becomes a drag. */
 const DRAG_PX = 6
@@ -777,6 +780,17 @@ export function AtlasMap({
 
   const kb = bucketK(view.k / SHEET_SCALE)
   const inv = SHEET_SCALE / view.k
+  // Past city scale the ink would thicken with the zoom; thin it so a trunk
+  // road at street level is still a stroke, not a bar.
+  const inkThin = kb <= 5 ? 1 : Math.sqrt(5 / kb)
+
+  const win = useMemo<StreetWindow | null>(() => {
+    if (!stageBox) return null
+    const m = stageBox
+    const px = (sx: number) => ((sx - m.offX) / m.s0 - view.x) / view.k
+    const py = (sy: number) => ((sy - m.offY) / m.s0 - view.y) / view.k
+    return { x0: px(0), y0: py(0), x1: px(m.w), y1: py(m.h) }
+  }, [stageBox, view])
 
   // A zoom commit re-sizes every pin at once; that is a snap, not a breath,
   // so the ink transitions are held off for the frame it lands in.
@@ -932,6 +946,7 @@ export function AtlasMap({
           viewBox={`0 0 ${PAPER_WIDTH} ${PAPER_HEIGHT}`}
           width={PAPER_WIDTH}
           height={PAPER_HEIGHT}
+          style={{ '--ink-thin': inkThin } as CSSProperties}
         >
           <defs>
             <radialGradient id="halo">
@@ -943,6 +958,7 @@ export function AtlasMap({
 
           <g className="viewport">
             <BaseLayers k={kb} raster={rasterReady} />
+            <Streets k={kb} inv={inv} window={win} zhFirst={mode === 'zh'} />
 
             <Blots clusters={density.clusters} inv={inv} />
 

@@ -37,6 +37,7 @@ src/
   components/
     AtlasMap.tsx               地图交互层：缩放/拖拽、图钉、标签碰撞避让、点击选中
     BaseLayers.tsx             水彩底图：区界、道路、里弄、公园、水系（来自 basemap.json）
+    Streets.tsx                街区级路网（streets.json，按需加载、只挂载视口内；路名随缩放出现）
     Glyphs.tsx                 十种店型 (Archetype) 的手绘图钉
     Compass.tsx                五轴罗盘控件（核心交互）
     CafeCard.tsx               单店详情卡
@@ -57,6 +58,7 @@ src/
     details.json               由 tools/build_details.py 生成：照片(含 photoKinds 角色)、菜品、周营业时间、实证特征、判词、axisHints。**不要手改**
     dianping.json              点评公开信号（评分、人均、评论量级）
     basemap.json               v7 全图幅底图，由本地 Geofabrik PBF 生成
+    streets.json               v7.1 街道层（tertiary/residential/…），`python3 tools/build_streets.py` 从 PBF 生成
     metro.ts                   354 个地铁站锚点
     labels.ts                  全部界面文案（中英对）
   lib/
