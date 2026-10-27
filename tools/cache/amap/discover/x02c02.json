@@ -1,0 +1,151 @@
+{
+ "cell": "x02c02",
+ "bbox": {
+  "w": 121.28,
+  "s": 31.072221947368423,
+  "e": 121.31,
+  "n": 31.096666421052632
+ },
+ "declaredCount": 2,
+ "fetchedAt": "2026-10-22T07:40:11Z",
+ "pois": [
+  {
+   "parent": "B0G0TYDEFC",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/02675640ebf86dbef8eb994eccac69f8"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "松江区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "13062659332",
+   "id": "B0KUBLZ1PC",
+   "tag": [],
+   "entr_location": [],
+   "adcode": "310117",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": [],
+   "childtype": "320",
+   "atag": [],
+   "name": "咖小囡(尚云里店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "22.00",
+    "opentime2": "周一至周日 10:00-21:00",
+    "rating": "4.0",
+    "open_time": "10:00-21:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621520302",
+   "shopinfo": "1",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-15 17:57:12",
+   "website": [],
+   "address": "蔡家浜东路77弄148号",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.296125,31.085902",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": [],
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/cbd8acfc87801a4f0a3c739d4309c074"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/6ce25bd77f8623d8cfa5a4f1ea8859f3"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "松江区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "13386046910",
+   "id": "B0JRS9OK8S",
+   "tag": "提拉米苏,生椰拿铁",
+   "entr_location": "121.292911,31.096273",
+   "adcode": "310117",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "泗泾",
+   "childtype": [],
+   "atag": "提拉米苏,生椰拿铁",
+   "name": "木心咖啡(高技路店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": [],
+    "opentime2": [],
+    "rating": "3.8",
+    "open_time": [],
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4621521311",
+   "shopinfo": "1",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-09-20 18:47:21",
+   "website": [],
+   "address": "高技路205弄凯富科技园18号楼107",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.292942,31.096199",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

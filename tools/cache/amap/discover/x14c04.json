@@ -1,0 +1,388 @@
+{
+ "cell": "x14c04",
+ "bbox": {
+  "w": 121.34,
+  "s": 31.365555631578946,
+  "e": 121.37,
+  "n": 31.390000105263155
+ },
+ "declaredCount": 6,
+ "fetchedAt": "2026-10-22T07:44:41Z",
+ "pois": [
+  {
+   "parent": [],
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/9eb4bd196de3bf5d0559bb3aaae99cad"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/ff4b204f3af9f1230a4aff21bfee409e"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "4000100100",
+   "id": "B0JK4ZQTWA",
+   "tag": "美式咖啡,果茶,生椰拿铁,杨枝甘露,柠檬茶",
+   "entr_location": "121.362287,31.384201",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "美兰湖",
+   "childtype": [],
+   "atag": "美式咖啡,果茶,生椰拿铁,杨枝甘露,柠檬茶",
+   "name": "瑞幸咖啡(罗南文化中心店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "13.00",
+    "opentime2": "周一至周五 07:00-18:00；周六至周日 09:00-20:00",
+    "rating": "4.1",
+    "open_time": "07:00-18:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721026802",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-16 05:05:34",
+   "website": [],
+   "address": "南东路58-1号罗南文化中心底商",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.362192,31.384399",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGG8D12",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/485ad5cefd77ddb10000002252214227?type=pic"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/7539c01ca99955550000002275732428?type=pic"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "17321103468",
+   "id": "B0L0RZ576X",
+   "tag": "生椰拿铁,杨枝甘露,热饮",
+   "entr_location": "121.358362,31.388561",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "美兰湖",
+   "childtype": "202",
+   "atag": "生椰拿铁,杨枝甘露,热饮",
+   "name": "库迪咖啡(罗店宝龙广场店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "9.00",
+    "opentime2": "周一至周日 07:00-20:00",
+    "rating": "3.8",
+    "open_time": "07:00-20:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721026812",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-18 12:04:43",
+   "website": [],
+   "address": "杨南路2211号罗店宝龙广场1层外围153号底商",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.358470,31.388587",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGG8D12",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/6ec68f7c45a4c2103db707b2e3fb199c"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/8b13c4f6abd52b9b36c0ac1f8ffdc367"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "4000100100",
+   "id": "B0GD3B3H6X",
+   "tag": "拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+   "entr_location": [],
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "美兰湖",
+   "childtype": "201",
+   "atag": "拿铁,美式,小火山黑糖厚乳,牛油果森林瑞纳冰,冰镇杨梅瑞纳冰,海盐芝士厚乳拿铁,SOE耶加雪菲美式,陨石厚乳拿铁,杨枝甘露瑞纳冰,生椰拿铁yyds,陨石拿铁,菠萝的海瑞纳冰,圣诞甜心厚乳拿铁,西柚冰萃咖啡,厚乳拿铁,如梦令·功夫轻乳茶,陨石拿铁瑞纳冰,夏日桃桃冰,椰子OK瑞纳冰,秋香厚乳拿铁,小陨石抹茶厚乳,杨枝甘露,生椰拿铁",
+   "name": "瑞幸咖啡(罗店宝龙广场店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "13.00",
+    "opentime2": "周一至周日 10:00-22:00",
+    "rating": "4.0",
+    "open_time": "10:00-22:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721026812",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "1",
+   "email": [],
+   "timestamp": "2026-10-18 01:37:29",
+   "website": [],
+   "address": "杨南路2211号罗店宝龙广场三层331室",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": "GD0012800210300325",
+    "truefloor": "F3",
+    "cpid": "B0FFGG8D12",
+    "floor": "3"
+   },
+   "exit_location": [],
+   "location": "121.359115,31.388719",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGG8D12",
+   "pcode": "310000",
+   "keytag": "饮品",
+   "type": "餐饮服务;咖啡厅;星巴克咖啡",
+   "photos": [
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/b6f6e3965c5988c71107c1ac008fbcc8"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/e5f0adf254f2cebd0000000959222374?type=pic"
+    },
+    {
+     "title": [],
+     "url": "http://store.is.autonavi.com/showpic/d39d2e2b166d5bd3cf272c7bb8193b9f"
+    }
+   ],
+   "building": [],
+   "typecode": "050501",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": "021-56129669",
+   "id": "B0FFGJOJ2I",
+   "tag": "抹茶星冰乐,焦糖玛奇朵,可可碎片星冰乐,香草拿铁,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,美式咖啡,下午茶,单人餐",
+   "entr_location": "121.357925,31.387806",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "美兰湖",
+   "childtype": "201",
+   "atag": "抹茶星冰乐,焦糖玛奇朵,可可碎片星冰乐,香草拿铁,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,美式咖啡,下午茶,单人餐",
+   "name": "星巴克(宝山罗店宝龙广场店)",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": "H51F008011_301249",
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "30.00",
+    "opentime2": "周一至周日 06:30-22:00",
+    "rating": "4.5",
+    "open_time": "06:30-22:00",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721026812",
+   "shopinfo": "1",
+   "alias": [],
+   "event": [],
+   "indoor_map": "1",
+   "email": [],
+   "timestamp": "2026-10-22 03:03:44",
+   "website": [],
+   "address": "杨南路2211号第一层的M1-1F-059、M1-1F-060、M1-1F-061、M1-1F-067单元",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": "GD0012800210100053",
+    "truefloor": "F1",
+    "cpid": "B0FFGG8D12",
+    "floor": "1"
+   },
+   "exit_location": [],
+   "location": "121.358534,31.388510",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  },
+  {
+   "parent": "B0FFGG8D12",
+   "pcode": "310000",
+   "keytag": "咖啡",
+   "type": "餐饮服务;咖啡厅;咖啡厅",
+   "photos": [
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/cd81c9d717d61fcc0000002998642877?type=pic"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/c5f194ab445fc4a4be3e491860101325"
+    },
+    {
+     "title": [],
+     "url": "https://store.is.autonavi.com/showpic/1794aa066916ccfc0000002998678086?type=pic"
+    }
+   ],
+   "building": [],
+   "typecode": "050500",
+   "poiweight": [],
+   "citycode": "021",
+   "adname": "宝山区",
+   "children": [],
+   "featured_reviews_remake": [],
+   "tel": [],
+   "id": "B0MBNXV04T",
+   "tag": "coffee",
+   "entr_location": "121.359257,31.389115",
+   "adcode": "310113",
+   "pname": "上海市",
+   "biz_type": "diner",
+   "cityname": "上海市",
+   "postcode": [],
+   "business_area": "美兰湖",
+   "childtype": "202",
+   "atag": "coffee",
+   "name": "Manner Coffee",
+   "shopid": [],
+   "favorite_num": [],
+   "navi_poiid": [],
+   "distance": [],
+   "importance": [],
+   "biz_ext": {
+    "cost": "22.00",
+    "opentime2": "周一至周日 07:30-21:30",
+    "rating": "3.8",
+    "open_time": "07:30-21:30",
+    "meal_ordering": "0"
+   },
+   "recommend": "0",
+   "discount_num": "0",
+   "gridcode": "4721026822",
+   "shopinfo": "0",
+   "alias": [],
+   "event": [],
+   "indoor_map": "0",
+   "email": [],
+   "timestamp": "2026-10-22 13:27:19",
+   "website": [],
+   "address": "宝龙广场(罗南新村地铁站1号口步行230米)",
+   "space_num": [],
+   "match": "0",
+   "indoor_data": {
+    "cmsid": [],
+    "truefloor": [],
+    "cpid": [],
+    "floor": []
+   },
+   "exit_location": [],
+   "location": "121.359025,31.389075",
+   "groupbuy_num": "0",
+   "featured_reviews": []
+  }
+ ]
+}

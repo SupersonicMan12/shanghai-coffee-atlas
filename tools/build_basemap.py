@@ -12,38 +12,42 @@ Source data (c) OpenStreetMap contributors, ODbL.
 """
 
 import json
+import hashlib
 import math
 import os
 import sys
 import time
+from ring import OLD_SHEET_BBOX, SHEET_BBOX
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
 OUT = os.path.join(HERE, "..", "src", "data", "basemap.json")
 
-# The stage: the whole-city sheet — Hongqiao airport to Jinqiao, 前滩/三林 in
-# the south to 五角场 and 彭浦 in the north; the inner ring sits in the middle.
-# Aspect ~1.17:1 so PAPER_WIDTH=1600 gives a ~1370 px tall sheet.
-BBOX = (31.121, 121.340, 31.330, 121.625)  # S, W, N, E
+BBOX = SHEET_BBOX  # S, W, N, E
+# The old sheet remains detailed; outer coverage uses only large features.
+OLD_SHEET = OLD_SHEET_BBOX
 # The old inner-ring sheet; used to keep the denser layers (lanes, small
 # parks, secondary roads) crisp there and lighter outside.
 INNER = (31.162, 121.392, 31.287, 121.557)
-# Overpass tiles for the fetch: one request per tile per layer, 2 s apart.
-TILES = (2, 2)
 PAUSE_S = 2.0
+OLD_TILES = (2, 2)
+BAND_TILES = (5, 6)
+RETRY_BACKOFF_S = (20, 40)
 USER_AGENT = "shanghai-coffee-atlas/1.1 (basemap builder; github.com/SupersonicMan12/shanghai-coffee-atlas)"
+PARK_AREA_THRESHOLD = 1.5e-5  # deg², approximately 15 hectares
+WATER_AREA_THRESHOLD = 5e-6  # retain larger outer-sheet water bodies
 
 OVERPASS_URLS = [
-    "https://overpass.kumi.systems/api/interpreter",
     "https://overpass-api.de/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
     "https://lz4.overpass-api.de/api/interpreter",
 ]
 
 
-def tiles(pad=0.02):
-    s, w, n, e = BBOX
-    s, w, n, e = s - pad, w - pad, n + pad, e + pad
-    rows, cols = TILES
+def tiles(bbox, rows, cols):
+    s, w, n, e = bbox
     dh, dw = (n - s) / rows, (e - w) / cols
     return [
         f"{s + r * dh:.4f},{w + c * dw:.4f},{s + (r + 1) * dh:.4f},{w + (c + 1) * dw:.4f}"
@@ -76,51 +80,179 @@ out geom;""",
     }
 
 
+def atomic_json(path, data):
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False)
+    os.replace(tmp, path)
+
+
+def query_hash(query):
+    return hashlib.sha256(query.encode()).hexdigest()
+
+
 def fetch_tile(name, query):
     import requests
 
-    for url in OVERPASS_URLS:
-        try:
-            resp = requests.post(
-                url, data={"data": query}, timeout=240,
-                headers={"User-Agent": USER_AGENT})
-            if resp.status_code != 200:
-                raise RuntimeError(f"HTTP {resp.status_code}")
-            return resp.json()
-        except Exception as exc:  # noqa: BLE001 — try the next mirror
-            print(f"{name}: {url} failed ({exc})", file=sys.stderr)
-            time.sleep(5)
-    raise SystemExit(f"could not fetch {name} from any Overpass mirror")
+    last = None
+    for round_index in range(3):
+        for url in OVERPASS_URLS:
+            try:
+                resp = requests.post(
+                    url, data={"data": query}, timeout=180,
+                    headers={"User-Agent": USER_AGENT})
+                if resp.status_code != 200:
+                    raise RuntimeError(f"HTTP {resp.status_code}")
+                data = resp.json()
+                if "elements" not in data:
+                    raise RuntimeError("no elements in reply")
+                return data
+            except Exception as exc:  # noqa: BLE001 — try the next mirror
+                last = exc
+                print(f"{name}: {url} round {round_index + 1} failed ({exc})", file=sys.stderr)
+        if round_index < len(RETRY_BACKOFF_S):
+            time.sleep(RETRY_BACKOFF_S[round_index])
+    raise SystemExit(f"{name}: all mirrors failed after 3 rounds: {last}")
+
+
+def cached_tile(path, bbox, query):
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as fh:
+        cached = json.load(fh)
+    if cached.get("bbox") != bbox or cached.get("queryHash") != query_hash(query):
+        return None
+    return cached.get("reply")
+
+
+def fetch_dataset(name, query_fn, area, grid, dataset, force=False):
+    tile_boxes = tiles(area, *grid)
+    tile_dir = os.path.join(RAW, "_tiles", name.replace(".json", ""))
+    os.makedirs(tile_dir, exist_ok=True)
+    state_path = os.path.join(tile_dir, "_state.json")
+    if os.path.exists(state_path):
+        with open(state_path, encoding="utf-8") as fh:
+            state = json.load(fh)
+    else:
+        state = {"failures": {}, "splits": {}}
+    merged, seen = [], set()
+
+    def save_state():
+        atomic_json(state_path, state)
+
+    def fetch_one(bb, tile_id, depth=0):
+        query = query_fn(bb)
+        path = os.path.join(tile_dir, f"{tile_id}.json")
+        data = None if force else cached_tile(path, bb, query)
+        if data is not None:
+            return data.get("elements", [])
+
+        child_ids = state["splits"].get(tile_id)
+        if child_ids:
+            bounds = tuple(float(value) for value in bb.split(","))
+            children = tiles(bounds, 2, 2)
+            elements = [
+                element
+                for child, child_id in zip(children, child_ids)
+                for element in fetch_one(child, child_id, depth + 1)
+            ]
+            atomic_json(path, {"bbox": bb, "queryHash": query_hash(query),
+                               "reply": {"elements": elements}})
+            return elements
+
+        if data is None:
+            print(f"{name}: {tile_id}/{len(tile_boxes)} {bb}")
+            try:
+                data = fetch_tile(f"{name} {tile_id}", query)
+            except SystemExit:
+                failures = state["failures"].get(tile_id, 0) + 1
+                state["failures"][tile_id] = failures
+                if failures < 2 or depth >= 2:
+                    save_state()
+                    raise
+                print(f"{name}: splitting {tile_id} after {failures} failed fetches")
+                bounds = tuple(float(value) for value in bb.split(","))
+                children = tiles(bounds, 2, 2)
+                child_ids = [f"{tile_id}-{child_index}" for child_index in range(4)]
+                state["splits"][tile_id] = child_ids
+                save_state()
+                elements = [
+                    element
+                    for child, child_id in zip(children, child_ids)
+                    for element in fetch_one(child, child_id, depth + 1)
+                ]
+                atomic_json(path, {"bbox": bb, "queryHash": query_hash(query),
+                                   "reply": {"elements": elements}})
+                return elements
+            state["failures"].pop(tile_id, None)
+            atomic_json(path, {"bbox": bb, "queryHash": query_hash(query), "reply": data})
+            save_state()
+            time.sleep(PAUSE_S)
+        return data.get("elements", [])
+
+    for i, bb in enumerate(tile_boxes):
+        for element in fetch_one(bb, f"{dataset}-{i:02d}"):
+            key = (element["type"], element["id"])
+            if key not in seen:
+                seen.add(key)
+                merged.append(element)
+    return merged
+
+
+def band_overpass_queries(bb):
+    return {
+        "water.json": f"""[out:json][timeout:120];
+(
+  nwr["natural"="water"]({bb});
+  way["waterway"~"^(river|canal)$"]({bb});
+  relation["waterway"~"^(river|canal)$"]({bb});
+);
+out geom;""",
+        "parks.json": f"""[out:json][timeout:120];
+nwr["leisure"="park"]({bb});
+out geom;""",
+        "roads.json": f"""[out:json][timeout:120];
+way["highway"~"^(motorway|trunk|primary)$"]({bb});
+out geom;""",
+    }
 
 
 def fetch_raw(force=False):
-    """Download the Overpass extracts into tools/raw (skips existing files).
-
-    Each layer is fetched one tile at a time (TILES, PAUSE_S apart) and the
-    tiles are merged by element id, so a relation that spans tiles (the river,
-    a district) is kept once with the geometry from its first tile — `out geom`
-    returns the full member geometry regardless of the bbox.
-    """
+    """Fetch detailed old-sheet layers and light outer-sheet layers, resumably."""
     os.makedirs(RAW, exist_ok=True)
-    bbs = tiles()
-    for name in overpass_queries(bbs[0]):
-        path = os.path.join(RAW, name)
-        if os.path.exists(path) and not force:
-            print(f"{name}: cached")
+    old_queries = overpass_queries("0,0,0,0")
+    band_queries = band_overpass_queries("0,0,0,0")
+    for name, query in old_queries.items():
+        if name == "districts.json":
             continue
-        merged, seen = [], set()
-        for i, bb in enumerate(bbs):
-            print(f"{name}: tile {i + 1}/{len(bbs)} {bb}")
-            data = fetch_tile(name, overpass_queries(bb)[name])
-            for el in data.get("elements", []):
-                key = (el["type"], el["id"])
-                if key not in seen:
-                    seen.add(key)
-                    merged.append(el)
-            time.sleep(PAUSE_S)
-        with open(path, "w", encoding="utf-8") as fh:
-            json.dump({"elements": merged}, fh, ensure_ascii=False)
+        path = os.path.join(RAW, name)
+        old = fetch_dataset(name, lambda bb, key=name: overpass_queries(bb)[key],
+                            OLD_SHEET, OLD_TILES, "old", force)
+        merged = old
+        if name in band_queries:
+            outer = fetch_dataset(name, lambda bb, key=name: band_overpass_queries(bb)[key],
+                                  BBOX, BAND_TILES, "band", force)
+            seen = {(el["type"], el["id"]) for el in merged}
+            merged.extend(el for el in outer if (el["type"], el["id"]) not in seen)
+        atomic_json(path, {"elements": merged})
         print(f"{name}: {len(merged)} elements")
+
+    district_path = os.path.join(RAW, "districts.json")
+    bb = ",".join(str(v) for v in (BBOX[0], BBOX[1], BBOX[2], BBOX[3]))
+    query = f"""[out:json][timeout:120];
+relation["boundary"="administrative"]["admin_level"="6"]({bb});
+out geom;"""
+    try:
+        elements = fetch_dataset("districts.json", lambda _bb: query,
+                                 BBOX, (1, 1), "sheet", force)
+    except SystemExit:
+        names = "|".join(DISTRICT_EN)
+        fallback = f"""[out:json][timeout:120];
+relation["boundary"="administrative"]["admin_level"="6"]["name"~"^({names})$"]({bb});
+out geom;"""
+        elements = fetch_dataset("districts.json", lambda _bb: fallback,
+                                 BBOX, (1, 1), "district-names", force)
+    atomic_json(district_path, {"elements": elements})
 
 LANE_NAMES = [
     "武康路", "安福路", "永康路", "五原路", "长乐路", "巨鹿路", "复兴中路",
@@ -155,6 +287,8 @@ DISTRICT_EN = {
     "黄浦区": "Huangpu", "徐汇区": "Xuhui", "静安区": "Jing'an",
     "长宁区": "Changning", "虹口区": "Hongkou", "普陀区": "Putuo",
     "杨浦区": "Yangpu", "浦东新区": "Pudong", "闵行区": "Minhang",
+    "宝山区": "Baoshan", "嘉定区": "Jiading", "青浦区": "Qingpu",
+    "松江区": "Songjiang", "奉贤区": "Fengxian",
 }
 
 
@@ -173,6 +307,12 @@ def in_inner(points):
     s, w, n, e = INNER
     x, y = points[len(points) // 2]
     return s <= y <= n and w <= x <= e
+
+
+def in_old_sheet(points):
+    """True when a feature has a point in the previously published sheet."""
+    s, w, n, e = OLD_SHEET
+    return any(s <= y <= n and w <= x <= e for x, y in points)
 
 
 def ring_area(ring):
@@ -288,9 +428,9 @@ def clip(ring, pad=0.004):
     return [[round(x, 5), round(y, 5)] for x, y in poly]
 
 
-def clip_line(points, pad=0.004):
+def clip_line(points, pad=0.004, bounds=None):
     """Keep the longest run of a polyline that stays on the sheet."""
-    s, w, n, e = BBOX
+    s, w, n, e = bounds or BBOX
     runs, run = [], []
     for x, y in points:
         if w - pad <= x <= e + pad and s - pad <= y <= n + pad:
@@ -361,7 +501,12 @@ def build_water():
             if len(geom) > 1 and touches(geom, 0.0):
                 pts = clip_line(coords(geom, 0.00015))
                 cls = tags.get("waterway", "stream")
-                if len(pts) > 1 and (cls != "stream" or name or in_inner(pts)):
+                keep = (
+                    (cls != "stream" or name or in_inner(pts))
+                    if in_old_sheet(pts)
+                    else cls in ("river", "canal")
+                )
+                if len(pts) > 1 and keep:
                     lines.append({"name": name, "cls": cls, "points": pts})
             continue
         for geom in rings_from(el):
@@ -370,7 +515,10 @@ def build_water():
             ring = clip(coords(geom, 0.00015), 0.001)
             if len(ring) < 4:
                 continue
-            if not name and ring_area(ring) < 1.5e-6 and not in_inner(ring):
+            if in_old_sheet(ring):
+                if not name and ring_area(ring) < 1.5e-6 and not in_inner(ring):
+                    continue
+            elif ring_area(ring) < WATER_AREA_THRESHOLD:
                 continue
             key = tuple(map(tuple, ring))
             if key in seen:
@@ -381,7 +529,7 @@ def build_water():
 
 
 def build_parks():
-    out = []
+    old, outer = [], []
     for el in load("parks.json"):
         tags = el.get("tags", {})
         for geom in rings_from(el):
@@ -390,13 +538,17 @@ def build_parks():
             ring = clip(coords(geom, 0.00010), 0.001)
             if len(ring) < 4:
                 continue
-            out.append({
+            if not in_old_sheet(ring) and ring_area(ring) < PARK_AREA_THRESHOLD:
+                continue
+            park = {
                 "name": tags.get("name:en") or tags.get("name", ""),
                 "nameZh": tags.get("name", ""),
                 "points": ring,
-            })
-    out.sort(key=lambda p: -len(p["points"]))
-    return out[:120]
+            }
+            (old if in_old_sheet(ring) else outer).append(park)
+    old.sort(key=lambda p: -len(p["points"]))
+    outer.sort(key=lambda p: -len(p["points"]))
+    return old[:120] + outer
 
 
 def build_roads():
@@ -407,9 +559,13 @@ def build_roads():
         geom = el.get("geometry") or []
         if len(geom) < 2 or not touches(geom, 0.0):
             continue
-        pts = clip_line(coords(geom, 0.0), 0.006)
+        cls = el.get("tags", {}).get("highway", "secondary")
+        pts = clip_line(
+            coords(geom, 0.0), 0.006,
+            OLD_SHEET if cls == "secondary" else None,
+        )
         if len(pts) > 1:
-            by_cls.setdefault(el.get("tags", {}).get("highway", "secondary"), []).append(pts)
+            by_cls.setdefault(cls, []).append(pts)
     out = []
     for cls in ("motorway", "trunk", "primary", "secondary"):
         for line in join_lines(by_cls.get(cls, [])):
@@ -426,7 +582,9 @@ def build_lanes():
         name = tags.get("name", "")
         if name not in LANE_NAMES or len(geom) < 2 or not touches(geom, 0.0):
             continue
-        buckets.setdefault(name, []).append(coords(geom, 0.00010))
+        pts = coords(geom, 0.00010)
+        if in_old_sheet(pts):
+            buckets.setdefault(name, []).append(pts)
     return [
         {"nameZh": name, "name": LANE_EN.get(name, name), "segments": segs}
         for name, segs in sorted(buckets.items())
@@ -458,8 +616,24 @@ def build_districts():
 
 
 def main():
-    if "--fetch" in sys.argv:
-        fetch_raw(force="--force" in sys.argv)
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--source", choices=("overpass", "pbf"), default="overpass")
+    parser.add_argument("--scope", choices=("old", "full"), default="full")
+    parser.add_argument("--fetch", action="store_true")
+    parser.add_argument("--force", action="store_true")
+    parser.add_argument("--output", default=OUT)
+    args = parser.parse_args()
+    global RAW, BBOX
+    BBOX = OLD_SHEET if args.scope == "old" else SHEET_BBOX
+    if args.source == "pbf":
+        if args.fetch:
+            parser.error("--fetch is only available for the Overpass source")
+        RAW = os.path.join(HERE, "raw", f"pbf-{args.scope}", "basemap")
+    elif args.fetch:
+        fetch_raw(force=args.force)
+    output_path = args.output
     basemap = {
         "bbox": {"south": BBOX[0], "west": BBOX[1], "north": BBOX[2], "east": BBOX[3]},
         "attribution": "Geometry (c) OpenStreetMap contributors, ODbL",
@@ -469,14 +643,15 @@ def main():
         "lanes": build_lanes(),
         "districts": build_districts(),
     }
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as fh:
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as fh:
         json.dump(basemap, fh, ensure_ascii=False, separators=(",", ":"))
-    size = os.path.getsize(OUT) / 1024
-    print(f"wrote {OUT} ({size:.0f} kB)")
+    size = os.path.getsize(output_path) / 1024
+    print(f"wrote {output_path} ({size:.0f} kB)")
     for key in ("parks", "roads", "lanes", "districts"):
         print(f"  {key}: {len(basemap[key])}")
     print(f"  water areas: {len(basemap['water']['areas'])}")
+    print(f"  water lines: {len(basemap['water']['lines'])}")
 
 
 if __name__ == "__main__":

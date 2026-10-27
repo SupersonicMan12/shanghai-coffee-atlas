@@ -73,8 +73,10 @@ def parse_cafes(src: str | None = None) -> list[dict]:
     if src is None:
         src = CAFES_TS.read_text(encoding='utf-8')
     cafes = []
-    for block in re.finditer(r'\{\s*\n\s*id:\s*\'([^\']+)\',(.*?)\n  \}', src, re.S):
-        body = block.group(2)
+    pattern = (r"(?m)^(?P<indent> *)\{\n(?P=indent)  id:\s*'(?P<id>[^']+)',"
+               r"(?P<body>.*?)\n(?P=indent)\}(?: as Cafe)?")
+    for block in re.finditer(pattern, src, re.S):
+        body = block.group('body')
 
         def field(name: str) -> str | None:
             m = re.search(r"\b%s:\s*(?:'((?:[^'\\]|\\.)*)'|([-\d.]+))" % name, body)
@@ -83,7 +85,7 @@ def parse_cafes(src: str | None = None) -> list[dict]:
             return m.group(1) if m.group(1) is not None else m.group(2)
 
         cafes.append({
-            'id': block.group(1),
+            'id': block.group('id'),
             'name': (field('name') or '').replace("\\'", "'"),
             'nameZh': (field('nameZh') or '').replace("\\'", "'"),
             'lat': float(field('lat') or 0),
