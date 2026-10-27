@@ -55,8 +55,13 @@ export interface View {
   k: number
 }
 
-const MIN_K = 0.85 * OLD_SHEET_LON_SPAN / LON_SPAN
-const MAX_K = 7
+/**
+ * The v7 sheet is wider than the one every zoom threshold, pin size and label
+ * rule was tuned on; `view.k / SHEET_SCALE` is the zoom on that old sheet.
+ */
+const SHEET_SCALE = LON_SPAN / OLD_SHEET_LON_SPAN
+const MIN_K = 0.85
+const MAX_K = 7 * SHEET_SCALE
 
 /** Pointer travel (CSS px) before a press stops being a tap and becomes a drag. */
 const DRAG_PX = 6
@@ -465,7 +470,8 @@ export function AtlasMap({
   useImperativeHandle(
     handleRef,
     () => ({
-      focusOn(lng, lat, k = 3.4) {
+      focusOn(lng, lat, zoom = 3.4) {
+        const k = clamp(zoom * SHEET_SCALE, MIN_K, MAX_K)
         const [px, py] = project(lng, lat)
         const m = metrics.current
         // On a phone the bottom sheet covers part of the stage; centre in what is left.
@@ -730,7 +736,7 @@ export function AtlasMap({
   const onKeyDown = (e: ReactKeyboardEvent<HTMLDivElement>) => {
     if (e.target !== e.currentTarget) return
     const v = cur.current
-    const step = 80 / v.k
+    const step = (80 * SHEET_SCALE) / v.k
     const pan = (dx: number, dy: number) => flyTo({ k: v.k, x: v.x - dx * v.k, y: v.y - dy * v.k }, 180)
     switch (e.key) {
       case '+':
@@ -769,8 +775,8 @@ export function AtlasMap({
 
   const layout = useMemo(() => layoutFor(cafes), [cafes])
 
-  const kb = bucketK(view.k)
-  const inv = 1 / view.k
+  const kb = bucketK(view.k / SHEET_SCALE)
+  const inv = SHEET_SCALE / view.k
 
   // A zoom commit re-sizes every pin at once; that is a snap, not a breath,
   // so the ink transitions are held off for the frame it lands in.
@@ -880,7 +886,7 @@ export function AtlasMap({
     const below = sy < 96
     return {
       left: sx,
-      top: below ? sy + (r + 8) * m.s0 : sy - (r + 8) * m.s0,
+      top: below ? sy + (r + 8) * m.s0 * SHEET_SCALE : sy - (r + 8) * m.s0 * SHEET_SCALE,
       below,
       name: names.primary,
       sub: names.secondary,
