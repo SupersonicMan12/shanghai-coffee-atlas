@@ -1,4 +1,4 @@
-import { memo, useEffect, useRef, useState } from 'react'
+import { memo, useEffect, useRef, useState, type CSSProperties } from 'react'
 import basemap from '../data/basemap.json'
 import { PAPER_HEIGHT, PAPER_WIDTH, project } from '../lib/projection'
 import { jitter, randomAt, sketch, wash, type Pt } from '../lib/hand'
@@ -164,7 +164,7 @@ function washMarkup(c: BasemapColors, withFilters: boolean): string {
       )
       .join('')}</g>` +
     `</g>` +
-    `<g stroke="${c.parkInk}" stroke-opacity="0.5" stroke-width="0.7" fill="none">${trees
+    `<g class="trees" stroke="${c.parkInk}" stroke-opacity="0.5" stroke-width="0.7" fill="none">${trees
       .map(
         (t) =>
           `<circle cx="${t.x.toFixed(1)}" cy="${t.y.toFixed(1)}" r="${t.r.toFixed(1)}"/>` +
@@ -295,6 +295,8 @@ function rasterise(colors: BasemapColors): Promise<Rasters> {
 export const VECTOR_ROADS_K = 1.9
 export const LANE_LABELS_K = 1.6
 export const DISTRICT_LABELS_K = 2.5
+/** Above this zoom the illustrator's marks (plane trees, district dashes) leave the sheet. */
+export const MARKS_K = 4.5
 
 interface RasterProps {
   /** Palette resolved from the page's CSS variables; null until measured. */
@@ -351,21 +353,24 @@ interface Props {
   raster: boolean
 }
 
+/** Stroke width as a CSS variable so `--ink-thin` on the svg can scale it at extreme zoom. */
+const inkWidth = (w: number) => ({ '--sw': w }) as CSSProperties
+
 /** Every road and lane as live vectors: mounted once, the first time k crosses VECTOR_ROADS_K. */
 const RoadVectors = memo(function RoadVectors() {
   return (
     <g fill="none" strokeLinecap="round">
       {roadsByClass.secondary.map((d, i) => (
-        <path key={i} d={d} stroke="var(--road)" strokeWidth="1.5" strokeOpacity="0.75" />
+        <path key={i} d={d} stroke="var(--road)" style={inkWidth(1.5)} strokeOpacity="0.75" />
       ))}
       {roadsByClass.primary.map((d, i) => (
-        <path key={i} d={d} stroke="var(--road)" strokeWidth="2.6" />
+        <path key={i} d={d} stroke="var(--road)" style={inkWidth(2.6)} />
       ))}
       {roadsByClass.trunk.map((d, i) => (
-        <path key={i} d={d} stroke="var(--road-strong)" strokeWidth="3.6" />
+        <path key={i} d={d} stroke="var(--road-strong)" style={inkWidth(3.6)} />
       ))}
       {lanePaths.map((l) =>
-        l.ds.map((d, j) => <path key={`${l.id}-${j}`} d={d} stroke="var(--lane)" strokeWidth="2.4" strokeOpacity="0.9" />),
+        l.ds.map((d, j) => <path key={`${l.id}-${j}`} d={d} stroke="var(--lane)" style={inkWidth(2.4)} strokeOpacity="0.9" />),
       )}
     </g>
   )
@@ -454,10 +459,20 @@ function BaseLayersInner({ k, raster }: Props) {
   // Once the vector roads have been mounted they stay; only their opacity flips.
   const [roadsMounted, setRoadsMounted] = useState(vectorRoads)
   if (vectorRoads && !roadsMounted) setRoadsMounted(true)
+  // The bitmap wash is painted at about 1.3× the sheet; from the zoom where the
+  // roads go vector, the water and parks do too, so their edges stay crisp.
+  const vectorWash = !raster || k >= VECTOR_ROADS_K
+  const marks = k < MARKS_K
+  const [washMounted, setWashMounted] = useState(vectorWash)
+  if (vectorWash && !washMounted) setWashMounted(true)
 
   return (
     <g className="basemap">
-      {!raster && <VectorWash />}
+      {washMounted && (
+        <g className={`lod wash${vectorWash ? '' : ' lod-off'}${marks ? '' : ' no-marks'}`}>
+          <VectorWash />
+        </g>
+      )}
 
       {roadsMounted && (
         <g className={`lod roads${vectorRoads ? '' : ' lod-off'}`}>
@@ -469,7 +484,9 @@ function BaseLayersInner({ k, raster }: Props) {
         <LaneLabels />
       </g>
 
-      <DistrictInk />
+      <g className={`lod${marks ? '' : ' lod-off'}`}>
+        <DistrictInk />
+      </g>
 
       <g className={`district-labels lod${districtLabels ? '' : ' lod-off'}`}>
         <DistrictLabels />

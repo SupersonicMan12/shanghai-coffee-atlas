@@ -856,6 +856,58 @@
   visibility: hidden;
 }
 
+/* Road ink is sized in paper units; past city scale the svg's --ink-thin
+   (set by AtlasMap) pulls it back so a trunk road stays a stroke. */
+.basemap .roads path,
+.streets .street {
+  stroke-width: calc(var(--sw, 1) * var(--ink-thin, 1) * 1px);
+}
+
+.basemap .wash.no-marks .trees {
+  visibility: hidden;
+}
+
+/* The street grid at block scale, under the pins and over the wash. */
+.streets {
+  pointer-events: none;
+}
+
+.streets .street {
+  stroke: var(--road);
+}
+
+.streets .tertiary {
+  stroke-opacity: 0.8;
+}
+
+.streets .residential,
+.streets .unclassified {
+  stroke-opacity: 0.62;
+}
+
+.streets .living_street {
+  stroke-opacity: 0.5;
+}
+
+.streets .pedestrian {
+  stroke: var(--lane);
+  stroke-opacity: 0.38;
+  stroke-dasharray: calc(1.2px * var(--ink-thin, 1)) calc(1.6px * var(--ink-thin, 1));
+}
+
+.street-labels text {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  fill: var(--ink);
+  fill-opacity: 0.72;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 2.4px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
 .lane-labels text {
   font-family: var(--serif);
   font-size: 8.5px;
