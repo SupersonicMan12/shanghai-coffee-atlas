@@ -3,6 +3,7 @@ import { badgesFor, type Stamp } from '../lib/passport'
 import { Glyph } from './Glyphs'
 import { UI } from '../data/labels'
 import { useI18n } from '../lib/i18n'
+import { useNotes } from '../lib/notes'
 
 interface Props {
   cafes: Cafe[]
@@ -26,7 +27,8 @@ export function PassportPanel({
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
   const byId = new Map(cafes.map((c) => [c.id, c]))
-  const badges = badgesFor(stamps, cafes)
+  const myNotes = useNotes().all.filter((n) => n.mine && n.status !== 'rejected')
+  const badges = badgesFor(stamps, cafes, myNotes.length)
   const earned = badges.filter((b) => b.earned).length
   const visited = stamps
     .map((s) => ({ stamp: s, cafe: byId.get(s.cafeId) }))
@@ -53,6 +55,10 @@ export function PassportPanel({
         <div>
           <strong>{saved.length}</strong>
           <span>{t(UI.onTheList)}</span>
+        </div>
+        <div>
+          <strong>{myNotes.length}</strong>
+          <span>{t(UI.notesCount)}</span>
         </div>
       </div>
 
@@ -103,6 +109,31 @@ export function PassportPanel({
           </ul>
         </div>
       )}
+
+      <div className="section">
+        <div className="section-head">
+          <h3>{t(UI.notesMine)}</h3>
+          {mode === 'both' && <span className="zh">我的留言</span>}
+        </div>
+        {myNotes.length === 0 ? (
+          <p className="empty">{t(UI.notesMineNone)}</p>
+        ) : (
+          <ul className="mini-list my-notes">
+            {myNotes.map((n) => {
+              const cafe = byId.get(n.cafeId)
+              return (
+                <li key={n.id}>
+                  <button onClick={() => onSelectCafe(n.cafeId)}>
+                    {cafe ? (zh ? cafe.nameZh : cafe.name) : n.cafeId}
+                    {n.status === 'pending' && <span className="note-pending">{t(UI.notesPending)}</span>}
+                    <em>{n.text}</em>
+                  </button>
+                </li>
+              )
+            })}
+          </ul>
+        )}
+      </div>
 
       <div className="section">
         <div className="section-head">

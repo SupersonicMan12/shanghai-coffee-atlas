@@ -8,9 +8,17 @@ in a photo). Nothing here is inferred from the café's archetype, tags, seat
 guess or opening span — when no reading speaks for an axis, no hint is
 produced and the app falls back to the editorial prior at low confidence.
 
-    hint.value      = Σ w·v / Σ w
+    mean            = Σ w·v / Σ w
+    hint.value      = mean pushed toward the pole it already points at, by
+                      1 − 0.6^(agreeing weight beyond the heaviest reading),
+                      scaled by how unanimous the readings are
     hint.confidence = min(0.85, 0.3 + 0.2·Σ w)      (one firm reading → 0.5)
     hint.because    = the two heaviest readings, in words
+
+One reading nudges; independent readings that all say the same thing are
+allowed to decide. A stand-up bar in the photos *and* a page that says
+“站着喝” land linger near 5, where the averaging alone would stop at 15.
+Readings that disagree cancel the push and the mean stands.
 """
 
 from __future__ import annotations
@@ -25,14 +33,15 @@ SITE = {'sohu': '搜狐', 'dianping': '大众点评', 'xiaohongshu': '小红书'
 
 
 def cost_to_spend(cost: float) -> int:
-    # ¥ per head → 0..100 spend axis (everyday 15 ≈ 15, premium 100+ ≈ 90)
-    pts = [(12, 8), (20, 18), (30, 32), (40, 46), (50, 58), (65, 70), (85, 82), (120, 92)]
+    # ¥ per head → 0..100 spend axis: ¥10 (chain deals) is the floor of the
+    # city, ¥160+ 人均 is tasting-flight territory
+    pts = [(10, 3), (15, 10), (20, 18), (30, 32), (40, 46), (50, 58), (65, 70), (85, 82), (120, 92), (160, 98)]
     if cost <= pts[0][0]:
         return pts[0][1]
     for (c0, s0), (c1, s1) in zip(pts, pts[1:]):
         if cost <= c1:
             return round(s0 + (s1 - s0) * (cost - c0) / (c1 - c0))
-    return 95
+    return 99
 
 
 def reading(axis: str, value: int, weight: float, en: str, zh: str, evidence: str, url: str | None = None) -> dict:
@@ -63,7 +72,8 @@ def from_vision(vis: dict) -> list[dict]:
         r.append(reading('linger', 70, 0.4, 'sockets by the seats', '座位旁可见插座', 'photo'))
     if room == 'bar' or seats == 'none':
         why_en, why_zh = ('stand-up bar, no seating', '站喝吧台，没有座位') if seats == 'none' else ('a stand-up bar counter', '吧台站喝店')
-        r.append(reading('linger', 12, 1.0, why_en, why_zh, 'photo'))
+        # no seat at all is the definition of the grab-and-go pole
+        r.append(reading('linger', 6 if seats == 'none' else 12, 1.0, why_en, why_zh, 'photo'))
         r.append(reading('focus', 15, 0.7, why_en, why_zh, 'photo'))
         r.append(reading('energy', 58, 0.4, why_en, why_zh, 'photo'))
     elif seats == 'few' or room == 'small':
@@ -172,6 +182,22 @@ def from_listings(amap: dict, dianping: dict) -> list[dict]:
     return r
 
 
+def corroborated(mean: float, rs: list[dict]) -> int:
+    """Push the weighted mean toward its pole when several readings agree on the side."""
+    if abs(mean - 50) < 1:
+        return round(mean)
+    pole = 100 if mean > 50 else 0
+    same = [x for x in rs if (x['value'] > 50) == (pole == 100)]
+    agree = sum(x['weight'] for x in same)
+    conflict = sum(x['weight'] for x in rs) - agree
+    extra = agree - max((x['weight'] for x in same), default=0)
+    if extra <= 0 or agree <= 0:
+        return round(max(0, min(100, mean)))
+    unanimity = max(0.0, (agree - conflict) / (agree + conflict))
+    push = (1 - 0.6 ** extra) * unanimity
+    return round(max(0, min(100, mean + (pole - mean) * push)))
+
+
 def derive(vis: dict, web_axes: dict, amap: dict, dianping: dict) -> dict[str, dict]:
     readings = from_vision(vis) + from_web(web_axes) + from_listings(amap, dianping)
     hints: dict[str, dict] = {}
@@ -180,10 +206,10 @@ def derive(vis: dict, web_axes: dict, amap: dict, dianping: dict) -> dict[str, d
         if not rs:
             continue
         w = sum(x['weight'] for x in rs)
-        value = round(sum(x['weight'] * x['value'] for x in rs) / w)
+        mean = sum(x['weight'] * x['value'] for x in rs) / w
         top = rs[:2]
         hint = {
-            'value': max(0, min(100, value)),
+            'value': corroborated(mean, rs),
             'confidence': round(min(0.85, 0.3 + 0.2 * w), 2),
             'because': '; '.join(x['en'] for x in top)[:160],
             'becauseZh': '；'.join(x['zh'] for x in top)[:80],

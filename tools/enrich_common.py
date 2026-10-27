@@ -87,29 +87,30 @@ def cafes() -> list[dict]:
     """Parse src/data/cafes.ts without a TS toolchain (the file is generated in a fixed shape)."""
     source = CAFES_TS.read_text(encoding='utf-8')
     result: list[dict] = []
-    for chunk in source.split('\n  {\n    id: ')[1:]:
-        header = chunk.split('\n  },', 1)[0]
-        m = re.match(r"'([^']+)',\n", header)
-        if not m:
-            continue
-        body = header
+    record_re = re.compile(
+        r"(?m)^(?P<indent> *)\{\n(?P=indent)  id:\s*'(?P<id>[^']+)',"
+        r"(?P<body>.*?)\n(?P=indent)\}(?: as Cafe)?",
+        re.S,
+    )
+    for m in record_re.finditer(source):
+        body = m.group('body')
         amap = re.search(r"amap:\s*\{\s*id:\s*'([^']+)'", body, re.S)
         tags = re.search(r'tags:\s*\[([^\]]*)\]', body)
         result.append({
-            'id': m.group(1),
-            'name': _field(body, r"\n    name:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'nameZh': _field(body, r"nameZh:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'district': _field(body, r"district:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'hood': _field(body, r"hood:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'street': _field(body, r"\n    street:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'streetZh': _field(body, r"streetZh:\s*(?:'([^']*)'|\"([^\"]*)\")"),
+            'id': m.group('id'),
+            'name': _field(body, r"\n\s*name:\s*(?:'((?:[^'\\]|\\.)*)'|\"([^\"]*)\")"),
+            'nameZh': _field(body, r"\n\s*nameZh:\s*(?:'((?:[^'\\]|\\.)*)'|\"([^\"]*)\")"),
+            'district': _field(body, r"\n\s*district:\s*(?:'([^']*)'|\"([^\"]*)\")"),
+            'hood': _field(body, r"\n\s*hood:\s*(?:'([^']*)'|\"([^\"]*)\")"),
+            'street': _field(body, r"\n\s*street:\s*(?:'((?:[^'\\]|\\.)*)'|\"([^\"]*)\")"),
+            'streetZh': _field(body, r"\n\s*streetZh:\s*(?:'((?:[^'\\]|\\.)*)'|\"([^\"]*)\")"),
             'lat': float(_field(body, r'lat:\s*([\d.]+)', '0')),
             'lng': float(_field(body, r'lng:\s*([\d.]+)', '0')),
             'archetype': _field(body, r"archetype:\s*'([^']*)'"),
             'axes': {k: int(v) for k, v in re.findall(r'(focus|energy|linger|adventure|spend):\s*(\d+)', body)[:5]},
             'tags': [t.strip().strip("'\"") for t in tags.group(1).split(',') if t.strip()] if tags else [],
-            'signature': _field(body, r"signature:\s*(?:'([^']*)'|\"([^\"]*)\")"),
-            'note': _field(body, r"note:\s*(?:'((?:[^'\\]|\\.)*)'|\"((?:[^\"\\]|\\.)*)\")"),
+            'signature': _field(body, r"\n\s*signature:\s*(?:'((?:[^'\\]|\\.)*)'|\"([^\"]*)\")"),
+            'note': _field(body, r"\n\s*note:\s*(?:'((?:[^'\\]|\\.)*)'|\"((?:[^\"\\]|\\.)*)\")"),
             'opens': float(_field(body, r'opens:\s*([\d.]+)', '0')),
             'closes': float(_field(body, r'closes:\s*([\d.]+)', '0')),
             'seats': int(_field(body, r'seats:\s*(\d+)', '0')),

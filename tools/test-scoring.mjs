@@ -75,8 +75,8 @@ const hint = (over = {}) => ({
 
 test('an evidence hint follows the formula and carries its reason', () => {
   const ev = blendAxis(60, hint(), undefined)
-  // c_h=0.5: (60 + 3·0.5·100)/(1 + 3·0.5)
-  assert.equal(ev.value, Math.round((60 + W_EVIDENCE * 0.5 * 100) / (1 + W_EVIDENCE * 0.5)))
+  // c_h=0.5: (0.5·60 + 3·0.5·100)/(0.5 + 3·0.5)
+  assert.equal(ev.value, Math.round((0.5 * 60 + W_EVIDENCE * 0.5 * 100) / (0.5 + W_EVIDENCE * 0.5)))
   assert.equal(ev.because, 'people working on laptops in the photos')
   assert.equal(ev.becauseZh, '照片里有人在用电脑办公')
   assert.deepEqual(ev.sources, ['editorial', 'observed'])
@@ -89,6 +89,16 @@ test('hint confidence scales both the pull and the ink', () => {
   assert.ok(firm.confidence > weak.confidence && weak.confidence > 0.35)
   // confidence = 0.35 + 0.65·c_h
   assert.equal(firm.confidence, Math.round((0.35 + 0.65 * 0.9) * 100) / 100)
+})
+
+test('the prior fades as evidence firms up: firm agreeing evidence reaches the poles', () => {
+  const firm = blendAxis(50, hint({ value: 96, confidence: 0.85 }), undefined)
+  assert.ok(firm.value >= 92, `expected ≥92, got ${firm.value}`)
+  const low = blendAxis(50, hint({ value: 4, confidence: 0.85 }), undefined)
+  assert.ok(low.value <= 8, `expected ≤8, got ${low.value}`)
+  // a lone weak reading still only nudges
+  const weak = blendAxis(50, hint({ value: 96, confidence: 0.3 }), undefined)
+  assert.ok(weak.value < 85 && weak.value > 50)
 })
 
 test('a zero-confidence hint is ignored entirely', () => {

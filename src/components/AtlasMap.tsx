@@ -14,7 +14,15 @@ import {
 import type { Cafe } from '../data/types'
 import type { Anchor } from '../lib/near'
 import { LINE_COLOR } from '../data/metro'
-import { BBOX, PAPER_HEIGHT, PAPER_WIDTH, project } from '../lib/projection'
+import {
+  BBOX,
+  LON_SPAN,
+  OLD_SHEET_LON_SPAN,
+  OUTER_RING_BBOX,
+  PAPER_HEIGHT,
+  PAPER_WIDTH,
+  project,
+} from '../lib/projection'
 import { blot, numerals, pennant } from '../lib/hand'
 import { BaseLayers, BaseRaster } from './BaseLayers'
 import { paletteHost, readBasemapColors, sameColors, type BasemapColors } from '../lib/basemapColors'
@@ -23,6 +31,7 @@ import { UI } from '../data/labels'
 import { useI18n, type LangMode } from '../lib/i18n'
 import { displayNames } from '../lib/names'
 import { detailFor } from '../lib/details'
+import { publicNoteCounts, useNotes } from '../lib/notes'
 import {
   bucketK,
   clamp,
@@ -46,7 +55,7 @@ export interface View {
   k: number
 }
 
-const MIN_K = 0.85
+const MIN_K = 0.85 * OLD_SHEET_LON_SPAN / LON_SPAN
 const MAX_K = 7
 
 /** Pointer travel (CSS px) before a press stops being a tap and becomes a drag. */
@@ -118,10 +127,17 @@ function measure(el: HTMLElement): Metrics {
   }
 }
 
-/** The view that shows the whole sheet, centred, with a hair of margin. */
-function wholeSheet(m: Metrics): View {
-  const k = Math.max(MIN_K, (Math.min(m.w / PAPER_WIDTH, m.h / PAPER_HEIGHT) / m.s0) * 0.98)
-  return { k, x: (PAPER_WIDTH * (1 - k)) / 2, y: (PAPER_HEIGHT * (1 - k)) / 2 }
+/** Frame the Outer Ring so the expanded sheet stays a discoverable zoom-out. */
+function outerRingFrame(m: Metrics): View {
+  const [left, top] = project(OUTER_RING_BBOX.west, OUTER_RING_BBOX.north)
+  const [right, bottom] = project(OUTER_RING_BBOX.east, OUTER_RING_BBOX.south)
+  const k = Math.max(
+    MIN_K,
+    (Math.min(m.w / (right - left), m.h / (bottom - top)) / m.s0) * 0.98,
+  )
+  const cx = (left + right) / 2
+  const cy = (top + bottom) / 2
+  return { k, x: PAPER_WIDTH / 2 - cx * k, y: PAPER_HEIGHT / 2 - cy * k }
 }
 
 /** The part of user space (paper at k=1) currently on screen. */
@@ -231,6 +247,8 @@ export function AtlasMap({
   const [colors, setColors] = useState<BasemapColors | null>(null)
   const [rasterReady, setRasterReady] = useState(false)
   const { mode, t } = useI18n()
+  const notesAll = useNotes().all
+  const noted = useMemo(() => new Set(publicNoteCounts(notesAll).keys()), [notesAll])
 
   /** The view painted on screen right now; React's `view` trails it by one gesture. */
   const cur = useRef<View>(view)
@@ -262,6 +280,7 @@ export function AtlasMap({
   const onSelectRef = useRef(onSelect)
   /** Stage geometry mirrored into state for the few things React lays out (the tooltip). */
   const [stageBox, setStageBox] = useState<Metrics | null>(null)
+  const initialFrame = useRef(false)
 
   useEffect(() => {
     onSelectRef.current = onSelect
@@ -458,7 +477,7 @@ export function AtlasMap({
         flyTo({ k, x: cx - px * k, y: cy - py * k }, 480, 640)
       },
       reset() {
-        flyTo(wholeSheet(metrics.current), 480, 640)
+        flyTo(outerRingFrame(metrics.current), 480, 640)
       },
       zoomBy(factor) {
         const v = cur.current
@@ -478,6 +497,11 @@ export function AtlasMap({
     apply(cur.current)
     const ro = new ResizeObserver(() => {
       metrics.current = measure(stage)
+      if (!initialFrame.current) {
+        cur.current = outerRingFrame(metrics.current)
+        initialFrame.current = true
+        setView(cur.current)
+      }
       setStageBox(metrics.current)
       apply(cur.current)
       if (!gesture.current) schedule()
@@ -924,6 +948,7 @@ export function AtlasMap({
               hovered={hovered}
               visited={visited}
               saved={saved}
+              noted={noted}
               k={kb}
               inv={inv}
               labelIds={labelIds}
@@ -972,6 +997,7 @@ export function AtlasMap({
                 ) : (
                   <>
                     <circle className="me-pulse" r="22" fill="none" stroke="var(--accent)" strokeWidth="2.5" />
+                    <circle className="me-pulse second" r="22" fill="none" stroke="var(--accent)" strokeWidth="1.5" />
                     <circle r="40" fill="var(--accent)" fillOpacity="0.14" />
                     <path
                       d="M0 4 C-11 -9 -9.5 -22 0 -22 C9.5 -22 11 -9 0 4 Z"
@@ -998,6 +1024,7 @@ export function AtlasMap({
                 {(!anchor || anchor.kind === 'me') && (
                   <>
                     <circle className="me-pulse" r="22" fill="none" stroke="var(--accent)" strokeWidth="2.5" />
+                    <circle className="me-pulse second" r="22" fill="none" stroke="var(--accent)" strokeWidth="1.5" />
                     <circle r="40" fill="var(--accent)" fillOpacity="0.14" />
                   </>
                 )}
@@ -1076,6 +1103,8 @@ interface PinsProps {
   hovered: string | null
   visited: Set<string>
   saved: Set<string>
+  /** Cafés with at least one approved visitor note. */
+  noted: Set<string>
   /** Bucketed committed zoom; the layer never sees mid-gesture values. */
   k: number
   inv: number
@@ -1102,6 +1131,7 @@ interface PinProps {
   dim: boolean
   visited: boolean
   saved: boolean
+  noted: boolean
   label: boolean
   fade: boolean
   place: number | undefined
@@ -1125,6 +1155,7 @@ const Pin = memo(function Pin({
   dim,
   visited,
   saved,
+  noted,
   label,
   fade,
   place,
@@ -1208,6 +1239,18 @@ const Pin = memo(function Pin({
           />
         </g>
       )}
+      {noted && showGlyph && (
+        <g className="noted" transform={`translate(${-f * 0.78},${-f * 0.7}) scale(${inv})`}>
+          <path
+            d="M-4.5 -4 h9 a1.5 1.5 0 0 1 1.5 1.5 v4.5 a1.5 1.5 0 0 1 -1.5 1.5 h-4.5 l-2.8 2.4 v-2.4 h-1.7 a1.5 1.5 0 0 1 -1.5 -1.5 v-4.5 a1.5 1.5 0 0 1 1.5 -1.5 z"
+            fill="var(--paper)"
+            stroke="var(--ink)"
+            strokeWidth="1.1"
+            strokeLinejoin="round"
+          />
+          <path d="M-2.5 -0.5 h5 M-2.5 1.5 h3.2" stroke="var(--ink)" strokeWidth="1" strokeLinecap="round" />
+        </g>
+      )}
       {place !== undefined && (
         <g className="flag" transform={`translate(${f * 0.55},${-f * 0.7}) scale(${inv})`}>
           <path d={PENNANTS[place].mast} fill="none" stroke="var(--ink)" strokeWidth="1.5" strokeLinecap="round" />
@@ -1257,6 +1300,7 @@ const Pins = memo(function Pins({
   hovered,
   visited,
   saved,
+  noted,
   k,
   inv,
   labelIds,
@@ -1292,6 +1336,7 @@ const Pins = memo(function Pins({
             dim={score === undefined}
             visited={visited.has(cafe.id)}
             saved={saved.has(cafe.id)}
+            noted={noted.has(cafe.id)}
             label={label}
             fade={!label && fading.has(cafe.id)}
             place={rank.get(cafe.id)}

@@ -43,6 +43,7 @@ import {
 } from './lib/scenarios'
 import { WALK_LIMIT_MIN, compassSays, explain, shanghaiWeekday, type Why } from './lib/why'
 import { usePassport } from './lib/passport'
+import { noteStore } from './lib/notes'
 import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
 import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type Pair } from './lib/i18n'
@@ -312,6 +313,12 @@ export default function App() {
         .register(`${import.meta.env.BASE_URL}sw.js`)
         .catch(() => undefined)
     }
+  }, [])
+
+  // Visitor notes are not needed for first paint; fetch them once the map is idle.
+  useEffect(() => {
+    const t = setTimeout(() => noteStore.start(), 2500)
+    return () => clearTimeout(t)
   }, [])
 
   useEffect(() => {

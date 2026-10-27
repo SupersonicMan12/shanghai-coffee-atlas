@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import type { Axes, Cafe } from '../data/types'
 import { CAFES } from '../data/cafes'
 import { AXES, blendAllMemo, isOpenAt, scoreVerdict } from '../lib/match'
@@ -20,6 +19,8 @@ import { displayNames } from '../lib/names'
 import { detailFor, firmTraits, hoursOn } from '../lib/details'
 import type { Why } from '../lib/why'
 import { CalibrateWidget } from './CalibrateWidget'
+import { CafeNotes } from './CafeNotes'
+import { CafePhotos } from './CafePhotos'
 import { VerdictBlock } from './Verdict'
 
 const DAY_EN = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
@@ -84,8 +85,6 @@ export function CafeCard({
   const detail = detailFor(cafe)
   const toClose = minutesToClose(cafe, hour, weekday)
   const closingSoon = !detail.status && toClose !== null && toClose <= CLOSING_SOON_MINUTES
-  const [broken, setBroken] = useState<ReadonlySet<string>>(() => new Set())
-  const photos = detail.photos.filter((src) => !broken.has(src)).slice(0, 4)
   const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
   const usedAsReason = new Set((why?.reasons ?? []).filter((r) => r.kind === 'trait').map((r) => r.text.en))
   const traits = firmTraits(cafe, compassOn && why ? 5 : 3).filter((tr) => !usedAsReason.has(tr.text))
@@ -119,6 +118,12 @@ export function CafeCard({
           </span>
         )}
       </div>
+
+      {detail.photos.length > 0 ? (
+        <CafePhotos photos={detail.photos} kinds={detail.photoKinds} alt={names.primary} />
+      ) : (
+        <p className="card-nophoto">{t(UI.noPhotos)}</p>
+      )}
 
       {compassOn && score !== null && (
         <div className="card-score">
@@ -154,23 +159,6 @@ export function CafeCard({
             </li>
           ))}
         </ul>
-      )}
-
-      {photos.length > 0 && (
-        <div className={`card-photos n${photos.length}`} aria-label={t(UI.photosLabel)}>
-          {photos.map((src) => (
-            <figure key={src} className="card-photo">
-              <img
-                src={src}
-                alt=""
-                loading="lazy"
-                decoding="async"
-                referrerPolicy="no-referrer"
-                onError={() => setBroken((prev) => new Set(prev).add(src))}
-              />
-            </figure>
-          ))}
-        </div>
       )}
 
       {detail.dishes.length > 0 && (
@@ -330,6 +318,8 @@ export function CafeCard({
           ))}
         </div>
       )}
+
+      <CafeNotes cafeId={cafe.id} />
     </aside>
   )
 }

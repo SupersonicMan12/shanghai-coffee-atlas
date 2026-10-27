@@ -8,6 +8,10 @@ export type District =
   | 'Pudong'
   | 'Yangpu'
   | 'Minhang'
+  | 'Baoshan'
+  | 'Jiading'
+  | 'Qingpu'
+  | 'Songjiang'
 
 /**
  * The drawing that gets stamped on the map. Each archetype has its own
@@ -188,8 +192,10 @@ export interface AxisHint {
  * evidenced traits). Absent = nothing beyond the editorial record.
  */
 export interface CafeDetail {
-  /** Amap photo URLs, up to 4. */
+  /** Amap photo URLs of the matched listing, up to 6, storefront first. */
   photos: string[]
+  /** What each photo shows, parallel to `photos`. */
+  photoKinds?: PhotoKind[]
   /** Amap recommended items (Chinese), as listed. */
   dishes: string[]
   /** Weekly hours when known; day 0 = Sunday. */
@@ -207,6 +213,8 @@ export interface CafeDetail {
   status?: 'suspended' | 'renovating'
 }
 
+export type PhotoKind = 'storefront' | 'interior' | 'seating' | 'drink' | 'food' | 'menu'
+
 /** Structured readings from the photo pass — only fields the model could confirm. */
 export interface SeenRoom {
   room?: 'bar' | 'small' | 'medium' | 'large' | 'courtyard' | 'mall'
@@ -218,4 +226,3 @@ export interface SeenRoom {
   roastingGear?: boolean
   brewBar?: boolean
 }
-

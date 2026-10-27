@@ -11,6 +11,10 @@ export const DISTRICTS: District[] = [
   'Pudong',
   'Yangpu',
   'Minhang',
+  'Baoshan',
+  'Jiading',
+  'Qingpu',
+  'Songjiang',
 ]
 
 export const DISTRICT_ZH: Record<District, string> = {
@@ -23,6 +27,10 @@ export const DISTRICT_ZH: Record<District, string> = {
   Pudong: '浦东',
   Yangpu: '杨浦',
   Minhang: '闵行',
+  Baoshan: '宝山',
+  Jiading: '嘉定',
+  Qingpu: '青浦',
+  Songjiang: '松江',
 }
 
 export const TAG_LABEL: Record<Tag, string> = {
@@ -324,6 +332,47 @@ export const UI = {
   hardFacts: { en: 'Hard facts', zh: '硬信息' },
   weekHours: { en: 'This week', zh: '本周营业' },
   photosLabel: { en: 'Photos', zh: '照片' },
+  photoStorefront: { en: 'Storefront', zh: '门脸' },
+  photoInterior: { en: 'Inside', zh: '店内' },
+  photoDrink: { en: 'Drinks', zh: '饮品' },
+  photoFood: { en: 'Food', zh: '食物' },
+  photoMenu: { en: 'Menu', zh: '菜单' },
+  photoSource: { en: 'Photos: Amap listing', zh: '照片来自高德商户页' },
+  photoOpen: { en: 'Enlarge photo', zh: '放大照片' },
+  photoPrev: { en: 'Previous photo', zh: '上一张' },
+  photoNext: { en: 'Next photo', zh: '下一张' },
+  noPhotos: { en: 'No photos yet — been here? Leave a note below.', zh: '暂无实景照片 · 去过的话在下方留一句' },
+
+  // community notes
+  notesTitle: { en: 'Notes from visitors', zh: '去过的人说' },
+  notesNone: { en: 'No notes yet. Be the first.', zh: '还没有人留言，来第一句。' },
+  notesWrite: { en: 'Leave a note', zh: '写一句留言' },
+  notesNameLabel: { en: 'Name (optional)', zh: '署名（可不填）' },
+  notesNamePlaceholder: { en: 'Anonymous', zh: '匿名' },
+  notesTextPlaceholder: {
+    en: 'What was it like? Seats, sockets, noise, the drink you had…',
+    zh: '这里怎么样？座位、插座、吵不吵、点了什么…',
+  },
+  notesSend: { en: 'Post', zh: '发布' },
+  notesSending: { en: 'Posting…', zh: '发布中…' },
+  notesCancel: { en: 'Cancel', zh: '取消' },
+  notesPending: { en: 'awaiting review', zh: '待审核' },
+  notesPendingHint: {
+    en: 'Shown to everyone once reviewed; until then only you see it here.',
+    zh: '审核后所有人可见；在此之前只有你自己看得到。',
+  },
+  notesLocalOnly: {
+    en: 'Saved on this device only — the shared notebook is offline right now.',
+    zh: '已保存在本机——共享留言本暂时不可用，稍后会自动同步。',
+  },
+  notesFailed: { en: 'Could not post. Saved on this device; will retry.', zh: '发布失败，已存在本机，稍后重试。' },
+  notesTooShort: { en: 'A few more words?', zh: '再多写几个字？' },
+  notesAnon: { en: 'Anonymous', zh: '匿名' },
+  notesPhotosSoon: { en: 'Photos coming later', zh: '之后可以加照片' },
+  notesCount: { en: 'notes', zh: '条留言' },
+  notesMine: { en: 'My notes', zh: '我的留言' },
+  notesMineNone: { en: 'Notes you leave under a café appear here.', zh: '你在店铺下写的留言会出现在这里。' },
+  notesRule: { en: 'Facts help most. No phone numbers, no ads.', zh: '写事实最有用。不留电话，不打广告。' },
   sharePicks: { en: 'Share my 3 picks', zh: '分享我的三家首选' },
   myCompassPicks: { en: 'My compass → 3 picks', zh: '我的罗盘 → 三家首选' },
   withinWalk: { en: 'within a 20 min walk', zh: '20 分钟步行内' },

@@ -12,11 +12,13 @@ import { detailFor } from './details'
 /**
  * The blend behind every axis (the “?” page explains this in prose).
  *
- *   axis = (w_e·E + w_h·c_h·H + w_u·ū·n/(n+k))
- *        / (w_e + w_h·c_h + w_u·n/(n+k))
+ *   axis = (w_e·(1−c_h)·E + w_h·c_h·H + w_u·ū·n/(n+k))
+ *        / (w_e·(1−c_h) + w_h·c_h + w_u·n/(n+k))
  *
  * E — editorial prior (the curated value in `cafe.axes`), a considered
- *     guess and nothing more; it is never dressed up as measurement.
+ *     guess and nothing more; it is never dressed up as measurement. Its
+ *     weight fades as evidence firms up — a guess should not keep pulling a
+ *     café back to the middle once three readings agree on where it sits.
  * H/c_h — the evidence hint for that axis and its confidence, derived
  *     offline by tools/axis_evidence.py from checkable readings only:
  *     structured photo facts (people on laptops, a stand-up bar, a roaster),
@@ -102,8 +104,9 @@ export function blendAxis(
   const shrink = n / (n + SHRINK_K)
   const hc = hint ? Math.max(0, Math.min(1, hint.confidence)) : 0
 
-  let num = W_EDITORIAL * editorial
-  let den = W_EDITORIAL
+  const we = W_EDITORIAL * (1 - hc)
+  let num = we * editorial
+  let den = we
   if (hint && hc > 0) {
     num += W_EVIDENCE * hc * hint.value
     den += W_EVIDENCE * hc

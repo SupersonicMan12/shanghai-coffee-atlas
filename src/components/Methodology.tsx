@@ -67,11 +67,11 @@ export function Methodology({ onClose }: Props) {
             每个维度是三层的加权平均：编辑判断、证据（照片里可核实的事实、公开网页的原文引述、列出的价格），以及读者投票。证据按它自己的置信度压过编辑意见；足够多的一致读者票数比两者都重。
           </p>
           <pre className="method-formula">
-{`axis = ( wₑ·E + wₕ·cₕ·H + wᵤ·ū·n/(n+k) )
-       ───────────────────────────────
-       ( wₑ + wₕ·cₕ + wᵤ·n/(n+k) )
+{`axis = ( wₑ·(1−cₕ)·E + wₕ·cₕ·H + wᵤ·ū·n/(n+k) )
+       ──────────────────────────────────────
+       ( wₑ·(1−cₕ) + wₕ·cₕ + wᵤ·n/(n+k) )
 
-E  editorial prior 编辑判断      wₑ = 1
+E  editorial prior 编辑判断      wₑ = 1, fading as cₕ grows
 H  evidence reading 证据读数     wₕ = 3  × its confidence cₕ
 ū  mean reader vote 读者均值     wᵤ = 3
 n  number of votes 票数          k  = 5`}

@@ -92,7 +92,7 @@ export interface Badge {
  * Badges reward the kind of exploring the atlas is arguing for: breadth of
  * neighbourhood, breadth of room, and getting out of your own comfort zone.
  */
-export function badgesFor(stamps: Stamp[], cafes: Cafe[]): Badge[] {
+export function badgesFor(stamps: Stamp[], cafes: Cafe[], notes = 0): Badge[] {
   const byId = new Map(cafes.map((c) => [c.id, c]))
   const visited = stamps
     .map((s) => byId.get(s.cafeId))
@@ -140,5 +140,6 @@ export function badgesFor(stamps: Stamp[], cafes: Cafe[]): Badge[] {
     mk('standing', 'No Chairs Needed', '不用坐', p('Four standing bars', '4 家站喝吧'), standing, 4),
     mk('value', 'Fifteen Kuai Club', '十五块俱乐部', p('Six everyday-price cups', '6 家平价店'), cheap, 6),
     mk('early', 'Before the Queue', '赶在排队前', p('Three cafés that open by 07:30', '3 家 7:30 前开门的店'), early, 3),
+    mk('notes', 'Left a Trace', '留下一笔', p('Three notes for the next visitor', '给后来的人写 3 条留言'), notes, 3),
   ]
 }
