@@ -48,6 +48,7 @@ import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
 import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type Pair } from './lib/i18n'
 import { UI } from './data/labels'
+import { recordVisit } from './lib/visits'
 import { CHAIN_FILE_COUNTS, chainOf, loadChains, readChainPrefs, storeChainPrefs } from './lib/chains'
 import { ChainToggle } from './components/ChainToggle'
 
@@ -229,7 +230,7 @@ export default function App() {
   const cafes = useMemo(() => {
     if (!chainPrefs.on) {
       const sel = selectedId ? byId.get(selectedId) : undefined
-      return sel && chainOf(sel) && chainRows ? [...INDEPENDENTS, sel] : INDEPENDENTS
+      return sel && chainOf(sel) ? [...INDEPENDENTS, sel] : INDEPENDENTS
     }
     const off = new Set(chainPrefs.off)
     const keep = (c: Cafe) => {
@@ -376,9 +377,13 @@ export default function App() {
     }
   }, [])
 
-  // Visitor notes are not needed for first paint; fetch them once the map is idle.
+  const langAtLoad = useRef(lang)
+  // Visitor notes and the visit count are not needed for first paint; fetch them once the map is idle.
   useEffect(() => {
-    const t = setTimeout(() => noteStore.start(), 2500)
+    const t = setTimeout(() => {
+      noteStore.start()
+      if (import.meta.env.PROD) void recordVisit(langAtLoad.current)
+    }, 2500)
     return () => clearTimeout(t)
   }, [])
 
