@@ -29,8 +29,10 @@ export async function recordVisit(lang: string): Promise<void> {
   const day = shanghaiDay(now)
   try {
     if (localStorage.getItem(KEY) === day) return
-    const { db } = await cloud()
-    await db.collection(VISITS_COLLECTION).add({
+    const { db, uid } = await cloud()
+    // the id is the device and the day, so a second tab racing this one cannot add a second row
+    const res = await db.collection(VISITS_COLLECTION).add({
+      _id: `${uid}-${day}`,
       day,
       at: now.toISOString(),
       lang,
@@ -38,6 +40,8 @@ export async function recordVisit(lang: string): Promise<void> {
       mobile: matchMedia('(max-width: 900px)').matches,
       installed: matchMedia('(display-mode: standalone)').matches,
     })
+    // the SDK reports a refused write as a result code, not an exception
+    if (res.code && !/duplicate|exist/i.test(res.message ?? '')) return
     localStorage.setItem(KEY, day)
   } catch {
     // offline, storage blocked, or the collection is not set up yet: try again next visit
