@@ -244,3 +244,18 @@ npm run build:mp        # 重新打包 core.js
      ```
      审核在控制台改 `status`（或将来用云函数）。
 - 前端拿不到云端时不报错、不阻塞：留言先写 `localStorage`，下次打开自动重推。
+
+## 12. 访客统计（CloudBase）
+
+- `src/lib/visits.ts`：每台设备每个上海自然日写一条到集合 `visits`，字段 `{day, at, lang, ref, mobile, installed}`，`_openid` 由 CloudBase 写入（匿名登录的设备 id）。只在正式构建里记，本地 `npm run dev` 不记。不用 cookie、不经第三方、不存 IP。失败一律静默。
+- 依赖 §11 的前两步（匿名登录、Web 安全域名）。另外在控制台新建集合 `visits`，安全规则只许新建、不许读：
+  ```json
+  {
+    "read": false,
+    "create": "doc._openid == auth.openid",
+    "update": false,
+    "delete": false
+  }
+  ```
+- 看数：控制台 → 数据库 → `visits`，按 `day` 筛选，条数 = 当日访客数（设备数）；`ref` 是来源站点，`mobile` / `installed` 分别是手机宽度和已添加到主屏。同一人换浏览器或清缓存会算成新访客。
+
