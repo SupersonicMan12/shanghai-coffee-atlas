@@ -34,6 +34,9 @@ export const PAPER_HEIGHT = Math.round(
   (PAPER_WIDTH * LAT_SPAN) / (LON_SPAN * COS_MID),
 )
 
+/** Ground metres per paper unit (equirectangular, so the same along both axes). */
+export const METRES_PER_UNIT = (LON_SPAN * 111320 * COS_MID) / PAPER_WIDTH
+
 export function projectX(lng: number): number {
   return ((lng - BBOX.west) / LON_SPAN) * PAPER_WIDTH
 }
