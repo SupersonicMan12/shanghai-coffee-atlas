@@ -48,12 +48,22 @@ import { useCafeVotes } from './lib/votes'
 import { BBOX, haversine, walkingMinutes } from './lib/projection'
 import { I18nContext, makeI18n, readStoredLang, storeLang, type LangMode, type Pair } from './lib/i18n'
 import { UI } from './data/labels'
+import { recordVisit } from './lib/visits'
+import { CHAIN_FILE_COUNTS, chainOf, loadChains, readChainPrefs, storeChainPrefs } from './lib/chains'
+import { ChainToggle } from './components/ChainToggle'
 
 type Panel = 'compass' | 'passport'
 type View = 'map' | 'list'
 type Lang = LangMode
 
 const byId = new Map(CAFES.map((c) => [c.id, c]))
+/** Chain branches that ship in cafes.ts, per brand; the rest are counted in chains.meta.json. */
+const CHAIN_TOTALS: Record<string, number> = { ...CHAIN_FILE_COUNTS }
+for (const c of CAFES) {
+  const k = chainOf(c)
+  if (k) CHAIN_TOTALS[k] = (CHAIN_TOTALS[k] ?? 0) + 1
+}
+const INDEPENDENTS = CAFES.filter((c) => !chainOf(c))
 /** A café shutting sooner than this is not a recommendation, even if open. */
 const MIN_MINUTES_LEFT = 30
 
@@ -65,6 +75,7 @@ interface HashState {
   anchor?: Anchor
   lang?: Lang
   view?: View
+  chains?: boolean
 }
 
 function readHash(): HashState {
@@ -78,7 +89,9 @@ function readHash(): HashState {
   if (lang === 'both' || lang === 'en' || lang === 'zh') out.lang = lang
   if (h.get('view') === 'list') out.view = 'list'
   const cafe = h.get('cafe')
-  if (cafe && byId.has(cafe)) out.cafe = cafe
+  // an id not in cafes.ts may be a chain branch; it resolves once chains.json loads
+  if (cafe) out.cafe = cafe
+  if (h.get('chains') === '1') out.chains = true
   const at = h.get('at')
   if (at) {
     const anchor = anchorFromHash(at)
@@ -180,14 +193,62 @@ export default function App() {
   const weights = scenario?.weights ?? EVEN_WEIGHTS
   const modified = scenario ? scenarioModified(scenario, axes) : false
 
+  // Chains are off until asked for; the pill on the map says how many are hidden.
+  const [chainPrefs, setChainPrefs] = useState(() => {
+    const p = readChainPrefs()
+    return initial.chains ? { ...p, on: true } : p
+  })
+  const [chainRows, setChainRows] = useState<Cafe[] | null>(null)
+  const [chainsFailed, setChainsFailed] = useState(false)
+  const [chainTry, setChainTry] = useState(0)
+  const needChains =
+    chainPrefs.on ||
+    Boolean(selectedId && !byId.has(selectedId)) ||
+    passport.state.stamps.some((s) => !byId.has(s.cafeId)) ||
+    passport.state.saved.some((id) => !byId.has(id))
+  useEffect(() => {
+    if (!needChains || chainRows) return
+    let live = true
+    loadChains()
+      .then((rows) => {
+        if (!live) return
+        rows.forEach((c) => byId.set(c.id, c))
+        setChainsFailed(false)
+        setChainRows(rows)
+      })
+      .catch(() => live && setChainsFailed(true))
+    return () => {
+      live = false
+    }
+  }, [needChains, chainRows, chainTry])
+  const updateChains = useCallback((p: { on: boolean; off: string[] }) => {
+    setChainPrefs(p)
+    storeChainPrefs(p)
+    setChainTry((n) => n + 1)
+  }, [])
+  // A link to a chain branch shows that branch even with chains switched off.
+  const cafes = useMemo(() => {
+    if (!chainPrefs.on) {
+      const sel = selectedId ? byId.get(selectedId) : undefined
+      return sel && chainOf(sel) ? [...INDEPENDENTS, sel] : INDEPENDENTS
+    }
+    const off = new Set(chainPrefs.off)
+    const keep = (c: Cafe) => {
+      const k = chainOf(c)
+      return !k || !off.has(k)
+    }
+    return [...CAFES, ...(chainRows ?? [])].filter(keep)
+  }, [chainPrefs, chainRows, selectedId])
+  const known = useMemo(() => (chainRows ? [...CAFES, ...chainRows] : CAFES), [chainRows])
+
   const cafeVotes = useCafeVotes()
-  const blended = useMemo(() => blendAllMemo(CAFES, cafeVotes), [cafeVotes])
+  const blended = useMemo(() => blendAllMemo(cafes, cafeVotes), [cafes, cafeVotes])
   // The time bar is a real clock: only cafés open at that hour (weekly hours
   // where known) and not about to shut are ranked; the rest stay on the map,
   // dimmed.
   const ranked = useMemo(
     () =>
-      rank(CAFES, axes, filters, weights, cafeVotes, (c) => {
+      rank(cafes, axes, filters, weights, cafeVotes, (c) => {
         const left = minutesToClose(c, hour, weekday)
         return (
           left !== null &&
@@ -195,14 +256,14 @@ export default function App() {
           passesScenarioFilter(c, scenario?.filter, left)
         )
       }),
-    [axes, filters, weights, cafeVotes, scenario, hour, weekday],
+    [cafes, axes, filters, weights, cafeVotes, scenario, hour, weekday],
   )
   const closedIds = useMemo(() => {
     const out = new Set<string>()
-    for (const c of CAFES) if (!isOpenAt(c, hour, weekday)) out.add(c.id)
+    for (const c of cafes) if (!isOpenAt(c, hour, weekday)) out.add(c.id)
     return out
-  }, [hour, weekday])
-  const openCount = CAFES.length - closedIds.size
+  }, [cafes, hour, weekday])
+  const openCount = cafes.length - closedIds.size
   const nearRanked = useMemo(
     () => (anchor ? rankNear(ranked, anchor) : null),
     [ranked, anchor],
@@ -303,9 +364,10 @@ export default function App() {
     if (anchor && anchor.kind !== 'me') parts.push(`at=${anchorToHash(anchor)}`)
     if (lang !== 'both') parts.push(`lang=${lang}`)
     if (view === 'list') parts.push('view=list')
+    if (chainPrefs.on) parts.push('chains=1')
     const next = parts.length ? `#/${parts.join('&')}` : '#/'
     if (location.hash !== next) history.replaceState(null, '', next)
-  }, [selectedId, compassOn, axes, scenarioId, methodOpen, anchor, lang, view])
+  }, [selectedId, compassOn, axes, scenarioId, methodOpen, anchor, lang, view, chainPrefs.on])
 
   useEffect(() => {
     if (import.meta.env.PROD && 'serviceWorker' in navigator) {
@@ -315,9 +377,13 @@ export default function App() {
     }
   }, [])
 
-  // Visitor notes are not needed for first paint; fetch them once the map is idle.
+  const langAtLoad = useRef(lang)
+  // Visitor notes and the visit count are not needed for first paint; fetch them once the map is idle.
   useEffect(() => {
-    const t = setTimeout(() => noteStore.start(), 2500)
+    const t = setTimeout(() => {
+      noteStore.start()
+      if (import.meta.env.PROD) void recordVisit(langAtLoad.current)
+    }, 2500)
     return () => clearTimeout(t)
   }, [])
 
@@ -334,7 +400,7 @@ export default function App() {
   useEffect(() => {
     const cafe = initial.cafe ? byId.get(initial.cafe) : null
     if (cafe) mapRef.current?.focusOn(cafe.lng, cafe.lat, 3.6)
-  }, [initial])
+  }, [initial, chainRows])
 
   useEffect(() => {
     const onHash = () => {
@@ -557,7 +623,7 @@ export default function App() {
 
   const passportPanel = (
     <PassportPanel
-      cafes={CAFES}
+      cafes={known}
       stamps={passport.state.stamps}
       saved={passport.state.saved}
       onSelectCafe={selectCafe}
@@ -623,7 +689,7 @@ export default function App() {
         </div>
 
         <div className="top-right">
-          <SearchBox cafes={CAFES} onPick={selectCafe} />
+          <SearchBox cafes={cafes} onPick={selectCafe} />
           <button
             className="ghost lang-btn"
             onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
@@ -724,7 +790,7 @@ export default function App() {
         <div className={`map-wrap${view === 'list' ? ' in-list' : ''}`}>
           <AtlasMap
             handleRef={mapRef}
-            cafes={CAFES}
+            cafes={cafes}
             scores={mapScores}
             closed={closedIds}
             compassOn={compassOn}
@@ -760,6 +826,14 @@ export default function App() {
             </button>
           </div>
 
+          <ChainToggle
+            prefs={chainPrefs}
+            totals={CHAIN_TOTALS}
+            loading={chainPrefs.on && !chainRows && !chainsFailed}
+            failed={chainPrefs.on && chainsFailed}
+            onChange={updateChains}
+          />
+
           <div className="attribution">{t(UI.attribution)}</div>
 
           {pinArm && (
@@ -791,6 +865,7 @@ export default function App() {
           {selected && (
             <CafeCard
               cafe={selected}
+              blended={blended.get(selected.id)}
               score={scores.get(selected.id) ?? null}
               want={axes}
               compassOn={compassOn}

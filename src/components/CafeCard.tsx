@@ -1,7 +1,7 @@
 import type { Axes, Cafe } from '../data/types'
-import { CAFES } from '../data/cafes'
-import { AXES, blendAllMemo, isOpenAt, scoreVerdict } from '../lib/match'
-import { useCafeVotes } from '../lib/votes'
+import { AXES, isOpenAt, scoreVerdict } from '../lib/match'
+import type { BlendedAxes } from '../lib/scoring'
+import { BRAND_BY_KEY, chainOf } from '../lib/chains'
 import { CLOSING_SOON_MINUTES, closenessWord, minutesToClose } from '../lib/near'
 import { formatHour } from '../lib/palette'
 import {
@@ -35,6 +35,8 @@ const SOURCE_WORD = {
 
 interface Props {
   cafe: Cafe
+  /** The café's blended compass reading, from the list the app is ranking. */
+  blended: BlendedAxes | undefined
   score: number | null
   want: Axes
   compassOn: boolean
@@ -53,6 +55,32 @@ interface Props {
   onShareCard: () => void
 }
 
+interface Run {
+  days: number[]
+  open: number
+  close: number
+}
+
+/** Monday-first week, with neighbouring days that keep the same hours folded into one run. */
+function weekRuns(week: { day: number; open: number; close: number }[]): Run[] {
+  const order = (d: number) => (d + 6) % 7
+  const runs: Run[] = []
+  for (const h of [...week].sort((a, b) => order(a.day) - order(b.day))) {
+    const last = runs[runs.length - 1]
+    const prev = last?.days[last.days.length - 1]
+    if (last && last.open === h.open && last.close === h.close && order(h.day) === order(prev) + 1) last.days.push(h.day)
+    else runs.push({ days: [h.day], open: h.open, close: h.close })
+  }
+  return runs
+}
+
+function runLabel(days: number[], zh: boolean): string {
+  const name = (d: number) => (zh ? `周${DAY_ZH[d]}` : DAY_EN[d])
+  if (days.length === 7) return zh ? '每天' : 'Every day'
+  if (days.length === 1) return name(days[0])
+  return `${name(days[0])}${zh ? '至' : '–'}${name(days[days.length - 1])}`
+}
+
 function hours(cafe: Cafe, weekday: number) {
   const today = hoursOn(cafe, weekday)
   return `${formatHour(today.open)} – ${formatHour(today.close)}`
@@ -60,6 +88,7 @@ function hours(cafe: Cafe, weekday: number) {
 
 export function CafeCard({
   cafe,
+  blended,
   score,
   want,
   compassOn,
@@ -80,12 +109,13 @@ export function CafeCard({
   const { mode, t } = useI18n()
   const zh = mode === 'zh'
   const names = displayNames(cafe, mode)
-  const cafeVotes = useCafeVotes()
-  const blended = blendAllMemo(CAFES, cafeVotes).get(cafe.id)
+  const brand = BRAND_BY_KEY.get(chainOf(cafe) ?? '')
+  // A branch from chains.json knows its address and hours and nothing else.
+  const bare = Boolean(cafe.chain)
   const detail = detailFor(cafe)
   const toClose = minutesToClose(cafe, hour, weekday)
   const closingSoon = !detail.status && toClose !== null && toClose <= CLOSING_SOON_MINUTES
-  const week = detail.hours && detail.hours.length ? [...detail.hours].sort((a, b) => a.day - b.day) : null
+  const week = detail.hours && detail.hours.length ? weekRuns(detail.hours) : null
   const usedAsReason = new Set((why?.reasons ?? []).filter((r) => r.kind === 'trait').map((r) => r.text.en))
   const traits = firmTraits(cafe, compassOn && why ? 5 : 3).filter((tr) => !usedAsReason.has(tr.text))
   return (
@@ -97,6 +127,12 @@ export function CafeCard({
       <div className="card-kicker">
         {zh ? ARCHETYPE_LABEL[cafe.archetype].zh : ARCHETYPE_LABEL[cafe.archetype].en}
         {mode === 'both' && <span className="zh"> · {ARCHETYPE_LABEL[cafe.archetype].zh}</span>}
+        {brand && (
+          <span className="card-chain">
+            {t(UI.chainBranch)}
+            {mode === 'both' && ` ${UI.chainBranch.zh}`}
+          </span>
+        )}
       </div>
       <h2>{names.primary}</h2>
       {names.secondary && <div className="card-zh zh">{names.secondary}</div>}
@@ -121,6 +157,11 @@ export function CafeCard({
 
       {detail.photos.length > 0 ? (
         <CafePhotos photos={detail.photos} kinds={detail.photoKinds} alt={names.primary} />
+      ) : bare ? (
+        <p className="card-nophoto">
+          {t(UI.chainBare)}
+          {mode === 'both' && <span className="zh"> {UI.chainBare.zh}</span>}
+        </p>
       ) : (
         <p className="card-nophoto">{t(UI.noPhotos)}</p>
       )}
@@ -179,11 +220,11 @@ export function CafeCard({
         <div className="card-week">
           <span className="cw-label">{t(UI.weekHours)}</span>
           <ul>
-            {week.map((h) => (
-              <li key={h.day} className={h.day === weekday ? 'today' : ''}>
-                <b>{zh ? DAY_ZH[h.day] : DAY_EN[h.day]}</b>
+            {week.map((run) => (
+              <li key={run.days[0]} className={run.days.includes(weekday) ? 'today' : ''}>
+                <b>{runLabel(run.days, zh)}</b>
                 <span>
-                  {formatHour(h.open)}–{formatHour(h.close)}
+                  {formatHour(run.open)} – {formatHour(run.close)}
                 </span>
               </li>
             ))}
@@ -199,6 +240,8 @@ export function CafeCard({
               <em className="shut">
                 {t(detail.status === 'suspended' ? UI.statusSuspended : UI.statusRenovating)}
               </em>
+            ) : cafe.hoursUnknown ? (
+              <em className="shut">{t(UI.hoursNotListed)}</em>
             ) : (
               <>
                 {hours(cafe, weekday)}{' '}
@@ -209,7 +252,7 @@ export function CafeCard({
                 </em>
               </>
             )}
-            {closingSoon && (
+            {closingSoon && !cafe.hoursUnknown && (
               <em className="closing-soon">
                 {zh ? `还有 ${toClose} 分钟打烊` : `closes in ${toClose} min`}
                 {mode === 'both' && ' 快打烊'}
@@ -217,7 +260,7 @@ export function CafeCard({
             )}
           </dd>
         </div>
-        <div>
+        <div hidden={bare}>
           <dt>{t(UI.seatsWord)}</dt>
           <dd>
             {cafe.seats === 0

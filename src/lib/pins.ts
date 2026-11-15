@@ -6,6 +6,7 @@
 
 import type { Cafe } from '../data/types'
 import type { LangMode } from './i18n'
+import { chainOf } from './chains'
 import { displayNames } from './names'
 import { project } from './projection'
 
@@ -60,11 +61,15 @@ export function strengthOf(compassOn: boolean, score: number | undefined): numbe
   return Math.round(clamp(((score ?? 50) - 50) / 45, 0, 1) * STRENGTH_STEPS) / STRENGTH_STEPS
 }
 
+/** A chain branch stays a small hollow dot at every zoom, so the independents keep the sheet. */
 export function isQuietPin(k: number, cafe: Cafe, strength: number | null, active: boolean): boolean {
+  if (chainOf(cafe)) return !active
   return cafe.source === 'imported' && k < 1.8 && !active && !(strength !== null && strength > 0.82)
 }
 
 export const QUIET_R = 3.2
+/** A chain's hollow dot once the streets are legible. */
+export const CHAIN_R = 4.6
 
 /** Ink weight for the zoom level alone; the compass adds up to 5 on top. */
 export function basePinRadius(k: number): number {
@@ -72,7 +77,7 @@ export function basePinRadius(k: number): number {
 }
 
 export function pinRadius(k: number, cafe: Cafe, strength: number | null, active: boolean): number {
-  if (isQuietPin(k, cafe, strength, active)) return QUIET_R
+  if (isQuietPin(k, cafe, strength, active)) return chainOf(cafe) && k >= 2.4 ? CHAIN_R : QUIET_R
   return basePinRadius(k) + (strength === null ? 1 : strength * 5)
 }
 
@@ -186,7 +191,7 @@ export function labelSet({
   if (compassOn) {
     cafes.forEach((cafe) => {
       const score = scores.get(cafe.id)
-      if (score !== undefined && score >= 80) add(cafe.id, 3, 1000 - score)
+      if (score !== undefined && score >= 80 && !chainOf(cafe)) add(cafe.id, 3, 1000 - score)
     })
   }
   cafes.forEach((cafe) => {
@@ -194,7 +199,9 @@ export function labelSet({
     const score = scores.get(cafe.id)
     if (tierOf(compassOn, score) === 'lo' && cafe.id !== selectedId) return
     const evidenceOrder = cafe.evidence?.dianping ? 0 : cafe.evidence?.amap ? 1 : 2
-    if (cafe.source !== 'imported') {
+    if (chainOf(cafe)) {
+      if (k >= 4) add(cafe.id, 6, compassOn ? 1000 - (score ?? 0) : evidenceOrder)
+    } else if (cafe.source !== 'imported') {
       add(cafe.id, 4, compassOn ? 1000 - (score ?? 0) : evidenceOrder)
     } else if (k >= 2.4) {
       add(cafe.id, 5, compassOn ? 1000 - (score ?? 0) : evidenceOrder)

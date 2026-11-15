@@ -172,6 +172,14 @@ w_e=1  w_h=3  w_u=3  k=5
      `osmium-tool` 可选，检查命令为 `osmium fileinfo -e tools/cache/osm/shanghai-latest.osm.pbf`。PBF 转换输出隔离在 `tools/raw/pbf-*`，不要和 Overpass 缓存混用。
    - 前端保持纸面单位/度数恒定，首屏按 `OUTER_RING_BBOX` 取景；水彩栅格画布限制为 12,000,000 像素，缩放后由矢量道路接管。
 
+9. **v8 连锁店图层 + 比例尺**
+   - 八个连锁品牌（星巴克、瑞幸、Manner、库迪、Tims、M Stand、皮爷、Costa）的全部门店：`python3 tools/build_chains.py`（需 `pip install --user pypinyin`）读已有的高德缓存 `tools/cache/amap/discover/`，不发新请求，生成 `public/data/chains.json`（3,225 行，按 `fields` 顺序的位置数组）和 `chains.meta.json`（各品牌数量；`src/data/` 里有一份供首屏显示数量）。`cafes.ts` 里原有的每品牌 ≤5 家不动，脚本按 amapId 和「同品牌 60 m 内」去重。注意星巴克在高德是 typecode `050501`，所以脚本匹配整个 `0505xx`。
+   - 网页端**默认不显示连锁店**，地图左上角的药丸始终写着「N 家连锁店未显示 · 显示」；打开后才 `fetch` 这个文件（不进首屏包），并出现八个品牌开关。状态存 `localStorage['shca.chains.v1']` 和 hash `chains=1`。`src/lib/chains.ts` 是唯一入口（品牌表、`chainOf()`、`loadChains()`）。
+   - 连锁门店只有名录事实（地址、营业时间、人均）。罗盘五轴是**品牌级估计**，置信度 0.2，卡片上明说；不显示座位数，没有营业时间的写「未登记」。地图上是小空心点，任何缩放级别都不抢独立店的墨色，k≥4 才有名字。
+   - 比例尺在地图右下角，随缩放在 20 km … 20 m 之间取整（`AtlasMap.tsx` 的 `scaleFor`，在 `apply()` 里直接改 DOM，不触发 React 渲染）。
+   - 卡片「本周营业」从 7 列小字改为按相同时段合并的行（「每天 09:00 – 18:00」/「周一至周五 …」）；卡片标题允许长拼音断行。
+   - **随口咖不带连锁店**（Hans 的决定）：`sync-atlas` 只读 `cafes.ts`，所以什么都不用改，`core.js` 体积不变。以后想要，直接读 `https://supersonicman12.github.io/shanghai-coffee-atlas/data/chains.json`。
+
 ## 8. 已知问题 / 待办（建议顺序）
 
 **体验**
@@ -236,3 +244,18 @@ npm run build:mp        # 重新打包 core.js
      ```
      审核在控制台改 `status`（或将来用云函数）。
 - 前端拿不到云端时不报错、不阻塞：留言先写 `localStorage`，下次打开自动重推。
+
+## 12. 访客统计（CloudBase）
+
+- `src/lib/visits.ts`：每台设备每个上海自然日写一条到集合 `visits`，字段 `{day, at, lang, ref, mobile, installed}`，`_openid` 由 CloudBase 写入（匿名登录的设备 id）。只在正式构建里记，本地 `npm run dev` 不记。不用 cookie、不经第三方、不存 IP。失败一律静默。
+- 依赖 §11 的前两步（匿名登录、Web 安全域名）。另外在控制台新建集合 `visits`，安全规则只许新建、不许读：
+  ```json
+  {
+    "read": false,
+    "create": "doc._openid == auth.openid",
+    "update": false,
+    "delete": false
+  }
+  ```
+- 看数：控制台 → 数据库 → `visits`，按 `day` 筛选，条数 = 当日访客数（设备数）；`ref` 是来源站点，`mobile` / `installed` 分别是手机宽度和已添加到主屏。同一人换浏览器或清缓存会算成新访客。
+

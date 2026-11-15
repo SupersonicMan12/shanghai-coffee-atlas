@@ -1285,10 +1285,12 @@
   font-family: var(--serif);
   font-size: 27px;
   font-weight: 800;
-  line-height: 1.05;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
 }
 
 .card-zh {
+  overflow-wrap: anywhere;
   font-size: 15px;
   opacity: 0.65;
 }
@@ -3355,31 +3357,30 @@ button,
 
 .card-week ul {
   list-style: none;
-  margin: 5px 0 0;
+  margin: 6px 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
   gap: 2px;
 }
 
 .card-week li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
-  padding: 4px 0 3px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 4px 8px;
   border: 1px solid transparent;
   border-radius: 3px;
-  font-size: 9.5px;
+  font-size: 13px;
   font-variant-numeric: tabular-nums;
-  opacity: 0.7;
-  line-height: 1.2;
-  text-align: center;
+  opacity: 0.75;
+  line-height: 1.35;
+  white-space: nowrap;
 }
 
 .card-week li b {
   font-family: var(--serif);
-  font-size: 11px;
+  font-size: 13.5px;
   font-weight: 600;
 }
 
@@ -3691,5 +3692,163 @@ button,
   .card {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+/* -------------------------------------------------------------- chains --- */
+
+.pin.chain .body {
+  fill: var(--paper);
+}
+
+.pin.chain.quiet {
+  fill-opacity: 1;
+  stroke-opacity: 0.85;
+}
+
+.pin.chain.quiet.dim {
+  fill-opacity: 0.5;
+  stroke-opacity: 0.3;
+}
+
+.card-chain {
+  margin-left: 8px;
+  padding: 1px 6px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.85em;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+}
+
+.chain-toggle {
+  position: absolute;
+  left: 30px;
+  top: 62px;
+  z-index: 4;
+  max-width: min(420px, calc(100% - 72px));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.chain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px 6px 12px;
+  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  font-size: 13px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.chain-pill .cp-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.4px solid var(--ink);
+  background: var(--paper);
+  opacity: 0.7;
+}
+
+.chain-pill b {
+  font-variant-numeric: tabular-nums;
+}
+
+.chain-pill .cp-act {
+  flex: none;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chain-pill.on .cp-act {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--ink) 40%, transparent);
+}
+
+.chain-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.chain-brands button {
+  padding: 4px 9px;
+  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  font-size: 12px;
+  line-height: 1.2;
+  opacity: 0.55;
+}
+
+.chain-brands button.on {
+  opacity: 1;
+  border-color: var(--ink);
+}
+
+.chain-brands button span {
+  margin-left: 4px;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.6;
+}
+
+.chain-note {
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  font-size: 12px;
+}
+
+/* --------------------------------------------------------------- scale --- */
+
+.map-scale {
+  position: absolute;
+  right: 14px;
+  bottom: 132px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--paper) 80%, transparent);
+  pointer-events: none;
+}
+
+.map-scale .ms-bar {
+  width: var(--scale-w, 80px);
+  height: 5px;
+  border: 1.2px solid var(--ink);
+  border-top: 0;
+  opacity: 0.8;
+}
+
+.map-scale .ms-label {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
+.pin-arm ~ .chain-toggle,
+.map-wrap.in-list .chain-toggle {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .map-scale {
+    bottom: calc(var(--sheet-peek, 200px) + 6px);
   }
 }

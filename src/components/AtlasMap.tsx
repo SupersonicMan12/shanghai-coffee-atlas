@@ -18,12 +18,14 @@ import { LINE_COLOR } from '../data/metro'
 import {
   BBOX,
   LON_SPAN,
+  METRES_PER_UNIT,
   OLD_SHEET_LON_SPAN,
   OUTER_RING_BBOX,
   PAPER_HEIGHT,
   PAPER_WIDTH,
   project,
 } from '../lib/projection'
+import { chainOf } from '../lib/chains'
 import { blot, numerals, pennant } from '../lib/hand'
 import { Streets, type Window as StreetWindow } from './Streets'
 import { BaseLayers, BaseRaster } from './BaseLayers'
@@ -43,7 +45,6 @@ import {
   layoutFor,
   pinRadius,
   basePinRadius,
-  QUIET_R,
   strengthOf,
   tierOf,
   type Density,
@@ -117,6 +118,15 @@ interface Rect {
   top: number
   right: number
   bottom: number
+}
+
+const SCALE_STEPS = [20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20]
+
+/** The longest round distance whose bar fits in ~110 screen px at this paper scale. */
+function scaleFor(pxPerUnit: number): { metres: number; px: number; label: string } {
+  const pxPerMetre = pxPerUnit / METRES_PER_UNIT
+  const metres = SCALE_STEPS.find((m) => m * pxPerMetre <= 110) ?? SCALE_STEPS[SCALE_STEPS.length - 1]
+  return { metres, px: metres * pxPerMetre, label: metres >= 1000 ? `${metres / 1000} km` : `${metres} m` }
 }
 
 function measure(el: HTMLElement): Metrics {
@@ -306,11 +316,21 @@ export function AtlasMap({
   // (thousands of pins) per frame; a keyframe update only touches the
   // compositor transform node.
   const sheetAnim = useRef<Animation | null>(null)
+  const scaleRef = useRef<HTMLDivElement | null>(null)
 
   const apply = useCallback((v: View) => {
     const sheet = sheetRef.current
     if (!sheet) return
     const m = metrics.current
+    const bar = scaleRef.current
+    if (bar) {
+      const s = scaleFor(v.k * m.s0)
+      if (bar.dataset.m !== String(s.metres)) {
+        bar.dataset.m = String(s.metres)
+        ;(bar.lastElementChild as HTMLElement).textContent = s.label
+      }
+      bar.style.setProperty('--scale-w', `${s.px.toFixed(1)}px`)
+    }
     const transform = `translate(${(m.offX + v.x * m.s0).toFixed(2)}px, ${(m.offY + v.y * m.s0).toFixed(2)}px) scale(${(v.k * m.s0).toFixed(5)})`
     if (typeof sheet.animate !== 'function') {
       sheet.style.transform = transform
@@ -939,6 +959,10 @@ export function AtlasMap({
         onSelect(null)
       }}
     >
+      <div ref={scaleRef} className="map-scale" aria-hidden="true">
+        <span className="ms-bar" />
+        <span className="ms-label" />
+      </div>
       <div ref={sheetRef} className="paper" style={{ width: PAPER_WIDTH, height: PAPER_HEIGHT }}>
         <BaseRaster colors={colors} k={kb} onReady={setRasterReady} />
         <svg
@@ -1188,10 +1212,11 @@ const Pin = memo(function Pin({
 }: PinProps) {
   const active = isSel || isHover
   const quiet = isQuietPin(k, cafe, strength, active)
+  const chain = chainOf(cafe) !== null
   // Only the inked circles follow the score; glyph, badges and label sit on
   // the zoom-level frame so a slider drag never relayouts their paths.
   const pinR = pinRadius(k, cafe, strength, active)
-  const frameR = quiet ? QUIET_R : basePinRadius(k) + (strength === null ? 1 : 5)
+  const frameR = quiet ? pinR : basePinRadius(k) + (strength === null ? 1 : 5)
   const r = pinR * inv
   const f = frameR * inv
   const showGlyph = frameR >= 7
@@ -1202,7 +1227,7 @@ const Pin = memo(function Pin({
     <g
       data-id={cafe.id}
       transform={`translate(${x},${y})`}
-      className={`pin${quiet ? ' quiet' : ''}${dim ? ' dim' : ''}${active ? ' active' : ''}${tier ? ` ${tier}` : ''}${
+      className={`pin${quiet ? ' quiet' : ''}${chain ? ' chain' : ''}${dim ? ' dim' : ''}${active ? ' active' : ''}${tier ? ` ${tier}` : ''}${
         place !== undefined ? ' top' : ''
       }`}
       onPointerEnter={(e) => {
@@ -1221,9 +1246,9 @@ const Pin = memo(function Pin({
         r={r}
         fill="var(--pin-fill)"
         stroke="var(--ink)"
-        strokeWidth={(quiet ? 0.9 : tier === 'hi' ? 1.9 : 1.4) * inv}
+        strokeWidth={(chain && quiet ? 1.3 : quiet ? 0.9 : tier === 'hi' ? 1.9 : 1.4) * inv}
       />
-      {(active || k >= 1.8) && (
+      {(active || (k >= 1.8 && !quiet)) && (
         <circle
           className="ring"
           r={r + 2.5 * inv}

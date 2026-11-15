@@ -92,6 +92,10 @@ export interface Cafe {
   evidence?: Evidence
   /** How the record entered the atlas. Absent = curated ('editorial'). */
   source?: 'editorial' | 'imported'
+  /** Brand key when the shop is a branch of a big chain (src/lib/chains.ts). */
+  chain?: string
+  /** The register lists no hours; `opens`/`closes` are a daytime assumption. */
+  hoursUnknown?: boolean
 }
 
 /** Where an axis value comes from, in increasing order of authority. */

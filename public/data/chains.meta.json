@@ -1,0 +1,33 @@
+{
+  "file": "chains.json",
+  "fetchedAt": "2026-10-22T07:46:06Z",
+  "total": 3225,
+  "byBrand": {
+    "costa": 50,
+    "cotti": 274,
+    "luckin": 1097,
+    "manner": 567,
+    "mstand": 88,
+    "peets": 71,
+    "starbucks": 902,
+    "tims": 176
+  },
+  "fields": [
+    "id",
+    "chain",
+    "name",
+    "nameZh",
+    "district",
+    "hood",
+    "street",
+    "streetZh",
+    "lat",
+    "lng",
+    "opens",
+    "closes",
+    "amapId",
+    "rating",
+    "cost",
+    "openHours"
+  ]
+}
